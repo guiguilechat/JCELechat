@@ -14,18 +14,20 @@ public interface KillRepository extends JpaRepository<Kill, Long> {
 
 	@Query(value = """
 select
-	DATE_TRUNC( 'month', kill.killDate) date_month,
+	DATE_TRUNC( 'month', kill.kill_date at time zone 'utc') date_month,
 	count(*) nb_kills,
-	sum(kill.iskLost) iskLost,
-	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.iskLost)
+	sum(kill.isk_lost) iskLost,
+	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
+	percentile_cont(0) WITHIN GROUP (ORDER BY kill.isk_lost)
 from
-	MerKill kill
+	mer_kill kill
 where
-	kill.destroyedShipTypeId in :destroyedShipTypeId
+	kill.destroyed_ship_type_id in :destroyedShipTypeId
 group by
-	DATE_TRUNC( 'month', kill.killDate)
-order by DATE_TRUNC( 'month', kill.killDate) desc
-			""")
+	DATE_TRUNC( 'month', kill.kill_date at time zone 'utc')
+order by
+	DATE_TRUNC( 'month', kill.kill_date at time zone 'utc') desc
+""", nativeQuery = true)
 	public List<Object[]> monthlyKills(Collection<Integer> destroyedShipTypeId);
 
 }

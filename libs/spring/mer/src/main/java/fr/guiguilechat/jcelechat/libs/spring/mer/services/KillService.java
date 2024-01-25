@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.mer.services;
 
+import java.sql.Timestamp;
 import java.time.Instant;
 import java.util.Collection;
 import java.util.List;
@@ -24,13 +25,28 @@ public class KillService {
 		return repo.save(entity);
 	}
 
-	public static record MonthlyStats(Instant month, long nbKills, double totalIskLost, double medianIskLost) {
+	public static record MonthlyStats(Instant month, long nbKills, double totalIskLost, double medianIskLost,
+			double minIskLost) {
 
 		public MonthlyStats(Object[] line) {
-			this((Instant) line[0],
+			this(castInstant(line[0]),
 					(long) line[1],
 					(double) line[2],
-					(double) line[3]);
+					(double) line[3],
+					(double) line[4]);
+		}
+
+		static Instant castInstant(Object o) {
+			if (o == null) {
+				return null;
+			}
+			if (o instanceof Instant) {
+				return (Instant) o;
+			}
+			if (o instanceof Timestamp) {
+				return ((Timestamp) o).toInstant();
+			}
+			return null;
 		}
 
 	}
