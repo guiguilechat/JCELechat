@@ -34,4 +34,8 @@ public class TypeService {
 	public Optional<Type> byId(int typeId) {
 		return repo.findById(typeId);
 	}
+
+	public List<Type> byName(String nameIgnoreCase) {
+		return repo.findByNameEqualsIgnoreCase(nameIgnoreCase);
+	}
 }

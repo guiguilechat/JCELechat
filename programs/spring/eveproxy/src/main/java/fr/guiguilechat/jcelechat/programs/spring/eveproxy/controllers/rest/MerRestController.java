@@ -56,7 +56,7 @@ public class MerRestController {
 	@Autowired
 	private GroupService groupService;
 
-	static enum AGGREG_PERIOD{
+	static enum AGGREG_PERIOD {
 		MONTH {
 			@Override
 			public String format(OffsetDateTime offsetted) {
@@ -172,21 +172,95 @@ public class MerRestController {
 
 		static AGGREG_PERIOD by(Optional<String> by) {
 			String bys = by.orElse("month");
-			if(bys.equalsIgnoreCase("week") || bys.equalsIgnoreCase("weekly")) {
+			if (bys.equalsIgnoreCase("week") || bys.equalsIgnoreCase("weekly")) {
 				return WEEK;
 			}
-			if(bys.equalsIgnoreCase("year") || bys.equalsIgnoreCase("yearly")) {
+			if (bys.equalsIgnoreCase("year") || bys.equalsIgnoreCase("yearly")) {
 				return YEAR;
 			}
 			if (bys.equalsIgnoreCase("day") || bys.equalsIgnoreCase("daily")) {
 				return DAY;
 			}
 			return MONTH;
+		}
 	}
-}
+
+	static record TYPES_NAME(String name, List<Integer> typeIds) {
+	}
+
+	static enum TYPES_FILTER {
+		TYPE_ID {
+			@Override
+			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
+				int typeId = Integer.parseInt(filterparam);
+				Type type = typeService.byId(typeId).orElse(null);
+				return type == null ? new TYPES_NAME("unknown t" + typeId, Collections.emptyList())
+						: new TYPES_NAME(type.getName(), List.of(typeId));
+			}
+		},
+		GROUP_ID {
+			@Override
+			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
+				int groupId = Integer.parseInt(filterparam);
+				Group group = groupService.byId(groupId).orElse(null);
+				return group == null ? new TYPES_NAME("unknown g" + groupId, Collections.emptyList())
+						: new TYPES_NAME(group.getName(), typeService.byGroupId(groupId).stream().map(Type::getTypeId).toList());
+			}
+		},
+		TYPE_NAME {
+			@Override
+			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
+				List<Type> list = typeService.byName(filterparam);
+				if (list.isEmpty()) {
+					return new TYPES_NAME("unmatched type name " + filterparam, Collections.emptyList());
+				}
+				String name = list.size() == 1 ? list.get(0).getName()
+						: "matched " + list.size() + " type names " + filterparam;
+				return new TYPES_NAME(name, list.stream().map(Type::getTypeId).toList());
+			}
+		},
+		GROUP_NAME {
+			@Override
+			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
+				List<Group> list = groupService.byName(filterparam);
+				if (list.isEmpty()) {
+					return new TYPES_NAME("unmatched group name " + filterparam, Collections.emptyList());
+				}
+				String name = list.size() == 1 ? list.get(0).getName()
+						: "matched " + list.size() + " group names " + filterparam;
+				return new TYPES_NAME(name,
+						list.stream().flatMap(g -> typeService.byGroupId(g.getGroupId()).stream()).map(Type::getTypeId)
+								.distinct().toList());
+			}
+		},
+		ERROR {
+			@Override
+			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
+				return new TYPES_NAME("invalid selector", Collections.emptyList());
+			}
+		};
+
+		public abstract TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService);
+
+		static TYPES_FILTER of(String filterBy) {
+			if ("groupid".equalsIgnoreCase(filterBy)) {
+				return GROUP_ID;
+			}
+			if ("groupname".equalsIgnoreCase(filterBy)) {
+				return GROUP_NAME;
+			}
+			if ("typeid".equalsIgnoreCase(filterBy)) {
+				return TYPE_ID;
+			}
+			if ("typename".equalsIgnoreCase(filterBy)) {
+				return TYPE_NAME;
+			}
+			return ERROR;
+		}
+	}
 
 	static record KillsFilters(
-		List<Integer> types, String timeSort, AGGREG_PERIOD by) {
+			List<Integer> types, String timeSort, AGGREG_PERIOD by) {
 	}
 
 	static final DateTimeFormatter FORMATTER_YM = DateTimeFormatter.ofPattern("YYYY-MM");
@@ -217,57 +291,33 @@ public class MerRestController {
 		}
 	}
 
-	@GetMapping("/kills/byVictimTypeId/{typeId}")
-	public ResponseEntity<?> statsByVictimType(@PathVariable int typeId, @RequestParam Optional<String> accept,
+	@GetMapping("/kills/{filterBy}/{filter}")
+	public ResponseEntity<?> statsByVictim(@PathVariable String filterBy, @PathVariable String filter,
+			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> time,
 			@RequestParam Optional<String> by) {
-		List<Integer> types = List.of(typeId);
-		return listStats(types, time, accept, by);
-	}
-
-
-	@GetMapping("/kills/byVictimGroupId/{groupId}")
-	public ResponseEntity<?> statsByVictimGroup(@PathVariable int groupId, @RequestParam Optional<String> accept,
-			@RequestParam Optional<String> time, @RequestParam Optional<String> by) {
-		List<Integer> types = typeService.byGroupId(groupId).stream().map(Type::getTypeId).toList();
-		return listStats(types, time, accept, by);
-	}
-
-	ResponseEntity<?> listStats(List<Integer> types, Optional<String> time, Optional<String> accept,
-			Optional<String> by) {
+		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
+		TYPES_NAME resolved = typeFilter.resolve(filter, typeService, groupService);
 		String timeOrder = time.orElse("desc");
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(by);
-		List<KillStats> stats = ap.stats(types, killService);
+		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
 		if (timeOrder.equals("asc")) {
 			Collections.reverse(stats);
 		}
 		return RestControllerHelper.makeResponse(
-				new TypesKillsStats(types, timeOrder, stats, ap),
+				new TypesKillsStats(resolved.typeIds(), timeOrder, stats, ap),
 				accept);
 	}
 
-	@GetMapping("/kills/byVictimTypeId/{typeId}/chart")
-	public void chartStatsByVictimType(@PathVariable int typeId, HttpServletResponse response,
+	@GetMapping("/kills/{filterBy}/{filter}/chart")
+	public void chartStatsByVictimType(@PathVariable String filterBy, @PathVariable String filter,
+			HttpServletResponse response,
 			@RequestParam Optional<String> by) throws IOException {
-		List<Integer> types = List.of(typeId);
-		Type type = typeService.byId(typeId).orElse(null);
-		String title = "kills of type " + (type == null ? typeId : type.getName());
-		addChartResponse(response, types, by, title);
-	}
-
-	@GetMapping("/kills/byVictimGroupId/{groupId}/chart")
-	public void chartStatsByVictimGroup(@PathVariable int groupId, HttpServletResponse response,
-			@RequestParam Optional<String> by) throws IOException {
-		List<Integer> types = typeService.byGroupId(groupId).stream().map(Type::getTypeId).toList();
-		Group group = groupService.byId(groupId).orElse(null);
-		String title = "kills of group " + (group == null ? groupId : group.getName());
-		addChartResponse(response, types, by, title);
-	}
-
-	void addChartResponse(HttpServletResponse response, List<Integer> types, Optional<String> by, String title)
-			throws IOException {
+		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
+		TYPES_NAME resolved = typeFilter.resolve(filter, typeService, groupService);
+		String title = "kills of " + resolved.name();
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(by);
-		List<KillStats> stats = ap.stats(types, killService);
+		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
 		JFreeChart chart = drawChart(stats, title, ap);
 		response.setContentType(MediaType.IMAGE_PNG_VALUE);
 		ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));

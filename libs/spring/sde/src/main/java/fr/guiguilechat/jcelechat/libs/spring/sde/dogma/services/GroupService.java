@@ -30,4 +30,8 @@ public class GroupService {
 	public Optional<Group> byId(int groupId) {
 		return repo.findById(groupId);
 	}
+
+	public List<Group> byName(String nameIgnoreCase) {
+		return repo.findByNameEqualsIgnoreCase(nameIgnoreCase);
+	}
 }
