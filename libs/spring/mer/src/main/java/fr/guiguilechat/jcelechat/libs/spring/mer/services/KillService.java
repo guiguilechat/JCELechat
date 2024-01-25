@@ -25,10 +25,10 @@ public class KillService {
 		return repo.save(entity);
 	}
 
-	public static record MonthlyStats(Instant month, long nbKills, double totalIskLost, double medianIskLost,
+	public static record KillStats(Instant period, long nbKills, double totalIskLost, double medianIskLost,
 			double minIskLost) {
 
-		public MonthlyStats(Object[] line) {
+		public KillStats(Object[] line) {
 			this(castInstant(line[0]),
 					(long) line[1],
 					(double) line[2],
@@ -51,8 +51,12 @@ public class KillService {
 
 	}
 
-	public List<MonthlyStats> monthlyStats(Collection<Integer> destroyedShipTypeId) {
-		return repo.monthlyKills(destroyedShipTypeId).stream().map(MonthlyStats::new).toList();
+	public List<KillStats> monthlyStats(Collection<Integer> destroyedShipTypeId) {
+		return repo.monthlyKills(destroyedShipTypeId).stream().map(KillStats::new).toList();
+	}
+
+	public List<KillStats> weeklyStats(Collection<Integer> destroyedShipTypeId) {
+		return repo.weeklyKills(destroyedShipTypeId).stream().map(KillStats::new).toList();
 	}
 
 }

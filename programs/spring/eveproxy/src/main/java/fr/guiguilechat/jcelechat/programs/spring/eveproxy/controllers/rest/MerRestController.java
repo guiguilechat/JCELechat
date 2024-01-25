@@ -7,6 +7,7 @@ import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
+import java.time.temporal.ChronoUnit;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
@@ -15,12 +16,13 @@ import org.jfree.chart.ChartUtils;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.DateAxis;
 import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.axis.ValueAxis;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.time.Month;
+import org.jfree.data.time.RegularTimePeriod;
 import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
+import org.jfree.data.time.Week;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -31,7 +33,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.mer.services.KillService;
-import fr.guiguilechat.jcelechat.libs.spring.mer.services.KillService.MonthlyStats;
+import fr.guiguilechat.jcelechat.libs.spring.mer.services.KillService.KillStats;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.GroupService;
@@ -65,6 +67,15 @@ public class MerRestController {
 				.toString();
 	}
 
+	static String formatInstantAsYearWeek(Instant instant) {
+		OffsetDateTime offsetted = instant.atOffset(ZoneOffset.UTC);
+		return new StringBuilder()
+				.append(offsetted.get(ChronoField.YEAR))
+				.append('w')
+				.append(offsetted.get(ChronoField.ALIGNED_WEEK_OF_YEAR))
+				.toString();
+	}
+
 	static final DateTimeFormatter FORMATTER_YM = DateTimeFormatter.ofPattern("YYYY-MM");
 
 	// bug : does not work for some specific timestamp. see corresponding test class
@@ -72,11 +83,11 @@ public class MerRestController {
 		return FORMATTER_YM.format(instant.atOffset(ZoneOffset.UTC));
 	}
 
-	static record MonthKillStats(String month, long numberKills, double totalMIskLost, double averageMIskLost,
+	static record PeriodKillStats(String period, long numberKills, double totalMIskLost, double averageMIskLost,
 			double medianMIskLost) {
 
-		public MonthKillStats(MonthlyStats source) {
-			this(formatInstantAsYearMonth(source.month()),
+		public PeriodKillStats(KillStats source, boolean month) {
+			this(month ? formatInstantAsYearMonth(source.period()) : formatInstantAsYearWeek(source.period()),
 					source.nbKills(),
 					source.totalIskLost() / 1000000,
 					source.totalIskLost() / 1000000 / source.nbKills(),
@@ -85,77 +96,88 @@ public class MerRestController {
 
 	}
 
-	static record TypeMonthlyKills(MonthlyKillsSelection filters, List<MonthKillStats> stats) {
+	static record TypesKillsStats(MonthlyKillsSelection filters, List<PeriodKillStats> stats) {
 
-		TypeMonthlyKills(List<Integer> types, String timeSort, List<MonthlyStats> monthlyStats) {
-			this(new MonthlyKillsSelection(types, timeSort), monthlyStats.stream().map(MonthKillStats::new).toList());
+		TypesKillsStats(List<Integer> types, String timeSort, List<KillStats> periodStats, boolean month) {
+			this(new MonthlyKillsSelection(types, timeSort),
+					periodStats.stream().map(s -> new PeriodKillStats(s, month)).toList());
 		}
 	}
 
-	@GetMapping("/monthlykills/byVictimTypeId/{typeId}")
-	public ResponseEntity<?> monthlyStatsByVictimType(@PathVariable int typeId, @RequestParam Optional<String> accept,
-			@RequestParam Optional<String> time) {
-		String timeOrder = time.orElse("desc");
+	@GetMapping("/kills/byVictimTypeId/{typeId}")
+	public ResponseEntity<?> statsByVictimType(@PathVariable int typeId, @RequestParam Optional<String> accept,
+			@RequestParam Optional<String> time,
+			@RequestParam Optional<String> by) {
 		List<Integer> types = List.of(typeId);
-		List<MonthlyStats> stats = killService.monthlyStats(types);
+		return listStats(types, time, accept, by);
+	}
+
+
+	@GetMapping("/kills/byVictimGroupId/{groupId}")
+	public ResponseEntity<?> statsByVictimGroup(@PathVariable int groupId, @RequestParam Optional<String> accept,
+			@RequestParam Optional<String> time, @RequestParam Optional<String> by) {
+		List<Integer> types = typeService.byGroupId(groupId).stream().map(Type::getTypeId).toList();
+		return listStats(types, time, accept, by);
+	}
+
+	ResponseEntity<?> listStats(List<Integer> types, Optional<String> time, Optional<String> accept,
+			Optional<String> by) {
+		String timeOrder = time.orElse("desc");
+		boolean monthly = !"week".equalsIgnoreCase(by.orElse("month"));
+		List<KillStats> stats = monthly ? killService.monthlyStats(types) : killService.weeklyStats(types);
 		if (timeOrder.equals("asc")) {
 			Collections.reverse(stats);
 		}
 		return RestControllerHelper.makeResponse(
-				new TypeMonthlyKills(types, timeOrder, stats),
+				new TypesKillsStats(types, timeOrder, stats, monthly),
 				accept);
 	}
 
-	@GetMapping("/monthlykills/byVictimTypeId/{typeId}/chart")
-	public void chartStatsByVictimType(@PathVariable int typeId, HttpServletResponse response) throws IOException {
+	@GetMapping("/kills/byVictimTypeId/{typeId}/chart")
+	public void chartStatsByVictimType(@PathVariable int typeId, HttpServletResponse response,
+			@RequestParam Optional<String> by) throws IOException {
 		List<Integer> types = List.of(typeId);
-		List<MonthlyStats> stats = killService.monthlyStats(types);
 		Type type = typeService.byId(typeId).orElse(null);
-		JFreeChart chart = drawChart(stats, "kills of type " + (type == null ? typeId : type.getName()));
-		response.setContentType(MediaType.IMAGE_PNG_VALUE);
-		ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
+		String title = "kills of type " + (type == null ? typeId : type.getName());
+		addChartResponse(response, types, by, title);
 	}
 
-	@GetMapping("/monthlykills/byVictimGroupId/{groupId}")
-	public ResponseEntity<?> monthlyStatsByVictimGroup(@PathVariable int groupId, @RequestParam Optional<String> accept,
-			@RequestParam Optional<String> time) {
-		String timeOrder = time.orElse("desc");
+	@GetMapping("/kills/byVictimGroupId/{groupId}/chart")
+	public void chartStatsByVictimGroup(@PathVariable int groupId, HttpServletResponse response,
+			@RequestParam Optional<String> by) throws IOException {
 		List<Integer> types = typeService.byGroupId(groupId).stream().map(Type::getTypeId).toList();
-		List<MonthlyStats> stats = killService.monthlyStats(types);
-		if (timeOrder.equals("asc")) {
-			Collections.reverse(stats);
-		}
-		return RestControllerHelper.makeResponse(
-				new TypeMonthlyKills(types, timeOrder, stats),
-				accept);
-	}
-
-	@GetMapping("/monthlykills/byVictimGroupId/{groupId}/chart")
-	public void chartStatsByVictimGroup(@PathVariable int groupId, HttpServletResponse response) throws IOException {
-		List<Integer> types = typeService.byGroupId(groupId).stream().map(Type::getTypeId).toList();
-		List<MonthlyStats> stats = killService.monthlyStats(types);
 		Group group = groupService.byId(groupId).orElse(null);
-		JFreeChart chart = drawChart(stats, "kills of group " + (group == null ? groupId : group.getName()));
+		String title = "kills of group " + (group == null ? groupId : group.getName());
+		addChartResponse(response, types, by, title);
+	}
+
+	void addChartResponse(HttpServletResponse response, List<Integer> types, Optional<String> by, String title)
+			throws IOException {
+		boolean monthly = !"week".equalsIgnoreCase(by.orElse("month"));
+		List<KillStats> stats = monthly ? killService.monthlyStats(types) : killService.weeklyStats(types);
+		JFreeChart chart = drawChart(stats, title, monthly);
 		response.setContentType(MediaType.IMAGE_PNG_VALUE);
 		ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
 	}
 
-	static JFreeChart drawChart(List<MonthlyStats> stats, String title) {
+	static JFreeChart drawChart(List<KillStats> stats, String title, boolean monthly) {
 		TimeSeries medianValueSeries = new TimeSeries("median value");
 		TimeSeries avgValueSeries = new TimeSeries("average value");
 		TimeSeries minValueSeries = new TimeSeries("min value");
-		TimeSeries qttySeries = new TimeSeries("number");
-		for (MonthlyStats stat : stats) {
-			OffsetDateTime dat = stat.month().atOffset(ZoneOffset.UTC);
-			Month mth = new Month(dat.getMonthValue(), dat.getYear());
-			medianValueSeries.add(mth, stat.medianIskLost() / 1000000);
-			avgValueSeries.add(mth, stat.totalIskLost() / 1000000 / stat.nbKills());
-			minValueSeries.add(mth, stat.minIskLost() / 1000000);
-			qttySeries.add(mth, stat.nbKills());
+		TimeSeries qttySeries = new TimeSeries("daily kills");
+		for (KillStats stat : stats) {
+			OffsetDateTime dat = stat.period().atOffset(ZoneOffset.UTC);
+			RegularTimePeriod period = monthly ? new Month(dat.getMonthValue(), dat.getYear())
+					: new Week(dat.get(ChronoField.ALIGNED_WEEK_OF_YEAR), dat.getYear());
+			medianValueSeries.add(period, stat.medianIskLost() / 1000000);
+			avgValueSeries.add(period, stat.totalIskLost() / 1000000 / stat.nbKills());
+			minValueSeries.add(period, stat.minIskLost() / 1000000);
+			int periodDays = monthly ? (int) ChronoUnit.DAYS.between(dat, dat.plusMonths(1)) : 7;
+			qttySeries.add(period, 1.0 / periodDays * stat.nbKills());
 		}
 
 		XYPlot plot = new XYPlot();
-		ValueAxis timeAxis = new DateAxis(null);
+		DateAxis timeAxis = new DateAxis(null);
 		timeAxis.setLowerMargin(0.02);
 		timeAxis.setUpperMargin(0.02);
 		plot.setDomainAxis(timeAxis);
@@ -175,7 +197,7 @@ public class MerRestController {
 		}
 
 		{
-			NumberAxis qttyAxis = new NumberAxis("qtty");
+			NumberAxis qttyAxis = new NumberAxis("avg kills per day");
 			plot.setRangeAxis(1, qttyAxis);
 			TimeSeriesCollection qttyColl = new TimeSeriesCollection(qttySeries);
 			plot.setDataset(1, qttyColl);
