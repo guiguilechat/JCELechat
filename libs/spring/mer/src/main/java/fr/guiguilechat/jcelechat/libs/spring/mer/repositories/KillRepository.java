@@ -48,4 +48,40 @@ order by
 """, nativeQuery = true)
 	public List<Object[]> weeklyKills(Collection<Integer> destroyedShipTypeId);
 
+	@Query(value = """
+select
+	DATE_TRUNC( 'year', kill.kill_date at time zone 'utc') date_week,
+	count(*) nb_kills,
+	sum(kill.isk_lost) iskLost,
+	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
+	percentile_cont(0) WITHIN GROUP (ORDER BY kill.isk_lost)
+from
+	mer_kill kill
+where
+	kill.destroyed_ship_type_id in :destroyedShipTypeId
+group by
+	DATE_TRUNC( 'year', kill.kill_date at time zone 'utc')
+order by
+	DATE_TRUNC( 'year', kill.kill_date at time zone 'utc') desc
+""", nativeQuery = true)
+	public List<Object[]> yearlyKills(Collection<Integer> destroyedShipTypeId);
+
+	@Query(value = """
+select
+	DATE_TRUNC( 'day', kill.kill_date at time zone 'utc') date_week,
+	count(*) nb_kills,
+	sum(kill.isk_lost) iskLost,
+	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
+	percentile_cont(0) WITHIN GROUP (ORDER BY kill.isk_lost)
+from
+	mer_kill kill
+where
+	kill.destroyed_ship_type_id in :destroyedShipTypeId
+group by
+	DATE_TRUNC( 'day', kill.kill_date at time zone 'utc')
+order by
+	DATE_TRUNC( 'day', kill.kill_date at time zone 'utc') desc
+""", nativeQuery = true)
+	public List<Object[]> dailyKills(Collection<Integer> destroyedShipTypeId);
+
 }

@@ -59,4 +59,12 @@ public class KillService {
 		return repo.weeklyKills(destroyedShipTypeId).stream().map(KillStats::new).toList();
 	}
 
+	public List<KillStats> yearlyStats(Collection<Integer> destroyedShipTypeId) {
+		return repo.yearlyKills(destroyedShipTypeId).stream().map(KillStats::new).toList();
+	}
+
+	public List<KillStats> dailyStats(Collection<Integer> destroyedShipTypeId) {
+		return repo.dailyKills(destroyedShipTypeId).stream().map(KillStats::new).toList();
+	}
+
 }

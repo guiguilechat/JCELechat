@@ -18,11 +18,13 @@ import org.jfree.chart.axis.DateAxis;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+import org.jfree.data.time.Day;
 import org.jfree.data.time.Month;
 import org.jfree.data.time.RegularTimePeriod;
 import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
 import org.jfree.data.time.Week;
+import org.jfree.data.time.Year;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -54,26 +56,137 @@ public class MerRestController {
 	@Autowired
 	private GroupService groupService;
 
-	static record MonthlyKillsSelection(
-			List<Integer> types, String timeSort) {
-	}
+	static enum AGGREG_PERIOD{
+		MONTH {
+			@Override
+			public String format(OffsetDateTime offsetted) {
+				return new StringBuilder()
+						.append(offsetted.get(ChronoField.YEAR))
+						.append('-')
+						.append(offsetted.get(ChronoField.MONTH_OF_YEAR))
+						.toString();
+			}
 
-	static String formatInstantAsYearMonth(Instant instant) {
-		OffsetDateTime offsetted = instant.atOffset(ZoneOffset.UTC);
-		return new StringBuilder()
-				.append(offsetted.get(ChronoField.YEAR))
-				.append('-')
-				.append(offsetted.get(ChronoField.MONTH_OF_YEAR))
-				.toString();
-	}
+			@Override
+			public List<KillStats> stats(List<Integer> types, KillService killservice) {
+				return killservice.monthlyStats(types);
+			}
 
-	static String formatInstantAsYearWeek(Instant instant) {
-		OffsetDateTime offsetted = instant.atOffset(ZoneOffset.UTC);
-		return new StringBuilder()
-				.append(offsetted.get(ChronoField.YEAR))
-				.append('w')
-				.append(offsetted.get(ChronoField.ALIGNED_WEEK_OF_YEAR))
-				.toString();
+			@Override
+			public RegularTimePeriod of(OffsetDateTime odt) {
+				return new Month(odt.getMonthValue(), odt.getYear());
+			}
+
+			@Override
+			public int periodDays(OffsetDateTime odt) {
+				return (int) ChronoUnit.DAYS.between(odt, odt.plusMonths(1));
+			}
+		},
+		WEEK {
+			@Override
+			public String format(OffsetDateTime offsetted) {
+				return new StringBuilder()
+						.append(offsetted.get(ChronoField.YEAR))
+						.append('w')
+						.append(offsetted.get(ChronoField.ALIGNED_WEEK_OF_YEAR))
+						.toString();
+			}
+
+			@Override
+			public List<KillStats> stats(List<Integer> types, KillService killservice) {
+				return killservice.weeklyStats(types);
+			}
+
+			@Override
+			public RegularTimePeriod of(OffsetDateTime odt) {
+				return new Week(odt.get(ChronoField.ALIGNED_WEEK_OF_YEAR), odt.getYear());
+			}
+
+			@Override
+			public int periodDays(OffsetDateTime odt) {
+				return 7;
+			}
+		},
+		YEAR {
+			@Override
+			public String format(OffsetDateTime offsetted) {
+				return new StringBuilder()
+						.append(offsetted.get(ChronoField.YEAR))
+						.toString();
+			}
+
+			@Override
+			public List<KillStats> stats(List<Integer> types, KillService killservice) {
+				return killservice.yearlyStats(types);
+			}
+
+			@Override
+			public RegularTimePeriod of(OffsetDateTime odt) {
+				return new Year(odt.getYear());
+			}
+
+			@Override
+			public int periodDays(OffsetDateTime odt) {
+				return (int) ChronoUnit.DAYS.between(odt, odt.plusYears(1));
+			}
+		},
+		DAY {
+			@Override
+			public String format(OffsetDateTime offsetted) {
+				return new StringBuilder()
+						.append(offsetted.get(ChronoField.YEAR))
+						.append('-')
+						.append(offsetted.get(ChronoField.MONTH_OF_YEAR))
+						.append('-')
+						.append(offsetted.get(ChronoField.DAY_OF_MONTH))
+						.toString();
+			}
+
+			@Override
+			public List<KillStats> stats(List<Integer> types, KillService killservice) {
+				return killservice.dailyStats(types);
+			}
+
+			@Override
+			public RegularTimePeriod of(OffsetDateTime odt) {
+				return new Day(odt.getDayOfMonth(), odt.getMonthValue(), odt.getYear());
+			}
+
+			@Override
+			public int periodDays(OffsetDateTime odt) {
+				return 1;
+			}
+		};
+
+		public abstract String format(OffsetDateTime offsetted);
+
+		public String format(Instant instant) {
+			return format(instant.atOffset(ZoneOffset.UTC));
+		}
+
+		public abstract List<KillStats> stats(List<Integer> types, KillService killservice);
+
+		public abstract RegularTimePeriod of(OffsetDateTime odt);
+
+		public abstract int periodDays(OffsetDateTime odt);
+
+		static AGGREG_PERIOD by(Optional<String> by) {
+			String bys = by.orElse("month");
+			if(bys.equalsIgnoreCase("week") || bys.equalsIgnoreCase("weekly")) {
+				return WEEK;
+			}
+			if(bys.equalsIgnoreCase("year") || bys.equalsIgnoreCase("yearly")) {
+				return YEAR;
+			}
+			if (bys.equalsIgnoreCase("day") || bys.equalsIgnoreCase("daily")) {
+				return DAY;
+			}
+			return MONTH;
+	}
+}
+
+	static record KillsFilters(
+		List<Integer> types, String timeSort, AGGREG_PERIOD by) {
 	}
 
 	static final DateTimeFormatter FORMATTER_YM = DateTimeFormatter.ofPattern("YYYY-MM");
@@ -86,8 +199,8 @@ public class MerRestController {
 	static record PeriodKillStats(String period, long numberKills, double totalMIskLost, double averageMIskLost,
 			double medianMIskLost) {
 
-		public PeriodKillStats(KillStats source, boolean month) {
-			this(month ? formatInstantAsYearMonth(source.period()) : formatInstantAsYearWeek(source.period()),
+		public PeriodKillStats(KillStats source, AGGREG_PERIOD by) {
+			this(by.format(source.period()),
 					source.nbKills(),
 					source.totalIskLost() / 1000000,
 					source.totalIskLost() / 1000000 / source.nbKills(),
@@ -96,11 +209,11 @@ public class MerRestController {
 
 	}
 
-	static record TypesKillsStats(MonthlyKillsSelection filters, List<PeriodKillStats> stats) {
+	static record TypesKillsStats(KillsFilters filters, List<PeriodKillStats> stats) {
 
-		TypesKillsStats(List<Integer> types, String timeSort, List<KillStats> periodStats, boolean month) {
-			this(new MonthlyKillsSelection(types, timeSort),
-					periodStats.stream().map(s -> new PeriodKillStats(s, month)).toList());
+		TypesKillsStats(List<Integer> types, String timeSort, List<KillStats> periodStats, AGGREG_PERIOD by) {
+			this(new KillsFilters(types, timeSort, by),
+					periodStats.stream().map(s -> new PeriodKillStats(s, by)).toList());
 		}
 	}
 
@@ -123,13 +236,13 @@ public class MerRestController {
 	ResponseEntity<?> listStats(List<Integer> types, Optional<String> time, Optional<String> accept,
 			Optional<String> by) {
 		String timeOrder = time.orElse("desc");
-		boolean monthly = !"week".equalsIgnoreCase(by.orElse("month"));
-		List<KillStats> stats = monthly ? killService.monthlyStats(types) : killService.weeklyStats(types);
+		AGGREG_PERIOD ap = AGGREG_PERIOD.by(by);
+		List<KillStats> stats = ap.stats(types, killService);
 		if (timeOrder.equals("asc")) {
 			Collections.reverse(stats);
 		}
 		return RestControllerHelper.makeResponse(
-				new TypesKillsStats(types, timeOrder, stats, monthly),
+				new TypesKillsStats(types, timeOrder, stats, ap),
 				accept);
 	}
 
@@ -153,26 +266,25 @@ public class MerRestController {
 
 	void addChartResponse(HttpServletResponse response, List<Integer> types, Optional<String> by, String title)
 			throws IOException {
-		boolean monthly = !"week".equalsIgnoreCase(by.orElse("month"));
-		List<KillStats> stats = monthly ? killService.monthlyStats(types) : killService.weeklyStats(types);
-		JFreeChart chart = drawChart(stats, title, monthly);
+		AGGREG_PERIOD ap = AGGREG_PERIOD.by(by);
+		List<KillStats> stats = ap.stats(types, killService);
+		JFreeChart chart = drawChart(stats, title, ap);
 		response.setContentType(MediaType.IMAGE_PNG_VALUE);
 		ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
 	}
 
-	static JFreeChart drawChart(List<KillStats> stats, String title, boolean monthly) {
+	static JFreeChart drawChart(List<KillStats> stats, String title, AGGREG_PERIOD by) {
 		TimeSeries medianValueSeries = new TimeSeries("median value");
 		TimeSeries avgValueSeries = new TimeSeries("average value");
 		TimeSeries minValueSeries = new TimeSeries("min value");
 		TimeSeries qttySeries = new TimeSeries("daily kills");
 		for (KillStats stat : stats) {
 			OffsetDateTime dat = stat.period().atOffset(ZoneOffset.UTC);
-			RegularTimePeriod period = monthly ? new Month(dat.getMonthValue(), dat.getYear())
-					: new Week(dat.get(ChronoField.ALIGNED_WEEK_OF_YEAR), dat.getYear());
+			RegularTimePeriod period = by.of(dat);
 			medianValueSeries.add(period, stat.medianIskLost() / 1000000);
 			avgValueSeries.add(period, stat.totalIskLost() / 1000000 / stat.nbKills());
 			minValueSeries.add(period, stat.minIskLost() / 1000000);
-			int periodDays = monthly ? (int) ChronoUnit.DAYS.between(dat, dat.plusMonths(1)) : 7;
+			int periodDays = by.periodDays(dat);
 			qttySeries.add(period, 1.0 / periodDays * stat.nbKills());
 		}
 
