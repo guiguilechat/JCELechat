@@ -297,7 +297,12 @@ public class MerRestController {
 			@RequestParam Optional<String> time,
 			@RequestParam Optional<String> by) {
 		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
-		TYPES_NAME resolved = typeFilter.resolve(filter, typeService, groupService);
+		TYPES_NAME resolved;
+		try {
+			resolved = typeFilter.resolve(filter, typeService, groupService);
+		} catch (NumberFormatException e) {
+			return ResponseEntity.status(400).body("param " + filter + " should be a number");
+		}
 		String timeOrder = time.orElse("desc");
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(by);
 		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
@@ -314,7 +319,13 @@ public class MerRestController {
 			HttpServletResponse response,
 			@RequestParam Optional<String> by) throws IOException {
 		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
-		TYPES_NAME resolved = typeFilter.resolve(filter, typeService, groupService);
+		TYPES_NAME resolved;
+		try {
+			resolved = typeFilter.resolve(filter, typeService, groupService);
+		} catch (NumberFormatException e) {
+			response.sendError(400, "param " + filter + " should be a number");
+			return;
+		}
 		String title = "kills of " + resolved.name();
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(by);
 		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
