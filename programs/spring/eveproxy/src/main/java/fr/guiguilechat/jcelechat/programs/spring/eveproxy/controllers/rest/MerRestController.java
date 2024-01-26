@@ -204,7 +204,8 @@ public class MerRestController {
 				int groupId = Integer.parseInt(filterparam);
 				Group group = groupService.byId(groupId).orElse(null);
 				return group == null ? new TYPES_NAME("unknown g" + groupId, Collections.emptyList())
-						: new TYPES_NAME(group.getName(), typeService.byGroupId(groupId).stream().map(Type::getTypeId).toList());
+						: new TYPES_NAME(group.getName(),
+								typeService.byGroupId(groupId).stream().map(Type::getTypeId).distinct().sorted().toList());
 			}
 		},
 		TYPE_NAME {
@@ -216,7 +217,7 @@ public class MerRestController {
 				}
 				String name = list.size() == 1 ? list.get(0).getName()
 						: "matched " + list.size() + " type names " + filterparam;
-				return new TYPES_NAME(name, list.stream().map(Type::getTypeId).toList());
+				return new TYPES_NAME(name, list.stream().map(Type::getTypeId).sorted().toList());
 			}
 		},
 		GROUP_NAME {
@@ -230,7 +231,7 @@ public class MerRestController {
 						: "matched " + list.size() + " group names " + filterparam;
 				return new TYPES_NAME(name,
 						list.stream().flatMap(g -> typeService.byGroupId(g.getGroupId()).stream()).map(Type::getTypeId)
-								.distinct().toList());
+								.distinct().sorted().toList());
 			}
 		},
 		ERROR {
@@ -260,7 +261,7 @@ public class MerRestController {
 	}
 
 	static record KillsFilters(
-			List<Integer> types, String timeSort, AGGREG_PERIOD by) {
+			List<Integer> types, String timeSort, AGGREG_PERIOD period) {
 	}
 
 	static final DateTimeFormatter FORMATTER_YM = DateTimeFormatter.ofPattern("YYYY-MM");
@@ -270,11 +271,11 @@ public class MerRestController {
 		return FORMATTER_YM.format(instant.atOffset(ZoneOffset.UTC));
 	}
 
-	static record PeriodKillStats(String period, long numberKills, double totalMIskLost, double averageMIskLost,
+	static record PeriodKillStats(String periodStart, long numberKills, double totalMIskLost, double averageMIskLost,
 			double medianMIskLost) {
 
-		public PeriodKillStats(KillStats source, AGGREG_PERIOD by) {
-			this(by.format(source.period()),
+		public PeriodKillStats(KillStats source, AGGREG_PERIOD period) {
+			this(period.format(source.periodStart()),
 					source.nbKills(),
 					source.totalIskLost() / 1000000,
 					source.totalIskLost() / 1000000 / source.nbKills(),
@@ -285,9 +286,9 @@ public class MerRestController {
 
 	static record TypesKillsStats(KillsFilters filters, List<PeriodKillStats> stats) {
 
-		TypesKillsStats(List<Integer> types, String timeSort, List<KillStats> periodStats, AGGREG_PERIOD by) {
-			this(new KillsFilters(types, timeSort, by),
-					periodStats.stream().map(s -> new PeriodKillStats(s, by)).toList());
+		TypesKillsStats(List<Integer> types, String timeSort, List<KillStats> periodStats, AGGREG_PERIOD period) {
+			this(new KillsFilters(types, timeSort, period),
+					periodStats.stream().map(s -> new PeriodKillStats(s, period)).toList());
 		}
 	}
 
@@ -295,7 +296,7 @@ public class MerRestController {
 	public ResponseEntity<?> statsByVictim(@PathVariable String filterBy, @PathVariable String filter,
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> time,
-			@RequestParam Optional<String> by) {
+			@RequestParam Optional<String> period) {
 		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
 		TYPES_NAME resolved;
 		try {
@@ -304,7 +305,7 @@ public class MerRestController {
 			return ResponseEntity.status(400).body("param " + filter + " should be a number");
 		}
 		String timeOrder = time.orElse("desc");
-		AGGREG_PERIOD ap = AGGREG_PERIOD.by(by);
+		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
 		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
 		if (timeOrder.equals("asc")) {
 			Collections.reverse(stats);
@@ -317,7 +318,7 @@ public class MerRestController {
 	@GetMapping("/kills/{filterBy}/{filter}/chart")
 	public void chartStatsByVictimType(@PathVariable String filterBy, @PathVariable String filter,
 			HttpServletResponse response,
-			@RequestParam Optional<String> by) throws IOException {
+			@RequestParam Optional<String> period) throws IOException {
 		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
 		TYPES_NAME resolved;
 		try {
@@ -327,7 +328,7 @@ public class MerRestController {
 			return;
 		}
 		String title = "kills of " + resolved.name();
-		AGGREG_PERIOD ap = AGGREG_PERIOD.by(by);
+		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
 		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
 		JFreeChart chart = drawChart(stats, title, ap);
 		response.setContentType(MediaType.IMAGE_PNG_VALUE);
@@ -340,7 +341,7 @@ public class MerRestController {
 		TimeSeries minValueSeries = new TimeSeries("min value");
 		TimeSeries qttySeries = new TimeSeries("daily kills");
 		for (KillStats stat : stats) {
-			OffsetDateTime dat = stat.period().atOffset(ZoneOffset.UTC);
+			OffsetDateTime dat = stat.periodStart().atOffset(ZoneOffset.UTC);
 			RegularTimePeriod period = by.of(dat);
 			medianValueSeries.add(period, stat.medianIskLost() / 1000000);
 			avgValueSeries.add(period, stat.totalIskLost() / 1000000 / stat.nbKills());
