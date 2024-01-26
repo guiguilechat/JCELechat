@@ -25,7 +25,7 @@ public class KillService {
 		return repo.save(entity);
 	}
 
-	public static record KillStats(Instant period, long nbKills, double totalIskLost, double medianIskLost,
+	public static record KillStats(Instant periodStart, long nbKills, double totalIskLost, double medianIskLost,
 			double minIskLost) {
 
 		public KillStats(Object[] line) {
@@ -46,7 +46,7 @@ public class KillService {
 			if (o instanceof Timestamp) {
 				return ((Timestamp) o).toInstant();
 			}
-			return null;
+			throw new UnsupportedOperationException("can't cast " + o.getClass().getCanonicalName() + " as Instant");
 		}
 
 	}
