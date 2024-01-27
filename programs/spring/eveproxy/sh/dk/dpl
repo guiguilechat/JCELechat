@@ -1,4 +1,4 @@
 #!/bin/bash
 
 mvn clean package\
-&& curl -X PUT --upload-file target/EveProxy.war --basic -u admin:admin 'http://127.0.0.1:58080/manager/text/deploy?path=/EveProxy&update=true'
+&& docker cp target/EveProxy.war eveproxy-tomcat:/usr/local/tomcat/webapps/EveProxy.war

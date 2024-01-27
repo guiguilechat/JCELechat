@@ -37,7 +37,7 @@ public class KillDataService {
 
 	}
 
-	@Value("${proxy.sync.killpagesize:1000000}")
+	@Value("${eveproxy.sync.killpagesize:100000}")
 	private int missingPagesize;
 
 	public List<KDCreation> findMissing(long lastid) {

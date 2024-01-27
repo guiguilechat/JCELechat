@@ -69,7 +69,9 @@ sudo -u postgres psql -c "drop user eveproxy"
 #### Add a config in tomcat
 
 
-This will make tomcat load a specific properties for the app
+This will make tomcat load a specific properties for the app.
+This is only important if your tomcat is shared. Otherwise see next section
+
 
 ``` bash
 sudo tee /etc/tomcat10/Catalina/localhost/EveProxy.xml <<- EOF
@@ -117,6 +119,9 @@ Then you need to reload tomcat
 sudo service tomcat10 restart
 ```
 
+#### Using environment variables
+
+SpringBoot loads the environment variables as properties. So in order to specify the properties, set the env variables with a UPPER_UNDERSCORE casing, like `spring.jpa.hibernate.ddl-auto=update` becomes `SPRING_JPA_HIBERNATE_DDL_AUTO=update` . See for example the docker-compose provided.
 
 ### deploying, monitoring, access
 
@@ -124,22 +129,24 @@ Deployment is done on a remote server, so you need an SSH access to it.
 
 #### set up remote access
 
-You need to create a $HOME/.cfg/EveHistory/remote.cfg to store your ssh remote name . Typically copy the existing one 
+You need to create a *$HOME/.cfg/EveHistory/remote.cfg* to store your ssh remote name . Typically copy the existing one 
 
 ``` bash
 mkdir -p $HOME/.cfg/EveProxy/
 cp remote.cfg $HOME/.cfg/EveProxy/remote.cfg
 ```
 
-and set the values inside.
+ then edit it with the correct values inside.
 
 #### deploy the war
 
-first set your ssh connexion, replace its name in the *remote* file. If you have already set a host in your ~/.ssh/config then use that host name ; otherwise enter your user@url (like admin@127.0.0.1 )
+first set your ssh connexion, replace its name in the *$HOME/.cfg/EveHistory/remote.cfg* file. If you have already set a host in your ~/.ssh/config then use that host name ; otherwise enter your user@url (like admin@127.0.0.1 )
 
 I strongly advice to export your public key with eg `source $HOME/.cfg/EveHistory/remote.cfg; ssh-copy-id $RMT_SSH` . This will prevent to enter your password everytime.
 
-Then run `sh/rmt/dpl`
+You need to have installed the whole project before deploying.
+
+Then run `sh/rmt/dpl` to build and deploy the app remotely.
 
 #### monitor the remote logs
 

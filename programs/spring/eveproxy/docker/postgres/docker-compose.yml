@@ -10,10 +10,10 @@ services:
          - "45432:5432"
       restart: unless-stopped
    tomcat:
-      build: ./tomcat
       container_name: eveproxy-tomcat
       depends_on:
          - postgres
+      image: tomcat:10.1.15
       environment:
          - SPRING_DATASOURCE_PASSWORD=eveproxy
          - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/eveproxy
@@ -23,7 +23,10 @@ services:
          - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
          - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
  #        - SPRING_TASK_SCHEDULING_POOL_SIZE=10 # allow 10 parrallel @scheduled execution
-      image: eveproxy/tomcat
+ # properties of the app
+         - EVEPROXY_SYNC_KILLPAGESIZE=200000
+         - MER_UPDATER_FETCHSIZE=20
+         - SDE_UPDATER_FORCEREINSERT=true
       ports:
          - "58080:8080"
       restart: unless-stopped

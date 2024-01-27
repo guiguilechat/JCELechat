@@ -27,7 +27,7 @@ public class MarketSyncService {
 	@Autowired
 	private KillDataService killDataService;
 
-	@Scheduled(fixedRateString = "${proxy.sync.fetchperiod:3600000}", initialDelayString = "${proxy.sync.fetchdelay:30000}")
+	@Scheduled(fixedRateString = "${eveproxy.sync.fetchperiod:3600000}", initialDelayString = "${eveproxy.sync.fetchdelay:30000}")
 	public void observeAllEveUni() {
 		Set<Integer> observed = orService.listActive().stream().map(ObservedRegion::getRegionId)
 				.collect(Collectors.toSet());
@@ -41,7 +41,7 @@ public class MarketSyncService {
 		}
 	}
 
-	@Scheduled(fixedRateString = "${proxy.sync.killperiod:30000}", initialDelayString = "${proxy.sync.killdelay:30000}")
+	@Scheduled(fixedRateString = "${eveproxy.sync.killperiod:30000}", initialDelayString = "${eveproxy.sync.killdelay:30000}")
 	public void updateKillData() {
 		killDataService.createMissing();
 	}
