@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -34,8 +35,14 @@ public class MarketUpdateScheduler {
 	@Autowired
 	private ObservedRegionService orService;
 
+	@Value("${market.updater.skip:false}")
+	private boolean skipMarketUpdate;
+
 	@Scheduled(fixedRateString = "${market.updater.fetchperiod:120000}", initialDelayString = "${market.updater.fetchdelay:10000}")
 	public void updateMarket() {
+		if (skipMarketUpdate) {
+			return;
+		}
 		long startMs = System.currentTimeMillis();
 		log.info("updating markets");
 		List<ObservedRegion> active = orService.listActive();
@@ -52,8 +59,14 @@ public class MarketUpdateScheduler {
 		log.info(" updated " + active.size() + " markets in " + (int) Math.ceil(0.001 * (endMs - startMs)) + "s");
 	}
 
+	@Value("${market.history.skip:false}")
+	private boolean skipHistoryUpdate;
+
 	@Scheduled(fixedRateString = "${market.history.fetchperiod:60000}", initialDelayString = "${market.history.fetchdelay:20000}")
 	public void updateHistory() {
+		if (skipHistoryUpdate) {
+		return;
+	}
 		long startMs = System.currentTimeMillis();
 		List<HistoryReq> requests = hrService.listNextRequests();
 		long remain = hrService.countRemainingRequests();

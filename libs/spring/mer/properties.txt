@@ -1,0 +1,23 @@
+This file lists the properties used by services in that module
+
+The properties can be set in an application.property file fed to the app ; or transmitted as environment variables after an UPPER_UNDERSCORE transformation
+For example, the property assignment my.app.variable=10 can be done with a var env MY_APP_VARIABLE=10
+
+The properties are listed with the default value if any.
+
+####
+
+# delay in ms before first mer fetch execution
+mer.updater.fetchdelay:20000
+
+# delay in ms between each mer fetch execution
+mer.updater.fetchperiod:600000
+
+# maximum number of mer to fetch per execution
+mer.updater.fetchsize:10
+
+# set to true to prevent fetching mer
+mer.updater.skip:false
+
+# maximum time to fetch and save all the mers per execution
+mer.updater.timeoutsec:300

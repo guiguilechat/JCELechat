@@ -28,8 +28,17 @@ public class MerUpdateScheduler {
 	@Value("${mer.updater.fetchsize:10}")
 	private int maxFetches;
 
+	@Value("${mer.updater.skip:false}")
+	private boolean skip;
+
+	@Value("${mer.updater.timeoutsec:300}")
+	private int timeout_seconds;
+
 	@Scheduled(fixedRateString = "${mer.updater.fetchperiod:600000}", initialDelayString = "${mer.updater.fetchdelay:20000}")
 	public void updateMers() {
+		if (skip) {
+			return;
+		}
 		long startMs = System.currentTimeMillis();
 		List<MERFetch> merFetches = new ArrayList<>(
 				merUpdateService.nextFetches().stream().map(ld -> MERFetcher.INSTANCE.forDate(ld))
@@ -38,9 +47,12 @@ public class MerUpdateScheduler {
 		while (merFetches.size() > maxFetches) {
 			merFetches.remove(rand.nextInt(merFetches.size()));
 		}
-		log.info("updating " + merFetches.size() + " mers out of " + merUpdateService.nextFetches().size());
+		log.info("updating " + merFetches.size() + " mers out of "
+				+ merUpdateService.nextFetches().stream().map(ld -> MERFetcher.INSTANCE.forDate(ld))
+						.filter(mf -> mf.url() != null).count());
 		Map<MERFetch, CompletableFuture<Void>> futures = merFetches.stream()
-				.collect(Collectors.toMap(mf -> mf, mf -> merUpdateService.loadMer(mf).orTimeout(5, TimeUnit.MINUTES)));
+				.collect(Collectors.toMap(mf -> mf,
+						mf -> merUpdateService.loadMer(mf).orTimeout(timeout_seconds, TimeUnit.SECONDS)));
 		futures.entrySet().forEach(f -> {
 			try {
 				f.getValue().join();

@@ -5,6 +5,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -27,8 +28,14 @@ public class MarketSyncService {
 	@Autowired
 	private KillDataService killDataService;
 
-	@Scheduled(fixedRateString = "${eveproxy.sync.fetchperiod:3600000}", initialDelayString = "${eveproxy.sync.fetchdelay:30000}")
+	@Value("${eveproxy.market.regionsskip:false}")
+	private boolean skipRegionSync;
+
+	@Scheduled(fixedRateString = "${eveproxy.market.regionsperiod:3600000}", initialDelayString = "${eveproxy.market.regionsdelay:30000}")
 	public void observeAllEveUni() {
+		if (skipRegionSync) {
+			return;
+		}
 		Set<Integer> observed = orService.listActive().stream().map(ObservedRegion::getRegionId)
 				.collect(Collectors.toSet());
 		List<Region> toObserve = rService.byUniverse("eve").stream().filter(r -> !observed.contains(r.getRegionId()))
@@ -41,9 +48,14 @@ public class MarketSyncService {
 		}
 	}
 
+	@Value("${eveproxy.sync.killskip:false}")
+	private boolean skipKillSync;
+
 	@Scheduled(fixedRateString = "${eveproxy.sync.killperiod:30000}", initialDelayString = "${eveproxy.sync.killdelay:30000}")
 	public void updateKillData() {
+		if (!skipKillSync) {
 		killDataService.createMissing();
+	}
 	}
 
 }

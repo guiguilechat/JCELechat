@@ -1,0 +1,34 @@
+This file lists the properties used by services in that module
+
+The properties can be set in an application.property file fed to the app ; or transmitted as environment variables after an UPPER_UNDERSCORE transformation
+For example, the property assignment my.app.variable=10 can be done with a var env MY_APP_VARIABLE=10
+
+The properties are listed with the default value if any.
+
+####
+
+
+
+
+# delay in ms before first market regions sync execution
+eveproxy.market.regionsdelay:30000
+
+# delay in ms between each market regions sync execution
+eveproxy.market.regionsperiod:3600000
+
+# set to true to prevent the observed regions to be added from SDE values
+eveproxy.market.regionsskip:false
+
+
+
+# delay in ms before first killdata sync execution
+eveproxy.sync.killdelay:30000
+
+# number of missing kills to convert per killdata sync execution
+eveproxy.sync.killpagesize:100000
+
+# delay in ms between each killdata sync execution
+eveproxy.sync.killperiod:30000
+
+# set to true to prevent generating kill data from MER kills
+eveproxy.sync.killskip:false
