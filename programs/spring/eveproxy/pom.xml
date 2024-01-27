@@ -85,6 +85,29 @@
 					</compilerArgs>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<image>
+						<name>glechat/${project.artifactId}:${project.version}</name>
+                        <buildpacks>
+                            <!-- ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
+                            <buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
+                            <buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>
+                            
+                        </buildpacks>
+					</image>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>build-image-no-fork</goal>
+						</goals>
+						<phase>package</phase>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 </project>
