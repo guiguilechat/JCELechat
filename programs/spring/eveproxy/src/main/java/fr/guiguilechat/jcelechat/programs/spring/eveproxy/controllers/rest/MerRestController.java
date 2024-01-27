@@ -327,10 +327,9 @@ public class MerRestController {
 			response.sendError(400, "param " + filter + " should be a number");
 			return;
 		}
-		String title = "kills of " + resolved.name();
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
 		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
-		JFreeChart chart = drawChart(stats, title, ap);
+		JFreeChart chart = drawChart(stats, "kills of " + resolved.name(), ap);
 		response.setContentType(MediaType.IMAGE_PNG_VALUE);
 		ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
 	}

@@ -10,13 +10,18 @@ import org.springframework.data.jpa.repository.Query;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.model.KillData;
 
 public interface KillDataRepository extends JpaRepository<KillData, Long> {
-// much faster (4×) than a left join EveProxyKillData kd on kd.kill=mk where kd
-// is null
+// much faster (4×) than a
+// left join EveProxyKillData kd on kd.kill=mk
+// where kd is null
 	@Query("""
 select
 	mk,
 	ss,
-	vt
+	vt,
+	ss.constellation,
+	ss.constellation.region,
+	vt.group,
+	vt.group.category
 from
 	MerKill mk
 	join SdeUniverseSolarSystem ss on mk.solarSystemId=ss.solarSystemId

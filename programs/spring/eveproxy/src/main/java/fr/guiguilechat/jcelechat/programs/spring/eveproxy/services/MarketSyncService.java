@@ -41,7 +41,7 @@ public class MarketSyncService {
 		}
 	}
 
-	@Scheduled(fixedRateString = "${proxy.sync.killperiod:60000}", initialDelayString = "${proxy.sync.killdelay:30000}")
+	@Scheduled(fixedRateString = "${proxy.sync.killperiod:30000}", initialDelayString = "${proxy.sync.killdelay:30000}")
 	public void updateKillData() {
 		killDataService.createMissing();
 	}
