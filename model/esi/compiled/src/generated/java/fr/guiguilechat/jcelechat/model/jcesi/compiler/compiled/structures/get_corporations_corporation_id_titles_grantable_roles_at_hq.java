@@ -83,6 +83,8 @@ public enum get_corporations_corporation_id_titles_grantable_roles_at_hq {
     Junior_Accountant("Junior_Accountant"),
     @JsonProperty("Personnel_Manager")
     Personnel_Manager("Personnel_Manager"),
+    @JsonProperty("Project_Manager")
+    Project_Manager("Project_Manager"),
     @JsonProperty("Rent_Factory_Facility")
     Rent_Factory_Facility("Rent_Factory_Facility"),
     @JsonProperty("Rent_Office")

@@ -155,6 +155,10 @@ public enum get_characters_character_id_notifications_type {
     CorporationGoalCompleted("CorporationGoalCompleted"),
     @JsonProperty("CorporationGoalCreated")
     CorporationGoalCreated("CorporationGoalCreated"),
+    @JsonProperty("CorporationGoalNameChange")
+    CorporationGoalNameChange("CorporationGoalNameChange"),
+    @JsonProperty("CorporationLeft")
+    CorporationLeft("CorporationLeft"),
     @JsonProperty("CustomsMsg")
     CustomsMsg("CustomsMsg"),
     @JsonProperty("DeclareWar")
