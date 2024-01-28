@@ -44,8 +44,8 @@ import jakarta.servlet.http.HttpServletResponse;
 
 // @Slf4j
 @RestController
-@RequestMapping("/api/mer")
-public class MerRestController {
+@RequestMapping("/api/mer/kills")
+public class MerKillsRestController {
 
 	@Autowired
 	private KillService killService;
@@ -292,7 +292,7 @@ public class MerRestController {
 		}
 	}
 
-	@GetMapping("/kills/{filterBy}/{filter}")
+	@GetMapping("/{filterBy}/{filter}")
 	public ResponseEntity<?> statsByVictim(@PathVariable String filterBy, @PathVariable String filter,
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> time,
@@ -315,10 +315,11 @@ public class MerRestController {
 				accept);
 	}
 
-	@GetMapping("/kills/{filterBy}/{filter}/chart")
+	@GetMapping("/{filterBy}/{filter}/chart")
 	public void chartStatsByVictimType(@PathVariable String filterBy, @PathVariable String filter,
 			HttpServletResponse response,
-			@RequestParam Optional<String> period) throws IOException {
+			@RequestParam Optional<String> period,
+			@RequestParam Optional<String> accept) throws IOException {
 		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
 		TYPES_NAME resolved;
 		try {
@@ -328,10 +329,20 @@ public class MerRestController {
 			return;
 		}
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
-		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
+		List<KillStats> stats = typeFilter == TYPES_FILTER.ERROR ? Collections.emptyList()
+				: ap.stats(resolved.typeIds(), killService);
 		JFreeChart chart = drawChart(stats, "kills of " + resolved.name(), ap);
-		response.setContentType(MediaType.IMAGE_PNG_VALUE);
-		ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
+		switch (accept.orElse("png").toLowerCase()) {
+			case "jpg":
+			case "jpeg":
+				response.setContentType(MediaType.IMAGE_JPEG_VALUE);
+				ChartUtils.writeBufferedImageAsJPEG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
+			break;
+			case "png":
+			default:
+				response.setContentType(MediaType.IMAGE_PNG_VALUE);
+				ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
+		}
 	}
 
 	static JFreeChart drawChart(List<KillStats> stats, String title, AGGREG_PERIOD by) {

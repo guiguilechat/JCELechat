@@ -64,7 +64,16 @@ public class KillService {
 	}
 
 	public List<KillStats> dailyStats(Collection<Integer> destroyedShipTypeId) {
-		return repo.dailyKills(destroyedShipTypeId).stream().map(KillStats::new).toList();
+		return repo.dailyKills(destroyedShipTypeId).stream()
+				.map(KillStats::new).toList();
 	}
+
+	final static List<Integer> NPCCorporationIds = List.of(
+			1000127, // Guristas [G]
+			1000132, // Secure Commerce Commission [SCC]
+			1000134, // Blood Raiders [TBR]
+			1000148, // InterBus [INB]
+			1000274 // Vigilant Tyrannos [VI-TY]
+	);
 
 }

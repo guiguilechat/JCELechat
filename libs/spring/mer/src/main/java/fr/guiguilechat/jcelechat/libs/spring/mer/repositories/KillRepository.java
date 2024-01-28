@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.lang.NonNull;
 
 import fr.guiguilechat.jcelechat.libs.spring.mer.model.Kill;
 
@@ -82,6 +83,6 @@ group by
 order by
 	DATE_TRUNC( 'day', kill.kill_date at time zone 'utc') desc
 """, nativeQuery = true)
-	public List<Object[]> dailyKills(Collection<Integer> destroyedShipTypeId);
+	public List<Object[]> dailyKills(@NonNull Collection<Integer> destroyedShipTypeId);
 
 }
