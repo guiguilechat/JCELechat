@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import fr.guiguilechat.jcelechat.programs.cli.merstats.killdump.KDParser;
 import fr.guiguilechat.jcelechat.programs.cli.merstats.killdump.filters.NPCFilter;
 
 public class ShowNonNPCCorporations {

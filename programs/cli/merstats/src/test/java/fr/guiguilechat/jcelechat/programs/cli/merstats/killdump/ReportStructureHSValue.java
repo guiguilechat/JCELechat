@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.programs.cli.merstats.killdump;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.programs.cli.merstats.killdump.KDReport;
 import fr.guiguilechat.jcelechat.programs.cli.merstats.killdump.aaxis.Value;
 import fr.guiguilechat.jcelechat.programs.cli.merstats.killdump.filters.CatFilter;
 import fr.guiguilechat.jcelechat.programs.cli.merstats.killdump.filters.NPCFilter;

@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
-import fr.guiguilechat.jcelechat.programs.cli.merstats.killdump.KDReport;
 import fr.guiguilechat.jcelechat.programs.cli.merstats.killdump.aaxis.Count;
 import fr.guiguilechat.jcelechat.programs.cli.merstats.killdump.filters.NPCFilter;
 
