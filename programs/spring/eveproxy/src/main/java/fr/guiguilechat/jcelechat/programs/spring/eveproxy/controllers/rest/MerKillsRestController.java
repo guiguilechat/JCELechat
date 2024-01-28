@@ -374,7 +374,7 @@ public class MerKillsRestController {
 			tsc.addSeries(medianValueSeries);
 // tsc.addSeries(minValueSeries);
 			plot.setDataset(0, tsc);
-			XYLineAndShapeRenderer renderer0 = new XYLineAndShapeRenderer(true,
+			XYLineAndShapeRenderer renderer0 = new XYLineAndShapeRenderer(false,
 					true);
 			plot.setRenderer(0, renderer0);
 			plot.mapDatasetToRangeAxis(0, 0);
@@ -385,7 +385,7 @@ public class MerKillsRestController {
 			plot.setRangeAxis(1, qttyAxis);
 			TimeSeriesCollection qttyColl = new TimeSeriesCollection(qttySeries);
 			plot.setDataset(1, qttyColl);
-			XYLineAndShapeRenderer renderer1 = new XYLineAndShapeRenderer(true,
+			XYLineAndShapeRenderer renderer1 = new XYLineAndShapeRenderer(false,
 					true);
 			plot.setRenderer(1, renderer1);
 			plot.mapDatasetToRangeAxis(1, 1);
