@@ -94,8 +94,7 @@
                         <buildpacks>
                             <!-- ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
                             <buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
-                            <buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>
-                            
+                            <buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>                            
                         </buildpacks>
 					</image>
 				</configuration>
@@ -104,7 +103,7 @@
 						<goals>
 							<goal>build-image-no-fork</goal>
 						</goals>
-						<phase>package</phase>
+						<phase>deploy</phase>
 					</execution>
 				</executions>
 			</plugin>
