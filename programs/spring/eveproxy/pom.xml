@@ -91,12 +91,19 @@
 				<configuration>
 					<image>
 						<name>glechat/${project.artifactId}:${project.version}</name>
+                        <publish>true</publish>
                         <buildpacks>
                             <!-- ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
                             <buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
                             <buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>                            
                         </buildpacks>
 					</image>
+					<docker>
+						<publishRegistry>							
+                            <username>glechat</username>
+                            <password>${DOCKER_HUB_TOKEN}</password>
+						</publishRegistry>
+					</docker>
 				</configuration>
 				<executions>
 					<execution>
