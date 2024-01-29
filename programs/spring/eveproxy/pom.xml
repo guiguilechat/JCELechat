@@ -90,6 +90,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
+						<builder>gcr.io/paketo-buildpacks/builder:full-cf</builder>
 						<name>glechat/${project.artifactId}:${project.version}</name>
                         <publish>true</publish>
                         <buildpacks>
