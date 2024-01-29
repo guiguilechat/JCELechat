@@ -15,7 +15,7 @@ public interface KillRepository extends JpaRepository<Kill, Long> {
 
 	@Query(value = """
 select
-	DATE_TRUNC( 'month', kill.kill_date at time zone 'utc') date_month,
+	DATE_TRUNC( 'month', kill.kill_date at time zone 'UTC') date_month,
 	count(*) nb_kills,
 	sum(kill.isk_lost) iskLost,
 	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
@@ -25,15 +25,15 @@ from
 where
 	kill.destroyed_ship_type_id in :destroyedShipTypeId
 group by
-	DATE_TRUNC( 'month', kill.kill_date at time zone 'utc')
+	DATE_TRUNC( 'month', kill.kill_date at time zone 'UTC')
 order by
-	DATE_TRUNC( 'month', kill.kill_date at time zone 'utc') desc
+	DATE_TRUNC( 'month', kill.kill_date at time zone 'UTC') desc
 """, nativeQuery = true)
 	public List<Object[]> monthlyKills(Collection<Integer> destroyedShipTypeId);
 
 	@Query(value = """
 select
-	DATE_TRUNC( 'week', kill.kill_date at time zone 'utc') date_week,
+	DATE_TRUNC( 'week', kill.kill_date at time zone 'UTC') date_week,
 	count(*) nb_kills,
 	sum(kill.isk_lost) iskLost,
 	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
@@ -43,15 +43,15 @@ from
 where
 	kill.destroyed_ship_type_id in :destroyedShipTypeId
 group by
-	DATE_TRUNC( 'week', kill.kill_date at time zone 'utc')
+	DATE_TRUNC( 'week', kill.kill_date at time zone 'UTC')
 order by
-	DATE_TRUNC( 'week', kill.kill_date at time zone 'utc') desc
+	DATE_TRUNC( 'week', kill.kill_date at time zone 'UTC') desc
 """, nativeQuery = true)
 	public List<Object[]> weeklyKills(Collection<Integer> destroyedShipTypeId);
 
 	@Query(value = """
 select
-	DATE_TRUNC( 'year', kill.kill_date at time zone 'utc') date_week,
+	DATE_TRUNC( 'year', kill.kill_date at time zone 'UTC') date_week,
 	count(*) nb_kills,
 	sum(kill.isk_lost) iskLost,
 	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
@@ -61,15 +61,15 @@ from
 where
 	kill.destroyed_ship_type_id in :destroyedShipTypeId
 group by
-	DATE_TRUNC( 'year', kill.kill_date at time zone 'utc')
+	DATE_TRUNC( 'year', kill.kill_date at time zone 'UTC')
 order by
-	DATE_TRUNC( 'year', kill.kill_date at time zone 'utc') desc
+	DATE_TRUNC( 'year', kill.kill_date at time zone 'UTC') desc
 """, nativeQuery = true)
 	public List<Object[]> yearlyKills(Collection<Integer> destroyedShipTypeId);
 
 	@Query(value = """
 select
-	DATE_TRUNC( 'day', kill.kill_date at time zone 'utc') date_week,
+	DATE_TRUNC( 'day', kill.kill_date at time zone 'UTC') date_week,
 	count(*) nb_kills,
 	sum(kill.isk_lost) iskLost,
 	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
@@ -79,9 +79,9 @@ from
 where
 	kill.destroyed_ship_type_id in :destroyedShipTypeId
 group by
-	DATE_TRUNC( 'day', kill.kill_date at time zone 'utc')
+	DATE_TRUNC( 'day', kill.kill_date at time zone 'UTC')
 order by
-	DATE_TRUNC( 'day', kill.kill_date at time zone 'utc') desc
+	DATE_TRUNC( 'day', kill.kill_date at time zone 'UTC') desc
 """, nativeQuery = true)
 	public List<Object[]> dailyKills(@NonNull Collection<Integer> destroyedShipTypeId);
 
