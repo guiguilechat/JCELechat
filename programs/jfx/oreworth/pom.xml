@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 		<artifactId>jfx</artifactId>
-		<version>7.10.4</version>
+		<version>7.10.5</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs.jfx</groupId>
 	<artifactId>oreworth</artifactId>
