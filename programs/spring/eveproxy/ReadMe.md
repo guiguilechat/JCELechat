@@ -2,6 +2,26 @@
 
 This program uses various Eve libs that fetch and store data into a DB to present them as an API
 
+## Installation as docker container
+
+An [example docker compose](docker/) is provided to start both the tomcat server and a postgresql server.
+The version is fixed so you should modify it to have last eveproxy version.
+
+You can start it using 
+
+```bash
+curl https://github.com/guiguilechat/JCELechat/tree/master/programs/spring/eveproxy/docker/compose/postgres-tomcat.yaml
+docker compose -f postgres-tomcat.yaml up -d
+```
+
+Then use `docker logs eveproxy-tomcat` to have logs, and access it on local host 8080 port.
+
+## Installation of working env
+
+You need to have installed the whole project before (mvn install) .
+
+There is a command sh/dk/strt that creates a local docker installation, with tomcat on port 58080. You can then deploy your modified war in it with sh/dk/dpl .
+
 ## Installation on remote ubuntu server
 
 You need a server with only required ssh access, and later http on 8080

@@ -1,4 +1,6 @@
-# working dev env. Empty tomcat to host the one we create
+# this is an example that starts a postgres service and a eveproxy service accessing postgres.
+# the postgres has its admin access open (port 45432)
+
 
 version: "3.8"
 services:
@@ -15,7 +17,7 @@ services:
       container_name: eveproxy-tomcat
       depends_on:
          - postgres
-      image: tomcat:10.1.15
+      image: glechat/eveproxy:7.10.6
       environment:
          - SPRING_DATASOURCE_PASSWORD=eveproxy
          - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/eveproxy
@@ -24,11 +26,15 @@ services:
          - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_BATCH_SIZE=100
          - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
          - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
- #        - SPRING_TASK_SCHEDULING_POOL_SIZE=10 # allow 10 parrallel @scheduled execution
  # properties of the app
-         - EVEPROXY_SYNC_KILLPAGESIZE=200000
-         - MER_UPDATER_FETCHSIZE=20
-         - SDE_UPDATER_FORCEREINSERT=true
+         - EVEPROXY_SYNC_KILLPAGESIZE=100000
+         # the two following reduce the memory footprint from loading MER in memory : only fetch one MER at a time, but do it every 30s
+         - MER_UPDATER_FETCHPERIOD=30000
+         - MER_UPDATER_FETCHSIZE=1
       ports:
-         - "58080:8080"
+         - "8080:8080"
       restart: unless-stopped
+      deploy:
+         resources:
+           limits:
+             memory: 4000M
