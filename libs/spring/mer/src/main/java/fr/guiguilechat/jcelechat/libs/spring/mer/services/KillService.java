@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.mer.services;
 
 import java.sql.Timestamp;
 import java.time.Instant;
+import java.time.OffsetDateTime;
 import java.util.Collection;
 import java.util.List;
 
@@ -45,6 +46,9 @@ public class KillService {
 			}
 			if (o instanceof Timestamp) {
 				return ((Timestamp) o).toInstant();
+			}
+			if (o instanceof OffsetDateTime) {
+				return ((OffsetDateTime) o).toInstant();
 			}
 			throw new UnsupportedOperationException("can't cast " + o.getClass().getCanonicalName() + " as Instant");
 		}
