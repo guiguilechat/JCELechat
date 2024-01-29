@@ -1,26 +1,42 @@
-# Eve PRoxy
+# Eve Proxy
 
 This program uses various Eve libs that fetch and store data into a DB to present them as an API
 
 ## Installation as docker container
 
-An [example docker compose](docker/) is provided to start both the tomcat server and a postgresql server.
+An [example docker compose](docker/compose) is provided to start both the tomcat server and a postgresql server.
 The version is fixed so you should modify it to have last eveproxy version.
 
 You can start it using 
 
 ```bash
-curl https://github.com/guiguilechat/JCELechat/tree/master/programs/spring/eveproxy/docker/compose/postgres-tomcat.yaml
-docker compose -f postgres-tomcat.yaml up -d
+curl https://raw.githubusercontent.com/guiguilechat/JCELechat/master/programs/spring/eveproxy/docker/compose/postgres-tomcat.yml -o eveproxy.compose.yaml
+docker compose -f eveproxy.compose.yaml up -d
 ```
 
 Then use `docker logs eveproxy-tomcat` to have logs, and access it on local host 8080 port.
 
+To stop it use
+
+```bash
+docker stop eveproxy-tomcat eveproxy-postgres
+```
+
+To purge it (to start them later or not)
+
+```bash
+docker container rm eveproxy-tomcat eveproxy-postgres
+```
+
 ## Installation of working env
 
-You need to have installed the whole project before (mvn install) .
+The working env is different because the binary files can be changed without the need to create a new tag : the docker container allows to have same env to execute, but the image is minimal to allow new updates.
 
-There is a command sh/dk/strt that creates a local docker installation, with tomcat on port 58080. You can then deploy your modified war in it with sh/dk/dpl .
+Before you can run it, you need to have installed the whole project (mvn install at the root) .
+
+The command `sh/dk/strt` creates a local docker installation, with tomcat on port 58080.
+
+The command `sh/dk/dpl` then creates a war and deply it inside.
 
 ## Installation on remote ubuntu server
 

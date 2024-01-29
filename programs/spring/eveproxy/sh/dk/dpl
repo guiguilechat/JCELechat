@@ -1,4 +1,6 @@
 #!/bin/bash
 
+# deploy the war inside the local dev container.
+
 mvn clean package\
 && docker cp target/EveProxy.war eveproxy-tomcat:/usr/local/tomcat/webapps/EveProxy.war

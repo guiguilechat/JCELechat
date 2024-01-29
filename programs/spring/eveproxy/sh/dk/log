@@ -1,5 +1,6 @@
 #!/bin/bash
-# deploy to the tomcat specified in the remote fold.
+
+# shows logs of the tomcat container
 
 reset\
 && docker logs -f eveproxy-tomcat
