@@ -43,4 +43,4 @@ jobs:
     - name: Save Maven cache
       uses: skjolber/maven-cache-github-action@v2.0
       with:
-        step: savee
+        step: save
