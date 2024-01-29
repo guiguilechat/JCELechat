@@ -98,6 +98,11 @@
 					<version>3.11.0</version>
 					<configuration>
 						<release>${java.version}</release>
+						<compilerArgs>
+				<!--	workaround https://github.com/spring-projects/spring-framework/issues/29612-->
+							<arg>-parameters</arg>
+							<compilerArgument>-Xlint:-options</compilerArgument>
+						</compilerArgs>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -147,6 +152,19 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-shade-plugin</artifactId>
 					<version>3.5.1</version>
+					<configuration>
+						<filters>
+							<filter>
+								<artifact>*:*</artifact>
+								<excludes>
+									<exclude>module-info.class</exclude>
+									<exclude>META-INF/*.SF</exclude>
+									<exclude>META-INF/*.DSA</exclude>
+									<exclude>META-INF/*.RSA</exclude>
+								</excludes>
+							</filter>
+						</filters>
+					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>

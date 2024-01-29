@@ -27,6 +27,12 @@
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>mer</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-logging</groupId>
+					<artifactId>commons-logging</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
@@ -76,33 +82,23 @@
 		<finalName>EveProxy</finalName>
 		<plugins>
 			<plugin>
-				<!--	workaround https://github.com/spring-projects/spring-framework/issues/29612-->
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<compilerArgs>
-						<arg>-parameters</arg>
-					</compilerArgs>
-				</configuration>
-			</plugin>
-			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
 						<builder>gcr.io/paketo-buildpacks/builder:full-cf</builder>
 						<name>glechat/${project.artifactId}:${project.version}</name>
-                        <publish>true</publish>
-                        <buildpacks>
-                            <!-- ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
-                            <buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
-                            <buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>                            
-                        </buildpacks>
+						<publish>true</publish>
+						<buildpacks>
+							<!-- ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
+							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
+							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>
+						</buildpacks>
 					</image>
 					<docker>
-						<publishRegistry>							
-                            <username>glechat</username>
-                            <password>${DOCKER_HUB_TOKEN}</password>
+						<publishRegistry>
+							<username>glechat</username>
+							<password>${DOCKER_HUB_TOKEN}</password>
 						</publishRegistry>
 					</docker>
 				</configuration>
