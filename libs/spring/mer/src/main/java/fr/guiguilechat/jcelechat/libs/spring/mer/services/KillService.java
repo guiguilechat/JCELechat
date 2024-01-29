@@ -31,10 +31,10 @@ public class KillService {
 
 		public KillStats(Object[] line) {
 			this(castInstant(line[0]),
-					(long) line[1],
-					(double) line[2],
-					(double) line[3],
-					(double) line[4]);
+					((Number) line[1]).longValue(),
+					((Number) line[2]).doubleValue(),
+					((Number) line[3]).doubleValue(),
+					((Number) line[4]).doubleValue());
 		}
 
 		static Instant castInstant(Object o) {
