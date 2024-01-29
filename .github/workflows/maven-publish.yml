@@ -27,7 +27,7 @@ jobs:
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     - name: Restore Maven cache
-      uses: skjolber/maven-cache-github-action@v2
+      uses: skjolber/maven-cache-github-action@v2.0
       with:
         step: restore
 
@@ -41,6 +41,6 @@ jobs:
         DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
 
     - name: Save Maven cache
-      uses: skjolber/maven-cache-github-action@v2
+      uses: skjolber/maven-cache-github-action@v2.0
       with:
         step: savee
