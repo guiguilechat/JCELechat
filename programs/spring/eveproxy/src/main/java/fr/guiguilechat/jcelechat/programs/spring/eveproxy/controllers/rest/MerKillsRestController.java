@@ -1,16 +1,21 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
 import java.awt.Color;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.time.Instant;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
-import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Objects;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.jfree.chart.ChartUtils;
 import org.jfree.chart.JFreeChart;
@@ -56,6 +61,9 @@ public class MerKillsRestController {
 	@Autowired
 	private GroupService groupService;
 
+	/**
+	 * period to aggregate kills over
+	 */
 	static enum AGGREG_PERIOD {
 		MONTH {
 			@Override
@@ -188,6 +196,9 @@ public class MerKillsRestController {
 	static record TYPES_NAME(String name, List<Integer> typeIds) {
 	}
 
+	/**
+	 * request to filter the typed by
+	 */
 	static enum TYPES_FILTER {
 		TYPE_ID {
 			@Override
@@ -264,13 +275,6 @@ public class MerKillsRestController {
 			List<Integer> types, String timeSort, AGGREG_PERIOD period) {
 	}
 
-	static final DateTimeFormatter FORMATTER_YM = DateTimeFormatter.ofPattern("YYYY-MM");
-
-	// bug : does not work for some specific timestamp. see corresponding test class
-	static String formatInstantAsYearMonth2(Instant instant) {
-		return FORMATTER_YM.format(instant.atOffset(ZoneOffset.UTC));
-	}
-
 	static record PeriodKillStats(String periodStart, long numberKills, double totalMIskLost, double averageMIskLost,
 			double medianMIskLost) {
 
@@ -293,7 +297,9 @@ public class MerKillsRestController {
 	}
 
 	@GetMapping("/{filterBy}/{filter}")
-	public ResponseEntity<?> statsByVictim(@PathVariable String filterBy, @PathVariable String filter,
+	public ResponseEntity<?> statsByVictim(
+			@PathVariable String filterBy,
+			@PathVariable String filter,
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> time,
 			@RequestParam Optional<String> period) {
@@ -316,7 +322,9 @@ public class MerKillsRestController {
 	}
 
 	@GetMapping("/{filterBy}/{filter}/chart")
-	public void chartStatsByVictimType(@PathVariable String filterBy, @PathVariable String filter,
+	public void chartStatsByVictimType(
+			@PathVariable String filterBy,
+			@PathVariable String filter,
 			HttpServletResponse response,
 			@RequestParam Optional<String> period,
 			@RequestParam Optional<String> accept) throws IOException {
@@ -331,18 +339,8 @@ public class MerKillsRestController {
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
 		List<KillStats> stats = typeFilter == TYPES_FILTER.ERROR ? Collections.emptyList()
 				: ap.stats(resolved.typeIds(), killService);
-		JFreeChart chart = drawChart(stats, "kills of " + resolved.name(), ap);
-		switch (accept.orElse("png").toLowerCase()) {
-			case "jpg":
-			case "jpeg":
-				response.setContentType(MediaType.IMAGE_JPEG_VALUE);
-				ChartUtils.writeBufferedImageAsJPEG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
-			break;
-			case "png":
-			default:
-				response.setContentType(MediaType.IMAGE_PNG_VALUE);
-				ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
-		}
+		JFreeChart chart = drawChart(stats, "kills of " + resolved.name() + " by " + ap.name().toLowerCase(), ap);
+		addResponseChart(response, chart, accept);
 	}
 
 	static JFreeChart drawChart(List<KillStats> stats, String title, AGGREG_PERIOD by) {
@@ -351,12 +349,12 @@ public class MerKillsRestController {
 		TimeSeries minValueSeries = new TimeSeries("min value");
 		TimeSeries qttySeries = new TimeSeries("daily kills");
 		for (KillStats stat : stats) {
-			OffsetDateTime dat = stat.periodStart().atOffset(ZoneOffset.UTC);
-			RegularTimePeriod period = by.of(dat);
+			OffsetDateTime odt = stat.periodStart().atOffset(ZoneOffset.UTC);
+			RegularTimePeriod period = by.of(odt);
 			medianValueSeries.add(period, stat.medianIskLost() / 1000000);
 			avgValueSeries.add(period, stat.totalIskLost() / 1000000 / stat.nbKills());
 			minValueSeries.add(period, stat.minIskLost() / 1000000);
-			int periodDays = by.periodDays(dat);
+			int periodDays = by.periodDays(odt);
 			qttySeries.add(period, 1.0 / periodDays * stat.nbKills());
 		}
 
@@ -389,6 +387,199 @@ public class MerKillsRestController {
 					true);
 			plot.setRenderer(1, renderer1);
 			plot.mapDatasetToRangeAxis(1, 1);
+		}
+
+		JFreeChart chart = new JFreeChart(title, JFreeChart.DEFAULT_TITLE_FONT,
+				plot, true);
+		chart.setBackgroundPaint(Color.WHITE);
+
+		return chart;
+	}
+
+	void addResponseChart(
+			HttpServletResponse response, JFreeChart chart, Optional<String> accept) throws IOException {
+		switch (accept.orElse("png").toLowerCase()) {
+			case "jpg":
+			case "jpeg":
+				response.setContentType(MediaType.IMAGE_JPEG_VALUE);
+				ChartUtils.writeBufferedImageAsJPEG(response.getOutputStream(),
+						chart.createBufferedImage(2000, 1000, BufferedImage.TYPE_INT_RGB, null));
+			break;
+			case "png":
+			default:
+				response.setContentType(MediaType.IMAGE_PNG_VALUE);
+				ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
+		}
+	}
+
+	@GetMapping("/{filterBy}/{filter}/detail")
+	public ResponseEntity<?> statsByVictimTypeDetailed(
+			@PathVariable String filterBy,
+			@PathVariable String filter,
+			@RequestParam Optional<String> accept,
+			@RequestParam Optional<String> time,
+			@RequestParam Optional<String> period) {
+		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
+		TYPES_NAME resolved;
+		try {
+			resolved = typeFilter.resolve(filter, typeService, groupService);
+		} catch (NumberFormatException e) {
+			return ResponseEntity.status(400).body("param " + filter + " should be a number");
+		}
+		String timeOrder = time.orElse("desc");
+		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
+		Map<String, TypesKillsStats> statsByType = resolved.typeIds.parallelStream().collect(
+				Collectors.toMap(typeId -> typeService.byId(typeId).get().getName(),
+						typeId -> new TypesKillsStats(List.of(typeId), timeOrder, ap.stats(List.of(typeId), killService), ap)));
+		if (timeOrder.equals("asc")) {
+			for (TypesKillsStats stats : statsByType.values()) {
+				Collections.reverse(stats.stats());
+			}
+		}
+		return RestControllerHelper.makeResponse(
+				statsByType.entrySet().stream().filter(e -> !e.getValue().stats().isEmpty())
+						.sorted(Comparator.comparing(Entry::getKey)).toList(),
+				accept);
+	}
+
+	@GetMapping("/{filterBy}/{filter}/chart/{detail}")
+	public void chartStatsByVictimTypeDetailed(
+			@PathVariable String filterBy,
+			@PathVariable String filter,
+			@PathVariable String detail,
+			HttpServletResponse response,
+			@RequestParam Optional<String> period,
+			@RequestParam Optional<String> accept) throws IOException {
+		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
+		TYPES_NAME resolved;
+		try {
+			resolved = typeFilter.resolve(filter, typeService, groupService);
+		} catch (NumberFormatException e) {
+			response.sendError(400, "param " + filter + " should be a number");
+			return;
+		}
+		KILLS_DETAIL det = KILLS_DETAIL.of(detail);
+		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
+		Map<String, List<KillStats>> statsByType = resolved.typeIds.parallelStream().collect(
+				Collectors.toMap(typeId -> typeService.byId(typeId).get().getName(),
+						typeId -> ap.stats(List.of(typeId), killService)));
+		JFreeChart chart = drawChart(statsByType,
+				det.legend + " for " + resolved.name() + ", by " + ap.name().toLowerCase(), ap,
+				det);
+		addResponseChart(response, chart, accept);
+	}
+
+	/**
+	 * requested kill details over a period to chart on
+	 */
+	static enum KILLS_DETAIL {
+		AVG_LOST("average M isk lost") {
+			@Override
+			public double extract(KillStats stat, AGGREG_PERIOD by) {
+				return stat.totalIskLost() / stat.nbKills() / 100000;
+			}
+		},
+		KILLS_P_DAY("kills per day") {
+			@Override
+			public double extract(KillStats stat, AGGREG_PERIOD by) {
+				OffsetDateTime odt = stat.periodStart().atOffset(ZoneOffset.UTC);
+				int periodDays = by.periodDays(odt);
+				return 1.0 * stat.nbKills() / periodDays;
+			}
+		},
+		MEDIAN_LOST("median M isk lost") {
+			@Override
+			public double extract(KillStats stat, AGGREG_PERIOD by) {
+				return stat.medianIskLost() / 1000000;
+			}
+		},
+		MIN_LOST("min M isk lost") {
+			@Override
+			public double extract(KillStats stat, AGGREG_PERIOD by) {
+				return stat.minIskLost() / 1000000;
+			}
+		},
+		TOTAL_LOST_P_DAY("total M isk lost per day") {
+			@Override
+			public double extract(KillStats stat, AGGREG_PERIOD by) {
+				OffsetDateTime odt = stat.periodStart().atOffset(ZoneOffset.UTC);
+				int periodDays = by.periodDays(odt);
+				return stat.totalIskLost() / periodDays / 1000000;
+
+			}
+		};
+
+		public final String legend;
+
+		private KILLS_DETAIL(String legend) {
+			this.legend = legend;
+		}
+
+		public abstract double extract(KillStats stat, AGGREG_PERIOD by);
+
+		static KILLS_DETAIL of(String requested) {
+			switch (Objects.requireNonNullElse(requested, "").toLowerCase()) {
+				case "av":
+				case "avg":
+				case "average":
+					return AVG_LOST;
+				case "kill":
+				case "kills":
+				case "nb":
+				case "qtty":
+				case "quantity":
+					return KILLS_P_DAY;
+				case "md":
+				case "med":
+				case "median":
+					return MEDIAN_LOST;
+				case "low":
+				case "min":
+				case "minimum":
+					return MIN_LOST;
+				case "lost":
+				case "tot":
+				case "total":
+				case "val":
+				case "value":
+					return TOTAL_LOST_P_DAY;
+			}
+			return KILLS_P_DAY;
+		}
+	}
+
+	private JFreeChart drawChart(Map<String, List<KillStats>> statsByType, String title, AGGREG_PERIOD by,
+			KILLS_DETAIL det) {
+		XYPlot plot = new XYPlot();
+		DateAxis timeAxis = new DateAxis(null);
+		timeAxis.setLowerMargin(0.02);
+		timeAxis.setUpperMargin(0.02);
+		plot.setDomainAxis(timeAxis);
+
+		List<Entry<String, List<KillStats>>> sortedStatsList = statsByType.entrySet().stream()
+				.sorted(Comparator.comparing(Entry::getKey)).toList();
+
+		{
+			NumberAxis valueAxis = new NumberAxis(det.legend);
+			plot.setRangeAxis(0, valueAxis);
+			TimeSeriesCollection tsc = new TimeSeriesCollection();
+			for (Entry<String, List<KillStats>> e : sortedStatsList) {
+				if (e.getValue().isEmpty()) {
+					continue;
+				}
+				TimeSeries totalIskLostSeries = new TimeSeries(e.getKey());
+				for (KillStats stat : e.getValue()) {
+					OffsetDateTime dat = stat.periodStart().atOffset(ZoneOffset.UTC);
+					RegularTimePeriod period = by.of(dat);
+					totalIskLostSeries.add(period, det.extract(stat, by));
+				}
+				tsc.addSeries(totalIskLostSeries);
+			}
+			plot.setDataset(0, tsc);
+			XYLineAndShapeRenderer renderer0 = new XYLineAndShapeRenderer(false,
+					true);
+			plot.setRenderer(0, renderer0);
+			plot.mapDatasetToRangeAxis(0, 0);
 		}
 
 		JFreeChart chart = new JFreeChart(title, JFreeChart.DEFAULT_TITLE_FONT,
