@@ -62,7 +62,8 @@ public class MerUpdateScheduler {
 		});
 		long endMs = System.currentTimeMillis();
 		log.info(" updated " + merFetches.size() + " mers in " + (int) Math.ceil(0.001 * (endMs - startMs))
-				+ "s , remaining " + merUpdateService.nextFetches().size());
+				+ "s , remaining " + merUpdateService.nextFetches().stream().map(ld -> MERFetcher.INSTANCE.forDate(ld))
+						.filter(mf -> mf.url() != null).count());
 	}
 
 }
