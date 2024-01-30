@@ -7,6 +7,7 @@ import java.util.Collection;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.mer.model.Kill;
@@ -55,22 +56,33 @@ public class KillService {
 
 	}
 
+	@Cacheable("merKillsMonthlyStats")
 	public List<KillStats> monthlyStats(Collection<Integer> destroyedShipTypeId) {
 		return repo.monthlyKills(destroyedShipTypeId).stream().map(KillStats::new).toList();
 	}
 
+	@Cacheable("merKillsWeeklyStats")
 	public List<KillStats> weeklyStats(Collection<Integer> destroyedShipTypeId) {
 		return repo.weeklyKills(destroyedShipTypeId).stream().map(KillStats::new).toList();
 	}
 
+	@Cacheable("merKillsYearlyStats")
 	public List<KillStats> yearlyStats(Collection<Integer> destroyedShipTypeId) {
 		return repo.yearlyKills(destroyedShipTypeId).stream().map(KillStats::new).toList();
 	}
 
+	@Cacheable("merKillsDailyStats")
 	public List<KillStats> dailyStats(Collection<Integer> destroyedShipTypeId) {
 		return repo.dailyKills(destroyedShipTypeId).stream()
 				.map(KillStats::new).toList();
 	}
+
+	/** list of caches to invalidate */
+	static final List<String> MER_KILLS_CACHES = List.of(
+			"merKillsMonthlyStats",
+			"merKillsWeeklyStats",
+			"merKillsYearlyStats",
+			"merKillsDailyStats");
 
 	final static List<Integer> NPCCorporationIds = List.of(
 			1000127, // Guristas [G]

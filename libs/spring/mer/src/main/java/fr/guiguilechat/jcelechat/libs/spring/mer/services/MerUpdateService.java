@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -24,8 +25,12 @@ public class MerUpdateService {
 
 	@Autowired
 	private KillService killService;
+
 	@Autowired
 	private LoadedMerService loadedMerService;
+
+	@Autowired
+	private CacheManager cacheManager;
 
 	@Async
 	@Transactional
@@ -42,6 +47,9 @@ public class MerUpdateService {
 			killService.saveAll(mer.getKillDumpEntries().stream().map(kde -> Kill.from(kde, loadedMer)).toList());
 			loadedMer.setEndLoad(Instant.now());
 			loadedMerService.save(loadedMer);
+			for (String cacheName : KillService.MER_KILLS_CACHES) {
+				cacheManager.getCache(cacheName).clear();
+			}
 			log.info(" loaded MER for date " + localdate);
 		} else {
 			if (merfetch.error() == null) {
