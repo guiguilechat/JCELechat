@@ -17,7 +17,7 @@ services:
       container_name: eveproxy-tomcat
       depends_on:
          - postgres
-      image: glechat/eveproxy:7.10.6
+      image: glechat/eveproxy:7.11.0
       environment:
          - SPRING_DATASOURCE_PASSWORD=eveproxy
          - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/eveproxy
