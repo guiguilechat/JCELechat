@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.mer.services;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.time.Instant;
 import java.time.OffsetDateTime;
@@ -28,7 +29,7 @@ public class KillService {
 	}
 
 	public static record KillStats(Instant periodStart, long nbKills, double totalIskLost, double medianIskLost,
-			double minIskLost) {
+			double minIskLost) implements Serializable {
 
 		public KillStats(Object[] line) {
 			this(castInstant(line[0]),

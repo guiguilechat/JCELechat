@@ -2,39 +2,43 @@
 # the postgres has its admin access open (port 45432)
 
 
-version: "3.8"
+version: '3.8'
 services:
    postgres:
       container_name: eveproxy-postgres
-      image: 'postgres:16.0-alpine'
+      image: postgres:16.0-alpine
       environment:
-         - POSTGRES_USER=eveproxy
-         - POSTGRES_PASSWORD=eveproxy
+      - POSTGRES_USER=eveproxy
+      - POSTGRES_PASSWORD=eveproxy
       ports:
-         - "45432:5432"
+      - 45432:5432
       restart: unless-stopped
+      shm_size: '512mb'# actually MB
    tomcat:
       container_name: eveproxy-tomcat
       depends_on:
-         - postgres
+      - postgres
       image: glechat/eveproxy:7.11.0
       environment:
-         - SPRING_DATASOURCE_PASSWORD=eveproxy
-         - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/eveproxy
-         - SPRING_DATASOURCE_USERNAME=eveproxy
-         - SPRING_JPA_HIBERNATE_DDL_AUTO=update
-         - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_BATCH_SIZE=100
-         - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
-         - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
- # properties of the app
-         - EVEPROXY_SYNC_KILLPAGESIZE=100000
-         # the two following reduce the memory footprint from loading MER in memory : only fetch one MER at a time, but do it every 30s
-         - MER_UPDATER_FETCHPERIOD=30000
-         - MER_UPDATER_FETCHSIZE=1
+      - SPRING_DATASOURCE_PASSWORD=eveproxy
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/eveproxy
+      - SPRING_DATASOURCE_USERNAME=eveproxy
+# hibernate
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_BATCH_SIZE=100
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
+# use memory cache
+      - SPRING_CACHE_TYPE=simple
+# properties of the app
+      - EVEPROXY_SYNC_KILLPAGESIZE=100000
+# the two following reduce the memory footprint from loading MER in memory : only fetch one MER at a time, but do it every 30s
+      - MER_UPDATER_FETCHPERIOD=30000
+      - MER_UPDATER_FETCHSIZE=1
       ports:
-         - "8080:8080"
+      - 8080:8080
       restart: unless-stopped
       deploy:
          resources:
-           limits:
-             memory: 4000M
+            limits:
+               memory: 4000M
