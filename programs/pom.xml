@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat</groupId>
 		<artifactId>jcelechat</artifactId>
-		<version>7.12.0</version>
+		<version>7.13.0</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat</groupId>
 	<artifactId>programs</artifactId>
