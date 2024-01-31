@@ -1,10 +1,16 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
+import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.DoubleStream;
 
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.JFreeChart;
+import org.jfree.data.xy.XYDataItem;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.SellStat;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -96,11 +104,6 @@ public class MarketRestController {
 		}
 	}
 
-	@GetMapping("/jita/byTypeId/{typeId}")
-	public ResponseEntity<?> jitaByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
-		return byLocationByType(RegionLineService.JITAIV_ID, typeId, accept);
-	}
-
 	@GetMapping("/byRegionId/{regionId}/byTypeId/{typeId}")
 	public ResponseEntity<?> byRegionByType(@PathVariable int regionId, @PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
@@ -115,6 +118,30 @@ public class MarketRestController {
 		List<RegionLine> bos = rlService.forLocation(locationId, typeId, true);
 		List<RegionLine> sos = rlService.forLocation(locationId, typeId, false);
 		return makeMarketStatsResponse(typeId, null, locationId, bos, sos, accept);
+	}
+
+	@GetMapping("/jita/byTypeId/{typeId}")
+	public ResponseEntity<?> jitaByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+		return byLocationByType(RegionLineService.JITAIV_ID, typeId, accept);
+	}
+
+	@GetMapping("/byLocationId/{locationId}/byTypeId/{typeId}/chart")
+	public void chartbyLocationByType(@PathVariable long locationId, @PathVariable int typeId,
+			HttpServletResponse response, @RequestParam Optional<String> accept) throws IOException {
+		XYSeriesCollection ds = new XYSeriesCollection();
+		XYSeries series = new XYSeries("cumulative value");
+		for (SellStat ss : rlService.sellGain(locationId, typeId)) {
+			series.add(new XYDataItem(ss.cumulQtty(), ss.cumulValue() / 1000000));
+		}
+		ds.addSeries(series);
+		JFreeChart chart = ChartFactory.createXYLineChart(null, "volume", "M isk", ds);
+		RestControllerHelper.addResponseChart(response, chart, accept);
+	}
+
+	@GetMapping("/jita/byTypeId/{typeId}/chart")
+	public void chartJitaByType(@PathVariable int typeId,
+			HttpServletResponse response, @RequestParam Optional<String> accept) throws IOException {
+		chartbyLocationByType(RegionLineService.JITAIV_ID, typeId, response, accept);
 	}
 
 	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,

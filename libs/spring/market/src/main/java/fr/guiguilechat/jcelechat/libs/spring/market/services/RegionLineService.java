@@ -1,5 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.market.services;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,8 +11,8 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.RegionLineRepository;
 
 @Service
@@ -46,7 +49,7 @@ public class RegionLineService {
 	 */
 	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<RegionLine> forLocation(long locationId, int type_id, boolean isBuyOrder) {
-		return repo.findByLocationIdAndTypeIdAndIsBuyOrder(locationId, type_id, isBuyOrder);
+		return repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, type_id, isBuyOrder);
 	}
 
 	/**
@@ -57,7 +60,7 @@ public class RegionLineService {
 	 */
 	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<RegionLine> forRegion(int regionId, int type_id, boolean isBuyOrder) {
-		return repo.findByRegionIdAndTypeIdAndIsBuyOrder(regionId, type_id, isBuyOrder);
+		return repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder);
 	}
 
 	record OfferLocation(int regionId, long locationID, int typeId, double bestPrice) {
@@ -72,6 +75,34 @@ public class RegionLineService {
 	public List<OfferLocation> buyLocations(int typeId) {
 		return repo.findBuyOfferLocations(typeId).stream()
 				.map(arr -> new OfferLocation((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
+	}
+
+	public static record SellStat(long qtty, double price, long cumulQtty, double cumulValue) implements Serializable {
+	}
+
+	public List<SellStat> sellGain(long locationId, int typeId) {
+		List<RegionLine> sos = repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, typeId, false);
+		List<RegionLine> bos = new ArrayList<>(
+				repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, typeId, true));
+		Collections.reverse(bos);
+		ArrayList<SellStat> ret = new ArrayList<>();
+		long cumulQtty = 0;
+		double cumulValue = 0.0;
+		for (RegionLine rl : sos) {
+			cumulQtty += rl.getOrder().volume_remain;
+			cumulValue += rl.getOrder().volume_remain * rl.getOrder().price;
+			SellStat add = new SellStat(-rl.getOrder().volume_remain, -rl.getOrder().price, -cumulQtty, cumulValue);
+			ret.add(add);
+		}
+		cumulQtty = 0;
+		cumulValue = 0.0;
+		for (RegionLine rl : bos) {
+			cumulQtty += rl.getOrder().volume_remain;
+			cumulValue += rl.getOrder().volume_remain * rl.getOrder().price;
+			SellStat add = new SellStat(rl.getOrder().volume_remain, rl.getOrder().price, cumulQtty, cumulValue);
+			ret.add(add);
+		}
+		return ret;
 	}
 
 }

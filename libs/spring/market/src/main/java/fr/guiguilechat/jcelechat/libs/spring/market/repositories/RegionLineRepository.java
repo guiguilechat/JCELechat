@@ -25,7 +25,7 @@ where
 order by
 	line.order.price
 """)
-	public List<RegionLine> findByLocationIdAndTypeIdAndIsBuyOrder(
+	public List<RegionLine> findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(
 			@Param("locationId") long locationId,
 			@Param("typeId") int typeId,
 			@Param("isBuyOrder") boolean isBuyOrder);
@@ -42,7 +42,7 @@ where
 order by
 	line.order.price
 """)
-	public List<RegionLine> findByRegionIdAndTypeIdAndIsBuyOrder(
+	public List<RegionLine> findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(
 			@Param("regionId") long regionId,
 			@Param("typeId") int typeId,
 			@Param("isBuyOrder") boolean isBuyOrder);

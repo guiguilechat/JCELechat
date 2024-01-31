@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
 import java.awt.Color;
-import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.time.Instant;
 import java.time.OffsetDateTime;
@@ -17,7 +16,6 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import org.jfree.chart.ChartUtils;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.DateAxis;
 import org.jfree.chart.axis.NumberAxis;
@@ -31,7 +29,6 @@ import org.jfree.data.time.TimeSeriesCollection;
 import org.jfree.data.time.Week;
 import org.jfree.data.time.Year;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -340,7 +337,7 @@ public class MerKillsRestController {
 		List<KillStats> stats = typeFilter == TYPES_FILTER.ERROR ? Collections.emptyList()
 				: ap.stats(resolved.typeIds(), killService);
 		JFreeChart chart = drawChart(stats, "kills of " + resolved.name() + " by " + ap.name().toLowerCase(), ap);
-		addResponseChart(response, chart, accept);
+		RestControllerHelper.addResponseChart(response, chart, accept);
 	}
 
 	static JFreeChart drawChart(List<KillStats> stats, String title, AGGREG_PERIOD by) {
@@ -394,22 +391,6 @@ public class MerKillsRestController {
 		chart.setBackgroundPaint(Color.WHITE);
 
 		return chart;
-	}
-
-	void addResponseChart(
-			HttpServletResponse response, JFreeChart chart, Optional<String> accept) throws IOException {
-		switch (accept.orElse("png").toLowerCase()) {
-			case "jpg":
-			case "jpeg":
-				response.setContentType(MediaType.IMAGE_JPEG_VALUE);
-				ChartUtils.writeBufferedImageAsJPEG(response.getOutputStream(),
-						chart.createBufferedImage(2000, 1000, BufferedImage.TYPE_INT_RGB, null));
-			break;
-			case "png":
-			default:
-				response.setContentType(MediaType.IMAGE_PNG_VALUE);
-				ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
-		}
 	}
 
 	@GetMapping("/{filterBy}/{filter}/detail")
@@ -466,7 +447,7 @@ public class MerKillsRestController {
 		JFreeChart chart = drawChart(statsByType,
 				det.legend + " for " + resolved.name() + ", by " + ap.name().toLowerCase(), ap,
 				det);
-		addResponseChart(response, chart, accept);
+		RestControllerHelper.addResponseChart(response, chart, accept);
 	}
 
 	/**
