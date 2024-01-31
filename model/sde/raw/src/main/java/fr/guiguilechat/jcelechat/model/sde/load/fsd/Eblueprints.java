@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.load.fsd;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
@@ -42,6 +44,15 @@ public class Eblueprints {
 		public int level;
 	}
 
+	public static enum ActivityType {
+		copying,
+		invention,
+		manufacturing,
+		reaction,
+		research_material,
+		research_time
+	}
+
 	public BPActivities activities = new BPActivities();
 
 	public static class BPActivities {
@@ -51,6 +62,10 @@ public class Eblueprints {
 			public ArrayList<Material> products = new ArrayList<>();
 			public ArrayList<Skill> skills = new ArrayList<>();
 			public int time;
+
+			public boolean active() {
+				return time > 0 || !materials.isEmpty() || !products.isEmpty() || !skills.isEmpty();
+			}
 		}
 
 		public Activity copying = new Activity();
@@ -61,39 +76,55 @@ public class Eblueprints {
 		public Activity research_material = new Activity();
 		public Activity research_time = new Activity();
 
+		public Activity activity(ActivityType at) {
+			return switch (at) {
+				case copying -> copying;
+				case invention -> invention;
+				case manufacturing -> manufacturing;
+				case reaction -> reaction;
+				case research_material -> research_material;
+				case research_time -> research_time;
+						default ->
+					throw new IllegalArgumentException("Unexpected value: " + at);
+
+			};
+		}
+
 	}
 
-	@SuppressWarnings("unchecked")
 	public static synchronized LinkedHashMap<Integer, Eblueprints> load() {
 		if (cache == null) {
-			SDECache.INSTANCE.donwloadSDE();
-
-			Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
-
-				@Override
-				protected Construct getConstructor(Node node) {
-					if (node.getNodeId() == NodeId.mapping) {
-						MappingNode mn = (MappingNode) node;
-						if (mn.getValue().size() > 0) {
-							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter(s -> "blueprintTypeID".equals(s)).findAny().isPresent()) {
-								node.setType(Eblueprints.class);
-							}
-						}
-					}
-					Construct ret = super.getConstructor(node);
-					return ret;
-				}
-			};
-			Yaml yaml = SDECache.yaml(cons);
 			try {
-				cache = yaml.loadAs(SDECache.fileReader(FILE),
-						LinkedHashMap.class);
+				cache = from(new FileInputStream(FILE));
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
 		}
 		return cache;
+	}
+
+	@SuppressWarnings("unchecked")
+	public static LinkedHashMap<Integer, Eblueprints> from(InputStream is) {
+
+		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
+
+			@Override
+			protected Construct getConstructor(Node node) {
+				if (node.getNodeId() == NodeId.mapping) {
+					MappingNode mn = (MappingNode) node;
+					if (mn.getValue().size() > 0) {
+						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+								.filter("blueprintTypeID"::equals).findAny().isPresent()) {
+							node.setType(Eblueprints.class);
+						}
+					}
+				}
+				Construct ret = super.getConstructor(node);
+				return ret;
+			}
+		};
+		Yaml yaml = SDECache.yaml(cons);
+		return yaml.loadAs(is, LinkedHashMap.class);
 	}
 
 	@Override

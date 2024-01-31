@@ -22,6 +22,14 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Product;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.SkillReq;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.BlueprintActivityService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.MaterialService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.ProductService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.SkillReqService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Category;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Group;
@@ -46,6 +54,9 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult.STATUS;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache.SDEDownload;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
@@ -65,6 +76,9 @@ public class SDEUpdateService {
 	private AttributeService attributeService;
 
 	@Autowired
+	private BlueprintActivityService blueprintActivityService;
+
+	@Autowired
 	private CategoryService categoryService;
 
 	@Autowired
@@ -74,7 +88,16 @@ public class SDEUpdateService {
 	private GroupService groupService;
 
 	@Autowired
+	private MaterialService materialService;
+
+	@Autowired
+	private ProductService productService;
+
+	@Autowired
 	private RegionService regionService;
+
+	@Autowired
+	private SkillReqService skillService;
 
 	@Autowired
 	private SolarSystemService solarsystemService;
@@ -167,6 +190,7 @@ public class SDEUpdateService {
 
 	static class UpdateContext {
 		public final List<Category> categories = new ArrayList<>();
+		public final List<Eblueprints> blueprints = new ArrayList<>();
 		public final List<GroupData> groups = new ArrayList<>();
 		public final List<Attribute> attributes = new ArrayList<>();
 		public final List<TypeAttributeData> typeAttributes = new ArrayList<>();
@@ -202,7 +226,8 @@ public class SDEUpdateService {
 				+ context.groups.size() + " groups, "
 				+ context.types.size() + " types, "
 				+ context.attributes.size() + " attributes, "
-				+ context.typeAttributes.size() + " typeAttributes");
+				+ context.typeAttributes.size() + " typeAttributes, "
+				+ context.blueprints.size() + " blueprints");
 		log.info(" loaded universe : "
 				+ context.regions.size() + " regions, "
 				+ context.constels.size() + " constellations, "
@@ -220,6 +245,10 @@ public class SDEUpdateService {
 		constellationService.clear();
 		regionService.clear();
 
+		materialService.clear();
+		productService.clear();
+		skillService.clear();
+		blueprintActivityService.clear();
 		typeattributeService.clear();
 		attributeService.clear();
 		typeService.clear();
@@ -253,6 +282,78 @@ public class SDEUpdateService {
 				.map(tad -> TypeAttribute.from(typesById.get(tad.typeId()), attributesById.get(tad.attributeId()), tad.value()))
 				.toList());
 
+		// blueprints
+		// first create all the activities that exist for each blueprint, store them by
+		// bp id, then deduce the material, products, skills entries for those
+		// activities
+
+		Map<Integer, BlueprintActivity> copyingByBpId = blueprintActivityService.saveAll(
+				context.blueprints.stream()
+						.filter(bp -> bp.activities.copying.active())
+						.map(ebp -> BlueprintActivity.of(ebp, ActivityType.copying, typesById.get(ebp.blueprintTypeID)))
+						.toList())
+				.stream().collect(Collectors.toMap(bpa -> bpa.getType().getTypeId(), bpa -> bpa));
+
+		Map<Integer, BlueprintActivity> inventionByBpId = blueprintActivityService.saveAll(
+				context.blueprints.stream()
+						.filter(bp -> bp.activities.invention.active())
+						.map(ebp -> BlueprintActivity.of(ebp, ActivityType.invention, typesById.get(ebp.blueprintTypeID)))
+						.toList())
+				.stream().collect(Collectors.toMap(bpa -> bpa.getType().getTypeId(), bpa -> bpa));
+
+		Map<Integer, BlueprintActivity> manufacturingByBpId = blueprintActivityService.saveAll(
+				context.blueprints.stream()
+						.filter(bp -> bp.activities.manufacturing.active())
+						.map(ebp -> BlueprintActivity.of(ebp, ActivityType.manufacturing,
+								typesById.get(ebp.blueprintTypeID)))
+						.toList())
+				.stream().collect(Collectors.toMap(bpa -> bpa.getType().getTypeId(), bpa -> bpa));
+
+		Map<Integer, BlueprintActivity> reactionByBpId = blueprintActivityService.saveAll(
+				context.blueprints.stream()
+						.filter(bp -> bp.activities.reaction.active())
+						.map(ebp -> BlueprintActivity.of(ebp, ActivityType.reaction,
+								typesById.get(ebp.blueprintTypeID)))
+						.toList())
+				.stream().collect(Collectors.toMap(bpa -> bpa.getType().getTypeId(), bpa -> bpa));
+
+		Map<Integer, BlueprintActivity> researchMatByBpId = blueprintActivityService.saveAll(
+				context.blueprints.stream()
+						.filter(bp -> bp.activities.research_material.active())
+						.map(ebp -> BlueprintActivity.of(ebp, ActivityType.research_material,
+								typesById.get(ebp.blueprintTypeID)))
+						.toList())
+				.stream().collect(Collectors.toMap(bpa -> bpa.getType().getTypeId(), bpa -> bpa));
+
+		Map<Integer, BlueprintActivity> researchTimeByBpId = blueprintActivityService.saveAll(
+				context.blueprints.stream()
+						.filter(bp -> bp.activities.research_time.active())
+						.map(ebp -> BlueprintActivity.of(ebp, ActivityType.research_time,
+								typesById.get(ebp.blueprintTypeID)))
+						.toList())
+				.stream().collect(Collectors.toMap(bpa -> bpa.getType().getTypeId(), bpa -> bpa));
+
+		List<Material> newMaterials = new ArrayList<>();
+		List<Product> newProducts = new ArrayList<>();
+		List<SkillReq> newSkills = new ArrayList<>();
+		for (Eblueprints ebp : context.blueprints) {
+			addActivityData(copyingByBpId.get(ebp.blueprintTypeID), ebp.activities.copying, typesById, newMaterials,
+					newProducts, newSkills);
+			addActivityData(inventionByBpId.get(ebp.blueprintTypeID), ebp.activities.invention, typesById,
+					newMaterials, newProducts, newSkills);
+			addActivityData(manufacturingByBpId.get(ebp.blueprintTypeID), ebp.activities.manufacturing, typesById,
+					newMaterials, newProducts, newSkills);
+			addActivityData(reactionByBpId.get(ebp.blueprintTypeID), ebp.activities.reaction, typesById,
+					newMaterials, newProducts, newSkills);
+			addActivityData(researchMatByBpId.get(ebp.blueprintTypeID), ebp.activities.research_material, typesById,
+					newMaterials, newProducts, newSkills);
+			addActivityData(researchTimeByBpId.get(ebp.blueprintTypeID), ebp.activities.research_time, typesById,
+					newMaterials, newProducts, newSkills);
+		}
+
+		materialService.saveAll(newMaterials);
+		productService.saveAll(newProducts);
+		skillService.saveAll(newSkills);
 		// universe
 
 		Map<String, Region> regionByName = regionService.saveAll(context.regions.stream()
@@ -289,6 +390,23 @@ public class SDEUpdateService {
 
 	}
 
+	void addActivityData(
+			BlueprintActivity bpa,
+			Activity act,
+			Map<Integer, Type> typesById,
+			List<Material> newMaterials,
+			List<Product> newProducts,
+			List<SkillReq> newSkills) {
+		if (bpa != null) {
+			newMaterials.addAll(act.materials.stream()
+					.map(m -> Material.of(bpa, typesById.get(m.typeID), m.quantity)).toList());
+			newProducts.addAll(act.products.stream()
+					.map(p -> Product.of(bpa, typesById.get(p.typeID), p.probability, p.quantity)).toList());
+			newSkills.addAll(act.skills.stream()
+					.map(s -> SkillReq.of(bpa, typesById.get(s.typeID), s.level)).toList());
+		}
+	}
+
 	static final Pattern ENTRYNAME_SOLARSYSTEM_PATTERN = Pattern.compile(
 			"sde/fsd/universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/solarsystem\\.staticdata");
 
@@ -309,6 +427,9 @@ public class SDEUpdateService {
 
 	static final Pattern ENTRYNAME_ATTRIBUTES_PATTERN = Pattern.compile(
 			"sde/fsd/dogmaAttributes\\.yaml");
+
+	static final Pattern ENTRYNAME_BLUEPRINTS_PATTERN = Pattern.compile(
+			"sde/fsd/blueprints\\.yaml");
 
 	static final Pattern ENTRYNAME_TYPEATTRIBUTES_PATTERN = Pattern.compile(
 			"sde/fsd/typeDogma\\.yaml");
@@ -354,7 +475,15 @@ public class SDEUpdateService {
 			appyTypeAttributes(context, is);
 			return;
 		}
+		if (ENTRYNAME_BLUEPRINTS_PATTERN.matcher(name).matches()) {
+			appyBlueprints(context, is);
+			return;
+		}
 		// log.info("ignore entry " + name);
+	}
+
+	private void appyBlueprints(UpdateContext context, InputStream is) {
+		context.blueprints.addAll(Eblueprints.from(is).values());
 	}
 
 	private void appyCategories(UpdateContext context, InputStream is) {
