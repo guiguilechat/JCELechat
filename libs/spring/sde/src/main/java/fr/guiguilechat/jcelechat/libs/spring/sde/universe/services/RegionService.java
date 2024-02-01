@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.universe.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,6 +25,14 @@ public class RegionService {
 
 	public List<Region> byUniverse(String universe) {
 		return repo.findByUniverse(universe);
+	}
+
+	public Optional<Region> byId(int regionId) {
+		return repo.findById(regionId);
+	}
+
+	public List<Region> byName(String name) {
+		return repo.findByNameEqualsIgnoreCase(name);
 	}
 
 }

@@ -10,4 +10,6 @@ public interface RegionRepository extends JpaRepository<Region, Integer> {
 
 	public List<Region> findByUniverse(String universe);
 
+	public List<Region> findByNameEqualsIgnoreCase(String name);
+
 }

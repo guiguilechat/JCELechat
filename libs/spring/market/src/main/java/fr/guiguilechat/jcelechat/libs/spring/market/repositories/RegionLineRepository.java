@@ -47,6 +47,59 @@ order by
 			@Param("typeId") int typeId,
 			@Param("isBuyOrder") boolean isBuyOrder);
 
+	// need to query since fields with _ that can't be used in jpa
+	@Query("""
+select line
+from
+	EsiMarketRegionLine line
+where
+	line.order.type_id=:typeId
+	and line.order.is_buy_order=:isBuyOrder
+order by
+	line.order.price
+""")
+	public List<RegionLine> findByTypeIdAndIsBuyOrderOrderByPriceAsc(
+			@Param("typeId") int typeId,
+			@Param("isBuyOrder") boolean isBuyOrder);
+
+	// need to query since fields with _ that can't be used in jpa
+	@Query("""
+select line
+from
+	EsiMarketRegionLine line
+where
+	line.region.regionId=:regionId
+	and line.order.type_id in :typeIds
+order by
+	line.order.price
+""")
+	public List<RegionLine> findByRegionIdAndTypeIdInOrderByPriceAsc(int regionId, List<Integer> typeIds);
+
+	// need to query since fields with _ that can't be used in jpa
+	@Query("""
+select line
+from
+	EsiMarketRegionLine line
+where
+	line.order.location_id=:locationId
+	and line.order.type_id in :typeIds
+order by
+	line.order.price
+""")
+	public List<RegionLine> findByLocationIdAndTypeIdInOrderByPriceAsc(long locationId, List<Integer> typeIds);
+
+	// need to query since fields with _ that can't be used in jpa
+	@Query("""
+select line
+from
+	EsiMarketRegionLine line
+where
+	line.order.type_id in :typeIds
+order by
+	line.order.price
+""")
+	public List<RegionLine> findByTypeIdInOrderByPriceAsc(List<Integer> typeIds);
+
 	/**
 	 * @return lines grouped in format (regionId, location_id, min price)
 	 */

@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
 import java.awt.Color;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
@@ -29,6 +30,8 @@ import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.SellStat;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
@@ -42,13 +45,113 @@ public class MarketRestController {
 	@Autowired
 	private TypeService typeService;
 
-	record PriceFilter(int typeId, Integer regionId, Long locationId) {
+	@Autowired
+	private RegionService regionService;
+
+	public static record PlaceFilter(Region region, long locationId) implements Serializable {
+		public static PlaceFilter ofRegion(Region region) {
+			return new PlaceFilter(region, -1);
+		}
+
+		public static PlaceFilter ofLocation(long locationId) {
+			return new PlaceFilter(null, locationId);
+		}
+
+		public Integer regionId() {
+			return region() == null ? null : region().getRegionId();
+		}
+
+		public List<RegionLine> bos(RegionLineService rlService, int typeId) {
+			if (locationId() > 0) {
+				return rlService.forLocation(locationId, typeId, true);
+			}
+			if (region() != null) {
+				return rlService.forRegion(region().getRegionId(), typeId, true);
+			}
+			return rlService.forAll(typeId, true);
+		}
+
+		public List<RegionLine> sos(RegionLineService rlService, int typeId) {
+			if (locationId() > 0) {
+				return rlService.forLocation(locationId, typeId, false);
+			}
+			if (region() != null) {
+				return rlService.forRegion(region().getRegionId(), typeId, false);
+			}
+			return rlService.forAll(typeId, false);
+		}
+
+		List<SellStat> gains(RegionLineService rlService, int typeId) {
+			if (locationId() > 0) {
+				return rlService.sellLocationGain(locationId(), typeId);
+			}
+			if (region() != null) {
+				return rlService.sellRegionGain(region().getRegionId(), typeId);
+			}
+			return rlService.sellAllGain(typeId);
+		}
+
+		public String toLegend() {
+			if (locationId() > 0) {
+				return "locationId=" + locationId();
+			}
+			if (region() != null) {
+				return "region " + region().getName();
+			}
+			return "all";
+		}
+
 	}
 
-	record PriceLimitData(
+	public PlaceFilter placeFilter(String placeFiltering, String placeFilter) {
+		if (placeFiltering == null || placeFilter == null || placeFilter.equalsIgnoreCase("all")) {
+			return new PlaceFilter(null, -1);
+		}
+		Region reg = null;
+		long locationId = -1;
+		switch (placeFiltering.toLowerCase()) {
+			case "rid":
+			case "regionid":
+			case "ri":
+				reg = regionService.byId(Integer.parseInt(placeFilter)).orElse(null);
+			break;
+			case "rname":
+			case "rn":
+			case "regionname":
+				List<Region> regs = regionService.byName(placeFilter);
+				reg = regs.isEmpty() ? null : regs.get(0);
+			break;
+			case "lid":
+			case "li":
+			case "locationid":
+				locationId = Long.parseLong(placeFilter);
+			break;
+		}
+		return new PlaceFilter(reg, locationId);
+	}
+
+	public List<Type> typesFilter(String typeFiltering, String typeFilter) {
+		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
+			case "groupname", "gname", "gn" -> typeService.byGroupName(typeFilter);
+			case "groupid", "gid" -> typeService.byGroupId(Integer.parseInt(typeFilter));
+			case "typeid", "id", "tid" -> List.of(typeService.byId(Integer.parseInt(typeFilter)).orElse(null));
+			case "name", "tname", "tn" -> typeService.byName(typeFilter);
+			default -> typeService.byName(typeFilter);
+		};
+	}
+
+	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,
+			List<RegionLine> bos, List<RegionLine> sos, Optional<String> accept) {
+		return RestControllerHelper.makeResponse(TypeMarketStats.of(typeId, regionId, locationId, bos, sos), accept);
+	}
+
+	static record PriceLimitData(
 			long volume,
 			Double massPrice,
 			Double avgPrice) {
+	}
+
+	static record PriceFilter(int typeId, Integer regionId, Long locationId) {
 	}
 
 	@RequiredArgsConstructor
@@ -88,7 +191,7 @@ public class MarketRestController {
 		}
 	}
 
-	record TypeMarketStats(PriceFilter filter, List<PriceLimitData> sellorders, List<PriceLimitData> buyorders) {
+	static record TypeMarketStats(PriceFilter filter, List<PriceLimitData> sellorders, List<PriceLimitData> buyorders) {
 
 		static TypeMarketStats of(int typeId, Integer regionId, Long locationId, List<RegionLine> bos,
 				List<RegionLine> sos) {
@@ -114,48 +217,37 @@ public class MarketRestController {
 		}
 	}
 
-	@GetMapping("/byRegionId/{regionId}/byTypeId/{typeId}")
-	public ResponseEntity<?> byRegionByType(@PathVariable int regionId, @PathVariable int typeId,
+	@GetMapping("/{placeFiltering}/{placeFilter}/typeId/{typeId}")
+	public ResponseEntity<?> byPlaceByType(@PathVariable String placeFiltering, @PathVariable String placeFilter,
+			@PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
-		List<RegionLine> bos = rlService.forRegion(regionId, typeId, true);
-		List<RegionLine> sos = rlService.forRegion(regionId, typeId, false);
-		return makeMarketStatsResponse(typeId, regionId, null, bos, sos, accept);
+
+		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
+		List<RegionLine> bos = place.bos(rlService, typeId);
+		List<RegionLine> sos = place.sos(rlService, typeId);
+		return makeMarketStatsResponse(typeId, place.regionId(), null, bos, sos, accept);
 	}
 
-	@GetMapping("/byLocationId/{locationId}/byTypeId/{typeId}")
-	public ResponseEntity<?> byLocationByType(@PathVariable long locationId, @PathVariable int typeId,
-			@RequestParam Optional<String> accept) {
-		List<RegionLine> bos = rlService.forLocation(locationId, typeId, true);
-		List<RegionLine> sos = rlService.forLocation(locationId, typeId, false);
-		return makeMarketStatsResponse(typeId, null, locationId, bos, sos, accept);
-	}
-
-	@GetMapping("/jita/byTypeId/{typeId}")
+	@GetMapping("/jita/typeId/{typeId}")
 	public ResponseEntity<?> jitaByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
-		return byLocationByType(RegionLineService.JITAIV_ID, typeId, accept);
+		return byPlaceByType("lid", "" + RegionLineService.JITAIV_ID, typeId, accept);
 	}
 
-	@GetMapping("/byLocationId/{locationId}/{filterBy}/{filter}/chart")
-	public void chartbyLocationByType(@PathVariable long locationId, @PathVariable String filterBy,
-			@PathVariable String filter,
+	@GetMapping("/{placeFiltering}/{placeFilter}/{typeFiltering}/{typeFilter}/chart")
+	public void chartbyLocationByType(@PathVariable String placeFiltering, @PathVariable String placeFilter,
+			@PathVariable String typeFiltering,	@PathVariable String typeFilter,
 			HttpServletResponse response,
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> bcolor) throws IOException {
-		List<Type> types = null;
-		types = switch (Objects.requireNonNullElse(filterBy, "name").toLowerCase()) {
-			case "groupname", "gname", "gn" -> typeService.byGroupName(filter);
-			case "groupid", "gid" -> typeService.byGroupId(Integer.parseInt(filter));
-			case "typeid", "id", "tid" -> List.of(typeService.byId(Integer.parseInt(filter)).orElse(null));
-			case "name", "tname", "tn" -> typeService.byName(filter);
-			default -> typeService.byName(filter);
-		};
+		List<Type> types = typesFilter(typeFiltering, typeFilter);
+		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
 
 		XYSeriesCollection ds = new XYSeriesCollection();
 		for (Type type : types) {
 			if (type == null) {
 				continue;
 			}
-			List<SellStat> gains = rlService.sellGain(locationId, type.getTypeId());
+			List<SellStat> gains = place.gains(rlService, type.getTypeId());
 			if (gains.isEmpty()) {
 				continue;
 			}
@@ -173,7 +265,7 @@ public class MarketRestController {
 		renderer.setUseFillPaint(true);
 		XYPlot plot = new XYPlot(ds, xAxis, yAxis, renderer);
 		plot.setOrientation(PlotOrientation.VERTICAL);
-		JFreeChart chart = new JFreeChart(null, JFreeChart.DEFAULT_TITLE_FONT,
+		JFreeChart chart = new JFreeChart("sell value for " + place.toLegend(), JFreeChart.DEFAULT_TITLE_FONT,
 				plot, true);
 		try {
 			plot.setBackgroundPaint((Color) Color.class.getField(bcolor.orElse("white")).get(null));
@@ -184,24 +276,20 @@ public class MarketRestController {
 		RestControllerHelper.addResponseChart(response, chart, accept);
 	}
 
-	@GetMapping("/jita/{filterBy}/{filter}/chart")
-	public void chartJitaByType(@PathVariable String filterBy, @PathVariable String filter,
+	@GetMapping("/jita/{typeFiltering}/{typeFilter}/chart")
+	public void chartJitaByType(@PathVariable String typeFiltering,
+			@PathVariable String typeFilter,
 			HttpServletResponse response, @RequestParam Optional<String> accept,
 			@RequestParam Optional<String> bcolor) throws IOException {
-		chartbyLocationByType(RegionLineService.JITAIV_ID, filterBy, filter, response, accept, bcolor);
+		chartbyLocationByType("lid", "" + RegionLineService.JITAIV_ID, typeFiltering, typeFilter, response, accept, bcolor);
 	}
 
-	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,
-			List<RegionLine> bos, List<RegionLine> sos, Optional<String> accept) {
-		return RestControllerHelper.makeResponse(TypeMarketStats.of(typeId, regionId, locationId, bos, sos), accept);
-	}
-
-	@GetMapping("/byTypeId/{typeId}/so")
+	@GetMapping("/sos/byTypeId/{typeId}")
 	public ResponseEntity<?> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.sellLocations(typeId), accept);
 	}
 
-	@GetMapping("/byTypeId/{typeId}/bo")
+	@GetMapping("/bos/byTypeId/{typeId}")
 	public ResponseEntity<?> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.buyLocations(typeId), accept);
 	}
