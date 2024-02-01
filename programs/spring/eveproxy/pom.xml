@@ -94,7 +94,7 @@
 						<name>glechat/${project.artifactId}:${project.version}</name>
 						<publish>true</publish>
 						<buildpacks>
-<!--							 ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
+							<!--							 ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
 							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
 							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>
 						</buildpacks>
@@ -108,10 +108,23 @@
 				</configuration>
 				<executions>
 					<execution>
+						<id>build-version</id>
 						<goals>
 							<goal>build-image-no-fork</goal>
 						</goals>
 						<phase>deploy</phase>
+					</execution>
+					<execution>
+						<id>build-latest</id>
+						<goals>
+							<goal>build-image-no-fork</goal>
+						</goals>
+						<phase>deploy</phase>
+						<configuration>
+							<image>
+								<name>glechat/${project.artifactId}</name>
+							</image>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
