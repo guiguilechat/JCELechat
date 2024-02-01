@@ -11,7 +11,7 @@ services:
       ports:
       - 45432:5432
       restart: unless-stopped
-      shm_size: '512mb'# actually MB
+      shm_size: 512mb # actually MB
    redis:
       container_name: eveproxy-redis
       deploy:
@@ -24,6 +24,7 @@ services:
       container_name: eveproxy-tomcat
       depends_on:
       - postgres
+      - redis
       image: tomcat:10.1.15
       environment:
       - SPRING_DATA_REDIS_HOST=redis
