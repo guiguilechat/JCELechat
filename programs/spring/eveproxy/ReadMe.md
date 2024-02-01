@@ -5,7 +5,7 @@ This program uses various Eve libs that fetch and store data into a DB to presen
 ## Installation as docker container
 
 An [example docker compose](docker/compose) is provided to start both the tomcat server and a postgresql server.
-The version is fixed so you should modify it to have last eveproxy version.
+The version is latest so some bug may be present, it's not suitable for stable env.
 
 You can start it using 
 
@@ -27,6 +27,8 @@ To purge it (to start them later or not)
 ```bash
 docker container rm eveproxy-tomcat eveproxy-postgres
 ```
+
+Another dockerfile in the same directory contains also a redis instance to delegate the cache to this server. This gives more control over the cache (I guess ?)
 
 ## Installation of working env
 

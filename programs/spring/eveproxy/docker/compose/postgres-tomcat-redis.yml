@@ -33,7 +33,7 @@ services:
          resources:
             limits:
                memory: 4000M
-      image: glechat/eveproxy:7.11.0
+      image: glechat/eveproxy
       environment:
       - SPRING_DATA_REDIS_HOST=redis
       - SPRING_DATA_REDIS_PORT=6379
