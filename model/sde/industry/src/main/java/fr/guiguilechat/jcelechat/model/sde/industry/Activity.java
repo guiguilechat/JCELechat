@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.industry;
 
 public class Activity {
-	
-	public static final double SCC_SURCHARGE_PC=1.5;
+
+	public static final double SCC_SURCHARGE_PC = 4.0;
 	public static final double ALPHA_SURCHARGE_PC=0.25;
-	
+
 /**
- * 
+ *
  * @param bpEIV EIV of the item. That is, the adjusted price of the mats required to build a 0/0 run.
  * @param nbRuns number of runs we start.
  * @param costIndexMult system cost index, base 1
