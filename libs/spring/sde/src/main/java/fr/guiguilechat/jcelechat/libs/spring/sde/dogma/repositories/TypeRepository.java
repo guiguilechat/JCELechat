@@ -10,6 +10,8 @@ public interface TypeRepository extends JpaRepository<Type, Integer> {
 
 	public List<Type> findByGroupGroupId(int groupId);
 
+	public List<Type> findByGroupNameEqualsIgnoreCase(String groupName);
+
 	public List<Type> findByNameEqualsIgnoreCase(String name);
 
 }

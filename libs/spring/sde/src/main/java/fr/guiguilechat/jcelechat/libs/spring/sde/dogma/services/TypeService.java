@@ -27,9 +27,6 @@ public class TypeService {
 		return repo.save(entity);
 	}
 
-	public List<Type> byGroupId(int groupId) {
-		return repo.findByGroupGroupId(groupId);
-	}
 
 	public Optional<Type> byId(int typeId) {
 		return repo.findById(typeId);
@@ -37,5 +34,13 @@ public class TypeService {
 
 	public List<Type> byName(String nameIgnoreCase) {
 		return repo.findByNameEqualsIgnoreCase(nameIgnoreCase);
+	}
+
+	public List<Type> byGroupId(int groupId) {
+		return repo.findByGroupGroupId(groupId);
+	}
+
+	public List<Type> byGroupName(String groupName) {
+		return repo.findByGroupNameEqualsIgnoreCase(groupName);
 	}
 }

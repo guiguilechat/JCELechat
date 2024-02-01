@@ -1,13 +1,19 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
+import java.awt.Color;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.DoubleStream;
 
-import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
+import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.XYItemRenderer;
+import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYDataItem;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
@@ -22,6 +28,8 @@ import org.springframework.web.bind.annotation.RestController;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.SellStat;
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
@@ -31,6 +39,9 @@ public class MarketRestController {
 
 	@Autowired
 	private RegionLineService rlService;
+
+	@Autowired
+	private TypeService typeService;
 
 	record PriceFilter(int typeId, Integer regionId, Long locationId) {
 	}
@@ -125,23 +136,51 @@ public class MarketRestController {
 		return byLocationByType(RegionLineService.JITAIV_ID, typeId, accept);
 	}
 
-	@GetMapping("/byLocationId/{locationId}/byTypeId/{typeId}/chart")
-	public void chartbyLocationByType(@PathVariable long locationId, @PathVariable int typeId,
+	@GetMapping("/byLocationId/{locationId}/{filterBy}/{filter}/chart")
+	public void chartbyLocationByType(@PathVariable long locationId, @PathVariable String filterBy,
+			@PathVariable String filter,
 			HttpServletResponse response, @RequestParam Optional<String> accept) throws IOException {
+		List<Type> types = null;
+		types = switch (Objects.requireNonNullElse(filterBy, "name").toLowerCase()) {
+			case "groupname", "gname", "gn" -> typeService.byGroupName(filter);
+			case "groupid", "gid" -> typeService.byGroupId(Integer.parseInt(filter));
+			case "typeid", "id", "tid" -> List.of(typeService.byId(Integer.parseInt(filter)).orElse(null));
+			case "name", "tname", "tn" -> typeService.byName(filter);
+			default -> typeService.byName(filter);
+		};
+
 		XYSeriesCollection ds = new XYSeriesCollection();
-		XYSeries series = new XYSeries("cumulative value");
-		for (SellStat ss : rlService.sellGain(locationId, typeId)) {
-			series.add(new XYDataItem(ss.cumulQtty(), ss.cumulValue() / 1000000));
+		for (Type type : types) {
+			if (type == null) {
+				continue;
+			}
+			List<SellStat> gains = rlService.sellGain(locationId, type.getTypeId());
+			if (gains.isEmpty()) {
+				continue;
+			}
+			XYSeries series = new XYSeries(type.getName());
+			for (SellStat ss : gains) {
+				series.add(new XYDataItem(ss.cumulQtty(), ss.cumulValue() / 1000000));
+			}
+			series.add(new XYDataItem(0.0, 0.0));
+			ds.addSeries(series);
 		}
-		ds.addSeries(series);
-		JFreeChart chart = ChartFactory.createXYLineChart(null, "volume", "M isk", ds);
+
+		NumberAxis xAxis = new NumberAxis("volume");
+		NumberAxis yAxis = new NumberAxis("M isk");
+		XYItemRenderer renderer = new XYLineAndShapeRenderer(true, true);
+		XYPlot plot = new XYPlot(ds, xAxis, yAxis, renderer);
+		plot.setOrientation(PlotOrientation.VERTICAL);
+		JFreeChart chart = new JFreeChart(null, JFreeChart.DEFAULT_TITLE_FONT,
+				plot, true);
+		chart.setBackgroundPaint(Color.white);
 		RestControllerHelper.addResponseChart(response, chart, accept);
 	}
 
-	@GetMapping("/jita/byTypeId/{typeId}/chart")
-	public void chartJitaByType(@PathVariable int typeId,
+	@GetMapping("/jita/{filterBy}/{filter}/chart")
+	public void chartJitaByType(@PathVariable String filterBy, @PathVariable String filter,
 			HttpServletResponse response, @RequestParam Optional<String> accept) throws IOException {
-		chartbyLocationByType(RegionLineService.JITAIV_ID, typeId, response, accept);
+		chartbyLocationByType(RegionLineService.JITAIV_ID, filterBy, filter, response, accept);
 	}
 
 	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,
