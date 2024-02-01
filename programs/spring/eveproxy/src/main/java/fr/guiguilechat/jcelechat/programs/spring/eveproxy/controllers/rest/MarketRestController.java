@@ -12,7 +12,6 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.renderer.xy.XYItemRenderer;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYDataItem;
 import org.jfree.data.xy.XYSeries;
@@ -139,7 +138,9 @@ public class MarketRestController {
 	@GetMapping("/byLocationId/{locationId}/{filterBy}/{filter}/chart")
 	public void chartbyLocationByType(@PathVariable long locationId, @PathVariable String filterBy,
 			@PathVariable String filter,
-			HttpServletResponse response, @RequestParam Optional<String> accept) throws IOException {
+			HttpServletResponse response,
+			@RequestParam Optional<String> accept,
+			@RequestParam Optional<String> bcolor) throws IOException {
 		List<Type> types = null;
 		types = switch (Objects.requireNonNullElse(filterBy, "name").toLowerCase()) {
 			case "groupname", "gname", "gn" -> typeService.byGroupName(filter);
@@ -168,19 +169,26 @@ public class MarketRestController {
 
 		NumberAxis xAxis = new NumberAxis("volume");
 		NumberAxis yAxis = new NumberAxis("M isk");
-		XYItemRenderer renderer = new XYLineAndShapeRenderer(true, true);
+		XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer(true, true);
+		renderer.setUseFillPaint(true);
 		XYPlot plot = new XYPlot(ds, xAxis, yAxis, renderer);
 		plot.setOrientation(PlotOrientation.VERTICAL);
 		JFreeChart chart = new JFreeChart(null, JFreeChart.DEFAULT_TITLE_FONT,
 				plot, true);
-		chart.setBackgroundPaint(Color.white);
+		try {
+			plot.setBackgroundPaint((Color) Color.class.getField(bcolor.orElse("white")).get(null));
+			chart.setBackgroundPaint((Color) Color.class.getField(bcolor.orElse("white")).get(null));
+		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
+			// no care
+		}
 		RestControllerHelper.addResponseChart(response, chart, accept);
 	}
 
 	@GetMapping("/jita/{filterBy}/{filter}/chart")
 	public void chartJitaByType(@PathVariable String filterBy, @PathVariable String filter,
-			HttpServletResponse response, @RequestParam Optional<String> accept) throws IOException {
-		chartbyLocationByType(RegionLineService.JITAIV_ID, filterBy, filter, response, accept);
+			HttpServletResponse response, @RequestParam Optional<String> accept,
+			@RequestParam Optional<String> bcolor) throws IOException {
+		chartbyLocationByType(RegionLineService.JITAIV_ID, filterBy, filter, response, accept, bcolor);
 	}
 
 	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,
