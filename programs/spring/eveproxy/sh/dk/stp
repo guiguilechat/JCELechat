@@ -2,4 +2,4 @@
 
 # stop and purge the local dev container
 
-docker compose -f docker/postgres/docker-compose.yml down
+docker compose -f docker/postgres/docker-compose.yml stop

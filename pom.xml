@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.guiguilechat</groupId>
 	<artifactId>jcelechat</artifactId>
-	<version>7.13.7</version>
+	<version>7.13.8</version>
 	<packaging>pom</packaging>
 	<name>JCE Lechat</name>
 	<description>Java Compile Eve by Lechat</description>
@@ -109,6 +109,9 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-deploy-plugin</artifactId>
 					<version>3.1.1</version>
+					<configuration>
+						<deployAtEnd>true</deployAtEnd>
+					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>

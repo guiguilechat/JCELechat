@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 		<artifactId>cli</artifactId>
-		<version>7.13.7</version>
+		<version>7.13.8</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs.cli</groupId>
 	<artifactId>gankhistory</artifactId>
