@@ -93,11 +93,11 @@
 						<builder>gcr.io/paketo-buildpacks/builder:full-cf</builder>
 						<name>glechat/${project.artifactId}:${project.version}</name>
 						<publish>true</publish>
-						<buildpacks>
-							<!-- ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
-							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
-							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>
-						</buildpacks>
+<!--						<buildpacks>-->
+<!--							 ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
+<!--							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>-->
+<!--							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>-->
+<!--						</buildpacks>-->
 					</image>
 					<docker>
 						<publishRegistry>
