@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,5 +43,15 @@ public class TypeService {
 
 	public List<Type> byGroupName(String groupName) {
 		return repo.findByGroupNameEqualsIgnoreCase(groupName);
+	}
+
+	public List<Type> typesFilter(String typeFiltering, String typeFilter) {
+		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
+			case "gn", "gname", "groupname" -> byGroupName(typeFilter);
+			case "gi", "gid", "groupid" -> byGroupId(Integer.parseInt(typeFilter));
+			case "id", "ti", "tid", "typeid" -> List.of(byId(Integer.parseInt(typeFilter)).orElse(null));
+			case "name", "tn", "tname" -> byName(typeFilter);
+			default -> byName(typeFilter);
+		};
 	}
 }

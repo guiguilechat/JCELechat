@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -19,7 +20,10 @@ import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.OfferLocation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Product;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.BlueprintActivityService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.ProductService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.BpService2;
 
@@ -34,16 +38,27 @@ public class BPRestController {
 	private BpService2 bpService2;
 
 	@Autowired
+	private ProductService productService;
+
+	@Autowired
 	private TypeService typeService;
 
 	@Autowired
 	private RegionLineService regionLineService;
 
-	public static record BpInfo(int typeId, String name, double eiv, long researchSeconds, String researchTime,
-			Map<Integer, Map<Long, Double>> rid2lid2price) {
+	public static record BpInfo(int typeId, String name, float basePrice, double eiv, long researchSeconds,
+			String researchHuman,
+			Map<ACTIVITY_TYPE, List<Integer>> produces,
+			Map<ACTIVITY_TYPE, List<Integer>> productOf,
+			Map<Integer, Map<Long, Double>> seedRegionLocPrice) {
 
-		BpInfo(int typeId, String name, double eiv, long researchTime, Map<Integer, Map<Long, Double>> rid2lid2price) {
-			this(typeId, name, eiv, researchTime, secondsToDuration(researchTime), rid2lid2price);
+		BpInfo(Type type, double eiv, long researchTime,
+				Map<ACTIVITY_TYPE, List<Integer>> produces,
+				Map<ACTIVITY_TYPE, List<Integer>> productOf,
+				Map<Integer, Map<Long, Double>> rid2lid2price) {
+			this(type.getTypeId(), type.getName(), type.getBasePrice(), eiv, researchTime, secondsToDuration(researchTime),
+					produces, productOf,
+					rid2lid2price);
 		}
 
 		static String secondsToDuration(long seconds) {
@@ -51,17 +66,17 @@ public class BPRestController {
 			if (seconds > 3600 * 24) {
 				int days = (int) (seconds / (3600 * 24));
 				seconds = seconds % (3600 * 24);
-				sb.append(days).append("d");
+				sb.append(days).append("d ");
 			}
 			if (seconds > 3600) {
 				int hours = (int) (seconds / 3600);
 				seconds = seconds % 3600;
-				sb.append(hours).append("h");
+				sb.append(hours).append("h ");
 			}
 			if (seconds > 60) {
 				int minutes = (int) (seconds / 60);
 				seconds = seconds % 60;
-				sb.append(minutes).append("m");
+				sb.append(minutes).append("m ");
 			}
 			sb.append(seconds).append("s");
 			return sb.toString();
@@ -73,7 +88,7 @@ public class BPRestController {
 	public ResponseEntity<?> showInformation(@PathVariable String typeFiltering,
 			@PathVariable String typeFilter,
 			@RequestParam Optional<String> accept) throws IOException {
-		List<BpInfo> ret = RestControllerHelper.typesFilter(typeService, typeFiltering, typeFilter)
+		List<BpInfo> ret = typeService.typesFilter(typeFiltering, typeFilter)
 				.stream().map(type -> {
 					double eiv = bpService2.eiv(type.getTypeId());
 					List<OfferLocation> seeds = type.getMarketGroupID() > 0 ? regionLineService.seedLocations(type.getTypeId())
@@ -85,13 +100,29 @@ public class BPRestController {
 					}
 					List<BlueprintActivity> mes = blueprintActivityService.forBPActivity(type.getTypeId(),
 							ACTIVITY_TYPE.researchMat);
-					long meTime = mes.size() != 1 ? 0 : mes.get(0).getTime() * 256000;
+					long meTime = mes.size() != 1 ? 0 : 256000l * mes.get(0).getTime() / 105;
 					List<BlueprintActivity> tes = blueprintActivityService.forBPActivity(type.getTypeId(),
 							ACTIVITY_TYPE.researchTime);
-					long teTime = tes.size() != 1 ? 0 : tes.get(0).getTime() * 256000;
+					long teTime = tes.size() != 1 ? 0 : 256000l * tes.get(0).getTime() / 105;
 					long researchTime = teTime + meTime;
 
-					return new BpInfo(type.getTypeId(), type.getName(), eiv, researchTime, seedMap);
+					LinkedHashMap<ACTIVITY_TYPE, List<Integer>> produces = new LinkedHashMap<>();
+					for (ACTIVITY_TYPE act : ACTIVITY_TYPE.values()) {
+						List<Product> prods = productService.findProducts(type.getTypeId(), act);
+						if (!prods.isEmpty()) {
+							produces.put(act, prods.stream().map(p->p.getType().getTypeId()).toList());
+						}
+					}
+
+					LinkedHashMap<ACTIVITY_TYPE, List<Integer>> productOf = new LinkedHashMap<>();
+					for (ACTIVITY_TYPE act : ACTIVITY_TYPE.values()) {
+						List<Product> prods = productService.findProducers(type.getTypeId(), act);
+						if (!prods.isEmpty()) {
+							productOf.put(act, prods.stream().map(p -> p.getActivity().getType().getTypeId()).toList());
+						}
+					}
+
+					return new BpInfo(type, eiv, researchTime, produces, productOf, seedMap);
 				}).toList();
 		return RestControllerHelper.makeResponse(ret, accept);
 	}
