@@ -28,8 +28,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.BpService2;
 
 @RestController
-@RequestMapping("/api/blueprint")
-public class BPRestController {
+@RequestMapping("/api/industry")
+public class IndustryRestController {
 
 	@Autowired
 	private BlueprintActivityService blueprintActivityService;
@@ -46,19 +46,11 @@ public class BPRestController {
 	@Autowired
 	private RegionLineService regionLineService;
 
-	public static record BpInfo(int typeId, String name, float basePrice, double eiv, long researchSeconds,
-			String researchHuman,
-			Map<ACTIVITY_TYPE, List<Integer>> produces,
-			Map<ACTIVITY_TYPE, List<Integer>> productOf,
-			Map<Integer, Map<Long, Double>> seedRegionLocPrice) {
+	public static record BPInfo(double eiv, long researchSeconds, String researchHuman,
+			Map<ACTIVITY_TYPE, List<Integer>> produces) {
 
-		BpInfo(Type type, double eiv, long researchTime,
-				Map<ACTIVITY_TYPE, List<Integer>> produces,
-				Map<ACTIVITY_TYPE, List<Integer>> productOf,
-				Map<Integer, Map<Long, Double>> rid2lid2price) {
-			this(type.getTypeId(), type.getName(), type.getBasePrice(), eiv, researchTime, secondsToDuration(researchTime),
-					produces, productOf,
-					rid2lid2price);
+		public BPInfo(double eiv, long researchTime, Map<ACTIVITY_TYPE, List<Integer>> produces) {
+			this(eiv, researchTime, secondsToDuration(researchTime), produces);
 		}
 
 		static String secondsToDuration(long seconds) {
@@ -84,13 +76,25 @@ public class BPRestController {
 
 	}
 
+	public static record IndustryInfo(int typeId, String name, float basePrice, BPInfo bp,
+			Map<ACTIVITY_TYPE, List<Integer>> productOf, Map<Integer, Map<Long, Double>> seedRegionLocPrice) {
+
+		IndustryInfo(Type type, BPInfo bp,
+				Map<ACTIVITY_TYPE, List<Integer>> productOf,
+				Map<Integer, Map<Long, Double>> rid2lid2price) {
+			this(type.getTypeId(), type.getName(), type.getBasePrice(),
+					bp, productOf,
+					rid2lid2price);
+		}
+
+	}
+
 	@GetMapping("/{typeFiltering}/{typeFilter}")
 	public ResponseEntity<?> showInformation(@PathVariable String typeFiltering,
 			@PathVariable String typeFilter,
 			@RequestParam Optional<String> accept) throws IOException {
-		List<BpInfo> ret = typeService.typesFilter(typeFiltering, typeFilter)
+		List<IndustryInfo> ret = typeService.typesFilter(typeFiltering, typeFilter)
 				.stream().map(type -> {
-					double eiv = bpService2.eiv(type.getTypeId());
 					List<OfferLocation> seeds = type.getMarketGroupID() > 0 ? regionLineService.seedLocations(type.getTypeId())
 							: Collections.emptyList();
 					Map<Integer, Map<Long, Double>> seedMap = new HashMap<>();
@@ -103,15 +107,21 @@ public class BPRestController {
 					long meTime = mes.size() != 1 ? 0 : 256000l * mes.get(0).getTime() / 105;
 					List<BlueprintActivity> tes = blueprintActivityService.forBPActivity(type.getTypeId(),
 							ACTIVITY_TYPE.researchTime);
-					long teTime = tes.size() != 1 ? 0 : 256000l * tes.get(0).getTime() / 105;
-					long researchTime = teTime + meTime;
 
-					LinkedHashMap<ACTIVITY_TYPE, List<Integer>> produces = new LinkedHashMap<>();
-					for (ACTIVITY_TYPE act : ACTIVITY_TYPE.values()) {
-						List<Product> prods = productService.findProducts(type.getTypeId(), act);
-						if (!prods.isEmpty()) {
-							produces.put(act, prods.stream().map(p->p.getType().getTypeId()).toList());
+					BPInfo bp = null;
+					if (type.getGroup().getCategory().getCategoryId() == 9) {
+						double eiv = bpService2.eiv(type.getTypeId());
+						long teTime = tes.size() != 1 ? 0 : 256000l * tes.get(0).getTime() / 105;
+						long researchTime = teTime + meTime;
+
+						LinkedHashMap<ACTIVITY_TYPE, List<Integer>> produces = new LinkedHashMap<>();
+						for (ACTIVITY_TYPE act : ACTIVITY_TYPE.values()) {
+							List<Product> prods = productService.findProducts(type.getTypeId(), act);
+							if (!prods.isEmpty()) {
+								produces.put(act, prods.stream().map(p -> p.getType().getTypeId()).toList());
+							}
 						}
+						bp = new BPInfo(eiv, researchTime, produces);
 					}
 
 					LinkedHashMap<ACTIVITY_TYPE, List<Integer>> productOf = new LinkedHashMap<>();
@@ -122,7 +132,7 @@ public class BPRestController {
 						}
 					}
 
-					return new BpInfo(type, eiv, researchTime, produces, productOf, seedMap);
+					return new IndustryInfo(type, bp, productOf, seedMap);
 				}).toList();
 		return RestControllerHelper.makeResponse(ret, accept);
 	}
