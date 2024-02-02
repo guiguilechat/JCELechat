@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model;
 
+import java.io.Serializable;
 import java.util.Map;
 
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
@@ -12,6 +13,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+@SuppressWarnings("serial")
 @Entity(name = "SdeDogmaCategory")
 @Table(name = "sde_dogma_category", indexes = {
 		@Index(columnList = "name") })
@@ -19,7 +21,7 @@ import lombok.RequiredArgsConstructor;
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class Category {
+public class Category implements Serializable{
 
 	@Id
 	private int categoryId;

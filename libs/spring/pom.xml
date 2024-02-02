@@ -16,6 +16,7 @@
 	<modules>
 		<module>market</module>
 		<module>mer</module>
+		<module>prices</module>
 		<module>sde</module>
 	</modules>
 	<build>

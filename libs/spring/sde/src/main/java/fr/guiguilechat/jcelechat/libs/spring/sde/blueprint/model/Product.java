@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model;
 
+import java.io.Serializable;
+
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,6 +15,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+@SuppressWarnings("serial")
 @Entity(name = "SdeBlueprintProduct")
 @Table(name = "sde_blueprint_product", indexes = {
 		@Index(columnList = "	activity_id,type_type_id") })
@@ -20,7 +23,7 @@ import lombok.RequiredArgsConstructor;
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class Product {
+public class Product implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)

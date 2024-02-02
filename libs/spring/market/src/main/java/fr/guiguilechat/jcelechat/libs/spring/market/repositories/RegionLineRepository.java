@@ -122,6 +122,28 @@ order by
 	public List<Object[]> findSellOfferLocations(@Param("typeId") int typeId);
 
 	/**
+	 * @return lines grouped in format (regionId, location_id, min price)
+	 */
+	@Query("""
+select
+	line.region.regionId,
+	line.order.location_id,
+	min(line.order.price)
+from
+	EsiMarketRegionLine line
+where
+	line.order.type_id=:typeId
+	and not line.order.is_buy_order
+	and line.order.duration=365
+group by
+	line.region.regionId,
+	line.order.location_id
+order by
+	min(line.order.price) asc
+""")
+	public List<Object[]> findSeedOffers(@Param("typeId") int typeId);
+
+	/**
 	 * @return lines grouped in format (regionId, location_id, max price)
 	 */
 	@Query("""

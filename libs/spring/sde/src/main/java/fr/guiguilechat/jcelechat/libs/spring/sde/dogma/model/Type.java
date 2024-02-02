@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model;
 
+import java.io.Serializable;
+
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -11,6 +13,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+@SuppressWarnings("serial")
 @Entity(name = "SdeDogmaType")
 @Table(name = "sde_dogma_type", indexes = {
 		@Index(columnList = "name"),
@@ -19,7 +22,7 @@ import lombok.RequiredArgsConstructor;
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class Type {
+public class Type implements Serializable {
 
 	@Id
 	private int typeId;

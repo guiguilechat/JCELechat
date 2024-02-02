@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model;
 
+import java.io.Serializable;
+
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -16,6 +18,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * a skill required to start a blueprint activity
  */
+@SuppressWarnings("serial")
 @Entity(name = "SdeBlueprintSkillreq")
 @Table(name = "sde_blueprint_skillreq", indexes = {
 		@Index(columnList = "activity_id,type_type_id") })
@@ -23,7 +26,7 @@ import lombok.RequiredArgsConstructor;
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class SkillReq {
+public class SkillReq implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)

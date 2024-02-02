@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model;
 
+import java.io.Serializable;
+
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType;
@@ -22,6 +24,7 @@ import lombok.RequiredArgsConstructor;
  * blueprint time per activity and limit data.
  * If an activity time is &le; 0 it means this activity is not supported.
  */
+@SuppressWarnings("serial")
 @Entity(name = "SdeBlueprintActivity")
 @Table(name = "sde_blueprint_activity", indexes = {
 		@Index(columnList = "type_type_id,activity") })
@@ -29,7 +32,7 @@ import lombok.RequiredArgsConstructor;
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class BlueprintActivity {
+public class BlueprintActivity implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)

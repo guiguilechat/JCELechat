@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 import org.jfree.chart.ChartUtils;
@@ -11,6 +13,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class RestControllerHelper {
@@ -55,6 +59,16 @@ public class RestControllerHelper {
 	public static void addResponseChart(
 			HttpServletResponse response, JFreeChart chart, Optional<String> accept) throws IOException {
 		addResponseChart(response, chart, accept, 2000, 1000);
+	}
+
+	public static List<Type> typesFilter(TypeService typeService, String typeFiltering, String typeFilter) {
+		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
+			case "groupname", "gname", "gn" -> typeService.byGroupName(typeFilter);
+			case "groupid", "gid" -> typeService.byGroupId(Integer.parseInt(typeFilter));
+			case "typeid", "id", "tid" -> List.of(typeService.byId(Integer.parseInt(typeFilter)).orElse(null));
+			case "name", "tname", "tn" -> typeService.byName(typeFilter);
+			default -> typeService.byName(typeFilter);
+		};
 	}
 
 }

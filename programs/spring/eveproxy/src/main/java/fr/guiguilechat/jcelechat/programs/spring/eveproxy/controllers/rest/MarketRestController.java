@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.DoubleStream;
 
@@ -130,16 +129,6 @@ public class MarketRestController {
 		return new PlaceFilter(reg, locationId);
 	}
 
-	public List<Type> typesFilter(String typeFiltering, String typeFilter) {
-		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
-			case "groupname", "gname", "gn" -> typeService.byGroupName(typeFilter);
-			case "groupid", "gid" -> typeService.byGroupId(Integer.parseInt(typeFilter));
-			case "typeid", "id", "tid" -> List.of(typeService.byId(Integer.parseInt(typeFilter)).orElse(null));
-			case "name", "tname", "tn" -> typeService.byName(typeFilter);
-			default -> typeService.byName(typeFilter);
-		};
-	}
-
 	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,
 			List<RegionLine> bos, List<RegionLine> sos, Optional<String> accept) {
 		return RestControllerHelper.makeResponse(TypeMarketStats.of(typeId, regionId, locationId, bos, sos), accept);
@@ -239,7 +228,7 @@ public class MarketRestController {
 			HttpServletResponse response,
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> bcolor) throws IOException {
-		List<Type> types = typesFilter(typeFiltering, typeFilter);
+		List<Type> types = RestControllerHelper.typesFilter(typeService, typeFiltering, typeFilter);
 		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
 
 		XYSeriesCollection ds = new XYSeriesCollection();

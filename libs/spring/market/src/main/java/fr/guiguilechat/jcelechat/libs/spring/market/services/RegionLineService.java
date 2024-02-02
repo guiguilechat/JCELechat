@@ -76,7 +76,8 @@ public class RegionLineService {
 		return repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder);
 	}
 
-	record OfferLocation(int regionId, long locationID, int typeId, double bestPrice) {
+	public static record OfferLocation(int regionId, long locationID, int typeId, double bestPrice)
+			implements Serializable {
 	}
 
 	public List<OfferLocation> sellLocations(int typeId) {
@@ -88,6 +89,12 @@ public class RegionLineService {
 		return repo.findBuyOfferLocations(typeId).stream()
 				.map(arr -> new OfferLocation((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
 	}
+
+	public List<OfferLocation> seedLocations(int typeId) {
+		return repo.findSeedOffers(typeId).stream()
+				.map(arr -> new OfferLocation((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
+	}
+
 
 	public static record SellStat(long qtty, double price, long cumulQtty, double cumulValue) implements Serializable {
 	}

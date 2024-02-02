@@ -19,6 +19,7 @@ import java.util.zip.ZipFile;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.CacheManager;
 import org.springframework.stereotype.Service;
 import org.yaml.snakeyaml.Yaml;
 
@@ -77,6 +78,9 @@ public class SDEUpdateService {
 
 	@Autowired
 	private BlueprintActivityService blueprintActivityService;
+
+	@Autowired
+	private CacheManager cacheManager;
 
 	@Autowired
 	private CategoryService categoryService;
@@ -386,6 +390,11 @@ public class SDEUpdateService {
 		stationService.saveAll(context.stations.stream()
 				.map(sd -> Station.from(sd.data(), sd.stationId(), sysById.get(sd.solsysId()))).toList());
 
+		List.of(BlueprintActivityService.CACHE_LIST, MaterialService.CACHE_LIST,
+				ProductService.CACHE_LIST, SkillReqService.CACHE_LIST).stream().flatMap(List::stream).toList()
+				.forEach(cacheName -> {
+					cacheManager.getCache(cacheName).clear();
+				});
 		log.info(" finished updating SDE DB.");
 
 	}
