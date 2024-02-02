@@ -29,5 +29,7 @@ jobs:
       -  name: Publish to GitHub Packages Apache Maven
          run: mvn -PskipDeployPom deploy -ntp -s $GITHUB_WORKSPACE/settings.xml -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true
          env:
+            GH_JCELECHAT: ${{ env.GH_REPO }}
             GITHUB_TOKEN: ${{ github.token }}
-            DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
+            EVEPROXY_DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
+            EVEPROXY_DOCKER_HUB_USER: ${{ env.DOCKER_HUB_USER }}

@@ -7,28 +7,53 @@ Eve Online database and service interaction.
 This project contains auto-generated libraries to acces Eve Online's static data and dynamic data.
 Static data is in the SDE sub project, dynamic is in the ESI sub project, though the ESI allows to acces static data too.
 
-## base repo
+## Project installation
 
-To import the modules in your maven project, you need to add my repo (unless you mvn install the project). to this end add in your pom.xml :
+Once cloned, you SHOULD start the project with sh/install to download the required libs without errors about http repo
 
+If you fork the project and you want to deploy it on your own repo, depending on how you deploy, you need to set the following values
+
+### Github actions
+
+your github project needs to be set the properties:
+
+ - DOCKER_HUB_USER : contains your dockerhub username to export the docker images as. In my case, [glechat](https://hub.docker.com/u/glechat)
+ - GH_REPO : contains the repo path within GH . In my case, [guiguilechat/JCELechat](https://github.com/guiguilechat/JCELechat)
+ 
+ Also needs the secret : 
+ 
+  - DOCKER_HUB_TOKEN : contains the AT to your gihub repo. You can create it [here](https://hub.docker.com/settings/security)
+ 
+### manual deploy
+
+your project needs the following values in your settings.xml :
+
+```xml
+<settings>
+  <servers>
+    <server>
+        <id>github-jcelechat</id>
+        <username>guiguilechat</username>
+        <password>REDACTED</password>
+    </server>
+  </servers>
+  <profiles>
+    <profile>
+      <id>dockerhubPAT_eveporoxy</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <EVEPROXY_DOCKER_HUB_TOKEN>REDACTED</EVEPROXY_DOCKER_HUB_TOKEN>
+        <EVEPROXY_DOCKER_HUB_USER>glechat</EVEPROXY_DOCKER_HUB_USER>
+        <GH_JCELECHAT>guiguilechat/JCELechat</GH_JCELECHAT>
+      </properties>
+    </profile>
+  </profiles>
+</settings>
 ```
-	<repositories>
- <repository>
- 	<id>kimsufi-stable</id>
- 	<url>http://91.121.120.36/maven/stable</url>
- 	<snapshots>
-  <enabled>false</enabled>
- 	</snapshots>
- </repository>
- <repository>
- 	<id>kimsufi-snapshots</id>
- 	<url>http://91.121.120.36/maven/snapshot/</url>
- 	<snapshots>
-  <enabled>true</enabled>
- 	</snapshots>
- </repository>
-	</repositories>
-```
+
+Of course you need to update the values accordingly. In addition to the properties used for github actions, the github-jcelechat server requires the PAT as a password, which you can create [here](https://github.com/settings/tokens)
 
 ## model
 
