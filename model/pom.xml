@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>fr.guiguilechat</groupId>
 		<artifactId>jcelechat</artifactId>
-		<version>7.13.14</version>
+		<version>7.13.15</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat</groupId>
 	<profiles>
