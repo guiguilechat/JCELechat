@@ -26,6 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.OfferLocation;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.SellStat;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
@@ -207,7 +208,8 @@ public class MarketRestController {
 	}
 
 	@GetMapping("/{placeFiltering}/{placeFilter}/typeId/{typeId}")
-	public ResponseEntity<?> byPlaceByType(@PathVariable String placeFiltering, @PathVariable String placeFilter,
+	public ResponseEntity<TypeMarketStats> byPlaceByType(@PathVariable String placeFiltering,
+			@PathVariable String placeFilter,
 			@PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
 
@@ -218,7 +220,7 @@ public class MarketRestController {
 	}
 
 	@GetMapping("/jita/typeId/{typeId}")
-	public ResponseEntity<?> jitaByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+	public ResponseEntity<TypeMarketStats> jitaByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
 		return byPlaceByType("lid", "" + RegionLineService.JITAIV_ID, typeId, accept);
 	}
 
@@ -274,12 +276,12 @@ public class MarketRestController {
 	}
 
 	@GetMapping("/sos/byTypeId/{typeId}")
-	public ResponseEntity<?> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+	public ResponseEntity<List<OfferLocation>> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.sellLocations(typeId), accept);
 	}
 
 	@GetMapping("/bos/byTypeId/{typeId}")
-	public ResponseEntity<?> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+	public ResponseEntity<List<OfferLocation>> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.buyLocations(typeId), accept);
 	}
 

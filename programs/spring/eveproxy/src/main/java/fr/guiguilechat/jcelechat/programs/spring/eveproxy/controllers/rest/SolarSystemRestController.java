@@ -3,11 +3,13 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.SolarSystemService;
@@ -36,19 +38,20 @@ public class SolarSystemRestController {
 	}
 
 	@GetMapping("/byid/{solarSystemId}")
-	public ResponseEntity<?> byId(@PathVariable int solarSystemId) {
+	public ResponseEntity<SolarSystemDTO> byId(@PathVariable int solarSystemId) {
 		SolarSystem ss = ssService.findById(solarSystemId);
 		if (ss == null) {
-			return ResponseEntity.status(404).body("system " + solarSystemId + " unknown");
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "system " + solarSystemId + " unknown");
 		}
 		return ResponseEntity.ok(toDTO(ss));
 	}
 
 	@GetMapping("/byid/{solarSystemId}/adjacent")
-	public ResponseEntity<?> adjacent(@PathVariable int solarSystemId) {
+	public ResponseEntity<List<SolarSystemDTO>> adjacent(@PathVariable int solarSystemId) {
 		SolarSystem ss = ssService.findById(solarSystemId);
 		if (ss == null) {
-			return ResponseEntity.status(404).body("system " + solarSystemId + " unknown");
+
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "system " + solarSystemId + " unknown");
 		}
 		List<SolarSystem> adjacents = ssService.adjacent(ss);
 		return ResponseEntity.ok(adjacents.stream().map(this::toDTO).toList());

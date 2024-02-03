@@ -29,12 +29,14 @@ import org.jfree.data.time.TimeSeriesCollection;
 import org.jfree.data.time.Week;
 import org.jfree.data.time.Year;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
 
 import fr.guiguilechat.jcelechat.libs.spring.mer.services.KillService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.services.KillService.KillStats;
@@ -252,19 +254,13 @@ public class MerKillsRestController {
 		public abstract TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService);
 
 		static TYPES_FILTER of(String filterBy) {
-			if ("groupid".equalsIgnoreCase(filterBy)) {
-				return GROUP_ID;
-			}
-			if ("groupname".equalsIgnoreCase(filterBy)) {
-				return GROUP_NAME;
-			}
-			if ("typeid".equalsIgnoreCase(filterBy)) {
-				return TYPE_ID;
-			}
-			if ("typename".equalsIgnoreCase(filterBy)) {
-				return TYPE_NAME;
-			}
-			return ERROR;
+			return switch (Objects.requireNonNullElse(filterBy, "").toLowerCase()) {
+				case "gi", "gid", "groupid" -> GROUP_ID;
+				case "gn", "gname", "groupname" -> GROUP_NAME;
+				case "ti", "tid", "typeid" -> TYPE_ID;
+				case "tn", "tname", "typename" -> TYPE_NAME;
+				default -> ERROR;
+			};
 		}
 	}
 
@@ -293,8 +289,17 @@ public class MerKillsRestController {
 		}
 	}
 
+	/**
+	 * @param filterBy method to filter the solar system. Must be one of gi, gn, ti,
+	 *                 tn
+	 * @param filter
+	 * @param accept
+	 * @param time
+	 * @param period
+	 * @return
+	 */
 	@GetMapping("/{filterBy}/{filter}")
-	public ResponseEntity<?> statsByVictim(
+	public ResponseEntity<TypesKillsStats> statsByVictim(
 			@PathVariable String filterBy,
 			@PathVariable String filter,
 			@RequestParam Optional<String> accept,
@@ -305,7 +310,7 @@ public class MerKillsRestController {
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {
-			return ResponseEntity.status(400).body("param " + filter + " should be a number");
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "param " + filter + " should be a number");
 		}
 		String timeOrder = time.orElse("desc");
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
@@ -394,7 +399,7 @@ public class MerKillsRestController {
 	}
 
 	@GetMapping("/{filterBy}/{filter}/detail")
-	public ResponseEntity<?> statsByVictimTypeDetailed(
+	public ResponseEntity<List<Entry<String, TypesKillsStats>>> statsByVictimTypeDetailed(
 			@PathVariable String filterBy,
 			@PathVariable String filter,
 			@RequestParam Optional<String> accept,
@@ -405,7 +410,7 @@ public class MerKillsRestController {
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {
-			return ResponseEntity.status(400).body("param " + filter + " should be a number");
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "param " + filter + " should be a number");
 		}
 		String timeOrder = time.orElse("desc");
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);

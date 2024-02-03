@@ -90,7 +90,7 @@ public class IndustryRestController {
 	}
 
 	@GetMapping("/{typeFiltering}/{typeFilter}")
-	public ResponseEntity<?> showInformation(@PathVariable String typeFiltering,
+	public ResponseEntity<List<IndustryInfo>> showInformation(@PathVariable String typeFiltering,
 			@PathVariable String typeFilter,
 			@RequestParam Optional<String> accept) throws IOException {
 		List<IndustryInfo> ret = typeService.typesFilter(typeFiltering, typeFilter)

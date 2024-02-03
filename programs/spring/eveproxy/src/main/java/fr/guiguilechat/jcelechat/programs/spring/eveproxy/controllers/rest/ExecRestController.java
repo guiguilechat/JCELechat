@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.UpdateResultService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 @RestController
 @RequestMapping("/api/exec")
@@ -15,6 +18,10 @@ public class ExecRestController {
 	@Autowired
 	private UpdateResultService urService;
 
+	@Operation(summary = "force SDE fetch", description = "request next SDE fetch to be forced")
+	@ApiResponses(value = {
+			@ApiResponse(responseCode = "200", description = "request accepted")
+	})
 	@GetMapping("/sde/forcefetch")
 	public ResponseEntity<?> jitaByType() {
 		urService.requireFetch();

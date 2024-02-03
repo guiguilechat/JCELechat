@@ -52,7 +52,7 @@ public class HistoryRestController {
 	}
 
 	@GetMapping("/byRegionId/{regionId}/byTypeId/{typeId}/byWeightName/{weightname}/daily")
-	public ResponseEntity<?> byRegionByType(@PathVariable int regionId, @PathVariable int typeId,
+	public ResponseEntity<DailyExchanges> byRegionByType(@PathVariable int regionId, @PathVariable int typeId,
 			@PathVariable String weightname,
 			@RequestParam Optional<String> accept) {
 		WeightStrategy weighter = WeightStrategy.of(weightname);
