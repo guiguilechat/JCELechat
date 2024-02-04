@@ -46,11 +46,11 @@ public class IndustryRestController {
 	@Autowired
 	private RegionLineService regionLineService;
 
-	public static record BPInfo(double eiv, long researchSeconds, String researchHuman,
+	public static record BPInfo(double eiv, double ptv1020, long researchSeconds, String researchHuman,
 			Map<ACTIVITY_TYPE, List<Integer>> produces) {
 
 		public BPInfo(double eiv, long researchTime, Map<ACTIVITY_TYPE, List<Integer>> produces) {
-			this(eiv, researchTime, secondsToDuration(researchTime), produces);
+			this(eiv, eiv * 256000 / 105 / 50 * 2, researchTime, secondsToDuration(researchTime), produces);
 		}
 
 		static String secondsToDuration(long seconds) {
