@@ -81,7 +81,7 @@ public class Wars {
 			ObjHolder<R_get_wars_war_id> lastLimit = esiConnection.cache().wars.get(firstId);
 			Requested<Integer[]> req = esiConnection.get_wars(firstId, null);
 			// then check if the previous data was before the limit date.
-			LocalDate previousStart = ESITools.convertLocalDate(lastLimit.get().started);
+			LocalDate previousStart = ESITools.fieldLocalDate(lastLimit.get().started);
 			if (previousStart.isBefore(dateLimit)) {
 				firstId = null;
 			} else {

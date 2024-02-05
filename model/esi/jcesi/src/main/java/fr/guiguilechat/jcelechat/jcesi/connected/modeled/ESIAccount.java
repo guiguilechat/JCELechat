@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
-import java.time.format.DateTimeFormatter;
-
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -18,11 +16,6 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @Accessors(fluent = true)
 public class ESIAccount {
-
-	/**
-	 * formatter for data provided. all calls must be synchronized !
-	 */
-	public static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
 
 	@Getter
 	private final ESIConnected connection;

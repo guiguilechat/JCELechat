@@ -46,7 +46,7 @@ public class RegionLine {
 	public void affectFields() {
 		if (getIssuedDate() == null) {
 			if (getOrder().issued != null) {
-				setIssuedDate(ESITools.convertDate(getOrder().issued).toInstant());
+				setIssuedDate(ESITools.fieldInstant(getOrder().issued));
 			}
 			getOrder().issued = null;
 		}

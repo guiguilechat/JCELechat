@@ -137,7 +137,7 @@ public class ActivityPane extends TableView<ActivityData> {
 	protected ListHolder<ActivityData> convertCharSkills(ESIAccount account) {
 		ListHolder<R_get_characters_character_id_skillqueue> sq = account.character.skills.getQueue();
 		ListHolder<ActivityData> last = sq.map(l -> l.size() > 0 ? l.get(l.size() - 1) : null)
-				.map(ls -> ls == null ? null : convertLastSkill(ls, account)).mapList(l -> Arrays.asList(l));
+				.map(ls -> ls == null ? null : convertLastSkill(ls, account)).mapList(Arrays::asList);
 		ListHolder<ActivityData> skillStart = sq.mapItems(j -> convertSkillChange(j, account));
 		ListHolder<ActivityData> remaps = sq.mapItems(j -> convertSkillRemap(j, account))
 				.mapList(l -> l.isEmpty() ? Collections.emptyList()
@@ -149,7 +149,7 @@ public class ActivityPane extends TableView<ActivityData> {
 		if (skill.finish_date == null) {
 			return null;
 		}
-		return new ActivityData(ESITools.convertLocalDateTime(skill.finish_date), ActivityData.TYPE.Skill,
+		return new ActivityData(ESITools.fieldLocalDateTime(skill.finish_date), ActivityData.TYPE.Skill,
 				TypeIndex.getType(skill.skill_id).name + " " + skill.finished_level, "", access.name(), 300, 0, skill);
 	}
 
@@ -157,7 +157,7 @@ public class ActivityPane extends TableView<ActivityData> {
 		if (skill == null || skill.finish_date == null) {
 			return null;
 		}
-		return new ActivityData(ESITools.convertLocalDateTime(skill.finish_date).minusDays(1), ActivityData.TYPE.SQ, "", "",
+		return new ActivityData(ESITools.fieldLocalDateTime(skill.finish_date).minusDays(1), ActivityData.TYPE.SQ, "", "",
 				access.name(), 320, 3, skill);
 	}
 
@@ -170,7 +170,7 @@ public class ActivityPane extends TableView<ActivityData> {
 		int secondaryAttId = sk.secondaryattribute;
 
 		if (!access.character.attributes.isAttributeHighest(primaryAttId).get()) {
-			return new ActivityData(ESITools.convertLocalDateTime(skill.start_date).minusDays(1), ActivityData.TYPE.ReM,
+			return new ActivityData(ESITools.fieldLocalDateTime(skill.start_date).minusDays(1), ActivityData.TYPE.ReM,
 					Attributes.of(primaryAttId) + "/" + Attributes.of(secondaryAttId), "", access.name(), 320, 2, skill);
 		} else {
 			return null;
@@ -198,7 +198,7 @@ public class ActivityPane extends TableView<ActivityData> {
 
 	protected ActivityData convertOrder(R_get_characters_character_id_orders order, ESIAccount access) {
 		try {
-			LocalDateTime expiry = ESITools.convertLocalDateTime(order.issued).plusDays(order.duration - 7);
+			LocalDateTime expiry = ESITools.fieldLocalDateTime(order.issued).plusDays(order.duration - 7);
 			R_get_universe_types_type_id t = ESIStatic.INSTANCE.cache().universe.types(order.type_id).get();
 			ActivityData ret = new ActivityData(expiry, ActivityData.TYPE.Mk,
 					(t == null ? "unknown_" + order.type_id : t.name)

@@ -26,7 +26,7 @@ public class MarketFetchLineService {
 	protected void updatevalues(MarketFetchLine line) {
 		if (line.getIssuedDate() == null) {
 			if (line.getOrder().issued != null) {
-				line.setIssuedDate(ESITools.convertDate(line.getOrder().issued).toInstant());
+				line.setIssuedDate(ESITools.fieldInstant(line.getOrder().issued));
 			}
 			line.getOrder().issued = null;
 		}

@@ -152,7 +152,7 @@ public class Attributes {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final ObjHolder<LocalDateTime> lastRemap = values()
-	.map(att -> ESITools.convertLocalDateTime(att.last_remap_date));
+			.map(att -> ESITools.fieldLocalDateTime(att.last_remap_date));
 
 	/**
 	 * local date time for remap cooldown
@@ -160,7 +160,7 @@ public class Attributes {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final ObjHolder<LocalDateTime> remapCoolDown = values()
-	.map(att -> ESITools.convertLocalDateTime(att.accrued_remap_cooldown_date));
+			.map(att -> ESITools.fieldLocalDateTime(att.accrued_remap_cooldown_date));
 
 	/**
 	 * convert the attribute ID to the actual attribute value
@@ -173,20 +173,14 @@ public class Attributes {
 	 * @return the required attribute value
 	 */
 	public static int getAttribute(int attID, R_get_characters_character_id_attributes attributes) {
-		switch (attID) {
-		case 164:
-			return attributes.charisma;
-		case 165:
-			return attributes.intelligence;
-		case 166:
-			return attributes.memory;
-		case 167:
-			return attributes.perception;
-		case 168:
-			return attributes.willpower;
-		default:
-			return 0;
-		}
+		return switch (attID) {
+			case 164 -> attributes.charisma;
+			case 165 -> attributes.intelligence;
+			case 166 -> attributes.memory;
+			case 167 -> attributes.perception;
+			case 168 -> attributes.willpower;
+			default -> 0;
+		};
 	}
 
 	/**
@@ -202,37 +196,25 @@ public class Attributes {
 	}
 
 	public BoolHolder isAttributeHighest(int attID) {
-		switch (attID) {
-		case 164:
-			return isCharHighest();
-		case 165:
-			return isIntHighest();
-		case 166:
-			return isMemHighest();
-		case 167:
-			return isPerHighest();
-		case 168:
-			return isWilHighest();
-		default:
-			throw new UnsupportedOperationException("not handled " + attID);
-		}
+		return switch (attID) {
+			case 164 -> isCharHighest();
+			case 165 -> isIntHighest();
+			case 166 -> isMemHighest();
+			case 167 -> isPerHighest();
+			case 168 -> isWilHighest();
+			default -> throw new UnsupportedOperationException("not handled " + attID);
+		};
 	}
 
 	public static String of(int attID) {
-		switch (attID) {
-		case 164:
-			return "charism";
-		case 165:
-			return "intelligence";
-		case 166:
-			return "memory";
-		case 167:
-			return "perception";
-		case 168:
-			return "willpower";
-		default:
-			throw new UnsupportedOperationException("not handled " + attID);
-		}
+		return switch (attID) {
+			case 164 -> "charism";
+			case 165 -> "intelligence";
+			case 166 -> "memory";
+			case 167 -> "perception";
+			case 168 -> "willpower";
+			default -> throw new UnsupportedOperationException("not handled " + attID);
+		};
 
 	}
 

@@ -40,7 +40,7 @@ public class HistoryLine {
 	public void affectFields() {
 		if (dateDate == null) {
 			if (getDaily().date != null) {
-				setDateDate(ESITools.parseUTCDay(getDaily().date));
+				setDateDate(ESITools.fieldInstant(getDaily().date));
 			}
 			getDaily().date = null;
 		}

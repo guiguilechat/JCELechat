@@ -133,10 +133,12 @@ public class EveCharacter {
 	private final BoolHolder isOnline = getOnline().test(onl -> onl.online);
 
 	@Getter(lazy = true)
-	private final ObjHolder<OffsetDateTime> lastlogin = getOnline().map(onl -> ESITools.convertDate(onl.last_login));
+	private final ObjHolder<OffsetDateTime> lastlogin = getOnline()
+			.map(onl -> ESITools.fieldOffsetDateTime(onl.last_login));
 
 	@Getter(lazy = true)
-	private final ObjHolder<OffsetDateTime> lastlogout = getOnline().map(onl -> ESITools.convertDate(onl.last_logout));
+	private final ObjHolder<OffsetDateTime> lastlogout = getOnline()
+			.map(onl -> ESITools.fieldOffsetDateTime(onl.last_logout));
 
 	// slots for industry jobs
 
@@ -238,7 +240,7 @@ public class EveCharacter {
 	 */
 	public Map<Integer, Long> getAssetsProd() {
 		Map<Integer, Long> massets = assets.getAvailable().get().values().stream().flatMap(m -> m.entrySet().stream())
-				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Long::sum));
+				.collect(Collectors.toMap(Entry::getKey, Entry::getValue, Long::sum));
 		Map<Integer, Long> prod = industry.getJobs().get().stream().parallel().filter(Industry::isManufacture)
 				.collect(Collectors.toMap(e -> e.product_type_id, e -> (long) e.runs, Long::sum));
 		return Stream.concat(massets.entrySet().stream(), prod.entrySet().stream())
@@ -305,11 +307,11 @@ public class EveCharacter {
 				ret.set(getHourlySPRate(holdSkil[0], holdAtt[0]));
 			}
 		};
-		skills.getTrainingSkill().follow((newValue) -> {
+		skills.getTrainingSkill().follow(newValue -> {
 			holdSkil[0] = newValue;
 			apply.run();
 		});
-		attributes.values().follow((newValue) -> {
+		attributes.values().follow(newValue -> {
 			holdAtt[0] = newValue;
 			apply.run();
 		});

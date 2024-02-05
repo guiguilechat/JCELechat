@@ -1,8 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.evehistory.market.services;
 
-import java.time.Instant;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,6 +20,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
+import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetchLine;
@@ -36,13 +34,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class MarketFetchService {
-
-	/**
-	 * convert a date from {@link DateTimeFormatter#RFC_1123_DATE_TIME} format
-	 */
-	public static Instant convertDate1123(String formated) {
-		return ZonedDateTime.parse(formated, DateTimeFormatter.RFC_1123_DATE_TIME).toInstant();
-	}
 
 	@Autowired
 	private MarketFetchLineService lineService;
@@ -131,7 +122,7 @@ public class MarketFetchService {
 		}
 		MarketFetchResult fetchResult = MarketFetchResult.builder()
 				.etag(failed || noChange ? null : newEtag)
-				.lastModified(failed || noChange ? null : convertDate1123(firstResult.getLastModified()))
+				.lastModified(failed || noChange ? null : ESITools.headerInstant(firstResult.getLastModified()))
 				.linesFetched(failed || noChange ? null : fetchedLines.size())
 				.pagesFetched(failed || noChange ? null : pages)
 				.region(region)

@@ -36,11 +36,11 @@ public class RestMarketFetchLine {
 		}
 		Instant toDate = Instant.now();
 		if (to.isPresent()) {
-			toDate = ESITools.convertDate(to.get()).toInstant();
+			toDate = ESITools.fieldInstant(to.get());
 		}
 		Instant fromDate = toDate.minus(Duration.ofDays(1));
 		if (from.isPresent()) {
-			Instant requestFromDate = ESITools.convertDate(from.get()).toInstant();
+			Instant requestFromDate = ESITools.fieldInstant(from.get());
 			if (requestFromDate.isAfter(fromDate)) {
 				fromDate=requestFromDate;
 			}
@@ -65,11 +65,11 @@ public class RestMarketFetchLine {
 		}
 		Instant toDate = Instant.now();
 		if (to.isPresent()) {
-			toDate = ESITools.convertDate(to.get()).toInstant();
+			toDate = ESITools.fieldInstant(to.get());
 		}
 		Instant fromDate = toDate.minus(Duration.ofDays(30));
 		if (from.isPresent()) {
-			Instant requestFromDate = ESITools.convertDate(from.get()).toInstant();
+			Instant requestFromDate = ESITools.fieldInstant(from.get());
 			if (requestFromDate.isAfter(fromDate)) {
 				fromDate = requestFromDate;
 			}
@@ -96,11 +96,11 @@ public class RestMarketFetchLine {
 		}
 		Instant toDate = Instant.now();
 		if (to.isPresent()) {
-			toDate = ESITools.convertDate(to.get()).toInstant();
+			toDate = ESITools.fieldInstant(to.get());
 		}
 		Instant fromDate = toDate.minus(Duration.ofDays(30));
 		if (from.isPresent()) {
-			Instant requestFromDate = ESITools.convertDate(from.get()).toInstant();
+			Instant requestFromDate = ESITools.fieldInstant(from.get());
 			if (requestFromDate.isAfter(fromDate)) {
 				fromDate = requestFromDate;
 			}

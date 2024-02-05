@@ -45,7 +45,7 @@ public class Informations {
 			ObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (birthday == null) {
-					birthday = fetch.map(info -> ESITools.convertLocalDateTime(info.birthday));
+					birthday = fetch.map(info -> ESITools.fieldLocalDateTime(info.birthday));
 				}
 			});
 		}
@@ -73,9 +73,7 @@ public class Informations {
 			ObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (corporationId == null) {
-					corporationId = fetch.mapInt(info -> {
-						return info != null ? info.corporation_id : -1;
-					});
+					corporationId = fetch.mapInt(info -> (info != null ? info.corporation_id : -1));
 				}
 			});
 		}

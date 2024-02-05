@@ -1,11 +1,11 @@
 package fr.guiguilechat.jcelechat.jcesi.interfaces;
 
 import java.time.Instant;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+
+import fr.guiguilechat.jcelechat.jcesi.ESITools;
 
 /** holds a response from a request */
 public interface Requested<T> {
@@ -40,11 +40,6 @@ public interface Requested<T> {
 	public Map<String, List<String>> getHeaders();
 
 	/**
-	 * formatter for data provided. Thread safe using ZonedDateTime.
-	 */
-	public static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
-
-	/**
 	 *
 	 * @return the expires header, if exists, else null.
 	 */
@@ -69,7 +64,7 @@ public interface Requested<T> {
 		if (expire == null) {
 			return Instant.ofEpochSecond(0);
 		}
-		return ZonedDateTime.parse(expire, formatter).toInstant();
+		return ESITools.headerInstant(expire);
 	}
 
 	/**
@@ -88,7 +83,7 @@ public interface Requested<T> {
 		if (date == null) {
 			return null;
 		}
-		return ZonedDateTime.parse(date, formatter).toInstant();
+		return ESITools.headerInstant(date);
 	}
 
 	/**
@@ -111,8 +106,8 @@ public interface Requested<T> {
 		if (expire == null || date.isEmpty()) {
 			return 0;
 		}
-		return 1000 * ZonedDateTime.parse(expire, formatter).toEpochSecond()
-				- 1000 * ZonedDateTime.parse(date, formatter).toEpochSecond();
+		return 1000 * ESITools.headerEpochSeconds(expire)
+				- 1000 * ESITools.headerEpochSeconds(date);
 	}
 
 	/**

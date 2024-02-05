@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Array;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
@@ -114,19 +115,19 @@ public abstract class ConnectedImpl implements ITransfer {
 			int responseCode = con.getResponseCode();
 			switch (responseCode) {
 			// 2xx ok
-			case HttpsURLConnection.HTTP_OK:
-			case HttpsURLConnection.HTTP_CREATED:
-			case HttpsURLConnection.HTTP_ACCEPTED:
-			case HttpsURLConnection.HTTP_NOT_AUTHORITATIVE:
-			case HttpsURLConnection.HTTP_NO_CONTENT:
-			case HttpsURLConnection.HTTP_RESET:
-			case HttpsURLConnection.HTTP_PARTIAL:
+			case HttpURLConnection.HTTP_OK:
+			case HttpURLConnection.HTTP_CREATED:
+			case HttpURLConnection.HTTP_ACCEPTED:
+			case HttpURLConnection.HTTP_NOT_AUTHORITATIVE:
+			case HttpURLConnection.HTTP_NO_CONTENT:
+			case HttpURLConnection.HTTP_RESET:
+			case HttpURLConnection.HTTP_PARTIAL:
 				String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
 				csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
 						+ con.getHeaderFields());
 				return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
 				// 304 not modified
-			case HttpsURLConnection.HTTP_NOT_MODIFIED:
+			case HttpURLConnection.HTTP_NOT_MODIFIED:
 				String date = headers.getOrDefault("Date", List.of("")).get(0);
 				String expires = headers.getOrDefault("Expires", List.of("")).get(0);
 				if (date.equals(expires)) {
@@ -134,7 +135,7 @@ public abstract class ConnectedImpl implements ITransfer {
 							+ con.getHeaderFields());
 					// if expires=Date we add 20s of avoid CCP bug
 					headers = new HashMap<>(headers);
-					String newExpiry = ESITools.formatHeaderDate(ESITools.convertHeaderDate(date).plusSeconds(20));
+					String newExpiry = ESITools.offsetDateTimeHeader(ESITools.headerOffsetDateTime(date).plusSeconds(20));
 					headers.put("Expires", List.of(newExpiry));
 				} else {
 					csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode()
@@ -142,17 +143,17 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 				return new RequestedImpl<>(url, responseCode, null, null, headers);
 				// 4xx client error
-			case HttpsURLConnection.HTTP_BAD_REQUEST:
-			case HttpsURLConnection.HTTP_UNAUTHORIZED:
-			case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
-			case HttpsURLConnection.HTTP_FORBIDDEN:
-			case HttpsURLConnection.HTTP_NOT_FOUND:
-			case HttpsURLConnection.HTTP_BAD_METHOD:
+			case HttpURLConnection.HTTP_BAD_REQUEST:
+			case HttpURLConnection.HTTP_UNAUTHORIZED:
+			case HttpURLConnection.HTTP_PAYMENT_REQUIRED:
+			case HttpURLConnection.HTTP_FORBIDDEN:
+			case HttpURLConnection.HTTP_NOT_FOUND:
+			case HttpURLConnection.HTTP_BAD_METHOD:
 				// 5xx server error
-			case HttpsURLConnection.HTTP_INTERNAL_ERROR:
-			case HttpsURLConnection.HTTP_BAD_GATEWAY:
-			case HttpsURLConnection.HTTP_UNAVAILABLE:
-			case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
+			case HttpURLConnection.HTTP_INTERNAL_ERROR:
+			case HttpURLConnection.HTTP_BAD_GATEWAY:
+			case HttpURLConnection.HTTP_UNAVAILABLE:
+			case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
 			default:
 				StringBuilder sb = new StringBuilder(
 						"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
@@ -165,7 +166,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 		} catch (Exception e) {
 			csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t\t" + e.getMessage());
-			return new RequestedImpl<>(url, HttpsURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
+			return new RequestedImpl<>(url, HttpURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
 		}
 	}
 
@@ -208,7 +209,7 @@ public abstract class ConnectedImpl implements ITransfer {
 				return null;
 			}
 			int nbPages = page1.getNbPages();
-			boolean[] mismatch = new boolean[] { false };
+			boolean[] mismatch = { false };
 			if (page1.isOk() && nbPages > 1) {
 				page1.getOK().addAll(fetchPagesFrom2(nbPages, resourceAccess, parameters, page1, mismatch));
 			}
