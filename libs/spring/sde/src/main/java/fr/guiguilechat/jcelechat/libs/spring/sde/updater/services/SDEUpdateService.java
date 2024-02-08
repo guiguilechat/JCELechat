@@ -390,8 +390,11 @@ public class SDEUpdateService {
 		stationService.saveAll(context.stations.stream()
 				.map(sd -> Station.from(sd.data(), sd.stationId(), sysById.get(sd.solsysId()))).toList());
 
-		List.of(BlueprintActivityService.CACHE_LIST, MaterialService.CACHE_LIST,
-				ProductService.CACHE_LIST, SkillReqService.CACHE_LIST).stream().flatMap(List::stream).toList()
+		List.of(BlueprintActivityService.CACHE_LIST,
+				MaterialService.CACHE_LIST,
+				ProductService.CACHE_LIST,
+				SkillReqService.CACHE_LIST,
+				StargateService.CACHE_LIST).stream().flatMap(List::stream).toList()
 				.forEach(cacheName -> {
 					cacheManager.getCache(cacheName).clear();
 				});
