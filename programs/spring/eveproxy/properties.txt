@@ -11,7 +11,7 @@ The properties are listed with the default value if any.
 
 
 # delay in ms before first market regions sync execution
-eveproxy.market.regionsdelay:30000
+eveproxy.market.regionsdelay:10000
 
 # delay in ms between each market regions sync execution
 eveproxy.market.regionsperiod:3600000

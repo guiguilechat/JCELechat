@@ -31,7 +31,7 @@ public class MarketSyncService {
 	@Value("${eveproxy.market.regionsskip:false}")
 	private boolean skipRegionSync;
 
-	@Scheduled(fixedRateString = "${eveproxy.market.regionsperiod:3600000}", initialDelayString = "${eveproxy.market.regionsdelay:30000}")
+	@Scheduled(fixedRateString = "${eveproxy.market.regionsperiod:3600000}", initialDelayString = "${eveproxy.market.regionsdelay:10000}")
 	public void observeAllEveUni() {
 		if (skipRegionSync) {
 			return;

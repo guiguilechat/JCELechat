@@ -18,16 +18,16 @@ public class ESITools {
 	 * @param date a date in format {@link DateTimeFormatter#ISO_DATE_TIME}
 	 * @return that date at offset UTC.
 	 */
-	private static OffsetDateTime convertISODateAsOffsetDateTime(String date) {
+	private static OffsetDateTime convertISODateTimeAsOffsetDateTime(String date) {
 		return DateTimeFormatter.ISO_DATE_TIME.parse(date, OffsetDateTime::from);
 	}
 
 	public static OffsetDateTime fieldOffsetDateTime(String date) {
-		return convertISODateAsOffsetDateTime(date);
+		return convertISODateTimeAsOffsetDateTime(date);
 	}
 
 	public static Instant fieldInstant(String date) {
-		return convertISODateAsOffsetDateTime(date).toInstant();
+		return convertISODateTimeAsOffsetDateTime(date).toInstant();
 	}
 
 	public static String offsetDateTimeField(OffsetDateTime date) {
@@ -39,7 +39,7 @@ public class ESITools {
 	}
 
 	private static LocalDateTime convertISODateAsLocalDateTime(String date) {
-		return convertISODateAsOffsetDateTime(date).atZoneSameInstant(ZoneId.systemDefault()).toLocalDateTime();
+		return convertISODateTimeAsOffsetDateTime(date).atZoneSameInstant(ZoneId.systemDefault()).toLocalDateTime();
 	}
 
 	/**
@@ -50,8 +50,8 @@ public class ESITools {
 		return convertISODateAsLocalDateTime(date);
 	}
 
-	private static LocalDate convertISODateAsLocalDate(String date) {
-		return convertISODateAsOffsetDateTime(date).atZoneSameInstant(ZoneId.systemDefault()).toLocalDate();
+	private static LocalDate convertISODateTimeAsLocalDate(String date) {
+		return convertISODateTimeAsOffsetDateTime(date).atZoneSameInstant(ZoneId.systemDefault()).toLocalDate();
 	}
 
 	/**
@@ -59,7 +59,7 @@ public class ESITools {
 	 * @return that date converted to a localdate within local offset
 	 */
 	public static LocalDate fieldLocalDate(String date) {
-		return convertISODateAsLocalDate(date);
+		return convertISODateTimeAsLocalDate(date);
 	}
 
 	//

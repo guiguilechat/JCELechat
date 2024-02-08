@@ -20,7 +20,7 @@ market.history.fetchsize:200
 market.history.skip:false
 
 # delay in ms before first market fetch execution
-market.updater.fetchdelay:10000
+market.updater.fetchdelay:20000
 
 # delay in ms between each market fetch execution
 market.updater.fetchperiod:120000

@@ -38,7 +38,7 @@ public class MarketUpdateScheduler {
 	@Value("${market.updater.skip:false}")
 	private boolean skipMarketUpdate;
 
-	@Scheduled(fixedRateString = "${market.updater.fetchperiod:120000}", initialDelayString = "${market.updater.fetchdelay:10000}")
+	@Scheduled(fixedRateString = "${market.updater.fetchperiod:120000}", initialDelayString = "${market.updater.fetchdelay:20000}")
 	public void updateMarket() {
 		if (skipMarketUpdate) {
 			return;
