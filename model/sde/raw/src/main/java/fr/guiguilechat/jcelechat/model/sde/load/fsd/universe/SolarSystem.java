@@ -22,9 +22,9 @@ public class SolarSystem {
 	public boolean fringe = false;
 	public boolean hub = false;
 	public boolean international = false;
+	public double luminosity;
 	public Position max;
 	public Position min;
-	public double luminosity;
 	public LinkedHashMap<Long, Planet> planets = new LinkedHashMap<>();
 	public double radius;
 	public boolean regional = false;

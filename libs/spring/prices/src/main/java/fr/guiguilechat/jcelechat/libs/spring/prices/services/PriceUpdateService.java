@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -27,11 +28,17 @@ public class PriceUpdateService {
 	@Autowired
 	private CacheManager cacheManager;
 
+	@Value("${prices.updater.skip:false}")
+	private boolean skip;
+
 	private String lastEtag = null;
 
 	@Transactional
 	@Scheduled(fixedRateString = "${prices.updater.fetchperiod:3600000}", initialDelayString = "${prices.updater.fetchdelay:25000}")
 	public void update() {
+		if (skip) {
+			return;
+		}
 		Map<String, String> properties = new HashMap<>();
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
