@@ -20,8 +20,10 @@ import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.OfferLocation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Product;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.BlueprintActivityService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.ProductService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
@@ -36,6 +38,9 @@ public class IndustryRestController {
 
 	@Autowired
 	private BpService2 bpService2;
+
+	@Autowired
+	private MaterialService materialService;
 
 	@Autowired
 	private ProductService productService;
@@ -134,6 +139,42 @@ public class IndustryRestController {
 
 					return new IndustryInfo(type, bp, productOf, seedMap);
 				}).toList();
+		return RestControllerHelper.makeResponse(ret, accept);
+	}
+
+	public static record ConsumedMat(int typeId, String typeName, int quantity) {
+		public ConsumedMat(Material mat) {
+			this(mat.getType().getTypeId(), mat.getType().getName(), mat.getQuantity());
+		}
+	}
+
+	public static record ProducedItem(int typeId, String typeName, int quantity, double probability) {
+		public ProducedItem(Product prod) {
+			this(prod.getType().getTypeId(), prod.getType().getName(), prod.getQuantity(), prod.getProbability());
+		}
+	}
+
+	public static record ActivityInfo(int typeId, String name, ACTIVITY_TYPE activity,
+			List<ConsumedMat> consumes, List<ProducedItem> produces) {
+
+		public ActivityInfo(Type type, ACTIVITY_TYPE activity, List<Material> mats, List<Product> prods) {
+			this(type.getTypeId(), type.getName(), activity,
+					mats.stream().map(ConsumedMat::new).toList(),
+					prods.stream().map(ProducedItem::new).toList());
+		}
+	}
+
+	@GetMapping("/{typeFiltering}/{typeFilter}/{activity}")
+	public ResponseEntity<List<ActivityInfo>> showActivity(
+			@PathVariable String typeFiltering,
+			@PathVariable String typeFilter,
+			@PathVariable ACTIVITY_TYPE activity,
+			@RequestParam Optional<String> accept) throws IOException {
+		List<ActivityInfo> ret = typeService.typesFilter(typeFiltering, typeFilter).stream()
+				.map(t -> new ActivityInfo(t, activity,
+						materialService.forBPActivity(t.getTypeId(), activity),
+						productService.findProducts(t.getTypeId(), activity)))
+				.toList();
 		return RestControllerHelper.makeResponse(ret, accept);
 	}
 
