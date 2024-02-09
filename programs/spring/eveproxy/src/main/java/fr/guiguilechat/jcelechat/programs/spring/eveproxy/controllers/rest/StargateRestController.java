@@ -70,9 +70,9 @@ public class StargateRestController {
 			@PathVariable @Parameter(description = "id of station to include travels from") int stationFromId,
 			@PathVariable @Parameter(description = "id of station to include travels to from stargates in the same system") int stationToId,
 			@RequestParam @Parameter(description = "if set to true, only travel to a stargate in highsecurity. Default false") Optional<Boolean> hs,
-			@RequestParam @Parameter(description = "align time, in s,  of the ship. Default 10") Optional<ShipProfile> ship,
-			@RequestParam @Parameter(description = "align time, in s,  of the ship. Default 10") Optional<Double> align,
-			@RequestParam @Parameter(description = "warp speed, in AU/s, of the ship. Default 4") Optional<Double> ws,
+			@RequestParam @Parameter(description = "profile to use for ship align and warp speed. Default cruiser") Optional<ShipProfile> ship,
+			@RequestParam @Parameter(description = "align time, in s, of the ship") Optional<Double> align,
+			@RequestParam @Parameter(description = "warp speed, in AU/s, of the ship") Optional<Double> ws,
 			@RequestParam @Parameter(description = "json or xml. Default json") Optional<String> accept) {
 		Station stationFrom = stationService.findById(stationFromId);
 		if (stationFrom == null) {
@@ -82,12 +82,9 @@ public class StargateRestController {
 		if (stationTo == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationToId + " unknown");
 		}
-		double align_s = 10;
-		double ws_aups = 4.0;
-		if (ship.isPresent()) {
-			align_s = ship.get().align;
-			ws_aups = ship.get().warpSpeed;
-		}
+		double align_s = ship.orElse(ShipProfile.cr).align;
+		double ws_aups = ship.orElse(ShipProfile.cr).warpSpeed;
+
 		if (align.isPresent()) {
 			align_s = align.get();
 		}
