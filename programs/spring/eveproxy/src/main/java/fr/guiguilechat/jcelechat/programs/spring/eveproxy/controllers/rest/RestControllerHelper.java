@@ -27,9 +27,10 @@ public class RestControllerHelper {
 		switch (accept.orElse("json")) {
 			case "xml":
 				responseHeaders.setContentType(MediaType.APPLICATION_XML);
+			break;
 			case "yaml":
 			case "yml":
-				responseHeaders.setContentType(YamlMessageConverter.APPLICATION_JSON);
+				responseHeaders.setContentType(YamlMessageConverter.APPLICATION_YAML);
 // responseHeaders.setContentDisposition(ContentDisposition.inline().build());
 			break;
 			case "jason":

@@ -23,6 +23,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/sde/stargate")
@@ -46,6 +47,20 @@ public class StargateRestController {
 		}
 	}
 
+	@RequiredArgsConstructor
+	static enum ShipProfile {
+		bc(9.0, 3.5),
+		bs(13.0, 3.0),
+		cr(7.0, 4.0),
+		ds(5.0, 4.5),
+		fr(4.0, 5.0),
+		sh(1.5, 5.0),
+		;
+
+		public final double align;
+		public final double warpSpeed;
+	}
+
 	@Operation(summary = "stations route", description = "find the quickest path between two stations, considering ship speed")
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "request and result")
@@ -55,6 +70,7 @@ public class StargateRestController {
 			@PathVariable @Parameter(description = "id of station to include travels from") int stationFromId,
 			@PathVariable @Parameter(description = "id of station to include travels to from stargates in the same system") int stationToId,
 			@RequestParam @Parameter(description = "if set to true, only travel to a stargate in highsecurity. Default false") Optional<Boolean> hs,
+			@RequestParam @Parameter(description = "align time, in s,  of the ship. Default 10") Optional<ShipProfile> ship,
 			@RequestParam @Parameter(description = "align time, in s,  of the ship. Default 10") Optional<Double> align,
 			@RequestParam @Parameter(description = "warp speed, in AU/s, of the ship. Default 4") Optional<Double> ws,
 			@RequestParam @Parameter(description = "json or xml. Default json") Optional<String> accept) {
@@ -66,11 +82,24 @@ public class StargateRestController {
 		if (stationTo == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationToId + " unknown");
 		}
-		List<WayPoint> wps = stargateService.travel(stationFrom, stationTo, align.orElse(10.0), ws.orElse(4.0),
+		double align_s = 10;
+		double ws_aups = 4.0;
+		if (ship.isPresent()) {
+			align_s = ship.get().align;
+			ws_aups = ship.get().warpSpeed;
+		}
+		if (align.isPresent()) {
+			align_s = align.get();
+		}
+		if (ws.isPresent()) {
+			ws_aups = ws.get();
+		}
+
+		List<WayPoint> wps = stargateService.travel(stationFrom, stationTo, align_s, ws_aups,
 				hs.orElse(false));
 		return RestControllerHelper
 				.makeResponse(
-						new TravelResult(stationFromId, stationToId, hs.orElse(false), align.orElse(10.0), ws.orElse(4.0), wps),
+						new TravelResult(stationFromId, stationToId, hs.orElse(false), align_s, ws_aups, wps),
 						accept);
 	}
 

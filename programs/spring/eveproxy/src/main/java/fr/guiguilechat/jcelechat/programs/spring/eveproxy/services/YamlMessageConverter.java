@@ -22,11 +22,11 @@ public class YamlMessageConverter extends AbstractJackson2HttpMessageConverter {
 		return ret;
 	}
 
-	public static MediaType APPLICATION_JSON = new MediaType("application", "yaml", StandardCharsets.UTF_8);
+	public static MediaType APPLICATION_YAML = new MediaType("application", "yaml", StandardCharsets.UTF_8);
 
 	YamlMessageConverter() {
 		super(mapper(),
-				APPLICATION_JSON,
+				APPLICATION_YAML,
 				new MediaType("text", "yaml", StandardCharsets.UTF_8),
 				new MediaType("application", "*+yaml", StandardCharsets.UTF_8),
 				new MediaType("text", "*+yaml", StandardCharsets.UTF_8),
