@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,11 +17,12 @@ import org.springframework.web.server.ResponseStatusException;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService.TravelTime;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService.WarpDist;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService.WarpJumpDist;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService.WayPoint;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 @RestController
 @RequestMapping("/api/sde/stargate")
@@ -31,73 +34,30 @@ public class StargateRestController {
 	@Autowired
 	private StationService stationService;
 
-	@GetMapping("/g2g")
-	public ResponseEntity<List<WarpJumpDist>> listG2G(
-			@RequestParam Optional<Boolean> hs,
-			@RequestParam Optional<String> accept) {
-		return RestControllerHelper.makeResponse(stargateService.warpJumpsG2G(hs.orElse(false)), accept);
-	}
-
-	@GetMapping("/s2g/{stationId}")
-	public ResponseEntity<List<WarpJumpDist>> fromStation(
-			@PathVariable int stationId,
-			@RequestParam Optional<String> accept) {
-		Station station = stationService.findById(stationId);
-
-		if (station == null) {
-			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationId + " unknown");
-		}
-		return RestControllerHelper.makeResponse(stargateService.warpJumpsFrom(station), accept);
-	}
-
-	@GetMapping("/g2s/{stationId}")
-	public ResponseEntity<List<WarpDist>> toStation(
-			@PathVariable int stationId,
-			@RequestParam Optional<String> accept) {
-		Station station = stationService.findById(stationId);
-
-		if (station == null) {
-			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationId + " unknown");
-		}
-		return RestControllerHelper.makeResponse(stargateService.warpJumpsTo(station), accept);
-	}
-
-	@GetMapping("/traveltimes/{stationFromId}/{stationToId}")
-	public ResponseEntity<List<TravelTime>> travelTimes(
-			@PathVariable int stationFromId,
-			@PathVariable int stationToId,
-			@RequestParam Optional<Boolean> hs,
-			@RequestParam Optional<Double> align,
-			@RequestParam Optional<Double> ws,
-			@RequestParam Optional<String> accept) {
-		Station stationFrom = stationService.findById(stationFromId);
-		if (stationFrom == null) {
-			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationFromId + " unknown");
-		}
-		Station stationTo = stationService.findById(stationToId);
-		if (stationTo == null) {
-			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationToId + " unknown");
-		}
-		return RestControllerHelper
-				.makeResponse(
-						stargateService.travelTimes(stationFrom, stationTo, ws.orElse(4.0), align.orElse(10.0), hs.orElse(false)),
-						accept);
-	}
-
 	public static record TravelResult(int startId, int endId, boolean hs, double align_s, double ws_aups,
-			long time_s,
+			Duration duration,
 			List<WayPoint> waypoints) {
 
+		public TravelResult(int startId, int endId, boolean hs, double align_s, double ws_aups,
+				List<WayPoint> waypoints) {
+			this(startId, endId, hs, align_s, ws_aups,
+					waypoints.stream().map(WayPoint::duration).collect(Collectors.reducing(Duration::plus)).orElse(null),
+					waypoints);
+		}
 	}
 
+	@Operation(summary = "stations route", description = "find the quickest path between two stations, considering ship speed")
+	@ApiResponses(value = {
+			@ApiResponse(responseCode = "200", description = "request and result")
+	})
 	@GetMapping("/travel/{stationFromId}/{stationToId}")
 	public ResponseEntity<TravelResult> travel(
-			@PathVariable int stationFromId,
-			@PathVariable int stationToId,
-			@RequestParam Optional<Boolean> hs,
-			@RequestParam Optional<Double> align,
-			@RequestParam Optional<Double> ws,
-			@RequestParam Optional<String> accept) {
+			@PathVariable @Parameter(description = "id of station to include travels from") int stationFromId,
+			@PathVariable @Parameter(description = "id of station to include travels to from stargates in the same system") int stationToId,
+			@RequestParam @Parameter(description = "if set to true, only travel to a stargate in highsecurity. Default false") Optional<Boolean> hs,
+			@RequestParam @Parameter(description = "align time, in s,  of the ship. Default 10") Optional<Double> align,
+			@RequestParam @Parameter(description = "warp speed, in AU/s, of the ship. Default 4") Optional<Double> ws,
+			@RequestParam @Parameter(description = "json or xml. Default json") Optional<String> accept) {
 		Station stationFrom = stationService.findById(stationFromId);
 		if (stationFrom == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationFromId + " unknown");
@@ -110,8 +70,7 @@ public class StargateRestController {
 				hs.orElse(false));
 		return RestControllerHelper
 				.makeResponse(
-						new TravelResult(stationFromId, stationToId, hs.orElse(false), align.orElse(10.0), ws.orElse(4.0),
-								(long) wps.stream().mapToDouble(WayPoint::time_s).sum(), wps),
+						new TravelResult(stationFromId, stationToId, hs.orElse(false), align.orElse(10.0), ws.orElse(4.0), wps),
 						accept);
 	}
 

@@ -11,6 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.YamlMessageConverter;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class RestControllerHelper {
@@ -26,7 +27,13 @@ public class RestControllerHelper {
 		switch (accept.orElse("json")) {
 			case "xml":
 				responseHeaders.setContentType(MediaType.APPLICATION_XML);
+			case "yaml":
+			case "yml":
+				responseHeaders.setContentType(YamlMessageConverter.APPLICATION_JSON);
+// responseHeaders.setContentDisposition(ContentDisposition.inline().build());
 			break;
+			case "jason":
+			case "js":
 			case "json":
 			default:
 				responseHeaders.setContentType(MediaType.APPLICATION_JSON);

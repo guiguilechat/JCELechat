@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.universe.services;
 
 import java.io.Serializable;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -150,6 +151,9 @@ public class StargateService {
 	 * @return average time in s to actually perform the warp from standstill point.
 	 */
 	public static double convertWarpTotime(double distance_m, double align_s, double warpspeed_aups) {
+		if (distance_m < 100000) {
+			throw new RuntimeException("can't warp below 100km, received "+distance_m+"m request");
+		}
 		double distance_warp_au = distance_m / AU_IN_M;
 		double j = Math.min(warpspeed_aups, 6) / 3;
 		double distance_meet = j * distance_warp_au / (warpspeed_aups + j);
@@ -181,6 +185,20 @@ public class StargateService {
 		}
 	}
 
+	/**
+	 * @param start          station to include the warp time from towards an out
+	 *                       gate
+	 * @param end            station to include the warp time toward, from each
+	 *                       in-system gate
+	 * @param align_s        time to align, in s
+	 * @param warpspeed_aups ship warp speed, in AU per s
+	 * @param hsOnly         if true, only allow to travel to a stargate when its
+	 *                       system is HS. Does not impact start station, but does
+	 *                       impact end station since its stargates won't be
+	 *                       reachable.
+	 * @return all the travel times for warp-jump between stargates, including FROM
+	 *           start station as well as direct warp from stargate to end station
+	 */
 	public List<TravelTime> travelTimes(Station start, Station end, double align_s, double warpspeed_aups,
 			boolean hsOnly) {
 		if (start.getSolarSystem().getSolarSystemId() == end.getSolarSystem().getSolarSystemId()) {
@@ -317,9 +335,25 @@ public class StargateService {
 		}
 	}
 
-	public static record WayPoint(int targetId, String targetName, long time_s) {
+	public static record WayPoint(
+			int targetId,
+			String targetName,
+			Duration duration) {
 	}
 
+	/**
+	 * find the quickest (as sum of duration) path from a station to another one,
+	 * using ship properties. This is using an astar pathing, with weight being
+	 * warp+jump time
+	 *
+	 * @param start          station to start from
+	 * @param end            station to end at
+	 * @param align_s        time to align, in s, of the ship
+	 * @param warpspeed_aups warp speed, in AU/s, of the ship
+	 * @param hsOnly         when true, only HS stargates are used
+	 * @return the list of system jumps to performs, as well as the jump duration,
+	 *           to reach the station in the fastest way possible
+	 */
 	public List<WayPoint> travel(Station start, Station end, double align_s, double warpspeed_aups,
 			boolean hsOnly) {
 		List<TravelTime> travelTimes = travelTimes(start, end, align_s, warpspeed_aups, hsOnly);
@@ -331,12 +365,12 @@ public class StargateService {
 		List<WayPoint> ret = new ArrayList<>();
 		int lastPos = start.getStationId();
 		for (int step : steps) {
-			long dist = (long) Math.ceil(astar.distanceDirect(lastPos, step));
+			long duration_s = (long) Math.ceil(astar.distanceDirect(lastPos, step));
 			if (step == end.getStationId()) {
-				ret.add(new WayPoint(step, "destination", dist));
+				ret.add(new WayPoint(step, "destination", Duration.ofSeconds(duration_s)));
 			} else {
 				SolarSystem ss = repo.findById(step).get().getSolarSystem();
-				ret.add(new WayPoint(ss.getSolarSystemId(), ss.getName(), dist));
+				ret.add(new WayPoint(ss.getSolarSystemId(), ss.getName(), Duration.ofSeconds(duration_s)));
 			}
 			lastPos = step;
 		}
