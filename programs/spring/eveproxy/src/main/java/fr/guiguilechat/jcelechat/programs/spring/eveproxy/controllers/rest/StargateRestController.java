@@ -34,13 +34,13 @@ public class StargateRestController {
 	@Autowired
 	private StationService stationService;
 
-	public static record TravelResult(int startId, int endId, boolean hs, double align_s, double ws_aups,
+	public static record TravelResult(int startId, int endId, boolean hs, String align, String warpSpeed,
 			Duration duration,
 			List<WayPoint> waypoints) {
 
 		public TravelResult(int startId, int endId, boolean hs, double align_s, double ws_aups,
 				List<WayPoint> waypoints) {
-			this(startId, endId, hs, align_s, ws_aups,
+			this(startId, endId, hs, "" + align_s + " s", "" + ws_aups + " AU/s",
 					waypoints.stream().map(WayPoint::duration).collect(Collectors.reducing(Duration::plus)).orElse(null),
 					waypoints);
 		}
