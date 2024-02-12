@@ -49,6 +49,7 @@ public class MarketRestController {
 	private RegionService regionService;
 
 	public static record PlaceFilter(Region region, long locationId) implements Serializable {
+
 		public static PlaceFilter ofRegion(Region region) {
 			return new PlaceFilter(region, -1);
 		}
@@ -216,7 +217,7 @@ public class MarketRestController {
 		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
 		List<RegionLine> bos = place.bos(rlService, typeId);
 		List<RegionLine> sos = place.sos(rlService, typeId);
-		return makeMarketStatsResponse(typeId, place.regionId(), null, bos, sos, accept);
+		return makeMarketStatsResponse(typeId, place.regionId(), place.locationId(), bos, sos, accept);
 	}
 
 	@GetMapping("/jita/typeId/{typeId}")

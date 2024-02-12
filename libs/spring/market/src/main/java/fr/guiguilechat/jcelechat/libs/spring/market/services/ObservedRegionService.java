@@ -51,7 +51,6 @@ public class ObservedRegionService {
 
 	@PostConstruct
 	public void addDefaultRegions() {
-		System.err.println("regions " + defaultRegions);
 		if (defaultRegions != null && !defaultRegions.isEmpty()) {
 			for (Integer rid : defaultRegions) {
 				if (rid == null) {
