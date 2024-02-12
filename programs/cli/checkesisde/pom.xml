@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 		<artifactId>cli</artifactId>
-		<version>7.14.3</version>
+		<version>7.14.4</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs.cli</groupId>
 	<artifactId>checkesisde</artifactId>
