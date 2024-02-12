@@ -23,8 +23,11 @@ public class RestControllerHelper {
 	 *           accept if provided. Default is json.
 	 */
 	public static <T> ResponseEntity<T> makeResponse(T data, Optional<String> accept) {
+		if (accept.isEmpty()) {
+			return new ResponseEntity<>(data, HttpStatus.OK);
+		}
 		HttpHeaders responseHeaders = new HttpHeaders();
-		switch (accept.orElse("json")) {
+		switch (accept.orElse("json").toLowerCase()) {
 			case "xml":
 				responseHeaders.setContentType(MediaType.APPLICATION_XML);
 			break;
