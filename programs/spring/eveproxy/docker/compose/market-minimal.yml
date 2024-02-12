@@ -34,7 +34,9 @@ services:
 # stop all the updates except market
       - EVEPROXY_SYNC_KILLSKIP=true
       - MARKET_HISTORY_SKIP=true
-      - MARKET_REGION_ADD=10000002,10000043
+      # start fetching ASAP
+      - MARKET_UPDATER_FETCHDELAY=0
+      - MARKET_REGIONS_ADD=10000002,10000043
       - MER_UPDATER_SKIP=true
       - PRICES_UPDATER_SKIP=true
       - SDE_UPDATER_SKIP=true
