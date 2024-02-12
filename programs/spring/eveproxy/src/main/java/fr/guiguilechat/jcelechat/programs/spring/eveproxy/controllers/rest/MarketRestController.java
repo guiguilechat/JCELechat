@@ -32,6 +32,9 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
@@ -48,6 +51,7 @@ public class MarketRestController {
 	@Autowired
 	private RegionService regionService;
 
+	/** which market to observe ? Either a region or a location */
 	public static record PlaceFilter(Region region, long locationId) implements Serializable {
 
 		public static PlaceFilter ofRegion(Region region) {
@@ -208,8 +212,12 @@ public class MarketRestController {
 		}
 	}
 
-	@GetMapping("/{placeFiltering}/{placeFilter}/typeId/{typeId}")
-	public ResponseEntity<TypeMarketStats> byPlaceByType(@PathVariable String placeFiltering,
+	@Operation(summary = "get market stats", description = "get by and sell prices by volume steps ")
+	@ApiResponses(value = {
+			@ApiResponse(responseCode = "200", description = "List of prices")
+	})
+	@GetMapping("/{placeFiltering}/{placeFilter}/typeId/{typeId}/stats")
+	public ResponseEntity<TypeMarketStats> statsByPlaceByType(@PathVariable String placeFiltering,
 			@PathVariable String placeFilter,
 			@PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
@@ -220,9 +228,56 @@ public class MarketRestController {
 		return makeMarketStatsResponse(typeId, place.regionId(), place.locationId(), bos, sos, accept);
 	}
 
-	@GetMapping("/jita/typeId/{typeId}")
-	public ResponseEntity<TypeMarketStats> jitaByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
-		return byPlaceByType("lid", "" + RegionLineService.JITAIV_ID, typeId, accept);
+	@Operation(summary = "get market stats", description = "get by and sell prices by volume steps ")
+	@ApiResponses(value = {
+			@ApiResponse(responseCode = "200", description = "List of prices")
+	})
+	@GetMapping("/jita/typeId/{typeId}/stats")
+	public ResponseEntity<TypeMarketStats> statsJitaByType(@PathVariable int typeId,
+			@RequestParam Optional<String> accept) {
+		return statsByPlaceByType("lid", "" + RegionLineService.JITAIV_ID, typeId, accept);
+	}
+
+	public static record MarketOffer(int volume, double price) {
+		public MarketOffer(RegionLine line) {
+			this(line.getOrder().volume_remain, line.getOrder().price);
+		}
+	}
+
+	List<MarketOffer> offers(String placeFiltering, String placeFilter,int typeId, boolean buy_order){
+		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
+		return (buy_order?place.bos(rlService, typeId):place.sos(rlService, typeId))
+				.stream().map(MarketOffer::new).toList();
+	}
+
+	@GetMapping("/{placeFiltering}/{placeFilter}/typeId/{typeId}/sos")
+	public ResponseEntity<List<MarketOffer>> sosByPlaceByType(@PathVariable String placeFiltering,
+			@PathVariable String placeFilter,
+			@PathVariable int typeId,
+			@RequestParam Optional<String> accept) {
+		return RestControllerHelper.makeResponse(offers(placeFiltering, placeFilter, typeId, false), accept);
+	}
+
+	@GetMapping("/jita/typeId/{typeId}/sos")
+	public ResponseEntity<List<MarketOffer>> sosJitaByType(
+			@PathVariable int typeId,
+			@RequestParam Optional<String> accept) {
+		return RestControllerHelper.makeResponse(offers("lid", "" + RegionLineService.JITAIV_ID, typeId, false), accept);
+	}
+
+	@GetMapping("/{placeFiltering}/{placeFilter}/typeId/{typeId}/bos")
+	public ResponseEntity<List<MarketOffer>> bosByPlaceByType(@PathVariable String placeFiltering,
+			@PathVariable String placeFilter,
+			@PathVariable int typeId,
+			@RequestParam Optional<String> accept) {
+		return RestControllerHelper.makeResponse(offers(placeFiltering, placeFilter, typeId, true), accept);
+	}
+
+	@GetMapping("/jita/typeId/{typeId}/bos")
+	public ResponseEntity<List<MarketOffer>> bosJitaByType(
+			@PathVariable int typeId,
+			@RequestParam Optional<String> accept) {
+		return RestControllerHelper.makeResponse(offers("lid", "" + RegionLineService.JITAIV_ID, typeId, true), accept);
 	}
 
 	@GetMapping("/{placeFiltering}/{placeFilter}/{typeFiltering}/{typeFilter}/chart")
@@ -276,12 +331,12 @@ public class MarketRestController {
 		chartbyLocationByType("lid", "" + RegionLineService.JITAIV_ID, typeFiltering, typeFilter, response, accept, bcolor);
 	}
 
-	@GetMapping("/sos/byTypeId/{typeId}")
+	@GetMapping("/selllocations/byTypeId/{typeId}")
 	public ResponseEntity<List<OfferLocation>> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.sellLocations(typeId), accept);
 	}
 
-	@GetMapping("/bos/byTypeId/{typeId}")
+	@GetMapping("/buylocations/byTypeId/{typeId}")
 	public ResponseEntity<List<OfferLocation>> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.buyLocations(typeId), accept);
 	}
