@@ -1,0 +1,47 @@
+# this is an example that starts a postgres service and a eveproxy service accessing postgres.
+# the postgres has its admin access open (port 45432)
+# the services don't fetch the MER, the history, the SDE. They only fetch market.
+
+
+version: '3.8'
+services:
+   postgres:
+      container_name: eveproxy-postgres
+      image: postgres:16.0-alpine
+      environment:
+      - POSTGRES_USER=eveproxy
+      - POSTGRES_PASSWORD=eveproxy
+      ports:
+      - 45432:5432
+      restart: unless-stopped
+      shm_size: '512mb'# actually MB
+   tomcat:
+      container_name: eveproxy-tomcat
+      depends_on:
+      - postgres
+      image: glechat/eveproxy
+      environment:
+      - SPRING_DATASOURCE_PASSWORD=eveproxy
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/eveproxy
+      - SPRING_DATASOURCE_USERNAME=eveproxy
+# hibernate
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_BATCH_SIZE=100
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
+# use memory cache
+      - SPRING_CACHE_TYPE=simple
+# stop all the updates except market
+      - EVEPROXY_SYNC_KILLSKIP=true
+      - MARKET_HISTORY_SKIP=true
+      - MARKET_REGION_ADD=10000002,10000043
+      - MER_UPDATER_SKIP=true
+      - PRICES_UPDATER_SKIP=true
+      - SDE_UPDATER_SKIP=true
+      ports:
+      - 8080:8080
+      restart: unless-stopped
+      deploy:
+         resources:
+            limits:
+               memory: 4000M

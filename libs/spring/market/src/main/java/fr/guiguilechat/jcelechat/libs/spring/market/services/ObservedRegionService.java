@@ -3,11 +3,15 @@ package fr.guiguilechat.jcelechat.libs.spring.market.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.ObservedRegionRepository;
+import jakarta.annotation.PostConstruct;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 public class ObservedRegionService {
 
@@ -40,6 +44,25 @@ public class ObservedRegionService {
 
 	public ObservedRegion save(ObservedRegion region) {
 		return repo.save(region);
+	}
+
+	@Value(value = "${market.regions.add:}")
+	private List<Integer> defaultRegions;
+
+	@PostConstruct
+	public void addDefaultRegions() {
+		System.err.println("regions " + defaultRegions);
+		if (defaultRegions != null && !defaultRegions.isEmpty()) {
+			for (Integer rid : defaultRegions) {
+				if (rid == null) {
+					continue;
+				}
+				if (!repo.existsById(rid)) {
+					log.info("activate default region " + rid);
+					activate(rid);
+				}
+			}
+		}
 	}
 
 }
