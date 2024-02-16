@@ -54,4 +54,13 @@ public class TypeService {
 			default -> byName(typeFilter);
 		};
 	}
+
+	public Type typeFilter(String typeFiltering, String typeFilter) {
+		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
+			case "id", "ti", "tid", "typeid" -> byId(Integer.parseInt(typeFilter)).orElse(null);
+			case "name", "tn", "tname" -> byName(typeFilter).stream().findFirst().orElse(null);
+			default -> byName(typeFilter).stream().findFirst().orElse(null);
+		};
+	}
+
 }

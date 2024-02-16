@@ -76,7 +76,7 @@ public class RegionLineService {
 		return repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder);
 	}
 
-	public static record OfferLocation(int regionId, long locationID, int typeId, double bestPrice)
+	public static record OfferLocation(int regionId, long locationId, int typeId, double bestPrice)
 			implements Serializable {
 	}
 
