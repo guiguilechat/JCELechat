@@ -7,41 +7,74 @@
 		<h1 th:text="${name}" />
 	</div>
 
-	<div th:if="${manufacturingProd!=null && !manufacturingProd.isEmpty}">
-		<h2>manufacturing</h2>
-		<h3>products</h3>
+	<div th:if="${manufacturingProd!=null && !manufacturingProd.isEmpty()}">
+		<h2>Manufacturing</h2>
+		<h3>Products</h3>
 		<table>
 			<thead>
 				<tr>
-					<th>id</th>
-					<th>name</th>
+					<th>type</th>
 					<th>quantity</th>
 					<th>probability</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr th:each="product : ${manufacturingProd}">
-					<td><span th:text="${product.type.typeId}"> id </span></td>
-					<td><span th:text="${product.type.name}"> name </span></td>
+					<td><a th:href="${product.url}" th:text="${product.type.name}"> type </span></td>
 					<td><span th:text="${product.quantity}"> quantity </span></td>
 					<th><span th:text="${product.probability}"> probability
 					</span></th>
 				</tr>
 			</tbody>
 		</table>
-		<h3>materials</h3>
+		<h3>Materials</h3>
 		<table>
 			<thead>
 				<tr>
-					<th>id</th>
-					<th>name</th>
+					<th>type</th>
 					<th>quantity</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr th:each="material : ${manufacturingMats}">
-					<td><span th:text="${material.type.typeId}"> id </span></td>
-					<td><span th:text="${material.type.name}"> name </span></td>
+					<td><a th:href="${material.url}" th:text="${material.type.name}"> type </span></td>
+					<td><span th:text="${material.quantity}"> quantity </span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div th:if="${reactionProd!=null && !reactionProd.isEmpty()}">
+		<h2>Reaction</h2>
+		<h3>Products</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>type</th>
+					<th>quantity</th>
+					<th>probability</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="product : ${reactionProd}">
+					<td><a th:href="${product.url}" th:text="${product.type.name}"> type </span></td>
+					<td><span th:text="${product.quantity}"> quantity </span></td>
+					<th><span th:text="${product.probability}"> probability
+					</span></th>
+				</tr>
+			</tbody>
+		</table>
+		<h3>Materials</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>type</th>
+					<th>quantity</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="material : ${reactionMats}">
+					<td><a th:href="${material.url}" th:text="${material.type.name}"> type </span></td>
 					<td><span th:text="${material.quantity}"> quantity </span></td>
 				</tr>
 			</tbody>
@@ -75,6 +108,29 @@
 					</tr>
 				</tbody>
 			</table>
+		</div>
+	
+		<div th:if="${productOf !=null && !productOf.isEmpty()}">
+			<h3>Product of</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>type</th>
+					<th>activity</th>
+					<th>quantity</th>
+					<th>probability</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="product : ${productOf}">
+					<td><a th:href="${product.url}" th:text="${product.type.name}"> type </span></td>
+					<td><span th:text="${product.activity}"> activity </span></td>
+					<td><span th:text="${product.quantity}"> quantity </span></td>
+					<th><span th:text="${product.probability}"> probability
+					</span></th>
+				</tr>
+			</tbody>
+		</table>
 		</div>
 	</div>
 
