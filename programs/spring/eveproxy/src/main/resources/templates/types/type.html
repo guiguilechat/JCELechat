@@ -1,0 +1,207 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title th:text="${name}"></title>
+<link rel="stylesheet" type="text/css"
+	href="/webjars/bootstrap/dist/css/bootstrap.min.css" />
+<script src="/webjars/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/webjars/jquery/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid border">
+		<h1 th:text="${name}" />
+		<div class="row border"></div>
+
+		<div class="row border"
+			th:if="${manufacturingProd!=null && !manufacturingProd.isEmpty()}">
+			<h2>Manufacturing</h2>
+
+			<div class="col">
+				<h3>Products</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>type</th>
+							<th>quantity</th>
+							<th>probability</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="product : ${manufacturingProd}">
+							<td><a th:href="${product.url}"
+								th:text="${product.type.name}"> type </span></td>
+							<td><span th:text="${product.quantity}"> quantity </span></td>
+							<th><span th:text="${product.probability}">
+									probability </span></th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col">
+				<h3>Materials</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>type</th>
+							<th>quantity</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="material : ${manufacturingMats}">
+							<td><a th:href="${material.url}"
+								th:text="${material.type.name}"> type </span></td>
+							<td><span th:text="${material.quantity}"> quantity </span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="row border"
+			th:if="${reactionProd!=null && !reactionProd.isEmpty()}">
+			<h2>Reaction</h2>
+			<div class="col">
+				<h3>Products</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>type</th>
+							<th>quantity</th>
+							<th>probability</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="product : ${reactionProd}">
+							<td><a th:href="${product.url}"
+								th:text="${product.type.name}"> type </span></td>
+							<td><span th:text="${product.quantity}"> quantity </span></td>
+							<th><span th:text="${product.probability}">
+									probability </span></th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col">
+				<h3>Materials</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>type</th>
+							<th>quantity</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="material : ${reactionMats}">
+							<td><a th:href="${material.url}"
+								th:text="${material.type.name}"> type </span></td>
+							<td><span th:text="${material.quantity}"> quantity </span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="row border"
+			th:if="${seeded !=null && !seeded.isEmpty() || productOf !=null && !productOf.isEmpty()}">
+			<h2>Source</h2>
+			<div class="col" th:if="${seeded !=null && !seeded.isEmpty()}">
+				<h3>NPC seed</h3>
+
+				<table>
+					<thead>
+						<tr>
+							<th>region space</th>
+							<th>region name</th>
+							<th>region id</th>
+							<th>system name</th>
+							<th>location id</th>
+							<th>price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="seed : ${seeded}">
+							<td><span th:text="${seed.space}"> region space </span></td>
+							<td><span th:text="${seed.regionName}"> region name </span></td>
+							<td><span th:text="${seed.regionId}"> region id </span></td>
+							<td><span th:text="${seed.systemName}"> system name </span></td>
+							<td><span th:text="${seed.locationId}"> location id </span></td>
+							<td><span th:text="${seed.price}"> price </span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col" th:if="${productOf !=null && !productOf.isEmpty()}">
+				<h3>Product of</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>type</th>
+							<th>activity</th>
+							<th>quantity</th>
+							<th>probability</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="product : ${productOf}">
+							<td><a th:href="${product.url}"
+								th:text="${product.type.name}"> type </span></td>
+							<td><span th:text="${product.activity}"> activity </span></td>
+							<td><span th:text="${product.quantity}"> quantity </span></td>
+							<th><span th:text="${product.probability}">
+									probability </span></th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="row border"
+			th:if="${manufacturingUses !=null && !manufacturingUses.isEmpty() || reactionUses !=null && !reactionUses.isEmpty()}">
+			<h2>Usage</h2>
+
+			<div class="col"
+				th:if="${manufacturingUses !=null && !manufacturingUses.isEmpty()}">
+				<h3>Manufacturing</h3>
+
+				<table>
+					<thead>
+						<tr>
+							<th>type</th>
+							<th>quantity</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="use : ${manufacturingUses}">
+							<td><a th:href="${use.url}" th:text="${use.type.name}">
+									type </span></td>
+							<td><span th:text="${use.quantity}"> quantity </span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col"
+				th:if="${reactionUses !=null && !reactionUses.isEmpty()}">
+				<h3>Reaction</h3>
+
+				<table>
+					<thead>
+						<tr>
+							<th>type</th>
+							<th>quantity</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="use : ${reactionUses}">
+							<td><a th:href="${use.url}" th:text="${use.type.name}">
+									type </span></td>
+							<td><span th:text="${use.quantity}"> quantity </span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

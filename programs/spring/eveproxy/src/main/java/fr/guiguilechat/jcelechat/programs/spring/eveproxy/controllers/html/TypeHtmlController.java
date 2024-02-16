@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
 
 import java.net.URI;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
@@ -29,8 +30,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationServic
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.BpService2;
 
 @Controller
-@RequestMapping("/html/industry")
-public class IndustryHtmlController {
+@RequestMapping("/html/type")
+public class TypeHtmlController {
 
 	@Autowired
 	private BlueprintActivityService blueprintActivityService;
@@ -107,31 +108,63 @@ public class IndustryHtmlController {
 				product.getProbability());
 	}
 
-	@GetMapping("/type/{typeFiltering}/{typeFilter}")
+	public static record LinkedUsage(String url, Type type, int quantity) {
+	}
+
+	LinkedUsage linkedUsage(Material material) {
+		return new LinkedUsage(
+				uri(material.getActivity().getType()).toString(),
+				material.getActivity().getType(),
+				material.getQuantity());
+	}
+
+	@GetMapping("/{typeFiltering}/{typeFilter}")
 	public String getType(Model model, @PathVariable String typeFiltering,
 			@PathVariable String typeFilter) {
 		Type t = typeService.typeFilter(typeFiltering, typeFilter);
-		model.addAttribute("name", t != null ? t.getName() : "unknown bp " + typeFilter);
+		model.addAttribute("name", t != null ? t.getName() : "unknown type " + typeFilter);
 		if (t != null) {
 			model.addAttribute("manufacturingProd",
-					productService.findProducts(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream().map(this::linkedProduct)
+					productService.findProducts(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
+							.map(this::linkedProduct)
+							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 			model.addAttribute("manufacturingMats",
-					materialService.forBPActivity(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream().map(this::linkedMaterial)
+					materialService.forBPActivity(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
+							.map(this::linkedMaterial)
+							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 			model.addAttribute("reactionProd",
-					productService.findProducts(t.getTypeId(), ACTIVITY_TYPE.reaction).stream().map(this::linkedProduct)
+					productService.findProducts(t.getTypeId(), ACTIVITY_TYPE.reaction).stream()
+							.map(this::linkedProduct)
+							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 			model.addAttribute("reactionMats",
-					materialService.forBPActivity(t.getTypeId(), ACTIVITY_TYPE.reaction).stream().map(this::linkedMaterial)
+					materialService.forBPActivity(t.getTypeId(), ACTIVITY_TYPE.reaction).stream()
+							.map(this::linkedMaterial)
+							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
-			model.addAttribute("seeded", regionLineService.seedLocations(t.getTypeId()).stream().map(this::seed).toList());
+			model.addAttribute("seeded",
+					regionLineService.seedLocations(t.getTypeId()).stream()
+							.map(this::seed)
+							.toList());
 			model.addAttribute("productOf",
 					productService.findProducers(List.of(t.getTypeId()), List.of(ACTIVITY_TYPE.values())).stream()
 							.map(this::linkedActivity)
+							.sorted(Comparator.comparing(u -> u.type().getName()))
+							.toList());
+			model.addAttribute("manufacturingUses",
+					materialService.findUsages(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
+							.map(this::linkedUsage)
+							.sorted(Comparator.comparing(u -> u.type().getName()))
+							.toList());
+			model.addAttribute("reactionUses",
+					materialService.findUsages(t.getTypeId(), ACTIVITY_TYPE.reaction).stream()
+							.map(this::linkedUsage)
+							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 		}
-		return "blueprint";
+		return "types/type";
 	}
 
 }

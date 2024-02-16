@@ -15,4 +15,7 @@ public interface MaterialRepository extends JpaRepository<Material, Long> {
 
 	public List<Material> findAllByActivity(BlueprintActivity activity);
 
+	public List<Material> findAllByTypeTypeIdInAndActivityActivityIn(List<Integer> typeIds,
+			List<ACTIVITY_TYPE> ats);
+
 }

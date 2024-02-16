@@ -33,12 +33,22 @@ public class MaterialService {
 		return repo.findAllByActivityTypeTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
-	public static final List<String> CACHE_LIST = List.of("SdeBlueprintMaterial");
+	public static final List<String> CACHE_LIST = List.of("SdeBlueprintMaterial", "SdeBlueprintUsage");
 
 	@Cacheable("SdeBlueprintMaterial")
 	public List<Material> forBPActivity(int bpTypeId,
 			ACTIVITY_TYPE ats) {
 		return forBPActivity(List.of(bpTypeId), List.of(ats));
+	}
+
+	public List<Material> findUsages(List<Integer> bpTypeIds,
+			List<ACTIVITY_TYPE> ats) {
+		return repo.findAllByTypeTypeIdInAndActivityActivityIn(bpTypeIds, ats);
+	}
+
+	@Cacheable("SdeBlueprintUsage")
+	public List<Material> findUsages(int typeId, ACTIVITY_TYPE ats) {
+		return findUsages(List.of(typeId), List.of(ats));
 	}
 
 }

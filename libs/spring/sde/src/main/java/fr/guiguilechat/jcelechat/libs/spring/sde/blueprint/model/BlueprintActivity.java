@@ -38,6 +38,7 @@ public class BlueprintActivity implements Serializable {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
 
+	/** blueprint this activity applies to */
 	@ManyToOne
 	private Type type;
 
