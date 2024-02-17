@@ -9,8 +9,23 @@
 </head>
 <body>
 	<div class="container-fluid border">
-		<h1 th:text="${name}" />
-		<div class="row border"></div>
+		<div class="row border">
+			<div class="col">
+				<a th:if="${prvType != null}" th:href="${prvTypeUrl}"
+					th:text="${prvType.name}">previous</a>
+			</div>
+			<div class="col-6">
+				<a th:if="${category != null}" th:href="${catUrl}"
+					th:text="${category.name}" /><br />
+				<a th:if="${group != null}"
+					th:href="${groupUrl}" th:text="${group.name}" /><br />
+				<h1 th:text="${name}" />
+			</div>
+			<div class="col">
+				<a th:if="${nxtType != null}" th:href="${nxtTypeUrl}"
+					th:text="${nxtType.name}">previous</a>
+			</div>
+		</div>
 
 		<div class="row border"
 			th:if="${manufacturingProd!=null && !manufacturingProd.isEmpty()}">
@@ -29,7 +44,7 @@
 					<tbody>
 						<tr th:each="product : ${manufacturingProd}">
 							<td><a th:href="${product.url}"
-								th:text="${product.type.name}"> type </span></td>
+								th:text="${product.type.name}"> type </a></td>
 							<td><span th:text="${product.quantity}"> quantity </span></td>
 							<th><span th:text="${product.probability}">
 									probability </span></th>
@@ -49,7 +64,7 @@
 					<tbody>
 						<tr th:each="material : ${manufacturingMats}">
 							<td><a th:href="${material.url}"
-								th:text="${material.type.name}"> type </span></td>
+								th:text="${material.type.name}"> type </a></td>
 							<td><span th:text="${material.quantity}"> quantity </span></td>
 						</tr>
 					</tbody>
@@ -73,7 +88,7 @@
 					<tbody>
 						<tr th:each="product : ${reactionProd}">
 							<td><a th:href="${product.url}"
-								th:text="${product.type.name}"> type </span></td>
+								th:text="${product.type.name}"> type </a></td>
 							<td><span th:text="${product.quantity}"> quantity </span></td>
 							<th><span th:text="${product.probability}">
 									probability </span></th>
@@ -93,7 +108,7 @@
 					<tbody>
 						<tr th:each="material : ${reactionMats}">
 							<td><a th:href="${material.url}"
-								th:text="${material.type.name}"> type </span></td>
+								th:text="${material.type.name}"> type </a></td>
 							<td><span th:text="${material.quantity}"> quantity </span></td>
 						</tr>
 					</tbody>
@@ -145,7 +160,7 @@
 					<tbody>
 						<tr th:each="product : ${productOf}">
 							<td><a th:href="${product.url}"
-								th:text="${product.type.name}"> type </span></td>
+								th:text="${product.type.name}"> type </a></td>
 							<td><span th:text="${product.activity}"> activity </span></td>
 							<td><span th:text="${product.quantity}"> quantity </span></td>
 							<th><span th:text="${product.probability}">
@@ -174,7 +189,7 @@
 					<tbody>
 						<tr th:each="use : ${manufacturingUses}">
 							<td><a th:href="${use.url}" th:text="${use.type.name}">
-									type </span></td>
+									type </a></td>
 							<td><span th:text="${use.quantity}"> quantity </span></td>
 						</tr>
 					</tbody>
@@ -195,7 +210,7 @@
 					<tbody>
 						<tr th:each="use : ${reactionUses}">
 							<td><a th:href="${use.url}" th:text="${use.type.name}">
-									type </span></td>
+									type </a></td>
 							<td><span th:text="${use.quantity}"> quantity </span></td>
 						</tr>
 					</tbody>

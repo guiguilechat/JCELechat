@@ -34,4 +34,12 @@ public class GroupService {
 	public List<Group> byName(String nameIgnoreCase) {
 		return repo.findByNameEqualsIgnoreCase(nameIgnoreCase);
 	}
+
+	public Group nextGroup(Group group) {
+		return repo.findTop1ByCategoryAndNameGreaterThanOrderByNameAsc(group.getCategory(), group.getName());
+	}
+
+	public Group prevGroup(Group group) {
+		return repo.findTop1ByCategoryAndNameLessThanOrderByNameDesc(group.getCategory(), group.getName());
+	}
 }

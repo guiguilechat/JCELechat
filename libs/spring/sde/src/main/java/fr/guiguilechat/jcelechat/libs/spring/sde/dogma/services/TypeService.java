@@ -63,4 +63,12 @@ public class TypeService {
 		};
 	}
 
+	public Type nextType(Type type) {
+		return repo.findTop1ByGroupAndNameGreaterThanOrderByNameAsc(type.getGroup(), type.getName());
+	}
+
+	public Type prevType(Type type) {
+		return repo.findTop1ByGroupAndNameLessThanOrderByNameDesc(type.getGroup(), type.getName());
+	}
+
 }
