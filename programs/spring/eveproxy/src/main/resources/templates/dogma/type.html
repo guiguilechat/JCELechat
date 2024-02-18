@@ -3,9 +3,9 @@
 <head>
 <title th:text="${name}"></title>
 <link rel="stylesheet" type="text/css"
-	href="/webjars/bootstrap/dist/css/bootstrap.min.css" />
-<script src="/webjars/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/webjars/jquery/jquery.min.js"></script>
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 </head>
 <body>
 	<div class="container-fluid border">

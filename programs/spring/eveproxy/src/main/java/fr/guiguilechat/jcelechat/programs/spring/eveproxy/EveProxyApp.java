@@ -12,8 +12,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 
 @EnableAsync
-@EnableScheduling
 @EnableCaching
+@EnableScheduling
 @SpringBootApplication(scanBasePackages = {
 		"fr.guiguilechat.jcelechat.libs.spring.market",
 		"fr.guiguilechat.jcelechat.libs.spring.mer",
