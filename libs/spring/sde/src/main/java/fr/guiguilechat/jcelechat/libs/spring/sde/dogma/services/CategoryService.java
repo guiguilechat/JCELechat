@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,6 +25,18 @@ public class CategoryService {
 
 	public Category save(Category entity) {
 		return repo.save(entity);
+	}
+
+	public Optional<Category> byId(int categoryId) {
+		return repo.findById(categoryId);
+	}
+
+	public Category prevGroup(Category c) {
+		return repo.findTop1ByNameLessThanOrderByNameDesc(c.getName());
+	}
+
+	public Category nextGroup(Category c) {
+		return repo.findTop1ByNameGreaterThanOrderByNameAsc(c.getName());
 	}
 
 }

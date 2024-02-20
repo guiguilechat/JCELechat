@@ -6,5 +6,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Category;
 
 public interface CategoryRepository extends JpaRepository<Category, Integer> {
 
+	public Category findTop1ByNameLessThanOrderByNameDesc(String name);
+
+	public Category findTop1ByNameGreaterThanOrderByNameAsc(String name);
 
 }

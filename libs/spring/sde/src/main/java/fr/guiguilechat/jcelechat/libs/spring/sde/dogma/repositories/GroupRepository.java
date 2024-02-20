@@ -11,6 +11,8 @@ public interface GroupRepository extends JpaRepository<Group, Integer> {
 
 	public List<Group> findByNameEqualsIgnoreCase(String name);
 
+	public List<Group> findByCategoryCategoryId(int catId);
+
 	public Group findTop1ByCategoryAndNameGreaterThanOrderByNameAsc(Category category, String name);
 
 	public Group findTop1ByCategoryAndNameLessThanOrderByNameDesc(Category category, String name);

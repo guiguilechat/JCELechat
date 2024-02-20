@@ -26,6 +26,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.ProductServi
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Category;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
@@ -43,6 +44,9 @@ public class DogmaHtmlController {
 
 	@Autowired
 	private BpService2 bpService2;
+
+	@Autowired
+	private CategoryService categoryService;
 
 	@Autowired
 	private MaterialService materialService;
@@ -209,6 +213,7 @@ public class DogmaHtmlController {
 		if (og.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "group " + groupId + " does not exist");
 		}
+
 		Group g = og.get();
 		model.addAttribute("grp", g);
 		model.addAttribute("category", g.getCategory());
@@ -229,8 +234,8 @@ public class DogmaHtmlController {
 				.sorted(Comparator.comparing(Type::getName))
 				.map(this::linkedType)
 				.toList());
-		return "dogma/group";
 
+		return "dogma/group";
 	}
 
 	URI uri(Category category) {
@@ -239,10 +244,40 @@ public class DogmaHtmlController {
 				.toUri();
 	}
 
+	static record LinkedGroup(String url, Group group) {
+	}
+
+	LinkedGroup linkedGroup(Group group) {
+		return new LinkedGroup(uri(group).toString(), group);
+	}
+
 	@GetMapping("/category/{categoryId}")
 	public String getCategory(Model model, @PathVariable int categoryId) {
-		return "dogma/category";
+		Optional<Category> oc = categoryService.byId(categoryId);
+		if (oc.isEmpty()) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "category " + categoryId + " does not exist");
+		}
 
+		Category c = oc.get();
+		model.addAttribute("cat", c);
+
+		Category prvCat = categoryService.prevGroup(c);
+		if (prvCat != null) {
+			model.addAttribute("prvCat", prvCat);
+			model.addAttribute("prvCatUrl", uri(prvCat));
+		}
+		Category nxtCat = categoryService.nextGroup(c);
+		if (nxtCat != null) {
+			model.addAttribute("nxtCat", nxtCat);
+			model.addAttribute("nxtCatUrl", uri(nxtCat));
+		}
+
+		model.addAttribute("groups", groupService.byCatId(categoryId).stream()
+				.sorted(Comparator.comparing(Group::getName))
+				.map(this::linkedGroup)
+				.toList());
+
+		return "dogma/category";
 	}
 
 }

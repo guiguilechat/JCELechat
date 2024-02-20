@@ -35,11 +35,15 @@ public class GroupService {
 		return repo.findByNameEqualsIgnoreCase(nameIgnoreCase);
 	}
 
-	public Group nextGroup(Group group) {
-		return repo.findTop1ByCategoryAndNameGreaterThanOrderByNameAsc(group.getCategory(), group.getName());
+	public List<Group> byCatId(int catId) {
+		return repo.findByCategoryCategoryId(catId);
 	}
 
 	public Group prevGroup(Group group) {
 		return repo.findTop1ByCategoryAndNameLessThanOrderByNameDesc(group.getCategory(), group.getName());
+	}
+
+	public Group nextGroup(Group group) {
+		return repo.findTop1ByCategoryAndNameGreaterThanOrderByNameAsc(group.getCategory(), group.getName());
 	}
 }

@@ -1,0 +1,38 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title th:text="${cat.name}" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}" ></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}" ></script>
+</head>
+<body>
+	<div class="container-fluid border">
+		<div class="row">
+			<div class="col">
+				<a  th:if="${prvCat != null}" th:href="${prvCatUrl}" th:text="${prvCat.name}"/>
+			</div>
+			<div class="col-6">
+				<h1 th:text="${cat.name}" />
+			</div>
+			<div class="col">
+				<a th:if="${nxtCat != null}" th:href="${nxtCatUrl}" th:text="${nxtCat.name}" />
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+			<h3>groups</h3>
+				<table>
+					<tbody>
+						<tr th:each="grp : ${groups}">
+							<td><a th:href="${grp.url}" th:text="${grp.group.name}" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
