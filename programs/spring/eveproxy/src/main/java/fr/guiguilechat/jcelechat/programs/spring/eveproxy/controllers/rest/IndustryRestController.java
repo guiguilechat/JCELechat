@@ -27,7 +27,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.MaterialServ
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.ProductService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.BpService2;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 
 @RestController
 @RequestMapping("/api/industry")
@@ -37,7 +37,7 @@ public class IndustryRestController {
 	private BlueprintActivityService blueprintActivityService;
 
 	@Autowired
-	private BpService2 bpService2;
+	private EivService eivService;
 
 	@Autowired
 	private MaterialService materialService;
@@ -115,7 +115,7 @@ public class IndustryRestController {
 
 					BPInfo bp = null;
 					if (type.getGroup().getCategory().getCategoryId() == 9) {
-						double eiv = bpService2.eiv(type.getTypeId());
+						double eiv = eivService.eiv(type.getTypeId());
 						long teTime = tes.size() != 1 ? 0 : 256000l * tes.get(0).getTime() / 105;
 						long researchTime = teTime + meTime;
 

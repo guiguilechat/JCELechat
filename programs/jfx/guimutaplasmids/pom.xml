@@ -3,7 +3,7 @@
   <parent>
 	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 	<artifactId>jfx</artifactId>
-    <version>7.15.2</version>
+    <version>7.15.3</version>
   </parent>
   <groupId>fr.guiguilechat.jcelechat.programs.jfx</groupId>
   <artifactId>guimutaplasmids</artifactId>

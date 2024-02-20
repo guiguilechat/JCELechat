@@ -9,8 +9,11 @@ import fr.guiguilechat.jcelechat.libs.spring.prices.services.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.MaterialService;
 
+/**
+ *
+ */
 @Service
-public class BpService2 {
+public class EivService {
 
 	@Autowired
 	private MaterialService materialService;
@@ -20,9 +23,9 @@ public class BpService2 {
 
 	public double eiv(int blueprintId) {
 		Map<Integer, Double> adj = priceService.adjusted();
-		return materialService.forBPActivity(blueprintId, ACTIVITY_TYPE.manufacturing).stream()
+		return Math.floor(materialService.forBPActivity(blueprintId, ACTIVITY_TYPE.manufacturing).stream()
 				.mapToDouble(m -> adj.getOrDefault(m.getType().getTypeId(), 0.0) * m.getQuantity())
-				.sum();
+				.sum());
 	}
 
 }

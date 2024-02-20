@@ -14,7 +14,7 @@
 				<a  th:if="${prvGrp != null}" th:href="${prvGrpUrl}" th:text="${prvGrp.name}"/>
 			</div>
 			<div class="col-6">
-				<a th:if="${category != null}" th:href="${catUrl}"
+				category : <a th:if="${category != null}" th:href="${catUrl}"
 					th:text="${category.name}" /><br />
 				<h1 th:text="${grp.name}" />
 			</div>
@@ -25,7 +25,7 @@
 
 		<div class="row">
 			<div class="col">
-			<h3>types</h3>
+			<h3>Types</h3>
 				<table>
 					<tbody>
 						<tr th:each="type : ${types}">

@@ -15,15 +15,32 @@
 					th:text="${prvType.name}">previous</a>
 			</div>
 			<div class="col-6">
-				<a th:if="${category != null}" th:href="${catUrl}"
+				category : <a th:if="${category != null}" th:href="${catUrl}"
 					th:text="${category.name}" /><br />
-				<a th:if="${group != null}"
+				group : <a th:if="${group != null}"
 					th:href="${groupUrl}" th:text="${group.name}" /><br />
 				<h1 th:text="${name}" />
 			</div>
 			<div class="col">
 				<a th:if="${nxtType != null}" th:href="${nxtTypeUrl}"
 					th:text="${nxtType.name}">previous</a>
+			</div>
+		</div>
+		<div class="row border">
+			<h2>Informations</h2>
+			<div class="col">
+				<h3>Prices</h3>
+				
+				<table>
+					<tbody>
+						<tr th:if="${jitaso!=null}"><td>Jita SO</td><td><span th:text="${jitaso}"></span></td></tr>
+						<tr th:if="${jitabo!=null}"><td>Jita BO</td><td><span th:text="${jitabo}"></span></td></tr>
+						<tr th:if="${average!=null}"><td>average</td><td><span th:text="${average}"></span></td></tr>
+						<tr th:if="${adjusted!=null}"><td>adjusted</td><td><span th:text="${adjusted}"></span></td></tr>
+						<tr th:if="${eiv!=null}"><td>eiv</td><td><span th:text="${eiv}"></span></td></tr>
+						<tr th:if="${bpeiv!=null}"><td>blueprint eiv</td><td><span th:text="${bpeiv}"></span></td></tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 

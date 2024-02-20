@@ -15,12 +15,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.OfferLocation;
+import fr.guiguilechat.jcelechat.libs.spring.prices.services.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Product;
-import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.BlueprintActivityService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.ProductService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Category;
@@ -33,26 +34,26 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.BpService2;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 
 @Controller
 @RequestMapping("/html/dogma")
 public class DogmaHtmlController {
 
 	@Autowired
-	private BlueprintActivityService blueprintActivityService;
-
-	@Autowired
-	private BpService2 bpService2;
-
-	@Autowired
 	private CategoryService categoryService;
+
+	@Autowired
+	private EivService eivService;
 
 	@Autowired
 	private MaterialService materialService;
 
 	@Autowired
 	private GroupService groupService;
+
+	@Autowired
+	private PriceService priceService;
 
 	@Autowired
 	private ProductService productService;
@@ -108,7 +109,8 @@ public class DogmaHtmlController {
 				material.getQuantity());
 	}
 
-	public static record LinkedActivity(String url, Type type, ACTIVITY_TYPE activity, int quantity, double probability) {
+	public static record LinkedActivity(String url, Type type, ACTIVITY_TYPE activity, int quantity, double probability,
+			Product product) {
 	}
 
 	LinkedActivity linkedActivity(Product product) {
@@ -117,7 +119,8 @@ public class DogmaHtmlController {
 				product.getActivity().getType(),
 				product.getActivity().getActivity(),
 				product.getQuantity(),
-				product.getProbability());
+				product.getProbability(),
+				product);
 	}
 
 	public static record LinkedUsage(String url, Type type, int quantity) {
@@ -152,16 +155,17 @@ public class DogmaHtmlController {
 				model.addAttribute("nxtTypeUrl", uri(nxtType));
 			}
 
-			model.addAttribute("manufacturingProd",
-					productService.findProducts(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
-							.map(this::linkedProduct)
-							.sorted(Comparator.comparing(u -> u.type().getName()))
-							.toList());
-			model.addAttribute("manufacturingMats",
-					materialService.forBPActivity(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
-							.map(this::linkedMaterial)
-							.sorted(Comparator.comparing(u -> u.type().getName()))
-							.toList());
+			List<LinkedProduct> manufProd = productService.findProducts(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
+					.map(this::linkedProduct)
+					.sorted(Comparator.comparing(u -> u.type().getName()))
+					.toList();
+			model.addAttribute("manufacturingProd", manufProd);
+			List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getTypeId(), ACTIVITY_TYPE.manufacturing)
+					.stream()
+					.map(this::linkedMaterial)
+					.sorted(Comparator.comparing(u -> u.type().getName()))
+					.toList();
+			model.addAttribute("manufacturingMats", manufMats);
 			model.addAttribute("reactionProd",
 					productService.findProducts(t.getTypeId(), ACTIVITY_TYPE.reaction).stream()
 							.map(this::linkedProduct)
@@ -176,11 +180,12 @@ public class DogmaHtmlController {
 					regionLineService.seedLocations(t.getTypeId()).stream()
 							.map(this::seed)
 							.toList());
-			model.addAttribute("productOf",
-					productService.findProducers(List.of(t.getTypeId()), List.of(ACTIVITY_TYPE.values())).stream()
-							.map(this::linkedActivity)
-							.sorted(Comparator.comparing(u -> u.type().getName()))
-							.toList());
+			List<LinkedActivity> productOf = productService
+					.findProducers(List.of(t.getTypeId()), List.of(ACTIVITY_TYPE.values())).stream()
+					.map(this::linkedActivity)
+					.sorted(Comparator.comparing(u -> u.type().getName()))
+					.toList();
+			model.addAttribute("productOf", productOf);
 			model.addAttribute("manufacturingUses",
 					materialService.findUsages(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
 							.map(this::linkedUsage)
@@ -191,6 +196,24 @@ public class DogmaHtmlController {
 							.map(this::linkedUsage)
 							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
+
+			model.addAttribute("adjusted", priceService.adjusted().get(t.getTypeId()));
+			model.addAttribute("average", priceService.average().get(t.getTypeId()));
+			if (!manufProd.isEmpty()) {
+				model.addAttribute("eiv", (long) eivService.eiv(t.getTypeId()));
+			}
+			if (productOf.size() == 1) {
+				model.addAttribute("bpeiv",
+						(long) eivService.eiv(productOf.get(0).product().getActivity().getType().getTypeId()));
+			}
+			List<RegionLine> bos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getTypeId(), true);
+			if (bos != null && !bos.isEmpty()) {
+				model.addAttribute("jitabo", bos.get(bos.size() - 1).getOrder().price);
+			}
+			List<RegionLine> sos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getTypeId(), false);
+			if (sos != null && !sos.isEmpty()) {
+				model.addAttribute("jitaso", sos.get(0).getOrder().price);
+			}
 		}
 		return "dogma/type";
 	}

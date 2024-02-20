@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services;
 
-import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,10 +26,6 @@ public class BlueprintActivityService {
 
 	public BlueprintActivity save(BlueprintActivity entity) {
 		return repo.save(entity);
-	}
-
-	public List<BlueprintActivity> producing(List<Integer> typeIds) {
-		return typeIds == null || typeIds.isEmpty() ? Collections.emptyList() : repo.producing(typeIds);
 	}
 
 	public List<BlueprintActivity> forBPActivity(List<Integer> bpTypeIds,
