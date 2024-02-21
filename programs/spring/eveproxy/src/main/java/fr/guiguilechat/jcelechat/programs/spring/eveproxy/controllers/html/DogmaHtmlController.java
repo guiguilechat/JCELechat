@@ -17,7 +17,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.OfferLocation;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.libs.spring.prices.services.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
@@ -74,7 +74,7 @@ public class DogmaHtmlController {
 			double price) {
 	}
 
-	Seed seed(OfferLocation ol) {
+	Seed seed(LocatedBestOffer ol) {
 		Optional<Region> or = regionService.byId(ol.regionId());
 		String space = or.isPresent() ? or.get().getUniverse() : "ø";
 		String regionName = or.isPresent() ? or.get().getName() : "unknown region " + ol.regionId();

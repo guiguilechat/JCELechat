@@ -76,66 +76,84 @@ public class RegionLineService {
 		return repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder);
 	}
 
-	public static record OfferLocation(int regionId, long locationId, int typeId, double bestPrice)
+	/**
+	 * the best offer for a given type at a location. Also integrates region id for
+	 * easiness
+	 */
+	public static record LocatedBestOffer(int regionId, long locationId, int typeId, double bestPrice)
 			implements Serializable {
 	}
 
-	public List<OfferLocation> sellLocations(int typeId) {
+	/**
+	 * @param typeId id of the type we want the price of
+	 * @return the lowest sell price, at each location, for given type
+	 */
+	public List<LocatedBestOffer> sellLocations(int typeId) {
 		return repo.findSellOfferLocations(typeId).stream()
-				.map(arr -> new OfferLocation((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
+				.map(arr -> new LocatedBestOffer((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
 	}
 
-	public List<OfferLocation> buyLocations(int typeId) {
+	/**
+	 * @param typeId id of the type we want the price of
+	 * @return the highest buy price, at each location, for given type
+	 */
+	public List<LocatedBestOffer> buyLocations(int typeId) {
 		return repo.findBuyOfferLocations(typeId).stream()
-				.map(arr -> new OfferLocation((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
+				.map(arr -> new LocatedBestOffer((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
 	}
 
-	public List<OfferLocation> seedLocations(int typeId) {
+	/**
+	 * @param typeId id of the type we want the seed locations of
+	 * @return the list of best price for each location where the type is seeded.
+	 */
+	public List<LocatedBestOffer> seedLocations(int typeId) {
 		return repo.findSeedOffers(typeId).stream()
-				.map(arr -> new OfferLocation((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
+				.map(arr -> new LocatedBestOffer((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
 	}
 
-
-	public static record SellStat(long qtty, double price, long cumulQtty, double cumulValue) implements Serializable {
+/**
+ * cumulated value
+ */
+	public static record OfferStat(long qtty, double price, long cumulQtty, double cumulValue) implements Serializable {
 	}
 
 	@Value("${market.sellstats.clipmult:10}")
-	private float priceGainClipover;
+	private float priceGainClipMult;
 
-	List<SellStat> sellGain(List<RegionLine> sos, List<RegionLine> bos) {
-		ArrayList<SellStat> ret = new ArrayList<>();
+	List<OfferStat> sellGain(List<RegionLine> sos, List<RegionLine> bos) {
+		ArrayList<OfferStat> ret = new ArrayList<>();
 		long cumulQtty = 0;
 		double cumulValue = 0.0;
-		Double minSOPrice = null;
+		Double lowestSOPrice = null;
 		for (RegionLine rl : sos) {
-			if (minSOPrice == null) {
-				minSOPrice = rl.getOrder().price;
-			} else if (rl.getOrder().price > minSOPrice * priceGainClipover) {
+			if (lowestSOPrice == null) {
+				lowestSOPrice = rl.getOrder().price;
+			} else if (rl.getOrder().price > lowestSOPrice * priceGainClipMult) {
 				break;
 			}
 			cumulQtty += rl.getOrder().volume_remain;
 			cumulValue += rl.getOrder().volume_remain * rl.getOrder().price;
-			SellStat add = new SellStat(-rl.getOrder().volume_remain, -rl.getOrder().price, -cumulQtty, cumulValue);
+			OfferStat add = new OfferStat(-rl.getOrder().volume_remain, -rl.getOrder().price, -cumulQtty, cumulValue);
 			ret.add(add);
 		}
 		cumulQtty = 0;
 		cumulValue = 0.0;
-		Double maxBOPrice = null;
+		Double highestBOPrice = null;
 		for (RegionLine rl : bos) {
-			if (maxBOPrice == null) {
-				maxBOPrice = rl.getOrder().price;
-			} else if (rl.getOrder().price < maxBOPrice / priceGainClipover) {
+			if (highestBOPrice == null) {
+				highestBOPrice = rl.getOrder().price;
+			} else if (rl.getOrder().price < highestBOPrice / priceGainClipMult) {
 				break;
 			}
 			cumulQtty += rl.getOrder().volume_remain;
 			cumulValue += rl.getOrder().volume_remain * rl.getOrder().price;
-			SellStat add = new SellStat(rl.getOrder().volume_remain, rl.getOrder().price, cumulQtty, cumulValue);
+			OfferStat add = new OfferStat(rl.getOrder().volume_remain, rl.getOrder().price, cumulQtty, cumulValue);
 			ret.add(add);
 		}
 		return ret;
 	}
 
-	public List<SellStat> sellLocationGain(long locationId, int typeId) {
+	public List<OfferStat> offerStatsLocation(long locationId, int typeId) {
 		List<RegionLine> sos = repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, typeId, false);
 		List<RegionLine> bos = new ArrayList<>(
 				repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, typeId, true));
@@ -143,7 +161,7 @@ public class RegionLineService {
 		return sellGain(sos, bos);
 	}
 
-	public List<SellStat> sellRegionGain(int regionId, int typeId) {
+	public List<OfferStat> offerStatsRegion(int regionId, int typeId) {
 		List<RegionLine> sos = repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, false);
 		List<RegionLine> bos = new ArrayList<>(
 				repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, true));
@@ -151,7 +169,7 @@ public class RegionLineService {
 		return sellGain(sos, bos);
 	}
 
-	public List<SellStat> sellAllGain(int typeId) {
+	public List<OfferStat> offerStatsAll(int typeId) {
 		List<RegionLine> sos = repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(typeId, false);
 		List<RegionLine> bos = new ArrayList<>(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(typeId, true));
 		Collections.reverse(bos);

@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.OfferLocation;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
@@ -100,10 +100,10 @@ public class IndustryRestController {
 			@RequestParam Optional<String> accept) throws IOException {
 		List<IndustryInfo> ret = typeService.typesFilter(typeFiltering, typeFilter)
 				.stream().map(type -> {
-					List<OfferLocation> seeds = type.getMarketGroupID() > 0 ? regionLineService.seedLocations(type.getTypeId())
+					List<LocatedBestOffer> seeds = type.getMarketGroupID() > 0 ? regionLineService.seedLocations(type.getTypeId())
 							: Collections.emptyList();
 					Map<Integer, Map<Long, Double>> seedMap = new HashMap<>();
-					for (OfferLocation s : seeds) {
+					for (LocatedBestOffer s : seeds) {
 						Map<Long, Double> rmap = seedMap.computeIfAbsent(s.regionId(), rid -> new HashMap<>());
 						rmap.put(s.locationId(), s.bestPrice());
 					}

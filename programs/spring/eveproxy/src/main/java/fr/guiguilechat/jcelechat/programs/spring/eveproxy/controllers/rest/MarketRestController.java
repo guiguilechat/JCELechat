@@ -26,8 +26,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.OfferLocation;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.SellStat;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.OfferStat;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
@@ -52,10 +52,10 @@ public class MarketRestController {
 	private RegionService regionService;
 
 	/** which market to observe ? Either a region or a location */
-	public static record PlaceFilter(Region region, long locationId) implements Serializable {
+	public static record PlaceFilter(Region region, Long locationId) implements Serializable {
 
 		public static PlaceFilter ofRegion(Region region) {
-			return new PlaceFilter(region, -1);
+			return new PlaceFilter(region, null);
 		}
 
 		public static PlaceFilter ofLocation(long locationId) {
@@ -86,14 +86,14 @@ public class MarketRestController {
 			return rlService.forAll(typeId, false);
 		}
 
-		List<SellStat> gains(RegionLineService rlService, int typeId) {
+		List<OfferStat> gains(RegionLineService rlService, int typeId) {
 			if (locationId() > 0) {
-				return rlService.sellLocationGain(locationId(), typeId);
+				return rlService.offerStatsLocation(locationId(), typeId);
 			}
 			if (region() != null) {
-				return rlService.sellRegionGain(region().getRegionId(), typeId);
+				return rlService.offerStatsRegion(region().getRegionId(), typeId);
 			}
-			return rlService.sellAllGain(typeId);
+			return rlService.offerStatsAll(typeId);
 		}
 
 		public String toLegend() {
@@ -110,10 +110,10 @@ public class MarketRestController {
 
 	public PlaceFilter placeFilter(String placeFiltering, String placeFilter) {
 		if (placeFiltering == null || placeFilter == null || placeFilter.equalsIgnoreCase("all")) {
-			return new PlaceFilter(null, -1);
+			return new PlaceFilter(null, null);
 		}
 		Region reg = null;
-		long locationId = -1;
+		Long locationId = null;
 		switch (placeFiltering.toLowerCase()) {
 			case "rid":
 			case "regionid":
@@ -294,12 +294,12 @@ public class MarketRestController {
 			if (type == null) {
 				continue;
 			}
-			List<SellStat> gains = place.gains(rlService, type.getTypeId());
+			List<OfferStat> gains = place.gains(rlService, type.getTypeId());
 			if (gains.isEmpty()) {
 				continue;
 			}
 			XYSeries series = new XYSeries(type.getName());
-			for (SellStat ss : gains) {
+			for (OfferStat ss : gains) {
 				series.add(new XYDataItem(ss.cumulQtty(), ss.cumulValue() / 1000000));
 			}
 			series.add(new XYDataItem(0.0, 0.0));
@@ -332,12 +332,12 @@ public class MarketRestController {
 	}
 
 	@GetMapping("/selllocations/byTypeId/{typeId}")
-	public ResponseEntity<List<OfferLocation>> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+	public ResponseEntity<List<LocatedBestOffer>> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.sellLocations(typeId), accept);
 	}
 
 	@GetMapping("/buylocations/byTypeId/{typeId}")
-	public ResponseEntity<List<OfferLocation>> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+	public ResponseEntity<List<LocatedBestOffer>> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.buyLocations(typeId), accept);
 	}
 
