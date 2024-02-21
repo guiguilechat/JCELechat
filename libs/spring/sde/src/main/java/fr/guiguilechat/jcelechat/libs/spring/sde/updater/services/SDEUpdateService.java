@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -55,6 +56,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult.STATUS;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache.SDEDownload;
+import fr.guiguilechat.jcelechat.model.sde.load.bsd.EinvNames;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity;
@@ -204,6 +206,7 @@ public class SDEUpdateService {
 		public final List<SolarSystemData> systems = new ArrayList<>();
 		public final List<StargateData> stargates = new ArrayList<>();
 		public final List<StationData> stations = new ArrayList<>();
+		public final Map<Integer, String> invNames = new HashMap<>();
 	}
 
 	/**
@@ -358,6 +361,7 @@ public class SDEUpdateService {
 		materialService.saveAll(newMaterials);
 		productService.saveAll(newProducts);
 		skillService.saveAll(newSkills);
+
 		// universe
 
 		Map<String, Region> regionByName = regionService.saveAll(context.regions.stream()
@@ -388,7 +392,9 @@ public class SDEUpdateService {
 		stargateService.saveAll(sgById.values());
 
 		stationService.saveAll(context.stations.stream()
-				.map(sd -> Station.from(sd.data(), sd.stationId(), sysById.get(sd.solsysId()))).toList());
+				.map(sd -> Station.from(sd.data(), sd.stationId(), sysById.get(sd.solsysId()),
+						context.invNames.get(sd.stationId())))
+				.toList());
 
 		List.of(BlueprintActivityService.CACHE_LIST,
 				MaterialService.CACHE_LIST,
@@ -446,6 +452,9 @@ public class SDEUpdateService {
 	static final Pattern ENTRYNAME_TYPEATTRIBUTES_PATTERN = Pattern.compile(
 			"sde/fsd/typeDogma\\.yaml");
 
+	static final Pattern ENTRYNAME_INVNAMES_PATTERN = Pattern.compile(
+			"sde/bsd/invNames\\.yaml");
+
 	private void applyZipEntry(UpdateContext context, ZipFile zipFile, ZipEntry zipentry) throws IOException {
 		String name = zipentry.getName();
 		InputStream is = zipFile.getInputStream(zipentry);
@@ -491,7 +500,15 @@ public class SDEUpdateService {
 			appyBlueprints(context, is);
 			return;
 		}
+		if (ENTRYNAME_INVNAMES_PATTERN.matcher(name).matches()) {
+			applyInvNames(context, is);
+			return;
+		}
 		// log.info("ignore entry " + name);
+	}
+
+	private void applyInvNames(UpdateContext context, InputStream is) {
+		context.invNames.putAll(EinvNames.from(is).stream().collect(Collectors.toMap(in -> in.itemID, in -> in.itemName)));
 	}
 
 	private void appyBlueprints(UpdateContext context, InputStream is) {

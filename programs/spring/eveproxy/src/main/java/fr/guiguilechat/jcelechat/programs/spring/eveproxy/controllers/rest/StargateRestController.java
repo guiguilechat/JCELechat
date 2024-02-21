@@ -35,18 +35,23 @@ public class StargateRestController {
 	@Autowired
 	private StationService stationService;
 
-	public static record TravelResult(int startId, int endId, boolean hs, String align, String warpSpeed,
+	public static record TravelResult(int startId, String startName, int endId, String endName, boolean hs, String align,
+			String warpSpeed,
 			Duration duration,
+			int jumps,
 			List<WayPoint> waypoints) {
 
-		public TravelResult(int startId, int endId, boolean hs, double align_s, double ws_aups,
+		public TravelResult(Station from, Station to, boolean hs, double align_s, double ws_aups,
 				List<WayPoint> waypoints) {
-			this(startId, endId, hs, "" + align_s + " s", "" + ws_aups + " AU/s",
+			this(from.getStationId(), from.getName(), to.getStationId(), to.getName(), hs, "" + align_s + " s",
+					"" + ws_aups + " AU/s",
 					waypoints.stream().map(WayPoint::duration).collect(Collectors.reducing(Duration::plus)).orElse(null),
+					waypoints.size(),
 					waypoints);
 		}
 	}
 
+	// a few profiles that can be used to make routes.
 	@RequiredArgsConstructor
 	static enum ShipProfile {
 		bc(9.0, 3.5),
@@ -96,7 +101,7 @@ public class StargateRestController {
 				hs.orElse(false));
 		return RestControllerHelper
 				.makeResponse(
-						new TravelResult(stationFromId, stationToId, hs.orElse(false), align_s, ws_aups, wps),
+						new TravelResult(stationFrom, stationTo, hs.orElse(false), align_s, ws_aups, wps),
 						accept);
 	}
 

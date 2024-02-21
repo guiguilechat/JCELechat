@@ -79,11 +79,11 @@ public class DogmaHtmlController {
 		String space = or.isPresent() ? or.get().getUniverse() : "ø";
 		String regionName = or.isPresent() ? or.get().getName() : "unknown region " + ol.regionId();
 		Station os = stationService.findById((int) ol.locationId());
-		String systemName = os != null ? os.getSolarSystem().getName() : "unknown locaiton " + ol.locationId();
+		String systemName = os != null ? os.getSolarSystem().getName() : "unknown location " + ol.locationId();
 		return new Seed(space, regionName, ol.regionId(), systemName, ol.locationId(), ol.bestPrice());
 	}
 
-	URI uri(Type type) {
+	public URI uri(Type type) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getType", null, "ti", "" + type.getTypeId()).build()
 				.toUri();
 	}
@@ -218,7 +218,7 @@ public class DogmaHtmlController {
 		return "dogma/type";
 	}
 
-	URI uri(Group group) {
+	public URI uri(Group group) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getGroup", null, group.getGroupId()).build()
 				.toUri();
 	}
@@ -261,7 +261,7 @@ public class DogmaHtmlController {
 		return "dogma/group";
 	}
 
-	URI uri(Category category) {
+	public URI uri(Category category) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getCategory", null,
 				category.getCategoryId()).build()
 				.toUri();

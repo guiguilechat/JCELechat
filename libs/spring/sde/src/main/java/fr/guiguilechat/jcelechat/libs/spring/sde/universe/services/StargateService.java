@@ -367,7 +367,7 @@ public class StargateService {
 		for (int step : steps) {
 			long duration_s = (long) Math.ceil(astar.distanceDirect(lastPos, step));
 			if (step == end.getStationId()) {
-				ret.add(new WayPoint(step, "destination", Duration.ofSeconds(duration_s)));
+				ret.add(new WayPoint(step, end.getName(), Duration.ofSeconds(duration_s)));
 			} else {
 				SolarSystem ss = repo.findById(step).get().getSolarSystem();
 				ret.add(new WayPoint(ss.getSolarSystemId(), ss.getName(), Duration.ofSeconds(duration_s)));

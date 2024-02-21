@@ -27,6 +27,7 @@ public class Station {
 
 	private int graphicId;
 	private boolean isConquerable;
+	private String name;
 	private int operationId;
 	private int ownerId;
 	private double position_x;
@@ -39,13 +40,14 @@ public class Station {
 	private boolean useOperationName;
 
 	public static Station from(NPCStation station,
-			int stationId, SolarSystem solarSystem) {
+			int stationId, SolarSystem solarSystem, String name) {
 		return Station.builder()
 				.solarSystem(solarSystem)
 				.stationId(stationId)
 
 				.graphicId(station.graphicID)
 				.isConquerable(station.isConquerable)
+				.name(name)
 				.operationId(station.operationID)
 				.ownerId(station.ownerID)
 				.position_x(station.position.x())
