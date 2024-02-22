@@ -114,11 +114,11 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<builder>gcr.io/paketo-buildpacks/builder:full-cf</builder>
-						<name>${EVEPROXY_DOCKER_HUB_USER}/${project.artifactId}:${project.version}</name>
+						<!--						<builder>gcr.io/paketo-buildpacks/builder:full-cf</builder>-->
+						<name>${EVEPROXY_DOCKER_HUB_USER}/${project.artifactId}</name>
 						<publish>true</publish>
 						<buildpacks>
-							<!--							 ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of bell-->
+							<!--  ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of belllab-->
 							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
 							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>
 						</buildpacks>
@@ -133,6 +133,11 @@
 				<executions>
 					<execution>
 						<id>build-version</id>
+						<configuration>
+							<image>
+								<name>${EVEPROXY_DOCKER_HUB_USER}/${project.artifactId}:${project.version}</name>
+							</image>
+						</configuration>
 						<goals>
 							<goal>build-image-no-fork</goal>
 						</goals>
@@ -144,11 +149,6 @@
 							<goal>build-image-no-fork</goal>
 						</goals>
 						<phase>deploy</phase>
-						<configuration>
-							<image>
-								<name>${EVEPROXY_DOCKER_HUB_USER}/${project.artifactId}</name>
-							</image>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
