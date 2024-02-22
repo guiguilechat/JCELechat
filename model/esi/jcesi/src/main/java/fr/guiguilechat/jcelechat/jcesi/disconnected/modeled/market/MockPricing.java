@@ -15,13 +15,15 @@ public class MockPricing implements IPricing {
 
 	public static class MockPricingType {
 
-		public LocalTypeOrders lto;
+		public LocalTypeOrders sellOrders;
+		public LocalTypeOrders buyOrders;
 		public ListHolderImpl<R_get_markets_region_id_orders> orders = new ListHolderImpl<>();
 		public final int type_id;
 
 		public MockPricingType(int typeID) {
 			type_id = typeID;
-			lto = new LocalTypeOrders(orders.filter(or -> or.type_id == type_id));
+			buyOrders = new LocalTypeOrders(orders.filter(or -> or.type_id == type_id), true);
+			sellOrders = new LocalTypeOrders(orders.filter(or -> or.type_id == type_id), false);
 			orders.set(null);
 		}
 
@@ -55,13 +57,13 @@ public class MockPricing implements IPricing {
 	private HashMap<Integer, MockPricingType> knownPricing = new HashMap<>();
 
 	@Override
-	public LocalTypeOrders getMarketOrders(int typeID) {
-		return orders(typeID).lto;
+	public LocalTypeOrders getMarketOrders(int typeID, boolean buy) {
+		return buy ? orders(typeID).buyOrders : orders(typeID).sellOrders;
 	}
 
 	public MockPricingType orders(int typeID) {
 		synchronized (knownPricing) {
-			return knownPricing.computeIfAbsent(typeID, id -> new MockPricingType(id));
+			return knownPricing.computeIfAbsent(typeID, MockPricingType::new);
 		}
 	}
 

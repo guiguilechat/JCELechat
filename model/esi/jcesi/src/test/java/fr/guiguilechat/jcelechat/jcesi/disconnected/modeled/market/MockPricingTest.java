@@ -9,7 +9,7 @@ public class MockPricingTest {
 	public void testMock() {
 		MockPricing mp = new MockPricing();
 		mp.orders(34).withSell(10, 20.0);
-		Assert.assertEquals((int) mp.getMarketOrders(34).getSellOrders().size().get(), 1);
+		Assert.assertEquals((int) mp.getMarketOrders(34, false).getFilteredOrders().size().get(), 1);
 	}
 
 }

@@ -264,7 +264,7 @@ public class MutaEvals extends Application {
 				price = Bindings
 						.createDoubleBinding(
 								() -> Double.isFinite(qtty().get())
-								? market.getMarketOrders(item.item().id).getPrice(false, (int) Math.ceil(qtty().get())).get()
+										? market.getMarketOrders(item.item().id, false).getPrice((int) Math.ceil(qtty().get())).get()
 										+ qtty.get() * mutraprice.get() * 1000000
 										: Double.POSITIVE_INFINITY,
 										qtty(), regionMarket.getSelectionModel().selectedItemProperty(), mutraprice);

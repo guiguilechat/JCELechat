@@ -28,35 +28,53 @@ public class RegionalMarket implements IPricing {
 	private static final Logger logger = LoggerFactory.getLogger(RegionalMarket.class);
 
 	private final CacheStatic cache;
-	private final int regionID;
+	private final int regionId;
 
-	public RegionalMarket(CacheStatic cache, int regionID) {
+	public RegionalMarket(CacheStatic cache, int regionId) {
 		this.cache = cache;
-		this.regionID = regionID;
+		this.regionId = regionId;
 	}
 
 	@Getter(lazy = true)
-	private final ListHolder<R_get_markets_region_id_orders> orders = cache.markets.orders(order_type.all, regionID,
+	private final ListHolder<R_get_markets_region_id_orders> allOrders = cache.markets.orders(order_type.all, regionId,
 			null);
 
-	@Getter(lazy=true)
-	private final MapHolder<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID = getOrders()
-	.mapMap(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
+	@Getter(lazy = true)
+	private final ListHolder<R_get_markets_region_id_orders> buyOrders = new HalfPages(getAllOrders(), regionId, true)
+			.getForced();
+
+	@Getter(lazy = true)
+	private final MapHolder<Integer, List<R_get_markets_region_id_orders>> buyOrdersByTypeId = getBuyOrders()
+			.mapMap(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
+
+	@Getter(lazy = true)
+	private final ListHolder<R_get_markets_region_id_orders> sellOrders = new HalfPages(getAllOrders(), regionId, false)
+			.getForced();
+
+	@Getter(lazy = true)
+	private final MapHolder<Integer, List<R_get_markets_region_id_orders>> sellOrdersByTypeId = getSellOrders()
+			.mapMap(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
 
 	// orders
 
-	// typeid-> cached orders
-	private Map<Integer, LocalTypeOrders> cachedOrders = new HashMap<>();
+	// typeid-> cached buy orders
+	private Map<Integer, LocalTypeOrders> cachedBuyOrders = new HashMap<>();
+
+	// typeid-> cached sell orders
+	private Map<Integer, LocalTypeOrders> cachedSellOrders = new HashMap<>();
 
 	@Override
-	public LocalTypeOrders getMarketOrders(int typeID) {
+	public LocalTypeOrders getMarketOrders(int typeID, boolean buyOrders) {
+		Map<Integer, LocalTypeOrders> cachedOrders = buyOrders ? cachedBuyOrders : cachedSellOrders;
 		LocalTypeOrders ret = cachedOrders.get(typeID);
 		if (ret == null) {
 			ret = LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
 				LocalTypeOrders ret2 = cachedOrders.get(typeID);
 				if (ret2 == null) {
 					ret2 = new LocalTypeOrders(
-							getOrdersByTypeID().at(typeID, Collections.emptyList()).mapList(l -> l));
+							(buyOrders ? getBuyOrdersByTypeId() : getSellOrdersByTypeId())
+									.at(typeID, Collections.emptyList()).mapList(l -> l),
+							buyOrders);
 					cachedOrders.put(typeID, ret2);
 				}
 				return ret2;
@@ -68,7 +86,6 @@ public class RegionalMarket implements IPricing {
 	//
 	// history
 	//
-
 
 	private static final boolean NO_HISTORY = true;
 
@@ -84,7 +101,7 @@ public class RegionalMarket implements IPricing {
 			ret = LockWatchDog.BARKER.syncExecute(historiesByTypeID, () -> {
 				RegionTypeHistory ret2 = historiesByTypeID.get(typeID);
 				if (ret2 == null) {
-					ret2 = new RegionTypeHistory(cache, regionID, typeID);
+					ret2 = new RegionTypeHistory(cache, regionId, typeID);
 					historiesByTypeID.put(typeID, ret2);
 				}
 				return ret2;
@@ -136,12 +153,13 @@ public class RegionalMarket implements IPricing {
 	 * region.
 	 *
 	 * @param centerId
-	 *          id of the system of station to limit. if set to a station, will
-	 *          only get the orders in that specific station.
+	 *                 id of the system of station to limit. if set to a station,
+	 *                 will
+	 *                 only get the orders in that specific station.
 	 * @param distance
-	 *          max distance if it's a system. 0 means in that system only.
+	 *                 max distance if it's a system. 0 means in that system only.
 	 * @param onlyHS
-	 *          limit to systems only in HS if center is system.
+	 *                 limit to systems only in HS if center is system.
 	 * @return cached filtered pricing.
 	 */
 	public IPricing filter(int centerId, int distance, boolean onlyHS) {
@@ -156,22 +174,22 @@ public class RegionalMarket implements IPricing {
 				if (ret2 == null) {
 					boolean isStation = centerId >= 60000000 && centerId <= 61000000;
 					if (isStation) {
-						ret2 = new ProxyRegionalMarket(this, getOrders().filter(order -> centerId == order.location_id));
+						ret2 = new ProxyRegionalMarket(this, getAllOrders().filter(order -> centerId == order.location_id));
 					} else {
 						// generate all the systems in range first
 						List<Integer> systemsInRange = new ArrayList<>();
 						systemsInRange.add(centerId);
 						if (distance > 0) {
-							R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache().universe.regions(regionID).get();
+							R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache().universe.regions(regionId).get();
 							IntStream.of(region.constellations).parallel()
-							.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache().universe.constellations(ci).get().systems))
-							.filter(
-									si -> si != centerId
-									&& ESIStatic.INSTANCE.cache().route.get(null, null, centerId, flag.shortest, si)
-									.get().size() <= distance)
-							.forEach(systemsInRange::add);
+									.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache().universe.constellations(ci).get().systems))
+									.filter(
+											si -> si != centerId
+													&& ESIStatic.INSTANCE.cache().route.get(null, null, centerId, flag.shortest, si)
+															.get().size() <= distance)
+									.forEach(systemsInRange::add);
 						}
-						logger.debug("allowed systems in region " + regionID + " filter " + key + " are " + systemsInRange);
+						logger.debug("allowed systems in region " + regionId + " filter " + key + " are " + systemsInRange);
 						// then get all the stations in those systems
 						Set<Long> stationIds = systemsInRange.parallelStream()
 								.map(si -> ESIStatic.INSTANCE.cache().universe.systems(si).get())
@@ -179,7 +197,8 @@ public class RegionalMarket implements IPricing {
 								.flatMapToLong(sys -> IntStream.of(sys.stations).asLongStream())
 								.mapToObj(i -> (Long) i).collect(Collectors.toSet());
 						logger.debug(" corresponding stations are " + stationIds);
-						ret2 = new ProxyRegionalMarket(this, getOrders().filter(order -> stationIds.contains(order.location_id)));
+						ret2 = new ProxyRegionalMarket(this,
+								getAllOrders().filter(order -> stationIds.contains(order.location_id)));
 					}
 				}
 				filtered.put(key, ret2);
@@ -191,7 +210,7 @@ public class RegionalMarket implements IPricing {
 
 	@Override
 	public String toString() {
-		return "regionalMarket(" + regionID + ")";
+		return "regionalMarket(" + regionId + ")";
 	}
 
 }

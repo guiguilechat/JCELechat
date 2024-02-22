@@ -9,38 +9,37 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * holds the local orders for a type. Caches the price of items.
+ * holds the local orders for a type, either for buy or for sell . Caches the
+ * price of items.
  */
 @RequiredArgsConstructor
 public class LocalTypeOrders {
 
+	private final ListHolder<R_get_markets_region_id_orders> allOrders;
+
 	@Getter
-	private final ListHolder<R_get_markets_region_id_orders> orders;
+	private final boolean buy;
 
 	/**
-	 * the observable list of buy orders, sorted by decreasing price
+	 * filtered and sorted orders. buy orders are sorted by price DESC while sell
+	 * orders are sorted by price ASC
 	 */
 	@Getter(lazy = true)
-	private final ListHolder<R_get_markets_region_id_orders> buyOrders = orders
-	.filter(order -> order.is_buy_order && order.min_volume == 1)
-	.sorted((o1, o2) -> -Double.compare(o1.price, o2.price));
+	private final ListHolder<R_get_markets_region_id_orders> filteredOrders = buy
+			? allOrders.filter(order -> order.is_buy_order && order.min_volume == 1)
+					.sorted((o1, o2) -> -Double.compare(o1.price, o2.price))
+			: allOrders.filter(order -> !order.is_buy_order && order.min_volume == 1)
+					.sorted((o1, o2) -> Double.compare(o1.price, o2.price));
 
-	/**
-	 * the observable list of sell orders, sorted by increasing price
-	 */
-	@Getter(lazy = true)
-	private final ListHolder<R_get_markets_region_id_orders> sellOrders = orders
-	.filter(order -> !order.is_buy_order && order.min_volume == 1)
-	.sorted((o1, o2) -> Double.compare(o1.price, o2.price));
 
-	private HashMap<Long, DoubleHolder> cachedBuyPrice = new HashMap<>();
+	private HashMap<Long, DoubleHolder> cachedPrice = new HashMap<>();
 
-	public DoubleHolder getBuyPrice(long qtty) {
-		DoubleHolder ret = cachedBuyPrice.get(qtty);
+	public DoubleHolder getPrice(long qtty) {
+		DoubleHolder ret = cachedPrice.get(qtty);
 		if (ret == null) {
-			ListHolder<R_get_markets_region_id_orders> source = getBuyOrders();
-			synchronized (cachedBuyPrice) {
-				ret = cachedBuyPrice.get(qtty);
+			ListHolder<R_get_markets_region_id_orders> source = getFilteredOrders();
+			synchronized (cachedPrice) {
+				ret = cachedPrice.get(qtty);
 				if (ret == null) {
 					ret = source.mapDouble(l -> {
 						double total = 0.0;
@@ -54,58 +53,24 @@ public class LocalTypeOrders {
 								remain -= o.volume_remain;
 							}
 						}
-						return total;
+						return buy ? total : Double.POSITIVE_INFINITY;
 					});
-					cachedBuyPrice.put(qtty, ret);
+					cachedPrice.put(qtty, ret);
 				}
+
 			}
 		}
 		return ret;
-	}
-
-	private HashMap<Long, DoubleHolder> cachedSellPrice = new HashMap<>();
-
-	public DoubleHolder getSellPrice(long qtty) {
-		DoubleHolder ret = cachedSellPrice.get(qtty);
-		if (ret == null) {
-			ListHolder<R_get_markets_region_id_orders> source = getSellOrders();
-			synchronized (cachedSellPrice) {
-				ret = cachedSellPrice.get(qtty);
-				if (ret == null) {
-					ret = source.mapDouble(l -> {
-						double total = 0.0;
-						long remain = qtty;
-						for (R_get_markets_region_id_orders o : l) {
-							if (o.volume_remain >= remain) {
-								total += remain * o.price;
-								return total;
-							} else {
-								total += o.price * o.volume_remain;
-								remain -= o.volume_remain;
-							}
-						}
-						return Double.POSITIVE_INFINITY;
-					});
-					cachedSellPrice.put(qtty, ret);
-				}
-			}
-		}
-		return ret;
-	}
-
-	public DoubleHolder getPrice(boolean buy, long qtty) {
-		return buy ? getBuyPrice(qtty) : getSellPrice(qtty);
 	}
 
 	/**
-	 * @return the quantity of items on sale lower than given SO value
-	 * @param maxvalue
-	 *          maximum price of the sell orders.
+	 * @return the sum of amount of the orders with a better price
 	 */
-	public long getSOLower(double maxvalue) {
+	public long getAmountBetter(double price) {
 		long qtty = 0;
-		for (R_get_markets_region_id_orders order : getSellOrders().get()) {
-			if (order.price <= maxvalue) {
+		for (R_get_markets_region_id_orders order : getFilteredOrders().get()) {
+			boolean better = buy ? order.price >= price : order.price <= price;
+			if (better) {
 				qtty += order.volume_remain;
 			} else {
 				return qtty;

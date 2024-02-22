@@ -12,8 +12,9 @@ public class ShowHydrogenMarketMain {
 		int type_id = 4246;
 
 		System.out.println("modeled");
-		for (R_get_markets_region_id_orders order : ESIAccess.INSTANCE.markets.getMarket(region_id).getMarketOrders(type_id)
-				.getSellOrders().get()) {
+		for (R_get_markets_region_id_orders order : ESIAccess.INSTANCE.markets.getMarket(region_id)
+				.getMarketOrders(type_id, false)
+				.getFilteredOrders().get()) {
 			System.out.println(order.volume_remain + "@" + JFXTools.formatPrice(order.price));
 		}
 		System.out.println("raw");

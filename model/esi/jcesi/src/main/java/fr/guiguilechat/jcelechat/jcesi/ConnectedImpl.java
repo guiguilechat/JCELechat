@@ -381,6 +381,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			// we set daemon otherwise the thread will prevent jvm from dying.
 			_exec = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(200, r -> {
 				Thread t = Executors.defaultThreadFactory().newThread(r);
+				// daemon to allow JVM to shut down while the thread is still active
 				t.setDaemon(true);
 				return t;
 			});

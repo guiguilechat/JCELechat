@@ -40,17 +40,21 @@ public class ProxyRegionalMarket implements IPricing {
 		});
 	}
 
-	// typeid-> cached orders
-	private Map<Integer, LocalTypeOrders> cachedOrders = new HashMap<>();
+	// typeid-> cached buy orders
+	private Map<Integer, LocalTypeOrders> cachedBuyOrders = new HashMap<>();
+
+	// typeid-> cached sell orders
+	private Map<Integer, LocalTypeOrders> cachedSellOrders = new HashMap<>();
 
 	@Override
-	public LocalTypeOrders getMarketOrders(int typeID) {
+	public LocalTypeOrders getMarketOrders(int typeID, boolean buyOrders) {
+		Map<Integer, LocalTypeOrders> cachedOrders = buyOrders ? cachedBuyOrders : cachedSellOrders;
 		LocalTypeOrders ret = cachedOrders.get(typeID);
 		if (ret == null) {
 			ret = LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
 				LocalTypeOrders ret2 = cachedOrders.get(typeID);
 				if (ret2 == null) {
-					ret2 = new LocalTypeOrders(ordersByTypeID.at(typeID, Collections.emptyList()).toList(l -> l));
+					ret2 = new LocalTypeOrders(ordersByTypeID.at(typeID, Collections.emptyList()).toList(l -> l), buyOrders);
 					cachedOrders.put(typeID, ret2);
 				}
 				return ret2;

@@ -121,6 +121,14 @@ public interface Requested<T> {
 		return list.get(0);
 	}
 
+	public default Instant getLastModifiedInstant() {
+		String lastmodified = getLastModified();
+		if (lastmodified == null) {
+			return Instant.ofEpochMilli(0);
+		}
+		return ESITools.headerInstant(lastmodified);
+	}
+
 	/**
 	 * get the number of errors remaining until prevented access. If this is 0 or
 	 * lower we must wait {@link #getErrorsReset()} seconds
