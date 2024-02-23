@@ -63,9 +63,6 @@ public class PraisalController {
 	private TableColumn<Entry<EveType, Integer>, String> itemname;
 
 	@FXML
-	private TableColumn<Entry<EveType, Integer>, Double> itemavgvol;
-
-	@FXML
 	private TableColumn<Entry<EveType, Integer>, Double> itembuyback1;
 
 	@FXML
@@ -101,10 +98,6 @@ public class PraisalController {
 		// make the columns access
 		itemname.setCellValueFactory(cell -> new ReadOnlyObjectWrapper<>(cell.getValue().getKey().name));
 
-		itemavgvol.setCellValueFactory(cell -> MarketHelpers.monthlyAVG(cell.getValue().getKey().id, marketHolder1)
-				.divide(cell.getValue().getKey().volume).asObject());
-		itemavgvol.setCellFactory(col -> new PriceCellFactory<>());
-
 		// buyback gain = bo *(1-tax/100) - volume*volumicprice
 		itembuyback1.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder1)
 				.multiply(bbk1taxProperty.divide(100).negate().add(1.0))
@@ -133,7 +126,6 @@ public class PraisalController {
 		itembuybackr2.setCellFactory(col -> new PriceCellFactory<>());
 		itembuybackr2.visibleProperty().bind(bbk2.selectedProperty());
 
-		table.getSortOrder().add(itemavgvol);
 		table.setItems(FXCollections.observableArrayList());
 
 		new Thread(this::load).start();

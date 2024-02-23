@@ -67,9 +67,4 @@ public class MockPricing implements IPricing {
 		}
 	}
 
-	@Override
-	public RegionTypeHistory getHistory(int typeID) {
-		throw new UnsupportedOperationException();
-	}
-
 }

@@ -61,18 +61,18 @@ public class MoonWorthController {
 		// return var.doubleValue();
 		// }
 		// },
-		MONTH {
-			@Override
-			public double value(int typeID, MoonWorthController controller) {
-				return controller.market().getHistory(typeID).monthly.getAverage().get();
-			}
-		},
-		WEEK {
-			@Override
-			public double value(int typeID, MoonWorthController controller) {
-				return controller.market().getHistory(typeID).weekly.getAverage().get();
-			}
-		},
+// MONTH {
+// @Override
+// public double value(int typeID, MoonWorthController controller) {
+// return controller.market().getHistory(typeID).monthly.getAverage().get();
+// }
+// },
+// WEEK {
+// @Override
+// public double value(int typeID, MoonWorthController controller) {
+// return controller.market().getHistory(typeID).weekly.getAverage().get();
+// }
+// },
 		REPROBO {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
@@ -85,18 +85,21 @@ public class MoonWorthController {
 				return ret;
 			}
 		},
-		REPROMONTH {
-			@Override
-			public double value(int typeID, MoonWorthController controller) {
-				double ret = 0;
-				for (Entry<Integer, Double> e : IndustryUsage.load().get(typeID).reprocessInto.entrySet()) {
-					Material mat = (Material) TypeIndex.getType(e.getKey());
-					double matval = controller.matReprocess(mat) * MONTH.value(mat.id, controller);
-					ret += matval;
-				}
-				return ret;
-			}
-		};
+// REPROMONTH {
+// @Override
+// public double value(int typeID, MoonWorthController controller) {
+// double ret = 0;
+// for (Entry<Integer, Double> e :
+// IndustryUsage.load().get(typeID).reprocessInto.entrySet()) {
+// Material mat = (Material) TypeIndex.getType(e.getKey());
+// double matval = controller.matReprocess(mat) * MONTH.value(mat.id,
+// controller);
+// ret += matval;
+// }
+// return ret;
+// }
+// }
+		;
 
 		public abstract double value(int typeID, MoonWorthController controller);
 	}

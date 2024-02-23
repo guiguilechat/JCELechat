@@ -84,33 +84,6 @@ public class RegionalMarket implements IPricing {
 	}
 
 	//
-	// history
-	//
-
-	private static final boolean NO_HISTORY = true;
-
-	private final HashMap<Integer, RegionTypeHistory> historiesByTypeID = new HashMap<>();
-
-	@Override
-	public RegionTypeHistory getHistory(int typeID) {
-		if (NO_HISTORY) {
-			return null;
-		}
-		RegionTypeHistory ret = historiesByTypeID.get(typeID);
-		if (ret == null) {
-			ret = LockWatchDog.BARKER.syncExecute(historiesByTypeID, () -> {
-				RegionTypeHistory ret2 = historiesByTypeID.get(typeID);
-				if (ret2 == null) {
-					ret2 = new RegionTypeHistory(cache, regionId, typeID);
-					historiesByTypeID.put(typeID, ret2);
-				}
-				return ret2;
-			});
-		}
-		return ret;
-	}
-
-	//
 	// filtering
 	//
 
@@ -174,7 +147,7 @@ public class RegionalMarket implements IPricing {
 				if (ret2 == null) {
 					boolean isStation = centerId >= 60000000 && centerId <= 61000000;
 					if (isStation) {
-						ret2 = new ProxyRegionalMarket(this, getAllOrders().filter(order -> centerId == order.location_id));
+						ret2 = new ProxyRegionalMarket(getAllOrders().filter(order -> centerId == order.location_id));
 					} else {
 						// generate all the systems in range first
 						List<Integer> systemsInRange = new ArrayList<>();
@@ -197,8 +170,7 @@ public class RegionalMarket implements IPricing {
 								.flatMapToLong(sys -> IntStream.of(sys.stations).asLongStream())
 								.mapToObj(i -> (Long) i).collect(Collectors.toSet());
 						logger.debug(" corresponding stations are " + stationIds);
-						ret2 = new ProxyRegionalMarket(this,
-								getAllOrders().filter(order -> stationIds.contains(order.location_id)));
+						ret2 = new ProxyRegionalMarket(getAllOrders().filter(order -> stationIds.contains(order.location_id)));
 					}
 				}
 				filtered.put(key, ret2);

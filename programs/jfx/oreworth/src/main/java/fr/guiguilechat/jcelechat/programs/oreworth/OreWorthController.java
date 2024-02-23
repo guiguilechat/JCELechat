@@ -33,9 +33,6 @@ public class OreWorthController {
 	private TableColumn<Asteroid, Double> oreso;
 
 	@FXML
-	private TableColumn<Asteroid, Double> oreavg;
-
-	@FXML
 	private TableColumn<Asteroid, Double> orebo;
 
 	private Property<RegionalMarket> marketHolder = new SimpleObjectProperty<>();
@@ -52,9 +49,6 @@ public class OreWorthController {
 
 		orebo.setCellValueFactory(
 				cell -> MarketHelpers.bo(cell.getValue().id, marketHolder).divide(mineVolume(cell.getValue())).asObject());
-
-		oreavg.setCellValueFactory(cell -> MarketHelpers.monthlyAVG(cell.getValue().id, marketHolder)
-				.divide(mineVolume(cell.getValue())).asObject());
 
 		table.setItems(FXCollections.observableArrayList());
 

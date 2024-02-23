@@ -7,7 +7,6 @@ import java.util.Locale;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.tools.JFXTools;
 import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.LongProperty;
 import javafx.beans.property.Property;
 
 /**
@@ -55,49 +54,5 @@ public class MarketHelpers {
 	 */
 	public static DoubleProperty so(int typeID, Property<RegionalMarket> marketHolder) {
 		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getSO(typeID, 1)));
-	}
-
-	/**
-	 *
-	 * @param typeID
-	 * @param marketHolder
-	 * @return a new property bound to the average daily value of given typeid in
-	 *         the given market region
-	 */
-	public static DoubleProperty weeklyAVG(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getHistory(typeID).weekly.getAverage()));
-	}
-
-	/**
-	 *
-	 * @param typeID
-	 * @param marketHolder
-	 * @return a new property bound to the average weekly volume of given typeid
-	 *         in the given market region
-	 */
-	public static LongProperty weeklyVOL(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractLong(marketHolder, m -> JFXTools.obs(m.getHistory(typeID).weekly.getVolume()));
-	}
-
-	/**
-	 *
-	 * @param typeID
-	 * @param marketHolder
-	 * @return a new property bound to the average montlhy value of given typeid
-	 *         in the given market region
-	 */
-	public static DoubleProperty monthlyAVG(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getHistory(typeID).monthly.getAverage()));
-	}
-
-	/**
-	 *
-	 * @param typeID
-	 * @param marketHolder
-	 * @return a new property bound to the average monthly volume of given typeid
-	 *         in the given market region
-	 */
-	public static LongProperty monthlyVOL(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractLong(marketHolder, m -> JFXTools.obs(m.getHistory(typeID).monthly.getVolume()));
 	}
 }

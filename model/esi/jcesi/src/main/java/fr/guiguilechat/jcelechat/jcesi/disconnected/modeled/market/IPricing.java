@@ -18,6 +18,4 @@ public interface IPricing {
 		return getPrice(typeID, qtty, true);
 	}
 
-	public RegionTypeHistory getHistory(int typeID);
-
 }
