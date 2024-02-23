@@ -17,7 +17,10 @@ jobs:
          packages: write
 
       steps:
+#checkout the git commit
       -  uses: actions/checkout@v4
+
+# set maven information to export (create a settings.xml with server access using variables)
       -  name: Set up JDK 21
          uses: actions/setup-java@v4
          with:
@@ -26,11 +29,15 @@ jobs:
             server-id: github-guiguilechat-jcelechat # Value of the distributionManagement/repository/id field of the pom.xml
             settings-path: ${{ github.workspace }} # location for the settings.xml file
 
+# run the maven push
+# profile skipDeployPom skips the deploy phase in pom modules
+# -ntp to avoid flooding with transfert rates
+# use the afformentioned settings.xml to connect
+# ignore certificate issues for repositories that are https
       -  name: Publish to GitHub Packages Apache Maven
          run: mvn -PskipDeployPom deploy -ntp -s $GITHUB_WORKSPACE/settings.xml -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true
          env:
-            GH_JCELECHAT: ${{ vars.GH_REPO }}
-            GITHUB_ACTOR : ${{ vars.GH_OWNER }}
+#            GH_JCELECHAT: ${{ vars.GH_REPO }}
             GITHUB_TOKEN: ${{ github.token }}
             EVEPROXY_DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
             EVEPROXY_DOCKER_HUB_USER: ${{ vars.DOCKER_HUB_USER }}

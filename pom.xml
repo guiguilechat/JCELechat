@@ -71,7 +71,7 @@
 		<repository>
 			<id>github-jcelechat</id>
 			<name>Releases</name>
-			<url>https://maven.pkg.github.com/${GH_JCELECHAT}</url>
+			<url>https://maven.pkg.github.com/guiguilechat/JCELechat</url>
 		</repository>
 	</distributionManagement>
 	<pluginRepositories>
