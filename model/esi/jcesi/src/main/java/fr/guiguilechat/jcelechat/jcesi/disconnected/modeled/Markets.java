@@ -55,6 +55,10 @@ public class Markets {
 		return rm;
 	}
 
+	public RegionalMarket theForge() {
+		return getMarket(10000002);
+	}
+
 	private HashMap<Long, IPricing> localMarket = new HashMap<>();
 
 	/**
