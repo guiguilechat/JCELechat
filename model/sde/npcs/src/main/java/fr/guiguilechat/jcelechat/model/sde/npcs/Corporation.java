@@ -6,7 +6,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 import org.yaml.snakeyaml.Yaml;
@@ -52,7 +54,7 @@ public class Corporation {
 		if (loadById == null) {
 			synchronized (load()) {
 				if (loadById == null) {
-					loadById = load().entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getValue()));
+					loadById = load().entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, Entry::getValue));
 				}
 			}
 		}
@@ -85,5 +87,20 @@ public class Corporation {
 	public double concordRate = 0.0;
 
 	public String warfare;
+
+	public List<LPOffer> lpOffers() {
+		LinkedHashMap<Integer, LPOffer> offers = LPOffer.load();
+		return lpoffers.stream()
+				.map(oid -> {
+					LPOffer offer = offers.get(oid);
+					if (offer == null) {
+						System.err.println("offer id " + oid + " can't be resolved");
+					}
+					return offer;
+				})
+				.filter(lpo -> lpo != null)
+				.filter(lpo -> lpo.requirements.lp != 0)
+				.toList();
+	}
 
 }
