@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.programs.showattributes.industry;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -9,9 +8,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
@@ -23,45 +19,9 @@ import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryCommodities;
 
 public class PIRequirement {
 
-	public static class MonthEval {
-
-		private final RegionalMarket rm;
-
-		private final LocalDate start;
-
-		public MonthEval(RegionalMarket rm, LocalDate start) {
-			this.rm = rm;
-			this.start = start;
-		}
-
-		public long volume(int id) {
-			List<R_get_markets_region_id_history> history = rm.getHistory(id).limit(start, start.plusMonths(1));
-			return history.stream().mapToLong(h -> h.volume).sum();
-		}
-
-		public double avgPrice(int id) {
-			List<R_get_markets_region_id_history> history = rm.getHistory(id).limit(start, start.plusMonths(1));
-			long vol = history.stream().mapToLong(h -> h.volume).sum();
-			double isks = history.stream().mapToDouble(h -> h.average * h.volume).sum();
-			return isks / vol;
-		}
-
-		public double value(int id, Map<Integer, Float> requirements) {
-			return requirements.entrySet().parallelStream().mapToDouble(e -> e.getValue() * avgPrice(e.getKey())).sum()
-					* volume(id);
-		}
-
-		public void load(int id) {
-			rm.getHistory(id);
-		}
-	}
-
 	public static void main(String[] args) {
 		PlanetaryCommodities[] PIItems = PlanetaryCommodities.METACAT.load().values().stream()
 				.toArray(PlanetaryCommodities[]::new);
-		MonthEval monthVol = new MonthEval(ESIAccess.INSTANCE.markets.getMarket(10000002), LocalDate.now().minusMonths(1));
-		MonthEval yearVol = new MonthEval(ESIAccess.INSTANCE.markets.getMarket(10000002),
-				LocalDate.now().minusYears(1));
 
 		System.out.print("\t\t\t\t\t\t");
 		for (PlanetaryCommodities pc : PIItems) {
@@ -71,8 +31,6 @@ public class PIRequirement {
 		System.out.print("id\tname\tmonthVol\t-1yVol\tiskMonth\tisk-1y");
 		for (PlanetaryCommodities pc : PIItems) {
 			System.out.print("\t" + pc.id);
-			monthVol.load(pc.id);
-			yearVol.load(pc.id);
 		}
 		System.out.println();
 
@@ -82,12 +40,10 @@ public class PIRequirement {
 				for (MaterialProd<?> pr : bp.manufacturing.products) {
 					if (IndustryUsage.of(pr.id).materialInManuf.isEmpty()) {
 						Map<Integer, Float> reqs = requirement(pr.id);
-						if (reqs.keySet().stream().map(id -> TypeIndex.getType(id))
+						if (reqs.keySet().stream().map(TypeIndex::getType)
 								.filter(type -> type.getCategory() == PlanetaryCommodities.METACAT)
 								.findAny().isPresent()) {
 							requirements.put(pr, reqs);
-							monthVol.load(pr.id);
-							yearVol.load(pr.id);
 						}
 					}
 				}
@@ -101,8 +57,7 @@ public class PIRequirement {
 			int id = e.getKey().id;
 			Map<Integer, Float> reqs = e.getValue();
 			System.out.print(
-					"" + id + "\t" + e.getKey().name() + "\t" + monthVol.volume(id) + "\t" + yearVol.volume(id) + "\t"
-							+ monthVol.value(id, reqs) + "\t" + yearVol.value(id, reqs));
+					"" + id + "\t" + e.getKey().name());
 			for (PlanetaryCommodities pc : PIItems) {
 				System.out.print("\t" + String.format("%.2f", reqs.getOrDefault(pc.id, 0.0f)));
 			}
