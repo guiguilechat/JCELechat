@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.guiguilechat</groupId>
 	<artifactId>jcelechat</artifactId>
-	<version>7.17.7</version>
+	<version>7.17.8</version>
 	<packaging>pom</packaging>
 	<name>JCE Lechat</name>
 	<description>Java Compile Eve by Lechat</description>
@@ -69,7 +69,7 @@
 	</repositories>
 	<distributionManagement>
 		<repository>
-			<id>github-jcelechat</id>
+			<id>github-guiguilechat-jcelechat</id>
 			<name>Releases</name>
 			<url>https://maven.pkg.github.com/${GH_JCELECHAT}</url>
 		</repository>
@@ -110,7 +110,7 @@
 					<artifactId>maven-deploy-plugin</artifactId>
 					<version>3.1.1</version>
 					<configuration>
-<!--						<deployAtEnd>true</deployAtEnd>-->
+						<deployAtEnd>true</deployAtEnd>
 					</configuration>
 				</plugin>
 				<plugin>
