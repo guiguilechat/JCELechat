@@ -17,6 +17,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication(scanBasePackages = {
 		"fr.guiguilechat.jcelechat.libs.spring.market",
 		"fr.guiguilechat.jcelechat.libs.spring.mer",
+		"fr.guiguilechat.jcelechat.libs.spring.npc",
 		"fr.guiguilechat.jcelechat.libs.spring.prices",
 		"fr.guiguilechat.jcelechat.libs.spring.sde",
 		"fr.guiguilechat.jcelechat.programs.spring.eveproxy"
@@ -24,6 +25,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableJpaRepositories(basePackages = {
 		"fr.guiguilechat.jcelechat.libs.spring.market",
 		"fr.guiguilechat.jcelechat.libs.spring.mer",
+		"fr.guiguilechat.jcelechat.libs.spring.npc",
 		"fr.guiguilechat.jcelechat.libs.spring.prices",
 		"fr.guiguilechat.jcelechat.libs.spring.sde",
 		"fr.guiguilechat.jcelechat.programs.spring.eveproxy"
@@ -31,6 +33,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EntityScan(basePackages = {
 		"fr.guiguilechat.jcelechat.libs.spring.market",
 		"fr.guiguilechat.jcelechat.libs.spring.mer",
+		"fr.guiguilechat.jcelechat.libs.spring.npc",
 		"fr.guiguilechat.jcelechat.libs.spring.prices",
 		"fr.guiguilechat.jcelechat.libs.spring.sde",
 		"fr.guiguilechat.jcelechat.programs.spring.eveproxy"

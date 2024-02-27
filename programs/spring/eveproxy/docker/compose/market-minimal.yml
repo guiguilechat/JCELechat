@@ -34,6 +34,8 @@ services:
 # stop all the updates except market
       - EVEPROXY_SYNC_KILLSKIP=true
       - MARKET_HISTORY_SKIP=true
+      - NPC_CORPORATION_SKIP=true
+      - NPC_LPOFFERS_SKIP=true
       # start fetching ASAP
       - MARKET_UPDATER_FETCHDELAY=0
       - MARKET_REGIONS_ADD=10000002,10000043
