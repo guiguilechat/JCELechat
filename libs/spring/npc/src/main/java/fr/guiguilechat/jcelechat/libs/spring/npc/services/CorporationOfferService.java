@@ -27,4 +27,12 @@ public class CorporationOfferService {
 		repo.deleteByCorporation(lsc);
 	}
 
+	public List<CorporationOffer> forCorporationOffer(int corporationId, int offerId) {
+		return repo.findAllByCorporationCorporationIdAndOfferId(corporationId, offerId);
+	}
+
+	public List<CorporationOffer> byCorporationId(int corporationId) {
+		return repo.findAllByCorporationCorporationId(corporationId);
+	}
+
 }

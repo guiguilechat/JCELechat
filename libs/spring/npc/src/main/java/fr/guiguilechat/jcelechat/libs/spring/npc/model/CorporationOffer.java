@@ -6,6 +6,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -35,6 +36,9 @@ public class CorporationOffer {
 	@ManyToOne
 	private Type type;
 
+	@OneToMany(mappedBy = "offer", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	private List<OfferRequirement> requirements;
+
 	private int akCost;
 
 	private long iskCost;
@@ -44,9 +48,6 @@ public class CorporationOffer {
 	private int offerId;
 
 	private int quantity;
-
-	@OneToMany(mappedBy = "offer", cascade = CascadeType.ALL)
-	private List<OfferRequirement> requirements;
 
 	public static CorporationOffer of(R_get_loyalty_stores_corporation_id_offers offer, LPStoreCorporation corporation,
 			Type type) {

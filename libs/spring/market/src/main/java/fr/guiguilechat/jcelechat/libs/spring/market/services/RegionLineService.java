@@ -7,6 +7,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
@@ -38,43 +39,126 @@ public class RegionLineService {
 		repo.deleteByRegion(region);
 	}
 
+	//
+	// tools
+	//
+
+	/** list of caches to invalidate */
+	static final List<String> MARKET_ORDERS_CACHES = List.of(
+			"marketAll",
+			"marketLocation",
+			"marketRegion",
+			"marketBoValueLocation",
+			"marketSoValueLocation");
+
 	/** common value to get to get Jita specific orders */
 	public static final long JITAIV_ID = 60003760;
 
+	//
+	// retrieve actual orders
+	//
+
+	static List<RegionLine> reverseIf(List<RegionLine> lines, boolean reverse) {
+		if (!reverse) {
+			return lines;
+		}
+		List<RegionLine> ret = new ArrayList<>(lines);
+		Collections.reverse(ret);
+		return ret;
+	}
 
 	/**
 	 * {@link Transactional} to avoid an update altering the lines
 	 * returned mid-query
 	 *
-	 * @return existing lines with given order.locationId , order.type_id , and order.isbuyorder , ordered by price asc
+	 * @return existing lines with given order.locationId , order.type_id , and
+	 *           order.isbuyorder , ordered by price asc for SO and price desc for
+	 *           BO
 	 */
+	@Cacheable("marketLocation")
 	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<RegionLine> forLocation(long locationId, int type_id, boolean isBuyOrder) {
-		return repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, type_id, isBuyOrder);
+		return reverseIf(repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, type_id, isBuyOrder),
+				isBuyOrder);
 	}
 
 	/**
 	 * {@link Transactional} to avoid an update altering the lines
 	 * returned mid-query
 	 *
-	 * @return existing lines with given region.regionId and order.type_id , and order.isbuyorder , ordered by price asc
+	 * @return existing lines with given region.regionId , order.type_id , and
+	 *           order.isbuyorder , ordered by price asc for SO and price desc for
+	 *           BO
 	 */
+	@Cacheable("marketRegion")
 	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<RegionLine> forRegion(int regionId, int type_id, boolean isBuyOrder) {
-		return repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder);
+		return reverseIf(repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder),
+				isBuyOrder);
 	}
 
 	/**
 	 * {@link Transactional} to avoid an update altering the lines
 	 * returned mid-query
 	 *
-	 * @return existing lines with given order.type_id , and order.isbuyorder ,
-	 *           ordered by price asc
+	 * @return existing lines with given order.type_id and order.isbuyorder ,
+	 *           ordered by price asc for SO and price desc for BO
 	 */
+	@Cacheable("marketAll")
 	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<RegionLine> forAll(int type_id, boolean isBuyOrder) {
-		return repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder);
+		return reverseIf(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder), isBuyOrder);
 	}
+
+	//
+	// price
+	//
+
+	/**
+	 * @param lines        actual lines
+	 * @param quantity     number of volume to value
+	 * @param cumulated    if true add the prices of the order to cumulated
+	 *                     quantity.
+	 *                     if false use the price of the order at cumulated quantity
+	 * @param infOnMissing if true return +inf when not enough volume. else use 0;
+	 * @return cumulated or exact price for given quantity
+	 */
+	double price(List<RegionLine> lines, long quantity, boolean cumulated, boolean infOnMissing) {
+		long remain = quantity;
+		double cumul = 0.0;
+		for (RegionLine line : lines) {
+			long taken = Math.min(remain, line.getOrder().volume_remain);
+			remain -= taken;
+			cumul += line.getOrder().price * taken;
+			if (remain <= 0) {
+				return cumulated ? cumul : line.getOrder().price * quantity;
+			}
+		}
+		if (infOnMissing) {
+			return Double.POSITIVE_INFINITY;
+		}
+		return cumulated ? cumul : 0.0;
+	}
+
+	/**
+	 * @return basically the value you get from selling your stuff here
+	 */
+	@Cacheable("marketBoValueLocation")
+	public Double boValueLocation(long locationId, int typeId, long quantity, boolean dump) {
+		return price(forLocation(locationId, typeId, true), quantity, !dump, false);
+	}
+
+	/**
+	 * @return the value to purchase from direct orders here.
+	 */
+	@Cacheable("marketSoValueLocation")
+	public Double soValueLocation(long locationId, int typeId, long quantity, boolean dump) {
+		return price(forLocation(locationId, typeId, false), quantity, !dump, true);
+	}
+
+	//
+	// places to buy/sell
+	//
 
 	/**
 	 * the best offer for a given type at a location. Also integrates region id for
@@ -111,9 +195,13 @@ public class RegionLineService {
 				.map(arr -> new LocatedBestOffer((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
 	}
 
-/**
- * cumulated value
- */
+	//
+	// stats
+	//
+
+	/**
+	 * cumulated value
+	 */
 	public static record OfferStat(long qtty, double price, long cumulQtty, double cumulValue) implements Serializable {
 	}
 

@@ -15,6 +15,7 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.stream.IntStream;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
@@ -31,6 +32,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class MarketUpdateService {
+
+	@Autowired
+	private CacheManager cacheManager;
 
 	@Autowired
 	private HistoryReqService htService;
@@ -73,6 +77,9 @@ public class MarketUpdateService {
 					+ " save=" + (int) Math.ceil(0.001 * (saveMs - postSaveMs)) + "s"
 					+ " fetchHT=" + (int) Math.ceil(0.001 * (fetchHistoryTypes - saveMs)) + "s"
 					+ " saveHT=" + (int) Math.ceil(0.001 * (insertedHistoryTypes - fetchHistoryTypes)) + "s");
+		}
+		for (String cacheName : RegionLineService.MARKET_ORDERS_CACHES) {
+			cacheManager.getCache(cacheName).clear();
 		}
 		return CompletableFuture.completedFuture(null);
 	}

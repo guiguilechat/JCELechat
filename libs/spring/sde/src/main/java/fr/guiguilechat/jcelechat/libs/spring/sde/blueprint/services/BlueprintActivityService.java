@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.repositories.BlueprintActivityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 
 @Service
 public class BlueprintActivityService {
@@ -31,6 +32,10 @@ public class BlueprintActivityService {
 	public List<BlueprintActivity> forBPActivity(List<Integer> bpTypeIds,
 			List<ACTIVITY_TYPE> ats) {
 		return repo.findAllByTypeTypeIdInAndActivityIn(bpTypeIds, ats);
+	}
+
+	public List<BlueprintActivity> forType(Type type) {
+		return repo.findAllByTypeTypeIdIn(List.of(type.getTypeId()));
 	}
 
 	public static final List<String> CACHE_LIST = List.of("SdeBlueprintActivity");

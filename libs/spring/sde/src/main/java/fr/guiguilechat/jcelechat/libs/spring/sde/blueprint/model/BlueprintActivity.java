@@ -1,19 +1,23 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model;
 
 import java.io.Serializable;
+import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -41,6 +45,12 @@ public class BlueprintActivity implements Serializable {
 	/** blueprint this activity applies to */
 	@ManyToOne
 	private Type type;
+
+	@OneToMany(mappedBy = "activity", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	private List<Product> products;
+
+	@OneToMany(mappedBy = "activity", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	private List<Material> materials;
 
 	@Enumerated(EnumType.STRING)
 	private ACTIVITY_TYPE activity;

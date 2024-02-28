@@ -11,4 +11,6 @@ public interface BlueprintActivityRepository extends JpaRepository<BlueprintActi
 
 	public List<BlueprintActivity> findAllByTypeTypeIdInAndActivityIn(List<Integer> typeIds,
 			List<ACTIVITY_TYPE> ats);
+
+	public List<BlueprintActivity> findAllByTypeTypeIdIn(List<Integer> typeIds);
 }
