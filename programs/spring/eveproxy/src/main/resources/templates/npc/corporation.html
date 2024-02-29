@@ -10,37 +10,88 @@
 <body>
 	<div class="container-fluid border">
 		<div class="row">
-			<!-- 			<div class="col"> -->
-			<!-- 				<a  th:if="${prvCat != null}" th:href="${prvCatUrl}" th:text="${prvCat.name}"/> -->
-			<!-- 			</div> -->
+			<div class="col">
+				<a th:if="${prevCorpName != null}" th:href="${prevCorpUrl}"
+					th:text="${prevCorpName}" />
+			</div>
 			<div class="col-6">
 				<h1 th:text="${corpName}" />
 			</div>
-			<!-- 			<div class="col"> -->
-			<!-- 				<a th:if="${nxtCat != null}" th:href="${nxtCatUrl}" th:text="${nxtCat.name}" /> -->
-			<!-- 			</div> -->
+			<div class="col">
+				<a th:if="${nextCorpName != null}" th:href="${nextCorpUrl}"
+					th:text="${nextCorpName}" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h3>Options</h3>
+				<form method="get" th:action="@{${action}}">
+					<table>
+						<thead>
+							<tr>
+								<th>market location id</th>
+								<th>lp amount</th>
+								<th>sourcing</th>
+								<th>margin cost %</th>
+								<th>margin cost % per job hour</th>
+								<th>tax %</th>
+								<th>broker %</th>
+								<th>job cost isk</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input class="form-control" type="text" name="location" th:value="${location}" /></td>
+								<td><input class="form-control" type="text" name="lp" th:value="${lp}" /></td>
+								<td><input class="form-control" type="text" name="sourcing" th:value="${sourcing}" /></td>
+								<td><input class="form-control" type="text" name="margin" th:value="${margin}" /></td>
+								<td><input class="form-control" type="text" name="marginhour" th:value="${marginhour}" /></td>
+								<td><input class="form-control" type="text" name="taxpct" th:value="${taxpct}" /></td>
+								<td><input class="form-control" type="text" name="brpct" th:value="${brpct}" /></td>
+								<td><input class="form-control" type="text" name="bpcost" th:value="${bpcost}" /></td>
+							</tr>
+						</tbody>
+					</table>
+					</
+					<p>
+						<input type="submit" value="Submit" /> <input type="reset"
+							value="Reset" />
+					</p>
+				</form>
+			</div>
 		</div>
 
 		<div class="row">
-			<div class="col" >
+			<div class="col">
 				<h3>Offers</h3>
 				<table class="table">
-					<thead>
+					<thead class="thead-light">
 						<tr>
 							<th>offer</th>
-							<th>product</th>
+							<th>isk/lp</th>
 							<th>nb offers</th>
-							<th>nb products</th>
-							<th>isk/lp sobo</th>
+							<th>product</th>
+							<th>product quantity</th>
+							<th>product unit price</th>
+							<th>material cost</th>
+							<th>margin cost</th>
+							<th>tedious cost</th>
+							<th>gain</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr th:each="offer : ${offers}">
-							<td><a th:href="${offer.url}" th:text="${offer.name}"/></td>
-							<td><a th:href="${offer.product.url}" th:text="${offer.eval.product.name}"/></td>
+							<td><a th:href="${offer.url}" th:text="${offer.name}" /></td>
+							<td><span th:text="${offer.eval.iskplp}" /></td>
 							<td><span th:text="${offer.eval.offerQuantity}" /></td>
+							<td><a th:href="${offer.product.url}"
+								th:text="${offer.eval.product.name}" /></td>
 							<td><span th:text="${offer.eval.productQuantity}" /></td>
-							<td><span th:text="${offer.eval.iplSobo}" /></td>
+							<td><span th:text="${offer.eval.productUnitPrice}" /></td>
+							<td><span th:text="${offer.eval.materialCost}" /></td>
+							<td><span th:text="${offer.eval.marginCost}" /></td>
+							<td><span th:text="${offer.eval.tediousCost}" /></td>
+							<td><span th:text="${offer.eval.gain}" /></td>
 						</tr>
 					</tbody>
 				</table>

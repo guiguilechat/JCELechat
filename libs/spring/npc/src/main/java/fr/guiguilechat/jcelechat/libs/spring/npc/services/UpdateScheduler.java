@@ -60,7 +60,6 @@ public class UpdateScheduler {
 		long startMs = System.currentTimeMillis();
 		List<LPStoreCorporation> fetches = lpStoreCorporationService.nextFetch();
 		if (fetches == null || fetches.isEmpty()) {
-			log.info("nothing to fetch");
 			return;
 		}
 		log.info("updating the orders of " + fetches.size() + " corporations");
@@ -78,7 +77,7 @@ public class UpdateScheduler {
 			}
 		});
 		long endMs = System.currentTimeMillis();
-		log.info(" updated " + fetches.size() + " corporations' orders"
+		log.info(" updated orders of " + fetches.size() + " corporations"
 				+ " list=" + (listMs - startMs) + "ms"
 				+ " update=" + (endMs - listMs) + "ms");
 	}

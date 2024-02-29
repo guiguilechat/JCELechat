@@ -28,6 +28,8 @@ public class LPStoreCorporation {
 	@Id
 	private int corporationId;
 
+	private String name;
+
 	/**
 	 * last etag received for that corporation lp fetch
 	 */
@@ -51,5 +53,9 @@ public class LPStoreCorporation {
 	 */
 	@Builder.Default
 	private boolean disabled = false;
+
+	public String nameOrId() {
+		return getName() == null ? "" + getCorporationId() : getName();
+	}
 
 }

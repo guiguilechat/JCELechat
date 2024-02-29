@@ -21,4 +21,8 @@ public interface LPStoreCorporationRepository extends JpaRepository<LPStoreCorpo
 
 	public List<LPStoreCorporation> findAllByDisabledAndNextFetchLessThan(boolean disabled, Instant nextFetch);
 
+	public LPStoreCorporation findTop1ByNameLessThanOrderByNameDesc(String name);
+
+	public LPStoreCorporation findTop1ByNameGreaterThanOrderByNameAsc(String name);
+
 }

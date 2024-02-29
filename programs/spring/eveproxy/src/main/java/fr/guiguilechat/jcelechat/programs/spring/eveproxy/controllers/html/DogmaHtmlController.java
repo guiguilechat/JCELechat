@@ -117,6 +117,13 @@ public class DogmaHtmlController {
 				material.getQuantity());
 	}
 
+	LinkedMaterial linkedMaterial(Type type, int quantity) {
+		return new LinkedMaterial(
+				uri(type).toString(),
+				type,
+				quantity);
+	}
+
 	public static record LinkedActivity(String url, Type type, ACTIVITY_TYPE activity, int quantity, double probability,
 			Product product) {
 	}

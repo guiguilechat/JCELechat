@@ -9,8 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Isolation;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
@@ -76,7 +74,6 @@ public class RegionLineService {
 	 *           BO
 	 */
 	@Cacheable("marketLocation")
-	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<RegionLine> forLocation(long locationId, int type_id, boolean isBuyOrder) {
 		return reverseIf(repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, type_id, isBuyOrder),
 				isBuyOrder);
@@ -91,7 +88,6 @@ public class RegionLineService {
 	 *           BO
 	 */
 	@Cacheable("marketRegion")
-	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<RegionLine> forRegion(int regionId, int type_id, boolean isBuyOrder) {
 		return reverseIf(repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder),
 				isBuyOrder);
@@ -105,7 +101,6 @@ public class RegionLineService {
 	 *           ordered by price asc for SO and price desc for BO
 	 */
 	@Cacheable("marketAll")
-	@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.NESTED)
 	public List<RegionLine> forAll(int type_id, boolean isBuyOrder) {
 		return reverseIf(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder), isBuyOrder);
 	}
