@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -13,7 +14,10 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity(name = "EsiLPOfferRequirement")
-@Table(name = "esi_lp_offer_requirement")
+@Table(name = "esi_lp_offer_requirement", indexes = {
+		@Index(columnList = "type_type_id"),
+		@Index(columnList = "offer_id")
+})
 @Data
 @Builder
 @RequiredArgsConstructor
@@ -29,6 +33,7 @@ public class OfferRequirement {
 
 	private int quantity;
 
+	@ManyToOne
 	private Type type;
 
 }

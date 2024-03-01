@@ -1,23 +1,27 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services;
 
+import java.util.HashMap;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
+import java.util.Map;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.OfferRequirement;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity;
-import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Product;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.BlueprintActivityService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
-import jakarta.transaction.Transactional;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 public class OfferValueService {
 
@@ -29,21 +33,19 @@ public class OfferValueService {
 		boso {
 
 			@Override
-			public double materialCost(RegionLineService regionLineService, long locationId, int typeId, long quantity,
-					double brkPct) {
-				Double marketPrice = regionLineService.boValueLocation(locationId, typeId, 1, false);
-				return marketPrice == null ? Double.POSITIVE_INFINITY : quantity * marketPrice * (100 + brkPct) / 100;
-			}
-
-			@Override
-			public double productUnitPrice(RegionLineService regionLineService, long locationId, int typeId, long quantity) {
-				Double marketPrice = regionLineService.soValueLocation(locationId, typeId, 1, false);
-				return marketPrice == null ? 0.0 : marketPrice;
-			}
-
-			@Override
 			public double productIncome(double productUnitPrice, long quantity, double taxPct, double brkPct) {
 				return productUnitPrice * quantity * (100 - taxPct - brkPct) / 100;
+			}
+
+			@Override
+			protected double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
+					List<RegionLine> sos) {
+				return (bos == null || bos.isEmpty() ? 0.01 : bos.get(0).getOrder().price) * (100 + brokerPct) / 100;
+			}
+
+			@Override
+			protected double productUnitPrice(int typeId, long productQuantity, List<RegionLine> bos, List<RegionLine> sos) {
+				return sos == null || sos.isEmpty() ? Double.POSITIVE_INFINITY : sos.get(0).getOrder().price;
 			}
 
 		},
@@ -51,16 +53,38 @@ public class OfferValueService {
 		sobo {
 
 			@Override
-			public double materialCost(RegionLineService regionLineService, long locationId, int typeId, long quantity,
-					double brkPct) {
-				Double marketPrice = regionLineService.soValueLocation(locationId, typeId, quantity, false);
-				return marketPrice == null ? Double.POSITIVE_INFINITY : marketPrice;
+			protected double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
+					List<RegionLine> sos) {
+				long remain = quantity;
+				if (sos != null) {
+					double ret = 0.0;
+					for (RegionLine so : sos) {
+						int remove = (int) Math.min(remain, so.getOrder().volume_remain);
+						ret += so.getOrder().price * remove;
+						remain -= remove;
+						if (remain == 0) {
+							return ret;
+						}
+					}
+				}
+				return Double.POSITIVE_INFINITY;
 			}
 
 			@Override
-			public double productUnitPrice(RegionLineService regionLineService, long locationId, int typeId, long quantity) {
-				Double marketPrice = regionLineService.boValueLocation(locationId, typeId, quantity, false);
-				return marketPrice == null ? 0.0 : marketPrice / quantity;
+			protected double productUnitPrice(int typeId, long quantity, List<RegionLine> bos, List<RegionLine> sos) {
+				long remain = quantity;
+				double ret = 0.0;
+				if (bos != null) {
+					for (RegionLine bo : bos) {
+						int remove = (int) Math.min(remain, bo.getOrder().volume_remain);
+						ret += bo.getOrder().price * remove;
+						remain -= remove;
+						if (remain == 0) {
+							return ret / quantity;
+						}
+					}
+				}
+				return ret / quantity;
 			}
 
 		},
@@ -68,39 +92,62 @@ public class OfferValueService {
 		sobodump {
 
 			@Override
-			public double materialCost(RegionLineService regionLineService, long locationId, int typeId, long quantity,
-					double brkPct) {
-				Double marketPrice = regionLineService.soValueLocation(locationId, typeId, quantity, true);
-				return marketPrice == null ? Double.POSITIVE_INFINITY : marketPrice;
+			protected double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
+					List<RegionLine> sos) {
+				long remain = quantity;
+				if (sos != null) {
+					for (RegionLine so : sos) {
+						int remove = (int) Math.min(remain, so.getOrder().volume_remain);
+						remain -= remove;
+						if (remain == 0) {
+							return so.getOrder().price * quantity;
+						}
+					}
+				}
+				return Double.POSITIVE_INFINITY;
 			}
 
 			@Override
-			public double productUnitPrice(RegionLineService regionLineService, long locationId, int typeId, long quantity) {
-				Double marketPrice = regionLineService.boValueLocation(locationId, typeId, quantity, true);
-				return marketPrice == null ? 0.0 : marketPrice / quantity;
+			protected double productUnitPrice(int typeId, long quantity, List<RegionLine> bos, List<RegionLine> sos) {
+				long remain = quantity;
+				if (bos != null) {
+					for (RegionLine bo : bos) {
+						int remove = (int) Math.min(remain, bo.getOrder().volume_remain);
+						remain -= remove;
+						if (remain == 0) {
+							return bo.getOrder().price;
+						}
+					}
+				}
+				return 0.0;
 			}
 
 		};
-
-		/** cost to acquire a given quantity of material */
-		public abstract double materialCost(RegionLineService regionLineService, long locationId, int typeId,
-				long quantity, double brkPct);
-
-		/** unit price to list the product at */
-		public abstract double productUnitPrice(RegionLineService regionLineService, long locationId, int typeId,
-				long quantity);
 
 		/** actual gain when selling the product */
 		public double productIncome(double productUnitPrice, long quantity, double taxPct, double brkPct) {
 			return productUnitPrice * quantity * (100 - taxPct) / 100;
 		}
+
+		protected double materialCost(HashMap<Integer, Long> requiredMats, double brokerPct,
+				Map<Integer, List<RegionLine>> bos, Map<Integer, List<RegionLine>> sos) {
+			return requiredMats.entrySet().stream()
+					.mapToDouble(k -> materialCost(k.getKey(), k.getValue(), brokerPct, bos.get(k.getKey()), sos.get(k.getKey())))
+					.sum();
+		}
+
+		protected abstract double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
+				List<RegionLine> sos);
+
+		protected abstract double productUnitPrice(int typeId, long productQuantity, List<RegionLine> bos,
+				List<RegionLine> sos);
 	}
 
 	@Autowired
 	private BlueprintActivityService blueprintActivityService;
 
 	@Autowired
-	RegionLineService regionLineService;
+	private RegionLineService regionLineService;
 
 	public static record OfferEval(CorporationOffer offer, long offerQuantity, long lpQuantity, Type product,
 			long productQuantity, double productUnitPrice, double productIncome,
@@ -117,25 +164,26 @@ public class OfferValueService {
 		}
 	}
 
-	@Async
-	@Transactional
-	public CompletableFuture<OfferEval> value(CorporationOffer offer, int minLpAmount, SourceType sourcing,
+	/**
+	 * value once we have already fetched data from DB.
+	 */
+	OfferEval value(CorporationOffer offer, int minLpAmount, SourceType sourcing,
 			double brokerPct, double taxPct, double marginPct, double marginPctPerHour, double bpCost,
-			long marketLocationId) {
+			Map<Integer, List<BlueprintActivity>> typeToActivities, Map<Integer, List<RegionLine>> bos,
+			Map<Integer, List<RegionLine>> sos) {
+
 		long offerQuantity = (long) Math.ceil(1.0 * minLpAmount / offer.getLpCost());
-		double materialCost = 0.0;
 		double tediousCost = 0.0;
+		HashMap<Integer, Long> requiredMats = new HashMap<>();
 		for (OfferRequirement r : offer.getRequirements()) {
 			long required = offerQuantity * r.getQuantity();
-			materialCost += sourcing.materialCost(regionLineService, marketLocationId, r.getType().getTypeId(), required,
-					brokerPct);
+			requiredMats.put(r.getType().getTypeId(), required + requiredMats.getOrDefault(r.getType().getTypeId(), 0l));
 		}
 		long productQuantity = offerQuantity * offer.getQuantity();
 		Type product = null;
 		double timeMarginPct = 0;
-		List<BlueprintActivity> manufs = blueprintActivityService.forBPActivity(offer.getType().getTypeId(),
-				ACTIVITY_TYPE.manufacturing);
-		if (manufs.size() == 1) {
+		List<BlueprintActivity> manufs = typeToActivities.get(offer.getType().getTypeId());
+		if (manufs != null && manufs.size() == 1) {
 			// it's a blueprint
 			BlueprintActivity manuf = manufs.get(0);
 			if (manuf.getProducts().size() != 1) {
@@ -148,8 +196,8 @@ public class OfferValueService {
 			timeMarginPct = hours * marginPctPerHour;
 			for (Material mat : manuf.getMaterials()) {
 				long required = offerQuantity * manufProd.getQuantity() * mat.getQuantity();
-				materialCost += sourcing.materialCost(regionLineService, marketLocationId, mat.getType().getTypeId(), required,
-						brokerPct);
+				requiredMats.put(mat.getType().getTypeId(),
+						required + requiredMats.getOrDefault(mat.getType().getTypeId(), 0l));
 			}
 			tediousCost = bpCost * offerQuantity;
 		} else {
@@ -157,14 +205,53 @@ public class OfferValueService {
 			product = offer.getType();
 		}
 
-		double productUnitPrice = sourcing.productUnitPrice(regionLineService, marketLocationId, product.getTypeId(),
-				productQuantity);
+		double materialCost = sourcing.materialCost(requiredMats, timeMarginPct, bos, sos);
+		double productUnitPrice = sourcing.productUnitPrice(product.getTypeId(), productQuantity,
+				bos.get(product.getTypeId()), sos.get(product.getTypeId()));
 		double productIncome = sourcing.productIncome(productUnitPrice, productQuantity, taxPct, brokerPct);
 		double marginCost = productUnitPrice * productQuantity * (marginPct + timeMarginPct) / 100;
 
-		OfferEval ret = new OfferEval(offer, offerQuantity, product, productQuantity, productUnitPrice, productIncome,
+		return new OfferEval(offer, offerQuantity, product, productQuantity, productUnitPrice, productIncome,
 				materialCost, marginCost, tediousCost);
-		return CompletableFuture.completedFuture(ret);
+	}
+
+	public List<OfferEval> value(List<CorporationOffer> offers, int minLpAmount, SourceType sourcing,
+			double brokerPct, double taxPct, double marginPct, double marginPctPerHour, double bpCost,
+			long marketLocationId) {
+		// the activities of blueprints that are a product of an offer
+		long start = System.currentTimeMillis();
+		Map<Integer, List<BlueprintActivity>> typeToActivities = blueprintActivityService
+				.forBPActivity(offers.stream().map(co -> co.getType().getTypeId()).toList(), List.of())
+				.stream().collect(Collectors.groupingBy(ac -> ac.getType().getTypeId()));
+		long activitiesFetched = System.currentTimeMillis();
+		Set<Integer> allIds = Stream.of(
+				// products of offers
+				offers.stream().map(o -> o.getType().getTypeId()),
+				// offer requirements
+				offers.stream().flatMap(offer -> offer.getRequirements().stream()).map(or -> or.getType().getTypeId()),
+				// products of bp
+				typeToActivities.values().stream().flatMap(List::stream).flatMap(bpa -> bpa.getProducts().stream())
+						.map(pr -> pr.getType().getTypeId()),
+				// BP mats
+				typeToActivities.values().stream().flatMap(List::stream).flatMap(bpa -> bpa.getMaterials().stream())
+						.map(mat -> mat.getType().getTypeId()))
+				.flatMap(s -> s).collect(Collectors.toSet());
+		long idsGathered = System.currentTimeMillis();
+		Map<Integer, List<RegionLine>> bos = regionLineService.locationBos(marketLocationId, allIds);
+		long bosFetched = System.currentTimeMillis();
+		Map<Integer, List<RegionLine>> sos = regionLineService.locationSos(marketLocationId, allIds);
+		long sosFetched = System.currentTimeMillis();
+		List<OfferEval> ret = offers.parallelStream().map(o -> value(o, minLpAmount, sourcing, brokerPct, taxPct, marginPct,
+				marginPctPerHour, bpCost, typeToActivities, bos, sos)).toList();
+		long evaluated = System.currentTimeMillis();
+		log.info(" evaluated " + offers.size()
+				+ " offers"
+				+ " activitiesFetched=" + (activitiesFetched - start) + "ms"
+				+ " idsGathered=" + (idsGathered - activitiesFetched) + "ms"
+				+ " bosFetched=" + (bosFetched - idsGathered) + "ms"
+				+ " sosFetched=" + (sosFetched - bosFetched) + "ms"
+				+ " evaluated=" + (evaluated - sosFetched) + "ms");
+		return ret;
 	}
 
 }

@@ -4,7 +4,6 @@ import java.net.URI;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
@@ -117,17 +116,24 @@ public class NpcHtmlController {
 					uri(nextCorp, bpcost, brpct, location, lp, margin, marginhour, sourcing, taxpct).toString());
 		}
 
-		List<CorporationOffer> offers = corporationOfferService.byCorporationId(corporationId);
-		List<CompletableFuture<OfferEval>> futures = offers.stream()
-				.filter(offer -> offer.getLpCost() > 0)
-				.map(offer -> offerValueService.value(offer, lp_, sourcing_, brpct_, taxpct_,
-						margin_, marginhour_, bpcost_, location_))
-				.toList();
+		List<CorporationOffer> offers = corporationOfferService.byCorporationIdRequiringLp(corporationId);
+// List<CompletableFuture<OfferEval>> futures = offers.stream()
+// .filter(offer -> offer.getLpCost() > 0)
+// .map(offer -> offerValueService.value(offer, lp_, sourcing_, brpct_, taxpct_,
+// margin_, marginhour_, bpcost_, location_))
+// .toList();
+// model.addAttribute("offers",
+// futures.stream().map(CompletableFuture::join)
+// .sorted(Comparator.comparing(OfferEval::iskplp).reversed())
+// .map(this::linkedOffer)
+// .toList());
+
 		model.addAttribute("offers",
-				futures.stream().map(CompletableFuture::join)
+				offerValueService.value(offers, lp_, sourcing_, brpct_, taxpct_, marginhour_, margin_, bpcost_, location_)
+						.stream()
 						.sorted(Comparator.comparing(OfferEval::iskplp).reversed())
-				.map(this::linkedOffer)
-				.toList());
+						.map(this::linkedOffer)
+						.toList());
 
 		model.addAttribute("bpcost", bpcost_);
 		model.addAttribute("brpct", brpct_);

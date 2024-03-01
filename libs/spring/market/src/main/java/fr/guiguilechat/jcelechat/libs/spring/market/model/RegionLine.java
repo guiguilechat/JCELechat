@@ -18,7 +18,11 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity(name = "EsiMarketRegionLine")
-@Table(name = "esi_market_regionline", indexes = { @Index(columnList = "region_region_id") })
+@Table(name = "esi_market_regionline", indexes = {
+		@Index(columnList = "region_region_id"),
+		@Index(columnList = "location_id"),
+		@Index(columnList = "type_id, is_buy_order")
+})
 @Data
 @Builder
 @RequiredArgsConstructor

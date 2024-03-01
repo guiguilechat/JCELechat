@@ -36,6 +36,38 @@ select line
 from
 	EsiMarketRegionLine line
 where
+	line.order.location_id=:locationId
+	and line.order.type_id in :typeIds
+	and line.order.is_buy_order
+order by
+	line.order.price desc
+""")
+	public List<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(
+			@Param("locationId") long locationId,
+			@Param("typeIds") Iterable<Integer> typeIds);
+
+	// need to query since fields with _ that can't be used in jpa
+	@Query("""
+select line
+from
+	EsiMarketRegionLine line
+where
+	line.order.location_id=:locationId
+	and line.order.type_id in :typeIds
+	and not line.order.is_buy_order
+order by
+	line.order.price
+""")
+	public List<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(
+			@Param("locationId") long locationId,
+			@Param("typeIds") Iterable<Integer> typeIds);
+
+	// need to query since fields with _ that can't be used in jpa
+	@Query("""
+select line
+from
+	EsiMarketRegionLine line
+where
 	line.region.regionId=:regionId
 	and line.order.type_id=:typeId
 	and line.order.is_buy_order=:isBuyOrder

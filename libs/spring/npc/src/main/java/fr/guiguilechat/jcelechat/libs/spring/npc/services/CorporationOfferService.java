@@ -35,4 +35,8 @@ public class CorporationOfferService {
 		return repo.findAllByCorporationCorporationId(corporationId);
 	}
 
+	public List<CorporationOffer> byCorporationIdRequiringLp(int corporationId) {
+		return repo.findAllByCorporationCorporationIdAndLpCostGreaterThan(corporationId, 0);
+	}
+
 }

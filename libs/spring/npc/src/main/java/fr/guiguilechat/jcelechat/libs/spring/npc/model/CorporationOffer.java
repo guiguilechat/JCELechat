@@ -10,6 +10,7 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -19,7 +20,10 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity(name = "EsiLPOffer")
-@Table(name = "esi_lp_offer")
+@Table(name = "esi_lp_offer", indexes = {
+		@Index(columnList = "type_type_id"),
+		@Index(columnList = "corporation_corporation_id")
+})
 @Data
 @Builder
 @RequiredArgsConstructor

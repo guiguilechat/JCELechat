@@ -4,12 +4,13 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
@@ -47,7 +48,9 @@ public class RegionLineService {
 			"marketLocation",
 			"marketRegion",
 			"marketBoValueLocation",
-			"marketSoValueLocation");
+			"marketSoValueLocation",
+			"marketLocationTypesBo",
+			"marketLocationTypesSo");
 
 	/** common value to get to get Jita specific orders */
 	public static final long JITAIV_ID = 60003760;
@@ -66,8 +69,6 @@ public class RegionLineService {
 	}
 
 	/**
-	 * {@link Transactional} to avoid an update altering the lines
-	 * returned mid-query
 	 *
 	 * @return existing lines with given order.locationId , order.type_id , and
 	 *           order.isbuyorder , ordered by price asc for SO and price desc for
@@ -80,8 +81,26 @@ public class RegionLineService {
 	}
 
 	/**
-	 * {@link Transactional} to avoid an update altering the lines
-	 * returned mid-query
+	 * @return all the buy orders of given types, grouped by type id, by price
+	 *           descending
+	 */
+	@Cacheable("marketLocationTypesBo")
+	public Map<Integer, List<RegionLine>> locationBos(long locationId, Iterable<Integer> typeIds) {
+		return repo.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds).stream()
+				.collect(Collectors.groupingBy(order -> order.getOrder().type_id));
+	}
+
+	/**
+	 * @return all the sell orders of given types, grouped by type id, by price
+	 *           ascending
+	 */
+	@Cacheable("marketLocationTypesSo")
+	public Map<Integer, List<RegionLine>> locationSos(long locationId, Iterable<Integer> typeIds) {
+		return repo.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds).stream()
+				.collect(Collectors.groupingBy(order -> order.getOrder().type_id));
+	}
+
+	/**
 	 *
 	 * @return existing lines with given region.regionId , order.type_id , and
 	 *           order.isbuyorder , ordered by price asc for SO and price desc for
@@ -94,8 +113,6 @@ public class RegionLineService {
 	}
 
 	/**
-	 * {@link Transactional} to avoid an update altering the lines
-	 * returned mid-query
 	 *
 	 * @return existing lines with given order.type_id and order.isbuyorder ,
 	 *           ordered by price asc for SO and price desc for BO
