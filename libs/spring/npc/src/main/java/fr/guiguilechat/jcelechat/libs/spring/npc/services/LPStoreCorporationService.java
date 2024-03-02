@@ -9,6 +9,7 @@ import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
@@ -28,10 +29,15 @@ public class LPStoreCorporationService {
 	@Autowired
 	private LPStoreCorporationRepository repo;
 
+	public static List<String> CORPORATIONS_CACHES = List.of(
+			"lpCorpActive"
+	);
+
 	public Optional<LPStoreCorporation> byId(int corporationId) {
 		return repo.findById(corporationId);
 	}
 
+	@Cacheable("lpCorpActive")
 	public List<LPStoreCorporation> listActive(boolean active) {
 		return repo.findAllByDisabled(!active);
 	}

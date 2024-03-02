@@ -41,14 +41,25 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><input class="form-control" type="text" name="location" th:value="${location}" /></td>
-								<td><input class="form-control" type="text" name="lp" th:value="${lp}" /></td>
-								<td><input class="form-control" type="text" name="sourcing" th:value="${sourcing}" /></td>
-								<td><input class="form-control" type="text" name="margin" th:value="${margin}" /></td>
-								<td><input class="form-control" type="text" name="marginhour" th:value="${marginhour}" /></td>
-								<td><input class="form-control" type="text" name="taxpct" th:value="${taxpct}" /></td>
-								<td><input class="form-control" type="text" name="brpct" th:value="${brpct}" /></td>
-								<td><input class="form-control" type="text" name="bpcost" th:value="${bpcost}" /></td>
+								<td><input class="form-control" type="text" name="location"
+									th:value="${location}" /></td>
+								<td><input class="form-control" type="text" name="lp"
+									th:value="${lp}" /></td>
+								<td><select name="sourcing">
+										<option value="boso" th:selected="${#strings.equals('boso', sourcing)}">long term</option>
+										<option value="sobo" th:selected="${#strings.equals('sobo', sourcing)}">short term, individual orders</option>
+										<option value="sobodump" th:selected="${#strings.equals('sobodump', sourcing)}">short term, en masse</option>
+								</select></td>
+								<td><input class="form-control" type="text" name="margin"
+									th:value="${margin}" /></td>
+								<td><input class="form-control" type="text"
+									name="marginhour" th:value="${marginhour}" /></td>
+								<td><input class="form-control" type="text" name="taxpct"
+									th:value="${taxpct}" /></td>
+								<td><input class="form-control" type="text" name="brpct"
+									th:value="${brpct}" /></td>
+								<td><input class="form-control" type="text" name="bpcost"
+									th:value="${bpcost}" /></td>
 							</tr>
 						</tbody>
 					</table>
@@ -71,8 +82,8 @@
 							<th>isk/lp</th>
 							<th>nb offers</th>
 							<th>Product</th>
-							<th>Product quantity</th>
 							<th>Product unit price</th>
+							<th>Total product quantity</th>
 							<th>Total material cost</th>
 							<th>Total margin cost</th>
 							<th>Total tedious cost</th>
@@ -86,8 +97,8 @@
 							<td><span th:text="${offer.eval.offerQuantity}" /></td>
 							<td><a th:href="${offer.finalProduct.url}"
 								th:text="${offer.finalProduct.type.name}" /></td>
-							<td><span th:text="${offer.eval.productQuantity}" /></td>
 							<td><span th:text="${offer.eval.productUnitPrice}" /></td>
+							<td><span th:text="${offer.eval.productQuantity}" /></td>
 							<td><span th:text="${offer.eval.materialCost}" /></td>
 							<td><span th:text="${offer.eval.marginCost}" /></td>
 							<td><span th:text="${offer.eval.tediousCost}" /></td>

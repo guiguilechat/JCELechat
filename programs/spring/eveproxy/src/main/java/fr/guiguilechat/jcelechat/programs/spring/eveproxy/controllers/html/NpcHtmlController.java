@@ -137,9 +137,9 @@ public class NpcHtmlController {
 		return "npc/corporation";
 	}
 
-	public URI uri(int corporationId) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getCorporationOffers", null, corporationId).build()
-				.toUri();
+	public URI uri(LPStoreCorporation lpc) {
+		return uri(lpc, Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(),
+				Optional.empty(), Optional.empty(), Optional.empty());
 	}
 
 	public URI uri(LPStoreCorporation lpc,
@@ -162,4 +162,24 @@ public class NpcHtmlController {
 				taxpct).build()
 				.toUri();
 	}
+
+	public static record CorporationInfo(String url, String name, int nbOffers) {
+
+	}
+
+	CorporationInfo corporationInfo(LPStoreCorporation corp) {
+		return new CorporationInfo(uri(corp).toString(), corp.nameOrId(), corp.getOffers().size());
+	}
+
+	@GetMapping("/corporations")
+	public String corporationsIndex(Model model) {
+		model.addAttribute("corporations",
+				lpStoreCorporationService.listActive(true).stream()
+						.map(this::corporationInfo)
+						.filter(ci -> ci.nbOffers() > 0)
+						.sorted(Comparator.comparing(CorporationInfo::name))
+						.toList());
+		return "npc/corporations";
+	}
+
 }

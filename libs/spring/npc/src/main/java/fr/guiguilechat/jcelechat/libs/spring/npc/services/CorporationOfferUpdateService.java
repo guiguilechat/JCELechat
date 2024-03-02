@@ -7,6 +7,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
@@ -24,6 +25,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class CorporationOfferUpdateService {
+
+	@Autowired
+	private CacheManager cacheManager;
 
 	@Autowired
 	private CorporationOfferService corporationOfferService;
@@ -56,6 +60,9 @@ public class CorporationOfferUpdateService {
 			lsc.setLastFetch(Instant.now());
 			lsc.setNextFetch(offers.getExpiresInstant());
 			lpStoreCorporationService.save(lsc);
+			for (String cacheName : LPStoreCorporationService.CORPORATIONS_CACHES) {
+				cacheManager.getCache(cacheName).clear();
+			}
 		} else if (offers.getResponseCode() == 304) {
 			// no change
 		} else {

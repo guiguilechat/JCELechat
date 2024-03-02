@@ -35,7 +35,7 @@ public class CorporationOffer {
 	private Long id;
 
 	@ManyToOne
-	LPStoreCorporation corporation;
+	private LPStoreCorporation corporation;
 
 	@ManyToOne
 	private Type type;

@@ -1,0 +1,33 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>Corporations</title>
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+	<div class="container-fluid border">
+		<div class="row">
+			<div class="col">
+				<h1>Corporations</h1>
+				<table th:if="${corporations!=null && !corporations.isEmpty()}">
+					<thead>
+						<tr>
+							<th>Corporation</th>
+							<th>Offers</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="corp : ${corporations}">
+							<td><a th:href="${corp.url}" th:text="${corp.name}" /></td>
+							<td><span th:text="${corp.nbOffers}" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

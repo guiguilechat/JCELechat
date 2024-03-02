@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +20,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class UpdateScheduler {
+
+	@Autowired
+	private CacheManager cacheManager;
 
 	@Autowired
 	private CorporationOfferUpdateService corporationOfferUpdateService;
@@ -38,6 +42,9 @@ public class UpdateScheduler {
 		Requested<Integer[]> ret = lpStoreCorporationService.fetchCorporations();
 		long endMs = System.currentTimeMillis();
 		if (ret.isOk()) {
+			for (String cacheName : LPStoreCorporationService.CORPORATIONS_CACHES) {
+				cacheManager.getCache(cacheName).clear();
+			}
 			log.info(" updated corporations to " + lpStoreCorporationService.listActive(true).size() + " active, "
 					+ lpStoreCorporationService.listActive(false).size() + " inactive in "
 					+ (int) Math.ceil(0.001 * (endMs - startMs)) + "s");
