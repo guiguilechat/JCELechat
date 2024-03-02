@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.model;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -31,9 +32,18 @@ public class OfferRequirement {
 	@ManyToOne
 	private CorporationOffer offer;
 
-	private int quantity;
-
 	@ManyToOne
 	private Type type;
+
+	private int quantity;
+
+	public static OfferRequirement of(R_get_loyalty_stores_corporation_id_offers_required_items item,
+			CorporationOffer offer, Type type) {
+		return builder()
+				.offer(offer)
+				.quantity(item.quantity)
+				.type(type)
+				.build();
+	}
 
 }

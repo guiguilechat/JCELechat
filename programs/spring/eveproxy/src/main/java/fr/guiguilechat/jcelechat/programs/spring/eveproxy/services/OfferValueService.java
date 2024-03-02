@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.OfferRequirement;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Product;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.BlueprintActivityService;
@@ -150,13 +151,14 @@ public class OfferValueService {
 	private RegionLineService regionLineService;
 
 	public static record OfferEval(CorporationOffer offer, long offerQuantity, long lpQuantity, Type product,
+			Type finalProduct,
 			long productQuantity, double productUnitPrice, double productIncome,
 			long materialCost, long marginCost, long tediousCost, long gain, int iskplp) {
 
-		public OfferEval(CorporationOffer offer, long offerQuantity, Type product,
+		public OfferEval(CorporationOffer offer, long offerQuantity, Type product, Type finalProduct,
 				long productQuantity, double productUnitPrice, double productIncome,
 				double materialCost, double marginCost, double tediousCost) {
-			this(offer, offerQuantity, offer.getLpCost() * offerQuantity, product, productQuantity,
+			this(offer, offerQuantity, offer.getLpCost() * offerQuantity, product, finalProduct, productQuantity,
 					0.01 * (int) (100 * productUnitPrice), (long) productIncome, (long) materialCost, (long) marginCost,
 					(long) tediousCost,
 					(long) (productIncome - materialCost - marginCost - tediousCost),
@@ -169,8 +171,8 @@ public class OfferValueService {
 	 */
 	OfferEval value(CorporationOffer offer, int minLpAmount, SourceType sourcing,
 			double brokerPct, double taxPct, double marginPct, double marginPctPerHour, double bpCost,
-			Map<Integer, List<BlueprintActivity>> typeToActivities, Map<Integer, List<RegionLine>> bos,
-			Map<Integer, List<RegionLine>> sos) {
+			Map<Integer, List<BlueprintActivity>> typeToActivities, Map<Integer, List<RegionLine>> bosByTypeId,
+			Map<Integer, List<RegionLine>> sosByTypeId) {
 
 		long offerQuantity = (long) Math.ceil(1.0 * minLpAmount / offer.getLpCost());
 		double tediousCost = 0.0;
@@ -194,6 +196,7 @@ public class OfferValueService {
 			productQuantity *= manufProd.getQuantity();
 			int hours = (int) Math.ceil(1.0 * manuf.getTime() / 3600);
 			timeMarginPct = hours * marginPctPerHour;
+
 			for (Material mat : manuf.getMaterials()) {
 				long required = offerQuantity * manufProd.getQuantity() * mat.getQuantity();
 				requiredMats.put(mat.getType().getTypeId(),
@@ -205,14 +208,15 @@ public class OfferValueService {
 			product = offer.getType();
 		}
 
-		double materialCost = sourcing.materialCost(requiredMats, timeMarginPct, bos, sos);
+		double materialCost = sourcing.materialCost(requiredMats, timeMarginPct, bosByTypeId, sosByTypeId)
+				+ offer.getIskCost() * offerQuantity;
 		double productUnitPrice = sourcing.productUnitPrice(product.getTypeId(), productQuantity,
-				bos.get(product.getTypeId()), sos.get(product.getTypeId()));
+				bosByTypeId.get(product.getTypeId()), sosByTypeId.get(product.getTypeId()));
 		double productIncome = sourcing.productIncome(productUnitPrice, productQuantity, taxPct, brokerPct);
-		double marginCost = productUnitPrice * productQuantity * (marginPct + timeMarginPct) / 100;
+		double marginCost = materialCost * (marginPct + timeMarginPct) / 100;
 
-		return new OfferEval(offer, offerQuantity, product, productQuantity, productUnitPrice, productIncome,
-				materialCost, marginCost, tediousCost);
+		return new OfferEval(offer, offerQuantity, offer.getType(), product, productQuantity, productUnitPrice,
+				productIncome, materialCost, marginCost, tediousCost);
 	}
 
 	public List<OfferEval> value(List<CorporationOffer> offers, int minLpAmount, SourceType sourcing,
@@ -221,7 +225,8 @@ public class OfferValueService {
 		// the activities of blueprints that are a product of an offer
 		long start = System.currentTimeMillis();
 		Map<Integer, List<BlueprintActivity>> typeToActivities = blueprintActivityService
-				.forBPActivity(offers.stream().map(co -> co.getType().getTypeId()).toList(), List.of())
+				.forBPActivity(offers.stream().map(co -> co.getType().getTypeId()).toList(),
+						List.of(ACTIVITY_TYPE.manufacturing))
 				.stream().collect(Collectors.groupingBy(ac -> ac.getType().getTypeId()));
 		long activitiesFetched = System.currentTimeMillis();
 		Set<Integer> allIds = Stream.of(
@@ -237,12 +242,12 @@ public class OfferValueService {
 						.map(mat -> mat.getType().getTypeId()))
 				.flatMap(s -> s).collect(Collectors.toSet());
 		long idsGathered = System.currentTimeMillis();
-		Map<Integer, List<RegionLine>> bos = regionLineService.locationBos(marketLocationId, allIds);
+		Map<Integer, List<RegionLine>> bosByTypeId = regionLineService.locationBos(marketLocationId, allIds);
 		long bosFetched = System.currentTimeMillis();
-		Map<Integer, List<RegionLine>> sos = regionLineService.locationSos(marketLocationId, allIds);
+		Map<Integer, List<RegionLine>> sosByTypeId = regionLineService.locationSos(marketLocationId, allIds);
 		long sosFetched = System.currentTimeMillis();
 		List<OfferEval> ret = offers.parallelStream().map(o -> value(o, minLpAmount, sourcing, brokerPct, taxPct, marginPct,
-				marginPctPerHour, bpCost, typeToActivities, bos, sos)).toList();
+				marginPctPerHour, bpCost, typeToActivities, bosByTypeId, sosByTypeId)).toList();
 		long evaluated = System.currentTimeMillis();
 		log.info(" evaluated " + offers.size()
 				+ " offers"

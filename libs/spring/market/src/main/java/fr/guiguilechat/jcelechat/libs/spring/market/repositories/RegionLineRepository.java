@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.market.repositories;
 
 import java.util.List;
+import java.util.Set;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -32,7 +33,8 @@ order by
 
 	// need to query since fields with _ that can't be used in jpa
 	@Query("""
-select line
+select
+	line
 from
 	EsiMarketRegionLine line
 where
@@ -44,11 +46,12 @@ order by
 """)
 	public List<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(
 			@Param("locationId") long locationId,
-			@Param("typeIds") Iterable<Integer> typeIds);
+			@Param("typeIds") Set<Integer> typeIds);
 
 	// need to query since fields with _ that can't be used in jpa
 	@Query("""
-select line
+select
+	line
 from
 	EsiMarketRegionLine line
 where
@@ -60,7 +63,7 @@ order by
 """)
 	public List<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(
 			@Param("locationId") long locationId,
-			@Param("typeIds") Iterable<Integer> typeIds);
+			@Param("typeIds") Set<Integer> typeIds);
 
 	// need to query since fields with _ that can't be used in jpa
 	@Query("""

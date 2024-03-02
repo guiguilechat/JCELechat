@@ -23,6 +23,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
 
 /**
  * blueprint time per activity and limit data.
@@ -46,9 +47,11 @@ public class BlueprintActivity implements Serializable {
 	@ManyToOne
 	private Type type;
 
+	@ToString.Exclude
 	@OneToMany(mappedBy = "activity", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<Product> products;
 
+	@ToString.Exclude
 	@OneToMany(mappedBy = "activity", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<Material> materials;
 

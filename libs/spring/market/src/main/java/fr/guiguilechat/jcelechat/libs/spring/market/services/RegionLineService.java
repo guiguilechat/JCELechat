@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -85,9 +86,17 @@ public class RegionLineService {
 	 *           descending
 	 */
 	@Cacheable("marketLocationTypesBo")
-	public Map<Integer, List<RegionLine>> locationBos(long locationId, Iterable<Integer> typeIds) {
-		return repo.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds).stream()
+	public Map<Integer, List<RegionLine>> locationBos(long locationId, Set<Integer> typeIds) {
+		long start = System.currentTimeMillis();
+		List<RegionLine> list = repo.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds);
+		long fetched = System.currentTimeMillis();
+		Map<Integer, List<RegionLine>> ret = list.stream()
 				.collect(Collectors.groupingBy(order -> order.getOrder().type_id));
+		long aggreg = System.currentTimeMillis();
+		System.err.println(
+				"listed " + list.size() + " BO lines for " + typeIds.size() + " ids , fetch=" + (fetched - start) + "ms aggreg="
+						+ (aggreg - fetched) + "ms");
+		return ret;
 	}
 
 	/**
@@ -95,9 +104,17 @@ public class RegionLineService {
 	 *           ascending
 	 */
 	@Cacheable("marketLocationTypesSo")
-	public Map<Integer, List<RegionLine>> locationSos(long locationId, Iterable<Integer> typeIds) {
-		return repo.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds).stream()
+	public Map<Integer, List<RegionLine>> locationSos(long locationId, Set<Integer> typeIds) {
+		long start = System.currentTimeMillis();
+		List<RegionLine> list = repo.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds);
+		long fetched = System.currentTimeMillis();
+		Map<Integer, List<RegionLine>> ret = list.stream()
 				.collect(Collectors.groupingBy(order -> order.getOrder().type_id));
+		long aggreg = System.currentTimeMillis();
+		System.err.println(
+				"listed " + list.size() + " SO lines for " + typeIds.size() + " ids, fetch=" + (fetched - start) + "ms aggreg="
+						+ (aggreg - fetched) + "ms");
+		return ret;
 	}
 
 	/**

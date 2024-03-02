@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
+import fr.guiguilechat.jcelechat.libs.spring.npc.model.OfferRequirement;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import jakarta.transaction.Transactional;
@@ -47,7 +48,7 @@ public class CorporationOfferUpdateService {
 			corporationOfferService.clearFor(lsc);
 			if (offers.getOK() != null && offers.getOK().length > 0) {
 				corporationOfferService.saveAll(Stream.of(offers.getOK())
-						.map(offer -> CorporationOffer.of(offer, lsc, typeService.byId(offer.type_id).orElse(null)))
+						.map(offer -> convert(lsc, offer))
 						.toList());
 			}
 			lsc.setLastEtag(offers.getETag());
@@ -67,6 +68,13 @@ public class CorporationOfferUpdateService {
 					+ " " + offers.getError());
 		}
 		return CompletableFuture.completedFuture(null);
+	}
+
+	CorporationOffer convert(LPStoreCorporation lsc, R_get_loyalty_stores_corporation_id_offers offer) {
+		CorporationOffer ret = CorporationOffer.of(offer, lsc, typeService.byId(offer.type_id).orElse(null));
+		ret.setRequirements(Stream.of(offer.required_items)
+				.map(req -> OfferRequirement.of(req, ret, typeService.byId(req.type_id).orElse(null))).toList());
+		return ret;
 	}
 
 }

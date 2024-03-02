@@ -68,7 +68,7 @@ public class NpcHtmlController {
 				.toUri();
 	}
 
-	public static record LinkedOffer(String url, OfferEval eval, LinkedType product) {
+	public static record LinkedOffer(String url, OfferEval eval, LinkedType finalProduct) {
 
 		public String name() {
 			return "[" + eval.offer().getOfferId() + "] " + eval.offer().getQuantity() + "×" + eval.product().getName();
@@ -76,7 +76,7 @@ public class NpcHtmlController {
 	}
 
 	LinkedOffer linkedOffer(OfferEval eval) {
-		return new LinkedOffer(uri(eval.offer()).toString(), eval, dogmaHtmlController.linkedType(eval.product()));
+		return new LinkedOffer(uri(eval.offer()).toString(), eval, dogmaHtmlController.linkedType(eval.finalProduct()));
 	}
 
 	@GetMapping("/corporation/{corporationId}")
@@ -117,16 +117,6 @@ public class NpcHtmlController {
 		}
 
 		List<CorporationOffer> offers = corporationOfferService.byCorporationIdRequiringLp(corporationId);
-// List<CompletableFuture<OfferEval>> futures = offers.stream()
-// .filter(offer -> offer.getLpCost() > 0)
-// .map(offer -> offerValueService.value(offer, lp_, sourcing_, brpct_, taxpct_,
-// margin_, marginhour_, bpcost_, location_))
-// .toList();
-// model.addAttribute("offers",
-// futures.stream().map(CompletableFuture::join)
-// .sorted(Comparator.comparing(OfferEval::iskplp).reversed())
-// .map(this::linkedOffer)
-// .toList());
 
 		model.addAttribute("offers",
 				offerValueService.value(offers, lp_, sourcing_, brpct_, taxpct_, marginhour_, margin_, bpcost_, location_)
