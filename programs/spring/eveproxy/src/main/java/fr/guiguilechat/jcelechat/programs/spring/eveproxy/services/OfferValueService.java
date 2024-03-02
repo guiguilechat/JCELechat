@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Product;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.BlueprintActivityService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -219,6 +220,7 @@ public class OfferValueService {
 				productIncome, materialCost, marginCost, tediousCost);
 	}
 
+	@Transactional
 	public List<OfferEval> value(List<CorporationOffer> offers, int minLpAmount, SourceType sourcing,
 			double brokerPct, double taxPct, double marginPct, double marginPctPerHour, double bpCost,
 			long marketLocationId) {
@@ -249,7 +251,7 @@ public class OfferValueService {
 		List<OfferEval> ret = offers.parallelStream().map(o -> value(o, minLpAmount, sourcing, brokerPct, taxPct, marginPct,
 				marginPctPerHour, bpCost, typeToActivities, bosByTypeId, sosByTypeId)).toList();
 		long evaluated = System.currentTimeMillis();
-		log.info(" evaluated " + offers.size()
+		log.debug(" evaluated " + offers.size()
 				+ " offers"
 				+ " activitiesFetched=" + (activitiesFetched - start) + "ms"
 				+ " idsGathered=" + (idsGathered - activitiesFetched) + "ms"

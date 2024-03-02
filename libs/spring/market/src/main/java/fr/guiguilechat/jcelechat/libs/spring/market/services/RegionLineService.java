@@ -16,7 +16,9 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.RegionLineRepository;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 public class RegionLineService {
 
@@ -88,14 +90,12 @@ public class RegionLineService {
 	@Cacheable("marketLocationTypesBo")
 	public Map<Integer, List<RegionLine>> locationBos(long locationId, Set<Integer> typeIds) {
 		long start = System.currentTimeMillis();
-		List<RegionLine> list = repo.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds);
-		long fetched = System.currentTimeMillis();
-		Map<Integer, List<RegionLine>> ret = list.stream()
+		Map<Integer, List<RegionLine>> ret = repo
+				.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds)
 				.collect(Collectors.groupingBy(order -> order.getOrder().type_id));
-		long aggreg = System.currentTimeMillis();
-		System.err.println(
-				"listed " + list.size() + " BO lines for " + typeIds.size() + " ids , fetch=" + (fetched - start) + "ms aggreg="
-						+ (aggreg - fetched) + "ms");
+		long fetched = System.currentTimeMillis();
+		log.debug(
+				"listed BO lines for " + typeIds.size() + " ids , fetch=" + (fetched - start) + "ms, ids=" + typeIds);
 		return ret;
 	}
 
@@ -106,14 +106,12 @@ public class RegionLineService {
 	@Cacheable("marketLocationTypesSo")
 	public Map<Integer, List<RegionLine>> locationSos(long locationId, Set<Integer> typeIds) {
 		long start = System.currentTimeMillis();
-		List<RegionLine> list = repo.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds);
-		long fetched = System.currentTimeMillis();
-		Map<Integer, List<RegionLine>> ret = list.stream()
+		Map<Integer, List<RegionLine>> ret = repo
+				.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds)
 				.collect(Collectors.groupingBy(order -> order.getOrder().type_id));
-		long aggreg = System.currentTimeMillis();
-		System.err.println(
-				"listed " + list.size() + " SO lines for " + typeIds.size() + " ids, fetch=" + (fetched - start) + "ms aggreg="
-						+ (aggreg - fetched) + "ms");
+		long fetched = System.currentTimeMillis();
+		log.debug(
+				"listed SO lines for " + typeIds.size() + " ids, fetch=" + (fetched - start) + "ms, ids=" + typeIds);
 		return ret;
 	}
 

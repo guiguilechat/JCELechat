@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.market.repositories;
 
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Stream;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -44,7 +45,7 @@ where
 order by
 	line.order.price desc
 """)
-	public List<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(
+	public Stream<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(
 			@Param("locationId") long locationId,
 			@Param("typeIds") Set<Integer> typeIds);
 
@@ -61,7 +62,7 @@ where
 order by
 	line.order.price
 """)
-	public List<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(
+	public Stream<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(
 			@Param("locationId") long locationId,
 			@Param("typeIds") Set<Integer> typeIds);
 

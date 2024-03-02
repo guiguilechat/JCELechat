@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.market.model;
 
+import java.io.Serializable;
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
@@ -17,6 +18,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+@SuppressWarnings("serial")
 @Entity(name = "EsiMarketRegionLine")
 @Table(name = "esi_market_regionline", indexes = {
 		@Index(columnList = "region_region_id"),
@@ -27,7 +29,7 @@ import lombok.RequiredArgsConstructor;
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class RegionLine {
+public class RegionLine implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
