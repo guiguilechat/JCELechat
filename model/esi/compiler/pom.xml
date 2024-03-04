@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.model</groupId>
 		<artifactId>esi</artifactId>
-		<version>7.17.8</version>
+		<version>7.17.9</version>
 	</parent>
 	<artifactId>compiler</artifactId>
 	<name>JCESI compiler</name>
