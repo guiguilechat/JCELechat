@@ -2668,6 +2668,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonus2af: 5.0
+    shipbonus3mf: 5
     shipbonusmf: 25.0
     shipbonusmf2: 10.0
     shipbonusuf1: 1

@@ -24883,7 +24883,6 @@ id2group:
   54844: blueprint/BattleshipBlueprint
   54845: blueprint/VortonProjectorBlueprint
   54846: blueprint/VortonProjectorBlueprint
-  54847: blueprint/VortonProjectorBlueprint
   54848: blueprint/VortonProjectorBlueprint
   54849: blueprint/VortonProjectorBlueprint
   54850: blueprint/VortonProjectorBlueprint
@@ -24911,31 +24910,13 @@ id2group:
   54872: blueprint/CondenserPackBlueprint
   54873: blueprint/VortonProjectorUpgradeBlueprints
   54874: blueprint/VortonProjectorUpgradeBlueprints
-  54875: blueprint/CondenserPackBlueprint
   54876: blueprint/VortonProjectorUpgradeBlueprints
-  54877: blueprint/CondenserPackBlueprint
-  54878: blueprint/CondenserPackBlueprint
-  54879: blueprint/CondenserPackBlueprint
-  54880: blueprint/CondenserPackBlueprint
-  54881: blueprint/CondenserPackBlueprint
-  54882: blueprint/CondenserPackBlueprint
-  54883: blueprint/CondenserPackBlueprint
   54884: blueprint/AdvancedCondenserPackBlueprint
   54885: blueprint/AdvancedCondenserPackBlueprint
   54886: blueprint/AdvancedCondenserPackBlueprint
   54887: blueprint/AdvancedCondenserPackBlueprint
   54888: blueprint/AdvancedCondenserPackBlueprint
   54889: blueprint/AdvancedCondenserPackBlueprint
-  54890: blueprint/AdvancedCondenserPackBlueprint
-  54891: blueprint/AdvancedCondenserPackBlueprint
-  54892: blueprint/AdvancedCondenserPackBlueprint
-  54893: blueprint/AdvancedCondenserPackBlueprint
-  54894: blueprint/AdvancedCondenserPackBlueprint
-  54895: blueprint/AdvancedCondenserPackBlueprint
-  54896: blueprint/AdvancedCondenserPackBlueprint
-  54897: blueprint/AdvancedCondenserPackBlueprint
-  54898: blueprint/AdvancedCondenserPackBlueprint
-  54899: blueprint/AdvancedCondenserPackBlueprint
   54900: skins/PermanentSKIN
   54901: skins/PermanentSKIN
   54902: skins/PermanentSKIN
@@ -29892,33 +29873,6 @@ id2group:
   78622: commodity/Mutaplasmids
   78623: commodity/Mutaplasmids
   78624: commodity/Mutaplasmids
-  78631: implant/Booster
-  78633: implant/Booster
-  78634: implant/Booster
-  78636: implant/Booster
-  78637: implant/Booster
-  78638: implant/Booster
-  78639: implant/Booster
-  78640: implant/Booster
-  78641: implant/Booster
-  78649: implant/Booster
-  78650: implant/Booster
-  78652: implant/Booster
-  78653: implant/Booster
-  78655: implant/Booster
-  78656: implant/Booster
-  78657: implant/Booster
-  78659: implant/Booster
-  78661: implant/Booster
-  78663: implant/Booster
-  78664: implant/Booster
-  78665: implant/Booster
-  78666: implant/Booster
-  78667: implant/Booster
-  78668: implant/Booster
-  78669: implant/Booster
-  78670: implant/Booster
-  78676: implant/Booster
   78677: module/MiningUpgrade
   78688: skins/PermanentSKIN
   78689: skins/PermanentSKIN
@@ -30179,6 +30133,36 @@ id2group:
   80813: skins/PermanentSKIN
   80814: skins/PermanentSKIN
   80815: skins/PermanentSKIN
+  80907: skins/PermanentSKIN
+  80908: skins/PermanentSKIN
+  80909: skins/PermanentSKIN
+  80938: skins/PermanentSKIN
+  80939: skins/PermanentSKIN
+  80940: skins/PermanentSKIN
+  80941: skins/PermanentSKIN
+  80942: skins/PermanentSKIN
+  80943: skins/PermanentSKIN
+  81010: skins/PermanentSKIN
+  81011: skins/PermanentSKIN
+  81012: skins/PermanentSKIN
+  81013: skins/PermanentSKIN
+  81014: skins/PermanentSKIN
+  81015: skins/PermanentSKIN
+  81016: skins/PermanentSKIN
+  81017: skins/PermanentSKIN
+  81018: skins/PermanentSKIN
+  81019: skins/PermanentSKIN
+  81020: skins/PermanentSKIN
+  81021: skins/PermanentSKIN
+  81022: skins/PermanentSKIN
+  81023: skins/PermanentSKIN
+  81024: skins/PermanentSKIN
+  81025: skins/PermanentSKIN
+  81026: skins/PermanentSKIN
+  81116: skins/PermanentSKIN
+  81117: skins/PermanentSKIN
+  81119: skins/PermanentSKIN
+  81120: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

@@ -5,6 +5,7 @@ types:
     hp: 40.0
     id: 1798
     marketGroup: 1691
+    metagroupid: 3
     metalevelold: 6
     name: '''Basic'' EM Shield Amplifier'
     packagedVolume: 5.0
@@ -20,6 +21,7 @@ types:
     hp: 40.0
     id: 1800
     marketGroup: 1688
+    metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Thermal Shield Amplifier'
     packagedVolume: 5.0
@@ -37,6 +39,7 @@ types:
     id: 1802
     kineticdamageresistancebonus: -22.5
     marketGroup: 1689
+    metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Kinetic Shield Amplifier'
     packagedVolume: 5.0
@@ -53,6 +56,7 @@ types:
     hp: 40.0
     id: 1804
     marketGroup: 1690
+    metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Explosive Shield Amplifier'
     packagedVolume: 5.0

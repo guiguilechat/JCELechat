@@ -983,13 +983,13 @@ types:
     maxlockedtargets: 7
     maxpassengers: 580
     maxtargetrange: 62500.0
-    maxvelocity: 240.0
+    maxvelocity: 260.0
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Bellicose
     packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 700
+    poweroutput: 780
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 397
@@ -2924,7 +2924,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonuscc: 5.0
-    shipbonusgc: 25.0
+    shipbonusgc: 20.0
     shipbonusgc2: 10.0
     shipbonusgc3: -15.0
     shipbonusuc1: 1.0

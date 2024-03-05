@@ -41393,3 +41393,243 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  80907:
+    id: 80907
+    marketGroup: 1994
+    name: Dragoon Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80908:
+    id: 80908
+    marketGroup: 2002
+    name: Executioner Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80909:
+    id: 80909
+    marketGroup: 2031
+    name: Astero Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80938:
+    id: 80938
+    marketGroup: 2356
+    name: Hecate Empyrean Dragons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80939:
+    id: 80939
+    marketGroup: 2050
+    name: Jaguar Empyrean Dragons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80940:
+    id: 80940
+    marketGroup: 2108
+    name: Dominix Navy Issue Empyrean Dragons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80941:
+    id: 80941
+    marketGroup: 2084
+    name: Huginn Empyrean Dragons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80942:
+    id: 80942
+    marketGroup: 2062
+    name: Stiletto Empyrean Dragons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80943:
+    id: 80943
+    marketGroup: 2373
+    name: Loki Empyrean Dragons SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81010:
+    id: 81010
+    marketGroup: 2031
+    name: Garmur Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81011:
+    id: 81011
+    marketGroup: 2030
+    name: Orthrus Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81012:
+    id: 81012
+    marketGroup: 1963
+    name: Barghest Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81013:
+    id: 81013
+    marketGroup: 2004
+    name: Atron Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81014:
+    id: 81014
+    marketGroup: 1996
+    name: Algos Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81015:
+    id: 81015
+    marketGroup: 2063
+    name: Exequror Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81016:
+    id: 81016
+    marketGroup: 2103
+    name: Myrmidon Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81017:
+    id: 81017
+    marketGroup: 2005
+    name: Burst Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81018:
+    id: 81018
+    marketGroup: 1997
+    name: Talwar Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81019:
+    id: 81019
+    marketGroup: 2063
+    name: Scythe Fleet Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81020:
+    id: 81020
+    marketGroup: 2103
+    name: Cyclone Fleet Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81021:
+    id: 81021
+    marketGroup: 2063
+    name: Augoror Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81022:
+    id: 81022
+    marketGroup: 2103
+    name: Prophecy Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81023:
+    id: 81023
+    marketGroup: 2003
+    name: Condor Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81024:
+    id: 81024
+    marketGroup: 1995
+    name: Corax Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81025:
+    id: 81025
+    marketGroup: 2063
+    name: Osprey Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81026:
+    id: 81026
+    marketGroup: 2103
+    name: Ferox Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81116:
+    id: 81116
+    marketGroup: 3495
+    name: Naglfar Fleet Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81117:
+    id: 81117
+    marketGroup: 3495
+    name: Moros Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81119:
+    id: 81119
+    marketGroup: 3495
+    name: Phoenix Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  81120:
+    id: 81120
+    marketGroup: 3495
+    name: Revelation Navy Issue Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

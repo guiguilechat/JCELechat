@@ -158,6 +158,7 @@ types:
     requiredskill2level: 1
     rigsize: 2
     rigslots: 2
+    rolebonuscommandburstaoerange: 50
     scanladarstrength: 20.0
     scanresolution: 264.0
     scanspeed: 5500
@@ -343,6 +344,7 @@ types:
     requiredskill2level: 1
     rigsize: 2
     rigslots: 2
+    rolebonuscommandburstaoerange: 50
     scanradarstrength: 21.0
     scanresolution: 252.0
     scanspeed: 6000
@@ -435,6 +437,7 @@ types:
     requiredskill2level: 1
     rigsize: 2
     rigslots: 2
+    rolebonuscommandburstaoerange: 50
     scanmagnetometricstrength: 23.0
     scanresolution: 240.0
     scanspeed: 7000
@@ -446,7 +449,7 @@ types:
     shieldthermaldamageresonance: 0.4000000059604645
     shielduniformity: 0.75
     shipbonusgbc1: 7.5
-    shipbonusgbc2: 7.5
+    shipbonusgbc2: 10.0
     signatureradius: 300.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -569,7 +572,7 @@ types:
     cpuoutput: 560
     dronebandwidth: 25
     dronecapacity: 25
-    elitebonuscommandships1: -10.0
+    elitebonuscommandships1: -7.5
     elitebonuscommandships2: -5.0
     elitebonuscommandships3: 4
     emdamageresonance: 0.6700000166893005
@@ -621,6 +624,7 @@ types:
     requiredskill2level: 1
     rigsize: 2
     rigslots: 2
+    rolebonuscommandburstaoerange: 50
     scangravimetricstrength: 24.0
     scanresolution: 234.0
     scanspeed: 7500
@@ -631,7 +635,7 @@ types:
     shieldrechargerate: 1400000.0
     shieldthermaldamageresonance: 0.20000000298023224
     shielduniformity: 0.75
-    shipbonuscbc1: 7.5
+    shipbonuscbc1: 10.0
     shipbonuscbc2: -4
     signatureradius: 285.0
     stasiswebifierresistance: 1.0

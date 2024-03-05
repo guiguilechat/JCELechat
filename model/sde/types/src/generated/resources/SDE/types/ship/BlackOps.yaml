@@ -98,7 +98,7 @@ types:
     shipbonusab2: -10.0
     shipbonuscb: 5
     shipbonusmb: 5.0
-    shipbonusrole1: 6.5
+    shipbonusrole1: 7.5
     signatureradius: 333.0
     specialfuelbaycapacity: 2150
     stasiswebifierresistance: 1.0
@@ -214,7 +214,7 @@ types:
     shipbonusgb: 10.0
     shipbonusgb2: 10.0
     shipbonusmb: 5.0
-    shipbonusrole1: 6.5
+    shipbonusrole1: 7.5
     signatureradius: 378.0
     specialfuelbaycapacity: 2150
     stasiswebifierresistance: 1.0
@@ -331,7 +331,7 @@ types:
     shipbonuscb: 10
     shipbonuscb3: 10
     shipbonusmb: 5.0
-    shipbonusrole1: 6.5
+    shipbonusrole1: 7.5
     signatureradius: 405.0
     specialfuelbaycapacity: 2150
     stasiswebifierresistance: 1.0
@@ -445,7 +445,7 @@ types:
     shipbonuscb: 5
     shipbonusmb: 10.0
     shipbonusmb2: -5.0
-    shipbonusrole1: 6.5
+    shipbonusrole1: 7.5
     signatureradius: 288.0
     specialfuelbaycapacity: 2150
     stasiswebifierresistance: 1.0
@@ -574,7 +574,7 @@ types:
     shipbonusgb2: 7.5
     shipbonusmb: 10.0
     shipbonusmb2: -10.0
-    shipbonusrole1: 6.5
+    shipbonusrole1: 7.5
     signatureradius: 330.0
     specialfuelbaycapacity: 2150
     stasiswebifierresistance: 1.0
