@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
 import java.net.URI;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
@@ -13,7 +12,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
@@ -26,6 +24,9 @@ import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.Dogma
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferValueService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferValueService.OfferEval;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferValueService.SourceType;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 @Controller
 @RequestMapping("/html/npc")
@@ -79,25 +80,25 @@ public class NpcHtmlController {
 		return new LinkedOffer(uri(eval.offer()).toString(), eval, dogmaHtmlController.linkedType(eval.finalProduct()));
 	}
 
+	@Getter
+	@Setter
+	@ToString
+	public static class EvalParams {
+
+		private Double bpcost = 1000000.0;
+		private Double brpct = 2.0;
+		private Long location = RegionLineService.JITAIV_ID;
+		private Integer lp = 100000;
+		private Double margin = 5.0;
+		private Double marginhour = 0.5;
+		private SourceType sourcing = SourceType.sobo;
+		private Double taxpct = 3.6;
+
+	}
+
 	@GetMapping("/corporation/{corporationId}")
 	public String getCorporationOffers(Model model, @PathVariable int corporationId,
-			@RequestParam Optional<Double> bpcost,
-			@RequestParam Optional<Double> brpct,
-			@RequestParam Optional<Long> location,
-			@RequestParam Optional<Integer> lp,
-			@RequestParam Optional<Double> margin,
-			@RequestParam Optional<Double> marginhour,
-			@RequestParam Optional<SourceType> sourcing,
-			@RequestParam Optional<Double> taxpct) {
-
-		double bpcost_ = bpcost.orElse(1000000.0);
-		double brpct_ = brpct.orElse(2.0);
-		long location_ = location.orElse(RegionLineService.JITAIV_ID);
-		int lp_ = lp.orElse(100000);
-		double margin_ = margin.orElse(5.0);
-		double marginhour_ = marginhour.orElse(0.5);
-		SourceType sourcing_ = sourcing.orElse(SourceType.sobo);
-		double taxpct_ = taxpct.orElse(3.6);
+			EvalParams params) {
 
 		LPStoreCorporation corp = lpStoreCorporationService.byId(corporationId).orElse(null);
 		model.addAttribute("corpName", corp == null ? "" + corporationId : corp.nameOrId());
@@ -106,60 +107,38 @@ public class NpcHtmlController {
 		if (prevCorp != null) {
 			model.addAttribute("prevCorpName", prevCorp.nameOrId());
 			model.addAttribute("prevCorpUrl",
-					uri(prevCorp, bpcost, brpct, location, lp, margin, marginhour, sourcing, taxpct).toString());
+					uri(prevCorp, params).toString());
 		}
 
 		LPStoreCorporation nextCorp = lpStoreCorporationService.nextCorp(corp);
 		if (nextCorp != null) {
 			model.addAttribute("nextCorpName", nextCorp.nameOrId());
 			model.addAttribute("nextCorpUrl",
-					uri(nextCorp, bpcost, brpct, location, lp, margin, marginhour, sourcing, taxpct).toString());
+					uri(nextCorp, params).toString());
 		}
 
 		List<CorporationOffer> offers = corporationOfferService.byCorporationIdRequiringLp(corporationId);
 
 		model.addAttribute("offers",
-				offerValueService.value(offers, lp_, sourcing_, brpct_, taxpct_, marginhour_, margin_, bpcost_, location_)
+				offerValueService.value(offers, params.getLp(), params.getSourcing(), params.getBrpct(),
+						params.getTaxpct(), params.getMarginhour(), params.getMargin(), params.getBpcost(), params.getLocation())
 						.stream()
 						.sorted(Comparator.comparing(OfferEval::iskplp).reversed())
 						.map(this::linkedOffer)
 						.toList());
 
-		model.addAttribute("bpcost", bpcost_);
-		model.addAttribute("brpct", brpct_);
-		model.addAttribute("location", location_);
-		model.addAttribute("lp", lp_);
-		model.addAttribute("margin", margin_);
-		model.addAttribute("marginhour", marginhour_);
-		model.addAttribute("sourcing", sourcing_);
-		model.addAttribute("taxpct", taxpct_);
+		model.addAttribute("params", params);
 
 		return "npc/corporation";
 	}
 
 	public URI uri(LPStoreCorporation lpc) {
-		return uri(lpc, Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(),
-				Optional.empty(), Optional.empty(), Optional.empty());
+		return uri(lpc, new EvalParams());
 	}
 
-	public URI uri(LPStoreCorporation lpc,
-			Optional<Double> bpcost,
-			Optional<Double> brpct,
-			Optional<Long> location,
-			Optional<Integer> lp,
-			Optional<Double> margin,
-			Optional<Double> marginhour,
-			Optional<SourceType> sourcing,
-			Optional<Double> taxpct) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getCorporationOffers", null, lpc.getCorporationId(),
-				bpcost,
-				brpct,
-				location,
-				lp,
-				margin,
-				marginhour,
-				sourcing,
-				taxpct).build()
+	public URI uri(LPStoreCorporation lpc, EvalParams params) {
+		return MvcUriComponentsBuilder
+				.fromMethodName(getClass(), "getCorporationOffers", null, lpc.getCorporationId(), params).build()
 				.toUri();
 	}
 
@@ -181,5 +160,6 @@ public class NpcHtmlController {
 						.toList());
 		return "npc/corporations";
 	}
+
 
 }

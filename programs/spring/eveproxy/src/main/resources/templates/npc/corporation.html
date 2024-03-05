@@ -42,24 +42,24 @@
 						<tbody>
 							<tr>
 								<td><input class="form-control" type="text" name="location"
-									th:value="${location}" /></td>
+									th:value="${params.location}" /></td>
 								<td><input class="form-control" type="text" name="lp"
-									th:value="${lp}" /></td>
+									th:value="${params.lp}" /></td>
 								<td><select name="sourcing">
-										<option value="boso" th:selected="${#strings.equals('boso', sourcing)}">long term</option>
-										<option value="sobo" th:selected="${#strings.equals('sobo', sourcing)}">short term, individual orders</option>
-										<option value="sobodump" th:selected="${#strings.equals('sobodump', sourcing)}">short term, en masse</option>
+										<option value="boso" th:selected="${#strings.equals('boso', params.sourcing)}">long term</option>
+										<option value="sobo" th:selected="${#strings.equals('sobo', params.sourcing)}">short term, individual orders</option>
+										<option value="sobodump" th:selected="${#strings.equals('sobodump', params.sourcing)}">short term, en masse</option>
 								</select></td>
 								<td><input class="form-control" type="text" name="margin"
-									th:value="${margin}" /></td>
+									th:value="${params.margin}" /></td>
 								<td><input class="form-control" type="text"
-									name="marginhour" th:value="${marginhour}" /></td>
+									name="marginhour" th:value="${params.marginhour}" /></td>
 								<td><input class="form-control" type="text" name="taxpct"
-									th:value="${taxpct}" /></td>
+									th:value="${params.taxpct}" /></td>
 								<td><input class="form-control" type="text" name="brpct"
-									th:value="${brpct}" /></td>
+									th:value="${params.brpct}" /></td>
 								<td><input class="form-control" type="text" name="bpcost"
-									th:value="${bpcost}" /></td>
+									th:value="${params.bpcost}" /></td>
 							</tr>
 						</tbody>
 					</table>
