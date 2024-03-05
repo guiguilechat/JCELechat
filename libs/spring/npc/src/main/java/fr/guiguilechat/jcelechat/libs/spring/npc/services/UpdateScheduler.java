@@ -45,9 +45,10 @@ public class UpdateScheduler {
 			for (String cacheName : LPStoreCorporationService.CORPORATIONS_CACHES) {
 				cacheManager.getCache(cacheName).clear();
 			}
-			log.info(" updated corporations to " + lpStoreCorporationService.listActive(true).size() + " active, "
-					+ lpStoreCorporationService.listActive(false).size() + " inactive in "
-					+ (int) Math.ceil(0.001 * (endMs - startMs)) + "s");
+			long cacheEndMs = System.currentTimeMillis();
+			log.info(" updated corporations to " + ret.getOK().length + " active in"
+					+ " change=" + (int) Math.ceil(0.001 * (endMs - startMs)) + "s"
+					+ " cachevict=" + (int) Math.ceil(0.001 * (cacheEndMs - endMs)));
 		} else if (ret.getResponseCode() == 304) {
 //
 		} else {
@@ -69,12 +70,12 @@ public class UpdateScheduler {
 		if (fetches == null || fetches.isEmpty()) {
 			return;
 		}
-		log.info("updating the orders of " + fetches.size() + " corporations");
+		log.info("updating the offers of " + fetches.size() + " corporations");
 		long listMs = System.currentTimeMillis();
 		Map<LPStoreCorporation, CompletableFuture<Void>> futures = fetches.stream()
 				.collect(
 						Collectors.toMap(hr -> hr,
-								hr -> corporationOfferUpdateService.updateOffers(hr).orTimeout(30, TimeUnit.SECONDS)));
+								lpcorp -> corporationOfferUpdateService.updateOffers(lpcorp).orTimeout(30, TimeUnit.SECONDS)));
 		futures.entrySet().forEach(f -> {
 			try {
 				f.getValue().join();
@@ -84,7 +85,7 @@ public class UpdateScheduler {
 			}
 		});
 		long endMs = System.currentTimeMillis();
-		log.info(" updated orders of " + fetches.size() + " corporations"
+		log.info(" updated offers of " + fetches.size() + " corporations"
 				+ " list=" + (listMs - startMs) + "ms"
 				+ " update=" + (endMs - listMs) + "ms");
 	}

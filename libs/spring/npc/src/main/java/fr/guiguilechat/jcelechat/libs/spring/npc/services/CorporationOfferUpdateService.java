@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.npc.services;
 
 import java.time.Instant;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;
@@ -36,6 +37,9 @@ public class CorporationOfferUpdateService {
 	private LPStoreCorporationService lpStoreCorporationService;
 
 	@Autowired
+	private OfferRequirementService offerRequirementService;
+
+	@Autowired
 	private TypeService typeService;
 
 	@Async
@@ -49,11 +53,15 @@ public class CorporationOfferUpdateService {
 		Requested<R_get_loyalty_stores_corporation_id_offers[]> offers = ESIStatic.INSTANCE
 				.get_loyalty_stores_offers(lsc.getCorporationId(), properties);
 		if (offers.isOk()) {
+			log.debug("  fetched " + offers.getOK().length + " lp offers for corporation " + lsc.getCorporationId());
+			offerRequirementService.clearForCorporation(lsc);
 			corporationOfferService.clearFor(lsc);
 			if (offers.getOK() != null && offers.getOK().length > 0) {
-				corporationOfferService.saveAll(Stream.of(offers.getOK())
+				List<CorporationOffer> created = corporationOfferService.saveAll(Stream.of(offers.getOK())
 						.map(offer -> convert(lsc, offer))
 						.toList());
+
+				log.debug("  created " + created.size() + " lp offers for corporation " + lsc.getCorporationId());
 			}
 			lsc.setLastEtag(offers.getETag());
 			lsc.setLastError(null);

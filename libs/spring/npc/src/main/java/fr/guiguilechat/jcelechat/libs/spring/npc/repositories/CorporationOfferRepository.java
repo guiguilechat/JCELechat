@@ -11,6 +11,8 @@ public interface CorporationOfferRepository extends JpaRepository<CorporationOff
 
 	public void deleteByCorporation(LPStoreCorporation lsc);
 
+	public List<CorporationOffer> findAllByCorporation(LPStoreCorporation lsc);
+
 	public List<CorporationOffer> findAllByCorporationCorporationIdAndOfferId(int corporationId, int offerId);
 
 	public List<CorporationOffer> findAllByCorporationCorporationId(int corporationId);

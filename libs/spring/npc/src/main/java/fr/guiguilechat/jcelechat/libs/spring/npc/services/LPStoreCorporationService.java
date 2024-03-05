@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
@@ -93,27 +94,36 @@ public class LPStoreCorporationService {
 
 	@Transactional
 	public Requested<Integer[]> fetchCorporations() {
+		long startMs = System.currentTimeMillis();
 		Map<String, String> properties = new HashMap<>();
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
 		Requested<Integer[]> rids = ESIStatic.INSTANCE.get_corporations_npccorps(properties);
+		long fetchMs = System.currentTimeMillis();
 		if (rids.isOk()) {
 			Set<Integer> ids = Set.of(rids.getOK());
 			List<LPStoreCorporation> disable = repo.findByCorporationIdNotInAndDisabled(ids, false);
+			long listDisableMs = System.currentTimeMillis();
 			for (LPStoreCorporation c : disable) {
 				inactive(c.getCorporationId());
 			}
-			for (Integer i : ids) {
-				activate(i);
-			}
+			long disableMs = System.currentTimeMillis();
+			Map<Integer, CompletableFuture<LPStoreCorporation>> futures = ids.parallelStream()
+					.collect(Collectors.toMap(i -> i, this::activate));
+			futures.values().forEach(CompletableFuture::join);
+			long activateMs = System.currentTimeMillis();
+			log.info("updated corporations in fetch=" + (fetchMs - startMs) + "ms "
+					+ "listdisable=" + (listDisableMs - fetchMs) + "ms "
+					+ "disable=" + (disableMs - listDisableMs) + "ms "
+					+ "activate=" + (activateMs - disableMs) + "ms ");
 			lastEtag = rids.getETag();
 		}
 		return rids;
 	}
 
 	public List<LPStoreCorporation> nextFetch() {
-		return repo.findAllByDisabledAndNextFetchLessThan(false, Instant.now());
+		return repo.findAllByDisabledFalseAndNextFetchLessThan(Instant.now());
 	}
 
 	public LPStoreCorporation prevCorp(LPStoreCorporation corp) {

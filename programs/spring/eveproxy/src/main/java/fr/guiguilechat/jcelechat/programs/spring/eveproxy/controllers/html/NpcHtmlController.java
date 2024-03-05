@@ -53,7 +53,7 @@ public class NpcHtmlController {
 		List<CorporationOffer> offers = corporationOfferService.forCorporationOffer(corporationId, offerId);
 		if (offers.size() != 1) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND,
-					"no offer for corporation " + corporationId + " and offer id " + offerId);
+					"found " + offers.size() + " offer for corporation " + corporationId + " and offer id " + offerId);
 		}
 		CorporationOffer offer = offers.get(0);
 		model.addAttribute("offer", offer);
@@ -72,7 +72,8 @@ public class NpcHtmlController {
 	public static record LinkedOffer(String url, OfferEval eval, LinkedType finalProduct) {
 
 		public String name() {
-			return "[" + eval.offer().getOfferId() + "] " + eval.offer().getQuantity() + "×" + eval.product().getName();
+			return "[" + eval.offer().getOfferId() + ";" + eval.offer().getCorporation().getName() + "] "
+					+ (eval.offer().getQuantity() > 1 ? eval.offer().getQuantity() + "×" : "") + eval.product().getName();
 		}
 	}
 
@@ -85,14 +86,14 @@ public class NpcHtmlController {
 	@ToString
 	public static class EvalParams {
 
-		private Double bpcost = 1000000.0;
-		private Double brpct = 2.0;
-		private Long location = RegionLineService.JITAIV_ID;
-		private Integer lp = 100000;
-		private Double margin = 5.0;
-		private Double marginhour = 0.5;
+		private double bpcost = 1000000.0;
+		private double brpct = 2.0;
+		private long location = RegionLineService.JITAIV_ID;
+		private int lp = 100000;
+		private double margin = 5.0;
+		private double marginhour = 0.5;
 		private SourceType sourcing = SourceType.sobo;
-		private Double taxpct = 3.6;
+		private double taxpct = 3.6;
 
 	}
 

@@ -24,7 +24,7 @@ public class CorporationOfferService {
 	}
 
 	public void clearFor(LPStoreCorporation lsc) {
-		repo.deleteByCorporation(lsc);
+		repo.deleteAllInBatch(repo.findAllByCorporation(lsc));
 	}
 
 	public List<CorporationOffer> forCorporationOffer(int corporationId, int offerId) {

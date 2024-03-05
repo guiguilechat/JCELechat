@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.npc.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.OfferRequirement;
 import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.OfferRequirementRepository;
 
@@ -14,6 +15,10 @@ public class OfferRequirementService {
 
 	public OfferRequirement save(OfferRequirement entity) {
 		return repo.save(entity);
+	}
+
+	public void clearForCorporation(LPStoreCorporation lsc) {
+		repo.deleteAllInBatch(repo.findAllByOfferCorporation(lsc));
 	}
 
 }
