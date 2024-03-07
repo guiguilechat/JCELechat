@@ -19,6 +19,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.prices.services.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
@@ -35,6 +36,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 
 @Controller
@@ -43,6 +45,9 @@ public class DogmaHtmlController {
 
 	@Autowired
 	private CategoryService categoryService;
+
+	@Autowired
+	private CorporationOfferService corporationOfferService;
 
 	@Autowired
 	private EivService eivService;
@@ -201,6 +206,12 @@ public class DogmaHtmlController {
 					.sorted(Comparator.comparing(u -> u.type().getName()))
 					.toList();
 			model.addAttribute("productOf", productOf);
+			List<LinkedOffer> offers =
+					corporationOfferService.producing(t).stream()
+							.map(npcHtmlController::linkedOffer)
+							.sorted(Comparator.comparing(lo -> lo.offer().name()))
+							.toList();
+			model.addAttribute("offers", offers);
 			model.addAttribute("manufacturingUses",
 					materialService.findUsages(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
 							.map(this::linkedUsage)

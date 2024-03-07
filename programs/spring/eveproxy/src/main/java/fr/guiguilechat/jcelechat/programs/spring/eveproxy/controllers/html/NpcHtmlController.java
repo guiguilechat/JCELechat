@@ -57,9 +57,11 @@ public class NpcHtmlController {
 		}
 		CorporationOffer offer = offers.get(0);
 		model.addAttribute("offer", offer);
-		model.addAttribute("offerName", "" + offer.getType().getName());
 		model.addAttribute("offerMats", offer.getRequirements().stream()
-				.map(mat -> dogmaHtmlController.linkedMaterial(mat.getType(), mat.getQuantity())));
+				.map(mat -> dogmaHtmlController.linkedMaterial(mat.getType(), mat.getQuantity()))
+				.toList());
+		model.addAttribute("corporation", linkedCorporationInfo(offer.getCorporation()));
+		model.addAttribute("product", dogmaHtmlController.linkedType(offer.getType()));
 		return "npc/offer";
 	}
 
@@ -69,16 +71,24 @@ public class NpcHtmlController {
 				.toUri();
 	}
 
-	public static record LinkedOffer(String url, OfferEval eval, LinkedType finalProduct) {
+	public static record LinkedOffer(String url, CorporationOffer offer) {
+
+	}
+
+	public LinkedOffer linkedOffer(CorporationOffer offer) {
+		return new LinkedOffer(uri(offer).toString(), offer);
+	}
+
+	public static record LinkedOfferEval(String url, OfferEval eval, LinkedType finalProduct) {
 
 		public String name() {
-			return "[" + eval.offer().getOfferId() + ";" + eval.offer().getCorporation().getName() + "] "
+			return "[" + eval.offer().getCorporation().getName() + "] "
 					+ (eval.offer().getQuantity() > 1 ? eval.offer().getQuantity() + "×" : "") + eval.product().getName();
 		}
 	}
 
-	LinkedOffer linkedOffer(OfferEval eval) {
-		return new LinkedOffer(uri(eval.offer()).toString(), eval, dogmaHtmlController.linkedType(eval.finalProduct()));
+	public LinkedOfferEval linkedOfferEval(OfferEval eval) {
+		return new LinkedOfferEval(uri(eval.offer()).toString(), eval, dogmaHtmlController.linkedType(eval.finalProduct()));
 	}
 
 	@Getter
@@ -125,7 +135,7 @@ public class NpcHtmlController {
 						params.getTaxpct(), params.getMarginhour(), params.getMargin(), params.getBpcost(), params.getLocation())
 						.stream()
 						.sorted(Comparator.comparing(OfferEval::iskplp).reversed())
-						.map(this::linkedOffer)
+						.map(this::linkedOfferEval)
 						.toList());
 
 		model.addAttribute("params", params);
@@ -143,21 +153,21 @@ public class NpcHtmlController {
 				.toUri();
 	}
 
-	public static record CorporationInfo(String url, String name, int nbOffers) {
+	public static record LinkedCorporationInfo(String url, String name, int nbOffers) {
 
 	}
 
-	CorporationInfo corporationInfo(LPStoreCorporation corp) {
-		return new CorporationInfo(uri(corp).toString(), corp.nameOrId(), corp.getOffers().size());
+	public LinkedCorporationInfo linkedCorporationInfo(LPStoreCorporation corp) {
+		return new LinkedCorporationInfo(uri(corp).toString(), corp.nameOrId(), corp.getOffers().size());
 	}
 
 	@GetMapping("/corporations")
 	public String corporationsIndex(Model model) {
 		model.addAttribute("corporations",
 				lpStoreCorporationService.listActive(true).stream()
-						.map(this::corporationInfo)
+						.map(this::linkedCorporationInfo)
 						.filter(ci -> ci.nbOffers() > 0)
-						.sorted(Comparator.comparing(CorporationInfo::name))
+						.sorted(Comparator.comparing(LinkedCorporationInfo::name))
 						.toList());
 		return "npc/corporations";
 	}

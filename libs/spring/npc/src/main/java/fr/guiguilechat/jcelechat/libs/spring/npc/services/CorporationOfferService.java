@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.CorporationOfferRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 
 @Service
 public class CorporationOfferService {
@@ -37,6 +38,10 @@ public class CorporationOfferService {
 
 	public List<CorporationOffer> byCorporationIdRequiringLp(int corporationId) {
 		return repo.findAllByCorporationCorporationIdAndLpCostGreaterThan(corporationId, 0);
+	}
+
+	public List<CorporationOffer> producing(Type type) {
+		return repo.findAllByType(type);
 	}
 
 }

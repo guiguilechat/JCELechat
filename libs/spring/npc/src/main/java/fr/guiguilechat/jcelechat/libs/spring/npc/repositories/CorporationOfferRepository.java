@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 
 public interface CorporationOfferRepository extends JpaRepository<CorporationOffer, Long> {
 
@@ -18,5 +19,7 @@ public interface CorporationOfferRepository extends JpaRepository<CorporationOff
 	public List<CorporationOffer> findAllByCorporationCorporationId(int corporationId);
 
 	public List<CorporationOffer> findAllByCorporationCorporationIdAndLpCostGreaterThan(int corporationId, int minLPCost);
+
+	public List<CorporationOffer> findAllByType(Type type);
 
 }

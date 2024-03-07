@@ -4,8 +4,8 @@
 <title th:text="${name}" />
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
-<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}" ></script>
-<script th:src="@{/webjars/jquery/jquery.min.js}" ></script>
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 </head>
 <body>
 	<div class="container-fluid border">
@@ -16,9 +16,9 @@
 			</div>
 			<div class="col-6">
 				category : <a th:if="${category != null}" th:href="${catUrl}"
-					th:text="${category.name}" /><br />
-				group : <a th:if="${group != null}"
-					th:href="${groupUrl}" th:text="${group.name}" /><br />
+					th:text="${category.name}" /><br /> group : <a
+					th:if="${group != null}" th:href="${groupUrl}"
+					th:text="${group.name}" /><br />
 				<h1 th:text="${name}" />
 			</div>
 			<div class="col">
@@ -30,15 +30,33 @@
 			<h2>Informations</h2>
 			<div class="col">
 				<h3>Prices</h3>
-				
+
 				<table>
 					<tbody>
-						<tr th:if="${jitaso!=null}"><td>Jita SO</td><td><span th:text="${jitaso}"></span></td></tr>
-						<tr th:if="${jitabo!=null}"><td>Jita BO</td><td><span th:text="${jitabo}"></span></td></tr>
-						<tr th:if="${average!=null}"><td>average</td><td><span th:text="${average}"></span></td></tr>
-						<tr th:if="${adjusted!=null}"><td>adjusted</td><td><span th:text="${adjusted}"></span></td></tr>
-						<tr th:if="${eiv!=null}"><td>eiv</td><td><span th:text="${eiv}"></span></td></tr>
-						<tr th:if="${bpeiv!=null}"><td>blueprint eiv</td><td><span th:text="${bpeiv}"></span></td></tr>
+						<tr th:if="${jitaso!=null}">
+							<td>Jita SO</td>
+							<td><span th:text="${jitaso}"></span></td>
+						</tr>
+						<tr th:if="${jitabo!=null}">
+							<td>Jita BO</td>
+							<td><span th:text="${jitabo}"></span></td>
+						</tr>
+						<tr th:if="${average!=null}">
+							<td>average</td>
+							<td><span th:text="${average}"></span></td>
+						</tr>
+						<tr th:if="${adjusted!=null}">
+							<td>adjusted</td>
+							<td><span th:text="${adjusted}"></span></td>
+						</tr>
+						<tr th:if="${eiv!=null}">
+							<td>eiv</td>
+							<td><span th:text="${eiv}"></span></td>
+						</tr>
+						<tr th:if="${bpeiv!=null}">
+							<td>blueprint eiv</td>
+							<td><span th:text="${bpeiv}"></span></td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
@@ -134,7 +152,9 @@
 		</div>
 
 		<div class="row border"
-			th:if="${seeded !=null && !seeded.isEmpty() || productOf !=null && !productOf.isEmpty()}">
+			th:if="${seeded !=null && !seeded.isEmpty()
+						|| productOf !=null && !productOf.isEmpty()
+						|| offers !=null && !offers.isEmpty()}">
 			<h2>Source</h2>
 			<div class="col" th:if="${seeded !=null && !seeded.isEmpty()}">
 				<h3>NPC seed</h3>
@@ -182,6 +202,23 @@
 							<td><span th:text="${product.quantity}"> quantity </span></td>
 							<th><span th:text="${product.probability}">
 									probability </span></th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col" th:if="${offers !=null && !offers.isEmpty()}">
+				<h3>Loyalty</h3>
+
+				<table>
+					<thead>
+						<tr>
+							<th>offer</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="offer : ${offers}">
+							<td><a th:href="${offer.url}" th:text="${offer.offer.name}" /></td>
 						</tr>
 					</tbody>
 				</table>

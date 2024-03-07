@@ -66,4 +66,9 @@ public class CorporationOffer {
 				.build();
 	}
 
+	public String name() {
+		return "[" + getCorporation().getName() + "] "
+				+ (getQuantity() > 1 ? getQuantity() + "×" : "") + type.getName();
+	}
+
 }

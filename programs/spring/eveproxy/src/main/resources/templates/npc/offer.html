@@ -1,7 +1,7 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title th:text="${offerName}" />
+<title th:text="${offer.type.name}" />
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
 <script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}" ></script>
@@ -14,7 +14,7 @@
 <!-- 				<a  th:if="${prvCat != null}" th:href="${prvCatUrl}" th:text="${prvCat.name}"/> -->
 <!-- 			</div> -->
 			<div class="col-6">
-				<h1 th:text="${offerName}" />
+				<h1 th:text="${offer.type.name}" />
 			</div>
 <!-- 			<div class="col"> -->
 <!-- 				<a th:if="${nxtCat != null}" th:href="${nxtCatUrl}" th:text="${nxtCat.name}" /> -->
@@ -23,6 +23,19 @@
 
 		<div class="row">
 			<div class="col">
+				<h3>Info</h3>
+				corporation : <a th:href="${corporation.url}" th:text="${corporation.name}" /><br />
+				product : <span th:text="${offer.quantity}"/>×<a th:href="${product.url}" th:text="${product.type.name}" />
+			</div>
+			
+			<div class="col">
+				<h3>Requirement</h3>
+				isk : <span th:text="${offer.iskCost}"/><br />
+				lp : <span th:text="${offer.lpCost}"/><br />
+				ak : <span th:text="${offer.akCost}"/><br />
+			</div>
+		
+			<div class="col" th:if="${offerMats!=null && !offerMats.isEmpty()}">
 				<h3>Materials</h3>
 				<table>
 					<thead>
