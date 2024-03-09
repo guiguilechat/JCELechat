@@ -42,6 +42,12 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeAttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.SchemMaterial;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.SchemProduct;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.Schematic;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchemMaterialService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchemProductService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchematicService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Constellation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
@@ -63,6 +69,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Act
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EplanetSchematics;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Moon;
@@ -76,13 +83,13 @@ import lombok.extern.slf4j.Slf4j;
 public class SDEUpdateService {
 
 	@Autowired
+	private CacheManager cacheManager;
+
+	@Autowired
 	private AttributeService attributeService;
 
 	@Autowired
 	private BlueprintActivityService blueprintActivityService;
-
-	@Autowired
-	private CacheManager cacheManager;
 
 	@Autowired
 	private CategoryService categoryService;
@@ -101,6 +108,15 @@ public class SDEUpdateService {
 
 	@Autowired
 	private RegionService regionService;
+
+	@Autowired
+	private SchematicService schematicService;
+
+	@Autowired
+	private SchemMaterialService schemMaterialService;
+
+	@Autowired
+	private SchemProductService schemProductService;
 
 	@Autowired
 	private SkillReqService skillService;
@@ -195,18 +211,19 @@ public class SDEUpdateService {
 	}
 
 	static class UpdateContext {
-		public final List<Category> categories = new ArrayList<>();
-		public final List<Eblueprints> blueprints = new ArrayList<>();
-		public final List<GroupData> groups = new ArrayList<>();
 		public final List<Attribute> attributes = new ArrayList<>();
-		public final List<TypeAttributeData> typeAttributes = new ArrayList<>();
-		public final List<TypeData> types = new ArrayList<>();
-		public final List<RegionData> regions = new ArrayList<>();
+		public final List<Eblueprints> blueprints = new ArrayList<>();
+		public final List<Category> categories = new ArrayList<>();
 		public final List<ConstelData> constels = new ArrayList<>();
-		public final List<SolarSystemData> systems = new ArrayList<>();
+		public final Map<Integer, String> invNames = new HashMap<>();
+		public final List<GroupData> groups = new ArrayList<>();
+		public final Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>();
+		public final List<RegionData> regions = new ArrayList<>();
 		public final List<StargateData> stargates = new ArrayList<>();
 		public final List<StationData> stations = new ArrayList<>();
-		public final Map<Integer, String> invNames = new HashMap<>();
+		public final List<SolarSystemData> systems = new ArrayList<>();
+		public final List<TypeAttributeData> typeAttributes = new ArrayList<>();
+		public final List<TypeData> types = new ArrayList<>();
 	}
 
 	/**
@@ -252,6 +269,9 @@ public class SDEUpdateService {
 		constellationService.clear();
 		regionService.clear();
 
+		schemProductService.clear();
+		schemMaterialService.clear();
+		schematicService.clear();
 		materialService.clear();
 		productService.clear();
 		skillService.clear();
@@ -357,10 +377,49 @@ public class SDEUpdateService {
 			addActivityData(researchTimeByBpId.get(ebp.blueprintTypeID), ebp.activities.research_time, typesById,
 					newMaterials, newProducts, newSkills);
 		}
-
 		materialService.saveAll(newMaterials);
 		productService.saveAll(newProducts);
 		skillService.saveAll(newSkills);
+
+		schematicService
+				.saveAll(context.planetSchematics.entrySet().stream().map(e -> {
+					Schematic ret = Schematic.of(e.getValue(), e.getKey());
+					ret.setMaterials(e.getValue().types.entrySet().stream()
+							.filter(entry -> entry.getValue().isInput)
+							.map(entry -> SchemMaterial.builder()
+									.schematic(ret)
+									.quantity(entry.getValue().quantity)
+									.type(typesById.get(entry.getKey()))
+									.build())
+							.toList());
+					ret.setProducts(e.getValue().types.entrySet().stream()
+							.filter(entry -> entry.getValue().isInput)
+							.map(entry -> SchemProduct.builder()
+									.schematic(ret)
+									.quantity(entry.getValue().quantity)
+									.type(typesById.get(entry.getKey()))
+									.build())
+							.toList());
+					return ret;
+				}).toList());
+// schemMaterialService.saveAll(context.planetSchematics.values().stream()
+// .flatMap(sc -> sc.types.entrySet().stream()
+// .filter(entry -> entry.getValue().isInput)
+// .map(entry -> SchemMaterial.builder()
+// .schematic(schemsByName.get(sc.enName()))
+// .quantity(entry.getValue().quantity)
+// .type(typesById.get(entry.getKey()))
+// .build()))
+// .toList());
+// schemProductService.saveAll(context.planetSchematics.values().stream()
+// .flatMap(sc -> sc.types.entrySet().stream()
+// .filter(entry -> entry.getValue().isInput)
+// .map(entry -> SchemProduct.builder()
+// .schematic(schemsByName.get(sc.enName()))
+// .quantity(entry.getValue().quantity)
+// .type(typesById.get(entry.getKey()))
+// .build()))
+// .toList());
 
 		// universe
 
@@ -455,6 +514,9 @@ public class SDEUpdateService {
 	static final Pattern ENTRYNAME_INVNAMES_PATTERN = Pattern.compile(
 			"sde/bsd/invNames\\.yaml");
 
+	static final Pattern ENTRYNAME_PLANETSCHEMATICS_PATTERN = Pattern.compile(
+			"sde/fsd/planetSchematics\\.yaml");
+
 	private void applyZipEntry(UpdateContext context, ZipFile zipFile, ZipEntry zipentry) throws IOException {
 		String name = zipentry.getName();
 		InputStream is = zipFile.getInputStream(zipentry);
@@ -504,7 +566,15 @@ public class SDEUpdateService {
 			applyInvNames(context, is);
 			return;
 		}
+		if (ENTRYNAME_PLANETSCHEMATICS_PATTERN.matcher(name).matches()) {
+			applySchematics(context, is);
+			return;
+		}
 		// log.info("ignore entry " + name);
+	}
+
+	private void applySchematics(UpdateContext context, InputStream is) {
+		context.planetSchematics.putAll(EplanetSchematics.from(is));
 	}
 
 	private void applyInvNames(UpdateContext context, InputStream is) {
