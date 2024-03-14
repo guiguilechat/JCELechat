@@ -5,7 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.SchemProduct;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.Schematic;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.repositories.SchemProductRepository;
 
 @Service
@@ -24,6 +26,10 @@ public class SchemProductService {
 
 	public List<SchemProduct> saveAll(Iterable<SchemProduct> entities) {
 		return repo.saveAll(entities);
+	}
+
+	public List<Schematic> producers(List<Type> products) {
+		return repo.findSchematicByTypeIn(products);
 	}
 
 }

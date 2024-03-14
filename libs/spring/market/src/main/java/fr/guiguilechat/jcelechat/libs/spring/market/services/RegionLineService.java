@@ -138,7 +138,7 @@ public class RegionLineService {
 	}
 
 	//
-	// price
+	// prices
 	//
 
 	/**
@@ -182,6 +182,8 @@ public class RegionLineService {
 	public Double soValueLocation(long locationId, int typeId, long quantity, boolean dump) {
 		return price(forLocation(locationId, typeId, false), quantity, !dump, true);
 	}
+
+	
 
 	//
 	// places to buy/sell

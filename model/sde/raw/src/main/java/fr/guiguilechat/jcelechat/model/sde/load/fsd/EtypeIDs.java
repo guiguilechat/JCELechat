@@ -121,11 +121,8 @@ public class EtypeIDs {
 	public String sofFactionName;
 	public int sofMaterialSetID;
 	public int soundID;
-	public int variationParentTypeID;
-
-
 	public Etraits traits;
-
+	public int variationParentTypeID;
 	public float volume;
 
 	public String enName() {

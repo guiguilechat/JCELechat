@@ -16,6 +16,7 @@ import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.SourceType;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationOfferService;
@@ -23,7 +24,6 @@ import fr.guiguilechat.jcelechat.libs.spring.npc.services.LPStoreCorporationServ
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferValueService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferValueService.OfferEval;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferValueService.SourceType;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
