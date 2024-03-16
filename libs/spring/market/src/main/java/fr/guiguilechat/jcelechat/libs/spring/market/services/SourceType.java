@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.market.services;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 
@@ -21,7 +21,7 @@ public enum SourceType {
 		@Override
 		public double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
 				List<RegionLine> sos) {
-			return (bos == null || bos.isEmpty() ? 0.01 : bos.get(0).getOrder().price) * (100 + brokerPct) / 100;
+			return (bos == null || bos.isEmpty() ? 0.01 : bos.get(0).getOrder().price) * quantity * (100 + brokerPct) / 100;
 		}
 
 		@Override
@@ -105,21 +105,32 @@ public enum SourceType {
 
 	};
 
-	/** actual gain when selling the product */
-	public double productIncome(double productUnitPrice, long quantity, double taxPct, double brkPct) {
-		return productUnitPrice * quantity * (100 - taxPct) / 100;
-	}
+	public abstract double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
+			List<RegionLine> sos);
 
-	public double materialCost(HashMap<Integer, Long> requiredMats, double brokerPct,
+	public double materialCost(Map<Integer, Long> requiredMats, double brokerPct,
 			Map<Integer, List<RegionLine>> bos, Map<Integer, List<RegionLine>> sos) {
 		return requiredMats.entrySet().stream()
 				.mapToDouble(k -> materialCost(k.getKey(), k.getValue(), brokerPct, bos.get(k.getKey()), sos.get(k.getKey())))
 				.sum();
 	}
 
-	public abstract double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
-			List<RegionLine> sos);
-
 	public abstract double productUnitPrice(int typeId, long productQuantity, List<RegionLine> bos,
 			List<RegionLine> sos);
+
+	/** actual gain when selling the product. default is without broker */
+	public double productIncome(double productUnitPrice, long quantity, double taxPct, double brkPct) {
+		return productUnitPrice * quantity * (100 - taxPct) / 100;
+	}
+
+	public double productIncome(Map<Integer, Long> products, double taxpct, double brokerPct,
+			Map<Integer, List<RegionLine>> bos, Map<Integer, List<RegionLine>> sos) {
+		double sum = 0.0;
+		for (Entry<Integer, Long> e : products.entrySet()) {
+			int typeId = e.getKey();
+			double up = productUnitPrice(typeId, e.getValue(), bos.get(typeId), sos.get(typeId));
+			sum += productIncome(up, e.getValue(), taxpct, brokerPct);
+		}
+		return sum;
+	}
 }

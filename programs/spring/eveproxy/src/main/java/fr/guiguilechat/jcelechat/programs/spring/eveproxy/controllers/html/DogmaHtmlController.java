@@ -115,14 +115,14 @@ public class DogmaHtmlController {
 	public static record LinkedMaterial(String url, Type type, int quantity) {
 	}
 
-	LinkedMaterial linkedMaterial(Material material) {
+	public LinkedMaterial linkedMaterial(Material material) {
 		return new LinkedMaterial(
 				uri(material.getType()).toString(),
 				material.getType(),
 				material.getQuantity());
 	}
 
-	LinkedMaterial linkedMaterial(Type type, int quantity) {
+	public LinkedMaterial linkedMaterial(Type type, int quantity) {
 		return new LinkedMaterial(
 				uri(type).toString(),
 				type,

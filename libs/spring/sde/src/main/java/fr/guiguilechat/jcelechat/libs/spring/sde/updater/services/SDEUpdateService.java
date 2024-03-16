@@ -393,7 +393,7 @@ public class SDEUpdateService {
 									.build())
 							.toList());
 					ret.setProducts(e.getValue().types.entrySet().stream()
-							.filter(entry -> entry.getValue().isInput)
+							.filter(entry -> !entry.getValue().isInput)
 							.map(entry -> SchemProduct.builder()
 									.schematic(ret)
 									.quantity(entry.getValue().quantity)
@@ -402,24 +402,6 @@ public class SDEUpdateService {
 							.toList());
 					return ret;
 				}).toList());
-// schemMaterialService.saveAll(context.planetSchematics.values().stream()
-// .flatMap(sc -> sc.types.entrySet().stream()
-// .filter(entry -> entry.getValue().isInput)
-// .map(entry -> SchemMaterial.builder()
-// .schematic(schemsByName.get(sc.enName()))
-// .quantity(entry.getValue().quantity)
-// .type(typesById.get(entry.getKey()))
-// .build()))
-// .toList());
-// schemProductService.saveAll(context.planetSchematics.values().stream()
-// .flatMap(sc -> sc.types.entrySet().stream()
-// .filter(entry -> entry.getValue().isInput)
-// .map(entry -> SchemProduct.builder()
-// .schematic(schemsByName.get(sc.enName()))
-// .quantity(entry.getValue().quantity)
-// .type(typesById.get(entry.getKey()))
-// .build()))
-// .toList());
 
 		// universe
 

@@ -41,7 +41,7 @@ public class PlanetaryTaxService {
 	}
 
 	public double concordTaxMult(boolean hs, int customCodeExpertise) {
-		return hs ? 0.0 : 0.1 - 0.05 * customCodeExpertise;
+		return hs ? 0.1 - 0.01 * customCodeExpertise : 0.0;
 	}
 
 }

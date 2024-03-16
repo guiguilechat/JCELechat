@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.guiguilechat.jcelechat.programs.notiftoons.settings.NotifToonsSettings;
-import fr.guiguilechat.tools.JFXTools;
+import fr.guiguilechat.tools.FormatTools;
 import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
 import fr.lelouet.tools.holders.interfaces.collections.CollectionHolder;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
@@ -202,7 +202,7 @@ public class ActivityPane extends TableView<ActivityData> {
 			R_get_universe_types_type_id t = ESIStatic.INSTANCE.cache().universe.types(order.type_id).get();
 			ActivityData ret = new ActivityData(expiry, ActivityData.TYPE.Mk,
 					(t == null ? "unknown_" + order.type_id : t.name)
-					+ " *" + order.volume_remain + " " + JFXTools.formatPrice(order.price),
+							+ " *" + order.volume_remain + " " + FormatTools.formatPrice(order.price),
 					access.universe.locationName(order.location_id)
 					, access.name(), 0, 0, order);
 			return ret;

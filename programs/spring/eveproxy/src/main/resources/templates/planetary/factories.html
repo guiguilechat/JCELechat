@@ -1,0 +1,124 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>Planetary factories</title>
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+	<h1>Planetary factories</h1>
+	<div class="container-fluid border">
+		<div class="row">
+			<div class="col">
+				<h3>Options</h3>
+				<form method="get" th:action="@{${action}}">
+					<table>
+						<thead>
+							<tr>
+								<th>number of planets</th>
+								<th>job duration, hour</th>
+								<th>market location id</th>
+								<th>sourcing</th>
+								<th>tax, % of sale price</th>
+								<th>broker fee, % of price</th>
+								<th>HS</th>
+								<th>custom code, level</th>
+								<th>custom tax, % of freight value</th>
+								<th>margin cost, % of sale price</th>
+								<th>volumic price, isk/m³</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input class="form-control" type="number" min="1"
+									name="nbPlanets" th:value="${params.nbPlanets}" /></td>
+								<td><input class="form-control" type="number" min="1"
+									name="hours" th:value="${params.hours}" /></td>
+								<td><input class="form-control" type="number"
+									name="location" th:value="${params.location}" /></td>
+								<td><select name="sourcing">
+										<option value="boso"
+											th:selected="${#strings.equals('boso', params.sourcing)}">long
+											term</option>
+										<option value="sobo"
+											th:selected="${#strings.equals('sobo', params.sourcing)}">short
+											term, individual orders</option>
+										<option value="sobodump"
+											th:selected="${#strings.equals('sobodump', params.sourcing)}">short
+											term, en masse</option>
+								</select></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="taxpct" th:value="${params.taxpct}" /></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="brpct" th:value="${params.brpct}" /></td>
+								<td><input type="checkbox" name="hs" id="hs"
+									th:checked="${params.hs}" /></td>
+								<td><input class="form-control" type="number" min="0"
+									max="5" name="customCodeExpertise"
+									th:value="${params.customCodeExpertise}" /></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="customTaxPct" th:value="${params.customTaxPct}" /></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="margin" th:value="${params.margin}" /></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="volumicPrice" th:value="${params.volumicPrice}" /></td>
+							</tr>
+						</tbody>
+					</table>
+					</
+					<p>
+						<input type="submit" value="Submit" /> <input type="reset"
+							value="Reset" />
+					</p>
+				</form>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<h3>Factories values</h3>
+				<table class="table table-striped table-hover">
+					<thead class="thead-light">
+						<tr>
+							<th>blueprint</th>
+							<th>total gain</th>
+							<th>output</th>
+							<th>total sale</th>
+							<th>total cost</th>
+							<th>input</th>
+							<th>material cost</th>
+							<th>custom tax</th>
+							<th>volumic cost</th>
+							<th>margin cost</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="eval : ${evals}">
+							<td><span th:text="${eval.factory.name}" /></td>
+							<td><span th:text="${eval.formatedTotalGain}" /></td>
+							<td><ul>
+									<li th:each="prod : ${eval.linkedProd}"><span
+										th:text="${prod.quantity}" />×<a th:href="${prod.url}"
+											th:text="${prod.type.name}" /></li>
+								</ul></td>
+							<td><span th:text="${eval.formatedTotalSale}" /></td>
+							<td><span th:text="${eval.formatedTotalCost}" /></td>
+							<td><ul>
+									<li th:each="consume : ${eval.linkedMats}"><span
+										th:text="${consume.quantity}" />×<a th:href="${consume.url}"
+										th:text="${consume.type.name}" /></li>
+								</ul></td>
+							<td><span th:text="${eval.formatedMaterialCost}" /></td>
+							<td><span th:text="${eval.formatedCustomTax}" /></td>
+							<td><span th:text="${eval.formatedVolCost}" /></td>
+							<td><span th:text="${eval.formatedMarginCost}" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

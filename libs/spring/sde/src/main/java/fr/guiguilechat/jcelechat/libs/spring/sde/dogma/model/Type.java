@@ -15,6 +15,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
 
 @SuppressWarnings("serial")
 @Entity(name = "SdeDogmaType")
@@ -33,6 +34,7 @@ public class Type implements Serializable {
 	@ManyToOne
 	private Group group;
 
+	@ToString.Exclude
 	@OneToMany(mappedBy = "type", cascade = { CascadeType.ALL })
 	private List<TypeAttribute> attributes;
 
@@ -75,6 +77,7 @@ public class Type implements Serializable {
 				.sofMaterialSetId(data.sofMaterialSetID)
 				.soundID(data.soundID)
 				.variationParentTypeId(data.variationParentTypeID)
+				.volume(data.volume)
 				.build();
 	}
 

@@ -21,6 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.Material;
 import fr.guiguilechat.jcelechat.model.sde.types.material.IceProduct;
 import fr.guiguilechat.jcelechat.model.sde.types.material.Mineral;
 import fr.guiguilechat.jcelechat.model.sde.types.material.MoonMaterials;
+import fr.guiguilechat.tools.FormatTools;
 import fr.guiguilechat.tools.JFXTools;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
@@ -335,7 +336,7 @@ public class MoonWorthController {
 		HoveredThresholdNode(String seriesName, double value) {
 			setPrefSize(10, 10);
 
-			final Label label = new Label(seriesName + " " + JFXTools.formatPrice(value));
+			final Label label = new Label(seriesName + " " + FormatTools.formatPrice(value));
 			label.getStyleClass().addAll("chart-line-symbol", "chart-series-line");
 			label.setStyle("-fx-font-size: 10; -fx-font-weight: bold;");
 			label.setMinWidth(200);

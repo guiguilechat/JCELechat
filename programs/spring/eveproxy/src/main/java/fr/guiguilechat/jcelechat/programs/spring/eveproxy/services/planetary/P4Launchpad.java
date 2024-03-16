@@ -1,8 +1,11 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.factories;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary;
 
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.SchemMaterial;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.SchemProduct;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.Schematic;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.PlanetEvalService.ConsumeProduct;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.PlanetEvalService.PlanetaryFactory;
@@ -31,11 +34,16 @@ public class P4Launchpad implements PlanetaryFactory {
 		int maxCyclesFromProd = (int) Math.floor(LAUNCHPAD_STORAGE
 				/ schematic.getProducts().stream().mapToDouble(prod -> prod.getQuantity() * prod.getType().getVolume()).sum());
 		int cycles = Math.min(maxCycleFromTime, Math.min(maxCyclesFromMat, maxCyclesFromProd));
-		Map<Integer, Long> mats = schematic.getMaterials().stream()
-				.collect(Collectors.toMap(mat -> mat.getType().getTypeId(), mat -> (long) (cycles * mat.getQuantity())));
-		Map<Integer, Long> prods = schematic.getProducts().stream()
-				.collect(Collectors.toMap(prod -> prod.getType().getTypeId(), mat -> (long) (cycles * mat.getQuantity())));
+		Map<Type, Long> mats = schematic.getMaterials().stream()
+				.collect(Collectors.toMap(SchemMaterial::getType, mat -> (long) (cycles * mat.getQuantity())));
+		Map<Type, Long> prods = schematic.getProducts().stream()
+				.collect(Collectors.toMap(SchemProduct::getType, mat -> (long) (cycles * mat.getQuantity())));
 		return new ConsumeProduct(mats, prods);
+	}
+
+	@Override
+	public String name() {
+		return schematic.getName() + "×" + NB_P4 + "+Launchpad×1";
 	}
 
 }

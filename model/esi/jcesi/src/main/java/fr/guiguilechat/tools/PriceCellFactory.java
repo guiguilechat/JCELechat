@@ -11,7 +11,7 @@ public class PriceCellFactory<T, W extends Number> extends TableCell<T, W> {
 		if (empty || value == null) {
 			setText(null);
 		} else {
-			setText(JFXTools.formatPrice(value.doubleValue()));
+			setText(FormatTools.formatPrice(value.doubleValue()));
 		}
 	}
 

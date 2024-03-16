@@ -62,27 +62,6 @@ public class RegionLineService {
 	// retrieve actual orders
 	//
 
-	static List<RegionLine> reverseIf(List<RegionLine> lines, boolean reverse) {
-		if (!reverse) {
-			return lines;
-		}
-		List<RegionLine> ret = new ArrayList<>(lines);
-		Collections.reverse(ret);
-		return ret;
-	}
-
-	/**
-	 *
-	 * @return existing lines with given order.locationId , order.type_id , and
-	 *           order.isbuyorder , ordered by price asc for SO and price desc for
-	 *           BO
-	 */
-	@Cacheable("marketLocation")
-	public List<RegionLine> forLocation(long locationId, int type_id, boolean isBuyOrder) {
-		return reverseIf(repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, type_id, isBuyOrder),
-				isBuyOrder);
-	}
-
 	/**
 	 * @return all the buy orders of given types, grouped by type id, by price
 	 *           descending
@@ -113,6 +92,26 @@ public class RegionLineService {
 		log.debug(
 				"listed SO lines for " + typeIds.size() + " ids, fetch=" + (fetched - start) + "ms, ids=" + typeIds);
 		return ret;
+	}
+
+	static List<RegionLine> reverseIf(List<RegionLine> lines, boolean reverse) {
+		if (!reverse) {
+			return lines;
+		}
+		List<RegionLine> ret = new ArrayList<>(lines);
+		Collections.reverse(ret);
+		return ret;
+	}
+
+	/**
+	 * @return existing lines with given order.locationId , order.type_id , and
+	 *           order.isbuyorder , ordered by price asc for SO and price desc for
+	 *           BO
+	 */
+	@Cacheable("marketLocation")
+	public List<RegionLine> forLocation(long locationId, int type_id, boolean isBuyOrder) {
+		return reverseIf(repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, type_id, isBuyOrder),
+				isBuyOrder);
 	}
 
 	/**
@@ -183,7 +182,7 @@ public class RegionLineService {
 		return price(forLocation(locationId, typeId, false), quantity, !dump, true);
 	}
 
-	
+
 
 	//
 	// places to buy/sell

@@ -7,7 +7,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarke
 import fr.guiguilechat.jcelechat.model.sde.npcs.Corporation;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer.ItemRef;
-import fr.guiguilechat.tools.JFXTools;
+import fr.guiguilechat.tools.FormatTools;
 
 public class ShowDEDLPs {
 
@@ -20,12 +20,12 @@ public class ShowDEDLPs {
 				for (Integer offerid : corp.lpoffers) {
 					LPOffer offer = LPOffer.of(offerid);
 					System.out.println(offer.name
-							+ "\t" + JFXTools.formatPrice(offer.requirements.lp)
-							+ "\t" + JFXTools.formatPrice(offer.requirements.isk)
+							+ "\t" + FormatTools.formatPrice(offer.requirements.lp)
+							+ "\t" + FormatTools.formatPrice(offer.requirements.isk)
 							+ "\t" + offer.requirements.items.stream().collect(Collectors.toMap(e -> e.type().name, e -> e.quantity))
-							+ "\t" + JFXTools.formatPrice(iplp(offer, theforge, 0)) 
-							+ "\t" + JFXTools.formatPrice(iplp(offer, theforge, 50000)) 
-							+ "\t" + JFXTools.formatPrice(iplp(offer, theforge, 1000000)));
+							+ "\t" + FormatTools.formatPrice(iplp(offer, theforge, 0))
+							+ "\t" + FormatTools.formatPrice(iplp(offer, theforge, 50000))
+							+ "\t" + FormatTools.formatPrice(iplp(offer, theforge, 1000000)));
 				}
 			}
 		}

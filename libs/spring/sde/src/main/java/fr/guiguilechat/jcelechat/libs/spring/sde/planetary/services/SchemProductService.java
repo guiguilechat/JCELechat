@@ -9,6 +9,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.SchemProduct;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.Schematic;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.repositories.SchemProductRepository;
+import jakarta.transaction.Transactional;
 
 @Service
 public class SchemProductService {
@@ -28,8 +29,13 @@ public class SchemProductService {
 		return repo.saveAll(entities);
 	}
 
+	@Transactional
 	public List<Schematic> producers(List<Type> products) {
-		return repo.findSchematicByTypeIn(products);
+		List<Schematic> ret = repo.findAllByTypeIn(products).stream().map(SchemProduct::getSchematic).toList();
+// System.err.println(
+// "fetched " + ret.size() + " schematic producing " +
+// products.stream().map(Type::getTypeId).toList() + " types");
+		return ret;
 	}
 
 }
