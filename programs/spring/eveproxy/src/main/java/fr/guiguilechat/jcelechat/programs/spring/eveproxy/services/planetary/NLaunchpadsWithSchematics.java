@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary;
 
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
@@ -20,17 +21,46 @@ import lombok.Setter;
 @Getter
 @Setter
 @RequiredArgsConstructor
-public class P4Launchpad implements PlanetaryFactory {
+public class NLaunchpadsWithSchematics implements PlanetaryFactory {
 
 	private final Schematic schematic;
-	private final int nbP4;
+	private final int nbSchematics;
 	private final int nbLP;
+
+	private static final float TOTAL_CPU = 25415;
+	private static final int LP_CPU = 3600;
 
 	private static final int LAUNCHPAD_STORAGE = 10000;
 
+	public static int linkCpu(int layer) {
+		return 17 + layer * 3;
+	}
+
+	public static int maxSchematics(int layer) {
+		return 6 * layer;
+	}
+
+	public static int nbSchematics(int nbLaunchpads, int schematicsCpu) {
+		int cpuPerGroup = (int) Math.floor(TOTAL_CPU / nbLaunchpads);
+		int remainingGroupCpu = cpuPerGroup - LP_CPU;
+		int groupSchematics = 0;
+		int linkedPipCpu = schematicsCpu;
+		for (int layer = 1; layer <= 8 && linkedPipCpu <= remainingGroupCpu; layer++) {
+			linkedPipCpu = schematicsCpu + linkCpu(layer);
+			int layerSchematics = Math.min(maxSchematics(layer), remainingGroupCpu / linkedPipCpu);
+			remainingGroupCpu -= layerSchematics * linkedPipCpu;
+			groupSchematics += layerSchematics;
+		}
+		return groupSchematics * nbLaunchpads;
+	}
+
+	public NLaunchpadsWithSchematics(Schematic schematic, int nbLP) {
+		this(schematic, nbSchematics(nbLP, schematic.getCpuLoad()), nbLP);
+	}
+
 	@Override
 	public ConsumeProduct production(int hours) {
-		int maxCycleFromTime = nbP4 * (hours * 3600 / schematic.getCycleTime());
+		int maxCycleFromTime = nbSchematics * (hours * 3600 / schematic.getCycleTime());
 		int maxCyclesFromMat = (int) Math.floor(nbLP * LAUNCHPAD_STORAGE
 				/ schematic.getMaterials().stream().mapToDouble(mat -> mat.getQuantity() * mat.getType().getVolume()).sum());
 		int maxCyclesFromProd = (int) Math.floor(nbLP * LAUNCHPAD_STORAGE
@@ -45,19 +75,12 @@ public class P4Launchpad implements PlanetaryFactory {
 
 	@Override
 	public String name() {
-		return schematic.getName() + "×" + nbP4 + "+Launchpad×" + nbLP;
+		return schematic.getName() + "×" + nbSchematics + "+Launchpad×" + nbLP;
 	}
 
-	// known possibilities of P4(high-tech production plant) and launchpad on a
-	// planet.
-	private static final int[][] P4_LP = {
-			{ 18, 1 },
-			{ 16, 2 },
-			{ 12, 3 }
-	};
-
-	public static Stream<P4Launchpad> stream(Schematic schematic) {
-		return Stream.of(P4_LP).map(arr -> new P4Launchpad(schematic, arr[0], arr[1]));
+	public static Stream<NLaunchpadsWithSchematics> stream(Schematic schematic) {
+		return IntStream.rangeClosed(1, 6).mapToObj(nbLP -> new NLaunchpadsWithSchematics(schematic, nbLP))
+				.filter(pf -> pf.getNbSchematics() > 0);
 	}
 
 }

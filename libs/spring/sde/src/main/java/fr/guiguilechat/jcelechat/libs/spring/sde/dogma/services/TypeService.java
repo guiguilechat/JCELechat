@@ -41,6 +41,10 @@ public class TypeService {
 		return repo.findByGroupGroupId(groupId);
 	}
 
+	public List<Type> byGroupIdIn(Iterable<Integer> groupIds) {
+		return repo.findByGroupGroupIdIn(groupIds);
+	}
+
 	public List<Type> byGroupName(String groupName) {
 		return repo.findByGroupNameEqualsIgnoreCase(groupName);
 	}

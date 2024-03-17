@@ -22,7 +22,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.PlanetaryTax
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchemProductService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.P4Launchpad;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.NLaunchpadsWithSchematics;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
@@ -89,7 +89,8 @@ public class PlanetEvalService {
 	public Stream<PlanetaryFactory> streamFactories() {
 		return Stream.concat(
 				Stream.empty(),
-				schemProductService.producers(typeService.byGroupId(P4_GID)).stream().flatMap(P4Launchpad::stream));
+				schemProductService.producers(typeService.byGroupIdIn(List.of(P4_GID, P3_GID, P2_GID))).stream()
+						.flatMap(NLaunchpadsWithSchematics::stream));
 	}
 
 	@Getter

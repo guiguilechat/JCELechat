@@ -305,9 +305,9 @@ public class SDEUpdateService {
 		Map<Integer, Attribute> attributesById = attributeService.saveAll(context.attributes)
 				.stream().collect(Collectors.toMap(Attribute::getAttributeId, c -> c));
 
-		typeattributeService.saveAll(context.typeAttributes.stream()
+		Map<Integer, List<TypeAttribute>> attributesByTypeId = typeattributeService.saveAll(context.typeAttributes.stream()
 				.map(tad -> TypeAttribute.from(typesById.get(tad.typeId()), attributesById.get(tad.attributeId()), tad.value()))
-				.toList());
+				.toList()).stream().collect(Collectors.groupingBy(ta -> ta.getType().getTypeId()));
 
 		// blueprints
 		// first create all the activities that exist for each blueprint, store them by
@@ -384,6 +384,15 @@ public class SDEUpdateService {
 		schematicService
 				.saveAll(context.planetSchematics.entrySet().stream().map(e -> {
 					Schematic ret = Schematic.of(e.getValue(), e.getKey());
+					List<Integer> pins = e.getValue().pins;
+					if (pins != null && !pins.isEmpty()) {
+						List<TypeAttribute> pipAtts = attributesByTypeId.get(pins.get(0));
+						TypeAttribute cpuLoadAtt = pipAtts.stream().filter(ta -> ta.getAttribute().getAttributeId() == 49)
+								.findFirst().orElse(null);
+						if (cpuLoadAtt != null) {
+							ret.setCpuLoad(cpuLoadAtt.getAttValue().intValue());
+						}
+					}
 					ret.setMaterials(e.getValue().types.entrySet().stream()
 							.filter(entry -> entry.getValue().isInput)
 							.map(entry -> SchemMaterial.builder()
