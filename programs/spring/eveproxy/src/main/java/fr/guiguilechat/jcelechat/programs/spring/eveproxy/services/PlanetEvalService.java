@@ -70,7 +70,7 @@ public class PlanetEvalService {
 		private double brpct = 2.0;
 		private int customCodeExpertise = 5;
 		private double customTaxPct = 5.0;
-		private boolean hs = true;
+		private boolean hs = false;
 		private long location = RegionLineService.JITAIV_ID;
 		private double margin = 5.0;
 		private int nbPlanets = 6;
@@ -89,7 +89,7 @@ public class PlanetEvalService {
 	public Stream<PlanetaryFactory> streamFactories() {
 		return Stream.concat(
 				Stream.empty(),
-				schemProductService.producers(typeService.byGroupId(P4_GID)).stream().map(P4Launchpad::new));
+				schemProductService.producers(typeService.byGroupId(P4_GID)).stream().flatMap(P4Launchpad::stream));
 	}
 
 	@Getter
