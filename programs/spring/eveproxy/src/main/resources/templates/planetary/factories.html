@@ -40,15 +40,15 @@
 									name="location" th:value="${params.location}" /></td>
 								<td><select name="sourcing">
 										<option value="boso"
-											th:selected="${#strings.equals('boso', params.sourcing)}">long
-											term</option>
+											th:selected="${#strings.equals('boso', params.sourcing)}">input BO, output SO</option>
 										<option value="sobo"
-											th:selected="${#strings.equals('sobo', params.sourcing)}">short
-											term, individual orders</option>
+											th:selected="${#strings.equals('sobo', params.sourcing)}">input SO, output BO, individual orders</option>
 										<option value="sobodump"
-											th:selected="${#strings.equals('sobodump', params.sourcing)}">short
-											term, en masse</option>
-								</select></td>
+											th:selected="${#strings.equals('sobodump', params.sourcing)}">input SO, output BO, en masse</option>
+								</select><br />
+								<input type="checkbox" name="produceMaterial" id="produceMaterial" th:checked="${params.produceMaterial}">produce materials</input><br />
+								<input type="checkbox" name="useProduct" id="useProduct" th:checked="${params.useProduct}">use product</input>
+								</td>
 								<td><input class="form-control" type="number" step="0.1"
 									name="taxpct" th:value="${params.taxpct}" /></td>
 								<td><input class="form-control" type="number" step="0.1"

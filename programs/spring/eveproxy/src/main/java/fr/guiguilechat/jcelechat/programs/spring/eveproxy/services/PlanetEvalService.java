@@ -23,6 +23,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchemProduct
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchematicService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.IntegrityResponseDroneFromP2;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.NLaunchpadsWithSchematics;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
@@ -83,7 +84,7 @@ public class PlanetEvalService {
 		private SourceType sourcing = SourceType.sobo;
 		private double taxpct = 3.6;
 		private boolean useProduct = false;
-		private double volumicPrice = 100.0;
+		private double volumicPrice = 1000.0;
 	}
 
 	public static final int P4_GID = 1041;
@@ -94,10 +95,12 @@ public class PlanetEvalService {
 
 	@Transactional
 	public Stream<PlanetaryFactory> streamFactories() {
-		return Stream.concat(
-				Stream.empty(),
-				schemProductService.producers(typeService.byGroupIdIn(List.of(P4_GID, P3_GID, P2_GID))).stream()
-						.flatMap(NLaunchpadsWithSchematics::stream));
+		return Stream.of(
+				Stream.of(new IntegrityResponseDroneFromP2(typeService)),
+				schemProductService
+						.producers(typeService.byGroupIdIn(List.of(P4_GID, P3_GID, P2_GID))).stream()
+						.flatMap(NLaunchpadsWithSchematics::stream))
+				.flatMap(s -> s);
 	}
 
 	@Getter
@@ -166,13 +169,13 @@ public class PlanetEvalService {
 			for (Entry<Integer, Long> e : fe.getProductById().entrySet()) {
 				long qtty = e.getValue();
 				Type t = typeService.byId(e.getKey()).orElse(null);
-				volCost += params.getVolumicPrice() * t.getVolume() * qtty;
+				volCost += (params.useProduct?-1:1)*params.getVolumicPrice() * t.getVolume() * qtty;
 				customTax += taxMult * exportTaxById.get(t.getTypeId()) * qtty;
 			}
 			for (Entry<Integer, Long> e : fe.getMaterialsById().entrySet()) {
 				long qtty = e.getValue();
 				Type t = typeService.byId(e.getKey()).orElse(null);
-				volCost += params.getVolumicPrice() * t.getVolume() * qtty;
+				volCost += (params.produceMaterial ? -1 : 1) * params.getVolumicPrice() * t.getVolume() * qtty;
 				customTax += taxMult * importTaxById.get(t.getTypeId()) * qtty;
 			}
 

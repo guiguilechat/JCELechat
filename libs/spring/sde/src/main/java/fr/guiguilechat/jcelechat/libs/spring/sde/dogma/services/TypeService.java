@@ -33,6 +33,10 @@ public class TypeService {
 		return repo.findById(typeId);
 	}
 
+	public List<Type> byId(Iterable<Integer> typeIds) {
+		return repo.findByTypeIdIn(typeIds);
+	}
+
 	public List<Type> byName(String nameIgnoreCase) {
 		return repo.findByNameEqualsIgnoreCase(nameIgnoreCase);
 	}
