@@ -1,0 +1,143 @@
+package fr.guiguilechat.jcelechat.libs.spring.market.strategies;
+
+import java.util.List;
+
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
+
+/**
+ * common interface for material and product pricing strategies. Basically
+ * tools.
+ */
+public interface IMarketInteraction {
+
+	/**
+	 * when true, and placing direct order, we only sell/buy at the worst
+	 * corresponding order.
+	 */
+	public boolean isMassPrice();
+
+	/**
+	 * @param quantity        number we want to purchase
+	 * @param sos             sell orders to use, sorted by price increasing
+	 * @return cost to purchase quantity from SOs
+	 */
+	public default double costBuySo(long quantity, List<RegionLine> sos) {
+		long remain = quantity;
+		double cumulated = 0.0;
+		if (sos != null) {
+			for (RegionLine so : sos) {
+				int remove = (int) Math.min(remain, so.getOrder().volume_remain);
+				cumulated += so.getOrder().price * remove;
+				remain -= remove;
+				if (remain == 0) {
+					return isMassPrice() ? so.getOrder().price * quantity : cumulated;
+				}
+			}
+		}
+		return Double.POSITIVE_INFINITY;
+	}
+
+	public default double uPriceBuySo(long quantity, List<RegionLine> sos) {
+		long remain = quantity;
+		double cumulated = 0.0;
+		if (sos != null) {
+			for (RegionLine so : sos) {
+				int remove = (int) Math.min(remain, so.getOrder().volume_remain);
+				cumulated += so.getOrder().price * remove;
+				remain -= remove;
+				if (remain == 0) {
+					return isMassPrice() ? so.getOrder().price : cumulated / quantity;
+				}
+			}
+		}
+		return Double.POSITIVE_INFINITY;
+	}
+
+	/**
+	 * @param quantity        number we want to purchase
+	 * @param itemVolumePrice price to move the item, from its unitary volume
+	 * @param brokerPct       broker % of order price.
+	 * @param bos             buy orders to fill, sorted by price decreasing
+	 * @return cost to purchase quantity, placing BOs
+	 */
+	public default double costBuyBo(long quantity, double brokerPct, List<RegionLine> bos) {
+		double unitPrice = 0.01;
+		if (bos != null && !bos.isEmpty()) {
+			unitPrice = bos.get(0).getOrder().price;
+		}
+		return unitPrice * (100 + brokerPct) / 100 * quantity;
+	}
+
+	public default double uPriceBuyBo(long quantity, List<RegionLine> bos) {
+		double unitPrice = 0.01;
+		if (bos != null && !bos.isEmpty()) {
+			unitPrice = bos.get(0).getOrder().price;
+		}
+		return unitPrice;
+	}
+
+	/**
+	 * @param quantity        number we want to sell
+	 * @param itemVolumePrice price to move the item, from its unitary volume
+	 * @param taxPct          sale tax % of order price
+	 * @param bos             buy orders to fill, sorted by price decreasing
+	 * @return value we would get from selling quantity directly to BOs
+	 */
+	public default double costSellBo(long quantity, double taxPct, List<RegionLine> bos) {
+		long remain = quantity;
+		double cumulated = 0.0;
+		if (bos != null) {
+			for (RegionLine bo : bos) {
+				int remove = (int) Math.min(remain, bo.getOrder().volume_remain);
+				cumulated += bo.getOrder().price * remove;
+				remain -= remove;
+				if (remain == 0) {
+					return (isMassPrice() ? bo.getOrder().price * quantity : cumulated) * (100 - taxPct) / 100;
+				}
+			}
+		}
+		return isMassPrice() ? 0 : cumulated;
+	}
+
+	public default double uPriceSellBo(long quantity, List<RegionLine> bos) {
+		long remain = quantity;
+		double cumulated = 0.0;
+		if (bos != null) {
+			for (RegionLine bo : bos) {
+				int remove = (int) Math.min(remain, bo.getOrder().volume_remain);
+				cumulated += bo.getOrder().price * remove;
+				remain -= remove;
+				if (remain == 0) {
+					return isMassPrice() ? bo.getOrder().price : cumulated / quantity;
+				}
+			}
+		}
+		return isMassPrice() ? 0 : cumulated / quantity;
+	}
+
+	/**
+	 * @param quantity        number we want to sell
+	 * @param itemVolumePrice price to move the item, from its unitary volume
+	 * @param taxPct          sale tax % of order price
+	 * @param brokerPct       broker % of order price.
+	 * @param sos             sell orders to use, sorted by price increasing
+	 * @return value we would get from selling quantity using long term SO orders
+	 */
+	public default double costSellSo(long quantity, double taxPct, double brokerPct,
+			List<RegionLine> sos) {
+		double unitPrice = Double.POSITIVE_INFINITY;
+		if (sos != null && !sos.isEmpty()) {
+			unitPrice = sos.get(0).getOrder().price;
+		}
+		return unitPrice * (100 - taxPct - brokerPct) / 100 * quantity;
+	}
+
+	public default double uPriceSellSo(long quantity, List<RegionLine> sos) {
+		double unitPrice = Double.POSITIVE_INFINITY;
+		if (sos != null && !sos.isEmpty()) {
+			unitPrice = sos.get(0).getOrder().price;
+		}
+		return unitPrice;
+	}
+
+}

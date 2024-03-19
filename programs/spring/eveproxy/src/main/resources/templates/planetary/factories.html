@@ -20,7 +20,8 @@
 								<th>number of planets</th>
 								<th>job duration, hour</th>
 								<th>market location id</th>
-								<th>sourcing</th>
+								<th>material sourcing</th>
+								<th>product valuator</th>
 								<th>tax, % of sale price</th>
 								<th>broker fee, % of price</th>
 								<th>HS</th>
@@ -38,17 +39,20 @@
 									name="hours" th:value="${params.hours}" /></td>
 								<td><input class="form-control" type="number"
 									name="location" th:value="${params.location}" /></td>
-								<td><select name="sourcing">
-										<option value="boso"
-											th:selected="${#strings.equals('boso', params.sourcing)}">input BO, output SO</option>
-										<option value="sobo"
-											th:selected="${#strings.equals('sobo', params.sourcing)}">input SO, output BO, individual orders</option>
-										<option value="sobodump"
-											th:selected="${#strings.equals('sobodump', params.sourcing)}">input SO, output BO, en masse</option>
-								</select><br />
-								<input type="checkbox" name="produceMaterial" id="produceMaterial" th:checked="${params.produceMaterial}">produce materials</input><br />
-								<input type="checkbox" name="useProduct" id="useProduct" th:checked="${params.useProduct}">use product</input>
-								</td>
+								<td><select name="materialSourcing">
+										<option
+											th:each="strat : ${T(fr.guiguilechat.jcelechat.libs.spring.market.strategies.MaterialSourcing).values()}"
+											th:value="${strat}"
+											th:selected="${params.materialSourcing==strat}"
+											th:text="${strat.explain}" />
+								</select></td>
+								<td><select name="productValuator">
+										<option
+											th:each="strat : ${T(fr.guiguilechat.jcelechat.libs.spring.market.strategies.ProductValuator).values()}"
+											th:value="${strat}"
+											th:selected="${params.productValuator==strat}"
+											th:text="${strat.explain}" />
+								</select></td>
 								<td><input class="form-control" type="number" step="0.1"
 									name="taxpct" th:value="${params.taxpct}" /></td>
 								<td><input class="form-control" type="number" step="0.1"
@@ -101,7 +105,7 @@
 							<td><ul>
 									<li th:each="prod : ${eval.linkedProd}"><span
 										th:text="${prod.quantity}" />×<a th:href="${prod.url}"
-											th:text="${prod.type.name}" /></li>
+										th:text="${prod.type.name}" /></li>
 								</ul></td>
 							<td><span th:text="${eval.formatedTotalSale}" /></td>
 							<td><span th:text="${eval.formatedTotalCost}" /></td>

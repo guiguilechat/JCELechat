@@ -15,18 +15,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.SourceType;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.LPStoreCorporationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferValueService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferValueService.OfferEval;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferEvalService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferEvalService.EvalParams;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferEvalService.OfferEval;
 
 @Controller
 @RequestMapping("/html/npc")
@@ -39,7 +35,7 @@ public class NpcHtmlController {
 	private LPStoreCorporationService lpStoreCorporationService;
 
 	@Autowired
-	private OfferValueService offerValueService;
+	private OfferEvalService offerValueService;
 
 	private DogmaHtmlController dogmaHtmlController;
 
@@ -82,29 +78,15 @@ public class NpcHtmlController {
 	public static record LinkedOfferEval(String url, OfferEval eval, LinkedType finalProduct) {
 
 		public String name() {
-			return "[" + eval.offer().getCorporation().getName() + "] "
-					+ (eval.offer().getQuantity() > 1 ? eval.offer().getQuantity() + "×" : "") + eval.product().getName();
+			return "[" + eval.getOffer().getCorporation().getName() + "] "
+					+ (eval.getOffer().getQuantity() > 1 ? eval.getOffer().getQuantity() + "×" : "")
+					+ eval.getProduct().getName();
 		}
 	}
 
 	public LinkedOfferEval linkedOfferEval(OfferEval eval) {
-		return new LinkedOfferEval(uri(eval.offer()).toString(), eval, dogmaHtmlController.linkedType(eval.finalProduct()));
-	}
-
-	@Getter
-	@Setter
-	@ToString
-	public static class EvalParams {
-
-		private double bpcost = 1000000.0;
-		private double brpct = 2.0;
-		private long location = RegionLineService.JITAIV_ID;
-		private int lp = 100000;
-		private double margin = 5.0;
-		private double marginhour = 0.5;
-		private SourceType sourcing = SourceType.sobo;
-		private double taxpct = 3.6;
-
+		return new LinkedOfferEval(uri(eval.getOffer()).toString(), eval,
+				dogmaHtmlController.linkedType(eval.getFinalProduct()));
 	}
 
 	@GetMapping("/corporation/{corporationId}")
@@ -131,10 +113,11 @@ public class NpcHtmlController {
 		List<CorporationOffer> offers = corporationOfferService.byCorporationIdRequiringLp(corporationId);
 
 		model.addAttribute("offers",
-				offerValueService.value(offers, params.getLp(), params.getSourcing(), params.getBrpct(),
+				offerValueService.value(offers, params.getLp(), params.getMaterialSourcing(), params.getProductValuator(),
+						params.getBrpct(),
 						params.getTaxpct(), params.getMarginhour(), params.getMargin(), params.getBpcost(), params.getLocation())
 						.stream()
-						.sorted(Comparator.comparing(OfferEval::iskplp).reversed())
+						.sorted(Comparator.comparing(OfferEval::getIskplp).reversed())
 						.map(this::linkedOfferEval)
 						.toList());
 

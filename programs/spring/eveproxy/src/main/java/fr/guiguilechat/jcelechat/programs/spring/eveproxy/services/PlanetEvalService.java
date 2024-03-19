@@ -15,7 +15,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.SourceType;
+import fr.guiguilechat.jcelechat.libs.spring.market.strategies.MaterialSourcing;
+import fr.guiguilechat.jcelechat.libs.spring.market.strategies.ProductValuator;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.PlanetaryTaxService;
@@ -79,11 +80,10 @@ public class PlanetEvalService {
 		private boolean hs = false;
 		private long location = RegionLineService.JITAIV_ID;
 		private double margin = 5.0;
+		private MaterialSourcing materialSourcing = MaterialSourcing.BUY_SO_MASS;
 		private int nbPlanets = 6;
-		private boolean produceMaterial;
-		private SourceType sourcing = SourceType.sobo;
+		private ProductValuator productValuator = ProductValuator.SELL_BO_MASS;
 		private double taxpct = 3.6;
-		private boolean useProduct = false;
 		private double volumicPrice = 1000.0;
 	}
 
@@ -157,11 +157,10 @@ public class PlanetEvalService {
 		double taxMult = 0.01 * params.customTaxPct
 				+ planetaryTaxService.concordTaxMult(params.isHs(), params.getCustomCodeExpertise());
 		ret.stream().forEach(fe -> {
-			double matCost = params.getSourcing().materialCost(fe.getMaterialsById(), params.getTaxpct(), params.getBrpct(),
-					params.isProduceMaterial(), bosByTypeId,
-					sosByTypeId);
-			double prodSale = params.getSourcing().productIncome(fe.getProductById(), params.getTaxpct(), params.getBrpct(),
-					params.isUseProduct(), bosByTypeId, sosByTypeId);
+			double matCost = params.getMaterialSourcing().cost(fe.getMaterialsById(), params.getTaxpct(), params.getBrpct(),
+					bosByTypeId, sosByTypeId);
+			double prodSale = params.getProductValuator().value(fe.getProductById(), params.getTaxpct(), params.getBrpct(),
+					bosByTypeId, sosByTypeId);
 			double marginCost = params.getMargin() * prodSale / 100;
 
 			double volCost = 0.0;
@@ -169,13 +168,13 @@ public class PlanetEvalService {
 			for (Entry<Integer, Long> e : fe.getProductById().entrySet()) {
 				long qtty = e.getValue();
 				Type t = typeService.byId(e.getKey()).orElse(null);
-				volCost += (params.useProduct?-1:1)*params.getVolumicPrice() * t.getVolume() * qtty;
+				volCost += params.getProductValuator().haulingCost(qtty, params.getVolumicPrice() * t.getVolume());
 				customTax += taxMult * exportTaxById.get(t.getTypeId()) * qtty;
 			}
 			for (Entry<Integer, Long> e : fe.getMaterialsById().entrySet()) {
 				long qtty = e.getValue();
 				Type t = typeService.byId(e.getKey()).orElse(null);
-				volCost += (params.produceMaterial ? -1 : 1) * params.getVolumicPrice() * t.getVolume() * qtty;
+				volCost += params.getMaterialSourcing().haulingCost(qtty, params.getVolumicPrice() * t.getVolume());
 				customTax += taxMult * importTaxById.get(t.getTypeId()) * qtty;
 			}
 
