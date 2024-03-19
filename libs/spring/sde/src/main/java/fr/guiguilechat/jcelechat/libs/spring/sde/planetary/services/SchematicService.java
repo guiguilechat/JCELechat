@@ -26,4 +26,8 @@ public class SchematicService {
 		return repo.saveAll(entities);
 	}
 
+	public List<Schematic> fetchAll() {
+		return repo.fetchAll();
+	}
+
 }

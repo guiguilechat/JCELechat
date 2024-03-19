@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.PlanetaryTaxService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchemProductService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchematicService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.NLaunchpadsWithSchematics;
@@ -41,6 +42,9 @@ public class PlanetEvalService {
 
 	@Autowired
 	private SchemProductService schemProductService;
+
+	@Autowired
+	private SchematicService schematicService;
 
 	@Autowired
 	private TypeService typeService;
@@ -88,6 +92,7 @@ public class PlanetEvalService {
 	public static final int P1_GID = 1042;
 	public static final int P0_CID = 42;
 
+	@Transactional
 	public Stream<PlanetaryFactory> streamFactories() {
 		return Stream.concat(
 				Stream.empty(),
@@ -132,6 +137,7 @@ public class PlanetEvalService {
 
 	@Transactional
 	public List<FactoryEval> evaluate(PlanetEvalParams params) {
+		schematicService.fetchAll();
 		List<FactoryEval> ret = new ArrayList<>(streamFactories()
 				.map(pf -> compute(pf, params))
 				.toList());
