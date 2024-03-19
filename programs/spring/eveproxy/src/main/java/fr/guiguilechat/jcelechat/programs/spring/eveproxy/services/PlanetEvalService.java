@@ -70,13 +70,15 @@ public class PlanetEvalService {
 		private double brpct = 2.0;
 		private int customCodeExpertise = 5;
 		private double customTaxPct = 5.0;
+		private int hours = 4 * 24;
 		private boolean hs = false;
 		private long location = RegionLineService.JITAIV_ID;
 		private double margin = 5.0;
 		private int nbPlanets = 6;
-		private int hours = 4 * 24;
+		private boolean produceMaterial;
 		private SourceType sourcing = SourceType.sobo;
 		private double taxpct = 3.6;
+		private boolean useProduct = false;
 		private double volumicPrice = 100.0;
 	}
 
@@ -146,10 +148,11 @@ public class PlanetEvalService {
 		double taxMult = 0.01 * params.customTaxPct
 				+ planetaryTaxService.concordTaxMult(params.isHs(), params.getCustomCodeExpertise());
 		ret.stream().forEach(fe -> {
-			double matCost = params.getSourcing().materialCost(fe.getMaterialsById(), params.getBrpct(), bosByTypeId,
+			double matCost = params.getSourcing().materialCost(fe.getMaterialsById(), params.getTaxpct(), params.getBrpct(),
+					params.isProduceMaterial(), bosByTypeId,
 					sosByTypeId);
 			double prodSale = params.getSourcing().productIncome(fe.getProductById(), params.getTaxpct(), params.getBrpct(),
-					bosByTypeId, sosByTypeId);
+					params.isUseProduct(), bosByTypeId, sosByTypeId);
 			double marginCost = params.getMargin() * prodSale / 100;
 
 			double volCost = 0.0;

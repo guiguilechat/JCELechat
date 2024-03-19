@@ -10,18 +10,20 @@ import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
  * strategy to source and sell items
  */
 public enum SourceType {
-	/** buy using BO, sell using SO (long term) */
+	/** materials from BO, product to SO */
 	boso {
 
 		@Override
-		public double productIncome(double productUnitPrice, long quantity, double taxPct, double brkPct) {
-			return productUnitPrice * quantity * (100 - taxPct - brkPct) / 100;
+		public double productIncome(double productUnitPrice, long quantity, double taxPct, double brkPct,
+				boolean useProduct) {
+			return productUnitPrice * quantity * (100 + (useProduct ? 0 : -taxPct - brkPct)) / 100;
 		}
 
 		@Override
-		public double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
-				List<RegionLine> sos) {
-			return (bos == null || bos.isEmpty() ? 0.01 : bos.get(0).getOrder().price) * quantity * (100 + brokerPct) / 100;
+		public double materialCost(long quantity, double taxPct, double brokerPct, List<RegionLine> bos,
+				List<RegionLine> sos, boolean produceMaterial) {
+			return (bos == null || bos.isEmpty() ? 0.01 : bos.get(0).getOrder().price) * quantity
+					* (100 + (produceMaterial ? -taxPct : brokerPct)) / 100;
 		}
 
 		@Override
@@ -30,12 +32,12 @@ public enum SourceType {
 		}
 
 	},
-	/** buy from SO, sell to BO (direct), purchasing each intermediate offer */
+	/** material from SO, product to BO, using intermediate offer */
 	sobo {
 
 		@Override
-		public double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
-				List<RegionLine> sos) {
+		public double materialCost(long quantity, double taxPct, double brokerPct, List<RegionLine> bos,
+				List<RegionLine> sos, boolean produceMaterial) {
 			long remain = quantity;
 			if (sos != null) {
 				double ret = 0.0;
@@ -44,7 +46,7 @@ public enum SourceType {
 					ret += so.getOrder().price * remove;
 					remain -= remove;
 					if (remain == 0) {
-						return ret;
+						return ret * (100 + (produceMaterial ? -taxPct - brokerPct : 0)) / 100;
 					}
 				}
 			}
@@ -69,19 +71,19 @@ public enum SourceType {
 		}
 
 	},
-	/** buy from SO, sell to BO (direct), using mass price each time */
+	/** materials from SO, product to BO , using mass price each time */
 	sobodump {
 
 		@Override
-		public double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
-				List<RegionLine> sos) {
+		public double materialCost(long quantity, double taxPct, double brokerPct, List<RegionLine> bos,
+				List<RegionLine> sos, boolean produceMaterial) {
 			long remain = quantity;
 			if (sos != null) {
 				for (RegionLine so : sos) {
 					int remove = (int) Math.min(remain, so.getOrder().volume_remain);
 					remain -= remove;
 					if (remain == 0) {
-						return so.getOrder().price * quantity;
+						return so.getOrder().price * quantity * (100 + (produceMaterial ? -taxPct - brokerPct : 0)) / 100;
 					}
 				}
 			}
@@ -105,31 +107,44 @@ public enum SourceType {
 
 	};
 
-	public abstract double materialCost(int key, long quantity, double brokerPct, List<RegionLine> bos,
-			List<RegionLine> sos);
+	public abstract double materialCost(long quantity, double taxPct, double brokerPct, List<RegionLine> bos,
+			List<RegionLine> sos, boolean produceMaterial);
 
-	public double materialCost(Map<Integer, Long> requiredMats, double brokerPct,
+	public double materialCost(Map<Integer, Long> requiredMats, double taxPct, double brokerPct, boolean produceMaterial,
 			Map<Integer, List<RegionLine>> bos, Map<Integer, List<RegionLine>> sos) {
 		return requiredMats.entrySet().stream()
-				.mapToDouble(k -> materialCost(k.getKey(), k.getValue(), brokerPct, bos.get(k.getKey()), sos.get(k.getKey())))
+				.mapToDouble(k -> materialCost(k.getValue(), taxPct, brokerPct, bos.get(k.getKey()), sos.get(k.getKey()),
+						produceMaterial))
 				.sum();
 	}
 
 	public abstract double productUnitPrice(int typeId, long productQuantity, List<RegionLine> bos,
 			List<RegionLine> sos);
 
-	/** actual gain when selling the product. default is without broker */
-	public double productIncome(double productUnitPrice, long quantity, double taxPct, double brkPct) {
-		return productUnitPrice * quantity * (100 - taxPct) / 100;
+	/**
+	 * actual gain for the product. Default is by using BO, so selling it directly
+	 * to BO, or placing a BO when using that product
+	 *
+	 * @param productUnitPrice price deduced by
+	 *                         {@link #productUnitPrice(int, long, List, List)}
+	 * @param quantity         number produced
+	 * @param taxPct           percent of sale that goes to tax
+	 * @param brkPct           percent of sale that goes to broker fee
+	 * @param useProduct       when true, the price of the product is the price to
+	 *                         BUY it at given price
+	 */
+	public double productIncome(double productUnitPrice, long quantity, double taxPct, double brkPct,
+			boolean useProduct) {
+		return productUnitPrice * quantity * (100 + (useProduct ? taxPct + brkPct : -taxPct)) / 100;
 	}
 
-	public double productIncome(Map<Integer, Long> products, double taxpct, double brokerPct,
+	public double productIncome(Map<Integer, Long> products, double taxpct, double brokerPct, boolean useProduct,
 			Map<Integer, List<RegionLine>> bos, Map<Integer, List<RegionLine>> sos) {
 		double sum = 0.0;
 		for (Entry<Integer, Long> e : products.entrySet()) {
 			int typeId = e.getKey();
 			double up = productUnitPrice(typeId, e.getValue(), bos.get(typeId), sos.get(typeId));
-			sum += productIncome(up, e.getValue(), taxpct, brokerPct);
+			sum += productIncome(up, e.getValue(), taxpct, brokerPct, useProduct);
 		}
 		return sum;
 	}

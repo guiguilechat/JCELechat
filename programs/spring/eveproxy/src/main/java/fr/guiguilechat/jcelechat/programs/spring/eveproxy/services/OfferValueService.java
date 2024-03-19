@@ -92,11 +92,11 @@ public class OfferValueService {
 			product = offer.getType();
 		}
 
-		double materialCost = sourcing.materialCost(requiredMats, timeMarginPct, bosByTypeId, sosByTypeId)
+		double materialCost = sourcing.materialCost(requiredMats, taxPct, brokerPct, false, bosByTypeId, sosByTypeId)
 				+ offer.getIskCost() * offerQuantity;
 		double productUnitPrice = sourcing.productUnitPrice(product.getTypeId(), productQuantity,
 				bosByTypeId.get(product.getTypeId()), sosByTypeId.get(product.getTypeId()));
-		double productIncome = sourcing.productIncome(productUnitPrice, productQuantity, taxPct, brokerPct);
+		double productIncome = sourcing.productIncome(productUnitPrice, productQuantity, taxPct, brokerPct, false);
 		double marginCost = materialCost * (marginPct + timeMarginPct) / 100;
 
 		return new OfferEval(offer, offerQuantity, offer.getType(), product, productQuantity, productUnitPrice,
