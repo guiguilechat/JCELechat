@@ -51,10 +51,9 @@ public enum MaterialSourcing implements IMarketInteraction {
 	public double cost(long quantity, double taxPct, double brokerPct, List<RegionLine> bos,
 			List<RegionLine> sos) {
 		if (producing) {
-			return useBo ? costBuyBo(quantity, brokerPct, bos) : costBuySo(quantity, sos);
+			return useBo ? costSellBo(quantity, taxPct, bos) : costSellSo(quantity, taxPct, brokerPct, sos);
 		} else {
-			return useBo ? costSellBo(quantity, taxPct, bos)
-					: costSellSo(quantity, taxPct, brokerPct, sos);
+			return useBo ? costBuyBo(quantity, brokerPct, bos) : costBuySo(quantity, sos);
 		}
 	}
 
