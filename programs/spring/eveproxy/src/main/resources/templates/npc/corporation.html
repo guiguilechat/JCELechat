@@ -84,44 +84,45 @@
 		<div class="row">
 			<div class="col">
 				<h3>Loyalty offers</h3>
-				<table class="table table-striped table-hover">
-					<thead class="thead-light">
-						<tr>
-							<th>Offer</th>
-							<th>isk/lp</th>
-							<th>nb offers</th>
-							<th>Total gain</th>
-							<th>Produces</th>
-							<th>Consumes</th>
-							<th>Total material cost</th>
-							<th>Total margin cost</th>
-							<th>Total tedious cost</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr th:each="offer : ${offers}">
-							<td><a th:href="${offer.url}" th:text="${offer.name}" /></td>
-							<td><span th:text="${offer.eval.formatedIskplp}" /></td>
-							<td><span th:text="${offer.eval.offerQuantity}" /></td>
-							<td><span th:text="${offer.eval.formatedGain}" /></td>
-							<td><span th:text="${offer.eval.productQuantity}" />× <a
-								th:href="${offer.finalProduct.url}"
-								th:text="${offer.finalProduct.type.name}" /> @ <span
-								th:text="${offer.eval.formatedProductUnitPrice}" /> /u</td>
-							<td>
-								<ul>
-									<li th:each="mat : ${offer.materials}">
-										<span th:text="${mat.quantity}" />× 
-										<a th:href="${mat.url}"	th:text="${mat.type.name}" />
-									</li>
-								</ul>
-							</td>
-							<td><span th:text="${offer.eval.formatedMaterialCost}" /></td>
-							<td><span th:text="${offer.eval.formatedMarginCost}" /></td>
-							<td><span th:text="${offer.eval.formatedTediousCost}" /></td>
-						</tr>
-					</tbody>
-				</table>
+				<div class="overflow-auto" style="height: 70vh;">
+					<table class="table table-striped table-hover">
+						<thead class="thead-light sticky-top bg-light">
+							<tr>
+								<th>Offer</th>
+								<th>isk/lp</th>
+								<th>nb offers</th>
+								<th>Total gain</th>
+								<th>Produces</th>
+								<th>Consumes</th>
+								<th>Total material cost</th>
+								<th>Total margin cost</th>
+								<th>Total tedious cost</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr th:each="offer : ${offers}">
+								<td><a th:href="${offer.url}" th:text="${offer.name}" /></td>
+								<td><span th:text="${offer.eval.formatedIskplp}" /></td>
+								<td><span th:text="${offer.eval.offerQuantity}" /></td>
+								<td><span th:text="${offer.eval.formatedGain}" /></td>
+								<td><span th:text="${offer.eval.productQuantity}" />× <a
+									th:href="${offer.finalProduct.url}"
+									th:text="${offer.finalProduct.type.name}" /> @ <span
+									th:text="${offer.eval.formatedProductUnitPrice}" />/u</td>
+								<td>
+									<ul>
+										<li th:each="mat : ${offer.materials}"><span
+											th:text="${mat.quantity}" />× <a th:href="${mat.url}"
+											th:text="${mat.type.name}" /></li>
+									</ul>
+								</td>
+								<td><span th:text="${offer.eval.formatedMaterialCost}" /></td>
+								<td><span th:text="${offer.eval.formatedMarginCost}" /></td>
+								<td><span th:text="${offer.eval.formatedTediousCost}" /></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 	</div>
