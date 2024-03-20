@@ -24,7 +24,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchemProduct
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchematicService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.IntegrityResponseDroneFromP2;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.NLaunchpadsWithSchematics;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
@@ -96,7 +96,7 @@ public class PlanetEvalService {
 	@Transactional
 	public Stream<PlanetaryFactory> streamFactories() {
 		return Stream.of(
-				Stream.of(new IntegrityResponseDroneFromP2(typeService)),
+				CuratedP4FromP2.stream(typeService),
 				schemProductService
 						.producers(typeService.byGroupIdIn(List.of(P4_GID, P3_GID, P2_GID))).stream()
 						.flatMap(NLaunchpadsWithSchematics::stream))
@@ -141,9 +141,10 @@ public class PlanetEvalService {
 	@Transactional
 	public List<FactoryEval> evaluate(PlanetEvalParams params) {
 		schematicService.fetchAll();
-		List<FactoryEval> ret = new ArrayList<>(streamFactories()
-				.map(pf -> compute(pf, params))
-				.toList());
+		List<FactoryEval> ret = new ArrayList<>(
+				streamFactories()
+						.map(pf -> compute(pf, params))
+						.toList());
 		Set<Integer> allIds = ret.stream()
 				.flatMap(fe -> Stream.concat(
 						fe.getLinkedMats().stream().map(LinkedMaterial::type),
