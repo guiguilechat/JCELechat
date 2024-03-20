@@ -42,8 +42,8 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><input class="form-control" type="number" name="location"
-									th:value="${params.location}" /></td>
+								<td><input class="form-control" type="number"
+									name="location" th:value="${params.location}" /></td>
 								<td><input class="form-control" type="number" name="lp"
 									th:value="${params.lp}" /></td>
 								<td><select name="materialSourcing">
@@ -60,20 +60,19 @@
 											th:selected="${params.productValuator==strat}"
 											th:text="${strat.explain}" />
 								</select></td>
-								<td><input class="form-control" type="number" step="0.1" name="margin"
-									th:value="${params.margin}" /></td>
-								<td><input class="form-control" type="number" step="0.1" name="marginhour"
-									th:value="${params.marginhour}" /></td>
-								<td><input class="form-control" type="number" step="0.1" name="taxpct"
-									th:value="${params.taxpct}" /></td>
-								<td><input class="form-control" type="number" step="0.1" name="brpct"
-									th:value="${params.brpct}" /></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="margin" th:value="${params.margin}" /></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="marginhour" th:value="${params.marginhour}" /></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="taxpct" th:value="${params.taxpct}" /></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="brpct" th:value="${params.brpct}" /></td>
 								<td><input class="form-control" type="number" name="bpcost"
 									th:value="${params.bpcost}" /></td>
 							</tr>
 						</tbody>
 					</table>
-					</
 					<p>
 						<input type="submit" value="Submit" /> <input type="reset"
 							value="Reset" />
@@ -91,28 +90,35 @@
 							<th>Offer</th>
 							<th>isk/lp</th>
 							<th>nb offers</th>
-							<th>Product</th>
-							<th>Product unit price</th>
-							<th>Total product quantity</th>
+							<th>Total gain</th>
+							<th>Produces</th>
+							<th>Consumes</th>
 							<th>Total material cost</th>
 							<th>Total margin cost</th>
 							<th>Total tedious cost</th>
-							<th>Total gain</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr th:each="offer : ${offers}">
 							<td><a th:href="${offer.url}" th:text="${offer.name}" /></td>
-							<td><span th:text="${offer.eval.iskplp}" /></td>
+							<td><span th:text="${offer.eval.formatedIskplp}" /></td>
 							<td><span th:text="${offer.eval.offerQuantity}" /></td>
-							<td><a th:href="${offer.finalProduct.url}"
-								th:text="${offer.finalProduct.type.name}" /></td>
-							<td><span th:text="${offer.eval.formatedProductUnitPrice}" /></td>
-							<td><span th:text="${offer.eval.productQuantity}" /></td>
+							<td><span th:text="${offer.eval.formatedGain}" /></td>
+							<td><span th:text="${offer.eval.productQuantity}" />× <a
+								th:href="${offer.finalProduct.url}"
+								th:text="${offer.finalProduct.type.name}" /> @ <span
+								th:text="${offer.eval.formatedProductUnitPrice}" /> /u</td>
+							<td>
+								<ul>
+									<li th:each="mat : ${offer.materials}">
+										<span th:text="${mat.quantity}" />× 
+										<a th:href="${mat.url}"	th:text="${mat.type.name}" />
+									</li>
+								</ul>
+							</td>
 							<td><span th:text="${offer.eval.formatedMaterialCost}" /></td>
 							<td><span th:text="${offer.eval.formatedMarginCost}" /></td>
 							<td><span th:text="${offer.eval.formatedTediousCost}" /></td>
-							<td><span th:text="${offer.eval.formatedGain}" /></td>
 						</tr>
 					</tbody>
 				</table>

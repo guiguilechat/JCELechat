@@ -103,17 +103,19 @@
 							<td><span th:text="${eval.factory.name}" /></td>
 							<td><span th:text="${eval.formatedTotalGain}" /></td>
 							<td><ul>
-									<li th:each="prod : ${eval.linkedProd}"><span
-										th:text="${prod.quantity}" />×<a th:href="${prod.url}"
-										th:text="${prod.type.name}" /></li>
-								</ul></td>
+									<li th:each="prod : ${eval.linkedProd}">
+									<span th:text="${prod.quantity}" />×
+										<a th:href="${prod.url}" th:text="${prod.type.name}" /></li>
+								</ul>
+							</td>
 							<td><span th:text="${eval.formatedTotalSale}" /></td>
 							<td><span th:text="${eval.formatedTotalCost}" /></td>
 							<td><ul>
 									<li th:each="consume : ${eval.linkedMats}"><span
 										th:text="${consume.quantity}" />×<a th:href="${consume.url}"
 										th:text="${consume.type.name}" /></li>
-								</ul></td>
+								</ul>
+							</td>
 							<td><span th:text="${eval.formatedMaterialCost}" /></td>
 							<td><span th:text="${eval.formatedCustomTax}" /></td>
 							<td><span th:text="${eval.formatedVolCost}" /></td>

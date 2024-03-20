@@ -36,7 +36,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedOffer;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 
 @Controller
@@ -112,7 +112,7 @@ public class DogmaHtmlController {
 				product.getProbability());
 	}
 
-	public static record LinkedMaterial(String url, Type type, int quantity) {
+	public static record LinkedMaterial(String url, Type type, long quantity) {
 	}
 
 	public LinkedMaterial linkedMaterial(Material material) {
@@ -122,11 +122,15 @@ public class DogmaHtmlController {
 				material.getQuantity());
 	}
 
-	public LinkedMaterial linkedMaterial(Type type, int quantity) {
+	public LinkedMaterial linkedMaterial(Type type, long quantity) {
 		return new LinkedMaterial(
 				uri(type).toString(),
 				type,
 				quantity);
+	}
+
+	public LinkedMaterial linkedMaterial(int typeId, long quantity) {
+		return linkedMaterial(typeService.byId(typeId).orElse(null), quantity);
 	}
 
 	public static record LinkedActivity(String url, Type type, ACTIVITY_TYPE activity, int quantity, double probability,
@@ -206,9 +210,9 @@ public class DogmaHtmlController {
 					.sorted(Comparator.comparing(u -> u.type().getName()))
 					.toList();
 			model.addAttribute("productOf", productOf);
-			List<LinkedOffer> offers =
+			List<LinkedLPOffer> offers =
 					corporationOfferService.producing(t).stream()
-							.map(npcHtmlController::linkedOffer)
+							.map(npcHtmlController::linkedLPOffer)
 							.sorted(Comparator.comparing(lo -> lo.offer().name()))
 							.toList();
 			model.addAttribute("offers", offers);

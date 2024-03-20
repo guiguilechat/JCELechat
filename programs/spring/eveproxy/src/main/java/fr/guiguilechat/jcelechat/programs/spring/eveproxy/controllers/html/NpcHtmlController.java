@@ -19,10 +19,11 @@ import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.LPStoreCorporationService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferEvalService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferEvalService.EvalParams;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.OfferEvalService.OfferEval;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService.EvalParams;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService.LPOfferEval;
 
 @Controller
 @RequestMapping("/html/npc")
@@ -35,7 +36,8 @@ public class NpcHtmlController {
 	private LPStoreCorporationService lpStoreCorporationService;
 
 	@Autowired
-	private OfferEvalService offerValueService;
+	private LPOfferEvalService offerValueService;
+
 
 	private DogmaHtmlController dogmaHtmlController;
 
@@ -67,15 +69,16 @@ public class NpcHtmlController {
 				.toUri();
 	}
 
-	public static record LinkedOffer(String url, CorporationOffer offer) {
+	public static record LinkedLPOffer(String url, CorporationOffer offer) {
 
 	}
 
-	public LinkedOffer linkedOffer(CorporationOffer offer) {
-		return new LinkedOffer(uri(offer).toString(), offer);
+	public LinkedLPOffer linkedLPOffer(CorporationOffer offer) {
+		return new LinkedLPOffer(uri(offer).toString(), offer);
 	}
 
-	public static record LinkedOfferEval(String url, OfferEval eval, LinkedType finalProduct) {
+	public static record LinkedLPOfferEval(String url, LPOfferEval eval, LinkedType finalProduct,
+			List<LinkedMaterial> materials) {
 
 		public String name() {
 			return "[" + eval.getOffer().getCorporation().getName() + "] "
@@ -84,9 +87,16 @@ public class NpcHtmlController {
 		}
 	}
 
-	public LinkedOfferEval linkedOfferEval(OfferEval eval) {
-		return new LinkedOfferEval(uri(eval.getOffer()).toString(), eval,
-				dogmaHtmlController.linkedType(eval.getFinalProduct()));
+	public LinkedLPOfferEval linkedLPOfferEval(LPOfferEval eval) {
+		return new LinkedLPOfferEval(
+				uri(eval.getOffer()).toString(),
+				eval,
+				dogmaHtmlController.linkedType(eval.getFinalProduct()),
+				eval.getMaterialsByTypeId().entrySet().stream()
+						.map(e -> dogmaHtmlController.linkedMaterial(e.getKey(), e.getValue()))
+						.sorted(Comparator.comparing(lm -> lm.type().getName()))
+						.toList()
+		);
 	}
 
 	@GetMapping("/corporation/{corporationId}")
@@ -117,8 +127,8 @@ public class NpcHtmlController {
 						params.getBrpct(),
 						params.getTaxpct(), params.getMarginhour(), params.getMargin(), params.getBpcost(), params.getLocation())
 						.stream()
-						.sorted(Comparator.comparing(OfferEval::getIskplp).reversed())
-						.map(this::linkedOfferEval)
+						.sorted(Comparator.comparing(LPOfferEval::getIskplp).reversed())
+						.map(this::linkedLPOfferEval)
 						.toList());
 
 		model.addAttribute("params", params);
