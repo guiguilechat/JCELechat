@@ -71,10 +71,9 @@
 							</tr>
 						</tbody>
 					</table>
-					</
 					<p>
-						<input type="submit" value="Submit" /> <input type="reset"
-							value="Reset" />
+						<input type="submit" value="Submit" />
+						<input type="reset"	value="Reset" />
 					</p>
 				</form>
 			</div>
@@ -110,7 +109,7 @@
 							</td>
 							<td><span th:text="${eval.formatedTotalSale}" /></td>
 							<td><span th:text="${eval.formatedTotalCost}" /></td>
-							<td><ul>
+							<td><ul class="user-select-all">
 									<li th:each="consume : ${eval.linkedMats}"><span
 										th:text="${consume.quantity}" /> <a th:href="${consume.url}"
 										th:text="${consume.type.name}" /></li>

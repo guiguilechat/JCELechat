@@ -74,8 +74,8 @@
 						</tbody>
 					</table>
 					<p>
-						<input type="submit" value="Submit" /> <input type="reset"
-							value="Reset" />
+						<input type="submit" value="Submit" />
+						<input type="reset"	value="Reset" />
 					</p>
 				</form>
 			</div>
@@ -110,7 +110,7 @@
 									th:text="${offer.finalProduct.type.name}" /> @ <span
 									th:text="${offer.eval.formatedProductUnitPrice}" />/u</td>
 								<td>
-									<ul>
+									<ul class="user-select-all">
 										<li th:each="mat : ${offer.materials}"><span
 											th:text="${mat.quantity}" /> <a th:href="${mat.url}"
 											th:text="${mat.type.name}" /></li>
