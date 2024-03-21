@@ -42,6 +42,8 @@ public class Schematic implements Serializable {
 
 	private int cpuLoad;
 
+	private int powerLoad;
+
 	public static Schematic of(EplanetSchematics schem, int id) {
 		SchematicBuilder builder = builder()
 				.id(id)

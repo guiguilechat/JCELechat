@@ -387,6 +387,11 @@ public class SDEUpdateService {
 					List<Integer> pins = e.getValue().pins;
 					if (pins != null && !pins.isEmpty()) {
 						List<TypeAttribute> pipAtts = attributesByTypeId.get(pins.get(0));
+						TypeAttribute pgAtt = pipAtts.stream().filter(ta -> ta.getAttribute().getAttributeId() == 15)
+								.findFirst().orElse(null);
+						if (pgAtt != null) {
+							ret.setPowerLoad(pgAtt.getAttValue().intValue());
+						}
 						TypeAttribute cpuLoadAtt = pipAtts.stream().filter(ta -> ta.getAttribute().getAttributeId() == 49)
 								.findFirst().orElse(null);
 						if (cpuLoadAtt != null) {

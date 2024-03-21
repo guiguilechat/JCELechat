@@ -30,32 +30,45 @@ public class NLaunchpadsWithSchematics implements PlanetaryFactory {
 	private static final float TOTAL_CPU = 25415;
 	private static final int LP_CPU = 3600;
 
+	private static final float TOTAL_PG = 19000;
+	private static final int LP_PG = 700;
+
 	private static final int LAUNCHPAD_STORAGE = 10000;
 
 	public static int linkCpu(int layer) {
 		return 17 + layer * 3;
 	}
 
+	public static int linkPg(int layer) {
+		return 9 + layer * 4;
+	}
+
 	public static int maxSchematics(int layer) {
 		return 6 * layer;
 	}
 
-	public static int nbSchematics(int nbLaunchpads, int schematicsCpu) {
+	public static int nbSchematics(int nbLaunchpads, int schematicsCpu, int schematicsPg) {
 		int cpuPerGroup = (int) Math.floor(TOTAL_CPU / nbLaunchpads);
+		int pgPerGroup = (int) Math.floor(TOTAL_PG / nbLaunchpads);
 		int remainingGroupCpu = cpuPerGroup - LP_CPU;
+		int remainingGroupPg = pgPerGroup - LP_PG;
 		int groupSchematics = 0;
 		int linkedPipCpu = schematicsCpu;
-		for (int layer = 1; layer <= 8 && linkedPipCpu <= remainingGroupCpu; layer++) {
+		int linkedPipPg = schematicsPg;
+		for (int layer = 1; layer <= 8 && linkedPipCpu <= remainingGroupCpu && linkedPipPg <= remainingGroupPg; layer++) {
 			linkedPipCpu = schematicsCpu + linkCpu(layer);
+			linkedPipPg = schematicsPg + linkPg(layer);
 			int layerSchematics = Math.min(maxSchematics(layer), remainingGroupCpu / linkedPipCpu);
+			layerSchematics = Math.min(layerSchematics, remainingGroupPg / linkedPipPg);
 			remainingGroupCpu -= layerSchematics * linkedPipCpu;
+			remainingGroupPg -= layerSchematics * linkedPipPg;
 			groupSchematics += layerSchematics;
 		}
 		return groupSchematics * nbLaunchpads;
 	}
 
 	public NLaunchpadsWithSchematics(Schematic schematic, int nbLP) {
-		this(schematic, nbSchematics(nbLP, schematic.getCpuLoad()), nbLP);
+		this(schematic, nbSchematics(nbLP, schematic.getCpuLoad(), schematic.getPowerLoad()), nbLP);
 	}
 
 	@Override
