@@ -105,15 +105,14 @@
 							<td><span th:text="${eval.formatedTotalGain}" /></td>
 							<td><ul>
 									<li th:each="prod : ${eval.linkedProd}">
-									<span th:text="${prod.quantity}" />×
-										<a th:href="${prod.url}" th:text="${prod.type.name}" /></li>
+									<span th:text="${prod.quantity}" /> <a th:href="${prod.url}" th:text="${prod.type.name}" /></li>
 								</ul>
 							</td>
 							<td><span th:text="${eval.formatedTotalSale}" /></td>
 							<td><span th:text="${eval.formatedTotalCost}" /></td>
 							<td><ul>
 									<li th:each="consume : ${eval.linkedMats}"><span
-										th:text="${consume.quantity}" />×<a th:href="${consume.url}"
+										th:text="${consume.quantity}" /> <a th:href="${consume.url}"
 										th:text="${consume.type.name}" /></li>
 								</ul>
 							</td>
