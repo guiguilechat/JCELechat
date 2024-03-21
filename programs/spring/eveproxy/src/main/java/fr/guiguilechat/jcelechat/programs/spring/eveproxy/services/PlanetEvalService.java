@@ -82,6 +82,7 @@ public class PlanetEvalService {
 		private double margin = 5.0;
 		private MaterialSourcing materialSourcing = MaterialSourcing.BUY_SO_MASS;
 		private int nbPlanets = 6;
+		private boolean onlyBest;
 		private ProductValuator productValuator = ProductValuator.SELL_BO_MASS;
 		private double taxpct = 3.6;
 		private double volumicPrice = 1000.0;
@@ -190,6 +191,14 @@ public class PlanetEvalService {
 
 		});
 		ret.sort(Comparator.comparing(fe -> -fe.getTotalGain()));
+		if (params.isOnlyBest()) {
+			ret = new ArrayList<>(ret.stream()
+					.collect(Collectors.groupingBy(eval -> eval.getLinkedProd().get(0).type()))
+					.values().stream()
+					.map(l -> l.get(0))
+					.toList());
+			ret.sort(Comparator.comparing(fe -> -fe.getTotalGain()));
+		}
 		return ret;
 	}
 

@@ -29,6 +29,7 @@
 								<th>custom tax, % of planetary value</th>
 								<th>margin cost, % of sale price</th>
 								<th>volumic price, isk/m³</th>
+								<th>only best by product</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -68,6 +69,8 @@
 									name="margin" th:value="${params.margin}" /></td>
 								<td><input class="form-control" type="number" step="0.1"
 									name="volumicPrice" th:value="${params.volumicPrice}" /></td>
+								<td><input type="checkbox" name="onlyBest" id="hs"
+									th:checked="${params.onlyBest}" /></td>
 							</tr>
 						</tbody>
 					</table>
@@ -102,14 +105,14 @@
 						<tr th:each="eval : ${evals}">
 							<td><span th:text="${eval.factory.name}" /></td>
 							<td><span th:text="${eval.formatedTotalGain}" /></td>
-							<td><ul>
+							<td><ul class="user-select-all border border-light">
 									<li th:each="prod : ${eval.linkedProd}">
 									<span th:text="${prod.quantity}" /> <a th:href="${prod.url}" th:text="${prod.type.name}" /></li>
 								</ul>
 							</td>
 							<td><span th:text="${eval.formatedTotalSale}" /></td>
 							<td><span th:text="${eval.formatedTotalCost}" /></td>
-							<td><ul class="user-select-all">
+							<td><ul class="user-select-all border border-light">
 									<li th:each="consume : ${eval.linkedMats}"><span
 										th:text="${consume.quantity}" /> <a th:href="${consume.url}"
 										th:text="${consume.type.name}" /></li>
