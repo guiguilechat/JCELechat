@@ -90,13 +90,13 @@
 					<thead class="thead-light sticky-top bg-light">
 						<tr>
 							<th>Installed</th>
-							<th>total gain</th>
+							<th>net gain</th>
 							<th>output</th>
-							<th>total sale</th>
+							<th>output gain</th>
 							<th>total cost</th>
 							<th>input</th>
-							<th>material cost</th>
-							<th>custom tax</th>
+							<th>input cost</th>
+							<th>customs cost</th>
 							<th>volumic cost</th>
 							<th>margin cost</th>
 						</tr>
@@ -105,14 +105,14 @@
 						<tr th:each="eval : ${evals}">
 							<td><span th:text="${eval.factory.name}" /></td>
 							<td><span th:text="${eval.formatedTotalGain}" /></td>
-							<td><ul class="user-select-all border border-light">
+							<td><ul class="user-select-all border border-info bg-light">
 									<li th:each="prod : ${eval.linkedProd}">
 									<span th:text="${prod.quantity}" /> <a th:href="${prod.url}" th:text="${prod.type.name}" /></li>
 								</ul>
 							</td>
 							<td><span th:text="${eval.formatedTotalSale}" /></td>
 							<td><span th:text="${eval.formatedTotalCost}" /></td>
-							<td><ul class="user-select-all border border-light">
+							<td><ul class="user-select-all border border-info bg-light">
 									<li th:each="consume : ${eval.linkedMats}"><span
 										th:text="${consume.quantity}" /> <a th:href="${consume.url}"
 										th:text="${consume.type.name}" /></li>

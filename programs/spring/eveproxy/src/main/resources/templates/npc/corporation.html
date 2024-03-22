@@ -105,12 +105,12 @@
 								<td><span th:text="${offer.eval.formatedIskplp}" /></td>
 								<td><span th:text="${offer.eval.offerQuantity}" /></td>
 								<td><span th:text="${offer.eval.formatedGain}" /></td>
-								<td><span class="user-select-all border border-light"><span th:text="${offer.eval.productQuantity}" /> <a
+								<td><span class="user-select-all border border-info bg-light"><span th:text="${offer.eval.productQuantity}" /> <a
 									th:href="${offer.finalProduct.url}"
 									th:text="${offer.finalProduct.type.name}" /></span> @ <span
 									th:text="${offer.eval.formatedProductUnitPrice}" />/u</td>
 								<td>
-									<ul class="user-select-all border border-light">
+									<ul th:if="${offer.materials!=null && !offer.materials.isEmpty()}" class="user-select-all border border-info bg-light">
 										<li th:each="mat : ${offer.materials}"><span
 											th:text="${mat.quantity}" /> <a th:href="${mat.url}"
 											th:text="${mat.type.name}" /></li>
