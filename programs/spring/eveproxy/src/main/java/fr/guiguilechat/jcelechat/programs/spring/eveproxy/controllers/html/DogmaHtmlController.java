@@ -37,6 +37,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
+import fr.guiguilechat.tools.FormatTools;
 import lombok.RequiredArgsConstructor;
 
 @Controller
@@ -71,6 +72,10 @@ public class DogmaHtmlController {
 
 	public static record Seed(String space, String regionName, int regionId, String systemName, long locationId,
 			double price) {
+
+		public String formatedPrice() {
+			return FormatTools.formatPrice(price);
+		}
 	}
 
 	Seed seed(LocatedBestOffer ol) {
@@ -213,8 +218,8 @@ public class DogmaHtmlController {
 							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 
-			model.addAttribute("adjusted", priceService.adjusted().get(t.getTypeId()));
-			model.addAttribute("average", priceService.average().get(t.getTypeId()));
+			model.addAttribute("adjusted", priceService.adjusted().get(t.getTypeId()).longValue());
+			model.addAttribute("average", FormatTools.formatPrice(priceService.average().get(t.getTypeId())));
 			if (!manufProd.isEmpty()) {
 				model.addAttribute("eiv", (long) eivService.eiv(t.getTypeId()));
 			}
@@ -224,11 +229,11 @@ public class DogmaHtmlController {
 			}
 			List<RegionLine> bos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getTypeId(), true);
 			if (bos != null && !bos.isEmpty()) {
-				model.addAttribute("jitabo", bos.get(bos.size() - 1).getOrder().price);
+				model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(bos.size() - 1).getOrder().price));
 			}
 			List<RegionLine> sos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getTypeId(), false);
 			if (sos != null && !sos.isEmpty()) {
-				model.addAttribute("jitaso", sos.get(0).getOrder().price);
+				model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getOrder().price));
 			}
 		}
 		return "dogma/type";
