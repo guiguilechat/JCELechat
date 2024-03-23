@@ -7,14 +7,21 @@ This program uses various Eve libs that fetch and store data into a DB to presen
 An [example docker compose](docker/compose) is provided to start both the tomcat server and a postgresql server.
 The version is latest so some bug may be present, it's not suitable for stable env.
 
-You can start it using 
+You can start it using  (the pull command is to update the lastest version)
 
 ```bash
 curl https://raw.githubusercontent.com/guiguilechat/JCELechat/master/programs/spring/eveproxy/docker/compose/postgres-tomcat.yml -o eveproxy.compose.yaml
+docker compose -f eveproxy.compose.yaml pull
 docker compose -f eveproxy.compose.yaml up -d
 ```
 
-Then use `docker logs eveproxy-tomcat` to have logs, and access it on local host 8080 port.
+Once started, to have the logs :
+
+```bash
+docker logs -f eveproxy-tomcat
+```
+
+http access is on [local host port 8080](http://localhost:8080).
 
 To stop it use
 
@@ -22,7 +29,7 @@ To stop it use
 docker stop eveproxy-tomcat eveproxy-postgres
 ```
 
-To purge it (to start them later or not)
+To purge it (to reinit later or to get rid of it)
 
 ```bash
 docker container rm eveproxy-tomcat eveproxy-postgres
