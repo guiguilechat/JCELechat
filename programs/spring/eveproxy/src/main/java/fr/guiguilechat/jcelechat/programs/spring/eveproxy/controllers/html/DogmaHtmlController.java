@@ -234,6 +234,17 @@ public class DogmaHtmlController {
 		return "dogma/type";
 	}
 
+	@GetMapping("/type/{typeFiltering}")
+	public String getTypeParam(Model model, @PathVariable String typeFiltering,
+			String filter) {
+		return getType(model, typeFiltering, filter);
+	}
+
+	@GetMapping("/types")
+	public String getTypesIndex() {
+		return "dogma/types";
+	}
+
 	public URI uri(Group group) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getGroup", null, group.getGroupId()).build()
 				.toUri();
@@ -275,6 +286,11 @@ public class DogmaHtmlController {
 				.toList());
 
 		return "dogma/group";
+	}
+
+	@GetMapping("/group/gi")
+	public String getGroupById(Model model, int groupId) {
+		return getGroup(model, groupId);
 	}
 
 	public URI uri(Category category) {

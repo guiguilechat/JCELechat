@@ -1,0 +1,19 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>Eve proxy</title>
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+</body>
+	<ul>
+		<li><a th:href="@{/swagger-ui/index.html}">API Swagger</a></li>
+		<li><a th:href="@{/html/npc/corporations}">LP corporations</a></li>
+		<li><a th:href="@{/html/dogma/types}">Types</a></li>
+		<li><a th:href="@{/html/planet/factories}">Planetary factories</a></li>
+	</ul>
+
+</html>
