@@ -7,7 +7,6 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -21,26 +20,23 @@ import fr.guiguilechat.jcelechat.libs.spring.npc.model.OfferRequirement;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class CorporationOfferUpdateService {
 
-	@Autowired
-	private CacheManager cacheManager;
+	final private CacheManager cacheManager;
 
-	@Autowired
-	private CorporationOfferService corporationOfferService;
+	final private CorporationOfferService corporationOfferService;
 
-	@Autowired
-	private LPStoreCorporationService lpStoreCorporationService;
+	final private LPStoreCorporationService lpStoreCorporationService;
 
-	@Autowired
-	private OfferRequirementService offerRequirementService;
+	final private OfferRequirementService offerRequirementService;
 
-	@Autowired
-	private TypeService typeService;
+	final private TypeService typeService;
 
 	@Async
 	@Transactional

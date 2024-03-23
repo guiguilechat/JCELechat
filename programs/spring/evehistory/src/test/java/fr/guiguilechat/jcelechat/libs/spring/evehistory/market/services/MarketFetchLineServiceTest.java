@@ -19,11 +19,13 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.repositories.Mark
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.repositories.ObservedRegionRepository;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.services.FetchJitaMarket.Fetch;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.services.FetchJitaMarket.SavedLines;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK, classes = EveHistoryApp.class)
 @TestPropertySource(locations = "classpath:integrationtests.properties")
+@RequiredArgsConstructor
 public class MarketFetchLineServiceTest {
 
 	@Autowired
@@ -89,7 +91,6 @@ public class MarketFetchLineServiceTest {
 		List<MarketFetchResult> withOrdersExists = resultService.listByStatus(STATUS.ORDERSEXIST);
 		Assert.state(withOrdersExists.size() > 2,
 				"found with orders exists = " + withOrdersExists + " all=" + resultService.list());
-
 
 		for (MarketFetchResult mfr : resultService.list()) {
 			log.info(

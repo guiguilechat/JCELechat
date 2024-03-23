@@ -2,21 +2,21 @@ package fr.guiguilechat.jcelechat.libs.spring.market.services;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.ObservedRegionRepository;
 import jakarta.annotation.PostConstruct;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class ObservedRegionService {
 
-	@Autowired
-	private ObservedRegionRepository repo;
+	final private ObservedRegionRepository repo;
 
 	public void activate(int regionId, boolean active) {
 		ObservedRegion stored = repo.findById(regionId).orElse(null);

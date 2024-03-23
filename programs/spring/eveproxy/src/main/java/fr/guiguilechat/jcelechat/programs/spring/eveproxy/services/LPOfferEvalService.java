@@ -7,7 +7,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
@@ -26,19 +25,19 @@ import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class LPOfferEvalService {
 
-	@Autowired
-	private BlueprintActivityService blueprintActivityService;
+	final private BlueprintActivityService blueprintActivityService;
 
-	@Autowired
-	private RegionLineService regionLineService;
+	final private RegionLineService regionLineService;
 
 	@Getter
 	@Setter
@@ -188,7 +187,8 @@ public class LPOfferEvalService {
 		long sosFetched = System.currentTimeMillis();
 		List<LPOfferEval> ret = offers.parallelStream()
 				.map(o -> value(o, minLpAmount, materialSourcing, productValuator, brokerPct, taxPct, marginPct,
-				marginPctPerHour, bpCost, typeToActivities, bosByTypeId, sosByTypeId)).toList();
+						marginPctPerHour, bpCost, typeToActivities, bosByTypeId, sosByTypeId))
+				.toList();
 		long evaluated = System.currentTimeMillis();
 		log.debug(" evaluated " + offers.size()
 				+ " offers"

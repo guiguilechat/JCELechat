@@ -30,7 +30,7 @@ public class FetchJitaMarket {
 	public static record SavedLines(List<Fetch> fetched) {
 		public SavedLines() {
 			this(new ArrayList<>());
-		} 
+		}
 	}
 
 	static final String FILE_DATA = "Jita4.json";
@@ -38,7 +38,7 @@ public class FetchJitaMarket {
 
 	public static void main(String[] args)
 			throws InterruptedException, StreamWriteException, DatabindException, IOException {
-		MarketFetchService service = new MarketFetchService();
+		MarketFetchService service = new MarketFetchService(null, null, null);
 		String lastEtag = null;
 		int JitaId = 10000002;
 		ObservedRegion theForge = ObservedRegion.builder().regionId(JitaId).active(true).build();

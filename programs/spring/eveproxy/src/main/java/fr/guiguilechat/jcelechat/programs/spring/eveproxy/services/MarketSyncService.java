@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -13,20 +12,19 @@ import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.ObservedRegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class MarketSyncService {
 
-	@Autowired
-	private RegionService rService;
+	final private RegionService rService;
 
-	@Autowired
-	private ObservedRegionService orService;
+	final private ObservedRegionService orService;
 
-	@Autowired
-	private KillDataService killDataService;
+	final private KillDataService killDataService;
 
 	@Value("${eveproxy.market.regionsskip:false}")
 	private boolean skipRegionSync;
@@ -54,8 +52,8 @@ public class MarketSyncService {
 	@Scheduled(fixedRateString = "${eveproxy.sync.killperiod:30000}", initialDelayString = "${eveproxy.sync.killdelay:30000}")
 	public void updateKillData() {
 		if (!skipKillSync) {
-		killDataService.createMissing();
-	}
+			killDataService.createMissing();
+		}
 	}
 
 }

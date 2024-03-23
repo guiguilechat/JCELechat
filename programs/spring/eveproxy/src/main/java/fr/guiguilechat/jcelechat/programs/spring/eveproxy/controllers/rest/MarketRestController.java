@@ -16,7 +16,6 @@ import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYDataItem;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -40,16 +39,14 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/market")
+@RequiredArgsConstructor
 public class MarketRestController {
 
-	@Autowired
-	private RegionLineService rlService;
+	final private RegionLineService rlService;
 
-	@Autowired
-	private TypeService typeService;
+	final private TypeService typeService;
 
-	@Autowired
-	private RegionService regionService;
+	final private RegionService regionService;
 
 	/** which market to observe ? Either a region or a location */
 	public static record PlaceFilter(Region region, Long locationId) implements Serializable {
@@ -244,9 +241,9 @@ public class MarketRestController {
 		}
 	}
 
-	List<MarketOffer> offers(String placeFiltering, String placeFilter,int typeId, boolean buy_order){
+	List<MarketOffer> offers(String placeFiltering, String placeFilter, int typeId, boolean buy_order) {
 		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
-		return (buy_order?place.bos(rlService, typeId):place.sos(rlService, typeId))
+		return (buy_order ? place.bos(rlService, typeId) : place.sos(rlService, typeId))
 				.stream().map(MarketOffer::new).toList();
 	}
 
@@ -282,7 +279,7 @@ public class MarketRestController {
 
 	@GetMapping("/{placeFiltering}/{placeFilter}/{typeFiltering}/{typeFilter}/chart")
 	public void chartbyLocationByType(@PathVariable String placeFiltering, @PathVariable String placeFilter,
-			@PathVariable String typeFiltering,	@PathVariable String typeFilter,
+			@PathVariable String typeFiltering, @PathVariable String typeFilter,
 			HttpServletResponse response,
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> bcolor) throws IOException {
@@ -332,12 +329,14 @@ public class MarketRestController {
 	}
 
 	@GetMapping("/selllocations/byTypeId/{typeId}")
-	public ResponseEntity<List<LocatedBestOffer>> soByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+	public ResponseEntity<List<LocatedBestOffer>> soByType(@PathVariable int typeId,
+			@RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.sellLocations(typeId), accept);
 	}
 
 	@GetMapping("/buylocations/byTypeId/{typeId}")
-	public ResponseEntity<List<LocatedBestOffer>> boByType(@PathVariable int typeId, @RequestParam Optional<String> accept) {
+	public ResponseEntity<List<LocatedBestOffer>> boByType(@PathVariable int typeId,
+			@RequestParam Optional<String> accept) {
 		return RestControllerHelper.makeResponse(rlService.buyLocations(typeId), accept);
 	}
 

@@ -5,7 +5,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -38,50 +37,37 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
+import lombok.RequiredArgsConstructor;
 
 @Controller
 @RequestMapping("/html/dogma")
+@RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class DogmaHtmlController {
 
-	@Autowired
-	private CategoryService categoryService;
+	private final CategoryService categoryService;
 
-	@Autowired
-	private CorporationOfferService corporationOfferService;
+	private final CorporationOfferService corporationOfferService;
 
-	@Autowired
-	private EivService eivService;
+	private final EivService eivService;
 
-	@Autowired
-	private MaterialService materialService;
+	private final MaterialService materialService;
 
-	@Autowired
-	private GroupService groupService;
+	private final GroupService groupService;
 
-	@Autowired
-	private PriceService priceService;
+	@Lazy
+	private final NpcHtmlController npcHtmlController;
 
-	@Autowired
-	private ProductService productService;
+	private final PriceService priceService;
 
-	@Autowired
-	private RegionService regionService;
+	private final ProductService productService;
 
-	@Autowired
-	private RegionLineService regionLineService;
+	private final RegionService regionService;
 
-	@Autowired
-	private StationService stationService;
+	private final RegionLineService regionLineService;
 
-	@Autowired
-	private TypeService typeService;
+	private final StationService stationService;
 
-	private NpcHtmlController npcHtmlController;
-
-	@Autowired
-	public void setNpcHtmlController(@Lazy NpcHtmlController npcHtmlController) {
-		this.npcHtmlController = npcHtmlController;
-	}
+	private final TypeService typeService;
 
 	public static record Seed(String space, String regionName, int regionId, String systemName, long locationId,
 			double price) {

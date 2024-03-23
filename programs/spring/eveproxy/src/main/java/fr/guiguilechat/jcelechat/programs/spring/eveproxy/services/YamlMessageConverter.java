@@ -13,6 +13,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 // https://rm3l.org/handling-yaml-in-spring-rest-apis/
 
+// give access to yaml message transmission of objects in HTML
 @Component
 public class YamlMessageConverter extends AbstractJackson2HttpMessageConverter {
 

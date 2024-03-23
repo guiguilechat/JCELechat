@@ -8,7 +8,6 @@ import java.util.concurrent.CompletionException;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +17,7 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.services.MarketFetchResultService.TwoFetchResults;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -50,22 +50,18 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Service
 @Slf4j
+@RequiredArgsConstructor
 public class MarketSchedulerService {
 
-	@Autowired
-	MarketAnalyzeService analyzeService;
+	final MarketAnalyzeService analyzeService;
 
-	@Autowired
-	private MarketFetchResultService mfrService;
+	final private MarketFetchResultService mfrService;
 
-	@Autowired
-	private MarketFetchService fetchService;
+	final private MarketFetchService fetchService;
 
-	@Autowired
-	private MarketOrderService orderService;
+	final private MarketOrderService orderService;
 
-	@Autowired
-	private ObservedRegionService regionsService;
+	final private ObservedRegionService regionsService;
 
 	@Scheduled(fixedRate = 4 * 60 * 1000, initialDelayString = "${evehistory.market.fetchdelay:30000}")
 	public void fetchMarkets() {
@@ -106,7 +102,6 @@ public class MarketSchedulerService {
 				"created orders for " + results.size() + " results in " + (int) Math.ceil(0.001 * (endTime - startTime)) + "s");
 	}
 
-
 	@Scheduled(fixedRate = 4 * 60 * 1000, initialDelayString = "${evehistory.market.analyzedelay:90000}")
 	public void analyzeLines() {
 		long start = System.currentTimeMillis();
@@ -131,7 +126,6 @@ public class MarketSchedulerService {
 					+ (listed - start) + "ms dispatch=" + (dispatched - listed) + "ms join=" + (end - dispatched) + "ms)");
 		}
 	}
-
 
 	@Scheduled(fixedRate = 10 * 60 * 1000, initialDelayString = "${evehistory.market.purgedelay:600000}")
 	public void purgeOldEntries() {

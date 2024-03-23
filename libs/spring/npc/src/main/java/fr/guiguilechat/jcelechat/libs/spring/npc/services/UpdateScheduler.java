@@ -7,7 +7,6 @@ import java.util.concurrent.CompletionException;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -15,20 +14,19 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class UpdateScheduler {
 
-	@Autowired
-	private CacheManager cacheManager;
+	final private CacheManager cacheManager;
 
-	@Autowired
-	private CorporationOfferUpdateService corporationOfferUpdateService;
+	final private CorporationOfferUpdateService corporationOfferUpdateService;
 
-	@Autowired
-	private LPStoreCorporationService lpStoreCorporationService;
+	final private LPStoreCorporationService lpStoreCorporationService;
 
 	@Value("${npc.corporations.skip:false}")
 	private boolean skipCorporations;

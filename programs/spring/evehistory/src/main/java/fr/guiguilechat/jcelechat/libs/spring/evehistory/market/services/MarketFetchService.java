@@ -15,7 +15,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.stream.IntStream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
@@ -29,20 +28,19 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class MarketFetchService {
 
-	@Autowired
-	private MarketFetchLineService lineService;
+	final private MarketFetchLineService lineService;
 
-	@Autowired
-	private ObservedRegionService regionService;
+	final private ObservedRegionService regionService;
 
-	@Autowired
-	private MarketFetchResultService resultService;
+	final private MarketFetchResultService resultService;
 
 	private ForkJoinPool highParrallelPool = new ForkJoinPool(Runtime.getRuntime().availableProcessors() * 10);
 

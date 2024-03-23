@@ -14,7 +14,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.stream.IntStream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -27,23 +26,21 @@ import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class MarketUpdateService {
 
-	@Autowired
-	private CacheManager cacheManager;
+	final private CacheManager cacheManager;
 
-	@Autowired
-	private HistoryReqService htService;
+	final private HistoryReqService htService;
 
-	@Autowired
-	private RegionLineService rlService;
+	final private RegionLineService rlService;
 
-	@Autowired
-	private ObservedRegionService orService;
+	final private ObservedRegionService orService;
 
 	@Async
 	@Transactional

@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,13 +14,14 @@ import org.springframework.web.server.ResponseStatusException;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.SolarSystemService;
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/sde/solarsystem")
+@RequiredArgsConstructor
 public class SolarSystemRestController {
 
-	@Autowired
-	private SolarSystemService ssService;
+	final private SolarSystemService ssService;
 
 	record SolarSystemDTO(int solarSystemId, String name, int constellationId, int regionId, String universe,
 			List<Integer> adajcent) {

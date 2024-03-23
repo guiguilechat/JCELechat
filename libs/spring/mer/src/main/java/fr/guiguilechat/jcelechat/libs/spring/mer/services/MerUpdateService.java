@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -17,20 +16,19 @@ import fr.guiguilechat.jcelechat.libs.mer.MERFetcher;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher.MERFetch;
 import fr.guiguilechat.jcelechat.libs.spring.mer.model.Kill;
 import fr.guiguilechat.jcelechat.libs.spring.mer.model.LoadedMer;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class MerUpdateService {
 
-	@Autowired
-	private KillService killService;
+	final private KillService killService;
 
-	@Autowired
-	private LoadedMerService loadedMerService;
+	final private LoadedMerService loadedMerService;
 
-	@Autowired
-	private CacheManager cacheManager;
+	final private CacheManager cacheManager;
 
 	@Async
 	@Transactional
@@ -53,9 +51,9 @@ public class MerUpdateService {
 			log.info(" loaded MER for date " + localdate);
 		} else {
 			if (merfetch.error() == null) {
-				log.debug(""+localdate+" url="+merfetch.url());
+				log.debug("" + localdate + " url=" + merfetch.url());
 			} else {
-				log.debug(""+localdate+" url="+merfetch.url(), merfetch.error());
+				log.debug("" + localdate + " url=" + merfetch.url(), merfetch.error());
 			}
 		}
 		return CompletableFuture.completedFuture(null);

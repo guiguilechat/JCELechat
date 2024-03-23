@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -28,28 +27,24 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.ProductServi
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/industry")
+@RequiredArgsConstructor
 public class IndustryRestController {
 
-	@Autowired
-	private BlueprintActivityService blueprintActivityService;
+	final private BlueprintActivityService blueprintActivityService;
 
-	@Autowired
-	private EivService eivService;
+	final private EivService eivService;
 
-	@Autowired
-	private MaterialService materialService;
+	final private MaterialService materialService;
 
-	@Autowired
-	private ProductService productService;
+	final private ProductService productService;
 
-	@Autowired
-	private TypeService typeService;
+	final private TypeService typeService;
 
-	@Autowired
-	private RegionLineService regionLineService;
+	final private RegionLineService regionLineService;
 
 	public static record BPInfo(double eiv, double ptv1020, long researchSeconds, String researchHuman,
 			Map<ACTIVITY_TYPE, List<Integer>> produces) {

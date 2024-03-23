@@ -4,7 +4,6 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetchLine;
@@ -13,14 +12,15 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.repositories.MarketFetchResultRepository;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class MarketFetchResultService {
 
-	@Autowired
-	private MarketFetchResultRepository repo;
+	final private MarketFetchResultRepository repo;
 
 	public MarketFetchResult save(MarketFetchResult entity) {
 		if (entity.getCreatedDate() == null) {
@@ -61,7 +61,7 @@ public class MarketFetchResultService {
 		}
 	};
 
-	public List<LineOrder> listLinesAndOrders(MarketFetchResult mfr){
+	public List<LineOrder> listLinesAndOrders(MarketFetchResult mfr) {
 		return repo.listLinesOrders(mfr).stream().map(LineOrder::new).toList();
 	}
 

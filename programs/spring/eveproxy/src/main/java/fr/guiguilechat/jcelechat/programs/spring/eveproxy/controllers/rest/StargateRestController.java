@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,13 +26,12 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/sde/stargate")
+@RequiredArgsConstructor
 public class StargateRestController {
 
-	@Autowired
-	private StargateService stargateService;
+	final private StargateService stargateService;
 
-	@Autowired
-	private StationService stationService;
+	final private StationService stationService;
 
 	public static record TravelResult(int startId, String startName, int endId, String endName, boolean hs, String align,
 			String warpSpeed,

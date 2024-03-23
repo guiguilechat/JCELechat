@@ -7,7 +7,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryLine;
@@ -16,10 +15,10 @@ import fr.guiguilechat.jcelechat.libs.spring.market.repositories.HistoryLineRepo
 import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class HistoryLineService {
 
-	@Autowired
-	private HistoryLineRepository repo;
+	final private HistoryLineRepository repo;
 
 	public void saveAll(Iterable<HistoryLine> entities) {
 		for (HistoryLine entity : entities) {

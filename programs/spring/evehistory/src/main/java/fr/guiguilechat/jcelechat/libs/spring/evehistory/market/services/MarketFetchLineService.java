@@ -3,19 +3,19 @@ package fr.guiguilechat.jcelechat.libs.spring.evehistory.market.services;
 import java.time.Instant;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetchLine;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetchResult;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.repositories.MarketFetchLineRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class MarketFetchLineService {
 
-	@Autowired
-	private MarketFetchLineRepository repo;
+	final private MarketFetchLineRepository repo;
 
 	/**
 	 * update the values of a line that are computed from existing values, and clean
@@ -47,7 +47,6 @@ public class MarketFetchLineService {
 		repo.save(line);
 	}
 
-
 	/**
 	 * @return the number of orders linked to the result
 	 */
@@ -70,8 +69,7 @@ public class MarketFetchLineService {
 					(Number) line[1], (double) line[2], (Double) line[3],
 					(Number) line[4], (double) line[5], (Double) line[6],
 					(Number) line[7], (Number) line[8], (Number) line[9], (Number) line[10],
-					(Number) line[11], (Number) line[12], (Number) line[13], (Number) line[14]
-			);
+					(Number) line[11], (Number) line[12], (Number) line[13], (Number) line[14]);
 		}
 	}
 

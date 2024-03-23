@@ -3,17 +3,17 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.repositories.AttributeRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class AttributeService {
 
-	@Autowired
-	private AttributeRepository repo;
+	final private AttributeRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();

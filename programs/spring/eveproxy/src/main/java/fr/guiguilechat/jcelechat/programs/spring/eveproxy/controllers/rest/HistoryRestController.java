@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,13 +16,14 @@ import org.springframework.web.bind.annotation.RestController;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.HistoryLineService.WeightStrategy;
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/history")
+@RequiredArgsConstructor
 public class HistoryRestController {
 
-	@Autowired
-	private HistoryLineService hlService;
+	final private HistoryLineService hlService;
 
 	private final int NB_STEPS = 10;
 

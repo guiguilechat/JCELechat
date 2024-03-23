@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -16,14 +15,15 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.RegionLineRepository;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class RegionLineService {
 
-	@Autowired
-	private RegionLineRepository repo;
+	final private RegionLineRepository repo;
 
 	public RegionLine save(RegionLine entity) {
 		entity.affectFields();
@@ -115,7 +115,6 @@ public class RegionLineService {
 	}
 
 	/**
-	 *
 	 * @return existing lines with given region.regionId , order.type_id , and
 	 *           order.isbuyorder , ordered by price asc for SO and price desc for
 	 *           BO
@@ -127,7 +126,6 @@ public class RegionLineService {
 	}
 
 	/**
-	 *
 	 * @return existing lines with given order.type_id and order.isbuyorder ,
 	 *           ordered by price asc for SO and price desc for BO
 	 */
@@ -181,8 +179,6 @@ public class RegionLineService {
 	public Double soValueLocation(long locationId, int typeId, long quantity, boolean dump) {
 		return price(forLocation(locationId, typeId, false), quantity, !dump, true);
 	}
-
-
 
 	//
 	// places to buy/sell

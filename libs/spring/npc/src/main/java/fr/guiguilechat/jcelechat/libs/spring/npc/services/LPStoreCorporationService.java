@@ -9,7 +9,6 @@ import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -21,18 +20,18 @@ import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.LPStoreCorporationRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class LPStoreCorporationService {
 
-	@Autowired
-	private LPStoreCorporationRepository repo;
+	final private LPStoreCorporationRepository repo;
 
 	public static List<String> CORPORATIONS_CACHES = List.of(
-			"lpCorpActive"
-	);
+			"lpCorpActive");
 
 	public Optional<LPStoreCorporation> byId(int corporationId) {
 		return repo.findById(corporationId);

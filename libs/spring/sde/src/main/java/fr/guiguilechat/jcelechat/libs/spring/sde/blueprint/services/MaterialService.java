@@ -2,19 +2,19 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.repositories.MaterialRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class MaterialService {
 
-	@Autowired
-	private MaterialRepository repo;
+	final private MaterialRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();

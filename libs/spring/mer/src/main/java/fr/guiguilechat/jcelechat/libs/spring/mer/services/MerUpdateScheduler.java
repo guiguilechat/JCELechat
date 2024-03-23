@@ -9,21 +9,21 @@ import java.util.concurrent.CompletionException;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher.MERFetch;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class MerUpdateScheduler {
 
-	@Autowired
-	private MerUpdateService merUpdateService;
+	final private MerUpdateService merUpdateService;
 
 	@Value("${mer.updater.fetchsize:10}")
 	private int maxFetches;

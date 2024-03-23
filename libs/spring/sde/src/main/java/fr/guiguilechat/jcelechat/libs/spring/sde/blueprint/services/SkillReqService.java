@@ -2,19 +2,19 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.SkillReq;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.repositories.SkillReqRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class SkillReqService {
 
-	@Autowired
-	private SkillReqRepository repo;
+	final private SkillReqRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();

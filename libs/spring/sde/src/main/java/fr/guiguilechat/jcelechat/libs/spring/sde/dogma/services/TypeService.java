@@ -4,17 +4,17 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.repositories.TypeRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class TypeService {
 
-	@Autowired
-	private TypeRepository repo;
+	final private TypeRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();
@@ -27,7 +27,6 @@ public class TypeService {
 	public Type save(Type entity) {
 		return repo.save(entity);
 	}
-
 
 	public Optional<Type> byId(int typeId) {
 		return repo.findById(typeId);

@@ -18,7 +18,6 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.CacheManager;
 import org.springframework.stereotype.Service;
@@ -76,68 +75,51 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Moon;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.NPCStation;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Planet;
 import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class SDEUpdateService {
 
-	@Autowired
-	private CacheManager cacheManager;
+	final private CacheManager cacheManager;
 
-	@Autowired
-	private AttributeService attributeService;
+	final private AttributeService attributeService;
 
-	@Autowired
-	private BlueprintActivityService blueprintActivityService;
+	final private BlueprintActivityService blueprintActivityService;
 
-	@Autowired
-	private CategoryService categoryService;
+	final private CategoryService categoryService;
 
-	@Autowired
-	private ConstellationService constellationService;
+	final private ConstellationService constellationService;
 
-	@Autowired
-	private GroupService groupService;
+	final private GroupService groupService;
 
-	@Autowired
-	private MaterialService materialService;
+	final private MaterialService materialService;
 
-	@Autowired
-	private ProductService productService;
+	final private ProductService productService;
 
-	@Autowired
-	private RegionService regionService;
+	final private RegionService regionService;
 
-	@Autowired
-	private SchematicService schematicService;
+	final private SchematicService schematicService;
 
-	@Autowired
-	private SchemMaterialService schemMaterialService;
+	final private SchemMaterialService schemMaterialService;
 
-	@Autowired
-	private SchemProductService schemProductService;
+	final private SchemProductService schemProductService;
 
-	@Autowired
-	private SkillReqService skillService;
+	final private SkillReqService skillService;
 
-	@Autowired
-	private SolarSystemService solarsystemService;
+	final private SolarSystemService solarsystemService;
 
-	@Autowired
-	private StargateService stargateService;
+	final private StargateService stargateService;
 
-	@Autowired
-	private StationService stationService;
+	final private StationService stationService;
 
-	@Autowired
-	private TypeAttributeService typeattributeService;
+	final private TypeAttributeService typeattributeService;
 
-	@Autowired
-	private TypeService typeService;
+	final private TypeService typeService;
 
-	@Autowired
-	private UpdateResultService updateresultService;
+	final private UpdateResultService updateresultService;
 
 	@Value("${sde.updater.forcereinsert:false}")
 	private boolean forceReinsert;

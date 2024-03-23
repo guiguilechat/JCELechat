@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -17,16 +16,16 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.industry.model.IndustryF
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.industry.model.IndustryFetchResult.STATUS;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.industry.model.IndustrySystemCostIndex;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class IndustryFetchService {
 
-	@Autowired
-	private IndustryFetchResultService ifrService;
-	@Autowired
-	private IndustrySystemCostIndexService isciService;
+	private final IndustryFetchResultService ifrService;
+	private final IndustrySystemCostIndexService isciService;
 
 	@Scheduled(fixedRate = 30 * 60 * 1000, initialDelayString = "${evehistory.industry.fetchdelay:120000}")
 	public void fetchIndexes() {

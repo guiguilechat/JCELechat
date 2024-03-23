@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
@@ -17,23 +16,21 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.repositories.MarketOrderRepository;
 import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class MarketAnalyzeService {
 
-	@Autowired
-	private MarketFetchLineService mflService;
+	final private MarketFetchLineService mflService;
 
-	@Autowired
-	private MarketFetchResultService mfrService;
+	final private MarketFetchResultService mfrService;
 
-	@Autowired
-	private MarketOrderService orderService;
+	final private MarketOrderService orderService;
 
-	@Autowired
-	private MarketOrderRepository orderRepo;
+	final private MarketOrderRepository orderRepo;
 
 	@Async
 	@Transactional
@@ -118,8 +115,10 @@ public class MarketAnalyzeService {
 				"analyze of marketfetch=" + result.getId() + " regionid=" +
 						result.getRegion().getRegionId() + " in "
 						+ (endTime - startTime)
-						+ "ms (fetch=" + (fetchedTime - startTime) + " analyze=" + (analyzedTime - fetchedTime) + " save=" + (endTime - analyzedTime)
-						+ ") : created:" + created + " changed:" + changed + " last:" + lastOccurence + " delete:" + deletedLines.size());
+						+ "ms (fetch=" + (fetchedTime - startTime) + " analyze=" + (analyzedTime - fetchedTime) + " save="
+						+ (endTime - analyzedTime)
+						+ ") : created:" + created + " changed:" + changed + " last:" + lastOccurence + " delete:"
+						+ deletedLines.size());
 		return CompletableFuture.completedFuture(null);
 	}
 

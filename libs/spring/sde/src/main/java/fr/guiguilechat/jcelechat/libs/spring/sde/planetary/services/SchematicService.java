@@ -2,17 +2,17 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.Schematic;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.repositories.SchematicRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class SchematicService {
 
-	@Autowired
-	private SchematicRepository repo;
+	final private SchematicRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();

@@ -2,20 +2,19 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.updater.services;
 
 import java.time.Instant;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult.STATUS;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.repositories.UpdateResultRepository;
 import jakarta.transaction.Transactional;
-
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class UpdateResultService {
 
-	@Autowired
-	private UpdateResultRepository repo;
+	final private UpdateResultRepository repo;
 
 	/**
 	 * consider no previous fetch was performed

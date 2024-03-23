@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
@@ -14,14 +13,15 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.model.KillData;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.repositories.KillDataRepository;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class KillDataService {
 
-	@Autowired
-	private KillDataRepository repo;
+	final private KillDataRepository repo;
 
 	public void saveAll(Iterable<KillData> entities) {
 		entities.forEach(KillData::updateValues);

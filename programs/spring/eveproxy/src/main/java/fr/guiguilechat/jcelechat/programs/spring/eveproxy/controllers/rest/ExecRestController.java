@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,13 +9,14 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.UpdateResultSe
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/exec")
+@RequiredArgsConstructor
 public class ExecRestController {
 
-	@Autowired
-	private UpdateResultService urService;
+	final private UpdateResultService urService;
 
 	@Operation(summary = "force SDE fetch", description = "request next SDE fetch to be forced")
 	@ApiResponses(value = {

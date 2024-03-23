@@ -4,7 +4,6 @@ import java.net.URI;
 import java.util.Comparator;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -24,27 +23,21 @@ import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.Dogma
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService.EvalParams;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService.LPOfferEval;
+import lombok.RequiredArgsConstructor;
 
 @Controller
 @RequestMapping("/html/npc")
+@RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class NpcHtmlController {
 
-	@Autowired
-	private CorporationOfferService corporationOfferService;
+	private final CorporationOfferService corporationOfferService;
 
-	@Autowired
-	private LPStoreCorporationService lpStoreCorporationService;
+	private final LPStoreCorporationService lpStoreCorporationService;
 
-	@Autowired
-	private LPOfferEvalService offerValueService;
+	private final LPOfferEvalService offerValueService;
 
-
-	private DogmaHtmlController dogmaHtmlController;
-
-	@Autowired
-	public void setDogmaHtmlController(@Lazy DogmaHtmlController dogmaHtmlController) {
-		this.dogmaHtmlController = dogmaHtmlController;
-	}
+	@Lazy
+	private final DogmaHtmlController dogmaHtmlController;
 
 	@GetMapping("/corporation/{corporationId}/offer/{offerId}")
 	public String getOffer(Model model, @PathVariable int corporationId, @PathVariable int offerId) {

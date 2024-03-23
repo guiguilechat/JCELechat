@@ -4,18 +4,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.prices.model.Price;
 import fr.guiguilechat.jcelechat.libs.spring.prices.repositories.PriceRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class PriceService {
 
-	@Autowired
-	private PriceRepository repo;
+	final private PriceRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();

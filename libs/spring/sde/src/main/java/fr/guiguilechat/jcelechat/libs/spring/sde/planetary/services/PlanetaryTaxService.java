@@ -3,18 +3,18 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.TypeAttribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeAttributeService;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class PlanetaryTaxService {
 
-	@Autowired
-	private TypeAttributeService typeAttributeService;
+	final private TypeAttributeService typeAttributeService;
 
 	private static final int EXPORTTAXMULTIPLIER_ID = 1641;
 

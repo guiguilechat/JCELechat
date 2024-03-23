@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.spring.evehistory.market.controllers.rest
 
 import java.time.Instant;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,16 +13,16 @@ import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetch
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.services.MarketFetchResultService;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.services.ObservedRegionService;
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/market/result")
+@RequiredArgsConstructor
 public class RestMarketFetchResult {
 
-	@Autowired
-	private MarketFetchResultService service;
+	final private MarketFetchResultService service;
 
-	@Autowired
-	private ObservedRegionService orService;
+	final private ObservedRegionService orService;
 
 	record ResultTimes(Instant created, long fetchMS, long createOrdersMS, long analyzeMS, int lines) {
 		public ResultTimes(MarketFetchResult mfr) {

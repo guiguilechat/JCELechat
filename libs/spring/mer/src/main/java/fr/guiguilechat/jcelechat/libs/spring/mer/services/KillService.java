@@ -7,18 +7,18 @@ import java.time.OffsetDateTime;
 import java.util.Collection;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.mer.model.Kill;
 import fr.guiguilechat.jcelechat.libs.spring.mer.repositories.KillRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class KillService {
 
-	@Autowired
-	private KillRepository repo;
+	final private KillRepository repo;
 
 	public void saveAll(Iterable<Kill> entities) {
 		repo.saveAll(entities);

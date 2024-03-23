@@ -28,7 +28,6 @@ import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
 import org.jfree.data.time.Week;
 import org.jfree.data.time.Year;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -45,20 +44,19 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import jakarta.servlet.http.HttpServletResponse;
+import lombok.RequiredArgsConstructor;
 
 // @Slf4j
 @RestController
 @RequestMapping("/api/mer/kills")
+@RequiredArgsConstructor
 public class MerKillsRestController {
 
-	@Autowired
-	private KillService killService;
+	final private KillService killService;
 
-	@Autowired
-	private TypeService typeService;
+	final private TypeService typeService;
 
-	@Autowired
-	private GroupService groupService;
+	final private GroupService groupService;
 
 	/**
 	 * period to aggregate kills over

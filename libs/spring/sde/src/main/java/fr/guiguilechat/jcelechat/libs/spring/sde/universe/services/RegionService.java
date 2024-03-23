@@ -3,17 +3,17 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.universe.services;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.repositories.RegionRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class RegionService {
 
-	@Autowired
-	private RegionRepository repo;
+	final private RegionRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();

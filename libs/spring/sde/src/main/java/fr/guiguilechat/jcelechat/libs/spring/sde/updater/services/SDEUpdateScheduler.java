@@ -2,16 +2,17 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.updater.services;
 
 import java.io.IOException;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+import lombok.RequiredArgsConstructor;
+
 @Service
+@RequiredArgsConstructor
 public class SDEUpdateScheduler {
 
-	@Autowired
-	private SDEUpdateService sdeService;
+	final private SDEUpdateService sdeService;
 
 	@Value("${sde.updater.skip:false}")
 	private boolean skip;

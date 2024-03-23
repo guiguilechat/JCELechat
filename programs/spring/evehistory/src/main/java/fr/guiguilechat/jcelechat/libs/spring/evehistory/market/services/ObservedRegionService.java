@@ -5,20 +5,19 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.IntStream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetchResult;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.repositories.ObservedRegionRepository;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
-
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class ObservedRegionService {
 
-	@Autowired
-	private ObservedRegionRepository repo;
+	final private ObservedRegionRepository repo;
 
 	public ObservedRegion save(ObservedRegion entity) {
 		return repo.save(entity);

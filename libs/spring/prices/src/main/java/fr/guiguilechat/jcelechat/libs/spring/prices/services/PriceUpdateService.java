@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -16,17 +15,17 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.prices.model.Price;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class PriceUpdateService {
 
-	@Autowired
-	private PriceService priceService;
+	final private PriceService priceService;
 
-	@Autowired
-	private CacheManager cacheManager;
+	final private CacheManager cacheManager;
 
 	@Value("${prices.updater.skip:false}")
 	private boolean skip;

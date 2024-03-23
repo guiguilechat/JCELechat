@@ -4,7 +4,6 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,13 +15,14 @@ import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetchLine;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.services.MarketFetchLineService;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/market/line")
+@RequiredArgsConstructor
 public class RestMarketFetchLine {
 
-	@Autowired
-	private MarketFetchLineService service;
+	final private MarketFetchLineService service;
 
 	/**
 	 * list the order updates . Defaults period to [now-1d:now[ . Starting date
@@ -42,7 +42,7 @@ public class RestMarketFetchLine {
 		if (from.isPresent()) {
 			Instant requestFromDate = ESITools.fieldInstant(from.get());
 			if (requestFromDate.isAfter(fromDate)) {
-				fromDate=requestFromDate;
+				fromDate = requestFromDate;
 			}
 		}
 		record LineUpdate(long orderid, Instant issued, double price, int volume, boolean isBuyOrder) {

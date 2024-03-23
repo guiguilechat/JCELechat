@@ -9,7 +9,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -34,29 +33,20 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Service
+@RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class PlanetEvalService {
 
-	@Autowired
-	private PlanetaryTaxService planetaryTaxService;
+	final private PlanetaryTaxService planetaryTaxService;
 
-	@Autowired
-	private RegionLineService regionLineService;
+	final private RegionLineService regionLineService;
 
-	@Autowired
-	private SchemProductService schemProductService;
+	final private SchemProductService schemProductService;
 
-	@Autowired
-	private SchematicService schematicService;
+	final private SchematicService schematicService;
 
-	@Autowired
-	private TypeService typeService;
+	final private TypeService typeService;
 
-	private DogmaHtmlController dogmaHtmlController;
-
-	@Autowired
-	public void setDogmaHtmlController(@Lazy DogmaHtmlController dogmaHtmlController) {
-		this.dogmaHtmlController = dogmaHtmlController;
-	}
+	private final @Lazy DogmaHtmlController dogmaHtmlController;
 
 	public static record ConsumeProduct(Map<Type, Long> materials, Map<Type, Long> product) {
 	}

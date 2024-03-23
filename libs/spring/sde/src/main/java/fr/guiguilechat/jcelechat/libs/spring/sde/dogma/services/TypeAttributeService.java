@@ -2,18 +2,18 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.TypeAttribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.repositories.TypeAttributeRepository;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class TypeAttributeService {
 
-	@Autowired
-	private TypeAttributeRepository repo;
+	final private TypeAttributeRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();

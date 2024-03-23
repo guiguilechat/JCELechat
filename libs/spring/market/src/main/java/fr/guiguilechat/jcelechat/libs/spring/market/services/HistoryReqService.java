@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.libs.spring.market.services;
 import java.time.Instant;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -11,12 +10,13 @@ import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.HistoryReqRepository;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 @Service
+@RequiredArgsConstructor
 public class HistoryReqService {
 
-	@Autowired
-	private HistoryReqRepository repo;
+	final private HistoryReqRepository repo;
 
 	public List<Integer> findMissingTypeIds(ObservedRegion or) {
 		return repo.findMissingTypesForRegion(or.getRegionId());
@@ -49,7 +49,7 @@ public class HistoryReqService {
 			ret = repo.findTop1000ByNextFetchLessThanOrderByNextFetchAscRegionIdAscTypeIdAsc(Instant.now());
 		}
 		if (ret.size() > queriesPerFetch) {
-			ret=ret.subList(0, queriesPerFetch);
+			ret = ret.subList(0, queriesPerFetch);
 		}
 		return ret;
 	}

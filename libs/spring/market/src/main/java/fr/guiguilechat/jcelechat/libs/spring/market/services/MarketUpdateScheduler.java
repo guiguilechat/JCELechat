@@ -7,7 +7,6 @@ import java.util.concurrent.CompletionException;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -17,23 +16,21 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
+@RequiredArgsConstructor
 public class MarketUpdateScheduler {
 
-	@Autowired
-	private HistoryReqService hrService;
+	final private HistoryReqService hrService;
 
-	@Autowired
-	private HistoryUpdateService huService;
+	final private HistoryUpdateService huService;
 
-	@Autowired
-	private MarketUpdateService mService;
+	final private MarketUpdateService mService;
 
-	@Autowired
-	private ObservedRegionService orService;
+	final private ObservedRegionService orService;
 
 	@Value("${market.updater.skip:false}")
 	private boolean skipMarketUpdate;
@@ -65,8 +62,8 @@ public class MarketUpdateScheduler {
 	@Scheduled(fixedRateString = "${market.history.fetchperiod:60000}", initialDelayString = "${market.history.fetchdelay:20000}")
 	public void updateHistory() {
 		if (skipHistoryUpdate) {
-		return;
-	}
+			return;
+		}
 		long startMs = System.currentTimeMillis();
 		List<HistoryReq> requests = hrService.listNextRequests();
 		long remain = hrService.countRemainingRequests();

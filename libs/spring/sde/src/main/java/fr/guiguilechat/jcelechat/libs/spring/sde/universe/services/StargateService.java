@@ -13,7 +13,6 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
@@ -27,10 +26,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class StargateService {
 
-	@Autowired
-	private StargateRepository repo;
+	final private StargateRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();
@@ -44,9 +43,7 @@ public class StargateService {
 		return repo.findById(stargateId).orElse(null);
 	}
 
-
 	public static final List<String> CACHE_LIST = List.of("SdeUniverseWJD");
-
 
 	public static record WarpJumpDist(int start, int end, double distance) implements Serializable {
 
@@ -54,8 +51,7 @@ public class StargateService {
 			return new WarpJumpDist(
 					((Stargate) arr[0]).getStargateId(),
 					((Stargate) arr[1]).getStargateId(),
-					(double) arr[2]
-			);
+					(double) arr[2]);
 		}
 
 		public WarpJumpDist(Station from, Stargate end, double distance) {
@@ -152,7 +148,7 @@ public class StargateService {
 	 */
 	public static double convertWarpTotime(double distance_m, double align_s, double warpspeed_aups) {
 		if (distance_m < 100000) {
-			throw new RuntimeException("can't warp below 100km, received "+distance_m+"m request");
+			throw new RuntimeException("can't warp below 100km, received " + distance_m + "m request");
 		}
 		double distance_warp_au = distance_m / AU_IN_M;
 		double j = Math.min(warpspeed_aups, 6) / 3;
@@ -207,7 +203,7 @@ public class StargateService {
 							Math.sqrt(Math.pow(start.getPosition_x() - end.getPosition_x(), 2)
 									+ Math.pow(start.getPosition_y() - end.getPosition_y(), 2)
 									+ Math.pow(start.getPosition_z() - end.getPosition_z(), 2)),
-					align_s, warpspeed_aups)));
+							align_s, warpspeed_aups)));
 		}
 		return Stream.of(
 				warpJumpsFrom(start).stream().map(wjd -> TravelTime.from(wjd, align_s, warpspeed_aups)),
@@ -376,6 +372,5 @@ public class StargateService {
 		}
 		return ret;
 	}
-
 
 }

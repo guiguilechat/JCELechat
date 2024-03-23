@@ -9,7 +9,6 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -20,17 +19,17 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class HistoryUpdateService {
 
-	@Autowired
-	private HistoryLineService hlService;
+	final private HistoryLineService hlService;
 
-	@Autowired
-	private HistoryReqService hrService;
+	final private HistoryReqService hrService;
 
 	@Async
 	@Transactional
@@ -76,7 +75,7 @@ public class HistoryUpdateService {
 			case 200:
 				ret = response.getOK();
 				if (ret == null) {
-					ret=new R_get_markets_region_id_history[] {};
+					ret = new R_get_markets_region_id_history[] {};
 				}
 				Instant.ofEpochMilli(response.getExpiresS());
 				log.debug(
