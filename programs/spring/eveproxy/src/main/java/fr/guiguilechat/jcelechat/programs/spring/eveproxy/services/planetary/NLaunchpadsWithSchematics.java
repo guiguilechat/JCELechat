@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary;
 
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -89,6 +90,11 @@ public class NLaunchpadsWithSchematics implements PlanetaryFactory {
 	@Override
 	public String name() {
 		return schematic.getName() + "×" + nbSchematics + "+Launchpad×" + nbLP;
+	}
+
+	@Override
+	public Collection<Type> products() {
+		return schematic.getProducts().stream().map(SchemProduct::getType).toList();
 	}
 
 	public static Stream<NLaunchpadsWithSchematics> stream(Schematic schematic) {

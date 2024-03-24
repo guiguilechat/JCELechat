@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -56,6 +58,11 @@ public class CuratedP4FromP2 implements PlanetaryFactory {
 	@Override
 	public String name() {
 		return "3×" + product.getName() + " from P2";
+	}
+
+	@Override
+	public Collection<Type> products() {
+		return Set.of(product);
 	}
 
 	// list of [productarray,materialsarray]
@@ -130,7 +137,9 @@ public class CuratedP4FromP2 implements PlanetaryFactory {
 						.boxed().toList())
 				.stream()
 				.collect(Collectors.toMap(Type::getTypeId, t -> t));
-		return Stream.of(curatedProductsMaterial).map(curated -> new CuratedP4FromP2(curated[0], curated[1], typesbyId));
+		return Stream.of(curatedProductsMaterial)
+				.map(curated -> new CuratedP4FromP2(curated[0], curated[1], typesbyId))
+				.filter(cpfp -> cpfp.getProduct() != null);
 	}
 
 }

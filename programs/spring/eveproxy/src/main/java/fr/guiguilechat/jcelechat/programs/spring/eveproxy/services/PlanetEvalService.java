@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -16,6 +17,8 @@ import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.strategies.MaterialSourcing;
 import fr.guiguilechat.jcelechat.libs.spring.market.strategies.ProductValuator;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.PlanetaryTaxService;
@@ -36,6 +39,8 @@ import lombok.ToString;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class PlanetEvalService {
 
+	private final MaterialService materialService;
+
 	final private PlanetaryTaxService planetaryTaxService;
 
 	final private RegionLineService regionLineService;
@@ -55,7 +60,61 @@ public class PlanetEvalService {
 
 		public ConsumeProduct production(int hours);
 
+		public Collection<Type> products();
+
 		public String name();
+
+	}
+
+	public static enum PRODUCT_FILTER {
+
+		ANY {
+			@Override
+			public boolean accept(Collection<Type> products, MaterialService materialService) {
+				return true;
+			}
+		},
+		P4 {
+
+			@Override
+			public boolean accept(Collection<Type> products, MaterialService materialService) {
+				return products.stream().filter(t -> t.getGroup().getGroupId() == P4_GID).findAny().isPresent();
+			}
+
+		},
+		P3 {
+
+			@Override
+			public boolean accept(Collection<Type> products, MaterialService materialService) {
+				return products.stream().filter(t -> t.getGroup().getGroupId() == P3_GID).findAny().isPresent();
+			}
+
+		},
+		P2 {
+
+			@Override
+			public boolean accept(Collection<Type> products, MaterialService materialService) {
+				return products.stream().filter(t -> t.getGroup().getGroupId() == P2_GID).findAny().isPresent();
+			}
+
+		},
+		USED_MANUF {
+
+			@Override
+			public boolean accept(Collection<Type> products, MaterialService materialService) {
+				Set<Type> materials = materialService.allActivityMaterialsInCategory(ACTIVITY_TYPE.manufacturing,
+						ADVCOMMODITIES_CID);
+				return products.stream().filter(materials::contains).findAny().isPresent();
+			}
+
+		},
+		;
+
+		public abstract boolean accept(Collection<Type> products, MaterialService materialService);
+
+		public boolean accept(PlanetaryFactory factory, MaterialService materialService) {
+			return accept(factory.products(), materialService);
+		}
 
 	}
 
@@ -66,13 +125,14 @@ public class PlanetEvalService {
 		private double brpct = 2.0;
 		private int customCodeExpertise = 5;
 		private double customTaxPct = 5.0;
-		private int hours = 4 * 24;
+		private PRODUCT_FILTER filter = PRODUCT_FILTER.ANY;
+		private int hours = 2 * 24;
 		private boolean hs = false;
 		private long location = RegionLineService.JITAIV_ID;
 		private double margin = 5.0;
 		private MaterialSourcing materialSourcing = MaterialSourcing.BUY_SO_MASS;
 		private int nbPlanets = 6;
-		private boolean onlyBest;
+		private boolean showAll;
 		private ProductValuator productValuator = ProductValuator.SELL_BO_MASS;
 		private double taxpct = 3.6;
 		private double volumicPrice = 1000.0;
@@ -83,6 +143,7 @@ public class PlanetEvalService {
 	public static final int P2_GID = 1034;
 	public static final int P1_GID = 1042;
 	public static final int P0_CID = 42;
+	public static final int ADVCOMMODITIES_CID = 43;
 
 	@Transactional
 	public Stream<PlanetaryFactory> streamFactories() {
@@ -134,6 +195,7 @@ public class PlanetEvalService {
 		schematicService.fetchAll();
 		List<FactoryEval> ret = new ArrayList<>(
 				streamFactories()
+						.filter(f -> params.getFilter().accept(f, materialService))
 						.map(pf -> compute(pf, params))
 						.toList());
 		Set<Integer> allIds = ret.stream()
@@ -181,7 +243,7 @@ public class PlanetEvalService {
 
 		});
 		ret.sort(Comparator.comparing(fe -> -fe.getTotalGain()));
-		if (params.isOnlyBest()) {
+		if (!params.isShowAll()) {
 			ret = new ArrayList<>(ret.stream()
 					.collect(Collectors.groupingBy(eval -> eval.getLinkedProd().get(0).type()))
 					.values().stream()

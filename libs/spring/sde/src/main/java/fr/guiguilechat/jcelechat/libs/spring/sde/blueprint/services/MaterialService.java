@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services;
 
 import java.util.List;
+import java.util.Set;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.repositories.MaterialRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -33,7 +35,10 @@ public class MaterialService {
 		return repo.findAllByActivityTypeTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
-	public static final List<String> CACHE_LIST = List.of("SdeBlueprintMaterial", "SdeBlueprintUsage");
+	public static final List<String> CACHE_LIST = List.of(
+// "SdeBlueprintActivitytypeMaterials",
+			"SdeBlueprintMaterial",
+			"SdeBlueprintUsage");
 
 	@Cacheable("SdeBlueprintMaterial")
 	public List<Material> forBPActivity(int bpTypeId,
@@ -49,6 +54,11 @@ public class MaterialService {
 	@Cacheable("SdeBlueprintUsage")
 	public List<Material> findUsages(int typeId, ACTIVITY_TYPE ats) {
 		return findUsages(List.of(typeId), List.of(ats));
+	}
+
+// @Cacheable("SdeBlueprintActivitytypeMaterials")
+	public Set<Type> allActivityMaterialsInCategory(ACTIVITY_TYPE at, int category_id) {
+		return repo.allActivityMaterialsInCategory(at, category_id);
 	}
 
 }

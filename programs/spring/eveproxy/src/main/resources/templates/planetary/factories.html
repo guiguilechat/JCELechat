@@ -29,7 +29,8 @@
 								<th>custom tax, % of planetary value</th>
 								<th>margin cost, % of sale price</th>
 								<th>volumic price, isk/m³</th>
-								<th>only best by product</th>
+								<th>show all for product</th>
+								<th>product filter</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -69,8 +70,15 @@
 									name="margin" th:value="${params.margin}" /></td>
 								<td><input class="form-control" type="number" step="0.1"
 									name="volumicPrice" th:value="${params.volumicPrice}" /></td>
-								<td><input type="checkbox" name="onlyBest" id="hs"
-									th:checked="${params.onlyBest}" /></td>
+								<td><input type="checkbox" name="showAll" id="hs"
+									th:checked="${params.showAll}" /></td>
+								<td><select name="filter">
+										<option
+											th:each="strat : ${T(fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.PlanetEvalService.PRODUCT_FILTER).values()}"
+											th:value="${strat}"
+											th:selected="${params.filter==strat}"
+											th:text="${strat.name()}" />
+								</select></td>
 							</tr>
 						</tbody>
 					</table>
