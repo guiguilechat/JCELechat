@@ -23,7 +23,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.BlueprintAct
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
-import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -58,7 +58,7 @@ public class LPOfferEvalService {
 
 	@Getter
 	@Setter
-	@AllArgsConstructor
+	@Builder
 	public static class LPOfferEval {
 
 		private final CorporationOffer offer;
@@ -76,13 +76,26 @@ public class LPOfferEvalService {
 		private double gain;
 		private double iskplp;
 
-		public LPOfferEval(CorporationOffer offer, long offerQuantity, Type product, Type finalProduct,
+
+		public static LPOfferEval of(CorporationOffer offer, long offerQuantity, Type product, Type finalProduct,
 				long productQuantity, double productUnitPrice, double productIncome, Map<Integer, Long> materialsByTypeId,
 				double materialCost, double marginCost, double tediousCost) {
-			this(offer, offerQuantity, offer.getLpCost() * offerQuantity, product, finalProduct, productQuantity,
-					0.01 * (int) (100 * productUnitPrice), productIncome, materialsByTypeId, materialCost, marginCost,
-					tediousCost, productIncome - materialCost - marginCost - tediousCost,
-					(productIncome - materialCost - marginCost - tediousCost) / offer.getLpCost() / offerQuantity);
+			return builder()
+					.offer(offer)
+					.offerQuantity(offerQuantity)
+					.lpQuantity(offer.getLpCost() * offerQuantity)
+					.product(product)
+					.finalProduct(finalProduct)
+					.productQuantity(productQuantity)
+					.productUnitPrice(productUnitPrice)
+					.productIncome(productIncome)
+					.materialsByTypeId(materialsByTypeId)
+					.materialCost(materialCost)
+					.marginCost(marginCost)
+					.tediousCost(tediousCost)
+					.gain(productIncome - materialCost - marginCost - tediousCost)
+					.iskplp((productIncome - materialCost - marginCost - tediousCost) / offer.getLpCost() / offerQuantity)
+					.build();
 		}
 
 		@Getter(lazy = true)
@@ -152,7 +165,9 @@ public class LPOfferEvalService {
 				bosByTypeId.get(product.getTypeId()), sosByTypeId.get(product.getTypeId()));
 		double marginCost = materialCost * (marginPct + timeMarginPct) / 100;
 
-		return new LPOfferEval(offer, offerQuantity, offer.getType(), product, productQuantity, productUnitPrice,
+		System.err.println("unit price is " + productUnitPrice);
+
+		return LPOfferEval.of(offer, offerQuantity, offer.getType(), product, productQuantity, productUnitPrice,
 				productIncome, requiredMats, materialCost, marginCost, tediousCost);
 	}
 
