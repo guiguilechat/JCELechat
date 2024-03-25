@@ -26,14 +26,10 @@ public class RegionLineService {
 	final private RegionLineRepository repo;
 
 	public RegionLine save(RegionLine entity) {
-		entity.affectFields();
 		return repo.save(entity);
 	}
 
 	public List<RegionLine> saveAll(Iterable<RegionLine> entities) {
-		for (RegionLine entity : entities) {
-			entity.affectFields();
-		}
 		return repo.saveAll(entities);
 	}
 
@@ -71,7 +67,7 @@ public class RegionLineService {
 		long start = System.currentTimeMillis();
 		Map<Integer, List<RegionLine>> ret = repo
 				.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds)
-				.collect(Collectors.groupingBy(order -> order.getOrder().type_id));
+				.collect(Collectors.groupingBy(RegionLine::getTypeId));
 		long fetched = System.currentTimeMillis();
 		log.debug(
 				"listed BO lines for " + typeIds.size() + " ids , fetch=" + (fetched - start) + "ms, ids=" + typeIds);
@@ -87,7 +83,7 @@ public class RegionLineService {
 		long start = System.currentTimeMillis();
 		Map<Integer, List<RegionLine>> ret = repo
 				.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds)
-				.collect(Collectors.groupingBy(order -> order.getOrder().type_id));
+				.collect(Collectors.groupingBy(RegionLine::getTypeId));
 		long fetched = System.currentTimeMillis();
 		log.debug(
 				"listed SO lines for " + typeIds.size() + " ids, fetch=" + (fetched - start) + "ms, ids=" + typeIds);
@@ -121,7 +117,7 @@ public class RegionLineService {
 	 */
 	@Cacheable("marketRegion")
 	public List<RegionLine> forRegion(int regionId, int type_id, boolean isBuyOrder) {
-		return reverseIf(repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder),
+		return reverseIf(repo.findByRegionRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder),
 				isBuyOrder);
 	}
 
@@ -151,11 +147,11 @@ public class RegionLineService {
 		long remain = quantity;
 		double cumul = 0.0;
 		for (RegionLine line : lines) {
-			long taken = Math.min(remain, line.getOrder().volume_remain);
+			long taken = Math.min(remain, line.getVolumeRemain());
 			remain -= taken;
-			cumul += line.getOrder().price * taken;
+			cumul += line.getPrice() * taken;
 			if (remain <= 0) {
-				return cumulated ? cumul : line.getOrder().price * quantity;
+				return cumulated ? cumul : line.getPrice() * quantity;
 			}
 		}
 		if (infOnMissing) {
@@ -239,13 +235,13 @@ public class RegionLineService {
 		Double lowestSOPrice = null;
 		for (RegionLine rl : sos) {
 			if (lowestSOPrice == null) {
-				lowestSOPrice = rl.getOrder().price;
-			} else if (rl.getOrder().price > lowestSOPrice * priceGainClipMult) {
+				lowestSOPrice = rl.getPrice();
+			} else if (rl.getPrice() > lowestSOPrice * priceGainClipMult) {
 				break;
 			}
-			cumulQtty += rl.getOrder().volume_remain;
-			cumulValue += rl.getOrder().volume_remain * rl.getOrder().price;
-			OfferStat add = new OfferStat(-rl.getOrder().volume_remain, -rl.getOrder().price, -cumulQtty, cumulValue);
+			cumulQtty += rl.getVolumeRemain();
+			cumulValue += rl.getVolumeRemain() * rl.getPrice();
+			OfferStat add = new OfferStat(-rl.getVolumeRemain(), -rl.getPrice(), -cumulQtty, cumulValue);
 			ret.add(add);
 		}
 		cumulQtty = 0;
@@ -253,13 +249,13 @@ public class RegionLineService {
 		Double highestBOPrice = null;
 		for (RegionLine rl : bos) {
 			if (highestBOPrice == null) {
-				highestBOPrice = rl.getOrder().price;
-			} else if (rl.getOrder().price < highestBOPrice / priceGainClipMult) {
+				highestBOPrice = rl.getPrice();
+			} else if (rl.getPrice() < highestBOPrice / priceGainClipMult) {
 				break;
 			}
-			cumulQtty += rl.getOrder().volume_remain;
-			cumulValue += rl.getOrder().volume_remain * rl.getOrder().price;
-			OfferStat add = new OfferStat(rl.getOrder().volume_remain, rl.getOrder().price, cumulQtty, cumulValue);
+			cumulQtty += rl.getVolumeRemain();
+			cumulValue += rl.getVolumeRemain() * rl.getPrice();
+			OfferStat add = new OfferStat(rl.getVolumeRemain(), rl.getPrice(), cumulQtty, cumulValue);
 			ret.add(add);
 		}
 		return ret;
@@ -274,9 +270,9 @@ public class RegionLineService {
 	}
 
 	public List<OfferStat> offerStatsRegion(int regionId, int typeId) {
-		List<RegionLine> sos = repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, false);
+		List<RegionLine> sos = repo.findByRegionRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, false);
 		List<RegionLine> bos = new ArrayList<>(
-				repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, true));
+				repo.findByRegionRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, true));
 		Collections.reverse(bos);
 		return sellGain(sos, bos);
 	}

@@ -26,11 +26,11 @@ public interface IMarketInteraction {
 		double cumulated = 0.0;
 		if (sos != null) {
 			for (RegionLine so : sos) {
-				int remove = (int) Math.min(remain, so.getOrder().volume_remain);
-				cumulated += so.getOrder().price * remove;
+				int remove = (int) Math.min(remain, so.getVolumeRemain());
+				cumulated += so.getPrice() * remove;
 				remain -= remove;
 				if (remain == 0) {
-					return isMassPrice() ? so.getOrder().price * quantity : cumulated;
+					return isMassPrice() ? so.getPrice() * quantity : cumulated;
 				}
 			}
 		}
@@ -42,11 +42,11 @@ public interface IMarketInteraction {
 		double cumulated = 0.0;
 		if (sos != null) {
 			for (RegionLine so : sos) {
-				int remove = (int) Math.min(remain, so.getOrder().volume_remain);
-				cumulated += so.getOrder().price * remove;
+				int remove = (int) Math.min(remain, so.getVolumeRemain());
+				cumulated += so.getPrice() * remove;
 				remain -= remove;
 				if (remain == 0) {
-					return isMassPrice() ? so.getOrder().price : cumulated / quantity;
+					return isMassPrice() ? so.getPrice() : cumulated / quantity;
 				}
 			}
 		}
@@ -63,7 +63,7 @@ public interface IMarketInteraction {
 	public default double costBuyBo(long quantity, double brokerPct, List<RegionLine> bos) {
 		double unitPrice = 0.01;
 		if (bos != null && !bos.isEmpty()) {
-			unitPrice = bos.get(0).getOrder().price;
+			unitPrice = bos.get(0).getPrice();
 		}
 		return unitPrice * (100 + brokerPct) / 100 * quantity;
 	}
@@ -71,7 +71,7 @@ public interface IMarketInteraction {
 	public default double uPriceBuyBo(long quantity, List<RegionLine> bos) {
 		double unitPrice = 0.01;
 		if (bos != null && !bos.isEmpty()) {
-			unitPrice = bos.get(0).getOrder().price;
+			unitPrice = bos.get(0).getPrice();
 		}
 		return unitPrice;
 	}
@@ -88,11 +88,11 @@ public interface IMarketInteraction {
 		double cumulated = 0.0;
 		if (bos != null) {
 			for (RegionLine bo : bos) {
-				int remove = (int) Math.min(remain, bo.getOrder().volume_remain);
-				cumulated += bo.getOrder().price * remove;
+				int remove = (int) Math.min(remain, bo.getVolumeRemain());
+				cumulated += bo.getPrice() * remove;
 				remain -= remove;
 				if (remain == 0) {
-					return (isMassPrice() ? bo.getOrder().price * quantity : cumulated) * (100 - taxPct) / 100;
+					return (isMassPrice() ? bo.getPrice() * quantity : cumulated) * (100 - taxPct) / 100;
 				}
 			}
 		}
@@ -104,11 +104,11 @@ public interface IMarketInteraction {
 		double cumulated = 0.0;
 		if (bos != null) {
 			for (RegionLine bo : bos) {
-				int remove = (int) Math.min(remain, bo.getOrder().volume_remain);
-				cumulated += bo.getOrder().price * remove;
+				int remove = (int) Math.min(remain, bo.getVolumeRemain());
+				cumulated += bo.getPrice() * remove;
 				remain -= remove;
 				if (remain == 0) {
-					return isMassPrice() ? bo.getOrder().price : cumulated / quantity;
+					return isMassPrice() ? bo.getPrice() : cumulated / quantity;
 				}
 			}
 		}
@@ -127,7 +127,7 @@ public interface IMarketInteraction {
 			List<RegionLine> sos) {
 		double unitPrice = Double.POSITIVE_INFINITY;
 		if (sos != null && !sos.isEmpty()) {
-			unitPrice = sos.get(0).getOrder().price;
+			unitPrice = sos.get(0).getPrice();
 		}
 		return unitPrice * (100 - taxPct - brokerPct) / 100 * quantity;
 	}
@@ -135,7 +135,7 @@ public interface IMarketInteraction {
 	public default double uPriceSellSo(long quantity, List<RegionLine> sos) {
 		double unitPrice = Double.POSITIVE_INFINITY;
 		if (sos != null && !sos.isEmpty()) {
-			unitPrice = sos.get(0).getOrder().price;
+			unitPrice = sos.get(0).getPrice();
 		}
 		return unitPrice;
 	}

@@ -229,11 +229,11 @@ public class DogmaHtmlController {
 			}
 			List<RegionLine> bos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getTypeId(), true);
 			if (bos != null && !bos.isEmpty()) {
-				model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getOrder().price));
+				model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getPrice()));
 			}
 			List<RegionLine> sos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getTypeId(), false);
 			if (sos != null && !sos.isEmpty()) {
-				model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getOrder().price));
+				model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getPrice()));
 			}
 		}
 		return "dogma/type";

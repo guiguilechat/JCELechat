@@ -20,24 +20,20 @@ public class HistoryLineService {
 
 	final private HistoryLineRepository repo;
 
-	public void saveAll(Iterable<HistoryLine> entities) {
-		for (HistoryLine entity : entities) {
-			entity.affectFields();
-		}
-		repo.saveAll(entities);
+	public List<HistoryLine> saveAll(Iterable<HistoryLine> entities) {
+		return repo.saveAll(entities);
 	}
 
 	public HistoryLine save(HistoryLine entity) {
-		entity.affectFields();
 		return repo.save(entity);
 	}
 
 	public void clearFor(HistoryReq req) {
-		repo.deleteByReq(req);
+		repo.deleteByHistoryReq(req);
 	}
 
 	public List<HistoryLine> byRegionType(int regionId, int typeId) {
-		return repo.findByReqRegionIdAndReqTypeId(regionId, typeId);
+		return repo.findByHistoryReqRegionIdAndHistoryReqTypeId(regionId, typeId);
 	}
 
 	//
@@ -48,12 +44,12 @@ public class HistoryLineService {
 
 		public static DayWeight of(HistoryLine line, WeightStrategy weighter) {
 			double weight = weighter.weight(line);
-			if (line.getDaily().lowest == line.getDaily().highest) {
-				return new DayWeight(weight, line.getDaily().lowest, line.getDaily().volume, 0.0, 0.0);
+			if (line.getLowest() == line.getHighest()) {
+				return new DayWeight(weight, line.getLowest(), line.getVolume(), 0.0, 0.0);
 			}
-			double nh = line.getDaily().volume * (line.getDaily().average - line.getDaily().lowest)
-					/ (line.getDaily().highest - line.getDaily().lowest);
-			return new DayWeight(weight, line.getDaily().lowest, line.getDaily().volume - nh, line.getDaily().highest, nh);
+			double nh = line.getVolume() * (line.getAverage() - line.getLowest())
+					/ (line.getHighest() - line.getLowest());
+			return new DayWeight(weight, line.getLowest(), line.getVolume() - nh, line.getHighest(), nh);
 		}
 
 	}
@@ -100,7 +96,7 @@ public class HistoryLineService {
 
 			@Override
 			public double weight(HistoryLine line) {
-				long days = days(line.getDateDate(), refDate);
+				long days = days(line.getDate(), refDate);
 				return days > 0 && days < maxDays ? 1 : 0;
 			}
 
@@ -131,7 +127,7 @@ public class HistoryLineService {
 
 			@Override
 			public double weight(HistoryLine line) {
-				long days = days(line.getDateDate(), refDate);
+				long days = days(line.getDate(), refDate);
 				return days > 0 ? Math.pow(1.0 - 1.0 / totalWeight, days) : 0;
 			}
 
@@ -187,8 +183,8 @@ public class HistoryLineService {
 		for (HistoryLine hl : lines) {
 			DayWeight dw = DayWeight.of(hl, weighter);
 			if (dw.weight > 0.0) {
-				min = Math.min(min, hl.getDaily().lowest);
-				max = Math.max(max, hl.getDaily().highest);
+				min = Math.min(min, hl.getLowest());
+				max = Math.max(max, hl.getHighest());
 				weights.add(dw);
 			}
 		}

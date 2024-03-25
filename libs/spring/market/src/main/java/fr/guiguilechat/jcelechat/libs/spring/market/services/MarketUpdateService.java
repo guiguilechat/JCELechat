@@ -157,10 +157,7 @@ public class MarketUpdateService {
 			return null;
 		}
 		List<RegionLine> lines = fetchedLines.stream()
-				.map(order -> RegionLine.builder()
-						.order(order)
-						.region(region)
-						.build())
+				.map(order -> RegionLine.of(region, order))
 				.filter(RegionLine::isValid)
 				.toList();
 		long endTime = System.currentTimeMillis();

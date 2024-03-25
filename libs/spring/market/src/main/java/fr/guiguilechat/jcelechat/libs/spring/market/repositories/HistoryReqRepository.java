@@ -12,12 +12,12 @@ public interface HistoryReqRepository extends JpaRepository<HistoryReq, Long> {
 
 	@Query("""
 select
-	distinct(line.order.type_id)
+	distinct(line.typeId)
 from
 	EsiMarketRegionLine line
 where
 	line.region.regionId=:regionId
-	and line.order.type_id not in (select typeId from EsiMarketHistoryReq where regionId=:regionId)
+	and line.typeId not in (select typeId from EsiMarketHistoryReq where regionId=:regionId)
 """)
 	public List<Integer> findMissingTypesForRegion(int regionId);
 

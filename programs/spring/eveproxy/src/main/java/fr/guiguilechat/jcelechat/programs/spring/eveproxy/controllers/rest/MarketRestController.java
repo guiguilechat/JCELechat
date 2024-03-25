@@ -164,11 +164,11 @@ public class MarketRestController {
 
 		public PriceAccumulator accumulate(Iterable<RegionLine> lines) {
 			for (RegionLine l : lines) {
-				if (accept(l.getOrder().price, priceLimit)) {
-					volume += l.getOrder().volume_remain;
-					totValue += l.getOrder().volume_remain * l.getOrder().price;
-					if (massPrice == null || !accept(l.getOrder().price, massPrice)) {
-						massPrice = l.getOrder().price;
+				if (accept(l.getPrice(), priceLimit)) {
+					volume += l.getVolumeRemain();
+					totValue += l.getVolumeRemain() * l.getPrice();
+					if (massPrice == null || !accept(l.getPrice(), massPrice)) {
+						massPrice = l.getPrice();
 					}
 				}
 			}
@@ -191,7 +191,7 @@ public class MarketRestController {
 
 			List<PriceLimitData> sosData = Collections.emptyList();
 			if (!sos.isEmpty()) {
-				double bestSo = sos.get(0).getOrder().price;
+				double bestSo = sos.get(0).getPrice();
 				sosData = DoubleStream.of(bestSo, bestSo * 1.01, bestSo * 1.05, bestSo * 1.1, Double.POSITIVE_INFINITY)
 						.mapToObj(limit -> new PriceAccumulator(limit, true).accumulate(sos).toData())
 						.toList();
@@ -199,7 +199,7 @@ public class MarketRestController {
 
 			List<PriceLimitData> bosData = Collections.emptyList();
 			if (!bos.isEmpty()) {
-				double bestBo = bos.get(bos.size() - 1).getOrder().price;
+				double bestBo = bos.get(bos.size() - 1).getPrice();
 				bosData = DoubleStream.of(bestBo, bestBo * 0.99, bestBo * 0.95, bestBo * 0.90, 0)
 						.mapToObj(limit -> new PriceAccumulator(limit, false).accumulate(bos).toData())
 						.toList();
@@ -237,7 +237,7 @@ public class MarketRestController {
 
 	public static record MarketOffer(int volume, double price) {
 		public MarketOffer(RegionLine line) {
-			this(line.getOrder().volume_remain, line.getOrder().price);
+			this(line.getVolumeRemain(), line.getPrice());
 		}
 	}
 

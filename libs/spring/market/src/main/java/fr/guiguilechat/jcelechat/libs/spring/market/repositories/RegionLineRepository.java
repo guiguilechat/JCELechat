@@ -15,125 +15,24 @@ public interface RegionLineRepository extends JpaRepository<RegionLine, Long> {
 
 	public int deleteByRegion(ObservedRegion region);
 
-	// need to query since fields with _ that can't be used in jpa
-	@Query("""
-select line
-from
-	EsiMarketRegionLine line
-where
-	line.order.location_id=:locationId
-	and line.order.type_id=:typeId
-	and line.order.is_buy_order=:isBuyOrder
-order by
-	line.order.price
-""")
-	public List<RegionLine> findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(
-			@Param("locationId") long locationId,
-			@Param("typeId") int typeId,
-			@Param("isBuyOrder") boolean isBuyOrder);
+	public List<RegionLine> findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(long locationId, int typeId,
+			boolean isBuyOrder);
 
-	// need to query since fields with _ that can't be used in jpa
-	@Query("""
-select
-	line
-from
-	EsiMarketRegionLine line
-where
-	line.order.location_id=:locationId
-	and line.order.type_id in :typeIds
-	and line.order.is_buy_order
-order by
-	line.order.price desc
-""")
-	public Stream<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(
-			@Param("locationId") long locationId,
-			@Param("typeIds") Set<Integer> typeIds);
+	public Stream<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(long locationId,
+			Set<Integer> typeIds);
 
-	// need to query since fields with _ that can't be used in jpa
-	@Query("""
-select
-	line
-from
-	EsiMarketRegionLine line
-where
-	line.order.location_id=:locationId
-	and line.order.type_id in :typeIds
-	and not line.order.is_buy_order
-order by
-	line.order.price
-""")
-	public Stream<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(
-			@Param("locationId") long locationId,
-			@Param("typeIds") Set<Integer> typeIds);
+	public Stream<RegionLine> findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(long locationId,
+			Set<Integer> typeIds);
 
-	// need to query since fields with _ that can't be used in jpa
-	@Query("""
-select line
-from
-	EsiMarketRegionLine line
-where
-	line.region.regionId=:regionId
-	and line.order.type_id=:typeId
-	and line.order.is_buy_order=:isBuyOrder
-order by
-	line.order.price
-""")
-	public List<RegionLine> findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(
-			@Param("regionId") long regionId,
-			@Param("typeId") int typeId,
-			@Param("isBuyOrder") boolean isBuyOrder);
+	public List<RegionLine> findByRegionRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(long regionId, int typeId,
+			boolean isBuyOrder);
 
-	// need to query since fields with _ that can't be used in jpa
-	@Query("""
-select line
-from
-	EsiMarketRegionLine line
-where
-	line.order.type_id=:typeId
-	and line.order.is_buy_order=:isBuyOrder
-order by
-	line.order.price
-""")
-	public List<RegionLine> findByTypeIdAndIsBuyOrderOrderByPriceAsc(
-			@Param("typeId") int typeId,
-			@Param("isBuyOrder") boolean isBuyOrder);
+	public List<RegionLine> findByTypeIdAndIsBuyOrderOrderByPriceAsc(int typeId, boolean isBuyOrder);
 
-	// need to query since fields with _ that can't be used in jpa
-	@Query("""
-select line
-from
-	EsiMarketRegionLine line
-where
-	line.region.regionId=:regionId
-	and line.order.type_id in :typeIds
-order by
-	line.order.price
-""")
-	public List<RegionLine> findByRegionIdAndTypeIdInOrderByPriceAsc(int regionId, List<Integer> typeIds);
+	public List<RegionLine> findByRegionRegionIdAndTypeIdInOrderByPriceAsc(int regionId, List<Integer> typeIds);
 
-	// need to query since fields with _ that can't be used in jpa
-	@Query("""
-select line
-from
-	EsiMarketRegionLine line
-where
-	line.order.location_id=:locationId
-	and line.order.type_id in :typeIds
-order by
-	line.order.price
-""")
 	public List<RegionLine> findByLocationIdAndTypeIdInOrderByPriceAsc(long locationId, List<Integer> typeIds);
 
-	// need to query since fields with _ that can't be used in jpa
-	@Query("""
-select line
-from
-	EsiMarketRegionLine line
-where
-	line.order.type_id in :typeIds
-order by
-	line.order.price
-""")
 	public List<RegionLine> findByTypeIdInOrderByPriceAsc(List<Integer> typeIds);
 
 	/**
@@ -142,18 +41,18 @@ order by
 	@Query("""
 select
 	line.region.regionId,
-	line.order.location_id,
-	min(line.order.price)
+	line.locationId,
+	min(line.price)
 from
 	EsiMarketRegionLine line
 where
-	line.order.type_id=:typeId
-	and not line.order.is_buy_order
+	line.typeId=:typeId
+	and not line.isBuyOrder
 group by
 	line.region.regionId,
-	line.order.location_id
+	line.locationId
 order by
-	min(line.order.price) asc
+	min(line.price) asc
 """)
 	public List<Object[]> findSellOfferLocations(@Param("typeId") int typeId);
 
@@ -163,19 +62,19 @@ order by
 	@Query("""
 select
 	line.region.regionId,
-	line.order.location_id,
-	min(line.order.price)
+	line.locationId,
+	min(line.price)
 from
 	EsiMarketRegionLine line
 where
-	line.order.type_id=:typeId
-	and not line.order.is_buy_order
-	and line.order.duration=365
+	line.typeId=:typeId
+	and not line.isBuyOrder
+	and line.duration=365
 group by
 	line.region.regionId,
-	line.order.location_id
+	line.locationId
 order by
-	min(line.order.price) asc
+	min(line.price) asc
 """)
 	public List<Object[]> findSeedOffers(@Param("typeId") int typeId);
 
@@ -185,18 +84,18 @@ order by
 	@Query("""
 select
 	line.region.regionId,
-	line.order.location_id,
-	max(line.order.price)
+	line.locationId,
+	max(line.price)
 from
 	EsiMarketRegionLine line
 where
-	line.order.type_id=:typeId
-	and line.order.is_buy_order
+	line.typeId=:typeId
+	and line.isBuyOrder
 group by
 	line.region.regionId,
-	line.order.location_id
+	line.locationId
 order by
-	max(line.order.price) asc
+	max(line.price) asc
 """)
 	public List<Object[]> findBuyOfferLocations(@Param("typeId") int typeId);
 

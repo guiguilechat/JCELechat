@@ -9,8 +9,8 @@ import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
 
 public interface HistoryLineRepository extends JpaRepository<HistoryLine, Long> {
 
-	public void deleteByReq(HistoryReq req);
+	public void deleteByHistoryReq(HistoryReq historyReq);
 
-	public List<HistoryLine> findByReqRegionIdAndReqTypeId(int regionId, int typeId);
+	public List<HistoryLine> findByHistoryReqRegionIdAndHistoryReqTypeId(int regionId, int typeId);
 
 }

@@ -116,7 +116,7 @@ public class HistoryUpdateService {
 		if (ret.length == 0) {
 			return Collections.emptyList();
 		}
-		return Stream.of(ret).map(daily -> HistoryLine.builder().daily(daily).req(req).build()).toList();
+		return Stream.of(ret).map(daily -> HistoryLine.of(req, daily)).toList();
 	}
 
 }

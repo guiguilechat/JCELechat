@@ -6,7 +6,6 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
-import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,7 +19,7 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Entity(name = "EsiMarketHistoryLine")
-@Table(name = "esi_market_historyline", indexes = { @Index(columnList = "req_id") })
+@Table(name = "esi_market_historyline", indexes = { @Index(columnList = "history_req_id") })
 @Data
 @Builder
 @RequiredArgsConstructor
@@ -32,21 +31,42 @@ public class HistoryLine {
 	private Long id;
 
 	@ManyToOne
-	private HistoryReq req;
+	private HistoryReq historyReq;
 
-	@Embedded
-	private R_get_markets_region_id_history daily;
+	/**
+	 * average number
+	 */
+	private double average;
 
-	private Instant dateDate;
+	private Instant date;
+	/**
+	 * highest number
+	 */
+	private double highest;
+	/**
+	 * lowest number
+	 */
+	private double lowest;
+	/**
+	 * Total number of orders happened that day
+	 */
+	private long orderCount;
+	/**
+	 * Total
+	 */
+	private long volume;
 
-	public void affectFields() {
-		if (dateDate == null) {
-			if (getDaily().date != null) {
-				setDateDate(DateTimeFormatter.ISO_DATE.parse(getDaily().date, LocalDate::from).atStartOfDay()
-						.toInstant(ZoneOffset.UTC));
-			}
-			getDaily().date = null;
-		}
+	public static HistoryLine of(HistoryReq req, R_get_markets_region_id_history line) {
+		return builder()
+				.historyReq(req)
+				.average(line.average)
+				.date(DateTimeFormatter.ISO_DATE.parse(line.date, LocalDate::from).atStartOfDay()
+						.toInstant(ZoneOffset.UTC))
+				.highest(line.highest)
+				.lowest(line.lowest)
+				.orderCount(line.order_count)
+				.volume(line.volume)
+				.build();
 	}
 
 }
