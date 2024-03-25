@@ -15,13 +15,14 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.RegionLineRepository;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.MarketUpdateService.MarketUpdateListener;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor
-public class RegionLineService {
+public class RegionLineService implements MarketUpdateListener {
 
 	final private RegionLineRepository repo;
 
@@ -40,16 +41,6 @@ public class RegionLineService {
 	//
 	// tools
 	//
-
-	/** list of caches to invalidate */
-	static final List<String> MARKET_ORDERS_CACHES = List.of(
-			"marketAll",
-			"marketLocation",
-			"marketRegion",
-			"marketBoValueLocation",
-			"marketSoValueLocation",
-			"marketLocationTypesBo",
-			"marketLocationTypesSo");
 
 	/** common value to get to get Jita specific orders */
 	public static final long JITAIV_ID = 60003760;
@@ -282,6 +273,22 @@ public class RegionLineService {
 		List<RegionLine> bos = new ArrayList<>(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(typeId, true));
 		Collections.reverse(bos);
 		return sellGain(sos, bos);
+	}
+
+
+	/** list of caches to invalidate */
+	static final List<String> MARKET_ORDERS_CACHES = List.of(
+			"marketAll",
+			"marketLocation",
+			"marketRegion",
+			"marketBoValueLocation",
+			"marketSoValueLocation",
+			"marketLocationTypesBo",
+			"marketLocationTypesSo");
+
+	@Override
+	public List<String> listMarketCaches(int regionId) {
+		return MARKET_ORDERS_CACHES;
 	}
 
 }

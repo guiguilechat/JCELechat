@@ -12,11 +12,12 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.mer.model.Kill;
 import fr.guiguilechat.jcelechat.libs.spring.mer.repositories.KillRepository;
+import fr.guiguilechat.jcelechat.libs.spring.mer.services.MerUpdateService.MerUpdateListener;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-public class KillService {
+public class KillService implements MerUpdateListener {
 
 	final private KillRepository repo;
 
@@ -78,13 +79,6 @@ public class KillService {
 				.map(KillStats::new).toList();
 	}
 
-	/** list of caches to invalidate */
-	static final List<String> MER_KILLS_CACHES = List.of(
-			"merKillsMonthlyStats",
-			"merKillsWeeklyStats",
-			"merKillsYearlyStats",
-			"merKillsDailyStats");
-
 	final static List<Integer> NPCCorporationIds = List.of(
 			1000127, // Guristas [G]
 			1000132, // Secure Commerce Commission [SCC]
@@ -92,5 +86,17 @@ public class KillService {
 			1000148, // InterBus [INB]
 			1000274 // Vigilant Tyrannos [VI-TY]
 	);
+
+	/** list of caches to invalidate */
+	static final List<String> MER_KILLS_CACHES = List.of(
+			"merKillsMonthlyStats",
+			"merKillsWeeklyStats",
+			"merKillsYearlyStats",
+			"merKillsDailyStats");
+
+	@Override
+	public List<String> listMerCaches() {
+		return MER_KILLS_CACHES;
+	}
 
 }

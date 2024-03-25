@@ -42,6 +42,20 @@ public class MarketUpdateService {
 
 	final private ObservedRegionService orService;
 
+	public static interface MarketUpdateListener {
+
+		public default List<String> listMarketCaches(int regionId) {
+			return List.of();
+		}
+
+		public default void onMarketUpdate(ObservedRegion region) {
+
+		}
+
+	}
+
+	private final List<MarketUpdateListener> updateListeners;
+
 	@Async
 	@Transactional
 	public CompletableFuture<Void> updateLines(ObservedRegion region) {
@@ -75,9 +89,11 @@ public class MarketUpdateService {
 					+ " fetchHT=" + (int) Math.ceil(0.001 * (fetchHistoryTypes - saveMs)) + "s"
 					+ " saveHT=" + (int) Math.ceil(0.001 * (insertedHistoryTypes - fetchHistoryTypes)) + "s");
 		}
-		for (String cacheName : RegionLineService.MARKET_ORDERS_CACHES) {
-			cacheManager.getCache(cacheName).clear();
-		}
+
+		updateListeners.stream().flatMap(l -> l.listMarketCaches(region.getRegionId()).stream())
+				.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+		updateListeners.stream().forEach(l -> l.onMarketUpdate(region));
+
 		return CompletableFuture.completedFuture(null);
 	}
 

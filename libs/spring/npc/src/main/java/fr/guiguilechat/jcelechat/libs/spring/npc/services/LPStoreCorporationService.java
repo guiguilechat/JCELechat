@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.LPStoreCorporationRepository;
+import fr.guiguilechat.jcelechat.libs.spring.npc.services.UpdateScheduler.CorporationsUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -26,12 +27,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor
-public class LPStoreCorporationService {
+public class LPStoreCorporationService implements CorporationsUpdateListener {
 
 	final private LPStoreCorporationRepository repo;
-
-	public static List<String> CORPORATIONS_CACHES = List.of(
-			"lpCorpActive");
 
 	public Optional<LPStoreCorporation> byId(int corporationId) {
 		return repo.findById(corporationId);
@@ -131,6 +129,14 @@ public class LPStoreCorporationService {
 
 	public LPStoreCorporation nextCorp(LPStoreCorporation corp) {
 		return corp == null ? null : repo.findTop1ByNameGreaterThanOrderByNameAsc(corp.getName());
+	}
+
+	public static List<String> CORPORATIONS_CACHES = List.of(
+			"lpCorpActive");
+
+	@Override
+	public List<String> listCorporationsCaches() {
+		return CORPORATIONS_CACHES;
 	}
 
 }

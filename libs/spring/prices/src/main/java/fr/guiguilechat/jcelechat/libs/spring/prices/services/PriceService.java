@@ -9,11 +9,12 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.prices.model.Price;
 import fr.guiguilechat.jcelechat.libs.spring.prices.repositories.PriceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.prices.services.PriceUpdateService.PriceUpdateListener;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-public class PriceService {
+public class PriceService implements PriceUpdateListener {
 
 	final private PriceRepository repo;
 
@@ -29,8 +30,6 @@ public class PriceService {
 		return repo.save(entity);
 	}
 
-	public static final List<String> PRICE_VALUES_CACHES = List.of("pricesAdjusted", "pricesAverage");
-
 	@Cacheable("pricesAdjusted")
 	public Map<Integer, Double> adjusted() {
 		return repo.findAll().stream().collect(Collectors.toMap(Price::getTypeId, Price::getAdjustedPrice));
@@ -39,6 +38,13 @@ public class PriceService {
 	@Cacheable("pricesAverage")
 	public Map<Integer, Double> average() {
 		return repo.findAll().stream().collect(Collectors.toMap(Price::getTypeId, Price::getAveragePrice));
+	}
+
+	public static final List<String> PRICE_VALUES_CACHES = List.of("pricesAdjusted", "pricesAverage");
+
+	@Override
+	public List<String> listPriceCaches() {
+		return PRICE_VALUES_CACHES;
 	}
 
 }

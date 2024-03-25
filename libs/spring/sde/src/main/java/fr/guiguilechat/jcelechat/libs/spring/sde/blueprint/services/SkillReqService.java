@@ -8,11 +8,12 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.SkillReq;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.repositories.SkillReqRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SdeUpdateListener;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-public class SkillReqService {
+public class SkillReqService implements SdeUpdateListener {
 
 	final private SkillReqRepository repo;
 
@@ -33,12 +34,18 @@ public class SkillReqService {
 		return repo.findAllByActivityTypeTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
-	public static final List<String> CACHE_LIST = List.of("SdeBlueprintSkillReq");
-
 	@Cacheable("SdeBlueprintSkillReq")
 	public List<SkillReq> forBPActivity(int bpTypeId,
 			ACTIVITY_TYPE ats) {
 		return forBPActivity(List.of(bpTypeId), List.of(ats));
+	}
+
+	public static final List<String> CACHE_LIST = List.of(
+			"SdeBlueprintSkillReq");
+
+	@Override
+	public List<String> listSDECaches() {
+		return CACHE_LIST;
 	}
 
 }

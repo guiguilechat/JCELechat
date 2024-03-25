@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Stargate;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.repositories.StargateRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SdeUpdateListener;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -27,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor
-public class StargateService {
+public class StargateService implements SdeUpdateListener {
 
 	final private StargateRepository repo;
 
@@ -42,8 +43,6 @@ public class StargateService {
 	public Stargate findById(int stargateId) {
 		return repo.findById(stargateId).orElse(null);
 	}
-
-	public static final List<String> CACHE_LIST = List.of("SdeUniverseWJD");
 
 	public static record WarpJumpDist(int start, int end, double distance) implements Serializable {
 
@@ -371,6 +370,13 @@ public class StargateService {
 			lastPos = step;
 		}
 		return ret;
+	}
+
+	public static final List<String> CACHE_LIST = List.of("SdeUniverseWJD");
+
+	@Override
+	public List<String> listSDECaches() {
+		return CACHE_LIST;
 	}
 
 }

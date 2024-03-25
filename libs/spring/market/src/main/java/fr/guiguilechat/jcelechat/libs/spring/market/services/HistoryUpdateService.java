@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;
 
+import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -27,9 +28,25 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 public class HistoryUpdateService {
 
+	final private CacheManager cacheManager;
+
 	final private HistoryLineService hlService;
 
 	final private HistoryReqService hrService;
+
+	public static interface HistoryUpdateListener {
+
+		public default List<String> listHistoryCaches() {
+			return List.of();
+		}
+
+		public default void onHistoryUpdate(HistoryReq req) {
+
+		}
+
+	}
+
+	private final List<HistoryUpdateListener> updateListeners;
 
 	@Async
 	@Transactional
@@ -44,6 +61,10 @@ public class HistoryUpdateService {
 		long postClear = System.currentTimeMillis();
 		if (newLines != null) {
 			hlService.saveAll(newLines);
+
+			updateListeners.stream().flatMap(l -> l.listHistoryCaches().stream())
+					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			updateListeners.stream().forEach(l -> l.onHistoryUpdate(req));
 		}
 		long postSave = System.currentTimeMillis();
 		log.debug(" fetched history region=" + req.getRegionId() + " type=" + req.getTypeId()

@@ -121,6 +121,20 @@ public class SDEUpdateService {
 
 	final private UpdateResultService updateresultService;
 
+	/** interface for the beans that should react to SDE update */
+	public static interface SdeUpdateListener {
+
+		public default List<String> listSDECaches() {
+			return List.of();
+		}
+
+		public default void onSDEUpdate() {
+
+		}
+	}
+
+	private final List<SdeUpdateListener> updateListeners;
+
 	@Value("${sde.updater.forcereinsert:false}")
 	private boolean forceReinsert;
 
@@ -192,7 +206,8 @@ public class SDEUpdateService {
 			int solsysId) {
 	}
 
-	static class UpdateContext {
+	/** store the SDE lines as required to build them into memory */
+	class UpdateContext {
 		public final List<Attribute> attributes = new ArrayList<>();
 		public final List<Eblueprints> blueprints = new ArrayList<>();
 		public final List<Category> categories = new ArrayList<>();
@@ -206,6 +221,163 @@ public class SDEUpdateService {
 		public final List<SolarSystemData> systems = new ArrayList<>();
 		public final List<TypeAttributeData> typeAttributes = new ArrayList<>();
 		public final List<TypeData> types = new ArrayList<>();
+
+		static final Pattern ENTRYNAME_SOLARSYSTEM_PATTERN = Pattern.compile(
+				"sde/fsd/universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/solarsystem\\.staticdata");
+
+		static final Pattern ENTRYNAME_CONSTELLATION_PATTERN = Pattern.compile(
+				"sde/fsd/universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/constellation\\.staticdata");
+
+		static final Pattern ENTRYNAME_REGION_PATTERN = Pattern.compile(
+				"sde/fsd/universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/region\\.staticdata");
+
+		static final Pattern ENTRYNAME_CATEGORIES_PATTERN = Pattern.compile(
+				"sde/fsd/categoryIDs\\.yaml");
+
+		static final Pattern ENTRYNAME_GROUPS_PATTERN = Pattern.compile(
+				"sde/fsd/groupIDs\\.yaml");
+
+		static final Pattern ENTRYNAME_TYPES_PATTERN = Pattern.compile(
+				"sde/fsd/typeIDs\\.yaml");
+
+		static final Pattern ENTRYNAME_ATTRIBUTES_PATTERN = Pattern.compile(
+				"sde/fsd/dogmaAttributes\\.yaml");
+
+		static final Pattern ENTRYNAME_BLUEPRINTS_PATTERN = Pattern.compile(
+				"sde/fsd/blueprints\\.yaml");
+
+		static final Pattern ENTRYNAME_TYPEATTRIBUTES_PATTERN = Pattern.compile(
+				"sde/fsd/typeDogma\\.yaml");
+
+		static final Pattern ENTRYNAME_INVNAMES_PATTERN = Pattern.compile(
+				"sde/bsd/invNames\\.yaml");
+
+		static final Pattern ENTRYNAME_PLANETSCHEMATICS_PATTERN = Pattern.compile(
+				"sde/fsd/planetSchematics\\.yaml");
+
+		private void applyZipEntry(ZipFile zipFile, ZipEntry zipentry) throws IOException {
+			String name = zipentry.getName();
+			InputStream is = zipFile.getInputStream(zipentry);
+			Matcher m = null;
+			m = ENTRYNAME_SOLARSYSTEM_PATTERN.matcher(name);
+			if (m.matches()) {
+				applySolarSystem(is, m.group(1), m.group(2),
+						m.group(3), m.group(4));
+				return;
+			}
+			m = ENTRYNAME_CONSTELLATION_PATTERN.matcher(name);
+			if (m.matches()) {
+				applyConstellation(is, m.group(1), m.group(2),
+						m.group(3));
+				return;
+			}
+			m = ENTRYNAME_REGION_PATTERN.matcher(name);
+			if (m.matches()) {
+				applyRegion(is, m.group(1), m.group(2));
+				return;
+			}
+			if (ENTRYNAME_CATEGORIES_PATTERN.matcher(name).matches()) {
+				appyCategories(is);
+				return;
+			}
+			if (ENTRYNAME_GROUPS_PATTERN.matcher(name).matches()) {
+				appyGroups(is);
+				return;
+			}
+			if (ENTRYNAME_TYPES_PATTERN.matcher(name).matches()) {
+				appyTypes(is);
+				return;
+			}
+			if (ENTRYNAME_ATTRIBUTES_PATTERN.matcher(name).matches()) {
+				appyAttributes(is);
+				return;
+			}
+			if (ENTRYNAME_TYPEATTRIBUTES_PATTERN.matcher(name).matches()) {
+				appyTypeAttributes(is);
+				return;
+			}
+			if (ENTRYNAME_BLUEPRINTS_PATTERN.matcher(name).matches()) {
+				appyBlueprints(is);
+				return;
+			}
+			if (ENTRYNAME_INVNAMES_PATTERN.matcher(name).matches()) {
+				applyInvNames(is);
+				return;
+			}
+			if (ENTRYNAME_PLANETSCHEMATICS_PATTERN.matcher(name).matches()) {
+				applySchematics(is);
+				return;
+			}
+			// log.info("ignore entry " + name);
+		}
+
+		private void applySchematics(InputStream is) {
+			planetSchematics.putAll(EplanetSchematics.from(is));
+		}
+
+		private void applyInvNames(InputStream is) {
+			invNames.putAll(EinvNames.from(is).stream().collect(Collectors.toMap(in -> in.itemID, in -> in.itemName)));
+		}
+
+		private void appyBlueprints(InputStream is) {
+			blueprints.addAll(Eblueprints.from(is).values());
+		}
+
+		private void appyCategories(InputStream is) {
+			categories.addAll(EcategoryIDs.from(is).entrySet().stream().map(Category::from).toList());
+		}
+
+		private void appyGroups(InputStream is) {
+			groups.addAll(EgroupIDs.from(is).entrySet().stream().map(e -> new GroupData(e.getValue(), e.getKey())).toList());
+		}
+
+		private void appyTypes(InputStream is) {
+			types.addAll(EtypeIDs.from(is).entrySet().stream().map(e -> new TypeData(e.getValue(), e.getKey())).toList());
+		}
+
+		private void appyAttributes(InputStream is) {
+			attributes.addAll(
+					EdogmaAttributes.from(is).entrySet().stream().map(e -> Attribute.from(e.getKey(), e.getValue()))
+							.toList());
+		}
+
+		private void appyTypeAttributes(InputStream is) {
+			typeAttributes.addAll(
+					EtypeDogma.from(is).entrySet().stream()
+							.filter(e -> e.getValue().dogmaAttributes != null && e.getValue().dogmaAttributes.length > 0)
+							.flatMap(e -> Stream.of(e.getValue().dogmaAttributes)
+									.map(eat -> new TypeAttributeData(e.getKey(), eat.attributeID, eat.value)))
+							.toList());
+		}
+
+		private void applyRegion(InputStream is, String uniName, String regionName) {
+			regions.add(new RegionData(is, regionName, uniName));
+		}
+
+		private void applyConstellation(InputStream is, String uniName, String regionName,
+				String constellationName) {
+			constels.add(new ConstelData(is, constellationName, regionName));
+		}
+
+		private void applySolarSystem(InputStream is, String uniName, String regionName,
+				String constellationName, String solarSystemName) {
+			SolarSystemData ssd = new SolarSystemData(is, solarSystemName, constellationName);
+			systems.add(ssd);
+			for (Entry<Integer, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Stargate> sge : ssd
+					.data().stargates.entrySet()) {
+				stargates.add(new StargateData(sge.getValue(), sge.getKey(), ssd.data().solarSystemID));
+			}
+			for (Planet p : ssd.data().planets.values()) {
+				for (Entry<Integer, NPCStation> e : p.npcStations.entrySet()) {
+					stations.add(new StationData(e.getValue(), e.getKey(), ssd.data.solarSystemID));
+				}
+				for (Moon m : p.moons.values()) {
+					for (Entry<Integer, NPCStation> e : m.npcStations.entrySet()) {
+						stations.add(new StationData(e.getValue(), e.getKey(), ssd.data.solarSystemID));
+					}
+				}
+			}
+		}
 	}
 
 	/**
@@ -223,7 +395,7 @@ public class SDEUpdateService {
 		try (ZipFile zipFile = new ZipFile(newZipFile)) {
 			for (ZipEntry zipentry : Collections.list(zipFile.entries())) {
 				if (!zipentry.isDirectory()) {
-					applyZipEntry(context, zipFile, zipentry);
+					context.applyZipEntry(zipFile, zipentry);
 				}
 			}
 		}
@@ -433,14 +605,12 @@ public class SDEUpdateService {
 						context.invNames.get(sd.stationId())))
 				.toList());
 
-		List.of(BlueprintActivityService.CACHE_LIST,
-				MaterialService.CACHE_LIST,
-				ProductService.CACHE_LIST,
-				SkillReqService.CACHE_LIST,
-				StargateService.CACHE_LIST).stream().flatMap(List::stream).toList()
-				.forEach(cacheName -> {
-					cacheManager.getCache(cacheName).clear();
-				});
+		List<String> cacheNames = updateListeners.stream().flatMap(l -> l.listSDECaches().stream()).toList();
+		log.info("  clearing " + cacheNames.size() + " caches : " + cacheNames);
+		cacheNames.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+
+		updateListeners.stream().forEach(SdeUpdateListener::onSDEUpdate);
+
 		log.info(" finished updating SDE DB.");
 
 	}
@@ -459,166 +629,6 @@ public class SDEUpdateService {
 					.map(p -> Product.of(bpa, typesById.get(p.typeID), p.probability, p.quantity)).toList());
 			newSkills.addAll(act.skills.stream()
 					.map(s -> SkillReq.of(bpa, typesById.get(s.typeID), s.level)).toList());
-		}
-	}
-
-	static final Pattern ENTRYNAME_SOLARSYSTEM_PATTERN = Pattern.compile(
-			"sde/fsd/universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/solarsystem\\.staticdata");
-
-	static final Pattern ENTRYNAME_CONSTELLATION_PATTERN = Pattern.compile(
-			"sde/fsd/universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/constellation\\.staticdata");
-
-	static final Pattern ENTRYNAME_REGION_PATTERN = Pattern.compile(
-			"sde/fsd/universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/region\\.staticdata");
-
-	static final Pattern ENTRYNAME_CATEGORIES_PATTERN = Pattern.compile(
-			"sde/fsd/categoryIDs\\.yaml");
-
-	static final Pattern ENTRYNAME_GROUPS_PATTERN = Pattern.compile(
-			"sde/fsd/groupIDs\\.yaml");
-
-	static final Pattern ENTRYNAME_TYPES_PATTERN = Pattern.compile(
-			"sde/fsd/typeIDs\\.yaml");
-
-	static final Pattern ENTRYNAME_ATTRIBUTES_PATTERN = Pattern.compile(
-			"sde/fsd/dogmaAttributes\\.yaml");
-
-	static final Pattern ENTRYNAME_BLUEPRINTS_PATTERN = Pattern.compile(
-			"sde/fsd/blueprints\\.yaml");
-
-	static final Pattern ENTRYNAME_TYPEATTRIBUTES_PATTERN = Pattern.compile(
-			"sde/fsd/typeDogma\\.yaml");
-
-	static final Pattern ENTRYNAME_INVNAMES_PATTERN = Pattern.compile(
-			"sde/bsd/invNames\\.yaml");
-
-	static final Pattern ENTRYNAME_PLANETSCHEMATICS_PATTERN = Pattern.compile(
-			"sde/fsd/planetSchematics\\.yaml");
-
-	private void applyZipEntry(UpdateContext context, ZipFile zipFile, ZipEntry zipentry) throws IOException {
-		String name = zipentry.getName();
-		InputStream is = zipFile.getInputStream(zipentry);
-		Matcher m = null;
-		m = ENTRYNAME_SOLARSYSTEM_PATTERN.matcher(name);
-		if (m.matches()) {
-			applySolarSystem(context, is, m.group(1), m.group(2),
-					m.group(3), m.group(4));
-			return;
-		}
-		m = ENTRYNAME_CONSTELLATION_PATTERN.matcher(name);
-		if (m.matches()) {
-			applyConstellation(context, is, m.group(1), m.group(2),
-					m.group(3));
-			return;
-		}
-		m = ENTRYNAME_REGION_PATTERN.matcher(name);
-		if (m.matches()) {
-			applyRegion(context, is, m.group(1), m.group(2));
-			return;
-		}
-		if (ENTRYNAME_CATEGORIES_PATTERN.matcher(name).matches()) {
-			appyCategories(context, is);
-			return;
-		}
-		if (ENTRYNAME_GROUPS_PATTERN.matcher(name).matches()) {
-			appyGroups(context, is);
-			return;
-		}
-		if (ENTRYNAME_TYPES_PATTERN.matcher(name).matches()) {
-			appyTypes(context, is);
-			return;
-		}
-		if (ENTRYNAME_ATTRIBUTES_PATTERN.matcher(name).matches()) {
-			appyAttributes(context, is);
-			return;
-		}
-		if (ENTRYNAME_TYPEATTRIBUTES_PATTERN.matcher(name).matches()) {
-			appyTypeAttributes(context, is);
-			return;
-		}
-		if (ENTRYNAME_BLUEPRINTS_PATTERN.matcher(name).matches()) {
-			appyBlueprints(context, is);
-			return;
-		}
-		if (ENTRYNAME_INVNAMES_PATTERN.matcher(name).matches()) {
-			applyInvNames(context, is);
-			return;
-		}
-		if (ENTRYNAME_PLANETSCHEMATICS_PATTERN.matcher(name).matches()) {
-			applySchematics(context, is);
-			return;
-		}
-		// log.info("ignore entry " + name);
-	}
-
-	private void applySchematics(UpdateContext context, InputStream is) {
-		context.planetSchematics.putAll(EplanetSchematics.from(is));
-	}
-
-	private void applyInvNames(UpdateContext context, InputStream is) {
-		context.invNames.putAll(EinvNames.from(is).stream().collect(Collectors.toMap(in -> in.itemID, in -> in.itemName)));
-	}
-
-	private void appyBlueprints(UpdateContext context, InputStream is) {
-		context.blueprints.addAll(Eblueprints.from(is).values());
-	}
-
-	private void appyCategories(UpdateContext context, InputStream is) {
-		context.categories
-				.addAll(EcategoryIDs.from(is).entrySet().stream().map(Category::from).toList());
-	}
-
-	private void appyGroups(UpdateContext context, InputStream is) {
-		context.groups
-				.addAll(EgroupIDs.from(is).entrySet().stream().map(e -> new GroupData(e.getValue(), e.getKey())).toList());
-	}
-
-	private void appyTypes(UpdateContext context, InputStream is) {
-		context.types
-				.addAll(EtypeIDs.from(is).entrySet().stream().map(e -> new TypeData(e.getValue(), e.getKey())).toList());
-	}
-
-	private void appyAttributes(UpdateContext context, InputStream is) {
-		context.attributes
-				.addAll(
-						EdogmaAttributes.from(is).entrySet().stream().map(e -> Attribute.from(e.getKey(), e.getValue())).toList());
-	}
-
-	private void appyTypeAttributes(UpdateContext context, InputStream is) {
-		context.typeAttributes.addAll(
-				EtypeDogma.from(is).entrySet().stream()
-						.filter(e -> e.getValue().dogmaAttributes != null && e.getValue().dogmaAttributes.length > 0)
-						.flatMap(e -> Stream.of(e.getValue().dogmaAttributes)
-								.map(eat -> new TypeAttributeData(e.getKey(), eat.attributeID, eat.value)))
-						.toList());
-	}
-
-	private void applyRegion(UpdateContext context, InputStream is, String uniName, String regionName) {
-		context.regions.add(new RegionData(is, regionName, uniName));
-	}
-
-	private void applyConstellation(UpdateContext context, InputStream is, String uniName, String regionName,
-			String constellationName) {
-		context.constels.add(new ConstelData(is, constellationName, regionName));
-	}
-
-	private void applySolarSystem(UpdateContext context, InputStream is, String uniName, String regionName,
-			String constellationName, String solarSystemName) {
-		SolarSystemData ssd = new SolarSystemData(is, solarSystemName, constellationName);
-		context.systems.add(ssd);
-		for (Entry<Integer, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Stargate> sge : ssd
-				.data().stargates.entrySet()) {
-			context.stargates.add(new StargateData(sge.getValue(), sge.getKey(), ssd.data().solarSystemID));
-		}
-		for (Planet p : ssd.data().planets.values()) {
-			for (Entry<Integer, NPCStation> e : p.npcStations.entrySet()) {
-				context.stations.add(new StationData(e.getValue(), e.getKey(), ssd.data.solarSystemID));
-			}
-			for (Moon m : p.moons.values()) {
-				for (Entry<Integer, NPCStation> e : m.npcStations.entrySet()) {
-					context.stations.add(new StationData(e.getValue(), e.getKey(), ssd.data.solarSystemID));
-				}
-			}
 		}
 	}
 

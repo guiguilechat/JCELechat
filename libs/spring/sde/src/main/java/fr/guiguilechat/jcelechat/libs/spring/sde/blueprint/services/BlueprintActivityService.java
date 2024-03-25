@@ -9,11 +9,12 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivi
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.repositories.BlueprintActivityRepository;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SdeUpdateListener;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-public class BlueprintActivityService {
+public class BlueprintActivityService implements SdeUpdateListener {
 
 	final private BlueprintActivityRepository repo;
 
@@ -38,12 +39,17 @@ public class BlueprintActivityService {
 		return repo.findAllByTypeTypeIdIn(List.of(type.getTypeId()));
 	}
 
-	public static final List<String> CACHE_LIST = List.of("SdeBlueprintActivity");
-
 	@Cacheable("SdeBlueprintActivity")
 	public List<BlueprintActivity> forBPActivity(int bpTypeId,
 			ACTIVITY_TYPE ats) {
 		return forBPActivity(List.of(bpTypeId), List.of(ats));
+	}
+
+	public static final List<String> CACHE_LIST = List.of("SdeBlueprintActivity");
+
+	@Override
+	public List<String> listSDECaches() {
+		return CACHE_LIST;
 	}
 
 }

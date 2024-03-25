@@ -12,13 +12,14 @@ import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.ObservedRegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SdeUpdateListener;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor
-public class MarketSyncService {
+public class MarketSyncService implements SdeUpdateListener {
 
 	final private RegionService rService;
 
@@ -29,7 +30,6 @@ public class MarketSyncService {
 	@Value("${eveproxy.market.regionsskip:false}")
 	private boolean skipRegionSync;
 
-	@Scheduled(fixedRateString = "${eveproxy.market.regionsperiod:3600000}", initialDelayString = "${eveproxy.market.regionsdelay:10000}")
 	public void observeAllEveUni() {
 		if (skipRegionSync) {
 			return;
@@ -54,6 +54,11 @@ public class MarketSyncService {
 		if (!skipKillSync) {
 			killDataService.createMissing();
 		}
+	}
+
+	@Override
+	public void onSDEUpdate() {
+		observeAllEveUni();
 	}
 
 }

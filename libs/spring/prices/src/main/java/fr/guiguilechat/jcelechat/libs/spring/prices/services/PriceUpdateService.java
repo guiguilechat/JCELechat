@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.prices.services;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
@@ -26,6 +27,20 @@ public class PriceUpdateService {
 	final private PriceService priceService;
 
 	final private CacheManager cacheManager;
+
+	public static interface PriceUpdateListener {
+
+		public default List<String> listPriceCaches() {
+			return List.of();
+		}
+
+		public default void onPriceUpdate() {
+
+		}
+
+	}
+
+	private final List<PriceUpdateListener> pricesUpdateListeners;
 
 	@Value("${prices.updater.skip:false}")
 	private boolean skip;
@@ -53,9 +68,11 @@ public class PriceUpdateService {
 									.averagePrice(p.average_price)
 									.build())
 							.toList());
-			for (String cacheName : PriceService.PRICE_VALUES_CACHES) {
-				cacheManager.getCache(cacheName).clear();
-			}
+
+			pricesUpdateListeners.stream().flatMap(l -> l.listPriceCaches().stream())
+					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			pricesUpdateListeners.stream().forEach(PriceUpdateListener::onPriceUpdate);
+
 			log.info("updated prices");
 		} else if (prices.getResponseCode() == 304) {
 			// nothing to do

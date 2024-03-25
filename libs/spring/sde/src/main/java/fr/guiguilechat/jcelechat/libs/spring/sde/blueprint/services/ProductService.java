@@ -8,11 +8,12 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Product;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.repositories.ProductRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SdeUpdateListener;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-public class ProductService {
+public class ProductService implements SdeUpdateListener {
 
 	final private ProductRepository repo;
 
@@ -48,6 +49,13 @@ public class ProductService {
 		return findProducers(List.of(productId), List.of(activity));
 	}
 
-	public static final List<String> CACHE_LIST = List.of("SdeBlueprintFindProducts", "SdeBlueprintFindProducers");
+	public static final List<String> CACHE_LIST = List.of(
+			"SdeBlueprintFindProducts",
+			"SdeBlueprintFindProducers");
+
+	@Override
+	public List<String> listSDECaches() {
+		return CACHE_LIST;
+	}
 
 }

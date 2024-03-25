@@ -30,6 +30,20 @@ public class MerUpdateService {
 
 	final private CacheManager cacheManager;
 
+	public static interface MerUpdateListener {
+
+		public default List<String> listMerCaches() {
+			return List.of();
+		}
+
+		public default void onMerUpdate() {
+
+		}
+
+	}
+
+	private final List<MerUpdateListener> updateListeners;
+
 	@Async
 	@Transactional
 	public CompletableFuture<Void> loadMer(MERFetch merfetch) {
@@ -45,9 +59,11 @@ public class MerUpdateService {
 			killService.saveAll(mer.getKillDumpEntries().stream().map(kde -> Kill.from(kde, loadedMer)).toList());
 			loadedMer.setEndLoad(Instant.now());
 			loadedMerService.save(loadedMer);
-			for (String cacheName : KillService.MER_KILLS_CACHES) {
-				cacheManager.getCache(cacheName).clear();
-			}
+
+			updateListeners.stream().flatMap(l -> l.listMerCaches().stream())
+					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			updateListeners.stream().forEach(MerUpdateListener::onMerUpdate);
+
 			log.info(" loaded MER for date " + localdate);
 		} else {
 			if (merfetch.error() == null) {

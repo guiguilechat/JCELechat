@@ -28,6 +28,21 @@ public class UpdateScheduler {
 
 	final private LPStoreCorporationService lpStoreCorporationService;
 
+
+	public static interface CorporationsUpdateListener {
+
+		public default List<String> listCorporationsCaches() {
+			return List.of();
+		}
+
+		public default void onCorporationsUpdate() {
+
+		}
+
+	}
+
+	private final List<CorporationsUpdateListener> corporationsUpdateListeners;
+
 	@Value("${npc.corporations.skip:false}")
 	private boolean skipCorporations;
 
@@ -40,9 +55,11 @@ public class UpdateScheduler {
 		Requested<Integer[]> ret = lpStoreCorporationService.fetchCorporations();
 		long endMs = System.currentTimeMillis();
 		if (ret.isOk()) {
-			for (String cacheName : LPStoreCorporationService.CORPORATIONS_CACHES) {
-				cacheManager.getCache(cacheName).clear();
-			}
+
+			corporationsUpdateListeners.stream().flatMap(l -> l.listCorporationsCaches().stream())
+					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			corporationsUpdateListeners.stream().forEach(CorporationsUpdateListener::onCorporationsUpdate);
+
 			long cacheEndMs = System.currentTimeMillis();
 			log.info(" updated corporations to " + ret.getOK().length + " active in"
 					+ " change=" + (int) Math.ceil(0.001 * (endMs - startMs)) + "s"

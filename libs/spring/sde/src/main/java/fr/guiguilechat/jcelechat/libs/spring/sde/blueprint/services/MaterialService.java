@@ -10,11 +10,12 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivi
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.repositories.MaterialRepository;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SdeUpdateListener;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-public class MaterialService {
+public class MaterialService implements SdeUpdateListener {
 
 	final private MaterialRepository repo;
 
@@ -35,11 +36,6 @@ public class MaterialService {
 		return repo.findAllByActivityTypeTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
-	public static final List<String> CACHE_LIST = List.of(
-// "SdeBlueprintActivitytypeMaterials",
-			"SdeBlueprintMaterial",
-			"SdeBlueprintUsage");
-
 	@Cacheable("SdeBlueprintMaterial")
 	public List<Material> forBPActivity(int bpTypeId,
 			ACTIVITY_TYPE ats) {
@@ -59,6 +55,16 @@ public class MaterialService {
 // @Cacheable("SdeBlueprintActivitytypeMaterials")
 	public Set<Type> allActivityMaterialsInCategory(ACTIVITY_TYPE at, int category_id) {
 		return repo.allActivityMaterialsInCategory(at, category_id);
+	}
+
+	public static final List<String> CACHE_LIST = List.of(
+// "SdeBlueprintActivitytypeMaterials",
+			"SdeBlueprintMaterial",
+			"SdeBlueprintUsage");
+
+	@Override
+	public List<String> listSDECaches() {
+		return CACHE_LIST;
 	}
 
 }
