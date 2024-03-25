@@ -36,8 +36,8 @@ public class CorporationOfferService {
 		return repo.findAllByCorporationCorporationId(corporationId);
 	}
 
-	public List<CorporationOffer> byCorporationIdRequiringLp(int corporationId) {
-		return repo.findAllByCorporationCorporationIdAndLpCostGreaterThan(corporationId, 0);
+	public List<CorporationOffer> byCorporationIdRequiringLp(int corporationId, int maxLP) {
+		return repo.findAllByCorporationCorporationIdAndLpCostGreaterThanAndLpCostLessThan(corporationId, 0, maxLP + 1);
 	}
 
 	public List<CorporationOffer> producing(Type type) {

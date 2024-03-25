@@ -113,7 +113,7 @@ public class NpcHtmlController {
 					uri(nextCorp, params).toString());
 		}
 
-		List<CorporationOffer> offers = corporationOfferService.byCorporationIdRequiringLp(corporationId);
+		List<CorporationOffer> offers = corporationOfferService.byCorporationIdRequiringLp(corporationId, params.getLp());
 
 		model.addAttribute("offers",
 				offerValueService.value(offers, params.getLp(), params.getMaterialSourcing(), params.getProductValuator(),

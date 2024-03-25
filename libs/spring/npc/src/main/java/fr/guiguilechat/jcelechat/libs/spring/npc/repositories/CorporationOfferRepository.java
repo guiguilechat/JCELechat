@@ -18,7 +18,8 @@ public interface CorporationOfferRepository extends JpaRepository<CorporationOff
 
 	public List<CorporationOffer> findAllByCorporationCorporationId(int corporationId);
 
-	public List<CorporationOffer> findAllByCorporationCorporationIdAndLpCostGreaterThan(int corporationId, int minLPCost);
+	public List<CorporationOffer> findAllByCorporationCorporationIdAndLpCostGreaterThanAndLpCostLessThan(
+			int corporationId, int minLPCost, int maxLPCostExc);
 
 	public List<CorporationOffer> findAllByType(Type type);
 

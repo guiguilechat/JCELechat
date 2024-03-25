@@ -117,13 +117,16 @@ public class LPOfferEvalService {
 	/**
 	 * value once we have already fetched data from DB.
 	 */
-	LPOfferEval value(CorporationOffer offer, int minLpAmount, MaterialSourcing materialSourcing,
+	LPOfferEval value(CorporationOffer offer, int maxLpAmount, MaterialSourcing materialSourcing,
 			ProductValuator productValuator,
 			double brokerPct, double taxPct, double marginPct, double marginPctPerHour, double bpCost,
 			Map<Integer, List<BlueprintActivity>> typeToActivities, Map<Integer, List<RegionLine>> bosByTypeId,
 			Map<Integer, List<RegionLine>> sosByTypeId) {
 
-		long offerQuantity = (long) Math.ceil(1.0 * minLpAmount / offer.getLpCost());
+		long offerQuantity = (long) Math.floor(1.0 * maxLpAmount / offer.getLpCost());
+		if (offerQuantity < 1) {
+			return null;
+		}
 		double tediousCost = 0.0;
 		HashMap<Integer, Long> requiredMats = new HashMap<>();
 		for (OfferRequirement r : offer.getRequirements()) {
@@ -172,7 +175,7 @@ public class LPOfferEvalService {
 	}
 
 	@Transactional
-	public List<LPOfferEval> value(List<CorporationOffer> offers, int minLpAmount, MaterialSourcing materialSourcing,
+	public List<LPOfferEval> value(List<CorporationOffer> offers, int maxLpAmount, MaterialSourcing materialSourcing,
 			ProductValuator productValuator,
 			double brokerPct, double taxPct, double marginPct, double marginPctPerHour, double bpCost,
 			long marketLocationId) {
@@ -201,8 +204,9 @@ public class LPOfferEvalService {
 		Map<Integer, List<RegionLine>> sosByTypeId = regionLineService.locationSos(marketLocationId, allIds);
 		long sosFetched = System.currentTimeMillis();
 		List<LPOfferEval> ret = offers.parallelStream()
-				.map(o -> value(o, minLpAmount, materialSourcing, productValuator, brokerPct, taxPct, marginPct,
+				.map(o -> value(o, maxLpAmount, materialSourcing, productValuator, brokerPct, taxPct, marginPct,
 						marginPctPerHour, bpCost, typeToActivities, bosByTypeId, sosByTypeId))
+				.filter(ev -> ev != null)
 				.toList();
 		long evaluated = System.currentTimeMillis();
 		log.debug(" evaluated " + offers.size()
