@@ -166,7 +166,7 @@ public class LPOfferEvalService {
 				bosByTypeId.get(product.getTypeId()), sosByTypeId.get(product.getTypeId()));
 		double productIncome = productValuator.value(productQuantity, taxPct, brokerPct,
 				bosByTypeId.get(product.getTypeId()), sosByTypeId.get(product.getTypeId()));
-		double marginCost = materialCost * (marginPct + timeMarginPct) / 100;
+		double marginCost = productUnitPrice * productQuantity * (marginPct + timeMarginPct) / 100;
 
 		return LPOfferEval.of(offer, offerQuantity, offer.getType(), product, productQuantity, productUnitPrice,
 				productIncome, requiredMats, materialCost, marginCost, tediousCost);
