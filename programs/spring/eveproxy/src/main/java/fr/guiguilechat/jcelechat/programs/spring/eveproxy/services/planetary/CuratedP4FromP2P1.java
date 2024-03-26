@@ -92,7 +92,7 @@ public class CuratedP4FromP2P1 implements PlanetaryFactory {
 	// list of [productarray,materialsarray]
 	private static final int[][][] curatedProductsMaterial = {
 			{
-					{ 2866 }, // Nano-Factory
+					{ 2869 }, // Nano-Factory
 					{
 							3693, // fertilizer
 							3695, // polytextiles
