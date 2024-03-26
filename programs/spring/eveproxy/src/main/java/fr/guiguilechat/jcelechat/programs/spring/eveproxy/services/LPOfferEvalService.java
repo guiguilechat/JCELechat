@@ -150,7 +150,7 @@ public class LPOfferEvalService {
 			timeMarginPct = hours * marginPctPerHour;
 
 			for (Material mat : manuf.getMaterials()) {
-				long required = offerQuantity * manufProd.getQuantity() * mat.getQuantity();
+				long required = offerQuantity * offer.getQuantity() * mat.getQuantity();
 				requiredMats.put(mat.getType().getTypeId(),
 						required + requiredMats.getOrDefault(mat.getType().getTypeId(), 0l));
 			}
