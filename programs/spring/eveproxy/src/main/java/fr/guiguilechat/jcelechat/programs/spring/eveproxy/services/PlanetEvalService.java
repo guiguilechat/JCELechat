@@ -27,6 +27,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchematicSer
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2P1;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.NLaunchpadsWithSchematics;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
@@ -149,6 +150,7 @@ public class PlanetEvalService {
 	public Stream<PlanetaryFactory> streamFactories() {
 		return Stream.of(
 				CuratedP4FromP2.stream(typeService),
+				CuratedP4FromP2P1.stream(typeService),
 				schemProductService
 						.producers(typeService.byGroupIdIn(List.of(P4_GID, P3_GID, P2_GID))).stream()
 						.flatMap(NLaunchpadsWithSchematics::stream))
