@@ -107,62 +107,65 @@ public abstract class ConnectedImpl implements ITransfer {
 				isServerError = con.getResponseCode() / 100 == 5;
 				if (isServerError) {
 					csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode()
-					+ "\t" + con.getHeaderFields());
+							+ "\t" + con.getHeaderFields());
 					maxRetry--;
 				}
 			} while (isServerError && maxRetry >= 0);
 			Map<String, List<String>> headers = con.getHeaderFields();
 			int responseCode = con.getResponseCode();
 			switch (responseCode) {
-			// 2xx ok
-			case HttpURLConnection.HTTP_OK:
-			case HttpURLConnection.HTTP_CREATED:
-			case HttpURLConnection.HTTP_ACCEPTED:
-			case HttpURLConnection.HTTP_NOT_AUTHORITATIVE:
-			case HttpURLConnection.HTTP_NO_CONTENT:
-			case HttpURLConnection.HTTP_RESET:
-			case HttpURLConnection.HTTP_PARTIAL:
-				String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-				csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-						+ con.getHeaderFields());
-				return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
+				// 2xx ok
+				case HttpURLConnection.HTTP_OK:
+				case HttpURLConnection.HTTP_CREATED:
+				case HttpURLConnection.HTTP_ACCEPTED:
+				case HttpURLConnection.HTTP_NOT_AUTHORITATIVE:
+				case HttpURLConnection.HTTP_NO_CONTENT:
+				case HttpURLConnection.HTTP_RESET:
+				case HttpURLConnection.HTTP_PARTIAL:
+					String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+					csvLogger
+							.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+									+ con.getHeaderFields());
+					return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
 				// 304 not modified
-			case HttpURLConnection.HTTP_NOT_MODIFIED:
-				String date = headers.getOrDefault("Date", List.of("")).get(0);
-				String expires = headers.getOrDefault("Expires", List.of("")).get(0);
-				if (date.equals(expires)) {
-					csvLogger.warn(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-							+ con.getHeaderFields());
-					// if expires=Date we add 20s of avoid CCP bug
-					headers = new HashMap<>(headers);
-					String newExpiry = ESITools.offsetDateTimeHeader(ESITools.headerOffsetDateTime(date).plusSeconds(20));
-					headers.put("Expires", List.of(newExpiry));
-				} else {
-					csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode()
-					+ "\t" + con.getHeaderFields());
-				}
-				return new RequestedImpl<>(url, responseCode, null, null, headers);
+				case HttpURLConnection.HTTP_NOT_MODIFIED:
+					String date = headers.getOrDefault("Date", List.of("")).get(0);
+					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
+					if (date.equals(expires)) {
+						csvLogger
+								.warn(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+										+ con.getHeaderFields());
+						// if expires=Date we add 20s of avoid CCP bug
+						headers = new HashMap<>(headers);
+						String newExpiry = ESITools.offsetDateTimeHeader(ESITools.headerOffsetDateTime(date).plusSeconds(20));
+						headers.put("Expires", List.of(newExpiry));
+					} else {
+						csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode()
+								+ "\t" + con.getHeaderFields());
+					}
+					return new RequestedImpl<>(url, responseCode, null, null, headers);
 				// 4xx client error
-			case HttpURLConnection.HTTP_BAD_REQUEST:
-			case HttpURLConnection.HTTP_UNAUTHORIZED:
-			case HttpURLConnection.HTTP_PAYMENT_REQUIRED:
-			case HttpURLConnection.HTTP_FORBIDDEN:
-			case HttpURLConnection.HTTP_NOT_FOUND:
-			case HttpURLConnection.HTTP_BAD_METHOD:
-				// 5xx server error
-			case HttpURLConnection.HTTP_INTERNAL_ERROR:
-			case HttpURLConnection.HTTP_BAD_GATEWAY:
-			case HttpURLConnection.HTTP_UNAVAILABLE:
-			case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
-			default:
-				StringBuilder sb = new StringBuilder(
-						"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
-				if (con.getErrorStream() != null) {
-					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
-				}
-				csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-						+ con.getHeaderFields());
-				return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
+				case HttpURLConnection.HTTP_BAD_REQUEST:
+				case HttpURLConnection.HTTP_UNAUTHORIZED:
+				case HttpURLConnection.HTTP_PAYMENT_REQUIRED:
+				case HttpURLConnection.HTTP_FORBIDDEN:
+				case HttpURLConnection.HTTP_NOT_FOUND:
+				case HttpURLConnection.HTTP_BAD_METHOD:
+					// 5xx server error
+				case HttpURLConnection.HTTP_INTERNAL_ERROR:
+				case HttpURLConnection.HTTP_BAD_GATEWAY:
+				case HttpURLConnection.HTTP_UNAVAILABLE:
+				case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
+				default:
+					StringBuilder sb = new StringBuilder(
+							"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
+					if (con.getErrorStream() != null) {
+						new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
+					}
+					csvLogger
+							.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
+									+ con.getHeaderFields());
+					return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
 			}
 		} catch (Exception e) {
 			csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t\t" + e.getMessage());
@@ -232,7 +235,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	protected <T> List<T> fetchPagesFrom2(int nbPages,
 			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess, Map<String, String> parameters,
 			RequestedImpl<List<T>> firstPage, boolean[] mismatch) {
-		List<T> listret = IntStream.rangeClosed(2, nbPages).parallel().mapToObj(page -> {
+		List<Requested<T[]>> pages = IntStream.rangeClosed(2, nbPages).parallel().mapToObj(page -> {
 			Requested<T[]> ret = resourceAccess.apply(page, parameters);
 			if (ret.isServerError()) {
 				for (int pageretry = 0; ret.isServerError() && pageretry < 2; pageretry++) {
@@ -242,22 +245,30 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 			}
 			return ret;
-		}).peek(page -> {
+		}).toList();
+		List<Requested<T[]>> mismatcheds = pages.stream().filter(page -> {
+			String firstLastModified = firstPage.getLastModified();
+			String pageLastModified = page.getLastModified();
+			return firstLastModified != pageLastModified
+					&& (firstLastModified == null || !firstLastModified.equals(pageLastModified));
+		}).toList();
+		if (!mismatcheds.isEmpty()) {
+			String message = "mismatching " + mismatcheds.size() + " pages lastmodified";
+			logger.warn(message);
+			System.err.println(message);
+			mismatch[0] = true;
+		}
+		for (Requested<T[]> page : pages) {
 			if (!page.isOk()) {
 				firstPage.setResponseCode(page.getResponseCode());
 				firstPage.setError(page.getError());
 			}
-			String firstLastModified = firstPage.getLastModified();
-			String pageLastModified = page.getLastModified();
-			if (firstLastModified != pageLastModified
-					&& (firstLastModified == null || !firstLastModified.equals(pageLastModified))) {
-				String message = "mismatching page cache data [url=" + page.getURL() + " lastmodified=" + pageLastModified
-						+ "] with first page [url=" + firstPage.getURL() + " lastmodified=" + firstLastModified + "]";
-				logger.warn(message);
-				System.err.println(message);
-				mismatch[0] = true;
-			}
-		}).filter(Requested::isOk).map(Requested::getOK).flatMap(Stream::of).collect(Collectors.toList());
+		}
+
+		List<T> listret = pages.stream()
+				.filter(Requested::isOk)
+				.map(Requested::getOK)
+				.flatMap(Stream::of).toList();
 		return listret;
 	}
 
