@@ -8,6 +8,8 @@ import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 
 public interface ObservedRegionRepository extends JpaRepository<ObservedRegion, Integer> {
 
-	public List<ObservedRegion> findByActiveTrue();
+	public List<ObservedRegion> findByActiveMarketTrue();
+
+	public List<ObservedRegion> findByActiveContractsTrue();
 
 }

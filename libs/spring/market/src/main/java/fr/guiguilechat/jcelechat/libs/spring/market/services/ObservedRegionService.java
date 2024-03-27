@@ -18,47 +18,97 @@ public class ObservedRegionService {
 
 	final private ObservedRegionRepository repo;
 
-	public void activate(int regionId, boolean active) {
-		ObservedRegion stored = repo.findById(regionId).orElse(null);
-		if (stored == null) {
-			if (active) {
-				repo.save(ObservedRegion.builder().regionId(regionId).build());
-			}
-		} else if (active != stored.isActive()) {
-			stored.setActive(active);
-			repo.save(stored);
-		}
-	}
-
-	public void activate(int regionId) {
-		activate(regionId, true);
-	}
-
-	public void deActivate(int regionId) {
-		activate(regionId, false);
-	}
-
-	public List<ObservedRegion> listActive() {
-		return repo.findByActiveTrue();
-	}
-
 	public ObservedRegion save(ObservedRegion region) {
 		return repo.save(region);
 	}
 
+	// market
+
+	public void activateMarket(int regionId, boolean active) {
+		ObservedRegion stored = repo.findById(regionId).orElse(null);
+		if (stored == null) {
+			if (active) {
+				repo.save(ObservedRegion.builder()
+						.regionId(regionId)
+						.activeMarket(true)
+						.build());
+			}
+		} else if (active != stored.isActiveMarket()) {
+			stored.setActiveMarket(active);
+			repo.save(stored);
+		}
+	}
+
+	public void activateMarket(int regionId) {
+		activateMarket(regionId, true);
+	}
+
+	public void deActivateMarket(int regionId) {
+		activateMarket(regionId, false);
+	}
+
+	public List<ObservedRegion> listActiveMarket() {
+		return repo.findByActiveMarketTrue();
+	}
+
+	// contract
+
+	public void activateContracts(int regionId, boolean active) {
+		ObservedRegion stored = repo.findById(regionId).orElse(null);
+		if (stored == null) {
+			if (active) {
+				repo.save(ObservedRegion.builder()
+						.regionId(regionId)
+						.activeContracts(true)
+						.build());
+			}
+		} else if (active != stored.isActiveContracts()) {
+			stored.setActiveContracts(active);
+			repo.save(stored);
+		}
+	}
+
+	public void activateContracts(int regionId) {
+		activateContracts(regionId, true);
+	}
+
+	public void deActivateContracts(int regionId) {
+		activateContracts(regionId, false);
+	}
+
+	public List<ObservedRegion> listActiveContracts() {
+		return repo.findByActiveContractsTrue();
+	}
+
+	// auto inject
+
 	@Value(value = "${market.regions.add:}")
-	private List<Integer> defaultRegions;
+	private List<Integer> defaultMarketRegions;
+
+	@Value(value = "${contracts.regions.add:}")
+	private List<Integer> defaultContractsRegions;
 
 	@PostConstruct
 	public void addDefaultRegions() {
-		if (defaultRegions != null && !defaultRegions.isEmpty()) {
-			for (Integer rid : defaultRegions) {
+		if (defaultMarketRegions != null && !defaultMarketRegions.isEmpty()) {
+			for (Integer rid : defaultMarketRegions) {
 				if (rid == null) {
 					continue;
 				}
 				if (!repo.existsById(rid)) {
-					log.info("activate default region " + rid);
-					activate(rid);
+					log.info("activate market in default region " + rid);
+					activateMarket(rid);
+				}
+			}
+		}
+		if (defaultContractsRegions != null && !defaultContractsRegions.isEmpty()) {
+			for (Integer rid : defaultContractsRegions) {
+				if (rid == null) {
+					continue;
+				}
+				if (!repo.existsById(rid)) {
+					log.info("activate contracts in default region " + rid);
+					activateContracts(rid);
 				}
 			}
 		}

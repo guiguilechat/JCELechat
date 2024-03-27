@@ -22,8 +22,13 @@ public class ObservedRegion {
 	private int regionId;
 
 	@Builder.Default
-	private boolean active = true;
+	private boolean activeMarket = false;
 
-	private String lastEtag;
+	private String lastMarketEtag;
+
+	@Builder.Default
+	private boolean activeContracts = false;
+
+	private String lastContractsEtag;
 
 }

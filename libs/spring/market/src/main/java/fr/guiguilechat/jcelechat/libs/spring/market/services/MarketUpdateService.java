@@ -111,7 +111,7 @@ public class MarketUpdateService {
 		List<R_get_markets_region_id_orders> fetchedLines = new ArrayList<>();
 
 		Map<String, String> properties = new HashMap<>();
-		String lastEtag = region.getLastEtag();
+		String lastEtag = region.getLastMarketEtag();
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
@@ -182,7 +182,7 @@ public class MarketUpdateService {
 				+ (endTime - startTime) + " ms(firstPage=" + (firstPageTime - startTime) + (allPagesTime == null ? ""
 						: " next" + pages + "Pages=" + (allPagesTime - firstPageTime) + " process=" + (endTime - allPagesTime))
 				+ ")");
-		region.setLastEtag(newEtag);
+		region.setLastMarketEtag(newEtag);
 		return lines;
 	}
 

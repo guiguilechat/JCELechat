@@ -34,7 +34,7 @@ public class MarketSyncService implements SdeUpdateListener {
 		if (skipRegionSync) {
 			return;
 		}
-		Set<Integer> observed = orService.listActive().stream().map(ObservedRegion::getRegionId)
+		Set<Integer> observed = orService.listActiveMarket().stream().map(ObservedRegion::getRegionId)
 				.collect(Collectors.toSet());
 		List<Region> toObserve = rService.byUniverse("eve").stream().filter(r -> !observed.contains(r.getRegionId()))
 				.toList();
@@ -42,7 +42,7 @@ public class MarketSyncService implements SdeUpdateListener {
 			log.info("adding " + toObserve.size() + " new market regions to observe");
 		}
 		for (Region r : toObserve) {
-			orService.activate(r.getRegionId());
+			orService.activateMarket(r.getRegionId());
 		}
 	}
 
