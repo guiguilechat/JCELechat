@@ -1,0 +1,38 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title th:text="'market types'" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+	<h1>Market types search</h1>
+	<div class="container-fluid border">
+		<div class="row border">
+			<form method="get" th:action="@{${action}}">
+				<input class="form-control" type="text" name="typeName"
+					th:value="${param.typeName!=null ? param.typeName[0]:''}" /> <input
+					type="submit" value="search" />
+			</form>
+		</div>
+		<div class="row border">
+			<div class="col" th:if="${types!=null}">
+				<h2>Matching types</h2>
+				<ul>
+					<li th:each="type : ${types}"><a th:text="${type.name}"
+						th:href="${type.url}" /></li>
+				</ul>
+			</div>
+			<div class="col" th:if="${groups!=null}">
+				<h2>Matching groups</h2>
+				<ul>
+					<li th:each="group : ${groups}"><a th:text="${group.name}"
+						th:href="${group.url}" /></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>

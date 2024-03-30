@@ -45,6 +45,8 @@ public class MarketOrder implements Serializable {
 	 */
 	private long locationId;
 
+	private String locationName;
+
 	/**
 	 * min_volume integer
 	 */
@@ -139,6 +141,18 @@ public class MarketOrder implements Serializable {
 			if (getRegionName() == null) {
 				setRegionName("region:" + region.getRegionId());
 			}
+		}
+		return this;
+	}
+
+	public MarketOrder resolveLocationName(Map<Integer, String> stationNames, Map<Long, String> structureNames) {
+		if (locationId < 100000000) {
+			setLocationName(stationNames.get((int) locationId));
+		} else {
+			setLocationName(structureNames.get(locationId));
+		}
+		if (getLocationName() == null) {
+			setLocationName("location:"+getLocationId());
 		}
 		return this;
 	}

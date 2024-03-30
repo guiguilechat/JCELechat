@@ -19,6 +19,8 @@ public interface TypeRepository extends JpaRepository<Type, Integer> {
 
 	public List<Type> findByNameEqualsIgnoreCase(String name);
 
+	public List<Type> findByNameContainsIgnoreCase(String name);
+
 	public Type findTop1ByGroupAndNameGreaterThanOrderByNameAsc(Group group, String name);
 
 	public Type findTop1ByGroupAndNameLessThanOrderByNameDesc(Group group, String name);

@@ -78,4 +78,8 @@ public class TypeService {
 		return repo.findTop1ByGroupAndNameGreaterThanOrderByNameAsc(type.getGroup(), type.getName());
 	}
 
+	public List<Type> search(String nameIgnoreCase) {
+		return repo.findByNameContainsIgnoreCase(nameIgnoreCase);
+	}
+
 }
