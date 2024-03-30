@@ -1,5 +1,6 @@
 package fr.guiguilechat.tools;
 
+import java.time.Instant;
 import java.util.LinkedList;
 
 public class FormatTools {
@@ -73,4 +74,54 @@ public class FormatTools {
 		return sb.toString();
 	}
 
+	/**
+	 * @param daysAdded days added to source
+	 * @param source    the source of the delay
+	 */
+	public static String formatDelay(Instant source) {
+		long endS = source.getEpochSecond();
+		long startS = Instant.now().getEpochSecond();
+		long delay = endS - startS;
+		boolean minus = delay < 0;
+		if (minus) {
+			delay *= -1;
+		}
+		int seconds = (int) (delay % 60);
+		delay /= 60;
+
+		int minutes = (int) (delay % 60);
+		delay /= 60;
+
+		int hours = (int) (delay % 24);
+		delay /= 24;
+
+		int days = (int) (delay % 365);
+		delay /= 365;
+
+		StringBuilder sb = new StringBuilder();
+		if (minus) {
+			sb.append("-");
+		}
+		if (delay > 0) {
+			sb.append(delay).append("y");
+		}
+		if (delay < 10) {
+			if (days > 0) {
+				sb.append(days).append("d");
+			}
+			if (days < 30) {
+
+				if (hours > 0) {
+					sb.append(hours).append("h");
+				}
+				if (minutes > 0) {
+					sb.append(minutes).append("min");
+				}
+				if (hours == 0 && seconds > 0) {
+					sb.append(seconds).append("s");
+				}
+			}
+		}
+		return sb.toString();
+	}
 }

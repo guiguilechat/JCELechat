@@ -12,7 +12,6 @@ import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.springframework.cache.CacheManager;
@@ -24,9 +23,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
-import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionContract;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -35,13 +32,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor
-public class MarketUpdateService {
+public class RegionMarketUpdateService {
 
 	final private CacheManager cacheManager;
 
 	final private HistoryReqService htService;
-
-	private final RegionContractService regionContractService;
 
 	final private RegionLineService rlService;
 
@@ -191,133 +186,6 @@ public class MarketUpdateService {
 				+ ")");
 		region.setLastMarketEtag(newEtag);
 		return lines;
-	}
-
-	// contracts management
-
-	public static interface ContractUpdateListener {
-
-		public default List<String> listContractCaches(int regionId) {
-			return List.of();
-		}
-
-		public default void onContractsUpdate(ObservedRegion region) {
-
-		}
-
-	}
-
-	private final List<ContractUpdateListener> updateContractListeners;
-
-	@Async
-	@Transactional
-	public CompletableFuture<Void> updateContractLines(ObservedRegion region) {
-		long startMs = System.currentTimeMillis();
-		Map<Long, R_get_contracts_public_region_id> received = fetchContractsNoDB(region).stream()
-				.collect(Collectors.toMap(l -> (long) l.contract_id, l -> l));
-		long retrievedMs = System.currentTimeMillis();
-		if (received != null) {
-			Map<Long, RegionContract> alreadyStored = regionContractService.allPresentInRegionById(region.getRegionId());
-
-			orService.save(region);
-			long saveMs = System.currentTimeMillis();
-			log.debug(" updated contracts for region " + region.getRegionId()
-					+ " for " + received.size() + " contracts"
-					+ " fetch=" + (int) Math.ceil(0.001 * (retrievedMs - startMs)) + "s"
-			);
-
-			updateContractListeners.stream().flatMap(l -> l.listContractCaches(region.getRegionId()).stream())
-					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-			updateContractListeners.stream().forEach(l -> l.onContractsUpdate(region));
-		}
-
-		return CompletableFuture.completedFuture(null);
-	}
-
-	/**
-	 * fetch the multi pages of contracts for given region
-	 *
-	 * @return null if no change to be stored, be it network error, same cache, etc.
-	 *           Otherwise the new list of contracts
-	 */
-	List<R_get_contracts_public_region_id> fetchContractsNoDB(ObservedRegion region) {
-		long startTime = System.currentTimeMillis();
-		boolean failed = false;
-		boolean noChange = false;
-		Set<String> errors = new HashSet<>();
-		Integer pages = null;
-		List<R_get_contracts_public_region_id> fetchedLines = new ArrayList<>();
-
-		Map<String, String> properties = new HashMap<>();
-		String lastEtag = region.getLastContractsEtag();
-		if (lastEtag != null) {
-			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
-		}
-		Requested<R_get_contracts_public_region_id[]> firstResult = ESIStatic.INSTANCE.get_contracts_public(null,
-				region.getRegionId(), properties);
-		long firstPageTime = System.currentTimeMillis();
-		String newEtag = firstResult.getETag();
-		int responseCode = firstResult.getResponseCode();
-		switch (responseCode) {
-			case 200:
-				pages = firstResult.getNbPages();
-			break;
-			case 304:
-				noChange = true;
-			break;
-			default:
-				failed = true;
-				errors.add(firstResult.getError());
-		}
-		Long allPagesTime = null;
-		if (!failed && !noChange) {
-			fetchedLines.addAll(Arrays.asList(firstResult.getOK()));
-			boolean expireMismatch = false;
-			if (pages != null && pages > 1) {
-				IntStream is = IntStream.rangeClosed(2, pages);
-				List<Requested<R_get_contracts_public_region_id[]>> nextPages = null;
-				try {
-					nextPages = highParrallelPool.submit(() -> is.parallel()
-							.mapToObj(p -> ESIStatic.INSTANCE.get_contracts_public(p, region.getRegionId(), properties))
-							.toList())
-							.get();
-				} catch (InterruptedException | ExecutionException e) {
-					failed = true;
-					log.error("while fetching next page for contracts in region " + region.getRegionId(), e);
-					errors.add(e.getMessage());
-				}
-				allPagesTime = System.currentTimeMillis();
-				if (!failed) {
-					for (Requested<R_get_contracts_public_region_id[]> pageResult : nextPages) {
-						if (!pageResult.isOk()) {
-							failed = true;
-							responseCode = pageResult.getResponseCode();
-							errors.add(pageResult.getError());
-						} else if (!Objects.equals(firstResult.getExpires(), pageResult.getExpires())) {
-							log.error("mismatching expire for " + pageResult.getURL());
-							expireMismatch = true;
-						} else {
-							fetchedLines.addAll(Arrays.asList(pageResult.getOK()));
-						}
-					}
-					if (expireMismatch) {
-						failed = true;
-						errors.add("Expires mismatch");
-					}
-				}
-			}
-		}
-		if (failed || noChange) {
-			return null;
-		}
-		long endTime = System.currentTimeMillis();
-		log.debug(" fetched contracts for region(" + region.getRegionId() + ") result="
-				+ (failed ? "fail:" + errors : noChange ? "noChange" : fetchedLines.size() + "lines") + " in "
-				+ (endTime - startTime) + " ms(firstPage=" + (firstPageTime - startTime) + (allPagesTime == null ? ""
-						: " next" + pages + "Pages=" + (allPagesTime - firstPageTime) + " process=" + (endTime - allPagesTime))
-				+ ")");
-		region.setLastMarketEtag(newEtag);
-		return fetchedLines;
 	}
 
 }

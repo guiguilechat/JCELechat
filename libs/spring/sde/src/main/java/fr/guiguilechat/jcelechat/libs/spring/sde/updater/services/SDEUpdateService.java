@@ -605,10 +605,8 @@ public class SDEUpdateService {
 						context.invNames.get(sd.stationId())))
 				.toList());
 
-		List<String> cacheNames = updateListeners.stream().flatMap(l -> l.listSDECaches().stream()).toList();
-		log.info("  clearing " + cacheNames.size() + " caches : " + cacheNames);
-		cacheNames.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-
+		updateListeners.stream().flatMap(l -> l.listSDECaches().stream())
+				.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 		updateListeners.stream().forEach(SdeUpdateListener::onSDEUpdate);
 
 		log.info(" finished updating SDE DB.");

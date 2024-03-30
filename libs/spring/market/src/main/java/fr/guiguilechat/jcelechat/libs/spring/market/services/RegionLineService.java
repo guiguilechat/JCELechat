@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.RegionLineRepository;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.MarketUpdateService.MarketUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionMarketUpdateService.MarketUpdateListener;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

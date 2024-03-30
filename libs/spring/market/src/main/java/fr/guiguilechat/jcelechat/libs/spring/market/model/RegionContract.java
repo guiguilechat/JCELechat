@@ -2,32 +2,34 @@ package fr.guiguilechat.jcelechat.libs.spring.market.model;
 
 import java.io.Serializable;
 import java.time.Instant;
+import java.util.List;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
 
 @SuppressWarnings("serial")
 @Entity(name = "EsiMarketRegionContract")
 @Table(name = "esi_market_regioncontract", indexes = {
-		@Index(columnList = "region_region_id"),
-		@Index(columnList = "contract_id"),
-		@Index(columnList = "locationId"),
-		@Index(columnList = "typeId, isBuyOrder")
-})
+		@Index(columnList = "region_region_id,removed,fetched"),
+		@Index(columnList = "contractId") })
 @Data
 @Builder
 @RequiredArgsConstructor
@@ -40,6 +42,16 @@ public class RegionContract implements Serializable {
 
 	@ManyToOne
 	private ObservedRegion region;
+
+	@ToString.Exclude
+	@OneToMany(mappedBy = "contract", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	private List<RegionContractItem> items;
+
+	/**
+	 * set to true when the contract only requires one type, and only offers isks.
+	 */
+	@Builder.Default
+	private boolean asksOneTypeForIsks = false;
 
 	@Builder.Default
 	private boolean fetched = false;
@@ -97,6 +109,24 @@ public class RegionContract implements Serializable {
 	 * Character ID for the issuer
 	 */
 	private int issuerId;
+
+	/**
+	 * number of distinct types that are asked by the contract creator
+	 */
+	@Builder.Default
+	private int nbTypesAsked = 0;
+
+	/**
+	 * number of distinct types that are included in the contract.
+	 */
+	@Builder.Default
+	private int nbTypesIncluded = 0;
+
+	/**
+	 * set to true when the contract only offers one type and only asks for isks.
+	 */
+	@Builder.Default
+	private boolean offersOneTypeForIsk = false;
 
 	/**
 	 * Price of contract (for ItemsExchange and Auctions)

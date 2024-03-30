@@ -11,11 +11,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status;
+import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionContract;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -24,13 +22,21 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 public class MarketUpdateScheduler {
 
+	final private ESIStatusService esiStatusService;
+
 	final private HistoryReqService hrService;
 
 	final private HistoryUpdateService huService;
 
-	final private MarketUpdateService mService;
-
 	final private ObservedRegionService orService;
+
+	private final RegionContractService regionContractService;
+
+	final private RegionContractUpdateService regionContractUpdateService;
+
+	final private RegionMarketUpdateService mService;
+
+	// markets
 
 	@Value("${market.updater.skip:false}")
 	private boolean skipMarketUpdate;
@@ -56,6 +62,8 @@ public class MarketUpdateScheduler {
 		log.info(" updated " + active.size() + " markets in " + (int) Math.ceil(0.001 * (endMs - startMs)) + "s");
 	}
 
+	// histories
+
 	@Value("${market.history.skip:false}")
 	private boolean skipHistoryUpdate;
 
@@ -72,7 +80,7 @@ public class MarketUpdateScheduler {
 			return;
 		}
 		long listMs = System.currentTimeMillis();
-		int availErrors = availErrors();
+		int availErrors = esiStatusService.availErrors();
 		if (availErrors > 0) {
 			int maxRequests = Math.min(Math.max((int) (0.01 * availErrors * hrService.getQueriesPerFetch()), availErrors),
 					requests.size());
@@ -97,17 +105,67 @@ public class MarketUpdateScheduler {
 		}
 	}
 
-	public static int availErrors() {
-		Requested<R_get_status> esiAccessReq = ESIStatic.INSTANCE.get_status(null);
-		if (esiAccessReq.isOk()) {
-			R_get_status esiAccess = esiAccessReq.getOK();
-			if (!esiAccess.vip) {
-				return esiAccessReq.getRemainingErrors();
-			}
-			log.info(" ESI is in VIP mode, skipping");
-			return 0;
+	// base contracts info
+
+	@Value("${contracts.updater.skip:false}")
+	private boolean skipContractsUpdate;
+
+	@Scheduled(fixedRateString = "${contracts.updater.fetchperiod:900000}", initialDelayString = "${contracts.updater.fetchdelay:20000}")
+	public void updateContracts() {
+		if (skipContractsUpdate) {
+			return;
 		}
-		log.info(" could not get ESI status, skipping");
-		return 0;
+		long startMs = System.currentTimeMillis();
+		log.info("updating contracts");
+		List<ObservedRegion> active = orService.listActiveContracts();
+		Map<ObservedRegion, CompletableFuture<Void>> futures = active.stream()
+				.collect(Collectors.toMap(r -> r,
+						r -> regionContractUpdateService.updateContractLines(r).orTimeout(3, TimeUnit.MINUTES)));
+		futures.entrySet().forEach(f -> {
+			try {
+				f.getValue().join();
+			} catch (CompletionException e) {
+				log.error("while fetching contracts for region " + f.getKey().getRegionId(), e);
+			}
+		});
+		long endMs = System.currentTimeMillis();
+		log.info(" updated " + active.size() + " contract regions in " + (int) Math.ceil(0.001 * (endMs - startMs)) + "s");
 	}
+
+	// contracts items infos
+
+	@Value("${contracts.items.updater.skip:false}")
+	private boolean skipContractsItemsUpdate;
+
+	@Value("${contracts.items.updater.availmult:3}")
+	private int availMult;
+
+	@Scheduled(fixedRateString = "${contracts.items.updater.fetchperiod:10000}", initialDelayString = "${contracts.items.updater.fetchdelay:30000}")
+	public void updateContractsItems() {
+		if (skipContractsItemsUpdate) {
+			return;
+		}
+		long startMs = System.currentTimeMillis();
+		int limit = availMult * esiStatusService.availErrors();
+		List<RegionContract> toFetch = regionContractService.nextFetch();
+		if (toFetch.isEmpty()) {
+			return;
+		}
+		log.info("updating contracts items");
+		Map<RegionContract, CompletableFuture<Void>> futures = toFetch.stream()
+				.limit(limit)
+				.collect(Collectors.toMap(r -> r,
+						r -> regionContractUpdateService.updateContractItems(r).orTimeout(3, TimeUnit.MINUTES)));
+		futures.entrySet().forEach(f -> {
+			try {
+				f.getValue().join();
+			} catch (CompletionException e) {
+				log.error("while fetching items for contractId : " + f.getKey().getContractId(), e);
+			}
+		});
+		long endMs = System.currentTimeMillis();
+		log.info(" updated " + futures.size() + " contracts items in " + (int) Math.ceil(0.001 * (endMs - startMs))
+				+ "s, remaining " + regionContractService.countMissingFetch());
+	}
+
 }

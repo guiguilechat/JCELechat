@@ -43,6 +43,7 @@ public class MarketSyncService implements SdeUpdateListener {
 		}
 		for (Region r : toObserve) {
 			orService.activateMarket(r.getRegionId());
+			orService.activateContracts(r.getRegionId());
 		}
 	}
 

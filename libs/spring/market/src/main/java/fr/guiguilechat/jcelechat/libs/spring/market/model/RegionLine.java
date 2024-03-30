@@ -40,7 +40,6 @@ public class RegionLine implements Serializable {
 	@ManyToOne
 	private ObservedRegion region;
 
-
 	/**
 	 * duration integer
 	 */
