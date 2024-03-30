@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
 
 import java.util.Comparator;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -16,6 +17,8 @@ import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionContractServi
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
 @Controller
@@ -27,18 +30,26 @@ public class MarketHtmlController {
 
 	private final RegionLineService regionLineService;
 
+	private final RegionService regionService;
+
 	private final TypeService typeService;
 
+	@Transactional
 	@GetMapping("/{typeId}")
 	public String getTypeMarket(Model model, @PathVariable int typeId) {
 		Optional<Type> oType = typeService.byId(typeId);
+		Map<Integer, String> regionNamesById = regionService.namesById();
 		model.addAttribute("name", oType.isPresent() ? oType.get().getName() : "unknown" + typeId);
 		model.addAttribute("sos",
 				Stream.concat(regionContractService.streamSOs(typeId), regionLineService.streamSOs(typeId))
-						.sorted(Comparator.comparing(MarketOrder::getPrice)).toList());
+						.sorted(Comparator.comparing(MarketOrder::getPrice))
+						.peek(mo -> mo.resolveRegionName(regionNamesById))
+						.toList());
 		model.addAttribute("bos",
 				Stream.concat(regionContractService.streamBOs(typeId), regionLineService.streamBOs(typeId))
-						.sorted(Comparator.comparing(mo -> -mo.getPrice())).toList());
+						.sorted(Comparator.comparing(mo -> -mo.getPrice()))
+						.peek(mo -> mo.resolveRegionName(regionNamesById))
+						.toList());
 		return "market/type";
 	}
 

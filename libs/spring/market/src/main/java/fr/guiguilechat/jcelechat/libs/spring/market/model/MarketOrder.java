@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.market.model;
 import java.io.Serializable;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
+import java.util.Map;
 
 import fr.guiguilechat.tools.FormatTools;
 import lombok.AllArgsConstructor;
@@ -53,6 +54,11 @@ public class MarketOrder implements Serializable {
 	 * price number
 	 */
 	private double price;
+
+	/**
+	 * region name once set
+	 */
+	private String regionName;
 
 	/**
 	 * The solar system this order was placed
@@ -125,6 +131,16 @@ public class MarketOrder implements Serializable {
 				.volumeRemain(volume)
 				.volumeTotal(volume)
 				.build();
+	}
+
+	public MarketOrder resolveRegionName(Map<Integer, String> names) {
+		if (region != null) {
+			setRegionName(names.get(region.getRegionId()));
+			if (getRegionName() == null) {
+				setRegionName("region:" + region.getRegionId());
+			}
+		}
+		return this;
 	}
 
 }

@@ -13,6 +13,7 @@ import fr.guiguilechat.jcelechat.libs.spring.market.repositories.RegionContractR
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionContractUpdateService.ContractItemsUpdateListener;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionContractUpdateService.ContractUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -46,10 +47,12 @@ public class RegionContractService implements ContractUpdateListener, ContractIt
 		return repo.countMissingItems(get_contracts_public_region_id_type.item_exchange);
 	}
 
+	@Transactional
 	public Stream<MarketOrder> streamBOs(int typeId) {
 		return repo.listBOs(typeId).map(MarketOrder::of);
 	}
 
+	@Transactional
 	public Stream<MarketOrder> streamSOs(int typeId) {
 		return repo.listSOs(typeId).map(MarketOrder::of);
 	}
