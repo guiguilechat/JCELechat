@@ -29,6 +29,10 @@ public interface RegionLineRepository extends JpaRepository<RegionLine, Long> {
 
 	public List<RegionLine> findByTypeIdAndIsBuyOrderOrderByPriceAsc(int typeId, boolean isBuyOrder);
 
+	public Stream<RegionLine> findByTypeIdAndIsBuyOrderFalseOrderByPriceAsc(int typeId);
+
+	public Stream<RegionLine> findByTypeIdAndIsBuyOrderTrueOrderByPriceDesc(int typeId);
+
 	public List<RegionLine> findByRegionRegionIdAndTypeIdInOrderByPriceAsc(int regionId, List<Integer> typeIds);
 
 	public List<RegionLine> findByLocationIdAndTypeIdInOrderByPriceAsc(long locationId, List<Integer> typeIds);

@@ -218,10 +218,10 @@ public class RegionContractUpdateService {
 			if (contract.isRemoved()) {
 				notifyContractListeners(contract.getRegion(), List.of(contract));
 			} else {
-				regionContractService.save(contract);
 				regionContractItemService.saveAll(
 						items.stream().map(line -> RegionContractItem.of(contract, line)).toList());
 			}
+			regionContractService.save(contract);
 		}
 		updateContractItemsListeners.stream().flatMap(l -> l.listContractItemsCaches().stream())
 				.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
@@ -248,6 +248,7 @@ public class RegionContractUpdateService {
 			case 200:
 				pages = firstResult.getNbPages();
 			break;
+			case 403:
 			case 404:
 				contract.setRemoved(true);
 				return List.of();
@@ -285,6 +286,7 @@ public class RegionContractUpdateService {
 		}
 		Set<Integer> askedTypesIds = new HashSet<>();
 		Set<Integer> offeredTypesIds = new HashSet<>();
+		boolean hasBPC = false;
 		for (R_get_contracts_public_items_contract_id item : fetchedItems) {
 			if (item.is_included) {
 				if (!item.is_blueprint_copy) {
@@ -293,11 +295,15 @@ public class RegionContractUpdateService {
 			} else {
 				askedTypesIds.add(item.type_id);
 			}
+			if (item.is_blueprint_copy) {
+				hasBPC=true;
+			}
 		}
 		contract.setNbTypesAsked(askedTypesIds.size());
-		contract.setAsksOneTypeForIsks(offeredTypesIds.isEmpty() && askedTypesIds.size() == 1);
+		contract.setAsksOneTypeForIsks(!hasBPC && offeredTypesIds.isEmpty() && askedTypesIds.size() == 1);
 		contract.setNbTypesIncluded(offeredTypesIds.size());
-		contract.setOffersOneTypeForIsk(offeredTypesIds.size() == 1 && askedTypesIds.isEmpty());
+		contract.setOffersOneTypeForIsk(!hasBPC && offeredTypesIds.size() == 1 && askedTypesIds.isEmpty());
+		contract.setOffersBpcForIsk(hasBPC && offeredTypesIds.size() == 1 && askedTypesIds.isEmpty());
 		contract.setFetched(true);
 
 		long endTime = System.currentTimeMillis();

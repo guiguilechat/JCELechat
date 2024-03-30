@@ -7,11 +7,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.market.model.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.RegionLineRepository;
@@ -119,6 +121,14 @@ public class RegionLineService implements MarketUpdateListener {
 	@Cacheable("marketAll")
 	public List<RegionLine> forAll(int type_id, boolean isBuyOrder) {
 		return reverseIf(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder), isBuyOrder);
+	}
+
+	public Stream<MarketOrder> streamBOs(int typeId) {
+		return repo.findByTypeIdAndIsBuyOrderTrueOrderByPriceDesc(typeId).map(MarketOrder::of);
+	}
+
+	public Stream<MarketOrder> streamSOs(int typeId) {
+		return repo.findByTypeIdAndIsBuyOrderFalseOrderByPriceAsc(typeId).map(MarketOrder::of);
 	}
 
 	//

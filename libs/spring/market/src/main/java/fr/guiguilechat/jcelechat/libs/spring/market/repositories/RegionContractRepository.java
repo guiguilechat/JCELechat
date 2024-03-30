@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.market.repositories;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -38,21 +39,21 @@ where
 	and contract.asksOneTypeForIsks
 	and typeId=:typeId
 """)
-	public List<RegionContract> listBOs(int typeId);
+	public Stream<RegionContract> listBOs(int typeId);
 
 	@Query("""
-			select
-			distinct(contract)
-		from
-			EsiMarketRegionContractItem
-		where
-			contract.fetched
-			and not contract.removed
-			and contract.offersOneTypeForIsk
-			and typeId=:typeId
-		""")
-	public List<RegionContract> listSOs(int typeId);
-	
+	select
+	distinct(contract)
+from
+	EsiMarketRegionContractItem
+where
+	contract.fetched
+	and not contract.removed
+	and contract.offersOneTypeForIsk
+	and typeId=:typeId
+""")
+	public Stream<RegionContract> listSOs(int typeId);
+
 	/*
 	 select
  item.type_id,

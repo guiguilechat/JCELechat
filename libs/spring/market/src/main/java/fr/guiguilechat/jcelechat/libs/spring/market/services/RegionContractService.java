@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.market.services;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 
@@ -45,11 +46,11 @@ public class RegionContractService implements ContractUpdateListener, ContractIt
 		return repo.countMissingItems(get_contracts_public_region_id_type.item_exchange);
 	}
 
-	public List<MarketOrder> listBOs(int typeId) {
-		return repo.listBOs(typeId).stream().map(MarketOrder::of).toList();
+	public Stream<MarketOrder> streamBOs(int typeId) {
+		return repo.listBOs(typeId).map(MarketOrder::of);
 	}
 
-	public List<MarketOrder> listSOs(int typeId) {
-		return repo.listSOs(typeId).stream().map(MarketOrder::of).toList();
+	public Stream<MarketOrder> streamSOs(int typeId) {
+		return repo.listSOs(typeId).map(MarketOrder::of);
 	}
 }

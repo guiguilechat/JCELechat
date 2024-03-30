@@ -123,6 +123,13 @@ public class RegionContract implements Serializable {
 	private int nbTypesIncluded = 0;
 
 	/**
+	 * set to true when the contract only offers one type of blueprint that is a
+	 * copy, and only asks for isks.
+	 */
+	@Builder.Default
+	private boolean offersBpcForIsk = false;
+
+	/**
 	 * set to true when the contract only offers one type and only asks for isks.
 	 */
 	@Builder.Default
