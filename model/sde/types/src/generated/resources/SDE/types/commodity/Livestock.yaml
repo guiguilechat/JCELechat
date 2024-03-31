@@ -1618,3 +1618,11 @@ types:
     price: 1.0E9
     published: true
     volume: 1.0
+  81599:
+    id: 81599
+    mass: 65.0
+    name: Chemal Tech Geneticist
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

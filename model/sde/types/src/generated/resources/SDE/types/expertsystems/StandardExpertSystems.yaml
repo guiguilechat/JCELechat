@@ -47,3 +47,51 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  81098:
+    id: 81098
+    mass: 1.0
+    name: Space Exploration Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  81118:
+    id: 81118
+    mass: 1.0
+    name: Faction Warfare Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  81121:
+    id: 81121
+    mass: 1.0
+    name: Hauler Operations Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  81122:
+    id: 81122
+    mass: 1.0
+    name: Enforcer Operations Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  81614:
+    id: 81614
+    mass: 1.0
+    name: Gas Harvesting Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  81618:
+    id: 81618
+    mass: 1.0
+    name: Logistics Pilot Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

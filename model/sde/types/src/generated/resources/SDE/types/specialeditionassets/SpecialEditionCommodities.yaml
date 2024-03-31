@@ -3894,3 +3894,44 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  81163:
+    cpumultiplier: 1.0
+    id: 81163
+    name: Enforcer Career Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  81166:
+    cpumultiplier: 1.0
+    id: 81166
+    name: Soldier of Fortune Career Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  81167:
+    cpumultiplier: 1.0
+    id: 81167
+    name: Explorer Career Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  81168:
+    cpumultiplier: 1.0
+    id: 81168
+    name: Industrialist Career Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  81603:
+    cpumultiplier: 1.0
+    id: 81603
+    marketGroup: 1661
+    name: Mysterious Booster Crate I
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

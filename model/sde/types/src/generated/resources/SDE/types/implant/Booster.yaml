@@ -8998,3 +8998,41 @@ types:
     speedfactor: 1.0
     velocitybonus: 3.0
     volume: 1.0
+  81083:
+    agilitybonus: -5.0
+    boosterduration: 3600000.0
+    boosterness: 1
+    damagemultiplier: 1.0
+    id: 81083
+    marketGroup: 2506
+    mass: 1.0
+    metalevelold: 3
+    name: Starsi Blast! Classic
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 5.0
+    volume: 1.0
+  81084:
+    boosterduration: 3600000.0
+    boosterness: 1
+    caprechargebonus: -5.0
+    damagemultiplier: 1.0
+    id: 81084
+    marketGroup: 2506
+    mass: 1.0
+    metalevelold: 3
+    name: Starsi Blast! Orange
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    scanresolutionbonus: 5.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
