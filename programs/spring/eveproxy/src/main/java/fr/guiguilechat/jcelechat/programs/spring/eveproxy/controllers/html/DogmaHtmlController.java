@@ -151,9 +151,10 @@ public class DogmaHtmlController {
 	@GetMapping("/type/{typeFiltering}/{typeFilter}")
 	public String getType(Model model, @PathVariable String typeFiltering,
 			@PathVariable String typeFilter) {
-		Type t = typeService.typeFilter(typeFiltering, typeFilter);
-		model.addAttribute("name", t != null ? t.getName() : "unknown type " + typeFilter);
-		if (t != null) {
+		List<Type> types = typeService.typesFilter(typeFiltering, typeFilter);
+		if (types.size() == 1) {
+			Type t = types.get(0);
+			model.addAttribute("name", t.getName());
 			model.addAttribute("group", t.getGroup());
 			model.addAttribute("groupUrl", uri(t.getGroup()).toString());
 			model.addAttribute("category", t.getGroup().getCategory());
@@ -235,6 +236,9 @@ public class DogmaHtmlController {
 			if (sos != null && !sos.isEmpty()) {
 				model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getPrice()));
 			}
+		} else {
+			model.addAttribute("name", "unknown type " + typeFilter);
+			model.addAttribute("types", types.stream().map(this::linkedType).toList());
 		}
 		return "dogma/type";
 	}

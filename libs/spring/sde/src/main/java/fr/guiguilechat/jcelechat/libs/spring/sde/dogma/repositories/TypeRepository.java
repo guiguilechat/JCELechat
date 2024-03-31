@@ -15,6 +15,12 @@ public interface TypeRepository extends JpaRepository<Type, Integer> {
 
 	public List<Type> findByGroupGroupIdIn(Iterable<Integer> groupIds);
 
+	public List<Type> findByGroupCategoryCategoryId(int catId);
+
+	public List<Type> findByGroupCategoryCategoryIdIn(Iterable<Integer> catIds);
+
+	// name search
+
 	public List<Type> findByNameEqualsIgnoreCase(String name);
 
 	public List<Type> findByNameStartsWithIgnoreCase(String name);
@@ -32,6 +38,8 @@ public interface TypeRepository extends JpaRepository<Type, Integer> {
 	public List<Type> findByGroupCategoryNameStartsWithIgnoreCase(String name);
 
 	public List<Type> findByGroupCategoryNameContainsIgnoreCase(String name);
+
+	// navigate
 
 	public Type findTop1ByGroupAndNameGreaterThanOrderByNameAsc(Group group, String name);
 

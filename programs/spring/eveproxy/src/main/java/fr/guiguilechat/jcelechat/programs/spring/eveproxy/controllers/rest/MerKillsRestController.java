@@ -219,7 +219,7 @@ public class MerKillsRestController {
 		TYPE_NAME {
 			@Override
 			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
-				List<Type> list = typeService.byName(filterparam);
+				List<Type> list = typeService.searchByName(filterparam);
 				if (list.isEmpty()) {
 					return new TYPES_NAME("unmatched type name " + filterparam, Collections.emptyList());
 				}

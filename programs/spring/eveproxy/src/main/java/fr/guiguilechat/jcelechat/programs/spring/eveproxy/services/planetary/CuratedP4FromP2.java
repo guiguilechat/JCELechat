@@ -135,7 +135,7 @@ public class CuratedP4FromP2 implements PlanetaryFactory {
 	};
 
 	public static Stream<CuratedP4FromP2> stream(TypeService typeService) {
-		Map<Integer, Type> typesbyId = typeService.byId(
+		Map<Integer, Type> typesbyId = typeService.byIdIn(
 				Stream.of(curatedProductsMaterial)
 						.flatMapToInt(arr -> Stream.of(arr).flatMapToInt(IntStream::of))
 						.boxed().toList())

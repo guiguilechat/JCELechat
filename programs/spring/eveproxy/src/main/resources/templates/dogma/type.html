@@ -26,6 +26,13 @@
 					th:text="${nxtType.name}">previous</a>
 			</div>
 		</div>
+		<div class="row border" th:if="${types!=null && !types.isEmpty()}">
+			<div class="col">
+				<ul><li th:each="type : ${types}">
+					<a th:href="${type.url}" th:text="${type.type.name}"/>
+				</li></ul>
+			</div>
+		</div>
 		<div class="row border">
 			<h2>Informations</h2>
 			<div class="col">
