@@ -78,8 +78,48 @@ public class TypeService {
 		return repo.findTop1ByGroupAndNameGreaterThanOrderByNameAsc(type.getGroup(), type.getName());
 	}
 
-	public List<Type> search(String nameIgnoreCase) {
-		return repo.findByNameContainsIgnoreCase(nameIgnoreCase);
+	/**
+	 * performs a list of queries to search for a type matching a given name :
+	 * <ol>
+	 * <li>type name equals ignore case</li>
+	 * <li>type name starts with ignore case</li>
+	 * <li>type name contains ignore case</li>
+	 * </ol>
+	 * Then repeat using group name, then category name.
+	 *
+	 * @param targetName name to find a corresponding type
+	 * @return first matching list of types
+	 */
+	public List<Type> search(String targetName) {
+		List<Type> ret = List.of();
+		if (ret.isEmpty()) {
+			ret = repo.findByNameEqualsIgnoreCase(targetName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo.findByNameStartsWithIgnoreCase(targetName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo.findByNameContainsIgnoreCase(targetName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo.findByGroupNameEqualsIgnoreCase(targetName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo.findByGroupNameStartsWithIgnoreCase(targetName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo.findByGroupNameContainsIgnoreCase(targetName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo.findByGroupCategoryNameEqualsIgnoreCase(targetName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo.findByGroupCategoryNameStartsWithIgnoreCase(targetName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo.findByGroupCategoryNameContainsIgnoreCase(targetName);
+		}
+		return ret;
 	}
 
 }
