@@ -30,6 +30,9 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class MarketHtmlController {
 
+	@Lazy
+	private final DogmaHtmlController dogmaHtmlController;
+
 	private final RegionContractService regionContractService;
 
 	private final RegionLineService regionLineService;
@@ -47,7 +50,13 @@ public class MarketHtmlController {
 		Map<Integer, String> regionNamesById = regionService.namesById();
 		Map<Integer, String> stationNamesById = stationService.namesById();
 		Map<Long, String> structuresNamesById = Map.of();
-		model.addAttribute("name", oType.isPresent() ? oType.get().getName() : "unknown" + typeId);
+		if (oType.isPresent()) {
+			Type type = oType.get();
+			model.addAttribute("typeUrl", dogmaHtmlController.uri(type).toString());
+			model.addAttribute("name", type.getName());
+		} else {
+			model.addAttribute("name",  "unknown" + typeId);
+		}
 		model.addAttribute("sos",
 				Stream.concat(regionContractService.streamSOs(typeId), regionLineService.streamSOs(typeId))
 						.sorted(Comparator.comparing(MarketOrder::getPrice))
@@ -93,6 +102,11 @@ public class MarketHtmlController {
 			}
 		}
 		return "market/index";
+	}
+
+	@GetMapping("/search/")
+	public String getSearchSlash(Model model, Optional<String> typeName) {
+		return getSearch(model, typeName);
 	}
 
 }

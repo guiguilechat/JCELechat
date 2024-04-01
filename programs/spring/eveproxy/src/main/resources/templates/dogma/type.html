@@ -37,7 +37,9 @@
 			<h2>Informations</h2>
 			<div class="col">
 				<h3>Prices</h3>
-
+				<span th:if="${marketUrl!=null}">
+					<a th:href="${marketUrl}">type market</a>
+				</span>
 				<table>
 					<tbody>
 						<tr th:if="${jitaso!=null}">

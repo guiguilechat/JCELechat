@@ -56,6 +56,9 @@ public class DogmaHtmlController {
 	private final GroupService groupService;
 
 	@Lazy
+	private final MarketHtmlController marketHtmlController;
+
+	@Lazy
 	private final NpcHtmlController npcHtmlController;
 
 	private final PriceService priceService;
@@ -159,6 +162,7 @@ public class DogmaHtmlController {
 			model.addAttribute("groupUrl", uri(t.getGroup()).toString());
 			model.addAttribute("category", t.getGroup().getCategory());
 			model.addAttribute("catUrl", uri(t.getGroup().getCategory()).toString());
+			model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
 
 			Type prvType = typeService.prevType(t);
 			if (prvType != null) {

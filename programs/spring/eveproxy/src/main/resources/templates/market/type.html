@@ -9,7 +9,12 @@
 </head>
 <body>
 	<div class="container-fluid border">
-		<h1 th:text="'Market orders for '+ ${name}"></h1>
+		<div class="row border">
+			<h1 th:text="'Market orders for '+ ${name}"></h1>
+			<span th:if="${typeUrl!=null}"><a th:href="${typeUrl}"
+				th:text="'type info'" /></span>
+		</div>
+
 		<div class="row border">
 			<div class="col">
 				<h2>Sell orders</h2>
