@@ -8,19 +8,20 @@
 <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 </head>
 <body>
+    <header th:insert="fragments/general.html :: header"> </header>
 	<h1>Type search</h1>
 	<div>
 		<h2>By name</h2>
 		<form method="get" action="type/tn">
 			<input type="text" name="filter"/>
-			<input type="submit" value="get" />
+			<input type="submit" value="search" />
 		</form>
 	</div>
 	<div>
 		<h2>By id</h2>
 		<form method="get" action="type/ti">
 			<input type="number" name="filter"/>
-			<input type="submit" value="get" />
+			<input type="submit" value="search" />
 		</form>
 	</div>
 	<h1>Group search</h1>
@@ -28,7 +29,7 @@
 		<h2>By id</h2>
 		<form method="get" action="group/gi">
 			<input type="number" name="groupId"/>
-			<input type="submit" value="get" />
+			<input type="submit" value="search" />
 		</form>
 	</div>
 
