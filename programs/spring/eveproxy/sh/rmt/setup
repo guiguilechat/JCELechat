@@ -1,0 +1,6 @@
+#!/bin/bash
+# setup the information of your remote server
+
+mkdir -p $HOME/.config/EveProxy/
+cp -u remote.cfg $HOME/.config/EveProxy/remote.cfg
+editor $HOME/.config/EveProxy/remote.cfg

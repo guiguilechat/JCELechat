@@ -1,0 +1,39 @@
+# this is an example that starts a postgres service and a eveproxy service accessing postgres.
+# the postgres has its admin access open (port 45432)
+
+
+version: '3.8'
+services:
+   postgres:
+      container_name: mevetic-postgres
+      image: postgres:16.0-alpine
+      environment:
+      - POSTGRES_USER=mevetic
+      - POSTGRES_PASSWORD=mevetic
+      ports:
+      - 45432:5432
+      restart: unless-stopped
+      shm_size: '512mb'# actually MB
+   tomcat:
+      container_name: mevetic-tomcat
+      depends_on:
+      - postgres
+      image: glechat/mevetic
+      environment:
+      - SPRING_DATASOURCE_PASSWORD=mevetic
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/mevetic
+      - SPRING_DATASOURCE_USERNAME=mevetic
+# hibernate
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_BATCH_SIZE=100
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
+# use memory cache
+      - SPRING_CACHE_TYPE=simple
+      ports:
+      - 8080:8080
+      restart: unless-stopped
+      deploy:
+         resources:
+            limits:
+               memory: 4000M

@@ -1,0 +1,42 @@
+# working dev env. Empty tomcat to host the war we create
+
+version: '3.8'
+services:
+   postgres:
+      container_name: mevetic-postgres
+      image: postgres:16.0-alpine
+      environment:
+      - POSTGRES_USER=mevetic
+      - POSTGRES_PASSWORD=mevetic
+      ports:
+      - 45432:5432
+      restart: unless-stopped
+      shm_size: 512mb # actually MB
+   redis:
+      container_name: mevetic-redis
+      deploy:
+         resources:
+            limits:
+               memory: 1000M
+      image: redis
+      restart: unless-stopped
+   tomcat:
+      container_name: mevetic-tomcat
+      depends_on:
+      - postgres
+      - redis
+      image: tomcat:10.1.15
+      environment:
+      - SPRING_DATA_REDIS_HOST=redis
+      - SPRING_DATA_REDIS_PORT=6379
+      - SPRING_DATA_REDIS_TIMEOUTT=1000
+      - SPRING_DATASOURCE_PASSWORD=mevetic
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/mevetic
+      - SPRING_DATASOURCE_USERNAME=mevetic
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_BATCH_SIZE=100
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
+      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
+      ports:
+      - 58080:8080
+      restart: unless-stopped

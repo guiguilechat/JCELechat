@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# shows logs of the tomcat container
+
+reset\
+&& docker logs -f mevetic-tomcat

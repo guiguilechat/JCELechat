@@ -15,6 +15,7 @@
 	<modules>
 		<module>evehistory</module>
 		<module>eveproxy</module>
+		<module>mevetic</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>

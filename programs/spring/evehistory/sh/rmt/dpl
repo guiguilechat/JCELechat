@@ -1,7 +1,7 @@
 #!/bin/bash
 # deploy to the tomcat specified in the remote fold.
 
-source $HOME/.cfg/EveHistory/remote.cfg\
+source $HOME/.config/EveHistory/remote.cfg\
 && mvn clean package\
 && scp target/EveHistory.war $RMT_SSH:\
 && ssh $RMT_SSH mv EveHistory.war /var/lib/tomcat10/webapps/

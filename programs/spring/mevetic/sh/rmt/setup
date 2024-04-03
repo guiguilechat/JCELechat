@@ -1,0 +1,6 @@
+#!/bin/bash
+# setup the information of your remote server
+
+mkdir -p $HOME/.config/MEvEtic/
+cp -u remote.cfg $HOME/.config/MEvEtic/remote.cfg
+editor $HOME/.config/MEvEtic/remote.cfg
