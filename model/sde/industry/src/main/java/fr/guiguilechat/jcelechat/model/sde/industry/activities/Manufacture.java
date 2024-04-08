@@ -39,8 +39,13 @@ public class Manufacture {
 		return Activity.installationCost(bpEIV, nbRuns, costIndexMult, locationManufCostMult, taxMult, alphaclone, 1.0);
 	}
 
+	/**
+	 * using the best reduction in mat cost : 1% from structure and 2.4% times 2.1
+	 * in NS rig
+	 */
 	public static final double LOWER_MATCOST_MULT = (100.0 - 1) / 100 * (100.0 - 2.4 * 2.1) / 100;
-	public static final double LOWER_TAX_MULT = 0.0;
+	public static final double LOWER_TAX_MULT = 0.25;
+	public static final double LOWER_COST_INDEX = 2.0;
 
 	/**
 	 * compute the minimum construction cost for 1 run
@@ -62,7 +67,7 @@ public class Manufacture {
 	@SuppressWarnings("rawtypes")
 	public static double minConstructionCost(double eiv, int ME, int runs, ArrayList<MaterialReq> materials,
 			BiFunction<Integer, Integer, Double> typeQttyPrice) {
-		double installationCost = installationCost(eiv, 1, 0, 1.0, LOWER_TAX_MULT, false);
+		double installationCost = installationCost(eiv, 1, LOWER_COST_INDEX / 100, 1.0, LOWER_TAX_MULT / 100, false);
 		double matMult = (100.0 - ME) / 100 * LOWER_MATCOST_MULT;
 		double matCost = 0.0;
 		for (MaterialReq<?> mr : materials) {
