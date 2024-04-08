@@ -1,0 +1,44 @@
+# local (in IDE) execution parameters.
+
+spring:
+   # use spring memory cache instead of redis which may not be available
+   cache:
+      type: simple
+   # request to use a H2 (inmemory) DB
+   datasource:
+      password: admin
+      url: jdbc:h2:mem:mevetic;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+      username: admin
+   jpa: 
+      # activate the generation of the DB on app start
+      generate-ddl: true
+      open-in-view: false
+      properties:
+         hibernate:
+            batch_versioned_data: true
+            jdbc:
+               batch_size: 50
+               fetch_size: 50
+            order_updates: true
+   security:
+      oauth2:
+         client:
+            provider:
+               ccPlz:
+                  authorizationGrantType: authorization_code
+                  authorizationUri: https://login.eveonline.com/v2/oauth/authorize
+                  issuerUri: https://login.eveonline.com
+                  jwkSetUri: https://login.eveonline.com/oauth/jwks 
+                  tokenUri: https://login.eveonline.com/v2/oauth/token
+                  userInfoUri: https://login.eveonline.com/oauth/verify
+                  userNameAttribute: CharacterName
+            registration:
+               eve:
+                  provider: ccPlz
+                  scope: esi-characters.read_contacts.v1
+# you need to add in eclipse application "VM arguments" : 
+# -Dspring.security.oauth2..client.registration.eve.clientId=[app id]]
+# -Dspring.security.oauth2..client.registration.eve.clientSecret=[app secret]]
+logging:
+   level:
+      web: DEBUG
