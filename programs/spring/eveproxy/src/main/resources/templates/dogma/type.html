@@ -8,7 +8,7 @@
 <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 </head>
 <body>
-    <header th:insert="fragments/general.html :: header"> </header>
+	<header th:insert="fragments/general.html :: header"> </header>
 	<div class="container-fluid border">
 		<div class="row border">
 			<div class="col">
@@ -29,17 +29,18 @@
 		</div>
 		<div class="row border" th:if="${types!=null && !types.isEmpty()}">
 			<div class="col">
-				<ul><li th:each="type : ${types}">
-					<a th:href="${type.url}" th:text="${type.type.name}"/>
-				</li></ul>
+				<ul>
+					<li th:each="type : ${types}"><a th:href="${type.url}"
+						th:text="${type.type.name}" /></li>
+				</ul>
 			</div>
 		</div>
 		<div class="row border">
 			<h2>Informations</h2>
 			<div class="col">
 				<h3>Prices</h3>
-				<span th:if="${marketUrl!=null}">
-					<a th:href="${marketUrl}">type market</a>
+				<span th:if="${marketUrl!=null}"> <a th:href="${marketUrl}">type
+						market</a>
 				</span>
 				<table>
 					<tbody>
@@ -66,6 +67,42 @@
 						<tr th:if="${bpeiv!=null}">
 							<td>blueprint eiv</td>
 							<td><span th:text="${bpeiv}"></span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col" th:if="${regionSell!=null && !regionSell.isEmpty()}">
+				<h3>regional sell</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>region</th>
+							<th>price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="offer : ${regionSell}">
+							<td><span th:text="${offer.regionName}"> region </span></td>
+							<td><span th:text="${offer.formatedPrice}">
+									price </span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col" th:if="${regionBuy!=null && !regionBuy.isEmpty()}">
+				<h3>regional buy</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>region</th>
+							<th>price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="offer : ${regionBuy}">
+							<td><span th:text="${offer.regionName}"> region </span></td>
+							<td><span th:text="${offer.formatedPrice}">
+									price </span></td>
 						</tr>
 					</tbody>
 				</table>

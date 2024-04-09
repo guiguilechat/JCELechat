@@ -53,7 +53,15 @@ public class RegionContractUpdateService {
 			return List.of();
 		}
 
+		public default List<String> listContractItemsCaches() {
+			return List.of();
+		}
+
 		public default void onContractsUpdate(ObservedRegion region, List<RegionContract> removed) {
+
+		}
+
+		public default void onContractsItemsUpdated(RegionContract contract) {
 
 		}
 
@@ -196,20 +204,6 @@ public class RegionContractUpdateService {
 
 	// contracts items
 
-	public static interface ContractItemsUpdateListener {
-
-		public default List<String> listContractItemsCaches() {
-			return List.of();
-		}
-
-		public default void onContractsItemsUpdate(RegionContract contract) {
-
-		}
-
-	}
-
-	private final List<ContractItemsUpdateListener> updateContractItemsListeners;
-
 	@Async
 	@Transactional
 	public CompletableFuture<Void> updateContractItems(RegionContract contract) {
@@ -223,9 +217,9 @@ public class RegionContractUpdateService {
 			}
 			regionContractService.save(contract);
 		}
-		updateContractItemsListeners.stream().flatMap(l -> l.listContractItemsCaches().stream())
+		updateContractListeners.stream().flatMap(l -> l.listContractItemsCaches().stream())
 				.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-		updateContractItemsListeners.stream().forEach(l -> l.onContractsItemsUpdate(contract));
+		updateContractListeners.stream().forEach(l -> l.onContractsItemsUpdated(contract));
 		return CompletableFuture.completedFuture(null);
 	}
 

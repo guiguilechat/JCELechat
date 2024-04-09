@@ -5,7 +5,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
@@ -15,9 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.MarketOrder;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionContractService;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
@@ -33,9 +30,7 @@ public class MarketHtmlController {
 	@Lazy
 	private final DogmaHtmlController dogmaHtmlController;
 
-	private final RegionContractService regionContractService;
-
-	private final RegionLineService regionLineService;
+	private final MarketOrderService marketOrderService;
 
 	private final RegionService regionService;
 
@@ -58,14 +53,12 @@ public class MarketHtmlController {
 			model.addAttribute("name",  "unknown" + typeId);
 		}
 		model.addAttribute("sos",
-				Stream.concat(regionContractService.streamSOs(typeId), regionLineService.streamSOs(typeId))
-						.sorted(Comparator.comparing(MarketOrder::getPrice))
+						marketOrderService.sellOrders(typeId).stream()
 						.peek(
 								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 						.toList());
 		model.addAttribute("bos",
-				Stream.concat(regionContractService.streamBOs(typeId), regionLineService.streamBOs(typeId))
-						.sorted(Comparator.comparing(mo -> -mo.getPrice()))
+				marketOrderService.buyOrders(typeId).stream()
 						.peek(
 								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 						.toList());
