@@ -40,6 +40,12 @@ public class LPStoreCorporationService implements CorporationsUpdateListener {
 		return repo.findAllByDisabled(!active);
 	}
 
+	@Cacheable("lpCorpCount")
+	public Map<LPStoreCorporation, Integer> countOffers() {
+		return repo.countOffersForActive().stream()
+				.collect(Collectors.toMap(arr -> (LPStoreCorporation) arr[0], arr -> ((Number) arr[1]).intValue()));
+	}
+
 	public LPStoreCorporation save(LPStoreCorporation entity) {
 		return repo.save(entity);
 	}
@@ -132,7 +138,8 @@ public class LPStoreCorporationService implements CorporationsUpdateListener {
 	}
 
 	public static List<String> CORPORATIONS_CACHES = List.of(
-			"lpCorpActive");
+			"lpCorpActive",
+			"lpCorpCount");
 
 	@Override
 	public List<String> listCorporationsCaches() {
