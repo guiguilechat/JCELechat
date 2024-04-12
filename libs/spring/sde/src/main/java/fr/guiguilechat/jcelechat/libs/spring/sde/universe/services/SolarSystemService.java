@@ -1,6 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.universe.services;
 
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
@@ -29,6 +31,10 @@ public class SolarSystemService {
 
 	public List<SolarSystem> adjacent(SolarSystem source) {
 		return repo.adjacent(source);
+	}
+
+	public Map<Integer, SolarSystem> allById() {
+		return repo.findAll().stream().collect(Collectors.toMap(SolarSystem::getSolarSystemId, c -> c));
 	}
 
 }

@@ -20,9 +20,10 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 public class Region {
 
-	private String name;
 	@Id
 	private int regionId;
+
+	private String name;
 	private String universe;
 
 	// copy from SDE structure
@@ -44,25 +45,32 @@ public class Region {
 	public static Region from(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region source, String RegionName,
 			String uniName) {
 		return Region.builder()
-				.name(RegionName)
 				.regionId(source.regionID)
-				.universe(uniName)
+				.build()
+				.update(source, RegionName, uniName);
+	}
 
-				.center_x(source.center.x())
-				.center_y(source.center.y())
-				.center_z(source.center.z())
-				.descriptionId(source.descriptionID)
-				.factionId(source.factionID)
-				.max_x(source.max.x())
-				.max_y(source.max.y())
-				.max_z(source.max.z())
-				.min_x(source.min.x())
-				.min_y(source.min.y())
-				.min_z(source.min.z())
-				.nameId(source.nameID)
-				.nebula(source.nebula)
-				.wormholeClassId(source.wormholeClassID)
-			.build();
+	public Region update(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region source, String RegionName,
+			String uniName) {
+
+		name = RegionName;
+		universe = uniName;
+
+		center_x = source.center.x();
+		center_y = source.center.y();
+		center_z = source.center.z();
+		descriptionId = source.descriptionID;
+		factionId = source.factionID;
+		max_x = source.max.x();
+		max_y = source.max.y();
+		max_z = source.max.z();
+		min_x = source.min.x();
+		min_y = source.min.y();
+		min_z = source.min.z();
+		nameId = source.nameID;
+		nebula = source.nebula;
+		wormholeClassId = source.wormholeClassID;
+		return this;
 	}
 
 }

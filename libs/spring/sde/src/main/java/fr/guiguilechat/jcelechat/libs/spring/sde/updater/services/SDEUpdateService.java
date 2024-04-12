@@ -169,12 +169,6 @@ public class SDEUpdateService {
 		updateresultService.save(ur);
 	}
 
-	record GroupData(EgroupIDs group, int id) {
-	}
-
-	record TypeData(EtypeIDs type, int id) {
-	}
-
 	record TypeAttributeData(int typeId, int attributeId, Number value) {
 	}
 
@@ -214,7 +208,7 @@ public class SDEUpdateService {
 
 	/** store the SDE lines as required to build them into memory */
 	class UpdateContext {
-		public final List<Attribute> attributes = new ArrayList<>();
+		public final Map<Integer, EdogmaAttributes> attributes = new HashMap<>();
 		public final List<Eblueprints> blueprints = new ArrayList<>();
 		public final Map<Integer, EcategoryIDs> categories = new HashMap<>();
 		public final List<ConstelData> constels = new ArrayList<>();
@@ -227,7 +221,7 @@ public class SDEUpdateService {
 		public final List<StationData> stations = new ArrayList<>();
 		public final List<SolarSystemData> systems = new ArrayList<>();
 		public final List<TypeAttributeData> typeAttributes = new ArrayList<>();
-		public final List<TypeData> types = new ArrayList<>();
+		public final Map<Integer, EtypeIDs> types = new HashMap<>();
 
 		static final Pattern ENTRYNAME_SOLARSYSTEM_PATTERN = Pattern.compile(
 				"sde/fsd/universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/solarsystem\\.staticdata");
@@ -268,87 +262,85 @@ public class SDEUpdateService {
 			Matcher m = null;
 			m = ENTRYNAME_SOLARSYSTEM_PATTERN.matcher(name);
 			if (m.matches()) {
-				applySolarSystem(is, m.group(1), m.group(2),
+				saveSolarSystem(is, m.group(1), m.group(2),
 						m.group(3), m.group(4));
 				return;
 			}
 			m = ENTRYNAME_CONSTELLATION_PATTERN.matcher(name);
 			if (m.matches()) {
-				applyConstellation(is, m.group(1), m.group(2),
+				saveConstellation(is, m.group(1), m.group(2),
 						m.group(3));
 				return;
 			}
 			m = ENTRYNAME_REGION_PATTERN.matcher(name);
 			if (m.matches()) {
-				applyRegion(is, m.group(1), m.group(2));
+				saveRegion(is, m.group(1), m.group(2));
 				return;
 			}
 			if (ENTRYNAME_CATEGORIES_PATTERN.matcher(name).matches()) {
-				appyCategories(is);
+				saveCategories(is);
 				return;
 			}
 			if (ENTRYNAME_GROUPS_PATTERN.matcher(name).matches()) {
-				appyGroups(is);
+				saveGroups(is);
 				return;
 			}
 			if (ENTRYNAME_TYPES_PATTERN.matcher(name).matches()) {
-				appyTypes(is);
+				saveTypes(is);
 				return;
 			}
 			if (ENTRYNAME_ATTRIBUTES_PATTERN.matcher(name).matches()) {
-				appyAttributes(is);
+				saveAttributes(is);
 				return;
 			}
 			if (ENTRYNAME_TYPEATTRIBUTES_PATTERN.matcher(name).matches()) {
-				appyTypeAttributes(is);
+				saveTypeAttributes(is);
 				return;
 			}
 			if (ENTRYNAME_BLUEPRINTS_PATTERN.matcher(name).matches()) {
-				appyBlueprints(is);
+				saveBlueprints(is);
 				return;
 			}
 			if (ENTRYNAME_INVNAMES_PATTERN.matcher(name).matches()) {
-				applyInvNames(is);
+				saveInvNames(is);
 				return;
 			}
 			if (ENTRYNAME_PLANETSCHEMATICS_PATTERN.matcher(name).matches()) {
-				applySchematics(is);
+				saveSchematics(is);
 				return;
 			}
 			// log.info("ignore entry " + name);
 		}
 
-		private void applySchematics(InputStream is) {
+		private void saveSchematics(InputStream is) {
 			planetSchematics.putAll(EplanetSchematics.from(is));
 		}
 
-		private void applyInvNames(InputStream is) {
+		private void saveInvNames(InputStream is) {
 			invNames.putAll(EinvNames.from(is).stream().collect(Collectors.toMap(in -> (long) in.itemID, in -> in.itemName)));
 		}
 
-		private void appyBlueprints(InputStream is) {
+		private void saveBlueprints(InputStream is) {
 			blueprints.addAll(Eblueprints.from(is).values());
 		}
 
-		private void appyCategories(InputStream is) {
+		private void saveCategories(InputStream is) {
 			categories.putAll(EcategoryIDs.from(is));
 		}
 
-		private void appyGroups(InputStream is) {
+		private void saveGroups(InputStream is) {
 			groups.putAll(EgroupIDs.from(is));
 		}
 
-		private void appyTypes(InputStream is) {
-			types.addAll(EtypeIDs.from(is).entrySet().stream().map(e -> new TypeData(e.getValue(), e.getKey())).toList());
+		private void saveTypes(InputStream is) {
+			types.putAll(EtypeIDs.from(is));
 		}
 
-		private void appyAttributes(InputStream is) {
-			attributes.addAll(
-					EdogmaAttributes.from(is).entrySet().stream().map(e -> Attribute.from(e.getKey(), e.getValue()))
-							.toList());
+		private void saveAttributes(InputStream is) {
+			attributes.putAll(EdogmaAttributes.from(is));
 		}
 
-		private void appyTypeAttributes(InputStream is) {
+		private void saveTypeAttributes(InputStream is) {
 			typeAttributes.addAll(
 					EtypeDogma.from(is).entrySet().stream()
 							.filter(e -> e.getValue().dogmaAttributes != null && e.getValue().dogmaAttributes.length > 0)
@@ -357,16 +349,16 @@ public class SDEUpdateService {
 							.toList());
 		}
 
-		private void applyRegion(InputStream is, String uniName, String regionName) {
+		private void saveRegion(InputStream is, String uniName, String regionName) {
 			regions.add(new RegionData(is, regionName, uniName));
 		}
 
-		private void applyConstellation(InputStream is, String uniName, String regionName,
+		private void saveConstellation(InputStream is, String uniName, String regionName,
 				String constellationName) {
 			constels.add(new ConstelData(is, constellationName, regionName));
 		}
 
-		private void applySolarSystem(InputStream is, String uniName, String regionName,
+		private void saveSolarSystem(InputStream is, String uniName, String regionName,
 				String constellationName, String solarSystemName) {
 			SolarSystemData ssd = new SolarSystemData(is, solarSystemName, constellationName);
 			systems.add(ssd);
@@ -423,15 +415,12 @@ public class SDEUpdateService {
 				+ context.stations.size() + " stations");
 
 		//
-		// clear all
+		// wipe all that will be reinserted
 		//
 
 		stationService.clear();
 		planetService.clear();
 		stargateService.clear();
-		solarsystemService.clear();
-		constellationService.clear();
-		regionService.clear();
 
 		schemProductService.clear();
 		schemMaterialService.clear();
@@ -441,8 +430,6 @@ public class SDEUpdateService {
 		skillService.clear();
 		blueprintActivityService.clear();
 		typeattributeService.clear();
-		attributeService.clear();
-		typeService.clear();
 
 		log.info(" cleared SDE DB");
 
@@ -457,12 +444,9 @@ public class SDEUpdateService {
 
 		Map<Integer, Group> groupsById = updateGroups(context, categoriesById);
 
-		Map<Integer, Type> typesById = typeService.saveAll(context.types.stream()
-				.map(td -> Type.from(td.id(), td.type(), groupsById.get(td.type().groupID))).toList())
-				.stream().collect(Collectors.toMap(Type::getTypeId, t -> t));
+		Map<Integer, Type> typesById = updateTypes(context, groupsById);
 
-		Map<Integer, Attribute> attributesById = attributeService.saveAll(context.attributes)
-				.stream().collect(Collectors.toMap(Attribute::getAttributeId, c -> c));
+		Map<Integer, Attribute> attributesById = updateAttributes(context);
 
 		Map<Integer, List<TypeAttribute>> attributesByTypeId = typeattributeService.saveAll(context.typeAttributes.stream()
 				.map(tad -> TypeAttribute.from(typesById.get(tad.typeId()), attributesById.get(tad.attributeId()), tad.value()))
@@ -578,28 +562,22 @@ public class SDEUpdateService {
 
 		// universe
 
-		Map<String, Region> regionByName = regionService.saveAll(context.regions.stream()
-				.map(rd -> Region.from(rd.data(), rd.name(), rd.universeName())).toList())
-				.stream().collect(Collectors.toMap(Region::getName, r -> r));
+		Map<String, Region> regionsByName = updateRegions(context);
 
-		Map<String, Constellation> constelByName = constellationService.saveAll(context.constels.stream()
-				.map(cd -> Constellation.from(cd.data(), cd.name(), regionByName.get(cd.regionName()))).toList())
-				.stream().collect(Collectors.toMap(Constellation::getName, c -> c));
+		Map<String, Constellation> constellationsByName = updateConstellations(context, regionsByName);
 
-		Map<Integer, SolarSystem> sysById = solarsystemService.saveAll(context.systems.stream()
-				.map(sd -> SolarSystem.from(sd.data(), sd.name(), constelByName.get(sd.constellationName()))).toList())
-				.stream().collect(Collectors.toMap(SolarSystem::getSolarSystemId, s -> s));
+		Map<Integer, SolarSystem> solarSystemsById = updateSolarSystems(context, constellationsByName);
 
 		planetService.saveAll(context.planets.values().stream()
 				.map(psd -> fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet.from(psd.planet(),
 						psd.planetId(),
 						context.invNames.get(psd.planetId()),
-						sysById.get(psd.solarSystemId),
+						solarSystemsById.get(psd.solarSystemId),
 						typesById.get(psd.planet().typeID)))
 				.toList());
 
 		Map<Integer, Stargate> sgById = stargateService.saveAll(context.stargates.stream()
-				.map(sd -> Stargate.from(sd.data(), sd.stargateId(), sysById.get(sd.solsysId()))).toList())
+				.map(sd -> Stargate.from(sd.data(), sd.stargateId(), solarSystemsById.get(sd.solsysId()))).toList())
 				.stream().collect(Collectors.toMap(Stargate::getStargateId, s -> s));
 		for (StargateData sgd : context.stargates) {
 			int id1 = sgd.stargateId();
@@ -614,7 +592,7 @@ public class SDEUpdateService {
 		stargateService.saveAll(sgById.values());
 
 		stationService.saveAll(context.stations.stream()
-				.map(sd -> Station.from(sd.data(), sd.stationId(), sysById.get(sd.solsysId()),
+				.map(sd -> Station.from(sd.data(), sd.stationId(), solarSystemsById.get(sd.solsysId()),
 						context.invNames.get((long) sd.stationId())))
 				.toList());
 
@@ -654,17 +632,56 @@ public class SDEUpdateService {
 			int id = entry.getKey();
 			EgroupIDs data = entry.getValue();
 			Group present = alreadyPresents.get(id);
-			Category category = categories.get(data.categoryID);
+			Category parent = categories.get(data.categoryID);
 			if (present == null) {
-				created.add(Group.from(id, data, category));
+				created.add(Group.from(id, data, parent));
 			} else {
-				present.update(data, category);
+				present.update(data, parent);
 			}
 		}
 		return Stream.concat(
 				groupService.saveAll(created).stream(),
 				groupService.saveAll(alreadyPresents.values()).stream())
 				.collect(Collectors.toMap(Group::getGroupId, c -> c));
+	}
+
+	protected Map<Integer, Type> updateTypes(UpdateContext context, Map<Integer, Group> groups) {
+		Map<Integer, Type> alreadyPresents = typeService.allById();
+		List<Type> created = new ArrayList<>();
+		for (Entry<Integer, EtypeIDs> entry : context.types.entrySet()) {
+			int id = entry.getKey();
+			EtypeIDs data = entry.getValue();
+			Type present = alreadyPresents.get(id);
+			Group parent = groups.get(data.groupID);
+			if (present == null) {
+				created.add(Type.from(id, data, parent));
+			} else {
+				present.update(data, parent);
+			}
+		}
+		return Stream.concat(
+				typeService.saveAll(created).stream(),
+				typeService.saveAll(alreadyPresents.values()).stream())
+				.collect(Collectors.toMap(Type::getTypeId, c -> c));
+	}
+
+	private Map<Integer, Attribute> updateAttributes(UpdateContext context) {
+		Map<Integer, Attribute> alreadyPresents = attributeService.allById();
+		List<Attribute> created = new ArrayList<>();
+		for (Entry<Integer, EdogmaAttributes> entry : context.attributes.entrySet()) {
+			int id = entry.getKey();
+			EdogmaAttributes data = entry.getValue();
+			Attribute present = alreadyPresents.get(id);
+			if (present == null) {
+				created.add(Attribute.from(id, data));
+			} else {
+				present.update(data);
+			}
+		}
+		return Stream.concat(
+				attributeService.saveAll(created).stream(),
+				attributeService.saveAll(alreadyPresents.values()).stream())
+				.collect(Collectors.toMap(Attribute::getAttributeId, c -> c));
 	}
 
 	void addActivityData(
@@ -682,6 +699,63 @@ public class SDEUpdateService {
 			newSkills.addAll(act.skills.stream()
 					.map(s -> SkillReq.of(bpa, typesById.get(s.typeID), s.level)).toList());
 		}
+	}
+
+	private Map<String, Region> updateRegions(UpdateContext context) {
+		Map<Integer, Region> alreadyPresents = regionService.allById();
+		List<Region> created = new ArrayList<>();
+		for (RegionData data : context.regions) {
+			int id = data.data.regionID;
+			Region present = alreadyPresents.get(id);
+			if (present == null) {
+				created.add(Region.from(data.data, data.name, data.universeName));
+			} else {
+				present.update(data.data, data.name, data.universeName);
+			}
+		}
+		return Stream.concat(
+				regionService.saveAll(created).stream(),
+				regionService.saveAll(alreadyPresents.values()).stream())
+				.collect(Collectors.toMap(Region::getName, c -> c));
+	}
+
+	private Map<String, Constellation> updateConstellations(UpdateContext context, Map<String, Region> regionsByName) {
+		Map<Integer, Constellation> alreadyPresents = constellationService.allById();
+		List<Constellation> created = new ArrayList<>();
+		for (ConstelData data : context.constels) {
+			int id = data.data.constellationID;
+			Constellation present = alreadyPresents.get(id);
+			Region parent = regionsByName.get(data.regionName);
+			if (present == null) {
+				created.add(Constellation.from(data.data, data.name, parent));
+			} else {
+				present.update(data.data, data.name, parent);
+			}
+		}
+		return Stream.concat(
+				constellationService.saveAll(created).stream(),
+				constellationService.saveAll(alreadyPresents.values()).stream())
+				.collect(Collectors.toMap(Constellation::getName, c -> c));
+	}
+
+	private Map<Integer, SolarSystem> updateSolarSystems(UpdateContext context,
+			Map<String, Constellation> constellationsByName) {
+		Map<Integer, SolarSystem> alreadyPresents = solarsystemService.allById();
+		List<SolarSystem> created = new ArrayList<>();
+		for (SolarSystemData data : context.systems) {
+			int id = data.data.solarSystemID;
+			SolarSystem present = alreadyPresents.get(id);
+			Constellation parent = constellationsByName.get(data.constellationName);
+			if (present == null) {
+				created.add(SolarSystem.from(data.data, data.name, parent));
+			} else {
+				present.update(data.data, data.name, parent);
+			}
+		}
+		return Stream.concat(
+				solarsystemService.saveAll(created).stream(),
+				solarsystemService.saveAll(alreadyPresents.values()).stream())
+				.collect(Collectors.toMap(SolarSystem::getSolarSystemId, c -> c));
 	}
 
 }

@@ -60,25 +60,30 @@ public class Type implements Serializable {
 	public static Type from(int id, EtypeIDs data, Group grp) {
 		return Type.builder()
 				.typeId(id)
-				.basePrice(data.basePrice)
-				.capacity(data.capacity)
-				.factionID(data.factionID)
-				.graphicID(data.graphicID)
-				.group(grp)
-				.iconID(data.iconID)
-				.marketGroupId(data.marketGroupID)
-				.mass(data.mass)
-				.name(data.enName())
-				.portionSize(data.portionSize)
-				.published(data.published)
-				.raceID(data.raceID)
-				.radius(data.radius)
-				.sofFactionName(data.sofFactionName)
-				.sofMaterialSetId(data.sofMaterialSetID)
-				.soundID(data.soundID)
-				.variationParentTypeId(data.variationParentTypeID)
-				.volume(data.volume)
-				.build();
+				.build()
+				.update(data, grp);
+	}
+
+	public Type update(EtypeIDs data, Group parent) {
+		basePrice = data.basePrice;
+		capacity = data.capacity;
+		factionID = data.factionID;
+		graphicID = data.graphicID;
+		group = parent;
+		iconID = data.iconID;
+		marketGroupId = data.marketGroupID;
+		mass = data.mass;
+		name = data.enName();
+		portionSize = data.portionSize;
+		published = data.published;
+		raceID = data.raceID;
+		radius = data.radius;
+		sofFactionName = data.sofFactionName;
+		sofMaterialSetId = data.sofMaterialSetID;
+		soundID = data.soundID;
+		variationParentTypeId = data.variationParentTypeID;
+		volume = data.volume;
+		return this;
 	}
 
 }
