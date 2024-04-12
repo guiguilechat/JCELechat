@@ -53,6 +53,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Stargate;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.ConstellationService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.PlanetService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService;
@@ -96,6 +97,8 @@ public class SDEUpdateService {
 	final private GroupService groupService;
 
 	final private MaterialService materialService;
+
+	final private PlanetService planetService;
 
 	final private ProductService productService;
 
@@ -206,14 +209,18 @@ public class SDEUpdateService {
 			int solsysId) {
 	}
 
+	public static record PlanetSystemData(long planetId, Planet planet, int solarSystemId) {
+	}
+
 	/** store the SDE lines as required to build them into memory */
 	class UpdateContext {
 		public final List<Attribute> attributes = new ArrayList<>();
 		public final List<Eblueprints> blueprints = new ArrayList<>();
 		public final List<Category> categories = new ArrayList<>();
 		public final List<ConstelData> constels = new ArrayList<>();
-		public final Map<Integer, String> invNames = new HashMap<>();
+		public final Map<Long, String> invNames = new HashMap<>();
 		public final List<GroupData> groups = new ArrayList<>();
+		public final Map<Long, PlanetSystemData> planets = new HashMap<>();
 		public final Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>();
 		public final List<RegionData> regions = new ArrayList<>();
 		public final List<StargateData> stargates = new ArrayList<>();
@@ -316,7 +323,7 @@ public class SDEUpdateService {
 		}
 
 		private void applyInvNames(InputStream is) {
-			invNames.putAll(EinvNames.from(is).stream().collect(Collectors.toMap(in -> in.itemID, in -> in.itemName)));
+			invNames.putAll(EinvNames.from(is).stream().collect(Collectors.toMap(in -> (long) in.itemID, in -> in.itemName)));
 		}
 
 		private void appyBlueprints(InputStream is) {
@@ -367,7 +374,9 @@ public class SDEUpdateService {
 					.data().stargates.entrySet()) {
 				stargates.add(new StargateData(sge.getValue(), sge.getKey(), ssd.data().solarSystemID));
 			}
-			for (Planet p : ssd.data().planets.values()) {
+			for (Entry<Long, Planet> ep : ssd.data().planets.entrySet()) {
+				Planet p = ep.getValue();
+				planets.put(ep.getKey(), new PlanetSystemData(ep.getKey(), p, ssd.data.solarSystemID));
 				for (Entry<Integer, NPCStation> e : p.npcStations.entrySet()) {
 					stations.add(new StationData(e.getValue(), e.getKey(), ssd.data.solarSystemID));
 				}
@@ -418,6 +427,7 @@ public class SDEUpdateService {
 		//
 
 		stationService.clear();
+		planetService.clear();
 		stargateService.clear();
 		solarsystemService.clear();
 		constellationService.clear();
@@ -585,6 +595,14 @@ public class SDEUpdateService {
 				.map(sd -> SolarSystem.from(sd.data(), sd.name(), constelByName.get(sd.constellationName()))).toList())
 				.stream().collect(Collectors.toMap(SolarSystem::getSolarSystemId, s -> s));
 
+		planetService.saveAll(context.planets.values().stream()
+				.map(psd -> fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet.from(psd.planet(),
+						psd.planetId(),
+						context.invNames.get(psd.planetId()),
+						sysById.get(psd.solarSystemId),
+						typesById.get(psd.planet().typeID)))
+				.toList());
+
 		Map<Integer, Stargate> sgById = stargateService.saveAll(context.stargates.stream()
 				.map(sd -> Stargate.from(sd.data(), sd.stargateId(), sysById.get(sd.solsysId()))).toList())
 				.stream().collect(Collectors.toMap(Stargate::getStargateId, s -> s));
@@ -602,7 +620,7 @@ public class SDEUpdateService {
 
 		stationService.saveAll(context.stations.stream()
 				.map(sd -> Station.from(sd.data(), sd.stationId(), sysById.get(sd.solsysId()),
-						context.invNames.get(sd.stationId())))
+						context.invNames.get((long) sd.stationId())))
 				.toList());
 
 		updateListeners.stream().flatMap(l -> l.listSDECaches().stream())

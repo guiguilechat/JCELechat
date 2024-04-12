@@ -12,8 +12,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ConstellationService {
 
-	final
-	private ConstellationRepository repo;
+	final private ConstellationRepository repo;
 
 	public void clear() {
 		repo.deleteAllInBatch();
