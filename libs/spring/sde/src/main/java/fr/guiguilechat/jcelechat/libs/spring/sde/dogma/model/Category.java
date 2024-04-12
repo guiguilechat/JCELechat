@@ -34,14 +34,19 @@ public class Category implements Serializable{
 	public static Category from(int id, EcategoryIDs from) {
 		return Category.builder()
 				.categoryId(id)
-				.iconID(from.iconID)
-				.name(from.enName())
-				.published(from.published)
-				.build();
+				.build()
+				.update(from);
 	}
 
 	public static Category from(Map.Entry<Integer, EcategoryIDs> entry) {
 		return from(entry.getKey(), entry.getValue());
+	}
+
+	public Category update(EcategoryIDs c) {
+		iconID = c.iconID;
+		name = c.enName();
+		published = c.published;
+		return this;
 	}
 
 }

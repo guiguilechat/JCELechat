@@ -216,10 +216,10 @@ public class SDEUpdateService {
 	class UpdateContext {
 		public final List<Attribute> attributes = new ArrayList<>();
 		public final List<Eblueprints> blueprints = new ArrayList<>();
-		public final List<Category> categories = new ArrayList<>();
+		public final Map<Integer, EcategoryIDs> categories = new HashMap<>();
 		public final List<ConstelData> constels = new ArrayList<>();
 		public final Map<Long, String> invNames = new HashMap<>();
-		public final List<GroupData> groups = new ArrayList<>();
+		public final Map<Integer, EgroupIDs> groups = new HashMap<>();
 		public final Map<Long, PlanetSystemData> planets = new HashMap<>();
 		public final Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>();
 		public final List<RegionData> regions = new ArrayList<>();
@@ -331,11 +331,11 @@ public class SDEUpdateService {
 		}
 
 		private void appyCategories(InputStream is) {
-			categories.addAll(EcategoryIDs.from(is).entrySet().stream().map(Category::from).toList());
+			categories.putAll(EcategoryIDs.from(is));
 		}
 
 		private void appyGroups(InputStream is) {
-			groups.addAll(EgroupIDs.from(is).entrySet().stream().map(e -> new GroupData(e.getValue(), e.getKey())).toList());
+			groups.putAll(EgroupIDs.from(is));
 		}
 
 		private void appyTypes(InputStream is) {
@@ -443,8 +443,6 @@ public class SDEUpdateService {
 		typeattributeService.clear();
 		attributeService.clear();
 		typeService.clear();
-		groupService.clear();
-		categoryService.clear();
 
 		log.info(" cleared SDE DB");
 
@@ -455,12 +453,9 @@ public class SDEUpdateService {
 
 		// dogma
 
-		Map<Integer, Category> categoriesById = categoryService.saveAll(context.categories)
-				.stream().collect(Collectors.toMap(Category::getCategoryId, c -> c));
+		Map<Integer, Category> categoriesById = updateCategories(context);
 
-		Map<Integer, Group> groupsById = groupService.saveAll(context.groups.stream()
-				.map(gd -> Group.from(gd.id(), gd.group(), categoriesById.get(gd.group().categoryID))).toList())
-				.stream().collect(Collectors.toMap(Group::getGroupId, g -> g));
+		Map<Integer, Group> groupsById = updateGroups(context, categoriesById);
 
 		Map<Integer, Type> typesById = typeService.saveAll(context.types.stream()
 				.map(td -> Type.from(td.id(), td.type(), groupsById.get(td.type().groupID))).toList())
@@ -629,6 +624,47 @@ public class SDEUpdateService {
 
 		log.info(" finished updating SDE DB.");
 
+	}
+
+	protected Map<Integer, Category> updateCategories(UpdateContext context) {
+		Map<Integer, Category> alreadyPresents = categoryService.allById();
+		List<Category> created = new ArrayList<>();
+		// update already saved categories, create missing ones.
+		for (Entry<Integer, EcategoryIDs> entry : context.categories.entrySet()) {
+			int id = entry.getKey();
+			EcategoryIDs data = entry.getValue();
+			Category present = alreadyPresents.get(id);
+			if (present == null) {
+				created.add(Category.from(id, data));
+			} else {
+				present.update(data);
+			}
+		}
+		// so far ignore removed ones.
+		return Stream.concat(
+				categoryService.saveAll(created).stream(),
+				categoryService.saveAll(alreadyPresents.values()).stream())
+				.collect(Collectors.toMap(Category::getCategoryId, c -> c));
+	}
+
+	protected Map<Integer, Group> updateGroups(UpdateContext context, Map<Integer, Category> categories) {
+		Map<Integer, Group> alreadyPresents = groupService.allById();
+		List<Group> created = new ArrayList<>();
+		for (Entry<Integer, EgroupIDs> entry : context.groups.entrySet()) {
+			int id = entry.getKey();
+			EgroupIDs data = entry.getValue();
+			Group present = alreadyPresents.get(id);
+			Category category = categories.get(data.categoryID);
+			if (present == null) {
+				created.add(Group.from(id, data, category));
+			} else {
+				present.update(data, category);
+			}
+		}
+		return Stream.concat(
+				groupService.saveAll(created).stream(),
+				groupService.saveAll(alreadyPresents.values()).stream())
+				.collect(Collectors.toMap(Group::getGroupId, c -> c));
 	}
 
 	void addActivityData(

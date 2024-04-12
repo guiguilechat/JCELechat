@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
@@ -37,6 +39,10 @@ public class CategoryService {
 
 	public Category nextGroup(Category c) {
 		return repo.findTop1ByNameGreaterThanOrderByNameAsc(c.getName());
+	}
+
+	public Map<Integer, Category> allById(){
+		return repo.findAll().stream().collect(Collectors.toMap(Category::getCategoryId, c -> c));
 	}
 
 }
