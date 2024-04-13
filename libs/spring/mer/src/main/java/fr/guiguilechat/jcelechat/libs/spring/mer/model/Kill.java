@@ -24,7 +24,8 @@ import lombok.RequiredArgsConstructor;
 		@Index(columnList = "killerCorporationId"),
 		@Index(columnList = "killDate"),
 		@Index(columnList = "solar_system_solar_system_id"),
-		@Index(columnList = "victimCorporationId")
+		@Index(columnList = "victimCorporationId"),
+		@Index(columnList = "mer_id")
 })
 @Data
 @Builder

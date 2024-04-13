@@ -65,6 +65,7 @@ public class MerUpdateService {
 					LoadedMer.builder()
 							.periodMonth(localdate)
 							.startLoad(start)
+							.url(merfetch.url())
 							.build());
 			MER mer = new MER(merfetch).load();
 			Map<Integer, Type> typesById = typeService
