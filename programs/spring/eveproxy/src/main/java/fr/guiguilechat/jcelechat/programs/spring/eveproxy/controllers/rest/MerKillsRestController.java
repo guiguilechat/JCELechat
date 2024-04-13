@@ -190,68 +190,68 @@ public class MerKillsRestController {
 		}
 	}
 
-	static record TYPES_NAME(String name, List<Integer> typeIds) {
+	static record NAMED_TYPELIST(String name, List<Integer> typeIds) {
 	}
 
 	/**
 	 * request to filter the typed by
 	 */
-	static enum TYPES_FILTER {
+	static enum TYPE_FILTER_STRATEGY {
 		TYPE_ID {
 			@Override
-			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
+			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
 				int typeId = Integer.parseInt(filterparam);
 				Type type = typeService.byId(typeId).orElse(null);
-				return type == null ? new TYPES_NAME("unknown t" + typeId, Collections.emptyList())
-						: new TYPES_NAME(type.getName(), List.of(typeId));
+				return type == null ? new NAMED_TYPELIST("unknown t" + typeId, Collections.emptyList())
+						: new NAMED_TYPELIST(type.getName(), List.of(typeId));
 			}
 		},
 		GROUP_ID {
 			@Override
-			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
+			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
 				int groupId = Integer.parseInt(filterparam);
 				Group group = groupService.byId(groupId).orElse(null);
-				return group == null ? new TYPES_NAME("unknown g" + groupId, Collections.emptyList())
-						: new TYPES_NAME(group.getName(),
+				return group == null ? new NAMED_TYPELIST("unknown g" + groupId, Collections.emptyList())
+						: new NAMED_TYPELIST(group.getName(),
 								typeService.byGroupId(groupId).stream().map(Type::getTypeId).distinct().sorted().toList());
 			}
 		},
 		TYPE_NAME {
 			@Override
-			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
+			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
 				List<Type> list = typeService.searchByName(filterparam);
 				if (list.isEmpty()) {
-					return new TYPES_NAME("unmatched type name " + filterparam, Collections.emptyList());
+					return new NAMED_TYPELIST("unmatched type name " + filterparam, Collections.emptyList());
 				}
 				String name = list.size() == 1 ? list.get(0).getName()
 						: "matched " + list.size() + " type names " + filterparam;
-				return new TYPES_NAME(name, list.stream().map(Type::getTypeId).sorted().toList());
+				return new NAMED_TYPELIST(name, list.stream().map(Type::getTypeId).sorted().toList());
 			}
 		},
 		GROUP_NAME {
 			@Override
-			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
+			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
 				List<Group> list = groupService.byName(filterparam);
 				if (list.isEmpty()) {
-					return new TYPES_NAME("unmatched group name " + filterparam, Collections.emptyList());
+					return new NAMED_TYPELIST("unmatched group name " + filterparam, Collections.emptyList());
 				}
 				String name = list.size() == 1 ? list.get(0).getName()
 						: "matched " + list.size() + " group names " + filterparam;
-				return new TYPES_NAME(name,
+				return new NAMED_TYPELIST(name,
 						list.stream().flatMap(g -> typeService.byGroupId(g.getGroupId()).stream()).map(Type::getTypeId)
 								.distinct().sorted().toList());
 			}
 		},
 		ERROR {
 			@Override
-			public TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService) {
-				return new TYPES_NAME("invalid selector", Collections.emptyList());
+			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
+				return new NAMED_TYPELIST("invalid selector", Collections.emptyList());
 			}
 		};
 
-		public abstract TYPES_NAME resolve(String filterparam, TypeService typeService, GroupService groupService);
+		public abstract NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService);
 
-		static TYPES_FILTER of(String filterBy) {
+		static TYPE_FILTER_STRATEGY of(String filterBy) {
 			return switch (Objects.requireNonNullElse(filterBy, "").toLowerCase()) {
 				case "gi", "gid", "groupid" -> GROUP_ID;
 				case "gn", "gname", "groupname" -> GROUP_NAME;
@@ -303,8 +303,8 @@ public class MerKillsRestController {
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> time,
 			@RequestParam Optional<String> period) {
-		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
-		TYPES_NAME resolved;
+		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
+		NAMED_TYPELIST resolved;
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {
@@ -326,18 +326,18 @@ public class MerKillsRestController {
 			@PathVariable String filterBy,
 			@PathVariable String filter,
 			HttpServletResponse response,
-			@RequestParam Optional<String> period,
+			@RequestParam Optional<String> aggregate,
 			@RequestParam Optional<String> accept) throws IOException {
-		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
-		TYPES_NAME resolved;
+		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
+		NAMED_TYPELIST resolved;
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {
 			response.sendError(400, "param " + filter + " should be a number");
 			return;
 		}
-		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
-		List<KillStats> stats = typeFilter == TYPES_FILTER.ERROR ? Collections.emptyList()
+		AGGREG_PERIOD ap = AGGREG_PERIOD.by(aggregate);
+		List<KillStats> stats = typeFilter == TYPE_FILTER_STRATEGY.ERROR ? Collections.emptyList()
 				: ap.stats(resolved.typeIds(), killService);
 		JFreeChart chart = drawChart(stats, "kills of " + resolved.name() + " by " + ap.name().toLowerCase(), ap);
 		RestControllerHelper.addResponseChart(response, chart, accept);
@@ -403,8 +403,8 @@ public class MerKillsRestController {
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> time,
 			@RequestParam Optional<String> period) {
-		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
-		TYPES_NAME resolved;
+		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
+		NAMED_TYPELIST resolved;
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {
@@ -434,8 +434,8 @@ public class MerKillsRestController {
 			HttpServletResponse response,
 			@RequestParam Optional<String> period,
 			@RequestParam Optional<String> accept) throws IOException {
-		TYPES_FILTER typeFilter = TYPES_FILTER.of(filterBy);
-		TYPES_NAME resolved;
+		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
+		NAMED_TYPELIST resolved;
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {

@@ -37,4 +37,8 @@ public class SolarSystemService {
 		return repo.findAll().stream().collect(Collectors.toMap(SolarSystem::getSolarSystemId, c -> c));
 	}
 
+	public List<SolarSystem> byIdIn(Iterable<Integer> solarSystemIds) {
+		return repo.findBySolarSystemIdIn(solarSystemIds);
+	}
+
 }
