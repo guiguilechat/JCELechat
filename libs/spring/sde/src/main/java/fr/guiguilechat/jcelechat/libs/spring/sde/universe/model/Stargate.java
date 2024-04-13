@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.universe.model;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
@@ -20,30 +21,38 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 public class Stargate {
 
+	@Id
+	private int stargateId;
+
 	@OneToOne
 	private Stargate destination;
 	@ManyToOne
 	private SolarSystem solarSystem;
-	@Id
-	private int stargateId;
+	@ManyToOne
+	private Type type;
 
 	private double position_x;
 	private double position_y;
 	private double position_z;
-	// TODO use types later
-	private int typeId;
 
-	public static Stargate from(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Stargate stargate,
-			int stargateId, SolarSystem solarSystem) {
+	public static Stargate from(int stargateId,
+			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Stargate stargate,
+			SolarSystem solarSystem, Type type) {
 		return Stargate.builder()
-				.solarSystem(solarSystem)
 				.stargateId(stargateId)
+				.build()
+				.update(stargate, solarSystem, type);
+	}
 
-				.position_x(stargate.position.x())
-				.position_y(stargate.position.y())
-				.position_z(stargate.position.z())
-				.typeId(stargate.typeID)
-		.build();
+	public Stargate update(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Stargate stargate,
+			SolarSystem solarSystem, Type type) {
+		this.solarSystem = solarSystem;
+		this.type = type;
+
+		position_x = stargate.position.x();
+		position_y = stargate.position.y();
+		position_z = stargate.position.z();
+		return this;
 	}
 
 }

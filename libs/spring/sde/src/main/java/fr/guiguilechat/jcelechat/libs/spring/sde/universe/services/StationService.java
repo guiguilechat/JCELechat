@@ -30,6 +30,10 @@ public class StationService implements SdeUpdateListener {
 		return repo.findById(stationId).orElse(null);
 	}
 
+	public Map<Integer, Station> allById() {
+		return repo.findAll().stream().collect(Collectors.toMap(Station::getStationId, c -> c));
+	}
+
 	@Cacheable("SDEStationsNameById")
 	public Map<Integer, String> namesById() {
 		return repo.findAll().stream().collect(Collectors.toMap(Station::getStationId, Station::getName));

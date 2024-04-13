@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.cache.annotation.Cacheable;
@@ -42,6 +43,10 @@ public class StargateService implements SdeUpdateListener {
 
 	public Stargate findById(int stargateId) {
 		return repo.findById(stargateId).orElse(null);
+	}
+
+	public Map<Integer, Stargate> allById() {
+		return repo.findAll().stream().collect(Collectors.toMap(Stargate::getStargateId, c -> c));
 	}
 
 	public static record WarpJumpDist(int start, int end, double distance) implements Serializable {

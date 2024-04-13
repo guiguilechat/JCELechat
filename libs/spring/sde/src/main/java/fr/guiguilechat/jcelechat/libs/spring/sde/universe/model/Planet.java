@@ -37,21 +37,31 @@ public class Planet {
 
 	private double radius;
 
-	public static Planet from(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Planet planet,
+	public static Planet from(
 			long planetId,
+			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Planet planet,
 			String planetName,
 			SolarSystem solarSystem,
 			Type type) {
 		return builder()
 				.planetId(planetId)
-				.solarSystem(solarSystem)
-				.type(type)
-				.name(planetName)
-				.posX(planet.position.x())
-				.posY(planet.position.y())
-				.posZ(planet.position.z())
-				.radius(planet.radius)
-				.build();
+				.build()
+				.update(planet, planetName, solarSystem, type);
+	}
+
+	public Planet update(
+			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Planet planet,
+			String planetName,
+			SolarSystem solarSystem,
+			Type type) {
+		this.solarSystem = solarSystem;
+		this.type = type;
+		name = planetName;
+		posX = planet.position.x();
+		posY = planet.position.y();
+		posZ = planet.position.z();
+		radius = planet.radius;
+		return this;
 	}
 
 }

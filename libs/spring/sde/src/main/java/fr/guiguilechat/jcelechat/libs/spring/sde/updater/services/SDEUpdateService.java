@@ -203,7 +203,7 @@ public class SDEUpdateService {
 			int solsysId) {
 	}
 
-	public static record PlanetSystemData(long planetId, Planet planet, int solarSystemId) {
+	public static record PlanetSystemData(Planet planet, int solarSystemId) {
 	}
 
 	/** store the SDE lines as required to build them into memory */
@@ -368,7 +368,7 @@ public class SDEUpdateService {
 			}
 			for (Entry<Long, Planet> ep : ssd.data().planets.entrySet()) {
 				Planet p = ep.getValue();
-				planets.put(ep.getKey(), new PlanetSystemData(ep.getKey(), p, ssd.data.solarSystemID));
+				planets.put(ep.getKey(), new PlanetSystemData(p, ssd.data.solarSystemID));
 				for (Entry<Integer, NPCStation> e : p.npcStations.entrySet()) {
 					stations.add(new StationData(e.getValue(), e.getKey(), ssd.data.solarSystemID));
 				}
@@ -417,10 +417,6 @@ public class SDEUpdateService {
 		//
 		// wipe all that will be reinserted
 		//
-
-		stationService.clear();
-		planetService.clear();
-		stargateService.clear();
 
 		schemProductService.clear();
 		schemMaterialService.clear();
@@ -568,33 +564,13 @@ public class SDEUpdateService {
 
 		Map<Integer, SolarSystem> solarSystemsById = updateSolarSystems(context, constellationsByName);
 
-		planetService.saveAll(context.planets.values().stream()
-				.map(psd -> fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet.from(psd.planet(),
-						psd.planetId(),
-						context.invNames.get(psd.planetId()),
-						solarSystemsById.get(psd.solarSystemId),
-						typesById.get(psd.planet().typeID)))
-				.toList());
+		updatePlanets(context, solarSystemsById, typesById);
 
-		Map<Integer, Stargate> sgById = stargateService.saveAll(context.stargates.stream()
-				.map(sd -> Stargate.from(sd.data(), sd.stargateId(), solarSystemsById.get(sd.solsysId()))).toList())
-				.stream().collect(Collectors.toMap(Stargate::getStargateId, s -> s));
-		for (StargateData sgd : context.stargates) {
-			int id1 = sgd.stargateId();
-			int id2 = sgd.data().destination;
-			if (id1 < id2) {
-				Stargate sg1 = sgById.get(id1);
-				Stargate sg2 = sgById.get(id2);
-				sg1.setDestination(sg2);
-				sg2.setDestination(sg1);
-			}
-		}
-		stargateService.saveAll(sgById.values());
+		updateStargates(context, solarSystemsById, typesById);
 
-		stationService.saveAll(context.stations.stream()
-				.map(sd -> Station.from(sd.data(), sd.stationId(), solarSystemsById.get(sd.solsysId()),
-						context.invNames.get((long) sd.stationId())))
-				.toList());
+		updateStations(context, solarSystemsById, typesById);
+
+		// listeners
 
 		updateListeners.stream().flatMap(l -> l.listSDECaches().stream())
 				.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
@@ -756,6 +732,95 @@ public class SDEUpdateService {
 				solarsystemService.saveAll(created).stream(),
 				solarsystemService.saveAll(alreadyPresents.values()).stream())
 				.collect(Collectors.toMap(SolarSystem::getSolarSystemId, c -> c));
+	}
+
+	private Map<Long, fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet> updatePlanets(
+			UpdateContext context, Map<Integer, SolarSystem> solarSystemsById, Map<Integer, Type> typesById) {
+		Map<Long, fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet> alreadyPresents = planetService
+				.allById();
+		List<fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet> created = new ArrayList<>();
+		for (Entry<Long, PlanetSystemData> entry : context.planets.entrySet()) {
+			long id = entry.getKey();
+			PlanetSystemData data = entry.getValue();
+			fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet present = alreadyPresents.get(id);
+			SolarSystem parent = solarSystemsById.get(entry.getValue().solarSystemId);
+			String name = context.invNames.get(id);
+			Type type = typesById.get((int) id);
+			if (present == null) {
+				created
+						.add(fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet.from(id, data.planet(), name, parent,
+								type));
+			} else {
+				present.update(data.planet(), name, parent, type);
+			}
+		}
+		return Stream.concat(
+				planetService.saveAll(created).stream(),
+				planetService.saveAll(alreadyPresents.values()).stream())
+				.collect(
+						Collectors.toMap(fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet::getPlanetId, c -> c));
+	}
+
+	private Map<Integer, Station> updateStations(
+			UpdateContext context, Map<Integer, SolarSystem> solarSystemsById, Map<Integer, Type> typesById) {
+		Map<Integer, Station> alreadyPresents = stationService
+				.allById();
+		List<Station> created = new ArrayList<>();
+		for (StationData data : context.stations) {
+			int id = data.stationId;
+			Station present = alreadyPresents.get(id);
+			SolarSystem parent = solarSystemsById.get(data.solsysId);
+			Type type = typesById.get(data.data.typeID);
+			String name = context.invNames.get((long) id);
+			if (present == null) {
+				created
+						.add(Station.from(id, data.data, name, parent, type));
+			} else {
+				present.update(data.data, name, parent, type);
+			}
+		}
+		return Stream.concat(
+				stationService.saveAll(created).stream(),
+				stationService.saveAll(alreadyPresents.values()).stream())
+				.collect(
+						Collectors.toMap(Station::getStationId, c -> c));
+	}
+
+	private Map<Integer, Stargate> updateStargates(UpdateContext context, Map<Integer, SolarSystem> solarSystemsById,
+			Map<Integer, Type> typesById) {
+		Map<Integer, Stargate> alreadyPresents = stargateService
+				.allById();
+		List<Stargate> created = new ArrayList<>();
+		for (StargateData data : context.stargates) {
+			int id = data.stargateId;
+			Stargate present = alreadyPresents.get(id);
+			SolarSystem parent = solarSystemsById.get(data.solsysId);
+			Type type = typesById.get(data.data.typeID);
+			if (present == null) {
+				created
+						.add(Stargate.from(id, data.data, parent, type));
+			} else {
+				present.update(data.data, parent, type);
+			}
+		}
+		Map<Integer, Stargate> ret = Stream.concat(
+				stargateService.saveAll(created).stream(),
+				stargateService.saveAll(alreadyPresents.values()).stream())
+				.collect(
+						Collectors.toMap(Stargate::getStargateId, c -> c));
+
+		for (StargateData sgd : context.stargates) {
+			int id1 = sgd.stargateId();
+			int id2 = sgd.data().destination;
+			if (id1 < id2) {
+				Stargate sg1 = ret.get(id1);
+				Stargate sg2 = ret.get(id2);
+				sg1.setDestination(sg2);
+				sg2.setDestination(sg1);
+			}
+		}
+		stargateService.saveAll(ret.values());
+		return ret;
 	}
 
 }
