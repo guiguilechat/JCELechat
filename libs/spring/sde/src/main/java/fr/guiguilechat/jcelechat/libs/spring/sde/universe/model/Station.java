@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.universe.model;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.NPCStation;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -20,10 +21,12 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 public class Station {
 
-	@ManyToOne
-	private SolarSystem solarSystem;
 	@Id
 	private int stationId;
+	@ManyToOne
+	private SolarSystem solarSystem;
+	@ManyToOne
+	private Type type;
 
 	private int graphicId;
 	private boolean isConquerable;
@@ -36,29 +39,33 @@ public class Station {
 	private double reprocessingEfficiency;
 	private int reprocessingHangarFlag;
 	private double reprocessingStationsTake;
-	private int typeId;
 	private boolean useOperationName;
 
-	public static Station from(NPCStation station,
-			int stationId, SolarSystem solarSystem, String name) {
+	public static Station from(
+			int stationId,
+			NPCStation station, String name, SolarSystem solarSystem, Type type) {
 		return Station.builder()
-				.solarSystem(solarSystem)
 				.stationId(stationId)
+				.build()
+				.update(station, name, solarSystem, type);
+	}
 
-				.graphicId(station.graphicID)
-				.isConquerable(station.isConquerable)
-				.name(name)
-				.operationId(station.operationID)
-				.ownerId(station.ownerID)
-				.position_x(station.position.x())
-				.position_y(station.position.y())
-				.position_z(station.position.z())
-				.reprocessingEfficiency(station.reprocessingEfficiency)
-				.reprocessingHangarFlag(station.reprocessingHangarFlag)
-				.reprocessingStationsTake(station.reprocessingStationsTake)
-				.typeId(station.typeID)
-				.useOperationName(station.useOperationName)
-			.build();
+	public Station update(NPCStation station, String name, SolarSystem solarSystem, Type type) {
+		this.name = name;
+		this.solarSystem = solarSystem;
+		this.type = type;
+		graphicId = station.graphicID;
+		isConquerable = station.isConquerable;
+		operationId = station.operationID;
+		ownerId = station.ownerID;
+		position_x = station.position.x();
+		position_y = station.position.y();
+		position_z = station.position.z();
+		reprocessingEfficiency = station.reprocessingEfficiency;
+		reprocessingHangarFlag = station.reprocessingHangarFlag;
+		reprocessingStationsTake = station.reprocessingStationsTake;
+		useOperationName = station.useOperationName;
+		return this;
 	}
 
 }

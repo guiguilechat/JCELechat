@@ -10,15 +10,13 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionContract;
 import fr.guiguilechat.jcelechat.libs.spring.market.repositories.RegionContractRepository;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionContractUpdateService.ContractItemsUpdateListener;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionContractUpdateService.ContractUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-public class RegionContractService implements ContractUpdateListener, ContractItemsUpdateListener {
+public class RegionContractService {
 
 	final private RegionContractRepository repo;
 

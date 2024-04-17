@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
 import java.net.URI;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map.Entry;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
@@ -88,8 +89,7 @@ public class NpcHtmlController {
 				eval.getMaterialsByTypeId().entrySet().stream()
 						.map(e -> dogmaHtmlController.linkedMaterial(e.getKey(), e.getValue()))
 						.sorted(Comparator.comparing(lm -> lm.type().getName()))
-						.toList()
-		);
+						.toList());
 	}
 
 	@GetMapping("/corporation/{corporationId}")
@@ -147,16 +147,19 @@ public class NpcHtmlController {
 		return new LinkedCorporationInfo(uri(corp).toString(), corp.nameOrId(), corp.getOffers().size());
 	}
 
+	public LinkedCorporationInfo linkedCorporationInfo(Entry<LPStoreCorporation, Integer> entry) {
+		return new LinkedCorporationInfo(uri(entry.getKey()).toString(), entry.getKey().nameOrId(), entry.getValue());
+	}
+
 	@GetMapping("/corporations")
 	public String corporationsIndex(Model model) {
 		model.addAttribute("corporations",
-				lpStoreCorporationService.listActive(true).stream()
+				lpStoreCorporationService.countOffers().entrySet().stream()
 						.map(this::linkedCorporationInfo)
 						.filter(ci -> ci.nbOffers() > 0)
 						.sorted(Comparator.comparing(LinkedCorporationInfo::name))
 						.toList());
 		return "npc/corporations";
 	}
-
 
 }

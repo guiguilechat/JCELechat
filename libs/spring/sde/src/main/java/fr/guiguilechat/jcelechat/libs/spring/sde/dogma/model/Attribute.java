@@ -42,20 +42,25 @@ public class Attribute {
 	public static Attribute from(int id, EdogmaAttributes data) {
 		return builder()
 				.attributeId(id)
-				.categoryID(data.categoryID)
-				.chargeRechargeTimeID(data.chargeRechargeTimeID)
-				.dataType(data.dataType)
-				.defaultValue(data.defaultValue)
-				.description(data.description)
-				.displayWhenZero(data.displayWhenZero)
-				.highIsGood(data.highIsGood)
-				.iconID(data.iconID)
-				.maxAttributeID(data.maxAttributeID)
-				.name(data.name)
-				.published(data.published)
-				.stackable(data.stackable)
-				.unitID(data.unitID)
-				.build();
+				.build()
+				.update(data);
+	}
+
+	public Attribute update(EdogmaAttributes data) {
+		categoryID = data.categoryID;
+		chargeRechargeTimeID = data.chargeRechargeTimeID;
+		dataType = data.dataType;
+		defaultValue = data.defaultValue;
+		description = data.description;
+		displayWhenZero = data.displayWhenZero;
+		highIsGood = data.highIsGood;
+		iconID = data.iconID;
+		maxAttributeID = data.maxAttributeID;
+		name = data.name;
+		published = data.published;
+		stackable = data.stackable;
+		unitID = data.unitID;
+		return this;
 	}
 
 }

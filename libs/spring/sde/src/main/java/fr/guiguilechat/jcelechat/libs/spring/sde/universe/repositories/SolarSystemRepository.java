@@ -11,6 +11,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
 
 public interface SolarSystemRepository extends JpaRepository<SolarSystem, Integer> {
 
+	public List<SolarSystem> findBySolarSystemIdIn(Iterable<Integer> solarSystemIds);
+
 	@Query("""
 select
 	sg.destination.solarSystem

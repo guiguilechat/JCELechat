@@ -1,8 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
@@ -30,6 +32,10 @@ public class TypeService {
 
 	public Optional<Type> byId(int typeId) {
 		return repo.findById(typeId);
+	}
+
+	public Map<Integer, Type> allById() {
+		return repo.findAll().stream().collect(Collectors.toMap(Type::getTypeId, c -> c));
 	}
 
 	public List<Type> byIdIn(Iterable<Integer> typeIds) {

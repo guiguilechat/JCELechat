@@ -3,6 +3,8 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
 import java.net.URI;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 
 import org.springframework.context.annotation.Lazy;
@@ -16,6 +18,7 @@ import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.market.services.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationOfferService;
@@ -57,6 +60,8 @@ public class DogmaHtmlController {
 
 	@Lazy
 	private final MarketHtmlController marketHtmlController;
+
+	private final MarketOrderService marketOrderService;
 
 	@Lazy
 	private final NpcHtmlController npcHtmlController;
@@ -151,6 +156,21 @@ public class DogmaHtmlController {
 				material.getQuantity());
 	}
 
+	public static record RegionBestPrice(String regionName, double price) {
+
+		public String getFormatedPrice() {
+			return FormatTools.formatPrice(price);
+		}
+
+		public static RegionBestPrice of(int regionId, double value, Map<Integer, String> regionNamesById) {
+			return new RegionBestPrice(regionNamesById.get(regionId), value);
+		}
+
+		public static RegionBestPrice of(Entry<Integer, Double> entry, Map<Integer, String> regionNamesById) {
+			return of(entry.getKey(), entry.getValue(), regionNamesById);
+		}
+	}
+
 	@GetMapping("/type/{typeFiltering}/{typeFilter}")
 	public String getType(Model model, @PathVariable String typeFiltering,
 			@PathVariable String typeFilter) {
@@ -240,6 +260,20 @@ public class DogmaHtmlController {
 			if (sos != null && !sos.isEmpty()) {
 				model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getPrice()));
 			}
+
+			Map<Integer, String> regionNamesById = regionService.namesById();
+			model.addAttribute("regionSell",
+			marketOrderService.lowestSellByRegion(t.getTypeId())
+					.entrySet().stream()
+					.map(e -> RegionBestPrice.of(e, regionNamesById))
+							.sorted(Comparator.comparing(RegionBestPrice::price))
+							.toList());
+			model.addAttribute("regionBuy",
+					marketOrderService.highestBuyByRegion(t.getTypeId())
+							.entrySet().stream()
+							.map(e -> RegionBestPrice.of(e, regionNamesById))
+							.sorted(Comparator.comparing(rp -> -rp.price()))
+							.toList());
 		} else {
 			model.addAttribute("name", "unknown type " + typeFilter);
 			model.addAttribute("types", types.stream().map(this::linkedType).toList());

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
@@ -29,6 +31,10 @@ public class AttributeService {
 
 	public Optional<Attribute> byId(int id) {
 		return repo.findById(id);
+	}
+
+	public Map<Integer, Attribute> allById() {
+		return repo.findAll().stream().collect(Collectors.toMap(Attribute::getAttributeId, c -> c));
 	}
 
 }

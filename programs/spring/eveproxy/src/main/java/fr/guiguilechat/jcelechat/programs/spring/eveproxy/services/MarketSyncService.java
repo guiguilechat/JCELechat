@@ -5,7 +5,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
@@ -16,6 +15,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateServi
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
+/** when the SDE is updated, add all the regions to be observed */
 @Slf4j
 @Service
 @RequiredArgsConstructor
@@ -24,8 +24,6 @@ public class MarketSyncService implements SdeUpdateListener {
 	final private RegionService rService;
 
 	final private ObservedRegionService orService;
-
-	final private KillDataService killDataService;
 
 	@Value("${eveproxy.market.regionsskip:false}")
 	private boolean skipRegionSync;
@@ -44,16 +42,6 @@ public class MarketSyncService implements SdeUpdateListener {
 		for (Region r : toObserve) {
 			orService.activateMarket(r.getRegionId());
 			orService.activateContracts(r.getRegionId());
-		}
-	}
-
-	@Value("${eveproxy.sync.killskip:false}")
-	private boolean skipKillSync;
-
-	@Scheduled(fixedRateString = "${eveproxy.sync.killperiod:30000}", initialDelayString = "${eveproxy.sync.killdelay:30000}")
-	public void updateKillData() {
-		if (!skipKillSync) {
-			killDataService.createMissing();
 		}
 	}
 

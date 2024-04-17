@@ -112,36 +112,43 @@ public class SolarSystem {
 	public static SolarSystem from(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem source,
 			String name, Constellation constel) {
 		return SolarSystem.builder()
-				.constellation(constel)
-				.name(name)
 				.solarSystemId(source.solarSystemID)
+				.build()
+				.update(source, name, constel);
+	}
 
-				.border(source.border)
-				.center_x(source.center.x())
-				.center_y(source.center.y())
-				.center_z(source.center.z())
-				.corridor(source.corridor)
-				.descriptionId(source.descriptionID)
-				.factionId(source.factionID)
-				.fringe(source.fringe)
-				.hub(source.hub)
-				.international(source.international)
-				.max_x(source.max.x())
-				.max_y(source.max.y())
-				.max_z(source.max.z())
-				.min_x(source.min.x())
-				.min_y(source.min.y())
-				.min_z(source.min.z())
-				.luminosity(source.luminosity)
-				.radius(source.radius)
-				.regional(source.regional)
-				.security(source.security)
-				.securityClass(source.securityClass)
-				.solarSystemNameId(source.solarSystemNameID)
-				.sunTypeID(source.sunTypeID)
-				.visualEffect(source.visualEffect)
-				.wormholeClassId(source.wormholeClassID)
-		.build();
+	public SolarSystem update(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem source,
+			String name, Constellation constel) {
+
+		constellation = constel;
+		this.name = name;
+
+		border = source.border;
+		center_x = source.center.x();
+		center_y = source.center.y();
+		center_z = source.center.z();
+		corridor = source.corridor;
+		descriptionId = source.descriptionID;
+		factionId = source.factionID;
+		fringe = source.fringe;
+		hub = source.hub;
+		international = source.international;
+		max_x = source.max.x();
+		max_y = source.max.y();
+		max_z = source.max.z();
+		min_x = source.min.x();
+		min_y = source.min.y();
+		min_z = source.min.z();
+		luminosity = source.luminosity;
+		radius = source.radius;
+		regional = source.regional;
+		security = source.security;
+		securityClass = source.securityClass;
+		solarSystemNameId = source.solarSystemNameID;
+		sunTypeID = source.sunTypeID;
+		visualEffect = source.visualEffect;
+		wormholeClassId = source.wormholeClassID;
+		return this;
 	}
 
 }

@@ -39,6 +39,10 @@ public class RegionService implements SdeUpdateListener {
 		return repo.findByNameEqualsIgnoreCase(name);
 	}
 
+	public Map<Integer, Region> allById() {
+		return repo.findAll().stream().collect(Collectors.toMap(Region::getRegionId, c -> c));
+	}
+
 	@Cacheable("SDERegionsNameById")
 	public Map<Integer, String> namesById() {
 		return repo.findAll().stream().collect(Collectors.toMap(Region::getRegionId, Region::getName));

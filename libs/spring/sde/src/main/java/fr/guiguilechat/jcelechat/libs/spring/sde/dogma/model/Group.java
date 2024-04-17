@@ -26,11 +26,11 @@ public class Group implements Serializable {
 
 	@Id
 	private int groupId;
+	@ManyToOne
+	private Category category;
 
 	private boolean anchorable;
 	private boolean anchored;
-	@ManyToOne
-	private Category category;
 	private boolean fittableNonSingleton;
 	private int iconID;
 	private String name;
@@ -40,15 +40,20 @@ public class Group implements Serializable {
 	public static Group from(int id, EgroupIDs data, Category cat) {
 		return Group.builder()
 				.groupId(id)
-				.anchorable(data.anchorable)
-				.anchored(data.anchored)
-				.category(cat)
-				.fittableNonSingleton(data.fittableNonSingleton)
-				.iconID(data.iconID)
-				.name(data.enName())
-				.published(data.published)
-				.useBasePrice(data.useBasePrice)
-				.build();
+				.build()
+				.update(data, cat);
+	}
+
+	public Group update(EgroupIDs data, Category cat) {
+		category = cat;
+		anchorable = data.anchorable;
+		anchored = data.anchored;
+		fittableNonSingleton = data.fittableNonSingleton;
+		iconID = data.iconID;
+		name = data.enName();
+		published = data.published;
+		useBasePrice = data.useBasePrice;
+		return this;
 	}
 
 }

@@ -46,23 +46,30 @@ public class Constellation {
 			String name, Region region) {
 		return Constellation.builder()
 				.constellationId(source.constellationID)
-				.name(name)
-				.region(region)
+				.build()
+				.update(source, name, region);
+	}
 
-				.center_x(source.center.x())
-				.center_y(source.center.y())
-				.center_z(source.center.z())
-				.factionId(source.factionID)
-				.max_x(source.max.x())
-				.max_y(source.max.y())
-				.max_z(source.max.z())
-				.min_x(source.min.x())
-				.min_y(source.min.y())
-				.min_z(source.min.z())
-				.nameId(source.nameID)
-				.radius(source.radius)
-				.wormholeClassId(source.wormholeClassID)
-			.build();
+	public Constellation update(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation source,
+			String name, Region region) {
+
+		this.name = name;
+		this.region = region;
+
+		center_x = source.center.x();
+		center_y = source.center.y();
+		center_z = source.center.z();
+		factionId = source.factionID;
+		max_x = source.max.x();
+		max_y = source.max.y();
+		max_z = source.max.z();
+		min_x = source.min.x();
+		min_y = source.min.y();
+		min_z = source.min.z();
+		nameId = source.nameID;
+		radius = source.radius;
+		wormholeClassId = source.wormholeClassID;
+		return this;
 	}
 
 }
