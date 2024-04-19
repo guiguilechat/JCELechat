@@ -21,6 +21,12 @@
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
+		<!--		own dependencies-->
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>connect</artifactId>
+		</dependency>
+		<!--		other dependencies-->
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
@@ -46,10 +52,6 @@
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import fr.guiguilechat.jcelechat.libs.spring.connect.services.UserConnectionService;
 import lombok.RequiredArgsConstructor;
 
 @Controller
@@ -15,8 +16,11 @@ public class UserStatusHtmlController {
 
 	private final OAuth2AuthorizedClientService authorizedClientService;
 
+	private final UserConnectionService userConnectionService;
+
 	@GetMapping("/")
 	public String getUser() {
+		System.err.println("" + userConnectionService.getClass());
 		return "user";
 	}
 

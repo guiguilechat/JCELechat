@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.mevetic.services;
+package fr.guiguilechat.jcelechat.libs.spring.connect.services;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
