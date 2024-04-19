@@ -9,5 +9,5 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan("fr.guiguilechat.jcelechat.libs.spring.prices")
 @EnableJpaRepositories("fr.guiguilechat.jcelechat.libs.spring.prices")
 @EntityScan("fr.guiguilechat.jcelechat.libs.spring.prices")
-public class PricesReference {
+public class PricesAutoConfig {
 }
