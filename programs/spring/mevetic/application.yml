@@ -23,18 +23,9 @@ spring:
    security:
       oauth2:
          client:
-            provider:
-               ccPlz:
-                  authorizationGrantType: authorization_code
-                  authorizationUri: https://login.eveonline.com/v2/oauth/authorize
-                  issuerUri: https://login.eveonline.com
-                  jwkSetUri: https://login.eveonline.com/oauth/jwks 
-                  tokenUri: https://login.eveonline.com/v2/oauth/token
-                  userInfoUri: https://login.eveonline.com/oauth/verify
-                  userNameAttribute: CharacterName
             registration:
                eve:
-                  provider: ccPlz
+                  provider: ccplz
                   scope: esi-characters.read_contacts.v1
 # you need to add in eclipse application "VM arguments" : 
 # -Dspring.security.oauth2..client.registration.eve.clientId=[app id]]

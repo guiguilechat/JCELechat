@@ -21,6 +21,7 @@ public class UserStatusHtmlController {
 	@GetMapping("/")
 	public String getUser() {
 		System.err.println("" + userConnectionService.getClass());
+// System.err.println("" + authorizedClientService.);
 		return "user";
 	}
 

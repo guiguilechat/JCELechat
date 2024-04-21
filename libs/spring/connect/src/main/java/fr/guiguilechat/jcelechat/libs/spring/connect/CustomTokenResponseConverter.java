@@ -21,6 +21,7 @@ public class CustomTokenResponseConverter implements
 		String refreshToken = (String) tokenResponseParameters.get(OAuth2ParameterNames.REFRESH_TOKEN);
 		Object expiresInObj = tokenResponseParameters.get(OAuth2ParameterNames.EXPIRES_IN);
 		long expiresIn = ((Number) expiresInObj).longValue();
+		System.err.println("got refresh token " + refreshToken);
 
 		Set<String> scopes = Collections.emptySet();
 		if (tokenResponseParameters.containsKey(OAuth2ParameterNames.SCOPE)) {
