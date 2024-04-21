@@ -9,7 +9,7 @@
 </head>
 <body>
 </body>
-    <header th:insert="fragments/general.html :: header"> </header>
+    <header th:insert="~{fragments/general.html :: header}"> </header>
 	<ul>
 		<li><a th:href="@{/swagger-ui/index.html}">API Swagger</a></li>
 		<li><a th:href="@{/html/npc/corporations}">LP corporations</a></li>
