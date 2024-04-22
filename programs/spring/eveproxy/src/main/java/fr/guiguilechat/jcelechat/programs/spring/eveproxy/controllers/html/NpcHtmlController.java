@@ -118,7 +118,7 @@ public class NpcHtmlController {
 		model.addAttribute("offers",
 				offerValueService.value(offers, params.getLp(), params.getMaterialSourcing(), params.getProductValuator(),
 						params.getBrpct(),
-						params.getTaxpct(), params.getMarginhour(), params.getMargin(), params.getBpcost(), params.getLocation())
+						params.getTaxpct(), params.getMargin(), params.getMarginPerHour(), params.getBpcost(), params.getLocation())
 						.stream()
 						.sorted(Comparator.comparing(LPOfferEval::getIskplp).reversed())
 						.map(this::linkedLPOfferEval)

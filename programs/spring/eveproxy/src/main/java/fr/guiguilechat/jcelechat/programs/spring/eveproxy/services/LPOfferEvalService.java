@@ -49,7 +49,7 @@ public class LPOfferEvalService {
 		private long location = RegionLineService.JITAIV_ID;
 		private int lp = 100000;
 		private double margin = 5.0;
-		private double marginhour = 0.5;
+		private double marginPerHour = 0.5;
 		private MaterialSourcing materialSourcing = MaterialSourcing.BUY_SO_MASS;
 		private ProductValuator productValuator = ProductValuator.SELL_BO_MASS;
 		private double taxpct = 3.6;
@@ -172,6 +172,7 @@ public class LPOfferEvalService {
 				productIncome, requiredMats, materialCost, marginCost, tediousCost);
 	}
 
+	/** give a value as cost, gain, isk/lp etc. to LP offers */
 	@Transactional
 	public List<LPOfferEval> value(List<CorporationOffer> offers, int maxLpAmount, MaterialSourcing materialSourcing,
 			ProductValuator productValuator,
