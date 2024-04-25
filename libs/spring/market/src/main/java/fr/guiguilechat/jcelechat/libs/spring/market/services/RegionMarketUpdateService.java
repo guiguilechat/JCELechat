@@ -52,7 +52,7 @@ public class RegionMarketUpdateService {
 			return List.of();
 		}
 
-		public default void onMarketUpdate(ObservedRegion region) {
+		public default void onMarketUpdate(ObservedRegion region, List<RegionLine> newLines) {
 
 		}
 
@@ -95,7 +95,7 @@ public class RegionMarketUpdateService {
 
 			updateMarketListeners.stream().flatMap(l -> l.listMarketCaches(region.getRegionId()).stream())
 					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-			updateMarketListeners.stream().forEach(l -> l.onMarketUpdate(region));
+			updateMarketListeners.stream().forEach(l -> l.onMarketUpdate(region, newLines));
 		}
 
 		return CompletableFuture.completedFuture(null);
