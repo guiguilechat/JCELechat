@@ -17,11 +17,11 @@ public class CustomTokenResponseConverter implements
 
 	@Override
 	public OAuth2AccessTokenResponse convert(Map<String, Object> tokenResponseParameters) {
+		System.err.println("received parameters " + tokenResponseParameters);
 		String accessToken = (String) tokenResponseParameters.get(OAuth2ParameterNames.ACCESS_TOKEN);
 		String refreshToken = (String) tokenResponseParameters.get(OAuth2ParameterNames.REFRESH_TOKEN);
 		Object expiresInObj = tokenResponseParameters.get(OAuth2ParameterNames.EXPIRES_IN);
 		long expiresIn = ((Number) expiresInObj).longValue();
-		System.err.println("got refresh token " + refreshToken);
 
 		Set<String> scopes = Collections.emptySet();
 		if (tokenResponseParameters.containsKey(OAuth2ParameterNames.SCOPE)) {

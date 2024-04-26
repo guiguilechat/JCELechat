@@ -344,6 +344,7 @@ public class ESIAccountHelper {
 			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, params, type),
 					new TypeReference<Map<String, String>>() {
 			});
+			System.err.println("auth response is " + map);
 			String refreshtoken = map.get("refresh_token");
 			if (refreshtoken == null) {
 				System.err.println("received " + map);

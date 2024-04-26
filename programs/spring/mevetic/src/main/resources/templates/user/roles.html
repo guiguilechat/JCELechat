@@ -1,0 +1,16 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title th:text="${'roles ' + charName}">user page</title>
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+	Roles of <span th:text="${charName}" />
+	<ul>
+		<li th:each="role : ${roles}" th:text="${role}"></li>
+	</ul>
+</body>
+</html>

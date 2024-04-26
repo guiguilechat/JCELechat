@@ -1,13 +1,16 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title>user page</title>
+<title th:text="${'mevetic ' + charName}">user page</title>
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
 <script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}" ></script>
 <script th:src="@{/webjars/jquery/jquery.min.js}" ></script>
 </head>
 <body>
-	This is the user page.
+	Hello <span th:text="${charName}" /><br />
+	<ul>
+		<li><a href="roles">roles</a></li>
+	</ul>
 </body>
 </html>

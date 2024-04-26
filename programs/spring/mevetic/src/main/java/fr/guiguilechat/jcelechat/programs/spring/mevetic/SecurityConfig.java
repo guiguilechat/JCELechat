@@ -16,6 +16,7 @@ public class SecurityConfig {
 		http
 				.authorizeHttpRequests(authorize -> authorize
 						.requestMatchers("/", "/index").permitAll()
+						.requestMatchers("/h2-console/**").permitAll()
 						.anyRequest().authenticated())
 				.oauth2Login(
 						Customizer.withDefaults())
