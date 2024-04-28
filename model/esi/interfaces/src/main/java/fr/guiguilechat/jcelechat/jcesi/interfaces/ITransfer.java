@@ -17,7 +17,7 @@ public interface ITransfer {
 
 	public String flatten(Object o);
 
-	public<T> T convert(String line, Class<? extends T> clazz);
+	public<T> T convertJson(String line, Class<? extends T> clazz);
 
 	public Requested<Void> requestDel(String url, Map<String, String> properties);
 

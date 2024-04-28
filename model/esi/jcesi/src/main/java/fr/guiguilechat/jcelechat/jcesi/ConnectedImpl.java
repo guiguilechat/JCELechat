@@ -1,19 +1,13 @@
 package fr.guiguilechat.jcelechat.jcesi;
 
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.InputStreamReader;
 import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
-import java.net.URL;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.concurrent.Executors;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
@@ -26,8 +20,6 @@ import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
-
-import javax.net.ssl.HttpsURLConnection;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -47,6 +39,13 @@ import javafx.beans.InvalidationListener;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;
 import javafx.collections.ObservableSet;
+import lombok.Getter;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Request.Builder;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 public abstract class ConnectedImpl implements ITransfer {
 
@@ -56,20 +55,25 @@ public abstract class ConnectedImpl implements ITransfer {
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
 
+	@Getter(lazy = true)
+	private final OkHttpClient client = new OkHttpClient.Builder()
+			.callTimeout(4, TimeUnit.SECONDS)
+			.build();
+
 	/**
 	 * request an url
 	 *
-	 * @param url           the url to request
-	 * @param method        the type of method
-	 * @param properties    the properties to send in the header
-	 * @param transmit      the data to send through the connection
-	 * @param expectedClass the class to convert the OK result to
-	 * @param retries       optional number of retries on server error.
+	 * @param url            the url to request
+	 * @param method         the type of method
+	 * @param properties     the properties to send in the header
+	 * @param transmitAsJson the data to send through the connection
+	 * @param expectedClass  the class to convert the OK result to
+	 * @param retries        optional number of retries on server error.
 	 * @return a new response holding the result of the request, or null if
 	 *           connection issue
 	 */
 	protected <T> Requested<T> request(String url, String method, Map<String, String> properties,
-			Map<String, Object> transmit, Class<T> expectedClass, int... retries) {
+			Map<String, Object> transmitAsJson, Class<T> expectedClass, int... retries) {
 		int maxRetry = 1;
 		if (retries != null && retries.length != 0) {
 			maxRetry = Math.max(0, retries[0]);
@@ -78,41 +82,36 @@ public abstract class ConnectedImpl implements ITransfer {
 			properties = new HashMap<>();
 		}
 		addConnection(properties);
-		csvLogger.debug(method + "\t" + url + "\t" + properties + "\t" + transmit);
+		csvLogger.debug(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson);
+
 		boolean isServerError = false;
+		Builder builder = new Request.Builder()
+				.url(url);
+		properties.entrySet().forEach(e -> builder.addHeader(e.getKey(), e.getValue()));
+		String transmitStr = null;
+		if (transmitAsJson != null && !transmitAsJson.isEmpty()) {
+			transmitStr = mapToJSON(transmitAsJson);
+			RequestBody rb = RequestBody.create(transmitStr, MediaType.parse("application/json; charset=utf-8"));
+			builder.setBody$okhttp(rb);
+		}
+		builder.setMethod$okhttp(method);
+		Request req = builder.build();
 		try {
-			URL target = new URL(url);
-			HttpsURLConnection con = null;
-			String transmitStr = null;
-			if (transmit != null && !transmit.isEmpty()) {
-				transmitStr = mapToJSON(transmit);
-			}
+			Response response = null;
+
 			// retry to send the data for as many retry, as long as the error is
 			// server error type
 			do {
-				con = (HttpsURLConnection) target.openConnection();
-				con.setRequestMethod(method);
-				con.setConnectTimeout(2000);
-				for (Entry<String, String> e : properties.entrySet()) {
-					con.setRequestProperty(e.getKey(), e.getValue());
-				}
-				if (transmitStr != null) {
-					con.setRequestProperty("Content-Type", "application/json");
-					con.setDoOutput(true);
-					DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-					wr.write(transmitStr.getBytes(StandardCharsets.UTF_8));
-					wr.flush();
-					wr.close();
-				}
-				isServerError = con.getResponseCode() / 100 == 5;
+				response = getClient().newCall(req).execute();
+				isServerError = response.code() / 100 == 5;
 				if (isServerError) {
-					csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode()
-							+ "\t" + con.getHeaderFields());
+					csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
+							+ "\t" + response.headers().toMultimap());
 					maxRetry--;
 				}
 			} while (isServerError && maxRetry >= 0);
-			Map<String, List<String>> headers = con.getHeaderFields();
-			int responseCode = con.getResponseCode();
+			Map<String, List<String>> headers = response.headers().toMultimap();
+			int responseCode = response.code();
 			switch (responseCode) {
 				// 2xx ok
 				case HttpURLConnection.HTTP_OK:
@@ -122,26 +121,27 @@ public abstract class ConnectedImpl implements ITransfer {
 				case HttpURLConnection.HTTP_NO_CONTENT:
 				case HttpURLConnection.HTTP_RESET:
 				case HttpURLConnection.HTTP_PARTIAL:
-					String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+					String ret = new String(response.body().bytes());
 					csvLogger
-							.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-									+ con.getHeaderFields());
-					return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
+							.trace(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
+									+ "\t" + response.headers().toMultimap());
+					return new RequestedImpl<>(url, responseCode, null, convertJson(ret, expectedClass), headers);
 				// 304 not modified
 				case HttpURLConnection.HTTP_NOT_MODIFIED:
 					String date = headers.getOrDefault("Date", List.of("")).get(0);
 					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
 					if (date.equals(expires)) {
 						csvLogger
-								.warn(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-										+ con.getHeaderFields());
+								.warn(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
+										+ "\t" + response.headers().toMultimap());
 						// if expires=Date we add 20s of avoid CCP bug
 						headers = new HashMap<>(headers);
 						String newExpiry = ESITools.offsetDateTimeHeader(ESITools.headerOffsetDateTime(date).plusSeconds(20));
 						headers.put("Expires", List.of(newExpiry));
 					} else {
-						csvLogger.trace(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode()
-								+ "\t" + con.getHeaderFields());
+						csvLogger
+								.trace(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
+										+ "\t" + response.headers().toMultimap());
 					}
 					return new RequestedImpl<>(url, responseCode, null, null, headers);
 				// 4xx client error
@@ -159,16 +159,16 @@ public abstract class ConnectedImpl implements ITransfer {
 				default:
 					StringBuilder sb = new StringBuilder(
 							"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
-					if (con.getErrorStream() != null) {
-						new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
+					if (response.message() != null) {
+						sb.append(response.message());
 					}
-					csvLogger
-							.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t" + con.getResponseCode() + "\t"
-									+ con.getHeaderFields());
+					csvLogger.error(
+									method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
+											+ "\t" + response.headers().toMultimap());
 					return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
 			}
 		} catch (Exception e) {
-			csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmit + "\t\t" + e.getMessage());
+			csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t\t" + e.getMessage());
 			return new RequestedImpl<>(url, HttpURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
 		}
 	}
@@ -292,7 +292,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public <T> T convert(String line, Class<? extends T> clazz) {
+	public <T> T convertJson(String line, Class<? extends T> clazz) {
 		if (clazz == null) {
 			return null;
 		}
@@ -381,11 +381,17 @@ public abstract class ConnectedImpl implements ITransfer {
 	// scheduling
 	////
 
-	// one executor ? actually it's a singleton one.
-	private final ScheduledThreadPoolExecutor exec = _exec();
+	// one executor per connection ? actually it's a singleton one.
+	@Getter(lazy = true)
+	private final ScheduledThreadPoolExecutor executor = _exec();
 
 	private static ScheduledThreadPoolExecutor _exec = null;
 
+	/**
+	 * access to the internal static scheduledexecutor
+	 *
+	 * @return
+	 */
 	public final static synchronized ScheduledThreadPoolExecutor _exec() {
 		if (_exec == null) {
 			// TODO why set to 200 ? it seems lower value make deadlock
@@ -490,10 +496,10 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 
 		public void schedule(long delay_ms) throws RejectedExecutionException {
-			synchronized (exec) {
+			synchronized (getExecutor()) {
 				if (!scheduled && !stop && !paused) {
 					try {
-						exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
+						getExecutor().schedule(this, delay_ms, TimeUnit.MILLISECONDS);
 					} catch (RejectedExecutionException e) {
 						logger.warn(loggingName + " can't schedule " + this, e);
 					} catch (Exception e) {
@@ -526,7 +532,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		@Override
 		public void run() {
-			synchronized (exec) {
+			synchronized (getExecutor()) {
 				scheduled = false;
 			}
 			if (stop) {
