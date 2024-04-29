@@ -43,7 +43,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 public class ESIAccountHelper {
 	private static final Logger logger = LoggerFactory.getLogger(ESIAccountHelper.class);
 
-	public static final String LOCAL_CALLBACK = "http://localhost/callback/";
+// public static final String LOCAL_CALLBACK = "http://localhost/callback/";
+	public static final String LOCAL_CALLBACK = "http://localhost:8080/login/oauth2/code/eve";
 
 	// access flow to the sso
 	public static void main(String[] args) {
@@ -76,7 +77,10 @@ public class ESIAccountHelper {
 
 		// 2 request user to accept the connection of his app to his account
 		// the user should copy the url of the error page
-		String authCode = getCodeByClipboard(appID, LOCAL_CALLBACK, G_ICOAccess.SCOPES);
+		String authCode = getCodeByClipboard(appID, LOCAL_CALLBACK,
+//				"esi-characters.read_contacts.v1",
+//				"esi-wallet.read_character_wallet.v1"
+				G_ICOAccess.SCOPES);
 		System.out.println("auth code is " + authCode);
 
 		// 3 get a refresh token. The couple basicCode+refreshtoken allow us to
@@ -88,6 +92,10 @@ public class ESIAccountHelper {
 		// actually ask the esi.
 		String accessToken = getAccessToken(basicCode, refreshToken).token;
 		System.out.println("acces token is " + accessToken);
+
+		// 5 call verify to be sure you have a correct
+
+
 	}
 
 	/**
@@ -335,8 +343,6 @@ public class ESIAccountHelper {
 	 * @return the new refresh token that allows to create esiconnection.
 	 */
 	public static String getRefreshToken(String appAuth, String authorizationCode) {
-		// String transmit = "{\"grant_type\":\"authorization_code\",\"code\":\"" +
-		// authorizationCode + "\"}";
 		try {
 			Map<String, String> params = new HashMap<>();
 			params.put("grant_type", "authorization_code");

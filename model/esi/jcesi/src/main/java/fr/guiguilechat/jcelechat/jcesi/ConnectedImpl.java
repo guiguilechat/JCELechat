@@ -110,62 +110,65 @@ public abstract class ConnectedImpl implements ITransfer {
 					maxRetry--;
 				}
 			} while (isServerError && maxRetry >= 0);
-			Map<String, List<String>> headers = response.headers().toMultimap();
-			int responseCode = response.code();
-			switch (responseCode) {
-				// 2xx ok
-				case HttpURLConnection.HTTP_OK:
-				case HttpURLConnection.HTTP_CREATED:
-				case HttpURLConnection.HTTP_ACCEPTED:
-				case HttpURLConnection.HTTP_NOT_AUTHORITATIVE:
-				case HttpURLConnection.HTTP_NO_CONTENT:
-				case HttpURLConnection.HTTP_RESET:
-				case HttpURLConnection.HTTP_PARTIAL:
-					String ret = new String(response.body().bytes());
-					csvLogger
-							.trace(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
-									+ "\t" + response.headers().toMultimap());
-					return new RequestedImpl<>(url, responseCode, null, convertJson(ret, expectedClass), headers);
-				// 304 not modified
-				case HttpURLConnection.HTTP_NOT_MODIFIED:
-					String date = headers.getOrDefault("Date", List.of("")).get(0);
-					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
-					if (date.equals(expires)) {
-						csvLogger
-								.warn(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
-										+ "\t" + response.headers().toMultimap());
-						// if expires=Date we add 20s of avoid CCP bug
-						headers = new HashMap<>(headers);
-						String newExpiry = ESITools.offsetDateTimeHeader(ESITools.headerOffsetDateTime(date).plusSeconds(20));
-						headers.put("Expires", List.of(newExpiry));
-					} else {
+			// try with resource to close the response.body at the end.
+			try (var body = response.body()) {
+				Map<String, List<String>> headers = response.headers().toMultimap();
+				int responseCode = response.code();
+				switch (responseCode) {
+					// 2xx ok
+					case HttpURLConnection.HTTP_OK:
+					case HttpURLConnection.HTTP_CREATED:
+					case HttpURLConnection.HTTP_ACCEPTED:
+					case HttpURLConnection.HTTP_NOT_AUTHORITATIVE:
+					case HttpURLConnection.HTTP_NO_CONTENT:
+					case HttpURLConnection.HTTP_RESET:
+					case HttpURLConnection.HTTP_PARTIAL:
+						String ret = new String(body.bytes());
 						csvLogger
 								.trace(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
 										+ "\t" + response.headers().toMultimap());
-					}
-					return new RequestedImpl<>(url, responseCode, null, null, headers);
-				// 4xx client error
-				case HttpURLConnection.HTTP_BAD_REQUEST:
-				case HttpURLConnection.HTTP_UNAUTHORIZED:
-				case HttpURLConnection.HTTP_PAYMENT_REQUIRED:
-				case HttpURLConnection.HTTP_FORBIDDEN:
-				case HttpURLConnection.HTTP_NOT_FOUND:
-				case HttpURLConnection.HTTP_BAD_METHOD:
-					// 5xx server error
-				case HttpURLConnection.HTTP_INTERNAL_ERROR:
-				case HttpURLConnection.HTTP_BAD_GATEWAY:
-				case HttpURLConnection.HTTP_UNAVAILABLE:
-				case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
-				default:
-					StringBuilder sb = new StringBuilder(
-							"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
-					if (response.message() != null) {
-						sb.append(response.message());
-					}
-					csvLogger.error(
-									method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
+						return new RequestedImpl<>(url, responseCode, null, convertJson(ret, expectedClass), headers);
+					// 304 not modified
+					case HttpURLConnection.HTTP_NOT_MODIFIED:
+						String date = headers.getOrDefault("Date", List.of("")).get(0);
+						String expires = headers.getOrDefault("Expires", List.of("")).get(0);
+						if (date.equals(expires)) {
+							csvLogger
+									.warn(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
 											+ "\t" + response.headers().toMultimap());
-					return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
+							// if expires=Date we add 20s of avoid CCP bug
+							headers = new HashMap<>(headers);
+							String newExpiry = ESITools.offsetDateTimeHeader(ESITools.headerOffsetDateTime(date).plusSeconds(20));
+							headers.put("Expires", List.of(newExpiry));
+						} else {
+							csvLogger
+									.trace(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
+											+ "\t" + response.headers().toMultimap());
+						}
+						return new RequestedImpl<>(url, responseCode, null, null, headers);
+					// 4xx client error
+					case HttpURLConnection.HTTP_BAD_REQUEST:
+					case HttpURLConnection.HTTP_UNAUTHORIZED:
+					case HttpURLConnection.HTTP_PAYMENT_REQUIRED:
+					case HttpURLConnection.HTTP_FORBIDDEN:
+					case HttpURLConnection.HTTP_NOT_FOUND:
+					case HttpURLConnection.HTTP_BAD_METHOD:
+						// 5xx server error
+					case HttpURLConnection.HTTP_INTERNAL_ERROR:
+					case HttpURLConnection.HTTP_BAD_GATEWAY:
+					case HttpURLConnection.HTTP_UNAVAILABLE:
+					case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
+					default:
+						StringBuilder sb = new StringBuilder(
+								"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
+						if (response.message() != null) {
+							sb.append(response.message());
+						}
+						csvLogger.error(
+								method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
+										+ "\t" + response.headers().toMultimap());
+						return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
+				}
 			}
 		} catch (Exception e) {
 			csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t\t" + e.getMessage());
