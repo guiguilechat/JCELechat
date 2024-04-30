@@ -25,16 +25,17 @@ public class ConnectConfiguration {
 
 	@Bean
 	public OAuth2AccessTokenResponseClient<OAuth2AuthorizationCodeGrantRequest> accessTokenResponseClient() {
-		OAuth2AccessTokenResponseHttpMessageConverter tokenResponseHttpMessageConverter = new OAuth2AccessTokenResponseHttpMessageConverter();
-		tokenResponseHttpMessageConverter.setAccessTokenResponseConverter(new CustomTokenResponseConverter());
-		tokenResponseHttpMessageConverter
-				.setAccessTokenResponseParametersConverter(new CustomTokenResponseParametersConverter());
-		RestTemplate restTemplate = new RestTemplate(Arrays.asList(
-				new FormHttpMessageConverter(), tokenResponseHttpMessageConverter));
-		restTemplate.setErrorHandler(new OAuth2ErrorResponseErrorHandler());
 
 		DefaultAuthorizationCodeTokenResponseClient accessTokenResponseClient = new DefaultAuthorizationCodeTokenResponseClient();
+
+		OAuth2AccessTokenResponseHttpMessageConverter tokenResponseHttpMessageConverter = new OAuth2AccessTokenResponseHttpMessageConverter();
+		tokenResponseHttpMessageConverter.setAccessTokenResponseConverter(new CustomTokenResponseConverter());
+
+		RestTemplate restTemplate = new RestTemplate(Arrays.asList(
+		    new FormHttpMessageConverter(), tokenResponseHttpMessageConverter));
+		restTemplate.setErrorHandler(new OAuth2ErrorResponseErrorHandler());
 		accessTokenResponseClient.setRestOperations(restTemplate);
+
 		return accessTokenResponseClient;
 	}
 

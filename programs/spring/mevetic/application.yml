@@ -20,16 +20,31 @@ spring:
                batch_size: 50
                fetch_size: 50
             order_updates: true
+   mvc:
+ #     log-request-details: true
    security:
       oauth2:
          client:
             registration:
                eve:
                   provider: ccplz
-                  scope: esi-characters.read_contacts.v1,esi-wallet.read_character_wallet.v1
+                  scope: >-
+                     esi-characters.read_contacts.v1,
+                     esi-characters.read_corporation_roles.v1,
+                     esi-characters.read_standings.v1,
+                     esi-skills.read_skills.v1,
+                     esi-wallet.read_character_wallet.v1
 # you need to add in eclipse application "VM arguments" : 
-# -Dspring.security.oauth2..client.registration.eve.clientId=[app id]]
-# -Dspring.security.oauth2..client.registration.eve.clientSecret=[app secret]]
+# -Dspring.security.oauth2.client.registration.eve.clientId=[app id]]
+# -Dspring.security.oauth2.client.registration.eve.clientSecret=[app secret]]
 logging:
-   level:
-      web: DEBUG
+  level:
+    org:
+      springframework:
+        web:
+          filter:
+            CommonsRequestLoggingFilter: DEBUG
+        security:          
+          jwt: DEBUG
+          oauth2: DEBUG
+    web: DEBUG

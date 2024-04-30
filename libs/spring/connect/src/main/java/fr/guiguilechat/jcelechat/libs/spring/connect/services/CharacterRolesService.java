@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.services;
 
 import java.util.Map;
+import java.util.Set;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -10,6 +11,7 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.model.CharacterRoles;
 import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.CharacterRolesRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -27,5 +29,8 @@ public class CharacterRolesService
 	protected CharacterRoles create(int characterId) {
 		return CharacterRoles.builder().characterId(characterId).build();
 	}
+
+	@Getter(lazy = true)
+	private final Set<String> requiredScopes = Set.of("esi-characters.read_corporation_roles.v1");
 
 }

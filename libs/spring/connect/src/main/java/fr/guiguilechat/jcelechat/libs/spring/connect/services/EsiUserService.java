@@ -58,8 +58,9 @@ public class EsiUserService extends DefaultOAuth2UserService {
 		String characterName = oAuth2User.getName();
 		int characterId = ((Number) oAuth2User.getAttributes().get("CharacterID")).intValue();
 		Set<String> scopes = Set.of(((String) oAuth2User.getAttributes().get("Scopes")).split(" "));
-		String refreshToken = (String) oAuth2UserRequest.getAdditionalParameters().get(OAuth2ParameterNames.REFRESH_TOKEN);
-		System.err.println("refresh token is " + refreshToken);
+		String refreshTokenSpring = (String) oAuth2UserRequest.getAdditionalParameters()
+				.get(OAuth2ParameterNames.REFRESH_TOKEN);
+
 		EsiUser existingUserAccount = repo.findAllByAppAndCharacterIdAndCanceledFalse(app, characterId).stream()
 				.filter(user -> user.getScopes().containsAll(scopes)).findAny().orElse(null);
 		if (existingUserAccount == null) {
@@ -68,9 +69,10 @@ public class EsiUserService extends DefaultOAuth2UserService {
 							.app(app)
 							.characterId(characterId)
 							.characterName(characterName)
-							.refreshToken(refreshToken)
+			        .refreshToken(refreshTokenSpring)
 							.scopes(scopes)
 							.build());
+
 			log.debug("saved new entry for user " + characterName);
 			if (updateListeners.isPresent()) {
 				updateListeners.get().stream().flatMap(l -> l.listEsiUserCaches().stream())

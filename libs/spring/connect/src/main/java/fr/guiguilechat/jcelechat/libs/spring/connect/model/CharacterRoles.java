@@ -17,6 +17,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 import lombok.experimental.SuperBuilder;
 
 @Entity(name = "EsiConnectCharacterRoles")
@@ -26,6 +27,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @Getter
 @Setter
+@ToString
 public class CharacterRoles extends ACharData<R_get_characters_character_id_roles> {
 
 	@ElementCollection(fetch = FetchType.EAGER)

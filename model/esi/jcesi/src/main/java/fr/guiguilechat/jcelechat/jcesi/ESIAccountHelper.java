@@ -34,8 +34,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
-
 /**
  * code to make a sso key
  *
@@ -78,9 +76,11 @@ public class ESIAccountHelper {
 		// 2 request user to accept the connection of his app to his account
 		// the user should copy the url of the error page
 		String authCode = getCodeByClipboard(appID, LOCAL_CALLBACK,
-//				"esi-characters.read_contacts.v1",
-//				"esi-wallet.read_character_wallet.v1"
-				G_ICOAccess.SCOPES);
+				"esi-characters.read_contacts.v1",
+				"esi-wallet.read_character_wallet.v1"
+// G_ICOAccess.SCOPES
+//
+		);
 		System.out.println("auth code is " + authCode);
 
 		// 3 get a refresh token. The couple basicCode+refreshtoken allow us to
@@ -233,7 +233,7 @@ public class ESIAccountHelper {
 
 			@Override
 			public String getContentType() {
-				return "application/json";
+				return "application/json;charset=UTF-8";
 			}
 
 			@Override
@@ -250,7 +250,7 @@ public class ESIAccountHelper {
 
 			@Override
 			public String getContentType() {
-				return "application/x-www-form-urlencoded";
+				return "application/x-www-form-urlencoded;charset=UTF-8";
 			}
 
 			@Override
@@ -299,6 +299,8 @@ public class ESIAccountHelper {
 				throw new UnsupportedOperationException("can't auth with null transmitData");
 			}
 			String transmitData = type.encode(transmitMap);
+			// System.err.println("sending auth line with base64=" + appAuth + " and body="
+			// + transmitData);
 			String url = "https://login.eveonline.com/oauth/token";
 			URL target = new URL(url);
 			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
@@ -334,6 +336,21 @@ public class ESIAccountHelper {
 
 	private static CONTENT_TYPE type = CONTENT_TYPE.FORM;
 
+	public static Map<String, String> getFromCode(String appAuth, String authorizationCode) {
+		try {
+			Map<String, String> params = new HashMap<>();
+			params.put("grant_type", "authorization_code");
+			params.put("code", authorizationCode);
+			return new ObjectMapper().readValue(
+					getAuthLine(appAuth, params, type),
+					new TypeReference<Map<String, String>>() {
+					});
+		} catch (Exception e) {
+			logger.error("while getting refresh token", e);
+			return null;
+		}
+	}
+
 	/**
 	 *
 	 * @param appAuth
@@ -344,20 +361,15 @@ public class ESIAccountHelper {
 	 */
 	public static String getRefreshToken(String appAuth, String authorizationCode) {
 		try {
-			Map<String, String> params = new HashMap<>();
-			params.put("grant_type", "authorization_code");
-			params.put("code", authorizationCode);
-			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, params, type),
-					new TypeReference<Map<String, String>>() {
-			});
-			System.err.println("auth response is " + map);
+			Map<String, String> map = getFromCode(appAuth, authorizationCode);
+			// System.err.println("auth response is " + map);
 			String refreshtoken = map.get("refresh_token");
 			if (refreshtoken == null) {
 				System.err.println("received " + map);
 			}
 			return refreshtoken;
 		} catch (Exception e) {
-			logger.debug("while getting refresh token", e);
+			logger.error("while getting refresh token", e);
 			return null;
 		}
 	}

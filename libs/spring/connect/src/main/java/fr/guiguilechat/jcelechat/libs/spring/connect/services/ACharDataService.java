@@ -51,34 +51,42 @@ public abstract class ACharDataService<Entity extends ACharData<Fetched>, Fetche
 	@Transactional
 	@Async
 	CompletableFuture<Void> update(Entity data, EsiUser user) {
-		System.err.println("fetching data for refresh token " + user.getRefreshToken());
+		// System.err.println("updating data class " + data.getClass().getSimpleName() +
+		// " for character "
+		// + data.getCharacterId() + " with refresh token " + user.getRefreshToken());
 		String lastEtag = data.getLastEtag();
 		Map<String, String> properties = new HashMap<>();
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
-		Requested<Fetched> firstResult = fetchCharacterData(
+		try {
+		Requested<Fetched> response = fetchCharacterData(
 				new ESIConnected(user.getRefreshToken(), user.getApp().getAppBase64()), user.getCharacterId(), properties);
-		int responseCode = firstResult.getResponseCode();
+		int responseCode = response.getResponseCode();
 		switch (responseCode) {
 			case 200:
-				data.update(firstResult.getExpiresInstant(), firstResult.getETag());
-				data.update(firstResult.getOK());
-				save(data);
+				data.update(response.getExpiresInstant(), response.getETag());
+				data.update(response.getOK());
+				data = save(data);
 			break;
 			case 304:
-				data.setExpires(firstResult.getExpiresInstant());
-				save(data);
+				data.setExpires(response.getExpiresInstant());
+				data = save(data);
 			break;
 			default:
+				log.error("while updating character {} info class {}, received response code {} and error {}",
+				    user.getCharacterId(), data.getClass().getSimpleName(), responseCode, response.getError());
 		}
+	} catch (Exception e) {
+		log.error("while updating " + data.getClass().getSimpleName() + " for char " + user.getCharacterId(), e);
+	}
 		return CompletableFuture.completedFuture(null);
 	}
 
 	protected abstract Requested<Fetched> fetchCharacterData(ESIConnected esiConnected, int characterId,
 			Map<String, String> properties);
 
-	protected Set<String> requiredScopes() {
+	protected Set<String> getRequiredScopes() {
 		return Set.of();
 	}
 
@@ -89,7 +97,7 @@ public abstract class ACharDataService<Entity extends ACharData<Fetched>, Fetche
 	@Override
 	public void onNewEsiUser(EsiUser user) {
 // System.err.println("received new esi user");
-		if (user.getScopes().containsAll(requiredScopes())) {
+if (user.getScopes().containsAll(getRequiredScopes())) {
 			Optional<Entity> op = repo.findById(user.getCharacterId());
 			if (op.isEmpty()) {
 				Entity e = create(user.getCharacterId());
@@ -126,7 +134,7 @@ public abstract class ACharDataService<Entity extends ACharData<Fetched>, Fetche
 
 	protected EsiUser esiUser(int characterId) {
 		return userService().forCharacterId(characterId).stream()
-				.filter(user -> user.getScopes().containsAll(requiredScopes())).findAny().orElse(null);
+		    .filter(user -> user.getScopes().containsAll(getRequiredScopes())).findAny().orElse(null);
 	}
 
 

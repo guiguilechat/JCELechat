@@ -19,6 +19,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class UserStatusHtmlController {
 
+	@Lazy
 	private final CharacterRolesService characterRolesService;
 
 	protected void addUser(Model model, Authentication auth) {
@@ -37,7 +38,7 @@ public class UserStatusHtmlController {
 		addUser(model, auth);
 		Optional<CharacterRoles> userRoles = characterRolesService.fetchIfNeeded(EsiUserService.getCharacterId(auth));
 		if (userRoles.isPresent()) {
-			model.addAttribute("roles", userRoles.get().getRoles());
+			model.addAttribute("roles", userRoles.get());
 		}
 		return "user/roles";
 	}

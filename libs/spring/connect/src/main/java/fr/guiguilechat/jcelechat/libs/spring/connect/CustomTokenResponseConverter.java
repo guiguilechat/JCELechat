@@ -17,9 +17,8 @@ public class CustomTokenResponseConverter implements
 
 	@Override
 	public OAuth2AccessTokenResponse convert(Map<String, Object> tokenResponseParameters) {
-		System.err.println("received parameters " + tokenResponseParameters);
 		String accessToken = (String) tokenResponseParameters.get(OAuth2ParameterNames.ACCESS_TOKEN);
-		String refreshToken = (String) tokenResponseParameters.get(OAuth2ParameterNames.REFRESH_TOKEN);
+		String refreshTokenSpring = (String) tokenResponseParameters.get(OAuth2ParameterNames.REFRESH_TOKEN);
 		Object expiresInObj = tokenResponseParameters.get(OAuth2ParameterNames.EXPIRES_IN);
 		long expiresIn = ((Number) expiresInObj).longValue();
 
@@ -34,8 +33,8 @@ public class CustomTokenResponseConverter implements
 				.tokenType(OAuth2AccessToken.TokenType.BEARER)
 				.expiresIn(expiresIn)
 				.scopes(scopes)
-				.refreshToken(refreshToken)
-				.additionalParameters(Map.of(OAuth2ParameterNames.REFRESH_TOKEN, refreshToken))
+				.refreshToken(refreshTokenSpring)
+				.additionalParameters(Map.of(OAuth2ParameterNames.REFRESH_TOKEN, refreshTokenSpring))
 				.build();
 	}
 }

@@ -8,9 +8,38 @@
 <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 </head>
 <body>
-	Roles of <span th:text="${charName}" />
-	<ul>
-		<li th:each="role : ${roles}" th:text="${role}"></li>
-	</ul>
+	<h1>
+		Roles of <span th:text="${charName}" />
+	</h1>
+	<div class="container-fluid border">
+		<div class="row border" th:if="${roles != null}">
+			<h2>character roles</h2>
+			<div class="col" th:if="${roles.roles != null && !roles.roles.isEmpty()}">
+				<h2>Roles</h2>
+				<ul>
+					<li th:each="role : ${roles.roles}" th:text="${role}"></li>
+				</ul>
+			</div>
+			<div class="col" th:if="${roles.rolesAtBase != null && !roles.rolesAtBase.isEmpty()}">
+				<h2>Roles at base</h2>
+				<ul>
+					<li th:each="role : ${roles.rolesAtBase}" th:text="${role}"></li>
+				</ul>
+			</div>
+			<div class="col" th:if="${roles.rolesAtHq != null && !roles.rolesAtHq.isEmpty()}">
+				<h2>Roles at HQ</h2>
+				<ul>
+					<li th:each="role : ${roles.rolesAtHq}" th:text="${role}"></li>
+				</ul>
+			</div>
+			<div class="col" th:if="${roles.rolesAtOther != null && !roles.rolesAtOther.isEmpty()}">
+				<h2>Roles at other</h2>
+				<ul>
+					<li th:each="role : ${roles.rolesAtOther}" th:text="${role}"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
 </body>
 </html>
