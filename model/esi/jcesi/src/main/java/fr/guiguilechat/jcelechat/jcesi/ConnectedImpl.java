@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.jcesi;
 import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -276,12 +275,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 	protected <T> RequestedImpl<List<T>> convertToList(Requested<T[]> apply) {
-		RequestedImpl<List<T>> ret = new RequestedImpl<>(apply.getURL(), apply.getResponseCode(), apply.getError(),
-				new ArrayList<>(), apply.getHeaders());
-		if (apply.isOk() && apply.getOK() != null) {
-			ret.getOK().addAll(Arrays.asList(apply.getOK()));
-		}
-		return ret;
+		return new RequestedImpl<>(apply.getURL(), apply.getResponseCode(), apply.getError(),
+		    new ArrayList<>(apply.isOk() && apply.getOK() != null ? List.of(apply.getOK()) : List.of()),
+		    apply.getHeaders());
 	}
 
 	////

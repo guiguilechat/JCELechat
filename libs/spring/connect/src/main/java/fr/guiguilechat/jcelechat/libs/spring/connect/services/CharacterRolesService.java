@@ -17,7 +17,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class CharacterRolesService
-		extends ACharDataService<CharacterRoles, R_get_characters_character_id_roles, CharacterRolesRepository> {
+		extends AConnectedCharDataService<CharacterRoles, R_get_characters_character_id_roles, CharacterRolesRepository> {
 
 	@Override
 	protected Requested<R_get_characters_character_id_roles> fetchCharacterData(ESIConnected esi, int charId,

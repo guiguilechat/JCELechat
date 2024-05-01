@@ -7,6 +7,7 @@ import java.util.Set;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
 import org.springframework.security.oauth2.client.userinfo.OAuth2UserRequest;
@@ -44,6 +45,7 @@ public class EsiUserService extends DefaultOAuth2UserService {
 			return List.of();
 		}
 
+		@Async
 		public default void onNewEsiUser(EsiUser user) {
 
 		}
@@ -107,5 +109,10 @@ public class EsiUserService extends DefaultOAuth2UserService {
 	public static String getCharacterName(Authentication auth) {
 		OAuth2User user = (OAuth2User) auth.getPrincipal();
 		return (String) user.getAttributes().get("CharacterName");
+	}
+
+	protected EsiUser esiUser(int characterId, Set<String> requiredScopes) {
+		return forCharacterId(characterId).stream()
+		    .filter(user -> user.getScopes().containsAll(requiredScopes)).findAny().orElse(null);
 	}
 }

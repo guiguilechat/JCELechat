@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.jcesi.impl;
 
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import lombok.AllArgsConstructor;
@@ -36,6 +37,16 @@ public class RequestedImpl<T> implements Requested<T> {
 		} else {
 			return ifnotok;
 		}
+	}
+
+	@Override
+	public <U> RequestedImpl<U> mapBody(Function<T, U> mapper) {
+		return new RequestedImpl<>(URL, responseCode, error, mapper.apply(OK), headers);
+	}
+
+	@Override
+	public Requested<T> mapHeaders(Function<Map<String, List<String>>, Map<String, List<String>>> mapper) {
+		return new RequestedImpl<>(URL, responseCode, error, OK, mapper.apply(headers));
 	}
 
 

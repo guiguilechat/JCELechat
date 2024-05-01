@@ -4,6 +4,7 @@ import java.time.Instant;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 
@@ -39,12 +40,14 @@ public interface Requested<T> {
 	/** return the headers that were returned by the server */
 	public Map<String, List<String>> getHeaders();
 
+	public static String EXPIRES_PROP = "Expires";
+
 	/**
 	 *
 	 * @return the expires header, if exists, else null.
 	 */
 	public default String getExpires() {
-		List<String> list = getHeaders().getOrDefault("Expires", null);
+		List<String> list = getHeaders().getOrDefault(EXPIRES_PROP, null);
 		return list == null || list.size() == 0 ? null : list.get(0);
 	}
 
@@ -67,11 +70,13 @@ public interface Requested<T> {
 		return ESITools.headerInstant(expire);
 	}
 
+	public static String DATE_PROP = "Date";
+
 	/**
 	 * @return the Date header, if exists, else null.
 	 */
 	public default String getDate() {
-		List<String> list = getHeaders().getOrDefault("Date", null);
+		List<String> list = getHeaders().getOrDefault(DATE_PROP, null);
 		return list == null || list.size() == 0 ? null : list.get(0);
 	}
 
@@ -182,5 +187,9 @@ public interface Requested<T> {
 		}
 		return null;
 	}
+
+	public <U> Requested<U> mapBody(Function<T, U> mapper);
+
+	public Requested<T> mapHeaders(Function<Map<String, List<String>>, Map<String, List<String>>> mapper);
 
 }

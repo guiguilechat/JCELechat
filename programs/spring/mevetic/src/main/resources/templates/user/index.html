@@ -4,13 +4,26 @@
 <title th:text="${'mevetic ' + charName}">user page</title>
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
-<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}" ></script>
-<script th:src="@{/webjars/jquery/jquery.min.js}" ></script>
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 </head>
 <body>
-	Hello <span th:text="${charName}" /><br />
-	<ul>
-		<li><a href="roles">roles</a></li>
-	</ul>
+	<h1>
+		Hello <span th:text="${charName}" />
+	</h1>
+	<div class="container-fluid border">
+		<div class="row border" th:if="${affiliation != null}">
+			<ul>
+				<li th:if="${affiliation.corporation_id != null}" th:text="${'corporation id='+affiliation.corporation_id}" />
+				<li th:if="${affiliation.alliance_id != null}" th:text="${'alliance id='+affiliation.alliance_id}" />
+				<li th:if="${affiliation.faction_id != null}" th:text="${'faction id='+affiliation.faction_id}" />
+			</ul>
+		</div>
+		<div class="row border">
+			<ul>
+				<li><a href="roles">roles</a></li>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>
