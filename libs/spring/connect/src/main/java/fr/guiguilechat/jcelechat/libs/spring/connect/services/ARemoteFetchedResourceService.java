@@ -7,14 +7,16 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.connect.model.AFetchedResource;
-import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.IFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.connect.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.IRemoteFetchedResourceRepository;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -24,7 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NoArgsConstructor
 @Getter
-public abstract class AFetchedResourceService<Entity extends AFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IFetchedResourceRepository<Entity, Id>> {
+public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -66,6 +68,13 @@ public abstract class AFetchedResourceService<Entity extends AFetchedResource<Id
 		return ret;
 	}
 
+	/**
+	 * perform an update of an entity using its remote representation. If the
+	 * entity is updated in any way, it is also saved already.
+	 * 
+	 * @param data the entity to update
+	 * @return empty completable future to synchronize over.
+	 */
 	@Transactional
 	@Async
 	public CompletableFuture<Void> update(Entity data) {
@@ -82,7 +91,7 @@ public abstract class AFetchedResourceService<Entity extends AFetchedResource<Id
 				data.updateMeta(response.getExpiresInstant(), response.getETag());
 				data.update(response.getOK());
 				data = save(data);
-				System.err.println(" updated data " + data.getClass().getSimpleName() + " for id " + data.getRemoteId()
+				log.debug(" updated data " + data.getClass().getSimpleName() + " for id " + data.getRemoteId()
 				    + " with expires=" + data.getExpires());
 				break;
 			case 304:
@@ -103,16 +112,27 @@ public abstract class AFetchedResourceService<Entity extends AFetchedResource<Id
 		return 1000;
 	}
 
-	public List<Entity> listForUpdate() {
-		return repo().findTop1000ByActiveTrueAndExpiresLessThan(Instant.now());
+	/**
+	 * @return the next entities that are to be updated, limited to
+	 *           {@link #getMaxUpdates()} and 1000 from implementation limit.
+	 */
+	public Stream<Entity> listForUpdate() {
+		return repo().findTop1000ByActiveTrueAndExpiresLessThan(Instant.now()).stream().limit(getMaxUpdates());
 	}
 
-	public List<CompletableFuture<Void>> update(List<Entity> data) {
+	/**
+	 * overidable default false
+	 * 
+	 * @return true only when calling {@link #update(List)} has built-in better
+	 *           performances than calling an update on each element of the list
+	 *           sequentially.
+	 */
+	public boolean isSupportsBatchUpdate() {
+		return false;
+	}
+
+	public Map<Entity, CompletableFuture<Void>> update(List<Entity> data) {
 		log.debug(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
-		return data.parallelStream().limit(getMaxUpdates()).map(this::update).toList();
-	}
-
-	public List<CompletableFuture<Void>> update() {
-		return update(listForUpdate());
+		return data.parallelStream().limit(getMaxUpdates()).collect(Collectors.toMap(e -> e, this::update));
 	}
 }

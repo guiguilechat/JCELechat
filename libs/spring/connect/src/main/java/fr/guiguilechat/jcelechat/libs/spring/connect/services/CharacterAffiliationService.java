@@ -38,7 +38,6 @@ public class CharacterAffiliationService
 	@Override
 	protected Requested<R_post_characters_affiliation> fetchData(Integer characterId,
 	    Map<String, String> properties) {
-		System.err.println("fetching affiliation of character " + characterId);
 		Requested<R_post_characters_affiliation[]> ret = ESIStatic.INSTANCE.post_affiliation(new int[] { characterId },
 		    properties);
 		return ret.mapBody(arr -> arr[0]).mapHeaders(this::addExpire);
@@ -47,13 +46,13 @@ public class CharacterAffiliationService
 	private int maxSimultFetch = 1000;
 
 	@Override
-	public List<CompletableFuture<Void>> update(List<CharacterAffiliation> data) {
+	public Map<CharacterAffiliation, CompletableFuture<Void>> update(List<CharacterAffiliation> data) {
 		log.debug(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
 		if (data == null || data.isEmpty()) {
-			return List.of();
+			return Map.of();
 		}
 		for (int i = 0; i < data.size(); i += maxSimultFetch) {
-			List<CharacterAffiliation> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
+			List<? extends CharacterAffiliation> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
 			int[] charIds = subData.stream().mapToInt(CharacterAffiliation::getCharacterId).toArray();
 			Requested<R_post_characters_affiliation[]> response = ESIStatic.INSTANCE.post_affiliation(charIds, null);
 			int responseCode = response.getResponseCode();
@@ -75,7 +74,7 @@ public class CharacterAffiliationService
 				    response.getError());
 			}
 		}
-		return List.of();
+		return Map.of();
 	}
 
 	protected Map<String, List<String>> addExpire(Map<String, List<String>> headers) {

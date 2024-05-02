@@ -14,7 +14,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @Setter
 @SuperBuilder
-public abstract class ACharData<Fetched> extends AFetchedResource<Integer, Fetched> {
+public abstract class ACharData<Fetched> extends ARemoteFetchedResource<Integer, Fetched> {
 
 	@Id
 	private int characterId;

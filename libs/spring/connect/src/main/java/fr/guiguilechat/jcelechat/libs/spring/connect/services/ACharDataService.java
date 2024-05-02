@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 @Getter
 public abstract class ACharDataService<Entity extends ACharData<Fetched>, Fetched, Repository extends ICharDataRepository<Entity>>
-    extends AFetchedResourceService<Entity, Integer, Fetched, Repository>
+    extends ARemoteFetchedResourceService<Entity, Integer, Fetched, Repository>
     implements EsiUserListener {
 
 	@Override
@@ -24,13 +24,13 @@ public abstract class ACharDataService<Entity extends ACharData<Fetched>, Fetche
 			Entity e = create(user.getCharacterId());
 			e.setActive(isActivateNewEntry());
 			repo().save(e);
-			log.error("created new entry of class {} for character {}", e.getClass().getSimpleName(),
+			log.debug("created new entry of class {} for character {}", e.getClass().getSimpleName(),
 			    user.getCharacterName());
 			if (e.isActive()) {
 				update(e);
 			}
 		} else {
-			log.error("no need to create new entry for character {}", user.getCharacterName());
+			log.debug("no need to create new entry for character {}", user.getCharacterName());
 		}
 	}
 

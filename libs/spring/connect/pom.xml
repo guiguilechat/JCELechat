@@ -44,5 +44,7 @@
 	</dependencies>
 	<description>adds : 
 1. an oauth2 &quot;ccplz&quot; provider
-2. a refresh token conversion so that you can save it.</description>
+2. a refresh token conversion so that you can save it.
+3. entities for data fetched for character or corporation, depending on the scopes and roles of the user authenticated.
+4. auto updating of those entities and service to use them</description>
 </project>
