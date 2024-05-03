@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.model;
 
+import fr.guiguilechat.jcelechat.libs.spring.connect.model.templates.ACharData;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;

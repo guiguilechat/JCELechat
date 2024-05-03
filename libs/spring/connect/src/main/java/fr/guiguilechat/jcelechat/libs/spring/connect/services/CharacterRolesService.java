@@ -10,6 +10,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.model.CharacterRoles;
 import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.CharacterRolesRepository;
+import fr.guiguilechat.jcelechat.libs.spring.connect.services.templates.AConnectedCharDataService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

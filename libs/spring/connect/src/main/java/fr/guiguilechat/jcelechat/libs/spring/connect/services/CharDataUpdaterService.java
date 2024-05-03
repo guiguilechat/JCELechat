@@ -13,8 +13,9 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.model.ACharData;
-import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.ICharDataRepository;
+import fr.guiguilechat.jcelechat.libs.spring.connect.model.templates.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.templates.ICharDataRepository;
+import fr.guiguilechat.jcelechat.libs.spring.connect.services.templates.ACharDataService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

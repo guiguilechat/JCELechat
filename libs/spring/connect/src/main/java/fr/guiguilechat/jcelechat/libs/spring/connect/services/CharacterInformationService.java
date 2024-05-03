@@ -9,6 +9,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.model.CharacterInformation;
 import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.CharacterInformationRepository;
+import fr.guiguilechat.jcelechat.libs.spring.connect.services.templates.ACharDataService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import lombok.RequiredArgsConstructor;
 

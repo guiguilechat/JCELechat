@@ -10,6 +10,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.model.CharacterWallet;
 import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.CharacterWalletRepository;
+import fr.guiguilechat.jcelechat.libs.spring.connect.services.templates.AConnectedCharDataService;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

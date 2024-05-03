@@ -19,6 +19,9 @@ public class TypesTools {
 		Set<String> forbidden = Stream.of(filtersWithSpace.split("\\s+")).map(String::toLowerCase)
 				.filter(s -> s.startsWith("-")).map(s -> s.substring(1)).collect(Collectors.toSet());
 		Predicate<T> pred = t -> {
+			if (t.type() == null) {
+				return false;
+			}
 			List<String> tokens = Stream
 					.of(Stream.of(t.name().split(" ")), Stream.of(t.group().split(" ")), Stream.of(t.category().split(" ")))
 					.flatMap(s -> s).map(String::toLowerCase).distinct().toList();

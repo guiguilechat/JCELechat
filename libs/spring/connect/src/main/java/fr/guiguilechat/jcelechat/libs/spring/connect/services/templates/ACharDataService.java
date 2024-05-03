@@ -1,10 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.services;
+package fr.guiguilechat.jcelechat.libs.spring.connect.services.templates;
 
 import java.util.Optional;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.model.ACharData;
 import fr.guiguilechat.jcelechat.libs.spring.connect.model.EsiUser;
-import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.ICharDataRepository;
+import fr.guiguilechat.jcelechat.libs.spring.connect.model.templates.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.templates.ICharDataRepository;
+import fr.guiguilechat.jcelechat.libs.spring.connect.services.EsiUserService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.services.EsiUserService.EsiUserListener;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

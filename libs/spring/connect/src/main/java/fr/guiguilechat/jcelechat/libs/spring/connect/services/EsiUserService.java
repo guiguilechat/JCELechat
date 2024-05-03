@@ -111,7 +111,7 @@ public class EsiUserService extends DefaultOAuth2UserService {
 		return (String) user.getAttributes().get("CharacterName");
 	}
 
-	protected EsiUser esiUser(int characterId, Set<String> requiredScopes) {
+	public EsiUser esiUser(int characterId, Set<String> requiredScopes) {
 		return forCharacterId(characterId).stream()
 		    .filter(user -> user.getScopes().containsAll(requiredScopes)).findAny().orElse(null);
 	}

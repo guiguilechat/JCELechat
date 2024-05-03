@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.model;
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.libs.spring.connect.model.templates.ACharData;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.model;
+package fr.guiguilechat.jcelechat.libs.spring.connect.model.templates;
 
 import java.time.Instant;
 
@@ -20,7 +20,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @Setter
 @SuperBuilder
-public abstract class AFetchedResource<Fetched> {
+public abstract class AFetchedResource {
 
 	private Instant created, lastUpdate, expires;
 
@@ -37,7 +37,5 @@ public abstract class AFetchedResource<Fetched> {
 		setFetched(true);
 		setLastEtag(etag);
 	}
-
-	public abstract void update(Fetched data);
 
 }

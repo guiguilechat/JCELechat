@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.model;
 import java.util.HashSet;
 import java.util.Set;
 
+import fr.guiguilechat.jcelechat.libs.spring.connect.model.templates.ACharData;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_base;

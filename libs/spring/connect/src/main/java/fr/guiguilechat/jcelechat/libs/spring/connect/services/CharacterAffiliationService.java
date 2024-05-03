@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.model.CharacterAffiliation;
 import fr.guiguilechat.jcelechat.libs.spring.connect.repositories.CharacterAffiliationRepository;
+import fr.guiguilechat.jcelechat.libs.spring.connect.services.templates.ACharDataService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

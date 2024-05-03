@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.model;
+package fr.guiguilechat.jcelechat.libs.spring.connect.model.templates;
 
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
@@ -17,8 +17,10 @@ import lombok.experimental.SuperBuilder;
 @MappedSuperclass
 @Setter
 @SuperBuilder
-public abstract class ARemoteFetchedResource<RemoteId, Fetched> extends AFetchedResource<Fetched> {
+public abstract class ARemoteFetchedResource<RemoteId, Fetched> extends AFetchedResource {
 
 	public abstract RemoteId getRemoteId();
+
+	public abstract void update(Fetched data);
 
 }
