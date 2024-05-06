@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.spring.mevetic.controllers.html;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
@@ -88,11 +89,17 @@ public class UserStatusHtmlController {
 		    .list(EsiUserService.getCharacterId(auth));
 		if (userStandings != null) {
 			model.addAttribute("agentStandings", userStandings.stream()
-			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.agent).toList());
+			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.agent)
+			    .sorted(Comparator.comparing(s -> -s.getStanding()))
+			    .toList());
 			model.addAttribute("corporationStandings", userStandings.stream()
-			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.npc_corp).toList());
+			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.npc_corp)
+			    .sorted(Comparator.comparing(s -> -s.getStanding()))
+			    .toList());
 			model.addAttribute("factionStandings", userStandings.stream()
-			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.faction).toList());
+			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.faction)
+			    .sorted(Comparator.comparing(s -> -s.getStanding()))
+			    .toList());
 		}
 		return "user/standings";
 	}

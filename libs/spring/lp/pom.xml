@@ -7,8 +7,8 @@
 		<version>7.26.0</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-	<artifactId>npc</artifactId>
-	<name>Spring lib NPCs</name>
+	<artifactId>lp</artifactId>
+	<name>Spring lib LP</name>
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
