@@ -17,7 +17,6 @@ public class CustomTokenResponseConverter implements
 
 	@Override
 	public OAuth2AccessTokenResponse convert(Map<String, Object> tokenResponseParameters) {
-		System.err.println("received headers " + tokenResponseParameters.keySet());
 		String accessToken = (String) tokenResponseParameters.get(OAuth2ParameterNames.ACCESS_TOKEN);
 		String refreshTokenSpring = (String) tokenResponseParameters.get(OAuth2ParameterNames.REFRESH_TOKEN);
 		Object expiresInObj = tokenResponseParameters.get(OAuth2ParameterNames.EXPIRES_IN);

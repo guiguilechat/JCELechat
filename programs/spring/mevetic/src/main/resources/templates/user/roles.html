@@ -1,7 +1,7 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title th:text="${'roles ' + charName}">user page</title>
+<title th:text="${'roles of ' + charName}">page title</title>
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
 <script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
@@ -15,25 +15,25 @@
 		<div class="row border" th:if="${roles != null}">
 			<h2>character roles</h2>
 			<div class="col" th:if="${roles.roles != null && !roles.roles.isEmpty()}">
-				<h2>Roles</h2>
+				<h3>Roles</h3>
 				<ul>
 					<li th:each="role : ${roles.roles}" th:text="${role}"></li>
 				</ul>
 			</div>
 			<div class="col" th:if="${roles.rolesAtBase != null && !roles.rolesAtBase.isEmpty()}">
-				<h2>Roles at base</h2>
+				<h3>Roles at base</h3>
 				<ul>
 					<li th:each="role : ${roles.rolesAtBase}" th:text="${role}"></li>
 				</ul>
 			</div>
 			<div class="col" th:if="${roles.rolesAtHq != null && !roles.rolesAtHq.isEmpty()}">
-				<h2>Roles at HQ</h2>
+				<h3>Roles at HQ</h3>
 				<ul>
 					<li th:each="role : ${roles.rolesAtHq}" th:text="${role}"></li>
 				</ul>
 			</div>
 			<div class="col" th:if="${roles.rolesAtOther != null && !roles.rolesAtOther.isEmpty()}">
-				<h2>Roles at other</h2>
+				<h3>Roles at other</h3>
 				<ul>
 					<li th:each="role : ${roles.rolesAtOther}" th:text="${role}"></li>
 				</ul>

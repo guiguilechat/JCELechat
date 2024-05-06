@@ -39,6 +39,7 @@ spring:
 # -Dspring.security.oauth2.client.registration.eve.clientSecret=[app secret]]
 logging:
   level:
+    fr.guiguilechat.jcelechat.jcesi: trace
     org:
       springframework:
         web:

@@ -1,0 +1,58 @@
+package fr.guiguilechat.jcelechat.libs.spring.connect.character.standings;
+
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
+import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACharDataRecord;
+import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACharDataRecordList;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+import lombok.experimental.SuperBuilder;
+
+@Entity(name = "EsiConnectCharacterStanding")
+@Table(name = "esi_connect_characterstanding")
+@SuperBuilder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+public class CharacterStanding extends
+    ACharDataRecord<CharacterStanding, CharacterStandingList> {
+
+	@Entity(name = "EsiConnectCharacterStandingList")
+	@Table(name = "esi_connect_characterstandinglist")
+	@SuperBuilder
+	@NoArgsConstructor
+	@Getter
+	@Setter
+	@ToString
+	public static class CharacterStandingList
+	    extends ACharDataRecordList<M_get_standings_3, CharacterStanding> {
+
+	}
+
+	private int fromId;
+
+	@Enumerated(EnumType.STRING)
+	private get_characters_character_id_standings_from_type fromType;
+
+	private float standing;
+
+	public static CharacterStanding from(M_get_standings_3 from) {
+		return builder()
+				.fromId(from.from_id)
+				.fromType(from.from_type)
+				.standing(from.standing)
+				.build();
+	}
+
+
+}
