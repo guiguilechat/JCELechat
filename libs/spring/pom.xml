@@ -20,6 +20,7 @@
 		<module>npc</module>
 		<module>prices</module>
 		<module>sde</module>
+		<module>templates</module>
 	</modules>
 	<build>
 		<plugins>

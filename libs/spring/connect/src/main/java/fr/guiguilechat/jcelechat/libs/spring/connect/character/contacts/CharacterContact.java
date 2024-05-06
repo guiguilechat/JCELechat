@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact.CharacterContactList;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACharDataRecord;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACharDataRecordList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecord;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecordList;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_contacts_contact_type;
 import jakarta.persistence.Entity;

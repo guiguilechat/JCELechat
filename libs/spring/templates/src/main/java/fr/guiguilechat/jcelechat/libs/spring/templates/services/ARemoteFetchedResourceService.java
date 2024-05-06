@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates.services;
+package fr.guiguilechat.jcelechat.libs.spring.templates.services;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -15,8 +15,8 @@ import org.springframework.scheduling.annotation.Async;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ARemoteFetchedResource;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.repositories.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IRemoteFetchedResourceRepository;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

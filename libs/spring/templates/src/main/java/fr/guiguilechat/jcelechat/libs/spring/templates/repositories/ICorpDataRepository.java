@@ -1,8 +1,8 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates.repositories;
+package fr.guiguilechat.jcelechat.libs.spring.templates.repositories;
 
 import org.springframework.data.repository.NoRepositoryBean;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACorpData;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACorpData;
 
 @NoRepositoryBean
 public interface ICorpDataRepository<Entity extends ACorpData<?>>

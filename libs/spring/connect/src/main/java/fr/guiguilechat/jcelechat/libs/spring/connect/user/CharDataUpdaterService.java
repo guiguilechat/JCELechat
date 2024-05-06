@@ -15,9 +15,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.affiliation.CharacterAffiliationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACharData;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.repositories.ICharDataRepository;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.services.ACharDataService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataService;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

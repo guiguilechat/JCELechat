@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates.model;
+package fr.guiguilechat.jcelechat.libs.spring.templates.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

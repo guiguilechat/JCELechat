@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates.services;
+package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
 
 import java.util.List;
 import java.util.stream.Stream;
@@ -6,10 +6,10 @@ import java.util.stream.Stream;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACharDataRecord;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACharDataRecordList;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.repositories.ICharDataRecordRepository;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.repositories.ICharDataRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecord;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecordList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRecordRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRepository;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;

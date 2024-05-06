@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.services.AConnectedCharDataService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.templates.AConnectedCharDataService;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

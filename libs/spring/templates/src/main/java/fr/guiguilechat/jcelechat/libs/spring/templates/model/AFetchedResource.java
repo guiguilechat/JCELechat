@@ -1,8 +1,7 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates.model;
+package fr.guiguilechat.jcelechat.libs.spring.templates.model;
 
 import java.time.Instant;
 
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -40,10 +39,6 @@ public abstract class AFetchedResource {
 		setFetched(true);
 		setLastEtag(etag);
 		setLastModified(lastModified);
-	}
-
-	public void updateMeta(Requested<?> response) {
-		updateMeta(response.getLastModifiedInstant(), response.getExpiresInstant(), response.getETag());
 	}
 
 }

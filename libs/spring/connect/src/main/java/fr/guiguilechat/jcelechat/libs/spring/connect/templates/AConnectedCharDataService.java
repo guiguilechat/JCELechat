@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates.services;
+package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
 
 import java.util.Map;
 import java.util.Set;
@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Lazy;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACharData;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.repositories.ICharDataRepository;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRepository;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;

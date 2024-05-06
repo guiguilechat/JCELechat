@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.affiliation;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.model.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
