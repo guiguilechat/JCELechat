@@ -7,10 +7,10 @@
 			<div class="navbar-nav">
 				<a class="nav-item nav-link active" th:href="@{/}">MEvEtic</a>
 			</div>
-			<div class="navbar-nav" sec:authorize="isAuthenticated()">
+			<div class="navbar-nav" sec:authorize="hasAuthority('LECHAT')">
 				<a class="nav-item nav-link active" th:href="@{/user/contacts}">contacts</a><
 				<a class="nav-item nav-link active" th:href="@{/user/roles}">roles</a>
-				<a class="nav-item nav-link active" th:href="@{/user/standings}">standings</a>
+				<a class="nav-item nav-link active" th:href="@{/standings}">standings</a>
 			</div>
 		</div>
 		

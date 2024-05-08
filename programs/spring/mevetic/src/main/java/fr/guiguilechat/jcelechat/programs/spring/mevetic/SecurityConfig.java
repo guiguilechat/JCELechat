@@ -7,6 +7,8 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
+import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
+
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
@@ -17,7 +19,7 @@ public class SecurityConfig {
 				.authorizeHttpRequests(authorize -> authorize
 		        .requestMatchers("/", "/index", "/webjars/**").permitAll()
 						.requestMatchers("/h2-console/**").permitAll()
-						.anyRequest().authenticated())
+		        .anyRequest().hasAuthority(EsiUserService.LECHAT_AUTHORITIES))
 				.oauth2Login(
 						Customizer.withDefaults())
 		;

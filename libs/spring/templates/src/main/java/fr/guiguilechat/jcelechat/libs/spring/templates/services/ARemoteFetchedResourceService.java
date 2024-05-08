@@ -63,6 +63,7 @@ public abstract class ARemoteFetchedResourceService<
 	 *           fetched.
 	 */
 	@Async
+	@Transactional
 	protected CompletableFuture<Entity> createIfMissing(Id entityId) {
 		Optional<Entity> op = repo().findById(entityId);
 		if (op.isEmpty()) {

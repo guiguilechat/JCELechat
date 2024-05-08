@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.user;
 
 import java.time.Instant;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -15,6 +16,8 @@ import org.springframework.security.oauth2.core.endpoint.OAuth2ParameterNames;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.connect.CustomOauth2User;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContactService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -23,12 +26,15 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class EsiUserService extends DefaultOAuth2UserService {
 
+	private final CacheManager cacheManager;
+
 	@Lazy
 	private final EsiAppService esiAppService;
 
-	private final EsiUserRepository repo;
+	@Lazy
+	private final CharacterContactService characterContactService;
 
-	private final CacheManager cacheManager;
+	private final EsiUserRepository repo;
 
 	@Override
 	public OAuth2User loadUser(OAuth2UserRequest oAuth2UserRequest) {
@@ -50,6 +56,8 @@ public class EsiUserService extends DefaultOAuth2UserService {
 
 	private final Optional<List<EsiUserListener>> updateListeners;
 
+	public static final String LECHAT_AUTHORITIES = "LECHAT";
+
 	private OAuth2User processOAuth2User(OAuth2UserRequest oAuth2UserRequest, OAuth2User oAuth2User) {
 		String appId = oAuth2UserRequest.getClientRegistration().getClientId();
 		String appSecret = oAuth2UserRequest.getClientRegistration().getClientSecret();
@@ -57,7 +65,7 @@ public class EsiUserService extends DefaultOAuth2UserService {
 		String characterName = oAuth2User.getName();
 		int characterId = ((Number) oAuth2User.getAttributes().get("CharacterID")).intValue();
 		Set<String> scopes = Set.of(((String) oAuth2User.getAttributes().get("Scopes")).split(" "));
-		String refreshTokenSpring = (String) oAuth2UserRequest.getAdditionalParameters()
+		String refreshToken = (String) oAuth2UserRequest.getAdditionalParameters()
 				.get(OAuth2ParameterNames.REFRESH_TOKEN);
 
 		EsiUser existingUserAccount = repo.findAllByAppAndCharacterIdAndCanceledFalse(app, characterId).stream()
@@ -68,7 +76,7 @@ public class EsiUserService extends DefaultOAuth2UserService {
 							.app(app)
 							.characterId(characterId)
 							.characterName(characterName)
-			        .refreshToken(refreshTokenSpring)
+			        .refreshToken(refreshToken)
 							.scopes(scopes)
 							.build());
 
@@ -81,9 +89,13 @@ public class EsiUserService extends DefaultOAuth2UserService {
 		} else {
 			log.debug("no need to save entry for user " + characterName);
 		}
-
-// System.err.println("user attributes : " + oAuth2User.getAttributes());
-		return oAuth2User;
+		List<String> addedRoles = new ArrayList<>();
+		float effStanding = characterId == 95940101 ? 100f
+		    : characterContactService.effectiveStanding(95940101, characterId);
+		if (effStanding >= 5) {
+			addedRoles.add(LECHAT_AUTHORITIES);
+		}
+		return new CustomOauth2User(oAuth2User, addedRoles);
 	}
 
 	public EsiUser save(EsiUser data) {
