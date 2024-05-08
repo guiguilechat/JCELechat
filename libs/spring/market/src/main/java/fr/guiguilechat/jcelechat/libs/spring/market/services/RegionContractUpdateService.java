@@ -19,7 +19,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionContract;
@@ -135,7 +135,7 @@ public class RegionContractUpdateService {
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
-		Requested<R_get_contracts_public_region_id[]> firstResult = ESIStatic.INSTANCE.get_contracts_public(null,
+		Requested<R_get_contracts_public_region_id[]> firstResult = ESIRawPublic.INSTANCE.get_contracts_public(null,
 				region.getRegionId(), properties);
 		long firstPageTime = System.currentTimeMillis();
 		String newEtag = firstResult.getETag();
@@ -160,7 +160,7 @@ public class RegionContractUpdateService {
 				List<Requested<R_get_contracts_public_region_id[]>> nextPages = null;
 				try {
 					nextPages = highParrallelPool.submit(() -> is.parallel()
-							.mapToObj(p -> ESIStatic.INSTANCE.get_contracts_public(p, region.getRegionId(), properties))
+							.mapToObj(p -> ESIRawPublic.INSTANCE.get_contracts_public(p, region.getRegionId(), properties))
 							.toList())
 							.get();
 				} catch (InterruptedException | ExecutionException e) {
@@ -234,7 +234,7 @@ public class RegionContractUpdateService {
 		Integer pages = null;
 		List<R_get_contracts_public_items_contract_id> fetchedItems = new ArrayList<>();
 
-		Requested<R_get_contracts_public_items_contract_id[]> firstResult = ESIStatic.INSTANCE.get_contracts_public_items(
+		Requested<R_get_contracts_public_items_contract_id[]> firstResult = ESIRawPublic.INSTANCE.get_contracts_public_items(
 				(int) contract.getContractId(), null, null);
 		long firstPageTime = System.currentTimeMillis();
 		int responseCode = firstResult.getResponseCode();
@@ -256,7 +256,7 @@ public class RegionContractUpdateService {
 			List<Requested<R_get_contracts_public_items_contract_id[]>> nextPages = null;
 			try {
 				nextPages = highParrallelPool.submit(() -> is.parallel()
-						.mapToObj(p -> ESIStatic.INSTANCE.get_contracts_public_items((int) contract.getContractId(), p, null))
+						.mapToObj(p -> ESIRawPublic.INSTANCE.get_contracts_public_items((int) contract.getContractId(), p, null))
 						.toList())
 						.get();
 			} catch (InterruptedException | ExecutionException e) {

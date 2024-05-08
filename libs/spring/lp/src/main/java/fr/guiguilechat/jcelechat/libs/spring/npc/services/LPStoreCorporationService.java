@@ -14,7 +14,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.LPStoreCorporationRepository;
@@ -72,7 +72,7 @@ public class LPStoreCorporationService implements CorporationsUpdateListener {
 			}
 		}
 		if (ret != null && ret.getName() == null) {
-			Requested<R_get_corporations_corporation_id> corpdataReq = ESIStatic.INSTANCE.get_corporations(corporationId,
+			Requested<R_get_corporations_corporation_id> corpdataReq = ESIRawPublic.INSTANCE.get_corporations(corporationId,
 					null);
 			if (corpdataReq.isOk()) {
 				R_get_corporations_corporation_id corpdata = corpdataReq.getOK();
@@ -102,7 +102,7 @@ public class LPStoreCorporationService implements CorporationsUpdateListener {
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
-		Requested<Integer[]> rids = ESIStatic.INSTANCE.get_corporations_npccorps(properties);
+		Requested<Integer[]> rids = ESIRawPublic.INSTANCE.get_corporations_npccorps(properties);
 		long fetchMs = System.currentTimeMillis();
 		if (rids.isOk()) {
 			Set<Integer> ids = Set.of(rids.getOK());

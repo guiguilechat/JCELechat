@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
@@ -15,9 +15,9 @@ import lombok.Getter;
 
 public class Wars {
 
-	public final ESIStatic esiConnection;
+	public final ESIRawPublic esiConnection;
 
-	public Wars(ESIStatic esiConnection) {
+	public Wars(ESIRawPublic esiConnection) {
 		this.esiConnection = esiConnection;
 	}
 

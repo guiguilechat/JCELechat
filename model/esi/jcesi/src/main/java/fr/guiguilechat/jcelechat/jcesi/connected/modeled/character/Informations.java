@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_gender;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
@@ -21,7 +21,7 @@ public class Informations {
 	}
 
 	public ObjHolder<R_get_characters_character_id> get() {
-		return ESIStatic.INSTANCE.cache().characters.get(con.characterId());
+		return ESIRawPublic.INSTANCE.cache().characters.get(con.characterId());
 	}
 
 	private IntHolder allianceId = null;

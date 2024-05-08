@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.FileTools;
@@ -104,7 +104,7 @@ public class NPCsTranslater {
 			LinkedHashMap<String, Agent> agents,
 			LinkedHashMap<String, Corporation> corporations, LinkedHashMap<Integer, LPOffer> offers) {
 		ESIAccess esi = ESIAccess.INSTANCE;
-		CacheStatic cache = ESIStatic.INSTANCE.cache();
+		CacheStatic cache = ESIRawPublic.INSTANCE.cache();
 
 		// prefetch
 		MapHolder<Integer, R_get_corporations_corporation_id>

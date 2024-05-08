@@ -18,6 +18,7 @@
 		<module>lpstore</module>
 		<module>market</module>
 		<module>mer</module>
+		<module>npc</module>
 		<module>prices</module>
 		<module>sde</module>
 		<module>templates</module>

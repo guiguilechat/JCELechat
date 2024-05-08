@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
@@ -82,7 +82,7 @@ public class InsuranceFraudController {
 							craftCost.materials.getOrDefault("Zydrine", 0.0), craftCost.materials.getOrDefault("Megacyte", 0.0)));
 				}
 			} else {
-				R_get_universe_types_type_id esiItem = ESIStatic.INSTANCE.cache().universe.types(prices.type_id).get();
+				R_get_universe_types_type_id esiItem = ESIRawPublic.INSTANCE.cache().universe.types(prices.type_id).get();
 				if (esiItem != null) {
 					name.set(esiItem.name);
 					published = esiItem.published;
@@ -188,7 +188,7 @@ public class InsuranceFraudController {
 		minerYield = Double.parseDouble(optYield.getText());
 		reprocMult = Double.parseDouble(optReproc.getText());
 		table.getItems().clear();
-		ESIStatic.INSTANCE.cache().insurance.prices().get().parallelStream().map(this::analyze)
+		ESIRawPublic.INSTANCE.cache().insurance.prices().get().parallelStream().map(this::analyze)
 		.filter(ana -> ana.published && ana.techLevel == 1).forEachOrdered(table.getItems()::add);
 		table.sort();
 	}

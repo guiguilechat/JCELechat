@@ -19,7 +19,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
@@ -44,7 +44,7 @@ public class ShowAssets {
 		while (true) {
 			try (PrintWriter corpWritter = new PrintWriter(new FileWriter(
 					new File(parentCorp, LocalDateTime.now(Clock.systemUTC()).format(DateTimeFormatter.ISO_DATE_TIME))))) {
-				int corpid = ESIStatic.INSTANCE.get_characters(acc.characterId(), null).getOK().corporation_id;
+				int corpid = ESIRawPublic.INSTANCE.get_characters(acc.characterId(), null).getOK().corporation_id;
 				corpWritter.println("name=" + acc.name());
 				corpWritter.println("corporation_id=" + corpid);
 				corpWritter.println("pages :");

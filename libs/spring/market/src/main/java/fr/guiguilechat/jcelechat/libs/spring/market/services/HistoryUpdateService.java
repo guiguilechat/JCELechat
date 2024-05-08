@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.model.HistoryReq;
@@ -86,7 +86,7 @@ public class HistoryUpdateService {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
 		req.setLastFetch(Instant.now());
-		Requested<R_get_markets_region_id_history[]> response = ESIStatic.INSTANCE.get_markets_history(req.getRegionId(),
+		Requested<R_get_markets_region_id_history[]> response = ESIRawPublic.INSTANCE.get_markets_history(req.getRegionId(),
 				req.getTypeId(), properties);
 
 		// add a random 0-2 hours (granularity minute) to the next fetch

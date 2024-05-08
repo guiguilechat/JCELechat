@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.programs.spring.mevetic.controllers.html;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import org.springframework.context.annotation.Lazy;
@@ -21,6 +22,10 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.roles.CharacterRo
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.model.Corporation;
+import fr.guiguilechat.jcelechat.libs.spring.npc.model.Faction;
+import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.services.FactionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
 import lombok.RequiredArgsConstructor;
 
@@ -43,6 +48,12 @@ public class UserStatusHtmlController {
 
 	@Lazy
 	private final CharacterStandingService characterStandingService;
+
+	@Lazy
+	private final CorporationService corporationService;
+
+	@Lazy
+	private final FactionService factionService;
 
 	protected void addUser(Model model, Authentication auth) {
 		model.addAttribute("charName", EsiUserService.getCharacterName(auth));
@@ -82,23 +93,52 @@ public class UserStatusHtmlController {
 		return "user/contacts";
 	}
 
+	public static record NamedStanding(String fromName, int fromId, float standing) {
+
+		public NamedStanding(CharacterStanding standing, String fromName) {
+			this(fromName, standing.getFromId(), standing.getStanding());
+		}
+
+	}
+
+	public NamedStanding factionStanding(CharacterStanding standing, Map<Integer, Faction> factions) {
+		Faction f = factions.get(standing.getFromId());
+		String name = f == null ? "faction" + standing.getFromId() : f.getName();
+		return new NamedStanding(standing, name);
+	}
+
+	public NamedStanding corporationStanding(CharacterStanding standing, Map<Integer, Corporation> corporations) {
+		Corporation c = corporations.get(standing.getFromId());
+		String name = c == null ? "faction" + standing.getFromId() : c.getName();
+		return new NamedStanding(standing, name);
+	}
+
+	public NamedStanding agentStanding(CharacterStanding standing) {
+		return new NamedStanding(standing, "");
+	}
+
 	@GetMapping("/standings")
 	public String getStandings(Model model, Authentication auth) {
 		addUser(model, auth);
 		List<CharacterStanding> userStandings = characterStandingService
 		    .list(EsiUserService.getCharacterId(auth));
 		if (userStandings != null) {
+			Map<Integer, Faction> factions = factionService.allById();
+			Map<Integer, Corporation> corporations = corporationService.allById();
 			model.addAttribute("agentStandings", userStandings.stream()
 			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.agent)
 			    .sorted(Comparator.comparing(s -> -s.getStanding()))
+			    .map(this::agentStanding)
 			    .toList());
 			model.addAttribute("corporationStandings", userStandings.stream()
 			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.npc_corp)
 			    .sorted(Comparator.comparing(s -> -s.getStanding()))
+			    .map(c -> corporationStanding(c, corporations))
 			    .toList());
 			model.addAttribute("factionStandings", userStandings.stream()
 			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.faction)
 			    .sorted(Comparator.comparing(s -> -s.getStanding()))
+			    .map(f -> factionStanding(f, factions))
 			    .toList());
 		}
 		return "user/standings";

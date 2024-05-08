@@ -12,7 +12,7 @@ import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 public class ShowDeathPerShipRatio {
 
 	public static void main(String[] args) {
-		CacheStatic cache = ESIStatic.INSTANCE.cache();
+		CacheStatic cache = ESIRawPublic.INSTANCE.cache();
 		for (Integer r : cache.universe.systems().get()) {
 			cache.universe.systems(r);
 		}

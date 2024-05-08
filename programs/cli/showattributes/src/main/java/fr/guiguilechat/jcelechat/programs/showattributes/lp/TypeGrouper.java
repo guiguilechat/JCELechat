@@ -8,13 +8,13 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 
 public class TypeGrouper {
-	CacheStatic access = ESIStatic.INSTANCE.cache();
+	CacheStatic access = ESIRawPublic.INSTANCE.cache();
 
 	/**
 	 * cached type id 2 semantic id.

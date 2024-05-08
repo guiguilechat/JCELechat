@@ -5,7 +5,7 @@ import java.util.HashMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.IPricing;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
@@ -19,9 +19,9 @@ public class Markets {
 
 	public static final Logger logger = LoggerFactory.getLogger(Markets.class);
 
-	public final ESIStatic esiConnection;
+	public final ESIRawPublic esiConnection;
 
-	public Markets(ESIStatic esiConnection) {
+	public Markets(ESIRawPublic esiConnection) {
 		this.esiConnection = esiConnection;
 	}
 

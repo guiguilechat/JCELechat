@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 
 /** modeled access to the esi disconnected operation. */
 public class ESIAccess {
 
-	public final ESIStatic connection;
+	public final ESIRawPublic connection;
 
-	private ESIAccess(ESIStatic connection) {
+	private ESIAccess(ESIRawPublic connection) {
 		this.connection = connection;
 		contracts = new Contracts(connection);
 		industry = new Industry(connection);
@@ -17,7 +17,7 @@ public class ESIAccess {
 		wars = new Wars(connection);
 	}
 
-	public static final ESIAccess INSTANCE = new ESIAccess(ESIStatic.INSTANCE);
+	public static final ESIAccess INSTANCE = new ESIAccess(ESIRawPublic.INSTANCE);
 
 	public final Contracts contracts;
 

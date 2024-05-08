@@ -1,7 +1,7 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title th:text="${'contacts of ' + charName}">page title</title>
+<title th:text="${'standings of ' + charName}">page title</title>
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
 <script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
@@ -26,7 +26,7 @@
 					<tbody>
 						<tr th:each="standing : ${factionStandings}">
 							<td th:text="${standing.fromId}"/>
-							<td th:text="${''}"/>
+							<td th:text="${standing.fromName}"/>
 							<td th:text="${standing.standing}"/>
 						</tr>
 					</tbody>
@@ -45,7 +45,7 @@
 					<tbody>
 						<tr th:each="standing : ${corporationStandings}">
 							<td th:text="${standing.fromId}"/>
-							<td th:text="${''}"/>
+							<td th:text="${standing.fromName}"/>
 							<td th:text="${standing.standing}"/>
 						</tr>
 					</tbody>
@@ -64,7 +64,7 @@
 					<tbody>
 						<tr th:each="standing : ${agentStandings}">
 							<td th:text="${standing.fromId}"/>
-							<td th:text="${''}"/>
+							<td th:text="${standing.fromName}"/>
 							<td th:text="${standing.standing}"/>
 						</tr>
 					</tbody>

@@ -12,13 +12,13 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 
 public class SortInvasionStandingGain {
 
 	public static void main(String[] args) {
-		CacheStatic esi = ESIStatic.INSTANCE.cache();
+		CacheStatic esi = ESIRawPublic.INSTANCE.cache();
 		Set<Integer> trigGroups = new HashSet<>(Arrays.asList(4028));
 		Set<Integer> edenGroups = new HashSet<>(Arrays.asList(4034, 4035, 4036, 4037));
 		for (int gid : trigGroups) {

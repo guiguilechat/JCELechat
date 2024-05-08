@@ -14,12 +14,12 @@ import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 
 /**
- * cache over an instance of {@link ESIStatic}. Typical use case is to call
- * {@link ESIStatic#INSTANCE}.cache
+ * cache over an instance of {@link ESIRawPublic}. Typical use case is to call
+ * {@link ESIRawPublic#INSTANCE}.cache
  */
-public class CacheStatic extends SwaggerDCCache<ESIStatic> {
+public class CacheStatic extends SwaggerDCCache<ESIRawPublic> {
 
-	public CacheStatic(ESIStatic swag) {
+	public CacheStatic(ESIRawPublic swag) {
 		super(swag);
 	}
 

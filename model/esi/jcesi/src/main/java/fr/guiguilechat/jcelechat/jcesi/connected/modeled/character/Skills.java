@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
@@ -55,7 +55,7 @@ public class Skills {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final MapHolder<String, Integer> name2Level = list()
-	.toMap(s -> ESIStatic.INSTANCE.cache().universe.types(s.skill_id).get().name, s -> s.active_skill_level);
+	    .toMap(s -> ESIRawPublic.INSTANCE.cache().universe.types(s.skill_id).get().name, s -> s.active_skill_level);
 
 	//
 	// training

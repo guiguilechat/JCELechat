@@ -8,7 +8,7 @@ import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_IDCAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_facilities;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
@@ -31,7 +31,7 @@ public class Industry {
 	}
 
 	@Getter(lazy = true)
-	private final MapHolder<Integer, IndustryIndices> systemIndices = ESIStatic.INSTANCE.cache().industry.systems()
+	private final MapHolder<Integer, IndustryIndices> systemIndices = ESIRawPublic.INSTANCE.cache().industry.systems()
 	.toMap(r -> r.solar_system_id, IndustryIndices::new);
 
 	/**
@@ -85,27 +85,27 @@ public class Industry {
 	 * all facilities in the game, by ids
 	 */
 	@Getter(lazy = true)
-	private final MapHolder<Long, R_get_industry_facilities> facilities = ESIStatic.INSTANCE.cache().industry
+	private final MapHolder<Long, R_get_industry_facilities> facilities = ESIRawPublic.INSTANCE.cache().industry
 	.facilities().toMap(fac -> fac.facility_id);
 
 	/**
 	 * all HS industry indices, by solar system id
 	 */
 	@Getter(lazy = true)
-	private final MapHolder<R_get_universe_systems_system_id, IndustryIndices> hSIndices = ESIStatic.INSTANCE
+	private final MapHolder<R_get_universe_systems_system_id, IndustryIndices> hSIndices = ESIRawPublic.INSTANCE
 	.cache().industry.systems()
 	.follow(this::prefetchSystems)
 	.filter(this::isHS)
-	.toMap(r -> ESIStatic.INSTANCE.cache().universe.systems(r.solar_system_id).get(), IndustryIndices::new);
+	    .toMap(r -> ESIRawPublic.INSTANCE.cache().universe.systems(r.solar_system_id).get(), IndustryIndices::new);
 
 	protected void prefetchSystems(List<R_get_industry_systems> l) {
 		for (R_get_industry_systems is : l) {
-			ESIStatic.INSTANCE.cache().universe.systems(is.solar_system_id);
+			ESIRawPublic.INSTANCE.cache().universe.systems(is.solar_system_id);
 		}
 	}
 
 	protected boolean isHS(R_get_industry_systems sys) {
-		return ESIStatic.INSTANCE.cache().universe.systems(sys.solar_system_id).get().security_status > 0.45f;
+		return ESIRawPublic.INSTANCE.cache().universe.systems(sys.solar_system_id).get().security_status > 0.45f;
 	}
 
 	/**

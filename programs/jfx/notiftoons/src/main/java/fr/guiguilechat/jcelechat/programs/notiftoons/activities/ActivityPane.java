@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Attributes;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
@@ -182,7 +182,7 @@ public class ActivityPane extends TableView<ActivityData> {
 				// pre cache esi fetch
 				.follow(orders -> {
 					for (R_get_characters_character_id_orders o : orders) {
-						ESIStatic.INSTANCE.cache().universe.types(o.type_id);
+						ESIRawPublic.INSTANCE.cache().universe.types(o.type_id);
 					}
 				})
 				// then convert
@@ -199,7 +199,7 @@ public class ActivityPane extends TableView<ActivityData> {
 	protected ActivityData convertOrder(R_get_characters_character_id_orders order, ESIAccount access) {
 		try {
 			LocalDateTime expiry = ESITools.fieldLocalDateTime(order.issued).plusDays(order.duration - 7);
-			R_get_universe_types_type_id t = ESIStatic.INSTANCE.cache().universe.types(order.type_id).get();
+			R_get_universe_types_type_id t = ESIRawPublic.INSTANCE.cache().universe.types(order.type_id).get();
 			ActivityData ret = new ActivityData(expiry, ActivityData.TYPE.Mk,
 					(t == null ? "unknown_" + order.type_id : t.name)
 							+ " *" + order.volume_remain + " " + FormatTools.formatPrice(order.price),

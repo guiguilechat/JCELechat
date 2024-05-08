@@ -15,7 +15,7 @@ public class ExampleStaticAccess {
 	public static void main(String[] args) {
 
 		/** a static access does not need an account to retrieve data */
-		ESIStatic stat = ESIStatic.INSTANCE;
+		ESIRawPublic stat = ESIRawPublic.INSTANCE;
 
 		int theforge = 10000002;
 		int veldspar = 1230;

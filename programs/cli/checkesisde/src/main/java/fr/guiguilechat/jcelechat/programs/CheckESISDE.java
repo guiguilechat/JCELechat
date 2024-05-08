@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Dogma;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Universe;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
@@ -24,8 +24,8 @@ public class CheckESISDE {
 
 		long start = System.currentTimeMillis();
 		// first preload everything
-		Universe universe = ESIStatic.INSTANCE.cache().universe;
-		Dogma dogma = ESIStatic.INSTANCE.cache().dogma;
+		Universe universe = ESIRawPublic.INSTANCE.cache().universe;
+		Dogma dogma = ESIRawPublic.INSTANCE.cache().dogma;
 		MapHolder<Integer, R_get_universe_categories_category_id> catMap = universe.categories()
 				.mapItems(catid -> universe.categories(catid)).toMap(h -> h.get().category_id, h -> h.get());
 		MapHolder<Integer, R_get_universe_groups_group_id> groupMap = universe.groups()

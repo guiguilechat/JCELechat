@@ -5,7 +5,7 @@ import java.text.DecimalFormatSymbols;
 import java.util.Locale;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
@@ -216,7 +216,7 @@ public interface TypeData {
 	}
 
 	public default double missileAttribute(int missileId, int attributeId, double defaultValue) {
-		R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache().universe.types(missileId).get();
+		R_get_universe_types_type_id type = ESIRawPublic.INSTANCE.cache().universe.types(missileId).get();
 		for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes att : type.dogma_attributes) {
 			if (att.attribute_id == attributeId) {
 				return att.value;

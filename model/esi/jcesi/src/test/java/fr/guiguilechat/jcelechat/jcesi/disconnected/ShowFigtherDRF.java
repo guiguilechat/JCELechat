@@ -11,11 +11,11 @@ public class ShowFigtherDRF {
 		int ATDRF = 2231;
 		int ABDRF = 2127;
 		int FIGHTERCAT = 87;
-		R_get_universe_categories_category_id cat = ESIStatic.INSTANCE.get_universe_categories(FIGHTERCAT, null).getOK();
+		R_get_universe_categories_category_id cat = ESIRawPublic.INSTANCE.get_universe_categories(FIGHTERCAT, null).getOK();
 		for (var gid : cat.groups) {
-			R_get_universe_groups_group_id group = ESIStatic.INSTANCE.get_universe_groups(gid, null).getOK();
+			R_get_universe_groups_group_id group = ESIRawPublic.INSTANCE.get_universe_groups(gid, null).getOK();
 			for (var eid : group.types) {
-				R_get_universe_types_type_id type = ESIStatic.INSTANCE.get_universe_types(eid, null).getOK();
+				R_get_universe_types_type_id type = ESIRawPublic.INSTANCE.get_universe_types(eid, null).getOK();
 				if (type.dogma_attributes != null) {
 					boolean named = false;
 					for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes att : type.dogma_attributes) {

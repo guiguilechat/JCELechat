@@ -20,7 +20,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetchLine;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.MarketFetchResult;
@@ -64,7 +64,7 @@ public class MarketFetchService {
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
-		Requested<R_get_markets_region_id_orders[]> firstResult = ESIStatic.INSTANCE.get_markets_orders(null, null,
+		Requested<R_get_markets_region_id_orders[]> firstResult = ESIRawPublic.INSTANCE.get_markets_orders(null, null,
 				region.getRegionId(), null, properties);
 		long firstPageTime = System.currentTimeMillis();
 		String newEtag = firstResult.getETag();
@@ -89,7 +89,7 @@ public class MarketFetchService {
 				List<Requested<R_get_markets_region_id_orders[]>> nextPages = null;
 				try {
 					nextPages = highParrallelPool.submit(() -> is.parallel()
-							.mapToObj(p -> ESIStatic.INSTANCE.get_markets_orders(null, p, region.getRegionId(), null, null))
+							.mapToObj(p -> ESIRawPublic.INSTANCE.get_markets_orders(null, p, region.getRegionId(), null, null))
 							.toList())
 							.get();
 				} catch (InterruptedException | ExecutionException e) {

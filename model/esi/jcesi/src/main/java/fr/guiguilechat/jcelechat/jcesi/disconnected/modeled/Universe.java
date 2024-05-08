@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_3_xnumber_ynumber_znumber;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
@@ -34,13 +34,13 @@ public class Universe {
 
 	@Getter
 	@Accessors(fluent = true)
-	private final ESIStatic con;
+	private final ESIRawPublic con;
 
 	@Getter
 	@Accessors(fluent = true)
 	private final fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Universe cache;
 
-	public Universe(ESIStatic connection) {
+	public Universe(ESIRawPublic connection) {
 		con = connection;
 		cache = connection.cache().universe;
 	}
@@ -75,7 +75,7 @@ public class Universe {
 				Requested<R_post_universe_names[]> newreq;
 
 				do {
-					newreq = ESIStatic.INSTANCE.post_universe_names(fullbuffer, null);
+					newreq = ESIRawPublic.INSTANCE.post_universe_names(fullbuffer, null);
 				} while (newreq == null || newreq.isServerError());
 
 				if (newreq.isOk()) {

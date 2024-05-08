@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
@@ -153,19 +153,19 @@ public class RegionalMarket implements IPricing {
 						List<Integer> systemsInRange = new ArrayList<>();
 						systemsInRange.add(centerId);
 						if (distance > 0) {
-							R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache().universe.regions(regionId).get();
+							R_get_universe_regions_region_id region = ESIRawPublic.INSTANCE.cache().universe.regions(regionId).get();
 							IntStream.of(region.constellations).parallel()
-									.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache().universe.constellations(ci).get().systems))
+									.flatMap(ci -> IntStream.of(ESIRawPublic.INSTANCE.cache().universe.constellations(ci).get().systems))
 									.filter(
 											si -> si != centerId
-													&& ESIStatic.INSTANCE.cache().route.get(null, null, centerId, flag.shortest, si)
+													&& ESIRawPublic.INSTANCE.cache().route.get(null, null, centerId, flag.shortest, si)
 															.get().size() <= distance)
 									.forEach(systemsInRange::add);
 						}
 						logger.debug("allowed systems in region " + regionId + " filter " + key + " are " + systemsInRange);
 						// then get all the stations in those systems
 						Set<Long> stationIds = systemsInRange.parallelStream()
-								.map(si -> ESIStatic.INSTANCE.cache().universe.systems(si).get())
+								.map(si -> ESIRawPublic.INSTANCE.cache().universe.systems(si).get())
 								.filter(sys -> !onlyHS || sys.security_status >= 0.45)
 								.flatMapToLong(sys -> IntStream.of(sys.stations).asLongStream())
 								.mapToObj(i -> (Long) i).collect(Collectors.toSet());

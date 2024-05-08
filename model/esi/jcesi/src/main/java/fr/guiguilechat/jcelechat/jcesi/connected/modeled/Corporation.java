@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmar
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Industry;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Market;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Wallet;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
@@ -61,8 +61,8 @@ public class Corporation {
 
 	// informations
 
-	@Getter(lazy=true)
-	private final ObjHolder<R_get_corporations_corporation_id> informations = ESIStatic.INSTANCE.cache().corporations
+	@Getter(lazy = true)
+	private final ObjHolder<R_get_corporations_corporation_id> informations = ESIRawPublic.INSTANCE.cache().corporations
 	.get(getId());
 
 	public String getName() {

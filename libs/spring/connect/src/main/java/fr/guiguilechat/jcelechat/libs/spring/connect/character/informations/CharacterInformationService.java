@@ -5,7 +5,7 @@ import java.util.Map;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
@@ -27,7 +27,7 @@ public class CharacterInformationService
 	@Override
 	protected Requested<R_get_characters_character_id> fetchData(Integer characterId,
 	    Map<String, String> properties) {
-		return ESIStatic.INSTANCE.get_characters(characterId, properties);
+		return ESIRawPublic.INSTANCE.get_characters(characterId, properties);
 	}
 
 

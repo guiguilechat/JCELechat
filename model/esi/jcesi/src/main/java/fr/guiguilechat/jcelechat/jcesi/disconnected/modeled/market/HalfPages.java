@@ -6,7 +6,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
@@ -47,7 +47,7 @@ public class HalfPages {
 
 		fullOrders.filter(order -> order.is_buy_order == buyOrder).follow(l -> {
 
-			Requested<R_get_markets_region_id_orders[]> fullpage = ESIStatic.INSTANCE.get_markets_orders(null, null,
+			Requested<R_get_markets_region_id_orders[]> fullpage = ESIRawPublic.INSTANCE.get_markets_orders(null, null,
 					regionId, null, null);
 			if (fullpage.isOk()) {
 				Instant fetchedModified = fullpage.getLastModifiedInstant();
@@ -97,8 +97,8 @@ public class HalfPages {
 	}
 
 	protected void fetchHalf(ListHolderImpl<R_get_markets_region_id_orders> ret) {
-		Requested<List<R_get_markets_region_id_orders>> halfPages = ESIStatic.INSTANCE
-				.requestGetPages((p, h) -> ESIStatic.INSTANCE
+		Requested<List<R_get_markets_region_id_orders>> halfPages = ESIRawPublic.INSTANCE
+				.requestGetPages((p, h) -> ESIRawPublic.INSTANCE
 						.get_markets_orders(buyOrder ? order_type.buy : order_type.sell, p, regionId, null, h), null);
 		if (halfPages.isOk()) {
 			Instant halfModified = halfPages.getLastModifiedInstant();

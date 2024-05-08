@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.industry.model.IndustryFetchResult;
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.industry.model.IndustryFetchResult.IndustryFetchResultBuilder;
@@ -36,7 +36,7 @@ public class IndustryFetchService {
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
-		Requested<R_get_industry_systems[]> response = ESIStatic.INSTANCE.get_industry_systems(properties);
+		Requested<R_get_industry_systems[]> response = ESIRawPublic.INSTANCE.get_industry_systems(properties);
 		IndustryFetchResultBuilder builder = IndustryFetchResult.builder().responseCode(response.getResponseCode());
 		switch (response.getResponseCode()) {
 			case 200:

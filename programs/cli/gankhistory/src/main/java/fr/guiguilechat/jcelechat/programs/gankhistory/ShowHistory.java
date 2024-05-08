@@ -26,7 +26,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.ArrayType;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_killmails_killmail_id_killmail_hash;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
 
@@ -188,7 +188,7 @@ public class ShowHistory {
 
 		StringBuilder header = new StringBuilder("date");
 		for (int group : groups) {
-			String gname = ESIStatic.INSTANCE.cache().universe.groups(group).get().name;
+			String gname = ESIRawPublic.INSTANCE.cache().universe.groups(group).get().name;
 			header.append("\t").append(gname + " kills").append("\t").append(gname + " systems");
 		}
 		System.out.println(header + "\tall Kills\tall systems");
@@ -212,7 +212,7 @@ public class ShowHistory {
 	}
 
 	protected static ObjHolder<R_get_killmails_killmail_id_killmail_hash> fetch(EZKB km) {
-		return ESIStatic.INSTANCE.cache().killmails.get(km.zkb.hash, km.killmail_id);
+		return ESIRawPublic.INSTANCE.cache().killmails.get(km.zkb.hash, km.killmail_id);
 	}
 
 	protected static int convertSystem(EZKB km) {
@@ -231,7 +231,7 @@ public class ShowHistory {
 
 	public static void mainKills(String... args) {
 		int[] types = IntStream.of(POLICEDRONES_GROUP, SENTRY_GROUP, CONCORD_GROUP)
-				.mapToObj(gid -> ESIStatic.INSTANCE.cache().universe.groups(gid)).map(h -> h.get())
+				.mapToObj(gid -> ESIRawPublic.INSTANCE.cache().universe.groups(gid)).map(h -> h.get())
 				.flatMapToInt(g -> IntStream.of(g.types)).toArray();
 		System.err
 		.println("" + types.length + " types : " + IntStream.of(types).sorted().boxed().collect(Collectors.toList()));

@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.programs.insuranceeval;
 import java.util.Map;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
@@ -13,7 +13,7 @@ public class InsuranceEval {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		CacheStatic cache = ESIStatic.INSTANCE.cache();
+		CacheStatic cache = ESIRawPublic.INSTANCE.cache();
 		ListHolder<R_get_insurance_prices> prices = cache.insurance.prices().filter(ins -> ins.levels[0].cost > 0);
 		MapHolder<Integer, R_get_insurance_prices> id2Data = prices.toMap(price -> price.type_id);
 		MapHolder<Integer, Float> id2Payout0 = prices.toMap(price -> price.type_id, price -> price.levels[0].payout);

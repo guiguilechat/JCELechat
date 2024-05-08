@@ -12,7 +12,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
@@ -46,7 +46,7 @@ public class CorporationOfferUpdateService {
 		if (lsc.getLastEtag() != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lsc.getLastEtag());
 		}
-		Requested<R_get_loyalty_stores_corporation_id_offers[]> offers = ESIStatic.INSTANCE
+		Requested<R_get_loyalty_stores_corporation_id_offers[]> offers = ESIRawPublic.INSTANCE
 				.get_loyalty_stores_offers(lsc.getCorporationId(), properties);
 		if (offers.isOk()) {
 			log.debug("  fetched " + offers.getOK().length + " lp offers for corporation " + lsc.getCorporationId());

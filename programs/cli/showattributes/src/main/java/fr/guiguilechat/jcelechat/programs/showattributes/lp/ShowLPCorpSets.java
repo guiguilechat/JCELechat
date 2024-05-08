@@ -12,12 +12,12 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 
 public class ShowLPCorpSets {
 
-	private static CacheStatic access = ESIStatic.INSTANCE.cache();
+	private static CacheStatic access = ESIRawPublic.INSTANCE.cache();
 
 	public static class GroupData {
 

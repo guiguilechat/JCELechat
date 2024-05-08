@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
@@ -39,7 +39,7 @@ public class CharacterAffiliationService
 	@Override
 	protected Requested<R_post_characters_affiliation> fetchData(Integer characterId,
 	    Map<String, String> properties) {
-		Requested<R_post_characters_affiliation[]> ret = ESIStatic.INSTANCE.post_affiliation(new int[] { characterId },
+		Requested<R_post_characters_affiliation[]> ret = ESIRawPublic.INSTANCE.post_affiliation(new int[] { characterId },
 		    properties);
 		return ret.mapBody(arr -> arr[0]).mapHeaders(this::addExpire);
 	}
@@ -56,7 +56,7 @@ public class CharacterAffiliationService
 		for (int i = 0; i < data.size(); i += maxSimultFetch) {
 			List<? extends CharacterAffiliation> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
 			int[] charIds = subData.stream().mapToInt(CharacterAffiliation::getCharacterId).toArray();
-			Requested<R_post_characters_affiliation[]> response = ESIStatic.INSTANCE.post_affiliation(charIds, null);
+			Requested<R_post_characters_affiliation[]> response = ESIRawPublic.INSTANCE.post_affiliation(charIds, null);
 			int responseCode = response.getResponseCode();
 			switch (responseCode) {
 			case 200:

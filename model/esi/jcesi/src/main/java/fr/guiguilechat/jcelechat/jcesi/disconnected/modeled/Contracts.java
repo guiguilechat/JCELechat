@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_bids_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
@@ -17,9 +17,9 @@ import lombok.RequiredArgsConstructor;
 
 public class Contracts {
 
-	public final ESIStatic esiConnection;
+	public final ESIRawPublic esiConnection;
 
-	public Contracts(ESIStatic esiConnection) {
+	public Contracts(ESIRawPublic esiConnection) {
 		this.esiConnection = esiConnection;
 	}
 
@@ -66,14 +66,14 @@ public class Contracts {
 
 		protected static ContractDesc contractOf(R_get_contracts_public_region_id c) {
 			return new ContractDesc(c,
-					ESIStatic.INSTANCE
+					ESIRawPublic.INSTANCE
 					.requestGetPages(
-							(page, props) -> ESIStatic.INSTANCE.get_contracts_public_items(c.contract_id, page, props),
+							(page, props) -> ESIRawPublic.INSTANCE.get_contracts_public_items(c.contract_id, page, props),
 							null)
 					.getOK(),
-					ESIStatic.INSTANCE
+					ESIRawPublic.INSTANCE
 					.requestGetPages(
-							(page, props) -> ESIStatic.INSTANCE.get_contracts_public_bids(c.contract_id, page, props),
+							(page, props) -> ESIRawPublic.INSTANCE.get_contracts_public_bids(c.contract_id, page, props),
 							null)
 					.getOK());
 		}
@@ -113,11 +113,11 @@ public class Contracts {
 				if (ret == null) {
 					ret = raws.follow(contractsList -> {
 						for (R_get_contracts_public_region_id contract : contractsList) {
-							ESIStatic.INSTANCE.cache().contracts.public_items(contract.contract_id);
-							ESIStatic.INSTANCE.cache().contracts.public_bids(contract.contract_id);
+							ESIRawPublic.INSTANCE.cache().contracts.public_items(contract.contract_id);
+							ESIRawPublic.INSTANCE.cache().contracts.public_bids(contract.contract_id);
 						}
-					}).mapItems(c -> new ContractDesc(c, ESIStatic.INSTANCE.cache().contracts.public_items(c.contract_id).get(),
-							ESIStatic.INSTANCE.cache().contracts.public_bids(c.contract_id).get()));
+					}).mapItems(c -> new ContractDesc(c, ESIRawPublic.INSTANCE.cache().contracts.public_items(c.contract_id).get(),
+							ESIRawPublic.INSTANCE.cache().contracts.public_bids(c.contract_id).get()));
 					cacheRegionContracts.put(regionId, ret);
 				}
 			}
@@ -144,10 +144,10 @@ public class Contracts {
 					ret = raws
 							.filter(c -> c.type == get_contracts_public_region_id_type.item_exchange).follow(map -> {
 								for (R_get_contracts_public_region_id cid : map) {
-									ESIStatic.INSTANCE.cache().contracts.public_items(cid.contract_id);
+									ESIRawPublic.INSTANCE.cache().contracts.public_items(cid.contract_id);
 								}
 							}).mapItems(
-									c -> new ContractDesc(c, ESIStatic.INSTANCE.cache().contracts.public_items(c.contract_id).get(), null));
+									c -> new ContractDesc(c, ESIRawPublic.INSTANCE.cache().contracts.public_items(c.contract_id).get(), null));
 					cacheRegionItemExchanges.put(regionId, ret);
 				}
 			}

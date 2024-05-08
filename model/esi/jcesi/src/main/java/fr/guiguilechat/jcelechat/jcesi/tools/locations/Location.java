@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
@@ -67,8 +67,8 @@ public class Location {
 		return switch (type) {
 		case REGION, CONSTEL -> null;
 		case SYSTEM -> (R_get_universe_systems_system_id) ref;
-		case CONQSTATION, OFFICE, STATION -> ESIStatic.INSTANCE.cache().universe.systems(((R_get_universe_stations_station_id) ref).system_id).get();
-		case STRUCTURE -> ESIStatic.INSTANCE.cache().universe.systems(((R_get_universe_structures_structure_id) ref).solar_system_id)
+		case CONQSTATION, OFFICE, STATION -> ESIRawPublic.INSTANCE.cache().universe.systems(((R_get_universe_stations_station_id) ref).system_id).get();
+		case STRUCTURE -> ESIRawPublic.INSTANCE.cache().universe.systems(((R_get_universe_structures_structure_id) ref).solar_system_id)
 		.get();
 		default -> throw new IllegalArgumentException("Unexpected value: " + type);
 		};
@@ -88,7 +88,7 @@ public class Location {
 		return switch (type) {
 		case REGION -> null;
 		case CONSTEL -> (R_get_universe_constellations_constellation_id) ref;
-		case SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIStatic.INSTANCE.cache().universe.constellations(system().constellation_id).get();
+		case SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIRawPublic.INSTANCE.cache().universe.constellations(system().constellation_id).get();
 		default -> throw new IllegalArgumentException("Unexpected value: " + type);
 		};
 	}
@@ -105,7 +105,7 @@ public class Location {
 		}
 		return switch (type) {
 		case REGION -> (R_get_universe_regions_region_id) ref;
-		case CONSTEL, SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIStatic.INSTANCE.cache().universe.regions(constel().region_id).get();
+		case CONSTEL, SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIRawPublic.INSTANCE.cache().universe.regions(constel().region_id).get();
 		default -> throw new IllegalArgumentException("Unexpected value: " + type);
 		};
 	}
@@ -135,12 +135,12 @@ public class Location {
 			return switch (prefix) {
 			case 10:// region
 			{
-				R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache().universe.regions((int) locationid).get();
+				R_get_universe_regions_region_id region = ESIRawPublic.INSTANCE.cache().universe.regions((int) locationid).get();
 				yield new Location(region, locationid, region.name, LOCTYPE.REGION);
 			}
 			case 20:// constellation
 			{
-				R_get_universe_constellations_constellation_id constel = ESIStatic.INSTANCE.cache().universe
+				R_get_universe_constellations_constellation_id constel = ESIRawPublic.INSTANCE.cache().universe
 						.constellations((int) locationid).get();
 				yield new Location(constel, locationid, constel.name, LOCTYPE.CONSTEL);
 			}
@@ -148,7 +148,7 @@ public class Location {
 			case 31:
 			case 32:// system
 			{
-				R_get_universe_systems_system_id system = ESIStatic.INSTANCE.cache().universe.systems((int) locationid).get();
+				R_get_universe_systems_system_id system = ESIRawPublic.INSTANCE.cache().universe.systems((int) locationid).get();
 				yield new Location(system, locationid, system.name, LOCTYPE.SYSTEM);
 			}
 			case 60:
@@ -157,19 +157,19 @@ public class Location {
 			case 63:
 			case 64:// station
 			{
-				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid).get();
+				station = ESIRawPublic.INSTANCE.cache().universe.stations((int) locationid).get();
 				yield new Location(station, locationid, station == null ? "missing" + locationid : station.name,
 						LOCTYPE.STATION);
 			}
 			case 66:// office id
 			{
-				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid - 6000001).get();
+				station = ESIRawPublic.INSTANCE.cache().universe.stations((int) locationid - 6000001).get();
 				yield new Location(station, locationid, station == null ? "missing" + locationid : station.name,
 						LOCTYPE.OFFICE);
 			}
 			case 67:// conquerable office
 			{
-				station = ESIStatic.INSTANCE.cache().universe.stations((int) locationid - 6000000).get();
+				station = ESIRawPublic.INSTANCE.cache().universe.stations((int) locationid - 6000000).get();
 				yield new Location(station, locationid, station == null ? "missing" + locationid : station.name,
 						LOCTYPE.CONQSTATION);
 			}
