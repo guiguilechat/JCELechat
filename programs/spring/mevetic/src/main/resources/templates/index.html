@@ -4,15 +4,11 @@
 <title>index page</title>
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
-<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}" ></script>
-<script th:src="@{/webjars/jquery/jquery.min.js}" ></script>
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 </head>
 <body>
+    <header th:insert="~{fragments/general.html :: header}"> </header>
 	This is the index page.
-	<ul>
-	<li><a th:href="@{/connected/user/}">my account</a></li>
-		<li><a th:href="@{/login}">log in</a></li>
-		<li><a th:href="@{/logout}">log out</a></li>
-	</ul>
 </body>
 </html>

@@ -3,7 +3,10 @@ package fr.guiguilechat.jcelechat.libs.spring.npc.services;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.context.event.EventListener;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -12,7 +15,6 @@ import fr.guiguilechat.jcelechat.libs.spring.npc.model.Corporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.CorporationRepository;
 import fr.guiguilechat.jcelechat.libs.spring.templates.services.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
-import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -32,12 +34,13 @@ public class CorporationService extends
 		return ESIRawPublic.INSTANCE.get_corporations(id, properties);
 	}
 
-	@PostConstruct()
+	@Async
+	@EventListener(ApplicationStartedEvent.class)
 	protected void addNPCCorp() {
 		Requested<Integer[]> corpIds = ESIRawPublic.INSTANCE.get_corporations_npccorps(null);
 		if (corpIds.isOk()) {
 			for (int i : corpIds.getOK()) {
-				fetched(i);
+				createIfMissing(i);
 			}
 		}
 	}

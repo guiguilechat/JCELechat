@@ -62,6 +62,7 @@ public abstract class ARemoteFetchedResourceService<
 	 *           does not require fetch, or that will hold the entity once it is
 	 *           fetched.
 	 */
+	@Async
 	protected CompletableFuture<Entity> createIfMissing(Id entityId) {
 		Optional<Entity> op = repo().findById(entityId);
 		if (op.isEmpty()) {
