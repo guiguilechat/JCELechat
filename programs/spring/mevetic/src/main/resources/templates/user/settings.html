@@ -9,22 +9,13 @@
 </head>
 <body>
     <header th:insert="~{fragments/general.html :: header}"> </header>
-	<h1>
-		Hello <span th:text="${charName}" />
-	</h1>
+	<h1>Settings for <span th:text="${charName}" /></h1>
 	<div class="container-fluid border">
 		<div class="row border" th:if="${affiliation != null}">
 			<ul>
 				<li th:if="${affiliation.corporation_id != null}" th:text="${'corporation id='+affiliation.corporation_id}" />
 				<li th:if="${affiliation.alliance_id != null}" th:text="${'alliance id='+affiliation.alliance_id}" />
 				<li th:if="${affiliation.faction_id != null}" th:text="${'faction id='+affiliation.faction_id}" />
-			</ul>
-		</div>
-		<div class="row border">
-			<ul>
-				<li><a href="contacts">contacts</a></li>
-				<li><a href="roles">roles</a></li>
-				<li><a href="standings">standings</a></li>
 			</ul>
 		</div>
 	</div>

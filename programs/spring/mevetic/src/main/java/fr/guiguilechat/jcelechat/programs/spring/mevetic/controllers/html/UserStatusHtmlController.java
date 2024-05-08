@@ -31,7 +31,7 @@ import fr.guiguilechat.jcelechat.programs.spring.mevetic.AuthUtils;
 import lombok.RequiredArgsConstructor;
 
 @Controller
-@RequestMapping("/connected/user")
+@RequestMapping("/user")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class UserStatusHtmlController {
 
@@ -64,7 +64,7 @@ public class UserStatusHtmlController {
 		if (oca.isPresent()) {
 			model.addAttribute("affiliation", oca.get());
 		}
-		return "user/index";
+		return "user/settings";
 	}
 
 	@GetMapping("/roles")

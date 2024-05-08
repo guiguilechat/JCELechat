@@ -5,13 +5,20 @@
 		class="navbar navbar-expand-lg  navbar-dark bg-dark">
 		<div class="collapse navbar-collapse">
 			<div class="navbar-nav">
-				<a class="nav-item nav-link active" th:href="@{/}">Home</a>
+				<a class="nav-item nav-link active" th:href="@{/}">MEvEtic</a>
+			</div>
+			<div class="navbar-nav" sec:authorize="isAuthenticated()">
+				<a class="nav-item nav-link active" th:href="@{/user/contacts}">contacts</a><
+				<a class="nav-item nav-link active" th:href="@{/user/roles}">roles</a>
+				<a class="nav-item nav-link active" th:href="@{/user/standings}">standings</a>
 			</div>
 		</div>
+		
 		<div sec:authorize="isAuthenticated()">
-			<a th:href="@{/connected/user/}" sec:authentication="name"/><br />
+			<a th:href="@{/user/}" sec:authentication="name"/><br />
 			<a th:href="@{/logout}">log out</a>
 		</div>
+		<img sec:authorize="isAuthenticated()" th:src="${'https://images.evetech.net/characters/'+#authentication.principal.attributes.CharacterID+'/portrait'}" width="50" height="50"/>
 		<div>
 			<a th:href="@{/login}">log in</a>
 		</div>
