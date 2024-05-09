@@ -90,9 +90,10 @@ create a new random password, user & db
 
 ```bash
 PGPASSWORD=$(tr -dc 'A-Za-z0-9!"#$%&()*+,-./:;<=>?@[\]^_{|}~' </dev/urandom | head -c 32  ; echo)
-sudo -u postgres psql -c "create user eveproxy with login PASSWORD '$PGPASSWORD';"
-sudo -u postgres psql -c "create database eveproxy with owner 'eveproxy' encoding 'utf8';"
-sudo -u postgres psql -c "grant all privileges on database eveproxy to eveproxy;"
+sudo -u postgres psql\
+ -c "create user eveproxy with login PASSWORD '$PGPASSWORD';"\
+ -c "create database eveproxy with owner 'eveproxy' encoding 'utf8';"\
+ -c "grant all privileges on database eveproxy to eveproxy;"
 ```
 
 

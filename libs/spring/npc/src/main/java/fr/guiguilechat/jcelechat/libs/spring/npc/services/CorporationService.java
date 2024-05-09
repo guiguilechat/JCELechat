@@ -24,9 +24,9 @@ public class CorporationService extends
 
 	@Override
 	protected Corporation create(Integer entityId) {
-		return Corporation.builder()
-		    .corporationId(entityId)
-		    .build();
+		Corporation ret = new Corporation();
+		ret.setCorporationId(entityId);
+		return ret;
 	}
 
 	@Override

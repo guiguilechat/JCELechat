@@ -14,7 +14,7 @@ import lombok.experimental.SuperBuilder;
  * @param <Self>          self implementation
  * @param <FetchResource> actual entity that hold the fetch parameters.
  */
-@SuperBuilder
+@SuperBuilder(toBuilder = true)
 @Getter
 @MappedSuperclass
 @NoArgsConstructor

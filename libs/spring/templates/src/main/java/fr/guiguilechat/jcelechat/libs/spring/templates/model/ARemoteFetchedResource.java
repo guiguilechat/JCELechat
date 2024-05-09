@@ -5,7 +5,6 @@ import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.experimental.SuperBuilder;
 
 /**
  * representation of a fetched resource that is linked to a remote entity. The
@@ -19,7 +18,6 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @MappedSuperclass
 @Setter
-@SuperBuilder
 public abstract class ARemoteFetchedResource<RemoteId, Fetched> extends AFetchedResource {
 
 	public abstract RemoteId getRemoteId();

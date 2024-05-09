@@ -36,7 +36,9 @@ public class CharacterStandingService extends ACharDataRecordListService<
 
 	@Override
 	protected CharacterStandingList create(Integer characterId) {
-		return CharacterStandingList.builder().characterId(characterId).build();
+		CharacterStandingList ret = new CharacterStandingList();
+		ret.setCharacterId(characterId);
+		return ret;
 	}
 
 	@Getter(lazy = true)

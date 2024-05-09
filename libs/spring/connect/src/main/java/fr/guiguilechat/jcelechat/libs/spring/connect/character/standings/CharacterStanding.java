@@ -14,11 +14,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import lombok.experimental.SuperBuilder;
 
 @Entity(name = "EsiConnectCharacterStanding")
 @Table(name = "esi_connect_characterstanding")
-@SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -29,7 +27,6 @@ public class CharacterStanding extends
 
 	@Entity(name = "EsiConnectCharacterStandingList")
 	@Table(name = "esi_connect_characterstandinglist")
-	@SuperBuilder
 	@NoArgsConstructor
 	@Getter
 	@Setter
@@ -47,11 +44,7 @@ public class CharacterStanding extends
 	private float standing;
 
 	public static CharacterStanding from(M_get_standings_3 from) {
-		return builder()
-				.fromId(from.from_id)
-				.fromType(from.from_type)
-				.standing(from.standing)
-				.build();
+		return new CharacterStanding(from.from_id, from.from_type, from.standing);
 	}
 
 

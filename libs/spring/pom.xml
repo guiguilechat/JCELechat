@@ -15,7 +15,7 @@
 	<description>pom of the JCELechat libraries made for spring</description>
 	<modules>
 		<module>connect</module>
-		<module>lpstore</module>
+		<module>lp</module>
 		<module>market</module>
 		<module>mer</module>
 		<module>npc</module>

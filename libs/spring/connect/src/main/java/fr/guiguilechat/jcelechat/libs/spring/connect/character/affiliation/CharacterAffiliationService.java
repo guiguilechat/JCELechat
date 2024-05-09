@@ -37,9 +37,9 @@ public class CharacterAffiliationService
 
 	@Override
 	protected CharacterAffiliation create(Integer characterId) {
-		return CharacterAffiliation.builder()
-		    .characterId(characterId)
-		    .build();
+		CharacterAffiliation ret = new CharacterAffiliation();
+		ret.setCharacterId(characterId);
+		return ret;
 	}
 
 	@Override

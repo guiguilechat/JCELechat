@@ -26,7 +26,9 @@ public class CharacterRolesService
 
 	@Override
 	protected CharacterRoles create(Integer characterId) {
-		return CharacterRoles.builder().characterId(characterId).build();
+		CharacterRoles ret = new CharacterRoles();
+		ret.setCharacterId(characterId);
+		return ret;
 	}
 
 	@Getter(lazy = true)

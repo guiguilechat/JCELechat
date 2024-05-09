@@ -14,11 +14,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import lombok.experimental.SuperBuilder;
 
 @Entity(name = "EsiConnectCharacterContact")
 @Table(name = "esi_connect_charactercontact")
-@SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -29,7 +27,6 @@ public class CharacterContact extends
 
 	@Entity(name = "EsiConnectCharacterContactList")
 	@Table(name = "esi_connect_charactercontactlist")
-	@SuperBuilder
 	@NoArgsConstructor
 	@Getter
 	@Setter
@@ -67,13 +64,7 @@ public class CharacterContact extends
 	private boolean watched;
 
 	public static CharacterContact from(R_get_characters_character_id_contacts from) {
-		return builder()
-		    .blocked(from.is_blocked)
-		    .contactId(from.contact_id)
-		    .contactType(from.contact_type)
-		    .standing(from.standing)
-		    .watched(from.is_watched)
-		    .build();
+		return new CharacterContact(from.is_blocked, from.contact_id, from.contact_type, from.standing, from.is_watched);
 	}
 
 }

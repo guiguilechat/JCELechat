@@ -4,7 +4,6 @@ import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.experimental.SuperBuilder;
 
 /**
  * Character data that is fetched as a list of items.
@@ -17,7 +16,6 @@ import lombok.experimental.SuperBuilder;
 @MappedSuperclass
 @NoArgsConstructor
 @Setter
-@SuperBuilder
 public abstract class ACharDataRecordList<Fetched, RecordType extends ACharDataRecord<?, ?>>
     extends ACharData<Fetched[]> {
 

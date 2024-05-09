@@ -11,11 +11,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.experimental.SuperBuilder;
 
 @Entity(name = "EsiConnectCharacterInformation")
 @Table(name = "esi_connect_characterinformation")
-@SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

@@ -27,6 +27,7 @@ spring:
          client:
             registration:
                eve:
+                  clientName: contacts&standings
                   provider: ccplz
                   scope: >-
                      esi-characters.read_contacts.v1,
@@ -35,8 +36,8 @@ spring:
 #                     esi-skills.read_skills.v1,
 #                     esi-wallet.read_character_wallet.v1
 # you need to add in eclipse application "VM arguments" : 
-# -Dspring.security.oauth2.client.registration.eve.clientId=[app id]]
-# -Dspring.security.oauth2.client.registration.eve.clientSecret=[app secret]]
+# -Dspring.security.oauth2.client.registration.eve.clientId=[app id]
+# -Dspring.security.oauth2.client.registration.eve.clientSecret=[app secret]
 logging:
   level:
     fr.guiguilechat.jcelechat.jcesi: trace

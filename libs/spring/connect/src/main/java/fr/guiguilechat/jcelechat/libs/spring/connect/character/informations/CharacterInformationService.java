@@ -19,9 +19,9 @@ public class CharacterInformationService
 
 	@Override
 	protected CharacterInformation create(Integer characterId) {
-		return CharacterInformation.builder()
-		    .characterId(characterId)
-		    .build();
+		CharacterInformation ret = new CharacterInformation();
+		ret.setCharacterId(characterId);
+		return ret;
 	}
 
 	@Override

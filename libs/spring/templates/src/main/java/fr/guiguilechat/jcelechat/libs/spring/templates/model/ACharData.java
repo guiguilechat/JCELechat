@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.experimental.SuperBuilder;
 
 /**
  * a fetched resource that relates to a remote character.
@@ -18,7 +17,6 @@ import lombok.experimental.SuperBuilder;
 @MappedSuperclass
 @NoArgsConstructor
 @Setter
-@SuperBuilder
 public abstract class ACharData<Fetched> extends ARemoteFetchedResource<Integer, Fetched> {
 
 	@Id

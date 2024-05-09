@@ -60,49 +60,54 @@ public class EsiUserService extends DefaultOAuth2UserService {
 	public static final String LECHAT_AUTHORITIES = "LECHAT";
 
 	private OAuth2User processOAuth2User(OAuth2UserRequest oAuth2UserRequest, OAuth2User oAuth2User) {
-		String appId = oAuth2UserRequest.getClientRegistration().getClientId();
-		String appSecret = oAuth2UserRequest.getClientRegistration().getClientSecret();
-		EsiApp app = esiAppService.findOrCreate(appId, appSecret);
-		String characterName = oAuth2User.getName();
-		int characterId = ((Number) oAuth2User.getAttributes().get("CharacterID")).intValue();
-		Set<String> scopes = Set.of(((String) oAuth2User.getAttributes().get("Scopes")).split(" "));
-		String refreshToken = (String) oAuth2UserRequest.getAdditionalParameters()
-				.get(OAuth2ParameterNames.REFRESH_TOKEN);
+		try {
+			String appId = oAuth2UserRequest.getClientRegistration().getClientId();
+			String appSecret = oAuth2UserRequest.getClientRegistration().getClientSecret();
+			EsiApp app = esiAppService.findOrCreate(appId, appSecret);
+			String characterName = oAuth2User.getName();
+			int characterId = ((Number) oAuth2User.getAttributes().get("CharacterID")).intValue();
+			Set<String> scopes = Set.of(((String) oAuth2User.getAttributes().get("Scopes")).split(" "));
+			String refreshToken = (String) oAuth2UserRequest.getAdditionalParameters()
+			    .get(OAuth2ParameterNames.REFRESH_TOKEN);
 
-		EsiUser existingUserAccount = repo.findAllByAppAndCharacterIdAndCanceledFalse(app, characterId).stream()
-				.filter(user -> user.getScopes().containsAll(scopes)).findAny().orElse(null);
-		if (existingUserAccount == null) {
-			EsiUser newUserAccount = save(
-					EsiUser.builder()
-							.app(app)
-							.characterId(characterId)
-							.characterName(characterName)
-			        .refreshToken(refreshToken)
-							.scopes(scopes)
-							.build());
+			EsiUser existingUserAccount = repo.findAllByAppAndCharacterIdAndCanceledFalse(app, characterId).stream()
+			    .filter(user -> user.getScopes().containsAll(scopes)).findAny().orElse(null);
+			if (existingUserAccount == null) {
+				EsiUser newUserAccount = save(
+				    EsiUser.builder()
+				        .app(app)
+				        .characterId(characterId)
+				        .characterName(characterName)
+				        .refreshToken(refreshToken)
+				        .scopes(scopes)
+				        .build());
 
-			log.debug("saved new entry for user " + characterName);
-			if (updateListeners.isPresent()) {
-				updateListeners.get().stream().flatMap(l -> l.listEsiUserCaches().stream())
-					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-				updateListeners.get().stream().forEach(l -> l.onNewEsiUser(newUserAccount));
+				log.debug("saved new entry for user " + characterName);
+				if (updateListeners.isPresent()) {
+					updateListeners.get().stream().flatMap(l -> l.listEsiUserCaches().stream())
+					    .forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+					updateListeners.get().stream().forEach(l -> l.onNewEsiUser(newUserAccount));
+				}
+			} else {
+				log.debug("no need to save entry for user " + characterName);
 			}
-		} else {
-			log.debug("no need to save entry for user " + characterName);
-		}
-		List<String> addedRoles = new ArrayList<>();
-		float effStanding = characterId == 95940101 ? 100f
-		    : c2cStandingsService.effectiveStanding(95940101, characterId);
-		if (effStanding >= 5) {
-			addedRoles.add(LECHAT_AUTHORITIES);
-		}
+			List<String> addedRoles = new ArrayList<>();
+			float effStanding = characterId == 95940101 ? 100f
+			    : c2cStandingsService.effectiveStanding(95940101, characterId);
+			if (effStanding >= 5) {
+				addedRoles.add(LECHAT_AUTHORITIES);
+			}
 
-		Set<String> allScopes = repo.findAllByAppAndCharacterIdAndCanceledFalse(app, characterId).stream()
-		    .flatMap(ei -> ei.getScopes().stream()).collect(Collectors.toSet());
-		addedRoles.addAll(allScopes);
+			Set<String> allScopes = repo.findAllByCharacterIdAndCanceledFalse(characterId).stream()
+			    .flatMap(ei -> ei.getScopes().stream()).collect(Collectors.toSet());
+			addedRoles.addAll(allScopes);
 
-		CustomOauth2User ret = new CustomOauth2User(oAuth2User, addedRoles);
-		return ret;
+			CustomOauth2User ret = new CustomOauth2User(oAuth2User, addedRoles);
+			return ret;
+		} catch (Exception e) {
+			log.error("while receiving new oauth2 user", e);
+			return null;
+		}
 	}
 
 	public EsiUser save(EsiUser data) {

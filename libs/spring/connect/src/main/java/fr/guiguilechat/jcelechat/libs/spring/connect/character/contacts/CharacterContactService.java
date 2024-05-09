@@ -38,7 +38,9 @@ public class CharacterContactService extends ACharDataRecordListService<
 
 	@Override
 	protected CharacterContactList create(Integer characterId) {
-		return CharacterContactList.builder().characterId(characterId).build();
+		CharacterContactList ret = new CharacterContactList();
+		ret.setCharacterId(characterId);
+		return ret;
 	}
 
 	@Getter(lazy = true)

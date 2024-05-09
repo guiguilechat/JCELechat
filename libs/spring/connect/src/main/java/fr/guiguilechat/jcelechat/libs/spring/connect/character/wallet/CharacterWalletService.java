@@ -25,7 +25,9 @@ public class CharacterWalletService
 
 	@Override
 	protected CharacterWallet create(Integer characterId) {
-		return CharacterWallet.builder().characterId(characterId).build();
+		CharacterWallet ret = new CharacterWallet();
+		ret.setCharacterId(characterId);
+		return ret;
 	}
 
 	@Getter(lazy = true)

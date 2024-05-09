@@ -14,16 +14,13 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import lombok.experimental.SuperBuilder;
 
 @Entity(name = "EsiConnectCharacterRoles")
 @Table(name = "esi_connect_characterroles")
-@SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -32,19 +29,15 @@ import lombok.experimental.SuperBuilder;
 public class CharacterRoles extends ACharData<R_get_characters_character_id_roles> {
 
 	@ElementCollection(fetch = FetchType.EAGER)
-	@Builder.Default
 	private Set<get_characters_character_id_roles_roles> roles = new HashSet<>();
 
 	@ElementCollection(fetch = FetchType.EAGER)
-	@Builder.Default
 	private Set<get_characters_character_id_roles_roles_at_base> rolesAtBase = new HashSet<>();
 
 	@ElementCollection(fetch = FetchType.EAGER)
-	@Builder.Default
 	private Set<get_characters_character_id_roles_roles_at_hq> rolesAtHq = new HashSet<>();
 
 	@ElementCollection(fetch = FetchType.EAGER)
-	@Builder.Default
 	private Set<get_characters_character_id_roles_roles_at_other> rolesAtOther = new HashSet<>();
 
 	@Override

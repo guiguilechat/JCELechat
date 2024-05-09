@@ -27,7 +27,9 @@ public class CharacterAttributesService
 
 	@Override
 	protected CharacterAttributes create(Integer characterId) {
-		return CharacterAttributes.builder().characterId(characterId).build();
+		CharacterAttributes ret = new CharacterAttributes();
+		ret.setCharacterId(characterId);
+		return ret;
 	}
 
 	@Getter(lazy = true)

@@ -12,11 +12,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import lombok.experimental.SuperBuilder;
 
 @Entity(name = "EsiConnectCharacterAttributes")
 @Table(name = "esi_connect_characterattributes")
-@SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

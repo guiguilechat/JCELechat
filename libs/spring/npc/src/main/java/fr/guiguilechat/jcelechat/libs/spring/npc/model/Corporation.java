@@ -9,7 +9,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.experimental.SuperBuilder;
 
 @Entity(name = "EsiNpcCorporation")
 @Table(name = "esi_npc_corporation")
@@ -17,7 +16,6 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @NoArgsConstructor
 @Setter
-@SuperBuilder
 public class Corporation extends ARemoteFetchedResource<Integer, R_get_corporations_corporation_id> {
 
 	@Id
