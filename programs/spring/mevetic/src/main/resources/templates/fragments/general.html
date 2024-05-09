@@ -10,7 +10,7 @@
 			<div class="navbar-nav" sec:authorize="hasAuthority('LECHAT')">
 				<a class="nav-item nav-link active" th:href="@{/user/contacts}">contacts</a><
 				<a class="nav-item nav-link active" th:href="@{/user/roles}">roles</a>
-				<a class="nav-item nav-link active" th:href="@{/standings}">standings</a>
+				<a class="nav-item nav-link active" th:href="@{/standings/}">standings</a>
 			</div>
 		</div>
 		
@@ -18,7 +18,8 @@
 			<a th:href="@{/user/}" sec:authentication="name"/><br />
 			<a th:href="@{/logout}">log out</a>
 		</div>
-		<img sec:authorize="isAuthenticated()" th:src="${'https://images.evetech.net/characters/'+#authentication.principal.attributes.CharacterID+'/portrait'}" width="50" height="50"/>
+		<img sec:authorize="isAuthenticated()" 
+			th:src="${'https://images.evetech.net/characters/'+#authentication.principal.attributes.CharacterID+'/portrait'}" width="50" height="50"/>
 		<div>
 			<a th:href="@{/login}">log in</a>
 		</div>

@@ -30,12 +30,15 @@ public class CharacterInformation extends ACharData<R_get_characters_character_i
 
 	private String description;
 
+	private String name;
+
 	@Override
 	public void update(R_get_characters_character_id data) {
 		setAllianceId(data.alliance_id);
 		setBirthday(ESITools.fieldInstant(data.birthday));
 		setCorporationId(data.corporation_id);
 		setDescription(data.description);
+		setName(data.name);
 	}
 
 }

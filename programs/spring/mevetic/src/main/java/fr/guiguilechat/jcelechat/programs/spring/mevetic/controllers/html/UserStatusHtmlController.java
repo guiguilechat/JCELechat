@@ -27,7 +27,6 @@ import fr.guiguilechat.jcelechat.libs.spring.npc.model.Faction;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.FactionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
-import fr.guiguilechat.jcelechat.programs.spring.mevetic.AuthUtils;
 import lombok.RequiredArgsConstructor;
 
 @Controller
@@ -58,7 +57,6 @@ public class UserStatusHtmlController {
 
 	@GetMapping("/")
 	public String getUser(Model model, Authentication auth) {
-		AuthUtils.addUser(model, auth);
 		int charId = EsiUserService.getCharacterId(auth);
 		Optional<CharacterAffiliation> oca = characterAffiliationService.getFetched(charId);
 		if (oca.isPresent()) {
@@ -69,7 +67,6 @@ public class UserStatusHtmlController {
 
 	@GetMapping("/roles")
 	public String getRoles(Model model, Authentication auth) {
-		AuthUtils.addUser(model, auth);
 		Optional<CharacterRoles> userRoles = characterRolesService.getFetched(EsiUserService.getCharacterId(auth));
 		if (userRoles.isPresent()) {
 			model.addAttribute("roles", userRoles.get());
@@ -79,7 +76,6 @@ public class UserStatusHtmlController {
 
 	@GetMapping("/contacts")
 	public String getContacts(Model model, Authentication auth) {
-		AuthUtils.addUser(model, auth);
 		List<CharacterContact> userContacts = characterContactService
 		    .list(EsiUserService.getCharacterId(auth));
 		if (userContacts != null) {
@@ -115,7 +111,6 @@ public class UserStatusHtmlController {
 
 	@GetMapping("/standings")
 	public String getStandings(Model model, Authentication auth) {
-		AuthUtils.addUser(model, auth);
 		List<CharacterStanding> userStandings = characterStandingService
 		    .list(EsiUserService.getCharacterId(auth));
 		if (userStandings != null) {

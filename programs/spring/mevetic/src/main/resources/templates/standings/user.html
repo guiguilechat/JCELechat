@@ -10,8 +10,9 @@
 <body>
     <header th:insert="~{fragments/general.html :: header}"> </header>
 	<h1>
-		Standings of <span th:text="${charName}" />
+		NPC standings of <span th:text="${charName}" />
 	</h1>
+	
 	<div class="container-fluid border">
 		<div class="row border">
 			<div class="col">
@@ -19,14 +20,12 @@
 				<table class="table table-striped table-hover">
 					<thead class="thead-light sticky-top bg-light">
 						<tr>
-							<th>id</th>
 							<th>name</th>
 							<th>standing</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr th:each="standing : ${factionStandings}">
-							<td th:text="${standing.fromId}"/>
 							<td th:text="${standing.fromName}"/>
 							<td th:text="${standing.standing}"/>
 						</tr>
@@ -38,14 +37,12 @@
 				<table class="table table-striped table-hover">
 					<thead class="thead-light sticky-top bg-light">
 						<tr>
-							<th>id</th>
 							<th>name</th>
 							<th>standing</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr th:each="standing : ${corporationStandings}">
-							<td th:text="${standing.fromId}"/>
 							<td th:text="${standing.fromName}"/>
 							<td th:text="${standing.standing}"/>
 						</tr>
@@ -57,14 +54,12 @@
 				<table class="table table-striped table-hover">
 					<thead class="thead-light sticky-top bg-light">
 						<tr>
-							<th>id</th>
 							<th>name</th>
 							<th>standing</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr th:each="standing : ${agentStandings}">
-							<td th:text="${standing.fromId}"/>
 							<td th:text="${standing.fromName}"/>
 							<td th:text="${standing.standing}"/>
 						</tr>

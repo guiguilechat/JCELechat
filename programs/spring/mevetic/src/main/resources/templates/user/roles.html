@@ -1,7 +1,7 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title th:text="${'roles of ' + charName}">page title</title>
+<title th:text="${'roles of ' + #authentication.principal.name}">page title</title>
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
 <script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
@@ -10,7 +10,7 @@
 <body>
     <header th:insert="~{fragments/general.html :: header}"> </header>
 	<h1>
-		Roles of <span th:text="${charName}" />
+		Roles of <span th:text="${#authentication.principal.name}" />
 	</h1>
 	<div class="container-fluid border">
 		<div class="row border" th:if="${roles != null}">

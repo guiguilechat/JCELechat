@@ -10,4 +10,6 @@ public interface CharacterContactRepository extends ICharDataRecordRepository<Ch
 	public List<CharacterContact> findAllByFetchResourceCharacterIdInAndContactIdIn(Iterable<Integer> fromIds,
 	    Iterable<Integer> toIds);
 
+	public List<CharacterContact> findAllByContactIdIn(Iterable<Integer> toIds);
+
 }

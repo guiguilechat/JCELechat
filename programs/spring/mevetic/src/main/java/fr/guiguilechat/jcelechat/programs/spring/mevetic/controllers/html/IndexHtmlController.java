@@ -14,7 +14,6 @@ public class IndexHtmlController {
 
 	@GetMapping("/index")
 	public String getIndex(Model model) {
-		System.err.println("getIndex");
 		return getRoot(model);
 	}
 }

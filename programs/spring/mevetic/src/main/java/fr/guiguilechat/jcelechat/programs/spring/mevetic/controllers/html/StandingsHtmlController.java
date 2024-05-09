@@ -1,10 +1,32 @@
 package fr.guiguilechat.jcelechat.programs.spring.mevetic.controllers.html;
 
-import org.springframework.context.annotation.Lazy;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import java.net.URI;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
 
+import org.springframework.context.annotation.Lazy;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.core.Authentication;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.server.ResponseStatusException;
+import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
+
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContactService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformation;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.model.Corporation;
+import fr.guiguilechat.jcelechat.libs.spring.npc.model.Faction;
+import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.services.FactionService;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
 import lombok.RequiredArgsConstructor;
 
 @Controller
@@ -12,9 +34,106 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class StandingsHtmlController {
 
+	@Lazy
+	private final CharacterContactService characterContactService;
+
+	@Lazy
+	private final CharacterInformationService characterInformationService;
+
+	@Lazy
+	private final CharacterStandingService characterStandingService;
+
+	@Lazy
+	private final CorporationService corporationService;
+
+	@Lazy
+	private final FactionService factionService;
+
 	@GetMapping("/")
-	public String root() {
-		return "standings/root";
+	public String avail(Model model, Authentication auth) {
+		int charId = EsiUserService.getCharacterId(auth);
+		model.addAttribute("available", characterContactService.effectiveStandings(charId)
+		    .entrySet().stream()
+		    .filter(e -> e.getValue() >= 5.0)
+		    .map(e -> linkedcharacterStanding(e.getKey()))
+		    .sorted(Comparator.comparing(LinkedcharacterStanding::charName))
+		    .toList());
+		addNPCStandings(model, charId);
+		return "standings/avail";
+	}
+
+	@GetMapping("/{targetCharId}")
+	public String standings(Model model, Authentication auth, @PathVariable int targetCharId) {
+		int userCharId = EsiUserService.getCharacterId(auth);
+		if (characterContactService.effectiveStanding(targetCharId, userCharId) < 5.0) {
+			throw new ResponseStatusException(HttpStatus.FORBIDDEN,
+			    "you are not allowed");
+		}
+		addNPCStandings(model, targetCharId);
+		return "standings/user";
+	}
+
+	public URI uri(int charId) {
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "standings", null, null, charId).build()
+		    .toUri();
+	}
+
+	public static record LinkedcharacterStanding(String charName, String url) {
+
+	}
+
+	public LinkedcharacterStanding linkedcharacterStanding(int charId) {
+		return new LinkedcharacterStanding(characterInformationService.fetched(charId).getName(), uri(charId).toString());
+	}
+
+	protected void addNPCStandings(Model model, int charId) {
+		CharacterInformation CharInfo = characterInformationService.fetched(charId);
+		model.addAttribute("charName", CharInfo.getName());
+		List<CharacterStanding> userStandings = characterStandingService
+		    .list(charId);
+		if (userStandings != null) {
+			Map<Integer, Faction> factions = factionService.allById();
+			Map<Integer, Corporation> corporations = corporationService.allById();
+			model.addAttribute("agentStandings", userStandings.stream()
+			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.agent)
+			    .sorted(Comparator.comparing(s -> -s.getStanding()))
+			    .map(this::agentStanding)
+			    .toList());
+			model.addAttribute("corporationStandings", userStandings.stream()
+			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.npc_corp)
+			    .sorted(Comparator.comparing(s -> -s.getStanding()))
+			    .map(c -> corporationStanding(c, corporations))
+			    .toList());
+			model.addAttribute("factionStandings", userStandings.stream()
+			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.faction)
+			    .sorted(Comparator.comparing(s -> -s.getStanding()))
+			    .map(f -> factionStanding(f, factions))
+			    .toList());
+		}
+	}
+
+	public static record NamedStanding(String fromName, int fromId, float standing) {
+
+		public NamedStanding(CharacterStanding standing, String fromName) {
+			this(fromName, standing.getFromId(), standing.getStanding());
+		}
+
+	}
+
+	public NamedStanding factionStanding(CharacterStanding standing, Map<Integer, Faction> factions) {
+		Faction f = factions.get(standing.getFromId());
+		String name = f == null ? "faction" + standing.getFromId() : f.getName();
+		return new NamedStanding(standing, name);
+	}
+
+	public NamedStanding corporationStanding(CharacterStanding standing, Map<Integer, Corporation> corporations) {
+		Corporation c = corporations.get(standing.getFromId());
+		String name = c == null ? "faction" + standing.getFromId() : c.getName();
+		return new NamedStanding(standing, name);
+	}
+
+	public NamedStanding agentStanding(CharacterStanding standing) {
+		return new NamedStanding(standing, "");
 	}
 
 }
