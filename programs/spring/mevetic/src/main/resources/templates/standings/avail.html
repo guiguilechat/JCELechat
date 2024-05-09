@@ -9,9 +9,7 @@
 </head>
 <body>
     <header th:insert="~{fragments/general.html :: header}"> </header>
-	<h1>
-		Standings available to <span th:text="${#authentication.principal.name}" />
-	</h1>
+	<h1 th:text="${'standings available to ' + #authentication.principal.name}" />
 	<div class="container-fluid border">
 		<ul th:if="${available!=null}">
 		<li th:each="charavail : ${available}"><a th:href="${charavail.url}" th:text="${charavail.charName}"/></li>

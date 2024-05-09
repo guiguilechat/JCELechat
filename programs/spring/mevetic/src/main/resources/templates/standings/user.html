@@ -1,7 +1,7 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title th:text="${'standings of ' + charName}">page title</title>
+<title th:text="${charName+' base NPC standings'}">page title</title>
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
 <script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
@@ -9,9 +9,7 @@
 </head>
 <body>
 	<header th:insert="~{fragments/general.html :: header}"> </header>
-	<h1>
-		NPC standings of <span th:text="${charName}" />
-	</h1>
+	<h1 th:text="${charName+' base NPC standings'}" />
 
 	<div class="container-fluid border">
 		<div class="row border">
