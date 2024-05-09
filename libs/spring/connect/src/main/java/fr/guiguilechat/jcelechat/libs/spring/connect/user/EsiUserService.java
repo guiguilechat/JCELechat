@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Lazy;
@@ -95,7 +96,13 @@ public class EsiUserService extends DefaultOAuth2UserService {
 		if (effStanding >= 5) {
 			addedRoles.add(LECHAT_AUTHORITIES);
 		}
-		return new CustomOauth2User(oAuth2User, addedRoles);
+
+		Set<String> allScopes = repo.findAllByAppAndCharacterIdAndCanceledFalse(app, characterId).stream()
+		    .flatMap(ei -> ei.getScopes().stream()).collect(Collectors.toSet());
+		addedRoles.addAll(allScopes);
+
+		CustomOauth2User ret = new CustomOauth2User(oAuth2User, addedRoles);
+		return ret;
 	}
 
 	public EsiUser save(EsiUser data) {

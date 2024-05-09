@@ -30,7 +30,7 @@ spring:
                   provider: ccplz
                   scope: >-
                      esi-characters.read_contacts.v1,
-                     esi-characters.read_standings.v1
+                     esi-characters.read_standings.v1,
 #                     esi-characters.read_corporation_roles.v1,
 #                     esi-skills.read_skills.v1,
 #                     esi-wallet.read_character_wallet.v1

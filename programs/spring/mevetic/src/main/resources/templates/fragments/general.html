@@ -8,8 +8,8 @@
 				<a class="nav-item nav-link active" th:href="@{/}">MEvEtic</a>
 			</div>
 			<div class="navbar-nav" sec:authorize="hasAuthority('LECHAT')">
-				<a class="nav-item nav-link active" th:href="@{/user/contacts}">contacts</a><
-				<a class="nav-item nav-link active" th:href="@{/user/roles}">roles</a>
+				<a class="nav-item nav-link active" sec:authorize="hasAuthority('esi-characters.read_contacts.v1')" th:href="@{/user/contacts}">my contacts</a><
+				<a class="nav-item nav-link active" sec:authorize="hasAuthority('esi-characters.read_corporation_roles.v1')" th:href="@{/user/roles}">my roles</a>
 				<a class="nav-item nav-link active" th:href="@{/standings/}">standings</a>
 			</div>
 		</div>
