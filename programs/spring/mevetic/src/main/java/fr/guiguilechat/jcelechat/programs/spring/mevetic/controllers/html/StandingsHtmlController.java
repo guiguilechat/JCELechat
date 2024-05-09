@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.programs.spring.mevetic.controllers.html;
 
 import java.net.URI;
+import java.time.Duration;
+import java.time.Instant;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
@@ -16,10 +19,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContactService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.C2CStandingsService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformation;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.Corporation;
@@ -35,7 +39,7 @@ import lombok.RequiredArgsConstructor;
 public class StandingsHtmlController {
 
 	@Lazy
-	private final CharacterContactService characterContactService;
+	private final C2CStandingsService c2cStandingsService;
 
 	@Lazy
 	private final CharacterInformationService characterInformationService;
@@ -52,20 +56,22 @@ public class StandingsHtmlController {
 	@GetMapping("/")
 	public String avail(Model model, Authentication auth) {
 		int charId = EsiUserService.getCharacterId(auth);
-		model.addAttribute("available", characterContactService.effectiveStandings(charId)
+		List<LinkedcharacterStanding> charStandings = Stream
+		    .concat(Stream.of(linkedcharacterStanding(charId)), c2cStandingsService.effectiveStandings(charId)
 		    .entrySet().stream()
 		    .filter(e -> e.getValue() >= 5.0)
-		    .map(e -> linkedcharacterStanding(e.getKey()))
+		        .map(e -> linkedcharacterStanding(e.getKey())))
+		    .distinct()
 		    .sorted(Comparator.comparing(LinkedcharacterStanding::charName))
-		    .toList());
-		addNPCStandings(model, charId);
+		    .toList();
+		model.addAttribute("available", charStandings);
 		return "standings/avail";
 	}
 
 	@GetMapping("/{targetCharId}")
 	public String standings(Model model, Authentication auth, @PathVariable int targetCharId) {
 		int userCharId = EsiUserService.getCharacterId(auth);
-		if (characterContactService.effectiveStanding(targetCharId, userCharId) < 5.0) {
+		if (c2cStandingsService.effectiveStanding(targetCharId, userCharId) < 5.0) {
 			throw new ResponseStatusException(HttpStatus.FORBIDDEN,
 			    "you are not allowed");
 		}
@@ -89,6 +95,7 @@ public class StandingsHtmlController {
 	protected void addNPCStandings(Model model, int charId) {
 		CharacterInformation CharInfo = characterInformationService.fetched(charId);
 		model.addAttribute("charName", CharInfo.getName());
+		CharacterStandingList charFetch = characterStandingService.fetched(charId);
 		List<CharacterStanding> userStandings = characterStandingService
 		    .list(charId);
 		if (userStandings != null) {
@@ -109,6 +116,16 @@ public class StandingsHtmlController {
 			    .sorted(Comparator.comparing(s -> -s.getStanding()))
 			    .map(f -> factionStanding(f, factions))
 			    .toList());
+		}
+		if (charFetch != null) {
+			if (charFetch.getExpires() != null) {
+				Duration remain = Duration.between(Instant.now(), charFetch.getExpires());
+				model.addAttribute("expires",
+				    remain.toString().substring(2).replaceAll("\\.[0-9]*", ""));
+			}
+			if (charFetch.getLastUpdate() != null) {
+				model.addAttribute("lastupdate", charFetch.getLastUpdate());
+			}
 		}
 	}
 

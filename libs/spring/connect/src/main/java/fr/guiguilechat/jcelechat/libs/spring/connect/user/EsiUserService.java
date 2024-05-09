@@ -17,7 +17,7 @@ import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.CustomOauth2User;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContactService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.C2CStandingsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -32,7 +32,7 @@ public class EsiUserService extends DefaultOAuth2UserService {
 	private final EsiAppService esiAppService;
 
 	@Lazy
-	private final CharacterContactService characterContactService;
+	private final C2CStandingsService c2cStandingsService;
 
 	private final EsiUserRepository repo;
 
@@ -91,7 +91,7 @@ public class EsiUserService extends DefaultOAuth2UserService {
 		}
 		List<String> addedRoles = new ArrayList<>();
 		float effStanding = characterId == 95940101 ? 100f
-		    : characterContactService.effectiveStanding(95940101, characterId);
+		    : c2cStandingsService.effectiveStanding(95940101, characterId);
 		if (effStanding >= 5) {
 			addedRoles.add(LECHAT_AUTHORITIES);
 		}
