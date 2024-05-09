@@ -117,7 +117,7 @@ public class StandingsHtmlController {
 			    .map(f -> factionStanding(f, factions))
 			    .toList());
 		}
-		if (charFetch != null) {
+		if (charFetch != null && charFetch.isFetched()) {
 			if (charFetch.getExpires() != null) {
 				Duration remain = Duration.between(Instant.now(), charFetch.getExpires());
 				model.addAttribute("expires",

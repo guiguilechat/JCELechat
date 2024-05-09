@@ -1,18 +1,22 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title th:text="${'contacts of ' + #authentication.principal.name}">page title</title>
+<title th:text="${'contacts of ' + #authentication.principal.name}">page
+	title</title>
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
 <script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
 <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 </head>
 <body>
-    <header th:insert="~{fragments/general.html :: header}"> </header>
+	<header th:insert="~{fragments/general.html :: header}"> </header>
 	<h1>
 		Contacts of <span th:text="${#authentication.principal.name}" />
 	</h1>
 	<div class="container-fluid border">
+		<div class="col">
+			<span th:text="${'expires in '+expires+', last updated '+lastupdate}" />
+		</div>
 		<div class="row border" th:if="${contacts != null}">
 			<div class="col">
 				<h2>Non blocked</h2>
@@ -26,9 +30,9 @@
 					</thead>
 					<tbody>
 						<tr th:each="contact : ${contacts}">
-							<td th:text="${contact.contactId}"/>
-							<td th:text="${contact.standing}"/>
-							<td th:text="${contact.watched}"/>
+							<td th:text="${contact.contactId}" />
+							<td th:text="${contact.standing}" />
+							<td th:text="${contact.watched}" />
 						</tr>
 					</tbody>
 				</table>
@@ -45,9 +49,9 @@
 					</thead>
 					<tbody>
 						<tr th:each="contact : ${blocked}">
-							<td th:text="${contact.contactId}"/>
-							<td th:text="${contact.standing}"/>
-							<td th:text="${contact.watched}"/>
+							<td th:text="${contact.contactId}" />
+							<td th:text="${contact.standing}" />
+							<td th:text="${contact.watched}" />
 						</tr>
 					</tbody>
 				</table>
