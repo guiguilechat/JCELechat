@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.affiliation.CharacterAffiliation;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.affiliation.CharacterAffiliationService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAsset;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAssetService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContactService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
@@ -33,6 +35,9 @@ public class UserStatusHtmlController {
 
 	@Lazy
 	private final CharacterAffiliationService characterAffiliationService;
+
+	@Lazy
+	private final CharacterAssetService characterAssetService;
 
 	@Lazy
 	private final CharacterContactService characterContactService;
@@ -93,6 +98,15 @@ public class UserStatusHtmlController {
 			}
 		}
 		return "user/contacts";
+	}
+
+	@GetMapping("/assets")
+	public String getAssets(Model model, Authentication auth) {
+		List<CharacterAsset> userAssets = characterAssetService.list(EsiUserService.getCharacterId(auth));
+		if (userAssets != null) {
+			model.addAttribute("assets", userAssets);
+		}
+		return "user/assets";
 	}
 
 

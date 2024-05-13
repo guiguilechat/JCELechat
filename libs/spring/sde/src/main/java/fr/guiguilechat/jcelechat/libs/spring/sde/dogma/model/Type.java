@@ -73,6 +73,7 @@ public class Type implements Serializable {
 		iconID = data.iconID;
 		marketGroupId = data.marketGroupID;
 		mass = data.mass;
+		metaGroupId = data.metaGroupID;
 		name = data.enName();
 		portionSize = data.portionSize;
 		published = data.published;

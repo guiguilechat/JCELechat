@@ -9,7 +9,7 @@
 </head>
 <body>
     <header th:insert="~{fragments/general.html :: header}"> </header>
-	<h1 th:text= />
+	<h1 th:text="${#authentication.principal.name+' roles'}" />
 	<div class="container-fluid border">
 		<div class="row border" th:if="${roles != null}">
 			<h2>character roles</h2>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title th:text="${#authentication.principal.name+' assets'}">page
+	title</title>
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+	<header th:insert="~{fragments/general.html :: header}"> </header>
+	<h1 th:text="${#authentication.principal.name+' assets'}" />
+	<table class="table table-striped table-hover" th:if="${assets != null}">
+		<thead class="thead-light sticky-top bg-light">
+			<tr>
+				<th>item id</th>
+				<th>type id</th>
+				<th>quantity</th>
+				<th>location flag</th>
+				<th>location type</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="asset : ${assets}">
+				<td th:text="${asset.itemId}" />
+				<td th:text="${asset.typeId}" />
+				<td th:text="${asset.quantity}" />
+				<td th:text="${asset.locationFlag}" />
+				<td th:text="${asset.locationType}" />
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

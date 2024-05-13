@@ -22,21 +22,20 @@ import lombok.experimental.Accessors;
  * @param <Fetched>    elements retrieved as array for this resource from the
  *                       remote
  * @param <Repository> storage for meta data
- * @param <RecordType> the entity that stores the elements of the array
+ * @param <ListRecord>     the entity that stores the elements of the array
  *                       received.
  * @param <RecordRepo> storage for elements data
  */
 @NoArgsConstructor
 @Getter
 public abstract class ACharDataRecordListService<
-    Entity extends ACharDataRecordList<Fetched, RecordType>, 
-    Fetched, Repository extends ICharDataRepository<Entity>,
-    RecordType extends ACharDataRecord<?, Entity>,
-    RecordRepo extends ICharDataRecordRepository<Entity, RecordType>
->
-    extends AConnectedCharDataService<Entity, Fetched[], Repository>
-{
-	
+	Entity extends ACharDataRecordList<Fetched, ListRecord>, 
+	Fetched, 
+	Repository extends ICharDataRepository<Entity>, 
+	ListRecord extends ACharDataRecord<?, Entity>, 
+	RecordRepo extends ICharDataRecordRepository<Entity, ListRecord>>
+    extends AConnectedCharDataService<Entity, Fetched[], Repository> {
+
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	private RecordRepo recordRepo;
@@ -44,16 +43,19 @@ public abstract class ACharDataRecordListService<
 	@Override
 	protected void updateFromResponseOk(Entity data, Requested<Fetched[]> response) {
 		data.updateMeta(response);
-		recordRepo().deleteByFetchResource(data);
 		Fetched[] arr = response.getOK();
-		if (arr != null && arr.length > 0) {
-			recordRepo().saveAll(Stream.of(arr).map(this::transformRecord).peek(rec -> rec.setFetchResource(data)).toList());
-		}
+			recordRepo().deleteByFetchResource(data);
+			if (arr != null && arr.length > 0) {
+				recordRepo()
+				    .saveAll(Stream.of(arr).map(this::transformRecord).peek(rec -> rec.setFetchResource(data)).toList());
+			}
 	}
 
-	protected abstract RecordType transformRecord(Fetched f);
+	protected abstract ListRecord transformRecord(Fetched f);
 
-	public List<RecordType> list(int characterId) {
+	// service use
+
+	public List<ListRecord> list(int characterId) {
 		return recordRepo().findAllByFetchResourceCharacterId(characterId);
 	}
 
