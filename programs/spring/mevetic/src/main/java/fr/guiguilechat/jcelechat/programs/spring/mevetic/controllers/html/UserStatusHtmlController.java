@@ -12,17 +12,19 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.affiliation.CharacterAffiliation;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.affiliation.CharacterAffiliationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAsset;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAssetService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContactService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliation;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.roles.CharacterRoles;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.roles.CharacterRolesService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterRoles;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterRolesService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournal;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournalService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.FactionService;
@@ -50,6 +52,9 @@ public class UserStatusHtmlController {
 
 	@Lazy
 	private final CharacterStandingService characterStandingService;
+
+	@Lazy
+	private final CharacterJournalService characterJournalService;
 
 	@Lazy
 	private final CorporationService corporationService;
@@ -109,5 +114,14 @@ public class UserStatusHtmlController {
 		return "user/assets";
 	}
 
+	@GetMapping("/wallet")
+	public String getWallet(Model model, Authentication auth) {
+
+		List<CharacterJournal> userJournals = characterJournalService.list(EsiUserService.getCharacterId(auth));
+		if (userJournals != null) {
+			model.addAttribute("journals", userJournals);
+		}
+		return "user/wallet";
+	}
 
 }

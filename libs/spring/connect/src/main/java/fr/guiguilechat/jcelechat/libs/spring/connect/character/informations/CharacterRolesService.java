@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.character.roles;
+package fr.guiguilechat.jcelechat.libs.spring.connect.character.informations;
 
 import java.util.Map;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.character.affiliation;
+package fr.guiguilechat.jcelechat.libs.spring.connect.character.informations;
 
 import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;

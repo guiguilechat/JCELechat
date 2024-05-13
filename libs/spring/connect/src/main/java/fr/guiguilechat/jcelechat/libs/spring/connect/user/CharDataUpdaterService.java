@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.affiliation.CharacterAffiliationService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataService;
 import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;

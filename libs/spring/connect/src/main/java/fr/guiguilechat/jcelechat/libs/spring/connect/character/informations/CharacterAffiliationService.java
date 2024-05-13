@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.character.affiliation;
+package fr.guiguilechat.jcelechat.libs.spring.connect.character.informations;
 
 import java.time.Instant;
 import java.time.ZoneOffset;

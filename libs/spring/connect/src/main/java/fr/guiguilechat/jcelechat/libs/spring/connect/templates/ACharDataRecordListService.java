@@ -43,12 +43,19 @@ public abstract class ACharDataRecordListService<
 	@Override
 	protected void updateFromResponseOk(Entity data, Requested<Fetched[]> response) {
 		data.updateMeta(response);
+		recordRepo().deleteByFetchResource(data);
 		Fetched[] arr = response.getOK();
-			recordRepo().deleteByFetchResource(data);
-			if (arr != null && arr.length > 0) {
-				recordRepo()
-				    .saveAll(Stream.of(arr).map(this::transformRecord).peek(rec -> rec.setFetchResource(data)).toList());
-			}
+		if (arr != null && arr.length != 0) {
+			saveNewResources(data, Stream.of(arr));
+		}
+	}
+
+	protected void saveNewResources(Entity data, Stream<Fetched> newResources) {
+			recordRepo().saveAll(
+		    newResources
+			        .map(this::transformRecord)
+			        .peek(rec -> rec.setFetchResource(data))
+			        .toList());
 	}
 
 	protected abstract ListRecord transformRecord(Fetched f);
