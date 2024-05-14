@@ -25,6 +25,8 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.Charact
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournal;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournalService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransactionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.FactionService;
@@ -48,13 +50,16 @@ public class UserStatusHtmlController {
 	private final CharacterInformationService characterInformationService;
 
 	@Lazy
+	private final CharacterJournalService characterJournalService;
+
+	@Lazy
 	private final CharacterRolesService characterRolesService;
 
 	@Lazy
 	private final CharacterStandingService characterStandingService;
 
 	@Lazy
-	private final CharacterJournalService characterJournalService;
+	private final CharacterTransactionService characterTransactionService;
 
 	@Lazy
 	private final CorporationService corporationService;
@@ -121,6 +126,12 @@ public class UserStatusHtmlController {
 		if (userJournals != null) {
 			model.addAttribute("journals", userJournals);
 		}
+
+		List<CharacterTransaction> transactions = characterTransactionService.list(EsiUserService.getCharacterId(auth));
+		if (transactions != null) {
+			model.addAttribute("transactions", transactions);
+		}
+
 		return "user/wallet";
 	}
 

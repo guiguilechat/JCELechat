@@ -288,12 +288,13 @@ public class MerKillsRestController {
 	}
 
 	/**
-	 * @param filterBy method to filter the solar system. Must be one of gi, gn, ti,
-	 *                 tn
+	 * @param filterBy  method to filter the solar system. Must be one of gi, gn,
+	 *                    ti,
+	 *                    tn
 	 * @param filter
 	 * @param accept
-	 * @param time
-	 * @param period
+	 * @param order
+	 * @param aggregate
 	 * @return
 	 */
 	@GetMapping("/{filterBy}/{filter}")
@@ -301,8 +302,8 @@ public class MerKillsRestController {
 			@PathVariable String filterBy,
 			@PathVariable String filter,
 			@RequestParam Optional<String> accept,
-			@RequestParam Optional<String> time,
-			@RequestParam Optional<String> period) {
+	    @RequestParam Optional<String> order,
+	    @RequestParam Optional<String> aggregate) {
 		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
 		NAMED_TYPELIST resolved;
 		try {
@@ -310,8 +311,8 @@ public class MerKillsRestController {
 		} catch (NumberFormatException e) {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "param " + filter + " should be a number");
 		}
-		String timeOrder = time.orElse("desc");
-		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
+		String timeOrder = order.orElse("desc");
+		AGGREG_PERIOD ap = AGGREG_PERIOD.by(aggregate);
 		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
 		if (timeOrder.equals("asc")) {
 			Collections.reverse(stats);
