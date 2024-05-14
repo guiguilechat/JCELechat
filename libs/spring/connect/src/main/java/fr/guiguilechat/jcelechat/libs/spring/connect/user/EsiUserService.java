@@ -7,8 +7,10 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.context.event.EventListener;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
@@ -17,7 +19,7 @@ import org.springframework.security.oauth2.core.endpoint.OAuth2ParameterNames;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.CustomOauth2User;
+import fr.guiguilechat.jcelechat.libs.spring.connect.DelegateOauth2User;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.C2CStandingsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -35,6 +37,7 @@ public class EsiUserService extends DefaultOAuth2UserService {
 	@Lazy
 	private final C2CStandingsService c2cStandingsService;
 
+	@Lazy
 	private final EsiUserRepository repo;
 
 	@Override
@@ -83,11 +86,7 @@ public class EsiUserService extends DefaultOAuth2UserService {
 				        .build());
 
 				log.debug("saved new entry for user " + characterName);
-				if (updateListeners.isPresent()) {
-					updateListeners.get().stream().flatMap(l -> l.listEsiUserCaches().stream())
-					    .forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-					updateListeners.get().stream().forEach(l -> l.onNewEsiUser(newUserAccount));
-				}
+				propagateEsiUser(newUserAccount);
 			} else {
 				log.debug("no need to save entry for user " + characterName);
 			}
@@ -102,12 +101,21 @@ public class EsiUserService extends DefaultOAuth2UserService {
 			    .flatMap(ei -> ei.getScopes().stream()).collect(Collectors.toSet());
 			addedRoles.addAll(allScopes);
 
-			CustomOauth2User ret = new CustomOauth2User(oAuth2User, addedRoles);
+			DelegateOauth2User ret = new DelegateOauth2User(oAuth2User, addedRoles);
 			return ret;
 		} catch (Exception e) {
 			log.error("while receiving new oauth2 user", e);
 			return null;
 		}
+	}
+
+	protected void propagateEsiUser(EsiUser newUserAccount) {
+		if (updateListeners.isPresent()) {
+			updateListeners.get().stream().flatMap(l -> l.listEsiUserCaches().stream())
+			    .forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			updateListeners.get().stream().forEach(l -> l.onNewEsiUser(newUserAccount));
+		}
+
 	}
 
 	public EsiUser save(EsiUser data) {
@@ -135,5 +143,17 @@ public class EsiUserService extends DefaultOAuth2UserService {
 	public EsiUser esiUser(int characterId, Set<String> requiredScopes) {
 		return forCharacterId(characterId).stream()
 		    .filter(user -> user.getScopes().containsAll(requiredScopes)).findAny().orElse(null);
+	}
+
+	/**
+	 * once the application is started, transmit the known esi user to all services.
+	 * So that if a new service is added, it can start handling the data.
+	 */
+	@EventListener(ApplicationReadyEvent.class)
+	public void postStartUp() {
+		repo.findAll().stream()
+		    .filter(ei -> !ei.isCanceled())
+		    .forEach(this::propagateEsiUser);
+
 	}
 }

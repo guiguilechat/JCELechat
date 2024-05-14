@@ -12,8 +12,11 @@ import org.springframework.security.oauth2.core.user.OAuth2User;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
+/**
+ * oauth that has a delegate and can be specified additional authorities
+ */
 @RequiredArgsConstructor
-public class CustomOauth2User implements OAuth2User {
+public class DelegateOauth2User implements OAuth2User {
 
 	private final OAuth2User delegate;
 
