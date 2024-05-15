@@ -1,8 +1,6 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.repositories;
+package fr.guiguilechat.jcelechat.libs.spring.npc.faction;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.Faction;
 
 public interface FactionRepository extends JpaRepository<Faction, Integer> {
 

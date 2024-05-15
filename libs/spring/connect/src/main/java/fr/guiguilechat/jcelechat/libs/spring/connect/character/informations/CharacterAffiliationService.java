@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
@@ -28,9 +29,13 @@ import lombok.extern.slf4j.Slf4j;
 public class CharacterAffiliationService
     extends ACharDataService<CharacterAffiliation, R_post_characters_affiliation, CharacterAffiliationRepository> {
 
+	@Lazy
+	CorporationInfoService corporationInfoService;
+
 	// auto management
 
-	// deactivate the creation since it is called to give roles
+	// deactivate the creation since it is already called before by the user
+	// manager, to find roles and corp.
 	@Override
 	public void onNewEsiUser(EsiUser user) {
 	}
@@ -47,6 +52,7 @@ public class CharacterAffiliationService
 	    Map<String, String> properties) {
 		Requested<R_post_characters_affiliation[]> ret = ESIRawPublic.INSTANCE.post_affiliation(new int[] { characterId },
 		    properties);
+		// ret.getOK()[0].corporation_id;
 		return ret.mapBody(arr -> arr[0]).mapHeaders(this::addExpire);
 	}
 

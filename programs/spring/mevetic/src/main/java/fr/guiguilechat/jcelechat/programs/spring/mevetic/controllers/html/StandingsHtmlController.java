@@ -24,12 +24,12 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.Char
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
+import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.Corporation;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.Faction;
-import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.services.FactionService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.faction.Faction;
+import fr.guiguilechat.jcelechat.libs.spring.npc.faction.FactionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
 import lombok.RequiredArgsConstructor;
 
@@ -48,7 +48,7 @@ public class StandingsHtmlController {
 	private final CharacterStandingService characterStandingService;
 
 	@Lazy
-	private final CorporationService corporationService;
+	private final CorporationInfoService corporationService;
 
 	@Lazy
 	private final FactionService factionService;
@@ -100,7 +100,7 @@ public class StandingsHtmlController {
 		    .list(charId);
 		if (userStandings != null) {
 			Map<Integer, Faction> factions = factionService.allById();
-			Map<Integer, Corporation> corporations = corporationService.allById();
+			Map<Integer, CorporationInfo> corporations = corporationService.allById();
 			model.addAttribute("agentStandings", userStandings.stream()
 			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.agent)
 			    .sorted(Comparator.comparing(s -> -s.getStanding()))
@@ -143,8 +143,8 @@ public class StandingsHtmlController {
 		return new NamedStanding(standing, name);
 	}
 
-	public NamedStanding corporationStanding(CharacterStanding standing, Map<Integer, Corporation> corporations) {
-		Corporation c = corporations.get(standing.getFromId());
+	public NamedStanding corporationStanding(CharacterStanding standing, Map<Integer, CorporationInfo> corporations) {
+		CorporationInfo c = corporations.get(standing.getFromId());
 		String name = c == null ? "faction" + standing.getFromId() : c.getName();
 		return new NamedStanding(standing, name);
 	}

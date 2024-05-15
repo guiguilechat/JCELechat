@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.model;
+package fr.guiguilechat.jcelechat.libs.spring.npc.faction;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
 import jakarta.persistence.Column;
@@ -29,7 +29,7 @@ public class Faction {
 	/**
 	 * description string
 	 */
-	@Column(length = 3000)
+	@Column(columnDefinition = "TEXT")
 	private String description;
 	/**
 	 * militia_corporation_id integer

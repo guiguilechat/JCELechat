@@ -91,8 +91,7 @@ public class EsiUserService extends DefaultOAuth2UserService {
 				log.debug("no need to save entry for user " + characterName);
 			}
 			List<String> addedRoles = new ArrayList<>();
-			float effStanding = characterId == 95940101 ? 100f
-			    : c2cStandingsService.effectiveStanding(95940101, characterId);
+			float effStanding = c2cStandingsService.effectiveStanding(95940101, characterId);
 			if (effStanding >= 5) {
 				addedRoles.add(LECHAT_AUTHORITIES);
 			}

@@ -27,7 +27,7 @@ public abstract class AFetchedResource {
 
 	boolean fetched = false;
 
-	boolean active = true;
+	boolean fetchActive = true;
 
 	protected void updateMeta(Instant lastModified, Instant expires, String etag) {
 		setExpires(expires);

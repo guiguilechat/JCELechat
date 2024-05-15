@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.services;
+package fr.guiguilechat.jcelechat.libs.spring.connect.corporation;
 
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -11,20 +11,18 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.Corporation;
-import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.CorporationRepository;
 import fr.guiguilechat.jcelechat.libs.spring.templates.services.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class CorporationService extends
-    ARemoteFetchedResourceService<Corporation, Integer, R_get_corporations_corporation_id, CorporationRepository> {
+public class CorporationInfoService extends
+    ARemoteFetchedResourceService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository> {
 
 	@Override
-	protected Corporation create(Integer entityId) {
-		Corporation ret = new Corporation();
+	protected CorporationInfo create(Integer entityId) {
+		CorporationInfo ret = new CorporationInfo();
 		ret.setCorporationId(entityId);
 		return ret;
 	}
@@ -40,13 +38,13 @@ public class CorporationService extends
 		Requested<Integer[]> corpIds = ESIRawPublic.INSTANCE.get_corporations_npccorps(null);
 		if (corpIds.isOk()) {
 			for (int i : corpIds.getOK()) {
-				createIfMissing(i);
+				// createIfMissing(i, true);
 			}
 		}
 	}
 
-	public Map<Integer, Corporation> allById() {
-		return repo().findAll().stream().collect(Collectors.toMap(Corporation::getCorporationId, c -> c));
+	public Map<Integer, CorporationInfo> allById() {
+		return repo().findAll().stream().collect(Collectors.toMap(CorporationInfo::getCorporationId, c -> c));
 	}
 
 }

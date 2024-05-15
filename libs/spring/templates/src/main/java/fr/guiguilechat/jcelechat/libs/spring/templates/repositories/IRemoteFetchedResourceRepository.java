@@ -12,6 +12,6 @@ import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResou
 public interface IRemoteFetchedResourceRepository<Entity extends ARemoteFetchedResource<Id, ?>, Id>
     extends JpaRepository<Entity, Id> {
 
-	public List<Entity> findTop1000ByActiveTrueAndExpiresLessThan(Instant now);
+	public List<Entity> findTop1000ByFetchActiveTrueAndExpiresLessThan(Instant now);
 
 }

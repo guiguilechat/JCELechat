@@ -16,7 +16,7 @@ public abstract class ACharDataService<Entity extends ACharData<Fetched>, Fetche
 
 	@Override
 	public void onNewEsiUser(EsiUser user) {
-		createIfMissing(user.getCharacterId());
+		createIfMissing(user.getCharacterId(), true);
 	}
 
 }

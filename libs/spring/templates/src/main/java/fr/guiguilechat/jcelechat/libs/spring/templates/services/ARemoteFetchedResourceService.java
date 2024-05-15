@@ -26,12 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NoArgsConstructor
 @Getter
-public abstract class ARemoteFetchedResourceService<
-	Entity extends ARemoteFetchedResource<Id, Fetched>,
-	Id,
-	Fetched,
-	Repository extends IRemoteFetchedResourceRepository<Entity, Id>
-> {
+public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -57,41 +52,40 @@ public abstract class ARemoteFetchedResourceService<
 	/**
 	 * ensure an entity for given id exists, and starts the update if required
 	 * 
-	 * @param entityId new Id for the entity
-	 * @return a future that already hold the entity if it was already present and
+	 * @param entityId   new Id for the entity
+	 * @param startFetch if true, and the entity is created active, and not already
+	 *                     fetched, start the fetch instead of waiting for the
+	 *                     manager to handle it. If false, return the entry and
+	 *                     return it without fetching.
+	 * @return a future that already holds the entity if it was already present and
 	 *           does not require fetch, or that will hold the entity once it is
 	 *           fetched.
 	 */
 	@Async
 	@Transactional
-	protected CompletableFuture<Entity> createIfMissing(Id entityId) {
+	public CompletableFuture<Entity> createIfMissing(Id entityId, boolean startFetch) {
 		Optional<Entity> op = repo().findById(entityId);
+		Entity e = null;
 		if (op.isEmpty()) {
-			Entity e = create(entityId);
-			e.setActive(isActivateNewEntry());
-			repo().save(e);
-			log.trace("create and update entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
-			if (e.isActive()) {
-				return update(e);
-			} else {
-				log.trace("creat entry of class {} for id {}, no fetching", e.getClass().getSimpleName(), entityId);
-				return CompletableFuture.completedFuture(e);
-			}
+			e = create(entityId);
+			e.setFetchActive(isActivateNewEntry());
+			save(e);
+			log.trace("create entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
 		} else {
-			Entity e = op.get();
-			if (!e.isFetched() && e.isActive()) {
-				log.trace("entry of class {} for id {} present but needs fetching", e.getClass().getSimpleName(), entityId);
-				return update(e);
-			} else {
-				log.trace("no need to create or update entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
-				return CompletableFuture.completedFuture(e);
-			}
+			e = op.get();
+		}
+		if (!e.isFetched() && e.isFetchActive() && startFetch) {
+			log.trace("entry of class {} for id {} needs fetching", e.getClass().getSimpleName(), entityId);
+			return update(e);
+		} else {
+			log.trace("no need to update entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
+			return CompletableFuture.completedFuture(e);
 		}
 	}
 
 	public Entity fetched(Id entityId) {
 		try {
-			return createIfMissing(entityId).get();
+			return createIfMissing(entityId, true).get();
 		} catch (InterruptedException | ExecutionException e) {
 			log.error("while fetching id " + entityId, e);
 			return null;
@@ -106,7 +100,7 @@ public abstract class ARemoteFetchedResourceService<
 
 	public Optional<Entity> getFetched(Id id) {
 		Optional<Entity> ret = forId(id);
-		if (ret.isEmpty() || ret.get().isFetched() || !ret.get().isActive()) {
+		if (ret.isEmpty() || ret.get().isFetched() || !ret.get().isFetchActive()) {
 			return ret;
 		}
 		try {
@@ -186,7 +180,7 @@ public abstract class ARemoteFetchedResourceService<
 	 *           whichever is lowest.
 	 */
 	public Stream<Entity> streamToUpdate() {
-		return repo().findTop1000ByActiveTrueAndExpiresLessThan(Instant.now()).stream().limit(getMaxUpdates());
+		return repo().findTop1000ByFetchActiveTrueAndExpiresLessThan(Instant.now()).stream().limit(getMaxUpdates());
 	}
 
 	/**

@@ -9,7 +9,11 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.connect.alliance.AllianceInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact.CharacterContactList;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliationService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataRecordListService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_contacts;
 import lombok.Getter;
@@ -23,6 +27,18 @@ public class CharacterContactService extends ACharDataRecordListService<
 	CharacterContactListRepository,
 	CharacterContact,
 	CharacterContactRepository>{
+
+	@Lazy
+	private final AllianceInfoService allianceInfoService;
+
+	@Lazy
+	private final CharacterAffiliationService characterAffiliationService;
+
+	@Lazy
+	private final CharacterInformationService characterInformationService;
+
+	@Lazy
+	private final CorporationInfoService corporationInfoService;
 
 	@Override
 	protected CharacterContact transformRecord(R_get_characters_character_id_contacts f) {
@@ -54,6 +70,34 @@ public class CharacterContactService extends ACharDataRecordListService<
 
 	public List<CharacterContact> forContactIds(List<Integer> toIds) {
 		return recordRepo().findAllByContactIdIn(toIds);
+	}
+
+	@Override
+	protected void updateFromResponseOk(CharacterContactList data,
+	    Requested<R_get_characters_character_id_contacts[]> response) {
+		R_get_characters_character_id_contacts[] ok = response.getOK();
+		if (ok != null) {
+			for(R_get_characters_character_id_contacts contact  : ok ) {
+				switch (contact.contact_type) {
+				case alliance:
+					allianceInfoService.createIfMissing(contact.contact_id, false);
+					break;
+				case character:
+					characterAffiliationService.createIfMissing(contact.contact_id, false);
+					characterInformationService.createIfMissing(contact.contact_id, false);
+					break;
+				case corporation:
+					corporationInfoService.createIfMissing(contact.contact_id, false);
+					break;
+				case faction:
+					// nothing : factions are automatically updated from
+					break;
+				default:
+					throw new UnsupportedOperationException("case not supported " + contact.contact_type);
+				}
+			}
+		}
+		super.updateFromResponseOk(data, response);
 	}
 
 }

@@ -27,9 +27,9 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJ
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournalService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransactionService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.services.FactionService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.faction.FactionService;
 import lombok.RequiredArgsConstructor;
 
 @Controller
@@ -62,7 +62,7 @@ public class UserStatusHtmlController {
 	private final CharacterTransactionService characterTransactionService;
 
 	@Lazy
-	private final CorporationService corporationService;
+	private final CorporationInfoService corporationService;
 
 	@Lazy
 	private final FactionService factionService;

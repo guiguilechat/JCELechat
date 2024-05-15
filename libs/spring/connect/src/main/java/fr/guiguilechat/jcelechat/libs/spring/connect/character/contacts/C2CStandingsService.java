@@ -14,6 +14,9 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.Char
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliationService;
 import lombok.RequiredArgsConstructor;
 
+/**
+ * character to character effective standing
+ */
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class C2CStandingsService {
@@ -49,18 +52,18 @@ public class C2CStandingsService {
 	 *           if no standing affected.
 	 */
 	public float effectiveStanding(int characterFromId, int characterToId) {
+		CharacterAffiliation ca = characterAffiliationService.fetched(characterToId);
 		if (characterFromId == characterToId) {
 			return 100.0f;
 		}
-		CharacterAffiliation ca = characterAffiliationService.fetched(characterToId);
 		List<Integer> toIds = new ArrayList<>();
 		toIds.add(characterToId);
 		if (ca != null) {
-			if (ca.getCorporation_id() != 0) {
-				toIds.add(ca.getCorporation_id());
+			if (ca.getCorporationId() != 0) {
+				toIds.add(ca.getCorporationId());
 			}
-			if (ca.getAlliance_id() != 0) {
-				toIds.add(ca.getAlliance_id());
+			if (ca.getAllianceId() != 0) {
+				toIds.add(ca.getAllianceId());
 			}
 		}
 		List<CharacterContact> contacts = characterContactService.fromTo(List.of(characterFromId), toIds);
@@ -85,11 +88,11 @@ public class C2CStandingsService {
 		List<Integer> toIds = new ArrayList<>();
 		toIds.add(characterToId);
 		if (ca != null) {
-			if (ca.getCorporation_id() != 0) {
-				toIds.add(ca.getCorporation_id());
+			if (ca.getCorporationId() != 0) {
+				toIds.add(ca.getCorporationId());
 			}
-			if (ca.getAlliance_id() != 0) {
-				toIds.add(ca.getAlliance_id());
+			if (ca.getAllianceId() != 0) {
+				toIds.add(ca.getAllianceId());
 			}
 		}
 		return effectiveStandings(toIds);

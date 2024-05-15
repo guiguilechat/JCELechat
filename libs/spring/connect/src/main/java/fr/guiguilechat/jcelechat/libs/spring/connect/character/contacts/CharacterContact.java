@@ -8,6 +8,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -16,7 +17,9 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterContact")
-@Table(name = "esi_connect_charactercontact")
+@Table(name = "esi_connect_charactercontact", indexes = {
+    @Index(columnList = "fetchResourceCharacterId,contactType")
+})
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
