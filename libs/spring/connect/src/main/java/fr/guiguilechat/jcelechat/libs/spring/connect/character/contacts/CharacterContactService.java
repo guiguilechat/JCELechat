@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -16,17 +17,14 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.Char
 import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataRecordListService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_contacts;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_contacts_contact_type;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class CharacterContactService extends ACharDataRecordListService<
-	CharacterContactList, 
-	R_get_characters_character_id_contacts,
-	CharacterContactListRepository,
-	CharacterContact,
-	CharacterContactRepository>{
+public class CharacterContactService extends
+    ACharDataRecordListService<CharacterContactList, R_get_characters_character_id_contacts, CharacterContactListRepository, CharacterContact, CharacterContactRepository> {
 
 	@Lazy
 	private final AllianceInfoService allianceInfoService;
@@ -77,25 +75,23 @@ public class CharacterContactService extends ACharDataRecordListService<
 	    Requested<R_get_characters_character_id_contacts[]> response) {
 		R_get_characters_character_id_contacts[] ok = response.getOK();
 		if (ok != null) {
-			for(R_get_characters_character_id_contacts contact  : ok ) {
-				switch (contact.contact_type) {
-				case alliance:
-					allianceInfoService.createIfMissing(contact.contact_id, false);
-					break;
-				case character:
-					characterAffiliationService.createIfMissing(contact.contact_id, false);
-					characterInformationService.createIfMissing(contact.contact_id, false);
-					break;
-				case corporation:
-					corporationInfoService.createIfMissing(contact.contact_id, false);
-					break;
-				case faction:
-					// nothing : factions are automatically updated from
-					break;
-				default:
-					throw new UnsupportedOperationException("case not supported " + contact.contact_type);
-				}
-			}
+			List<Integer> allianceIds = Stream.of(ok)
+			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.alliance)
+			    .map(c -> c.contact_id).toList();
+			allianceInfoService.createIfMissing(allianceIds, false);
+
+			// nothing to handle for factions, they are all automatically updated
+
+			List<Integer> corporationIds = Stream.of(ok)
+			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.corporation)
+			    .map(c -> c.contact_id).toList();
+			corporationInfoService.createIfMissing(corporationIds, false);
+
+			List<Integer> characterIds = Stream.of(ok)
+			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.character)
+			    .map(c -> c.contact_id).toList();
+			characterAffiliationService.createIfMissing(characterIds, false);
+			characterInformationService.createIfMissing(characterIds, false);
 		}
 		super.updateFromResponseOk(data, response);
 	}

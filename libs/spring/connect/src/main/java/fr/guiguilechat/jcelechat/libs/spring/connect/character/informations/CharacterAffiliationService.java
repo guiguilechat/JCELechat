@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfo
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -60,6 +61,9 @@ public class CharacterAffiliationService
 
 	private int maxSimultFetch = 1000;
 
+	@Getter
+	private final boolean supportsBatchUpdate = true;
+
 	@Override
 	public Map<CharacterAffiliation, CompletableFuture<CharacterAffiliation>> batchUpdate(
 	    List<CharacterAffiliation> data) {
@@ -69,6 +73,8 @@ public class CharacterAffiliationService
 		}
 		for (int i = 0; i < data.size(); i += maxSimultFetch) {
 			List<? extends CharacterAffiliation> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
+			// System.err.println("fetching next " + subData.size() + " ids for character
+			// affiliation");
 			int[] charIds = subData.stream().mapToInt(CharacterAffiliation::getCharacterId).toArray();
 			Requested<R_post_characters_affiliation[]> response = ESIRawPublic.INSTANCE.post_affiliation(charIds, null);
 			int responseCode = response.getResponseCode();

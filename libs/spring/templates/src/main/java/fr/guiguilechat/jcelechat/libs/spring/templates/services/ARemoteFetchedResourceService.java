@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.templates.services;
 
 import java.time.Instant;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -49,6 +50,23 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 
 	protected abstract Entity create(Id entityId);
 
+	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, Id entityId, boolean startFetch) {
+		if (e == null) {
+			e = create(entityId);
+			e.setFetchActive(isActivateNewEntry());
+			save(e);
+			log.trace("create entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
+
+		}
+		if (!e.isFetched() && e.isFetchActive() && startFetch) {
+			log.trace("entry of class {} for id {} needs fetching", e.getClass().getSimpleName(), entityId);
+			return update(e);
+		} else {
+			log.trace("no need to update entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
+			return CompletableFuture.completedFuture(e);
+		}
+	}
+
 	/**
 	 * ensure an entity for given id exists, and starts the update if required
 	 * 
@@ -64,25 +82,26 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Async
 	@Transactional
 	public CompletableFuture<Entity> createIfMissing(Id entityId, boolean startFetch) {
-		Optional<Entity> op = repo().findById(entityId);
-		Entity e = null;
-		if (op.isEmpty()) {
-			e = create(entityId);
-			e.setFetchActive(isActivateNewEntry());
-			save(e);
-			log.trace("create entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
-		} else {
-			e = op.get();
-		}
-		if (!e.isFetched() && e.isFetchActive() && startFetch) {
-			log.trace("entry of class {} for id {} needs fetching", e.getClass().getSimpleName(), entityId);
-			return update(e);
-		} else {
-			log.trace("no need to update entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
-			return CompletableFuture.completedFuture(e);
-		}
+		return createFetchIfNeeded(repo.findById(entityId).orElse(null), entityId, startFetch);
 	}
 
+	@Transactional
+	public Map<Id, CompletableFuture<Entity>> createIfMissing(Collection<Id> entityIds,
+	    boolean startFetch) {
+		Map<Id, Entity> storedEntities = repo.findAllById(entityIds).stream()
+		    .collect(Collectors.toMap(ARemoteFetchedResource::getRemoteId, e -> e));
+		return entityIds.stream().collect(Collectors.toMap(ei -> ei,
+		    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId, startFetch)));
+	}
+
+
+	/**
+	 * create the entity if needed, then fetch it and return it once fetched or
+	 * failed.
+	 * 
+	 * @param entityId id for the entity we want
+	 * @return a managed entity, fetched if it should , or null if exception caught
+	 */
 	public Entity fetched(Id entityId) {
 		try {
 			return createIfMissing(entityId, true).get();
