@@ -86,7 +86,7 @@ public class CharacterAffiliationService
 				for (CharacterAffiliation caf : subData) {
 					if (retMap.containsKey(caf.getCharacterId())) {
 						caf.update(retMap.get(caf.getCharacterId()));
-						caf.updateMeta(response);
+						caf.updateMetaOk(response);
 						save(caf);
 					}
 				}

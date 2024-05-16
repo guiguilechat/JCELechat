@@ -71,7 +71,7 @@ public class CharacterContactService extends
 	}
 
 	@Override
-	protected void updateFromResponseOk(CharacterContactList data,
+	protected void updateResponseOk(CharacterContactList data,
 	    Requested<R_get_characters_character_id_contacts[]> response) {
 		R_get_characters_character_id_contacts[] ok = response.getOK();
 		if (ok != null) {
@@ -93,7 +93,7 @@ public class CharacterContactService extends
 			characterAffiliationService.createIfMissing(characterIds, false);
 			characterInformationService.createIfMissing(characterIds, false);
 		}
-		super.updateFromResponseOk(data, response);
+		super.updateResponseOk(data, response);
 	}
 
 }

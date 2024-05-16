@@ -41,8 +41,8 @@ public abstract class ACharDataRecordListService<
 	private RecordRepo recordRepo;
 
 	@Override
-	protected void updateFromResponseOk(Entity data, Requested<Fetched[]> response) {
-		data.updateMeta(response);
+	protected void updateResponseOk(Entity data, Requested<Fetched[]> response) {
+		data.updateMetaOk(response);
 		recordRepo().deleteByFetchResource(data);
 		Fetched[] arr = response.getOK();
 		if (arr != null && arr.length != 0) {

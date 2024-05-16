@@ -20,8 +20,8 @@ public abstract class AAppendCharDataRecordListService <
 extends ACharDataRecordListService<Entity, Fetched, Repository, ListRecord, RecordRepo> {
 
 	@Override
-	protected void updateFromResponseOk(Entity data, Requested<Fetched[]> response) {
-		data.updateMeta(response);
+	protected void updateResponseOk(Entity data, Requested<Fetched[]> response) {
+		data.updateMetaOk(response);
 		Fetched[] arr = response.getOK();
 		Stream<Fetched> missing = arr == null || arr.length == 0 ? Stream.empty() : findMising(data, arr);
 		saveNewResources(data, missing);

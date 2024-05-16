@@ -94,9 +94,9 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 	// this implementation only calls this with NEW data to store. So just update
 	// the meta data and store the new records.
 	@Override
-	protected void updateFromResponseOk(CharacterTransactionList data,
+	protected void updateResponseOk(CharacterTransactionList data,
 	    Requested<R_get_characters_character_id_wallet_transactions[]> response) {
-		data.updateMeta(response);
+		data.updateMetaOk(response);
 		R_get_characters_character_id_wallet_transactions[] arr = response.getOK();
 		if (arr != null && arr.length != 0) {
 			saveNewResources(data, Stream.of(arr));

@@ -25,15 +25,27 @@ public abstract class AFetchedResource {
 
 	private String lastEtag;
 
-	boolean fetched = false;
+	private boolean fetched = false;
 
-	boolean fetchActive = true;
+	private boolean fetchActive = true;
 
-	protected void updateMeta(Instant lastModified, Instant expires, String etag) {
+	private int successiveErrors = 0;
+
+	protected void resetErrors() {
+		setSuccessiveErrors(0);
+	}
+
+	public int increaseSuccessiveErrors() {
+		return ++successiveErrors;
+	}
+
+	/** called when the resource is successfully updated */
+	protected void updateMetaOk(Instant lastModified, Instant expires, String etag) {
 		setExpires(expires);
 		setFetched(true);
 		setLastEtag(etag);
 		setLastModified(lastModified);
+		resetErrors();
 	}
 
 }

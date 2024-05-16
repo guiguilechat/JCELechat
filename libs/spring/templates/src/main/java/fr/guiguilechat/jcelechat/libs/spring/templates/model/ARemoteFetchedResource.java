@@ -24,8 +24,11 @@ public abstract class ARemoteFetchedResource<RemoteId, Fetched> extends AFetched
 
 	public abstract void update(Fetched data);
 
-	public void updateMeta(Requested<?> response) {
-		updateMeta(response.getLastModifiedInstant(), response.getExpiresInstant(), response.getETag());
+	/**
+	 * update meta data from an ok response
+	 */
+	public void updateMetaOk(Requested<?> response) {
+		updateMetaOk(response.getLastModifiedInstant(), response.getExpiresInstant(), response.getETag());
 	}
 
 }

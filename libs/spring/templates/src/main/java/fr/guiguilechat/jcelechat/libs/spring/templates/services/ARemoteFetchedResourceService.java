@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.templates.services;
 
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
@@ -150,19 +151,28 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 			int responseCode = response.getResponseCode();
 			switch (responseCode) {
 			case 200:
-				updateFromResponseOk(data, response);
-				data = save(data);
-				log.debug(" updated data " + data.getClass().getSimpleName() + " for id " + data.getRemoteId()
+				updateResponseOk(data, response);
+				log.trace(" updated data " + data.getClass().getSimpleName() + " for id " + data.getRemoteId()
 				    + " with expires=" + data.getExpires());
 				break;
 			case 304:
-				data.setExpires(response.getExpiresInstant());
-				data = save(data);
+				updateNoChange(data, response);
 				break;
 			default:
 				log.error("while updating data remoteid {} info class {}, received response code {} and error {}",
 				    data.getRemoteId(), data.getClass().getSimpleName(), responseCode, response.getError());
+				switch (responseCode / 100) {
+				case 4:
+					updateRequestError(data, response);
+					break;
+				case 5:
+					updateServerError(data, response);
+					break;
+				default:
+					throw new UnsupportedOperationException("case " + responseCode + " not handled");
+				}
 			}
+			data = save(data);
 		} catch (Exception e) {
 			log.error("while updating " + data.getClass().getSimpleName() + " for data remoteid " + data.getRemoteId(), e);
 		}
@@ -175,9 +185,38 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	 * @param data     data that should be updated
 	 * @param response remote response for that data update.
 	 */
-	protected void updateFromResponseOk(Entity data, Requested<Fetched> response) {
-		data.updateMeta(response);
+	protected void updateResponseOk(Entity data, Requested<Fetched> response) {
+		data.updateMetaOk(response);
 		data.update(response.getOK());
+	}
+
+	/**
+	 * Called when the request returned a 304
+	 */
+	protected void updateNoChange(Entity data, Requested<Fetched> response) {
+		data.setExpires(response.getExpiresInstant());
+	}
+
+	/**
+	 * Called when the request returned a 4xx
+	 */
+	protected void updateRequestError(Entity data, Requested<Fetched> response) {
+		int nbErrors = data.increaseSuccessiveErrors();
+		switch (response.getResponseCode()) {
+		case 401: // banned. Wait a day
+			data.setExpires(Instant.now().plus(nbErrors * 12, ChronoUnit.HOURS));
+			return;
+		default:
+			data.setExpires(Instant.now().plus(nbErrors, ChronoUnit.HOURS));
+		}
+
+	}
+
+	/**
+	 * Called when the request returned a 5xx
+	 */
+	protected void updateServerError(Entity data, Requested<Fetched> response) {
+		data.setExpires(Instant.now().plus(5, ChronoUnit.MINUTES));
 	}
 
 	/**
@@ -225,7 +264,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	 *           map instead.
 	 */
 	public Map<Entity, CompletableFuture<Entity>> batchUpdate(List<Entity> data) {
-		log.debug(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
+		log.trace(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
 		return data.parallelStream().limit(getMaxUpdates()).collect(Collectors.toMap(e -> e, this::update));
 	}
 }
