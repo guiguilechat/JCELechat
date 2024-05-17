@@ -47,7 +47,7 @@ public abstract class ARemoteFetchedResourceService<
 			data.setCreated(Instant.now());
 		}
 		data.setLastUpdate(Instant.now());
-		return repo().save(data);
+		return repo().saveAndFlush(data);
 	}
 
 	protected boolean isActivateNewEntry() {
@@ -56,8 +56,11 @@ public abstract class ARemoteFetchedResourceService<
 
 	protected abstract Entity create(Id entityId);
 
-	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, Id entityId, boolean startFetch) {
+	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, Id entityId, boolean createOnAbsent, boolean startFetch) {
 		if (e == null) {
+			if (!createOnAbsent) {
+				return null;
+			}
 			e = create(entityId);
 			e.setFetchActive(isActivateNewEntry());
 			save(e);
@@ -87,17 +90,21 @@ public abstract class ARemoteFetchedResourceService<
 	 */
 	@Async
 	@Transactional
-	public CompletableFuture<Entity> createIfMissing(Id entityId, boolean startFetch) {
-		return createFetchIfNeeded(repo.findById(entityId).orElse(null), entityId, startFetch);
+	public CompletableFuture<Entity> createIfAbsent(Id entityId, boolean startFetch) {
+		synchronized (repo()) {
+			return createFetchIfNeeded(repo().findById(entityId).orElse(null), entityId, true, startFetch);
+		}
 	}
 
 	@Transactional
-	public Map<Id, CompletableFuture<Entity>> createIfMissing(Collection<Id> entityIds,
+	public Map<Id, CompletableFuture<Entity>> createIfAbsent(Collection<Id> entityIds,
 	    boolean startFetch) {
-		Map<Id, Entity> storedEntities = repo.findAllById(entityIds).stream()
+		synchronized (repo()) {
+			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
 		    .collect(Collectors.toMap(ARemoteFetchedResource::getRemoteId, e -> e));
-		return entityIds.stream().collect(Collectors.toMap(ei -> ei,
-		    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId, startFetch)));
+		return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
+		    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId, true, startFetch)));
+	}
 	}
 
 
@@ -111,7 +118,7 @@ public abstract class ARemoteFetchedResourceService<
 	 */
 	public Entity createFetch(Id entityId) {
 		try {
-			return createIfMissing(entityId, true).get();
+			return createIfAbsent(entityId, true).get();
 		} catch (InterruptedException | ExecutionException e) {
 			log.error("while fetching id " + entityId, e);
 			return null;
@@ -119,10 +126,6 @@ public abstract class ARemoteFetchedResourceService<
 	}
 
 	protected abstract Requested<Fetched> fetchData(Id id, Map<String, String> properties);
-
-	protected Optional<Entity> forId(Id id) {
-		return repo().findById(id);
-	}
 
 	/**
 	 * if an entity exists for an id, update it if needed, then return it.
@@ -133,7 +136,7 @@ public abstract class ARemoteFetchedResourceService<
 	 *           empty if not created.
 	 */
 	public Optional<Entity> getExistingFetched(Id id) {
-		Optional<Entity> ret = forId(id);
+		Optional<Entity> ret = repo().findById(id);
 		if (ret.isEmpty() || ret.get().isFetched() || !ret.get().isFetchActive()) {
 			return ret;
 		}

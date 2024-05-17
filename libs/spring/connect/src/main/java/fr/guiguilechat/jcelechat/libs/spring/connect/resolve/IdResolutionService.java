@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.resolve;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -23,8 +24,29 @@ import lombok.extern.slf4j.Slf4j;
 public class IdResolutionService
     extends ARemoteFetchedResourceService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
 
+	/** implement in a service to listen to new id resolved */
+	public static interface IdResolutionListener {
+
+		/** called when a new Id is successfully resolved */
+		public void onNewIdResolution(IdResolution idResolution);
+
+	}
+
+	@Lazy
+	private final Optional<List<IdResolutionListener>> idResolutionListeners;
+
+	protected void oneNewIdResolution(IdResolution newIdResolution) {
+		if(idResolutionListeners.isPresent()) {
+			for( IdResolutionListener l : idResolutionListeners.get()) {
+				l.onNewIdResolution(newIdResolution);
+			}
+		}
+	}
+
 	@Override
 	protected IdResolution create(Integer entityId) {
+		// log.error("creating entity resolution id = " + entityId, new
+		// RuntimeException());
 		return new IdResolution(entityId, null, null);
 	}
 

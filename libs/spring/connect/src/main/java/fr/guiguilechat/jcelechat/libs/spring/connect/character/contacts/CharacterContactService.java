@@ -78,20 +78,20 @@ public class CharacterContactService extends
 			List<Integer> allianceIds = Stream.of(ok)
 			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.alliance)
 			    .map(c -> c.contact_id).toList();
-			allianceInfoService.createIfMissing(allianceIds, false);
+			allianceInfoService.createIfAbsent(allianceIds, false);
 
 			// nothing to handle for factions, they are all automatically updated
 
 			List<Integer> corporationIds = Stream.of(ok)
 			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.corporation)
 			    .map(c -> c.contact_id).toList();
-			corporationInfoService.createIfMissing(corporationIds, false);
+			corporationInfoService.createIfAbsent(corporationIds, false);
 
 			List<Integer> characterIds = Stream.of(ok)
 			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.character)
 			    .map(c -> c.contact_id).toList();
-			characterAffiliationService.createIfMissing(characterIds, false);
-			characterInformationService.createIfMissing(characterIds, false);
+			characterAffiliationService.createIfAbsent(characterIds, false);
+			characterInformationService.createIfAbsent(characterIds, false);
 		}
 		super.updateResponseOk(data, response);
 	}

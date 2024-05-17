@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournal.CharacterJournalList;
+import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolutionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.AAppendCharDataRecordListService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import lombok.Getter;
@@ -25,9 +26,15 @@ public class CharacterJournalService extends AAppendCharDataRecordListService<
 		CharacterJournal,
 		CharacterJournalRepository> {
 
+	@Lazy
+	private final IdResolutionService idResolutionService;
+
 	@Override
 	protected CharacterJournal transformRecord(M_get_journal_13 f) {
-		return CharacterJournal.from(f);
+		CharacterJournal ret = CharacterJournal.from(f);
+		idResolutionService.createIfAbsent(ret.getFirstPartyId(), false);
+		idResolutionService.createIfAbsent(ret.getSecondPartyId(), false);
+		return ret;
 	}
 
 	@Override
@@ -56,6 +63,7 @@ public class CharacterJournalService extends AAppendCharDataRecordListService<
 		    .collect(Collectors.toMap(CharacterJournal::getTransactionId, cj -> cj));
 		return Stream.of(arr).filter(j -> !storedRecords.containsKey(j.id));
 	}
+
 
 	// service usage
 

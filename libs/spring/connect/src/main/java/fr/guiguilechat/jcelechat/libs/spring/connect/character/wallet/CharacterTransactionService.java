@@ -11,10 +11,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliationService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction.CharacterTransactionList;
 import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolutionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.AConnectedCharDataService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import lombok.Getter;
@@ -32,13 +31,10 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 	private final CharacterTransactionRepository recordRepo;
 
 	@Lazy
-	private final CharacterAffiliationService characterAffiliationService;
-
-	@Lazy
-	private final CharacterInformationService characterInformationService;
-
-	@Lazy
 	private final CorporationInfoService corporationInfoService;
+
+	@Lazy
+	private final IdResolutionService idResolutionService;
 
 	@Getter(lazy = true)
 	private final Set<String> requiredScopes = Set.of("esi-wallet.read_character_wallet.v1");
@@ -112,20 +108,11 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 		    .toList();
 		recordRepo.saveAll(list);
 
-		List<Integer> npcCorporationIds = list.stream()
-		    .filter(CharacterTransaction::isClientNpcCorp)
+		List<Integer> allIds = list.stream()
 		    .map(CharacterTransaction::getClientId)
 		    .distinct()
 		    .toList();
-		corporationInfoService.createIfMissing(npcCorporationIds, false);
-
-		List<Integer> characterIds = list.stream()
-		    .filter(ct -> !ct.isClientNpcCorp())
-		    .map(CharacterTransaction::getClientId)
-		    .distinct()
-		    .toList();
-		characterInformationService.createIfMissing(characterIds, false);
-		characterAffiliationService.createIfMissing(characterIds, false);
+		idResolutionService.createIfAbsent(allIds, false);
 	}
 
 	// service usage
