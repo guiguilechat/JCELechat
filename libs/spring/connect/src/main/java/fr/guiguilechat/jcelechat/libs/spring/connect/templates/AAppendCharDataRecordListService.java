@@ -21,7 +21,7 @@ extends ACharDataRecordListService<Entity, Fetched, Repository, ListRecord, Reco
 
 	@Override
 	protected void updateResponseOk(Entity data, Requested<Fetched[]> response) {
-		data.updateMetaOk(response);
+		updateMetaOk(data, response);
 		Fetched[] arr = response.getOK();
 		Stream<Fetched> missing = arr == null || arr.length == 0 ? Stream.empty() : findMising(data, arr);
 		saveNewResources(data, missing);

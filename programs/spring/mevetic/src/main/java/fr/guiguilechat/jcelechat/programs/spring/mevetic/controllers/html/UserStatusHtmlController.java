@@ -70,7 +70,7 @@ public class UserStatusHtmlController {
 	@GetMapping("/")
 	public String getUser(Model model, Authentication auth) {
 		int charId = EsiUserService.getCharacterId(auth);
-		Optional<CharacterAffiliation> oca = characterAffiliationService.getFetched(charId);
+		Optional<CharacterAffiliation> oca = characterAffiliationService.getExistingFetched(charId);
 		if (oca.isPresent()) {
 			model.addAttribute("affiliation", oca.get());
 		}
@@ -79,7 +79,7 @@ public class UserStatusHtmlController {
 
 	@GetMapping("/roles")
 	public String getRoles(Model model, Authentication auth) {
-		Optional<CharacterRoles> userRoles = characterRolesService.getFetched(EsiUserService.getCharacterId(auth));
+		Optional<CharacterRoles> userRoles = characterRolesService.getExistingFetched(EsiUserService.getCharacterId(auth));
 		if (userRoles.isPresent()) {
 			model.addAttribute("roles", userRoles.get());
 		}
@@ -96,7 +96,7 @@ public class UserStatusHtmlController {
 			model.addAttribute("blocked", userContacts.stream().filter(CharacterContact::isBlocked).toList());
 		}
 
-		CharacterStandingList charFetch = characterStandingService.fetched(charId);
+		CharacterStandingList charFetch = characterStandingService.createFetch(charId);
 		if (charFetch != null && charFetch.isFetched()) {
 			if (charFetch.getExpires() != null) {
 				Duration remain = Duration.between(Instant.now(), charFetch.getExpires());

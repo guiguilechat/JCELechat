@@ -1,9 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.informations;
 
-import java.time.Instant;
-import java.time.ZoneOffset;
-import java.time.format.DateTimeFormatter;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
@@ -13,7 +9,6 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
@@ -53,8 +48,7 @@ public class CharacterAffiliationService
 	    Map<String, String> properties) {
 		Requested<R_post_characters_affiliation[]> ret = ESIRawPublic.INSTANCE.post_affiliation(new int[] { characterId },
 		    properties);
-		// ret.getOK()[0].corporation_id;
-		return ret.mapBody(arr -> arr[0]).mapHeaders(this::addExpire);
+		return ret.mapBody(arr -> arr[0]);
 	}
 
 	// batch update
@@ -80,13 +74,12 @@ public class CharacterAffiliationService
 			int responseCode = response.getResponseCode();
 			switch (responseCode) {
 			case 200:
-				response = response.mapHeaders(this::addExpire);
 				Map<Integer, R_post_characters_affiliation> retMap = Stream.of(response.getOK())
 				    .collect(Collectors.toMap(r -> r.character_id, r -> r));
 				for (CharacterAffiliation caf : subData) {
 					if (retMap.containsKey(caf.getCharacterId())) {
 						caf.update(retMap.get(caf.getCharacterId()));
-						caf.updateMetaOk(response);
+						updateMetaOk(caf, response);
 						save(caf);
 					}
 				}
@@ -97,21 +90,6 @@ public class CharacterAffiliationService
 			}
 		}
 		return Map.of();
-	}
-
-	protected Map<String, List<String>> addExpire(Map<String, List<String>> headers) {
-		Map<String, List<String>> ret = new HashMap<>(headers);
-		Instant date = Instant.now();
-		if (headers.containsKey(Requested.DATE_PROP)) {
-			String datestr = headers.get(Requested.DATE_PROP).stream().findFirst().orElse(null);
-			if (datestr != null) {
-				date = ESITools.headerInstant(datestr);
-			}
-		}
-		Instant expires = date.plusSeconds(3600);
-		ret.put(Requested.EXPIRES_PROP,
-		    List.of(DateTimeFormatter.RFC_1123_DATE_TIME.format(expires.atOffset(ZoneOffset.UTC))));
-		return ret;
 	}
 
 }

@@ -52,7 +52,7 @@ public class C2CStandingsService {
 	 *           if no standing affected.
 	 */
 	public float effectiveStanding(int characterFromId, int characterToId) {
-		CharacterAffiliation ca = characterAffiliationService.fetched(characterToId);
+		CharacterAffiliation ca = characterAffiliationService.createFetch(characterToId);
 		if (characterFromId == characterToId) {
 			return 100.0f;
 		}
@@ -84,7 +84,7 @@ public class C2CStandingsService {
 	}
 
 	public Map<Integer, Float> effectiveStandings(int characterToId) {
-		CharacterAffiliation ca = characterAffiliationService.fetched(characterToId);
+		CharacterAffiliation ca = characterAffiliationService.createFetch(characterToId);
 		List<Integer> toIds = new ArrayList<>();
 		toIds.add(characterToId);
 		if (ca != null) {

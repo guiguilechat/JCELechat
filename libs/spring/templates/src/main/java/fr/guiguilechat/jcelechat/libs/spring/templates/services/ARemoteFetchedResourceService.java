@@ -16,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
+import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IRemoteFetchedResourceRepository;
@@ -28,7 +29,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NoArgsConstructor
 @Getter
-public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> {
+public abstract class ARemoteFetchedResourceService<
+	Entity extends ARemoteFetchedResource<Id, Fetched>,
+	Id,
+	Fetched,
+	Repository extends IRemoteFetchedResourceRepository<Entity, Id>> {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -101,9 +106,10 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	 * failed.
 	 * 
 	 * @param entityId id for the entity we want
-	 * @return a managed entity, fetched if it should , or null if exception caught
+	 * @return a managed entity, fetched if it should, or null if exception caught.
+	 *           It may not be fetched if {@link #isActivateNewEntry()} is false
 	 */
-	public Entity fetched(Id entityId) {
+	public Entity createFetch(Id entityId) {
 		try {
 			return createIfMissing(entityId, true).get();
 		} catch (InterruptedException | ExecutionException e) {
@@ -118,7 +124,15 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		return repo().findById(id);
 	}
 
-	public Optional<Entity> getFetched(Id id) {
+	/**
+	 * if an entity exists for an id, update it if needed, then return it.
+	 * Use {@link #createFetch(Object)} to create it if absent.
+	 * 
+	 * @return entity for given id, at least fetched once if needed. May not be
+	 *           fetched if the {@link #isActivateNewEntry()} is false ; may be
+	 *           empty if not created.
+	 */
+	public Optional<Entity> getExistingFetched(Id id) {
 		Optional<Entity> ret = forId(id);
 		if (ret.isEmpty() || ret.get().isFetched() || !ret.get().isFetchActive()) {
 			return ret;
@@ -186,8 +200,45 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	 * @param response remote response for that data update.
 	 */
 	protected void updateResponseOk(Entity data, Requested<Fetched> response) {
-		data.updateMetaOk(response);
+		updateMetaOk(data, response);
 		data.update(response.getOK());
+	}
+
+	/**
+	 * update meta data from an ok response
+	 */
+	protected void updateMetaOk(Entity data, Requested<?> response) {
+		data.updateMetaOk(response.getLastModifiedInstant(), extractExpires(response), response.getETag());
+	}
+
+	/**
+	 * number of seconds we add to now() to create the expires, if missing
+	 * can be changed with
+	 * {@code  @Getter(lazy=true) private final int defaultExpiresDelaySeconds=1000;}
+	 */
+	protected int getDefaultExpiresDelaySeconds() {
+		return 3600;
+	}
+
+	/**
+	 * extract the expires
+	 * 
+	 * @param headers mutable map
+	 * @return the map.
+	 */
+	protected Instant extractExpires(Requested<?> response) {
+		Instant ret = response.getExpiresInstant();
+		if (ret != null) {
+			return ret;
+		}
+		Instant date = Instant.now();
+		if (response.getHeaders().containsKey(Requested.DATE_PROP)) {
+			String datestr = response.getHeaders().get(Requested.DATE_PROP).stream().findFirst().orElse(null);
+			if (datestr != null) {
+				date = ESITools.headerInstant(datestr);
+			}
+		}
+		return date.plusSeconds(getDefaultExpiresDelaySeconds());
 	}
 
 	/**

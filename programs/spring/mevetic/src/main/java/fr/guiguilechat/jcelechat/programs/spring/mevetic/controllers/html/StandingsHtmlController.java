@@ -89,13 +89,13 @@ public class StandingsHtmlController {
 	}
 
 	public LinkedcharacterStanding linkedcharacterStanding(int charId) {
-		return new LinkedcharacterStanding(characterInformationService.fetched(charId).getName(), uri(charId).toString());
+		return new LinkedcharacterStanding(characterInformationService.createFetch(charId).getName(), uri(charId).toString());
 	}
 
 	protected void addNPCStandings(Model model, int charId) {
-		CharacterInformation CharInfo = characterInformationService.fetched(charId);
+		CharacterInformation CharInfo = characterInformationService.createFetch(charId);
 		model.addAttribute("charName", CharInfo.getName());
-		CharacterStandingList charFetch = characterStandingService.fetched(charId);
+		CharacterStandingList charFetch = characterStandingService.createFetch(charId);
 		List<CharacterStanding> userStandings = characterStandingService
 		    .list(charId);
 		if (userStandings != null) {

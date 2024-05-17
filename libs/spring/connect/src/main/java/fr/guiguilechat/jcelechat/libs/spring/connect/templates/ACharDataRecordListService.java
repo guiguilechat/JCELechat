@@ -42,7 +42,7 @@ public abstract class ACharDataRecordListService<
 
 	@Override
 	protected void updateResponseOk(Entity data, Requested<Fetched[]> response) {
-		data.updateMetaOk(response);
+		updateMetaOk(data, response);
 		recordRepo().deleteByFetchResource(data);
 		Fetched[] arr = response.getOK();
 		if (arr != null && arr.length != 0) {

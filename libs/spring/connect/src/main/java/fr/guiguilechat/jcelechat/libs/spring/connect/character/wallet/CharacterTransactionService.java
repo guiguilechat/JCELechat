@@ -96,7 +96,7 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 	@Override
 	protected void updateResponseOk(CharacterTransactionList data,
 	    Requested<R_get_characters_character_id_wallet_transactions[]> response) {
-		data.updateMetaOk(response);
+		updateMetaOk(data, response);
 		R_get_characters_character_id_wallet_transactions[] arr = response.getOK();
 		if (arr != null && arr.length != 0) {
 			saveNewResources(data, Stream.of(arr));

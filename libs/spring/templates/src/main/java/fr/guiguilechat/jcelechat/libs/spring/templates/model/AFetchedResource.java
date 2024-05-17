@@ -54,7 +54,7 @@ public abstract class AFetchedResource {
 	}
 
 	/** called when the resource is successfully updated */
-	protected void updateMetaOk(Instant lastModified, Instant expires, String etag) {
+	public void updateMetaOk(Instant lastModified, Instant expires, String etag) {
 		setExpires(expires);
 		setFetched(true);
 		setLastEtag(etag);

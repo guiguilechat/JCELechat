@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.templates.model;
 
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -23,12 +22,5 @@ public abstract class ARemoteFetchedResource<RemoteId, Fetched> extends AFetched
 	public abstract RemoteId getRemoteId();
 
 	public abstract void update(Fetched data);
-
-	/**
-	 * update meta data from an ok response
-	 */
-	public void updateMetaOk(Requested<?> response) {
-		updateMetaOk(response.getLastModifiedInstant(), response.getExpiresInstant(), response.getETag());
-	}
 
 }
