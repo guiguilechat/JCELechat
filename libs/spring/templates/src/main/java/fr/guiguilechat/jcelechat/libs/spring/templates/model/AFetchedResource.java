@@ -21,14 +21,28 @@ import lombok.Setter;
 @Setter
 public abstract class AFetchedResource {
 
-	private Instant created, lastUpdate, expires, lastModified;
+	/** date it was created */
+	private Instant created;
 
-	private String lastEtag;
+	/** date the last successful update expires at */
+	private Instant expires;
 
-	private boolean fetched = false;
-
+	/** true if we need to keep it up to date */
 	private boolean fetchActive = true;
 
+	/** true when the resource has already been successfuly fetched */
+	private boolean fetched = false;
+
+	/** returned etag value of the last successful update */
+	private String lastEtag;
+
+	/** date the last successful update had its remote value changed */
+	private Instant lastModified;
+
+	/** date of the last successful update */
+	private Instant lastUpdate;
+
+	/** number of failures we had since the last success or creation date */
 	private int successiveErrors = 0;
 
 	protected void resetErrors() {
