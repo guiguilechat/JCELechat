@@ -231,7 +231,7 @@ public abstract class ARemoteFetchedResourceService<
 	 */
 	protected Instant extractExpires(Requested<?> response) {
 		Instant ret = response.getExpiresInstant();
-		if (ret != null) {
+		if (ret != null && ret.getEpochSecond() != 0l) {
 			return ret;
 		}
 		Instant date = Instant.now();

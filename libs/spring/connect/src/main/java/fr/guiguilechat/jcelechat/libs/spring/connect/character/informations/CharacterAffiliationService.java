@@ -85,6 +85,11 @@ public class CharacterAffiliationService
 						caf.update(retMap.get(caf.getCharacterId()));
 						updateMetaOk(caf, response);
 						save(caf);
+						log.trace(
+						    "saved new affiliation for character " + caf.getCharacterId() + " , expires at " + caf.getExpires());
+					} else {
+						log.error(
+						    "fetched character affiliation for " + caf.getCharacterId() + " but got ids for " + retMap.keySet());
 					}
 				}
 				break;
