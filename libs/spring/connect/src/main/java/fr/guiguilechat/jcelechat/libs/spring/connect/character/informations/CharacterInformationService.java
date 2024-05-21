@@ -24,7 +24,7 @@ public class CharacterInformationService
 	@Override
 	protected CharacterInformation create(Integer characterId) {
 		CharacterInformation ret = new CharacterInformation();
-		ret.setCharacterId(characterId);
+		ret.setRemoteId(characterId);
 		return ret;
 	}
 

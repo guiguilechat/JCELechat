@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact.CharacterContactList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecord;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecordList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_contacts_contact_type;
 import jakarta.persistence.Entity;
@@ -18,7 +18,7 @@ import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterContact")
 @Table(name = "esi_connect_charactercontact", indexes = {
-    @Index(columnList = "fetchResourceCharacterId,contactType")
+    @Index(columnList = "fetchResourceRemoteId,contactType")
 })
 @AllArgsConstructor
 @NoArgsConstructor
@@ -26,7 +26,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class CharacterContact extends
-    ACharDataRecord<CharacterContact, CharacterContactList> {
+    AFetchedListElement<CharacterContact, CharacterContactList> {
 
 	@Entity(name = "EsiConnectCharacterContactList")
 	@Table(name = "esi_connect_charactercontactlist")
@@ -35,7 +35,7 @@ public class CharacterContact extends
 	@Setter
 	@ToString
 	public static class CharacterContactList
-	    extends ACharDataRecordList<R_get_characters_character_id_contacts, CharacterContact> {
+	    extends AFetchedList<Integer, R_get_characters_character_id_contacts, CharacterContact> {
 
 	}
 

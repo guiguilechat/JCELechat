@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.attributes;
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -20,7 +20,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class CharacterAttributes extends ACharData<R_get_characters_character_id_attributes> {
+public class CharacterAttributes extends ARemoteFetchedResource<Integer, R_get_characters_character_id_attributes> {
 
 	private Instant accruedRemapCooldown;
 

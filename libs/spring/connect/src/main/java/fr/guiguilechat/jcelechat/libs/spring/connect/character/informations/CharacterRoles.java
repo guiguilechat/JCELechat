@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.informations;
 import java.util.HashSet;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_base;
@@ -26,7 +26,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class CharacterRoles extends ACharData<R_get_characters_character_id_roles> {
+public class CharacterRoles extends ARemoteFetchedResource<Integer, R_get_characters_character_id_roles> {
 
 	@ElementCollection(fetch = FetchType.EAGER)
 	private Set<get_characters_character_id_roles_roles> roles = new HashSet<>();

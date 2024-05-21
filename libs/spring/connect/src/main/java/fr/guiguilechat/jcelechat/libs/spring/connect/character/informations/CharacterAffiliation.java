@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.informations;
 
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class CharacterAffiliation extends ACharData<R_post_characters_affiliation> {
+public class CharacterAffiliation extends ARemoteFetchedResource<Integer, R_post_characters_affiliation> {
 
 	/** The character's alliance ID, if their corporation is in an alliance */
 	private int allianceId;

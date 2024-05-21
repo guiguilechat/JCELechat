@@ -3,20 +3,20 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecord;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecordList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRecordRepository;
-import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IFetchedListElementRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IRemoteFetchedResourceRepository;
 
 /**
  * Only append the new entries instead of deleting the old ones.
  */
 public abstract class AAppendCharDataRecordListService <
-	Entity extends ACharDataRecordList<Fetched, ListRecord>,
+    Entity extends AFetchedList<Integer, Fetched, ListRecord>,
 	Fetched,
-	Repository extends ICharDataRepository<Entity>,
-	ListRecord extends ACharDataRecord<?, Entity>,
-	RecordRepo extends ICharDataRecordRepository<Entity, ListRecord>>
+    Repository extends IRemoteFetchedResourceRepository<Entity, Integer>,
+	ListRecord extends AFetchedListElement<?, Entity>,
+	RecordRepo extends IFetchedListElementRepository<Entity, ListRecord>>
 extends ACharDataRecordListService<Entity, Fetched, Repository, ListRecord, RecordRepo> {
 
 	@Override

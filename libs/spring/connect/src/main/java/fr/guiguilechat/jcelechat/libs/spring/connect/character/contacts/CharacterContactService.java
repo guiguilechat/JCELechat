@@ -24,7 +24,12 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class CharacterContactService extends
-    ACharDataRecordListService<CharacterContactList, R_get_characters_character_id_contacts, CharacterContactListRepository, CharacterContact, CharacterContactRepository> {
+    ACharDataRecordListService<
+    	CharacterContactList, 
+    	R_get_characters_character_id_contacts,
+    	CharacterContactListRepository,
+    	CharacterContact, 
+    	CharacterContactRepository> {
 
 	@Lazy
 	private final AllianceInfoService allianceInfoService;
@@ -45,15 +50,15 @@ public class CharacterContactService extends
 
 	@Override
 	protected Requested<R_get_characters_character_id_contacts[]> fetchCharacterData(ESIConnected esiConnected,
-	    int characterId, Map<String, String> properties) {
-		return esiConnected.requestGetPages((page, props) -> esiConnected.get_characters_contacts(characterId, page, props),
+	    int RemoteId, Map<String, String> properties) {
+		return esiConnected.requestGetPages((page, props) -> esiConnected.get_characters_contacts(RemoteId, page, props),
 		    properties).mapBody(l -> l.toArray(R_get_characters_character_id_contacts[]::new));
 	}
 
 	@Override
-	protected CharacterContactList create(Integer characterId) {
+	protected CharacterContactList create(Integer RemoteId) {
 		CharacterContactList ret = new CharacterContactList();
-		ret.setCharacterId(characterId);
+		ret.setRemoteId(RemoteId);
 		return ret;
 	}
 
@@ -63,7 +68,7 @@ public class CharacterContactService extends
 	// service usage
 
 	public List<CharacterContact> fromTo(List<Integer> fromIds, List<Integer> toIds) {
-		return recordRepo().findAllByFetchResourceCharacterIdInAndContactIdIn(fromIds, toIds);
+		return recordRepo().findAllByFetchResourceRemoteIdInAndContactIdIn(fromIds, toIds);
 	}
 
 	public List<CharacterContact> forContactIds(List<Integer> toIds) {
@@ -87,11 +92,11 @@ public class CharacterContactService extends
 			    .map(c -> c.contact_id).toList();
 			corporationInfoService.createIfAbsent(corporationIds, false);
 
-			List<Integer> characterIds = Stream.of(ok)
+			List<Integer> RemoteIds = Stream.of(ok)
 			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.character)
 			    .map(c -> c.contact_id).toList();
-			characterAffiliationService.createIfAbsent(characterIds, false);
-			characterInformationService.createIfAbsent(characterIds, false);
+			characterAffiliationService.createIfAbsent(RemoteIds, false);
+			characterInformationService.createIfAbsent(RemoteIds, false);
 		}
 		super.updateResponseOk(data, response);
 	}

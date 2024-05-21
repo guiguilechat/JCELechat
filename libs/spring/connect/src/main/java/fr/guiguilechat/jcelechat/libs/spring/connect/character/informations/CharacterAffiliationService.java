@@ -41,16 +41,16 @@ public class CharacterAffiliationService
 	}
 
 	@Override
-	protected CharacterAffiliation create(Integer characterId) {
+	protected CharacterAffiliation create(Integer RemoteId) {
 		CharacterAffiliation ret = new CharacterAffiliation();
-		ret.setCharacterId(characterId);
+		ret.setRemoteId(RemoteId);
 		return ret;
 	}
 
 	@Override
-	protected Requested<R_post_characters_affiliation> fetchData(Integer characterId,
+	protected Requested<R_post_characters_affiliation> fetchData(Integer RemoteId,
 	    Map<String, String> properties) {
-		Requested<R_post_characters_affiliation[]> ret = ESIRawPublic.INSTANCE.post_affiliation(new int[] { characterId },
+		Requested<R_post_characters_affiliation[]> ret = ESIRawPublic.INSTANCE.post_affiliation(new int[] { RemoteId },
 		    properties);
 		return ret.mapBody(arr -> arr[0]);
 	}
@@ -73,7 +73,7 @@ public class CharacterAffiliationService
 			List<? extends CharacterAffiliation> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
 			// System.err.println("fetching next " + subData.size() + " ids for character
 			// affiliation");
-			int[] charIds = subData.stream().mapToInt(CharacterAffiliation::getCharacterId).toArray();
+			int[] charIds = subData.stream().mapToInt(CharacterAffiliation::getRemoteId).toArray();
 			Requested<R_post_characters_affiliation[]> response = ESIRawPublic.INSTANCE.post_affiliation(charIds, null);
 			int responseCode = response.getResponseCode();
 			switch (responseCode) {
@@ -81,15 +81,15 @@ public class CharacterAffiliationService
 				Map<Integer, R_post_characters_affiliation> retMap = Stream.of(response.getOK())
 				    .collect(Collectors.toMap(r -> r.character_id, r -> r));
 				for (CharacterAffiliation caf : subData) {
-					if (retMap.containsKey(caf.getCharacterId())) {
-						caf.update(retMap.get(caf.getCharacterId()));
+					if (retMap.containsKey(caf.getRemoteId())) {
+						caf.update(retMap.get(caf.getRemoteId()));
 						updateMetaOk(caf, response);
 						save(caf);
 						log.trace(
-						    "saved new affiliation for character " + caf.getCharacterId() + " , expires at " + caf.getExpires());
+						    "saved new affiliation for character " + caf.getRemoteId() + " , expires at " + caf.getExpires());
 					} else {
 						log.error(
-						    "fetched character affiliation for " + caf.getCharacterId() + " but got ids for " + retMap.keySet());
+						    "fetched character affiliation for " + caf.getRemoteId() + " but got ids for " + retMap.keySet());
 					}
 				}
 				break;

@@ -4,8 +4,8 @@ import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction.CharacterTransactionList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecord;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecordList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -23,7 +23,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class CharacterTransaction extends
-    ACharDataRecord<CharacterTransaction, CharacterTransactionList> {
+    AFetchedListElement<CharacterTransaction, CharacterTransactionList> {
 
 	@Entity(name = "EsiConnectCharacterTransactionList")
 	@Table(name = "esi_connect_charactertransactionlist")
@@ -32,7 +32,7 @@ public class CharacterTransaction extends
 	@Setter
 	@ToString
 	public static class CharacterTransactionList
-	    extends ACharDataRecordList<R_get_characters_character_id_wallet_transactions, CharacterTransaction> {
+	    extends AFetchedList<Integer, R_get_characters_character_id_wallet_transactions, CharacterTransaction> {
 
 	}
 

@@ -39,17 +39,17 @@ public class CharacterJournalService extends AAppendCharDataRecordListService<
 
 	@Override
 	protected Requested<M_get_journal_13[]> fetchCharacterData(ESIConnected esiConnected,
-	    int characterId, Map<String, String> properties) {
+	    int RemoteId, Map<String, String> properties) {
 		return esiConnected
-		    .requestGetPages((page, props) -> esiConnected.get_characters_wallet_journal(characterId, page, props),
+		    .requestGetPages((page, props) -> esiConnected.get_characters_wallet_journal(RemoteId, page, props),
 		        properties)
 		    .mapBody(l -> l.toArray(M_get_journal_13[]::new));
 	}
 
 	@Override
-	protected CharacterJournalList create(Integer characterId) {
+	protected CharacterJournalList create(Integer RemoteId) {
 		CharacterJournalList ret = new CharacterJournalList();
-		ret.setCharacterId(characterId);
+		ret.setRemoteId(RemoteId);
 		return ret;
 	}
 

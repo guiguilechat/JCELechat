@@ -6,10 +6,10 @@ import java.util.stream.Stream;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecord;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecordList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRecordRepository;
-import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IFetchedListElementRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IRemoteFetchedResourceRepository;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
@@ -29,11 +29,11 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @Getter
 public abstract class ACharDataRecordListService<
-	Entity extends ACharDataRecordList<Fetched, ListRecord>, 
-	Fetched, 
-	Repository extends ICharDataRepository<Entity>, 
-	ListRecord extends ACharDataRecord<?, Entity>, 
-	RecordRepo extends ICharDataRecordRepository<Entity, ListRecord>>
+    	Entity extends AFetchedList<Integer, Fetched, ListRecord>, 
+    	Fetched, 
+    	Repository extends IRemoteFetchedResourceRepository<Entity, Integer>, 
+    	ListRecord extends AFetchedListElement<?, Entity>, 
+    	RecordRepo extends IFetchedListElementRepository<Entity, ListRecord>>
     extends AConnectedCharDataService<Entity, Fetched[], Repository> {
 
 	@Autowired // can't use constructor injection for generic service
@@ -62,8 +62,8 @@ public abstract class ACharDataRecordListService<
 
 	// service use
 
-	public List<ListRecord> list(int characterId) {
-		return recordRepo().findAllByFetchResourceCharacterId(characterId);
+	public List<ListRecord> list(int RemoteId) {
+		return recordRepo().findAllByFetchResourceRemoteId(RemoteId);
 	}
 
 }

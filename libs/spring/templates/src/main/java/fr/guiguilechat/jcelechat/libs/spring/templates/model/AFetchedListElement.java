@@ -19,7 +19,7 @@ import lombok.experimental.SuperBuilder;
 @MappedSuperclass
 @NoArgsConstructor
 @Setter
-public abstract class ACharDataRecord<Self extends ACharDataRecord<?, ?>, FetchResource extends ACharDataRecordList<?, Self>> {
+public abstract class AFetchedListElement<Self extends AFetchedListElement<?, ?>, FetchResource extends AFetchedList<?, ?, Self>> {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)

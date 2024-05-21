@@ -24,7 +24,7 @@ public class AllianceInfoService extends
 	@Override
 	protected AllianceInfo create(Integer entityId) {
 		AllianceInfo ret = new AllianceInfo();
-		ret.setAllianceId(entityId);
+		ret.setRemoteId(entityId);
 		return ret;
 	}
 

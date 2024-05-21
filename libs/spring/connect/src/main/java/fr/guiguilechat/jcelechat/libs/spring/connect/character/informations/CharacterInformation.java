@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.informations;
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_gender;
 import jakarta.persistence.Column;
@@ -22,7 +22,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class CharacterInformation extends ACharData<R_get_characters_character_id> {
+public class CharacterInformation extends ARemoteFetchedResource<Integer, R_get_characters_character_id> {
 
 	private int allianceId;
 

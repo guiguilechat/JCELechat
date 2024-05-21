@@ -1,8 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.spring.templates.model;
 
+import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
@@ -14,12 +16,14 @@ import lombok.Setter;
  * @param <Fetched>  {@link AFetchedResource}
  */
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @MappedSuperclass
 @Setter
 public abstract class ARemoteFetchedResource<RemoteId, Fetched> extends AFetchedResource {
 
-	public abstract RemoteId getRemoteId();
+	@Id
+	private RemoteId remoteId;
 
 	public abstract void update(Fetched data);
 

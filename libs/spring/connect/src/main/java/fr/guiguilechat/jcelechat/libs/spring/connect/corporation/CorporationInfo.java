@@ -7,7 +7,6 @@ import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResou
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,12 +21,8 @@ import lombok.Setter;
 @Setter
 public class CorporationInfo extends ARemoteFetchedResource<Integer, R_get_corporations_corporation_id> {
 
-	@Id
-	private int corporationId;
-
-	@Override
-	public Integer getRemoteId() {
-		return getCorporationId();
+	public Integer getCorporationId() {
+		return getRemoteId();
 	}
 
 	/**

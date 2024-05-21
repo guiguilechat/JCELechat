@@ -26,7 +26,7 @@ public class CharacterWalletService
 	@Override
 	protected CharacterWallet create(Integer characterId) {
 		CharacterWallet ret = new CharacterWallet();
-		ret.setCharacterId(characterId);
+		ret.setRemoteId(characterId);
 		return ret;
 	}
 

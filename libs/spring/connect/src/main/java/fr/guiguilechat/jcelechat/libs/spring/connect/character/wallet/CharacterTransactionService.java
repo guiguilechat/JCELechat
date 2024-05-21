@@ -46,17 +46,17 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 
 	@Override
 	protected Requested<R_get_characters_character_id_wallet_transactions[]> fetchCharacterData(ESIConnected esiConnected,
-	    int characterId, Map<String, String> properties) {
+	    int RemoteId, Map<String, String> properties) {
 		// last stored higher id for a transaction of that character.
 		CharacterTransaction lastStored = recordRepo
-		    .findTop1ByFetchResourceCharacterIdOrderByTransactionIdDesc(characterId);
+		    .findTop1ByFetchResourceRemoteIdOrderByTransactionIdDesc(RemoteId);
 		// transaction with the lowest id fetched so far. We stop digging when it's set
 		// to null.
 		Long lastFetchedMinTransactionId = null;
 		List<R_get_characters_character_id_wallet_transactions[]> fetchedArrays = new ArrayList<>();
 		Requested<R_get_characters_character_id_wallet_transactions[]> lastResponse = null;
 		do {
-			lastResponse = esiConnected.get_characters_wallet_transactions(characterId, lastFetchedMinTransactionId,
+			lastResponse = esiConnected.get_characters_wallet_transactions(RemoteId, lastFetchedMinTransactionId,
 			    properties);
 			// if there is any problem when fetching the different pages, we return the
 			// first problem.
@@ -83,7 +83,7 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 	@Override
 	protected CharacterTransactionList create(Integer entityId) {
 		CharacterTransactionList ret = new CharacterTransactionList();
-		ret.setCharacterId(entityId);
+		ret.setRemoteId(entityId);
 		return ret;
 	}
 
@@ -117,8 +117,8 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 
 	// service usage
 
-	public List<CharacterTransaction> list(int characterId) {
-		return recordRepo.findAllByFetchResourceCharacterId(characterId);
+	public List<CharacterTransaction> list(int RemoteId) {
+		return recordRepo.findAllByFetchResourceRemoteId(RemoteId);
 	}
 
 }

@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.standings;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRecordRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IFetchedListElementRepository;
 
 public interface CharacterStandingRepository
-    extends ICharDataRecordRepository<CharacterStandingList, CharacterStanding> {
+    extends IFetchedListElementRepository<CharacterStandingList, CharacterStanding> {
 
 }

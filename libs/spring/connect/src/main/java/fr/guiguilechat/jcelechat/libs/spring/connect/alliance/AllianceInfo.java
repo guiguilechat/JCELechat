@@ -6,7 +6,6 @@ import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -21,12 +20,8 @@ import lombok.Setter;
 @Setter
 public class AllianceInfo extends ARemoteFetchedResource<Integer, R_get_alliances_alliance_id> {
 
-	@Id
-	private int allianceId;
-
-	@Override
-	public Integer getRemoteId() {
-		return getAllianceId();
+	public Integer getAllianceId() {
+		return getRemoteId();
 	}
 
 	/**

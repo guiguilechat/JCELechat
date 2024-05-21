@@ -29,7 +29,7 @@ public class CorporationInfoService extends
 	@Override
 	protected CorporationInfo create(Integer entityId) {
 		CorporationInfo ret = new CorporationInfo();
-		ret.setCorporationId(entityId);
+		ret.setRemoteId(entityId);
 		return ret;
 	}
 

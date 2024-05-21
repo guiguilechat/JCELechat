@@ -10,8 +10,8 @@ import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
-import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IRemoteFetchedResourceRepository;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
@@ -27,7 +27,10 @@ import lombok.experimental.Accessors;
  */
 @NoArgsConstructor
 @Getter
-public abstract class AConnectedCharDataService<Entity extends ACharData<Fetched>, Fetched, Repository extends ICharDataRepository<Entity>>
+public abstract class AConnectedCharDataService<
+			Entity extends ARemoteFetchedResource<Integer, Fetched>,
+			Fetched,
+			Repository extends IRemoteFetchedResourceRepository<Entity, Integer>>
     extends ACharDataService<Entity, Fetched, Repository> {
 
 	@Autowired

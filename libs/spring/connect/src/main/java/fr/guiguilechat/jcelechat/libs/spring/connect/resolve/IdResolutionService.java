@@ -45,9 +45,9 @@ public class IdResolutionService
 
 	@Override
 	protected IdResolution create(Integer entityId) {
-		// log.error("creating entity resolution id = " + entityId, new
-		// RuntimeException());
-		return new IdResolution(entityId, null, null);
+		IdResolution ret = new IdResolution();
+		ret.setRemoteId(entityId);
+		return ret;
 	}
 
 	@Override
@@ -78,7 +78,7 @@ public class IdResolutionService
 		}
 		for (int i = 0; i < data.size(); i += maxSimultFetch) {
 			List<? extends IdResolution> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
-			int[] elementsIds = subData.stream().mapToInt(IdResolution::getId).toArray();
+			int[] elementsIds = subData.stream().mapToInt(IdResolution::getRemoteId).toArray();
 			Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
 			int responseCode = response.getResponseCode();
 			switch (responseCode) {
@@ -86,8 +86,8 @@ public class IdResolutionService
 				Map<Integer, R_post_universe_names> retMapById = Stream.of(response.getOK())
 				    .collect(Collectors.toMap(r -> r.id, r -> r));
 				for (IdResolution idr : subData) {
-					if (retMapById.containsKey(idr.getId())) {
-						idr.update(retMapById.get(idr.getId()));
+					if (retMapById.containsKey(idr.getRemoteId())) {
+						idr.update(retMapById.get(idr.getRemoteId()));
 						updateMetaOk(idr, response);
 						save(idr);
 					}

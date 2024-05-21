@@ -4,8 +4,8 @@ import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournal.CharacterJournalList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecord;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecordList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_context_id_type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_ref_type;
@@ -27,7 +27,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class CharacterJournal extends
-    ACharDataRecord<CharacterJournal, CharacterJournalList> {
+    AFetchedListElement<CharacterJournal, CharacterJournalList> {
 
 	@Entity(name = "EsiConnectCharacterJournalList")
 	@Table(name = "esi_connect_characterjournallist")
@@ -36,7 +36,7 @@ public class CharacterJournal extends
 	@Setter
 	@ToString
 	public static class CharacterJournalList
-	    extends ACharDataRecordList<M_get_journal_13, CharacterJournal> {
+	    extends AFetchedList<Integer, M_get_journal_13, CharacterJournal> {
 
 	}
 

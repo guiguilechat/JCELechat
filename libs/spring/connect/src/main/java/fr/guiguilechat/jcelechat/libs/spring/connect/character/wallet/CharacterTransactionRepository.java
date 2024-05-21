@@ -1,11 +1,11 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction.CharacterTransactionList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.ICharDataRecordRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IFetchedListElementRepository;
 
 public interface CharacterTransactionRepository
-    extends ICharDataRecordRepository<CharacterTransactionList, CharacterTransaction> {
+    extends IFetchedListElementRepository<CharacterTransactionList, CharacterTransaction> {
 
-	public CharacterTransaction findTop1ByFetchResourceCharacterIdOrderByTransactionIdDesc(int characterId);
+	public CharacterTransaction findTop1ByFetchResourceRemoteIdOrderByTransactionIdDesc(int RemoteId);
 
 }

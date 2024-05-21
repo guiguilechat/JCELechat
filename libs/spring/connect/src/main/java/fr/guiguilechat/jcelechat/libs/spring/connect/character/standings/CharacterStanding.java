@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.standings;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecord;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharDataRecordList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
 import jakarta.persistence.Entity;
@@ -23,7 +23,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class CharacterStanding extends
-    ACharDataRecord<CharacterStanding, CharacterStandingList> {
+    AFetchedListElement<CharacterStanding, CharacterStandingList> {
 
 	@Entity(name = "EsiConnectCharacterStandingList")
 	@Table(name = "esi_connect_characterstandinglist")
@@ -32,7 +32,7 @@ public class CharacterStanding extends
 	@Setter
 	@ToString
 	public static class CharacterStandingList
-	    extends ACharDataRecordList<M_get_standings_3, CharacterStanding> {
+	    extends AFetchedList<Integer, M_get_standings_3, CharacterStanding> {
 
 	}
 

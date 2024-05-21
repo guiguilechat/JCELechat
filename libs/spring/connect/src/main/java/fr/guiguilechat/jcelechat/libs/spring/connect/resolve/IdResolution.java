@@ -6,7 +6,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_u
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
-import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -28,9 +27,6 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode(callSuper = true)
 public class IdResolution extends ARemoteFetchedResource<Integer, R_post_universe_names> {
 
-	@Id
-	private int id;
-
 	/**
 	 * category string
 	 */
@@ -48,8 +44,4 @@ public class IdResolution extends ARemoteFetchedResource<Integer, R_post_univers
 		setName(data.name);
 	}
 
-	@Override
-	public Integer getRemoteId() {
-		return getId();
-	}
 }

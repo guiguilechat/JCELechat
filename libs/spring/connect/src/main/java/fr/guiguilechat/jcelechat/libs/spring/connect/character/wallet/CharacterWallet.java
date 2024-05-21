@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
 
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.ACharData;
+import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -16,7 +16,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class CharacterWallet extends ACharData<Double> {
+public class CharacterWallet extends ARemoteFetchedResource<Integer, Double> {
 
 	private double wallet = 0.0;
 
