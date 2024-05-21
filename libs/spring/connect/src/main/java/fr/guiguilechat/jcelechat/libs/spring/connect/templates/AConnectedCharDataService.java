@@ -10,8 +10,10 @@ import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService.EsiUserListener;
 import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.templates.services.ARemoteFetchedResourceService;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
@@ -31,7 +33,8 @@ public abstract class AConnectedCharDataService<
 			Entity extends ARemoteFetchedResource<Integer, Fetched>,
 			Fetched,
 			Repository extends IRemoteFetchedResourceRepository<Entity, Integer>>
-    extends ACharDataService<Entity, Fetched, Repository> {
+    extends ARemoteFetchedResourceService<Entity, Integer, Fetched, Repository>
+    implements EsiUserListener {
 
 	@Autowired
 	@Accessors(fluent = true)
@@ -58,7 +61,7 @@ public abstract class AConnectedCharDataService<
 	@Override
 	public void onNewEsiUser(EsiUser user) {
 		if (user.getScopes().containsAll(getRequiredScopes())) {
-			super.onNewEsiUser(user);
+			createIfAbsent(user.getCharacterId(), false);
 		}
 	}
 

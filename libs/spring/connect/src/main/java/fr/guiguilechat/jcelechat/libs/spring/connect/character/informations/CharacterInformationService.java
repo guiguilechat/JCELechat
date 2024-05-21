@@ -9,7 +9,9 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolution;
 import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolutionService.IdResolutionListener;
-import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
+import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService.EsiUserListener;
+import fr.guiguilechat.jcelechat.libs.spring.templates.services.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import lombok.RequiredArgsConstructor;
@@ -17,9 +19,12 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class CharacterInformationService
-    extends
-    ACharDataService<CharacterInformation, R_get_characters_character_id, CharacterInformationRepository>
-    implements IdResolutionListener {
+    extends ARemoteFetchedResourceService<
+    	CharacterInformation,
+    	Integer,
+    	R_get_characters_character_id,
+    	CharacterInformationRepository>
+    implements IdResolutionListener, EsiUserListener {
 
 	@Override
 	protected CharacterInformation create(Integer characterId) {
@@ -39,6 +44,11 @@ public class CharacterInformationService
 		if (idResolution.getCategory() == post_universe_names_category.character) {
 			createIfAbsent(idResolution.getRemoteId(), false);
 		}
+	}
+
+	@Override
+	public void onNewEsiUser(EsiUser user) {
+		createIfAbsent(user.getCharacterId(), false);
 	}
 
 }

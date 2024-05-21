@@ -101,10 +101,10 @@ public abstract class ARemoteFetchedResourceService<
 	    boolean startFetch) {
 		synchronized (repo()) {
 			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-		    .collect(Collectors.toMap(ARemoteFetchedResource::getRemoteId, e -> e));
-		return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
-		    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId, true, startFetch)));
-	}
+			    .collect(Collectors.toMap(ARemoteFetchedResource::getRemoteId, e -> e));
+			return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
+			    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId, true, startFetch)));
+		}
 	}
 
 
