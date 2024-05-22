@@ -8,15 +8,16 @@ import org.springframework.context.annotation.Lazy;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiConnectionInterceptor.EsiUserListener;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService.EsiUserListener;
 import fr.guiguilechat.jcelechat.libs.spring.templates.model.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IRemoteFetchedResourceRepository;
 import fr.guiguilechat.jcelechat.libs.spring.templates.services.ARemoteFetchedResourceService;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * service to manage Character data that needs to be connected. For example, its
@@ -27,6 +28,7 @@ import lombok.experimental.Accessors;
  * @param <Fetched>    Remote resource type
  * @param <Repository> jpa repository to store the char data.
  */
+@Slf4j
 @NoArgsConstructor
 @Getter
 public abstract class AConnectedCharDataService<
@@ -41,14 +43,15 @@ public abstract class AConnectedCharDataService<
 	@Lazy
 	private EsiUserService userService;
 
-	protected ESIConnected esiConnected(int characterId) {
-		EsiUser user = userService().esiUser(characterId, getRequiredScopes());
-		return new ESIConnected(user.getRefreshToken(), user.getApp().getAppBase64());
-	}
-
 	@Override
 	protected Requested<Fetched> fetchData(Integer characterId, Map<String, String> properties) {
-		return fetchCharacterData(esiConnected(characterId), characterId, properties);
+		ESIConnected con = userService().esiConnected(characterId, getRequiredScopes());
+		if (con == null) {
+			log.warn("no matching connexion for service {} , character id={} , scopes={}", getClass().getSimpleName(),
+			    characterId, getRequiredScopes());
+			return null;
+		}
+		return fetchCharacterData(con, characterId, properties);
 	}
 
 	protected abstract Requested<Fetched> fetchCharacterData(ESIConnected esiConnected, int characterId,

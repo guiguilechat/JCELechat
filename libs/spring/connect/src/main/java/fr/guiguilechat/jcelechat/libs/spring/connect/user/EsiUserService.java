@@ -1,35 +1,26 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.user;
 
 import java.time.Instant;
-import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Optional;
+import java.util.Map;
 import java.util.Set;
-import java.util.stream.Collectors;
 
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.context.event.EventListener;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
-import org.springframework.security.oauth2.client.userinfo.OAuth2UserRequest;
-import org.springframework.security.oauth2.core.endpoint.OAuth2ParameterNames;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.DelegateOauth2User;
+import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.C2CStandingsService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiConnectionInterceptor.EsiUserListener;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class EsiUserService extends DefaultOAuth2UserService {
-
-	private final CacheManager cacheManager;
+public class EsiUserService implements EsiUserListener {
 
 	@Lazy
 	private final EsiAppService esiAppService;
@@ -40,81 +31,14 @@ public class EsiUserService extends DefaultOAuth2UserService {
 	@Lazy
 	private final EsiUserRepository repo;
 
-	@Override
-	public OAuth2User loadUser(OAuth2UserRequest oAuth2UserRequest) {
-		OAuth2User oAuth2User = super.loadUser(oAuth2UserRequest);
-		return processOAuth2User(oAuth2UserRequest, oAuth2User);
+	public static int getCharacterId(Authentication auth) {
+		OAuth2User user = (OAuth2User) auth.getPrincipal();
+		return ((Number) user.getAttributes().get("CharacterID")).intValue();
 	}
 
-	public static interface EsiUserListener {
-
-		public default List<String> listEsiUserCaches() {
-			return List.of();
-		}
-
-		@Async
-		public default void onNewEsiUser(EsiUser user) {
-
-		}
-	}
-
-	private final Optional<List<EsiUserListener>> updateListeners;
-
-	public static final String LECHAT_AUTHORITIES = "LECHAT";
-
-	private OAuth2User processOAuth2User(OAuth2UserRequest oAuth2UserRequest, OAuth2User oAuth2User) {
-		try {
-			String appId = oAuth2UserRequest.getClientRegistration().getClientId();
-			String appSecret = oAuth2UserRequest.getClientRegistration().getClientSecret();
-			EsiApp app = esiAppService.findOrCreate(appId, appSecret);
-			String characterName = oAuth2User.getName();
-			int characterId = ((Number) oAuth2User.getAttributes().get("CharacterID")).intValue();
-			Set<String> scopes = Set.of(((String) oAuth2User.getAttributes().get("Scopes")).split(" "));
-			String refreshToken = (String) oAuth2UserRequest.getAdditionalParameters()
-			    .get(OAuth2ParameterNames.REFRESH_TOKEN);
-
-			EsiUser existingUserAccount = repo.findAllByAppAndCharacterIdAndCanceledFalse(app, characterId).stream()
-			    .filter(user -> user.getScopes().containsAll(scopes)).findAny().orElse(null);
-			if (existingUserAccount == null) {
-				EsiUser newUserAccount = save(
-				    EsiUser.builder()
-				        .app(app)
-				        .characterId(characterId)
-				        .characterName(characterName)
-				        .refreshToken(refreshToken)
-				        .scopes(scopes)
-				        .build());
-
-				log.debug("saved new entry for user " + characterName);
-				propagateEsiUser(newUserAccount);
-			} else {
-				log.debug("no need to save entry for user " + characterName);
-			}
-			List<String> addedRoles = new ArrayList<>();
-			float effStanding = c2cStandingsService.effectiveStanding(95940101, characterId);
-			if (effStanding >= 5) {
-				addedRoles.add(LECHAT_AUTHORITIES);
-			}
-
-			Set<String> allScopes = repo.findAllByCharacterIdAndCanceledFalse(characterId).stream()
-			    .flatMap(ei -> ei.getScopes().stream()).collect(Collectors.toSet());
-			addedRoles.addAll(allScopes);
-
-			DelegateOauth2User ret = new DelegateOauth2User(oAuth2User, addedRoles);
-			return ret;
-		} catch (Exception e) {
-			log.error("while receiving new oauth2 user", e);
-			return null;
-		}
-	}
-
-	protected void propagateEsiUser(EsiUser newUserAccount) {
-		if (updateListeners.isPresent()) {
-			updateListeners.get().stream().flatMap(l -> l.listEsiUserCaches().stream())
-			    .forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-			updateListeners.get().stream().forEach(l -> l.onNewEsiUser(newUserAccount));
-		}
-
+	public static String getCharacterName(Authentication auth) {
+		OAuth2User user = (OAuth2User) auth.getPrincipal();
+		return (String) user.getAttributes().get("CharacterName");
 	}
 
 	public EsiUser save(EsiUser data) {
@@ -129,30 +53,46 @@ public class EsiUserService extends DefaultOAuth2UserService {
 		return repo.findAllByCharacterIdAndCanceledFalse(characterId);
 	}
 
-	public static int getCharacterId(Authentication auth) {
-		OAuth2User user = (OAuth2User) auth.getPrincipal();
-		return ((Number) user.getAttributes().get("CharacterID")).intValue();
+	public List<EsiUser> forAppCharacterId(EsiApp app, int characterId) {
+		return repo.findAllByAppAndCharacterIdAndCanceledFalse(app, characterId);
 	}
 
-	public static String getCharacterName(Authentication auth) {
-		OAuth2User user = (OAuth2User) auth.getPrincipal();
-		return (String) user.getAttributes().get("CharacterName");
-	}
+	// caching of the user+ scopes to an esiconnected. This should avoid having to
+	// create multiple connection, therefore refreshtoken+verify calls.
 
-	public EsiUser esiUser(int characterId, Set<String> requiredScopes) {
+	protected EsiUser searchUserScopes(int characterId, Set<String> requiredScopes) {
 		return forCharacterId(characterId).stream()
-		    .filter(user -> user.getScopes().containsAll(requiredScopes)).findAny().orElse(null);
+		    .sorted(Comparator.comparing(eu -> -eu.getScopes().size()))
+		    .filter(u -> u.getScopes().containsAll(requiredScopes)).findAny().orElse(null);
+	}
+
+	private record ScopedEsiKey(int characterId, Set<String> requiredScopes) {
 	}
 
 	/**
-	 * once the application is started, transmit the known esi user to all services.
-	 * So that if a new service is added, it can start handling the data.
+	 * first cache matches the required char Id and scopes to the known refresh
+	 * token
 	 */
-	@EventListener(ApplicationReadyEvent.class)
-	public void postStartUp() {
-		repo.findAll().stream()
-		    .filter(ei -> !ei.isCanceled())
-		    .forEach(this::propagateEsiUser);
+	private Map<ScopedEsiKey, EsiUser> scopedEsiUserCache = Collections.synchronizedMap(new HashMap<>());
 
+	/** second cache matches the refresh token to actual connexion */
+	private Map<Long, ESIConnected> esiUserIdConnectedCache = Collections.synchronizedMap(new HashMap<>());
+
+	@Override
+	public void onNewEsiUser(EsiUser user) {
+		esiUserIdConnectedCache.clear();
+		scopedEsiUserCache.clear();
+	}
+
+	public ESIConnected esiConnected(int characterId, Set<String> requiredScopes) {
+		ScopedEsiKey key = new ScopedEsiKey(characterId, requiredScopes);
+		EsiUser user = scopedEsiUserCache.computeIfAbsent(key, k -> searchUserScopes(characterId, requiredScopes));
+		return esiUserIdConnectedCache.computeIfAbsent(user.getId(),
+		    ui -> new ESIConnected(user.getRefreshToken(), user.getApp().getAppBase64()));
+	}
+
+
+	public List<EsiUser> listAll() {
+		return repo.findAll();
 	}
 }

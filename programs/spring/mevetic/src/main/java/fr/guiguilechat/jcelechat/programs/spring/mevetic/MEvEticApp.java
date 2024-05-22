@@ -10,8 +10,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-@EnableAsync
-@EnableCaching
+@EnableAsync(proxyTargetClass = true)
+@EnableCaching(proxyTargetClass = true)
 @EnableScheduling
 @SpringBootApplication
 @EnableJpaRepositories

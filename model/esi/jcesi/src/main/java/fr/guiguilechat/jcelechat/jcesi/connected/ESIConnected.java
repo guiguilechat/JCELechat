@@ -19,7 +19,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * raw access to the esi services using a connection.
- *
  */
 @RequiredArgsConstructor
 @Slf4j
@@ -41,8 +40,15 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 
 	protected String getAccessToken() {
 		if (accessToken == null || accessToken.expire < System.currentTimeMillis()) {
-			log.trace("fetching access token");
-			accessToken = ESIAccountHelper.getAccessToken(basicAuth, refreshToken);
+			synchronized (this) {
+				if (accessToken == null || accessToken.expire < System.currentTimeMillis()) {
+					log.trace("fetching access token for connection {} refresh {} and basic auth {}, previous null={}",
+					    Integer.toHexString(System.identityHashCode(this)), refreshToken,
+					    basicAuth, accessToken == null);
+					accessToken = ESIAccountHelper.getAccessToken(basicAuth, refreshToken);
+					// log.trace(" fetched access token is null={}", accessToken == null);
+				}
+			}
 		}
 		return accessToken == null ? null : accessToken.token;
 	}
@@ -110,8 +116,8 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 		}
 		ESIConnected o = (ESIConnected) obj;
 		return (refreshToken == null && o.refreshToken == null
-				|| refreshToken != null && refreshToken.equals(o.refreshToken))
-				&& (basicAuth == null && o.basicAuth == null || basicAuth != null && basicAuth.equals(o.basicAuth));
+		    || refreshToken != null && refreshToken.equals(o.refreshToken))
+		    && (basicAuth == null && o.basicAuth == null || basicAuth != null && basicAuth.equals(o.basicAuth));
 	}
 
 	// getting the roles
@@ -122,6 +128,6 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 	protected SetHolder<String> makeRoles() {
 		ObjHolder<R_get_characters_character_id_roles> rawroles = cache.characters.roles(verify().CharacterID);
 		return rawroles.toSet(rr -> rr == null ? Collections.emptyList() : Arrays.asList(rr.roles))
-				.mapItems(r -> r.toString).distinct();
+		    .mapItems(r -> r.toString).distinct();
 	}
 }

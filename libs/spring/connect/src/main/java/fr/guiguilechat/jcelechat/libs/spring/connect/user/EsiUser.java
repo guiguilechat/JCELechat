@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 
 @Entity(name = "EsiConnectUser")
 @Table(name = "esi_connect_user", indexes = {
-		@Index(columnList = "app_id,characterId")
+    @Index(columnList = "app_id,characterId,canceled")
 })
 @Data
 @Builder

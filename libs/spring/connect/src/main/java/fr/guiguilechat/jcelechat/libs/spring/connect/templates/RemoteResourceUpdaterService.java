@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.user;
+package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
 
 import java.io.IOException;
 import java.util.List;
@@ -35,9 +35,7 @@ public class RemoteResourceUpdaterService {
 	@Scheduled(fixedRateString = "${esiconnect.resourceudpater.fetchperiod:10000}", initialDelayString = "${esiconnect.resourceudpater.fetchdelay:5000}")
 	public void updateChars() throws IOException {
 		if (!skip && updateServices.isPresent()) {
-			for (ARemoteFetchedResourceService<?, ?, ?, ?> charService : updateServices.get()) {
-				updateService(charService);
-			}
+			updateServices.get().parallelStream().forEach(this::updateService);
 		}
 
 	}
