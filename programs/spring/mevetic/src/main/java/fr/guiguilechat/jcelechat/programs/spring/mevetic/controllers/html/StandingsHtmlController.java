@@ -24,9 +24,9 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.Char
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.faction.Faction;
 import fr.guiguilechat.jcelechat.libs.spring.npc.faction.FactionService;
@@ -145,7 +145,7 @@ public class StandingsHtmlController {
 
 	public NamedStanding corporationStanding(CharacterStanding standing, Map<Integer, CorporationInfo> corporations) {
 		CorporationInfo c = corporations.get(standing.getFromId());
-		String name = c == null ? "faction" + standing.getFromId() : c.getName();
+		String name = c == null ? "corporation" + standing.getFromId() : c.getName();
 		return new NamedStanding(standing, name);
 	}
 

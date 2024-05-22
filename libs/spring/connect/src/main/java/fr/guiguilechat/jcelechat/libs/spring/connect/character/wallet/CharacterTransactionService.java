@@ -40,9 +40,8 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 	private final Set<String> requiredScopes = Set.of("esi-wallet.read_character_wallet.v1");
 
 	// We want to fetch the transactions that are newer than the last one, so higher
-	// ID. each
-	// "page" returns the next transaction, by id decreasing. So we stop digging
-	// once we find an ID lower than the previous one
+	// ID. each"page" returns the next transactions, by id decreasing. So we stop
+	// digging once we find an ID lower than the previous highest known one
 
 	@Override
 	protected Requested<R_get_characters_character_id_wallet_transactions[]> fetchCharacterData(ESIConnected esiConnected,
@@ -50,7 +49,7 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 		// last stored higher id for a transaction of that character.
 		CharacterTransaction lastStored = recordRepo
 		    .findTop1ByFetchResourceRemoteIdOrderByTransactionIdDesc(RemoteId);
-		// transaction with the lowest id fetched so far. We stop digging when it's set
+		// lowest id of a transaction we fetched so far. We stop digging when it's set
 		// to null.
 		Long lastFetchedMinTransactionId = null;
 		List<R_get_characters_character_id_wallet_transactions[]> fetchedArrays = new ArrayList<>();
@@ -66,15 +65,18 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 			R_get_characters_character_id_wallet_transactions[] pageTransactions = lastResponse.getOK();
 			lastFetchedMinTransactionId = null;
 			if (pageTransactions != null && pageTransactions.length > 0) {
+				System.err.println("received " + pageTransactions.length + " wallet transactions with id range: min="
+				    + pageTransactions[pageTransactions.length - 1].transaction_id + " max="
+				    + pageTransactions[0].transaction_id);
 				long newMinId = pageTransactions[pageTransactions.length - 1].transaction_id - 1;
-				if ((lastFetchedMinTransactionId == null || newMinId != lastFetchedMinTransactionId)
-				    && (lastStored == null || newMinId > lastStored.getTransactionId())) {
+				if (lastStored == null || newMinId > lastStored.getTransactionId()) {
 					lastFetchedMinTransactionId = newMinId;
-				}
+				} // otherwise we already have known transactions so break
 				fetchedArrays.add(pageTransactions);
 			}
 		} while (lastFetchedMinTransactionId != null);
 		List<R_get_characters_character_id_wallet_transactions> ret = fetchedArrays.stream().flatMap(Stream::of)
+		    // filter out those already known, that is id <= highest n=known id
 		    .filter(t -> lastStored == null || lastStored.getTransactionId() < t.transaction_id)
 		    .toList();
 		return lastResponse.mapBody(arr -> ret.toArray(R_get_characters_character_id_wallet_transactions[]::new));

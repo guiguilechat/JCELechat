@@ -13,6 +13,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliation;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliationService.AffiliationListener;
 import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolution;
 import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolutionService.IdResolutionListener;
 import fr.guiguilechat.jcelechat.libs.spring.templates.services.ARemoteFetchedResourceService;
@@ -24,7 +26,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class CorporationInfoService extends
     ARemoteFetchedResourceService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository>
-    implements IdResolutionListener {
+    implements IdResolutionListener, AffiliationListener {
 
 	@Override
 	protected CorporationInfo create(Integer entityId) {
@@ -75,7 +77,7 @@ public class CorporationInfoService extends
 	@Async
 	@EventListener(ApplicationStartedEvent.class)
 	protected void addNPCCorp() {
-		// createIfMissing(npcCorps(), false);
+		createIfAbsent(npcCorps(), false);
 	}
 
 	public Map<Integer, CorporationInfo> allById() {
@@ -86,6 +88,13 @@ public class CorporationInfoService extends
 	public void onNewIdResolution(IdResolution idResolution) {
 		if (idResolution.getCategory() == post_universe_names_category.corporation) {
 			createIfAbsent(idResolution.getRemoteId(), false);
+		}
+	}
+
+	@Override
+	public void onNewAffiliation(CharacterAffiliation received) {
+		if (received.getCorporationId() > 0) {
+			createIfAbsent(received.getCorporationId(), false);
 		}
 	}
 

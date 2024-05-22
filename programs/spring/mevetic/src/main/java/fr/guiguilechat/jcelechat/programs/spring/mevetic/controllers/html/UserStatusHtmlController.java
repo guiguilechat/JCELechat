@@ -28,6 +28,7 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJ
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransactionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolutionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.faction.FactionService;
 import lombok.RequiredArgsConstructor;
@@ -63,6 +64,9 @@ public class UserStatusHtmlController {
 
 	@Lazy
 	private final CorporationInfoService corporationService;
+
+	@Lazy
+	private final IdResolutionService idResolutionService;
 
 	@Lazy
 	private final FactionService factionService;
@@ -119,6 +123,14 @@ public class UserStatusHtmlController {
 		return "user/assets";
 	}
 
+	public static record NamedCharacterTransaction(CharacterTransaction transaction, String name) {
+
+	}
+
+	protected NamedCharacterTransaction namedCharacterTransaction(CharacterTransaction transaction) {
+		return new NamedCharacterTransaction(transaction, idResolutionService.name(transaction.getClientId()));
+	}
+
 	@GetMapping("/wallet")
 	public String getWallet(Model model, Authentication auth) {
 
@@ -126,10 +138,18 @@ public class UserStatusHtmlController {
 		if (userJournals != null) {
 			model.addAttribute("journals", userJournals);
 		}
-
 		List<CharacterTransaction> transactions = characterTransactionService.list(EsiUserService.getCharacterId(auth));
 		if (transactions != null) {
-			model.addAttribute("transactions", transactions);
+			List<NamedCharacterTransaction> buyTransactions = transactions.stream()
+			    .filter(CharacterTransaction::isBuy)
+			    .map(this::namedCharacterTransaction)
+			    .toList();
+			model.addAttribute("buyTransactions", buyTransactions);
+			List<NamedCharacterTransaction> sellTransactions = transactions.stream()
+			    .filter(t -> !t.isBuy())
+			    .map(this::namedCharacterTransaction)
+			    .toList();
+			model.addAttribute("sellTransactions", sellTransactions);
 		}
 
 		return "user/wallet";

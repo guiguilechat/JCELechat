@@ -101,4 +101,17 @@ public class IdResolutionService
 		return Map.of();
 	}
 
+	// service usage
+
+	public String name(int id) {
+		Optional<IdResolution> opt = repo().findById(id);
+		if (opt != null && opt.isPresent()) {
+			IdResolution data = opt.get();
+			if (data != null && data.isFetched() && data.getName() != null) {
+				return data.getName();
+			}
+		}
+		return "unresolved:" + id;
+	}
+
 }

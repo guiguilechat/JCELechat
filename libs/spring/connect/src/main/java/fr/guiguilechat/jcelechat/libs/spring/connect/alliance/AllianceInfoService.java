@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliation;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliationService.AffiliationListener;
 import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolution;
 import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolutionService.IdResolutionListener;
 import fr.guiguilechat.jcelechat.libs.spring.templates.services.ARemoteFetchedResourceService;
@@ -19,7 +21,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class AllianceInfoService extends
     ARemoteFetchedResourceService<AllianceInfo, Integer, R_get_alliances_alliance_id, AllianceInfoRepository>
-    implements IdResolutionListener {
+    implements IdResolutionListener, AffiliationListener {
 
 	@Override
 	protected AllianceInfo create(Integer entityId) {
@@ -41,6 +43,13 @@ public class AllianceInfoService extends
 	public void onNewIdResolution(IdResolution idResolution) {
 		if (idResolution.getCategory() == post_universe_names_category.alliance) {
 			createIfAbsent(idResolution.getRemoteId(), false);
+		}
+	}
+
+	@Override
+	public void onNewAffiliation(CharacterAffiliation received) {
+		if (received.getAllianceId() > 0) {
+			createIfAbsent(received.getAllianceId(), false);
 		}
 	}
 

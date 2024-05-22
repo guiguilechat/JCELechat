@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.informations;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -28,6 +29,23 @@ public class CharacterAffiliationService
     extends
     ARemoteFetchedResourceService<CharacterAffiliation, Integer, R_post_characters_affiliation, CharacterAffiliationRepository>
     implements IdResolutionListener {
+
+	public static interface AffiliationListener {
+		public default void onNewAffiliation(CharacterAffiliation received) {
+		}
+	}
+
+
+	@Lazy
+	private final Optional<List<AffiliationListener>> affiliationListeners;
+
+	protected void onNewAffiliation(CharacterAffiliation received) {
+		if (affiliationListeners != null && affiliationListeners.isPresent()) {
+			for (AffiliationListener l : affiliationListeners.get()) {
+				l.onNewAffiliation(received);
+			}
+		}
+	}
 
 	@Lazy
 	CorporationInfoService corporationInfoService;
