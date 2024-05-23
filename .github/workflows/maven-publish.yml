@@ -42,3 +42,5 @@ jobs:
             GITHUB_TOKEN: ${{ github.token }}
             EVEPROXY_DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
             EVEPROXY_DOCKER_HUB_USER: ${{ vars.DOCKER_HUB_USER }}
+            MEVETIC_DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
+            MEVETIC_DOCKER_HUB_USER: ${{ vars.DOCKER_HUB_USER }}
