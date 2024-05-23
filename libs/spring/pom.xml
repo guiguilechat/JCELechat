@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat</groupId>
 		<artifactId>libs</artifactId>
-		<version>7.27.0</version>
+		<version>7.27.1</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>spring</artifactId>
