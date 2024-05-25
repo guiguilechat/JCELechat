@@ -94,8 +94,12 @@ public class IdResolutionService
 				}
 				break;
 			default:
-				log.error("while updating affiliations, received response code {} and error {}", responseCode,
+				log.error("while resolving ids, received response code {} and error {}", responseCode,
 				    response.getError());
+				for (IdResolution idr : subData) {
+					idr.increaseSuccessiveErrors();
+					idr.setExpiresInRandom(idr.getSuccessiveErrors() * 60);
+				}
 			}
 		}
 		return Map.of();

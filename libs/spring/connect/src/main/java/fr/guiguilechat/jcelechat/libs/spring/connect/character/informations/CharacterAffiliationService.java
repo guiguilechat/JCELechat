@@ -108,6 +108,10 @@ public class CharacterAffiliationService
 			default:
 				log.error("while updating affiliations, received response code {} and error {}", responseCode,
 				    response.getError());
+				for (CharacterAffiliation ca : subData) {
+					ca.increaseSuccessiveErrors();
+					ca.setExpiresInRandom(ca.getSuccessiveErrors() * 60);
+				}
 			}
 		}
 		return Map.of();

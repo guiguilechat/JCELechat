@@ -57,8 +57,10 @@ public class EsiUserService implements EsiUserListener {
 		return repo.findAllByAppAndCharacterIdAndCanceledFalse(app, characterId);
 	}
 
+	//
 	// caching of the user+ scopes to an esiconnected. This should avoid having to
 	// create multiple connection, therefore refreshtoken+verify calls.
+	//
 
 	protected EsiUser searchUserScopes(int characterId, Set<String> requiredScopes) {
 		return forCharacterId(characterId).stream()
@@ -87,8 +89,9 @@ public class EsiUserService implements EsiUserListener {
 	public ESIConnected esiConnected(int characterId, Set<String> requiredScopes) {
 		ScopedEsiKey key = new ScopedEsiKey(characterId, requiredScopes);
 		EsiUser user = scopedEsiUserCache.computeIfAbsent(key, k -> searchUserScopes(characterId, requiredScopes));
-		return esiUserIdConnectedCache.computeIfAbsent(user.getId(),
-		    ui -> new ESIConnected(user.getRefreshToken(), user.getApp().getAppBase64()));
+		return user == null ? null
+		    : esiUserIdConnectedCache.computeIfAbsent(user.getId(),
+		        ui -> new ESIConnected(user.getRefreshToken(), user.getApp().getAppBase64()));
 	}
 
 

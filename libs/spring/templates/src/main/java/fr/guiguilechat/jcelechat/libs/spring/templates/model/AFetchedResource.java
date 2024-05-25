@@ -53,6 +53,18 @@ public abstract class AFetchedResource {
 		return ++successiveErrors;
 	}
 
+	public void setExpiresIn(int seconds) {
+		setExpires(Instant.now().plusSeconds(seconds));
+	}
+
+	public void setExpiresInRandom(int maxSeconds) {
+		setExpiresInRandom(0, maxSeconds);
+	}
+
+	public void setExpiresInRandom(int minSeconds, int addedRandom) {
+		setExpiresIn(minSeconds + (int) (Math.random() * addedRandom));
+	}
+
 	/** called when the resource is successfully updated */
 	public void updateMetaOk(Instant lastModified, Instant expires, String etag) {
 		setExpires(expires);

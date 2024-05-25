@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.context.event.EventListener;
@@ -45,7 +46,7 @@ public class CorporationInfoService extends
 	private Instant npcCorpsExpires = null;
 
 	/**
-	 * @return cachhed set of NPC corporation, provided by ESI
+	 * @return cached set of NPC corporation, provided by ESI
 	 */
 	public Set<Integer> npcCorps() {
 		if (npcCorpsExpires == null || npcCorpsExpires.isBefore(Instant.now())) {
@@ -55,8 +56,6 @@ public class CorporationInfoService extends
 					if (response.isOk()) {
 						npcCorps = Set.of(response.getOK());
 						npcCorpsExpires = response.getExpiresInstant();
-						// System.err.println("set npccorps to " + npcCorps.size() + " entries, expires
-						// at " + npcCorpsExpires);
 					} else {
 						npcCorpsExpires = Instant.now().plusSeconds(20);
 					}
@@ -74,10 +73,15 @@ public class CorporationInfoService extends
 		return npcCorps().contains(id);
 	}
 
+	@Value("${esi.corporations.skipnpc:false}")
+	private boolean skipImportNPC = false;
+
 	@Async
 	@EventListener(ApplicationStartedEvent.class)
 	protected void addNPCCorp() {
-		createIfAbsent(npcCorps(), false);
+		if (!skipImportNPC) {
+			createIfAbsent(npcCorps(), false);
+		}
 	}
 
 	public Map<Integer, CorporationInfo> allById() {

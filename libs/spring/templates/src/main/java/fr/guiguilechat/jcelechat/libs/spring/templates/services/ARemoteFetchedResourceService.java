@@ -165,6 +165,10 @@ public abstract class ARemoteFetchedResourceService<
 		}
 		try {
 			Requested<Fetched> response = fetchData(data.getRemoteId(), properties);
+			if (response == null) {
+				updateNullResponse(data);
+				return CompletableFuture.completedFuture(null);
+			}
 			int responseCode = response.getResponseCode();
 			switch (responseCode) {
 			case 200:
@@ -271,6 +275,13 @@ public abstract class ARemoteFetchedResourceService<
 	 */
 	protected void updateServerError(Entity data, Requested<Fetched> response) {
 		data.setExpires(Instant.now().plus(5, ChronoUnit.MINUTES));
+	}
+
+	protected void updateNullResponse(Entity data) {
+		log.warn("received null response when requesting update for {} id={}", data.getClass().getSimpleName(),
+		    data.getRemoteId());
+		data.increaseSuccessiveErrors();
+		data.setExpiresInRandom(data.getSuccessiveErrors() * 60);
 	}
 
 	/**
