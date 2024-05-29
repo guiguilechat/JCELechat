@@ -255,7 +255,8 @@ public abstract class ConnectedImpl implements ITransfer {
 					&& (firstLastModified == null || !firstLastModified.equals(pageLastModified));
 		}).toList();
 		if (!mismatcheds.isEmpty()) {
-			String message = "mismatching " + mismatcheds.size() + " pages lastmodified";
+			String firstUrl = mismatcheds.get(0).getURL();
+			String message = "mismatching " + mismatcheds.size() + " pages lastmodified , one url is " + firstUrl;
 			logger.warn(message);
 			System.err.println(message);
 			mismatch[0] = true;

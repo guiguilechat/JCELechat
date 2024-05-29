@@ -4,8 +4,8 @@ import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction.CharacterTransactionList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;

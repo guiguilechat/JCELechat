@@ -11,10 +11,10 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction.CharacterTransactionList;
-import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolutionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.AConnectedCharDataService;
+import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolutionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

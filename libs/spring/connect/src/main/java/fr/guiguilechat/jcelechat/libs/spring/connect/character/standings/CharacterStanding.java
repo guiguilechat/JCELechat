@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.standings;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
 import jakarta.persistence.Entity;

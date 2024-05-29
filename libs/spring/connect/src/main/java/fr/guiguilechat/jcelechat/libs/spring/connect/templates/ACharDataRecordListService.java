@@ -6,10 +6,10 @@ import java.util.stream.Stream;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
-import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IFetchedListElementRepository;
-import fr.guiguilechat.jcelechat.libs.spring.templates.repositories.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.repositories.IFetchedListElementRepository;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.repositories.IRemoteFetchedResourceRepository;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;

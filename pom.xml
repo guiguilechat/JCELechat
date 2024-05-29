@@ -244,6 +244,11 @@
 			-->
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+				<artifactId>affiliations</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 				<artifactId>lp</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -260,6 +265,11 @@
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 				<artifactId>connect</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+				<artifactId>items</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
@@ -284,12 +294,12 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>sde</artifactId>
+				<artifactId>remotefetching</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>templates</artifactId>
+				<artifactId>sde</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>

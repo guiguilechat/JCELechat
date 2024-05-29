@@ -12,7 +12,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>templates</artifactId>
+			<artifactId>remotefetching</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

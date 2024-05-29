@@ -20,8 +20,8 @@
 		<module>mer</module>
 		<module>npc</module>
 		<module>prices</module>
+		<module>remotefetching</module>
 		<module>sde</module>
-		<module>templates</module>
 	</modules>
 	<build>
 		<plugins>

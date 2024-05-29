@@ -12,13 +12,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliation;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliationService;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterInformationService;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAsset;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAssetService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContactService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliation;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterAffiliationService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterInformationService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterRoles;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterRolesService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
@@ -27,10 +28,9 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJ
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournalService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransactionService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.resolve.IdResolutionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.faction.FactionService;
+import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolutionService;
 import lombok.RequiredArgsConstructor;
 
 @Controller

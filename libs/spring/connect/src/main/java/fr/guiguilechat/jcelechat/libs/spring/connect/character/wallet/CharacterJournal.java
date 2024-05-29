@@ -4,8 +4,8 @@ import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournal.CharacterJournalList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.templates.model.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_context_id_type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_ref_type;
