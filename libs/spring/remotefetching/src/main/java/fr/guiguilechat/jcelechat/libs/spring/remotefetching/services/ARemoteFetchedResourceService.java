@@ -285,7 +285,7 @@ public abstract class ARemoteFetchedResourceService<
 	}
 
 	/**
-	 * default 1000 max updates to do at once. Override to change, eg <br />
+	 * default 1000 max updates to do at once. Override to change, eg for 50<br />
 	 * {@code @Getter(lazy=true) private final int maxUpdates=50;}
 	 * 
 	 * @return maximum number of entities to update at once
@@ -307,7 +307,7 @@ public abstract class ARemoteFetchedResourceService<
 	}
 
 	/**
-	 * overidable default false
+	 * overridable default false.
 	 * 
 	 * @return true only when {@link #batchUpdate(List)} has built-in better
 	 *           performances than calling an update on each element of the list

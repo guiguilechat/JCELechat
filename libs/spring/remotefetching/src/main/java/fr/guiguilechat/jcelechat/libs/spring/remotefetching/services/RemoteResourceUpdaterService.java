@@ -41,9 +41,17 @@ public class RemoteResourceUpdaterService {
 
 	protected <Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> void updateService(
 	    ARemoteFetchedResourceService<Entity, Id, Fetched, Repository> updateServices) {
-		Map<Entity, CompletableFuture<Entity>> futures = updateServices.isSupportsBatchUpdate()
-		    ? updateServices.batchUpdate(updateServices.streamToUpdate().toList())
-		    : updateServices.streamToUpdate().collect(Collectors.toMap(e -> e, updateServices::update));
+		long startTimeMs=System.currentTimeMillis();
+		int nbUpdates = 0;
+		Map<Entity, CompletableFuture<Entity>> futures = null;
+		if(updateServices.isSupportsBatchUpdate()) {
+			List<Entity> list = updateServices.streamToUpdate().toList();
+			futures = updateServices.batchUpdate(list);
+			nbUpdates = list.size();
+		} else {
+			futures = updateServices.streamToUpdate().collect(Collectors.toMap(e -> e, updateServices::update));
+			nbUpdates = futures.size();
+		}
 		futures.entrySet().forEach(f -> {
 			try {
 				f.getValue().join();
@@ -52,6 +60,11 @@ public class RemoteResourceUpdaterService {
 				    "while updating entity " + f.getKey().getClass().getSimpleName() + " id=" + f.getKey().getRemoteId(), e);
 			}
 		});
+		long endTimeMs = System.currentTimeMillis();
+		if (nbUpdates > 0) {
+			log.info("updated service {} for {} values in {} ms", updateServices.getClass().getSimpleName(), nbUpdates,
+			    endTimeMs - startTimeMs);
+		}
 	}
 
 }
