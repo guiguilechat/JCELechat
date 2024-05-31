@@ -128,9 +128,15 @@ public class ClassBridge {
 	}
 
 	protected void createSwaggerCalls() {
-		Set<String> allScopes = swagger.getPaths().values().stream().flatMap(p -> p.getOperations().stream())
-				.filter(ope -> ope.getSecurity() != null).flatMap(ope -> ope.getSecurity().stream())
-				.flatMap(m -> m.values().stream()).flatMap(l -> l.stream()).collect(Collectors.toSet());
+		List<String> allScopes = swagger.getPaths().values().stream()
+		    .flatMap(p -> p.getOperations().stream())
+		    .filter(ope -> ope.getSecurity() != null)
+		    .flatMap(ope -> ope.getSecurity().stream())
+		    .flatMap(m -> m.values().stream())
+		    .flatMap(List::stream)
+		    .sorted()
+		    .distinct()
+		    .toList();
 		JFieldVar scopesField = swaggerCOClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String[].class),
 				"SCOPES");
 		JArray scopesinit = JExpr.newArray(cm.ref(String.class));
@@ -283,15 +289,11 @@ public class ClassBridge {
 		if (ret != null) {
 			return ret;
 		}
-		switch (p.getType()) {
-			case ObjectProperty.TYPE:
-				// TODO check if mapproperty
-				return translateToClass((ObjectProperty) p, pck, name);
-			case ArrayProperty.TYPE:
-				return translateToClass((ArrayProperty) p, pck, name);
-			default:
-				throw new UnsupportedOperationException("case not handled " + p.getType());
-		}
+		return switch (p.getType()) {
+		case ObjectProperty.TYPE -> /* TODO check if mapproperty */ translateToClass((ObjectProperty) p, pck, name);
+		case ArrayProperty.TYPE -> translateToClass((ArrayProperty) p, pck, name);
+		default -> throw new UnsupportedOperationException("case not handled " + p.getType());
+		};
 	}
 
 	public AbstractJType getExistingClass(String type, String name, String format, List<String> enums) {
@@ -300,14 +302,11 @@ public class ClassBridge {
 				if (format == null) {
 					return cm.LONG;
 				}
-				switch (format) {
-					case LongProperty.FORMAT:
-						return cm.LONG;
-					case IntegerProperty.FORMAT:
-						return cm.INT;
-					default:
-						throw new UnsupportedOperationException("can't translate property name " + name + " with format " + format);
-				}
+			return switch (format) {
+			case LongProperty.FORMAT -> cm.LONG;
+			case IntegerProperty.FORMAT -> cm.INT;
+			default -> throw new UnsupportedOperationException("can't translate property name " + name + " with format " + format);
+			};
 			case BooleanProperty.TYPE:
 				return cm.BOOLEAN;
 			case StringProperty.TYPE:
@@ -316,12 +315,10 @@ public class ClassBridge {
 				}
 				return cm.ref(String.class);
 			case DecimalProperty.TYPE:
-				switch (format) {
-					case FloatProperty.FORMAT:
-						return cm.FLOAT;
-					default:
-						return cm.DOUBLE;
-				}
+			return switch (format) {
+			case FloatProperty.FORMAT -> cm.FLOAT;
+			default -> cm.DOUBLE;
+			};
 		}
 		JDefinedClass created = cm._getClass(type);
 		if (created != null) {
