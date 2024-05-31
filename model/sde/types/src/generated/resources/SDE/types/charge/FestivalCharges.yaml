@@ -871,7 +871,7 @@ types:
     mass: 100.0
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
-    name: ' Infinite Celebrations Firework'
+    name: Infinite Celebrations Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true

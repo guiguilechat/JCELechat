@@ -1752,3 +1752,23 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  82040:
+    gender: 2
+    id: 82040
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's Worker's Indigo Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  82041:
+    gender: 2
+    id: 82041
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's Worker's Indigo Pants
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

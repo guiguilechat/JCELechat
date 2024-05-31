@@ -76,3 +76,52 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  80003:
+    id: 80003
+    name: Sinister Exotic Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80004:
+    id: 80004
+    name: Ruined Electrical Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80005:
+    id: 80005
+    name: Vicious Electrical Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80006:
+    id: 80006
+    name: Devastated Electrical Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80007:
+    id: 80007
+    name: Disastrous Gamma Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80008:
+    id: 80008
+    name: Annihilated Electrical Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80009:
+    id: 80009
+    name: Calamitous Firestorm Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

@@ -45,6 +45,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -126,6 +127,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -207,6 +209,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -288,6 +291,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -369,6 +373,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -449,6 +454,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -529,6 +535,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -607,6 +614,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -686,6 +694,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -765,6 +774,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -844,6 +854,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -924,6 +935,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1002,6 +1014,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1081,6 +1094,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1160,6 +1174,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1239,6 +1254,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1319,6 +1335,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1398,6 +1415,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1476,6 +1494,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1555,6 +1574,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1634,6 +1654,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1713,6 +1734,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1792,6 +1814,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1871,6 +1894,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1951,6 +1975,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2030,6 +2055,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2108,6 +2134,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2187,6 +2214,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2266,6 +2294,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2345,6 +2374,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2424,6 +2454,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2503,6 +2534,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2580,6 +2612,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2658,6 +2691,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2735,6 +2769,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2812,6 +2847,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2889,6 +2925,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2966,6 +3003,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3043,6 +3081,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3117,6 +3156,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3191,6 +3231,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3265,6 +3306,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3339,6 +3381,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3416,6 +3459,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3493,6 +3537,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3570,6 +3615,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3647,6 +3693,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3724,6 +3771,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3801,6 +3849,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3878,6 +3927,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3955,6 +4005,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4032,6 +4083,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 2.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4109,6 +4161,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 2.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4186,6 +4239,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 2.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4263,6 +4317,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4337,6 +4392,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4411,6 +4467,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4485,6 +4542,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4559,6 +4617,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4636,6 +4695,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4713,6 +4773,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4790,6 +4851,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4867,6 +4929,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -4944,6 +5007,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5021,6 +5085,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5098,6 +5163,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5175,6 +5241,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5252,6 +5319,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5329,6 +5397,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5406,6 +5475,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5482,6 +5552,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5559,6 +5630,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5636,6 +5708,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5713,6 +5786,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5790,6 +5864,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5867,6 +5942,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -5944,6 +6020,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -6021,6 +6098,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -6103,6 +6181,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -6185,6 +6264,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -6267,6 +6347,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -6350,6 +6431,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -6433,6 +6515,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -6517,6 +6600,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -6600,6 +6684,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -6680,6 +6765,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -6760,6 +6846,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -6840,6 +6927,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -6919,6 +7007,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -6998,6 +7087,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7077,6 +7167,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7155,6 +7246,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7232,6 +7324,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7309,6 +7402,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7386,6 +7480,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7463,6 +7558,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7540,6 +7636,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7614,6 +7711,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7688,6 +7786,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7762,6 +7861,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7837,6 +7937,7 @@ types:
     maxrange: 40000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7916,6 +8017,7 @@ types:
     maxrange: 60000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -7995,6 +8097,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8075,6 +8178,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8155,6 +8259,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8235,6 +8340,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8315,6 +8421,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8395,6 +8502,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8475,6 +8583,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8555,6 +8664,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8633,6 +8743,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.25
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8712,6 +8823,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8789,6 +8901,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8867,6 +8980,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -8946,6 +9060,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9026,6 +9141,7 @@ types:
     maxrange: 500000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9102,6 +9218,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9182,6 +9299,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9263,6 +9381,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9341,6 +9460,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 15.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9424,6 +9544,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -9508,6 +9629,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -9592,6 +9714,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -9670,6 +9793,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.25
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9744,6 +9868,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.25
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9823,6 +9948,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9903,6 +10029,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9983,6 +10110,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -10063,6 +10191,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -10142,6 +10271,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10221,6 +10351,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10300,6 +10431,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10390,6 +10522,7 @@ types:
     maxvelocity: 80.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 0.7581999897956848
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.4836000204086304
     missileentityflighttimemultiplier: 1.4836000204086304
     missileentityvelocitymultiplier: 1.4836000204086304
@@ -10467,6 +10600,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10546,6 +10680,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10625,6 +10760,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10704,6 +10840,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10783,6 +10920,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10862,6 +11000,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10941,6 +11080,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11020,6 +11160,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11099,6 +11240,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11178,6 +11320,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11257,6 +11400,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11336,6 +11480,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11413,6 +11558,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -11492,6 +11638,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11571,6 +11718,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11650,6 +11798,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11729,6 +11878,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11808,6 +11958,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11887,6 +12038,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11966,6 +12118,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12045,6 +12198,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12124,6 +12278,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12203,6 +12358,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12282,6 +12438,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12361,6 +12518,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12440,6 +12598,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12519,6 +12678,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12598,6 +12758,7 @@ types:
     maxrange: 100000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12680,6 +12841,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -12762,6 +12924,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -12844,6 +13007,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -12927,6 +13091,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -13010,6 +13175,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 6.5
     missileentityvelocitymultiplier: 1.5
@@ -13087,6 +13253,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 0.7541000247001648
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.4917999505996704
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -13160,6 +13327,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 4.199999809265137
     missileentityaoecloudsizemultiplier: 0.7541000247001648
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.4917999505996704
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -13233,6 +13401,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 5.400000095367432
     missileentityaoecloudsizemultiplier: 0.7541000247001648
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.4917999505996704
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -13300,6 +13469,7 @@ types:
     maximumrangecap: 300000
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13364,6 +13534,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 6.5
     missileentityaoecloudsizemultiplier: 0.7541000247001648
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.4917999505996704
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -13437,6 +13608,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.100000023841858
     missileentityaoecloudsizemultiplier: 0.7541000247001648
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.4917999505996704
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -13512,6 +13684,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -13590,6 +13763,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -13668,6 +13842,7 @@ types:
     maxrange: 5000.0
     missiledamagemultiplier: 0.10000000149011612
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 0.20000000298023224
     missileentityvelocitymultiplier: 0.5
@@ -13746,6 +13921,7 @@ types:
     maxrange: 5000.0
     missiledamagemultiplier: 0.5
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 0.20000000298023224
     missileentityvelocitymultiplier: 0.5
@@ -13823,6 +13999,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -13902,6 +14079,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -13983,6 +14161,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14062,6 +14241,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -14140,6 +14320,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14220,6 +14401,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14299,6 +14481,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14378,6 +14561,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 3.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -14454,6 +14638,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -14531,6 +14716,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -14604,6 +14790,7 @@ types:
     maxtargetrange: 64000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 3.0
@@ -14679,6 +14866,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14760,6 +14948,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14838,6 +15027,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -14918,6 +15108,7 @@ types:
     maxrange: 70000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -14995,6 +15186,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -15074,6 +15266,7 @@ types:
     maxrange: 50000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15151,6 +15344,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 0.699999988079071
     missileentityflighttimemultiplier: 4.0
     missileentityvelocitymultiplier: 0.75
@@ -15227,6 +15421,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 0.699999988079071
     missileentityflighttimemultiplier: 3.0
     missileentityvelocitymultiplier: 1.0
@@ -15303,6 +15498,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 0.699999988079071
     missileentityflighttimemultiplier: 2.0
     missileentityvelocitymultiplier: 1.5
@@ -15379,6 +15575,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 0.699999988079071
     missileentityflighttimemultiplier: 2.5
     missileentityvelocitymultiplier: 1.25
@@ -15454,6 +15651,7 @@ types:
     maxrange: 250000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -15539,6 +15737,7 @@ types:
     maxtargetrange: 1000000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 2.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 2.0
     missileentityflighttimemultiplier: 100.0
     missileentityvelocitymultiplier: 1.0
@@ -15627,6 +15826,7 @@ types:
     maxtargetrange: 1000000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 2.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 2.0
     missileentityflighttimemultiplier: 100.0
     missileentityvelocitymultiplier: 1.0
@@ -15715,6 +15915,7 @@ types:
     maxtargetrange: 1000000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 2.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 2.0
     missileentityflighttimemultiplier: 100.0
     missileentityvelocitymultiplier: 1.0
@@ -15803,6 +16004,7 @@ types:
     maxtargetrange: 1000000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 2.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 2.0
     missileentityflighttimemultiplier: 100.0
     missileentityvelocitymultiplier: 1.0
@@ -15894,6 +16096,7 @@ types:
     maxrange: 500000.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15932,5 +16135,219 @@ types:
     thermaldamage: 25.0
     thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
+    volume: 1000.0
+    warpscrambleduration: 8000
+  80934:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armordamage: 9841
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damage: 9573
+    damagemultiplier: 0.800000011920929
+    damagemultiplierbonusmax: 2.0
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    disallowassistance: 1
+    emdamage: 55.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entityreactionfactor: 1.0
+    explosivedamage: 55.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 47274
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 10000.0
+    id: 80934
+    kineticdamage: 55.0
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    maxattacktargets: 2
+    maximumrangecap: 300000
+    maxlockedtargets: 8
+    maxrange: 70000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Damaged Werpost
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 1359.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    scanresolution: 105.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 5.0E7
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 55.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 35.0
+    volume: 1000.0
+    warpscrambleduration: 8000
+  81169:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armordamage: 9841
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 10000.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6000000238418579
+    capacitorcapacity: 250.0
+    capacity: 1000.0
+    damage: 9573
+    damagemultiplier: 5.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamage: 45.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitymissiletypeid: 30426
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 3758
+    hp: 10000.0
+    id: 81169
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    maxattacktargets: 1
+    maximumrangecap: 300000
+    maxlockedtargets: 8
+    maxrange: 70000.0
+    missiledamagemultiplier: 3.5
+    missileentityaoecloudsizemultiplier: 5.0
+    missileentityaoefalloffmultiplier: 2
+    missileentityaoevelocitymultiplier: 20.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 10000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Damaged Restless Tower
+    optimalsigradius: 200
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 45.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    scanresolution: 100.0
+    shieldcharge: 330.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 50.0
+    speed: 10000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 45.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 15.0
+    volume: 1000.0
+    warpscrambleduration: 8000
+  81969:
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 81969
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    maximumrangecap: 300000
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoefalloffmultiplier: 1
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Entropic Disintegrator Werpost test
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1000.0
     warpscrambleduration: 8000

@@ -62,3 +62,12 @@ types:
     portionSize: 1
     published: true
     volume: 0.07999999821186066
+  81945:
+    id: 81945
+    marketGroup: 1906
+    mass: 0.5
+    name: Drone Graviton Emitter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

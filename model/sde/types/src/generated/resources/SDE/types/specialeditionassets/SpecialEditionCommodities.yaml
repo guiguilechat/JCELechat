@@ -3894,6 +3894,40 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  80440:
+    cpumultiplier: 1.0
+    id: 80440
+    name: Recovered CD Boss Salvage
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  80523:
+    cpumultiplier: 1.0
+    id: 80523
+    name: Capsuleer Day XXI Filament Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  80937:
+    cpumultiplier: 1.0
+    id: 80937
+    marketGroup: 1663
+    name: Capsuleer Day XXI Fireworks Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  80992:
+    cpumultiplier: 1.0
+    id: 80992
+    marketGroup: 1663
+    name: Capsuleer Day XXI Glamourex Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   81163:
     cpumultiplier: 1.0
     id: 81163
@@ -3931,6 +3965,24 @@ types:
     id: 81603
     marketGroup: 1661
     name: Mysterious Booster Crate I
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  81954:
+    cpumultiplier: 1.0
+    id: 81954
+    name: Upwell Prototype Development Reward Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  82432:
+    cpumultiplier: 1.0
+    id: 82432
+    marketGroup: 1661
+    mass: 1.0
+    name: Admiral Noir's - Spiced Rum
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

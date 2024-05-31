@@ -1,0 +1,127 @@
+types:
+  80010:
+    id: 80010
+    marketGroup: 2013
+    mass: 1.0
+    name: F-11 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80011:
+    id: 80011
+    marketGroup: 2013
+    mass: 1.0
+    name: B-53 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80012:
+    id: 80012
+    marketGroup: 2013
+    mass: 1.0
+    name: S-107 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80013:
+    id: 80013
+    marketGroup: 2013
+    mass: 1.0
+    name: F-16 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80014:
+    id: 80014
+    marketGroup: 2013
+    mass: 1.0
+    name: B-66 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80015:
+    id: 80015
+    marketGroup: 2013
+    mass: 1.0
+    name: S-133 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80016:
+    id: 80016
+    marketGroup: 2013
+    mass: 1.0
+    name: F-24 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80017:
+    id: 80017
+    marketGroup: 2013
+    mass: 1.0
+    name: B-79 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80018:
+    id: 80018
+    marketGroup: 2013
+    mass: 1.0
+    name: S-158 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80019:
+    id: 80019
+    marketGroup: 2013
+    mass: 1.0
+    name: F-33 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80022:
+    id: 80022
+    marketGroup: 2013
+    mass: 1.0
+    name: B-97 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80023:
+    id: 80023
+    marketGroup: 2013
+    mass: 1.0
+    name: S-172 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80024:
+    id: 80024
+    marketGroup: 2013
+    mass: 1.0
+    name: F-41 Entangled GQD
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  80025:
+    id: 80025
+    marketGroup: 2013
+    mass: 1.0
+    name: Isolated Dimensional Thread
+    packagedVolume: 0.004999999888241291
+    portionSize: 1
+    published: true
+    volume: 0.004999999888241291

@@ -36,3 +36,12 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  80873:
+    id: 80873
+    marketGroup: 2480
+    mass: 1.0
+    name: Triglavian Encrypted Conduit Data
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

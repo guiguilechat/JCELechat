@@ -1,11 +1,27 @@
 types:
+  81041:
+    capacity: 100000.0
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    id: 81041
+    mass: 1000000.0
+    name: SoCT Expedition Wreck
+    portionSize: 1
+    published: false
+    radius: 500.0
+    signatureradius: 500.0
+    structureuniformity: 1.0
   367765:
     id: 367765
     name: Encrypted Strongbox
     portionSize: 1
     published: false
+    signatureradius: 100.0
+    structureuniformity: 1.0
   367768:
     id: 367768
     name: Special Encrypted Strongbox
     portionSize: 1
     published: false
+    signatureradius: 100.0
+    structureuniformity: 1.0

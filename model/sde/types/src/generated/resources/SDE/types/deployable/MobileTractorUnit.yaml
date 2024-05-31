@@ -120,3 +120,33 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 100.0
+  81951:
+    armorhp: 30000.0
+    armoruniformity: 0.75
+    capacity: 27000.0
+    duration: 30000.0
+    hp: 90000.0
+    id: 81951
+    marketGroup: 1833
+    mass: 10000.0
+    maxlockedtargets: 1
+    maxrange: 200000.0
+    maxtargetrange: 200000.0
+    maxtractorvelocity: 2000
+    metalevelold: 8
+    name: Consortium Mobile Tractor Unit
+    packagedVolume: 80.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 30000.0
+    shieldrechargerate: 3200000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 80.0

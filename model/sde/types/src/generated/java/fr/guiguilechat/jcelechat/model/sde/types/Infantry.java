@@ -58,7 +58,7 @@ public abstract class Infantry
 
         @Override
         public Collection<IMetaGroup<? extends Infantry>> groups() {
-            return Arrays.asList(BattleSalvage.METAGROUP, Warbarge.METAGROUP, InfantryColorSkin.METAGROUP, InfantrySkillEnhancers.METAGROUP, InfantryInstallations.METAGROUP, InfantryWeapons.METAGROUP, InfantryDropsuits.METAGROUP, Services.METAGROUP, InfantryModules.METAGROUP, Agents.METAGROUP, InfantryVehicles.METAGROUP, VisualCustomization.METAGROUP, SalvageContainers.METAGROUP, SalvageDecryptors.METAGROUP, InfantrySkills.METAGROUP, InfantryEquipment.METAGROUP, SurfaceInfrastructure.METAGROUP);
+            return Arrays.asList(BattleSalvage.METAGROUP, Warbarge.METAGROUP, InfantryColorSkin.METAGROUP, InfantrySkillEnhancers.METAGROUP, InfantryInstallations.METAGROUP, InfantryWeapons.METAGROUP, InfantryDropsuits.METAGROUP, Services.METAGROUP, InfantryModules.METAGROUP, Agents.METAGROUP, VisualCustomization.METAGROUP, InfantryVehicles.METAGROUP, SalvageContainers.METAGROUP, SalvageDecryptors.METAGROUP, InfantrySkills.METAGROUP, InfantryEquipment.METAGROUP, SurfaceInfrastructure.METAGROUP);
         }
     }
 }

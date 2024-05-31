@@ -15864,6 +15864,7 @@ id2group:
   34077: apparel/Headwear
   34078: apparel/Headwear
   34080: apparel/Footwear
+  34081: apparel/Footwear
   34083: apparel/Footwear
   34086: apparel/Footwear
   34088: apparel/Footwear
@@ -24629,6 +24630,7 @@ id2group:
   54337: entity/EDENCOMEntities
   54338: entity/EDENCOMEntities
   54359: apparel/Outer
+  54360: apparel/Outer
   54363: apparel/Outer
   54364: apparel/Outer
   54365: apparel/Bottoms
@@ -24638,8 +24640,10 @@ id2group:
   54375: apparel/Outer
   54376: apparel/Outer
   54377: apparel/Outer
+  54378: apparel/Outer
   54381: apparel/Outer
   54382: apparel/Outer
+  54383: apparel/Footwear
   54392: implant/Cyberimplant
   54393: implant/Cyberimplant
   54394: implant/Cyberimplant
@@ -30117,13 +30121,92 @@ id2group:
   79953: skins/PermanentSKIN
   79954: skins/PermanentSKIN
   79955: skins/PermanentSKIN
+  79994: entity/SpawnContainer
+  79996: commodity/ExpiredAbyssalBattlefieldsFilaments
+  79997: commodity/ExpiredAbyssalBattlefieldsFilaments
+  79998: commodity/ExpiredAbyssalBattlefieldsFilaments
+  79999: commodity/ExpiredAbyssalBattlefieldsFilaments
+  80000: commodity/ExpiredAbyssalBattlefieldsFilaments
+  80001: commodity/ExpiredAbyssalBattlefieldsFilaments
+  80002: commodity/ExpiredAbyssalBattlefieldsFilaments
+  80003: blueprint/JumpFilamentBlueprint
+  80004: blueprint/JumpFilamentBlueprint
+  80005: blueprint/JumpFilamentBlueprint
+  80006: blueprint/JumpFilamentBlueprint
+  80007: blueprint/JumpFilamentBlueprint
+  80008: blueprint/JumpFilamentBlueprint
+  80009: blueprint/JumpFilamentBlueprint
+  80010: commodity/AbyssalBattlefieldFilamentMaterials
+  80011: commodity/AbyssalBattlefieldFilamentMaterials
+  80012: commodity/AbyssalBattlefieldFilamentMaterials
+  80013: commodity/AbyssalBattlefieldFilamentMaterials
+  80014: commodity/AbyssalBattlefieldFilamentMaterials
+  80015: commodity/AbyssalBattlefieldFilamentMaterials
+  80016: commodity/AbyssalBattlefieldFilamentMaterials
+  80017: commodity/AbyssalBattlefieldFilamentMaterials
+  80018: commodity/AbyssalBattlefieldFilamentMaterials
+  80019: commodity/AbyssalBattlefieldFilamentMaterials
+  80022: commodity/AbyssalBattlefieldFilamentMaterials
+  80023: commodity/AbyssalBattlefieldFilamentMaterials
+  80024: commodity/AbyssalBattlefieldFilamentMaterials
+  80025: commodity/AbyssalBattlefieldFilamentMaterials
+  80029: entity/SpawnContainer
+  80030: entity/SpawnContainer
+  80031: entity/SpawnContainer
+  80033: entity/SpawnContainer
+  80034: entity/SpawnContainer
+  80035: entity/SpawnContainer
+  80036: entity/SpawnContainer
+  80038: entity/SpawnContainer
+  80039: entity/AbyssalSpaceshipEntities
+  80041: entity/AbyssalSpaceshipEntities
+  80043: entity/AbyssalSpaceshipEntities
+  80044: entity/AbyssalSpaceshipEntities
   80240: specialeditionassets/SpecialEditionCommodities
+  80248: entity/AbyssalDroneEntities
+  80342: implant/Booster
+  80343: implant/Booster
+  80344: implant/Booster
+  80352: implant/Booster
+  80353: implant/Booster
+  80354: implant/Booster
+  80357: implant/Booster
+  80358: implant/Booster
+  80359: implant/Booster
+  80360: implant/Booster
+  80361: implant/Booster
+  80362: implant/Booster
+  80363: implant/Booster
+  80364: implant/Booster
+  80365: implant/Booster
+  80366: implant/Booster
+  80367: implant/Booster
+  80368: implant/Booster
+  80369: implant/Booster
+  80370: implant/Booster
+  80371: implant/Booster
+  80379: implant/Booster
+  80380: implant/Booster
+  80381: implant/Booster
+  80425: entity/SpawnContainer
+  80438: entity/IrregularCorvette
+  80440: specialeditionassets/SpecialEditionCommodities
   80441: skins/PermanentSKIN
   80448: entity/PirateEntities
   80449: entity/PirateEntities
   80450: entity/PirateEntities
   80451: entity/PirateEntities
   80452: entity/PirateEntities
+  80523: specialeditionassets/SpecialEditionCommodities
+  80757: implant/Booster
+  80760: implant/Booster
+  80763: implant/Booster
+  80765: implant/Booster
+  80767: implant/Booster
+  80768: implant/Booster
+  80769: implant/Booster
+  80770: implant/Booster
+  80773: implant/Booster
   80806: entity/PirateEntities
   80807: entity/PirateEntities
   80808: entity/PirateEntities
@@ -30133,15 +30216,22 @@ id2group:
   80813: skins/PermanentSKIN
   80814: skins/PermanentSKIN
   80815: skins/PermanentSKIN
+  80873: commodity/TriglavianData
+  80887: entity/IrregularUnidentified
+  80888: entity/IrregularUnidentified
   80907: skins/PermanentSKIN
   80908: skins/PermanentSKIN
   80909: skins/PermanentSKIN
+  80934: entity/DestructibleSentryGun
+  80937: specialeditionassets/SpecialEditionCommodities
   80938: skins/PermanentSKIN
   80939: skins/PermanentSKIN
   80940: skins/PermanentSKIN
   80941: skins/PermanentSKIN
   80942: skins/PermanentSKIN
   80943: skins/PermanentSKIN
+  80990: entity/IrregularUnidentified
+  80992: specialeditionassets/SpecialEditionCommodities
   81010: skins/PermanentSKIN
   81011: skins/PermanentSKIN
   81012: skins/PermanentSKIN
@@ -30159,8 +30249,11 @@ id2group:
   81024: skins/PermanentSKIN
   81025: skins/PermanentSKIN
   81026: skins/PermanentSKIN
+  81041: infantry/SalvageContainers
   81083: implant/Booster
   81084: implant/Booster
+  81090: entity/SpawnContainer
+  81091: entity/SpawnContainer
   81098: expertsystems/StandardExpertSystems
   81116: skins/PermanentSKIN
   81117: skins/PermanentSKIN
@@ -30169,10 +30262,17 @@ id2group:
   81120: skins/PermanentSKIN
   81121: expertsystems/StandardExpertSystems
   81122: expertsystems/StandardExpertSystems
+  81161: entity/AbyssalSpaceshipEntities
+  81162: entity/AbyssalSpaceshipEntities
   81163: specialeditionassets/SpecialEditionCommodities
   81166: specialeditionassets/SpecialEditionCommodities
   81167: specialeditionassets/SpecialEditionCommodities
   81168: specialeditionassets/SpecialEditionCommodities
+  81169: entity/DestructibleSentryGun
+  81170: entity/AbyssalSpaceshipEntities
+  81299: entity/AbyssalSpaceshipEntities
+  81302: entity/AbyssalSpaceshipEntities
+  81306: entity/AbyssalSpaceshipEntities
   81353: skins/PermanentSKIN
   81354: skins/PermanentSKIN
   81355: skins/PermanentSKIN
@@ -30186,7 +30286,67 @@ id2group:
   81599: commodity/Livestock
   81603: specialeditionassets/SpecialEditionCommodities
   81614: expertsystems/StandardExpertSystems
+  81617: entity/SpawnContainer
   81618: expertsystems/StandardExpertSystems
+  81624: entity/SpawnContainer
+  81626: entity/SpawnContainer
+  81627: entity/SpawnContainer
+  81660: abstrct/Miscellaneous
+  81945: material/RogueDroneComponents
+  81946: blueprint/TractorBeamBlueprint
+  81947: blueprint/TractorBeamBlueprint
+  81948: module/TractorBeam
+  81949: module/TractorBeam
+  81951: deployable/MobileTractorUnit
+  81952: blueprint/MobileTractorUnitBlueprint
+  81953: commodity/Miscellaneous
+  81954: specialeditionassets/SpecialEditionCommodities
+  81969: entity/DestructibleSentryGun
+  82040: apparel/Bottoms
+  82041: apparel/Bottoms
+  82052: skins/PermanentSKIN
+  82053: skins/PermanentSKIN
+  82054: skins/PermanentSKIN
+  82055: skins/PermanentSKIN
+  82057: skins/PermanentSKIN
+  82058: skins/PermanentSKIN
+  82060: skins/PermanentSKIN
+  82061: skins/PermanentSKIN
+  82062: skins/PermanentSKIN
+  82063: skins/PermanentSKIN
+  82064: skins/PermanentSKIN
+  82065: skins/PermanentSKIN
+  82066: skins/PermanentSKIN
+  82067: skins/PermanentSKIN
+  82068: skins/PermanentSKIN
+  82069: skins/PermanentSKIN
+  82070: skins/PermanentSKIN
+  82071: skins/PermanentSKIN
+  82072: skins/PermanentSKIN
+  82073: skins/PermanentSKIN
+  82074: skins/PermanentSKIN
+  82075: skins/PermanentSKIN
+  82076: skins/PermanentSKIN
+  82077: skins/PermanentSKIN
+  82078: skins/PermanentSKIN
+  82079: skins/PermanentSKIN
+  82080: skins/PermanentSKIN
+  82081: skins/PermanentSKIN
+  82082: skins/PermanentSKIN
+  82083: skins/PermanentSKIN
+  82174: skins/PermanentSKIN
+  82175: skins/PermanentSKIN
+  82177: skins/PermanentSKIN
+  82178: skins/PermanentSKIN
+  82180: skins/PermanentSKIN
+  82181: skins/PermanentSKIN
+  82182: skins/PermanentSKIN
+  82183: skins/PermanentSKIN
+  82184: skins/PermanentSKIN
+  82185: skins/PermanentSKIN
+  82186: skins/PermanentSKIN
+  82187: skins/PermanentSKIN
+  82432: specialeditionassets/SpecialEditionCommodities
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

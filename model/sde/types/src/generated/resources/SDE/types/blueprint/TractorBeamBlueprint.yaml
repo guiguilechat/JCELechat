@@ -45,3 +45,23 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  81946:
+    id: 81946
+    industryblueprintrank: 3.0
+    name: Consortium Small Tractor Beam Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  81947:
+    id: 81947
+    industryblueprintrank: 120.0
+    name: Consortium Capital Tractor Beam Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

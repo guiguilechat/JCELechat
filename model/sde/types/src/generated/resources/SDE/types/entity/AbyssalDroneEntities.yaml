@@ -1,6 +1,7 @@
 types:
   47847:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 500.0
@@ -16,6 +17,7 @@ types:
     entitychasemaxduration: 2000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 2000.0
     fighterabilityantifightermissileresistance: 1
@@ -53,6 +55,7 @@ types:
     volume: 10.0
   47848:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 500.0
@@ -67,6 +70,7 @@ types:
     entitychasemaxduration: 2000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 5000.0
     fighterabilityantifightermissileresistance: 1
@@ -105,6 +109,7 @@ types:
     volume: 10.0
   47849:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 200.0
@@ -119,6 +124,7 @@ types:
     entitychasemaxduration: 2000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 2000.0
     fighterabilityantifightermissileresistance: 1
@@ -157,6 +163,7 @@ types:
     volume: 10.0
   47850:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 300.0
@@ -173,6 +180,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 1.0
     fighterabilityantifightermissileresistance: 1
@@ -207,6 +215,7 @@ types:
     volume: 10.0
   47851:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 300.0
@@ -223,6 +232,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamage: 10.0
     explosivedamageresonance: 1.0
     falloff: 4000.0
@@ -263,6 +273,7 @@ types:
     volume: 10.0
   47852:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     aoecloudsizebonus: 10.0
     aoevelocitybonus: -10.0
     armoremdamageresonance: 0.4000000059604645
@@ -279,6 +290,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosiondelaybonus: -8.0
     explosivedamage: 10.0
     explosivedamageresonance: 1.0
@@ -330,6 +342,7 @@ types:
     volume: 10.0
   47853:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 350.0
@@ -347,6 +360,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamage: 10.0
     explosivedamageresonance: 1.0
     falloff: 4000.0
@@ -389,6 +403,7 @@ types:
     volume: 10.0
   47854:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 350.0
@@ -406,6 +421,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamage: 10.0
     explosivedamageresonance: 1.0
     falloff: 4000.0
@@ -447,6 +463,7 @@ types:
     volume: 10.0
   47855:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.800000011920929
     armorhp: 200.0
@@ -461,6 +478,7 @@ types:
     entitychasemaxduration: 2000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityreactionfactor: 1.0
     explosivedamage: 20.0
     explosivedamageresonance: 1.0
     falloff: 5000.0
@@ -499,6 +517,7 @@ types:
     volume: 10.0
   47856:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1000.0
@@ -514,6 +533,7 @@ types:
     entitychasemaxduration: 2000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 4000.0
     fighterabilityantifightermissileresistance: 1
@@ -551,6 +571,7 @@ types:
     volume: 10.0
   47857:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1000.0
@@ -565,6 +586,7 @@ types:
     entitychasemaxduration: 2000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 10000.0
     fighterabilityantifightermissileresistance: 1
@@ -603,6 +625,7 @@ types:
     volume: 10.0
   47858:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 200.0
@@ -617,6 +640,7 @@ types:
     entitychasemaxduration: 2000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 4000.0
     fighterabilityantifightermissileresistance: 1
@@ -655,6 +679,7 @@ types:
     volume: 10.0
   47859:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.800000011920929
     armorhp: 200.0
@@ -669,6 +694,7 @@ types:
     entitychasemaxduration: 2000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
+    entityreactionfactor: 1.0
     explosivedamage: 40.0
     explosivedamageresonance: 1.0
     falloff: 10000.0
@@ -707,6 +733,7 @@ types:
     volume: 10.0
   47860:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armordamageamount: 20.0
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -724,6 +751,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 1.0
     fighterabilityantifightermissileresistance: 1
@@ -757,6 +785,7 @@ types:
     volume: 10.0
   48253:
     agility: 100.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.800000011920929
     armorhp: 200.0
@@ -771,6 +800,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamage: 4.0
     explosivedamageresonance: 1.0
     falloff: 3000.0
@@ -810,6 +840,7 @@ types:
     volume: 5.0
   48262:
     agility: 50.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4000000059604645
     armorhp: 2300.0
@@ -825,6 +856,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -861,6 +893,7 @@ types:
     volume: 60.0
   48263:
     agility: 50.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4000000059604645
     armorhp: 2300.0
@@ -875,6 +908,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -912,6 +946,7 @@ types:
     volume: 60.0
   48264:
     agility: 50.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4000000059604645
     armorhp: 2300.0
@@ -926,6 +961,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -963,6 +999,7 @@ types:
     volume: 60.0
   48265:
     agility: 50.0
+    aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4000000059604645
     armorhp: 2300.0
@@ -977,6 +1014,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 1.0
     explosivedamage: 50.0
     explosivedamageresonance: 1.0
     falloff: 6000.0
@@ -1009,6 +1047,72 @@ types:
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 4000.0
+    volume: 60.0
+  80248:
+    agility: 100.0
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 140.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 1.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 20000.0
+    behaviortargetpainterrange: 30000.0
+    capacitorcapacity: 500.0
+    damagemultiplier: 1.0
+    emdamage: 16.0
+    emdamageresonance: 1.0
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityreactionfactor: 0.25
+    explosivedamage: 16.0
+    explosivedamageresonance: 1.0
+    falloff: 4000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 397
+    hp: 100.0
+    id: 80248
+    kineticdamage: 16.0
+    kineticdamageresonance: 1.0
+    mass: 5000.0
+    maxlockedtargets: 8
+    maxrange: 8000.0
+    maxtargetrange: 70000.0
+    maxvelocity: 1000.0
+    name: Igniting Swarmer
+    npcbehaviormaximumcombatorbitrange: 8000.0
+    optimalsigradius: 40000
+    packagedVolume: 60.0
+    portionSize: 1
+    published: false
+    radius: 18.0
+    rechargerate: 150000.0
+    scanladarstrength: 13.0
+    scanresolution: 2000.0
+    scanspeed: 2000
+    shieldcapacity: 140.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 6250000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 120.0
+    signatureradiusbonus: 20.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 16.0
     thermaldamageresonance: 1.0
     trackingspeed: 4000.0
     volume: 60.0

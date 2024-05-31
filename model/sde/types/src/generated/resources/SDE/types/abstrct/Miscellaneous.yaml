@@ -12,3 +12,11 @@ types:
     name: SKIN
     portionSize: 1
     published: false
+  81660:
+    id: 81660
+    mass: 1.0
+    name: Asset Holding Wrap
+    packagedVolume: 1.0
+    portionSize: 1
+    published: false
+    volume: 1.0

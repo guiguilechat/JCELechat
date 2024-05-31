@@ -626,6 +626,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  34081:
+    gender: 3
+    id: 34081
+    mass: 0.5
+    name: Women's Chique Outlander Boots
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
   34083:
     gender: 3
     id: 34083
@@ -884,6 +894,16 @@ types:
     marketGroup: 1400
     mass: 0.5
     name: Men's 'Fatal Elite' Combat Boots
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  54383:
+    gender: 2
+    id: 54383
+    marketGroup: 1400
+    mass: 0.5
+    name: Men's Boardroom Loafers
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

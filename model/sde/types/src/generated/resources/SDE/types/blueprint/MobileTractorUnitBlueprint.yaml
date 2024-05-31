@@ -40,3 +40,12 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  81952:
+    id: 81952
+    industryblueprintrank: 20.0
+    name: Consortium Mobile Tractor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
