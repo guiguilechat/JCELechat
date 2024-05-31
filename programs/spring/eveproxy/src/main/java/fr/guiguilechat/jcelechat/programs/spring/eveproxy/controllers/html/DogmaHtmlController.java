@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.MarketOrderService;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.market.order.MarketOrderService;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.prices.services.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;

@@ -26,30 +26,31 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class RemoteResourceUpdaterService {
 
-	private final Optional<List<ARemoteFetchedResourceService<?, ?, ?, ?>>> updateServices;
+	private final Optional<List<ARemoteFetchedResourceService<?, ?, ?, ?>>> fetchedServices;
 
 	@Value("${esiconnect.resourceudpater.skip:false}")
 	private boolean skip;
 
 	@Scheduled(fixedRateString = "${esiconnect.resourceudpater.fetchperiod:10000}", initialDelayString = "${esiconnect.resourceudpater.fetchdelay:5000}")
 	public void updateChars() throws IOException {
-		if (!skip && updateServices.isPresent()) {
-			updateServices.get().parallelStream().forEach(this::updateService);
+		if (!skip && fetchedServices.isPresent()) {
+			fetchedServices.get().parallelStream().forEach(this::updateService);
 		}
 
 	}
 
 	protected <Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> void updateService(
-	    ARemoteFetchedResourceService<Entity, Id, Fetched, Repository> updateServices) {
+	    ARemoteFetchedResourceService<Entity, Id, Fetched, Repository> fetchedService) {
 		long startTimeMs=System.currentTimeMillis();
+		fetchedService.checkNewEntries();
 		int nbUpdates = 0;
 		Map<Entity, CompletableFuture<Entity>> futures = null;
-		if(updateServices.isSupportsBatchUpdate()) {
-			List<Entity> list = updateServices.streamToUpdate().toList();
-			futures = updateServices.batchUpdate(list);
+		if(fetchedService.isSupportsBatchUpdate()) {
+			List<Entity> list = fetchedService.streamToUpdate().toList();
+			futures = fetchedService.batchUpdate(list);
 			nbUpdates = list.size();
 		} else {
-			futures = updateServices.streamToUpdate().collect(Collectors.toMap(e -> e, updateServices::update));
+			futures = fetchedService.streamToUpdate().collect(Collectors.toMap(e -> e, fetchedService::update));
 			nbUpdates = futures.size();
 		}
 		futures.entrySet().forEach(f -> {
@@ -62,7 +63,7 @@ public class RemoteResourceUpdaterService {
 		});
 		long endTimeMs = System.currentTimeMillis();
 		if (nbUpdates > 0) {
-			log.info("updated service {} for {} values in {} ms", updateServices.getClass().getSimpleName(), nbUpdates,
+			log.info("updated service {} for {} values in {} ms", fetchedService.getClass().getSimpleName(), nbUpdates,
 			    endTimeMs - startTimeMs);
 		}
 	}

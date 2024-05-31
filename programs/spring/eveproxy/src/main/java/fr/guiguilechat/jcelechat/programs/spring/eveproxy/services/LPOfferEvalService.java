@@ -9,10 +9,10 @@ import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.strategies.MaterialSourcing;
-import fr.guiguilechat.jcelechat.libs.spring.market.strategies.ProductValuator;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.market.valuation.MaterialSourcing;
+import fr.guiguilechat.jcelechat.libs.spring.market.valuation.ProductValuator;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.OfferRequirement;
 import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity;

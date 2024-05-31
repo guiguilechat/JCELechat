@@ -14,6 +14,7 @@
 	<name>Spring libs</name>
 	<description>pom of the JCELechat libraries made for spring</description>
 	<modules>
+		<module>affiliations</module>
 		<module>connect</module>
 		<module>lp</module>
 		<module>market</module>

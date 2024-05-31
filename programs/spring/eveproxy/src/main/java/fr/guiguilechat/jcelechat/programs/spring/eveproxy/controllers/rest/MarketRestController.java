@@ -23,10 +23,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.LocatedBestOffer;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.RegionLineService.OfferStat;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.OfferStat;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;

@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.model.ObservedRegion;
-import fr.guiguilechat.jcelechat.libs.spring.market.services.ObservedRegionService;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SdeUpdateListener;

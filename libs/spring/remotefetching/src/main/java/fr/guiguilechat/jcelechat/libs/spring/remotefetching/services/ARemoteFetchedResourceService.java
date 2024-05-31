@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -332,4 +333,40 @@ public abstract class ARemoteFetchedResourceService<
 		log.trace(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
 		return data.parallelStream().limit(getMaxUpdates()).collect(Collectors.toMap(e -> e, this::update));
 	}
+
+	//
+	// list updating methods
+	// those are only used for services whose entities are static and listed.
+	// to implement, just override the listFetcher()
+	//
+
+	private String lastListEtag = null;
+	private Instant listExpires = null;
+
+	/** check new entries */
+	void checkNewEntries() {
+		if (listExpires == null || listExpires.isBefore(Instant.now())) {
+			Function<Map<String, String>, Requested<List<Id>>> fetcher = listFetcher();
+			if (fetcher != null) {
+				Map<String, String> properties = new HashMap<>();
+				if (lastListEtag != null) {
+					properties.put(ConnectedImpl.IFNONEMATCH, lastListEtag);
+				}
+				Requested<List<Id>> resp = fetcher.apply(properties);
+				if (resp == null || !resp.isOk()) {
+					log.warn("update service {} received invalid response {} when requesting list of entities",
+					    getClass().getSimpleName(), resp);
+					return;
+				} else {
+					createIfAbsent(resp.getOK(), false);
+				}
+			}
+		}
+	}
+
+	/** the method to overwrite to make it auto fetch entities */
+	protected Function<Map<String, String>, Requested<List<Id>>> listFetcher() {
+		return null;
+	}
+
 }
