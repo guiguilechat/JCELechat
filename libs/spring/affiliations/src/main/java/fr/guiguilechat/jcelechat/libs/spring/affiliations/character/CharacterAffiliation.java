@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.affiliations.character;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;

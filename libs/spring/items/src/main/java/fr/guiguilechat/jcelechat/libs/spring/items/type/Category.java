@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;

@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction.CharacterTransactionList;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.AConnectedCharDataService;
-import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolutionService;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolutionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -45,17 +45,17 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 
 	@Override
 	protected Requested<R_get_characters_character_id_wallet_transactions[]> fetchCharacterData(ESIConnected esiConnected,
-	    int RemoteId, Map<String, String> properties) {
+	    int Id, Map<String, String> properties) {
 		// last stored higher id for a transaction of that character.
 		CharacterTransaction lastStored = recordRepo
-		    .findTop1ByFetchResourceRemoteIdOrderByTransactionIdDesc(RemoteId);
+		    .findTop1ByFetchResourceIdOrderByTransactionIdDesc(Id);
 		// lowest id of a transaction we fetched so far. We stop digging when it's set
 		// to null.
 		Long lastFetchedMinTransactionId = null;
 		List<R_get_characters_character_id_wallet_transactions[]> fetchedArrays = new ArrayList<>();
 		Requested<R_get_characters_character_id_wallet_transactions[]> lastResponse = null;
 		do {
-			lastResponse = esiConnected.get_characters_wallet_transactions(RemoteId, lastFetchedMinTransactionId,
+			lastResponse = esiConnected.get_characters_wallet_transactions(Id, lastFetchedMinTransactionId,
 			    properties);
 			// if there is any problem when fetching the different pages, we return the
 			// first problem.
@@ -85,7 +85,7 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 	@Override
 	protected CharacterTransactionList create(Integer entityId) {
 		CharacterTransactionList ret = new CharacterTransactionList();
-		ret.setRemoteId(entityId);
+		ret.setId(entityId);
 		return ret;
 	}
 
@@ -114,13 +114,13 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 		    .map(CharacterTransaction::getClientId)
 		    .distinct()
 		    .toList();
-		idResolutionService.createIfAbsent(allIds, false);
+		idResolutionService.createIfAbsent(allIds);
 	}
 
 	// service usage
 
-	public List<CharacterTransaction> list(int RemoteId) {
-		return recordRepo.findAllByFetchResourceRemoteId(RemoteId);
+	public List<CharacterTransaction> list(int Id) {
+		return recordRepo.findAllByFetchResourceId(Id);
 	}
 
 }

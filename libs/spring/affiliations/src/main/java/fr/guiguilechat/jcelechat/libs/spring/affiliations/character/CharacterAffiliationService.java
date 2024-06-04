@@ -13,9 +13,9 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.services.ARemoteFetchedResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolution;
-import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolutionListener;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolution;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolutionListener;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import lombok.Getter;
@@ -53,16 +53,16 @@ public class CharacterAffiliationService
 	// auto management
 
 	@Override
-	protected CharacterAffiliation create(Integer RemoteId) {
+	protected CharacterAffiliation create(Integer Id) {
 		CharacterAffiliation ret = new CharacterAffiliation();
-		ret.setRemoteId(RemoteId);
+		ret.setId(Id);
 		return ret;
 	}
 
 	@Override
-	protected Requested<R_post_characters_affiliation> fetchData(Integer RemoteId,
+	protected Requested<R_post_characters_affiliation> fetchData(Integer Id,
 	    Map<String, String> properties) {
-		Requested<R_post_characters_affiliation[]> ret = ESIRawPublic.INSTANCE.post_affiliation(new int[] { RemoteId },
+		Requested<R_post_characters_affiliation[]> ret = ESIRawPublic.INSTANCE.post_affiliation(new int[] { Id },
 		    properties);
 		return ret.mapBody(arr -> arr[0]);
 	}
@@ -85,7 +85,7 @@ public class CharacterAffiliationService
 			List<? extends CharacterAffiliation> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
 			// System.err.println("fetching next " + subData.size() + " ids for character
 			// affiliation");
-			int[] charIds = subData.stream().mapToInt(CharacterAffiliation::getRemoteId).toArray();
+			int[] charIds = subData.stream().mapToInt(CharacterAffiliation::getId).toArray();
 			Requested<R_post_characters_affiliation[]> response = ESIRawPublic.INSTANCE.post_affiliation(charIds, null);
 			int responseCode = response.getResponseCode();
 			switch (responseCode) {
@@ -93,15 +93,15 @@ public class CharacterAffiliationService
 				Map<Integer, R_post_characters_affiliation> retMap = Stream.of(response.getOK())
 				    .collect(Collectors.toMap(r -> r.character_id, r -> r));
 				for (CharacterAffiliation caf : subData) {
-					if (retMap.containsKey(caf.getRemoteId())) {
-						caf.update(retMap.get(caf.getRemoteId()));
+					if (retMap.containsKey(caf.getId())) {
+						caf.update(retMap.get(caf.getId()));
 						updateMetaOk(caf, response);
 						save(caf);
 						log.trace(
-						    "saved new affiliation for character " + caf.getRemoteId() + " , expires at " + caf.getExpires());
+						    "saved new affiliation for character " + caf.getId() + " , expires at " + caf.getExpires());
 					} else {
 						log.error(
-						    "fetched character affiliation for " + caf.getRemoteId() + " but got ids for " + retMap.keySet());
+						    "fetched character affiliation for " + caf.getId() + " but got ids for " + retMap.keySet());
 					}
 				}
 				break;
@@ -120,7 +120,7 @@ public class CharacterAffiliationService
 	@Override
 	public void onNewIdResolution(IdResolution idResolution) {
 		if (idResolution.getCategory() == post_universe_names_category.character) {
-			createIfAbsent(idResolution.getRemoteId(), false);
+			createIfAbsent(idResolution.getId());
 		}
 	}
 

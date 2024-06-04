@@ -1,12 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.spring.remotefetching.repositories;
+package fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource;
 
 import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
-
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
 
 @NoRepositoryBean
 public interface IRemoteFetchedResourceRepository<Entity extends ARemoteFetchedResource<Id, ?>, Id>

@@ -9,8 +9,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.services.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -25,7 +26,7 @@ public class AttributeService
 	@Override
 	protected Attribute create(Integer id) {
 		Attribute ret = new Attribute();
-		ret.setRemoteId(id);
+		ret.setId(id);
 		return ret;
 	}
 
@@ -38,5 +39,8 @@ public class AttributeService
 	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
 		return p -> ESIRawPublic.INSTANCE.get_dogma_attributes(p).mapBody(List::of);
 	}
+
+	@Getter(lazy = true)
+	private final int maxUpdates = 100;
 
 }

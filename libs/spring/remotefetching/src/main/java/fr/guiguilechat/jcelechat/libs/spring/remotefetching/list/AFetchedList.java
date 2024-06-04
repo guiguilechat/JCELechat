@@ -1,5 +1,6 @@
-package fr.guiguilechat.jcelechat.libs.spring.remotefetching.model;
+package fr.guiguilechat.jcelechat.libs.spring.remotefetching.list;
 
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

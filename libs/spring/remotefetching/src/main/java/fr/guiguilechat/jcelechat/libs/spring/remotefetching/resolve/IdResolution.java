@@ -1,6 +1,6 @@
-package fr.guiguilechat.jcelechat.libs.spring.resolve;
+package fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import jakarta.persistence.Entity;

@@ -1,0 +1,32 @@
+#
+
+spring:
+   cache:
+      type: simple
+   datasource:
+      password: admin
+      url: jdbc:h2:mem:lechat;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+      username: admin
+   jpa:
+      generate-ddl: true
+      hibernate:
+         ddl-auto: update
+      open-in-view: false
+      properties:
+         hibernate:
+            jdbc:
+               batch_size: 50
+               fetch_size: 50
+            order_insert: true
+logging:
+  level:
+    fr.guiguilechat.jcelechat.jcesi: trace
+    org:
+      springframework:
+        web:
+          filter:
+            CommonsRequestLoggingFilter: DEBUG
+        security:          
+          jwt: DEBUG
+          oauth2: DEBUG
+    web: DEBUG

@@ -5,8 +5,9 @@ import java.util.Map;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
+import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
@@ -39,11 +40,13 @@ public class Type extends ARemoteFetchedResource<Integer, R_get_universe_types_t
 	/**
 	 * dogma_attributes array
 	 */
+	@ElementCollection
 	private Map<Attribute, Float> attributesValues = new HashMap<>();
 
 	/**
 	 * dogma_effects array
 	 */
+	@ElementCollection
 	private Map<Effect, Boolean> effectsDefault = new HashMap<>();
 
 	/**

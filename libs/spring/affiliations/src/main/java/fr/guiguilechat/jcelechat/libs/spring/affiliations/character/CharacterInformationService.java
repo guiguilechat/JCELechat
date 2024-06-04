@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.services.ARemoteFetchedResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolution;
-import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolutionListener;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolution;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolutionListener;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import lombok.RequiredArgsConstructor;
@@ -27,7 +27,7 @@ public class CharacterInformationService
 	@Override
 	protected CharacterInformation create(Integer characterId) {
 		CharacterInformation ret = new CharacterInformation();
-		ret.setRemoteId(characterId);
+		ret.setId(characterId);
 		return ret;
 	}
 
@@ -40,7 +40,7 @@ public class CharacterInformationService
 	@Override
 	public void onNewIdResolution(IdResolution idResolution) {
 		if (idResolution.getCategory() == post_universe_names_category.character) {
-			createIfAbsent(idResolution.getRemoteId(), false);
+			createIfAbsent(idResolution.getId());
 		}
 	}
 

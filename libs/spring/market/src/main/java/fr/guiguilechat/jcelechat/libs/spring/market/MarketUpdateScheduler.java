@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.libs.spring.market.history.HistoryUpdateService
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegionService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionMarketUpdateService;
-import fr.guiguilechat.jcelechat.libs.spring.status.ESIStatusService;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.status.ESIStatusService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

@@ -2,9 +2,9 @@ package fr.guiguilechat.jcelechat.libs.spring.items.effect;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_effects_effect_id_modifiers;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -39,7 +39,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * dischargeAttributeId integer
 	 */
-	private int dischargeAttributeId;
+	private Attribute dischargeAttribute;
 
 	/**
 	 * display_name string
@@ -49,17 +49,12 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * durationAttributeId integer
 	 */
-	private int durationAttributeId;
+	private Attribute durationAttribute;
 
 	/**
 	 * effectCategory integer
 	 */
 	private int effectCategory;
-
-	/**
-	 * effectId integer
-	 */
-	private int effectId;
 
 	/**
 	 * electronicChance boolean
@@ -69,7 +64,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * falloffAttributeId integer
 	 */
-	private int falloffAttributeId;
+	private Attribute falloffAttribute;
 
 	/**
 	 * iconId integer
@@ -79,8 +74,8 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * modifiers array
 	 */
-	@OneToMany
-	private List<get_dogma_effects_effect_id_modifiers> modifiers;
+	@OneToMany(mappedBy = "effect")
+	private List<Modifier> modifiers;
 
 	/**
 	 * name string
@@ -110,7 +105,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * rangeAttributeId integer
 	 */
-	private int rangeAttributeId;
+	private Attribute rangeAttribute;
 
 	/**
 	 * rangeChance boolean
@@ -120,7 +115,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * trackingSpeedAttributeId integer
 	 */
-	private int trackingSpeedAttributeId;
+	private Attribute trackingSpeedAttribute;
 
 	/**
 	 * is_warpSafe boolean
@@ -129,8 +124,20 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 
 	@Override
 	public void update(R_get_dogma_effects_effect_id data) {
-		// TODO Auto-generated method stub
-
+		setAssistance(data.is_assistance);
+		setDescription(data.description);
+		setDisallowAutoRepeat(data.disallow_auto_repeat);
+		setDisplayName(data.display_name);
+		setEffectCategory(data.effect_category);
+		setElectronicChance(data.electronic_chance);
+		setIconId(data.icon_id);
+		setName(data.name);
+		setOffensive(data.is_offensive);
+		setPostExpression(data.post_expression);
+		setPreExpression(data.pre_expression);
+		setPublished(data.published);
+		setRangeChance(data.range_chance);
+		setWarpSafe(data.is_warp_safe);
 	}
 
 }

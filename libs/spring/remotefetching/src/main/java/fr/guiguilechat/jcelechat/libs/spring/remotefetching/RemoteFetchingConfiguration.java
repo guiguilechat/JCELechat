@@ -6,9 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @AutoConfiguration
-@ComponentScan("fr.guiguilechat.jcelechat.libs.spring.templates")
-@EnableJpaRepositories("fr.guiguilechat.jcelechat.libs.spring.templates")
-@EntityScan("fr.guiguilechat.jcelechat.libs.spring.templates")
+@ComponentScan("fr.guiguilechat.jcelechat.libs.spring.remotefetching")
+@EnableJpaRepositories("fr.guiguilechat.jcelechat.libs.spring.remotefetching")
+@EntityScan("fr.guiguilechat.jcelechat.libs.spring.remotefetching")
 public class RemoteFetchingConfiguration {
 
 }

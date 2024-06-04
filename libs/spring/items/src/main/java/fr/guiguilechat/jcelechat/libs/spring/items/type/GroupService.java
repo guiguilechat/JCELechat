@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ExecutionException;
 import java.util.function.Function;
 
 import org.springframework.context.annotation.Lazy;
@@ -10,8 +9,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.services.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -28,7 +28,7 @@ public class GroupService
 	@Override
 	protected Group create(Integer entityId) {
 		Group ret = new Group();
-		ret.setRemoteId(entityId);
+		ret.setId(entityId);
 		return ret;
 	}
 
@@ -46,11 +46,10 @@ public class GroupService
 	@Override
 	protected void updateResponseOk(Group data, Requested<R_get_universe_groups_group_id> response) {
 		super.updateResponseOk(data, response);
-		try {
-			data.setCategory(categoryService.createIfAbsent(response.getOK().category_id, false).get());
-		} catch (InterruptedException | ExecutionException e) {
-			throw new RuntimeException(e);
-		}
+		data.setCategory(categoryService.createIfAbsent(response.getOK().category_id));
 	}
+
+	@Getter(lazy = true)
+	private final int maxUpdates = 200;
 
 }

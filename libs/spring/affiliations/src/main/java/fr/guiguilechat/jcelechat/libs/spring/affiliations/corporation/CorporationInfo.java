@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation;
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -22,7 +22,7 @@ import lombok.Setter;
 public class CorporationInfo extends ARemoteFetchedResource<Integer, R_get_corporations_corporation_id> {
 
 	public Integer getCorporationId() {
-		return getRemoteId();
+		return getId();
 	}
 
 	/**

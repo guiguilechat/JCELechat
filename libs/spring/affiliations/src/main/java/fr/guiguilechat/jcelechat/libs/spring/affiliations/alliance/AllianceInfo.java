@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance;
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -21,7 +21,7 @@ import lombok.Setter;
 public class AllianceInfo extends ARemoteFetchedResource<Integer, R_get_alliances_alliance_id> {
 
 	public Integer getAllianceId() {
-		return getRemoteId();
+		return getId();
 	}
 
 	/**

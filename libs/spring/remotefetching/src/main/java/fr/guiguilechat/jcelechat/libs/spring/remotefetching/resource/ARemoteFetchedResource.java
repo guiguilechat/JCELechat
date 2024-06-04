@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.remotefetching.model;
+package fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource;
 
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
@@ -23,7 +23,7 @@ import lombok.Setter;
 public abstract class ARemoteFetchedResource<RemoteId, Fetched> extends AFetchedResource {
 
 	@Id
-	private RemoteId remoteId;
+	private RemoteId id;
 
 	public abstract void update(Fetched data);
 

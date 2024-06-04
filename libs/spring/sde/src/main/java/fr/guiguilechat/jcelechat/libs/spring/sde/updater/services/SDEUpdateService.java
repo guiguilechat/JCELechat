@@ -149,7 +149,10 @@ public class SDEUpdateService {
 		SDEDownload fetch = SDECache.getSDE(lastSuccess != null ? lastSuccess.getEtag() : null);
 		Instant fetchedDate = Instant.now();
 		ur.setFetchedDurationMs(fetchedDate.toEpochMilli() - startDate.toEpochMilli());
-		if (fetch.channel() != null) {
+		if (!forceReinsert && fetch.etag().equals(lastSuccess.getEtag())) {
+			ur.setStatus(STATUS.CACHED);
+			// skip the update
+		} else if (fetch.channel() != null) {
 			File newFile = fetch.toTempFile();
 			try {
 				updateFromFile(newFile);

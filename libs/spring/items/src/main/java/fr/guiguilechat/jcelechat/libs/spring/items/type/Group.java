@@ -2,9 +2,10 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -14,7 +15,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "EsiItemsGroup")
-@Table(name = "esi_items_group")
+@Table(name = "esi_items_group", indexes = { @Index(columnList = "name,published"), @Index(columnList = "name") })
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

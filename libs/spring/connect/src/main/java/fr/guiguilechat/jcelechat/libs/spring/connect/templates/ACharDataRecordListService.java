@@ -6,10 +6,10 @@ import java.util.stream.Stream;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedListElement;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.repositories.IFetchedListElementRepository;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.repositories.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.IFetchedListElementRepository;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.IRemoteFetchedResourceRepository;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
@@ -62,8 +62,8 @@ public abstract class ACharDataRecordListService<
 
 	// service use
 
-	public List<ListRecord> list(int RemoteId) {
-		return recordRepo().findAllByFetchResourceRemoteId(RemoteId);
+	public List<ListRecord> list(int Id) {
+		return recordRepo().findAllByFetchResourceId(Id);
 	}
 
 }

@@ -1,17 +1,19 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
+import java.time.Instant;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ExecutionException;
 import java.util.function.Function;
+import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.services.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -28,7 +30,7 @@ public class TypeService
 	@Override
 	protected Type create(Integer entityId) {
 		Type ret = new Type();
-		ret.setRemoteId(entityId);
+		ret.setId(entityId);
 		return ret;
 	}
 
@@ -46,11 +48,15 @@ public class TypeService
 	@Override
 	protected void updateResponseOk(Type data, Requested<R_get_universe_types_type_id> response) {
 		super.updateResponseOk(data, response);
-		try {
-			data.setGroup(groupService.createIfAbsent(response.getOK().group_id, false).get());
-		} catch (InterruptedException | ExecutionException e) {
-			throw new RuntimeException(e);
-		}
+		data.setGroup(groupService.createIfAbsent(response.getOK().group_id));
+	}
+
+	@Getter(lazy = true)
+	private final int maxUpdates = 10000;
+
+	@Override
+	public Stream<Type> streamToUpdate() {
+		return repo().findTop1000ByFetchActiveTrueAndExpiresLessThan(Instant.now()).stream().limit(getMaxUpdates());
 	}
 
 }

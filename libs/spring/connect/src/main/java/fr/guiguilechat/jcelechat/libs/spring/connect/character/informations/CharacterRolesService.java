@@ -25,9 +25,9 @@ public class CharacterRolesService
 	}
 
 	@Override
-	protected CharacterRoles create(Integer RemoteId) {
+	protected CharacterRoles create(Integer Id) {
 		CharacterRoles ret = new CharacterRoles();
-		ret.setRemoteId(RemoteId);
+		ret.setId(Id);
 		return ret;
 	}
 

@@ -9,8 +9,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.services.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -25,7 +26,7 @@ public class CategoryService
 	@Override
 	protected Category create(Integer entityId) {
 		Category ret = new Category();
-		ret.setRemoteId(entityId);
+		ret.setId(entityId);
 		return ret;
 	}
 
@@ -38,5 +39,8 @@ public class CategoryService
 	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
 		return p -> ESIRawPublic.INSTANCE.get_universe_categories(p).mapBody(List::of);
 	}
+
+	@Getter(lazy = true)
+	private final int maxUpdates = 500;
 
 }

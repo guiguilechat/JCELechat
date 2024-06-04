@@ -50,15 +50,15 @@ public class CharacterContactService extends
 
 	@Override
 	protected Requested<R_get_characters_character_id_contacts[]> fetchCharacterData(ESIConnected esiConnected,
-	    int RemoteId, Map<String, String> properties) {
-		return esiConnected.requestGetPages((page, props) -> esiConnected.get_characters_contacts(RemoteId, page, props),
+	    int Id, Map<String, String> properties) {
+		return esiConnected.requestGetPages((page, props) -> esiConnected.get_characters_contacts(Id, page, props),
 		    properties).mapBody(l -> l.toArray(R_get_characters_character_id_contacts[]::new));
 	}
 
 	@Override
-	protected CharacterContactList create(Integer RemoteId) {
+	protected CharacterContactList create(Integer Id) {
 		CharacterContactList ret = new CharacterContactList();
-		ret.setRemoteId(RemoteId);
+		ret.setId(Id);
 		return ret;
 	}
 
@@ -68,7 +68,7 @@ public class CharacterContactService extends
 	// service usage
 
 	public List<CharacterContact> fromTo(List<Integer> fromIds, List<Integer> toIds) {
-		return recordRepo().findAllByFetchResourceRemoteIdInAndContactIdIn(fromIds, toIds);
+		return recordRepo().findAllByFetchResourceIdInAndContactIdIn(fromIds, toIds);
 	}
 
 	public List<CharacterContact> forContactIds(List<Integer> toIds) {
@@ -83,20 +83,20 @@ public class CharacterContactService extends
 			List<Integer> allianceIds = Stream.of(ok)
 			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.alliance)
 			    .map(c -> c.contact_id).toList();
-			allianceInfoService.createIfAbsent(allianceIds, false);
+			allianceInfoService.createIfAbsent(allianceIds);
 
 			// nothing to handle for factions, they are all automatically updated
 
 			List<Integer> corporationIds = Stream.of(ok)
 			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.corporation)
 			    .map(c -> c.contact_id).toList();
-			corporationInfoService.createIfAbsent(corporationIds, false);
+			corporationInfoService.createIfAbsent(corporationIds);
 
-			List<Integer> RemoteIds = Stream.of(ok)
+			List<Integer> Ids = Stream.of(ok)
 			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.character)
 			    .map(c -> c.contact_id).toList();
-			characterAffiliationService.createIfAbsent(RemoteIds, false);
-			characterInformationService.createIfAbsent(RemoteIds, false);
+			characterAffiliationService.createIfAbsent(Ids);
+			characterInformationService.createIfAbsent(Ids);
 		}
 		super.updateResponseOk(data, response);
 	}

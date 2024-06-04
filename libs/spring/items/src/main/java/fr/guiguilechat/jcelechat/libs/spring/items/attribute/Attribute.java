@@ -1,7 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.attribute;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -25,6 +26,7 @@ public class Attribute extends ARemoteFetchedResource<Integer, R_get_dogma_attri
 	/**
 	 * description string
 	 */
+	@Column(columnDefinition = "TEXT")
 	private String description;
 
 	/**

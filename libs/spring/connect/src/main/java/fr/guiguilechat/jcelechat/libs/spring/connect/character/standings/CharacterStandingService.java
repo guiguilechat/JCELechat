@@ -30,14 +30,14 @@ public class CharacterStandingService extends ACharDataRecordListService<
 
 	@Override
 	protected Requested<M_get_standings_3[]> fetchCharacterData(ESIConnected esiConnected,
-	    int RemoteId, Map<String, String> properties) {
-		return esiConnected.get_characters_standings(RemoteId, properties);
+	    int Id, Map<String, String> properties) {
+		return esiConnected.get_characters_standings(Id, properties);
 	}
 
 	@Override
-	protected CharacterStandingList create(Integer RemoteId) {
+	protected CharacterStandingList create(Integer Id) {
 		CharacterStandingList ret = new CharacterStandingList();
-		ret.setRemoteId(RemoteId);
+		ret.setId(Id);
 		return ret;
 	}
 

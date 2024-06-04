@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.assets;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAsset.CharacterAssetList;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_type;

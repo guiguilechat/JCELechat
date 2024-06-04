@@ -30,7 +30,7 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterT
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransactionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.faction.FactionService;
-import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolutionService;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolutionService;
 import lombok.RequiredArgsConstructor;
 
 @Controller

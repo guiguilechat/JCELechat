@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.status;
+package fr.guiguilechat.jcelechat.libs.spring.remotefetching.status;
 
 import org.springframework.stereotype.Service;
 

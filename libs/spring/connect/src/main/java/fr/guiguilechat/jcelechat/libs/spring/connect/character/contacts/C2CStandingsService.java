@@ -28,16 +28,16 @@ public class C2CStandingsService {
 	private final CharacterContactService characterContactService;
 
 	/**
-	 * @param targetRemoteIds list of RemoteId, corporationId, allianceId if
-	 *                          present.
-	 * @param contacts        existing contacts from a single "from" character
-	 *                          related to target character, its corporation, or
-	 *                          alliance.
+	 * @param targetIds list of Id, corporationId, allianceId if
+	 *                    present.
+	 * @param contacts  existing contacts from a single "from" character
+	 *                    related to target character, its corporation, or
+	 *                    alliance.
 	 * @return first existing standing for the target ids, therefore effective
 	 *           standing.
 	 */
-	protected float computeStanding(List<Integer> targetRemoteIds, Collection<CharacterContact> contacts) {
-		return (float) targetRemoteIds.stream()
+	protected float computeStanding(List<Integer> targetIds, Collection<CharacterContact> contacts) {
+		return (float) targetIds.stream()
 		    .map(id -> contacts.stream().filter(cs -> cs.getContactId() == id).findAny().orElse(null))
 		    .filter(cc -> cc != null)
 		    .mapToDouble(CharacterContact::getStanding)
@@ -78,7 +78,7 @@ public class C2CStandingsService {
 	 */
 	public Map<Integer, Float> effectiveStandings(List<Integer> toIds) {
 		Map<Integer, List<CharacterContact>> existingContacts = characterContactService.forContactIds(toIds).stream()
-		    .collect(Collectors.groupingBy(cc -> cc.getFetchResource().getRemoteId()));
+		    .collect(Collectors.groupingBy(cc -> cc.getFetchResource().getId()));
 		return existingContacts.entrySet().stream()
 		    .collect(Collectors.toMap(Entry::getKey, e -> computeStanding(toIds, e.getValue())));
 	}

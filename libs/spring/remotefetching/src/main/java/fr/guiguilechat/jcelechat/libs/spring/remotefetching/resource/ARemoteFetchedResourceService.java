@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.remotefetching.services;
+package fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
@@ -19,8 +19,6 @@ import org.springframework.scheduling.annotation.Async;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.model.ARemoteFetchedResource;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.repositories.IRemoteFetchedResourceRepository;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -57,18 +55,19 @@ public abstract class ARemoteFetchedResourceService<
 
 	protected abstract Entity create(Id entityId);
 
-	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, Id entityId, boolean createOnAbsent, boolean startFetch) {
+	protected Entity createIfNeeded(Entity e, Id entityId) {
 		if (e == null) {
-			if (!createOnAbsent) {
-				return null;
-			}
 			e = create(entityId);
 			e.setFetchActive(isActivateNewEntry());
-			save(e);
+			e = save(e);
 			log.trace("create entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
-
 		}
-		if (!e.isFetched() && e.isFetchActive() && startFetch) {
+		return e;
+	}
+
+	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, Id entityId) {
+		e = createIfNeeded(e, entityId);
+		if (!e.isFetched() && e.isFetchActive()) {
 			log.trace("entry of class {} for id {} needs fetching", e.getClass().getSimpleName(), entityId);
 			return update(e);
 		} else {
@@ -78,33 +77,25 @@ public abstract class ARemoteFetchedResourceService<
 	}
 
 	/**
-	 * ensure an entity for given id exists, and starts the update if required
+	 * ensure an entity for given id exists, does not start fetch
 	 * 
-	 * @param entityId   new Id for the entity
-	 * @param startFetch if true, and the entity is created active, and not already
-	 *                     fetched, start the fetch instead of waiting for the
-	 *                     manager to handle it. If false, return the entry and
-	 *                     return it without fetching.
-	 * @return a future that already holds the entity if it was already present and
-	 *           does not require fetch, or that will hold the entity once it is
-	 *           fetched.
+	 * @param entityId new Id for the entity
+	 * @return entity for corresponding id
 	 */
-	@Async
 	@Transactional
-	public CompletableFuture<Entity> createIfAbsent(Id entityId, boolean startFetch) {
+	public Entity createIfAbsent(Id entityId) {
 		synchronized (repo()) {
-			return createFetchIfNeeded(repo().findById(entityId).orElse(null), entityId, true, startFetch);
+			return createIfNeeded(repo().findById(entityId).orElse(null), entityId);
 		}
 	}
 
 	@Transactional
-	public Map<Id, CompletableFuture<Entity>> createIfAbsent(Collection<Id> entityIds,
-	    boolean startFetch) {
+	public Map<Id, Entity> createIfAbsent(Collection<Id> entityIds) {
 		synchronized (repo()) {
 			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-			    .collect(Collectors.toMap(ARemoteFetchedResource::getRemoteId, e -> e));
+			    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
 			return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
-			    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId, true, startFetch)));
+			    entityId -> createIfNeeded(storedEntities.get(entityId), entityId)));
 		}
 	}
 
@@ -119,10 +110,20 @@ public abstract class ARemoteFetchedResourceService<
 	 */
 	public Entity createFetch(Id entityId) {
 		try {
-			return createIfAbsent(entityId, true).get();
+			return createFetchIfNeeded(repo().findById(entityId).orElse(null), entityId).get();
 		} catch (InterruptedException | ExecutionException e) {
 			log.error("while fetching id " + entityId, e);
 			return null;
+		}
+	}
+
+	@Transactional
+	public Map<Id, CompletableFuture<Entity>> createFetchIfNeeded(Collection<Id> entityIds) {
+		synchronized (repo()) {
+			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
+			    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
+			return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
+			    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
 		}
 	}
 
@@ -159,13 +160,15 @@ public abstract class ARemoteFetchedResourceService<
 	@Transactional
 	@Async
 	public CompletableFuture<Entity> update(Entity data) {
+		// System.err.println("requested to update " + data.getClass().getSimpleName() +
+		// " " + data.getId());
 		String lastEtag = data.getLastEtag();
 		Map<String, String> properties = new HashMap<>();
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
 		try {
-			Requested<Fetched> response = fetchData(data.getRemoteId(), properties);
+			Requested<Fetched> response = fetchData(data.getId(), properties);
 			if (response == null) {
 				updateNullResponse(data);
 				return CompletableFuture.completedFuture(null);
@@ -174,7 +177,7 @@ public abstract class ARemoteFetchedResourceService<
 			switch (responseCode) {
 			case 200:
 				updateResponseOk(data, response);
-				log.trace(" updated data " + data.getClass().getSimpleName() + " for id " + data.getRemoteId()
+				log.trace(" updated data " + data.getClass().getSimpleName() + " for id " + data.getId()
 				    + " with expires=" + data.getExpires());
 				break;
 			case 304:
@@ -182,7 +185,7 @@ public abstract class ARemoteFetchedResourceService<
 				break;
 			default:
 				log.error("while updating data remoteid {} info class {}, received response code {} and error {}",
-				    data.getRemoteId(), data.getClass().getSimpleName(), responseCode, response.getError());
+				    data.getId(), data.getClass().getSimpleName(), responseCode, response.getError());
 				switch (responseCode / 100) {
 				case 4:
 					updateRequestError(data, response);
@@ -196,7 +199,7 @@ public abstract class ARemoteFetchedResourceService<
 			}
 			data = save(data);
 		} catch (Exception e) {
-			log.error("while updating " + data.getClass().getSimpleName() + " for data remoteid " + data.getRemoteId(), e);
+			log.error("while updating " + data.getClass().getSimpleName() + " for data remoteid " + data.getId(), e);
 		}
 		return CompletableFuture.completedFuture(data);
 	}
@@ -280,7 +283,7 @@ public abstract class ARemoteFetchedResourceService<
 
 	protected void updateNullResponse(Entity data) {
 		log.warn("received null response when requesting update for {} id={}", data.getClass().getSimpleName(),
-		    data.getRemoteId());
+		    data.getId());
 		data.increaseSuccessiveErrors();
 		data.setExpiresInRandom(data.getSuccessiveErrors() * 60);
 	}
@@ -344,7 +347,7 @@ public abstract class ARemoteFetchedResourceService<
 	private Instant listExpires = null;
 
 	/** check new entries */
-	void checkNewEntries() {
+	public void checkNewEntries() {
 		if (listExpires == null || listExpires.isBefore(Instant.now())) {
 			Function<Map<String, String>, Requested<List<Id>>> fetcher = listFetcher();
 			if (fetcher != null) {
@@ -358,7 +361,9 @@ public abstract class ARemoteFetchedResourceService<
 					    getClass().getSimpleName(), resp);
 					return;
 				} else {
-					createIfAbsent(resp.getOK(), false);
+					createIfAbsent(resp.getOK());
+					lastListEtag = resp.getETag();
+					listExpires = resp.getExpiresInstant();
 				}
 			}
 		}

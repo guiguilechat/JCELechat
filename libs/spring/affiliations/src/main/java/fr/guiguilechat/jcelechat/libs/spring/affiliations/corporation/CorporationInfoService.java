@@ -16,9 +16,9 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliation;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliationService.AffiliationListener;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.services.ARemoteFetchedResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolution;
-import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolutionListener;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolution;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolutionListener;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import lombok.RequiredArgsConstructor;
@@ -32,7 +32,7 @@ public class CorporationInfoService extends
 	@Override
 	protected CorporationInfo create(Integer entityId) {
 		CorporationInfo ret = new CorporationInfo();
-		ret.setRemoteId(entityId);
+		ret.setId(entityId);
 		return ret;
 	}
 
@@ -80,7 +80,7 @@ public class CorporationInfoService extends
 	@EventListener(ApplicationStartedEvent.class)
 	protected void addNPCCorp() {
 		if (!skipImportNPC) {
-			createIfAbsent(npcCorps(), false);
+			createIfAbsent(npcCorps());
 		}
 	}
 
@@ -91,14 +91,14 @@ public class CorporationInfoService extends
 	@Override
 	public void onNewIdResolution(IdResolution idResolution) {
 		if (idResolution.getCategory() == post_universe_names_category.corporation) {
-			createIfAbsent(idResolution.getRemoteId(), false);
+			createIfAbsent(idResolution.getId());
 		}
 	}
 
 	@Override
 	public void onNewAffiliation(CharacterAffiliation received) {
 		if (received.getCorporationId() > 0) {
-			createIfAbsent(received.getCorporationId(), false);
+			createIfAbsent(received.getCorporationId());
 		}
 	}
 

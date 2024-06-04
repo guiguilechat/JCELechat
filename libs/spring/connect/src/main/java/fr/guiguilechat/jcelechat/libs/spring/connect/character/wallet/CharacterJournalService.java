@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournal.CharacterJournalList;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.AAppendCharDataRecordListService;
-import fr.guiguilechat.jcelechat.libs.spring.resolve.IdResolutionService;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolutionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -32,24 +32,24 @@ public class CharacterJournalService extends AAppendCharDataRecordListService<
 	@Override
 	protected CharacterJournal transformRecord(M_get_journal_13 f) {
 		CharacterJournal ret = CharacterJournal.from(f);
-		idResolutionService.createIfAbsent(ret.getFirstPartyId(), false);
-		idResolutionService.createIfAbsent(ret.getSecondPartyId(), false);
+		idResolutionService.createIfAbsent(ret.getFirstPartyId());
+		idResolutionService.createIfAbsent(ret.getSecondPartyId());
 		return ret;
 	}
 
 	@Override
 	protected Requested<M_get_journal_13[]> fetchCharacterData(ESIConnected esiConnected,
-	    int RemoteId, Map<String, String> properties) {
+	    int Id, Map<String, String> properties) {
 		return esiConnected
-		    .requestGetPages((page, props) -> esiConnected.get_characters_wallet_journal(RemoteId, page, props),
+		    .requestGetPages((page, props) -> esiConnected.get_characters_wallet_journal(Id, page, props),
 		        properties)
 		    .mapBody(l -> l.toArray(M_get_journal_13[]::new));
 	}
 
 	@Override
-	protected CharacterJournalList create(Integer RemoteId) {
+	protected CharacterJournalList create(Integer Id) {
 		CharacterJournalList ret = new CharacterJournalList();
-		ret.setRemoteId(RemoteId);
+		ret.setId(Id);
 		return ret;
 	}
 

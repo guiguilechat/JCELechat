@@ -38,7 +38,7 @@ public class CharacterAssetService extends ACharDataRecordListService<
 	@Override
 	protected CharacterAssetList create(Integer characterId) {
 		CharacterAssetList ret = new CharacterAssetList();
-		ret.setRemoteId(characterId);
+		ret.setId(characterId);
 		return ret;
 	}
 
