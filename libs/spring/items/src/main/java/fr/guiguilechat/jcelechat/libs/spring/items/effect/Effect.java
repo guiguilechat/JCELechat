@@ -6,6 +6,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id;
 import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -39,6 +40,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * dischargeAttributeId integer
 	 */
+	@ManyToOne
 	private Attribute dischargeAttribute;
 
 	/**
@@ -49,6 +51,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * durationAttributeId integer
 	 */
+	@ManyToOne
 	private Attribute durationAttribute;
 
 	/**
@@ -64,6 +67,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * falloffAttributeId integer
 	 */
+	@ManyToOne
 	private Attribute falloffAttribute;
 
 	/**
@@ -105,6 +109,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * rangeAttributeId integer
 	 */
+	@ManyToOne
 	private Attribute rangeAttribute;
 
 	/**
@@ -115,6 +120,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * trackingSpeedAttributeId integer
 	 */
+	@ManyToOne
 	private Attribute trackingSpeedAttribute;
 
 	/**
