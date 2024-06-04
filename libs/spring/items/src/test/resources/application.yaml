@@ -1,9 +1,23 @@
 #
 
+logging:
+  level:
+    fr.guiguilechat.jcelechat.jcesi: trace
+    org:
+      springframework:
+        web:
+          filter:
+            CommonsRequestLoggingFilter: DEBUG
+        security:          
+          jwt: DEBUG
+          oauth2: DEBUG
+    web: DEBUG
 spring:
    cache:
       type: simple
    datasource:
+      hikari:
+        validationTimeout:300000 # 5min timeout for access local h2 DB 
       password: admin
       url: jdbc:h2:mem:lechat;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
       username: admin
@@ -18,15 +32,3 @@ spring:
                batch_size: 50
                fetch_size: 50
             order_insert: true
-logging:
-  level:
-    fr.guiguilechat.jcelechat.jcesi: trace
-    org:
-      springframework:
-        web:
-          filter:
-            CommonsRequestLoggingFilter: DEBUG
-        security:          
-          jwt: DEBUG
-          oauth2: DEBUG
-    web: DEBUG

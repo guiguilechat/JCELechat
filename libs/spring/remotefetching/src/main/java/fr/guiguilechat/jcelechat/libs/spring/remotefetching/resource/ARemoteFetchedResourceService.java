@@ -15,11 +15,12 @@ import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
@@ -82,14 +83,14 @@ public abstract class ARemoteFetchedResourceService<
 	 * @param entityId new Id for the entity
 	 * @return entity for corresponding id
 	 */
-	@Transactional
+	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Entity createIfAbsent(Id entityId) {
 		synchronized (repo()) {
 			return createIfNeeded(repo().findById(entityId).orElse(null), entityId);
 		}
 	}
 
-	@Transactional
+	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, Entity> createIfAbsent(Collection<Id> entityIds) {
 		synchronized (repo()) {
 			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
@@ -108,6 +109,7 @@ public abstract class ARemoteFetchedResourceService<
 	 * @return a managed entity, fetched if it should, or null if exception caught.
 	 *           It may not be fetched if {@link #isActivateNewEntry()} is false
 	 */
+	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Entity createFetch(Id entityId) {
 		try {
 			return createFetchIfNeeded(repo().findById(entityId).orElse(null), entityId).get();
@@ -117,7 +119,7 @@ public abstract class ARemoteFetchedResourceService<
 		}
 	}
 
-	@Transactional
+	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, CompletableFuture<Entity>> createFetchIfNeeded(Collection<Id> entityIds) {
 		synchronized (repo()) {
 			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
