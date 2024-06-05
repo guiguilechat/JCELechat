@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -40,7 +41,8 @@ public class CategoryService
 		return p -> ESIRawPublic.INSTANCE.get_universe_categories(p).mapBody(List::of);
 	}
 
-	@Getter(lazy = true)
-	private final int maxUpdates = 500;
+	@Value("${esi.items.category.update.skip:false}")
+	@Getter
+	private boolean skipUpdate = false;
 
 }

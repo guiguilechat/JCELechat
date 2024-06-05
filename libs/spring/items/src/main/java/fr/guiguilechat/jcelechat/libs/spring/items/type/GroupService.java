@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -49,7 +50,8 @@ public class GroupService
 		data.setCategory(categoryService.createIfAbsent(response.getOK().category_id));
 	}
 
-	@Getter(lazy = true)
-	private final int maxUpdates = 200;
+	@Value("${esi.items.group.update.skip:false}")
+	@Getter
+	private boolean skipUpdate = false;
 
 }

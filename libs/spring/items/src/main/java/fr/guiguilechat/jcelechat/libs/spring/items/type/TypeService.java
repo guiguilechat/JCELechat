@@ -1,11 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
-import java.time.Instant;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
-import java.util.stream.Stream;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -51,12 +50,12 @@ public class TypeService
 		data.setGroup(groupService.createIfAbsent(response.getOK().group_id));
 	}
 
-	@Getter(lazy = true)
-	private final int maxUpdates = 10000;
+	@Getter
+	@Value("${esi.items.type.update.max:10000}")
+	private int maxUpdates = 10000;
 
-	@Override
-	public Stream<Type> streamToUpdate() {
-		return repo().findTop1000ByFetchActiveTrueAndExpiresLessThan(Instant.now()).stream().limit(getMaxUpdates());
-	}
+	@Getter
+	@Value("${esi.items.type.update.skip:false}")
+	private boolean skipUpdate = false;
 
 }

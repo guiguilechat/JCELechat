@@ -12,6 +12,7 @@ import lombok.Setter;
 
 @Entity(name = "EsiConnectItemAttribute")
 @Table(name = "esi_connect_itemattribute")
+// @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

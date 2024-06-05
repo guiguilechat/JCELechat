@@ -9,11 +9,13 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Limit;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,11 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NoArgsConstructor
 @Getter
-public abstract class ARemoteFetchedResourceService<
-	Entity extends ARemoteFetchedResource<Id, Fetched>,
-	Id,
-	Fetched,
-	Repository extends IRemoteFetchedResourceRepository<Entity, Id>> {
+public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -100,7 +98,6 @@ public abstract class ARemoteFetchedResourceService<
 		}
 	}
 
-
 	/**
 	 * create the entity if needed, then fetch it and return it once fetched or
 	 * failed.
@@ -152,6 +149,8 @@ public abstract class ARemoteFetchedResourceService<
 		return ret;
 	}
 
+	AtomicInteger runningUpdates = new AtomicInteger(0);
+
 	/**
 	 * perform an update of an entity using its remote representation. If the
 	 * entity is updated in any way, it is also saved already.
@@ -162,48 +161,54 @@ public abstract class ARemoteFetchedResourceService<
 	@Transactional
 	@Async
 	public CompletableFuture<Entity> update(Entity data) {
-		// System.err.println("requested to update " + data.getClass().getSimpleName() +
-		// " " + data.getId());
-		String lastEtag = data.getLastEtag();
-		Map<String, String> properties = new HashMap<>();
-		if (lastEtag != null) {
-			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
-		}
+		int conc = runningUpdates.incrementAndGet();
+		log.trace("requested to update {} {}, service concurrent {}", data.getClass().getSimpleName(), data.getId(), conc);
 		try {
-			Requested<Fetched> response = fetchData(data.getId(), properties);
-			if (response == null) {
-				updateNullResponse(data);
-				return CompletableFuture.completedFuture(null);
+			String lastEtag = data.getLastEtag();
+			Map<String, String> properties = new HashMap<>();
+			if (lastEtag != null) {
+				properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 			}
-			int responseCode = response.getResponseCode();
-			switch (responseCode) {
-			case 200:
-				updateResponseOk(data, response);
-				log.trace(" updated data " + data.getClass().getSimpleName() + " for id " + data.getId()
-				    + " with expires=" + data.getExpires());
-				break;
-			case 304:
-				updateNoChange(data, response);
-				break;
-			default:
-				log.error("while updating data remoteid {} info class {}, received response code {} and error {}",
-				    data.getId(), data.getClass().getSimpleName(), responseCode, response.getError());
-				switch (responseCode / 100) {
-				case 4:
-					updateRequestError(data, response);
+			try {
+				Requested<Fetched> response = fetchData(data.getId(), properties);
+				if (response == null) {
+					updateNullResponse(data);
+					return CompletableFuture.completedFuture(null);
+				}
+				int responseCode = response.getResponseCode();
+				switch (responseCode) {
+				case 200:
+					updateResponseOk(data, response);
+					log.debug(" updated data " + data.getClass().getSimpleName() + " for id " + data.getId()
+					    + " with expires=" + data.getExpires());
 					break;
-				case 5:
-					updateServerError(data, response);
+				case 304:
+					updateNoChange(data, response);
 					break;
 				default:
-					throw new UnsupportedOperationException("case " + responseCode + " not handled");
+					log.error("while updating data remoteid {} info class {}, received response code {} and error {}",
+					    data.getId(), data.getClass().getSimpleName(), responseCode, response.getError());
+					switch (responseCode / 100) {
+					case 4:
+						updateRequestError(data, response);
+						break;
+					case 5:
+						updateServerError(data, response);
+						break;
+					default:
+						throw new UnsupportedOperationException("case " + responseCode + " not handled");
+					}
 				}
+				data = save(data);
+			} catch (Exception e) {
+				log.error("while updating " + data.getClass().getSimpleName() + " for data remoteid " + data.getId(), e);
 			}
-			data = save(data);
-		} catch (Exception e) {
-			log.error("while updating " + data.getClass().getSimpleName() + " for data remoteid " + data.getId(), e);
+			return CompletableFuture.completedFuture(data);
+		} finally {
+			conc = runningUpdates.decrementAndGet();
+			log.trace(" updated {} {}, remaining service concurrent {}" + data.getClass().getSimpleName(), data.getId(),
+			    conc);
 		}
-		return CompletableFuture.completedFuture(data);
 	}
 
 	/**
@@ -291,8 +296,20 @@ public abstract class ARemoteFetchedResourceService<
 	}
 
 	/**
+	 * default don't skip the updates. <br />
+	 * Override to change, eg<br />
+	 * {@code @Value("${properties.name:false}") @Getter private boolean skipUpdate
+	 * = false; }
+	 * 
+	 * @return
+	 */
+	public boolean isSkipUpdate() {
+		return false;
+	}
+
+	/**
 	 * default 1000 max updates to do at once. Override to change, eg for 50<br />
-	 * {@code @Getter(lazy=true) private final int maxUpdates=50;}
+	 * {@code @Value("${properties.name:50}") @Getter private int maxUpdates=50;}
 	 * 
 	 * @return maximum number of entities to update at once
 	 */
@@ -309,7 +326,8 @@ public abstract class ARemoteFetchedResourceService<
 	 *           whichever is lowest.
 	 */
 	public Stream<Entity> streamToUpdate() {
-		return repo().findTop1000ByFetchActiveTrueAndExpiresLessThan(Instant.now()).stream().limit(getMaxUpdates());
+		return repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(getMaxUpdates()))
+		    .stream();
 	}
 
 	/**

@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -40,7 +41,8 @@ public class AttributeService
 		return p -> ESIRawPublic.INSTANCE.get_dogma_attributes(p).mapBody(List::of);
 	}
 
-	@Getter(lazy = true)
-	private final int maxUpdates = 100;
+	@Value("${esi.items.attribute.update.skip:false}")
+	@Getter
+	private boolean skipUpdate = false;
 
 }

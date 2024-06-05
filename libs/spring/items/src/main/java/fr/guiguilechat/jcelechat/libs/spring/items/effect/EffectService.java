@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -71,7 +72,8 @@ public class EffectService
 		return Modifier.of(e, data, modified, modifying);
 	}
 
-	@Getter(lazy = true)
-	private final int maxUpdates = 100;
+	@Value("${esi.items.effect.update.skip:false}")
+	@Getter
+	private boolean skipUpdate = false;
 
 }

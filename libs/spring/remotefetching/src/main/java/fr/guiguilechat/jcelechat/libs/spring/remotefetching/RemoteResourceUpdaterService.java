@@ -44,6 +44,9 @@ public class RemoteResourceUpdaterService {
 
 	protected <Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> void updateService(
 	    ARemoteFetchedResourceService<Entity, Id, Fetched, Repository> fetchedService) {
+		if (fetchedService.isSkipUpdate()) {
+			return;
+		}
 		long startTimeMs=System.currentTimeMillis();
 		fetchedService.checkNewEntries();
 		int nbUpdates = 0;

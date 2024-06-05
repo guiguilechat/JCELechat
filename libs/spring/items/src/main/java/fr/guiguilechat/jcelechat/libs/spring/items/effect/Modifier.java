@@ -5,6 +5,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dog
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -14,7 +15,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "EsiConnectItemEffectmodifier")
-@Table(name = "esi_connect_itemeffectmodifier")
+@Table(name = "esi_connect_itemeffectmodifier", indexes = {
+    @Index(columnList = "effect_id")
+})
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
