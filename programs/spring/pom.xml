@@ -16,6 +16,7 @@
 		<module>evehistory</module>
 		<module>eveproxy</module>
 		<module>mevetic</module>
+		<module>noscrapeve</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>

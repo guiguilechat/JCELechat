@@ -1,0 +1,4 @@
+#!/bin/bash
+# deploy the image as latest on docker hub
+
+mvn spring-boot:build-image
