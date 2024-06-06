@@ -7,6 +7,7 @@ import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionException;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Value;
@@ -30,21 +31,28 @@ public class RemoteResourceUpdaterService {
 
 	private final Optional<List<ARemoteFetchedResourceService<?, ?, ?, ?>>> fetchedServices;
 
-	@Value("${esiconnect.resourceudpater.skip:false}")
+	@Value("${esi.updater.skip:false}")
 	private boolean skip;
 
-	@Scheduled(fixedRateString = "${esiconnect.resourceudpater.fetchperiod:10000}", initialDelayString = "${esiconnect.resourceudpater.fetchdelay:5000}")
+	@Scheduled(fixedRateString = "${esi.updater.period:10000}", initialDelayString = "${esi.updater.delay:1000}")
 	public void updateChars() throws IOException {
 		if (!skip && fetchedServices.isPresent()) {
 			List<ARemoteFetchedResourceService<?, ?, ?, ?>> services = fetchedServices.get();
 			log.debug("updating " + services.size() + " services");
 			services.stream().forEach(this::updateService);
+		} else {
+			log.info("skipping update of {} services with skip={}",
+			    fetchedServices.isPresent() ? fetchedServices.get().size() : 0, skip);
 		}
 	}
 
+	@Value("${esi.updater.default.skip:false}")
+	private boolean defaultSkip;
+
 	protected <Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> void updateService(
 	    ARemoteFetchedResourceService<Entity, Id, Fetched, Repository> fetchedService) {
-		if (fetchedService.isSkipUpdate()) {
+		boolean skipService = Optional.ofNullable(fetchedService.getUpdate().getSkip()).orElse(defaultSkip);
+		if (skipService) {
 			return;
 		}
 		long startTimeMs=System.currentTimeMillis();
@@ -59,19 +67,25 @@ public class RemoteResourceUpdaterService {
 			futures = fetchedService.streamToUpdate().collect(Collectors.toMap(e -> e, fetchedService::update));
 			nbUpdates = futures.size();
 		}
+		AtomicInteger nbSuccess = new AtomicInteger(0);
 		futures.entrySet().forEach(f -> {
 			try {
-				f.getValue().orTimeout(5, TimeUnit.SECONDS).join();
+				Entity updated = f.getValue().orTimeout(5, TimeUnit.SECONDS).join();
+				if (updated.getSuccessiveErrors() == 0) {
+					nbSuccess.incrementAndGet();
+				}
 			} catch (CompletionException e) {
-				log.error(
-				    "while updating " + f.getKey().getClass().getSimpleName() + " " + f.getKey().getId(),
-				    e);
+				log.warn(
+				    "CompletionException while updating {} {} : {}", f.getKey().getClass().getSimpleName(), f.getKey().getId(),
+				    e.getMessage());
 			}
 		});
 		long endTimeMs = System.currentTimeMillis();
 		if (nbUpdates > 0) {
-			log.info("updated service {} for {} values in {} ms", fetchedService.getClass().getSimpleName(), nbUpdates,
-			    endTimeMs - startTimeMs);
+			log.info("{} success update {}/{} in {} ms, remain {}",
+			    fetchedService.fetcherName(),
+			    nbSuccess.get(), nbUpdates,
+			    endTimeMs - startTimeMs, fetchedService.nbToUpdate());
 		}
 	}
 

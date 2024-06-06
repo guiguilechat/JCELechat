@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -16,11 +16,11 @@ import fr.guiguilechat.jcelechat.libs.spring.items.attribute.AttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_effects_effect_id_modifiers;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@ConfigurationProperties(prefix = "esi.items.effect")
 public class EffectService
     extends ARemoteFetchedResourceService<Effect, Integer, R_get_dogma_effects_effect_id, EffectRepository> {
 
@@ -71,9 +71,5 @@ public class EffectService
 		Attribute modifying = attributeService.createIfAbsent(e.modifying_attribute_id);
 		return Modifier.of(e, data, modified, modifying);
 	}
-
-	@Value("${esi.items.effect.update.skip:false}")
-	@Getter
-	private boolean skipUpdate = false;
 
 }

@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -12,11 +12,11 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@ConfigurationProperties(prefix = "esi.items.attribute")
 public class AttributeService
     extends ARemoteFetchedResourceService<
         Attribute,
@@ -40,9 +40,5 @@ public class AttributeService
 	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
 		return p -> ESIRawPublic.INSTANCE.get_dogma_attributes(p).mapBody(List::of);
 	}
-
-	@Value("${esi.items.attribute.update.skip:false}")
-	@Getter
-	private boolean skipUpdate = false;
 
 }

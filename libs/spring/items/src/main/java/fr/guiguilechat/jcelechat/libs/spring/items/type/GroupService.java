@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -12,11 +12,11 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@ConfigurationProperties(prefix = "esi.items.group")
 public class GroupService
 	extends ARemoteFetchedResourceService<
         Group,
@@ -49,9 +49,5 @@ public class GroupService
 		super.updateResponseOk(data, response);
 		data.setCategory(categoryService.createIfAbsent(response.getOK().category_id));
 	}
-
-	@Value("${esi.items.group.update.skip:false}")
-	@Getter
-	private boolean skipUpdate = false;
 
 }

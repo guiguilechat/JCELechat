@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.items.effect;
 
 import java.util.List;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -9,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@ConfigurationProperties(prefix = "esi.items.effects")
 public class ModifierService {
 
 	private final ModifierRepository repo;

@@ -23,8 +23,11 @@ import org.springframework.transaction.annotation.Transactional;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import jakarta.annotation.PostConstruct;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
@@ -36,6 +39,14 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	private Repository repo;
+
+	/**
+	 * @return actual class name. Used to avoid proxy name when called from outside
+	 *           service
+	 */
+	public String fetcherName() {
+		return getClass().getSimpleName();
+	}
 
 	public Entity save(Entity data) {
 		if (data.getExpires() == null) {
@@ -294,27 +305,20 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		data.increaseSuccessiveErrors();
 		data.setExpiresInRandom(data.getSuccessiveErrors() * 60);
 	}
-
-	/**
-	 * default don't skip the updates. <br />
-	 * Override to change, eg<br />
-	 * {@code @Value("${properties.name:false}") @Getter private boolean skipUpdate
-	 * = false; }
-	 * 
-	 * @return
-	 */
-	public boolean isSkipUpdate() {
-		return false;
+	
+	@Getter
+	@Setter
+	@ToString()
+	public static class Update{
+		private Boolean skip=null;
+		private int max = 500;
 	}
+	
+	@Getter
+	private final Update update = new Update();
 
-	/**
-	 * default 1000 max updates to do at once. Override to change, eg for 50<br />
-	 * {@code @Value("${properties.name:50}") @Getter private int maxUpdates=50;}
-	 * 
-	 * @return maximum number of entities to update at once
-	 */
-	public int getMaxUpdates() {
-		return 1000;
+	public int nbToUpdate() {
+		return repo().countByFetchActiveTrueAndExpiresLessThan(Instant.now());
 	}
 
 	/**
@@ -326,7 +330,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	 *           whichever is lowest.
 	 */
 	public Stream<Entity> streamToUpdate() {
-		return repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(getMaxUpdates()))
+		return repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(getUpdate().getMax()))
 		    .stream();
 	}
 
@@ -354,7 +358,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	 */
 	public Map<Entity, CompletableFuture<Entity>> batchUpdate(List<Entity> data) {
 		log.trace(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
-		return data.parallelStream().limit(getMaxUpdates()).collect(Collectors.toMap(e -> e, this::update));
+		return data.parallelStream().limit(getUpdate().getMax()).collect(Collectors.toMap(e -> e, this::update));
 	}
 
 	//
@@ -392,6 +396,11 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	/** the method to overwrite to make it auto fetch entities */
 	protected Function<Map<String, String>, Requested<List<Id>>> listFetcher() {
 		return null;
+	}
+
+	@PostConstruct
+	public void debugConfig() {
+		log.debug("initialized {} with {}", getClass().getSimpleName(), getUpdate());
 	}
 
 }

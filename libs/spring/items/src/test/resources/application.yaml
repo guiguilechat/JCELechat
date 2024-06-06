@@ -1,22 +1,21 @@
-#
+dodo:
+   dodo: true
 esi:
    items:
       attribute:
          update:
-            skip: false
-      category:
-         update:
-            skip: false
-      effect:
-         update:
-            skip: false
-      group:
-         update:
+            max: 1000
             skip: false
       type:
          update:
-            max: 500
-            skip: false
+            max: 1000
+   updater:
+      default:
+         skip: false
+      delay: 0
+      period: 5000
+      skip: false
+
 logging:
    level:
       fr:
@@ -27,9 +26,9 @@ spring:
    cache:
       type: simple
    datasource:
-      hikari: validationTimeout:300000 # 5min timeout for access local h2 DB 
+      hikari: validationTimeout:300000 # 5min timeout for access local h2 DB
       password: admin
-      url: jdbc:h2:mem:lechat;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+      url: jdbc:h2:./db/export
       username: admin
    jpa:
       generate-ddl: true
@@ -42,4 +41,3 @@ spring:
                batch_size: 50
                fetch_size: 50
             order_insert: true
-            

@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -12,11 +12,11 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@ConfigurationProperties(prefix = "esi.items.type")
 public class TypeService
 	extends ARemoteFetchedResourceService<
         Type,
@@ -49,13 +49,5 @@ public class TypeService
 		super.updateResponseOk(data, response);
 		data.setGroup(groupService.createIfAbsent(response.getOK().group_id));
 	}
-
-	@Getter
-	@Value("${esi.items.type.update.max:10000}")
-	private int maxUpdates = 10000;
-
-	@Getter
-	@Value("${esi.items.type.update.skip:false}")
-	private boolean skipUpdate = false;
 
 }
