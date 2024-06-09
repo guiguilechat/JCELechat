@@ -24,6 +24,7 @@
 		<module>prices</module>
 		<module>remotefetching</module>
 		<module>sde</module>
+		<module>universe</module>
 	</modules>
 	<build>
 		<plugins>
