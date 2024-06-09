@@ -28,6 +28,10 @@ see https://hub.docker.com/repository/docker/glechat/noscrapeve/general</descrip
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>items</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>universe</artifactId>
+		</dependency>
 		<!--		other dependencies-->
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>

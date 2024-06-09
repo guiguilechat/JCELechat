@@ -101,6 +101,9 @@ public abstract class ConnectedImpl implements ITransfer {
 			// retry to send the data for as many retry, as long as the error is
 			// server error type
 			do {
+				if (response != null) {
+					response.close();
+				}
 				response = getClient().newCall(req).execute();
 				isServerError = response.code() / 100 == 5;
 				if (isServerError) {
