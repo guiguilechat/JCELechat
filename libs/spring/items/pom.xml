@@ -19,6 +19,7 @@
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
+		<!--		self dependencies-->
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>remotefetching</artifactId>
@@ -65,5 +66,5 @@
 		</dependency>
 	</dependencies>
 	<description>Contains the tables and classes for types, groups, categories, attributes, and effects.
-Those are updates from ESI.</description>
+Those are updated from ESI.</description>
 </project>

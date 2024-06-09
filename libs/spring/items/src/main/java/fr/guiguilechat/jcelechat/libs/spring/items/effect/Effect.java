@@ -14,8 +14,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiConnectItemEffect")
-@Table(name = "esi_connect_itemeffect")
+@Entity(name = "EsiItemsEffect")
+@Table(name = "esi_items_effect")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

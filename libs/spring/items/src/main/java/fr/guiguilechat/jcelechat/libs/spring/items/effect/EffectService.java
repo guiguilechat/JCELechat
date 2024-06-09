@@ -39,9 +39,7 @@ public class EffectService
 
 	@Override
 	protected Requested<R_get_dogma_effects_effect_id> fetchData(Integer id, Map<String, String> properties) {
-		// System.err.println("fetching effect id=" + id);
 		Requested<R_get_dogma_effects_effect_id> ret = ESIRawPublic.INSTANCE.get_dogma_effects(id, properties);
-		// System.err.println(" fetched effect id=" + id);
 		return ret;
 	}
 

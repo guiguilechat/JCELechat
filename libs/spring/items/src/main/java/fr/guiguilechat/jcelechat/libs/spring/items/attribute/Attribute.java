@@ -1,5 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.attribute;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
 import jakarta.persistence.Column;
@@ -10,9 +13,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiConnectItemAttribute")
-@Table(name = "esi_connect_itemattribute")
-// @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
+@Entity(name = "EsiItemsAttribute")
+@Table(name = "esi_items_attribute")
+@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
