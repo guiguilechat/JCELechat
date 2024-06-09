@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.function.Function;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -12,6 +13,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.ConstellationService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.StargateService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import lombok.RequiredArgsConstructor;
 
@@ -23,6 +25,9 @@ public class SolarSystemService extends
 
 	@Lazy
 	private final ConstellationService constellationService;
+
+	@Lazy
+	private final StargateService stargateService;
 
 	@Override
 	protected SolarSystem create(Integer entityId) {
@@ -48,7 +53,11 @@ public class SolarSystemService extends
 	protected void updateResponseOk(SolarSystem data,
 	    Requested<R_get_universe_systems_system_id> response) {
 		super.updateResponseOk(data, response);
-		data.setConstellation(constellationService.createIfAbsent(response.getOK().constellation_id));
+		R_get_universe_systems_system_id received = response.getOK();
+		data.setConstellation(constellationService.createIfAbsent(received.constellation_id));
+		for (int stargateId : Optional.ofNullable(received.stargates).orElseGet(() -> new int[] {})) {
+			stargateService.createIfAbsent(stargateId);
+		}
 	}
 
 }
