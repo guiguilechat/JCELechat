@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
@@ -21,6 +22,9 @@ public class StargateService extends
 
 	@Lazy
 	private final SolarSystemService solarSystemService;
+
+	@Lazy
+	private final TypeService typeService;
 
 	@Override
 	protected Stargate create(Integer entityId) {
@@ -39,8 +43,9 @@ public class StargateService extends
 	@Override
 	protected void updateResponseOk(Stargate data, Requested<R_get_universe_stargates_stargate_id> response) {
 		super.updateResponseOk(data, response);
-		data.setSolarSystem(solarSystemService.createIfAbsent(response.getOK().system_id));
 		data.setDestination(createIfAbsent(response.getOK().destination.stargate_id));
+		data.setSolarSystem(solarSystemService.createIfAbsent(response.getOK().system_id));
+		data.setType(typeService.createIfAbsent(response.getOK().type_id));
 	}
 
 }

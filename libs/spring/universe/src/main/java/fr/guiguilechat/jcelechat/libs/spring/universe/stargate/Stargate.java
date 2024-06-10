@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.stargate;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
@@ -18,6 +19,7 @@ import lombok.Setter;
 @Entity(name = "EsiUniverseStargate")
 @Table(name = "esi_universe_stargate", indexes = {
     @Index(columnList = "solar_system_id"),
+    @Index(columnList = "type_id"),
     @Index(columnList = "name")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
@@ -27,6 +29,13 @@ import lombok.Setter;
 @Setter
 public class Stargate extends ARemoteFetchedResource<Integer, R_get_universe_stargates_stargate_id> {
 
+
+	/**
+	 * destination object
+	 */
+	@ManyToOne
+	private Stargate destination;
+
 	/**
 	 * The solar system this stargate is in
 	 */
@@ -34,10 +43,10 @@ public class Stargate extends ARemoteFetchedResource<Integer, R_get_universe_sta
 	private SolarSystem solarSystem;
 
 	/**
-	 * destination object
+	 * type_id integer
 	 */
 	@ManyToOne
-	private Stargate destination;
+	private Type type;
 
 
 	/**
@@ -49,18 +58,12 @@ public class Stargate extends ARemoteFetchedResource<Integer, R_get_universe_sta
 	 */
 	private double posX, posY, posZ;
 
-	/**
-	 * type_id integer
-	 */
-	private int typeId;
-
 	@Override
 	public void update(R_get_universe_stargates_stargate_id data) {
 		setName(data.name);
 		setPosX(data.position.x);
 		setPosY(data.position.y);
 		setPosZ(data.position.z);
-		setTypeId(data.type_id);
 	}
 
 }
