@@ -13,6 +13,6 @@ public interface IRemoteFetchedResourceRepository<Entity extends ARemoteFetchedR
 
 	public List<Entity> findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant now, Limit limit);
 
-	public int countByFetchActiveTrueAndExpiresLessThan(Instant now);
+	public long countByFetchActiveTrueAndExpiresLessThan(Instant now);
 
 }

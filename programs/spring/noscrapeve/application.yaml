@@ -18,7 +18,12 @@ esi:
          skip: true
       delay: 0
       period: 5000
-      skip: true
+      skip: false
+
+jcelechat:
+   noscrape:
+      oncomplete:
+         stop: true
 
 logging:
    level:

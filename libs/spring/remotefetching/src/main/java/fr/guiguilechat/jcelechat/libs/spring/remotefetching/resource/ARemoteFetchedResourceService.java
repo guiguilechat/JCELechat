@@ -317,7 +317,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Getter
 	private final Update update = new Update();
 
-	public int nbToUpdate() {
+	public long nbToUpdate() {
 		return repo().countByFetchActiveTrueAndExpiresLessThan(Instant.now());
 	}
 

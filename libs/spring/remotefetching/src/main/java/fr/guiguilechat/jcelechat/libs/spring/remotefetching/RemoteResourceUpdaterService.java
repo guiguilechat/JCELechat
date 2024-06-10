@@ -31,29 +31,44 @@ public class RemoteResourceUpdaterService {
 
 	private final Optional<List<ARemoteFetchedResourceService<?, ?, ?, ?>>> fetchedServices;
 
+	public static interface IRemoteResourceUpdateListener {
+
+		public default void onNoUpdateRemain() {
+
+		}
+	}
+
+	private final Optional<List<IRemoteResourceUpdateListener>> listeners;
+
 	@Value("${esi.updater.skip:false}")
 	private boolean skip;
 
 	@Scheduled(fixedRateString = "${esi.updater.period:10000}", initialDelayString = "${esi.updater.delay:1000}")
-	public void updateChars() throws IOException {
+	public void updateRemoteResources() throws IOException {
+		long totRemain = 0l;
 		if (!skip && fetchedServices.isPresent()) {
 			List<ARemoteFetchedResourceService<?, ?, ?, ?>> services = fetchedServices.get();
 			log.debug("updating " + services.size() + " services");
-			services.stream().forEach(this::updateService);
+			totRemain = services.stream().mapToLong(this::updateService).sum();
 		} else {
 			log.info("skipping update of {} services with skip={}",
 			    fetchedServices.isPresent() ? fetchedServices.get().size() : 0, skip);
+		}
+		if (totRemain == 0l && listeners.isPresent()) {
+			for (IRemoteResourceUpdateListener l : listeners.get()) {
+				l.onNoUpdateRemain();
+			}
 		}
 	}
 
 	@Value("${esi.updater.default.skip:false}")
 	private boolean defaultSkip;
 
-	protected <Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> void updateService(
+	protected <Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> long updateService(
 	    ARemoteFetchedResourceService<Entity, Id, Fetched, Repository> fetchedService) {
 		boolean skipService = Optional.ofNullable(fetchedService.getUpdate().getSkip()).orElse(defaultSkip);
 		if (skipService) {
-			return;
+			return 0;
 		}
 		long startTimeMs=System.currentTimeMillis();
 		fetchedService.checkNewEntries();
@@ -81,12 +96,14 @@ public class RemoteResourceUpdaterService {
 			}
 		});
 		long endTimeMs = System.currentTimeMillis();
+		long nbRemain = fetchedService.nbToUpdate();
 		if (nbUpdates > 0) {
 			log.info("{} success update {}/{} in {} ms, remain {}",
 			    fetchedService.fetcherName(),
 			    nbSuccess.get(), nbUpdates,
-			    endTimeMs - startTimeMs, fetchedService.nbToUpdate());
+			    endTimeMs - startTimeMs, nbRemain);
 		}
+		return nbRemain;
 	}
 
 }
