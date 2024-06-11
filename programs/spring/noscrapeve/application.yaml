@@ -16,9 +16,22 @@ esi:
       type:
          update:
             max: 400
+            delay: 0
             skip: false
    universe:
+      planet:
+         update:
+            skip: false
       region:
+         update:
+            skip: false
+      star:
+         update:
+            skip: false
+      stargate:
+         update:
+            skip: false
+      station:
          update:
             skip: false
    updater:

@@ -23,6 +23,7 @@ import org.springframework.transaction.annotation.Transactional;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.status.ESIStatusService;
 import jakarta.annotation.PostConstruct;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -39,6 +40,10 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	private Repository repo;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	private ESIStatusService esiStatusService;
 
 	/**
 	 * @return actual class name. Used to avoid proxy name when called from outside
@@ -252,8 +257,8 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	/**
 	 * extract the expires
 	 * 
-	 * @param headers mutable map
-	 * @return the map.
+	 * @param headers map
+	 * @return the next moment after which we can fetch an entity again.
 	 */
 	protected Instant extractExpires(Requested<?> response) {
 		Instant ret = response.getExpiresInstant();
@@ -310,13 +315,40 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Setter
 	@ToString()
 	public static class Update{
+
+		/**
+		 * if true, skip the fetch. If false, never skip. if null, use
+		 * RemoteResourceUpdaterService value
+		 */
 		private Boolean skip=null;
+
+		/** nax number of fetch each cycle */
 		private int max = 500;
+
+		/** if we have this number or more remain errors, use max updates */
+		private int errorsForMax = 90;
+
+		/** if we have this number or less remaining errors, we skip the fetching */
+		private int errorsMin = 10;
+
+		/** minimum delay, in s, between two fetch cycles. Ignored if &lt;0 */
+		private int delay = 0;
+
+		/**
+		 * delay to wait for next fetch cycle when there is no update. Ignored if lower
+		 * than {@link #getDelay()}
+		 */
+		private int delayUpdated = 60;
 	}
 	
 	@Getter
 	private final Update update = new Update();
 
+	private Instant nextUpdateTime = null;
+
+	/**
+	 * @return number of remaining entities that could be updated
+	 */
 	public long nbToUpdate() {
 		return repo().countByFetchActiveTrueAndExpiresLessThan(Instant.now());
 	}
@@ -330,8 +362,24 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	 *           whichever is lowest.
 	 */
 	public Stream<Entity> streamToUpdate() {
-		return repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(getUpdate().getMax()))
-		    .stream();
+		if (nextUpdateTime != null && nextUpdateTime.isAfter(Instant.now())) {
+			return Stream.empty();
+		}
+		int delay = Math.max(update.delay, 0);
+		if (update.delayUpdated > delay && nbToUpdate() == 0) {
+			delay = update.delayUpdated;
+		}
+		nextUpdateTime = Instant.now().plusSeconds(delay);
+		int maxFromErrors = getUpdate().getMax();
+		int remainErrors = esiStatusService.availErrors();
+		if (remainErrors <= update.errorsMin) {
+			maxFromErrors = 0;
+		} else if (remainErrors < update.errorsForMax) {
+			maxFromErrors = (int) Math.ceil(1.0 * maxFromErrors * update.errorsForMax / remainErrors);
+		}
+		return maxFromErrors == 0
+		    ? Stream.empty()
+		    : repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(maxFromErrors)).stream();
 	}
 
 	/**
