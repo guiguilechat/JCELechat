@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetc
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.ConstellationService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.star.StarService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.StargateService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import lombok.RequiredArgsConstructor;
 
@@ -32,6 +33,9 @@ public class SolarSystemService extends
 
 	@Lazy
 	private final StargateService stargateService;
+
+	@Lazy
+	private final StationService stationService;
 
 	@Override
 	protected SolarSystem create(Integer entityId) {
@@ -64,6 +68,9 @@ public class SolarSystemService extends
 		}
 		for (int stargateId : Optional.ofNullable(received.stargates).orElseGet(() -> new int[] {})) {
 			stargateService.createIfAbsent(stargateId);
+		}
+		for (int stationId : Optional.ofNullable(received.stations).orElseGet(() -> new int[] {})) {
+			stationService.createIfAbsent(stationId);
 		}
 	}
 

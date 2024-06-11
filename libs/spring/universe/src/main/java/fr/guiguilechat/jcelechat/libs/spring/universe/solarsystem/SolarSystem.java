@@ -9,6 +9,7 @@ import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetc
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.star.Star;
 import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.Stargate;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -40,19 +41,14 @@ public class SolarSystem extends ARemoteFetchedResource<Integer, R_get_universe_
 	 */
 	// private get_universe_systems_system_id_planets[] planets;
 
-	/**
-	 * star_id integer
-	 */
 	@OneToOne(mappedBy = "solarSystem")
 	private Star star;
 
 	@OneToMany(mappedBy = "solarSystem")
 	private List<Stargate> stargates;
 
-	/**
-	 * stations array
-	 */
-	// private int[] stations;
+	@OneToMany(mappedBy = "solarSystem")
+	private List<Station> stations;
 
 
 	/**

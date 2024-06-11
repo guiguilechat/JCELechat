@@ -2,7 +2,7 @@ esi:
    items:
       attribute:
          update:
-            max: 1000
+            max: 400
             skip: false
       category:
          update:
@@ -15,7 +15,7 @@ esi:
             skip: false
       type:
          update:
-            max: 1000
+            max: 400
             skip: false
    universe:
       region:

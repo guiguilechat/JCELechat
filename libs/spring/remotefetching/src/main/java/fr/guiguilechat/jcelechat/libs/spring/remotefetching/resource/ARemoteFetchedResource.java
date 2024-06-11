@@ -25,6 +25,13 @@ public abstract class ARemoteFetchedResource<RemoteId, Fetched> extends AFetched
 	@Id
 	private RemoteId id;
 
+	/**
+	 * update that entity's scalar values from a newly fetched remote data.
+	 * non-scalar values (eg reference to other entities) must be updated in the
+	 * service's
+	 * {@link ARemoteFetchedResourceService#updateResponseOk(ARemoteFetchedResource, fr.guiguilechat.jcelechat.jcesi.interfaces.Requested)
+	 * updateResponseOk}
+	 */
 	public abstract void update(Fetched data);
 
 }
