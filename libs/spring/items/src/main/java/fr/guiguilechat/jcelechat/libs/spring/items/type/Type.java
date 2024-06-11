@@ -7,8 +7,11 @@ import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
+import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -17,12 +20,27 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "EsiItemsType")
-@Table(name = "esi_items_type")
+@Table(name = "esi_items_type", indexes = {
+    @Index(columnList = "group_id"),
+    @Index(columnList = "published"),
+    @Index(columnList = "name") })
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
 public class Type extends ARemoteFetchedResource<Integer, R_get_universe_types_type_id> {
+
+	/**
+	 * dogma_attributes array
+	 */
+	@ElementCollection(fetch = FetchType.EAGER)
+	private Map<Attribute, Float> attributesValues = new HashMap<>();
+
+	/**
+	 * dogma_effects array
+	 */
+	@ElementCollection(fetch = FetchType.EAGER)
+	private Map<Effect, Boolean> effectsDefault = new HashMap<>();
 
 	@ManyToOne
 	private Group group;
@@ -35,19 +53,8 @@ public class Type extends ARemoteFetchedResource<Integer, R_get_universe_types_t
 	/**
 	 * description string
 	 */
+	@Column(columnDefinition = "TEXT")
 	private String description;
-
-	/**
-	 * dogma_attributes array
-	 */
-	@ElementCollection
-	private Map<Attribute, Float> attributesValues = new HashMap<>();
-
-	/**
-	 * dogma_effects array
-	 */
-	@ElementCollection
-	private Map<Effect, Boolean> effectsDefault = new HashMap<>();
 
 	/**
 	 * graphic_id integer
@@ -92,7 +99,7 @@ public class Type extends ARemoteFetchedResource<Integer, R_get_universe_types_t
 	/**
 	 * radius number
 	 */
-	public float radius;
+	private float radius;
 
 	/**
 	 * volume number
@@ -101,8 +108,18 @@ public class Type extends ARemoteFetchedResource<Integer, R_get_universe_types_t
 
 	@Override
 	public void update(R_get_universe_types_type_id data) {
-		// TODO Auto-generated method stub
-
+		setCapacity(data.capacity);
+		setDescription(data.description);
+		setGraphicId(data.graphic_id);
+		setIconId(data.icon_id);
+		setMarketGroupId(data.market_group_id);
+		setMass(data.mass);
+		setName(data.name);
+		setPackagedVolume(data.packaged_volume);
+		setPortionSize(data.portion_size);
+		setPublished(data.published);
+		setRadius(data.radius);
+		setVolume(data.volume);
 	}
 
 }

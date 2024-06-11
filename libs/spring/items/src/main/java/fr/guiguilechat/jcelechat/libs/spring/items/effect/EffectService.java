@@ -51,12 +51,22 @@ public class EffectService
 	@Override
 	protected void updateResponseOk(Effect data, Requested<R_get_dogma_effects_effect_id> response) {
 		super.updateResponseOk(data, response);
-		R_get_dogma_effects_effect_id ok = response.getOK();
-		data.setDischargeAttribute(attributeService.createIfAbsent(ok.discharge_attribute_id));
-		data.setDurationAttribute(attributeService.createIfAbsent(ok.duration_attribute_id));
-		data.setFalloffAttribute(attributeService.createIfAbsent(ok.falloff_attribute_id));
-		data.setRangeAttribute(attributeService.createIfAbsent(ok.range_attribute_id));
-		data.setTrackingSpeedAttribute(attributeService.createIfAbsent(ok.tracking_speed_attribute_id));
+		R_get_dogma_effects_effect_id received = response.getOK();
+		if (received.discharge_attribute_id != 0) {
+			data.setDischargeAttribute(attributeService.createIfAbsent(received.discharge_attribute_id));
+		}
+		if (received.duration_attribute_id != 0) {
+			data.setDurationAttribute(attributeService.createIfAbsent(received.duration_attribute_id));
+		}
+		if (received.falloff_attribute_id != 0) {
+			data.setFalloffAttribute(attributeService.createIfAbsent(received.falloff_attribute_id));
+		}
+		if (received.range_attribute_id != 0) {
+			data.setRangeAttribute(attributeService.createIfAbsent(received.range_attribute_id));
+		}
+		if (received.tracking_speed_attribute_id != 0) {
+			data.setTrackingSpeedAttribute(attributeService.createIfAbsent(received.tracking_speed_attribute_id));
+		}
 		modifierService.deleteForEffect(data);
 		if (response.getOK().modifiers != null && response.getOK().modifiers.length > 0) {
 			modifierService.saveAll(Stream.of(response.getOK().modifiers).map(
@@ -65,8 +75,12 @@ public class EffectService
 	}
 
 	protected Modifier convertModifier(get_dogma_effects_effect_id_modifiers e, Effect data) {
-		Attribute modified = attributeService.createIfAbsent(e.modified_attribute_id);
-		Attribute modifying = attributeService.createIfAbsent(e.modifying_attribute_id);
+		Attribute modified = e.modified_attribute_id == 0
+		    ? null
+		    : attributeService.createIfAbsent(e.modified_attribute_id);
+		Attribute modifying = e.modifying_attribute_id == 0
+		    ? null
+		    : attributeService.createIfAbsent(e.modifying_attribute_id);
 		return Modifier.of(e, data, modified, modifying);
 	}
 

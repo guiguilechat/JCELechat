@@ -26,6 +26,9 @@ public class AttributeService
 
 	@Override
 	protected Attribute create(Integer id) {
+		if (id == 0) {
+			throw new UnsupportedOperationException();
+		}
 		Attribute ret = new Attribute();
 		ret.setId(id);
 		return ret;

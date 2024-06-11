@@ -16,7 +16,9 @@ import lombok.Setter;
 
 @Entity(name = "EsiItemsEffectmodifier")
 @Table(name = "esi_items_effectmodifier", indexes = {
-    @Index(columnList = "effect_id")
+    @Index(columnList = "effect_id"),
+    @Index(columnList = "modified_attribute_id"),
+    @Index(columnList = "modifying_attribute_id")
 })
 @AllArgsConstructor
 @NoArgsConstructor

@@ -7,6 +7,7 @@ import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetc
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +15,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "EsiItemsAttribute")
-@Table(name = "esi_items_attribute")
+@Table(name = "esi_items_attribute", indexes = {
+    @Index(columnList = "displayName"),
+    @Index(columnList = "name"),
+    @Index(columnList = "published") })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
 @NoArgsConstructor

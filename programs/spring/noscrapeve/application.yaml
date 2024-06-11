@@ -1,21 +1,29 @@
 esi:
    items:
-      category:
-         update:
-            skip: false
       attribute:
          update:
             max: 1000
+            skip: false
+      category:
+         update:
+            skip: false
+      effect:
+         update:
+            skip: false
+      group:
+         update:
+            skip: false
       type:
          update:
             max: 1000
+            skip: false
    universe:
       region:
          update:
             skip: false
    updater:
       default:
-         skip: true
+         skip: false
       delay: 0
       period: 5000
       skip: false
@@ -23,7 +31,7 @@ esi:
 jcelechat:
    noscrape:
       oncomplete:
-         stop: true
+         stop: false
 
 logging:
    level:

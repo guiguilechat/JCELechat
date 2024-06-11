@@ -15,7 +15,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "EsiItemsGroup")
-@Table(name = "esi_items_group", indexes = { @Index(columnList = "name,published"), @Index(columnList = "name") })
+@Table(name = "esi_items_group", indexes = {
+    @Index(columnList = "category_id"),
+    @Index(columnList = "published"),
+    @Index(columnList = "name") })
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

@@ -5,7 +5,9 @@ import java.util.List;
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -15,12 +17,57 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "EsiItemsEffect")
-@Table(name = "esi_items_effect")
+@Table(name = "esi_items_effect", indexes = {
+    @Index(columnList = "discharge_attribute_id"),
+    @Index(columnList = "displayName"),
+    @Index(columnList = "duration_attribute_id"),
+    @Index(columnList = "falloff_attribute_id"),
+    @Index(columnList = "name"),
+    @Index(columnList = "published"),
+    @Index(columnList = "range_attribute_id"),
+    @Index(columnList = "tracking_speed_attribute_id") })
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
 public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_effect_id> {
+
+	/**
+	 * dischargeAttributeId integer
+	 */
+	@ManyToOne
+	private Attribute dischargeAttribute;
+
+	/**
+	 * durationAttributeId integer
+	 */
+	@ManyToOne
+	private Attribute durationAttribute;
+
+	/**
+	 * falloffAttributeId integer
+	 */
+	@ManyToOne
+	private Attribute falloffAttribute;
+
+	/**
+	 * modifiers array
+	 */
+	@OneToMany(mappedBy = "effect")
+	private List<Modifier> modifiers;
+
+	/**
+	 * rangeAttributeId integer
+	 */
+	@ManyToOne
+	private Attribute rangeAttribute;
+
+	/**
+	 * trackingSpeedAttributeId integer
+	 */
+	@ManyToOne
+	private Attribute trackingSpeedAttribute;
+
 
 	/**
 	 * isAssistance boolean
@@ -30,6 +77,7 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	/**
 	 * description string
 	 */
+	@Column(columnDefinition = "TEXT")
 	private String description;
 
 	/**
@@ -38,21 +86,9 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	private boolean disallowAutoRepeat;
 
 	/**
-	 * dischargeAttributeId integer
-	 */
-	@ManyToOne
-	private Attribute dischargeAttribute;
-
-	/**
 	 * display_name string
 	 */
 	private String displayName;
-
-	/**
-	 * durationAttributeId integer
-	 */
-	@ManyToOne
-	private Attribute durationAttribute;
 
 	/**
 	 * effectCategory integer
@@ -65,21 +101,9 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	private boolean electronicChance;
 
 	/**
-	 * falloffAttributeId integer
-	 */
-	@ManyToOne
-	private Attribute falloffAttribute;
-
-	/**
 	 * iconId integer
 	 */
 	private int iconId;
-
-	/**
-	 * modifiers array
-	 */
-	@OneToMany(mappedBy = "effect")
-	private List<Modifier> modifiers;
 
 	/**
 	 * name string
@@ -107,21 +131,9 @@ public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_
 	private boolean published;
 
 	/**
-	 * rangeAttributeId integer
-	 */
-	@ManyToOne
-	private Attribute rangeAttribute;
-
-	/**
 	 * rangeChance boolean
 	 */
 	private boolean rangeChance;
-
-	/**
-	 * trackingSpeedAttributeId integer
-	 */
-	@ManyToOne
-	private Attribute trackingSpeedAttribute;
 
 	/**
 	 * is_warpSafe boolean
