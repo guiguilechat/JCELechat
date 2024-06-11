@@ -24,7 +24,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
  */
 public class EdogmaAttributes {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/dogmaAttributes.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/dogmaAttributes.yaml");
 
 	private static Map<Integer, EdogmaAttributes> cache;
 

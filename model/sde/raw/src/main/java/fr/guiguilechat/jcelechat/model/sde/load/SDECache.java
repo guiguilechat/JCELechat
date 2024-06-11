@@ -120,7 +120,7 @@ public class SDECache {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final File extractCheckDir = new File(extractCacheDir(), "sde");
+	private final File extractCheckDir = new File(extractCacheDir(), "meta");
 
 	/**
 	 * the file that contains the etag of last downloaded sde , if any.
@@ -169,6 +169,7 @@ public class SDECache {
 			FileTools.delDir(extractCacheDir());
 			extractCacheDir().mkdirs();
 			unpackSDE(url, extractCacheDir());
+			extractEtagFile().getParentFile().mkdirs();
 			FileWriter fw = new FileWriter(extractEtagFile());
 			fw.write(etag);
 			fw.close();

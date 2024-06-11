@@ -3,21 +3,19 @@ types:
     id: 2735
     industryblueprintrank: 400.0
     marketGroup: 1356
-    name: Infrastructure Hub Blueprint
+    name: Sovereignty Hub Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 5.75E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  2737:
-    id: 2737
-    industryblueprintrank: 200.0
-    marketGroup: 1356
-    name: Territorial Claim Unit Blueprint
+  81086:
+    id: 81086
+    marketGroup: 3651
+    name: Orbital Skyhook Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
+    price: 5.500000256E9
     published: true
-    radius: 1.0
     volume: 0.009999999776482582

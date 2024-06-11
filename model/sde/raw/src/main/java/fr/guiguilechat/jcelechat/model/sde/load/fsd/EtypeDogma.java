@@ -44,7 +44,7 @@ public class EtypeDogma {
 
 	public Eeffects[] dogmaEffects;
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/typeDogma.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/typeDogma.yaml");
 
 	private static Map<Integer, EtypeDogma> cache;
 

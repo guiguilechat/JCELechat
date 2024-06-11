@@ -15,6 +15,7 @@ types:
     capacity: 235.0
     damagemultiplier: 2.75
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -36,6 +37,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 131250
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6100000143051147
@@ -45,12 +47,14 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 395
     gfxturretid: 567
     hp: 1200.0
     id: 24001
     kineticdamage: 11.0
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -65,6 +69,7 @@ types:
     missileentityvelocitymultiplier: 1.7374999523162842
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Pithatis Executor
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -88,6 +93,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 9.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.027000000700354576
     volume: 101000.0
   24014:
@@ -106,6 +112,7 @@ types:
     capacity: 235.0
     damagemultiplier: 2.75
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -127,6 +134,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 135000
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6200000047683716
@@ -136,12 +144,14 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 395
     gfxturretid: 567
     hp: 1200.0
     id: 24014
     kineticdamage: 11.0
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -156,6 +166,7 @@ types:
     missileentityvelocitymultiplier: 1.7580000162124634
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Pithatis Enforcer
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -179,6 +190,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 9.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.027000000700354576
     volume: 101000.0
   24015:
@@ -197,6 +209,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -218,6 +231,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 138750
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6299999952316284
@@ -227,10 +241,12 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 395
     hp: 1200.0
     id: 24015
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -244,6 +260,7 @@ types:
     missileentityvelocitymultiplier: 1.778499960899353
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Pithatis Assaulter
     optimalsigradius: 1000
     packagedVolume: 101000.0
@@ -265,6 +282,7 @@ types:
     signatureradius: 285.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 101000.0
   24016:
     aiignoredronesbelowsignatureradius: 50
@@ -282,6 +300,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -303,6 +322,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 142500
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6399999856948853
@@ -312,10 +332,12 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 395
     hp: 1200.0
     id: 24016
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -329,6 +351,7 @@ types:
     missileentityvelocitymultiplier: 1.7990000247955322
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Pithatis Assassin
     optimalsigradius: 1000
     packagedVolume: 101000.0
@@ -350,6 +373,7 @@ types:
     signatureradius: 285.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 101000.0
   24017:
     aiignoredronesbelowsignatureradius: 50
@@ -367,6 +391,7 @@ types:
     capacity: 235.0
     damagemultiplier: 3.75
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -388,6 +413,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 146250
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6499999761581421
@@ -397,12 +423,14 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 12000.0
     gfxboosterid: 395
     gfxturretid: 12344
     hp: 1200.0
     id: 24017
     kineticdamage: 12.0
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -417,6 +445,7 @@ types:
     missileentityvelocitymultiplier: 1.8194999694824219
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Pithatis Death Dealer
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -440,6 +469,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.023000000044703484
     volume: 101000.0
   24018:
@@ -458,6 +488,7 @@ types:
     capacity: 235.0
     damagemultiplier: 3.75
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -479,6 +510,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 153750
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6600000262260437
@@ -488,12 +520,14 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 12000.0
     gfxboosterid: 395
     gfxturretid: 12344
     hp: 1200.0
     id: 24018
     kineticdamage: 12.0
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -508,6 +542,7 @@ types:
     missileentityvelocitymultiplier: 1.840000033378601
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Pithatis Revolter
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -531,6 +566,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.023000000044703484
     volume: 101000.0
   24187:
@@ -549,6 +585,7 @@ types:
     capacity: 235.0
     damagemultiplier: 3.4375
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -570,6 +607,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 150000
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6100000143051147
@@ -579,12 +617,14 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 12500.0
     gfxboosterid: 395
     gfxturretid: 12344
     hp: 1200.0
     id: 24187
     kineticdamage: 11.0
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -599,6 +639,7 @@ types:
     missileentityvelocitymultiplier: 1.7374999523162842
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dread Pithatis Executor
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -622,6 +663,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 9.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03375000134110451
     volume: 101000.0
   24188:
@@ -640,6 +682,7 @@ types:
     capacity: 235.0
     damagemultiplier: 3.4375
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -661,6 +704,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 157500
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6200000047683716
@@ -670,12 +714,14 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 12500.0
     gfxboosterid: 395
     gfxturretid: 12344
     hp: 1200.0
     id: 24188
     kineticdamage: 11.0
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -690,6 +736,7 @@ types:
     missileentityvelocitymultiplier: 1.7580000162124634
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dread Pithatis Enforcer
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -713,6 +760,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 9.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03375000134110451
     volume: 101000.0
   24189:
@@ -731,6 +779,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -752,6 +801,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 161250
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6299999952316284
@@ -761,10 +811,12 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 395
     hp: 1200.0
     id: 24189
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -778,6 +830,7 @@ types:
     missileentityvelocitymultiplier: 1.778499960899353
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dread Pithatis Assaulter
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -799,6 +852,7 @@ types:
     signatureradius: 285.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 101000.0
   24190:
     aiignoredronesbelowsignatureradius: 50
@@ -816,6 +870,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -837,6 +892,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 165000
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6399999856948853
@@ -846,10 +902,12 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 395
     hp: 1200.0
     id: 24190
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -863,6 +921,7 @@ types:
     missileentityvelocitymultiplier: 1.7990000247955322
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dread Pithatis Assassin
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -884,6 +943,7 @@ types:
     signatureradius: 285.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 101000.0
   24191:
     aiignoredronesbelowsignatureradius: 50
@@ -901,6 +961,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.6875
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -922,6 +983,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 168750
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6499999761581421
@@ -931,12 +993,14 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 15000.0
     gfxboosterid: 395
     gfxturretid: 570
     hp: 1200.0
     id: 24191
     kineticdamage: 12.0
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -951,6 +1015,7 @@ types:
     missileentityvelocitymultiplier: 1.8194999694824219
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dread Pithatis Death Dealer
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -974,6 +1039,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.028750000521540642
     volume: 101000.0
   24192:
@@ -992,6 +1058,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.6875
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairdelaychancemedium: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -1013,6 +1080,7 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 172500
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6600000262260437
@@ -1022,12 +1090,14 @@ types:
     entityshieldboostdelaychance: 0.6499999761581421
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 15000.0
     gfxboosterid: 395
     gfxturretid: 570
     hp: 1200.0
     id: 24192
     kineticdamage: 12.0
+    kineticdamageresonance: 1.0
     mass: 1.01E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -1042,6 +1112,7 @@ types:
     missileentityvelocitymultiplier: 1.840000033378601
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dread Pithatis Revolter
     optimalsigradius: 125
     packagedVolume: 101000.0
@@ -1065,5 +1136,106 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.028750000521540642
+    volume: 101000.0
+  83670:
+    agility: 1.0
+    aiignoredronesbelowsignatureradius: 75
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 2.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.5
+    armorhp: 1375.0
+    armorkineticdamageresonance: 0.699999988079071
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    behaviorshieldboosterduration: 5000
+    capacitorcapacity: 975.0
+    capacity: 235.0
+    damagemultiplier: 2.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 17700
+    entityattackdelaymin: 4425
+    entityattackrange: 100000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 2000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 28000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 220.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentmax: 6
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 20000.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 350625
+    entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 1
+    entitymissiletypeid: 210
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6600000262260437
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.08250000327825546
+    entityshieldboostamount: 180.0
+    entityshieldboostdelaychance: 0.6499999761581421
+    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
+    falloff: 10000.0
+    gfxboosterid: 395
+    gfxturretid: 12344
+    hp: 1675.0
+    id: 83670
+    kineticdamage: 12.0
+    kineticdamageresonance: 1.0
+    mass: 1.01E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 5
+    maxrange: 50000.0
+    maxvelocity: 460.0
+    mintargetveldmgmultiplier: 0.25
+    missiledamagemultiplier: 4.900000095367432
+    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoevelocitymultiplier: 1.2999999523162842
+    missileentityflighttimemultiplier: 5.0
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 6000.0
+    modifytargetspeedchance: 1.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 12000
+    name: Pithatis Headsman
+    optimalsigradius: 100
+    packagedVolume: 101000.0
+    portionSize: 1
+    propulsiongraphicid: 395
+    published: false
+    radius: 150.0
+    rechargerate: 600000.0
+    scangravimetricstrength: 22.0
+    scanresolution: 400.0
+    scanspeed: 6000
+    shieldcapacity: 2250.0
+    shieldemdamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.699999988079071
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 300.0
+    speed: 6000.0
+    speedfactor: -40.0
+    structureuniformity: 1.0
+    thermaldamage: 10.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.10000000149011612
     volume: 101000.0

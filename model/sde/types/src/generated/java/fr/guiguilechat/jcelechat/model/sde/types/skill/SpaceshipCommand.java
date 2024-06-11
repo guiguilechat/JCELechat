@@ -135,13 +135,20 @@ public class SpaceshipCommand
     @DefaultIntValue(0)
     public int shippowerbonus;
     /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
+    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int subsystemslot;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, Capacity.INSTANCE, RequiredSkill5Level.INSTANCE, RequiredSkill5 .INSTANCE, ShipPowerBonus.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, SubSystemSlot.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, Capacity.INSTANCE, RequiredSkill5Level.INSTANCE, RequiredSkill5 .INSTANCE, ShipPowerBonus.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, SubSystemSlot.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE })));
     public static final SpaceshipCommand.MetaGroup METAGROUP = new SpaceshipCommand.MetaGroup();
 
     @Override
@@ -198,6 +205,10 @@ public class SpaceshipCommand
             case  334 :
             {
                 return shippowerbonus;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             case  1366 :
             {

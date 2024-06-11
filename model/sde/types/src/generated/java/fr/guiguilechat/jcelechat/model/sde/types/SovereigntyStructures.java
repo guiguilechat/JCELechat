@@ -19,7 +19,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.types.sovereigntystructures.InfrastructureHub;
+import fr.guiguilechat.jcelechat.model.sde.types.sovereigntystructures.SovereigntyHub;
 import fr.guiguilechat.jcelechat.model.sde.types.sovereigntystructures.TerritorialClaimUnit;
 
 public abstract class SovereigntyStructures
@@ -141,7 +141,7 @@ public abstract class SovereigntyStructures
 
         @Override
         public Collection<IMetaGroup<? extends SovereigntyStructures>> groups() {
-            return Arrays.asList(TerritorialClaimUnit.METAGROUP, InfrastructureHub.METAGROUP);
+            return Arrays.asList(TerritorialClaimUnit.METAGROUP, SovereigntyHub.METAGROUP);
         }
     }
 }

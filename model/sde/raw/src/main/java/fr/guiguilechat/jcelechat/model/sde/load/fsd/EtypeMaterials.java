@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EtypeMaterials {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/typeMaterials.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/typeMaterials.yaml");
 	private static LinkedHashMap<Integer, EtypeMaterials> cache;
 
 	public static class Material {
@@ -50,7 +50,7 @@ public class EtypeMaterials {
 						MappingNode mn = (MappingNode) node;
 						if (mn.getValue().size() > 0) {
 							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter(s -> "materials".equals(s)).findAny().isPresent()) {
+									.filter("materials"::equals).findAny().isPresent()) {
 								node.setType(EtypeMaterials.class);
 							}
 						}

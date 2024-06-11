@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
  */
 public class Eagents {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/agents.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/agents.yaml");
 
 	private static LinkedHashMap<Integer, Eagents> cache = null;
 
@@ -37,7 +37,7 @@ public class Eagents {
 						MappingNode mn = (MappingNode) node;
 						if (mn.getValue().size() > 0) {
 							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter(s -> "agentTypeID".equals(s)).findAny().isPresent()) {
+									.filter("agentTypeID"::equals).findAny().isPresent()) {
 								node.setType(Eagents.class);
 							}
 						}

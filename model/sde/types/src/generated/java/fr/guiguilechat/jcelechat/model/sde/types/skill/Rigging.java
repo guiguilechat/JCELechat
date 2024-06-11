@@ -36,6 +36,13 @@ public class Rigging
     @Stackable(true)
     @DefaultIntValue(10)
     public int rigdrawbackbonus;
+    /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RigDrawbackBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, SkillLevel.INSTANCE })));
     public static final Rigging.MetaGroup METAGROUP = new Rigging.MetaGroup();
 
@@ -45,6 +52,10 @@ public class Rigging
             case  1139 :
             {
                 return rigdrawbackbonus;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             default:
             {

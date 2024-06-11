@@ -6,6 +6,7 @@ types:
     name: F-11 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50.0
     published: true
     volume: 0.009999999776482582
   80011:
@@ -15,6 +16,7 @@ types:
     name: B-53 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500.0
     published: true
     volume: 0.009999999776482582
   80012:
@@ -24,6 +26,7 @@ types:
     name: S-107 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 25000.0
     published: true
     volume: 0.009999999776482582
   80013:
@@ -33,6 +36,7 @@ types:
     name: F-16 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 75.0
     published: true
     volume: 0.009999999776482582
   80014:
@@ -42,6 +46,7 @@ types:
     name: B-66 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000.0
     published: true
     volume: 0.009999999776482582
   80015:
@@ -51,6 +56,7 @@ types:
     name: S-133 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.009999999776482582
   80016:
@@ -60,6 +66,7 @@ types:
     name: F-24 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.009999999776482582
   80017:
@@ -69,6 +76,7 @@ types:
     name: B-79 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6000.0
     published: true
     volume: 0.009999999776482582
   80018:
@@ -78,6 +86,7 @@ types:
     name: S-158 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 40000.0
     published: true
     volume: 0.009999999776482582
   80019:
@@ -87,6 +96,7 @@ types:
     name: F-33 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200.0
     published: true
     volume: 0.009999999776482582
   80022:
@@ -96,6 +106,7 @@ types:
     name: B-97 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7000.0
     published: true
     volume: 0.009999999776482582
   80023:
@@ -105,6 +116,7 @@ types:
     name: S-172 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.009999999776482582
   80024:
@@ -114,6 +126,7 @@ types:
     name: F-41 Entangled GQD
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200.0
     published: true
     volume: 0.009999999776482582
   80025:
@@ -123,5 +136,6 @@ types:
     name: Isolated Dimensional Thread
     packagedVolume: 0.004999999888241291
     portionSize: 1
+    price: 150.0
     published: true
     volume: 0.004999999888241291

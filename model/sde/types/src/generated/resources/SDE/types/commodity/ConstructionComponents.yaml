@@ -628,3 +628,157 @@ types:
     price: 10000.0
     published: true
     volume: 45.0
+  81063:
+    id: 81063
+    marketGroup: 3594
+    mass: 1.0
+    moonminingamount: 100
+    name: Fission Thruster
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  81064:
+    id: 81064
+    marketGroup: 3594
+    mass: 1.0
+    moonminingamount: 100
+    name: Hyperconductive Gravimetric Sensor Cluster
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  81065:
+    id: 81065
+    marketGroup: 3594
+    mass: 1.0
+    moonminingamount: 100
+    name: Electromechanical Microprocessor
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  81066:
+    id: 81066
+    marketGroup: 3594
+    mass: 1.0
+    moonminingamount: 100
+    name: Metaprismatic Armor Plate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  81067:
+    id: 81067
+    marketGroup: 3594
+    mass: 1.0
+    moonminingamount: 100
+    name: Repelling Shield Emitter
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  81068:
+    id: 81068
+    marketGroup: 3594
+    mass: 1.0
+    moonminingamount: 100
+    name: Fission Reactor Unit
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  81069:
+    id: 81069
+    marketGroup: 3594
+    mass: 1.0
+    moonminingamount: 100
+    name: Pentachoron Capacitor Unit
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 1.0
+  83467:
+    id: 83467
+    marketGroup: 1898
+    mass: 1.0
+    moonminingamount: 1
+    name: Angel NET Resonator
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 1.0
+  83468:
+    id: 83468
+    marketGroup: 1899
+    mass: 1.0
+    moonminingamount: 1
+    name: Blood Raider NET Resonator
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 1.0
+  83469:
+    id: 83469
+    marketGroup: 1900
+    mass: 1.0
+    moonminingamount: 1
+    name: Guristas NET Resonator
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 1.0
+  83470:
+    id: 83470
+    marketGroup: 3641
+    mass: 1.0
+    moonminingamount: 1
+    name: Mordu NET Resonator
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 1.0
+  83471:
+    id: 83471
+    marketGroup: 3642
+    mass: 1.0
+    moonminingamount: 1
+    name: Sansha NET Resonator
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 1.0
+  83472:
+    id: 83472
+    marketGroup: 1901
+    mass: 1.0
+    moonminingamount: 1
+    name: Serpentis NET Resonator
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 1.0
+  83473:
+    id: 83473
+    marketGroup: 3643
+    mass: 1.0
+    moonminingamount: 1
+    name: SoE NET Resonator
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 1.0

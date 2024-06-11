@@ -2,7 +2,7 @@ types:
   23055:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 65
+    fighterabilityattackmissiledamageem: 65.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 185
@@ -67,7 +67,7 @@ types:
   23057:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 72
+    fighterabilityattackmissiledamagekin: 72.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 185
@@ -83,7 +83,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamagekin: 131
+    fighterabilitymissilesdamagekin: 131.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -213,7 +213,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageexp: 113
+    fighterabilitymissilesdamageexp: 113.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -329,7 +329,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamagekin: 40
+    fighterabilitymissilesdamagekin: 40.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -449,7 +449,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamageexp: 36
+    fighterabilitymissilesdamageexp: 36.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -570,7 +570,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamageexp: 40
+    fighterabilitymissilesdamageexp: 40.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -631,7 +631,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamagekin: 44
+    fighterabilitymissilesdamagekin: 44.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -746,7 +746,7 @@ types:
   40556:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 72
+    fighterabilityattackmissiledamageem: 72.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 185
@@ -811,7 +811,7 @@ types:
   40557:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 79
+    fighterabilityattackmissiledamagekin: 79.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 185
@@ -827,7 +827,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamagekin: 146
+    fighterabilitymissilesdamagekin: 146.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -957,7 +957,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageexp: 124
+    fighterabilitymissilesdamageexp: 124.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1006,7 +1006,7 @@ types:
   47035:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 169
+    fighterabilityattackmissiledamageem: 169.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 160
@@ -1075,7 +1075,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamageexp: 94
+    fighterabilitymissilesdamageexp: 94.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1125,7 +1125,7 @@ types:
   47138:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 187
+    fighterabilityattackmissiledamagekin: 187.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 160
@@ -1141,7 +1141,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamagekin: 341
+    fighterabilitymissilesdamagekin: 341.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1265,7 +1265,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageexp: 294
+    fighterabilitymissilesdamageexp: 294.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1311,7 +1311,7 @@ types:
   47141:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 187
+    fighterabilityattackmissiledamageem: 187.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 160
@@ -1374,7 +1374,7 @@ types:
   47142:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 205
+    fighterabilityattackmissiledamagekin: 205.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 160
@@ -1390,7 +1390,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamagekin: 380
+    fighterabilitymissilesdamagekin: 380.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1516,7 +1516,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageexp: 322
+    fighterabilitymissilesdamageexp: 322.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1627,7 +1627,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamagekin: 104
+    fighterabilitymissilesdamagekin: 104.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1799,7 +1799,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamagekin: 114
+    fighterabilitymissilesdamagekin: 114.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1915,7 +1915,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamageexp: 104
+    fighterabilitymissilesdamageexp: 104.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1962,4 +1962,516 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     volume: 1600.0
+    warpspeedmultiplier: 1.5
+  83579:
+    agility: 700.0
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityattackmissiledamageem: 68.5
+    fighterabilityattackmissiledamagemultiplier: 1
+    fighterabilityattackmissileduration: 5000
+    fighterabilityattackmissileexplosionradius: 185
+    fighterabilityattackmissileexplosionvelocity: 105
+    fighterabilityattackmissilerangefalloff: 5000
+    fighterabilityattackmissilerangeoptimal: 9600
+    fighterabilityattackmissilereductionfactor: 3.0
+    fighterabilityattackmissilereductionsensitivity: 5.5
+    fighterabilityevasivemaneuversemresonance: 1.0
+    fighterabilityevasivemaneuversexpresonance: 1.0
+    fighterabilityevasivemaneuverskinresonance: 1.0
+    fighterabilityevasivemaneuversthermresonance: 1.0
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 500
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterabilitymissilesdamageem: 125
+    fighterabilitymissilesdamagemultiplier: 1
+    fighterabilitymissilesdamagereductionfactor: 5.0
+    fighterabilitymissilesdamagereductionsensitivity: 5.5
+    fighterabilitymissilesduration: 14000
+    fighterabilitymissilesexplosionradius: 400
+    fighterabilitymissilesexplosionvelocity: 70
+    fighterabilitymissilesrange: 10000
+    fighterrefuelingtime: 5000
+    fightersquadronislight: 1
+    fightersquadronmaxsize: 9
+    fightersquadronorbitrange: 7300
+    fightersquadronrole: 2
+    hp: 100.0
+    id: 83579
+    marketGroup: 840
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxtargetrange: 70000.0
+    maxvelocity: 867.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Templar
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40572
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scanradarstrength: 7.0
+    scanresolution: 800.0
+    shieldcapacity: 3630.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 700000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 110.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 1000.0
+    warpspeedmultiplier: 1.5
+  83582:
+    agility: 700.0
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityattackmissiledamagekin: 75.5
+    fighterabilityattackmissiledamagemultiplier: 1
+    fighterabilityattackmissileduration: 5000
+    fighterabilityattackmissileexplosionradius: 185
+    fighterabilityattackmissileexplosionvelocity: 105
+    fighterabilityattackmissilerangefalloff: 5000
+    fighterabilityattackmissilerangeoptimal: 4800
+    fighterabilityattackmissilereductionfactor: 3.0
+    fighterabilityattackmissilereductionsensitivity: 5.5
+    fighterabilityevasivemaneuversemresonance: 1.0
+    fighterabilityevasivemaneuversexpresonance: 1.0
+    fighterabilityevasivemaneuverskinresonance: 1.0
+    fighterabilityevasivemaneuversthermresonance: 1.0
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 500
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterabilitymissilesdamagekin: 138.5
+    fighterabilitymissilesdamagemultiplier: 1
+    fighterabilitymissilesdamagereductionfactor: 5.0
+    fighterabilitymissilesdamagereductionsensitivity: 5.5
+    fighterabilitymissilesduration: 14000
+    fighterabilitymissilesexplosionradius: 400
+    fighterabilitymissilesexplosionvelocity: 70
+    fighterabilitymissilesrange: 10000
+    fighterrefuelingtime: 5000
+    fightersquadronislight: 1
+    fightersquadronmaxsize: 9
+    fightersquadronorbitrange: 4900
+    fightersquadronrole: 2
+    hp: 100.0
+    id: 83582
+    marketGroup: 840
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxtargetrange: 70000.0
+    maxvelocity: 785.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Caldari Navy Dragonfly
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40572
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scangravimetricstrength: 7.0
+    scanresolution: 800.0
+    shieldcapacity: 3630.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 700000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 110.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 1000.0
+    warpspeedmultiplier: 1.5
+  83583:
+    agility: 700.0
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityattackmissiledamagemultiplier: 1
+    fighterabilityattackmissiledamagetherm: 79
+    fighterabilityattackmissileduration: 5000
+    fighterabilityattackmissileexplosionradius: 185
+    fighterabilityattackmissileexplosionvelocity: 105
+    fighterabilityattackmissilerangefalloff: 5000
+    fighterabilityattackmissilerangeoptimal: 4800
+    fighterabilityattackmissilereductionfactor: 3.0
+    fighterabilityattackmissilereductionsensitivity: 5.5
+    fighterabilityevasivemaneuversemresonance: 1.0
+    fighterabilityevasivemaneuversexpresonance: 1.0
+    fighterabilityevasivemaneuverskinresonance: 1.0
+    fighterabilityevasivemaneuversthermresonance: 1.0
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 500
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterabilitymissilesdamagemultiplier: 1
+    fighterabilitymissilesdamagereductionfactor: 5.0
+    fighterabilitymissilesdamagereductionsensitivity: 5.5
+    fighterabilitymissilesdamagetherm: 145
+    fighterabilitymissilesduration: 14000
+    fighterabilitymissilesexplosionradius: 400
+    fighterabilitymissilesexplosionvelocity: 70
+    fighterabilitymissilesrange: 10000
+    fighterrefuelingtime: 5000
+    fightersquadronislight: 1
+    fightersquadronmaxsize: 9
+    fightersquadronorbitrange: 4900
+    fightersquadronrole: 2
+    hp: 100.0
+    id: 83583
+    marketGroup: 840
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxtargetrange: 70000.0
+    maxvelocity: 743.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy Firbolg
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40572
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scanmagnetometricstrength: 7.0
+    scanresolution: 800.0
+    shieldcapacity: 3630.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 700000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 110.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 1000.0
+    warpspeedmultiplier: 1.5
+  83584:
+    agility: 700.0
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityattackmissiledamageexp: 65
+    fighterabilityattackmissiledamagemultiplier: 1
+    fighterabilityattackmissileduration: 5000
+    fighterabilityattackmissileexplosionradius: 185
+    fighterabilityattackmissileexplosionvelocity: 105
+    fighterabilityattackmissilerangefalloff: 10000
+    fighterabilityattackmissilerangeoptimal: 4800
+    fighterabilityattackmissilereductionfactor: 3.0
+    fighterabilityattackmissilereductionsensitivity: 5.5
+    fighterabilityevasivemaneuversemresonance: 1.0
+    fighterabilityevasivemaneuversexpresonance: 1.0
+    fighterabilityevasivemaneuverskinresonance: 1.0
+    fighterabilityevasivemaneuversthermresonance: 1.0
+    fighterabilitymicrowarpdriveduration: 20000
+    fighterabilitymicrowarpdrivesignatureradiusbonus: 500
+    fighterabilitymicrowarpdrivespeedbonus: 500
+    fighterabilitymissilesdamageexp: 118.5
+    fighterabilitymissilesdamagemultiplier: 1
+    fighterabilitymissilesdamagereductionfactor: 5.0
+    fighterabilitymissilesdamagereductionsensitivity: 5.5
+    fighterabilitymissilesduration: 14000
+    fighterabilitymissilesexplosionradius: 400
+    fighterabilitymissilesexplosionvelocity: 70
+    fighterabilitymissilesrange: 10000
+    fighterrefuelingtime: 5000
+    fightersquadronislight: 1
+    fightersquadronmaxsize: 9
+    fightersquadronorbitrange: 7400
+    fightersquadronrole: 2
+    hp: 100.0
+    id: 83584
+    marketGroup: 840
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxtargetrange: 70000.0
+    maxvelocity: 908.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Einherji
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40572
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scanladarstrength: 7.0
+    scanresolution: 800.0
+    shieldcapacity: 3630.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 700000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 110.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 1000.0
+    warpspeedmultiplier: 1.5
+  83585:
+    agility: 500.0
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityevasivemaneuversduration: 10000
+    fighterabilityevasivemaneuversemresonance: 0.5
+    fighterabilityevasivemaneuversexpresonance: 0.5
+    fighterabilityevasivemaneuverskinresonance: 0.5
+    fighterabilityevasivemaneuverssignatureradiusbonus: -80
+    fighterabilityevasivemaneuversspeedbonus: 200
+    fighterabilityevasivemaneuversthermresonance: 0.5
+    fighterabilitymissilesdamageem: 40
+    fighterabilitymissilesdamagemultiplier: 1
+    fighterabilitymissilesdamagereductionfactor: 2.0
+    fighterabilitymissilesdamagereductionsensitivity: 5.5
+    fighterabilitymissilesduration: 3500
+    fighterabilitymissilesexplosionradius: 15
+    fighterabilitymissilesexplosionvelocity: 300
+    fighterabilitymissilesrange: 20000
+    fighterabilitymissilesresistanceid: 2189
+    fighterabilitytackleduration: 10000
+    fighterabilitytacklerange: 20000
+    fighterabilitytacklewarpdisruptionpointstrength: 1
+    fighterabilitytacklewebspeedpenalty: -5
+    fighterrefuelingtime: 3000
+    fightersquadronislight: 1
+    fightersquadronmaxsize: 12
+    fightersquadronorbitrange: 10000
+    fightersquadronrole: 1
+    hp: 100.0
+    id: 83585
+    marketGroup: 840
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxtargetrange: 60000.0
+    maxvelocity: 1040.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Imperial Navy Equite
+    packagedVolume: 800.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40572
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scanradarstrength: 8.0
+    scanresolution: 950.0
+    shieldcapacity: 2640.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 88.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 800.0
+    warpspeedmultiplier: 1.5
+  83586:
+    agility: 500.0
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityevasivemaneuversduration: 10000
+    fighterabilityevasivemaneuversemresonance: 0.5
+    fighterabilityevasivemaneuversexpresonance: 0.5
+    fighterabilityevasivemaneuverskinresonance: 0.5
+    fighterabilityevasivemaneuverssignatureradiusbonus: -80
+    fighterabilityevasivemaneuversspeedbonus: 200
+    fighterabilityevasivemaneuversthermresonance: 0.5
+    fighterabilitymissilesdamagekin: 42.0
+    fighterabilitymissilesdamagemultiplier: 1
+    fighterabilitymissilesdamagereductionfactor: 2.0
+    fighterabilitymissilesdamagereductionsensitivity: 5.5
+    fighterabilitymissilesduration: 3500
+    fighterabilitymissilesexplosionradius: 15
+    fighterabilitymissilesexplosionvelocity: 300
+    fighterabilitymissilesrange: 20000
+    fighterabilitymissilesresistanceid: 2189
+    fighterabilitytackleduration: 10000
+    fighterabilitytacklerange: 20000
+    fighterabilitytacklewarpdisruptionpointstrength: 1
+    fighterabilitytacklewebspeedpenalty: -5
+    fighterrefuelingtime: 3000
+    fightersquadronislight: 1
+    fightersquadronmaxsize: 12
+    fightersquadronorbitrange: 10000
+    fightersquadronrole: 1
+    hp: 100.0
+    id: 83586
+    marketGroup: 840
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxtargetrange: 60000.0
+    maxvelocity: 941.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Caldari Navy Locust
+    packagedVolume: 800.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40572
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scangravimetricstrength: 8.0
+    scanresolution: 950.0
+    shieldcapacity: 2640.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 88.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 800.0
+    warpspeedmultiplier: 1.5
+  83587:
+    agility: 500.0
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityevasivemaneuversduration: 10000
+    fighterabilityevasivemaneuversemresonance: 0.5
+    fighterabilityevasivemaneuversexpresonance: 0.5
+    fighterabilityevasivemaneuverskinresonance: 0.5
+    fighterabilityevasivemaneuverssignatureradiusbonus: -80
+    fighterabilityevasivemaneuversspeedbonus: 200
+    fighterabilityevasivemaneuversthermresonance: 0.5
+    fighterabilitymissilesdamagemultiplier: 1
+    fighterabilitymissilesdamagereductionfactor: 2.0
+    fighterabilitymissilesdamagereductionsensitivity: 5.5
+    fighterabilitymissilesdamagetherm: 44
+    fighterabilitymissilesduration: 3500
+    fighterabilitymissilesexplosionradius: 15
+    fighterabilitymissilesexplosionvelocity: 300
+    fighterabilitymissilesrange: 20000
+    fighterabilitymissilesresistanceid: 2189
+    fighterabilitytackleduration: 10000
+    fighterabilitytacklerange: 20000
+    fighterabilitytacklewarpdisruptionpointstrength: 1
+    fighterabilitytacklewebspeedpenalty: -5
+    fighterrefuelingtime: 3000
+    fightersquadronislight: 1
+    fightersquadronmaxsize: 12
+    fightersquadronorbitrange: 10000
+    fightersquadronrole: 1
+    hp: 100.0
+    id: 83587
+    marketGroup: 840
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxtargetrange: 60000.0
+    maxvelocity: 892.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Federation Navy Satyr
+    packagedVolume: 800.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40572
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scanmagnetometricstrength: 8.0
+    scanresolution: 950.0
+    shieldcapacity: 2640.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 88.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 800.0
+    warpspeedmultiplier: 1.5
+  83589:
+    agility: 500.0
+    fighterabilityantifightermissileresistance: 1
+    fighterabilityevasivemaneuversduration: 10000
+    fighterabilityevasivemaneuversemresonance: 0.5
+    fighterabilityevasivemaneuversexpresonance: 0.5
+    fighterabilityevasivemaneuverskinresonance: 0.5
+    fighterabilityevasivemaneuverssignatureradiusbonus: -80
+    fighterabilityevasivemaneuversspeedbonus: 200
+    fighterabilityevasivemaneuversthermresonance: 0.5
+    fighterabilitymissilesdamageexp: 38.0
+    fighterabilitymissilesdamagemultiplier: 1
+    fighterabilitymissilesdamagereductionfactor: 2.0
+    fighterabilitymissilesdamagereductionsensitivity: 5.5
+    fighterabilitymissilesduration: 3500
+    fighterabilitymissilesexplosionradius: 15
+    fighterabilitymissilesexplosionvelocity: 300
+    fighterabilitymissilesrange: 20000
+    fighterabilitymissilesresistanceid: 2189
+    fighterabilitytackleduration: 10000
+    fighterabilitytacklerange: 20000
+    fighterabilitytacklewarpdisruptionpointstrength: 1
+    fighterabilitytacklewebspeedpenalty: -5
+    fighterrefuelingtime: 3000
+    fightersquadronislight: 1
+    fightersquadronmaxsize: 12
+    fightersquadronorbitrange: 10000
+    fightersquadronrole: 1
+    hp: 100.0
+    id: 83589
+    marketGroup: 840
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxtargetrange: 60000.0
+    maxvelocity: 1090.0
+    metagroupid: 4
+    metalevelold: 8
+    name: Republic Fleet Gram
+    packagedVolume: 800.0
+    portionSize: 1
+    published: true
+    radius: 35.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 40572
+    requiredskill1level: 1
+    requiredskill2: 23069
+    requiredskill2level: 1
+    scanladarstrength: 8.0
+    scanresolution: 950.0
+    shieldcapacity: 2640.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 1.0
+    signatureradius: 88.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 800.0
     warpspeedmultiplier: 1.5

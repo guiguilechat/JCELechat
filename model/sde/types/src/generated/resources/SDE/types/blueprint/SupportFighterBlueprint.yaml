@@ -155,3 +155,47 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
+  83603:
+    id: 83603
+    industryblueprintrank: 40.0
+    name: Imperial Navy Cenobite Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83604:
+    id: 83604
+    industryblueprintrank: 40.0
+    name: Caldari Navy Scarab Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83605:
+    id: 83605
+    industryblueprintrank: 40.0
+    name: Federation Navy Siren Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83606:
+    id: 83606
+    industryblueprintrank: 40.0
+    name: Republic Fleet Dromi Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

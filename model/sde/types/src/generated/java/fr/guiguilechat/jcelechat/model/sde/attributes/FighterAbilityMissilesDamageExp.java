@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Explosive Damage
  */
 public class FighterAbilityMissilesDamageExp
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final FighterAbilityMissilesDamageExp INSTANCE = new FighterAbilityMissilesDamageExp();
 

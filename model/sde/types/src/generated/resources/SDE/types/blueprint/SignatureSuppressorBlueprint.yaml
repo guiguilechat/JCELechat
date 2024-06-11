@@ -9,3 +9,43 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  83645:
+    id: 83645
+    industryblueprintrank: 6.0
+    name: Domination Signature Radius Suppressor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 296960.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  83646:
+    id: 83646
+    industryblueprintrank: 6.0
+    name: Dread Guristas Signature Radius Suppressor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 296960.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  83662:
+    id: 83662
+    industryblueprintrank: 6.0
+    name: Zohar's Modified Signature Radius Suppressor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 296960.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  83663:
+    id: 83663
+    industryblueprintrank: 6.0
+    name: Hakuzosu's Modified Signature Radius Suppressor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 296960.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

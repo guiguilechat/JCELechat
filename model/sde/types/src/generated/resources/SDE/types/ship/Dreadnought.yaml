@@ -42,6 +42,7 @@ types:
     hp: 113000.0
     id: 19720
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -156,6 +157,7 @@ types:
     hp: 95500.0
     id: 19722
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -270,6 +272,7 @@ types:
     hp: 121500.0
     id: 19724
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -384,6 +387,7 @@ types:
     hp: 104200.0
     id: 19726
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -498,6 +502,7 @@ types:
     hp: 182000.0
     id: 42124
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -616,6 +621,7 @@ types:
     hp: 169000.0
     id: 42243
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -739,6 +745,7 @@ types:
     hp: 150000.0
     id: 45647
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -857,6 +864,7 @@ types:
     hp: 130000.0
     id: 52907
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -973,6 +981,7 @@ types:
     hp: 143250.0
     id: 73787
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -1088,6 +1097,7 @@ types:
     hp: 169500.0
     id: 73790
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -1203,6 +1213,7 @@ types:
     hp: 182250.0
     id: 73792
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
@@ -1319,6 +1330,7 @@ types:
     hp: 156300.0
     id: 73793
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000

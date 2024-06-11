@@ -39,6 +39,7 @@ types:
     hislots: 2
     hp: 4500.0
     id: 22544
+    iscarrierjumpconduitpassenger: 1
     isindustrialjumpconduitpassenger: 1
     isindustrialjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005
@@ -142,6 +143,7 @@ types:
     hislots: 2
     hp: 6500.0
     id: 22546
+    iscarrierjumpconduitpassenger: 1
     isindustrialjumpconduitpassenger: 1
     isindustrialjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005
@@ -242,6 +244,7 @@ types:
     hislots: 2
     hp: 5500.0
     id: 22548
+    iscarrierjumpconduitpassenger: 1
     isindustrialjumpconduitpassenger: 1
     isindustrialjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005

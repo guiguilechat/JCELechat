@@ -54,6 +54,7 @@ types:
     id: 28352
     industrialcommandbonusminingforemanburstrange: 5
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 4000

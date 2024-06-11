@@ -95,3 +95,27 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  81048:
+    id: 81048
+    industryblueprintrank: 800.0
+    marketGroup: 636
+    name: Deluge Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  81049:
+    id: 81049
+    industryblueprintrank: 800.0
+    marketGroup: 636
+    name: Torrent Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.9999998976E10
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

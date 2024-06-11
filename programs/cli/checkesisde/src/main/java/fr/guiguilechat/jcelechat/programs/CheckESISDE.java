@@ -12,10 +12,10 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_d
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Ecategories;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Egroups;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 
 public class CheckESISDE {
@@ -34,17 +34,17 @@ public class CheckESISDE {
 				.mapItems(typeID -> universe.types(typeID)).toMap(h -> h.get().type_id, h -> h.get());
 		MapHolder<Integer, R_get_dogma_attributes_attribute_id> attMap = dogma.attributes()
 				.mapItems(typeID -> dogma.attributes(typeID)).toMap(h -> h.get().attribute_id, h -> h.get());
-		EcategoryIDs.load();
-		EgroupIDs.load();
-		EtypeIDs.load();
+		Ecategories.load();
+		Egroups.load();
+		Etypes.load();
 		EdogmaAttributes.load();
 
 		long postLoad = System.currentTimeMillis();
 		System.out.println("loaded in " + (postLoad - start) + "ms");
 		int errors = 0;
 
-		for (Entry<Integer, EcategoryIDs> e : EcategoryIDs.load().entrySet()) {
-			EcategoryIDs sdeEntry = e.getValue();
+		for (Entry<Integer, Ecategories> e : Ecategories.load().entrySet()) {
+			Ecategories sdeEntry = e.getValue();
 			R_get_universe_categories_category_id esiEntry = catMap.get().get(e.getKey());
 			if (sdeEntry.published != esiEntry.published) {
 				System.out.println("cat=" + e.getKey() + "(" + esiEntry.name + ")" + " esi=" + esiEntry.published + " sde="
@@ -52,8 +52,8 @@ public class CheckESISDE {
 				errors++;
 			}
 		}
-		for (Entry<Integer, EgroupIDs> e : EgroupIDs.load().entrySet()) {
-			EgroupIDs sdeEntry = e.getValue();
+		for (Entry<Integer, Egroups> e : Egroups.load().entrySet()) {
+			Egroups sdeEntry = e.getValue();
 			R_get_universe_groups_group_id esiEntry = groupMap.get().get(e.getKey());
 			if (sdeEntry.published != esiEntry.published) {
 				System.out.println("group=" + e.getKey() + "(" + esiEntry.name + ")" + " esi=" + esiEntry.published + " sde="
@@ -61,8 +61,8 @@ public class CheckESISDE {
 				errors++;
 			}
 		}
-		for (Entry<Integer, EtypeIDs> e : EtypeIDs.load().entrySet()) {
-			EtypeIDs sdeEntry = e.getValue();
+		for (Entry<Integer, Etypes> e : Etypes.load().entrySet()) {
+			Etypes sdeEntry = e.getValue();
 			R_get_universe_types_type_id esiEntry = typeMap.get().get(e.getKey());
 			if (sdeEntry.published != esiEntry.published) {
 				System.out.println("type=" + e.getKey() + "(" + esiEntry.name + ")" + " esi=" + esiEntry.published + " sde="

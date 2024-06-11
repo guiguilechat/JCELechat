@@ -15,6 +15,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 65.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -35,16 +36,19 @@ types:
     entityflyrange: 2438.0
     entitykillbounty: 15750
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.4000000059604645
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.02250000089406967
+    explosivedamageresonance: 1.0
     falloff: 3750.0
     gfxboosterid: 394
     gfxturretid: 563
     hp: 275.0
     id: 2098
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -71,8 +75,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 7.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.3956249952316284
     volume: 26500.0
+    warpscrambleduration: 8000
   2128:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -89,6 +95,7 @@ types:
     capacity: 235.0
     damagemultiplier: 6.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 65.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -109,16 +116,19 @@ types:
     entityflyrange: 2438.0
     entitykillbounty: 15750
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.4000000059604645
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.02250000089406967
+    explosivedamageresonance: 1.0
     falloff: 3750.0
     gfxboosterid: 394
     gfxturretid: 563
     hp: 275.0
     id: 2128
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -145,8 +155,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 7.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.3956249952316284
     volume: 26500.0
+    warpscrambleduration: 8000
   23973:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -163,6 +175,7 @@ types:
     capacity: 235.0
     damagemultiplier: 5.699999809265137
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 65.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -183,16 +196,19 @@ types:
     entityflyrange: 2000.0
     entitykillbounty: 11250
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3499999940395355
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.017500000074505806
+    explosivedamageresonance: 1.0
     falloff: 3000.0
     gfxboosterid: 394
     gfxturretid: 562
     hp: 275.0
     id: 23973
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -219,8 +235,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.41999998688697815
     volume: 26500.0
+    warpscrambleduration: 8000
   23994:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -237,6 +255,7 @@ types:
     capacity: 235.0
     damagemultiplier: 6.400000095367432
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 65.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -257,16 +276,19 @@ types:
     entityflyrange: 2000.0
     entitykillbounty: 11813
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.36000001430511475
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.018124999478459358
+    explosivedamageresonance: 1.0
     falloff: 3000.0
     gfxboosterid: 394
     gfxturretid: 562
     hp: 275.0
     id: 23994
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -293,8 +315,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.41999998688697815
     volume: 26500.0
+    warpscrambleduration: 8000
   23995:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -311,6 +335,7 @@ types:
     capacity: 235.0
     damagemultiplier: 5.849999904632568
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 65.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -331,16 +356,19 @@ types:
     entityflyrange: 14375.0
     entitykillbounty: 12375
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3700000047683716
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.01875000074505806
+    explosivedamageresonance: 1.0
     falloff: 7500.0
     gfxboosterid: 394
     gfxturretid: 565
     hp: 275.0
     id: 23995
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -367,8 +395,10 @@ types:
     speed: 2750.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.08749999850988388
     volume: 26500.0
+    warpscrambleduration: 8000
   23996:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -385,6 +415,7 @@ types:
     capacity: 235.0
     damagemultiplier: 6.599999904632568
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 65.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -405,16 +436,19 @@ types:
     entityflyrange: 14375.0
     entitykillbounty: 13500
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3799999952316284
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.019999999552965164
+    explosivedamageresonance: 1.0
     falloff: 7500.0
     gfxboosterid: 394
     gfxturretid: 565
     hp: 275.0
     id: 23996
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -441,8 +475,10 @@ types:
     speed: 2750.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.08749999850988388
     volume: 26500.0
+    warpscrambleduration: 8000
   23997:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -459,6 +495,7 @@ types:
     capacity: 235.0
     damagemultiplier: 5.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 65.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -479,16 +516,19 @@ types:
     entityflyrange: 2438.0
     entitykillbounty: 14625
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.38999998569488525
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.021250000223517418
+    explosivedamageresonance: 1.0
     falloff: 3750.0
     gfxboosterid: 394
     gfxturretid: 563
     hp: 275.0
     id: 23997
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -515,8 +555,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 7.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.3956249952316284
     volume: 26500.0
+    warpscrambleduration: 8000
   23998:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -533,6 +575,7 @@ types:
     capacity: 235.0
     damagemultiplier: 6.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 65.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -553,16 +596,19 @@ types:
     entityflyrange: 2438.0
     entitykillbounty: 15750
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.4000000059604645
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.02250000089406967
+    explosivedamageresonance: 1.0
     falloff: 3750.0
     gfxboosterid: 394
     gfxturretid: 563
     hp: 275.0
     id: 23998
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -589,8 +635,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 7.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.3956249952316284
     volume: 26500.0
+    warpscrambleduration: 8000
   24205:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -607,6 +655,7 @@ types:
     capacity: 235.0
     damagemultiplier: 7.125
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 81.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -627,16 +676,19 @@ types:
     entityflyrange: 2000.0
     entitykillbounty: 12938
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3499999940395355
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.019375000149011612
+    explosivedamageresonance: 1.0
     falloff: 3750.0
     gfxboosterid: 394
     gfxturretid: 563
     hp: 275.0
     id: 24205
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -663,8 +715,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.5249999761581421
     volume: 26500.0
+    warpscrambleduration: 8000
   24206:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -681,6 +735,7 @@ types:
     capacity: 235.0
     damagemultiplier: 8.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 81.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -701,16 +756,19 @@ types:
     entityflyrange: 2000.0
     entitykillbounty: 14063
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.36000001430511475
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.020625000819563866
+    explosivedamageresonance: 1.0
     falloff: 3750.0
     gfxboosterid: 394
     gfxturretid: 563
     hp: 275.0
     id: 24206
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -737,8 +795,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.5249999761581421
     volume: 26500.0
+    warpscrambleduration: 8000
   24207:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -755,6 +815,7 @@ types:
     capacity: 235.0
     damagemultiplier: 7.3125
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 81.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -775,16 +836,19 @@ types:
     entityflyrange: 14375.0
     entitykillbounty: 15188
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3700000047683716
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.02187499962747097
+    explosivedamageresonance: 1.0
     falloff: 9375.0
     gfxboosterid: 394
     gfxturretid: 565
     hp: 275.0
     id: 24207
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -811,8 +875,10 @@ types:
     speed: 2750.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.109375
     volume: 26500.0
+    warpscrambleduration: 8000
   24208:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -829,6 +895,7 @@ types:
     capacity: 235.0
     damagemultiplier: 8.25
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 81.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -849,16 +916,19 @@ types:
     entityflyrange: 14375.0
     entitykillbounty: 16313
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.3799999952316284
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.023125000298023224
+    explosivedamageresonance: 1.0
     falloff: 9375.0
     gfxboosterid: 394
     gfxturretid: 565
     hp: 275.0
     id: 24208
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -885,8 +955,10 @@ types:
     speed: 2750.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.109375
     volume: 26500.0
+    warpscrambleduration: 8000
   24209:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -903,6 +975,7 @@ types:
     capacity: 235.0
     damagemultiplier: 6.875
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 81.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -923,16 +996,19 @@ types:
     entityflyrange: 2438.0
     entitykillbounty: 16875
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.38999998569488525
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.023749999701976776
+    explosivedamageresonance: 1.0
     falloff: 4688.0
     gfxboosterid: 394
     gfxturretid: 563
     hp: 275.0
     id: 24209
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -959,8 +1035,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 7.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4945312440395355
     volume: 26500.0
+    warpscrambleduration: 8000
   24210:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
@@ -977,6 +1055,7 @@ types:
     capacity: 235.0
     damagemultiplier: 7.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 81.0
     entityarmorrepairdelaychance: 0.25
     entityarmorrepairdelaychancesmall: 0.25
@@ -997,16 +1076,19 @@ types:
     entityflyrange: 2438.0
     entitykillbounty: 17438
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.4000000059604645
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.02437499910593033
+    explosivedamageresonance: 1.0
     falloff: 4688.0
     gfxboosterid: 394
     gfxturretid: 563
     hp: 275.0
     id: 24210
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 2650000.0
     maxattacktargets: 1
     maxlockedtargets: 2
@@ -1033,5 +1115,92 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 7.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4945312440395355
     volume: 26500.0
+    warpscrambleduration: 8000
+  83636:
+    agility: 0.20000000298023224
+    aiignoredronesbelowsignatureradius: 75
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 2.0
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 400.0
+    armorkineticdamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    behaviorarmorrepairerduration: 10000
+    capacitorcapacity: 220.0
+    capacity: 235.0
+    damagemultiplier: 16.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityarmorrepairamount: 80.0
+    entityarmorrepairdelaychance: 0.25
+    entityarmorrepairdelaychancesmall: 0.25
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 25800
+    entityattackdelaymin: 6450
+    entityattackrange: 40000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 12000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 500.0
+    entityequipmentmax: 3
+    entityequipmentmin: -4
+    entityfactionloss: 0.0032500000670552254
+    entityflyrange: 8000.0
+    entitykillbounty: 30625
+    entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 1
+    entityoverviewshipgroupid: 25
+    entityreactionfactor: 0.38999998569488525
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.02250000089406967
+    entitywarpscramblechance: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 5000.0
+    gfxboosterid: 394
+    gfxturretid: 563
+    hp: 400.0
+    id: 83636
+    kineticdamage: 3.0
+    kineticdamageresonance: 1.0
+    mass: 2650000.0
+    maxattacktargets: 1
+    maxlockedtargets: 3
+    maxrange: 20000.0
+    maxvelocity: 1300.0
+    name: Corelior Gunner
+    optimalsigradius: 40
+    packagedVolume: 26500.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 50.0
+    rechargerate: 300000.0
+    scanmagnetometricstrength: 14.0
+    scanresolution: 600.0
+    shieldcapacity: 275.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 180.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 7.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.4000000059604645
+    volume: 26500.0
+    warpscrambleduration: 10000
+    warpscramblerange: 12000
+    warpscramblestrength: 2

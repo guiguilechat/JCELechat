@@ -1,0 +1,153 @@
+types:
+  82163:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82163
+    marketGroup: 3639
+    mass: 1.0000000409184788E35
+    name: Hezorime
+    orebasictype: 82163
+    packagedVolume: 8.0
+    portionSize: 100
+    price: 1149400.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.0
+  82164:
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82164
+    marketGroup: 3639
+    mass: 1.0000000409184788E35
+    name: Dull Hezorime
+    orebasictype: 82163
+    packagedVolume: 8.0
+    portionSize: 100
+    price: 1149400.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.0
+  82165:
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82165
+    marketGroup: 3639
+    mass: 1.0000000409184788E35
+    name: Serrated Hezorime
+    orebasictype: 82163
+    packagedVolume: 8.0
+    portionSize: 100
+    price: 1149400.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.0
+  82166:
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82166
+    marketGroup: 3639
+    mass: 1.0000000409184788E35
+    name: Sharp Hezorime
+    orebasictype: 82163
+    packagedVolume: 8.0
+    portionSize: 100
+    price: 1149400.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.0
+  82312:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82312
+    marketGroup: 3639
+    mass: 1.0000000409184788E35
+    name: Compressed Hezorime
+    orebasictype: 82163
+    packagedVolume: 0.07999999821186066
+    portionSize: 100
+    price: 1149400.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.07999999821186066
+  82313:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82313
+    marketGroup: 3639
+    mass: 1.0000000409184788E35
+    name: Compressed Dull Hezorime
+    orebasictype: 82163
+    packagedVolume: 0.07999999821186066
+    portionSize: 100
+    price: 1149400.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.07999999821186066
+  82314:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82314
+    marketGroup: 3639
+    mass: 1.0000000409184788E35
+    name: Compressed Serrated Hezorime
+    orebasictype: 82163
+    packagedVolume: 0.07999999821186066
+    portionSize: 100
+    price: 1149400.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.07999999821186066
+  82315:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82315
+    marketGroup: 3639
+    mass: 1.0000000409184788E35
+    name: Compressed Sharp Hezorime
+    orebasictype: 82163
+    packagedVolume: 0.07999999821186066
+    portionSize: 100
+    price: 1149400.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.07999999821186066

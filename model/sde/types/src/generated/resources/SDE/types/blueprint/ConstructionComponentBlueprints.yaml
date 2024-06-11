@@ -700,3 +700,80 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  81070:
+    id: 81070
+    industryblueprintrank: 1.0
+    marketGroup: 3593
+    name: Fission Thruster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  81071:
+    id: 81071
+    industryblueprintrank: 1.0
+    marketGroup: 3593
+    name: Hyperconductive Gravimetric Sensor Cluster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  81072:
+    id: 81072
+    industryblueprintrank: 1.0
+    marketGroup: 3593
+    name: Electromechanical Microprocessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  81073:
+    id: 81073
+    industryblueprintrank: 1.0
+    marketGroup: 3593
+    name: Metaprismatic Armor Plate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  81074:
+    id: 81074
+    industryblueprintrank: 1.0
+    marketGroup: 3593
+    name: Repelling Shield Emitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  81075:
+    id: 81075
+    industryblueprintrank: 1.0
+    marketGroup: 3593
+    name: Fission Reactor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  81077:
+    id: 81077
+    industryblueprintrank: 1.0
+    marketGroup: 3593
+    name: Pentachoron Capacitor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

@@ -108,7 +108,7 @@ public interface Requested<T> {
 	public default long getCacheExpire() {
 		String expire = getExpires();
 		String date = getDate();
-		if (expire == null || date.isEmpty()) {
+		if (expire == null || date == null || date.isEmpty()) {
 			return 0;
 		}
 		return 1000 * ESITools.headerEpochSeconds(expire)

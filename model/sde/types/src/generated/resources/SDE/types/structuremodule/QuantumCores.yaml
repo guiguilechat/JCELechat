@@ -79,3 +79,13 @@ types:
     price: 1.0E10
     published: true
     volume: 95000.0
+  81920:
+    id: 81920
+    marketGroup: 1865
+    mass: 4000.0
+    name: Integrated Moon Drill Armature
+    packagedVolume: 3000.0
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    volume: 3000.0

@@ -26,6 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
@@ -113,6 +114,21 @@ public class SignatureSuppressor
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
+     * Authoring has been moved to FSD.
+     * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int metagroupid;
+    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -154,7 +170,7 @@ public class SignatureSuppressor
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double signaturesuppressorsignatureradiusbonuspassive;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, SignatureSuppressorSignatureRadiusBonusPassive.INSTANCE, Hp.INSTANCE, SignatureSuppressorSignatureRadiusBonusActive.INSTANCE, DurationHighisGood.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, SignatureSuppressorSignatureRadiusBonusPassive.INSTANCE, Hp.INSTANCE, SignatureSuppressorSignatureRadiusBonusActive.INSTANCE, DurationHighisGood.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE })));
     public static final SignatureSuppressor.MetaGroup METAGROUP = new SignatureSuppressor.MetaGroup();
 
     @Override
@@ -199,6 +215,10 @@ public class SignatureSuppressor
             case  1544 :
             {
                 return maxgroupfitted;
+            }
+            case  1692 :
+            {
+                return metagroupid;
             }
             case  669 :
             {

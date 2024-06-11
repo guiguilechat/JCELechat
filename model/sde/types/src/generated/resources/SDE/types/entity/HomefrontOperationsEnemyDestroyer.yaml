@@ -14,7 +14,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     entitymissiletypeid: 211
     falloff: 1.0
     gfxboosterid: 394
@@ -26,11 +26,11 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 832.0
     missiledamagemultiplier: 4.699999809265137
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 10400.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11500.0
     name: Shrouding Dragoon
     optimalsigradius: 1000
     packagedVolume: 28600.0
@@ -66,7 +66,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     explosivedamage: 6.0
     falloff: 5000.0
     gfxboosterid: 394
@@ -118,7 +118,7 @@ types:
     capacity: 235.0
     damagemultiplier: 5.099999904632568
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     explosivedamage: 6.0
     falloff: 5000.0
     gfxboosterid: 394
@@ -175,7 +175,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 180.0
-    entitykillbounty: 21000
+    entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 394
     hp: 800.0
@@ -226,7 +226,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 180.0
-    entitykillbounty: 21000
+    entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 395
     hp: 800.0
@@ -277,7 +277,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 180.0
-    entitykillbounty: 21000
+    entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 394
     hp: 800.0
@@ -328,7 +328,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 180.0
-    entitykillbounty: 21000
+    entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 397
     hp: 800.0
@@ -374,7 +374,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     entitymissiletypeid: 210
     falloff: 1.0
     gfxboosterid: 395
@@ -386,11 +386,11 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 2000.0
     missiledamagemultiplier: 5.099999904632568
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 9000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 9900.0
     name: Ransacker Cormorant
     optimalsigradius: 1000
     packagedVolume: 28700.0
@@ -423,7 +423,7 @@ types:
     damagemultiplier: 5.099999904632568
     damagemultiplierbonusmax: 0.5
     emdamage: 10.0
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 390
@@ -474,7 +474,7 @@ types:
     capacity: 235.0
     damagemultiplier: 5.099999904632568
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     explosivedamage: 10.0
     falloff: 5000.0
     gfxboosterid: 397
@@ -532,7 +532,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 6.0
     energyneutralizeramount: 90.0
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     explosivedamage: 10.0
     falloff: 5000.0
     gfxboosterid: 394
@@ -589,7 +589,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 6.0
     energyneutralizeramount: 90.0
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     explosivedamage: 10.0
     falloff: 5000.0
     gfxboosterid: 395
@@ -644,7 +644,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     entitymissiletypeid: 213
     falloff: 1.0
     gfxboosterid: 397
@@ -656,11 +656,11 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 832.0
     missiledamagemultiplier: 4.699999809265137
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 10400.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11500.0
     name: Spotter Talwar
     optimalsigradius: 1000
     packagedVolume: 28600.0
@@ -698,7 +698,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 90.0
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     entitymissiletypeid: 212
     falloff: 1.0
     gfxboosterid: 394
@@ -710,11 +710,11 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 832.0
     missiledamagemultiplier: 4.699999809265137
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 10400.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11500.0
     name: Sanguinary Dragoon
     optimalsigradius: 1000
     packagedVolume: 28600.0
@@ -750,7 +750,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     falloff: 5000.0
     gfxboosterid: 395
     gfxturretid: 562
@@ -810,7 +810,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 562
@@ -868,7 +868,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     entitymissiletypeid: 213
     falloff: 1.0
     gfxboosterid: 397
@@ -880,11 +880,11 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 832.0
     missiledamagemultiplier: 4.699999809265137
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 10400.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11500.0
     name: Persecutor Talwar
     optimalsigradius: 1000
     packagedVolume: 28600.0
@@ -921,7 +921,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 10.0
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 390
@@ -978,7 +978,7 @@ types:
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
     energyneutralizeramount: 90.0
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     explosivedamage: 6.0
     falloff: 5000.0
     gfxboosterid: 397
@@ -1036,7 +1036,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 4.0
     energyneutralizeramount: 90.0
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     explosivedamage: 4.0
     falloff: 5000.0
     gfxboosterid: 397
@@ -1091,7 +1091,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     entitymissiletypeid: 211
     falloff: 1.0
     gfxboosterid: 397
@@ -1103,11 +1103,11 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 832.0
     missiledamagemultiplier: 4.699999809265137
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 10400.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11500.0
     name: Blight Talwar
     optimalsigradius: 1000
     packagedVolume: 28600.0
@@ -1148,7 +1148,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 90.0
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     entitymissiletypeid: 212
     falloff: 1.0
     gfxboosterid: 394
@@ -1160,11 +1160,11 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 832.0
     missiledamagemultiplier: 4.699999809265137
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 10400.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11500.0
     name: Quietus Dragoon
     optimalsigradius: 1000
     packagedVolume: 28600.0
@@ -1200,7 +1200,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     falloff: 5000.0
     gfxboosterid: 395
     gfxturretid: 562
@@ -1260,7 +1260,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 125000
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 562
@@ -1315,7 +1315,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     explosivedamage: 6.0
     falloff: 5000.0
     gfxboosterid: 397
@@ -1368,7 +1368,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 4.0
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     explosivedamage: 4.0
     falloff: 5000.0
     gfxboosterid: 397
@@ -1420,7 +1420,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 6.0
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     falloff: 5000.0
     gfxboosterid: 397
     gfxturretid: 488
@@ -1472,7 +1472,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 10.0
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 452
@@ -1523,7 +1523,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     entitymissiletypeid: 210
     falloff: 1.0
     gfxboosterid: 395
@@ -1535,11 +1535,11 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 2000.0
     missiledamagemultiplier: 4.699999809265137
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 9000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 9900.0
     name: Evader Cormorant
     optimalsigradius: 1000
     packagedVolume: 28600.0
@@ -1571,7 +1571,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 565
@@ -1624,7 +1624,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 6.0
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     explosivedamage: 10.0
     falloff: 5000.0
     gfxboosterid: 394
@@ -1675,7 +1675,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     entitymissiletypeid: 213
     falloff: 1.0
     gfxboosterid: 395
@@ -1687,11 +1687,11 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 2000.0
     missiledamagemultiplier: 4.699999809265137
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 9000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 9900.0
     name: Activist Cormorant
     optimalsigradius: 1000
     packagedVolume: 28600.0
@@ -1723,7 +1723,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     explosivedamage: 10.0
     falloff: 5000.0
     gfxboosterid: 397
@@ -1776,7 +1776,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 10.0
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 452
@@ -1827,7 +1827,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     entitymissiletypeid: 210
     falloff: 1.0
     gfxboosterid: 395
@@ -1839,11 +1839,11 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 2000.0
     missiledamagemultiplier: 4.699999809265137
-    missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 2.0
-    missileentityflighttimemultiplier: 4.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 9000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 9900.0
     name: Smuggler Cormorant
     optimalsigradius: 1000
     packagedVolume: 28600.0
@@ -1875,7 +1875,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 565
@@ -1927,7 +1927,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     explosivedamage: 10.0
     falloff: 5000.0
     gfxboosterid: 397
@@ -1980,7 +1980,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 10.0
-    entitykillbounty: 15000
+    entitykillbounty: 112500
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 390
@@ -2035,7 +2035,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 394
     hp: 800.0
@@ -2089,7 +2089,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 395
     hp: 800.0
@@ -2143,7 +2143,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 394
     hp: 800.0
@@ -2197,7 +2197,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 21000
+    entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 397
     hp: 800.0

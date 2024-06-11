@@ -16,6 +16,7 @@ types:
     damagemultiplier: 18.149999618530273
     disallowassistance: 1
     emdamage: 12.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -37,17 +38,20 @@ types:
     entityflyrange: 22000.0
     entitykillbounty: 5000000
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6600000262260437
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.08250000327825546
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 2072
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -59,6 +63,7 @@ types:
     missileentityaoevelocitymultiplier: 1.3359999656677246
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Anire Scarlet
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -82,6 +87,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.04125000163912773
     volume: 118000.0
   24000:
@@ -101,6 +107,7 @@ types:
     damagemultiplier: 6.4375
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -122,17 +129,20 @@ types:
     entityflyrange: 9500.0
     entitykillbounty: 131250
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6100000143051147
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.07500000298023224
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 4000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1500.0
     id: 24000
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -144,6 +154,7 @@ types:
     missileentityaoevelocitymultiplier: 1.2949999570846558
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Corpatis Bishop
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -167,6 +178,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.06499999761581421
     volume: 118000.0
   24009:
@@ -186,6 +198,7 @@ types:
     damagemultiplier: 8.149999618530273
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -207,17 +220,20 @@ types:
     entityflyrange: 22000.0
     entitykillbounty: 135000
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6200000047683716
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.07625000178813934
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 24009
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -229,6 +245,7 @@ types:
     missileentityaoevelocitymultiplier: 1.3032000064849854
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Corpatis Seer
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -252,6 +269,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.032999999821186066
     volume: 118000.0
   24010:
@@ -271,6 +289,7 @@ types:
     damagemultiplier: 6.5
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -292,17 +311,20 @@ types:
     entityflyrange: 9500.0
     entitykillbounty: 138750
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6299999952316284
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.07750000059604645
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 4000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1500.0
     id: 24010
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -314,6 +336,7 @@ types:
     missileentityaoevelocitymultiplier: 1.311400055885315
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Corpatis Shade
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -337,6 +360,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.06499999761581421
     volume: 118000.0
   24011:
@@ -356,6 +380,7 @@ types:
     damagemultiplier: 8.199999809265137
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -377,17 +402,20 @@ types:
     entityflyrange: 22000.0
     entitykillbounty: 142500
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6399999856948853
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.07874999940395355
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 24011
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -399,6 +427,7 @@ types:
     missileentityaoevelocitymultiplier: 1.319599986076355
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Corpatis Fanatic
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -422,6 +451,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.032999999821186066
     volume: 118000.0
   24012:
@@ -441,6 +471,7 @@ types:
     damagemultiplier: 6.5625
     disallowassistance: 1
     emdamage: 12.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -462,17 +493,20 @@ types:
     entityflyrange: 9500.0
     entitykillbounty: 146250
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6499999761581421
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.07999999821186066
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 4000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1500.0
     id: 24012
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -484,6 +518,7 @@ types:
     missileentityaoevelocitymultiplier: 1.3278000354766846
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Corpatis Phantom
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -507,6 +542,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.06499999761581421
     volume: 118000.0
   24013:
@@ -526,6 +562,7 @@ types:
     damagemultiplier: 8.25
     disallowassistance: 1
     emdamage: 12.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -547,17 +584,20 @@ types:
     entityflyrange: 22000.0
     entitykillbounty: 153750
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6600000262260437
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.08250000327825546
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 24013
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -569,6 +609,7 @@ types:
     missileentityaoevelocitymultiplier: 1.3359999656677246
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Corpatis Exorcist
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -592,6 +633,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.032999999821186066
     volume: 118000.0
   24181:
@@ -611,6 +653,7 @@ types:
     damagemultiplier: 8.046875
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -632,17 +675,20 @@ types:
     entityflyrange: 9500.0
     entitykillbounty: 150000
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6100000143051147
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.08124999701976776
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 5000.0
     gfxboosterid: 397
     gfxturretid: 458
     hp: 1500.0
     id: 24181
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -654,6 +700,7 @@ types:
     missileentityaoevelocitymultiplier: 1.6200000047683716
     missilelaunchduration: 0.800000011920929
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dark Corpatis Bishop
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -677,6 +724,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.08124999701976776
     volume: 118000.0
   24182:
@@ -696,6 +744,7 @@ types:
     damagemultiplier: 10.1875
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -717,17 +766,20 @@ types:
     entityflyrange: 22000.0
     entitykillbounty: 157500
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6200000047683716
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.08375000208616257
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 24182
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -739,6 +791,7 @@ types:
     missileentityaoevelocitymultiplier: 1.6299999952316284
     missilelaunchduration: 0.800000011920929
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dark Corpatis Seer
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -762,6 +815,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.04125000163912773
     volume: 118000.0
   24183:
@@ -781,6 +835,7 @@ types:
     damagemultiplier: 8.125
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -802,17 +857,20 @@ types:
     entityflyrange: 9500.0
     entitykillbounty: 161250
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6299999952316284
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.08500000089406967
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 5000.0
     gfxboosterid: 397
     gfxturretid: 458
     hp: 1500.0
     id: 24183
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -824,6 +882,7 @@ types:
     missileentityaoevelocitymultiplier: 1.6399999856948853
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dark Corpatis Shade
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -847,6 +906,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.08124999701976776
     volume: 118000.0
   24184:
@@ -866,6 +926,7 @@ types:
     damagemultiplier: 10.25
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -887,17 +948,20 @@ types:
     entityflyrange: 22000.0
     entitykillbounty: 165000
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6399999856948853
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.08624999970197678
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 24184
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -909,6 +973,7 @@ types:
     missileentityaoevelocitymultiplier: 1.649999976158142
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dark Corpatis Fanatic
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -932,6 +997,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.04125000163912773
     volume: 118000.0
   24185:
@@ -951,6 +1017,7 @@ types:
     damagemultiplier: 8.203125
     disallowassistance: 1
     emdamage: 12.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -972,17 +1039,20 @@ types:
     entityflyrange: 9500.0
     entitykillbounty: 168750
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6499999761581421
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.08749999850988388
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 5000.0
     gfxboosterid: 397
     gfxturretid: 458
     hp: 1500.0
     id: 24185
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -994,6 +1064,7 @@ types:
     missileentityaoevelocitymultiplier: 1.659999966621399
     missilelaunchduration: 0.800000011920929
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dark Corpatis Phantom
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -1017,6 +1088,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.08124999701976776
     volume: 118000.0
   24186:
@@ -1036,6 +1108,7 @@ types:
     damagemultiplier: 10.3125
     disallowassistance: 1
     emdamage: 12.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
     entityarmorrepairdelaychance: 0.6000000238418579
     entityarmorrepairdelaychancemedium: 0.6499999761581421
@@ -1057,17 +1130,20 @@ types:
     entityflyrange: 22000.0
     entitykillbounty: 172500
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6600000262260437
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.08874999731779099
     entityshieldboostdelaychancemedium: 0.6499999761581421
     entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 24186
+    kineticdamageresonance: 1.0
     mass: 1.18E7
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
@@ -1079,6 +1155,7 @@ types:
     missileentityaoevelocitymultiplier: 1.6699999570846558
     missilelaunchduration: 0.800000011920929
     modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Dark Corpatis Exorcist
     optimalsigradius: 125
     packagedVolume: 118000.0
@@ -1102,5 +1179,100 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.04125000163912773
+    volume: 118000.0
+  83667:
+    agility: 1.0
+    aiignoredronesbelowsignatureradius: 75
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 2.0
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 2250.0
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    behaviorarmorrepairerduration: 10000
+    capacitorcapacity: 975.0
+    capacity: 235.0
+    damagemultiplier: 17.100000381469727
+    disallowassistance: 1
+    emdamage: 11.0
+    emdamageresonance: 1.0
+    entityarmorrepairamount: 360.0
+    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 17700
+    entityattackdelaymin: 4425
+    entityattackrange: 100000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 2000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 28000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 220.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentmax: 6
+    entityequipmentmin: -5
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 20000.0
+    entitykillbounty: 350625
+    entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 1
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6600000262260437
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.08250000327825546
+    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostduration: 5000
+    explosivedamageresonance: 1.0
+    falloff: 10000.0
+    gfxboosterid: 397
+    gfxturretid: 459
+    hp: 1650.0
+    id: 83667
+    kineticdamageresonance: 1.0
+    mass: 1.18E7
+    maxattacktargets: 1
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 5
+    maxrange: 50000.0
+    maxvelocity: 460.0
+    mintargetveldmgmultiplier: 0.25
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedchance: 1.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 12000
+    name: Corpatis Oracle
+    optimalsigradius: 100
+    packagedVolume: 118000.0
+    portionSize: 1
+    propulsiongraphicid: 397
+    published: false
+    radius: 150.0
+    rechargerate: 600000.0
+    scanradarstrength: 20.0
+    scanresolution: 400.0
+    scanspeed: 5000
+    shieldcapacity: 1375.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 300.0
+    speed: 5000.0
+    speedfactor: -40.0
+    structureuniformity: 1.0
+    thermaldamage: 11.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.10000000149011612
     volume: 118000.0

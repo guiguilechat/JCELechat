@@ -13,9 +13,12 @@ types:
     canjump: 1
     capacitorcapacity: 58000.0
     capacity: 825.0
+    conduitjumpdriveconsumptionamount: 21000
+    conduitjumppassengercount: 5
     cpuoutput: 625
     disallowinhighsec: 1
     emdamageresonance: 0.6700000166893005
+    enableperformconduitjump: 1
     energywarfareresistance: 1.0
     entosisassistanceimpedancemultiplier: 9.999999747378752E-6
     entosisdurationmultiplier: 5
@@ -46,7 +49,9 @@ types:
     hp: 76300.0
     id: 23757
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
+    jumpconduitpassengerrequiredattributeid: 5682
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 16274
@@ -130,9 +135,12 @@ types:
     canjump: 1
     capacitorcapacity: 55000.0
     capacity: 875.0
+    conduitjumpdriveconsumptionamount: 21000
+    conduitjumppassengercount: 5
     cpuoutput: 725
     disallowinhighsec: 1
     emdamageresonance: 0.6700000166893005
+    enableperformconduitjump: 1
     energywarfareresistance: 1.0
     entosisassistanceimpedancemultiplier: 9.999999747378752E-6
     entosisdurationmultiplier: 5
@@ -163,7 +171,9 @@ types:
     hp: 83500.0
     id: 23911
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
+    jumpconduitpassengerrequiredattributeid: 5682
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 17887
@@ -248,9 +258,12 @@ types:
     canjump: 1
     capacitorcapacity: 50000.0
     capacity: 870.0
+    conduitjumpdriveconsumptionamount: 21000
+    conduitjumppassengercount: 5
     cpuoutput: 825
     disallowinhighsec: 1
     emdamageresonance: 0.6700000166893005
+    enableperformconduitjump: 1
     energywarfareresistance: 1.0
     entosisassistanceimpedancemultiplier: 9.999999747378752E-6
     entosisdurationmultiplier: 5
@@ -281,7 +294,9 @@ types:
     hp: 69400.0
     id: 23915
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
+    jumpconduitpassengerrequiredattributeid: 5682
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 17888
@@ -365,9 +380,12 @@ types:
     canjump: 1
     capacitorcapacity: 48000.0
     capacity: 860.0
+    conduitjumpdriveconsumptionamount: 21000
+    conduitjumppassengercount: 5
     cpuoutput: 775
     disallowinhighsec: 1
     emdamageresonance: 0.6700000166893005
+    enableperformconduitjump: 1
     energywarfareresistance: 1.0
     entosisassistanceimpedancemultiplier: 9.999999747378752E-6
     entosisdurationmultiplier: 5
@@ -398,7 +416,9 @@ types:
     hp: 62500.0
     id: 24483
     iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
+    jumpconduitpassengerrequiredattributeid: 5682
     jumpdrivecapacitorneed: 0.949999988079071
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 17889

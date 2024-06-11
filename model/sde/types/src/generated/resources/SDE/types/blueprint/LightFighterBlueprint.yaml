@@ -319,3 +319,91 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
+  83595:
+    id: 83595
+    industryblueprintrank: 40.0
+    name: Imperial Navy Templar Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83596:
+    id: 83596
+    industryblueprintrank: 40.0
+    name: Caldari Navy Dragonfly Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83597:
+    id: 83597
+    industryblueprintrank: 40.0
+    name: Federation Navy Firbolg Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83598:
+    id: 83598
+    industryblueprintrank: 40.0
+    name: Republic Fleet Einherji Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83599:
+    id: 83599
+    industryblueprintrank: 40.0
+    name: Imperial Navy Equite Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83600:
+    id: 83600
+    industryblueprintrank: 40.0
+    name: Caldari Navy Locust Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83601:
+    id: 83601
+    industryblueprintrank: 40.0
+    name: Federation Navy Satyr Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  83602:
+    id: 83602
+    industryblueprintrank: 40.0
+    name: Republic Fleet Gram Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.00473408E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

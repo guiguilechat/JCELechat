@@ -149,6 +149,13 @@ public class ElectronicSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int scanskilltargetpaintstrengthbonus;
+    /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanSkillTargetPaintStrengthBonus.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, ProjECMDurationBonus.INSTANCE, CloakVelocityBonus.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, MaxTargetBonus.INSTANCE, SkillLevel.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE })));
     public static final ElectronicSystems.MetaGroup METAGROUP = new ElectronicSystems.MetaGroup();
 
@@ -214,6 +221,10 @@ public class ElectronicSystems
             case  832 :
             {
                 return scanskilltargetpaintstrengthbonus;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             default:
             {

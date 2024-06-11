@@ -115,7 +115,7 @@ public class MicroJumpFieldGenerators
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
-     * distance jumped on mjd activation
+     * distance jumped on mjd activation in meters
      */
     @HighIsGood(true)
     @Stackable(true)

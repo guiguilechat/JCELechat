@@ -19,7 +19,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EinvNames {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/bsd/invNames.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "bsd/invNames.yaml");
 	private static ArrayList<EinvNames> cache;
 
 	public static synchronized ArrayList<EinvNames> load() {

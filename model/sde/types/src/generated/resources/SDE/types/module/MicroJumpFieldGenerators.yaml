@@ -15,7 +15,7 @@ types:
     maxgroupfitted: 1
     metalevelold: 1
     mjdjumprange: 100000
-    mjdshipjumpcap: 25
+    mjdshipjumpcap: 24
     mjfgradius: 6000
     modulereactivationdelay: 160000
     name: Micro Jump Field Generator

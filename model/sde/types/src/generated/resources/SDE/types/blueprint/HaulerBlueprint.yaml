@@ -199,3 +199,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  81043:
+    id: 81043
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    marketGroup: 3579
+    name: Squall Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

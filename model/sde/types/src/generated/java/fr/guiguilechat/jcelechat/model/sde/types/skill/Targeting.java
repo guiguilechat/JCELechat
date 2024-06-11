@@ -61,6 +61,13 @@ public class Targeting
     @Stackable(false)
     @DefaultIntValue(0)
     public int sensorstrengthbonus;
+    /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, MaxTargetRangeBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, ScanResolutionBonus.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, MaxTargetBonus.INSTANCE, SkillLevel.INSTANCE, SensorStrengthBonus.INSTANCE })));
     public static final Targeting.MetaGroup METAGROUP = new Targeting.MetaGroup();
 
@@ -82,6 +89,10 @@ public class Targeting
             case  1851 :
             {
                 return sensorstrengthbonus;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             default:
             {

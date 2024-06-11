@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model;
 
 import java.io.Serializable;
 
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Egroups;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
@@ -37,14 +37,14 @@ public class Group implements Serializable {
 	private boolean published;
 	private boolean useBasePrice;
 
-	public static Group from(int id, EgroupIDs data, Category cat) {
+	public static Group from(int id, Egroups data, Category cat) {
 		return Group.builder()
 				.groupId(id)
 				.build()
 				.update(data, cat);
 	}
 
-	public Group update(EgroupIDs data, Category cat) {
+	public Group update(Egroups data, Category cat) {
 		category = cat;
 		anchorable = data.anchorable;
 		anchored = data.anchored;

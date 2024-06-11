@@ -37,6 +37,7 @@ types:
     id: 12729
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
@@ -132,6 +133,7 @@ types:
     id: 12733
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
@@ -227,6 +229,7 @@ types:
     id: 12735
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
@@ -323,6 +326,7 @@ types:
     id: 12743
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -376,6 +380,104 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 190000.0
+    warpcapacitorneed: 1.089999983605594E-7
+    warpspeedmultiplier: 6.0
+    weapondisruptionresistance: 1.0
+  81046:
+    affectedbyindustrialinvulnmodule: 1
+    agility: 0.5099999904632568
+    allowedincapindustrialmaintenancebay: 1
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.44999998807907104
+    armorhp: 750.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.13750000298023224
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 2000.0
+    capacity: 4000.0
+    cargoscanresistance: 1.0
+    covertopsandreconopscloakmoduledelay: 5000
+    cpuoutput: 400
+    elitebonusindustrial1: 5
+    eliteindustrialcovertcloakbonus: -20
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 100
+    gfxboosterid: 395
+    heatattenuationhi: 0.6299999952316284
+    heatattenuationlow: 0.25
+    heatattenuationmed: 0.6299999952316284
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.75
+    hislots: 4
+    hp: 1500.0
+    id: 81046
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
+    iscarrierjumpconduitpassenger: 1
+    jumpfatiguemultiplier: 0.10000000149011612
+    kineticdamageresonance: 0.6700000166893005
+    launcherslotsleft: 3
+    lowslots: 2
+    maincolor: 16777215
+    marketGroup: 3578
+    mass: 1.08E7
+    maxlockedtargets: 5
+    maxpassengers: 100
+    maxtargetrange: 45000.0
+    maxvelocity: 265.0
+    medslots: 4
+    metalevelold: 5
+    name: Deluge
+    packagedVolume: 20000.0
+    portionSize: 1
+    poweroutput: 430
+    powertospeed: 1
+    price: 1.115E8
+    propulsiongraphicid: 395
+    published: true
+    radius: 216.39999389648438
+    rechargerate: 500000.0
+    requiredskill1: 81032
+    requiredskill1level: 5
+    requiredskill2: 19719
+    requiredskill2level: 1
+    rigsize: 2
+    rigslots: 2
+    scangravimetricstrength: 17.0
+    scanresolution: 220.0
+    scanspeed: 9000
+    shieldcapacity: 3000.0
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.25
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.20000000298023224
+    shielduniformity: 0.75
+    shipbonusai: 5
+    shipbonusci: 5
+    shipbonusgi: 5
+    shipbonusmi: 5
+    shipbonusuh1: 10
+    shipbonusuh2: 15
+    signatureradius: 115.0
+    specialcolonyresourcesholdcapacity: 30000
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 0.6700000166893005
+    typecolorscheme: 11410
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 2
+    volume: 200000.0
     warpcapacitorneed: 1.089999983605594E-7
     warpspeedmultiplier: 6.0
     weapondisruptionresistance: 1.0

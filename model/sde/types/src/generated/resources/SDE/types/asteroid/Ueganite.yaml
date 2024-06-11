@@ -1,0 +1,153 @@
+types:
+  82205:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82205
+    marketGroup: 3638
+    mass: 1.0000000409184788E35
+    name: Ueganite
+    orebasictype: 82205
+    packagedVolume: 8.0
+    portionSize: 100
+    price: 3068504.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.0
+  82206:
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82206
+    marketGroup: 3638
+    mass: 1.0000000409184788E35
+    name: Foggy Ueganite
+    orebasictype: 82205
+    packagedVolume: 8.0
+    portionSize: 100
+    price: 3068504.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.0
+  82207:
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82207
+    marketGroup: 3638
+    mass: 1.0000000409184788E35
+    name: Overcast Ueganite
+    orebasictype: 82205
+    packagedVolume: 8.0
+    portionSize: 100
+    price: 3068504.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.0
+  82208:
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82208
+    marketGroup: 3638
+    mass: 1.0000000409184788E35
+    name: Stormy Ueganite
+    orebasictype: 82205
+    packagedVolume: 8.0
+    portionSize: 100
+    price: 3068504.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 8.0
+  82308:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82308
+    marketGroup: 3638
+    mass: 1.0000000409184788E35
+    name: Compressed Ueganite
+    orebasictype: 82205
+    packagedVolume: 0.07999999821186066
+    portionSize: 100
+    price: 3068504.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.07999999821186066
+  82309:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82309
+    marketGroup: 3638
+    mass: 1.0000000409184788E35
+    name: Compressed Foggy Ueganite
+    orebasictype: 82205
+    packagedVolume: 0.07999999821186066
+    portionSize: 100
+    price: 3068504.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.07999999821186066
+  82310:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82310
+    marketGroup: 3638
+    mass: 1.0000000409184788E35
+    name: Compressed Overcast Ueganite
+    orebasictype: 82205
+    packagedVolume: 0.07999999821186066
+    portionSize: 100
+    price: 3068504.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.07999999821186066
+  82311:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 600
+    id: 82311
+    marketGroup: 3638
+    mass: 1.0000000409184788E35
+    name: Compressed Stormy Ueganite
+    orebasictype: 82205
+    packagedVolume: 0.07999999821186066
+    portionSize: 100
+    price: 3068504.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60380
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.07999999821186066

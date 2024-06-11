@@ -86,6 +86,13 @@ public class Scanning
     @DefaultIntValue(0)
     public int scanspeedbonus;
     /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
+    /**
      * Adds to the virus coherence of profession modules
      */
     @HighIsGood(true)
@@ -125,6 +132,10 @@ public class Scanning
             case  308 :
             {
                 return scanspeedbonus;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             case  1915 :
             {

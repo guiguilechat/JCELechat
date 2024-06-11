@@ -26,10 +26,10 @@ public class Universe {
 			SDECache.INSTANCE.donwloadSDE();
 			cache = new Universe();
 			for(Entry<String, LinkedHashMap<String, Region>> e : Map.of(
-					"sde/fsd/universe/abyssal/",cache.abyssal,
-					"sde/fsd/universe/eve/",cache.eve,
-					"sde/fsd/universe/void/",cache.starter,
-					"sde/fsd/universe/wormhole/",cache.wormhole
+			    "universe/abyssal/", cache.abyssal,
+			    "universe/eve/", cache.eve,
+			    "universe/void/", cache.starter,
+			    "universe/wormhole/", cache.wormhole
 					).entrySet()) {
 				String fileName = e.getKey();
 				LinkedHashMap<String, Region> regions = e.getValue();

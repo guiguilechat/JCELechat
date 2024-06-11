@@ -66,6 +66,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
@@ -104,8 +105,8 @@ public class LightFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilityattackmissiledamageem;
+    @DefaultRealValue(0.0)
+    public double fighterabilityattackmissiledamageem;
     /**
      * Explosive Damage
      */
@@ -118,8 +119,8 @@ public class LightFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilityattackmissiledamagekin;
+    @DefaultRealValue(0.0)
+    public double fighterabilityattackmissiledamagekin;
     /**
      * Damage Multiplier
      */
@@ -244,15 +245,15 @@ public class LightFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilitymissilesdamageexp;
+    @DefaultRealValue(0.0)
+    public double fighterabilitymissilesdamageexp;
     /**
      * Kinetic Damage
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilitymissilesdamagekin;
+    @DefaultRealValue(0.0)
+    public double fighterabilitymissilesdamagekin;
     /**
      * Damage Multiplier
      */
@@ -365,7 +366,7 @@ public class LightFighter
     @Stackable(true)
     @DefaultIntValue(0)
     public int fightersquadronisstanduplight;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityMissilesDuration.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, StructureItemVisualFlag.INSTANCE, Radius.INSTANCE, FighterSquadronIsLight.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterSquadronOrbitRange.INSTANCE, FighterAbilityEvasiveManeuversSpeedBonus.INSTANCE, FighterAbilityEvasiveManeuversSignatureRadiusBonus.INSTANCE, FighterAbilityAttackMissileDamageMultiplier.INSTANCE, FighterAbilityAttackMissileDamageEM.INSTANCE, FighterAbilityAttackMissileDamageTherm.INSTANCE, FighterSquadronIsStandupLight.INSTANCE, ScanResolution.INSTANCE, FighterAbilityAttackMissileDamageKin.INSTANCE, FighterAbilityAttackMissileDamageExp.INSTANCE, RequiredSkill1 .INSTANCE, FighterAbilityAttackMissileReductionFactor.INSTANCE, RequiredSkill2 .INSTANCE, FighterAbilityAttackMissileReductionSensitivity.INSTANCE, FighterAbilityAttackMissileDuration.INSTANCE, FighterAbilityAttackMissileExplosionRadius.INSTANCE, FighterAbilityAttackMissileExplosionVelocity.INSTANCE, FighterAbilityAttackMissileRangeOptimal.INSTANCE, FighterAbilityAttackMissileRangeFalloff.INSTANCE, FighterAbilityTackleDuration.INSTANCE, FighterAbilityTackleRange.INSTANCE, MaxLockedTargets.INSTANCE, FighterAbilityTackleWebSpeedPenalty.INSTANCE, FighterAbilityTackleWebSpeedPenaltyInterim.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityEvasiveManeuversEmResonance.INSTANCE, Agility.INSTANCE, FighterAbilityEvasiveManeuversThermResonance.INSTANCE, FighterAbilityEvasiveManeuversKinResonance.INSTANCE, FighterAbilityEvasiveManeuversExpResonance.INSTANCE, FighterAbilityEvasiveManeuversDuration.INSTANCE, MaxTargetRange.INSTANCE, FighterAbilityMissilesExplosionRadius.INSTANCE, FighterAbilityMissilesExplosionVelocity.INSTANCE, FighterAbilityMissilesDamageReductionFactor.INSTANCE, FighterAbilityMissilesDamageReductionSensitivity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, FighterAbilityMissilesDamageMultiplier.INSTANCE, ScanMagnetometricStrength.INSTANCE, FighterAbilityMissilesDamageEM.INSTANCE, ScanGravimetricStrength.INSTANCE, FighterAbilityMissilesDamageTherm.INSTANCE, FighterAbilityMissilesDamageKin.INSTANCE, FighterAbilityMissilesDamageExp.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityMissilesRange.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityTackleWarpDisruptionPointStrength.INSTANCE, MetaLevelOld.INSTANCE, FighterAbilityMissilesResistanceID.INSTANCE, FighterRefuelingTime.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityMissilesDuration.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, MetaGroupID.INSTANCE, StructureItemVisualFlag.INSTANCE, Radius.INSTANCE, FighterSquadronIsLight.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterSquadronOrbitRange.INSTANCE, FighterAbilityEvasiveManeuversSpeedBonus.INSTANCE, FighterAbilityEvasiveManeuversSignatureRadiusBonus.INSTANCE, FighterAbilityAttackMissileDamageMultiplier.INSTANCE, FighterAbilityAttackMissileDamageEM.INSTANCE, FighterAbilityAttackMissileDamageTherm.INSTANCE, FighterSquadronIsStandupLight.INSTANCE, ScanResolution.INSTANCE, FighterAbilityAttackMissileDamageKin.INSTANCE, FighterAbilityAttackMissileDamageExp.INSTANCE, RequiredSkill1 .INSTANCE, FighterAbilityAttackMissileReductionFactor.INSTANCE, RequiredSkill2 .INSTANCE, FighterAbilityAttackMissileReductionSensitivity.INSTANCE, FighterAbilityAttackMissileDuration.INSTANCE, FighterAbilityAttackMissileExplosionRadius.INSTANCE, FighterAbilityAttackMissileExplosionVelocity.INSTANCE, FighterAbilityAttackMissileRangeOptimal.INSTANCE, FighterAbilityAttackMissileRangeFalloff.INSTANCE, FighterAbilityTackleDuration.INSTANCE, FighterAbilityTackleRange.INSTANCE, MaxLockedTargets.INSTANCE, FighterAbilityTackleWebSpeedPenalty.INSTANCE, FighterAbilityTackleWebSpeedPenaltyInterim.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityEvasiveManeuversEmResonance.INSTANCE, Agility.INSTANCE, FighterAbilityEvasiveManeuversThermResonance.INSTANCE, FighterAbilityEvasiveManeuversKinResonance.INSTANCE, FighterAbilityEvasiveManeuversExpResonance.INSTANCE, FighterAbilityEvasiveManeuversDuration.INSTANCE, MaxTargetRange.INSTANCE, FighterAbilityMissilesExplosionRadius.INSTANCE, FighterAbilityMissilesExplosionVelocity.INSTANCE, FighterAbilityMissilesDamageReductionFactor.INSTANCE, FighterAbilityMissilesDamageReductionSensitivity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, FighterAbilityMissilesDamageMultiplier.INSTANCE, ScanMagnetometricStrength.INSTANCE, FighterAbilityMissilesDamageEM.INSTANCE, ScanGravimetricStrength.INSTANCE, FighterAbilityMissilesDamageTherm.INSTANCE, FighterAbilityMissilesDamageKin.INSTANCE, FighterAbilityMissilesDamageExp.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityMissilesRange.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityTackleWarpDisruptionPointStrength.INSTANCE, MetaLevelOld.INSTANCE, FighterAbilityMissilesResistanceID.INSTANCE, FighterRefuelingTime.INSTANCE })));
     public static final LightFighter.MetaGroup METAGROUP = new LightFighter.MetaGroup();
 
     @Override

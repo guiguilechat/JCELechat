@@ -45,6 +45,7 @@ types:
     industrialcommandbonusgeneralminingholdcapacity: 5
     industrialcommandbonusminingforemanburstrange: 5
     industrialcommandbonusshipcargocapacity: 5
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 2
@@ -148,6 +149,7 @@ types:
     industrialcommandbonusgeneralminingholdcapacity: 5
     industrialcommandbonusminingforemanburstrange: 5
     industrialcommandbonusshipcargocapacity: 5
+    iscarrierjumpconduitpassenger: 1
     isindustrialjumpconduitpassenger: 1
     isindustrialjumpportalpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612

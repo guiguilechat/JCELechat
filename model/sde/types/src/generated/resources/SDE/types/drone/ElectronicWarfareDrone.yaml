@@ -375,6 +375,8 @@ types:
     rechargerate: 2500000.0
     requiredskill1: 23566
     requiredskill1level: 1
+    requiredskill2: 3427
+    requiredskill2level: 4
     requiredskill3: 3436
     requiredskill3level: 5
     scangravimetricstrength: 5.0

@@ -28,3 +28,123 @@ types:
     signaturesuppressorsignatureradiusbonuspassive: 0.8999999761581421
     techlevel: 1
     volume: 5.0
+  83643:
+    canfitshipgroup01: 900
+    canfitshipgroup02: 27
+    canfitshipgroup03: 898
+    capacitorneed: 660.0
+    cpu: 50.0
+    disallowrepeatingactivation: 1
+    durationhighisgood: 14000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    hp: 40.0
+    id: 83643
+    marketGroup: 1426
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metagroupid: 4
+    metalevelold: 8
+    modulereactivationdelay: 150000
+    name: Domination Signature Radius Suppressor
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 29696.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 4
+    signaturesuppressorsignatureradiusbonusactive: 0.25
+    signaturesuppressorsignatureradiusbonuspassive: 0.875
+    techlevel: 1
+    volume: 5.0
+  83644:
+    canfitshipgroup01: 900
+    canfitshipgroup02: 27
+    canfitshipgroup03: 898
+    capacitorneed: 520.0
+    cpu: 40.0
+    disallowrepeatingactivation: 1
+    durationhighisgood: 14000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    hp: 40.0
+    id: 83644
+    marketGroup: 1426
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metagroupid: 4
+    metalevelold: 8
+    modulereactivationdelay: 150000
+    name: Dread Guristas Signature Radius Suppressor
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 29696.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 4
+    signaturesuppressorsignatureradiusbonusactive: 0.2750000059604645
+    signaturesuppressorsignatureradiusbonuspassive: 0.875
+    techlevel: 1
+    volume: 5.0
+  83660:
+    canfitshipgroup01: 900
+    canfitshipgroup02: 27
+    canfitshipgroup03: 898
+    capacitorneed: 660.0
+    cpu: 70.0
+    disallowrepeatingactivation: 1
+    durationhighisgood: 16000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    hp: 40.0
+    id: 83660
+    marketGroup: 1426
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metagroupid: 5
+    metalevelold: 14
+    modulereactivationdelay: 150000
+    name: Zohar's Modified Signature Radius Suppressor
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 29696.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 4
+    signaturesuppressorsignatureradiusbonusactive: 0.20000000298023224
+    signaturesuppressorsignatureradiusbonuspassive: 0.8500000238418579
+    techlevel: 1
+    volume: 5.0
+  83661:
+    canfitshipgroup01: 900
+    canfitshipgroup02: 27
+    canfitshipgroup03: 898
+    capacitorneed: 520.0
+    cpu: 56.0
+    disallowrepeatingactivation: 1
+    durationhighisgood: 16000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    hp: 40.0
+    id: 83661
+    marketGroup: 1426
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metagroupid: 5
+    metalevelold: 14
+    modulereactivationdelay: 150000
+    name: Hakuzosu's Modified Signature Radius Suppressor
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 29696.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 4
+    signaturesuppressorsignatureradiusbonusactive: 0.22499999403953552
+    signaturesuppressorsignatureradiusbonuspassive: 0.8500000238418579
+    techlevel: 1
+    volume: 5.0

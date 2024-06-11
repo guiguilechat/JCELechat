@@ -233,3 +233,39 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 14.0
     volume: 0.009999999776482582
+  83094:
+    cannotbetrainedontrial: 1
+    conduitpassengerbonuspercent: 100
+    id: 83094
+    marketGroup: 374
+    name: Capital Jump Portal Generation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E8
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 24562
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 14.0
+    volume: 0.009999999776482582
+  83464:
+    cannotbetrainedontrial: 1
+    capitalmjdcapreductionbonus: -5
+    id: 83464
+    marketGroup: 374
+    name: Capital Micro Jump Drive Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E8
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3449
+    requiredskill1level: 5
+    requiredskill2: 4385
+    requiredskill2level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 14.0
+    volume: 0.009999999776482582

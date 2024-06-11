@@ -178,3 +178,22 @@ types:
     requiredskill3level: 5
     techlevel: 1
     volume: 1.0
+  83642:
+    id: 83642
+    implantness: 10
+    marketGroup: 1505
+    metagroupid: 4
+    mindlinkbonus: 25
+    name: Guri Malakim Command Mindlink
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    requiredskill2: 11572
+    requiredskill2level: 5
+    requiredskill3: 3352
+    requiredskill3level: 5
+    techlevel: 1
+    volume: 1.0

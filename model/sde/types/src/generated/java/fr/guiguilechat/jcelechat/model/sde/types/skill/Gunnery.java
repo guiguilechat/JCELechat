@@ -141,6 +141,13 @@ public class Gunnery
     @DefaultIntValue(0)
     public int rofbonus;
     /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
+    /**
      * Tracking Speed Bonus
      */
     @HighIsGood(true)
@@ -154,7 +161,7 @@ public class Gunnery
     @Stackable(true)
     @DefaultIntValue(0)
     public int turretspeebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, DisruptionLanceSkillBoostCapacitorCost.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, TurretSpeeBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, DisruptionLanceSkillBoostCapacitorCost.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, TurretSpeeBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final Gunnery.MetaGroup METAGROUP = new Gunnery.MetaGroup();
 
     @Override
@@ -215,6 +222,10 @@ public class Gunnery
             case  293 :
             {
                 return rofbonus;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             case  767 :
             {

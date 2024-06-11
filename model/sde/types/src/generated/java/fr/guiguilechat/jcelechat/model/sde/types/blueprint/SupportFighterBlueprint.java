@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryBlueprintRank;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
@@ -32,6 +33,13 @@ public class SupportFighterBlueprint
     @DefaultRealValue(0.0)
     public double capacity;
     /**
+     * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double industryblueprintrank;
+    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
@@ -46,7 +54,7 @@ public class SupportFighterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE })));
     public static final SupportFighterBlueprint.MetaGroup METAGROUP = new SupportFighterBlueprint.MetaGroup();
 
     @Override
@@ -55,6 +63,10 @@ public class SupportFighterBlueprint
             case  38 :
             {
                 return capacity;
+            }
+            case  1955 :
+            {
+                return industryblueprintrank;
             }
             case  162 :
             {

@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -30,14 +29,18 @@ import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Ducinium;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Eifyrium;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.ExceptionalMoonAsteroids;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Gneiss;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Griemeer;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Hedbergite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Hemorphite;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Hezorime;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Ice;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Jaspet;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Kernite;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Kylixium;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mercoxit;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mordunium;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mutanite;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Nocxite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Omber;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Plagioclase;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Pyroxeres;
@@ -47,6 +50,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Scordite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Spodumain;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Talassonite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.UbiquitousMoonAsteroids;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Ueganite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.UncommonMoonAsteroids;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Veldspar;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Ytirium;
@@ -73,13 +77,6 @@ public abstract class Asteroid
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double asteroidradiusgrowthfactor;
-    /**
-     * Sets the radius of the asteroid ball when it has a quantity of 1 unit
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(90)
-    public int asteroidradiusunitsize;
     /**
      * The cargo space allowed
      */
@@ -108,7 +105,7 @@ public abstract class Asteroid
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE })));
     public static final Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
@@ -121,10 +118,6 @@ public abstract class Asteroid
             case  1980 :
             {
                 return asteroidradiusgrowthfactor;
-            }
-            case  1981 :
-            {
-                return asteroidradiusunitsize;
             }
             case  38 :
             {
@@ -175,7 +168,7 @@ public abstract class Asteroid
 
         @Override
         public Collection<IMetaGroup<? extends Asteroid>> groups() {
-            return Arrays.asList(Mordunium.METAGROUP, Ytirium.METAGROUP, Eifyrium.METAGROUP, Ducinium.METAGROUP, Arkonor.METAGROUP, Bistot.METAGROUP, Crokite.METAGROUP, DarkOchre.METAGROUP, Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP, Ice.METAGROUP, Gneiss.METAGROUP, Mercoxit.METAGROUP, Omber.METAGROUP, Mutanite.METAGROUP, UbiquitousMoonAsteroids.METAGROUP, CommonMoonAsteroids.METAGROUP, UncommonMoonAsteroids.METAGROUP, RareMoonAsteroids.METAGROUP, ExceptionalMoonAsteroids.METAGROUP, Talassonite.METAGROUP, Rakovene.METAGROUP, Bezdnacine.METAGROUP);
+            return Arrays.asList(Mordunium.METAGROUP, Ytirium.METAGROUP, Eifyrium.METAGROUP, Ducinium.METAGROUP, Arkonor.METAGROUP, Bistot.METAGROUP, Crokite.METAGROUP, DarkOchre.METAGROUP, Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP, Ice.METAGROUP, Gneiss.METAGROUP, Mercoxit.METAGROUP, Omber.METAGROUP, Mutanite.METAGROUP, Kylixium.METAGROUP, Nocxite.METAGROUP, Ueganite.METAGROUP, Hezorime.METAGROUP, Griemeer.METAGROUP, UbiquitousMoonAsteroids.METAGROUP, CommonMoonAsteroids.METAGROUP, UncommonMoonAsteroids.METAGROUP, RareMoonAsteroids.METAGROUP, ExceptionalMoonAsteroids.METAGROUP, Talassonite.METAGROUP, Rakovene.METAGROUP, Bezdnacine.METAGROUP);
         }
     }
 }

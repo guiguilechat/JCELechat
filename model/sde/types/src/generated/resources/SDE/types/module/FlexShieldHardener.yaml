@@ -1,5 +1,13 @@
 types:
   41516:
+    canfitshipgroup01: 30
+    canfitshipgroup02: 659
+    canfitshipgroup03: 547
+    canfitshipgroup04: 485
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 883
+    canfitshipgroup07: 4594
+    canfitshiptype1: 81040
     capacitorneed: 3000.0
     capacity: 1.0
     chargegroup1: 1702
@@ -32,8 +40,16 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     thermaldamageresistancebonus: -16.0
-    volume: 4000.0
+    volume: 3000.0
   41528:
+    canfitshipgroup01: 30
+    canfitshipgroup02: 659
+    canfitshipgroup03: 547
+    canfitshipgroup04: 485
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 883
+    canfitshipgroup07: 4594
+    canfitshiptype1: 81040
     capacitorneed: 3600.0
     capacity: 1.0
     chargegroup1: 1702
@@ -67,8 +83,16 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 2
     thermaldamageresistancebonus: -19.0
-    volume: 4000.0
+    volume: 3000.0
   41529:
+    canfitshipgroup01: 30
+    canfitshipgroup02: 659
+    canfitshipgroup03: 547
+    canfitshipgroup04: 485
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 883
+    canfitshipgroup07: 4594
+    canfitshiptype1: 81040
     capacitorneed: 2400.0
     capacity: 1.0
     chargegroup1: 1702
@@ -103,8 +127,16 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     thermaldamageresistancebonus: -20.0
-    volume: 4000.0
+    volume: 3000.0
   41530:
+    canfitshipgroup01: 30
+    canfitshipgroup02: 659
+    canfitshipgroup03: 547
+    canfitshipgroup04: 485
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 883
+    canfitshipgroup07: 4594
+    canfitshiptype1: 81040
     capacitorneed: 2400.0
     capacity: 1.0
     chargegroup1: 1702
@@ -139,8 +171,16 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     thermaldamageresistancebonus: -20.0
-    volume: 4000.0
+    volume: 3000.0
   41531:
+    canfitshipgroup01: 30
+    canfitshipgroup02: 659
+    canfitshipgroup03: 547
+    canfitshipgroup04: 485
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 883
+    canfitshipgroup07: 4594
+    canfitshiptype1: 81040
     capacitorneed: 2400.0
     capacity: 1.0
     chargegroup1: 1702
@@ -175,4 +215,4 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     thermaldamageresistancebonus: -20.0
-    volume: 4000.0
+    volume: 3000.0

@@ -15,6 +15,7 @@ types:
     capacity: 1200.0
     damagemultiplier: 6.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -36,6 +37,7 @@ types:
     entitykillbounty: 131250
     entitylootcountmax: 4
     entitylootcountmin: 2
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 206
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6100000143051147
@@ -46,12 +48,14 @@ types:
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 14.0
+    explosivedamageresonance: 1.0
     falloff: 21875.0
     gfxboosterid: 394
     gfxturretid: 373
     hp: 1200.0
     id: 3747
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 8
@@ -63,6 +67,8 @@ types:
     missileentityflighttimemultiplier: 1.2949999570846558
     missileentityvelocitymultiplier: 1.2949999570846558
     missilelaunchduration: 6250.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Enforcer Alvatis
     optimalsigradius: 125
     packagedVolume: 60.0
@@ -84,7 +90,9 @@ types:
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 5000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.027000000700354576
     volume: 60.0
   18073:
@@ -103,6 +111,7 @@ types:
     capacity: 1200.0
     damagemultiplier: 6.25
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -124,6 +133,7 @@ types:
     entitykillbounty: 135000
     entitylootcountmax: 4
     entitylootcountmin: 2
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 206
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6200000047683716
@@ -134,12 +144,14 @@ types:
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 4.0
+    explosivedamageresonance: 1.0
     falloff: 21875.0
     gfxboosterid: 394
     gfxturretid: 373
     hp: 1300.0
     id: 18073
     kineticdamage: 14.0
+    kineticdamageresonance: 1.0
     mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 8
@@ -151,6 +163,8 @@ types:
     missileentityflighttimemultiplier: 1.3032000064849854
     missileentityvelocitymultiplier: 1.3032000064849854
     missilelaunchduration: 5750.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Defeater Alvatis
     optimalsigradius: 125
     packagedVolume: 60.0
@@ -172,7 +186,9 @@ types:
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 5000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.027000000700354576
     volume: 60.0
   18074:
@@ -191,6 +207,7 @@ types:
     capacity: 1200.0
     damagemultiplier: 7.083333492279053
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -212,6 +229,7 @@ types:
     entitykillbounty: 138750
     entitylootcountmax: 4
     entitylootcountmin: 2
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6299999952316284
     entitysecuritymaxgain: 5.0
@@ -221,12 +239,14 @@ types:
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 14.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 394
     gfxturretid: 370
     hp: 1400.0
     id: 18074
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 8
@@ -238,6 +258,8 @@ types:
     missileentityflighttimemultiplier: 1.311400055885315
     missileentityvelocitymultiplier: 1.311400055885315
     missilelaunchduration: 1.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Crippler Alvatis
     optimalsigradius: 125
     packagedVolume: 60.0
@@ -259,7 +281,9 @@ types:
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 2500.0
+    speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.10559999942779541
     volume: 60.0
   18075:
@@ -278,6 +302,7 @@ types:
     capacity: 1200.0
     damagemultiplier: 7.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -299,6 +324,7 @@ types:
     entitykillbounty: 142500
     entitylootcountmax: 4
     entitylootcountmin: 2
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6399999856948853
     entitysecuritymaxgain: 5.0
@@ -308,12 +334,14 @@ types:
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 4.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 394
     gfxturretid: 370
     hp: 1500.0
     id: 18075
     kineticdamage: 14.0
+    kineticdamageresonance: 1.0
     mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 8
@@ -325,6 +353,8 @@ types:
     missileentityflighttimemultiplier: 1.319599986076355
     missileentityvelocitymultiplier: 1.319599986076355
     missilelaunchduration: 1.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Striker Alvatis
     optimalsigradius: 125
     packagedVolume: 60.0
@@ -346,7 +376,9 @@ types:
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 2500.0
+    speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.10559999942779541
     volume: 60.0
   23489:
@@ -365,6 +397,7 @@ types:
     capacity: 1200.0
     damagemultiplier: 8.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -386,6 +419,7 @@ types:
     entitykillbounty: 146250
     entitylootcountmax: 4
     entitylootcountmin: 2
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6499999761581421
@@ -395,12 +429,14 @@ types:
     entityshieldboostdelaychancemedium: 0.6000000238418579
     entityshieldboostduration: 5000
     entitystrength: 4
+    explosivedamageresonance: 1.0
     falloff: 21875.0
     gfxboosterid: 394
     gfxturretid: 370
     hp: 1500.0
     id: 23489
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 8
@@ -412,6 +448,8 @@ types:
     missileentityflighttimemultiplier: 1.3278000354766846
     missileentityvelocitymultiplier: 1.3278000354766846
     missilelaunchduration: 3000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Siege Alvatis
     optimalsigradius: 125
     packagedVolume: 60.0
@@ -433,8 +471,10 @@ types:
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 5000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 16.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02199999988079071
     volume: 60.0
   23490:
@@ -454,6 +494,7 @@ types:
     damagemultiplier: 8.0
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -475,6 +516,7 @@ types:
     entitykillbounty: 153750
     entitylootcountmax: 4
     entitylootcountmin: 2
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.6600000262260437
@@ -485,12 +527,14 @@ types:
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 21875.0
     gfxboosterid: 394
     gfxturretid: 370
     hp: 1500.0
     id: 23490
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     mass: 100000.0
     maxattacktargets: 1
     maxlockedtargets: 8
@@ -502,6 +546,8 @@ types:
     missileentityflighttimemultiplier: 1.3359999656677246
     missileentityvelocitymultiplier: 1.3359999656677246
     missilelaunchduration: 3000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Exterminator Alvatis
     optimalsigradius: 125
     packagedVolume: 60.0
@@ -523,7 +569,9 @@ types:
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 5000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02199999988079071
     volume: 60.0
   45637:
@@ -542,6 +590,7 @@ types:
     capacity: 950.0
     damagemultiplier: 3.75
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityarmorrepairamount: 350.0
     entityarmorrepairdelaychance: 0.6499999761581421
     entityarmorrepairduration: 10000
@@ -561,6 +610,7 @@ types:
     entityequipmentmin: 1
     entityflyrange: 7200.0
     entitykillbounty: 30000
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 27
     entityreactionfactor: 0.7699999809265137
     entitysecuritymaxgain: 5.0
@@ -570,12 +620,14 @@ types:
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 32.0
+    explosivedamageresonance: 1.0
     falloff: 16000.0
     gfxboosterid: 394
     gfxturretid: 366
     hp: 5000.0
     id: 45637
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     mass: 2.1E7
     maxattacktargets: 1
     maxlockedtargets: 4
@@ -587,6 +639,8 @@ types:
     missileentityflighttimemultiplier: 1.426200032234192
     missileentityvelocitymultiplier: 1.426200032234192
     missilelaunchduration: 1.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
     name: Swarm Overmind Secundus
     optimalsigradius: 125
     packagedVolume: 1010000.0
@@ -608,6 +662,111 @@ types:
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
+    speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.10559999942779541
     volume: 1010000.0
+  83676:
+    agility: 1.0
+    aiignoredronesbelowsignatureradius: 75
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 2.0
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 1800.0
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 0.75
+    behaviorarmorrepairerduration: 10000
+    behaviorshieldboosterduration: 5000
+    capacitorcapacity: 975.0
+    capacity: 1200.0
+    damagemultiplier: 10.0
+    disallowassistance: 1
+    emdamage: 10.0
+    emdamageresonance: 1.0
+    entityarmorrepairamount: 360.0
+    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairduration: 10000
+    entityattackdelaymax: 17700
+    entityattackdelaymin: 4425
+    entityattackrange: 100000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 2000.0
+    entitychasemaxdelaychance: 0.5
+    entitychasemaxdistance: 28000
+    entitychasemaxduration: 10000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 220.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentgroupmax: 100
+    entityequipmentmax: 70
+    entityequipmentmin: 15
+    entityflyrange: 20000.0
+    entitykillbounty: 350625
+    entitylootcountmax: 4
+    entitylootcountmin: 2
+    entitymaxvelocitysignatureradiusmultiplier: 1
+    entitymissiletypeid: 211
+    entityoverviewshipgroupid: 26
+    entityreactionfactor: 0.6600000262260437
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.08250000327825546
+    entityshieldboostamount: 180.0
+    entityshieldboostdelaychance: 0.6499999761581421
+    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostduration: 5000
+    entitystrength: 4
+    explosivedamage: 8.0
+    explosivedamageresonance: 1.0
+    falloff: 30000.0
+    gfxboosterid: 394
+    gfxturretid: 370
+    hp: 1750.0
+    id: 83676
+    kineticdamage: 4.0
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    maxattacktargets: 1
+    maxlockedtargets: 5
+    maxrange: 30000.0
+    maxvelocity: 460.0
+    missiledamagemultiplier: 1.5
+    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoevelocitymultiplier: 1.2999999523162842
+    missileentityflighttimemultiplier: 5.0
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 4000.0
+    modifytargetspeedchance: 1.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 12000
+    name: Terminator Alvatis
+    optimalsigradius: 100
+    packagedVolume: 60.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 150.0
+    rechargerate: 600000.0
+    scanladarstrength: 20.0
+    scanmagnetometricstrength: 19.0
+    scanresolution: 400.0
+    scanspeed: 2000
+    shieldcapacity: 1800.0
+    shieldemdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 300.0
+    speed: 5000.0
+    speedfactor: -40.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.10000000149011612
+    volume: 60.0

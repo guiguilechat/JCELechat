@@ -14,7 +14,8 @@ types:
     power: 120000
     published: true
     radius: 1.0
-    requiressovupgrade1: 2009
+    requiresihubupgrade: 2009
+    requiressovhubupgrade: 81623
     servicemodulefuelamount: 36
     servicemodulefuelconsumptiongroup: 1136
     servicemodulefuelonlineamount: 2592

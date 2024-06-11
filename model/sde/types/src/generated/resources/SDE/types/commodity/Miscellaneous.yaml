@@ -7399,6 +7399,7 @@ types:
     name: Upwell Consortium Loyalty Token
     packagedVolume: 0.0010000000474974513
     portionSize: 1
+    price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513

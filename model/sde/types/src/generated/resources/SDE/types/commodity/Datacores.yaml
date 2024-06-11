@@ -260,3 +260,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  81051:
+    id: 81051
+    marketGroup: 1880
+    mass: 1.0
+    name: Datacore - Upwell Starship Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 81050
+    requiredskill1level: 1
+    volume: 0.10000000149011612

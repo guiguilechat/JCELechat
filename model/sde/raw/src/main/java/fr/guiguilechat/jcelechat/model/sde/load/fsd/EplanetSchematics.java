@@ -26,7 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
  */
 public class EplanetSchematics {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/planetSchematics.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/planetSchematics.yaml");
 
 	private static LinkedHashMap<Integer, EplanetSchematics> cache = null;
 

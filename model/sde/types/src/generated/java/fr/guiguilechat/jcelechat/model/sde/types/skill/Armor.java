@@ -117,7 +117,14 @@ public class Armor
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill3level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MassPenaltyReduction.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, ArmorHpBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, DurationSkillBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, CapNeedBonus.INSTANCE, HardeningBonus.INSTANCE })));
+    /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MassPenaltyReduction.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, ArmorHpBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, DurationSkillBonus.INSTANCE, RequiredSkill3 .INSTANCE, CapNeedBonus.INSTANCE, HardeningBonus.INSTANCE })));
     public static final Armor.MetaGroup METAGROUP = new Armor.MetaGroup();
 
     @Override
@@ -166,6 +173,10 @@ public class Armor
             case  279 :
             {
                 return requiredskill3level;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             default:
             {

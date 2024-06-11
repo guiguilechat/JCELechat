@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model;
 import java.io.Serializable;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Ecategories;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
@@ -31,18 +31,18 @@ public class Category implements Serializable{
 	private String name;
 	private boolean published;
 
-	public static Category from(int id, EcategoryIDs from) {
+	public static Category from(int id, Ecategories from) {
 		return Category.builder()
 				.categoryId(id)
 				.build()
 				.update(from);
 	}
 
-	public static Category from(Map.Entry<Integer, EcategoryIDs> entry) {
+	public static Category from(Map.Entry<Integer, Ecategories> entry) {
 		return from(entry.getKey(), entry.getValue());
 	}
 
-	public Category update(EcategoryIDs c) {
+	public Category update(Ecategories c) {
 		iconID = c.iconID;
 		name = c.enName();
 		published = c.published;

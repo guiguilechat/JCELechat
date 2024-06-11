@@ -26,7 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eagents;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_DIVISION;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_TYPE;
@@ -207,7 +207,7 @@ public class NPCsTranslater {
 		LPOffer lpo = new LPOffer();
 		lpo.requirements.isk += o.isk_cost;
 		lpo.requirements.lp += o.lp_cost;
-		lpo.name = EtypeIDs.getName(o.type_id);
+		lpo.name = Etypes.getName(o.type_id);
 		lpo.id = o.offer_id;
 
 		Stream.of(o.required_items).sorted(Comparator.comparing(req -> req.type_id)).forEach(ir -> {

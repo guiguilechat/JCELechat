@@ -145,7 +145,7 @@ types:
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
     metagroupid: 4
-    name: Imperial Navy Mjolnir Auto-Targeting Heavy Missile I
+    name: Legion Mjolnir Auto-Targeting Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3500.0
@@ -178,7 +178,7 @@ types:
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
     metagroupid: 4
-    name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
+    name: Legion Scourge Auto-Targeting Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2500.0
@@ -210,7 +210,7 @@ types:
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
     metagroupid: 4
-    name: Federation Navy Inferno Auto-Targeting Heavy Missile I
+    name: Legion Inferno Auto-Targeting Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3000.0
@@ -244,7 +244,7 @@ types:
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
     metagroupid: 4
-    name: Republic Fleet Nova Auto-Targeting Heavy Missile I
+    name: Legion Nova Auto-Targeting Heavy Missile
     packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2000.0

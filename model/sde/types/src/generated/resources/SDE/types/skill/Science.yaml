@@ -727,3 +727,41 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
+  81050:
+    cannotbetrainedontrial: 1
+    id: 81050
+    manufacturetimeperlevel: -1
+    marketGroup: 375
+    name: Upwell Starship Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E7
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  81896:
+    cannotbetrainedontrial: 1
+    id: 81896
+    manufacturetimeperlevel: -2
+    marketGroup: 375
+    name: Mutagenic Stabilization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E7
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3405
+    requiredskill2level: 5
+    secondaryattribute: 165
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582

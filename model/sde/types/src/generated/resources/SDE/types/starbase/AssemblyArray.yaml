@@ -143,7 +143,7 @@ types:
     radius: 12954.0
     requiredskill1: 11584
     requiredskill1level: 1
-    requiressovupgrade1: 2009
+    requiresihubupgrade: 2009
     scangravimetricstrength: 200.0
     scanladarstrength: 200.0
     scanmagnetometricstrength: 200.0

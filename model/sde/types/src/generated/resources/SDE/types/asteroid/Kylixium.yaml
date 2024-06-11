@@ -1,0 +1,153 @@
+types:
+  81900:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.6000000238418579
+    asteroidradiusunitsize: 500
+    id: 81900
+    marketGroup: 3636
+    mass: 1.0000000409184788E35
+    name: Kylixium
+    orebasictype: 81900
+    packagedVolume: 2.0
+    portionSize: 100
+    price: 399926.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 2.0
+  81901:
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 400
+    id: 81901
+    marketGroup: 3636
+    mass: 1.0000000409184788E35
+    name: Kaolin Kylixium
+    orebasictype: 81900
+    packagedVolume: 2.0
+    portionSize: 100
+    price: 399926.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 2.0
+  81902:
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 400
+    id: 81902
+    marketGroup: 3636
+    mass: 1.0000000409184788E35
+    name: Argil Kylixium
+    orebasictype: 81900
+    packagedVolume: 2.0
+    portionSize: 100
+    price: 399926.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 2.0
+  81903:
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 400
+    id: 81903
+    marketGroup: 3636
+    mass: 1.0000000409184788E35
+    name: Adobe Kylixium
+    orebasictype: 81900
+    packagedVolume: 2.0
+    portionSize: 100
+    price: 399926.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 2.0
+  82300:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 400
+    id: 82300
+    marketGroup: 3636
+    mass: 1.0000000409184788E35
+    name: Compressed Kylixium
+    orebasictype: 81900
+    packagedVolume: 0.019999999552965164
+    portionSize: 100
+    price: 399926.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.019999999552965164
+  82301:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 400
+    id: 82301
+    marketGroup: 3636
+    mass: 1.0000000409184788E35
+    name: Compressed Kaolin Kylixium
+    orebasictype: 81900
+    packagedVolume: 0.019999999552965164
+    portionSize: 100
+    price: 399926.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.019999999552965164
+  82302:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 400
+    id: 82302
+    marketGroup: 3636
+    mass: 1.0000000409184788E35
+    name: Compressed Argil Kylixium
+    orebasictype: 81900
+    packagedVolume: 0.019999999552965164
+    portionSize: 100
+    price: 399926.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.019999999552965164
+  82303:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusunitsize: 400
+    id: 82303
+    marketGroup: 3636
+    mass: 1.0000000409184788E35
+    name: Compressed Adobe Kylixium
+    orebasictype: 81900
+    packagedVolume: 0.019999999552965164
+    portionSize: 100
+    price: 399926.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 60379
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.019999999552965164

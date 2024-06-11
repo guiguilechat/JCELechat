@@ -9,48 +9,27 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ConstructionType;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxOperationalDistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxOperationalUsers;
-import fr.guiguilechat.jcelechat.model.sde.attributes.OnliningDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialMaterialBayCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.UnanchoringDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
 import fr.guiguilechat.jcelechat.model.sde.types.orbitals.OrbitalConstructionPlatform;
+import fr.guiguilechat.jcelechat.model.sde.types.orbitals.Skyhook;
 
 public abstract class Orbitals
     extends EveType
 {
-    /**
-     * How long it takes to anchor or unanchor this object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(60000)
-    public int anchoringdelay;
     /**
      * The number of hit points on the entities armor.
      */
@@ -73,20 +52,6 @@ public abstract class Orbitals
     @DefaultRealValue(0.0)
     public double capacity;
     /**
-     * Type of object which this object transforms into.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int constructiontype;
-    /**
-     * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int disallowoffensivemodifiers;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
@@ -94,75 +59,12 @@ public abstract class Orbitals
     @DefaultRealValue(0.0)
     public double hp;
     /**
-     * The maximum distance at which the object can be used.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int maxoperationaldistance;
-    /**
-     * The maximum number of users that can be present within the operational range of the structure for it to be capable of operation.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int maxoperationalusers;
-    /**
-     * How long it takes to bring this object online.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(60000)
-    public int onliningdelay;
-    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill1level;
-    /**
-     * Gravimetric strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scangravimetricstrength;
-    /**
-     * Ladar strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanladarstrength;
-    /**
-     * Magnetometric strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanmagnetometricstrength;
-    /**
-     * Radar strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanradarstrength;
     /**
      * Amount of maximum shield HP on the item.
      */
@@ -200,13 +102,6 @@ public abstract class Orbitals
     @DefaultRealValue(100.0)
     public double signatureradius;
     /**
-     * Capacity of material bay
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int specialmaterialbaycapacity;
-    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -214,29 +109,18 @@ public abstract class Orbitals
     @DefaultRealValue(1.0)
     public double structureuniformity;
     /**
-     * How long it takes to unanchor this object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(60000)
-    public int unanchoringdelay;
-    /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double uniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, MaxOperationalDistance.INSTANCE, ArmorUniformity.INSTANCE, MaxOperationalUsers.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RequiredSkill1Level.INSTANCE, ShieldRechargeRate.INSTANCE, Radius.INSTANCE, UnanchoringDelay.INSTANCE, ShieldUniformity.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, SpecialMaterialBayCapacity.INSTANCE, ConstructionType.INSTANCE, AnchoringDelay.INSTANCE, RequiredSkill1 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ShieldRechargeRate.INSTANCE, Radius.INSTANCE, ShieldUniformity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE })));
     public static final Orbitals.MetaCat METACAT = new Orbitals.MetaCat();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  556 :
-            {
-                return anchoringdelay;
-            }
             case  265 :
             {
                 return armorhp;
@@ -249,57 +133,13 @@ public abstract class Orbitals
             {
                 return capacity;
             }
-            case  1771 :
-            {
-                return constructiontype;
-            }
-            case  872 :
-            {
-                return disallowoffensivemodifiers;
-            }
             case  9 :
             {
                 return hp;
             }
-            case  715 :
-            {
-                return maxoperationaldistance;
-            }
-            case  716 :
-            {
-                return maxoperationalusers;
-            }
-            case  677 :
-            {
-                return onliningdelay;
-            }
             case  162 :
             {
                 return radius;
-            }
-            case  182 :
-            {
-                return requiredskill1;
-            }
-            case  277 :
-            {
-                return requiredskill1level;
-            }
-            case  211 :
-            {
-                return scangravimetricstrength;
-            }
-            case  209 :
-            {
-                return scanladarstrength;
-            }
-            case  210 :
-            {
-                return scanmagnetometricstrength;
-            }
-            case  208 :
-            {
-                return scanradarstrength;
             }
             case  263 :
             {
@@ -321,17 +161,9 @@ public abstract class Orbitals
             {
                 return signatureradius;
             }
-            case  1770 :
-            {
-                return specialmaterialbaycapacity;
-            }
             case  525 :
             {
                 return structureuniformity;
-            }
-            case  676 :
-            {
-                return unanchoringdelay;
             }
             case  136 :
             {
@@ -370,7 +202,7 @@ public abstract class Orbitals
 
         @Override
         public Collection<IMetaGroup<? extends Orbitals>> groups() {
-            return Arrays.asList(OrbitalConstructionPlatform.METAGROUP);
+            return Arrays.asList(Skyhook.METAGROUP, OrbitalConstructionPlatform.METAGROUP);
         }
     }
 }

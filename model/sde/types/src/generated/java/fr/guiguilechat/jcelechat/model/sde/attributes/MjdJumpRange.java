@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * distance jumped on mjd activation
+ * distance jumped on mjd activation in meters
  */
 public class MjdJumpRange
     extends IntAttribute

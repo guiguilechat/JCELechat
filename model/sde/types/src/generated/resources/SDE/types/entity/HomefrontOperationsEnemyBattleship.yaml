@@ -3,7 +3,7 @@ types:
     agility: 0.10000000149011612
     armoremdamageresonance: 0.8999999761581421
     armorexplosivedamageresonance: 0.44999998807907104
-    armorhp: 10200.0
+    armorhp: 12100.0
     armorkineticdamageresonance: 0.7200000286102295
     armorthermaldamageresonance: 0.5400000214576721
     behaviorenergyneutralizerdischarge: 375.0
@@ -16,59 +16,7 @@ types:
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
     energyneutralizeramount: 1000.0
-    entitykillbounty: 750000
-    entitysuperweaponfalloff: 250000
-    entitysuperweaponmaxrange: 250000
-    entitysuperweaponoptimalsignatureradius: 20
-    entitysuperweapontrackingspeed: 1.0
-    explosivedamage: 54.0
-    falloff: 1.0
-    gfxboosterid: 397
-    gfxturretid: 47922
-    hp: 5500.0
-    id: 77696
-    mass: 6.3E7
-    maxlockedtargets: 7
-    maxrange: 70000.0
-    maxtargetrange: 200000.0
-    maxvelocity: 750.0
-    name: Ravenous Leshak
-    optimalsigradius: 40000
-    packagedVolume: 495000.0
-    portionSize: 1
-    price: 1.125E8
-    published: false
-    radius: 400.0
-    rechargerate: 750000.0
-    scanradarstrength: 35.0
-    scanresolution: 200.0
-    shieldcapacity: 3300.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.7200000286102295
-    shieldrechargerate: 600000.0
-    shieldthermaldamageresonance: 0.5400000214576721
-    shielduniformity: 0.75
-    signatureradius: 625.0
-    speed: 7200.0
-    speedfactor: 1.0
-    structureuniformity: 1.0
-    thermaldamage: 90.0
-    trackingspeed: 20.0
-    volume: 495000.0
-  77697:
-    agility: 0.10000000149011612
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
-    armorhp: 12100.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
-    capacitorcapacity: 8250.0
-    capacity: 933.0
-    damagemultiplier: 5.300000190734863
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    entitykillbounty: 750000
+    entitykillbounty: 518750
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
@@ -78,13 +26,13 @@ types:
     gfxboosterid: 397
     gfxturretid: 47922
     hp: 6250.0
-    id: 77697
+    id: 77696
     mass: 6.3E7
     maxlockedtargets: 7
     maxrange: 70000.0
     maxtargetrange: 200000.0
     maxvelocity: 750.0
-    name: Dominant Leshak
+    name: Ravenous Leshak
     optimalsigradius: 40000
     packagedVolume: 495000.0
     portionSize: 1
@@ -108,6 +56,58 @@ types:
     thermaldamage: 90.0
     trackingspeed: 20.0
     volume: 495000.0
+  77697:
+    agility: 0.10000000149011612
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.44999998807907104
+    armorhp: 10200.0
+    armorkineticdamageresonance: 0.7200000286102295
+    armorthermaldamageresonance: 0.5400000214576721
+    capacitorcapacity: 8250.0
+    capacity: 933.0
+    damagemultiplier: 5.300000190734863
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    entitykillbounty: 475000
+    entitysuperweaponfalloff: 250000
+    entitysuperweaponmaxrange: 250000
+    entitysuperweaponoptimalsignatureradius: 20
+    entitysuperweapontrackingspeed: 1.0
+    explosivedamage: 54.0
+    falloff: 1.0
+    gfxboosterid: 397
+    gfxturretid: 47922
+    hp: 5500.0
+    id: 77697
+    mass: 6.3E7
+    maxlockedtargets: 7
+    maxrange: 70000.0
+    maxtargetrange: 200000.0
+    maxvelocity: 750.0
+    name: Dominant Leshak
+    optimalsigradius: 40000
+    packagedVolume: 495000.0
+    portionSize: 1
+    price: 1.125E8
+    published: false
+    radius: 400.0
+    rechargerate: 750000.0
+    scanradarstrength: 35.0
+    scanresolution: 200.0
+    shieldcapacity: 3300.0
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.44999998807907104
+    shieldkineticdamageresonance: 0.7200000286102295
+    shieldrechargerate: 600000.0
+    shieldthermaldamageresonance: 0.5400000214576721
+    shielduniformity: 0.75
+    signatureradius: 625.0
+    speed: 7200.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 90.0
+    trackingspeed: 20.0
+    volume: 495000.0
   77698:
     agility: 0.10000000149011612
     armoremdamageresonance: 0.6524999737739563
@@ -120,7 +120,7 @@ types:
     damagemultiplier: 5.300000190734863
     damagemultiplierbonusmax: 0.5
     emdamage: 36.0
-    entitykillbounty: 750000
+    entitykillbounty: 475000
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
@@ -171,7 +171,7 @@ types:
     damagemultiplier: 5.300000190734863
     damagemultiplierbonusmax: 0.5
     emdamage: 90.0
-    entitykillbounty: 750000
+    entitykillbounty: 475000
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
@@ -225,7 +225,7 @@ types:
     damagemultiplier: 5.300000190734863
     damagemultiplierbonusmax: 0.5
     emdamage: 90.0
-    entitykillbounty: 750000
+    entitykillbounty: 518750
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
@@ -281,7 +281,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 36.0
     energyneutralizeramount: 1000.0
-    entitykillbounty: 750000
+    entitykillbounty: 518750
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
@@ -337,6 +337,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 36.0
     energyneutralizeramount: 1200.0
+    entitykillbounty: 687500
     entitysuperweaponduration: 5000
     entitysuperweaponemdamage: 128000
     entitysuperweaponexplosivedamage: 128000
@@ -397,7 +398,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 4200.0
-    entitykillbounty: 750000
+    entitykillbounty: 550000
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
@@ -447,7 +448,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 4200.0
-    entitykillbounty: 750000
+    entitykillbounty: 550000
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
@@ -497,7 +498,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 4200.0
-    entitykillbounty: 750000
+    entitykillbounty: 550000
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
@@ -547,7 +548,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 4200.0
-    entitykillbounty: 750000
+    entitykillbounty: 550000
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20

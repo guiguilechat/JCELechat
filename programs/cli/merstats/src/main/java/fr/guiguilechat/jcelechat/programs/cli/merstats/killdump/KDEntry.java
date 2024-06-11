@@ -10,7 +10,7 @@ import com.opencsv.bean.CsvBindByName;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 
 public class KDEntry {
@@ -37,10 +37,10 @@ public class KDEntry {
 		return ret;
 	}
 
-	public EtypeIDs getEType() {
-		EtypeIDs ret = EtypeIDs.load().get(destroyedShipTypeID());
+	public Etypes getEType() {
+		Etypes ret = Etypes.load().get(destroyedShipTypeID());
 		if (ret == null) {
-			ret = new EtypeIDs();
+			ret = new Etypes();
 			ret.name.put("en", "t_" + destroyedShipTypeID());
 			ret.groupID = ret.graphicID = ret.factionID = ret.marketGroupID = 0;
 		}

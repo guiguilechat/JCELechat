@@ -91,3 +91,22 @@ types:
     price: 350000.0
     published: true
     volume: 0.009999999776482582
+  81352:
+    id: 81352
+    marketGroup: 1863
+    mass: 1.0
+    name: Encrypted ‘Istina’ Data
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.009999999776482582
+  81383:
+    id: 81383
+    mass: 500.0
+    name: Contraband Data
+    packagedVolume: 50.0
+    portionSize: 1
+    price: 350000.0
+    published: true
+    volume: 50.0

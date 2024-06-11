@@ -31,6 +31,7 @@ types:
     hislots: 2
     hp: 2060.0
     id: 648
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
@@ -118,6 +119,7 @@ types:
     hislots: 2
     hp: 810.0
     id: 649
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 1
@@ -206,6 +208,7 @@ types:
     hislots: 2
     hp: 2600.0
     id: 650
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
@@ -292,6 +295,7 @@ types:
     hislots: 3
     hp: 2100.0
     id: 651
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -381,6 +385,7 @@ types:
     hislots: 2
     hp: 935.0
     id: 652
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
@@ -466,6 +471,7 @@ types:
     hislots: 2
     hp: 2250.0
     id: 653
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
@@ -553,6 +559,7 @@ types:
     hislots: 2
     hp: 970.0
     id: 654
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
@@ -641,6 +648,7 @@ types:
     hislots: 2
     hp: 1000.0
     id: 655
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
@@ -731,6 +739,7 @@ types:
     hislots: 2
     hp: 950.0
     id: 656
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
@@ -816,6 +825,7 @@ types:
     hislots: 2
     hp: 970.0
     id: 657
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 5
@@ -901,6 +911,7 @@ types:
     hislots: 2
     hp: 940.0
     id: 1944
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 6
@@ -984,6 +995,7 @@ types:
     heatgenerationmultiplier: 0.75
     hp: 1000.0
     id: 2863
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 4
@@ -1065,6 +1077,7 @@ types:
     hislots: 8
     hp: 3200.0
     id: 2998
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -1155,6 +1168,7 @@ types:
     hislots: 1
     hp: 1173.0
     id: 4363
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -1241,6 +1255,7 @@ types:
     hislots: 1
     hp: 1173.0
     id: 4388
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -1327,6 +1342,7 @@ types:
     hislots: 2
     hp: 2400.0
     id: 19744
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 6
@@ -1413,6 +1429,7 @@ types:
     hislots: 1
     hp: 1173.0
     id: 32811
+    iscarrierjumpconduitpassenger: 1
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     lowslots: 3
@@ -1464,6 +1481,95 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 265000.0
+    warpcapacitorneed: 1.0891100288290545E-7
+    warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
+  81008:
+    affectedbyindustrialinvulnmodule: 1
+    agility: 0.800000011920929
+    allowedincapindustrialmaintenancebay: 1
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 500.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.550000011920929
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 1250.0
+    capacity: 3000.0
+    cpuoutput: 380
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.6700000166893005
+    fwlpkill: 50
+    gfxboosterid: 395
+    heatattenuationhi: 0.6299999952316284
+    heatattenuationlow: 0.5
+    heatattenuationmed: 0.7099999785423279
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.75
+    hislots: 4
+    hp: 1000.0
+    id: 81008
+    iscarrierjumpconduitpassenger: 1
+    jumpfatiguemultiplier: 0.10000000149011612
+    kineticdamageresonance: 0.6700000166893005
+    launcherslotsleft: 3
+    lowslots: 3
+    maincolor: 16777215
+    marketGroup: 3577
+    mass: 1.28E7
+    maxlockedtargets: 5
+    maxpassengers: 100
+    maxtargetrange: 45000.0
+    maxvelocity: 175.0
+    medslots: 5
+    name: Squall
+    packagedVolume: 20000.0
+    portionSize: 1
+    poweroutput: 400
+    powertospeed: 1
+    price: 6.47E7
+    propulsiongraphicid: 395
+    published: true
+    radius: 196.0
+    rechargerate: 500000.0
+    requiredskill1: 81032
+    requiredskill1level: 1
+    rigsize: 2
+    rigslots: 3
+    scangravimetricstrength: 11.0
+    scanresolution: 240.0
+    scanspeed: 9000
+    shieldcapacity: 2000.0
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbonusai: 5
+    shipbonusci: 5
+    shipbonusgi: 5
+    shipbonusmi: 5
+    shipbonusuh1: 10
+    shipbonusuh2: 20
+    signatureradius: 195.0
+    specialcolonyresourcesholdcapacity: 45000
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    typecolorscheme: 11324
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 250000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 4.5
     weapondisruptionresistance: 1.0

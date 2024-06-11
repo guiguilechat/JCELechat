@@ -215,6 +215,13 @@ public class Drones
     @DefaultIntValue(0)
     public int skillbonusfighterhangarsize;
     /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
+    /**
      * Salvage drone access difficult bonus attribute for salvage drone specialization skill
      */
     @HighIsGood(true)
@@ -318,6 +325,10 @@ public class Drones
             case  2340 :
             {
                 return skillbonusfighterhangarsize;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             case  3110 :
             {

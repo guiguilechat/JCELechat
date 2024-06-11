@@ -155,7 +155,14 @@ public class ResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill3level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReactionTimeBonus.INSTANCE, ReactionSlotBonus.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, IceHarvestCycleBonus.INSTANCE, IsSkillIObsolete.INSTANCE, MiningAmountBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, RefiningYieldMutator.INSTANCE, GasDecompressionEfficiencyBonus.INSTANCE, DamageCloudChanceReduction.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
+    /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReactionTimeBonus.INSTANCE, ReactionSlotBonus.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, IceHarvestCycleBonus.INSTANCE, IsSkillIObsolete.INSTANCE, MiningAmountBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, RefiningYieldMutator.INSTANCE, GasDecompressionEfficiencyBonus.INSTANCE, DamageCloudChanceReduction.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
     public static final ResourceProcessing.MetaGroup METAGROUP = new ResourceProcessing.MetaGroup();
 
     @Override
@@ -224,6 +231,10 @@ public class ResourceProcessing
             case  279 :
             {
                 return requiredskill3level;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             default:
             {

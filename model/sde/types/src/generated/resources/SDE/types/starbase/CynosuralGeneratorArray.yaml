@@ -27,7 +27,7 @@ types:
     price: 2.0E7
     published: true
     radius: 629.0
-    requiressovupgrade1: 2008
+    requiresihubupgrade: 2008
     scangravimetricstrength: 200.0
     scanladarstrength: 200.0
     scanmagnetometricstrength: 200.0

@@ -10,7 +10,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     explosivedamage: 36.0
     falloff: 12000.0
     gfxboosterid: 394
@@ -56,7 +56,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 60.0
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     falloff: 12000.0
     gfxboosterid: 394
     gfxturretid: 458
@@ -100,7 +100,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     falloff: 12000.0
     gfxboosterid: 395
     gfxturretid: 570
@@ -145,7 +145,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     falloff: 12000.0
     gfxboosterid: 395
     gfxturretid: 570
@@ -190,7 +190,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     falloff: 12000.0
     gfxboosterid: 394
     gfxturretid: 570
@@ -235,7 +235,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     explosivedamage: 60.0
     falloff: 12000.0
     gfxboosterid: 397
@@ -281,7 +281,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 36.0
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     explosivedamage: 60.0
     falloff: 12000.0
     gfxboosterid: 395
@@ -326,7 +326,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 36.0
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     explosivedamage: 60.0
     falloff: 12000.0
     gfxboosterid: 394
@@ -371,7 +371,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 36.0
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     falloff: 12000.0
     gfxboosterid: 397
     gfxturretid: 493
@@ -416,7 +416,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 60.0
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     falloff: 12000.0
     gfxboosterid: 394
     gfxturretid: 390
@@ -461,7 +461,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     explosivedamage: 36.0
     falloff: 12000.0
     gfxboosterid: 397
@@ -506,7 +506,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     falloff: 12000.0
     gfxboosterid: 394
     gfxturretid: 570
@@ -551,7 +551,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     explosivedamage: 60.0
     falloff: 12000.0
     gfxboosterid: 397
@@ -597,7 +597,7 @@ types:
     damagemultiplier: 4.699999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 60.0
-    entitykillbounty: 500000
+    entitykillbounty: 462500
     falloff: 12000.0
     gfxboosterid: 394
     gfxturretid: 458

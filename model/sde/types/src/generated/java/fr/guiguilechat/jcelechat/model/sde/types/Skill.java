@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SecondaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SkillLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SkillTimeConstant;
 import fr.guiguilechat.jcelechat.model.sde.types.skill.Armor;
 import fr.guiguilechat.jcelechat.model.sde.types.skill.CorporationManagement;
@@ -37,6 +36,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.skill.ResourceProcessing;
 import fr.guiguilechat.jcelechat.model.sde.types.skill.Rigging;
 import fr.guiguilechat.jcelechat.model.sde.types.skill.Scanning;
 import fr.guiguilechat.jcelechat.model.sde.types.skill.Science;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Sequencing;
 import fr.guiguilechat.jcelechat.model.sde.types.skill.Shields;
 import fr.guiguilechat.jcelechat.model.sde.types.skill.Social;
 import fr.guiguilechat.jcelechat.model.sde.types.skill.SpaceshipCommand;
@@ -91,20 +91,13 @@ public abstract class Skill
     @DefaultIntValue(0)
     public int secondaryattribute;
     /**
-     * Level of skill
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int skilllevel;
-    /**
      * This attribute is a multiplier to the number of skill points required to train. Skill points required to train a skill = 250 * skillTimeConstant * sqrt(32)^(skillLevel - 1)
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double skilltimeconstant;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1 .INSTANCE, SkillLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1 .INSTANCE })));
     public static final Skill.MetaCat METACAT = new Skill.MetaCat();
 
     @Override
@@ -133,10 +126,6 @@ public abstract class Skill
             case  181 :
             {
                 return secondaryattribute;
-            }
-            case  280 :
-            {
-                return skilllevel;
             }
             case  275 :
             {
@@ -175,7 +164,7 @@ public abstract class Skill
 
         @Override
         public Collection<IMetaGroup<? extends Skill>> groups() {
-            return Arrays.asList(Gunnery.METAGROUP, Missiles.METAGROUP, SpaceshipCommand.METAGROUP, FleetSupport.METAGROUP, CorporationManagement.METAGROUP, Production.METAGROUP, Rigging.METAGROUP, Science.METAGROUP, ElectronicSystems.METAGROUP, Drones.METAGROUP, Trade.METAGROUP, Navigation.METAGROUP, Social.METAGROUP, Shields.METAGROUP, Armor.METAGROUP, Targeting.METAGROUP, Engineering.METAGROUP, Scanning.METAGROUP, ResourceProcessing.METAGROUP, NeuralEnhancement.METAGROUP, Subsystems.METAGROUP, PlanetManagement.METAGROUP, StructureManagement.METAGROUP);
+            return Arrays.asList(Gunnery.METAGROUP, Missiles.METAGROUP, SpaceshipCommand.METAGROUP, FleetSupport.METAGROUP, CorporationManagement.METAGROUP, Production.METAGROUP, Rigging.METAGROUP, Science.METAGROUP, ElectronicSystems.METAGROUP, Drones.METAGROUP, Trade.METAGROUP, Navigation.METAGROUP, Social.METAGROUP, Sequencing.METAGROUP, Shields.METAGROUP, Armor.METAGROUP, Targeting.METAGROUP, Engineering.METAGROUP, Scanning.METAGROUP, ResourceProcessing.METAGROUP, NeuralEnhancement.METAGROUP, Subsystems.METAGROUP, PlanetManagement.METAGROUP, StructureManagement.METAGROUP);
         }
     }
 }

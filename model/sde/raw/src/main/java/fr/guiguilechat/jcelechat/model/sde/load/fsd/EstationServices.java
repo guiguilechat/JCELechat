@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EstationServices {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/stationServices.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/stationServices.yaml");
 	private static LinkedHashMap<Integer, EstationServices> cache;
 
 	@SuppressWarnings("unchecked")
@@ -33,7 +33,7 @@ public class EstationServices {
 						MappingNode mn = (MappingNode) node;
 						if (mn.getValue().size() > 0) {
 							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter(s -> "serviceNameID".equals(s)).findAny().isPresent()) {
+									.filter("serviceNameID"::equals).findAny().isPresent()) {
 								node.setType(EstationServices.class);
 							}
 						}

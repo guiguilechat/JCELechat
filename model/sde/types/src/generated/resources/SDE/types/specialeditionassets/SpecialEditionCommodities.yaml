@@ -3987,3 +3987,19 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  83709:
+    cpumultiplier: 1.0
+    id: 83709
+    marketGroup: 1661
+    name: SKINR Studio Supplies
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  83832:
+    cpumultiplier: 1.0
+    id: 83832
+    marketGroup: 1661
+    name: Sequence Binder Welcome Package
+    portionSize: 1
+    published: true

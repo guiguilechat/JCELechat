@@ -3245,7 +3245,7 @@ types:
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   34590:
-    agility: 0.4000000059604645
+    agility: 4.0
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 4000.0
@@ -3284,7 +3284,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1699
-    mass: 1.0E7
+    mass: 1000000.0
     maxdirectionalvelocity: 2000
     maxlockedtargets: 10
     maxpassengers: 500
@@ -3297,7 +3297,7 @@ types:
     name: Victorieux Luxury Yacht
     packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 300
+    poweroutput: 100
     powertospeed: 1
     price: 2.56E7
     propulsiongraphicid: 394

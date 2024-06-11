@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model;
 import java.io.Serializable;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -57,14 +57,14 @@ public class Type implements Serializable {
 	private int variationParentTypeId;
 	private float volume;
 
-	public static Type from(int id, EtypeIDs data, Group grp) {
+	public static Type from(int id, Etypes data, Group grp) {
 		return Type.builder()
 				.typeId(id)
 				.build()
 				.update(data, grp);
 	}
 
-	public Type update(EtypeIDs data, Group parent) {
+	public Type update(Etypes data, Group parent) {
 		basePrice = data.basePrice;
 		capacity = data.capacity;
 		factionID = data.factionID;
@@ -73,7 +73,7 @@ public class Type implements Serializable {
 		iconID = data.iconID;
 		marketGroupId = data.marketGroupID;
 		mass = data.mass;
-		metaGroupId = data.metaGroupID;
+		metaGroupId = (int) data.metaGroupID;
 		name = data.enName();
 		portionSize = data.portionSize;
 		published = data.published;

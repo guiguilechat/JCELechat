@@ -124,3 +124,23 @@ types:
     structurehpmultiplier: 0.800000011920929
     techlevel: 1
     volume: 5.0
+  83647:
+    cargocapacitymultiplier: 1.1749999523162842
+    cargoscanresistance: 1.0
+    hp: 40.0
+    id: 83647
+    marketGroup: 1197
+    mass: 50.0
+    maxvelocitymodifier: 0.8500000238418579
+    metagroupid: 4
+    metalevelold: 8
+    name: Guri Malakim Expanded Cargohold
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 0.800000011920929
+    techlevel: 1
+    volume: 5.0

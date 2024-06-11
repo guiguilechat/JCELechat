@@ -6,6 +6,7 @@ types:
     name: Expired Sinister Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -16,6 +17,7 @@ types:
     name: Expired Ruined Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -26,6 +28,7 @@ types:
     name: Expired Vicious Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 80000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -36,6 +39,7 @@ types:
     name: Expired Devastated Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 80000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -46,6 +50,7 @@ types:
     name: Expired Disastrous Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -56,6 +61,7 @@ types:
     name: Expired Annihilated Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -66,6 +72,7 @@ types:
     name: Expired Calamitous Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612

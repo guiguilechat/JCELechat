@@ -1589,3 +1589,37 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 16.0
     volume: 0.009999999776482582
+  81032:
+    cannotbetrainedontrial: 1
+    id: 81032
+    marketGroup: 377
+    name: Upwell Hauler
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2000000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582
+  81044:
+    cannotbetrainedontrial: 1
+    id: 81044
+    marketGroup: 377
+    name: Upwell Freighter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 8.0E7
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 20342
+    requiredskill1level: 5
+    requiredskill2: 81032
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
+    volume: 0.009999999776482582

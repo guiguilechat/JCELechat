@@ -4,7 +4,7 @@ types:
     fighterabilityafterburnerduration: 20000
     fighterabilityafterburnerspeedbonus: 400
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 200
+    fighterabilityattackmissiledamageem: 200.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissiledamagetherm: 200
     fighterabilityattackmissileduration: 3500
@@ -129,7 +129,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 316
+    fighterabilityattackmissiledamageem: 316.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -206,7 +206,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageexp: 2394
+    fighterabilitymissilesdamageexp: 2394.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -257,7 +257,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 349
+    fighterabilityattackmissiledamagekin: 349.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -270,7 +270,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamagekin: 2793
+    fighterabilitymissilesdamagekin: 2793.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -321,7 +321,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 253
+    fighterabilityattackmissiledamageem: 253.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 570
@@ -377,7 +377,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 279
+    fighterabilityattackmissiledamagekin: 279.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 570
@@ -545,7 +545,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 279
+    fighterabilityattackmissiledamageem: 279.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 570
@@ -602,7 +602,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 349
+    fighterabilityattackmissiledamageem: 349.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -857,7 +857,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageexp: 2646
+    fighterabilitymissilesdamageexp: 2646.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -908,7 +908,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 309
+    fighterabilityattackmissiledamagekin: 309.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 570
@@ -965,7 +965,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 386
+    fighterabilityattackmissiledamagekin: 386.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -978,7 +978,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamagekin: 3087
+    fighterabilitymissilesdamagekin: 3087.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1029,7 +1029,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 1152
+    fighterabilityattackmissiledamagekin: 1152.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -1042,7 +1042,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamagekin: 9217
+    fighterabilitymissilesdamagekin: 9217.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1143,7 +1143,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 1043
+    fighterabilityattackmissiledamageem: 1043.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -1276,7 +1276,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageexp: 7900
+    fighterabilitymissilesdamageexp: 7900.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1323,7 +1323,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 1152
+    fighterabilityattackmissiledamageem: 1152.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -1384,7 +1384,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 1274
+    fighterabilityattackmissiledamagekin: 1274.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -1397,7 +1397,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamagekin: 10187
+    fighterabilitymissilesdamagekin: 10187.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1519,7 +1519,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageexp: 8732
+    fighterabilitymissilesdamageexp: 8732.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -1568,7 +1568,7 @@ types:
     fighterabilityafterburnerduration: 20000
     fighterabilityafterburnerspeedbonus: 400
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 660
+    fighterabilityattackmissiledamageem: 660.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissiledamagetherm: 660
     fighterabilityattackmissileduration: 3500
@@ -1625,7 +1625,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 835
+    fighterabilityattackmissiledamageem: 835.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 495
@@ -1678,7 +1678,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 921
+    fighterabilityattackmissiledamagekin: 921.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 495
@@ -1784,7 +1784,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageem: 921
+    fighterabilityattackmissiledamageem: 921.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 495
@@ -1838,7 +1838,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamagekin: 1020
+    fighterabilityattackmissiledamagekin: 1020.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 495

@@ -31,7 +31,7 @@ types:
     price: 1.0E8
     published: true
     radius: 459.0
-    requiressovupgrade1: 32422
+    requiresihubupgrade: 32422
     scangravimetricstrength: 200.0
     scanladarstrength: 200.0
     scanmagnetometricstrength: 200.0

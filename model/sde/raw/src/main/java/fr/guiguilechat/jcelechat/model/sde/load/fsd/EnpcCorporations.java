@@ -21,7 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EnpcCorporations {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/npcCorporations.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/npcCorporations.yaml");
 	private static LinkedHashMap<Integer, EnpcCorporations> cache;
 
 	@SuppressWarnings("unchecked")
@@ -36,7 +36,7 @@ public class EnpcCorporations {
 						MappingNode mn = (MappingNode) node;
 						if (mn.getValue().size() > 0) {
 							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter(s -> "tickerName".equals(s)).findAny().isPresent()) {
+									.filter("tickerName"::equals).findAny().isPresent()) {
 								node.setType(EnpcCorporations.class);
 							}
 						}

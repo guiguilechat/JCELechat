@@ -12,12 +12,12 @@ import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Ecategories;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Egroups;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma.EAttributes;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 
 public class SDELoader {
 
@@ -28,7 +28,7 @@ public class SDELoader {
 		Map<Integer, EdogmaAttributes> attTypes = EdogmaAttributes.load();
 		TypeHierarchy ret = new TypeHierarchy();
 		// categories
-		for (Entry<Integer, EcategoryIDs> e : EcategoryIDs.load().entrySet()) {
+		for (Entry<Integer, Ecategories> e : Ecategories.load().entrySet()) {
 			CatDetails det = new CatDetails();
 			det.id = e.getKey();
 			det.name = e.getValue().enName();
@@ -37,7 +37,7 @@ public class SDELoader {
 			ret.catID2GroupIDs.put(det.id, new HashSet<>());
 		}
 		// groups
-		for (Entry<Integer, EgroupIDs> e : EgroupIDs.load().entrySet()) {
+		for (Entry<Integer, Egroups> e : Egroups.load().entrySet()) {
 			GroupDetails det = new GroupDetails();
 			det.id = e.getKey();
 			det.catID = e.getValue().categoryID;
@@ -48,7 +48,7 @@ public class SDELoader {
 			ret.catID2GroupIDs.computeIfAbsent(e.getValue().categoryID, i -> new HashSet<>()).add(e.getKey());
 		}
 		// types
-		for (Entry<Integer, EtypeIDs> e : EtypeIDs.load().entrySet()) {
+		for (Entry<Integer, Etypes> e : Etypes.load().entrySet()) {
 			TypeDetails det = new TypeDetails();
 			det.name = e.getValue().enName();
 			det.id = e.getKey();

@@ -116,7 +116,14 @@ public class CorporationManagement
     @Stackable(true)
     @DefaultIntValue(0)
     public int skillallycostmodifierbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ResearchGangSizeBonus.INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3 .INSTANCE, DurationSkillBonus.INSTANCE, SkillLevel.INSTANCE, BaseDefenderAllyCost.INSTANCE, SkillAllyCostModifierBonus.INSTANCE, CorporationMemberBonus.INSTANCE })));
+    /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ResearchGangSizeBonus.INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, DurationSkillBonus.INSTANCE, BaseDefenderAllyCost.INSTANCE, SkillAllyCostModifierBonus.INSTANCE, CorporationMemberBonus.INSTANCE })));
     public static final CorporationManagement.MetaGroup METAGROUP = new CorporationManagement.MetaGroup();
 
     @Override
@@ -165,6 +172,10 @@ public class CorporationManagement
             case  1821 :
             {
                 return skillallycostmodifierbonus;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             default:
             {

@@ -101,3 +101,15 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
+  81054:
+    id: 81054
+    industryblueprintrank: 200.0
+    marketGroup: 3591
+    name: Avalanche Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E9
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

@@ -1,320 +1,188 @@
 types:
-  34841:
-    id: 34841
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Entrapment Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34842:
-    id: 34842
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Entrapment Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.5E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34843:
-    id: 34843
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Entrapment Array 4 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.0E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34844:
-    id: 34844
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Entrapment Array 5 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.5E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34845:
-    id: 34845
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Pirate Detection Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.5E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34846:
-    id: 34846
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Pirate Detection Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.0E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34847:
-    id: 34847
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Pirate Detection Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34848:
-    id: 34848
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Pirate Detection Array 4 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.25E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34849:
-    id: 34849
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Pirate Detection Array 5 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.5E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34850:
-    id: 34850
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Quantum Flux Generator 1 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.5E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34851:
-    id: 34851
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Quantum Flux Generator 2 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.0E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34852:
-    id: 34852
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Quantum Flux Generator 3 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 7.5E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34853:
-    id: 34853
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Quantum Flux Generator 4 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34854:
-    id: 34854
-    industryblueprintrank: 200.0
-    marketGroup: 2016
-    name: Quantum Flux Generator 5 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.25E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34855:
-    id: 34855
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.5E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34856:
-    id: 34856
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 3.75E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34857:
-    id: 34857
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.0E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34858:
-    id: 34858
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 4 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 6.25E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34859:
-    id: 34859
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Ore Prospecting Array 5 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.25E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34860:
-    id: 34860
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Survey Networks 1 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 2.5E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34861:
-    id: 34861
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Survey Networks 2 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 5.0E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34862:
-    id: 34862
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Survey Networks 3 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 7.5E8
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34863:
-    id: 34863
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Survey Networks 4 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34864:
-    id: 34864
-    industryblueprintrank: 200.0
-    marketGroup: 2014
-    name: Survey Networks 5 Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.25E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34865:
-    id: 34865
-    industryblueprintrank: 200.0
-    marketGroup: 2017
-    name: Advanced Logistics Network Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 1.0E9
-    published: true
-    radius: 1.0
-    volume: 0.009999999776482582
-  34866:
-    id: 34866
+  81616:
+    id: 81616
     industryblueprintrank: 200.0
     marketGroup: 2017
     name: Cynosural Navigation Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 5.75E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  34867:
-    id: 34867
+  81620:
+    id: 81620
     industryblueprintrank: 200.0
     marketGroup: 2017
     name: Cynosural Suppression Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1.15E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  34868:
-    id: 34868
+  81622:
+    id: 81622
+    industryblueprintrank: 200.0
+    marketGroup: 2017
+    name: Advanced Logistics Network Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.15E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  81625:
+    id: 81625
     industryblueprintrank: 200.0
     marketGroup: 2017
     name: Supercapital Construction Facilities Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.75E8
+    price: 4.3E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  34869:
-    id: 34869
+  82501:
+    id: 82501
     industryblueprintrank: 200.0
     marketGroup: 2016
-    name: Entrapment Array 1 Blueprint
+    name: Major Threat Detection Array 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 2.9E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82502:
+    id: 82502
+    industryblueprintrank: 200.0
+    marketGroup: 2016
+    name: Major Threat Detection Array 2 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.15E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82503:
+    id: 82503
+    industryblueprintrank: 200.0
+    marketGroup: 2016
+    name: Major Threat Detection Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.724999936E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82504:
+    id: 82504
+    industryblueprintrank: 200.0
+    marketGroup: 2016
+    name: Minor Threat Detection Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.9E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82505:
+    id: 82505
+    industryblueprintrank: 200.0
+    marketGroup: 2016
+    name: Minor Threat Detection Array 2 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.15E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82506:
+    id: 82506
+    industryblueprintrank: 200.0
+    marketGroup: 2016
+    name: Minor Threat Detection Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.724999936E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82595:
+    id: 82595
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Megacyte Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82597:
+    id: 82597
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Zydrine Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82599:
+    id: 82599
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Nocxium Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82601:
+    id: 82601
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Isogen Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82603:
+    id: 82603
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Mexallon Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82605:
+    id: 82605
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Pyerite Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82607:
+    id: 82607
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Tritanium Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.75E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582

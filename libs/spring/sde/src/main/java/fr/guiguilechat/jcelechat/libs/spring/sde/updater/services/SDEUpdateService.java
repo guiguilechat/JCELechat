@@ -66,12 +66,12 @@ import fr.guiguilechat.jcelechat.model.sde.load.bsd.EinvNames;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Ecategories;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Egroups;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EplanetSchematics;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Moon;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.NPCStation;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Planet;
@@ -213,10 +213,10 @@ public class SDEUpdateService {
 	class UpdateContext {
 		public final Map<Integer, EdogmaAttributes> attributes = new HashMap<>();
 		public final List<Eblueprints> blueprints = new ArrayList<>();
-		public final Map<Integer, EcategoryIDs> categories = new HashMap<>();
+		public final Map<Integer, Ecategories> categories = new HashMap<>();
 		public final List<ConstelData> constels = new ArrayList<>();
 		public final Map<Long, String> invNames = new HashMap<>();
-		public final Map<Integer, EgroupIDs> groups = new HashMap<>();
+		public final Map<Integer, Egroups> groups = new HashMap<>();
 		public final Map<Long, PlanetSystemData> planets = new HashMap<>();
 		public final Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>();
 		public final List<RegionData> regions = new ArrayList<>();
@@ -224,7 +224,7 @@ public class SDEUpdateService {
 		public final List<StationData> stations = new ArrayList<>();
 		public final List<SolarSystemData> systems = new ArrayList<>();
 		public final List<TypeAttributeData> typeAttributes = new ArrayList<>();
-		public final Map<Integer, EtypeIDs> types = new HashMap<>();
+		public final Map<Integer, Etypes> types = new HashMap<>();
 
 		static final Pattern ENTRYNAME_SOLARSYSTEM_PATTERN = Pattern.compile(
 				"sde/fsd/universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/solarsystem\\.staticdata");
@@ -328,15 +328,15 @@ public class SDEUpdateService {
 		}
 
 		private void saveCategories(InputStream is) {
-			categories.putAll(EcategoryIDs.from(is));
+			categories.putAll(Ecategories.from(is));
 		}
 
 		private void saveGroups(InputStream is) {
-			groups.putAll(EgroupIDs.from(is));
+			groups.putAll(Egroups.from(is));
 		}
 
 		private void saveTypes(InputStream is) {
-			types.putAll(EtypeIDs.from(is));
+			types.putAll(Etypes.from(is));
 		}
 
 		private void saveAttributes(InputStream is) {
@@ -587,9 +587,9 @@ public class SDEUpdateService {
 		Map<Integer, Category> alreadyPresents = categoryService.allById();
 		List<Category> created = new ArrayList<>();
 		// update already saved categories, create missing ones.
-		for (Entry<Integer, EcategoryIDs> entry : context.categories.entrySet()) {
+		for (Entry<Integer, Ecategories> entry : context.categories.entrySet()) {
 			int id = entry.getKey();
-			EcategoryIDs data = entry.getValue();
+			Ecategories data = entry.getValue();
 			Category present = alreadyPresents.get(id);
 			if (present == null) {
 				created.add(Category.from(id, data));
@@ -607,9 +607,9 @@ public class SDEUpdateService {
 	protected Map<Integer, Group> updateGroups(UpdateContext context, Map<Integer, Category> categories) {
 		Map<Integer, Group> alreadyPresents = groupService.allById();
 		List<Group> created = new ArrayList<>();
-		for (Entry<Integer, EgroupIDs> entry : context.groups.entrySet()) {
+		for (Entry<Integer, Egroups> entry : context.groups.entrySet()) {
 			int id = entry.getKey();
-			EgroupIDs data = entry.getValue();
+			Egroups data = entry.getValue();
 			Group present = alreadyPresents.get(id);
 			Category parent = categories.get(data.categoryID);
 			if (present == null) {
@@ -627,9 +627,9 @@ public class SDEUpdateService {
 	protected Map<Integer, Type> updateTypes(UpdateContext context, Map<Integer, Group> groups) {
 		Map<Integer, Type> alreadyPresents = typeService.allById();
 		List<Type> created = new ArrayList<>();
-		for (Entry<Integer, EtypeIDs> entry : context.types.entrySet()) {
+		for (Entry<Integer, Etypes> entry : context.types.entrySet()) {
 			int id = entry.getKey();
-			EtypeIDs data = entry.getValue();
+			Etypes data = entry.getValue();
 			Type present = alreadyPresents.get(id);
 			Group parent = groups.get(data.groupID);
 			if (present == null) {

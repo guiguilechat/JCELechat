@@ -60,6 +60,13 @@ public class Subsystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill2level;
+    /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IsSkillIObsolete.INSTANCE, Radius.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE })));
     public static final Subsystems.MetaGroup METAGROUP = new Subsystems.MetaGroup();
 
@@ -81,6 +88,10 @@ public class Subsystems
             case  278 :
             {
                 return requiredskill2level;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             default:
             {

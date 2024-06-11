@@ -8,7 +8,9 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.types.personalization.ShipPersonalization;
+import fr.guiguilechat.jcelechat.model.sde.types.personalization.SequenceBinders;
+import fr.guiguilechat.jcelechat.model.sde.types.personalization.ShipEmblems;
+import fr.guiguilechat.jcelechat.model.sde.types.personalization.ShipSKINDesignElement;
 
 public abstract class Personalization
     extends EveType
@@ -42,7 +44,7 @@ public abstract class Personalization
 
         @Override
         public Collection<IMetaGroup<? extends Personalization>> groups() {
-            return Arrays.asList(ShipPersonalization.METAGROUP);
+            return Arrays.asList(ShipEmblems.METAGROUP, SequenceBinders.METAGROUP, ShipSKINDesignElement.METAGROUP);
         }
     }
 }

@@ -18,6 +18,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Networked Sensor Array
+    networkedsensorarraydisallowcapitalmicrojump: 1
     packagedVolume: 1000.0
     portionSize: 1
     power: 50000

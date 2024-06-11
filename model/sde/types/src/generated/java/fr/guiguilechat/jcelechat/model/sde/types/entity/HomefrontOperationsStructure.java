@@ -14,32 +14,51 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonusMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonusPerCycle;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMax;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMin;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TierDifficulty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -49,6 +68,27 @@ public class HomefrontOperationsStructure
     extends Entity
 {
     /**
+     * DO NOT MESS WITH. The amount of damage done to the entities armor hit points. Starting armor damage.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int armordamage;
+    /**
+     * Multiplies EM damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armoremdamageresonance;
+    /**
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armorexplosivedamageresonance;
+    /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
@@ -56,12 +96,19 @@ public class HomefrontOperationsStructure
     @DefaultRealValue(0.0)
     public double armorhp;
     /**
-     * DO NOT MESS WITH
+     * Multiplies KINETIC damage taken by Armor. 
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double armoruniformity;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armorkineticdamageresonance;
+    /**
+     * Multiplies THERMAL damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armorthermaldamageresonance;
     /**
      * Capacitor capacity
      */
@@ -84,6 +131,27 @@ public class HomefrontOperationsStructure
     @DefaultIntValue(0)
     public int charge;
     /**
+     * Damage multiplier.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double damagemultiplier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.5)
+    public double damagemultiplierbonusmax;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double damagemultiplierbonuspercycle;
+    /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
@@ -91,33 +159,12 @@ public class HomefrontOperationsStructure
     @DefaultIntValue(0)
     public int disallowassistance;
     /**
-     * The distance from a target an entity starts using its weapons.
+     * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(15000)
-    public int entityattackrange;
-    /**
-     * The distance outside of which the entity activates their MWD equivalent.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(2500)
-    public int entitychasemaxdistance;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int entityequipmentmax;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int entityequipmentmin;
+    @DefaultRealValue(0.0)
+    public double emdamage;
     /**
      * 
      */
@@ -126,13 +173,6 @@ public class HomefrontOperationsStructure
     @DefaultRealValue(0.0)
     public double entityfactionloss;
     /**
-     * The distance at which the entity orbits, follows.. and more.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(500.0)
-    public double entityflyrange;
-    /**
      * Reward for destroying this entity.
      */
     @HighIsGood(true)
@@ -140,27 +180,12 @@ public class HomefrontOperationsStructure
     @DefaultIntValue(0)
     public int entitykillbounty;
     /**
-     * The maximum number of pieces of loot dropped by this entity.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int entitylootcountmax;
-    /**
-     * Deprecated. The minimum number of pieces of loot dropped by this entity.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int entitylootcountmin;
-    /**
-     * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
-     * Value is a % movement of the character's current security towards the upper/lower limit.
+     * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
-    public double entitysecuritystatuskillbonus;
+    public double explosivedamage;
     /**
      * distance from maximum range at which accuracy has fallen by half
      */
@@ -169,6 +194,20 @@ public class HomefrontOperationsStructure
     @DefaultRealValue(1.0)
     public double falloff;
     /**
+     * Graphic ID of the turrets for drone type ships.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int gfxturretid;
+    /**
+     * Defines whether an entity can be hacked or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int hackable;
+    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
@@ -176,12 +215,33 @@ public class HomefrontOperationsStructure
     @DefaultRealValue(0.0)
     public double hp;
     /**
+     * Kinetic damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double kineticdamage;
+    /**
+     * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int maxlockedtargets;
+    /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double maxrange;
+    /**
+     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1000)
+    public int optimalsigradius;
     /**
      * Radius of an object in meters
      */
@@ -196,6 +256,55 @@ public class HomefrontOperationsStructure
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double rechargerate;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill1level;
+    /**
+     * Gravimetric strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scangravimetricstrength;
+    /**
+     * Ladar strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanladarstrength;
+    /**
+     * Magnetometric strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanmagnetometricstrength;
+    /**
+     * Radar strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanradarstrength;
+    /**
+     * The resolution that the vessel can target other objects at.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanresolution;
     /**
      * Amount of maximum shield HP on the item.
      */
@@ -212,12 +321,40 @@ public class HomefrontOperationsStructure
     @DefaultRealValue(0.0)
     public double shieldcharge;
     /**
+     * Multiplies EM damage taken by shield
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldemdamageresonance;
+    /**
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldexplosivedamageresonance;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldkineticdamageresonance;
+    /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldrechargerate;
+    /**
+     * Multiplies THERMAL damage taken by Shield. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldthermaldamageresonance;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
@@ -226,12 +363,26 @@ public class HomefrontOperationsStructure
     @DefaultRealValue(100.0)
     public double signatureradius;
     /**
-     * DO NOT MESS WITH
+     * Time in milliseconds between possible activations
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double speed;
+    /**
+     * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double structureuniformity;
+    @DefaultRealValue(0.0)
+    public double thermaldamage;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int tierdifficulty;
     /**
      * Weapon accuracy
      */
@@ -239,19 +390,35 @@ public class HomefrontOperationsStructure
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, Charge.INSTANCE, DisallowAssistance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, EntityAttackRange.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, ShieldCapacity.INSTANCE, Hackable.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorDamage.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, OptimalSigRadius.INSTANCE, DamageMultiplierBonusPerCycle.INSTANCE, DamageMultiplierBonusMax.INSTANCE, EntityFactionLoss.INSTANCE, EmDamage.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, RechargeRate.INSTANCE, TierDifficulty.INSTANCE })));
     public static final HomefrontOperationsStructure.MetaGroup METAGROUP = new HomefrontOperationsStructure.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  266 :
+            {
+                return armordamage;
+            }
+            case  267 :
+            {
+                return armoremdamageresonance;
+            }
+            case  268 :
+            {
+                return armorexplosivedamageresonance;
+            }
             case  265 :
             {
                 return armorhp;
             }
-            case  524 :
+            case  269 :
             {
-                return armoruniformity;
+                return armorkineticdamageresonance;
+            }
+            case  270 :
+            {
+                return armorthermaldamageresonance;
             }
             case  482 :
             {
@@ -265,61 +432,69 @@ public class HomefrontOperationsStructure
             {
                 return charge;
             }
+            case  64 :
+            {
+                return damagemultiplier;
+            }
+            case  2734 :
+            {
+                return damagemultiplierbonusmax;
+            }
+            case  2733 :
+            {
+                return damagemultiplierbonuspercycle;
+            }
             case  854 :
             {
                 return disallowassistance;
             }
-            case  247 :
+            case  114 :
             {
-                return entityattackrange;
-            }
-            case  665 :
-            {
-                return entitychasemaxdistance;
-            }
-            case  457 :
-            {
-                return entityequipmentmax;
-            }
-            case  456 :
-            {
-                return entityequipmentmin;
+                return emdamage;
             }
             case  562 :
             {
                 return entityfactionloss;
             }
-            case  416 :
-            {
-                return entityflyrange;
-            }
             case  481 :
             {
                 return entitykillbounty;
             }
-            case  251 :
+            case  116 :
             {
-                return entitylootcountmax;
-            }
-            case  250 :
-            {
-                return entitylootcountmin;
-            }
-            case  252 :
-            {
-                return entitysecuritystatuskillbonus;
+                return explosivedamage;
             }
             case  158 :
             {
                 return falloff;
             }
+            case  245 :
+            {
+                return gfxturretid;
+            }
+            case  1927 :
+            {
+                return hackable;
+            }
             case  9 :
             {
                 return hp;
             }
+            case  117 :
+            {
+                return kineticdamage;
+            }
+            case  192 :
+            {
+                return maxlockedtargets;
+            }
             case  54 :
             {
                 return maxrange;
+            }
+            case  620 :
+            {
+                return optimalsigradius;
             }
             case  162 :
             {
@@ -329,6 +504,34 @@ public class HomefrontOperationsStructure
             {
                 return rechargerate;
             }
+            case  182 :
+            {
+                return requiredskill1;
+            }
+            case  277 :
+            {
+                return requiredskill1level;
+            }
+            case  211 :
+            {
+                return scangravimetricstrength;
+            }
+            case  209 :
+            {
+                return scanladarstrength;
+            }
+            case  210 :
+            {
+                return scanmagnetometricstrength;
+            }
+            case  208 :
+            {
+                return scanradarstrength;
+            }
+            case  564 :
+            {
+                return scanresolution;
+            }
             case  263 :
             {
                 return shieldcapacity;
@@ -337,17 +540,41 @@ public class HomefrontOperationsStructure
             {
                 return shieldcharge;
             }
+            case  271 :
+            {
+                return shieldemdamageresonance;
+            }
+            case  272 :
+            {
+                return shieldexplosivedamageresonance;
+            }
+            case  273 :
+            {
+                return shieldkineticdamageresonance;
+            }
             case  479 :
             {
                 return shieldrechargerate;
+            }
+            case  274 :
+            {
+                return shieldthermaldamageresonance;
             }
             case  552 :
             {
                 return signatureradius;
             }
-            case  525 :
+            case  51 :
             {
-                return structureuniformity;
+                return speed;
+            }
+            case  118 :
+            {
+                return thermaldamage;
+            }
+            case  1919 :
+            {
+                return tierdifficulty;
             }
             case  160 :
             {

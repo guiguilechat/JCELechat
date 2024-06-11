@@ -23,7 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
  */
 public class Eblueprints {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/fsd/blueprints.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/blueprints.yaml");
 
 	private static LinkedHashMap<Integer, Eblueprints> cache = null;
 

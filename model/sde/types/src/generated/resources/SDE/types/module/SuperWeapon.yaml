@@ -18,7 +18,7 @@ types:
     doomsdaynojumporcloakduration: 300000
     duration: 300000.0
     effectdeactivationdelay: 30000
-    explosivedamage: 1000000.0
+    explosivedamage: 2000000.0
     hp: 99999.0
     id: 23674
     marketGroup: 2270
@@ -58,7 +58,7 @@ types:
     doomsdaynojumporcloakduration: 300000
     duration: 300000.0
     effectdeactivationdelay: 30000
-    emdamage: 1000000.0
+    emdamage: 2000000.0
     hp: 99999.0
     id: 24550
     marketGroup: 2267
@@ -100,7 +100,7 @@ types:
     effectdeactivationdelay: 30000
     hp: 99999.0
     id: 24552
-    kineticdamage: 1000000.0
+    kineticdamage: 2000000.0
     marketGroup: 2268
     mass: 100.0
     maxgroupactive: 1
@@ -161,7 +161,7 @@ types:
     signatureradius: 100.0
     speedfactor: -100.0
     techlevel: 1
-    thermaldamage: 1000000.0
+    thermaldamage: 2000000.0
     volume: 8000.0
   40631:
     cancloak: 1

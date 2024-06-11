@@ -9015,6 +9015,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -9040,6 +9041,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 6
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -9065,6 +9067,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 8
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -9087,6 +9090,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3355
@@ -9109,6 +9113,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3355
@@ -9131,6 +9136,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3355
@@ -9638,6 +9644,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -9657,6 +9664,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     scanresolutionbonus: 5.0

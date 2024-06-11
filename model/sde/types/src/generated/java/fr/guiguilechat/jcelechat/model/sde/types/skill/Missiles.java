@@ -111,6 +111,13 @@ public class Missiles
     @DefaultIntValue(0)
     public int rofbonus;
     /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
+    /**
      * Factor by which topspeed increases.
      */
     @HighIsGood(true)
@@ -162,6 +169,10 @@ public class Missiles
             case  293 :
             {
                 return rofbonus;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             case  20 :
             {

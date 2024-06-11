@@ -132,7 +132,14 @@ public class Production
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill3level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ManufacturingSlotBonus.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, AdvancedIndustrySkillIndustryJobTimeBonus.INSTANCE, AmarrTechMutator.INSTANCE, CaldariTechMutator.INSTANCE, SkillTimeConstant.INSTANCE, GallenteTechMutator.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3 .INSTANCE, DurationSkillBonus.INSTANCE, ManufacturingTimeBonus.INSTANCE, SkillLevel.INSTANCE, ManufactureTimePerLevel.INSTANCE })));
+    /**
+     * Level of skill
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int skilllevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ManufacturingSlotBonus.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, AdvancedIndustrySkillIndustryJobTimeBonus.INSTANCE, AmarrTechMutator.INSTANCE, CaldariTechMutator.INSTANCE, SkillTimeConstant.INSTANCE, GallenteTechMutator.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, DurationSkillBonus.INSTANCE, ManufacturingTimeBonus.INSTANCE, ManufactureTimePerLevel.INSTANCE })));
     public static final Production.MetaGroup METAGROUP = new Production.MetaGroup();
 
     @Override
@@ -189,6 +196,10 @@ public class Production
             case  279 :
             {
                 return requiredskill3level;
+            }
+            case  280 :
+            {
+                return skilllevel;
             }
             default:
             {

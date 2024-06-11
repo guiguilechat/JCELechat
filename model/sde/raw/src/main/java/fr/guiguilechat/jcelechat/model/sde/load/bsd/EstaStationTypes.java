@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EstaStationTypes {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/bsd/staStationTypes.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "bsd/staStationTypes.yaml");
 	private static ArrayList<EstaStationTypes> cache;
 
 	@SuppressWarnings("unchecked")

@@ -16,7 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class EcrpNPCCorporationDivisions {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/bsd/crpNPCCorporationDivisions.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "bsd/crpNPCCorporationDivisions.yaml");
 	private static ArrayList<EcrpNPCCorporationDivisions> cache;
 
 	@SuppressWarnings("unchecked")

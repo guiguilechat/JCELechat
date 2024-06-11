@@ -10,7 +10,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     explosivedamage: 18.0
     falloff: 6000.0
     gfxboosterid: 394
@@ -53,7 +53,7 @@ types:
     volume: 118000.0
   77489:
     agility: 0.3779999911785126
-    armordamageamount: 1092.0
+    armordamageamount: 980.0
     armoremdamageresonance: 0.8999999761581421
     armorexplosivedamageresonance: 0.5400000214576721
     armorhp: 6800.0
@@ -67,7 +67,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 394
     hp: 1700.0
@@ -117,7 +117,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     entitymissiletypeid: 208
     falloff: 1.0
     gfxboosterid: 394
@@ -129,11 +129,11 @@ types:
     maxtargetrange: 79375.0
     maxvelocity: 495.0
     missiledamagemultiplier: 4.199999809265137
-    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 10500.0
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11800.0
     name: Shrouding Arbitrator
     optimalsigradius: 1000
     packagedVolume: 118000.0
@@ -173,7 +173,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.800000190734863
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     explosivedamage: 18.0
     falloff: 6000.0
     gfxboosterid: 394
@@ -234,7 +234,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 900.0
-    entitykillbounty: 87500
+    entitykillbounty: 150000
     falloff: 1.0
     gfxboosterid: 394
     hp: 1300.0
@@ -285,7 +285,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 900.0
-    entitykillbounty: 87500
+    entitykillbounty: 150000
     falloff: 1.0
     gfxboosterid: 395
     hp: 1300.0
@@ -336,7 +336,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 900.0
-    entitykillbounty: 87500
+    entitykillbounty: 150000
     falloff: 1.0
     gfxboosterid: 397
     hp: 1300.0
@@ -387,7 +387,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 900.0
-    entitykillbounty: 87500
+    entitykillbounty: 150000
     falloff: 1.0
     gfxboosterid: 397
     hp: 1300.0
@@ -434,7 +434,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 18.0
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -486,7 +486,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 18.0
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 395
@@ -537,7 +537,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -590,7 +590,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 30.0
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     falloff: 6000.0
     gfxboosterid: 394
     gfxturretid: 456
@@ -641,7 +641,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     falloff: 6000.0
     gfxboosterid: 395
     gfxturretid: 568
@@ -693,7 +693,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 568
@@ -745,7 +745,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -798,7 +798,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 30.0
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     falloff: 6000.0
     gfxboosterid: 394
     gfxturretid: 390
@@ -850,7 +850,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     explosivedamage: 18.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -903,7 +903,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 12.0
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     explosivedamage: 12.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -955,7 +955,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 18.0
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 491
@@ -1007,7 +1007,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 30.0
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     falloff: 6000.0
     gfxboosterid: 394
     gfxturretid: 456
@@ -1058,7 +1058,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     falloff: 6000.0
     gfxboosterid: 395
     gfxturretid: 568
@@ -1110,7 +1110,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 175000
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 568
@@ -1166,7 +1166,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 397
     hp: 1700.0
@@ -1190,7 +1190,7 @@ types:
     rechargerate: 256500.0
     scanradarstrength: 15.600000381469727
     scanresolution: 375.0
-    shieldbonus: 1462.5
+    shieldbonus: 1300.0
     shieldcapacity: 6800.0
     shieldemdamageresonance: 0.8999999761581421
     shieldexplosivedamageresonance: 0.7200000286102295
@@ -1204,7 +1204,7 @@ types:
     volume: 118000.0
   77655:
     agility: 0.3779999911785126
-    armordamageamount: 1092.0
+    armordamageamount: 980.0
     armoremdamageresonance: 0.8999999761581421
     armorexplosivedamageresonance: 0.7200000286102295
     armorhp: 6800.0
@@ -1218,7 +1218,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 397
     hp: 1700.0
@@ -1268,7 +1268,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 397
     hp: 1700.0
@@ -1292,7 +1292,7 @@ types:
     rechargerate: 256500.0
     scanradarstrength: 15.600000381469727
     scanresolution: 375.0
-    shieldbonus: 1462.5
+    shieldbonus: 1300.0
     shieldcapacity: 6800.0
     shieldemdamageresonance: 0.8999999761581421
     shieldexplosivedamageresonance: 0.44999998807907104
@@ -1306,7 +1306,7 @@ types:
     volume: 118000.0
   77657:
     agility: 0.3779999911785126
-    armordamageamount: 1092.0
+    armordamageamount: 980.0
     armoremdamageresonance: 0.44999998807907104
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 6800.0
@@ -1320,7 +1320,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 394
     hp: 1700.0
@@ -1357,7 +1357,7 @@ types:
     volume: 118000.0
   77658:
     agility: 0.3779999911785126
-    armordamageamount: 1092.0
+    armordamageamount: 980.0
     armoremdamageresonance: 0.8999999761581421
     armorexplosivedamageresonance: 0.44999998807907104
     armorhp: 6800.0
@@ -1371,7 +1371,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 397
     hp: 1700.0
@@ -1408,7 +1408,7 @@ types:
     volume: 118000.0
   77659:
     agility: 0.3779999911785126
-    armordamageamount: 1092.0
+    armordamageamount: 980.0
     armoremdamageresonance: 0.6524999737739563
     armorexplosivedamageresonance: 0.6524999737739563
     armorhp: 7800.0
@@ -1422,7 +1422,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 397
     hp: 1700.0
@@ -1470,7 +1470,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 397
     hp: 1700.0
@@ -1494,7 +1494,7 @@ types:
     rechargerate: 256500.0
     scanradarstrength: 15.600000381469727
     scanresolution: 375.0
-    shieldbonus: 1462.5
+    shieldbonus: 1300.0
     shieldcapacity: 6800.0
     shieldemdamageresonance: 0.5400000214576721
     shieldexplosivedamageresonance: 0.8999999761581421
@@ -1508,7 +1508,7 @@ types:
     volume: 118000.0
   77661:
     agility: 0.3779999911785126
-    armordamageamount: 1092.0
+    armordamageamount: 980.0
     armoremdamageresonance: 0.44999998807907104
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 6800.0
@@ -1522,7 +1522,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 394
     hp: 1700.0
@@ -1572,7 +1572,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 395
     hp: 1700.0
@@ -1596,7 +1596,7 @@ types:
     rechargerate: 256500.0
     scanradarstrength: 15.600000381469727
     scanresolution: 375.0
-    shieldbonus: 1462.5
+    shieldbonus: 1300.0
     shieldcapacity: 6800.0
     shieldemdamageresonance: 0.8999999761581421
     shieldexplosivedamageresonance: 0.7200000286102295
@@ -1610,7 +1610,7 @@ types:
     volume: 118000.0
   77663:
     agility: 0.3779999911785126
-    armordamageamount: 1092.0
+    armordamageamount: 980.0
     armoremdamageresonance: 0.8999999761581421
     armorexplosivedamageresonance: 0.7200000286102295
     armorhp: 6800.0
@@ -1624,7 +1624,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 397
     hp: 1700.0
@@ -1661,7 +1661,7 @@ types:
     volume: 118000.0
   77664:
     agility: 0.3779999911785126
-    armordamageamount: 1092.0
+    armordamageamount: 980.0
     armoremdamageresonance: 0.5400000214576721
     armorexplosivedamageresonance: 0.44999998807907104
     armorhp: 6800.0
@@ -1675,7 +1675,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 397
     hp: 1700.0
@@ -1725,7 +1725,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 395
     hp: 1700.0
@@ -1749,7 +1749,7 @@ types:
     rechargerate: 256500.0
     scanradarstrength: 15.600000381469727
     scanresolution: 375.0
-    shieldbonus: 1462.5
+    shieldbonus: 1300.0
     shieldcapacity: 6800.0
     shieldemdamageresonance: 0.5400000214576721
     shieldexplosivedamageresonance: 0.44999998807907104
@@ -1776,7 +1776,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 397
     hp: 1700.0
@@ -1800,7 +1800,7 @@ types:
     rechargerate: 256500.0
     scanradarstrength: 15.600000381469727
     scanresolution: 375.0
-    shieldbonus: 1462.5
+    shieldbonus: 1300.0
     shieldcapacity: 6800.0
     shieldemdamageresonance: 0.8999999761581421
     shieldexplosivedamageresonance: 0.44999998807907104
@@ -1814,7 +1814,7 @@ types:
     volume: 118000.0
   77667:
     agility: 0.3779999911785126
-    armordamageamount: 1092.0
+    armordamageamount: 980.0
     armoremdamageresonance: 0.44999998807907104
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 6800.0
@@ -1828,7 +1828,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 237500
     falloff: 1.0
     gfxboosterid: 394
     hp: 1700.0
@@ -1880,7 +1880,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 18.0
     energyneutralizeramount: 300.0
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -1937,7 +1937,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 18.0
     energyneutralizeramount: 300.0
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 395
@@ -1992,7 +1992,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     entitymissiletypeid: 206
     falloff: 1.0
     gfxboosterid: 397
@@ -2004,11 +2004,11 @@ types:
     maxtargetrange: 79375.0
     maxvelocity: 495.0
     missiledamagemultiplier: 4.199999809265137
-    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 10500.0
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11800.0
     name: Spotter Bellicose
     optimalsigradius: 1000
     packagedVolume: 118000.0
@@ -2043,7 +2043,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     entitymissiletypeid: 207
     explosiondelaybonus: -15.46875
     falloff: 1.0
@@ -2058,11 +2058,11 @@ types:
     maxtargetrange: 79375.0
     maxvelocity: 495.0
     missiledamagemultiplier: 4.199999809265137
-    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 10500.0
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11800.0
     missilevelocitybonus: -15.46875
     name: Damning Arbitrator
     npcguidancedisruptordischarge: 13.5
@@ -2108,7 +2108,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     falloff: 6000.0
     gfxboosterid: 395
     gfxturretid: 567
@@ -2168,7 +2168,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 567
@@ -2226,7 +2226,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     entitymissiletypeid: 206
     falloff: 1.0
     gfxboosterid: 397
@@ -2238,11 +2238,11 @@ types:
     maxtargetrange: 79375.0
     maxvelocity: 495.0
     missiledamagemultiplier: 4.199999809265137
-    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 10500.0
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11800.0
     name: Persecutor Bellicose
     optimalsigradius: 1000
     packagedVolume: 118000.0
@@ -2279,7 +2279,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
     emdamage: 30.0
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     falloff: 6000.0
     gfxboosterid: 394
     gfxturretid: 390
@@ -2335,7 +2335,7 @@ types:
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     explosivedamage: 18.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -2395,7 +2395,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 12.0
     energyneutralizeramount: 300.0
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     explosivedamage: 12.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -2450,7 +2450,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     entitymissiletypeid: 208
     falloff: 1.0
     gfxboosterid: 397
@@ -2462,11 +2462,11 @@ types:
     maxtargetrange: 79375.0
     maxvelocity: 495.0
     missiledamagemultiplier: 4.199999809265137
-    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 10500.0
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11800.0
     name: Blight Bellicose
     optimalsigradius: 1000
     packagedVolume: 118000.0
@@ -2504,7 +2504,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     entitymissiletypeid: 207
     explosiondelaybonus: -15.46875
     falloff: 1.0
@@ -2519,11 +2519,11 @@ types:
     maxtargetrange: 79375.0
     maxvelocity: 495.0
     missiledamagemultiplier: 4.199999809265137
-    missileentityaoecloudsizemultiplier: 0.75
+    missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
-    missileentityflighttimemultiplier: 1.5
-    missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 10500.0
+    missileentityflighttimemultiplier: 1.25
+    missileentityvelocitymultiplier: 1.25
+    missilelaunchduration: 11800.0
     missilevelocitybonus: -15.46875
     name: Obscurer Arbitrator
     npcguidancedisruptordischarge: 13.5
@@ -2569,7 +2569,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     falloff: 6000.0
     gfxboosterid: 395
     gfxturretid: 567
@@ -2629,7 +2629,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.199999809265137
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 187500
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 567
@@ -2689,7 +2689,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 18.0
     energyneutralizeramount: 360.0
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 395
@@ -2746,7 +2746,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 18.0
     energyneutralizeramount: 360.0
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 395
@@ -2801,7 +2801,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.800000190734863
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -2860,7 +2860,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 30.0
     energyneutralizeramount: 360.0
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     falloff: 6000.0
     gfxboosterid: 394
     gfxturretid: 457
@@ -2913,26 +2913,25 @@ types:
     behaviorecmrange: 60617
     capacitorcapacity: 1975.0
     capacity: 235.0
-    damagemultiplier: 4.800000190734863
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     entitymissiletypeid: 209
     falloff: 1.0
     gfxboosterid: 395
     gfxturretid: 501
     hp: 2000.0
     id: 77686
-    kineticdamage: 30.0
     mass: 1.3E7
     maxlockedtargets: 6
     maxtargetrange: 55000.0
     maxvelocity: 390.86541748046875
-    missiledamagemultiplier: 2.75
+    missiledamagemultiplier: 4.800000190734863
     missileentityaoecloudsizemultiplier: 0.75
-    missileentityaoevelocitymultiplier: 1.5
+    missileentityaoevelocitymultiplier: 2.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
-    missilelaunchduration: 10404.0
+    missilelaunchduration: 11800.0
     name: Blindsider Gila
     optimalsigradius: 1000
     packagedVolume: 118000.0
@@ -2954,10 +2953,8 @@ types:
     shieldthermaldamageresonance: 0.5400000214576721
     shielduniformity: 0.75
     signatureradius: 115.0
-    speed: 3800.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 18.0
     volume: 118000.0
   77687:
     agility: 0.4300000071525574
@@ -2974,7 +2971,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.800000190734863
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 569
@@ -3032,7 +3029,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.800000190734863
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     explosivedamage: 30.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -3089,7 +3086,7 @@ types:
     damagemultiplier: 4.800000190734863
     damagemultiplierbonusmax: 0.5
     emdamage: 30.0
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 390
@@ -3144,7 +3141,7 @@ types:
     damagemultiplier: 4.800000190734863
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05000000074505806
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     explosivedamage: 18.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -3202,7 +3199,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 12.0
     energyneutralizeramount: 360.0
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     explosivedamage: 12.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -3259,7 +3256,7 @@ types:
     damagemultiplier: 4.800000190734863
     damagemultiplierbonusmax: 0.5
     emdamage: 18.0
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 492
@@ -3320,7 +3317,7 @@ types:
     damagemultiplierbonusmax: 0.5
     emdamage: 30.0
     energyneutralizeramount: 360.0
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     falloff: 6000.0
     gfxboosterid: 394
     gfxturretid: 457
@@ -3375,7 +3372,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.800000190734863
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     falloff: 6000.0
     gfxboosterid: 395
     gfxturretid: 569
@@ -3435,7 +3432,7 @@ types:
     capacity: 235.0
     damagemultiplier: 4.800000190734863
     damagemultiplierbonusmax: 0.5
-    entitykillbounty: 87500
+    entitykillbounty: 325000
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 569
@@ -3494,7 +3491,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 1080.0
-    entitykillbounty: 87500
+    entitykillbounty: 260000
     falloff: 1.0
     gfxboosterid: 394
     hp: 2000.0
@@ -3545,7 +3542,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 1080.0
-    entitykillbounty: 87500
+    entitykillbounty: 260000
     falloff: 1.0
     gfxboosterid: 395
     hp: 2000.0
@@ -3596,7 +3593,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 1080.0
-    entitykillbounty: 87500
+    entitykillbounty: 260000
     falloff: 1.0
     gfxboosterid: 395
     hp: 2000.0
@@ -3647,7 +3644,7 @@ types:
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     energyneutralizeramount: 1080.0
-    entitykillbounty: 87500
+    entitykillbounty: 260000
     falloff: 1.0
     gfxboosterid: 397
     hp: 2000.0

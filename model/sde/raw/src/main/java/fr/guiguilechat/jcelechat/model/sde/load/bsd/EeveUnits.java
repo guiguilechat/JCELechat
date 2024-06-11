@@ -19,7 +19,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
  */
 public class EeveUnits {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "sde/bsd/eveUnits.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "bsd/eveUnits.yaml");
 	private static ArrayList<EeveUnits> cache;
 
 	@SuppressWarnings("unchecked")
