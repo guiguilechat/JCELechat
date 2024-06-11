@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -52,7 +53,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 			load();
 			synchronized (cache) {
 				if (cacheById == null) {
-					cacheById = load().entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getValue()));
+					cacheById = load().entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, Entry::getValue));
 				}
 			}
 		}
@@ -351,7 +352,10 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		if (product == null) {
 			product = manufacturing != null && !manufacturing.products.isEmpty() ? manufacturing.products.get(0) : null;
 			if (product == null) {
-				System.err.println("no product for " + name());
+				product = reaction != null && !reaction.products.isEmpty() ? reaction.products.get(0) : null;
+			}
+			if (product == null) {
+				System.err.println("no product for " + name() + "(" + id + ")");
 			}
 		}
 		return product;
