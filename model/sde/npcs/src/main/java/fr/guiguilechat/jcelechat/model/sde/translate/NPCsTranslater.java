@@ -78,18 +78,18 @@ public class NPCsTranslater {
 
 		Stream.of(agents, corporations).forEach(m -> {
 			ArrayList<Entry<String, ?>> list = new ArrayList<>(m.entrySet());
-			Collections.sort(list, Comparator.comparing(e -> e.getKey()));
+			Collections.sort(list, Comparator.comparing(Entry::getKey));
 			m.clear();
 			for (Entry<String, ?> e : list) {
 				((Map<String, Object>) m).put(e.getKey(), e.getValue());
 			}
 		});
-		ArrayList<Entry<Integer, LPOffer>> list = new ArrayList<>(lpoffers.entrySet());
-		Collections.sort(list, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
+
+		ArrayList<Entry<Integer, LPOffer>> copy = new ArrayList<>(lpoffers.entrySet());
 		lpoffers.clear();
-		for (Entry<Integer, LPOffer> e : list) {
-			lpoffers.put(e.getKey(), e.getValue());
-		}
+		copy.stream()
+		    .sorted(Comparator.comparing(Entry::getKey))
+		    .forEach(e -> lpoffers.put(e.getKey(), e.getValue()));
 
 		// save
 
@@ -122,7 +122,7 @@ public class NPCsTranslater {
 				corporationsHolder.get();
 		Map<Integer, R_get_universe_factions> factionById = factionsHolder.get();
 		Map<Integer, Location> agentsLocation = eagents.entrySet().parallelStream()
-				.collect(Collectors.toMap(eag -> eag.getKey(), eag -> Location.resolve(null, eag.getValue().locationID)));
+				.collect(Collectors.toMap(Entry::getKey, eag -> Location.resolve(null, eag.getValue().locationID)));
 		logger.info("NPC prefetch received");
 
 		for (Entry<Integer, Eagents> eagt : eagents.entrySet()) {
@@ -192,10 +192,11 @@ public class NPCsTranslater {
 
 		logger.info("cached offers");
 
-		Map<Integer, LPOffer> covertedOffers = corpId2offers.values().stream().flatMap(Stream::of)
-				.map(offer -> makeOffer(offer)).filter(o -> o != null)
+		Map<Integer, LPOffer> convertedOffers = corpId2offers.values().stream().flatMap(Stream::of)
+		    .map(NPCsTranslater::makeOffer)
+		    .filter(o -> o != null)
 				.collect(Collectors.toMap(off -> off.id, off -> off, (o1, o2) -> o1));
-		offers.putAll(covertedOffers);
+		offers.putAll(convertedOffers);
 		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, corpId2offers.get(c.id), offers));
 
 		logger.info("added offers to corporations");
@@ -210,7 +211,7 @@ public class NPCsTranslater {
 		lpo.name = Etypes.getName(o.type_id);
 		lpo.id = o.offer_id;
 
-		Stream.of(o.required_items).sorted(Comparator.comparing(req -> req.type_id)).forEach(ir -> {
+		Stream.of(o.required_items).forEach(ir -> {
 			ItemRef translated = new ItemRef();
 			translated.quantity = ir.quantity;
 			translated.id = ir.type_id;
@@ -247,6 +248,7 @@ public class NPCsTranslater {
 				lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.name();
 			}
 		}
+		Collections.sort(lpo.requirements.items, Comparator.comparing(ir -> ir.id));
 		return lpo;
 	}
 

@@ -396,7 +396,7 @@ types:
     basewarpspeed: 1
     capacitorcapacity: 3000.0
     capacity: 3000.0
-    cpuoutput: 420
+    cpuoutput: 305
     elitebonusindustrial1: 5
     elitebonusindustrial2: -4
     emdamageresonance: 0.6700000166893005
@@ -436,7 +436,7 @@ types:
     name: Torrent
     packagedVolume: 20000.0
     portionSize: 1
-    poweroutput: 460
+    poweroutput: 230
     powertospeed: 1
     price: 1.734E8
     propulsiongraphicid: 395
@@ -476,6 +476,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 2
+    upwellhaulersmediummissilefittingbonus: 0.10000000149011612
     volume: 350000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2

@@ -46,7 +46,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityWarpDisrupti
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityWarpDisruptionPointStrengthInterim;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityWarpDisruptionRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterRefuelingTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronIsSupport;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronIsStandupSupport;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronMaxSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronOrbitRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronRole;
@@ -54,15 +54,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
@@ -77,6 +72,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
@@ -84,7 +80,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.Fighter;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class SupportFighter
+public class StructureSupportFighter
     extends Fighter
 {
     /**
@@ -268,52 +264,16 @@ public class SupportFighter
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int fightersquadronissupport;
+    public int fightersquadronisstandupsupport;
     /**
-     * Authoring has been moved to FSD.
-     * meta group of type
-     * 
-     *  3: Story-line (Cosmos)
-     *  4: Faction
-     *  5: Officer (rare asteroid NPCs)
-     *  6: Deadspace
-     * 
-     * 
+     * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metagroupid;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill1level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill2;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill2level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityStasisWebifierDuration.INSTANCE, ShieldCapacity.INSTANCE, FighterAbilityStasisWebifierSpeedPenalty.INSTANCE, ShieldCharge.INSTANCE, FighterAbilityStasisWebifierSpeedPenaltyInterim.INSTANCE, Hp.INSTANCE, FighterAbilityStasisWebifierOptimalRange.INSTANCE, FighterAbilityStasisWebifierFalloffRange.INSTANCE, FighterAbilityStasisWebifierResistanceID.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, FighterAbilityWarpDisruptionDuration.INSTANCE, MetaGroupID.INSTANCE, FighterAbilityWarpDisruptionRange.INSTANCE, FighterAbilityWarpDisruptionPointStrength.INSTANCE, FighterAbilityWarpDisruptionPointStrengthInterim.INSTANCE, FighterAbilityEnergyNeutralizerDuration.INSTANCE, FighterAbilityEnergyNeutralizerOptimalRange.INSTANCE, FighterAbilityEnergyNeutralizerFalloffRange.INSTANCE, Radius.INSTANCE, FighterAbilityEnergyNeutralizerAmount.INSTANCE, FighterSquadronIsSupport.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterAbilityECMDuration.INSTANCE, FighterAbilityECMRangeOptimal.INSTANCE, FighterAbilityECMRangeFalloff.INSTANCE, FighterSquadronOrbitRange.INSTANCE, ScanResolution.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MaxLockedTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityECMStrengthGravimetric.INSTANCE, Agility.INSTANCE, FighterAbilityECMStrengthLadar.INSTANCE, FighterAbilityECMStrengthMagnetometric.INSTANCE, FighterAbilityECMStrengthRadar.INSTANCE, FighterAbilityECMTargetSuccess.INSTANCE, FighterAbilityECMTargetJam.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityAfterburnerSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityAfterburnerDuration.INSTANCE, MetaLevelOld.INSTANCE, FighterRefuelingTime.INSTANCE })));
-    public static final SupportFighter.MetaGroup METAGROUP = new SupportFighter.MetaGroup();
+    public int structureitemvisualflag;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityStasisWebifierDuration.INSTANCE, ShieldCapacity.INSTANCE, FighterAbilityStasisWebifierSpeedPenalty.INSTANCE, ShieldCharge.INSTANCE, FighterAbilityStasisWebifierSpeedPenaltyInterim.INSTANCE, Hp.INSTANCE, FighterAbilityStasisWebifierOptimalRange.INSTANCE, FighterAbilityStasisWebifierFalloffRange.INSTANCE, FighterAbilityStasisWebifierResistanceID.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FighterAbilityWarpDisruptionDuration.INSTANCE, FighterAbilityWarpDisruptionRange.INSTANCE, FighterAbilityWarpDisruptionPointStrength.INSTANCE, FighterAbilityWarpDisruptionPointStrengthInterim.INSTANCE, StructureItemVisualFlag.INSTANCE, FighterAbilityEnergyNeutralizerDuration.INSTANCE, FighterAbilityEnergyNeutralizerOptimalRange.INSTANCE, FighterAbilityEnergyNeutralizerFalloffRange.INSTANCE, Radius.INSTANCE, FighterAbilityEnergyNeutralizerAmount.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterAbilityECMDuration.INSTANCE, FighterAbilityECMRangeOptimal.INSTANCE, FighterAbilityECMRangeFalloff.INSTANCE, FighterSquadronOrbitRange.INSTANCE, ScanResolution.INSTANCE, FighterSquadronIsStandupSupport.INSTANCE, MaxLockedTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityECMStrengthGravimetric.INSTANCE, Agility.INSTANCE, FighterAbilityECMStrengthLadar.INSTANCE, FighterAbilityECMStrengthMagnetometric.INSTANCE, FighterAbilityECMStrengthRadar.INSTANCE, FighterAbilityECMTargetSuccess.INSTANCE, FighterAbilityECMTargetJam.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityAfterburnerSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityAfterburnerDuration.INSTANCE, MetaLevelOld.INSTANCE, FighterRefuelingTime.INSTANCE })));
+    public static final StructureSupportFighter.MetaGroup METAGROUP = new StructureSupportFighter.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -418,29 +378,13 @@ public class SupportFighter
             {
                 return fighterabilitywarpdisruptionrange;
             }
-            case  2213 :
+            case  2741 :
             {
-                return fightersquadronissupport;
+                return fightersquadronisstandupsupport;
             }
-            case  1692 :
+            case  2334 :
             {
-                return metagroupid;
-            }
-            case  182 :
-            {
-                return requiredskill1;
-            }
-            case  277 :
-            {
-                return requiredskill1level;
-            }
-            case  183 :
-            {
-                return requiredskill2;
-            }
-            case  278 :
-            {
-                return requiredskill2level;
+                return structureitemvisualflag;
             }
             default:
             {
@@ -455,35 +399,35 @@ public class SupportFighter
     }
 
     @Override
-    public IMetaGroup<SupportFighter> getGroup() {
+    public IMetaGroup<StructureSupportFighter> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<SupportFighter>
+        implements IMetaGroup<StructureSupportFighter>
     {
-        public static final String RESOURCE_PATH = "SDE/types/fighter/SupportFighter.yaml";
-        private Map<Integer, SupportFighter> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/fighter/StructureSupportFighter.yaml";
+        private Map<Integer, StructureSupportFighter> cache = (null);
 
         @Override
-        public IMetaCategory<? super SupportFighter> category() {
+        public IMetaCategory<? super StructureSupportFighter> category() {
             return Fighter.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  1537;
+            return  4778;
         }
 
         @Override
         public String getName() {
-            return "SupportFighter";
+            return "StructureSupportFighter";
         }
 
         @Override
-        public synchronized Map<Integer, SupportFighter> load() {
+        public synchronized Map<Integer, StructureSupportFighter> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(SupportFighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(StructureSupportFighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -495,7 +439,7 @@ public class SupportFighter
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, SupportFighter> types;
+            public LinkedHashMap<Integer, StructureSupportFighter> types;
         }
     }
 }

@@ -385,7 +385,7 @@ types:
     weapondisruptionresistance: 1.0
   81046:
     affectedbyindustrialinvulnmodule: 1
-    agility: 0.5099999904632568
+    agility: 0.5899999737739563
     allowedincapindustrialmaintenancebay: 1
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.44999998807907104
@@ -398,7 +398,7 @@ types:
     capacity: 4000.0
     cargoscanresistance: 1.0
     covertopsandreconopscloakmoduledelay: 5000
-    cpuoutput: 400
+    cpuoutput: 300
     elitebonusindustrial1: 5
     eliteindustrialcovertcloakbonus: -20
     emdamageresonance: 0.6700000166893005
@@ -438,7 +438,7 @@ types:
     name: Deluge
     packagedVolume: 20000.0
     portionSize: 1
-    poweroutput: 430
+    poweroutput: 180
     powertospeed: 1
     price: 1.115E8
     propulsiongraphicid: 395
@@ -477,6 +477,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 2
+    upwellhaulersmediummissilefittingbonus: 0.10000000149011612
     volume: 200000.0
     warpcapacitorneed: 1.089999983605594E-7
     warpspeedmultiplier: 6.0

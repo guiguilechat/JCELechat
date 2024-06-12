@@ -21518,11 +21518,11 @@ id2group:
   47030: skins/PermanentSKIN
   47031: apparel/Outer
   47032: apparel/Outer
-  47035: fighter/LightFighter
-  47036: fighter/LightFighter
-  47037: fighter/SupportFighter
-  47038: fighter/HeavyFighter
-  47039: fighter/HeavyFighter
+  47035: fighter/StructureLightFighter
+  47036: fighter/StructureLightFighter
+  47037: fighter/StructureSupportFighter
+  47038: fighter/StructureHeavyFighter
+  47039: fighter/StructureHeavyFighter
   47040: blueprint/CyberScanningImplantBlueprints
   47041: commodity/Miscellaneous
   47042: specialeditionassets/SpecialEditionCommodities
@@ -21586,42 +21586,42 @@ id2group:
   47112: blueprint/StructureModuleBlueprint
   47113: blueprint/StructureModuleBlueprint
   47114: blueprint/StructureModuleBlueprint
-  47116: fighter/HeavyFighter
-  47117: fighter/HeavyFighter
-  47118: fighter/HeavyFighter
-  47119: fighter/HeavyFighter
-  47120: fighter/HeavyFighter
-  47121: fighter/HeavyFighter
-  47122: fighter/HeavyFighter
-  47123: fighter/HeavyFighter
-  47124: fighter/HeavyFighter
-  47125: fighter/HeavyFighter
-  47126: fighter/HeavyFighter
-  47127: fighter/HeavyFighter
-  47128: fighter/HeavyFighter
-  47129: fighter/HeavyFighter
-  47130: fighter/HeavyFighter
-  47131: fighter/SupportFighter
-  47132: fighter/SupportFighter
-  47133: fighter/SupportFighter
-  47134: fighter/SupportFighter
-  47135: fighter/SupportFighter
-  47136: fighter/SupportFighter
-  47137: fighter/SupportFighter
-  47138: fighter/LightFighter
-  47139: fighter/LightFighter
-  47140: fighter/LightFighter
-  47141: fighter/LightFighter
-  47142: fighter/LightFighter
-  47143: fighter/LightFighter
-  47144: fighter/LightFighter
-  47145: fighter/LightFighter
-  47146: fighter/LightFighter
-  47147: fighter/LightFighter
-  47148: fighter/LightFighter
-  47149: fighter/LightFighter
-  47150: fighter/LightFighter
-  47151: fighter/LightFighter
+  47116: fighter/StructureHeavyFighter
+  47117: fighter/StructureHeavyFighter
+  47118: fighter/StructureHeavyFighter
+  47119: fighter/StructureHeavyFighter
+  47120: fighter/StructureHeavyFighter
+  47121: fighter/StructureHeavyFighter
+  47122: fighter/StructureHeavyFighter
+  47123: fighter/StructureHeavyFighter
+  47124: fighter/StructureHeavyFighter
+  47125: fighter/StructureHeavyFighter
+  47126: fighter/StructureHeavyFighter
+  47127: fighter/StructureHeavyFighter
+  47128: fighter/StructureHeavyFighter
+  47129: fighter/StructureHeavyFighter
+  47130: fighter/StructureHeavyFighter
+  47131: fighter/StructureSupportFighter
+  47132: fighter/StructureSupportFighter
+  47133: fighter/StructureSupportFighter
+  47134: fighter/StructureSupportFighter
+  47135: fighter/StructureSupportFighter
+  47136: fighter/StructureSupportFighter
+  47137: fighter/StructureSupportFighter
+  47138: fighter/StructureLightFighter
+  47139: fighter/StructureLightFighter
+  47140: fighter/StructureLightFighter
+  47141: fighter/StructureLightFighter
+  47142: fighter/StructureLightFighter
+  47143: fighter/StructureLightFighter
+  47144: fighter/StructureLightFighter
+  47145: fighter/StructureLightFighter
+  47146: fighter/StructureLightFighter
+  47147: fighter/StructureLightFighter
+  47148: fighter/StructureLightFighter
+  47149: fighter/StructureLightFighter
+  47150: fighter/StructureLightFighter
+  47151: fighter/StructureLightFighter
   47153: entity/DrifterReinforcements
   47154: specialeditionassets/SpecialEditionCommodities
   47158: skins/PermanentSKIN

@@ -60,7 +60,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMissilesRang
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMissilesResistanceID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterRefuelingTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronIsHeavy;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronIsStandupHeavy;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronMaxSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronOrbitRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronRole;
@@ -91,7 +90,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
@@ -376,13 +374,49 @@ public class HeavyFighter
     @DefaultIntValue(0)
     public int fightersquadronisheavy;
     /**
+     * Authoring has been moved to FSD.
+     * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int fightersquadronisstandupheavy;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityKamikazeResistanceID.INSTANCE, FighterAbilityMissilesDuration.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FighterAbilityLaunchBombType.INSTANCE, FighterAbilityKamikazeDamageEM.INSTANCE, RequiredSkill1Level.INSTANCE, FighterAbilityKamikazeDamageTherm.INSTANCE, RequiredSkill2Level.INSTANCE, FighterAbilityKamikazeDamageKin.INSTANCE, FighterAbilityKamikazeDamageExp.INSTANCE, FighterAbilityKamikazeSignatureRadius.INSTANCE, FighterAbilityKamikazeRange.INSTANCE, MetaGroupID.INSTANCE, StructureItemVisualFlag.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, FighterSquadronIsHeavy.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterAbilityLaunchBombDuration.INSTANCE, FighterSquadronOrbitRange.INSTANCE, FighterAbilityAttackMissileDamageMultiplier.INSTANCE, FighterAbilityAttackMissileDamageEM.INSTANCE, FighterAbilityAttackMissileDamageTherm.INSTANCE, ScanResolution.INSTANCE, FighterAbilityAttackMissileDamageKin.INSTANCE, FighterAbilityAttackMissileDamageExp.INSTANCE, FighterSquadronIsStandupHeavy.INSTANCE, RequiredSkill1 .INSTANCE, FighterAbilityAttackMissileReductionFactor.INSTANCE, RequiredSkill2 .INSTANCE, FighterAbilityAttackMissileReductionSensitivity.INSTANCE, FighterAbilityAttackMissileDuration.INSTANCE, FighterAbilityAttackMissileExplosionRadius.INSTANCE, FighterAbilityAttackMissileExplosionVelocity.INSTANCE, FighterAbilityAttackMissileRangeOptimal.INSTANCE, FighterAbilityAttackMissileRangeFalloff.INSTANCE, MaxLockedTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, FighterAbilityMissilesExplosionRadius.INSTANCE, FighterAbilityMissilesExplosionVelocity.INSTANCE, FighterAbilityMissilesDamageReductionFactor.INSTANCE, FighterAbilityMissilesDamageReductionSensitivity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, FighterAbilityMissilesDamageMultiplier.INSTANCE, ScanMagnetometricStrength.INSTANCE, FighterAbilityMissilesDamageEM.INSTANCE, ScanGravimetricStrength.INSTANCE, FighterAbilityMissilesDamageTherm.INSTANCE, FighterAbilityMissilesDamageKin.INSTANCE, FighterAbilityMissilesDamageExp.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityMissilesRange.INSTANCE, FighterAbilityAfterburnerSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroJumpDriveDistance.INSTANCE, FighterAbilityMicroJumpDriveDuration.INSTANCE, FighterAbilityMicroJumpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityAfterburnerDuration.INSTANCE, MetaLevelOld.INSTANCE, FighterAbilityMissilesResistanceID.INSTANCE, FighterRefuelingTime.INSTANCE })));
+    public int metagroupid;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill1level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill2level;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityKamikazeResistanceID.INSTANCE, FighterAbilityMissilesDuration.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FighterAbilityLaunchBombType.INSTANCE, RequiredSkill1Level.INSTANCE, FighterAbilityKamikazeDamageEM.INSTANCE, FighterAbilityKamikazeDamageTherm.INSTANCE, RequiredSkill2Level.INSTANCE, FighterAbilityKamikazeDamageKin.INSTANCE, FighterAbilityKamikazeDamageExp.INSTANCE, FighterAbilityKamikazeSignatureRadius.INSTANCE, FighterAbilityKamikazeRange.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, FighterSquadronIsHeavy.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterAbilityLaunchBombDuration.INSTANCE, FighterSquadronOrbitRange.INSTANCE, FighterAbilityAttackMissileDamageMultiplier.INSTANCE, FighterAbilityAttackMissileDamageEM.INSTANCE, FighterAbilityAttackMissileDamageTherm.INSTANCE, ScanResolution.INSTANCE, FighterAbilityAttackMissileDamageKin.INSTANCE, RequiredSkill1 .INSTANCE, FighterAbilityAttackMissileDamageExp.INSTANCE, RequiredSkill2 .INSTANCE, FighterAbilityAttackMissileReductionFactor.INSTANCE, FighterAbilityAttackMissileReductionSensitivity.INSTANCE, FighterAbilityAttackMissileDuration.INSTANCE, FighterAbilityAttackMissileExplosionRadius.INSTANCE, FighterAbilityAttackMissileExplosionVelocity.INSTANCE, FighterAbilityAttackMissileRangeOptimal.INSTANCE, FighterAbilityAttackMissileRangeFalloff.INSTANCE, MaxLockedTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, FighterAbilityMissilesExplosionRadius.INSTANCE, FighterAbilityMissilesExplosionVelocity.INSTANCE, FighterAbilityMissilesDamageReductionFactor.INSTANCE, FighterAbilityMissilesDamageReductionSensitivity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, FighterAbilityMissilesDamageMultiplier.INSTANCE, ScanMagnetometricStrength.INSTANCE, FighterAbilityMissilesDamageEM.INSTANCE, ScanGravimetricStrength.INSTANCE, FighterAbilityMissilesDamageTherm.INSTANCE, FighterAbilityMissilesDamageKin.INSTANCE, FighterAbilityMissilesDamageExp.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityMissilesRange.INSTANCE, FighterAbilityAfterburnerSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroJumpDriveDistance.INSTANCE, FighterAbilityMicroJumpDriveDuration.INSTANCE, FighterAbilityMicroJumpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityAfterburnerDuration.INSTANCE, MetaLevelOld.INSTANCE, FighterAbilityMissilesResistanceID.INSTANCE, FighterRefuelingTime.INSTANCE })));
     public static final HeavyFighter.MetaGroup METAGROUP = new HeavyFighter.MetaGroup();
 
     @Override
@@ -544,9 +578,25 @@ public class HeavyFighter
             {
                 return fightersquadronisheavy;
             }
-            case  2742 :
+            case  1692 :
             {
-                return fightersquadronisstandupheavy;
+                return metagroupid;
+            }
+            case  182 :
+            {
+                return requiredskill1;
+            }
+            case  277 :
+            {
+                return requiredskill1level;
+            }
+            case  183 :
+            {
+                return requiredskill2;
+            }
+            case  278 :
+            {
+                return requiredskill2level;
             }
             default:
             {

@@ -16,6 +16,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAfterburnerDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAfterburnerSpeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiFighterMissileResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAttackMissileDamageEM;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAttackMissileDamageExp;
@@ -29,13 +31,18 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAttackMissil
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAttackMissileRangeOptimal;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAttackMissileReductionFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAttackMissileReductionSensitivity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityEvasiveManeuversDuration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityEvasiveManeuversEmResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityEvasiveManeuversExpResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityEvasiveManeuversKinResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityEvasiveManeuversSignatureRadiusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityEvasiveManeuversSpeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityEvasiveManeuversThermResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeDamageEM;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeDamageExp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeDamageKin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeDamageTherm;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeResistanceID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeSignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityLaunchBombDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityLaunchBombType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMicroJumpDriveDistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMicroJumpDriveDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMicroJumpDriveSignatureRadiusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMicroWarpDriveDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMicroWarpDriveSignatureRadiusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMicroWarpDriveSpeedBonus;
@@ -51,13 +58,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMissilesExpl
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMissilesExplosionVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMissilesRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMissilesResistanceID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityTackleDuration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityTackleRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityTackleWarpDisruptionPointStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityTackleWebSpeedPenalty;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityTackleWebSpeedPenaltyInterim;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterRefuelingTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronIsLight;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronIsStandupHeavy;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronMaxSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronOrbitRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronRole;
@@ -70,10 +72,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
@@ -88,6 +86,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
@@ -95,9 +94,23 @@ import fr.guiguilechat.jcelechat.model.sde.types.Fighter;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class LightFighter
+public class StructureHeavyFighter
     extends Fighter
 {
+    /**
+     * Duration
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int fighterabilityafterburnerduration;
+    /**
+     * Maximum Velocity Bonus
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int fighterabilityafterburnerspeedbonus;
     /**
      * EM Damage
      */
@@ -183,54 +196,89 @@ public class LightFighter
     @DefaultRealValue(0.0)
     public double fighterabilityattackmissilereductionsensitivity;
     /**
-     * Duration
+     * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int fighterabilityevasivemaneuversduration;
-    /**
-     * Shield EM Damage Resistance
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double fighterabilityevasivemaneuversemresonance;
-    /**
-     * Shield Explosive Damage Resistance
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double fighterabilityevasivemaneuversexpresonance;
-    /**
-     * Shield Kinetic Damage Resistance
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double fighterabilityevasivemaneuverskinresonance;
+    public int fighterabilitykamikazedamageem;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int fighterabilityevasivemaneuverssignatureradiusbonus;
+    public int fighterabilitykamikazedamageexp;
     /**
-     * Maximum Velocity Bonus
+     * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int fighterabilityevasivemaneuversspeedbonus;
+    public int fighterabilitykamikazedamagekin;
     /**
-     * Shield Thermal Damage Resistance
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int fighterabilitykamikazedamagetherm;
+    /**
+     * Range at which the fighters Explode from the target
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(500)
+    public int fighterabilitykamikazerange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilitykamikazeresistanceid;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilitykamikazesignatureradius;
+    /**
+     * 
      */
     @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double fighterabilityevasivemaneuversthermresonance;
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilitylaunchbombduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilitylaunchbombtype;
+    /**
+     * Jump Range
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilitymicrojumpdrivedistance;
+    /**
+     * Duration
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilitymicrojumpdriveduration;
+    /**
+     * Signature Radius Bonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilitymicrojumpdrivesignatureradiusbonus;
     /**
      * EM Damage
      */
@@ -316,47 +364,12 @@ public class LightFighter
     @DefaultIntValue(0)
     public int fighterabilitymissilesresistanceid;
     /**
-     * Duration
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilitytackleduration;
-    /**
-     * Range
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilitytacklerange;
-    /**
-     * Warp Disruption Strength
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int fighterabilitytacklewarpdisruptionpointstrength;
-    /**
-     * Maximum Velocity Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilitytacklewebspeedpenalty;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int fighterabilitytacklewebspeedpenaltyinterim;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int fightersquadronislight;
+    public int fightersquadronisstandupheavy;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -373,39 +386,26 @@ public class LightFighter
     @DefaultIntValue(0)
     public int metagroupid;
     /**
-     * The type ID of the skill that is required.
+     * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int requiredskill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill1level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill2;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill2level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityMissilesDuration.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, FighterSquadronIsLight.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterSquadronOrbitRange.INSTANCE, FighterAbilityEvasiveManeuversSpeedBonus.INSTANCE, FighterAbilityEvasiveManeuversSignatureRadiusBonus.INSTANCE, FighterAbilityAttackMissileDamageMultiplier.INSTANCE, FighterAbilityAttackMissileDamageEM.INSTANCE, FighterAbilityAttackMissileDamageTherm.INSTANCE, ScanResolution.INSTANCE, FighterAbilityAttackMissileDamageKin.INSTANCE, RequiredSkill1 .INSTANCE, FighterAbilityAttackMissileDamageExp.INSTANCE, RequiredSkill2 .INSTANCE, FighterAbilityAttackMissileReductionFactor.INSTANCE, FighterAbilityAttackMissileReductionSensitivity.INSTANCE, FighterAbilityAttackMissileDuration.INSTANCE, FighterAbilityAttackMissileExplosionRadius.INSTANCE, FighterAbilityAttackMissileExplosionVelocity.INSTANCE, FighterAbilityAttackMissileRangeOptimal.INSTANCE, FighterAbilityAttackMissileRangeFalloff.INSTANCE, FighterAbilityTackleDuration.INSTANCE, FighterAbilityTackleRange.INSTANCE, MaxLockedTargets.INSTANCE, FighterAbilityTackleWebSpeedPenalty.INSTANCE, FighterAbilityTackleWebSpeedPenaltyInterim.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityEvasiveManeuversEmResonance.INSTANCE, Agility.INSTANCE, FighterAbilityEvasiveManeuversThermResonance.INSTANCE, FighterAbilityEvasiveManeuversKinResonance.INSTANCE, FighterAbilityEvasiveManeuversExpResonance.INSTANCE, FighterAbilityEvasiveManeuversDuration.INSTANCE, MaxTargetRange.INSTANCE, FighterAbilityMissilesExplosionRadius.INSTANCE, FighterAbilityMissilesExplosionVelocity.INSTANCE, FighterAbilityMissilesDamageReductionFactor.INSTANCE, FighterAbilityMissilesDamageReductionSensitivity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, FighterAbilityMissilesDamageMultiplier.INSTANCE, ScanMagnetometricStrength.INSTANCE, FighterAbilityMissilesDamageEM.INSTANCE, ScanGravimetricStrength.INSTANCE, FighterAbilityMissilesDamageTherm.INSTANCE, FighterAbilityMissilesDamageKin.INSTANCE, FighterAbilityMissilesDamageExp.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityMissilesRange.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityTackleWarpDisruptionPointStrength.INSTANCE, MetaLevelOld.INSTANCE, FighterAbilityMissilesResistanceID.INSTANCE, FighterRefuelingTime.INSTANCE })));
-    public static final LightFighter.MetaGroup METAGROUP = new LightFighter.MetaGroup();
+    public int structureitemvisualflag;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityKamikazeResistanceID.INSTANCE, FighterAbilityMissilesDuration.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FighterAbilityLaunchBombType.INSTANCE, FighterAbilityKamikazeDamageEM.INSTANCE, FighterAbilityKamikazeDamageTherm.INSTANCE, FighterAbilityKamikazeDamageKin.INSTANCE, FighterAbilityKamikazeDamageExp.INSTANCE, FighterAbilityKamikazeSignatureRadius.INSTANCE, FighterAbilityKamikazeRange.INSTANCE, MetaGroupID.INSTANCE, StructureItemVisualFlag.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterAbilityLaunchBombDuration.INSTANCE, FighterSquadronOrbitRange.INSTANCE, FighterAbilityAttackMissileDamageMultiplier.INSTANCE, FighterAbilityAttackMissileDamageEM.INSTANCE, FighterAbilityAttackMissileDamageTherm.INSTANCE, ScanResolution.INSTANCE, FighterAbilityAttackMissileDamageKin.INSTANCE, FighterAbilityAttackMissileDamageExp.INSTANCE, FighterSquadronIsStandupHeavy.INSTANCE, FighterAbilityAttackMissileReductionFactor.INSTANCE, FighterAbilityAttackMissileReductionSensitivity.INSTANCE, FighterAbilityAttackMissileDuration.INSTANCE, FighterAbilityAttackMissileExplosionRadius.INSTANCE, FighterAbilityAttackMissileExplosionVelocity.INSTANCE, FighterAbilityAttackMissileRangeOptimal.INSTANCE, FighterAbilityAttackMissileRangeFalloff.INSTANCE, MaxLockedTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, FighterAbilityMissilesExplosionRadius.INSTANCE, FighterAbilityMissilesExplosionVelocity.INSTANCE, FighterAbilityMissilesDamageReductionFactor.INSTANCE, FighterAbilityMissilesDamageReductionSensitivity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, FighterAbilityMissilesDamageMultiplier.INSTANCE, ScanMagnetometricStrength.INSTANCE, FighterAbilityMissilesDamageEM.INSTANCE, ScanGravimetricStrength.INSTANCE, FighterAbilityMissilesDamageTherm.INSTANCE, FighterAbilityMissilesDamageKin.INSTANCE, FighterAbilityMissilesDamageExp.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityMissilesRange.INSTANCE, FighterAbilityAfterburnerSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroJumpDriveDistance.INSTANCE, FighterAbilityMicroJumpDriveDuration.INSTANCE, FighterAbilityMicroJumpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityAfterburnerDuration.INSTANCE, MetaLevelOld.INSTANCE, FighterAbilityMissilesResistanceID.INSTANCE, FighterRefuelingTime.INSTANCE })));
+    public static final StructureHeavyFighter.MetaGroup METAGROUP = new StructureHeavyFighter.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  2158 :
+            {
+                return fighterabilityafterburnerduration;
+            }
+            case  2151 :
+            {
+                return fighterabilityafterburnerspeedbonus;
+            }
             case  2227 :
             {
                 return fighterabilityattackmissiledamageem;
@@ -454,33 +454,53 @@ public class LightFighter
             {
                 return fighterabilityattackmissilereductionsensitivity;
             }
-            case  2123 :
+            case  2325 :
             {
-                return fighterabilityevasivemaneuversduration;
+                return fighterabilitykamikazedamageem;
             }
-            case  2118 :
+            case  2328 :
             {
-                return fighterabilityevasivemaneuversemresonance;
+                return fighterabilitykamikazedamageexp;
             }
-            case  2121 :
+            case  2327 :
             {
-                return fighterabilityevasivemaneuversexpresonance;
+                return fighterabilitykamikazedamagekin;
             }
-            case  2120 :
+            case  2326 :
             {
-                return fighterabilityevasivemaneuverskinresonance;
+                return fighterabilitykamikazedamagetherm;
             }
-            case  2225 :
+            case  2330 :
             {
-                return fighterabilityevasivemaneuverssignatureradiusbonus;
+                return fighterabilitykamikazerange;
             }
-            case  2224 :
+            case  2432 :
             {
-                return fighterabilityevasivemaneuversspeedbonus;
+                return fighterabilitykamikazeresistanceid;
             }
-            case  2119 :
+            case  2329 :
             {
-                return fighterabilityevasivemaneuversthermresonance;
+                return fighterabilitykamikazesignatureradius;
+            }
+            case  2349 :
+            {
+                return fighterabilitylaunchbombduration;
+            }
+            case  2324 :
+            {
+                return fighterabilitylaunchbombtype;
+            }
+            case  2154 :
+            {
+                return fighterabilitymicrojumpdrivedistance;
+            }
+            case  2155 :
+            {
+                return fighterabilitymicrojumpdriveduration;
+            }
+            case  2156 :
+            {
+                return fighterabilitymicrojumpdrivesignatureradiusbonus;
             }
             case  2131 :
             {
@@ -530,49 +550,17 @@ public class LightFighter
             {
                 return fighterabilitymissilesresistanceid;
             }
-            case  2238 :
+            case  2742 :
             {
-                return fighterabilitytackleduration;
-            }
-            case  2239 :
-            {
-                return fighterabilitytacklerange;
-            }
-            case  2425 :
-            {
-                return fighterabilitytacklewarpdisruptionpointstrength;
-            }
-            case  2242 :
-            {
-                return fighterabilitytacklewebspeedpenalty;
-            }
-            case  2243 :
-            {
-                return fighterabilitytacklewebspeedpenaltyinterim;
-            }
-            case  2212 :
-            {
-                return fightersquadronislight;
+                return fightersquadronisstandupheavy;
             }
             case  1692 :
             {
                 return metagroupid;
             }
-            case  182 :
+            case  2334 :
             {
-                return requiredskill1;
-            }
-            case  277 :
-            {
-                return requiredskill1level;
-            }
-            case  183 :
-            {
-                return requiredskill2;
-            }
-            case  278 :
-            {
-                return requiredskill2level;
+                return structureitemvisualflag;
             }
             default:
             {
@@ -587,35 +575,35 @@ public class LightFighter
     }
 
     @Override
-    public IMetaGroup<LightFighter> getGroup() {
+    public IMetaGroup<StructureHeavyFighter> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<LightFighter>
+        implements IMetaGroup<StructureHeavyFighter>
     {
-        public static final String RESOURCE_PATH = "SDE/types/fighter/LightFighter.yaml";
-        private Map<Integer, LightFighter> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/fighter/StructureHeavyFighter.yaml";
+        private Map<Integer, StructureHeavyFighter> cache = (null);
 
         @Override
-        public IMetaCategory<? super LightFighter> category() {
+        public IMetaCategory<? super StructureHeavyFighter> category() {
             return Fighter.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  1652;
+            return  4779;
         }
 
         @Override
         public String getName() {
-            return "LightFighter";
+            return "StructureHeavyFighter";
         }
 
         @Override
-        public synchronized Map<Integer, LightFighter> load() {
+        public synchronized Map<Integer, StructureHeavyFighter> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(LightFighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(StructureHeavyFighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -627,7 +615,7 @@ public class LightFighter
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, LightFighter> types;
+            public LinkedHashMap<Integer, StructureHeavyFighter> types;
         }
     }
 }

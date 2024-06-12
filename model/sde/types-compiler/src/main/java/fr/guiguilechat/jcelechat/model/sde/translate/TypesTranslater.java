@@ -148,7 +148,7 @@ public class TypesTranslater {
 								+ td.name
 								+ "(" + td.id
 								+ "), fields are "
-								+ Arrays.asList(item.getClass().getFields()).stream().map(f -> f.getName())
+						    + Arrays.asList(item.getClass().getFields()).stream().map(Field::getName)
 								.sorted()
 								.collect(Collectors.toList()),
 								nsfe);
