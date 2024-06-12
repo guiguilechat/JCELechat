@@ -12,6 +12,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_co
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -30,7 +31,9 @@ public class CharacterJournal extends
     AFetchedListElement<CharacterJournal, CharacterJournalList> {
 
 	@Entity(name = "EsiConnectCharacterJournalList")
-	@Table(name = "esi_connect_characterjournallist")
+	@Table(name = "esi_connect_characterjournallist", indexes = {
+	    @Index(columnList = "fetch_active,expires")
+	})
 	@NoArgsConstructor
 	@Getter
 	@Setter

@@ -24,6 +24,7 @@ import lombok.Setter;
 
 @Entity(name = "EsiUniverseStation")
 @Table(name = "esi_universe_station", indexes = {
+    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "name"),
     @Index(columnList = "solar_system_id"),
     @Index(columnList = "type_id")

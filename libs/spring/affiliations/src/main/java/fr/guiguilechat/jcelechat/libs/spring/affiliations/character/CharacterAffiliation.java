@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 
 @Entity(name = "EsiAffiliationsCharacterAffiliation")
 @Table(name = "esi_affiliations_characteraffiliation", indexes = {
+    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "allianceId"),
     @Index(columnList = "corporationId"),
     @Index(columnList = "factionId")

@@ -8,6 +8,7 @@ import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -26,7 +27,9 @@ public class CharacterTransaction extends
     AFetchedListElement<CharacterTransaction, CharacterTransactionList> {
 
 	@Entity(name = "EsiConnectCharacterTransactionList")
-	@Table(name = "esi_connect_charactertransactionlist")
+	@Table(name = "esi_connect_charactertransactionlist", indexes = {
+	    @Index(columnList = "fetch_active,expires")
+	})
 	@NoArgsConstructor
 	@Getter
 	@Setter

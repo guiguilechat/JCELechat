@@ -9,6 +9,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -26,7 +27,9 @@ import lombok.ToString;
 public class CharacterAsset extends AFetchedListElement<CharacterAsset, CharacterAssetList> {
 
 	@Entity(name = "EsiConnectCharacterAssettList")
-	@Table(name = "esi_connect_characterassetlist")
+	@Table(name = "esi_connect_characterassetlist", indexes = {
+	    @Index(columnList = "fetch_active,expires")
+	})
 	@NoArgsConstructor
 	@Getter
 	@Setter

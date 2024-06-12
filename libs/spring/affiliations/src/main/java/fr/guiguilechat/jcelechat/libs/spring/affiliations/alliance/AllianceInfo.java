@@ -6,6 +6,7 @@ import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,7 +14,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "EsiAffiliationsAllianceInfo")
-@Table(name = "esi_affiliations_allianceinfo")
+@Table(name = "esi_affiliations_allianceinfo", indexes = {
+    @Index(columnList = "fetch_active,expires")
+})
 @AllArgsConstructor
 @Getter
 @NoArgsConstructor

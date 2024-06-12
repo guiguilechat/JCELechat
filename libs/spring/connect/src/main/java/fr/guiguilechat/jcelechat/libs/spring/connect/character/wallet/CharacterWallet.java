@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
 
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,7 +11,9 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterWallet")
-@Table(name = "esi_connect_characterwallet")
+@Table(name = "esi_connect_characterwallet", indexes = {
+    @Index(columnList = "fetch_active,expires")
+})
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

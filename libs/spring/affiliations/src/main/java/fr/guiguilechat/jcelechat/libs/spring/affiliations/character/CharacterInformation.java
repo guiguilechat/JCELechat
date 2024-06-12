@@ -10,6 +10,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -17,7 +18,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "EsiAffiliationsCharacterInformation")
-@Table(name = "esi_affiliations_characterinformation")
+@Table(name = "esi_affiliations_characterinformation", indexes = {
+    @Index(columnList = "fetch_active,expires")
+})
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

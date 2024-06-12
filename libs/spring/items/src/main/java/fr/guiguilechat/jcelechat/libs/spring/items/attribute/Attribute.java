@@ -16,6 +16,7 @@ import lombok.Setter;
 
 @Entity(name = "EsiItemsAttribute")
 @Table(name = "esi_items_attribute", indexes = {
+    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "displayName"),
     @Index(columnList = "name"),
     @Index(columnList = "published") })

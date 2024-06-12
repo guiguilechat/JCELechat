@@ -20,6 +20,7 @@ import lombok.Setter;
 
 @Entity(name = "EsiUniverseRegion")
 @Table(name = "esi_universe_region", indexes = {
+    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "name") })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor

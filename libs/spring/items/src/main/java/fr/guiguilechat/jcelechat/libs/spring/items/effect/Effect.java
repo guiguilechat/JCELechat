@@ -18,6 +18,7 @@ import lombok.Setter;
 
 @Entity(name = "EsiItemsEffect")
 @Table(name = "esi_items_effect", indexes = {
+    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "discharge_attribute_id"),
     @Index(columnList = "displayName"),
     @Index(columnList = "duration_attribute_id"),

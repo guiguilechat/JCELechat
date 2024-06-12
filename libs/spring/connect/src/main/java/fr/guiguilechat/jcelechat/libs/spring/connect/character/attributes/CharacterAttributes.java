@@ -6,6 +6,7 @@ import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +15,9 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterAttributes")
-@Table(name = "esi_connect_characterattributes")
+@Table(name = "esi_connect_characterattributes", indexes = {
+    @Index(columnList = "fetch_active,expires")
+})
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

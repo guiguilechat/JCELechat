@@ -29,7 +29,9 @@ public class CharacterContact extends
     AFetchedListElement<CharacterContact, CharacterContactList> {
 
 	@Entity(name = "EsiConnectCharacterContactList")
-	@Table(name = "esi_connect_charactercontactlist")
+	@Table(name = "esi_connect_charactercontactlist", indexes = {
+	    @Index(columnList = "fetch_active,expires")
+	})
 	@NoArgsConstructor
 	@Getter
 	@Setter

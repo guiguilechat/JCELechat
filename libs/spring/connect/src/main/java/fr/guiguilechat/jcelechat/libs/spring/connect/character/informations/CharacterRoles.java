@@ -12,6 +12,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,7 +21,9 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterRoles")
-@Table(name = "esi_connect_characterroles")
+@Table(name = "esi_connect_characterroles", indexes = {
+    @Index(columnList = "fetch_active,expires")
+})
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

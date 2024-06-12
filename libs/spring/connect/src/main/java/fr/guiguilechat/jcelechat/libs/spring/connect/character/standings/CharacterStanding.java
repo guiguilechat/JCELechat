@@ -8,6 +8,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -26,7 +27,9 @@ public class CharacterStanding extends
     AFetchedListElement<CharacterStanding, CharacterStandingList> {
 
 	@Entity(name = "EsiConnectCharacterStandingList")
-	@Table(name = "esi_connect_characterstandinglist")
+	@Table(name = "esi_connect_characterstandinglist", indexes = {
+	    @Index(columnList = "fetch_active,expires")
+	})
 	@NoArgsConstructor
 	@Getter
 	@Setter

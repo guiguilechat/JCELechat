@@ -18,6 +18,7 @@ import lombok.NoArgsConstructor;
  */
 @Entity(name = "EsiRemoteIdResolution")
 @Table(name = "esi_remote_idresolution", indexes = {
+    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "name"),
     @Index(columnList = "category")
 })
