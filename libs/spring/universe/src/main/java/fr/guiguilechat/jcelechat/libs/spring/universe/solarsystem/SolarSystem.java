@@ -6,7 +6,10 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt.AsteroidBelt;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
+import fr.guiguilechat.jcelechat.libs.spring.universe.moon.Moon;
+import fr.guiguilechat.jcelechat.libs.spring.universe.planet.Planet;
 import fr.guiguilechat.jcelechat.libs.spring.universe.star.Star;
 import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.Stargate;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
@@ -34,13 +37,17 @@ import lombok.Setter;
 @Setter
 public class SolarSystem extends ARemoteFetchedResource<Integer, R_get_universe_systems_system_id> {
 
+	@OneToMany(mappedBy = "solarSystem")
+	private List<AsteroidBelt> asteroidBelts;
+
 	@ManyToOne
 	private Constellation constellation;
 
-	/**
-	 * planets array
-	 */
-	// private get_universe_systems_system_id_planets[] planets;
+	@OneToMany(mappedBy = "solarSystem")
+	private List<Moon> moons;
+
+	@OneToMany(mappedBy = "solarSystem")
+	private List<Planet> planets;
 
 	@OneToOne(mappedBy = "solarSystem")
 	private Star star;

@@ -98,7 +98,7 @@ public class RemoteResourceUpdaterService {
 		long endTimeMs = System.currentTimeMillis();
 		long nbRemain = fetchedService.nbToUpdate();
 		if (nbUpdates > 0) {
-			log.info("{} success update {}/{} in {} ms, remain {}",
+			log.info("{} updated {}/{} in {} ms, remain {}",
 			    fetchedService.fetcherName(),
 			    nbSuccess.get(), nbUpdates,
 			    endTimeMs - startTimeMs, nbRemain);
