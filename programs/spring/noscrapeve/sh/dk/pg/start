@@ -1,0 +1,5 @@
+#!/bin/bash
+FILE=docker/compose/noscrape-postgresql.yml
+
+# create and start a local dev container.
+docker compose -f "$FILE" up -d --build --pull always --remove-orphans

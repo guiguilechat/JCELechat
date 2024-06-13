@@ -1,12 +1,15 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 import java.util.function.Function;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -29,6 +32,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.universe.solarsystem")
+@Order(3)
 public class SolarSystemService extends
     ARemoteFetchedResourceService<SolarSystem, Integer, R_get_universe_systems_system_id, SolarSystemRepository> {
 
@@ -79,29 +83,54 @@ public class SolarSystemService extends
 		super.updateResponseOk(data, response);
 		R_get_universe_systems_system_id received = response.getOK();
 		data.setConstellation(constellationService.createIfAbsent(received.constellation_id));
-		for (get_universe_systems_system_id_planets planetData : Optional.ofNullable(received.planets)
-		    .orElseGet(() -> new get_universe_systems_system_id_planets[] {})) {
-			Planet planet = planetService.createIfAbsent(planetData.planet_id);
-			for (int moonId : Optional.ofNullable(planetData.moons).orElseGet(() -> new int[] {})) {
-				Moon moon = moonService.createIfAbsent(moonId);
-				moon.setPlanet(planet);
-				moonService.save(moon);
-			}
-			for (int asteroidBeltId : Optional.ofNullable(planetData.asteroid_belts).orElseGet(() -> new int[] {})) {
-				AsteroidBelt asteroidBelt = asteroidBeltService.createIfAbsent(asteroidBeltId);
-				asteroidBelt.setPlanet(planet);
-				asteroidBeltService.save(asteroidBelt);
+		if (received.planets != null && received.planets.length > 0) {
 
+			Map<Integer, AsteroidBelt> abIdToEntity = new HashMap<>();
+			List<Integer> systemABIds = Stream.of(received.planets)
+			    .filter(p -> p.asteroid_belts != null && p.asteroid_belts.length > 0)
+			    .flatMapToInt(p -> IntStream.of(p.asteroid_belts))
+			    .boxed().toList();
+			if (!systemABIds.isEmpty()) {
+				abIdToEntity = asteroidBeltService.createIfAbsent(systemABIds);
 			}
-			if (received.star_id != 0) {
-				starService.createIfAbsent(received.star_id);
+
+			Map<Integer, Moon> moonIdToEntity = new HashMap<>();
+			List<Integer> systemMoonIds = Stream.of(received.planets)
+			    .filter(p -> p.moons != null && p.moons.length > 0)
+			    .flatMapToInt(p -> IntStream.of(p.moons))
+			    .boxed().toList();
+			if (!systemMoonIds.isEmpty()) {
+				moonIdToEntity = moonService.createIfAbsent(systemMoonIds);
 			}
-			for (int stargateId : Optional.ofNullable(received.stargates).orElseGet(() -> new int[] {})) {
-				stargateService.createIfAbsent(stargateId);
+
+			Map<Integer, Planet> planetIdToEntity = planetService
+			    .createIfAbsent(Stream.of(received.planets).mapToInt(p -> p.planet_id).boxed().toList());
+
+			for (get_universe_systems_system_id_planets planetData : received.planets) {
+				Planet planet = planetIdToEntity.get(planetData.planet_id);
+				if (planetData.asteroid_belts != null && planetData.asteroid_belts.length > 0) {
+					IntStream.of(planetData.asteroid_belts)
+					    .mapToObj(abIdToEntity::get)
+					    .forEach(asteroidBelt -> asteroidBelt.setPlanet(planet));
+				}
+				if (planetData.moons != null && planetData.moons.length > 0) {
+					IntStream.of(planetData.moons)
+					    .mapToObj(moonIdToEntity::get)
+					    .forEach(moon -> moon.setPlanet(planet));
+				}
 			}
-			for (int stationId : Optional.ofNullable(received.stations).orElseGet(() -> new int[] {})) {
-				stationService.createIfAbsent(stationId);
-			}
+
+			asteroidBeltService.saveAll(abIdToEntity.values());
+			moonService.saveAll(moonIdToEntity.values());
+		}
+		if (received.star_id != 0) {
+			starService.createIfAbsent(received.star_id);
+		}
+		if (received.stargates != null && received.stargates.length > 0) {
+			stargateService.createIfAbsent(IntStream.of(received.stargates).boxed().toList());
+		}
+		if (received.stations != null && received.stations.length > 0) {
+			stationService.createIfAbsent(IntStream.of(received.stations).boxed().toList());
 		}
 	}
 

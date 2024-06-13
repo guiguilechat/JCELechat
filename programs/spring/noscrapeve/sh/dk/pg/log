@@ -1,0 +1,4 @@
+#!/bin/bash
+CONTAINER=noscrape-tomcat
+
+docker logs -f "$CONTAINER"

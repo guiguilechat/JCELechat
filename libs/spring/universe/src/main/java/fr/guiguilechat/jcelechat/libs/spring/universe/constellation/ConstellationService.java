@@ -6,6 +6,7 @@ import java.util.function.Function;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -18,6 +19,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.universe.constellation")
+@Order(2)
 public class ConstellationService
     extends
     ARemoteFetchedResourceService<Constellation, Integer, R_get_universe_constellations_constellation_id, ConstellationRepository> {

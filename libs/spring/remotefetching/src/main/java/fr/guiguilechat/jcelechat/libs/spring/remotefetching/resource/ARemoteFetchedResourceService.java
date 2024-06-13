@@ -53,7 +53,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		return getClass().getSimpleName();
 	}
 
-	public Entity save(Entity data) {
+	protected void preSave(Entity data) {
 		if (data.getExpires() == null) {
 			data.setExpires(Instant.now());
 		}
@@ -61,7 +61,16 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 			data.setCreated(Instant.now());
 		}
 		data.setLastUpdate(Instant.now());
+	}
+
+	public Entity save(Entity data) {
+		preSave(data);
 		return repo().saveAndFlush(data);
+	}
+
+	public List<Entity> saveAll(Iterable<Entity> data) {
+		data.forEach(this::preSave);
+		return repo().saveAllAndFlush(data);
 	}
 
 	protected boolean isActivateNewEntry() {
@@ -99,19 +108,15 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	 */
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Entity createIfAbsent(Id entityId) {
-		synchronized (repo()) {
 			return createIfNeeded(repo().findById(entityId).orElse(null), entityId);
-		}
 	}
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, Entity> createIfAbsent(Collection<Id> entityIds) {
-		synchronized (repo()) {
 			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
 			    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
 			return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
 			    entityId -> createIfNeeded(storedEntities.get(entityId), entityId)));
-		}
 	}
 
 	/**
@@ -134,12 +139,10 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, CompletableFuture<Entity>> createFetchIfNeeded(Collection<Id> entityIds) {
-		synchronized (repo()) {
 			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
 			    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
 			return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
 			    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
-		}
 	}
 
 	protected abstract Requested<Fetched> fetchData(Id id, Map<String, String> properties);

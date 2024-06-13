@@ -4,6 +4,7 @@ import java.util.Map;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -16,6 +17,8 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.universe.asteroidbelt")
+// depend on solarsystem
+@Order(4)
 public class AsteroidBeltService extends
     ARemoteFetchedResourceService<AsteroidBelt, Integer, R_get_universe_asteroid_belts_asteroid_belt_id, AsteroidBeltRepository> {
 
