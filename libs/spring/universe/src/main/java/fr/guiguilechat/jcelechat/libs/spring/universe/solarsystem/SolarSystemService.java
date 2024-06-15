@@ -28,6 +28,7 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_universe_systems_system_id_planets;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
@@ -77,6 +78,24 @@ public class SolarSystemService extends
 		return p -> ESIRawPublic.INSTANCE.get_universe_systems(p).mapBody(List::of);
 	}
 
+	/**
+	 * set to false to disable asteroid belt fetching from systems
+	 */
+	@Setter
+	private boolean asteroidbelts = true;
+
+	/**
+	 * set to false to disable moons fetching from systems
+	 */
+	@Setter
+	private boolean moons = true;
+
+	/**
+	 * set to false to disable planets fetching from systems
+	 */
+	@Setter
+	private boolean planets = true;
+
 	@Override
 	protected void updateResponseOk(SolarSystem data,
 	    Requested<R_get_universe_systems_system_id> response) {
@@ -90,7 +109,7 @@ public class SolarSystemService extends
 			    .filter(p -> p.asteroid_belts != null && p.asteroid_belts.length > 0)
 			    .flatMapToInt(p -> IntStream.of(p.asteroid_belts))
 			    .boxed().toList();
-			if (!systemABIds.isEmpty()) {
+			if (asteroidbelts && !systemABIds.isEmpty()) {
 				abIdToEntity = asteroidBeltService.createIfAbsent(systemABIds);
 			}
 
@@ -99,29 +118,34 @@ public class SolarSystemService extends
 			    .filter(p -> p.moons != null && p.moons.length > 0)
 			    .flatMapToInt(p -> IntStream.of(p.moons))
 			    .boxed().toList();
-			if (!systemMoonIds.isEmpty()) {
+			if (moons && !systemMoonIds.isEmpty()) {
 				moonIdToEntity = moonService.createIfAbsent(systemMoonIds);
 			}
 
-			Map<Integer, Planet> planetIdToEntity = planetService
-			    .createIfAbsent(Stream.of(received.planets).mapToInt(p -> p.planet_id).boxed().toList());
-
-			for (get_universe_systems_system_id_planets planetData : received.planets) {
-				Planet planet = planetIdToEntity.get(planetData.planet_id);
-				if (planetData.asteroid_belts != null && planetData.asteroid_belts.length > 0) {
-					IntStream.of(planetData.asteroid_belts)
-					    .mapToObj(abIdToEntity::get)
-					    .forEach(asteroidBelt -> asteroidBelt.setPlanet(planet));
-				}
-				if (planetData.moons != null && planetData.moons.length > 0) {
-					IntStream.of(planetData.moons)
-					    .mapToObj(moonIdToEntity::get)
-					    .forEach(moon -> moon.setPlanet(planet));
+			if (planets) {
+				Map<Integer, Planet> planetIdToEntity = planetService
+				    .createIfAbsent(Stream.of(received.planets).mapToInt(p -> p.planet_id).boxed().toList());
+				for (get_universe_systems_system_id_planets planetData : received.planets) {
+					Planet planet = planetIdToEntity.get(planetData.planet_id);
+					if (asteroidbelts && planetData.asteroid_belts != null && planetData.asteroid_belts.length > 0) {
+						IntStream.of(planetData.asteroid_belts)
+						    .mapToObj(abIdToEntity::get)
+						    .forEach(asteroidBelt -> asteroidBelt.setPlanet(planet));
+					}
+					if (moons && planetData.moons != null && planetData.moons.length > 0) {
+						IntStream.of(planetData.moons)
+						    .mapToObj(moonIdToEntity::get)
+						    .forEach(moon -> moon.setPlanet(planet));
+					}
 				}
 			}
 
-			asteroidBeltService.saveAll(abIdToEntity.values());
-			moonService.saveAll(moonIdToEntity.values());
+			if (asteroidbelts) {
+				asteroidBeltService.saveAll(abIdToEntity.values());
+			}
+			if (moons) {
+				moonService.saveAll(moonIdToEntity.values());
+			}
 		}
 		if (received.star_id != 0) {
 			starService.createIfAbsent(received.star_id);
