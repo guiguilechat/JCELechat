@@ -8,8 +8,8 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.PlanetEvalService.ConsumeProduct;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.PlanetEvalService.PlanetaryFactory;
 import lombok.Getter;
@@ -135,12 +135,12 @@ public class CuratedP4FromP2 implements PlanetaryFactory {
 	};
 
 	public static Stream<CuratedP4FromP2> stream(TypeService typeService) {
-		Map<Integer, Type> typesbyId = typeService.byIdIn(
+		Map<Integer, Type> typesbyId = typeService.findById(
 				Stream.of(curatedProductsMaterial)
 						.flatMapToInt(arr -> Stream.of(arr).flatMapToInt(IntStream::of))
 						.boxed().toList())
 				.stream()
-				.collect(Collectors.toMap(Type::getTypeId, t -> t));
+		    .collect(Collectors.toMap(Type::getId, t -> t));
 		return Stream.of(curatedProductsMaterial)
 				.map(curated -> new CuratedP4FromP2(curated[0], curated[1], typesbyId))
 				.filter(cpfp -> cpfp.getProduct() != null);

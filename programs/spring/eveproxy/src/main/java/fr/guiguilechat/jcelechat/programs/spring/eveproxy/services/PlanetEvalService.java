@@ -13,17 +13,17 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.PlanetaryTaxService;
+import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchemProductService;
+import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchematicService;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.valuation.MaterialSourcing;
 import fr.guiguilechat.jcelechat.libs.spring.market.valuation.ProductValuator;
-import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
-import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.MaterialService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.PlanetaryTaxService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchemProductService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchematicService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2;
@@ -79,7 +79,7 @@ public class PlanetEvalService {
 
 			@Override
 			public boolean accept(Collection<Type> products, MaterialService materialService) {
-				return products.stream().filter(t -> t.getGroup().getGroupId() == P4_GID).findAny().isPresent();
+				return products.stream().filter(t -> t.getGroup().getId() == P4_GID).findAny().isPresent();
 			}
 
 		},
@@ -87,7 +87,7 @@ public class PlanetEvalService {
 
 			@Override
 			public boolean accept(Collection<Type> products, MaterialService materialService) {
-				return products.stream().filter(t -> t.getGroup().getGroupId() == P3_GID).findAny().isPresent();
+				return products.stream().filter(t -> t.getGroup().getId() == P3_GID).findAny().isPresent();
 			}
 
 		},
@@ -95,7 +95,7 @@ public class PlanetEvalService {
 
 			@Override
 			public boolean accept(Collection<Type> products, MaterialService materialService) {
-				return products.stream().filter(t -> t.getGroup().getGroupId() == P2_GID).findAny().isPresent();
+				return products.stream().filter(t -> t.getGroup().getId() == P2_GID).findAny().isPresent();
 			}
 
 		},
@@ -204,7 +204,7 @@ public class PlanetEvalService {
 				.flatMap(fe -> Stream.concat(
 						fe.getLinkedMats().stream().map(LinkedMaterial::type),
 						fe.getLinkedProd().stream().map(LinkedMaterial::type)))
-				.map(Type::getTypeId)
+		    .map(Type::getId)
 				.collect(Collectors.toSet());
 		Map<Integer, List<RegionLine>> bosByTypeId = regionLineService.locationBos(params.getLocation(), allIds);
 		Map<Integer, List<RegionLine>> sosByTypeId = regionLineService.locationSos(params.getLocation(), allIds);
@@ -223,15 +223,15 @@ public class PlanetEvalService {
 			double customTax = 0.0;
 			for (Entry<Integer, Long> e : fe.getProductById().entrySet()) {
 				long qtty = e.getValue();
-				Type t = typeService.byId(e.getKey()).orElse(null);
+				Type t = typeService.byId(e.getKey());
 				volCost += params.getProductValuator().haulingCost(qtty, params.getVolumicPrice() * t.getVolume());
-				customTax += taxMult * exportTaxById.get(t.getTypeId()) * qtty;
+				customTax += taxMult * exportTaxById.get(t.getId()) * qtty;
 			}
 			for (Entry<Integer, Long> e : fe.getMaterialsById().entrySet()) {
 				long qtty = e.getValue();
-				Type t = typeService.byId(e.getKey()).orElse(null);
+				Type t = typeService.byId(e.getKey());
 				volCost += params.getMaterialSourcing().haulingCost(qtty, params.getVolumicPrice() * t.getVolume());
-				customTax += taxMult * importTaxById.get(t.getTypeId()) * qtty;
+				customTax += taxMult * importTaxById.get(t.getId()) * qtty;
 			}
 
 			double totalCost = matCost + marginCost + volCost + customTax;
@@ -265,14 +265,14 @@ public class PlanetEvalService {
 				.toList());
 		ret.setMaterialsById(
 				prod.materials().entrySet().stream()
-						.collect(Collectors.toMap(e -> e.getKey().getTypeId(), e -> e.getValue() * params.getNbPlanets())));
+		        .collect(Collectors.toMap(e -> e.getKey().getId(), e -> e.getValue() * params.getNbPlanets())));
 		ret.setLinkedProd(prod.product().entrySet().stream()
 				.sorted(Comparator.comparing(e -> e.getKey().getName()))
 				.map(e -> dogmaHtmlController.linkedMaterial(e.getKey(), e.getValue().intValue() * params.getNbPlanets()))
 				.toList());
 		ret.setProductById(
 				prod.product.entrySet().stream()
-						.collect(Collectors.toMap(e -> e.getKey().getTypeId(), e -> e.getValue() * params.getNbPlanets())));
+		        .collect(Collectors.toMap(e -> e.getKey().getId(), e -> e.getValue() * params.getNbPlanets())));
 		return ret;
 	}
 

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.function.Function;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -42,6 +44,9 @@ public class TypeService
 	@Lazy
 	private final GroupService groupService;
 
+	@Lazy
+	private final TypeAttributeService typeAttributeService;
+
 	@Override
 	protected Type create(Integer entityId) {
 		Type ret = new Type();
@@ -65,11 +70,17 @@ public class TypeService
 		super.updateResponseOk(data, response);
 		R_get_universe_types_type_id received = response.getOK();
 		data.setGroup(groupService.createIfAbsent(received.group_id));
+		typeAttributeService.deleteByType(data);
 		if (received.dogma_attributes != null) {
+			List<TypeAttribute> typeAttributes = new ArrayList<>();
 			for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes a : received.dogma_attributes) {
 				Attribute att = attributeService.createIfAbsent(a.attribute_id);
-				data.getAttributesValues().put(att, a.value);
+				typeAttributes.add(TypeAttribute.builder()
+				    .attribute(att)
+				    .type(data)
+				    .build());
 			}
+			typeAttributeService.saveAll(typeAttributes);
 		}
 		if (received.dogma_effects != null) {
 			for (get_dogma_dynamic_items_type_id_item_id_dogma_effects e : received.dogma_effects) {
@@ -77,6 +88,144 @@ public class TypeService
 				data.getEffectsDefault().put(eff, e.is_default);
 			}
 		}
+	}
+
+	public List<Type> byGroupId(int groupId) {
+		return repo().findByGroupId(groupId);
+	}
+
+	public List<Type> byGroupIdIn(Iterable<Integer> groupIds) {
+		return repo().findByGroupIdIn(groupIds);
+	}
+
+	public List<Type> byCategoryId(int categoryId) {
+		return repo().findByGroupCategoryId(categoryId);
+	}
+
+	public List<Type> byCategoryIdIn(Iterable<Integer> categoryIds) {
+		return repo().findByGroupCategoryIdIn(categoryIds);
+	}
+
+	/**
+	 * performs a list of queries to search for a type matching a given name :
+	 * <ol>
+	 * <li>type name equals ignore case</li>
+	 * <li>type name starts with ignore case</li>
+	 * <li>type name contains ignore case</li>
+	 * </ol>
+	 *
+	 * @return the result of whichever queries is not empty first, or empty list
+	 */
+	public List<Type> searchByName(String typeName) {
+		List<Type> ret = List.of();
+		if (ret.isEmpty()) {
+			ret = repo().findByNameEqualsIgnoreCase(typeName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo().findByNameStartsWithIgnoreCase(typeName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo().findByNameContainsIgnoreCase(typeName);
+		}
+		return ret;
+	}
+
+	/**
+	 * performs a list of queries to search for a type matching a given name :
+	 * <ol>
+	 * <li>group name equals ignore case</li>
+	 * <li>group name starts with ignore case</li>
+	 * <li>group name contains ignore case</li>
+	 * </ol>
+	 *
+	 * @return the result of whichever queries is not empty first, or empty list
+	 */
+	public List<Type> searchByGroupName(String groupName) {
+		List<Type> ret = List.of();
+		if (ret.isEmpty()) {
+			ret = repo().findByGroupNameEqualsIgnoreCase(groupName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo().findByGroupNameStartsWithIgnoreCase(groupName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo().findByGroupNameContainsIgnoreCase(groupName);
+		}
+		return ret;
+	}
+
+	/**
+	 * performs a list of queries to search for a type matching a given name :
+	 * <ol>
+	 * <li>category name equals ignore case</li>
+	 * <li>category name starts with ignore case</li>
+	 * <li>category name contains ignore case</li>
+	 * </ol>
+	 *
+	 * @return the result of whichever queries is not empty first, or empty list
+	 */
+	public List<Type> searchByCategoryName(String categoryName) {
+		List<Type> ret = List.of();
+		if (ret.isEmpty()) {
+			ret = repo().findByGroupCategoryNameEqualsIgnoreCase(categoryName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo().findByGroupCategoryNameStartsWithIgnoreCase(categoryName);
+		}
+		if (ret.isEmpty()) {
+			ret = repo().findByGroupCategoryNameContainsIgnoreCase(categoryName);
+		}
+		return ret;
+	}
+
+	/**
+	 * performs a list of queries to search for a type matching a given name :
+	 * <ol>
+	 * <li>{@link #searchByName(String)}</li>
+	 * <li>{@link #searchByGroupName(String)}</li>
+	 * <li>{@link #searchByCategoryName(String)}</li>
+	 * </ol>
+	 *
+	 * @param targetName name to find a corresponding type
+	 * @return first non-empty list of types, or empty list
+	 */
+	public List<Type> search(String targetName) {
+		List<Type> ret = searchByName(targetName);
+		if (ret.isEmpty()) {
+			ret = searchByGroupName(targetName);
+		}
+		if (ret.isEmpty()) {
+			ret = searchByCategoryName(targetName);
+		}
+		return ret;
+	}
+
+	public List<Type> typesFilter(String typeFiltering, String typeFilter) {
+		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
+		case "id", "ti", "tid", "typeid" -> List.of(byId(Integer.parseInt(typeFilter)));
+		case "name", "tn", "tname", "typename" -> searchByName(typeFilter);
+		case "gn", "gname", "groupname" -> searchByGroupName(typeFilter);
+		case "gi", "gid", "groupid" -> byGroupId(Integer.parseInt(typeFilter));
+		case "cn", "cname", "categoryname" -> searchByCategoryName(typeFilter);
+		case "ci", "cid", "categoryid" -> byCategoryId(Integer.parseInt(typeFilter));
+		default -> search(typeFilter);
+		};
+	}
+
+	public Type typeFilter(String typeFiltering, String typeFilter) {
+		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
+		case "id", "ti", "tid", "typeid" -> byId(Integer.parseInt(typeFilter));
+		case "name", "tn", "tname", "typename" -> searchByName(typeFilter).stream().findFirst().orElse(null);
+		default -> search(typeFilter).stream().findFirst().orElse(null);
+		};
+	}
+
+	public Type prevType(Type type) {
+		return repo().findTop1ByGroupAndNameLessThanOrderByNameDesc(type.getGroup(), type.getName());
+	}
+
+	public Type nextType(Type type) {
+		return repo().findTop1ByGroupAndNameGreaterThanOrderByNameAsc(type.getGroup(), type.getName());
 	}
 
 }

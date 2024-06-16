@@ -38,4 +38,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<description>library that keep checking for new SDE.</description>
 </project>

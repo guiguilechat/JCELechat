@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.npc.model;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;

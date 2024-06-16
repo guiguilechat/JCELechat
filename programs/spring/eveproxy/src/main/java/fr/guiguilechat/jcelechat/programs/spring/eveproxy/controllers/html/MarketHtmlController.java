@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.market.order.MarketOrderService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import jakarta.transaction.Transactional;
@@ -41,7 +41,7 @@ public class MarketHtmlController {
 	@Transactional
 	@GetMapping("/{typeId}")
 	public String getTypeMarket(Model model, @PathVariable int typeId) {
-		Optional<Type> oType = typeService.byId(typeId);
+		Optional<Type> oType = typeService.findById(typeId);
 		Map<Integer, String> regionNamesById = regionService.namesById();
 		Map<Integer, String> stationNamesById = stationService.namesById();
 		Map<Long, String> structuresNamesById = Map.of();
@@ -66,7 +66,7 @@ public class MarketHtmlController {
 	}
 
 	public URI uri(Type type) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getTypeMarket", null, "" + type.getTypeId()).build()
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getTypeMarket", null, "" + type.getId()).build()
 				.toUri();
 	}
 
@@ -88,7 +88,7 @@ public class MarketHtmlController {
 		if (typeName.isPresent() && !typeName.get().isBlank()) {
 			List<Type> types = typeService.search(typeName.get());
 			if (types.size() == 1) {
-				return "redirect:" + types.get(0).getTypeId();
+				return "redirect:" + types.get(0).getId();
 			} else {
 				model.addAttribute("types",
 						types.stream().map(this::linkedMarketType).sorted(Comparator.comparing(lmt -> lmt.name)).toList());

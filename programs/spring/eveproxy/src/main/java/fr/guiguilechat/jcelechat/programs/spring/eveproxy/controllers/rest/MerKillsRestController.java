@@ -37,12 +37,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Group;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.services.KillService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.services.KillService.KillStats;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Group;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.GroupService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
@@ -201,7 +201,7 @@ public class MerKillsRestController {
 			@Override
 			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
 				int typeId = Integer.parseInt(filterparam);
-				Type type = typeService.byId(typeId).orElse(null);
+				Type type = typeService.byId(typeId);
 				return type == null ? new NAMED_TYPELIST("unknown t" + typeId, Collections.emptyList())
 						: new NAMED_TYPELIST(type.getName(), List.of(typeId));
 			}
@@ -210,10 +210,10 @@ public class MerKillsRestController {
 			@Override
 			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
 				int groupId = Integer.parseInt(filterparam);
-				Group group = groupService.byId(groupId).orElse(null);
+				Group group = groupService.byId(groupId);
 				return group == null ? new NAMED_TYPELIST("unknown g" + groupId, Collections.emptyList())
 						: new NAMED_TYPELIST(group.getName(),
-								typeService.byGroupId(groupId).stream().map(Type::getTypeId).distinct().sorted().toList());
+				        typeService.byGroupId(groupId).stream().map(Type::getId).distinct().sorted().toList());
 			}
 		},
 		TYPE_NAME {
@@ -225,7 +225,7 @@ public class MerKillsRestController {
 				}
 				String name = list.size() == 1 ? list.get(0).getName()
 						: "matched " + list.size() + " type names " + filterparam;
-				return new NAMED_TYPELIST(name, list.stream().map(Type::getTypeId).sorted().toList());
+				return new NAMED_TYPELIST(name, list.stream().map(Type::getId).sorted().toList());
 			}
 		},
 		GROUP_NAME {
@@ -238,7 +238,7 @@ public class MerKillsRestController {
 				String name = list.size() == 1 ? list.get(0).getName()
 						: "matched " + list.size() + " group names " + filterparam;
 				return new NAMED_TYPELIST(name,
-						list.stream().flatMap(g -> typeService.byGroupId(g.getGroupId()).stream()).map(Type::getTypeId)
+				    list.stream().flatMap(g -> typeService.byGroupId(g.getId()).stream()).map(Type::getId)
 								.distinct().sorted().toList());
 			}
 		},
@@ -414,7 +414,7 @@ public class MerKillsRestController {
 		String timeOrder = time.orElse("desc");
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
 		Map<String, TypesKillsStats> statsByType = resolved.typeIds.parallelStream().collect(
-				Collectors.toMap(typeId -> typeService.byId(typeId).get().getName(),
+		    Collectors.toMap(typeId -> typeService.byId(typeId).getName(),
 						typeId -> new TypesKillsStats(List.of(typeId), timeOrder, ap.stats(List.of(typeId), killService), ap)));
 		if (timeOrder.equals("asc")) {
 			for (TypesKillsStats stats : statsByType.values()) {
@@ -446,7 +446,7 @@ public class MerKillsRestController {
 		KILLS_DETAIL det = KILLS_DETAIL.of(detail);
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
 		Map<String, List<KillStats>> statsByType = resolved.typeIds.parallelStream().collect(
-				Collectors.toMap(typeId -> typeService.byId(typeId).get().getName(),
+		    Collectors.toMap(typeId -> typeService.byId(typeId).getName(),
 						typeId -> ap.stats(List.of(typeId), killService)));
 		JFreeChart chart = drawChart(statsByType,
 				det.legend + " for " + resolved.name() + ", by " + ap.name().toLowerCase(), ap,

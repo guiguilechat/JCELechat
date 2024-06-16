@@ -17,23 +17,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.CategoryService;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Group;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.market.order.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.prices.services.PriceService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.BlueprintActivity.ACTIVITY_TYPE;
-import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Material;
-import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.model.Product;
-import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.MaterialService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.blueprint.services.ProductService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Category;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Group;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.CategoryService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.GroupService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
@@ -96,7 +96,7 @@ public class DogmaHtmlController {
 	}
 
 	public URI uri(Type type) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getType", null, "ti", "" + type.getTypeId()).build()
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getType", null, "ti", "" + type.getId()).build()
 				.toUri();
 	}
 
@@ -116,7 +116,7 @@ public class DogmaHtmlController {
 
 	public LinkedMaterial linkedMaterial(Material material) {
 		return new LinkedMaterial(
-				uri(material.getType()).toString(),
+		    uri(material.getType()).toString(),
 				material.getType(),
 				material.getQuantity());
 	}
@@ -129,7 +129,7 @@ public class DogmaHtmlController {
 	}
 
 	public LinkedMaterial linkedMaterial(int typeId, long quantity) {
-		return linkedMaterial(typeService.byId(typeId).orElse(null), quantity);
+		return linkedMaterial(typeService.byId(typeId), quantity);
 	}
 
 	public static record LinkedActivity(String url, Type type, ACTIVITY_TYPE activity, int quantity, double probability,
@@ -195,33 +195,33 @@ public class DogmaHtmlController {
 				model.addAttribute("nxtTypeUrl", uri(nxtType));
 			}
 
-			List<LinkedProduct> manufProd = productService.findProducts(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
+			List<LinkedProduct> manufProd = productService.findProducts(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
 					.map(this::linkedProduct)
 					.sorted(Comparator.comparing(u -> u.type().getName()))
 					.toList();
 			model.addAttribute("manufacturingProd", manufProd);
-			List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getTypeId(), ACTIVITY_TYPE.manufacturing)
-					.stream()
+			List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.manufacturing)
+			    .stream()
 					.map(this::linkedMaterial)
 					.sorted(Comparator.comparing(u -> u.type().getName()))
 					.toList();
 			model.addAttribute("manufacturingMats", manufMats);
 			model.addAttribute("reactionProd",
-					productService.findProducts(t.getTypeId(), ACTIVITY_TYPE.reaction).stream()
+			    productService.findProducts(t.getId(), ACTIVITY_TYPE.reaction).stream()
 							.map(this::linkedProduct)
 							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 			model.addAttribute("reactionMats",
-					materialService.forBPActivity(t.getTypeId(), ACTIVITY_TYPE.reaction).stream()
+			    materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.reaction).stream()
 							.map(this::linkedMaterial)
 							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 			model.addAttribute("seeded",
-					regionLineService.seedLocations(t.getTypeId()).stream()
+			    regionLineService.seedLocations(t.getId()).stream()
 							.map(this::seed)
 							.toList());
 			List<LinkedActivity> productOf = productService
-					.findProducers(List.of(t.getTypeId()), List.of(ACTIVITY_TYPE.values())).stream()
+			    .findProducers(List.of(t.getId()), List.of(ACTIVITY_TYPE.values())).stream()
 					.map(this::linkedActivity)
 					.sorted(Comparator.comparing(u -> u.type().getName()))
 					.toList();
@@ -233,43 +233,43 @@ public class DogmaHtmlController {
 							.toList();
 			model.addAttribute("offers", offers);
 			model.addAttribute("manufacturingUses",
-					materialService.findUsages(t.getTypeId(), ACTIVITY_TYPE.manufacturing).stream()
+			    materialService.findUsages(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
 							.map(this::linkedUsage)
 							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 			model.addAttribute("reactionUses",
-					materialService.findUsages(t.getTypeId(), ACTIVITY_TYPE.reaction).stream()
+			    materialService.findUsages(t.getId(), ACTIVITY_TYPE.reaction).stream()
 							.map(this::linkedUsage)
 							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 
-			model.addAttribute("adjusted", priceService.adjusted().getOrDefault(t.getTypeId(), 0.0).longValue());
-			model.addAttribute("average", FormatTools.formatPrice(priceService.average().getOrDefault(t.getTypeId(), 0.0)));
+			model.addAttribute("adjusted", priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue());
+			model.addAttribute("average", FormatTools.formatPrice(priceService.average().getOrDefault(t.getId(), 0.0)));
 			if (!manufProd.isEmpty()) {
-				model.addAttribute("eiv", (long) eivService.eiv(t.getTypeId()));
+				model.addAttribute("eiv", (long) eivService.eiv(t.getId()));
 			}
 			if (productOf.size() == 1) {
 				model.addAttribute("bpeiv",
-						(long) eivService.eiv(productOf.get(0).product().getActivity().getType().getTypeId()));
+				    (long) eivService.eiv(productOf.get(0).product().getActivity().getType().getId()));
 			}
-			List<RegionLine> bos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getTypeId(), true);
+			List<RegionLine> bos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getId(), true);
 			if (bos != null && !bos.isEmpty()) {
 				model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getPrice()));
 			}
-			List<RegionLine> sos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getTypeId(), false);
+			List<RegionLine> sos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getId(), false);
 			if (sos != null && !sos.isEmpty()) {
 				model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getPrice()));
 			}
 
 			Map<Integer, String> regionNamesById = regionService.namesById();
 			model.addAttribute("regionSell",
-			marketOrderService.lowestSellByRegion(t.getTypeId())
+			    marketOrderService.lowestSellByRegion(t.getId())
 					.entrySet().stream()
 					.map(e -> RegionBestPrice.of(e, regionNamesById))
 							.sorted(Comparator.comparing(RegionBestPrice::price))
 							.toList());
 			model.addAttribute("regionBuy",
-					marketOrderService.highestBuyByRegion(t.getTypeId())
+			    marketOrderService.highestBuyByRegion(t.getId())
 							.entrySet().stream()
 							.map(e -> RegionBestPrice.of(e, regionNamesById))
 							.sorted(Comparator.comparing(rp -> -rp.price()))
@@ -293,7 +293,7 @@ public class DogmaHtmlController {
 	}
 
 	public URI uri(Group group) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getGroup", null, group.getGroupId()).build()
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getGroup", null, group.getId()).build()
 				.toUri();
 	}
 
@@ -306,7 +306,7 @@ public class DogmaHtmlController {
 
 	@GetMapping("/group/{groupId}")
 	public String getGroup(Model model, @PathVariable int groupId) {
-		Optional<Group> og = groupService.byId(groupId);
+		Optional<Group> og = groupService.findById(groupId);
 		if (og.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "group " + groupId + " does not exist");
 		}
@@ -342,7 +342,7 @@ public class DogmaHtmlController {
 
 	public URI uri(Category category) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getCategory", null,
-				category.getCategoryId()).build()
+		    category.getId()).build()
 				.toUri();
 	}
 
@@ -355,7 +355,7 @@ public class DogmaHtmlController {
 
 	@GetMapping("/category/{categoryId}")
 	public String getCategory(Model model, @PathVariable int categoryId) {
-		Optional<Category> oc = categoryService.byId(categoryId);
+		Optional<Category> oc = categoryService.findById(categoryId);
 		if (oc.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "category " + categoryId + " does not exist");
 		}

@@ -269,6 +269,11 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+				<artifactId>industry</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 				<artifactId>items</artifactId>
 				<version>${project.version}</version>
 			</dependency>

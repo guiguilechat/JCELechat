@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.model;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

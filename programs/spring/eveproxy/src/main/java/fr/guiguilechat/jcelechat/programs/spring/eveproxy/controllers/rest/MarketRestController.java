@@ -23,12 +23,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.OfferStat;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -291,7 +291,7 @@ public class MarketRestController {
 			if (type == null) {
 				continue;
 			}
-			List<OfferStat> gains = place.gains(rlService, type.getTypeId());
+			List<OfferStat> gains = place.gains(rlService, type.getId());
 			if (gains.isEmpty()) {
 				continue;
 			}

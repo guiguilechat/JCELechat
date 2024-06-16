@@ -17,10 +17,10 @@ import fr.guiguilechat.jcelechat.libs.mer.MER;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher.MERFetch;
 import fr.guiguilechat.jcelechat.libs.mer.files.KillDumpEntry;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.model.Kill;
 import fr.guiguilechat.jcelechat.libs.spring.mer.model.LoadedMer;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
 import lombok.RequiredArgsConstructor;
@@ -69,8 +69,8 @@ public class MerUpdateService {
 							.build());
 			MER mer = new MER(merfetch).load();
 			Map<Integer, Type> typesById = typeService
-					.byIdIn(mer.getKillDumpEntries().stream().map(KillDumpEntry::destroyedShipTypeID).distinct().toList())
-					.stream().collect(Collectors.toMap(Type::getTypeId, o -> o));
+			    .findById(mer.getKillDumpEntries().stream().map(KillDumpEntry::destroyedShipTypeID).distinct().toList())
+			    .stream().collect(Collectors.toMap(Type::getId, o -> o));
 			Map<Integer, SolarSystem> systemsById = solarSystemService
 			    .createIfAbsent(mer.getKillDumpEntries().stream().map(KillDumpEntry::solarSystemID).distinct().toList());
 			killService.saveAll(mer.getKillDumpEntries().stream().map(kde -> Kill.from(kde, loadedMer,

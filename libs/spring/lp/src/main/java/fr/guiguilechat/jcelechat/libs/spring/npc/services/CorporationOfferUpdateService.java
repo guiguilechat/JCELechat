@@ -14,10 +14,10 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.OfferRequirement;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -82,9 +82,9 @@ public class CorporationOfferUpdateService {
 	}
 
 	CorporationOffer convert(LPStoreCorporation lsc, R_get_loyalty_stores_corporation_id_offers offer) {
-		CorporationOffer ret = CorporationOffer.of(offer, lsc, typeService.byId(offer.type_id).orElse(null));
+		CorporationOffer ret = CorporationOffer.of(offer, lsc, typeService.byId(offer.type_id));
 		ret.setRequirements(Stream.of(offer.required_items)
-				.map(req -> OfferRequirement.of(req, ret, typeService.byId(req.type_id).orElse(null))).toList());
+		    .map(req -> OfferRequirement.of(req, ret, typeService.byId(req.type_id))).toList());
 		return ret;
 	}
 

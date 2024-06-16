@@ -12,7 +12,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>sde</artifactId>
+			<artifactId>items</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>

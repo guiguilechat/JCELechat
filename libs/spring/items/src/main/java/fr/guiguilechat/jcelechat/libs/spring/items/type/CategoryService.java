@@ -43,4 +43,12 @@ public class CategoryService
 		return p -> ESIRawPublic.INSTANCE.get_universe_categories(p).mapBody(List::of);
 	}
 
+	public Category prevGroup(Category c) {
+		return repo().findTop1ByNameLessThanOrderByNameDesc(c.getName());
+	}
+
+	public Category nextGroup(Category c) {
+		return repo().findTop1ByNameGreaterThanOrderByNameAsc(c.getName());
+	}
+
 }

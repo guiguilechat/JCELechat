@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegionService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import lombok.RequiredArgsConstructor;
@@ -46,7 +46,7 @@ public class MarketSyncService implements SdeUpdateListener {
 	}
 
 	@Override
-	public void onSDEUpdate() {
+	public void afterSdeUpdate() {
 		observeAllEveUni();
 	}
 

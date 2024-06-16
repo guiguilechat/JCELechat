@@ -16,6 +16,7 @@
 	<modules>
 		<module>affiliations</module>
 		<module>connect</module>
+		<module>industry</module>
 		<module>items</module>
 		<module>lp</module>
 		<module>market</module>

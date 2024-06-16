@@ -52,4 +52,20 @@ public class GroupService
 		data.setCategory(categoryService.createIfAbsent(response.getOK().category_id));
 	}
 
+	public List<Group> byName(String nameIgnoreCase) {
+		return repo().findByNameEqualsIgnoreCase(nameIgnoreCase);
+	}
+
+	public List<Group> byCatId(int catId) {
+		return repo().findByCategoryId(catId);
+	}
+
+	public Group prevGroup(Group group) {
+		return repo().findTop1ByCategoryAndNameLessThanOrderByNameDesc(group.getCategory(), group.getName());
+	}
+
+	public Group nextGroup(Group group) {
+		return repo().findTop1ByCategoryAndNameGreaterThanOrderByNameAsc(group.getCategory(), group.getName());
+	}
+
 }

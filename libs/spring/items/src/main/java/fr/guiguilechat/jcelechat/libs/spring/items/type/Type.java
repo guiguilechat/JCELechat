@@ -1,9 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
@@ -13,6 +14,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -31,11 +33,8 @@ import lombok.Setter;
 @Setter
 public class Type extends ARemoteFetchedResource<Integer, R_get_universe_types_type_id> {
 
-	/**
-	 * dogma_attributes array
-	 */
-	@ElementCollection(fetch = FetchType.EAGER)
-	private Map<Attribute, Float> attributesValues = new HashMap<>();
+	@OneToMany(mappedBy = "type")
+	private List<TypeAttribute> attributes = new ArrayList<>();
 
 	/**
 	 * dogma_effects array
@@ -45,6 +44,9 @@ public class Type extends ARemoteFetchedResource<Integer, R_get_universe_types_t
 
 	@ManyToOne
 	private Group group;
+	
+	/** data integrated from SDE */
+	private float basePrice;
 
 	/**
 	 * capacity number

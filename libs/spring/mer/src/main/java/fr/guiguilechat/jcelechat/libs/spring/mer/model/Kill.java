@@ -4,7 +4,7 @@ import java.time.Instant;
 import java.util.Objects;
 
 import fr.guiguilechat.jcelechat.libs.mer.files.KillDumpEntry;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

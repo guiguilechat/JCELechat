@@ -4,10 +4,10 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.CorporationOfferRepository;
-import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import lombok.RequiredArgsConstructor;
 
 @Service
