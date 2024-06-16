@@ -30,7 +30,7 @@ public class ProductService implements SdeUpdateListener {
 
 	public List<Product> findProducts(List<Integer> bpTypeIds,
 			List<ACTIVITY_TYPE> ats) {
-		return repo.findAllByActivityTypeTypeIdInAndActivityActivityIn(bpTypeIds, ats);
+		return repo.findAllByActivityTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
 	@Cacheable("SdeBlueprintFindProducts")
@@ -39,7 +39,7 @@ public class ProductService implements SdeUpdateListener {
 	}
 
 	public List<Product> findProducers(List<Integer> productIds, List<ACTIVITY_TYPE> ats) {
-		return repo.findAllByTypeTypeIdInAndActivityActivityIn(productIds, ats);
+		return repo.findAllByTypeIdInAndActivityActivityIn(productIds, ats);
 	}
 
 	@Cacheable("SdeBlueprintFindProducers")

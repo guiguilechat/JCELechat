@@ -18,7 +18,7 @@ import lombok.RequiredArgsConstructor;
 @SuppressWarnings("serial")
 @Entity(name = "SdeBlueprintMaterial")
 @Table(name = "sde_blueprint_material", indexes = {
-		@Index(columnList = "activity_id,type_type_id") })
+    @Index(columnList = "activity_id,type_id") })
 @Data
 @Builder
 @RequiredArgsConstructor

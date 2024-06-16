@@ -11,7 +11,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 
 public interface MaterialRepository extends JpaRepository<Material, Long> {
 
-	public List<Material> findAllByActivityTypeTypeIdInAndActivityActivityIn(List<Integer> typeIds,
+	public List<Material> findAllByActivityTypeIdInAndActivityActivityIn(List<Integer> typeIds,
 			List<ACTIVITY_TYPE> ats);
 
 	public List<Material> findAllByActivity(BlueprintActivity activity);
@@ -23,11 +23,11 @@ from
 	SdeBlueprintMaterial mat
 where
 	mat.activity.activity=:activity_type
-	and mat.type.group.category.categoryId=:category_id
+	and mat.type.group.category.id=:category_id
 """)
 	public Set<Type> allActivityMaterialsInCategory(ACTIVITY_TYPE activity_type, int category_id);
 
-	public List<Material> findAllByTypeTypeIdInAndActivityActivityIn(List<Integer> typeIds,
+	public List<Material> findAllByTypeIdInAndActivityActivityIn(List<Integer> typeIds,
 	    List<ACTIVITY_TYPE> ats);
 
 }

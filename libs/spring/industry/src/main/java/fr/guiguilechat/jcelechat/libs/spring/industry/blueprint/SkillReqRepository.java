@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivit
 
 public interface SkillReqRepository extends JpaRepository<SkillReq, Long> {
 
-	public List<SkillReq> findAllByActivityTypeTypeIdInAndActivityActivityIn(List<Integer> typeIds,
+	public List<SkillReq> findAllByActivityTypeIdInAndActivityActivityIn(List<Integer> typeIds,
 			List<ACTIVITY_TYPE> ats);
 
 	public List<SkillReq> findAllByActivity(BlueprintActivity activity);

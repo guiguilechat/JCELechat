@@ -8,8 +8,8 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivit
 
 public interface BlueprintActivityRepository extends JpaRepository<BlueprintActivity, Long> {
 
-	public List<BlueprintActivity> findAllByTypeTypeIdInAndActivityIn(List<Integer> typeIds,
+	public List<BlueprintActivity> findAllByTypeIdInAndActivityIn(List<Integer> typeIds,
 			List<ACTIVITY_TYPE> ats);
 
-	public List<BlueprintActivity> findAllByTypeTypeIdIn(List<Integer> typeIds);
+	public List<BlueprintActivity> findAllByTypeIdIn(List<Integer> typeIds);
 }

@@ -1,8 +1,13 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.region;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
+import java.util.function.Supplier;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -13,6 +18,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
 import lombok.RequiredArgsConstructor;
 
@@ -21,7 +27,8 @@ import lombok.RequiredArgsConstructor;
 @ConfigurationProperties(prefix = "esi.universe.region")
 @Order(1)
 public class RegionService
-    extends ARemoteFetchedResourceService<Region, Integer, R_get_universe_regions_region_id, RegionRepository> {
+    extends ARemoteFetchedResourceService<Region, Integer, R_get_universe_regions_region_id, RegionRepository>
+    implements SdeUpdateListener {
 
 	@Override
 	protected Region create(Integer entityId) {
@@ -49,8 +56,25 @@ public class RegionService
 		return repo().findByNameEqualsIgnoreCase(name);
 	}
 
-public List<Region> byUniverse(String universe) {
-	return repo().findByUniverse(universe);
-}
+	public List<Region> byUniverse(String universe) {
+		return repo().findByUniverse(universe);
+	}
+
+	static final Pattern ENTRYNAME_REGION_PATTERN = Pattern.compile(
+	    "universe/([a-zA-Z0-9]+)/([- a-zA-Z0-9]+)/region\\.yaml");
+
+	@Override
+	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
+		Matcher matcher = ENTRYNAME_REGION_PATTERN.matcher(entryName);
+		if (matcher.matches()) {
+			try (InputStream is = fileContent.get()) {
+				Region r = createIfAbsent(fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region.load(is).regionID);
+				r.setUniverse(matcher.group(1));
+				save(r);
+			} catch (IOException e) {
+				throw new RuntimeException();
+			}
+		}
+	}
 
 }

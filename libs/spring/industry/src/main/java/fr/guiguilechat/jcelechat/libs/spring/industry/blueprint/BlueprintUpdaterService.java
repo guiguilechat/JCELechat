@@ -42,7 +42,7 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 	}
 
 	static final Pattern ENTRYNAME_BLUEPRINTS_PATTERN = Pattern.compile(
-	    "sde/fsd/blueprints\\.yaml");
+	    "fsd/blueprints\\.yaml");
 
 	@Override
 	public void onSdeFile(String name, Supplier<InputStream> fileContent) {

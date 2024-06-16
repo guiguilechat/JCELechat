@@ -31,7 +31,7 @@ public class MaterialService implements SdeUpdateListener {
 
 	public List<Material> forBPActivity(List<Integer> bpTypeIds,
 			List<ACTIVITY_TYPE> ats) {
-		return repo.findAllByActivityTypeTypeIdInAndActivityActivityIn(bpTypeIds, ats);
+		return repo.findAllByActivityTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
 	@Cacheable("SdeBlueprintMaterial")
@@ -42,7 +42,7 @@ public class MaterialService implements SdeUpdateListener {
 
 	public List<Material> findUsages(List<Integer> bpTypeIds,
 			List<ACTIVITY_TYPE> ats) {
-		return repo.findAllByTypeTypeIdInAndActivityActivityIn(bpTypeIds, ats);
+		return repo.findAllByTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
 	@Cacheable("SdeBlueprintUsage")

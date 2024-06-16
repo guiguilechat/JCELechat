@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.load.fsd.universe;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.stream.Stream;
 
 import org.yaml.snakeyaml.Yaml;
-
-import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 public class Region {
 	public LinkedHashMap<String, Constellation> constellations = new LinkedHashMap<>();
@@ -32,8 +32,7 @@ public class Region {
 					"while looking for one region.staticdata, found : " + Arrays.asList(data));
 		}
 		try {
-			Region ret = new Yaml().loadAs(SDECache.fileReader(data[0]),
-					Region.class);
+			Region ret = load(new FileInputStream(data[0]));
 			File[] constelFiles = Stream.of(regionDir.listFiles()).parallel().filter(File::isDirectory).sorted()
 					.toArray(File[]::new);
 			for (File constelFile : constelFiles) {
@@ -43,5 +42,9 @@ public class Region {
 		} catch (Exception e) {
 			throw new UnsupportedOperationException("while loading region from directory " + regionDir.getAbsolutePath(), e);
 		}
+	}
+
+	public static Region load(InputStream is) {
+		return new Yaml().loadAs(is, Region.class);
 	}
 }

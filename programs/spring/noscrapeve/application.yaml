@@ -25,6 +25,9 @@ esi:
       region:
          update:
             skip: false
+      solarSystem:
+         planets: false
+         moons: false
       star:
          update:
             skip: false

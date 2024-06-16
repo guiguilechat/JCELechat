@@ -108,7 +108,7 @@ public class IndustryRestController {
 			    List<BlueprintActivity> tes = blueprintActivityService.forBPActivity(type.getId(),
 							ACTIVITY_TYPE.researchTime);
 
-					BPInfo bp = null;
+			    BPInfo bp = null;
 			    if (type.getGroup().getCategory().getId() == 9) {
 				    double eiv = eivService.eiv(type.getId());
 						long teTime = tes.size() != 1 ? 0 : 256000l * tes.get(0).getTime() / 105;

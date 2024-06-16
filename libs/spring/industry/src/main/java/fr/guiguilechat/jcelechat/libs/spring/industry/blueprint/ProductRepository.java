@@ -8,12 +8,12 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivit
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
-	public List<Product> findAllByActivityTypeTypeIdInAndActivityActivityIn(List<Integer> blueprintIds,
+	public List<Product> findAllByActivityTypeIdInAndActivityActivityIn(List<Integer> blueprintIds,
 			List<ACTIVITY_TYPE> ats);
 
 	public List<Product> findAllByActivity(BlueprintActivity activity);
 
-	public List<Product> findAllByTypeTypeIdInAndActivityActivityIn(List<Integer> productIds,
+	public List<Product> findAllByTypeIdInAndActivityActivityIn(List<Integer> productIds,
 			List<ACTIVITY_TYPE> ats);
 
 }

@@ -32,7 +32,7 @@ import lombok.ToString;
 @SuppressWarnings("serial")
 @Entity(name = "SdeBlueprintActivity")
 @Table(name = "sde_blueprint_activity", indexes = {
-		@Index(columnList = "type_type_id,activity") })
+    @Index(columnList = "type_id,activity") })
 @Data
 @Builder
 @RequiredArgsConstructor

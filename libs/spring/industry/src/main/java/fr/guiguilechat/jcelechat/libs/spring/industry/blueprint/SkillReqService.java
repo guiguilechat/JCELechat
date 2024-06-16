@@ -30,7 +30,7 @@ public class SkillReqService implements SdeUpdateListener {
 
 	public List<SkillReq> forBPActivity(List<Integer> bpTypeIds,
 			List<ACTIVITY_TYPE> ats) {
-		return repo.findAllByActivityTypeTypeIdInAndActivityActivityIn(bpTypeIds, ats);
+		return repo.findAllByActivityTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
 	@Cacheable("SdeBlueprintSkillReq")

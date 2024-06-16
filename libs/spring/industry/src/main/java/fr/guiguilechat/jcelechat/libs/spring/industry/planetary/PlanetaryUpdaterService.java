@@ -2,18 +2,16 @@ package fr.guiguilechat.jcelechat.libs.spring.industry.planetary;
 
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeAttribute;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeAttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EplanetSchematics;
@@ -29,8 +27,6 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 
 	final private SchemProductService schemProductService;
 
-	private final TypeAttributeService typeAttributeService;
-
 	private final TypeService typeService;
 
 	@Override
@@ -41,7 +37,7 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 	}
 
 	static final Pattern ENTRYNAME_PLANETSCHEMATICS_PATTERN = Pattern.compile(
-	    "sde/fsd/planetSchematics\\.yaml");
+	    "fsd/planetSchematics\\.yaml");
 
 	@Override
 	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
@@ -55,25 +51,12 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 
 		Map<Integer, Type> typesById = typeService.allById();
 
-		Map<Integer, List<TypeAttribute>> attributesByTypeId = typeAttributeService.findAll().stream()
-		    .collect(Collectors.groupingBy(ta -> ta.getType().getId()));
-
 		schematicService
 		    .saveAll(planetSchematics.entrySet().stream().map(e -> {
 			    Schematic ret = Schematic.of(e.getValue(), e.getKey());
 			    List<Integer> pins = e.getValue().pins;
 			    if (pins != null && !pins.isEmpty()) {
-				    List<TypeAttribute> pipAtts = attributesByTypeId.get(pins.get(0));
-				    TypeAttribute pgAtt = pipAtts.stream().filter(ta -> ta.getAttribute().getId() == 15)
-				        .findFirst().orElse(null);
-				    if (pgAtt != null) {
-					    ret.setPowerLoad(pgAtt.getValue().intValue());
-				    }
-				    TypeAttribute cpuLoadAtt = pipAtts.stream().filter(ta -> ta.getAttribute().getId() == 49)
-				        .findFirst().orElse(null);
-				    if (cpuLoadAtt != null) {
-					    ret.setCpuLoad(cpuLoadAtt.getValue().intValue());
-				    }
+				    ret.setPins(new HashSet<>(pins.stream().map(typesById::get).toList()));
 			    }
 			    ret.setMaterials(e.getValue().types.entrySet().stream()
 			        .filter(entry -> entry.getValue().isInput)

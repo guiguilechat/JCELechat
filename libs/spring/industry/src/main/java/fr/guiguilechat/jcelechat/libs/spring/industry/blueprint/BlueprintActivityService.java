@@ -31,11 +31,11 @@ public class BlueprintActivityService implements SdeUpdateListener {
 
 	public List<BlueprintActivity> forBPActivity(List<Integer> bpTypeIds,
 			List<ACTIVITY_TYPE> ats) {
-		return repo.findAllByTypeTypeIdInAndActivityIn(bpTypeIds, ats);
+		return repo.findAllByTypeIdInAndActivityIn(bpTypeIds, ats);
 	}
 
 	public List<BlueprintActivity> forType(Type type) {
-		return repo.findAllByTypeTypeIdIn(List.of(type.getId()));
+		return repo.findAllByTypeIdIn(List.of(type.getId()));
 	}
 
 	@Cacheable("SdeBlueprintActivity")

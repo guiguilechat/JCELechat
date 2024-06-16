@@ -1,10 +1,17 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.function.Function;
+import java.util.function.Supplier;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
@@ -18,9 +25,11 @@ import fr.guiguilechat.jcelechat.libs.spring.items.attribute.AttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.EffectService;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -29,11 +38,8 @@ import lombok.RequiredArgsConstructor;
 // depends on group effect attribute
 @Order(3)
 public class TypeService
-	extends ARemoteFetchedResourceService<
-        Type,
-        Integer,
-        R_get_universe_types_type_id,
-        TypeRepository> {
+    extends ARemoteFetchedResourceService<Type, Integer, R_get_universe_types_type_id, TypeRepository>
+    implements SdeUpdateListener {
 
 	@Lazy
 	private final AttributeService attributeService;
@@ -226,6 +232,31 @@ public class TypeService
 
 	public Type nextType(Type type) {
 		return repo().findTop1ByGroupAndNameGreaterThanOrderByNameAsc(type.getGroup(), type.getName());
+	}
+
+	static final Pattern ENTRYNAME_TYPES_PATTERN = Pattern.compile(
+	    "fsd/types\\.yaml");
+
+	@Override
+	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
+		Matcher matcher = ENTRYNAME_TYPES_PATTERN.matcher(entryName);
+		if (matcher.matches()) {
+
+			try (InputStream is = fileContent.get()) {
+				LinkedHashMap<Integer, Etypes> newTypes = Etypes.from(is);
+				Map<Integer, Type> existingTypes = allById();
+				for (Entry<Integer, Etypes> e : newTypes.entrySet()) {
+					Type existing = existingTypes.get(e.getKey());
+					if (existing == null) {
+						existing = createIfAbsent(e.getKey());
+						existingTypes.put(e.getKey(), existing);
+					}
+					existing.setBasePrice(e.getValue().basePrice);
+				}
+			} catch (IOException e) {
+				throw new RuntimeException();
+			}
+		}
 	}
 
 }
