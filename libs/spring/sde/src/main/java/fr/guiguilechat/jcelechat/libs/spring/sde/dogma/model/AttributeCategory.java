@@ -9,6 +9,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+@Deprecated
 @Entity(name = "SdeDogmaAttributeCategory")
 @Table(name = "sde_dogma_attributecategory", indexes = {
 		@Index(columnList = "name") })

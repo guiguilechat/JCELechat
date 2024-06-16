@@ -13,6 +13,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+@Deprecated
 @SuppressWarnings("serial")
 @Entity(name = "SdeDogmaCategory")
 @Table(name = "sde_dogma_category", indexes = {

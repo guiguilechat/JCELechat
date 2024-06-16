@@ -15,6 +15,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+@Deprecated
 @Entity(name = "SdeDogmaTypeAttribute")
 @Table(name = "sde_dogma_typeattribute", indexes = {
 		@Index(columnList = "attribute_attribute_id"),

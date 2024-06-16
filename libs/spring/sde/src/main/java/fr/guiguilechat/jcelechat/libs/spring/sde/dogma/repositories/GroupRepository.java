@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Category;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Group;
 
+@Deprecated
 public interface GroupRepository extends JpaRepository<Group, Integer> {
 
 	public List<Group> findByNameEqualsIgnoreCase(String name);

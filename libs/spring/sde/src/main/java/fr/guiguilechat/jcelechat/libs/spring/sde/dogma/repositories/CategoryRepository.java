@@ -4,6 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Category;
 
+@Deprecated
 public interface CategoryRepository extends JpaRepository<Category, Integer> {
 
 	public Category findTop1ByNameLessThanOrderByNameDesc(String name);

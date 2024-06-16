@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.TypeAttribute;
 
+@Deprecated
 public interface TypeAttributeRepository extends JpaRepository<TypeAttribute, Long> {
 
 	public List<TypeAttribute> findAllByAttributeAttributeId(int attributeId);

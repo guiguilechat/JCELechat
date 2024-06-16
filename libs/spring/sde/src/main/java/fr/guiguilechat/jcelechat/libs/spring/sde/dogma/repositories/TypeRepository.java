@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 
+@Deprecated
 public interface TypeRepository extends JpaRepository<Type, Integer> {
 
 	public List<Type> findByTypeIdIn(Iterable<Integer> typeIds);

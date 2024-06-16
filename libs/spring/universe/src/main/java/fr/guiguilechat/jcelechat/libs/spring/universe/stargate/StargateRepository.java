@@ -20,15 +20,15 @@ public interface StargateRepository extends IRemoteFetchedResourceRepository<Sta
 		select
 			s1,
 			s2.destination,
-			sqrt(( s1.pos_x-s2.pos_x )*( s1.pos_x-s2.pos_x )
-				+  ( s1.pos_y-s2.pos_y )*( s1.pos_y-s2.pos_y )
-				+  ( s1.position_z-s2.position_z )*( s1.position_z-s2.position_z ) ) dst
+			sqrt(( s1.posX-s2.posX )*( s1.posX-s2.posX )
+				+  ( s1.posY-s2.posY )*( s1.posY-s2.posY )
+				+  ( s1.posZ-s2.posZ )*( s1.posZ-s2.posZ ) ) dst
 		from
 			EsiUniverseStargate s1
 			join EsiUniverseStargate s2 on s1.solarSystem=s2.solarSystem and s1!=s2
 		order by
-			s1.stargateId,
-			s2.stargateId
+			s1.id,
+			s2.id
 		""")
 	public List<Object[]> listWarpJump();
 
@@ -36,45 +36,45 @@ public interface StargateRepository extends IRemoteFetchedResourceRepository<Sta
 		select
 			s1,
 			s2.destination,
-			sqrt(( s1.pos_x-s2.pos_x )*( s1.pos_x-s2.pos_x )
-				+  ( s1.pos_y-s2.pos_y )*( s1.pos_y-s2.pos_y )
-				+  ( s1.position_z-s2.position_z )*( s1.position_z-s2.position_z ) ) dst
+			sqrt(( s1.posX-s2.posX )*( s1.posX-s2.posX )
+				+  ( s1.posY-s2.posY )*( s1.posY-s2.posY )
+				+  ( s1.posZ-s2.posZ )*( s1.posZ-s2.posZ ) ) dst
 		from
 			EsiUniverseStargate s1
 			join EsiUniverseStargate s2 on s1.solarSystem=s2.solarSystem and s1!=s2
 		where
-			s1.solarSystem.security>0.45
+			s1.solarSystem.securityStatus>0.45
 		order by
-			s1.stargateId,
-			s2.stargateId
+			s1.id,
+			s2.id
 		""")
 	public List<Object[]> listWarpJumpHS();
 
 	@Query(value = """
 		select
 			s2.destination,
-			sqrt(( :x-s2.pos_x )*( :x-s2.pos_x )
-				+  ( :y-s2.pos_y )*( :y-s2.pos_y )
-				+  ( :z-s2.position_z )*( :z-s2.position_z ) ) dst
+			sqrt(( :x-s2.posX )*( :x-s2.posX )
+				+  ( :y-s2.posY )*( :y-s2.posY )
+				+  ( :z-s2.posZ )*( :z-s2.posZ ) ) dst
 		from
 			EsiUniverseStargate s2
-		where :sysId=s2.solarSystem.solarSystemId
+		where :sysId=s2.solarSystem.id
 		order by
-			s2.destination.stargateId
+			s2.destination.id
 		""")
 	public List<Object[]> listWarpJumpFromStation(int sysId, double x, double y, double z);
 
 	@Query(value = """
 		select
 			s2,
-			sqrt(( :x-s2.pos_x )*( :x-s2.pos_x )
-				+  ( :y-s2.pos_y )*( :y-s2.pos_y )
-				+  ( :z-s2.position_z )*( :z-s2.position_z ) ) dst
+			sqrt(( :x-s2.posX )*( :x-s2.posX )
+				+  ( :y-s2.posY )*( :y-s2.posY )
+				+  ( :z-s2.posZ )*( :z-s2.posZ ) ) dst
 		from
 			EsiUniverseStargate s2
-		where :sysId=s2.solarSystem.solarSystemId
+		where :sysId=s2.solarSystem.id
 		order by
-			s2.stargateId
+			s2.id
 		""")
 	public List<Object[]> listWarpJumpToStation(int sysId, double x, double y, double z);
 
