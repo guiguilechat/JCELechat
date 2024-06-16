@@ -47,17 +47,6 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.model.Schematic;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchemMaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchemProductService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.planetary.services.SchematicService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Constellation;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Stargate;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.ConstellationService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.PlanetService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.SolarSystemService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.model.UpdateResult.STATUS;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
@@ -92,17 +81,11 @@ public class SDEUpdateService {
 
 	final private CategoryService categoryService;
 
-	final private ConstellationService constellationService;
-
 	final private GroupService groupService;
 
 	final private MaterialService materialService;
 
-	final private PlanetService planetService;
-
 	final private ProductService productService;
-
-	final private RegionService regionService;
 
 	final private SchematicService schematicService;
 
@@ -111,12 +94,6 @@ public class SDEUpdateService {
 	final private SchemProductService schemProductService;
 
 	final private SkillReqService skillService;
-
-	final private SolarSystemService solarsystemService;
-
-	final private StargateService stargateService;
-
-	final private StationService stationService;
 
 	final private TypeAttributeService typeattributeService;
 
@@ -559,20 +536,6 @@ public class SDEUpdateService {
 					return ret;
 				}).toList());
 
-		// universe
-
-		Map<String, Region> regionsByName = updateRegions(context);
-
-		Map<String, Constellation> constellationsByName = updateConstellations(context, regionsByName);
-
-		Map<Integer, SolarSystem> solarSystemsById = updateSolarSystems(context, constellationsByName);
-
-		updatePlanets(context, solarSystemsById, typesById);
-
-		updateStargates(context, solarSystemsById, typesById);
-
-		updateStations(context, solarSystemsById, typesById);
-
 		// listeners
 
 		updateListeners.stream().flatMap(l -> l.listSDECaches().stream())
@@ -680,150 +643,5 @@ public class SDEUpdateService {
 		}
 	}
 
-	private Map<String, Region> updateRegions(UpdateContext context) {
-		Map<Integer, Region> alreadyPresents = regionService.allById();
-		List<Region> created = new ArrayList<>();
-		for (RegionData data : context.regions) {
-			int id = data.data.regionID;
-			Region present = alreadyPresents.get(id);
-			if (present == null) {
-				created.add(Region.from(data.data, data.name, data.universeName));
-			} else {
-				present.update(data.data, data.name, data.universeName);
-			}
-		}
-		return Stream.concat(
-				regionService.saveAll(created).stream(),
-				regionService.saveAll(alreadyPresents.values()).stream())
-				.collect(Collectors.toMap(Region::getName, c -> c));
-	}
-
-	private Map<String, Constellation> updateConstellations(UpdateContext context, Map<String, Region> regionsByName) {
-		Map<Integer, Constellation> alreadyPresents = constellationService.allById();
-		List<Constellation> created = new ArrayList<>();
-		for (ConstelData data : context.constels) {
-			int id = data.data.constellationID;
-			Constellation present = alreadyPresents.get(id);
-			Region parent = regionsByName.get(data.regionName);
-			if (present == null) {
-				created.add(Constellation.from(data.data, data.name, parent));
-			} else {
-				present.update(data.data, data.name, parent);
-			}
-		}
-		return Stream.concat(
-				constellationService.saveAll(created).stream(),
-				constellationService.saveAll(alreadyPresents.values()).stream())
-				.collect(Collectors.toMap(Constellation::getName, c -> c));
-	}
-
-	private Map<Integer, SolarSystem> updateSolarSystems(UpdateContext context,
-			Map<String, Constellation> constellationsByName) {
-		Map<Integer, SolarSystem> alreadyPresents = solarsystemService.allById();
-		List<SolarSystem> created = new ArrayList<>();
-		for (SolarSystemData data : context.systems) {
-			int id = data.data.solarSystemID;
-			SolarSystem present = alreadyPresents.get(id);
-			Constellation parent = constellationsByName.get(data.constellationName);
-			if (present == null) {
-				created.add(SolarSystem.from(data.data, data.name, parent));
-			} else {
-				present.update(data.data, data.name, parent);
-			}
-		}
-		return Stream.concat(
-				solarsystemService.saveAll(created).stream(),
-				solarsystemService.saveAll(alreadyPresents.values()).stream())
-				.collect(Collectors.toMap(SolarSystem::getSolarSystemId, c -> c));
-	}
-
-	private Map<Long, fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet> updatePlanets(
-			UpdateContext context, Map<Integer, SolarSystem> solarSystemsById, Map<Integer, Type> typesById) {
-		Map<Long, fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet> alreadyPresents = planetService
-				.allById();
-		List<fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet> created = new ArrayList<>();
-		for (Entry<Long, PlanetSystemData> entry : context.planets.entrySet()) {
-			long id = entry.getKey();
-			PlanetSystemData data = entry.getValue();
-			fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet present = alreadyPresents.get(id);
-			SolarSystem parent = solarSystemsById.get(entry.getValue().solarSystemId);
-			String name = context.invNames.get(id);
-			Type type = typesById.get((int) id);
-			if (present == null) {
-				created
-						.add(fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet.from(id, data.planet(), name, parent,
-								type));
-			} else {
-				present.update(data.planet(), name, parent, type);
-			}
-		}
-		return Stream.concat(
-				planetService.saveAll(created).stream(),
-				planetService.saveAll(alreadyPresents.values()).stream())
-				.collect(
-						Collectors.toMap(fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Planet::getPlanetId, c -> c));
-	}
-
-	private Map<Integer, Station> updateStations(
-			UpdateContext context, Map<Integer, SolarSystem> solarSystemsById, Map<Integer, Type> typesById) {
-		Map<Integer, Station> alreadyPresents = stationService
-				.allById();
-		List<Station> created = new ArrayList<>();
-		for (StationData data : context.stations) {
-			int id = data.stationId;
-			Station present = alreadyPresents.get(id);
-			SolarSystem parent = solarSystemsById.get(data.solsysId);
-			Type type = typesById.get(data.data.typeID);
-			String name = context.invNames.get((long) id);
-			if (present == null) {
-				created
-						.add(Station.from(id, data.data, name, parent, type));
-			} else {
-				present.update(data.data, name, parent, type);
-			}
-		}
-		return Stream.concat(
-				stationService.saveAll(created).stream(),
-				stationService.saveAll(alreadyPresents.values()).stream())
-				.collect(
-						Collectors.toMap(Station::getStationId, c -> c));
-	}
-
-	private Map<Integer, Stargate> updateStargates(UpdateContext context, Map<Integer, SolarSystem> solarSystemsById,
-			Map<Integer, Type> typesById) {
-		Map<Integer, Stargate> alreadyPresents = stargateService
-				.allById();
-		List<Stargate> created = new ArrayList<>();
-		for (StargateData data : context.stargates) {
-			int id = data.stargateId;
-			Stargate present = alreadyPresents.get(id);
-			SolarSystem parent = solarSystemsById.get(data.solsysId);
-			Type type = typesById.get(data.data.typeID);
-			if (present == null) {
-				created
-						.add(Stargate.from(id, data.data, parent, type));
-			} else {
-				present.update(data.data, parent, type);
-			}
-		}
-		Map<Integer, Stargate> ret = Stream.concat(
-				stargateService.saveAll(created).stream(),
-				stargateService.saveAll(alreadyPresents.values()).stream())
-				.collect(
-						Collectors.toMap(Stargate::getStargateId, c -> c));
-
-		for (StargateData sgd : context.stargates) {
-			int id1 = sgd.stargateId();
-			int id2 = sgd.data().destination;
-			if (id1 < id2) {
-				Stargate sg1 = ret.get(id1);
-				Stargate sg2 = ret.get(id2);
-				sg1.setDestination(sg2);
-				sg2.setDestination(sg1);
-			}
-		}
-		stargateService.saveAll(ret.values());
-		return ret;
-	}
 
 }

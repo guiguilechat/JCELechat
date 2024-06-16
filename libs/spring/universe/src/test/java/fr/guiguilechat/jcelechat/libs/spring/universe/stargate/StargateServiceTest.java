@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.universe.services;
+package fr.guiguilechat.jcelechat.libs.spring.universe.stargate;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -34,10 +34,10 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import fr.guiguilechat.tools.FormatTools;
@@ -87,10 +87,10 @@ public class DogmaHtmlController {
 	}
 
 	Seed seed(LocatedBestOffer ol) {
-		Optional<Region> or = regionService.byId(ol.regionId());
+		Optional<Region> or = regionService.findById(ol.regionId());
 		String space = or.isPresent() ? or.get().getUniverse() : "ø";
 		String regionName = or.isPresent() ? or.get().getName() : "unknown region " + ol.regionId();
-		Station os = stationService.findById((int) ol.locationId());
+		Station os = stationService.byId((int) ol.locationId());
 		String systemName = os != null ? os.getSolarSystem().getName() : "unknown location " + ol.locationId();
 		return new Seed(space, regionName, ol.regionId(), systemName, ol.locationId(), ol.bestPrice());
 	}

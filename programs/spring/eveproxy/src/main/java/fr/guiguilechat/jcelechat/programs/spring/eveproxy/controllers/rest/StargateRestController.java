@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Station;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StargateService.WayPoint;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.StargateService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.StargateService.WayPoint;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -41,7 +41,7 @@ public class StargateRestController {
 
 		public TravelResult(Station from, Station to, boolean hs, double align_s, double ws_aups,
 				List<WayPoint> waypoints) {
-			this(from.getStationId(), from.getName(), to.getStationId(), to.getName(), hs, "" + align_s + " s",
+			this(from.getId(), from.getName(), to.getId(), to.getName(), hs, "" + align_s + " s",
 					"" + ws_aups + " AU/s",
 					waypoints.stream().map(WayPoint::duration).collect(Collectors.reducing(Duration::plus)).orElse(null),
 					waypoints.size(),
@@ -77,11 +77,11 @@ public class StargateRestController {
 			@RequestParam @Parameter(description = "align time, in s, of the ship") Optional<Double> align,
 			@RequestParam @Parameter(description = "warp speed, in AU/s, of the ship") Optional<Double> ws,
 			@RequestParam @Parameter(description = "json or xml. Default json") Optional<String> accept) {
-		Station stationFrom = stationService.findById(stationFromId);
+		Station stationFrom = stationService.byId(stationFromId);
 		if (stationFrom == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationFromId + " unknown");
 		}
-		Station stationTo = stationService.findById(stationToId);
+		Station stationTo = stationService.byId(stationToId);
 		if (stationTo == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationToId + " unknown");
 		}

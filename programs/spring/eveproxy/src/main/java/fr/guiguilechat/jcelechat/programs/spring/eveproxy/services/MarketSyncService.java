@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegionService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.services.SDEUpdateService.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -34,14 +34,14 @@ public class MarketSyncService implements SdeUpdateListener {
 		}
 		Set<Integer> observed = orService.listActiveMarket().stream().map(ObservedRegion::getRegionId)
 				.collect(Collectors.toSet());
-		List<Region> toObserve = rService.byUniverse("eve").stream().filter(r -> !observed.contains(r.getRegionId()))
+		List<Region> toObserve = rService.byUniverse("eve").stream().filter(r -> !observed.contains(r.getId()))
 				.toList();
 		if (!toObserve.isEmpty()) {
 			log.info("adding " + toObserve.size() + " new market regions to observe");
 		}
 		for (Region r : toObserve) {
-			orService.activateMarket(r.getRegionId());
-			orService.activateContracts(r.getRegionId());
+			orService.activateMarket(r.getId());
+			orService.activateContracts(r.getId());
 		}
 	}
 

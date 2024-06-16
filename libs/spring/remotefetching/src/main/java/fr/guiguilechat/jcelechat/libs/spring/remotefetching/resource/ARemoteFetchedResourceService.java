@@ -53,6 +53,10 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		return getClass().getSimpleName();
 	}
 
+	//
+	// entity create & save
+	//
+
 	protected void preSave(Entity data) {
 		if (data.getExpires() == null) {
 			data.setExpires(Instant.now());
@@ -73,6 +77,15 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		return repo().saveAllAndFlush(data);
 	}
 
+	/**
+	 * if new entries should be activated when created. Default true.<br />
+	 * Can be changed with eg
+	 * 
+	 * <pre>{@code
+	 * @Getter(lazy = true)
+	 * private final boolean activateNewEntry = false;
+	 * }</pre>
+	 */
 	protected boolean isActivateNewEntry() {
 		return true;
 	}
@@ -114,10 +127,16 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, Entity> createIfAbsent(Collection<Id> entityIds) {
 			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-			    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
-			return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
+			    .collect(Collectors.toMap(ARemoteFetchedResource::getId,
+			        e -> e));
+			return entityIds.stream().distinct()
+			    .collect(Collectors.toMap(ei -> ei,
 			    entityId -> createIfNeeded(storedEntities.get(entityId), entityId)));
 	}
+
+	//
+	// updating entity data
+	//
 
 	/**
 	 * create the entity if needed, then fetch it and return it once fetched or
@@ -347,6 +366,11 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Getter
 	private final Update update = new Update();
 
+	@PostConstruct
+	public void debugConfig() {
+		log.debug("initialized {} with {}", getClass().getSimpleName(), getUpdate());
+	}
+
 	private Instant nextUpdateTime = null;
 
 	/**
@@ -449,9 +473,24 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		return null;
 	}
 
-	@PostConstruct
-	public void debugConfig() {
-		log.debug("initialized {} with {}", getClass().getSimpleName(), getUpdate());
+	//
+	// general access
+	//
+
+	public Map<Id, Entity> allById() {
+		return repo.findAll().stream().collect(Collectors.toMap(Entity::getId, c -> c));
+	}
+
+	public Entity byId(Id id) {
+		return repo.findById(id).orElse(null);
+	}
+
+	public Optional<Entity> findById(Id id) {
+		return repo.findById(id);
+	}
+
+	public List<Entity> findById(Iterable<Id> ids) {
+		return repo.findAllById(ids);
 	}
 
 }

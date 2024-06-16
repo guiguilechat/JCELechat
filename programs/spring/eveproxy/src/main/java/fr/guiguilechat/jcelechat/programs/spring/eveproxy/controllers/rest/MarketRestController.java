@@ -29,8 +29,8 @@ import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.L
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.OfferStat;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.model.Region;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -60,7 +60,7 @@ public class MarketRestController {
 		}
 
 		public Integer regionId() {
-			return region() == null ? null : region().getRegionId();
+			return region() == null ? null : region().getId();
 		}
 
 		public List<RegionLine> bos(RegionLineService rlService, int typeId) {
@@ -68,7 +68,7 @@ public class MarketRestController {
 				return rlService.forLocation(locationId, typeId, true);
 			}
 			if (region() != null) {
-				return rlService.forRegion(region().getRegionId(), typeId, true);
+				return rlService.forRegion(region().getId(), typeId, true);
 			}
 			return rlService.forAll(typeId, true);
 		}
@@ -78,7 +78,7 @@ public class MarketRestController {
 				return rlService.forLocation(locationId, typeId, false);
 			}
 			if (region() != null) {
-				return rlService.forRegion(region().getRegionId(), typeId, false);
+				return rlService.forRegion(region().getId(), typeId, false);
 			}
 			return rlService.forAll(typeId, false);
 		}
@@ -88,7 +88,7 @@ public class MarketRestController {
 				return rlService.offerStatsLocation(locationId(), typeId);
 			}
 			if (region() != null) {
-				return rlService.offerStatsRegion(region().getRegionId(), typeId);
+				return rlService.offerStatsRegion(region().getId(), typeId);
 			}
 			return rlService.offerStatsAll(typeId);
 		}
@@ -115,7 +115,7 @@ public class MarketRestController {
 			case "rid":
 			case "regionid":
 			case "ri":
-				reg = regionService.byId(Integer.parseInt(placeFilter)).orElse(null);
+				reg = regionService.byId(Integer.parseInt(placeFilter));
 			break;
 			case "rname":
 			case "rn":

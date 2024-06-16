@@ -17,8 +17,8 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import fr.guiguilechat.jcelechat.libs.spring.market.order.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.model.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.dogma.services.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.services.StationService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 

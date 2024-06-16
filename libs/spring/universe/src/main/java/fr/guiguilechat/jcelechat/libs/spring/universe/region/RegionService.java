@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.region;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
@@ -39,5 +40,17 @@ public class RegionService
 	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
 		return p -> ESIRawPublic.INSTANCE.get_universe_regions(p).mapBody(List::of);
 	}
+
+	public Map<Integer, String> namesById() {
+		return repo().findAll().stream().collect(Collectors.toMap(Region::getId, Region::getName));
+	}
+
+	public List<Region> byName(String name) {
+		return repo().findByNameEqualsIgnoreCase(name);
+	}
+
+public List<Region> byUniverse(String universe) {
+	return repo().findByUniverse(universe);
+}
 
 }

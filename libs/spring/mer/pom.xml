@@ -14,10 +14,14 @@
 			<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 			<artifactId>mer</artifactId>
 		</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>sde</artifactId>
-			</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>sde</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>universe</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

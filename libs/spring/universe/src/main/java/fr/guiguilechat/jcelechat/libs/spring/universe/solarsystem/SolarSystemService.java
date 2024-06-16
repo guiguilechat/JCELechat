@@ -158,4 +158,13 @@ public class SolarSystemService extends
 		}
 	}
 
+	/**
+	 * @param solar system
+	 * @return all the solar systems of the destination of the stargates of the
+	 *           given source system
+	 */
+	public List<SolarSystem> adjacent(SolarSystem source) {
+		return repo().adjacent(source);
+	}
+
 }

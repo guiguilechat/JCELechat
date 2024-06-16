@@ -21,6 +21,7 @@ import lombok.Setter;
 @Entity(name = "EsiUniverseRegion")
 @Table(name = "esi_universe_region", indexes = {
     @Index(columnList = "fetch_active,expires"),
+    @Index(columnList = "universe"),
     @Index(columnList = "name") })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
@@ -42,6 +43,8 @@ public class Region extends ARemoteFetchedResource<Integer, R_get_universe_regio
 	 * name string
 	 */
 	private String name;
+
+	private String universe;
 
 	@Override
 	public void update(R_get_universe_regions_region_id data) {

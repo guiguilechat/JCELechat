@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.station;
 
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
@@ -54,6 +55,10 @@ public class StationService extends
 		R_get_universe_stations_station_id received = response.getOK();
 		data.setSolarSystem(solarSystemService.createIfAbsent(received.system_id));
 		data.setType(typeService.createIfAbsent(received.type_id));
+	}
+
+	public Map<Integer, String> namesById() {
+		return repo().findAll().stream().collect(Collectors.toMap(Station::getId, Station::getName));
 	}
 
 }
