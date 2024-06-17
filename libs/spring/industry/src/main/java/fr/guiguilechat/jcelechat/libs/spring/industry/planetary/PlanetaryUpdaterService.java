@@ -16,7 +16,9 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EplanetSchematics;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class PlanetaryUpdaterService implements SdeUpdateListener {
@@ -29,8 +31,11 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 
 	private final TypeService typeService;
 
+	private boolean sdeFileMissing = true;
+
 	@Override
 	public void beforeSdeUpdate() {
+		sdeFileMissing = true;
 		schemProductService.clear();
 		schemMaterialService.clear();
 		schematicService.clear();
@@ -47,6 +52,7 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 	}
 
 	private void saveSchematics(InputStream is) {
+		sdeFileMissing = false;
 		Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>(EplanetSchematics.from(is));
 
 		Map<Integer, Type> typesById = typeService.allById();
@@ -76,6 +82,14 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 			        .toList());
 			    return ret;
 		    }).toList());
+	}
+
+	@Override
+	public void afterSdeUpdate() {
+		if (sdeFileMissing) {
+			log.warn("service " + getClass().getSimpleName() + " did not receive file for matcher "
+			    + ENTRYNAME_PLANETSCHEMATICS_PATTERN);
+		}
 	}
 
 }

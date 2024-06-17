@@ -18,7 +18,9 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class BlueprintUpdaterService implements SdeUpdateListener {
@@ -33,8 +35,11 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 
 	private final TypeService typeService;
 
+	private boolean sdeFileMissing = true;
+
 	@Override
 	public void beforeSdeUpdate() {
+		sdeFileMissing = true;
 		materialService.clear();
 		productService.clear();
 		skillReqService.clear();
@@ -53,6 +58,7 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 	}
 
 	private void saveBlueprints(InputStream is) {
+		sdeFileMissing = false;
 		List<Eblueprints> blueprints = new ArrayList<>(Eblueprints.from(is).values());
 		Map<Integer, Type> typesById = typeService.allById();
 
@@ -143,6 +149,14 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 			    .map(p -> Product.of(bpa, typesById.get(p.typeID), p.probability, p.quantity)).toList());
 			newSkills.addAll(act.skills.stream()
 			    .map(s -> SkillReq.of(bpa, typesById.get(s.typeID), s.level)).toList());
+		}
+	}
+
+	@Override
+	public void afterSdeUpdate() {
+		if (sdeFileMissing) {
+			log.warn("service " + getClass().getSimpleName() + " did not receive file for matcher "
+			    + ENTRYNAME_BLUEPRINTS_PATTERN);
 		}
 	}
 
