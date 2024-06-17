@@ -371,7 +371,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		 */
 		private Boolean skip=null;
 
-		/** nax number of fetch each cycle */
+		/** max number of fetch each cycle */
 		private int max = 1000;
 
 		/** if we have this number or more remain errors, use max updates */

@@ -19,7 +19,7 @@ import lombok.Setter;
 public class ExecutionService {
 	
 	@Setter
-	private int core = 100;
+	private int core = 200;
 
 	@Getter(lazy=true)
 	private final ExecutorService executor = makeExecutor();
