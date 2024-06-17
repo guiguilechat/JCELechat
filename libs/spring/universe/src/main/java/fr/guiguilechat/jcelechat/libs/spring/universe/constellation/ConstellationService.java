@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import lombok.RequiredArgsConstructor;
@@ -47,11 +48,18 @@ public class ConstellationService
 		return p -> ESIRawPublic.INSTANCE.get_universe_constellations(p).mapBody(List::of);
 	}
 
-	@Override
 	protected void updateResponseOk(Constellation data,
-	    Requested<R_get_universe_constellations_constellation_id> response) {
-		super.updateResponseOk(data, response);
-		data.setRegion(regionService.createIfAbsent(response.getOK().region_id));
+	    R_get_universe_constellations_constellation_id response,
+	    Map<Integer, Region> idToRegion) {
+		data.setRegion(idToRegion.get(response.region_id));
+	}
+
+	@Override
+	protected void updateResponseOk(Map<Constellation, R_get_universe_constellations_constellation_id> responseOk) {
+		super.updateResponseOk(responseOk);
+		Map<Integer, Region> idToRegion = regionService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.region_id).distinct().toList());
+		responseOk.entrySet().stream().forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToRegion));
 	}
 
 }

@@ -77,8 +77,8 @@ public class CharacterContactService extends
 
 	@Override
 	protected void updateResponseOk(CharacterContactList data,
-	    Requested<R_get_characters_character_id_contacts[]> response) {
-		R_get_characters_character_id_contacts[] ok = response.getOK();
+	    R_get_characters_character_id_contacts[] ok) {
+		super.updateResponseOk(data, ok);
 		if (ok != null) {
 			List<Integer> allianceIds = Stream.of(ok)
 			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.alliance)
@@ -92,13 +92,12 @@ public class CharacterContactService extends
 			    .map(c -> c.contact_id).toList();
 			corporationInfoService.createIfAbsent(corporationIds);
 
-			List<Integer> Ids = Stream.of(ok)
+			List<Integer> characterIds = Stream.of(ok)
 			    .filter(c -> c.contact_type == get_characters_character_id_contacts_contact_type.character)
 			    .map(c -> c.contact_id).toList();
-			characterAffiliationService.createIfAbsent(Ids);
-			characterInformationService.createIfAbsent(Ids);
+			characterAffiliationService.createIfAbsent(characterIds);
+			characterInformationService.createIfAbsent(characterIds);
 		}
-		super.updateResponseOk(data, response);
 	}
 
 }

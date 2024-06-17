@@ -2,7 +2,7 @@ esi:
    items:
       attribute:
          update:
-            max: 400
+            max: 800
             skip: false
       category:
          update:
@@ -15,10 +15,13 @@ esi:
             skip: false
       type:
          update:
-            max: 400
+            max: 1000
             delay: 0
             skip: false
    universe:
+      moon:
+         update:
+            max: 1200
       planet:
          update:
             skip: false
@@ -26,8 +29,8 @@ esi:
          update:
             skip: false
       solarSystem:
-         planets: false
-         moons: false
+         planets: true
+         moons: true
       star:
          update:
             skip: false
@@ -41,7 +44,7 @@ esi:
       default:
          skip: false
       delay: 0
-      period: 5000
+      period: 2000
       skip: false
 
 jcelechat:

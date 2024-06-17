@@ -2,13 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.remotefetching;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.CompletionException;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
@@ -30,6 +24,10 @@ import lombok.extern.slf4j.Slf4j;
 public class RemoteResourceUpdaterService {
 
 	private final Optional<List<ARemoteFetchedResourceService<?, ?, ?, ?>>> fetchedServices;
+
+	//
+	// those are mostly used for debuging and stopping
+	//
 
 	public static interface IRemoteResourceUpdateListener {
 
@@ -70,37 +68,17 @@ public class RemoteResourceUpdaterService {
 		if (skipService) {
 			return 0;
 		}
-		long startTimeMs=System.currentTimeMillis();
+		long startTimeMs = System.currentTimeMillis();
 		fetchedService.checkNewEntries();
-		int nbUpdates = 0;
-		Map<Entity, CompletableFuture<Entity>> futures = null;
-		if(fetchedService.isSupportsBatchUpdate()) {
-			List<Entity> list = fetchedService.streamToUpdate().toList();
-			futures = fetchedService.batchUpdate(list);
-			nbUpdates = list.size();
-		} else {
-			futures = fetchedService.streamToUpdate().collect(Collectors.toMap(e -> e, fetchedService::update));
-			nbUpdates = futures.size();
-		}
-		AtomicInteger nbSuccess = new AtomicInteger(0);
-		futures.entrySet().forEach(f -> {
-			try {
-				Entity updated = f.getValue().orTimeout(5, TimeUnit.SECONDS).join();
-				if (updated.getSuccessiveErrors() == 0) {
-					nbSuccess.incrementAndGet();
-				}
-			} catch (CompletionException e) {
-				log.warn(
-				    "CompletionException while updating {} {} : {}", f.getKey().getClass().getSimpleName(), f.getKey().getId(),
-				    e.getMessage());
-			}
-		});
-		long endTimeMs = System.currentTimeMillis();
+		List<Entity> list = fetchedService.streamToUpdate().toList();
+		int nbUpdates = list.size();
+		int nbSuccess = fetchedService.update(list);
 		long nbRemain = fetchedService.nbToUpdate();
+		long endTimeMs = System.currentTimeMillis();
 		if (nbUpdates > 0) {
 			log.info("{} updated {}/{} in {} ms, remain {}",
 			    fetchedService.fetcherName(),
-			    nbSuccess.get(), nbUpdates,
+			    nbSuccess, nbUpdates,
 			    endTimeMs - startTimeMs, nbRemain);
 		}
 		return nbRemain;

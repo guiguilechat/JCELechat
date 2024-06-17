@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
 
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedListElement;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.IFetchedListElementRepository;
@@ -20,9 +19,7 @@ public abstract class AAppendCharDataRecordListService <
 extends ACharDataRecordListService<Entity, Fetched, Repository, ListRecord, RecordRepo> {
 
 	@Override
-	protected void updateResponseOk(Entity data, Requested<Fetched[]> response) {
-		updateMetaOk(data, response);
-		Fetched[] arr = response.getOK();
+	protected void updateResponseOk(Entity data, Fetched[] arr) {
 		Stream<Fetched> missing = arr == null || arr.length == 0 ? Stream.empty() : findMising(data, arr);
 		saveNewResources(data, missing);
 	}

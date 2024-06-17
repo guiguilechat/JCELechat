@@ -6,10 +6,13 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -23,6 +26,7 @@ import org.springframework.transaction.annotation.Transactional;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.remotefetching.ExecutionService;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.status.ESIStatusService;
 import jakarta.annotation.PostConstruct;
 import lombok.Getter;
@@ -34,16 +38,22 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-@Getter
 public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
+	@Getter
 	private Repository repo;
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
+	@Getter
 	private ESIStatusService esiStatusService;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter
+	private ExecutionService executionService;
 
 	/**
 	 * @return actual class name. Used to avoid proxy name when called from outside
@@ -166,6 +176,69 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 
 	protected abstract Requested<Fetched> fetchData(Id id, Map<String, String> properties);
 
+	protected Requested<Fetched> fetchData(Id id, String lastEtag) {
+		Map<String, String> properties = new HashMap<>();
+		if (lastEtag != null) {
+			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
+		}
+		return fetchData(id, properties);
+	}
+
+	/**
+	 * do the fetching of a list of entities. <br />
+	 * The entities that could not be fetched will be updated, but not saved, with
+	 * corresponding (meta) values.
+	 * 
+	 * @param entities
+	 * @return The map of successful fetch, from the entitiy to the fetch result
+	 */
+	protected Map<Entity, Fetched> fetchData(List<Entity> entities) {
+		Map<Entity, Future<Requested<Fetched>>> dataToFuture = entities.stream()
+		    .collect(Collectors.toMap(d -> d, d -> executionService().submit(() -> fetchData(d.getId(), d.getLastEtag()))));
+		Map<Entity, Requested<Fetched>> dataToRequested = new HashMap<>();
+		for (Entry<Entity, Future<Requested<Fetched>>> e : dataToFuture.entrySet()) {
+			try {
+				dataToRequested.put(e.getKey(), e.getValue().get(5000, TimeUnit.SECONDS));
+			} catch (InterruptedException | ExecutionException | TimeoutException e1) {
+				dataToRequested.put(e.getKey(), null);
+			}
+		}
+		Map<Entity, Fetched> responseOk = new HashMap<>();
+		for (Entry<Entity, Requested<Fetched>> e : dataToRequested.entrySet()) {
+			Entity data = e.getKey();
+			Requested<Fetched> response = e.getValue();
+			if (response == null) {
+				updateNullResponse(data);
+				continue;
+			}
+			int responseCode = response.getResponseCode();
+			switch (responseCode) {
+			case 200:
+				updateMetaOk(data, response);
+				responseOk.put(data, response.getOK());
+				break;
+			case 304:
+				updateNoChange(data, response);
+				break;
+			default:
+				log.error("while updating data remoteid {} info class {}, received response code {} and error {}",
+				    data.getId(), data.getClass().getSimpleName(), responseCode, response.getError());
+				switch (responseCode / 100) {
+				case 4:
+					updateRequestError(data, response);
+					break;
+				case 5:
+					updateServerError(data, response);
+					break;
+				default:
+					throw new UnsupportedOperationException("case " + responseCode + " not handled");
+				}
+			}
+		}
+		return responseOk;
+
+	}
+
 	/**
 	 * if an entity exists for an id, update it if needed, then return it.
 	 * Use {@link #createFetch(Object)} to create it if absent.
@@ -187,8 +260,6 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		return ret;
 	}
 
-	AtomicInteger runningUpdates = new AtomicInteger(0);
-
 	/**
 	 * perform an update of an entity using its remote representation. If the
 	 * entity is updated in any way, it is also saved already.
@@ -199,69 +270,25 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Transactional
 	@Async
 	public CompletableFuture<Entity> update(Entity data) {
-		int conc = runningUpdates.incrementAndGet();
-		log.trace("requested to update {} {}, service concurrent {}", data.getClass().getSimpleName(), data.getId(), conc);
-		try {
-			String lastEtag = data.getLastEtag();
-			Map<String, String> properties = new HashMap<>();
-			if (lastEtag != null) {
-				properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
-			}
-			try {
-				Requested<Fetched> response = fetchData(data.getId(), properties);
-				if (response == null) {
-					updateNullResponse(data);
-					return CompletableFuture.completedFuture(null);
-				}
-				int responseCode = response.getResponseCode();
-				switch (responseCode) {
-				case 200:
-					updateResponseOk(data, response);
-					log.debug(" updated data " + data.getClass().getSimpleName() + " for id " + data.getId()
-					    + " with expires=" + data.getExpires());
-					break;
-				case 304:
-					updateNoChange(data, response);
-					break;
-				default:
-					log.error("while updating data remoteid {} info class {}, received response code {} and error {}",
-					    data.getId(), data.getClass().getSimpleName(), responseCode, response.getError());
-					switch (responseCode / 100) {
-					case 4:
-						updateRequestError(data, response);
-						break;
-					case 5:
-						updateServerError(data, response);
-						break;
-					default:
-						throw new UnsupportedOperationException("case " + responseCode + " not handled");
-					}
-				}
-				data = save(data);
-			} catch (Exception e) {
-				log.error("while updating " + data.getClass().getSimpleName() + " for data remoteid " + data.getId(), e);
-			}
-			return CompletableFuture.completedFuture(data);
-		} finally {
-			conc = runningUpdates.decrementAndGet();
-			log.trace(" updated {} {}, remaining service concurrent {}" + data.getClass().getSimpleName(), data.getId(),
-			    conc);
-		}
+		update(List.of(data));
+		return CompletableFuture.completedFuture(data);
 	}
 
 	/**
-	 * called when an ok is received for given data. data is saved after that call.
+	 * called when a batch of entity update has resulted in ok responses. Non-ok
+	 * responses are filtered out.
 	 * 
-	 * @param data     data that should be updated
-	 * @param response remote response for that data update.
+	 * @param responseOk map of entities updated to their ok response.
 	 */
-	protected void updateResponseOk(Entity data, Requested<Fetched> response) {
-		updateMetaOk(data, response);
-		data.update(response.getOK());
+	protected void updateResponseOk(Map<Entity, Fetched> responseOk) {
+		responseOk.entrySet().stream().forEach(e -> {
+			e.getKey().update(e.getValue());
+		});
 	}
 
 	/**
-	 * update meta data from an ok response
+	 * update meta data from an ok response. Called before the
+	 * {@link #updateResponseOk(Map)} is invoked.
 	 */
 	protected void updateMetaOk(Entity data, Requested<?> response) {
 		data.updateMetaOk(response.getLastModifiedInstant(), extractExpires(response), response.getETag());
@@ -345,7 +372,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		private Boolean skip=null;
 
 		/** nax number of fetch each cycle */
-		private int max = 500;
+		private int max = 1000;
 
 		/** if we have this number or more remain errors, use max updates */
 		private int errorsForMax = 90;
@@ -409,31 +436,14 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		    : repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(maxFromErrors)).stream();
 	}
 
-	/**
-	 * overridable default false.
-	 * 
-	 * @return true only when {@link #batchUpdate(List)} has built-in better
-	 *           performances than calling an update on each element of the list
-	 *           sequentially.
-	 */
-	public boolean isSupportsBatchUpdate() {
-		return false;
-	}
-
-	/**
-	 * batch update. Default is to call each in parallel stream, if you use a
-	 * better implementation don't forget to replace
-	 * {@link #isSupportsBatchUpdate()} as true eg with <br />
-	 * {@code @Getter(lazy=true) private final boolean supportsBatchUpdate=true;}
-	 * 
-	 * @param data list of entities we want to update
-	 * @return for each entity updated, the future to wait for the update to be
-	 *           done. If they are all updated once the call is done, return empty
-	 *           map instead.
-	 */
-	public Map<Entity, CompletableFuture<Entity>> batchUpdate(List<Entity> data) {
-		log.trace(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
-		return data.parallelStream().limit(getUpdate().getMax()).collect(Collectors.toMap(e -> e, this::update));
+	public int update(List<Entity> data) {
+		log.trace("{} updating list of {} elements}", fetcherName(), data.size());
+		Map<Entity, Fetched> successes = fetchData(data);
+		updateResponseOk(successes);
+		int success = successes.size();
+		saveAll(data);
+		log.trace(" {} updated list of {} elements", fetcherName(), data.size());
+		return success;
 	}
 
 	//

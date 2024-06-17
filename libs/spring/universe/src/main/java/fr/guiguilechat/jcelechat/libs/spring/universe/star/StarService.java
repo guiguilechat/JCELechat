@@ -9,8 +9,10 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stars_star_id;
 import lombok.RequiredArgsConstructor;
@@ -43,11 +45,21 @@ public class StarService extends
 		return ret;
 	}
 
+	protected void updateResponseOk(Star data, R_get_universe_stars_star_id response,
+	    Map<Integer, SolarSystem> idToSystem, Map<Integer, Type> idToType) {
+		data.setSolarSystem(idToSystem.get(response.solar_system_id));
+		data.setType(idToType.get(response.type_id));
+	}
+
 	@Override
-	protected void updateResponseOk(Star data, Requested<R_get_universe_stars_star_id> response) {
-		super.updateResponseOk(data, response);
-		data.setSolarSystem(solarSystemService.createIfAbsent(response.getOK().solar_system_id));
-		data.setType(typeService.createIfAbsent(response.getOK().type_id));
+	protected void updateResponseOk(Map<Star, R_get_universe_stars_star_id> responseOk) {
+		super.updateResponseOk(responseOk);
+		Map<Integer, SolarSystem> idToSystem = solarSystemService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.solar_system_id).distinct().toList());
+		Map<Integer, Type> idToType = typeService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.type_id).distinct().toList());
+		responseOk.entrySet().stream()
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToSystem, idToType));
 	}
 
 }

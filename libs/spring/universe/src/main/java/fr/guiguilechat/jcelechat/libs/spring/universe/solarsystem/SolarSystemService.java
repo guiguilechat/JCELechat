@@ -96,11 +96,8 @@ public class SolarSystemService extends
 	@Setter
 	private boolean planets = true;
 
-	@Override
 	protected void updateResponseOk(SolarSystem data,
-	    Requested<R_get_universe_systems_system_id> response) {
-		super.updateResponseOk(data, response);
-		R_get_universe_systems_system_id received = response.getOK();
+	    R_get_universe_systems_system_id received) {
 		data.setConstellation(constellationService.createIfAbsent(received.constellation_id));
 		if (received.planets != null && received.planets.length > 0) {
 
@@ -156,6 +153,14 @@ public class SolarSystemService extends
 		if (received.stations != null && received.stations.length > 0) {
 			stationService.createIfAbsent(IntStream.of(received.stations).boxed().toList());
 		}
+	}
+
+	@Override
+	protected void updateResponseOk(Map<SolarSystem, R_get_universe_systems_system_id> responseOk) {
+		super.updateResponseOk(responseOk);
+		// TODO prefetch all the moons, stargates, asteroidbelts, planets, star
+		responseOk.entrySet().stream()
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue()));
 	}
 
 	/**

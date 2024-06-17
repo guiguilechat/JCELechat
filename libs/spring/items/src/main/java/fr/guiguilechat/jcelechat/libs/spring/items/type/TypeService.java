@@ -12,6 +12,7 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
@@ -71,16 +72,16 @@ public class TypeService
 		    .requestGetPages((page, props) -> ESIRawPublic.INSTANCE.get_universe_types(page, props), p);
 	}
 
-	@Override
-	protected void updateResponseOk(Type data, Requested<R_get_universe_types_type_id> response) {
-		super.updateResponseOk(data, response);
-		R_get_universe_types_type_id received = response.getOK();
-		data.setGroup(groupService.createIfAbsent(received.group_id));
+	protected void updateResponseOk(Type data, R_get_universe_types_type_id received,
+	    Map<Integer, Group> idToGroup,
+	    Map<Integer, Attribute> idToAttribute,
+	    Map<Integer, Effect> idToEffect) {
+		data.setGroup(idToGroup.get(received.group_id));
 		typeAttributeService.deleteByType(data);
 		if (received.dogma_attributes != null) {
 			List<TypeAttribute> typeAttributes = new ArrayList<>();
 			for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes a : received.dogma_attributes) {
-				Attribute att = attributeService.createIfAbsent(a.attribute_id);
+				Attribute att = idToAttribute.get(a.attribute_id);
 				typeAttributes.add(TypeAttribute.builder()
 				    .attribute(att)
 				    .type(data)
@@ -90,10 +91,27 @@ public class TypeService
 		}
 		if (received.dogma_effects != null) {
 			for (get_dogma_dynamic_items_type_id_item_id_dogma_effects e : received.dogma_effects) {
-				Effect eff = effectService.createIfAbsent(e.effect_id);
+				Effect eff = idToEffect.get(e.effect_id);
 				data.getEffectsDefault().put(eff, e.is_default);
 			}
 		}
+	}
+
+	@Override
+	protected void updateResponseOk(Map<Type, R_get_universe_types_type_id> responseOk) {
+		super.updateResponseOk(responseOk);
+		Map<Integer, Group> idToGroup = groupService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.group_id).distinct().toList());
+		Map<Integer, Attribute> idToAttribute = attributeService
+		    .createIfAbsent(responseOk.values().stream()
+		        .flatMap(r -> r.dogma_attributes == null ? Stream.empty() : Stream.of(r.dogma_attributes))
+		        .map(da -> da.attribute_id).distinct().toList());
+		Map<Integer, Effect> idToEffect = effectService
+		    .createIfAbsent(responseOk.values().stream()
+		        .flatMap(r -> r.dogma_effects == null ? Stream.empty() : Stream.of(r.dogma_effects))
+		        .map(da -> da.effect_id).distinct().toList());
+		responseOk.entrySet().stream()
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToGroup, idToAttribute, idToEffect));
 	}
 
 	public List<Type> byGroupId(int groupId) {

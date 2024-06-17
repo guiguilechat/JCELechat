@@ -10,8 +10,10 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import lombok.RequiredArgsConstructor;
@@ -48,13 +50,21 @@ public class StationService extends
 		return ret;
 	}
 
+	protected void updateResponseOk(Station data, R_get_universe_stations_station_id received,
+	    Map<Integer, SolarSystem> idToSystem, Map<Integer, Type> idToType) {
+		data.setSolarSystem(idToSystem.get(received.system_id));
+		data.setType(idToType.get(received.type_id));
+	}
+
 	@Override
-	protected void updateResponseOk(Station data,
-	    Requested<R_get_universe_stations_station_id> response) {
-		super.updateResponseOk(data, response);
-		R_get_universe_stations_station_id received = response.getOK();
-		data.setSolarSystem(solarSystemService.createIfAbsent(received.system_id));
-		data.setType(typeService.createIfAbsent(received.type_id));
+	protected void updateResponseOk(Map<Station, R_get_universe_stations_station_id> responseOk) {
+		super.updateResponseOk(responseOk);
+		Map<Integer, SolarSystem> idToSystem = solarSystemService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.system_id).distinct().toList());
+		Map<Integer, Type> idToType = typeService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.type_id).distinct().toList());
+		responseOk.entrySet().stream()
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToSystem, idToType));
 	}
 
 	public Map<Integer, String> namesById() {

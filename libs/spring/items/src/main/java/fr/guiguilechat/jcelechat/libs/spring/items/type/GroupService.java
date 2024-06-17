@@ -46,10 +46,17 @@ public class GroupService
 		    .requestGetPages((page, props) -> ESIRawPublic.INSTANCE.get_universe_groups(page, props), p);
 	}
 
+	protected void updateResponseOk(Group data, R_get_universe_groups_group_id response, Map<Integer, Category> idToCat) {
+		data.setCategory(idToCat.get(response.category_id));
+	}
+
 	@Override
-	protected void updateResponseOk(Group data, Requested<R_get_universe_groups_group_id> response) {
-		super.updateResponseOk(data, response);
-		data.setCategory(categoryService.createIfAbsent(response.getOK().category_id));
+	protected void updateResponseOk(Map<Group, R_get_universe_groups_group_id> responseOk) {
+		super.updateResponseOk(responseOk);
+		Map<Integer, Category> idToCat = categoryService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.category_id).distinct().toList());
+		responseOk.entrySet().stream()
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToCat));
 	}
 
 	public List<Group> byName(String nameIgnoreCase) {

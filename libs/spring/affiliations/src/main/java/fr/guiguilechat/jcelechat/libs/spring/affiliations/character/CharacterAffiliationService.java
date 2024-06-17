@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.affiliations.character;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolution
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -71,16 +70,13 @@ public class CharacterAffiliationService
 
 	private int maxSimultFetch = 1000;
 
-	@Getter
-	private final boolean supportsBatchUpdate = true;
-
 	@Override
-	public Map<CharacterAffiliation, CompletableFuture<CharacterAffiliation>> batchUpdate(
-	    List<CharacterAffiliation> data) {
+	public Map<CharacterAffiliation, R_post_characters_affiliation> fetchData(List<CharacterAffiliation> data) {
 		log.debug(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
 		if (data == null || data.isEmpty()) {
 			return Map.of();
 		}
+		Map<CharacterAffiliation, R_post_characters_affiliation> ret = new HashMap<>();
 		for (int i = 0; i < data.size(); i += maxSimultFetch) {
 			List<? extends CharacterAffiliation> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
 			// System.err.println("fetching next " + subData.size() + " ids for character
@@ -93,10 +89,9 @@ public class CharacterAffiliationService
 				Map<Integer, R_post_characters_affiliation> retMap = Stream.of(response.getOK())
 				    .collect(Collectors.toMap(r -> r.character_id, r -> r));
 				for (CharacterAffiliation caf : subData) {
-					if (retMap.containsKey(caf.getId())) {
-						caf.update(retMap.get(caf.getId()));
-						updateMetaOk(caf, response);
-						save(caf);
+					R_post_characters_affiliation result = retMap.get(caf.getId());
+					if (result != null) {
+						ret.put(caf, result);
 						log.trace(
 						    "saved new affiliation for character " + caf.getId() + " , expires at " + caf.getExpires());
 					} else {
@@ -114,7 +109,7 @@ public class CharacterAffiliationService
 				}
 			}
 		}
-		return Map.of();
+		return ret;
 	}
 
 	@Override

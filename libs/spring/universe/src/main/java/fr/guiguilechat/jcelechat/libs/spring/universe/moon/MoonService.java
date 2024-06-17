@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_moons_moon_id;
 import lombok.RequiredArgsConstructor;
@@ -39,10 +40,18 @@ public class MoonService extends
 		return ret;
 	}
 
+	protected void updateResponseOk(Moon data, R_get_universe_moons_moon_id response,
+	    Map<Integer, SolarSystem> idToSystem) {
+		data.setSolarSystem(idToSystem.get(response.system_id));
+	}
+
 	@Override
-	protected void updateResponseOk(Moon data, Requested<R_get_universe_moons_moon_id> response) {
-		super.updateResponseOk(data, response);
-		data.setSolarSystem(solarSystemService.createIfAbsent(response.getOK().system_id));
+	protected void updateResponseOk(Map<Moon, R_get_universe_moons_moon_id> responseOk) {
+		super.updateResponseOk(responseOk);
+		Map<Integer, SolarSystem> idToSystem = solarSystemService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.system_id).distinct().toList());
+		responseOk.entrySet().stream()
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToSystem));
 	}
 
 }

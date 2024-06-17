@@ -1,11 +1,11 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
 
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedListElement;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.IFetchedListElementRepository;
@@ -40,14 +40,18 @@ public abstract class ACharDataRecordListService<
 	@Accessors(fluent = true)
 	private RecordRepo recordRepo;
 
-	@Override
-	protected void updateResponseOk(Entity data, Requested<Fetched[]> response) {
-		updateMetaOk(data, response);
+	protected void updateResponseOk(Entity data, Fetched[] arr) {
 		recordRepo().deleteByFetchResource(data);
-		Fetched[] arr = response.getOK();
 		if (arr != null && arr.length != 0) {
 			saveNewResources(data, Stream.of(arr));
 		}
+	}
+
+	@Override
+	protected void updateResponseOk(Map<Entity, Fetched[]> responseOk) {
+		super.updateResponseOk(responseOk);
+		responseOk.entrySet().stream()
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue()));
 	}
 
 	protected void saveNewResources(Entity data, Stream<Fetched> newResources) {

@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -14,7 +14,6 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -59,15 +58,13 @@ public class IdResolutionService
 
 	private int maxSimultFetch = 1000;
 
-	@Getter
-	private final boolean supportsBatchUpdate = true;
-
 	@Override
-	public Map<IdResolution, CompletableFuture<IdResolution>> batchUpdate(List<IdResolution> data) {
+	protected Map<IdResolution, R_post_universe_names> fetchData(List<IdResolution> data) {
 		log.debug(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
 		if (data == null || data.isEmpty()) {
 			return Map.of();
 		}
+		Map<IdResolution, R_post_universe_names> ret = new HashMap<>();
 		for (int i = 0; i < data.size(); i += maxSimultFetch) {
 			List<? extends IdResolution> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
 			int[] elementsIds = subData.stream().mapToInt(IdResolution::getId).toArray();
@@ -78,10 +75,9 @@ public class IdResolutionService
 				Map<Integer, R_post_universe_names> retMapById = Stream.of(response.getOK())
 				    .collect(Collectors.toMap(r -> r.id, r -> r));
 				for (IdResolution idr : subData) {
-					if (retMapById.containsKey(idr.getId())) {
-						idr.update(retMapById.get(idr.getId()));
-						updateMetaOk(idr, response);
-						save(idr);
+					R_post_universe_names result = retMapById.get(idr.getId());
+					if (result != null) {
+						ret.put(idr, result);
 					}
 				}
 				break;
@@ -94,7 +90,8 @@ public class IdResolutionService
 				}
 			}
 		}
-		return Map.of();
+		return ret;
+
 	}
 
 	// service usage

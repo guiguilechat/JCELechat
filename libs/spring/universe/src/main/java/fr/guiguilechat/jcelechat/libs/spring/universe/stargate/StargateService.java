@@ -22,6 +22,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
@@ -61,12 +62,22 @@ public class StargateService extends
 		return ret;
 	}
 
+	protected void updateResponseOk(Stargate data, R_get_universe_stargates_stargate_id response,
+	    Map<Integer, SolarSystem> idToSystem, Map<Integer, Type> idToType) {
+		data.setDestination(createIfAbsent(response.destination.stargate_id));
+		data.setSolarSystem(idToSystem.get(response.system_id));
+		data.setType(idToType.get(response.type_id));
+	}
+
 	@Override
-	protected void updateResponseOk(Stargate data, Requested<R_get_universe_stargates_stargate_id> response) {
-		super.updateResponseOk(data, response);
-		data.setDestination(createIfAbsent(response.getOK().destination.stargate_id));
-		data.setSolarSystem(solarSystemService.createIfAbsent(response.getOK().system_id));
-		data.setType(typeService.createIfAbsent(response.getOK().type_id));
+	protected void updateResponseOk(Map<Stargate, R_get_universe_stargates_stargate_id> responseOk) {
+		super.updateResponseOk(responseOk);
+		Map<Integer, SolarSystem> idToSystem = solarSystemService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.system_id).distinct().toList());
+		Map<Integer, Type> idToType = typeService
+		    .createIfAbsent(responseOk.values().stream().map(r -> r.type_id).distinct().toList());
+		responseOk.entrySet().stream()
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToSystem, idToType));
 	}
 
 	//
