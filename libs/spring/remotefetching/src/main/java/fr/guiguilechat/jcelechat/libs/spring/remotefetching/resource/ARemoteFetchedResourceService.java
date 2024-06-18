@@ -15,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Limit;
@@ -101,18 +102,17 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 
 	protected abstract Entity create(Id entityId);
 
-	protected Entity createIfNeeded(Entity e, Id entityId) {
-		if (e == null) {
-			e = create(entityId);
-			e.setFetchActive(isActivateNewEntry());
-			e = save(e);
-			log.trace("create entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
-		}
+	protected Entity createMinimal(Id entityId) {
+		Entity e = create(entityId);
+		e.setFetchActive(isActivateNewEntry());
+		log.trace("create entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
 		return e;
 	}
 
 	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, Id entityId) {
-		e = createIfNeeded(e, entityId);
+		if (e == null) {
+			e = save(createMinimal(entityId));
+		}
 		if (!e.isFetched() && e.isFetchActive()) {
 			log.trace("entry of class {} for id {} needs fetching", e.getClass().getSimpleName(), entityId);
 			return update(e);
@@ -130,7 +130,11 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	 */
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Entity createIfAbsent(Id entityId) {
-			return createIfNeeded(repo().findById(entityId).orElse(null), entityId);
+		Entity e = repo().findById(entityId).orElse(null);
+		if (e == null) {
+			e = save(createMinimal(entityId));
+		}
+		return e;
 	}
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
@@ -138,9 +142,11 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
 			    .collect(Collectors.toMap(ARemoteFetchedResource::getId,
 			        e -> e));
-			return entityIds.stream().distinct()
-			    .collect(Collectors.toMap(ei -> ei,
-			    entityId -> createIfNeeded(storedEntities.get(entityId), entityId)));
+			List<Entity> newEntities = saveAll(entityIds.stream().filter(id -> !storedEntities.containsKey(id)).distinct()
+			        .map(this::createMinimal).toList());
+
+			return Stream.concat(storedEntities.values().stream(), newEntities.stream())
+			    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
 	}
 
 	//
@@ -435,6 +441,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		int delay = Math.max(update.delay, 0);
 		if (update.delayUpdated > delay && nbToUpdate() == 0) {
 			delay = update.delayUpdated;
+			log.debug(" {} no more data to update({}), extended delay {}s", fetcherName(), nbToUpdate(), delay);
 		}
 		nextUpdateTime = Instant.now().plusSeconds(delay);
 		// define qtty to get from the cycle and errors
@@ -446,15 +453,16 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 			maxFromCycle = (int) Math.ceil(1.0 * maxFromCycle * update.errorsForMax / remainErrors);
 		}
 		// define qtty to get from the rate
-		int maxFromRate = Integer.MAX_VALUE;
+		int maxFromRate = getUpdate().getMax();
 		if (lastUpdateTime != null) {
 			long elapsedms = Instant.now().toEpochMilli() - lastUpdateTime.toEpochMilli();
 			maxFromRate = (int) (update.rate * elapsedms / 1000 - lastBatchSize);
 		}
 		//
 		lastBatchSize = Math.min(maxFromCycle, maxFromRate);
+		log.debug(" {} fetch={} limits: rate={} cycle={}", fetcherName(), lastBatchSize, maxFromRate, maxFromCycle);
 		lastUpdateTime = Instant.now();
-		return lastBatchSize == 0
+		return lastBatchSize < 1
 		    ? List.of()
 		    : repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));
 	}
@@ -496,6 +504,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 					createIfAbsent(resp.getOK());
 					lastListEtag = resp.getETag();
 					listExpires = resp.getExpiresInstant();
+					log.debug(" {} listed {} new entries", fetcherName(), resp.getOK().size());
 				}
 			}
 		}

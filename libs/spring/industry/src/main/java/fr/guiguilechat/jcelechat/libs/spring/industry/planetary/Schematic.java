@@ -4,6 +4,9 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Set;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EplanetSchematics;
 import jakarta.persistence.CascadeType;
@@ -16,18 +19,20 @@ import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
 @SuppressWarnings("serial")
 @Entity(name = "SdePlanetarySchematic")
 @Table(name = "sde_planetary_schematic")
-@Data
-@Builder
-@RequiredArgsConstructor
+@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Getter
+@Setter
 public class Schematic implements Serializable {
 
 	@Id

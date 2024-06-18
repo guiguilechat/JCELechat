@@ -58,6 +58,9 @@ logging:
          guiguilechat:
             jcelechat:
                jcesi: INFO
+               libs:
+                  spring:
+                     remotefetching: INFO
 spring:
    cache:
       type: simple
