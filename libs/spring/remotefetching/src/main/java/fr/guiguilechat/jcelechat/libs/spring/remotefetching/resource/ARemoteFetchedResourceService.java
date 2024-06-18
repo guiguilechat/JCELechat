@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Limit;
@@ -383,6 +382,9 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		/** minimum delay, in s, between two fetch cycles. Ignored if &lt;0 */
 		private int delay = 0;
 
+		/** maximum queries per second for this service. */
+		private float rate = 1000;
+
 		/**
 		 * delay to wait for next fetch cycle when there is no update. Ignored if lower
 		 * than {@link #getDelay()}
@@ -399,6 +401,8 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	}
 
 	private Instant nextUpdateTime = null;
+	private Instant lastUpdateTime = null;
+	private int lastBatchSize = 0;
 
 	/**
 	 * @return number of remaining entities that could be updated
@@ -408,32 +412,51 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	}
 
 	/**
-	 * you can override that to use a dedicated method in the jpa repostiory, eg to
-	 * allow more than 1000 entities to update at once.
+	 * List the next entities to update.
+	 * <p>
+	 * This is using two limit on the number of returned entities, using the lowest
+	 * one of :
+	 * <ol>
+	 * <li>a per-cycle limit that is then reduced as the errors allowed is
+	 * reduced</li>
+	 * <li>a per-second limit that is applied assuming instantaneous fetch and
+	 * remember the start and batch size of the previous successful call</li>
+	 * </ol>
+	 * </p>
 	 * 
-	 * @return the next entities that are to be updated, limited to
-	 *           {@link #getMaxUpdates()} and 1000 from implementation limit,
-	 *           whichever is lowest.
+	 * @return the next entities that are to be updated
 	 */
-	public Stream<Entity> streamToUpdate() {
+	public List<Entity> listToUpdate() {
+		// skip if delay not met
 		if (nextUpdateTime != null && nextUpdateTime.isAfter(Instant.now())) {
-			return Stream.empty();
+			return List.of();
 		}
+		// create delay to next
 		int delay = Math.max(update.delay, 0);
 		if (update.delayUpdated > delay && nbToUpdate() == 0) {
 			delay = update.delayUpdated;
 		}
 		nextUpdateTime = Instant.now().plusSeconds(delay);
-		int maxFromErrors = getUpdate().getMax();
+		// define qtty to get from the cycle and errors
+		int maxFromCycle = getUpdate().getMax();
 		int remainErrors = esiStatusService.availErrors();
 		if (remainErrors <= update.errorsMin) {
-			maxFromErrors = 0;
+			maxFromCycle = 0;
 		} else if (remainErrors < update.errorsForMax) {
-			maxFromErrors = (int) Math.ceil(1.0 * maxFromErrors * update.errorsForMax / remainErrors);
+			maxFromCycle = (int) Math.ceil(1.0 * maxFromCycle * update.errorsForMax / remainErrors);
 		}
-		return maxFromErrors == 0
-		    ? Stream.empty()
-		    : repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(maxFromErrors)).stream();
+		// define qtty to get from the rate
+		int maxFromRate = Integer.MAX_VALUE;
+		if (lastUpdateTime != null) {
+			long elapsedms = Instant.now().toEpochMilli() - lastUpdateTime.toEpochMilli();
+			maxFromRate = (int) (update.rate * elapsedms / 1000 - lastBatchSize);
+		}
+		//
+		lastBatchSize = Math.min(maxFromCycle, maxFromRate);
+		lastUpdateTime = Instant.now();
+		return lastBatchSize == 0
+		    ? List.of()
+		    : repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));
 	}
 
 	public int update(List<Entity> data) {

@@ -70,7 +70,7 @@ public class RemoteResourceUpdaterService {
 		}
 		long startTimeMs = System.currentTimeMillis();
 		fetchedService.checkNewEntries();
-		List<Entity> list = fetchedService.streamToUpdate().toList();
+		List<Entity> list = fetchedService.listToUpdate();
 		int nbUpdates = list.size();
 		int nbSuccess = fetchedService.update(list);
 		long nbRemain = fetchedService.nbToUpdate();
