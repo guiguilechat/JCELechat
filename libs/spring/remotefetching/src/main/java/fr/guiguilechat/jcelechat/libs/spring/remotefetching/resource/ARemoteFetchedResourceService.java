@@ -139,14 +139,14 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, Entity> createIfAbsent(Collection<Id> entityIds) {
-			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-			    .collect(Collectors.toMap(ARemoteFetchedResource::getId,
-			        e -> e));
-			List<Entity> newEntities = saveAll(entityIds.stream().filter(id -> !storedEntities.containsKey(id)).distinct()
-			        .map(this::createMinimal).toList());
+		Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
+		    .collect(Collectors.toMap(ARemoteFetchedResource::getId,
+		        e -> e));
+		List<Entity> newEntities = saveAll(entityIds.stream().filter(id -> !storedEntities.containsKey(id)).distinct()
+		    .map(this::createMinimal).toList());
 
-			return Stream.concat(storedEntities.values().stream(), newEntities.stream())
-			    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
+		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
+		    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
 	}
 
 	//
@@ -173,10 +173,10 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, CompletableFuture<Entity>> createFetchIfNeeded(Collection<Id> entityIds) {
-			Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-			    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
-			return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
-			    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
+		Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
+		    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
+		return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
+		    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
 	}
 
 	protected abstract Requested<Fetched> fetchData(Id id, Map<String, String> properties);
@@ -364,17 +364,17 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		data.increaseSuccessiveErrors();
 		data.setExpiresInRandom(data.getSuccessiveErrors() * 60);
 	}
-	
+
 	@Getter
 	@Setter
 	@ToString()
-	public static class Update{
+	public static class Update {
 
 		/**
 		 * if true, skip the fetch. If false, never skip. if null, use
 		 * RemoteResourceUpdaterService value
 		 */
-		private Boolean skip=null;
+		private Boolean skip = null;
 
 		/** max number of fetch each cycle */
 		private int max = 1000;
@@ -397,7 +397,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		 */
 		private int delayUpdated = 60;
 	}
-	
+
 	@Getter
 	private final Update update = new Update();
 
@@ -496,18 +496,32 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 					properties.put(ConnectedImpl.IFNONEMATCH, lastListEtag);
 				}
 				Requested<List<Id>> resp = fetcher.apply(properties);
-				if (resp == null || !resp.isOk()) {
-					log.warn("update service {} received invalid response {} when requesting list of entities",
-					    getClass().getSimpleName(), resp);
-					return;
+				if (resp != null) {
+					switch (resp.getResponseCode()) {
+					case 200:
+						onNewListFetched(createIfAbsent(resp.getOK()));
+						log.debug(" {} listed {} new entries", fetcherName(), resp.getOK().size());
+						lastListEtag = resp.getETag();
+						listExpires = resp.getExpiresInstant();
+						break;
+					case 304:
+						listExpires = resp.getExpiresInstant();
+						break;
+					default:
+						log.warn("update service {} received invalid response {} when requesting list of entities",
+						    getClass().getSimpleName(), resp);
+					}
 				} else {
-					createIfAbsent(resp.getOK());
-					lastListEtag = resp.getETag();
-					listExpires = resp.getExpiresInstant();
-					log.debug(" {} listed {} new entries", fetcherName(), resp.getOK().size());
+					log.warn("update service {} received null list of entities",
+					    getClass().getSimpleName());
 				}
 			}
 		}
+	}
+
+	/** called when the list has been updated */
+	protected void onNewListFetched(Map<Id, Entity> map) {
+
 	}
 
 	/** the method to overwrite to make it auto fetch entities */

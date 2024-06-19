@@ -7,6 +7,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -20,6 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@ConfigurationProperties(prefix = "esi.resolve.name")
 public class IdResolutionService
     extends ARemoteFetchedResourceService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
 
@@ -54,10 +56,6 @@ public class IdResolutionService
 		super.updateMetaOk(data, response);
 	}
 
-	// batch update
-
-	private int maxSimultFetch = 1000;
-
 	@Override
 	protected Map<IdResolution, R_post_universe_names> fetchData(List<IdResolution> data) {
 		log.debug(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
@@ -65,31 +63,32 @@ public class IdResolutionService
 			return Map.of();
 		}
 		Map<IdResolution, R_post_universe_names> ret = new HashMap<>();
-		for (int i = 0; i < data.size(); i += maxSimultFetch) {
-			List<? extends IdResolution> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
-			int[] elementsIds = subData.stream().mapToInt(IdResolution::getId).toArray();
+		int[] elementsIds = data.stream().mapToInt(IdResolution::getId).toArray();
 			Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
 			int responseCode = response.getResponseCode();
 			switch (responseCode) {
 			case 200:
 				Map<Integer, R_post_universe_names> retMapById = Stream.of(response.getOK())
 				    .collect(Collectors.toMap(r -> r.id, r -> r));
-				for (IdResolution idr : subData) {
+				for (IdResolution idr : data) {
 					R_post_universe_names result = retMapById.get(idr.getId());
 					if (result != null) {
 						ret.put(idr, result);
+					} else {
+						log.error(
+						    "fetched character affiliation for " + idr.getId() + " but got ids for " + retMapById.keySet());
+						updateNullResponse(idr);
 					}
 				}
 				break;
 			default:
 				log.error("while resolving ids, received response code {} and error {}", responseCode,
 				    response.getError());
-				for (IdResolution idr : subData) {
+				for (IdResolution idr : data) {
 					idr.increaseSuccessiveErrors();
 					idr.setExpiresInRandom(idr.getSuccessiveErrors() * 60);
 				}
 			}
-		}
 		return ret;
 
 	}
