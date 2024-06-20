@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
-import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationOfferService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.services.LPStoreCorporationService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.CorporationOffer;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.CorporationOfferService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LPStoreCorporation;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LPStoreCorporationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService;

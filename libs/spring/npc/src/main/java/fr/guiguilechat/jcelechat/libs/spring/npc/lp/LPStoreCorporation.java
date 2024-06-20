@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.model;
+package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import java.time.Instant;
 import java.util.List;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.services;
+package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import java.util.List;
 import java.util.Map;
@@ -13,7 +13,6 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

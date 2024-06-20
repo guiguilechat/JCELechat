@@ -1,10 +1,7 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.services;
+package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.OfferRequirement;
-import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.OfferRequirementRepository;
 import lombok.RequiredArgsConstructor;
 
 @Service

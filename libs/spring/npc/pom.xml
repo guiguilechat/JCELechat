@@ -10,10 +10,20 @@
 	<artifactId>npc</artifactId>
 	<name>Spring lib Npc</name>
 	<dependencies>
+		<!-- self dependencies -->
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>affiliations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>items</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>remotefetching</artifactId>
 		</dependency>
+		<!-- /self dependencies -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

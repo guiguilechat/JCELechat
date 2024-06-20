@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAff
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliationService;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterInformationService;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAsset;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAssetService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact;
@@ -29,7 +30,6 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJ
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransactionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.faction.FactionService;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolutionService;
 import lombok.RequiredArgsConstructor;
 
@@ -69,7 +69,7 @@ public class UserStatusHtmlController {
 	private final IdResolutionService idResolutionService;
 
 	@Lazy
-	private final FactionService factionService;
+	private final FactionInfoService factionService;
 
 	@GetMapping("/")
 	public String getUser(Model model, Authentication auth) {

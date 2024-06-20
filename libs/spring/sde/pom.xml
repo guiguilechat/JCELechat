@@ -38,5 +38,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<description>library that keep checking for new SDE.</description>
+	<description>library that keep checking for new SDE. Should not be imported by something else than another library.</description>
 </project>

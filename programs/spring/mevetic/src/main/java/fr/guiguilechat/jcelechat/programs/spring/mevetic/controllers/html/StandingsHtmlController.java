@@ -23,13 +23,13 @@ import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterInf
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterInformationService;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.C2CStandingsService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.faction.Faction;
-import fr.guiguilechat.jcelechat.libs.spring.npc.faction.FactionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
 import lombok.RequiredArgsConstructor;
 
@@ -51,7 +51,7 @@ public class StandingsHtmlController {
 	private final CorporationInfoService corporationService;
 
 	@Lazy
-	private final FactionService factionService;
+	private final FactionInfoService factionService;
 
 	@GetMapping("/")
 	public String avail(Model model, Authentication auth) {
@@ -99,7 +99,7 @@ public class StandingsHtmlController {
 		List<CharacterStanding> userStandings = characterStandingService
 		    .list(charId);
 		if (userStandings != null) {
-			Map<Integer, Faction> factions = factionService.allById();
+			Map<Integer, FactionInfo> factions = factionService.allById();
 			Map<Integer, CorporationInfo> corporations = corporationService.allById();
 			model.addAttribute("agentStandings", userStandings.stream()
 			    .filter(cs -> cs.getFromType() == get_characters_character_id_standings_from_type.agent)
@@ -137,8 +137,8 @@ public class StandingsHtmlController {
 
 	}
 
-	public NamedStanding factionStanding(CharacterStanding standing, Map<Integer, Faction> factions) {
-		Faction f = factions.get(standing.getFromId());
+	public NamedStanding factionStanding(CharacterStanding standing, Map<Integer, FactionInfo> factions) {
+		FactionInfo f = factions.get(standing.getFromId());
 		String name = f == null ? "faction" + standing.getFromId() : f.getName();
 		return new NamedStanding(standing, name);
 	}

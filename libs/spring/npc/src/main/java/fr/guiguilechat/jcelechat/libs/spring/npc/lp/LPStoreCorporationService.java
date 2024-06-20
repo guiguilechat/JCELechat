@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.services;
+package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -16,9 +16,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
-import fr.guiguilechat.jcelechat.libs.spring.npc.repositories.LPStoreCorporationRepository;
-import fr.guiguilechat.jcelechat.libs.spring.npc.services.UpdateScheduler.CorporationsUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.UpdateScheduler.CorporationsUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;

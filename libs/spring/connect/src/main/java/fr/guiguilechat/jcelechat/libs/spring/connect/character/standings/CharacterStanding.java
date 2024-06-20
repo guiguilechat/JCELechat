@@ -14,7 +14,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterStanding")
 @Table(name = "esi_connect_characterstanding")
@@ -22,7 +21,6 @@ import lombok.ToString;
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString
 public class CharacterStanding extends
     AFetchedListElement<CharacterStanding, CharacterStandingList> {
 
@@ -33,7 +31,6 @@ public class CharacterStanding extends
 	@NoArgsConstructor
 	@Getter
 	@Setter
-	@ToString
 	public static class CharacterStandingList
 	    extends AFetchedList<Integer, M_get_standings_3, CharacterStanding> {
 

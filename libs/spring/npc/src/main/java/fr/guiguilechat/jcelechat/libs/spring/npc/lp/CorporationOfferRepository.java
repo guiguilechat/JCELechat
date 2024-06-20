@@ -1,12 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.repositories;
+package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 
 public interface CorporationOfferRepository extends JpaRepository<CorporationOffer, Long> {
 

@@ -18,7 +18,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterRoles")
 @Table(name = "esi_connect_characterroles", indexes = {
@@ -28,7 +27,6 @@ import lombok.ToString;
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString
 public class CharacterRoles extends ARemoteFetchedResource<Integer, R_get_characters_character_id_roles> {
 
 	@ElementCollection(fetch = FetchType.EAGER)

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.services;
+package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -15,9 +15,6 @@ import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.CorporationOffer;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.OfferRequirement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;

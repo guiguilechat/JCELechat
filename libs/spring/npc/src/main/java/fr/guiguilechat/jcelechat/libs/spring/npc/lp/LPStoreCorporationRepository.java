@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.repositories;
+package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import java.time.Instant;
 import java.util.List;
@@ -6,8 +6,6 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-
-import fr.guiguilechat.jcelechat.libs.spring.npc.model.LPStoreCorporation;
 
 public interface LPStoreCorporationRepository extends JpaRepository<LPStoreCorporation, Integer>{
 

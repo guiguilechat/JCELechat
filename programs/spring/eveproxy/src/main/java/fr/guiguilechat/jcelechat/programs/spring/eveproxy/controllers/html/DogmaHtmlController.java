@@ -32,7 +32,7 @@ import fr.guiguilechat.jcelechat.libs.spring.market.order.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.LocatedBestOffer;
-import fr.guiguilechat.jcelechat.libs.spring.npc.services.CorporationOfferService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.CorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.prices.services.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
