@@ -49,8 +49,6 @@ public class CharacterTransaction extends
 	 */
 	private int clientId;
 
-	private boolean clientNpcCorp = false;
-
 	/**
 	 * journal_ref_id integer
 	 */
@@ -95,7 +93,6 @@ public class CharacterTransaction extends
 		return new CharacterTransaction(
 		    source.is_buy,
 		    source.client_id,
-		    false,
 		    source.journal_ref_id,
 		    source.location_id,
 		    source.is_personal,

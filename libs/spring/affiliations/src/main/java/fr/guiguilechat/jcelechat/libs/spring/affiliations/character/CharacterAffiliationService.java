@@ -3,16 +3,20 @@ package fr.guiguilechat.jcelechat.libs.spring.affiliations.character;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolution;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve.IdResolutionListener;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
@@ -24,30 +28,20 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@ConfigurationProperties(prefix = "esi.affiliations.charaffil")
 public class CharacterAffiliationService
     extends
     ARemoteFetchedResourceService<CharacterAffiliation, Integer, R_post_characters_affiliation, CharacterAffiliationRepository>
     implements IdResolutionListener {
 
-	public static interface AffiliationListener {
-		public default void onNewAffiliation(CharacterAffiliation received) {
-		}
-	}
-
+	@Lazy
+	private final AllianceInfoService allianceInfoService;
 
 	@Lazy
-	private final Optional<List<AffiliationListener>> affiliationListeners;
-
-	protected void onNewAffiliation(CharacterAffiliation received) {
-		if (affiliationListeners != null && affiliationListeners.isPresent()) {
-			for (AffiliationListener l : affiliationListeners.get()) {
-				l.onNewAffiliation(received);
-			}
-		}
-	}
+	private final CorporationInfoService corporationInfoService;
 
 	@Lazy
-	CorporationInfoService corporationInfoService;
+	private final FactionInfoService factionInfoService;
 
 	// auto management
 
@@ -66,50 +60,68 @@ public class CharacterAffiliationService
 		return ret.mapBody(arr -> arr[0]);
 	}
 
-	// batch update
-
-	private int maxSimultFetch = 1000;
-
 	@Override
-	public Map<CharacterAffiliation, R_post_characters_affiliation> fetchData(List<CharacterAffiliation> data) {
-		log.debug(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
-		if (data == null || data.isEmpty()) {
+	public Map<CharacterAffiliation, R_post_characters_affiliation> fetchData(List<CharacterAffiliation> toUpdate) {
+		log.debug(" updating list of {} elements service {}", toUpdate.size(), getClass().getSimpleName());
+		if (toUpdate == null || toUpdate.isEmpty()) {
 			return Map.of();
 		}
 		Map<CharacterAffiliation, R_post_characters_affiliation> ret = new HashMap<>();
-		for (int i = 0; i < data.size(); i += maxSimultFetch) {
-			List<? extends CharacterAffiliation> subData = data.subList(i, Math.min(data.size(), i + maxSimultFetch));
-			// System.err.println("fetching next " + subData.size() + " ids for character
-			// affiliation");
-			int[] charIds = subData.stream().mapToInt(CharacterAffiliation::getId).toArray();
-			Requested<R_post_characters_affiliation[]> response = ESIRawPublic.INSTANCE.post_affiliation(charIds, null);
-			int responseCode = response.getResponseCode();
-			switch (responseCode) {
-			case 200:
-				Map<Integer, R_post_characters_affiliation> retMap = Stream.of(response.getOK())
-				    .collect(Collectors.toMap(r -> r.character_id, r -> r));
-				for (CharacterAffiliation caf : subData) {
-					R_post_characters_affiliation result = retMap.get(caf.getId());
-					if (result != null) {
-						ret.put(caf, result);
-						log.trace(
-						    "saved new affiliation for character " + caf.getId() + " , expires at " + caf.getExpires());
-					} else {
-						log.error(
-						    "fetched character affiliation for " + caf.getId() + " but got ids for " + retMap.keySet());
-					}
+		int[] charIds = toUpdate.stream().mapToInt(CharacterAffiliation::getId).toArray();
+		Requested<R_post_characters_affiliation[]> response = ESIRawPublic.INSTANCE.post_affiliation(charIds, null);
+		int responseCode = response.getResponseCode();
+		switch (responseCode) {
+		case 200:
+			Map<Integer, R_post_characters_affiliation> retMap = Stream.of(response.getOK())
+			    .collect(Collectors.toMap(r -> r.character_id, r -> r));
+			for (CharacterAffiliation caf : toUpdate) {
+				R_post_characters_affiliation result = retMap.get(caf.getId());
+				if (result != null) {
+					ret.put(caf, result);
+					log.trace(
+					    "saved new affiliation for character " + caf.getId() + " , expires at " + caf.getExpires());
+				} else {
+					log.error(
+					    "fetched character affiliation for " + caf.getId() + " but got ids for " + retMap.keySet());
+					updateNullResponse(caf);
 				}
-				break;
-			default:
-				log.error("while updating affiliations, received response code {} and error {}", responseCode,
-				    response.getError());
-				for (CharacterAffiliation ca : subData) {
-					ca.increaseSuccessiveErrors();
-					ca.setExpiresInRandom(ca.getSuccessiveErrors() * 60);
-				}
+			}
+			break;
+		default:
+			log.error("while updating affiliations, received response code {} and error {}", responseCode,
+			    response.getError());
+			for (CharacterAffiliation ca : toUpdate) {
+				ca.increaseSuccessiveErrors();
+				ca.setExpiresInRandom(ca.getSuccessiveErrors() * 60);
 			}
 		}
 		return ret;
+	}
+
+	protected void updateResponseOk(CharacterAffiliation data,
+	    R_post_characters_affiliation response,
+	    Map<Integer, AllianceInfo> idToAlliance,
+	    Map<Integer, CorporationInfo> idToCorporation) {
+		data.setAlliance(idToAlliance.get(response.alliance_id));
+		data.setCorporation(idToCorporation.get(response.corporation_id));
+		data.setFaction(factionInfoService.createIfAbsent(response.faction_id));
+	}
+
+	@Override
+	protected void updateResponseOk(Map<CharacterAffiliation, R_post_characters_affiliation> responseOk) {
+		super.updateResponseOk(responseOk);
+		Map<Integer, AllianceInfo> idToAlliance = allianceInfoService
+		    .createIfAbsent(responseOk.values().stream()
+		        .mapToInt(r -> r.alliance_id)
+		        .distinct().filter(i -> i > 0)
+		        .boxed().toList());
+		Map<Integer, CorporationInfo> idToCorporation = corporationInfoService
+		    .createIfAbsent(responseOk.values().stream()
+		        .mapToInt(r -> r.corporation_id)
+		        .distinct().filter(i -> i > 0)
+		        .boxed().toList());
+		responseOk.entrySet().stream()
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToAlliance, idToCorporation));
 	}
 
 	@Override

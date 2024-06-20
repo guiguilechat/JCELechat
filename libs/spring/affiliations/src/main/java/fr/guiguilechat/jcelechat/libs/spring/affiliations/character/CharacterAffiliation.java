@@ -1,42 +1,46 @@
 package fr.guiguilechat.jcelechat.libs.spring.affiliations.character;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity(name = "EsiAffiliationsCharacterAffiliation")
 @Table(name = "esi_affiliations_characteraffiliation", indexes = {
     @Index(columnList = "fetch_active,expires"),
-    @Index(columnList = "allianceId"),
-    @Index(columnList = "corporationId"),
-    @Index(columnList = "factionId")
+    @Index(columnList = "alliance"),
+    @Index(columnList = "corporation"),
+    @Index(columnList = "faction")
 })
+@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-@EqualsAndHashCode(callSuper = true)
+@Getter
+@Setter
 public class CharacterAffiliation extends ARemoteFetchedResource<Integer, R_post_characters_affiliation> {
 
 	/** The character's alliance ID, if their corporation is in an alliance */
-	private int allianceId;
+	private AllianceInfo alliance;
 
 	/** The character's corporation ID */
-	private int corporationId;
+	private CorporationInfo corporation;
 
 	/** The character's faction ID, if their corporation is in a faction */
-	private int factionId;
+	private FactionInfo faction;
 
 	@Override
 	public void update(R_post_characters_affiliation data) {
-		setAllianceId(data.alliance_id);
-		setCorporationId(data.corporation_id);
-		setFactionId(data.faction_id);
 	}
 
 }

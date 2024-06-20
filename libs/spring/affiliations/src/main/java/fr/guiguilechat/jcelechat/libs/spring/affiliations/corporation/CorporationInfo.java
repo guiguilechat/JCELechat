@@ -2,7 +2,12 @@ package fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation;
 
 import java.time.Instant;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import jakarta.persistence.Column;
@@ -16,11 +21,15 @@ import lombok.Setter;
 
 @Entity(name = "EsiAffiliationsCorporationInfo")
 @Table(name = "esi_affiliations_corporationinfo", indexes = {
-    @Index(columnList = "fetch_active,expires")
+    @Index(columnList = "fetch_active,expires"),
+    @Index(columnList = "alliance"),
+    @Index(columnList = "faction"),
+    @Index(columnList = "name")
 })
+@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
-@Getter
 @NoArgsConstructor
+@Getter
 @Setter
 public class CorporationInfo extends ARemoteFetchedResource<Integer, R_get_corporations_corporation_id> {
 
@@ -31,7 +40,7 @@ public class CorporationInfo extends ARemoteFetchedResource<Integer, R_get_corpo
 	/**
 	 * ID of the alliance that corporation is a member of, if any
 	 */
-	private int allianceId;
+	private AllianceInfo alliance;
 	/**
 	 * ceo_id integer
 	 */
@@ -48,7 +57,7 @@ public class CorporationInfo extends ARemoteFetchedResource<Integer, R_get_corpo
 	/**
 	 * faction_id integer
 	 */
-	private int factionId;
+	private FactionInfo faction;
 	/**
 	 * date_founded string
 	 */
@@ -65,6 +74,9 @@ public class CorporationInfo extends ARemoteFetchedResource<Integer, R_get_corpo
 	 * the full name of the corporation
 	 */
 	private String name;
+
+	/** npc flag, set to true when the id is retrieved from npc list */
+	private boolean npc = false;
 	/**
 	 * shares integer
 	 */
@@ -88,11 +100,9 @@ public class CorporationInfo extends ARemoteFetchedResource<Integer, R_get_corpo
 
 	@Override
 	public void update(R_get_corporations_corporation_id data) {
-		setAllianceId(data.alliance_id);
 		setCeoId(data.ceo_id);
 		setCreatorId(data.creator_id);
 		setDescription(data.description);
-		setFactionId(data.faction_id);
 		setFounded(data.date_founded == null ? null : ESITools.fieldInstant(data.date_founded));
 		setHomeStationId(data.home_station_id);
 		setMemberCount(data.member_count);

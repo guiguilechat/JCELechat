@@ -34,7 +34,6 @@ public class FactionInfoUpdater {
 		if (skipUpdate || expires.isAfter(Instant.now())) {
 			return;
 		}
-		Map<Integer, FactionInfo> existing = factionInfoService.listAll();
 		Map<String, String> properties = new HashMap<>();
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
@@ -42,22 +41,16 @@ public class FactionInfoUpdater {
 		Requested<R_get_universe_factions[]> response = ESIRawPublic.INSTANCE.get_universe_factions(properties);
 		if (response != null) {
 			switch (response.getResponseCode()) {
-			case 304:
-				expires = response.getExpiresInstant();
-				return;
 			case 200:
 				R_get_universe_factions[] newValues = response.getOK();
-				log.info("updating faction with new " + newValues + " elements");
-				for (R_get_universe_factions factionData : newValues) {
-					FactionInfo found = existing.get(factionData.faction_id);
-					if (found == null) {
-						found = new FactionInfo();
-						found.setFactionId(factionData.faction_id);
-					}
-					found.update(factionData);
-					factionInfoService.save(found);
-				}
-				return;
+				log.debug("updating faction with new " + newValues + " elements");
+				factionInfoService.update(newValues);
+				lastEtag = response.getETag();
+				expires = response.getExpiresInstant();
+				break;
+			case 304:
+				expires = response.getExpiresInstant();
+				break;
 			default:
 				log.warn("while fetching factions code={}, error={}", response.getResponseCode(), response.getError());
 			}

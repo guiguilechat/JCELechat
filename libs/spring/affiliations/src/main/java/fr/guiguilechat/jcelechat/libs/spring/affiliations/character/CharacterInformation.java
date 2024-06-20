@@ -2,7 +2,13 @@ package fr.guiguilechat.jcelechat.libs.spring.affiliations.character;
 
 import java.time.Instant;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
 import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_gender;
@@ -19,15 +25,20 @@ import lombok.Setter;
 
 @Entity(name = "EsiAffiliationsCharacterInformation")
 @Table(name = "esi_affiliations_characterinformation", indexes = {
-    @Index(columnList = "fetch_active,expires")
+    @Index(columnList = "fetch_active,expires"),
+    @Index(columnList = "name"),
+    @Index(columnList = "alliance"),
+    @Index(columnList = "corporation"),
+    @Index(columnList = "faction")
 })
+@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
 public class CharacterInformation extends ARemoteFetchedResource<Integer, R_get_characters_character_id> {
 
-	private int allianceId;
+	private AllianceInfo alliance;
 
 	/**
 	 * Creation date of the character
@@ -42,7 +53,7 @@ public class CharacterInformation extends ARemoteFetchedResource<Integer, R_get_
 	/**
 	 * The character's corporation ID
 	 */
-	private int corporationId;
+	private CorporationInfo corporation;
 
 	/**
 	 * description string
@@ -54,7 +65,7 @@ public class CharacterInformation extends ARemoteFetchedResource<Integer, R_get_
 	 * ID of the faction the character is fighting for, if the character is enlisted
 	 * in Factional Warfare
 	 */
-	private int factionIdd;
+	private FactionInfo faction;
 
 	/**
 	 * gender string
@@ -83,12 +94,9 @@ public class CharacterInformation extends ARemoteFetchedResource<Integer, R_get_
 
 	@Override
 	public void update(R_get_characters_character_id data) {
-		setAllianceId(data.alliance_id);
 		setBirthday(ESITools.fieldInstant(data.birthday));
 		setBloodlineId(data.bloodline_id);
-		setCorporationId(data.corporation_id);
 		setDescription(data.description);
-		setFactionIdd(data.faction_id);
 		setGender(data.gender);
 		setName(data.name);
 		setRaceId(data.race_id);

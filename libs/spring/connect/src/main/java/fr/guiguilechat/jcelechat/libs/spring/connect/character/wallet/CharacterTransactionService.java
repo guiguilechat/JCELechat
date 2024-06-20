@@ -111,7 +111,6 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 		List<CharacterTransaction> list = newResources
 		    .map(CharacterTransaction::from)
 		    .peek(rec -> rec.setFetchResource(data))
-		    .peek(rec -> rec.setClientNpcCorp(corporationInfoService.isNpcCorp(rec.getClientId())))
 		    .toList();
 		recordRepo.saveAll(list);
 

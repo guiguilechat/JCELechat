@@ -59,11 +59,11 @@ public class C2CStandingsService {
 		List<Integer> toIds = new ArrayList<>();
 		toIds.add(characterToId);
 		if (ca != null) {
-			if (ca.getCorporationId() != 0) {
-				toIds.add(ca.getCorporationId());
+			if (ca.getId() != 0) {
+				toIds.add(ca.getId());
 			}
-			if (ca.getAllianceId() != 0) {
-				toIds.add(ca.getAllianceId());
+			if (ca.getId() != 0) {
+				toIds.add(ca.getId());
 			}
 		}
 		List<CharacterContact> contacts = characterContactService.fromTo(List.of(characterFromId), toIds);
@@ -88,11 +88,11 @@ public class C2CStandingsService {
 		List<Integer> toIds = new ArrayList<>();
 		toIds.add(characterToId);
 		if (ca != null) {
-			if (ca.getCorporationId() != 0) {
-				toIds.add(ca.getCorporationId());
+			if (ca.getId() != 0) {
+				toIds.add(ca.getId());
 			}
-			if (ca.getAllianceId() != 0) {
-				toIds.add(ca.getAllianceId());
+			if (ca.getId() != 0) {
+				toIds.add(ca.getId());
 			}
 		}
 		return effectiveStandings(toIds);
