@@ -5,6 +5,7 @@ import java.util.stream.IntStream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -22,6 +23,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.affiliations.alliance")
+@Order(2) // depends on factions
 public class AllianceInfoService extends
     ARemoteResourceService<AllianceInfo, Integer, R_get_alliances_alliance_id, AllianceInfoRepository>
     implements IdResolutionListener {

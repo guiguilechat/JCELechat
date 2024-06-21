@@ -51,11 +51,11 @@ public class LPStoreCorporationService implements CorporationsUpdateListener {
 	@Async
 	public CompletableFuture<LPStoreCorporation> activate(int corporationId) {
 		LPStoreCorporation ret = null;
-		Optional<LPStoreCorporation> active = repo.findByCorporationIdAndDisabled(corporationId, false);
+		Optional<LPStoreCorporation> active = repo.findByIdAndDisabled(corporationId, false);
 		if (active.isPresent()) {
 			ret = active.get();
 		} else {
-			Optional<LPStoreCorporation> inactive = repo.findByCorporationIdAndDisabled(corporationId, true);
+			Optional<LPStoreCorporation> inactive = repo.findByIdAndDisabled(corporationId, true);
 			if (inactive.isPresent()) {
 				inactive.get().setDisabled(false);
 				repo.save(inactive.get());
@@ -63,7 +63,7 @@ public class LPStoreCorporationService implements CorporationsUpdateListener {
 			} else {
 				ret = repo.save(
 						LPStoreCorporation.builder()
-								.corporationId(corporationId)
+				        .id(corporationId)
 								.disabled(false)
 								.name(null)
 								.nextFetch(Instant.now()).build());
@@ -84,7 +84,7 @@ public class LPStoreCorporationService implements CorporationsUpdateListener {
 	}
 
 	public void inactive(int corporationId) {
-		Optional<LPStoreCorporation> active = repo.findByCorporationIdAndDisabled(corporationId, false);
+		Optional<LPStoreCorporation> active = repo.findByIdAndDisabled(corporationId, false);
 		if (active.isPresent()) {
 			active.get().setDisabled(true);
 			repo.save(active.get());
@@ -104,10 +104,10 @@ public class LPStoreCorporationService implements CorporationsUpdateListener {
 		long fetchMs = System.currentTimeMillis();
 		if (rids.isOk()) {
 			Set<Integer> ids = Set.of(rids.getOK());
-			List<LPStoreCorporation> disable = repo.findByCorporationIdNotInAndDisabled(ids, false);
+			List<LPStoreCorporation> disable = repo.findByIdNotInAndDisabled(ids, false);
 			long listDisableMs = System.currentTimeMillis();
 			for (LPStoreCorporation c : disable) {
-				inactive(c.getCorporationId());
+				inactive(c.getId());
 			}
 			long disableMs = System.currentTimeMillis();
 			Map<Integer, CompletableFuture<LPStoreCorporation>> futures = ids.parallelStream()

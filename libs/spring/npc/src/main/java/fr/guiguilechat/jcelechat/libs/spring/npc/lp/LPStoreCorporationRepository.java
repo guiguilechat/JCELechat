@@ -9,12 +9,12 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface LPStoreCorporationRepository extends JpaRepository<LPStoreCorporation, Integer>{
 
-	public Optional<LPStoreCorporation> findByCorporationIdAndDisabled(int corporationId, boolean disabled);
+	public Optional<LPStoreCorporation> findByIdAndDisabled(int corporationId, boolean disabled);
 
-	public List<LPStoreCorporation> findByCorporationIdNotInAndDisabled(Iterable<Integer> corporationIds,
+	public List<LPStoreCorporation> findByIdNotInAndDisabled(Iterable<Integer> corporationIds,
 			boolean disabled);
 
-	public List<LPStoreCorporation> findByCorporationIdInAndDisabled(Iterable<Integer> corporationIds, boolean disabled);
+	public List<LPStoreCorporation> findByIdInAndDisabled(Iterable<Integer> corporationIds, boolean disabled);
 
 	public List<LPStoreCorporation> findAllByDisabled(boolean disabled);
 

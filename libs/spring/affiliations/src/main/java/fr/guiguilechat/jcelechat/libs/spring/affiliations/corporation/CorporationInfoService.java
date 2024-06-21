@@ -6,6 +6,7 @@ import java.util.function.Function;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -23,6 +24,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.affiliations.corporation")
+@Order(3) // depends on alliance and faction
 public class CorporationInfoService extends
     ARemoteResourceService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository>
     implements IdResolutionListener {

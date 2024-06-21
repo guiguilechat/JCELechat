@@ -23,16 +23,13 @@ public abstract class AFetchedResource<IdType> {
 	@Id
 	private IdType id;
 
-	/** date it was created */
+	/** date it was created, managed by service */
 	private Instant created;
-
-	/** true if we need to keep it up to date */
-	private boolean fetchActive = true;
 
 	/** true when the resource has already been successfuly fetched */
 	private boolean fetched = false;
 
-	/** date of the last successful update */
+	/** date of the last successful update, managed by service */
 	private Instant lastUpdate;
 
 	/** number of failures we had since the last success or creation date */

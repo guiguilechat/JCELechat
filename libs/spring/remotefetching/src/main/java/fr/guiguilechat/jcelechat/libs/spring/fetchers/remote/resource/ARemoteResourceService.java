@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import org.springframework.data.domain.Limit;
 import org.springframework.scheduling.annotation.Async;
@@ -44,31 +43,32 @@ public abstract class ARemoteResourceService<
 	// entity create & save
 	//
 
+	/**
+	 * if new entries should be activated when created. Default true.<br />
+	 * Can be changed with eg
+	 * 
+	 * <pre>{@code
+	 * @Getter(lazy = true)
+	 * private final boolean activateNewEntry = false;
+	 * }</pre>
+	 */
+	protected boolean isActivateNewEntry() {
+		return true;
+	}
+
+	@Override
+	protected Entity createMinimal(Id entityId) {
+		Entity e = super.createMinimal(entityId);
+		e.setFetchActive(isActivateNewEntry());
+		return e;
+	}
+
+	@Override
 	protected void preSave(Entity data) {
+		super.preSave(data);
 		if (data.getExpires() == null) {
 			data.setExpires(Instant.now());
 		}
-		if (data.getCreated() == null) {
-			data.setCreated(Instant.now());
-		}
-		data.setLastUpdate(Instant.now());
-	}
-
-	public Entity save(Entity data) {
-		preSave(data);
-		return repo().saveAndFlush(data);
-	}
-
-	public List<Entity> saveAll(Iterable<Entity> data) {
-		data.forEach(this::preSave);
-		return repo().saveAllAndFlush(data);
-	}
-
-	protected Entity createMinimal(Id entityId) {
-		Entity e = create(entityId);
-		e.setFetchActive(isActivateNewEntry());
-		log.trace("create entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
-		return e;
 	}
 
 	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, Id entityId) {
@@ -82,33 +82,6 @@ public abstract class ARemoteResourceService<
 			log.trace("no need to update entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
 			return CompletableFuture.completedFuture(e);
 		}
-	}
-
-	/**
-	 * ensure an entity for given id exists, does not start fetch
-	 * 
-	 * @param entityId new Id for the entity
-	 * @return entity for corresponding id
-	 */
-	@Transactional(propagation = Propagation.REQUIRES_NEW)
-	public Entity createIfAbsent(Id entityId) {
-		Entity e = repo().findById(entityId).orElse(null);
-		if (e == null) {
-			e = save(createMinimal(entityId));
-		}
-		return e;
-	}
-
-	@Transactional(propagation = Propagation.REQUIRES_NEW)
-	public Map<Id, Entity> createIfAbsent(Collection<Id> entityIds) {
-		Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-		    .collect(Collectors.toMap(ARemoteResource::getId,
-		        e -> e));
-		List<Entity> newEntities = saveAll(entityIds.stream().filter(id -> !storedEntities.containsKey(id)).distinct()
-		    .map(this::createMinimal).toList());
-
-		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
-		    .collect(Collectors.toMap(ARemoteResource::getId, e -> e));
 	}
 
 	//
@@ -353,6 +326,7 @@ public abstract class ARemoteResourceService<
 		if (listExpires == null || listExpires.isBefore(Instant.now())) {
 			Function<Map<String, String>, Requested<List<Id>>> fetcher = listFetcher();
 			if (fetcher != null) {
+				log.trace("{} started listing new entries", fetcherName());
 				Map<String, String> properties = new HashMap<>();
 				if (lastListEtag != null) {
 					properties.put(ConnectedImpl.IFNONEMATCH, lastListEtag);
@@ -377,6 +351,7 @@ public abstract class ARemoteResourceService<
 					log.warn("update service {} received null list of entities",
 					    getClass().getSimpleName());
 				}
+				log.trace("{} finished listing new entries", fetcherName());
 			}
 		}
 	}
@@ -406,7 +381,7 @@ public abstract class ARemoteResourceService<
 	}
 
 	@Override
-	protected void update() {
+	protected void fetchUpdate() {
 		long startTimeMs = System.currentTimeMillis();
 		List<Entity> list = listToUpdate();
 		int nbUpdates = list.size();
@@ -483,26 +458,6 @@ public abstract class ARemoteResourceService<
 	protected void postUpdate() {
 		super.postUpdate();
 		lastUpdateTime = Instant.now();
-	}
-
-	//
-	// general access
-	//
-
-	public Map<Id, Entity> allById() {
-		return repo().findAll().stream().collect(Collectors.toMap(Entity::getId, c -> c));
-	}
-
-	public Entity byId(Id id) {
-		return repo().findById(id).orElse(null);
-	}
-
-	public Optional<Entity> findById(Id id) {
-		return repo().findById(id);
-	}
-
-	public List<Entity> findById(Iterable<Id> ids) {
-		return repo().findAllById(ids);
 	}
 
 }

@@ -22,9 +22,9 @@ import lombok.Setter;
 @Entity(name = "EsiAffiliationsAllianceInfo")
 @Table(name = "esi_affiliations_allianceinfo", indexes = {
     @Index(columnList = "fetch_active,expires"),
-    @Index(columnList = "creatorCorporation"),
-    @Index(columnList = "executorCorporation"),
-    @Index(columnList = "faction"),
+    @Index(columnList = "creatorCorporationId"),
+    @Index(columnList = "executorCorporationId"),
+    @Index(columnList = "factionId"),
     @Index(columnList = "name")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)

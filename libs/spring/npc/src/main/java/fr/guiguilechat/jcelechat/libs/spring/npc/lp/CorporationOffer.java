@@ -21,8 +21,8 @@ import lombok.RequiredArgsConstructor;
 
 @Entity(name = "EsiLPOffer")
 @Table(name = "esi_lp_offer", indexes = {
-		@Index(columnList = "type_type_id"),
-		@Index(columnList = "corporation_corporation_id")
+    @Index(columnList = "type_id"),
+    @Index(columnList = "corporation_id")
 })
 @Data
 @Builder

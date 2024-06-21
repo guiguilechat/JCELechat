@@ -95,7 +95,7 @@ public class UpdateScheduler {
 				f.getValue().join();
 			} catch (CompletionException e) {
 				log.error(
-						"while fetching offers for corporation=" + f.getKey().getCorporationId(), e);
+				    "while fetching offers for corporation=" + f.getKey().getId(), e);
 			}
 		});
 		long endMs = System.currentTimeMillis();

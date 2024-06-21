@@ -12,11 +12,11 @@ public interface CorporationOfferRepository extends JpaRepository<CorporationOff
 
 	public List<CorporationOffer> findAllByCorporation(LPStoreCorporation lsc);
 
-	public List<CorporationOffer> findAllByCorporationCorporationIdAndOfferId(int corporationId, int offerId);
+	public List<CorporationOffer> findAllByCorporationIdAndOfferId(int corporationId, int offerId);
 
-	public List<CorporationOffer> findAllByCorporationCorporationId(int corporationId);
+	public List<CorporationOffer> findAllByCorporationId(int corporationId);
 
-	public List<CorporationOffer> findAllByCorporationCorporationIdAndLpCostGreaterThanAndLpCostLessThan(
+	public List<CorporationOffer> findAllByCorporationIdAndLpCostGreaterThanAndLpCostLessThan(
 			int corporationId, int minLPCost, int maxLPCostExc);
 
 	public List<CorporationOffer> findAllByType(Type type);

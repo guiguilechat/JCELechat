@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.affiliations.faction;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.IFetchedResourceRepository;
 
-public interface FactionInfoRepository extends JpaRepository<FactionInfo, Integer> {
+public interface FactionInfoRepository extends IFetchedResourceRepository<FactionInfo, Integer> {
 
 }

@@ -26,15 +26,15 @@ public class CorporationOfferService {
 	}
 
 	public List<CorporationOffer> forCorporationOffer(int corporationId, int offerId) {
-		return repo.findAllByCorporationCorporationIdAndOfferId(corporationId, offerId);
+		return repo.findAllByCorporationIdAndOfferId(corporationId, offerId);
 	}
 
 	public List<CorporationOffer> byCorporationId(int corporationId) {
-		return repo.findAllByCorporationCorporationId(corporationId);
+		return repo.findAllByCorporationId(corporationId);
 	}
 
 	public List<CorporationOffer> byCorporationIdRequiringLp(int corporationId, int maxLP) {
-		return repo.findAllByCorporationCorporationIdAndLpCostGreaterThanAndLpCostLessThan(corporationId, 0, maxLP + 1);
+		return repo.findAllByCorporationIdAndLpCostGreaterThanAndLpCostLessThan(corporationId, 0, maxLP + 1);
 	}
 
 	public List<CorporationOffer> producing(Type type) {

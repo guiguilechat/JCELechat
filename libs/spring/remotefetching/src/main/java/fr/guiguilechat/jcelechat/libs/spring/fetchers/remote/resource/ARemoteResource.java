@@ -27,6 +27,9 @@ public abstract class ARemoteResource<RemoteId, Fetched> extends AFetchedResourc
 	/** date the last successful update expires at */
 	private Instant expires;
 
+	/** true if we need to keep it up to date */
+	private boolean fetchActive = true;
+
 	/** returned etag value of the last successful update */
 	private String lastEtag;
 

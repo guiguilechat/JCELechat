@@ -30,7 +30,7 @@ import lombok.RequiredArgsConstructor;
 public class LPStoreCorporation {
 
 	@Id
-	private int corporationId;
+	private int id;
 
 	@OneToMany(mappedBy = "corporation", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<CorporationOffer> offers;
@@ -62,7 +62,7 @@ public class LPStoreCorporation {
 	private boolean disabled = false;
 
 	public String nameOrId() {
-		return getName() == null ? "" + getCorporationId() : getName();
+		return getName() == null ? "" + getId() : getName();
 	}
 
 }

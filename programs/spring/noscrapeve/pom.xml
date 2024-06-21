@@ -26,11 +26,19 @@ see https://hub.docker.com/repository/docker/glechat/noscrapeve/general</descrip
 		<!--		own dependencies-->
 		<dependency> 
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>affiliations</artifactId>
+		</dependency>
+		<dependency> 
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>industry</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>items</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>npc</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>

@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
+import java.util.Collection;
 import java.util.List;
 
 import org.springframework.context.annotation.Lazy;
@@ -14,8 +15,8 @@ public class TypeAttributeService {
 
 	private final TypeAttributeRepository repo;
 
-	public void deleteByType(Type type) {
-		repo.deleteByType(type);
+	public void deleteByTypes(Collection<Type> types) {
+		repo.deleteByTypeId(types.stream().map(Type::getId).toList());
 	}
 
 	public List<TypeAttribute> saveAll(Iterable<TypeAttribute> data) {

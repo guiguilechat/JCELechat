@@ -67,7 +67,6 @@ public class EffectService
 		if (received.tracking_speed_attribute_id != 0) {
 			data.setTrackingSpeedAttribute(idToAttribute.get(received.tracking_speed_attribute_id));
 		}
-		modifierService.deleteForEffect(data);
 		if (received.modifiers != null && received.modifiers.length > 0) {
 			modifierService.saveAll(Stream.of(received.modifiers).map(
 			    e -> convertModifier(e, data, idToAttribute)).toList());
@@ -98,6 +97,7 @@ public class EffectService
 		                : Stream.of(r.modifiers)
 		                    .flatMap(m -> Stream.of(m.modified_attribute_id, m.modifying_attribute_id))))
 		        .filter(o -> o != null && o != 0).distinct().toList());
+		modifierService.deleteByEffects(responseOk.keySet());
 		responseOk.entrySet().stream()
 		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToAttribute));
 	}

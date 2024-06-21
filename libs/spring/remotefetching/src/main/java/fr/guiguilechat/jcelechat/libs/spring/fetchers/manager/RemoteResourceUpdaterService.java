@@ -76,6 +76,7 @@ public class RemoteResourceUpdaterService {
 		if (skipService) {
 			return false;
 		}
+		log.trace("start fetching {}", fetchedService.fetcherName());
 		return fetchedService.fetch();
 	}
 

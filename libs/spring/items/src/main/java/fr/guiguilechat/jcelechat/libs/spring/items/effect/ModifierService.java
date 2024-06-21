@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.effect;
 
+import java.util.Collection;
 import java.util.List;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -15,8 +16,8 @@ public class ModifierService {
 
 	private final ModifierRepository repo;
 
-	public void deleteForEffect(Effect effect) {
-		repo.deleteByEffect(effect);
+	public void deleteByEffects(Collection<Effect> types) {
+		repo.deleteByEffectId(types.stream().map(Effect::getId).toList());
 	}
 
 	public Modifier save(Modifier data) {

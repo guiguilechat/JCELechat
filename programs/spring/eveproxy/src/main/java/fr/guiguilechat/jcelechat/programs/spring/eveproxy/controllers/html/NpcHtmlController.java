@@ -59,7 +59,7 @@ public class NpcHtmlController {
 
 	public URI uri(CorporationOffer offer) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getOffer", null,
-				offer.getCorporation().getCorporationId(), offer.getOfferId()).build()
+		    offer.getCorporation().getId(), offer.getOfferId()).build()
 				.toUri();
 	}
 
@@ -135,7 +135,7 @@ public class NpcHtmlController {
 
 	public URI uri(LPStoreCorporation lpc, EvalParams params) {
 		return MvcUriComponentsBuilder
-				.fromMethodName(getClass(), "getCorporationOffers", null, lpc.getCorporationId(), params).build()
+		    .fromMethodName(getClass(), "getCorporationOffers", null, lpc.getId(), params).build()
 				.toUri();
 	}
 

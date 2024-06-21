@@ -13,6 +13,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,8 +23,8 @@ import lombok.Setter;
 @Entity(name = "EsiAffiliationsCorporationInfo")
 @Table(name = "esi_affiliations_corporationinfo", indexes = {
     @Index(columnList = "fetch_active,expires"),
-    @Index(columnList = "alliance"),
-    @Index(columnList = "faction"),
+    @Index(columnList = "alliance_id"),
+    @Index(columnList = "faction_id"),
     @Index(columnList = "name")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
@@ -40,6 +41,7 @@ public class CorporationInfo extends ARemoteResource<Integer, R_get_corporations
 	/**
 	 * ID of the alliance that corporation is a member of, if any
 	 */
+	@ManyToOne
 	private AllianceInfo alliance;
 	/**
 	 * ceo_id integer
@@ -57,6 +59,7 @@ public class CorporationInfo extends ARemoteResource<Integer, R_get_corporations
 	/**
 	 * faction_id integer
 	 */
+	@ManyToOne
 	private FactionInfo faction;
 	/**
 	 * date_founded string

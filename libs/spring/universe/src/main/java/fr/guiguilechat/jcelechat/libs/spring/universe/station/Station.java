@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.station;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import org.hibernate.annotations.Cache;
@@ -93,7 +94,7 @@ public class Station extends ARemoteResource<Integer, R_get_universe_stations_st
 	 */
 	@ElementCollection
 	@Enumerated(EnumType.STRING)
-	private Set<get_universe_stations_station_id_services> services;
+	private Set<get_universe_stations_station_id_services> services = new HashSet<>();
 
 	@Override
 	public void update(R_get_universe_stations_station_id data) {
@@ -107,7 +108,7 @@ public class Station extends ARemoteResource<Integer, R_get_universe_stations_st
 		setRaceId(data.race_id);
 		setReprocessingEfficiency(data.reprocessing_efficiency);
 		setReprocessingStationsTake(data.reprocessing_stations_take);
-		setServices(Set.of(data.services));
+		setServices(new HashSet<>(Set.of(data.services)));
 	}
 
 }

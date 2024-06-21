@@ -4,9 +4,10 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -21,10 +22,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class FactionInfo {
-
-	@Id
-	private int factionId;
+public class FactionInfo extends AFetchedResource<Integer> {
 
 	@ManyToOne
 	private CorporationInfo corporation;
@@ -32,6 +30,7 @@ public class FactionInfo {
 	/**
 	 * description string
 	 */
+	@Column(columnDefinition = "TEXT")
 	private String description;
 
 	/**
@@ -67,7 +66,7 @@ public class FactionInfo {
 	/**
 	 * is_unique boolean
 	 */
-	private boolean unique;
+	private boolean uniq;
 
 	public void update(R_get_universe_factions data) {
 		setDescription(data.description);
@@ -77,7 +76,7 @@ public class FactionInfo {
 		setSolarSystemId(data.solar_system_id);
 		setStationCount(data.station_count);
 		setStationSystemSount(data.station_system_count);
-		setUnique(data.is_unique);
+		setUniq(data.is_unique);
 	}
 
 }

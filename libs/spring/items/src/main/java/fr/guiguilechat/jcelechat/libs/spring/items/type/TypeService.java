@@ -77,7 +77,6 @@ public class TypeService
 	    Map<Integer, Attribute> idToAttribute,
 	    Map<Integer, Effect> idToEffect) {
 		data.setGroup(idToGroup.get(received.group_id));
-		typeAttributeService.deleteByType(data);
 		if (received.dogma_attributes != null) {
 			List<TypeAttribute> typeAttributes = new ArrayList<>();
 			for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes a : received.dogma_attributes) {
@@ -89,6 +88,7 @@ public class TypeService
 			}
 			typeAttributeService.saveAll(typeAttributes);
 		}
+		data.getEffectsDefault().clear();
 		if (received.dogma_effects != null) {
 			for (get_dogma_dynamic_items_type_id_item_id_dogma_effects e : received.dogma_effects) {
 				Effect eff = idToEffect.get(e.effect_id);
@@ -110,6 +110,7 @@ public class TypeService
 		    .createIfAbsent(responseOk.values().stream()
 		        .flatMap(r -> r.dogma_effects == null ? Stream.empty() : Stream.of(r.dogma_effects))
 		        .map(da -> da.effect_id).distinct().toList());
+		typeAttributeService.deleteByTypes(responseOk.keySet());
 		responseOk.entrySet().stream()
 		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToGroup, idToAttribute, idToEffect));
 	}

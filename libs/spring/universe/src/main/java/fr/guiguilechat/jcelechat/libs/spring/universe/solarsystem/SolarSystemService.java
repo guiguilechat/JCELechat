@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt.AsteroidBelt;
 import fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt.AsteroidBeltService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.ConstellationService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.moon.Moon;
 import fr.guiguilechat.jcelechat.libs.spring.universe.moon.MoonService;
@@ -118,9 +119,10 @@ public class SolarSystemService extends
 	protected void updateResponseOk(SolarSystem data,
 	    R_get_universe_systems_system_id received,
 	    Map<Integer, AsteroidBelt> abIdToEntity,
+	    Map<Integer, Constellation> idToConstellation,
 	    Map<Integer, Moon> moonIdToEntity,
 	    Map<Integer, Planet> planetIdToEntity) {
-		data.setConstellation(constellationService.createIfAbsent(received.constellation_id));
+		data.setConstellation(idToConstellation.get(received.constellation_id));
 		if (received.planets != null && received.planets.length > 0) {
 			if (planets) {
 				for (get_universe_systems_system_id_planets planetData : received.planets) {
@@ -150,6 +152,13 @@ public class SolarSystemService extends
 		        .filter(p -> p.asteroid_belts != null).flatMapToInt(p -> IntStream.of(p.asteroid_belts))
 		        .boxed().toList())
 		    : Map.of();
+
+
+		log.trace("creating constellations");
+		Map<Integer, Constellation> idToConstellation = constellationService
+		    .createIfAbsent(responseOk.values().stream()
+		        .mapToInt(s -> s.constellation_id).distinct()
+		        .boxed().toList());
 
 		log.trace("creating moons");
 		Map<Integer, Moon> idToMoon = moons ? moonService
@@ -190,7 +199,8 @@ public class SolarSystemService extends
 
 		log.trace("creating systems");
 		responseOk.entrySet().stream()
-		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToAsteroidBelt, idToMoon, idToPlanet));
+		    .forEach(
+		        e -> updateResponseOk(e.getKey(), e.getValue(), idToAsteroidBelt, idToConstellation, idToMoon, idToPlanet));
 
 		log.trace("saving asteroid belts");
 		// save them because their solarSystem should be changed

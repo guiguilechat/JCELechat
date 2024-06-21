@@ -44,9 +44,9 @@ public class CorporationOfferUpdateService {
 			properties.put(ConnectedImpl.IFNONEMATCH, lsc.getLastEtag());
 		}
 		Requested<R_get_loyalty_stores_corporation_id_offers[]> offers = ESIRawPublic.INSTANCE
-				.get_loyalty_stores_offers(lsc.getCorporationId(), properties);
+		    .get_loyalty_stores_offers(lsc.getId(), properties);
 		if (offers.isOk()) {
-			log.debug("  fetched " + offers.getOK().length + " lp offers for corporation " + lsc.getCorporationId());
+			log.debug("  fetched " + offers.getOK().length + " lp offers for corporation " + lsc.getId());
 			offerRequirementService.clearForCorporation(lsc);
 			corporationOfferService.clearFor(lsc);
 			if (offers.getOK() != null && offers.getOK().length > 0) {
@@ -54,7 +54,7 @@ public class CorporationOfferUpdateService {
 						.map(offer -> convert(lsc, offer))
 						.toList());
 
-				log.debug("  created " + created.size() + " lp offers for corporation " + lsc.getCorporationId());
+				log.debug("  created " + created.size() + " lp offers for corporation " + lsc.getId());
 			}
 			lsc.setLastEtag(offers.getETag());
 			lsc.setLastError(null);
@@ -72,7 +72,7 @@ public class CorporationOfferUpdateService {
 			// change the next fetch ?
 			lsc.setLastFetch(Instant.now().plusSeconds(3600));
 			lpStoreCorporationService.save(lsc);
-			log.error("while fetching orders for corporation " + lsc.getCorporationId() + " : " + offers.getResponseCode()
+			log.error("while fetching orders for corporation " + lsc.getId() + " : " + offers.getResponseCode()
 					+ " " + offers.getError());
 		}
 		return CompletableFuture.completedFuture(null);

@@ -17,6 +17,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.Index;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -27,9 +28,9 @@ import lombok.Setter;
 @Table(name = "esi_affiliations_characterinformation", indexes = {
     @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "name"),
-    @Index(columnList = "alliance"),
-    @Index(columnList = "corporation"),
-    @Index(columnList = "faction")
+    @Index(columnList = "alliance_id"),
+    @Index(columnList = "corporation_id"),
+    @Index(columnList = "faction_id")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
@@ -38,6 +39,7 @@ import lombok.Setter;
 @Setter
 public class CharacterInformation extends ARemoteResource<Integer, R_get_characters_character_id> {
 
+	@ManyToOne
 	private AllianceInfo alliance;
 
 	/**
@@ -53,6 +55,7 @@ public class CharacterInformation extends ARemoteResource<Integer, R_get_charact
 	/**
 	 * The character's corporation ID
 	 */
+	@ManyToOne
 	private CorporationInfo corporation;
 
 	/**
@@ -65,6 +68,7 @@ public class CharacterInformation extends ARemoteResource<Integer, R_get_charact
 	 * ID of the faction the character is fighting for, if the character is enlisted
 	 * in Factional Warfare
 	 */
+	@ManyToOne
 	private FactionInfo faction;
 
 	/**
