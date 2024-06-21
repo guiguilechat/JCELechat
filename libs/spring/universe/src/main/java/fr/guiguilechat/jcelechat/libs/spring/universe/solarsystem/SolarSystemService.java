@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt.AsteroidBelt;
 import fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt.AsteroidBeltService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.ConstellationService;
@@ -36,7 +36,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.universe.solarsystem")
 @Order(3)
 public class SolarSystemService extends
-    ARemoteFetchedResourceService<SolarSystem, Integer, R_get_universe_systems_system_id, SolarSystemRepository> {
+    ARemoteResourceService<SolarSystem, Integer, R_get_universe_systems_system_id, SolarSystemRepository> {
 
 	@Lazy
 	private final AsteroidBeltService asteroidBeltService;

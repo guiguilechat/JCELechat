@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.effect;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
 
-public interface EffectRepository extends IRemoteFetchedResourceRepository<Effect, Integer> {
+public interface EffectRepository extends IRemoteResourceRepository<Effect, Integer> {
 
 }

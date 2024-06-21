@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.planet;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
 
-public interface PlanetRepository extends IRemoteFetchedResourceRepository<Planet, Integer> {
+public interface PlanetRepository extends IRemoteResourceRepository<Planet, Integer> {
 
 }

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve;
+package fr.guiguilechat.jcelechat.libs.spring.fetchers.resolve.id;
 
 import java.util.HashMap;
 import java.util.List;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -23,7 +23,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.resolve.name")
 public class IdResolutionService
-    extends ARemoteFetchedResourceService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
+    extends ARemoteResourceService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
 
 	@Lazy
 	private final Optional<List<IdResolutionListener>> idResolutionListeners;

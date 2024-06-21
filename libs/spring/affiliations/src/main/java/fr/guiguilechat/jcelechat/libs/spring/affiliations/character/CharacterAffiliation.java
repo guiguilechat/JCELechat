@@ -6,7 +6,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -28,7 +28,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class CharacterAffiliation extends ARemoteFetchedResource<Integer, R_post_characters_affiliation> {
+public class CharacterAffiliation extends ARemoteResource<Integer, R_post_characters_affiliation> {
 
 	/** The character's alliance ID, if their corporation is in an alliance */
 	private AllianceInfo alliance;

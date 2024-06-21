@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.status.ESIStatusService;
 import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContract;
 import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContractService;
 import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContractUpdateService;
@@ -20,7 +21,6 @@ import fr.guiguilechat.jcelechat.libs.spring.market.history.HistoryUpdateService
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegionService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionMarketUpdateService;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.status.ESIStatusService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

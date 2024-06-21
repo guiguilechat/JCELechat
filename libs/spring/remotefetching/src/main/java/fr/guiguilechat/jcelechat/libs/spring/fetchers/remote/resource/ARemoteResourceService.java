@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource;
+package fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
@@ -17,7 +17,6 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Limit;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.transaction.annotation.Propagation;
@@ -26,42 +25,20 @@ import org.springframework.transaction.annotation.Transactional;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.ExecutionService;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.status.ESIStatusService;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResourceService;
 import jakarta.annotation.PostConstruct;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
-import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetchedResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteFetchedResourceRepository<Entity, Id>> {
+public abstract class ARemoteResourceService<
+			Entity extends ARemoteResource<Id, Fetched>,
+			Id,
+			Fetched,
+			Repository extends IRemoteResourceRepository<Entity, Id>>
+    extends AFetchedResourceService<Entity, Id, Repository> {
 
-	@Autowired // can't use constructor injection for generic service
-	@Accessors(fluent = true)
-	@Getter
-	private Repository repo;
-
-	@Autowired // can't use constructor injection for generic service
-	@Accessors(fluent = true)
-	@Getter
-	private ESIStatusService esiStatusService;
-
-	@Autowired // can't use constructor injection for generic service
-	@Accessors(fluent = true)
-	@Getter
-	private ExecutionService executionService;
-
-	/**
-	 * @return actual class name. Used to avoid proxy name when called from outside
-	 *           service
-	 */
-	public String fetcherName() {
-		return getClass().getSimpleName();
-	}
 
 	//
 	// entity create & save
@@ -86,21 +63,6 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		data.forEach(this::preSave);
 		return repo().saveAllAndFlush(data);
 	}
-
-	/**
-	 * if new entries should be activated when created. Default true.<br />
-	 * Can be changed with eg
-	 * 
-	 * <pre>{@code
-	 * @Getter(lazy = true)
-	 * private final boolean activateNewEntry = false;
-	 * }</pre>
-	 */
-	protected boolean isActivateNewEntry() {
-		return true;
-	}
-
-	protected abstract Entity create(Id entityId);
 
 	protected Entity createMinimal(Id entityId) {
 		Entity e = create(entityId);
@@ -140,13 +102,13 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, Entity> createIfAbsent(Collection<Id> entityIds) {
 		Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-		    .collect(Collectors.toMap(ARemoteFetchedResource::getId,
+		    .collect(Collectors.toMap(ARemoteResource::getId,
 		        e -> e));
 		List<Entity> newEntities = saveAll(entityIds.stream().filter(id -> !storedEntities.containsKey(id)).distinct()
 		    .map(this::createMinimal).toList());
 
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
-		    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
+		    .collect(Collectors.toMap(ARemoteResource::getId, e -> e));
 	}
 
 	//
@@ -174,7 +136,7 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, CompletableFuture<Entity>> createFetchIfNeeded(Collection<Id> entityIds) {
 		Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-		    .collect(Collectors.toMap(ARemoteFetchedResource::getId, e -> e));
+		    .collect(Collectors.toMap(ARemoteResource::getId, e -> e));
 		return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
 		    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
 	}
@@ -365,117 +327,15 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 		data.setExpiresInRandom(data.getSuccessiveErrors() * 60);
 	}
 
-	@Getter
-	@Setter
-	@ToString()
-	public static class Update {
-
-		/**
-		 * if true, skip the fetch. If false, never skip. if null, use
-		 * RemoteResourceUpdaterService value
-		 */
-		private Boolean skip = null;
-
-		/** max number of fetch each cycle */
-		private int max = 1000;
-
-		/** if we have this number or more remain errors, use max updates */
-		private int errorsForMax = 90;
-
-		/** if we have this number or less remaining errors, we skip the fetching */
-		private int errorsMin = 10;
-
-		/** minimum delay, in s, between two fetch cycles. Ignored if &lt;0 */
-		private int delay = 0;
-
-		/** maximum queries per second for this service. */
-		private float rate = 1000;
-
-		/**
-		 * delay to wait for next fetch cycle when there is no update. Ignored if lower
-		 * than {@link #getDelay()}
-		 */
-		private int delayUpdated = 60;
-	}
-
-	@Getter
-	private final Update update = new Update();
-
 	@PostConstruct
 	public void debugConfig() {
 		log.debug("initialized {} with {}", getClass().getSimpleName(), getUpdate());
 	}
 
-	private Instant nextUpdateTime = null;
-	private Instant lastUpdateTime = null;
-	private int lastBatchSize = 0;
+	//
+	// pre update is fetching new elements if possible
+	//
 
-	/**
-	 * @return number of remaining entities that could be updated
-	 */
-	public long nbToUpdate() {
-		return repo().countByFetchActiveTrueAndExpiresLessThan(Instant.now());
-	}
-
-	/**
-	 * List the next entities to update.
-	 * <p>
-	 * This is using two limit on the number of returned entities, using the lowest
-	 * one of :
-	 * <ol>
-	 * <li>a per-cycle limit that is then reduced as the errors allowed is
-	 * reduced</li>
-	 * <li>a per-second limit that is applied assuming instantaneous fetch and
-	 * remember the start and batch size of the previous successful call</li>
-	 * </ol>
-	 * </p>
-	 * 
-	 * @return the next entities that are to be updated
-	 */
-	public List<Entity> listToUpdate() {
-		// skip if delay not met
-		if (nextUpdateTime != null && nextUpdateTime.isAfter(Instant.now())) {
-			return List.of();
-		}
-		// create delay to next
-		int delay = Math.max(update.delay, 0);
-		if (update.delayUpdated > delay && nbToUpdate() == 0) {
-			delay = update.delayUpdated;
-			log.debug(" {} no more data to update({}), extended delay {}s", fetcherName(), nbToUpdate(), delay);
-		}
-		nextUpdateTime = Instant.now().plusSeconds(delay);
-		// define qtty to get from the cycle and errors
-		int maxFromCycle = getUpdate().getMax();
-		int remainErrors = esiStatusService.availErrors();
-		if (remainErrors <= update.errorsMin) {
-			maxFromCycle = 0;
-		} else if (remainErrors < update.errorsForMax) {
-			maxFromCycle = (int) Math.ceil(1.0 * maxFromCycle * update.errorsForMax / remainErrors);
-		}
-		// define qtty to get from the rate
-		int maxFromRate = getUpdate().getMax();
-		if (lastUpdateTime != null) {
-			long elapsedms = Instant.now().toEpochMilli() - lastUpdateTime.toEpochMilli();
-			maxFromRate = (int) (update.rate * elapsedms / 1000 - lastBatchSize);
-		}
-		//
-		lastBatchSize = Math.min(maxFromCycle, maxFromRate);
-		log.debug(" {} fetch={} limits: rate={} cycle={}", fetcherName(), lastBatchSize, maxFromRate, maxFromCycle);
-		lastUpdateTime = Instant.now();
-		return lastBatchSize < 1
-		    ? List.of()
-		    : repo.findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));
-	}
-
-	public int update(List<Entity> data) {
-		log.trace("{} updating list of {} elements}", fetcherName(), data.size());
-		Map<Entity, Fetched> successes = fetchData(data);
-		updateResponseOk(successes);
-		int success = successes.size();
-		saveAll(data);
-		log.trace(" {} updated list of {} elements", fetcherName(), data.size());
-		return success;
-	}
 
 	//
 	// list updating methods
@@ -487,7 +347,9 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	private Instant listExpires = null;
 
 	/** check new entries */
-	public void checkNewEntries() {
+
+	@Override
+	protected void preUpdate() {
 		if (listExpires == null || listExpires.isBefore(Instant.now())) {
 			Function<Map<String, String>, Requested<List<Id>>> fetcher = listFetcher();
 			if (fetcher != null) {
@@ -530,23 +392,117 @@ public abstract class ARemoteFetchedResourceService<Entity extends ARemoteFetche
 	}
 
 	//
+	// actual update
+	//
+
+	private int lastBatchSize = 0;
+
+	/**
+	 * @return number of remaining entities that could be updated
+	 */
+	@Override
+	public long nbToUpdate() {
+		return repo().countByFetchActiveTrueAndExpiresLessThan(Instant.now());
+	}
+
+	@Override
+	protected void update() {
+		long startTimeMs = System.currentTimeMillis();
+		List<Entity> list = listToUpdate();
+		int nbUpdates = list.size();
+		int nbSuccess = update(list);
+		long nbRemain = nbToUpdate();
+		long endTimeMs = System.currentTimeMillis();
+		if (nbUpdates > 0) {
+			log.info("{} updated {}/{} in {} ms, remain {}",
+			    fetcherName(),
+			    nbSuccess, nbUpdates,
+			    endTimeMs - startTimeMs, nbRemain);
+		}
+	}
+
+	private Instant lastUpdateTime = null;
+
+	protected int nextBatchSize() {
+		// define qtty to get from the cycle and errors
+		int maxFromCycle = getUpdate().getMax();
+		int remainErrors = esiStatusService().availErrors();
+		if (remainErrors <= getUpdate().getErrorsMin()) {
+			maxFromCycle = 0;
+		} else if (remainErrors < getUpdate().getErrorsForMax()) {
+			maxFromCycle = (int) Math.ceil(1.0 * maxFromCycle * getUpdate().getErrorsForMax() / remainErrors);
+		}
+		// define qtty to get from the rate
+		int maxFromRate = getUpdate().getMax();
+		if (lastUpdateTime != null) {
+			long elapsedms = Instant.now().toEpochMilli() - lastUpdateTime.toEpochMilli();
+			maxFromRate = (int) (getUpdate().getRate() * elapsedms / 1000 - lastBatchSize);
+		}
+		int ret = Math.min(maxFromCycle, maxFromRate);
+		log.debug(" {} fetch={} limits: rate={} cycle={}", fetcherName(), ret, maxFromRate, maxFromCycle);
+		return ret;
+	}
+
+	/**
+	 * List the next entities to update.
+	 * <p>
+	 * This is using two limit on the number of returned entities, using the lowest
+	 * one of :
+	 * <ol>
+	 * <li>a per-cycle limit that is then reduced as the errors allowed is
+	 * reduced</li>
+	 * <li>a per-second limit that is applied assuming instantaneous fetch and
+	 * remember the start and batch size of the previous successful call</li>
+	 * </ol>
+	 * </p>
+	 * 
+	 * @return the next entities that are to be updated
+	 */
+	protected List<Entity> listToUpdate() {
+		lastBatchSize = nextBatchSize();
+		return lastBatchSize < 1
+		    ? List.of()
+		    : repo().findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));
+	}
+
+	protected int update(List<Entity> data) {
+		log.trace("{} updating list of {} elements}", fetcherName(), data.size());
+		Map<Entity, Fetched> successes = fetchData(data);
+		updateResponseOk(successes);
+		int success = successes.size();
+		saveAll(data);
+		log.trace(" {} updated list of {} elements", fetcherName(), data.size());
+		return success;
+	}
+
+	//
+	// post update is saving end of fetch to use as base for rate limit.
+	//
+
+	@Override
+	protected void postUpdate() {
+		super.postUpdate();
+		lastUpdateTime = Instant.now();
+	}
+
+	//
 	// general access
 	//
 
 	public Map<Id, Entity> allById() {
-		return repo.findAll().stream().collect(Collectors.toMap(Entity::getId, c -> c));
+		return repo().findAll().stream().collect(Collectors.toMap(Entity::getId, c -> c));
 	}
 
 	public Entity byId(Id id) {
-		return repo.findById(id).orElse(null);
+		return repo().findById(id).orElse(null);
 	}
 
 	public Optional<Entity> findById(Id id) {
-		return repo.findById(id);
+		return repo().findById(id);
 	}
 
 	public List<Entity> findById(Iterable<Id> ids) {
-		return repo.findAllById(ids);
+		return repo().findAllById(ids);
 	}
 
 }

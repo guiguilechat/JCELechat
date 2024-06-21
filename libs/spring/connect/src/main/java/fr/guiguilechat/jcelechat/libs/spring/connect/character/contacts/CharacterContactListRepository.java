@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact.CharacterContactList;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
 
 public interface CharacterContactListRepository
-    extends IRemoteFetchedResourceRepository<CharacterContactList, Integer> {
+    extends IRemoteResourceRepository<CharacterContactList, Integer> {
 
 }

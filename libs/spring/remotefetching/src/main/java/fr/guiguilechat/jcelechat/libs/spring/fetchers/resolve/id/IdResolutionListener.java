@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.remotefetching.resolve;
+package fr.guiguilechat.jcelechat.libs.spring.fetchers.resolve.id;
 
 /** implement in a service to listen to new id resolved */
 public interface IdResolutionListener {

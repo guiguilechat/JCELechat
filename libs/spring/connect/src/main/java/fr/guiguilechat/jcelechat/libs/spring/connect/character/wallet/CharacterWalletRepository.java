@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
 
-public interface CharacterWalletRepository extends IRemoteFetchedResourceRepository<CharacterWallet, Integer> {
+public interface CharacterWalletRepository extends IRemoteResourceRepository<CharacterWallet, Integer> {
 
 }

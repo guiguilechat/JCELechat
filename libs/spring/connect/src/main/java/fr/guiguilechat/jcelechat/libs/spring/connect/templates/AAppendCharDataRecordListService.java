@@ -2,10 +2,10 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
 
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.AFetchedListElement;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.IFetchedListElementRepository;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.IFetchedListElementRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
 
 /**
  * Only append the new entries instead of deleting the old ones.
@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.IRemoteFetc
 public abstract class AAppendCharDataRecordListService <
     Entity extends AFetchedList<Integer, Fetched, ListRecord>,
 	Fetched,
-    Repository extends IRemoteFetchedResourceRepository<Entity, Integer>,
+    Repository extends IRemoteResourceRepository<Entity, Integer>,
 	ListRecord extends AFetchedListElement<?, Entity>,
 	RecordRepo extends IFetchedListElementRepository<Entity, ListRecord>>
 extends ACharDataRecordListService<Entity, Fetched, Repository, ListRecord, RecordRepo> {

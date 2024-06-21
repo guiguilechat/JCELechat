@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.affiliations.character;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
 
 public interface CharacterAffiliationRepository
-    extends IRemoteFetchedResourceRepository<CharacterAffiliation, Integer> {
+    extends IRemoteResourceRepository<CharacterAffiliation, Integer> {
 
 }

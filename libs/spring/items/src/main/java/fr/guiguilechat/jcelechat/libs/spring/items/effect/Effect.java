@@ -2,8 +2,8 @@ package fr.guiguilechat.jcelechat.libs.spring.items.effect;
 
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -31,7 +31,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Effect extends ARemoteFetchedResource<Integer, R_get_dogma_effects_effect_id> {
+public class Effect extends ARemoteResource<Integer, R_get_dogma_effects_effect_id> {
 
 	/**
 	 * dischargeAttributeId integer

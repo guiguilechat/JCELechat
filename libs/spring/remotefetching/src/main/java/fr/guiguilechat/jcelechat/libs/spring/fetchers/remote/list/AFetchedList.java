@@ -1,13 +1,13 @@
-package fr.guiguilechat.jcelechat.libs.spring.remotefetching.list;
+package fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Character data that is fetched as a list of items.
+ * Fetched resource that contains a list of elements
  * 
  * @param <Fetched>    type fetched in a array, from the remote.
  * @param <RecordType> entity to store the record as
@@ -18,7 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 public abstract class AFetchedList<Id, Fetched, RecordType extends AFetchedListElement<?, ?>>
-    extends ARemoteFetchedResource<Id, Fetched[]> {
+    extends ARemoteResource<Id, Fetched[]> {
 
 	@Override
 	public void update(Fetched[] data) {

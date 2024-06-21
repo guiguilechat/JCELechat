@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.star;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.IRemoteFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
 
-public interface StarRepository extends IRemoteFetchedResourceRepository<Star, Integer> {
+public interface StarRepository extends IRemoteResourceRepository<Star, Integer> {
 
 }

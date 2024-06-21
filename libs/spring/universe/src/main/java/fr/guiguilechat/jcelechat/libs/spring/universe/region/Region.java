@@ -5,7 +5,7 @@ import java.util.List;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
 import jakarta.persistence.Column;
@@ -28,7 +28,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Region extends ARemoteFetchedResource<Integer, R_get_universe_regions_region_id> {
+public class Region extends ARemoteResource<Integer, R_get_universe_regions_region_id> {
 
 	@OneToMany(mappedBy = "region")
 	private List<Constellation> constellations;

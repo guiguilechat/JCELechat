@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.resource.ARemoteFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
 import lombok.RequiredArgsConstructor;
@@ -27,7 +27,7 @@ import lombok.RequiredArgsConstructor;
 @ConfigurationProperties(prefix = "esi.universe.region")
 @Order(1)
 public class RegionService
-    extends ARemoteFetchedResourceService<Region, Integer, R_get_universe_regions_region_id, RegionRepository>
+    extends ARemoteResourceService<Region, Integer, R_get_universe_regions_region_id, RegionRepository>
     implements SdeUpdateListener {
 
 	@Override

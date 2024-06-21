@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact.CharacterContactList;
-import fr.guiguilechat.jcelechat.libs.spring.remotefetching.list.IFetchedListElementRepository;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.IFetchedListElementRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_contacts_contact_type;
 
 public interface CharacterContactRepository extends IFetchedListElementRepository<CharacterContactList, CharacterContact> {

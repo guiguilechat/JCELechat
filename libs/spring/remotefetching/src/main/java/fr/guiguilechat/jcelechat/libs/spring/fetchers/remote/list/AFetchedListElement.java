@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.remotefetching.list;
+package fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -12,7 +12,7 @@ import lombok.experimental.SuperBuilder;
 
 /**
  * @param <Self>          self implementation
- * @param <FetchResource> actual entity that hold the fetch parameters.
+ * @param <FetchResource> entity list that contains the elements
  */
 @SuperBuilder(toBuilder = true)
 @Getter
