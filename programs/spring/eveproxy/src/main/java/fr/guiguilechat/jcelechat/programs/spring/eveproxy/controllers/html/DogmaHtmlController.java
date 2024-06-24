@@ -32,7 +32,7 @@ import fr.guiguilechat.jcelechat.libs.spring.market.order.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.LocatedBestOffer;
-import fr.guiguilechat.jcelechat.libs.spring.npc.lp.CorporationOfferService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.prices.services.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
@@ -50,7 +50,7 @@ public class DogmaHtmlController {
 
 	private final CategoryService categoryService;
 
-	private final CorporationOfferService corporationOfferService;
+	private final LinkCorporationOfferService linkCorporationOfferService;
 
 	private final EivService eivService;
 
@@ -227,9 +227,9 @@ public class DogmaHtmlController {
 					.toList();
 			model.addAttribute("productOf", productOf);
 			List<LinkedLPOffer> offers =
-					corporationOfferService.producing(t).stream()
+			    linkCorporationOfferService.producing(t).stream()
 							.map(npcHtmlController::linkedLPOffer)
-							.sorted(Comparator.comparing(lo -> lo.offer().name()))
+			        .sorted(Comparator.comparing(LinkedLPOffer::name))
 							.toList();
 			model.addAttribute("offers", offers);
 			model.addAttribute("manufacturingUses",

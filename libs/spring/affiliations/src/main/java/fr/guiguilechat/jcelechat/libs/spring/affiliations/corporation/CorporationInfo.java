@@ -117,4 +117,8 @@ public class CorporationInfo extends ARemoteResource<Integer, R_get_corporations
 		setWarEligible(data.war_eligible);
 	}
 
+	public String nameOrId() {
+		return name != null ? name : "unknown_" + getId();
+	}
+
 }

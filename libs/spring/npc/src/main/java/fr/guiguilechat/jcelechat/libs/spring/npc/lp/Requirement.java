@@ -11,38 +11,41 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
-@Entity(name = "EsiLPOfferRequirement")
-@Table(name = "esi_lp_offer_requirement", indexes = {
+@Entity(name = "EsiNpcLPRequirement")
+@Table(name = "esi_npc_lprequirement", indexes = {
     @Index(columnList = "type_id"),
     @Index(columnList = "offer_id")
 })
-@Data
-@Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class OfferRequirement {
+@Builder
+@Getter
+@Setter
+public class Requirement {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
 
 	@ManyToOne
-	private CorporationOffer offer;
+	private Offer offer;
 
 	@ManyToOne
 	private Type type;
 
 	private int quantity;
 
-	public static OfferRequirement of(R_get_loyalty_stores_corporation_id_offers_required_items item,
-			CorporationOffer offer, Type type) {
+	public static Requirement of(R_get_loyalty_stores_corporation_id_offers_required_items item,
+	    Offer offer, Type type) {
 		return builder()
 				.offer(offer)
+		    .type(type)
+
 				.quantity(item.quantity)
-				.type(type)
 				.build();
 	}
 

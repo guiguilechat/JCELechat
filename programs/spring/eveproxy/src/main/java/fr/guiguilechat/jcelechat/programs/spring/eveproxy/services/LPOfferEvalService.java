@@ -19,8 +19,9 @@ import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.valuation.MaterialSourcing;
 import fr.guiguilechat.jcelechat.libs.spring.market.valuation.ProductValuator;
-import fr.guiguilechat.jcelechat.libs.spring.npc.lp.CorporationOffer;
-import fr.guiguilechat.jcelechat.libs.spring.npc.lp.OfferRequirement;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOffer;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Offer;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Requirement;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
 import lombok.Builder;
@@ -61,7 +62,7 @@ public class LPOfferEvalService {
 	@Builder
 	public static class LPOfferEval {
 
-		private final CorporationOffer offer;
+		private final LinkCorporationOffer corpOffer;
 		private long offerQuantity;
 		private long lpQuantity;
 		private Type product;
@@ -76,14 +77,18 @@ public class LPOfferEvalService {
 		private double gain;
 		private double iskplp;
 
+		public Offer getOffer() {
+			return corpOffer.getOffer();
+		}
 
-		public static LPOfferEval of(CorporationOffer offer, long offerQuantity, Type product, Type finalProduct,
+
+		public static LPOfferEval of(LinkCorporationOffer offer, long offerQuantity, Type product, Type finalProduct,
 				long productQuantity, double productUnitPrice, double productIncome, Map<Integer, Long> materialsByTypeId,
 				double materialCost, double marginCost, double tediousCost) {
 			return builder()
-					.offer(offer)
+			    .corpOffer(offer)
 					.offerQuantity(offerQuantity)
-					.lpQuantity(offer.getLpCost() * offerQuantity)
+			    .lpQuantity(offer.getOffer().getLpCost() * offerQuantity)
 					.product(product)
 					.finalProduct(finalProduct)
 					.productQuantity(productQuantity)
@@ -94,7 +99,8 @@ public class LPOfferEvalService {
 					.marginCost(marginCost)
 					.tediousCost(tediousCost)
 					.gain(productIncome - materialCost - marginCost - tediousCost)
-					.iskplp((productIncome - materialCost - marginCost - tediousCost) / offer.getLpCost() / offerQuantity)
+			    .iskplp(
+			        (productIncome - materialCost - marginCost - tediousCost) / offer.getOffer().getLpCost() / offerQuantity)
 					.build();
 		}
 
@@ -117,19 +123,20 @@ public class LPOfferEvalService {
 	/**
 	 * value once we have already fetched data from DB.
 	 */
-	LPOfferEval value(CorporationOffer offer, int maxLpAmount, MaterialSourcing materialSourcing,
+	LPOfferEval value(LinkCorporationOffer lco, int maxLpAmount, MaterialSourcing materialSourcing,
 			ProductValuator productValuator,
 			double brokerPct, double taxPct, double marginPct, double marginPctPerHour, double bpCost,
 			Map<Integer, List<BlueprintActivity>> typeToActivities, Map<Integer, List<RegionLine>> bosByTypeId,
 			Map<Integer, List<RegionLine>> sosByTypeId) {
 
+		Offer offer = lco.getOffer();
 		long offerQuantity = (long) Math.floor(1.0 * maxLpAmount / offer.getLpCost());
 		if (offerQuantity < 1) {
 			return null;
 		}
 		double tediousCost = 0.0;
 		HashMap<Integer, Long> requiredMats = new HashMap<>();
-		for (OfferRequirement r : offer.getRequirements()) {
+		for (Requirement r : offer.getRequirements()) {
 			long required = offerQuantity * r.getQuantity();
 			requiredMats.put(r.getType().getId(), required + requiredMats.getOrDefault(r.getType().getId(), 0l));
 		}
@@ -168,28 +175,30 @@ public class LPOfferEvalService {
 		    bosByTypeId.get(product.getId()), sosByTypeId.get(product.getId()));
 		double marginCost = productUnitPrice * productQuantity * (marginPct + timeMarginPct) / 100;
 
-		return LPOfferEval.of(offer, offerQuantity, offer.getType(), product, productQuantity, productUnitPrice,
+		return LPOfferEval.of(lco, offerQuantity, offer.getType(), product, productQuantity, productUnitPrice,
 				productIncome, requiredMats, materialCost, marginCost, tediousCost);
 	}
 
 	/** give a value as cost, gain, isk/lp etc. to LP offers */
 	@Transactional
-	public List<LPOfferEval> value(List<CorporationOffer> offers, int maxLpAmount, MaterialSourcing materialSourcing,
+	public List<LPOfferEval> value(List<LinkCorporationOffer> corporationOffers, int maxLpAmount,
+	    MaterialSourcing materialSourcing,
 			ProductValuator productValuator,
 			double brokerPct, double taxPct, double marginPct, double marginPctPerHour, double bpCost,
 			long marketLocationId) {
 		// the activities of blueprints that are a product of an offer
 		long start = System.currentTimeMillis();
 		Map<Integer, List<BlueprintActivity>> typeToActivities = blueprintActivityService
-		    .forBPActivity(offers.stream().map(co -> co.getType().getId()).toList(),
+		    .forBPActivity(corporationOffers.stream().map(co -> co.getOffer().getType().getId()).toList(),
 						List.of(ACTIVITY_TYPE.manufacturing))
 		    .stream().collect(Collectors.groupingBy(ac -> ac.getType().getId()));
 		long activitiesFetched = System.currentTimeMillis();
 		Set<Integer> allIds = Stream.of(
 				// products of offers
-		    offers.stream().map(o -> o.getType().getId()),
+		    corporationOffers.stream().map(o -> o.getOffer().getType().getId()),
 				// offer requirements
-		    offers.stream().flatMap(offer -> offer.getRequirements().stream()).map(or -> or.getType().getId()),
+		    corporationOffers.stream().flatMap(offer -> offer.getOffer().getRequirements().stream())
+		        .map(or -> or.getType().getId()),
 				// products of bp
 				typeToActivities.values().stream().flatMap(List::stream).flatMap(bpa -> bpa.getProducts().stream())
 		        .map(pr -> pr.getType().getId()),
@@ -202,13 +211,13 @@ public class LPOfferEvalService {
 		long bosFetched = System.currentTimeMillis();
 		Map<Integer, List<RegionLine>> sosByTypeId = regionLineService.locationSos(marketLocationId, allIds);
 		long sosFetched = System.currentTimeMillis();
-		List<LPOfferEval> ret = offers.parallelStream()
-				.map(o -> value(o, maxLpAmount, materialSourcing, productValuator, brokerPct, taxPct, marginPct,
+		List<LPOfferEval> ret = corporationOffers.parallelStream()
+		    .map(o -> value(o, maxLpAmount, materialSourcing, productValuator, brokerPct, taxPct, marginPct,
 						marginPctPerHour, bpCost, typeToActivities, bosByTypeId, sosByTypeId))
 				.filter(ev -> ev != null)
 		    .toList();
 		long evaluated = System.currentTimeMillis();
-		log.debug(" evaluated " + offers.size()
+		log.debug(" evaluated " + corporationOffers.size()
 				+ " offers"
 				+ " activitiesFetched=" + (activitiesFetched - start) + "ms"
 				+ " idsGathered=" + (idsGathered - activitiesFetched) + "ms"

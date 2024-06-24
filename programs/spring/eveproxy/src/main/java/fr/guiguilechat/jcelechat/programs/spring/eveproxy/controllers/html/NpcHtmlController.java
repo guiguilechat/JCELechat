@@ -3,11 +3,11 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
 import java.net.URI;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Map.Entry;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,10 +15,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.npc.lp.CorporationOffer;
-import fr.guiguilechat.jcelechat.libs.spring.npc.lp.CorporationOfferService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LPStoreCorporation;
-import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LPStoreCorporationService;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOffer;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.ObservedCorporation;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.ObservedCorporationService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Offer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService;
@@ -31,43 +34,50 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class NpcHtmlController {
 
-	private final CorporationOfferService corporationOfferService;
+	private final CorporationInfoService corporationInfoService;
 
-	private final LPStoreCorporationService lpStoreCorporationService;
+	private final LinkCorporationOfferService linkCorporationOfferService;
+
+	private final ObservedCorporationService observedCorporationService;
 
 	private final LPOfferEvalService offerValueService;
 
 	@Lazy
 	private final DogmaHtmlController dogmaHtmlController;
 
+	@Transactional
 	@GetMapping("/corporation/{corporationId}/offer/{offerId}")
 	public String getOffer(Model model, @PathVariable int corporationId, @PathVariable int offerId) {
-		List<CorporationOffer> offers = corporationOfferService.forCorporationOffer(corporationId, offerId);
+		List<LinkCorporationOffer> offers = linkCorporationOfferService.forCorporationOffer(corporationId, offerId);
 		if (offers.size() != 1) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND,
 					"found " + offers.size() + " offer for corporation " + corporationId + " and offer id " + offerId);
 		}
-		CorporationOffer offer = offers.get(0);
+		LinkCorporationOffer link = offers.get(0);
+		Offer offer = link.getOffer();
 		model.addAttribute("offer", offer);
 		model.addAttribute("offerMats", offer.getRequirements().stream()
 				.map(mat -> dogmaHtmlController.linkedMaterial(mat.getType(), mat.getQuantity()))
 				.toList());
-		model.addAttribute("corporation", linkedCorporationInfo(offer.getCorporation()));
+		model.addAttribute("corporation", linkedObservedCorporation(link.getObserved()));
 		model.addAttribute("product", dogmaHtmlController.linkedType(offer.getType()));
 		return "npc/offer";
 	}
 
-	public URI uri(CorporationOffer offer) {
+	public URI uri(LinkCorporationOffer link) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getOffer", null,
-		    offer.getCorporation().getId(), offer.getOfferId()).build()
+		    link.getObserved().getId(), link.getOffer().getId()).build()
 				.toUri();
 	}
 
-	public static record LinkedLPOffer(String url, CorporationOffer offer) {
-
+	public static record LinkedLPOffer(String url, LinkCorporationOffer offer) {
+		public String name() {
+			Offer off = offer.getOffer();
+			return off.getType().getName() + (off.getQuantity() > 1 ? "×" + off.getQuantity() : "");
+		}
 	}
 
-	public LinkedLPOffer linkedLPOffer(CorporationOffer offer) {
+	public LinkedLPOffer linkedLPOffer(LinkCorporationOffer offer) {
 		return new LinkedLPOffer(uri(offer).toString(), offer);
 	}
 
@@ -75,15 +85,14 @@ public class NpcHtmlController {
 			List<LinkedMaterial> materials) {
 
 		public String name() {
-			return "[" + eval.getOffer().getCorporation().getName() + "] "
-					+ (eval.getOffer().getQuantity() > 1 ? eval.getOffer().getQuantity() + "×" : "")
+			return (eval.getOffer().getQuantity() > 1 ? eval.getOffer().getQuantity() + "×" : "")
 					+ eval.getProduct().getName();
 		}
 	}
 
 	public LinkedLPOfferEval linkedLPOfferEval(LPOfferEval eval) {
 		return new LinkedLPOfferEval(
-				uri(eval.getOffer()).toString(),
+		    uri(eval.getCorpOffer()).toString(),
 				eval,
 				dogmaHtmlController.linkedType(eval.getFinalProduct()),
 				eval.getMaterialsByTypeId().entrySet().stream()
@@ -96,24 +105,25 @@ public class NpcHtmlController {
 	public String getCorporationOffers(Model model, @PathVariable int corporationId,
 			EvalParams params) {
 
-		LPStoreCorporation corp = lpStoreCorporationService.byId(corporationId).orElse(null);
-		model.addAttribute("corpName", corp == null ? "" + corporationId : corp.nameOrId());
+		CorporationInfo corp = corporationInfoService.byId(corporationId);
+		model.addAttribute("corpName", corp == null ? "absent_" + corporationId : corp.nameOrId());
 
-		LPStoreCorporation prevCorp = lpStoreCorporationService.prevCorp(corp);
+		ObservedCorporation prevCorp = observedCorporationService.prevCorp(corp.nameOrId());
 		if (prevCorp != null) {
-			model.addAttribute("prevCorpName", prevCorp.nameOrId());
+			model.addAttribute("prevCorpName", prevCorp.getCorporationInfo().nameOrId());
 			model.addAttribute("prevCorpUrl",
 					uri(prevCorp, params).toString());
 		}
 
-		LPStoreCorporation nextCorp = lpStoreCorporationService.nextCorp(corp);
+		ObservedCorporation nextCorp = observedCorporationService.nextCorp(corp.nameOrId());
 		if (nextCorp != null) {
-			model.addAttribute("nextCorpName", nextCorp.nameOrId());
+			model.addAttribute("nextCorpName", nextCorp.getCorporationInfo().nameOrId());
 			model.addAttribute("nextCorpUrl",
 					uri(nextCorp, params).toString());
 		}
 
-		List<CorporationOffer> offers = corporationOfferService.byCorporationIdRequiringLp(corporationId, params.getLp());
+		List<LinkCorporationOffer> offers = linkCorporationOfferService.byObservedIdRequiringLp(corporationId,
+		    params.getLp());
 
 		model.addAttribute("offers",
 				offerValueService.value(offers, params.getLp(), params.getMaterialSourcing(), params.getProductValuator(),
@@ -129,35 +139,31 @@ public class NpcHtmlController {
 		return "npc/corporation";
 	}
 
-	public URI uri(LPStoreCorporation lpc) {
-		return uri(lpc, new EvalParams());
-	}
-
-	public URI uri(LPStoreCorporation lpc, EvalParams params) {
+	public URI uri(ObservedCorporation corporation, EvalParams params) {
 		return MvcUriComponentsBuilder
-		    .fromMethodName(getClass(), "getCorporationOffers", null, lpc.getId(), params).build()
+		    .fromMethodName(getClass(), "getCorporationOffers", null, corporation.getId(), params).build()
 				.toUri();
 	}
 
-	public static record LinkedCorporationInfo(String url, String name, int nbOffers) {
+	public URI uri(ObservedCorporation corporation) {
+		return uri(corporation, new EvalParams());
+	}
+
+	public static record LinkedObservedCorporation(String url, String name, int nbOffers) {
 
 	}
 
-	public LinkedCorporationInfo linkedCorporationInfo(LPStoreCorporation corp) {
-		return new LinkedCorporationInfo(uri(corp).toString(), corp.nameOrId(), corp.getOffers().size());
-	}
-
-	public LinkedCorporationInfo linkedCorporationInfo(Entry<LPStoreCorporation, Integer> entry) {
-		return new LinkedCorporationInfo(uri(entry.getKey()).toString(), entry.getKey().nameOrId(), entry.getValue());
+	public LinkedObservedCorporation linkedObservedCorporation(ObservedCorporation corp) {
+		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporationInfo().getName(), corp.getNbOffers());
 	}
 
 	@GetMapping("/corporations")
 	public String corporationsIndex(Model model) {
 		model.addAttribute("corporations",
-				lpStoreCorporationService.countOffers().entrySet().stream()
-						.map(this::linkedCorporationInfo)
+		    observedCorporationService.allById().values().stream()
+						.map(this::linkedObservedCorporation)
 						.filter(ci -> ci.nbOffers() > 0)
-						.sorted(Comparator.comparing(LinkedCorporationInfo::name))
+		        .sorted(Comparator.comparing(LinkedObservedCorporation::name))
 						.toList());
 		return "npc/corporations";
 	}
