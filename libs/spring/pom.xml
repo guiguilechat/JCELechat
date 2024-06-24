@@ -18,7 +18,6 @@
 		<module>connect</module>
 		<module>industry</module>
 		<module>items</module>
-		<module>lp</module>
 		<module>market</module>
 		<module>mer</module>
 		<module>npc</module>
