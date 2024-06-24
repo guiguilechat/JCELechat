@@ -6,7 +6,7 @@ import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteRes
 
 public interface ObservedCorporationRepository extends IRemoteResourceRepository<ObservedCorporation, Integer> {
 
-	List<ObservedCorporation> findByNbOffersGreaterThan0OrderByNameAsc();
+	List<ObservedCorporation> findByNbOffersGreaterThanOrderByCorporationNameAsc(int minLP);
 
 	ObservedCorporation findTop1ByCorporationNameLessThanOrderByCorporationNameDesc(String name);
 

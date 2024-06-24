@@ -110,14 +110,14 @@ public class NpcHtmlController {
 
 		ObservedCorporation prevCorp = observedCorporationService.prevCorp(corp.nameOrId());
 		if (prevCorp != null) {
-			model.addAttribute("prevCorpName", prevCorp.getCorporationInfo().nameOrId());
+			model.addAttribute("prevCorpName", prevCorp.getCorporation().nameOrId());
 			model.addAttribute("prevCorpUrl",
 					uri(prevCorp, params).toString());
 		}
 
 		ObservedCorporation nextCorp = observedCorporationService.nextCorp(corp.nameOrId());
 		if (nextCorp != null) {
-			model.addAttribute("nextCorpName", nextCorp.getCorporationInfo().nameOrId());
+			model.addAttribute("nextCorpName", nextCorp.getCorporation().nameOrId());
 			model.addAttribute("nextCorpUrl",
 					uri(nextCorp, params).toString());
 		}
@@ -154,7 +154,7 @@ public class NpcHtmlController {
 	}
 
 	public LinkedObservedCorporation linkedObservedCorporation(ObservedCorporation corp) {
-		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporationInfo().getName(), corp.getNbOffers());
+		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporation().getName(), corp.getNbOffers());
 	}
 
 	@GetMapping("/corporations")

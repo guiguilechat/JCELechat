@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -24,7 +25,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.npc.lpcorporation")
-// depend on corporations
+// depend on corporations, types
 @Order(4)
 public class ObservedCorporationService extends
     ARemoteResourceService<ObservedCorporation, Integer, List<R_get_loyalty_stores_corporation_id_offers>, ObservedCorporationRepository> {
@@ -49,7 +50,7 @@ public class ObservedCorporationService extends
 	protected ObservedCorporation create(Integer entityId) {
 		ObservedCorporation ret = new ObservedCorporation();
 		ret.setId(entityId);
-		ret.setCorporationInfo(corporationInfoService.createIfAbsent(entityId));
+		ret.setCorporation(corporationInfoService.createIfAbsent(entityId));
 		return ret;
 	}
 
@@ -135,16 +136,15 @@ public class ObservedCorporationService extends
 		return false;
 	}
 
+	@Override
+	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
+		return p -> ESIRawPublic.INSTANCE.get_corporations_npccorps(p).mapBody(List::of);
+	}
+
 	// external usage
 
 	public List<ObservedCorporation> allWithOffers() {
-		return repo().findByNbOffersGreaterThan0OrderByNameAsc();
-	}
-
-	@Override
-	public Map<Integer, ObservedCorporation> allById() {
-		return repo().findAll().stream()
-		    .collect(Collectors.toMap(ObservedCorporation::getId, oc -> oc));
+		return repo().findByNbOffersGreaterThanOrderByCorporationNameAsc(0);
 	}
 
 	public ObservedCorporation prevCorp(String name) {

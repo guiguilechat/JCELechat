@@ -44,11 +44,11 @@ public class LinkCorporationOfferService {
 	 * @return
 	 */
 	public List<LinkCorporationOffer> producing(Type t) {
-		return repo().findAllByOfferTypeOrderbyCorporationNameAscOrderIdAsc(t);
+		return repo().findAllByOfferTypeOrderByCorporationNameAscOfferIdAsc(t);
 	}
 
 	public List<LinkCorporationOffer> byObservedIdRequiringLp(int observedId, int lpQuantity) {
-		return repo().findAllByObservedIdAndOfferLPCostGreaterThanOrderbyOrderIdAsc(observedId, lpQuantity);
+		return repo().findAllByObservedIdAndOfferLpCostGreaterThanOrderByOfferIdAsc(observedId, lpQuantity);
 	}
 
 }

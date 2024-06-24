@@ -12,6 +12,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_l
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -21,7 +22,7 @@ import lombok.Setter;
 @Entity(name = "EsiNpcLpCorporation")
 @Table(name = "esi_npc_lpcorporation", indexes = {
     @Index(columnList = "fetch_active,expires"),
-    @Index(columnList = "corporationInfoId")
+    @Index(columnList = "corporationId")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
@@ -30,7 +31,8 @@ import lombok.Setter;
 @Setter
 public class ObservedCorporation extends ARemoteResource<Integer, List<R_get_loyalty_stores_corporation_id_offers>> {
 
-	private CorporationInfo corporationInfo;
+	@OneToOne(optional = false)
+	private CorporationInfo corporation;
 
 	private int nbOffers = 0;
 
