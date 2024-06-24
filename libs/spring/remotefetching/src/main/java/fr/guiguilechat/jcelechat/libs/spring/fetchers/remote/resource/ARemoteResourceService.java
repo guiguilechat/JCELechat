@@ -161,8 +161,8 @@ public abstract class ARemoteResourceService<
 				updateNoChange(data, response);
 				break;
 			default:
-				log.error("while updating data remoteid {} info class {}, received response code {} and error {}",
-				    data.getId(), data.getClass().getSimpleName(), responseCode, response.getError());
+				log.error("while updating {} id {}, received response code {} and error {}",
+				    data.getClass().getSimpleName(), data.getId(), responseCode, response.getError());
 				switch (responseCode / 100) {
 				case 4:
 					updateRequestError(data, response);
