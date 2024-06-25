@@ -1,28 +1,31 @@
 version: '3.8'
 services:
    db:
-      container_name: noscrape-postgres-db
-      image: postgres:16.0-alpine
+      container_name: noscrape-oracle-db
+      image: gvenzl/oracle-xe:21.3.0-slim-faststart
       environment:
-      - POSTGRES_USER=noscrape
-      - POSTGRES_PASSWORD=noscrape
+      - APP_USER=noscrape
+      - APP_USER_PASSWORD=noscrape
+      - ORACLE_DATABASE=noscrape
+      - ORACLE_PASSWORD=noscrape
       ports:
-      - 45432:5432
+      - 31521:1521
       restart: unless-stopped
       shm_size: '512mb'# actually MB
    server:
-      container_name: noscrape-postgres-server
+      container_name: noscrape-oracle-server
       depends_on:
       - db
       image: glechat/noscrapeve:latest
       environment:
       - SPRING_DATASOURCE_PASSWORD=noscrape
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/noscrape
+      # default is jdbc:oracle:thin:@localhost:1521/XEPDB1
+      - SPRING_DATASOURCE_URL=jdbc:oracle:thin:db:1521/noscrape
       - SPRING_DATASOURCE_USERNAME=noscrape
 # use memory cache
       - SPRING_CACHE_TYPE=simple
       ports:
-      - 48080:8080
+      - 38080:8080
       restart: unless-stopped
       deploy:
          resources:

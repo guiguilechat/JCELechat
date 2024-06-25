@@ -1,7 +1,10 @@
 version: '3.8'
+
+# start a H2 DB which writes the DB in local dir
+
 services:
-   tomcat:
-      container_name: noscrape-tomcat
+   server:
+      container_name: noscrape-h2-server
       deploy:
          resources:
             limits:
@@ -9,15 +12,10 @@ services:
       image: glechat/noscrapeve:latest
       environment:
       - SPRING_DATASOURCE_URL=jdbc:h2:/db/export_db
-# hibernate
-      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
-      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_BATCH_SIZE=100
-      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_FETCH_SIZE=100
-      - SPRING_JPA_PROPERTIES_HIBERNATE_JDBC_ORDER_INSERTS=true
 # use memory cache
       - SPRING_CACHE_TYPE=simple
       ports:
-      - 8080:8080
+      - 18080:8080
       restart: unless-stopped
       volumes:
       - ./:/db

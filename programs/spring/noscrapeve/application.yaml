@@ -69,14 +69,3 @@ spring:
       password: admin
       url: jdbc:h2:./db/export
       username: admin
-   jpa:
-      generate-ddl: true
-      hibernate:
-         ddl-auto: update
-      open-in-view: false
-      properties:
-         hibernate:
-            jdbc:
-               batch_size: 50
-               fetch_size: 50
-            order_insert: true

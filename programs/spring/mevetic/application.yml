@@ -9,17 +9,6 @@ spring:
       password: admin
       url: jdbc:h2:mem:mevetic;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
       username: admin
-   jpa: 
-      # activate the generation of the DB on app start
-      generate-ddl: true
-      open-in-view: false
-      properties:
-         hibernate:
-            batch_versioned_data: true
-            jdbc:
-               batch_size: 50
-               fetch_size: 50
-            order_updates: true
    mvc:
  #     log-request-details: true
    security:

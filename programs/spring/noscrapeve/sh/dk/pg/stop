@@ -1,4 +1,0 @@
-FILE=docker/compose/noscrape-postgresql.yml
-
-# stop and destroy
-docker compose -f "$FILE" down --remove-orphans --rmi all -v
