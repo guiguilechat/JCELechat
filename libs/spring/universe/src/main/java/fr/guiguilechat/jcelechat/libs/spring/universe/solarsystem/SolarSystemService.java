@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
@@ -22,8 +23,11 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.moon.Moon;
 import fr.guiguilechat.jcelechat.libs.spring.universe.moon.MoonService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.planet.Planet;
 import fr.guiguilechat.jcelechat.libs.spring.universe.planet.PlanetService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.star.Star;
 import fr.guiguilechat.jcelechat.libs.spring.universe.star.StarService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.Stargate;
 import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.StargateService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_universe_systems_system_id_planets;
@@ -145,68 +149,105 @@ public class SolarSystemService extends
 	@Override
 	protected void updateResponseOk(Map<SolarSystem, R_get_universe_systems_system_id> responseOk) {
 		super.updateResponseOk(responseOk);
-		log.trace("creating asteroid belts");
-		Map<Integer, AsteroidBelt> idToAsteroidBelt = asteroidbelts ? asteroidBeltService
-		    .createIfAbsent(responseOk.values().stream()
-		        .filter(s -> s.planets != null).flatMap(s -> Stream.of(s.planets))
-		        .filter(p -> p.asteroid_belts != null).flatMapToInt(p -> IntStream.of(p.asteroid_belts))
-		        .boxed().toList())
-		    : Map.of();
 
+		long start;
 
+		Map<Integer, AsteroidBelt> idToAsteroidBelt = new HashMap<>();
+		if (asteroidbelts) {
+			start = System.currentTimeMillis();
+			log.trace("creating asteroid belts");
+			idToAsteroidBelt.putAll(asteroidBeltService
+			    .createIfAbsent(responseOk.values().stream()
+			        .filter(s -> s.planets != null).flatMap(s -> Stream.of(s.planets))
+			        .filter(p -> p.asteroid_belts != null).flatMapToInt(p -> IntStream.of(p.asteroid_belts))
+			        .boxed().toList()));
+			log.trace(" created {} asteroid belts in {} s", idToAsteroidBelt.size(),
+			    (System.currentTimeMillis() - start) / 1000);
+		}
+
+		start = System.currentTimeMillis();
 		log.trace("creating constellations");
 		Map<Integer, Constellation> idToConstellation = constellationService
 		    .createIfAbsent(responseOk.values().stream()
 		        .mapToInt(s -> s.constellation_id).distinct()
 		        .boxed().toList());
+		log.trace(" created {} constellations in {} s", idToConstellation.size(),
+		    (System.currentTimeMillis() - start) / 1000);
 
-		log.trace("creating moons");
-		Map<Integer, Moon> idToMoon = moons ? moonService
-		    .createIfAbsent(responseOk.values().stream()
-		        .filter(s -> s.planets != null).flatMap(s -> Stream.of(s.planets))
-		        .filter(p -> p.moons != null).flatMapToInt(p -> IntStream.of(p.moons))
-		        .boxed().toList())
-		    : Map.of();
+		Map<Integer, Moon> idToMoon = new HashMap<>();
+		if (moons) {
+			start = System.currentTimeMillis();
+			log.trace("creating moons");
+			idToMoon.putAll(moonService
+			    .createIfAbsent(responseOk.values().stream()
+			        .filter(s -> s.planets != null).flatMap(s -> Stream.of(s.planets))
+			        .filter(p -> p.moons != null).flatMapToInt(p -> IntStream.of(p.moons))
+			        .boxed().toList()));
+			log.trace(" created {} moons in {} s", idToMoon.size(), (System.currentTimeMillis() - start) / 1000);
+		}
 
-		log.trace("creating planets");
-		Map<Integer, Planet> idToPlanet = planets ? planetService
-		    .createIfAbsent(responseOk.values().stream()
-		        .filter(s -> s.planets != null).flatMap(s -> Stream.of(s.planets))
-		        .mapToInt(p -> p.planet_id)
-		        .boxed().toList())
-		    : Map.of();
+		Map<Integer, Planet> idToPlanet = new HashMap<>();
+		if (planets) {
+			start = System.currentTimeMillis();
+			log.trace("creating planets");
+			idToPlanet.putAll(planetService
+			    .createIfAbsent(responseOk.values().stream()
+			        .filter(s -> s.planets != null).flatMap(s -> Stream.of(s.planets))
+			        .mapToInt(p -> p.planet_id)
+			        .boxed().toList()));
+			log.trace(" created {} planets in {} s", idToPlanet.size(), (System.currentTimeMillis() - start) / 1000);
+		}
 
-		log.trace("creating stars");
+		Map<Integer, Star> idToStar = new HashMap<>();
 		if (stars) {
-			starService.createIfAbsent(responseOk.values().stream()
-			        .filter(s -> s.star_id != 0).mapToInt(s -> s.star_id)
-			    .boxed().toList());
+			start = System.currentTimeMillis();
+			log.trace("creating stars");
+			idToStar.putAll(starService.createIfAbsent(responseOk.values().stream()
+			    .filter(s -> s.star_id != 0).mapToInt(s -> s.star_id)
+			    .boxed().toList()));
+			log.trace(" created {} stars in {} s", idToStar.size(), (System.currentTimeMillis() - start) / 1000);
 		}
 
-		log.trace("creating stargates");
+		Map<Integer, Stargate> idToStargate = new HashMap<>();
 		if (stargates) {
-			stargateService.createIfAbsent(responseOk.values().stream()
-			        .filter(s -> s.stargates != null).flatMapToInt(s -> IntStream.of(s.stargates))
-			    .boxed().toList());
+			start = System.currentTimeMillis();
+			log.trace("creating stargates");
+			idToStargate.putAll(stargateService.createIfAbsent(responseOk.values().stream()
+			    .filter(s -> s.stargates != null).flatMapToInt(s -> IntStream.of(s.stargates))
+			    .boxed().toList()));
+			log.trace(" created {} stargates in {} s", idToStargate.size(), (System.currentTimeMillis() - start) / 1000);
 		}
 
-		log.trace("creating stations");
+		Map<Integer, Station> idToStation = new HashMap<>();
 		if (stations) {
-			stationService.createIfAbsent(responseOk.values().stream()
-			        .filter(s -> s.stations != null).flatMapToInt(s -> IntStream.of(s.stations))
-			    .boxed().toList());
+			start = System.currentTimeMillis();
+			log.trace("creating stations");
+			idToStation.putAll(stationService.createIfAbsent(responseOk.values().stream()
+			    .filter(s -> s.stations != null).flatMapToInt(s -> IntStream.of(s.stations))
+			    .boxed().toList()));
+			log.trace(" created {} stations in {} s", idToStation.size(), (System.currentTimeMillis() - start) / 1000);
 		}
 
-		log.trace("creating systems");
 		responseOk.entrySet().stream()
 		    .forEach(
 		        e -> updateResponseOk(e.getKey(), e.getValue(), idToAsteroidBelt, idToConstellation, idToMoon, idToPlanet));
 
-		log.trace("saving asteroid belts");
-		// save them because their solarSystem should be changed
-		asteroidBeltService.saveAll(idToAsteroidBelt.values());
-		log.trace("saving moons");
-		moonService.saveAll(idToMoon.values());
+		if (asteroidbelts) {
+			start = System.currentTimeMillis();
+			log.trace("saving {} asteroid belts", idToAsteroidBelt.size());
+			// save them because their solarSystem should be changed
+			asteroidBeltService.saveAll(idToAsteroidBelt.values());
+			log.trace(" saved {} asteroid belts in {} s", idToAsteroidBelt.size(),
+			    (System.currentTimeMillis() - start) / 1000);
+		}
+
+		if (moons) {
+			start = System.currentTimeMillis();
+			log.trace("saving {} moons", idToMoon.size());
+			moonService.saveAll(idToMoon.values());
+			log.trace(" saved {} moons in {} s", idToMoon.size(),
+			    (System.currentTimeMillis() - start) / 1000);
+		}
 	}
 
 	/**

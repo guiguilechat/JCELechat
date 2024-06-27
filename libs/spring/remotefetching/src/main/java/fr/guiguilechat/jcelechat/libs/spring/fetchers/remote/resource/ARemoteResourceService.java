@@ -385,10 +385,10 @@ public abstract class ARemoteResourceService<
 		long startTimeMs = System.currentTimeMillis();
 		List<Entity> list = listToUpdate();
 		int nbUpdates = list.size();
-		int nbSuccess = update(list);
-		long nbRemain = nbToUpdate();
-		long endTimeMs = System.currentTimeMillis();
 		if (nbUpdates > 0) {
+			int nbSuccess = update(list);
+			long nbRemain = nbToUpdate();
+			long endTimeMs = System.currentTimeMillis();
 			log.info("{} updated {}/{} in {} ms, remain {}",
 			    fetcherName(),
 			    nbSuccess, nbUpdates,

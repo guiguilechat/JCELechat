@@ -19,8 +19,17 @@ services:
       - SPRING_DATASOURCE_PASSWORD=noscrape
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/noscrape
       - SPRING_DATASOURCE_USERNAME=noscrape
+#actuators
+      - management_endpoint_env_show-values=ALWAYS
+      - management_endpoint_configprops_keys-to-sanitize=ALWAYS
 # use memory cache
       - SPRING_CACHE_TYPE=simple
+# logging
+      - logging_level_fr_guiguilechat_jcelechat_libs_spring_universe_solarsystem=trace
+# disable fetching of moons and asteroid belts
+      - esi_universe_solarsystem_asteroidbelts=false
+      - esi_universe_solarsystem_planets=false
+      - esi_universe_solarsystem_moons=false
       ports:
       - 48080:8080
       restart: unless-stopped
