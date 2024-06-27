@@ -1,23 +1,24 @@
 version: '3.8'
 services:
    database:
-      container_name: noscrape-postgres-db
-      image: postgres:16.0-alpine
+      container_name: noscrape-mysql-db
+      image: mysql:8.0
       environment:
-      - POSTGRES_USER=noscrape
-      - POSTGRES_PASSWORD=noscrape
+      - MYSQL_DATABASE=noscrape
+      - MYSQL_PASSWORD=noscrape
+      - MYSQL_USER=noscrape
       ports:
-      - 45432:5432
+      - 23306:3306
       restart: unless-stopped
       shm_size: '512mb'# actually MB
    server:
-      container_name: noscrape-postgres-server
+      container_name: noscrape-mysql-server
       depends_on:
       - database
       image: glechat/noscrapeve:latest
       environment:
       - SPRING_DATASOURCE_PASSWORD=noscrape
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://database:5432/noscrape
+      - SPRING_DATASOURCE_URL=jdbc:mysql://database:3306/basics?allowPublicKeyRetrieval=true
       - SPRING_DATASOURCE_USERNAME=noscrape
 #actuators
       - management_endpoint_env_show-values=ALWAYS
@@ -31,7 +32,7 @@ services:
       - esi_universe_solarsystem_planets=false
       - esi_universe_solarsystem_moons=false
       ports:
-      - 48080:8080
+      - 28080:8080
       restart: unless-stopped
       deploy:
          resources:

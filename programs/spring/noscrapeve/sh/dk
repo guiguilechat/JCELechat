@@ -22,6 +22,10 @@ do
 			CONTAINER=noscrape-h2-server
 			FILE=docker/compose/noscrape-h2.yml
 		;;
+		ms | mysql)
+			CONTAINER=noscrape-mysql-server
+			FILE=docker/compose/noscrape-mysql.yml
+		;;
 		pg | postgres)
 			CONTAINER=noscrape-postgres-server
 			FILE=docker/compose/noscrape-postgresql.yml
