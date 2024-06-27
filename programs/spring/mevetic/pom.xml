@@ -132,6 +132,18 @@
 				</configuration>
 				<executions>
 					<execution>
+						<id>package-latest</id>
+						<configuration>
+							<image>
+								<publish>false</publish>
+							</image>
+						</configuration>
+						<goals>
+							<goal>build-image-no-fork</goal>
+						</goals>
+						<phase>package</phase>
+					</execution>
+					<execution>
 						<id>build-version</id>
 						<configuration>
 							<image>
