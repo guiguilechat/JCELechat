@@ -18,7 +18,7 @@ services:
       image: glechat/noscrapeve:latest
       environment:
       - SPRING_DATASOURCE_PASSWORD=noscrape
-      - SPRING_DATASOURCE_URL=jdbc:mysql://database:3306/basics?allowPublicKeyRetrieval=true
+      - SPRING_DATASOURCE_URL=jdbc:mysql://database:3306/noscrape?useSSL=false&allowPublicKeyRetrieval=true
       - SPRING_DATASOURCE_USERNAME=noscrape
 #actuators
       - management_endpoint_env_show-values=ALWAYS

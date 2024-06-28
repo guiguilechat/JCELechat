@@ -22,6 +22,12 @@ services:
       - SPRING_DATASOURCE_USERNAME=noscrape
 # use memory cache
       - SPRING_CACHE_TYPE=simple
+# logging
+      - logging_level_fr_guiguilechat_jcelechat_libs_spring_universe_solarsystem=trace
+# disable fetching of moons and asteroid belts
+      - esi_universe_solarsystem_asteroidbelts=false
+      - esi_universe_solarsystem_planets=false
+      - esi_universe_solarsystem_moons=false
       ports:
       - 38080:8080
       restart: unless-stopped
