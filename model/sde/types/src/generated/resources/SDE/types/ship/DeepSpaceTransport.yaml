@@ -436,7 +436,7 @@ types:
     name: Torrent
     packagedVolume: 20000.0
     portionSize: 1
-    poweroutput: 230
+    poweroutput: 265
     powertospeed: 1
     price: 1.734E8
     propulsiongraphicid: 395

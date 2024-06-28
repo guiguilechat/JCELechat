@@ -438,7 +438,7 @@ types:
     name: Deluge
     packagedVolume: 20000.0
     portionSize: 1
-    poweroutput: 180
+    poweroutput: 190
     powertospeed: 1
     price: 1.115E8
     propulsiongraphicid: 395

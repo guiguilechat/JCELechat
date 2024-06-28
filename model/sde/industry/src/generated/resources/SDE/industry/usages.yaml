@@ -86074,6 +86074,7 @@ usages:
       37538: null
       40521: null
       81086: null
+      81922: null
     productOfManuf: !!set
       21948: null
     reprocessInto:
@@ -86109,6 +86110,7 @@ usages:
       47515: null
       47516: null
       81080: null
+      81826: null
   21949:
     materialInManuf: !!set
       36960: null
@@ -86168,6 +86170,7 @@ usages:
       37538: null
       40521: null
       81086: null
+      81922: null
     productOfManuf: !!set
       21952: null
     reprocessInto:
@@ -86203,6 +86206,7 @@ usages:
       47515: null
       47516: null
       81080: null
+      81826: null
   21953:
     materialInManuf: !!set
       36967: null
@@ -86330,6 +86334,7 @@ usages:
       36978: null
       40521: null
       81086: null
+      81922: null
     productOfManuf: !!set
       21960: null
     reprocessInto:
@@ -86360,6 +86365,7 @@ usages:
       47515: null
       47516: null
       81080: null
+      81826: null
   21961:
     materialInManuf: !!set
       36966: null
@@ -86490,6 +86496,7 @@ usages:
       36978: null
       40521: null
       81086: null
+      81922: null
     productOfManuf: !!set
       21968: null
     reprocessInto:
@@ -86521,6 +86528,7 @@ usages:
       47515: null
       47516: null
       81080: null
+      81826: null
   21969:
     materialInManuf: !!set
       36968: null
@@ -136870,6 +136878,14 @@ usages:
       2875: 6.0
       2876: 4.0
       21037: 1.0
+  81826:
+    productOfManuf: !!set
+      81922: null
+    reprocessInto:
+      21947: 3.0
+      21951: 1.0
+      21959: 1.0
+      21967: 1.0
   81900:
     compressFrom: 81902
     reprocessInto:
@@ -136894,6 +136910,9 @@ usages:
       34: 3.45
       35: 2.3
       36: 6.33
+  81920:
+    materialInManuf: !!set
+      81922: null
   81948:
     materialInManuf: !!set
       81952: null
@@ -136984,26 +137003,26 @@ usages:
   82163:
     compressFrom: 82314
     reprocessInto:
-      34: 16.0
-      37: 0.8
+      34: 20.0
+      37: 1.2
       39: 0.6
   82164:
     compressTo: 82163
     reprocessInto:
-      34: 16.8
-      37: 0.84
+      34: 21.0
+      37: 1.26
       39: 0.63
   82165:
     compressTo: 82163
     reprocessInto:
-      34: 17.6
-      37: 0.88
+      34: 22.0
+      37: 1.32
       39: 0.66
   82166:
     compressTo: 82163
     reprocessInto:
-      34: 18.4
-      37: 0.92
+      34: 23.0
+      37: 1.38
       39: 0.69
   82205:
     compressFrom: 82310
@@ -137096,26 +137115,26 @@ usages:
   82312:
     compressTo: 82163
     reprocessInto:
-      34: 16.0
-      37: 0.8
+      34: 20.0
+      37: 1.2
       39: 0.6
   82313:
     compressTo: 82163
     reprocessInto:
-      34: 16.8
-      37: 0.84
+      34: 21.0
+      37: 1.26
       39: 0.63
   82314:
     compressTo: 82163
     reprocessInto:
-      34: 17.6
-      37: 0.88
+      34: 22.0
+      37: 1.32
       39: 0.66
   82315:
     compressTo: 82163
     reprocessInto:
-      34: 18.4
-      37: 0.92
+      34: 23.0
+      37: 1.38
       39: 0.69
   82316:
     compressTo: 81975

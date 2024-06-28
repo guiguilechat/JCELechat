@@ -6966,7 +6966,7 @@ types:
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
-    signatureradius: 1000.0
+    signatureradius: 32000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000.0
@@ -7008,7 +7008,7 @@ types:
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
-    signatureradius: 1000.0
+    signatureradius: 32000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000.0
@@ -7050,7 +7050,7 @@ types:
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
-    signatureradius: 1000.0
+    signatureradius: 32000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000.0
@@ -7092,7 +7092,7 @@ types:
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
-    signatureradius: 1000.0
+    signatureradius: 32000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000.0
@@ -7134,7 +7134,7 @@ types:
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
-    signatureradius: 1000.0
+    signatureradius: 32000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000.0
@@ -7176,7 +7176,7 @@ types:
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
-    signatureradius: 1000.0
+    signatureradius: 32000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000.0

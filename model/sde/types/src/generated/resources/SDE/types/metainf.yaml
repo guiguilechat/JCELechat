@@ -267,6 +267,7 @@ id2group:
   655: ship/Hauler
   656: ship/Hauler
   657: ship/Hauler
+  670: ship/Capsule
   671: ship/Titan
   672: ship/Shuttle
   683: blueprint/FrigateBlueprint
@@ -30341,12 +30342,14 @@ id2group:
   81648: entity/HomefrontOperationsHauler
   81649: entity/HomefrontOperationsHauler
   81660: abstrct/Miscellaneous
+  81826: structure/UpwellMoonDrill
   81896: skill/Science
   81900: asteroid/Kylixium
   81901: asteroid/Kylixium
   81902: asteroid/Kylixium
   81903: asteroid/Kylixium
   81920: structuremodule/QuantumCores
+  81922: blueprint/StructureBlueprints
   81945: material/RogueDroneComponents
   81946: blueprint/TractorBeamBlueprint
   81947: blueprint/TractorBeamBlueprint
@@ -30746,7 +30749,7 @@ id2group:
   83604: blueprint/SupportFighterBlueprint
   83605: blueprint/SupportFighterBlueprint
   83606: blueprint/SupportFighterBlueprint
-  83635: entity/HomefrontOperationsNoncombatant
+  83635: entity/HomefrontOperationsStructure
   83636: entity/DeadspaceSerpentisDestroyer
   83637: entity/DeadspaceSerpentisBattleCruiser
   83638: entity/DeadspaceSerpentisBattleship
@@ -30784,6 +30787,11 @@ id2group:
   83921: personalization/ShipSKINDesignElement
   83922: personalization/ShipSKINDesignElement
   83923: personalization/ShipSKINDesignElement
+  84009: personalization/ShipSKINDesignElement
+  84012: personalization/ShipSKINDesignElement
+  84014: personalization/ShipSKINDesignElement
+  84015: personalization/ShipSKINDesignElement
+  84016: personalization/ShipSKINDesignElement
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

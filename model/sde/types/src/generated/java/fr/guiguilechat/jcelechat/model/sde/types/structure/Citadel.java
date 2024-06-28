@@ -193,6 +193,13 @@ public class Citadel
     @DefaultIntValue(0)
     public int metalevelold;
     /**
+     * Impedance against Remote Repair (shield, armor, hull and energy).
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double remoterepairimpedance;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -332,6 +339,10 @@ public class Citadel
             case  633 :
             {
                 return metalevelold;
+            }
+            case  2116 :
+            {
+                return remoterepairimpedance;
             }
             case  1547 :
             {

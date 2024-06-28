@@ -8,7 +8,7 @@ types:
     mass: 1.0000000409184788E35
     name: Kylixium
     orebasictype: 81900
-    packagedVolume: 2.0
+    packagedVolume: 1.2000000476837158
     portionSize: 100
     price: 399926.0
     published: true
@@ -17,7 +17,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 2.0
+    volume: 1.2000000476837158
   81901:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -27,7 +27,7 @@ types:
     mass: 1.0000000409184788E35
     name: Kaolin Kylixium
     orebasictype: 81900
-    packagedVolume: 2.0
+    packagedVolume: 1.2000000476837158
     portionSize: 100
     price: 399926.0
     published: true
@@ -36,7 +36,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 2.0
+    volume: 1.2000000476837158
   81902:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -46,7 +46,7 @@ types:
     mass: 1.0000000409184788E35
     name: Argil Kylixium
     orebasictype: 81900
-    packagedVolume: 2.0
+    packagedVolume: 1.2000000476837158
     portionSize: 100
     price: 399926.0
     published: true
@@ -55,7 +55,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 2.0
+    volume: 1.2000000476837158
   81903:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -65,7 +65,7 @@ types:
     mass: 1.0000000409184788E35
     name: Adobe Kylixium
     orebasictype: 81900
-    packagedVolume: 2.0
+    packagedVolume: 1.2000000476837158
     portionSize: 100
     price: 399926.0
     published: true
@@ -74,7 +74,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 2.0
+    volume: 1.2000000476837158
   82300:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -84,7 +84,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Kylixium
     orebasictype: 81900
-    packagedVolume: 0.019999999552965164
+    packagedVolume: 0.012000000104308128
     portionSize: 100
     price: 399926.0
     published: true
@@ -93,7 +93,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.019999999552965164
+    volume: 0.012000000104308128
   82301:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -103,7 +103,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Kaolin Kylixium
     orebasictype: 81900
-    packagedVolume: 0.019999999552965164
+    packagedVolume: 0.012000000104308128
     portionSize: 100
     price: 399926.0
     published: true
@@ -112,7 +112,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.019999999552965164
+    volume: 0.012000000104308128
   82302:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -122,7 +122,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Argil Kylixium
     orebasictype: 81900
-    packagedVolume: 0.019999999552965164
+    packagedVolume: 0.012000000104308128
     portionSize: 100
     price: 399926.0
     published: true
@@ -131,7 +131,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.019999999552965164
+    volume: 0.012000000104308128
   82303:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -141,7 +141,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Adobe Kylixium
     orebasictype: 81900
-    packagedVolume: 0.019999999552965164
+    packagedVolume: 0.012000000104308128
     portionSize: 100
     price: 399926.0
     published: true
@@ -150,4 +150,4 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.019999999552965164
+    volume: 0.012000000104308128

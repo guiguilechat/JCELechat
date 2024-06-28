@@ -2,6 +2,7 @@ types:
   81364:
     cannotbetrainedontrial: 1
     id: 81364
+    marketGroup: 3656
     name: Mass Sequencing
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -17,6 +18,7 @@ types:
   81365:
     cannotbetrainedontrial: 1
     id: 81365
+    marketGroup: 3656
     name: Industrial Sequencing
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -32,6 +34,7 @@ types:
   81366:
     cannotbetrainedontrial: 1
     id: 81366
+    marketGroup: 3656
     name: Parallel Sequencing
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -45,6 +48,7 @@ types:
   81367:
     cannotbetrainedontrial: 1
     id: 81367
+    marketGroup: 3656
     name: Multi-thread Sequencing
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -60,6 +64,7 @@ types:
   81368:
     cannotbetrainedontrial: 1
     id: 81368
+    marketGroup: 3656
     name: Hub Promotion
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -73,6 +78,7 @@ types:
   81369:
     cannotbetrainedontrial: 1
     id: 81369
+    marketGroup: 3656
     name: Hub Algorithm Optimization
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -88,6 +94,7 @@ types:
   81372:
     cannotbetrainedontrial: 1
     id: 81372
+    marketGroup: 3656
     name: Induction Efficiency
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -103,6 +110,7 @@ types:
   81373:
     cannotbetrainedontrial: 1
     id: 81373
+    marketGroup: 3656
     name: Advanced Induction Efficiency
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -118,6 +126,7 @@ types:
   81374:
     cannotbetrainedontrial: 1
     id: 81374
+    marketGroup: 3656
     name: Peak Induction Acceleration
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -133,6 +142,7 @@ types:
   81375:
     cannotbetrainedontrial: 1
     id: 81375
+    marketGroup: 3656
     name: Batch Sequencing
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -146,6 +156,7 @@ types:
   81377:
     cannotbetrainedontrial: 1
     id: 81377
+    marketGroup: 3656
     name: Basic Induction
     packagedVolume: 0.009999999776482582
     portionSize: 1

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.AssaultFrigate;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.CovertOps;
@@ -69,7 +71,8 @@ public class ShipMaxSpeed {
 
 			// 118 is when one ancil rig gives 135 power. that's because overdrive are
 			// better than auxiliaries for speed.
-			for (int i = 0; i < s.lowslots && pwr <= 118; i++) {
+			Integer lowslots = LowSlots.INSTANCE.value(s);
+			for (int i = 0; i < lowslots && pwr <= 118; i++) {
 				if (pwr < 104.8387) {
 					// add a navy micro auxiliary
 					pwr += 16.25;
@@ -81,12 +84,13 @@ public class ShipMaxSpeed {
 				}
 			}
 			int ancilRig = 0;
+			int upgradecapacity = UpgradeCapacity.INSTANCE.value(s);
 			for (int i = 0; i < (s.techlevel == 2 ? 2 : 3) && pwr < 135; i++) {
-				if (ancilRig * 150 + 150 <= s.upgradecapacity) {
+				if (ancilRig * 150 + 150 <= upgradecapacity) {
 					// we can fit a T2
 					pwr *= 1.15;
 					ancilRig++;
-				} else if (ancilRig * 150 + 100 <= s.upgradecapacity) {
+				} else if (ancilRig * 150 + 100 <= upgradecapacity) {
 					// we can fit a T1
 					pwr *= 1.1;
 					ancilRig++;
@@ -99,7 +103,7 @@ public class ShipMaxSpeed {
 			}
 			double speed = s.maxvelocity * 1.25 * 7.375 * 15000000 / (s.mass + 5000000);
 			int overdrives = 0;
-			for (int i = microAux + reactors; i < s.lowslots; i++) {
+			for (int i = microAux + reactors; i < lowslots; i++) {
 				speed *= overdriveMultPerStacking[overdrives];
 				overdrives++;
 			}

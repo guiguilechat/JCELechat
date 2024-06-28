@@ -4000,6 +4000,9 @@ types:
     cpumultiplier: 1.0
     id: 83832
     marketGroup: 1661
+    mass: 1.0
     name: Sequence Binder Welcome Package
+    packagedVolume: 1.0
     portionSize: 1
     published: true
+    volume: 1.0

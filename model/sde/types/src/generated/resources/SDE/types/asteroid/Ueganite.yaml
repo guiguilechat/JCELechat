@@ -8,7 +8,7 @@ types:
     mass: 1.0000000409184788E35
     name: Ueganite
     orebasictype: 82205
-    packagedVolume: 8.0
+    packagedVolume: 5.0
     portionSize: 100
     price: 3068504.0
     published: true
@@ -17,7 +17,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 8.0
+    volume: 5.0
   82206:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -27,7 +27,7 @@ types:
     mass: 1.0000000409184788E35
     name: Foggy Ueganite
     orebasictype: 82205
-    packagedVolume: 8.0
+    packagedVolume: 5.0
     portionSize: 100
     price: 3068504.0
     published: true
@@ -36,7 +36,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 8.0
+    volume: 5.0
   82207:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -46,7 +46,7 @@ types:
     mass: 1.0000000409184788E35
     name: Overcast Ueganite
     orebasictype: 82205
-    packagedVolume: 8.0
+    packagedVolume: 5.0
     portionSize: 100
     price: 3068504.0
     published: true
@@ -55,7 +55,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 8.0
+    volume: 5.0
   82208:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -65,7 +65,7 @@ types:
     mass: 1.0000000409184788E35
     name: Stormy Ueganite
     orebasictype: 82205
-    packagedVolume: 8.0
+    packagedVolume: 5.0
     portionSize: 100
     price: 3068504.0
     published: true
@@ -74,7 +74,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 8.0
+    volume: 5.0
   82308:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -84,7 +84,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Ueganite
     orebasictype: 82205
-    packagedVolume: 0.07999999821186066
+    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 3068504.0
     published: true
@@ -93,7 +93,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.07999999821186066
+    volume: 0.05000000074505806
   82309:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -103,7 +103,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Foggy Ueganite
     orebasictype: 82205
-    packagedVolume: 0.07999999821186066
+    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 3068504.0
     published: true
@@ -112,7 +112,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.07999999821186066
+    volume: 0.05000000074505806
   82310:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -122,7 +122,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Overcast Ueganite
     orebasictype: 82205
-    packagedVolume: 0.07999999821186066
+    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 3068504.0
     published: true
@@ -131,7 +131,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.07999999821186066
+    volume: 0.05000000074505806
   82311:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
@@ -141,7 +141,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Stormy Ueganite
     orebasictype: 82205
-    packagedVolume: 0.07999999821186066
+    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 3068504.0
     published: true
@@ -150,4 +150,4 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.07999999821186066
+    volume: 0.05000000074505806

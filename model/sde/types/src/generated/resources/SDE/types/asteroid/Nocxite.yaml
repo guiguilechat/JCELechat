@@ -7,7 +7,7 @@ types:
     mass: 1.0000000409184788E35
     name: Nocxite
     orebasictype: 82016
-    packagedVolume: 6.0
+    packagedVolume: 4.0
     portionSize: 100
     price: 337408.0
     published: true
@@ -16,7 +16,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 6.0
+    volume: 4.0
   82017:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
@@ -25,7 +25,7 @@ types:
     mass: 1.0000000409184788E35
     name: Fragrant Nocxite
     orebasictype: 82016
-    packagedVolume: 6.0
+    packagedVolume: 4.0
     portionSize: 100
     price: 337408.0
     published: true
@@ -34,7 +34,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 6.0
+    volume: 4.0
   82018:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
@@ -43,7 +43,7 @@ types:
     mass: 1.0000000409184788E35
     name: Intoxicating Nocxite
     orebasictype: 82016
-    packagedVolume: 6.0
+    packagedVolume: 4.0
     portionSize: 100
     price: 337408.0
     published: true
@@ -52,7 +52,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 6.0
+    volume: 4.0
   82019:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.5
@@ -61,7 +61,7 @@ types:
     mass: 1.0000000409184788E35
     name: Ambrosial Nocxite
     orebasictype: 82016
-    packagedVolume: 6.0
+    packagedVolume: 4.0
     portionSize: 100
     price: 337408.0
     published: true
@@ -70,7 +70,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 6.0
+    volume: 4.0
   82304:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -79,7 +79,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Nocxite
     orebasictype: 82016
-    packagedVolume: 0.05999999865889549
+    packagedVolume: 0.03999999910593033
     portionSize: 100
     price: 337408.0
     published: true
@@ -88,7 +88,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05999999865889549
+    volume: 0.03999999910593033
   82305:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -97,7 +97,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Fragrant Nocxite
     orebasictype: 82016
-    packagedVolume: 0.05999999865889549
+    packagedVolume: 0.03999999910593033
     portionSize: 100
     price: 337408.0
     published: true
@@ -106,7 +106,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05999999865889549
+    volume: 0.03999999910593033
   82306:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -115,7 +115,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Intoxicating Nocxite
     orebasictype: 82016
-    packagedVolume: 0.05999999865889549
+    packagedVolume: 0.03999999910593033
     portionSize: 100
     price: 337408.0
     published: true
@@ -124,7 +124,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05999999865889549
+    volume: 0.03999999910593033
   82307:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -133,7 +133,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Ambrosial Nocxite
     orebasictype: 82016
-    packagedVolume: 0.05999999865889549
+    packagedVolume: 0.03999999910593033
     portionSize: 100
     price: 337408.0
     published: true
@@ -142,4 +142,4 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05999999865889549
+    volume: 0.03999999910593033

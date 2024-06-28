@@ -106,3 +106,12 @@ types:
     price: 2.0E8
     published: true
     volume: 0.009999999776482582
+  81922:
+    id: 81922
+    marketGroup: 3627
+    name: Metenox Moon Drill Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6.0E9
+    published: true
+    volume: 0.009999999776482582

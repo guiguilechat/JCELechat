@@ -7,7 +7,7 @@ types:
     mass: 1.0000000409184788E35
     name: Griemeer
     orebasictype: 81975
-    packagedVolume: 1.0
+    packagedVolume: 0.800000011920929
     portionSize: 100
     price: 40894.0
     published: true
@@ -16,7 +16,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.0
+    volume: 0.800000011920929
   81976:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.5
@@ -25,7 +25,7 @@ types:
     mass: 1.0000000409184788E35
     name: Clear Griemeer
     orebasictype: 81975
-    packagedVolume: 1.0
+    packagedVolume: 0.800000011920929
     portionSize: 100
     price: 40894.0
     published: true
@@ -34,7 +34,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.0
+    volume: 0.800000011920929
   81977:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.5
@@ -43,7 +43,7 @@ types:
     mass: 1.0000000409184788E35
     name: Inky Griemeer
     orebasictype: 81975
-    packagedVolume: 1.0
+    packagedVolume: 0.800000011920929
     portionSize: 100
     price: 40894.0
     published: true
@@ -52,7 +52,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.0
+    volume: 0.800000011920929
   81978:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.5
@@ -61,7 +61,7 @@ types:
     mass: 1.0000000409184788E35
     name: Opaque Griemeer
     orebasictype: 81975
-    packagedVolume: 1.0
+    packagedVolume: 0.800000011920929
     portionSize: 100
     price: 40894.0
     published: true
@@ -70,7 +70,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.0
+    volume: 0.800000011920929
   82316:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -79,7 +79,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Griemeer
     orebasictype: 81975
-    packagedVolume: 0.009999999776482582
+    packagedVolume: 0.00800000037997961
     portionSize: 100
     price: 40894.0
     published: true
@@ -88,7 +88,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.00800000037997961
   82317:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -97,7 +97,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Clear Griemeer
     orebasictype: 81975
-    packagedVolume: 0.009999999776482582
+    packagedVolume: 0.00800000037997961
     portionSize: 100
     price: 40894.0
     published: true
@@ -106,7 +106,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.00800000037997961
   82318:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -115,7 +115,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Inky Griemeer
     orebasictype: 81975
-    packagedVolume: 0.009999999776482582
+    packagedVolume: 0.00800000037997961
     portionSize: 100
     price: 40894.0
     published: true
@@ -124,7 +124,7 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.00800000037997961
   82319:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
@@ -133,7 +133,7 @@ types:
     mass: 1.0000000409184788E35
     name: Compressed Opaque Griemeer
     orebasictype: 81975
-    packagedVolume: 0.009999999776482582
+    packagedVolume: 0.00800000037997961
     portionSize: 100
     price: 40894.0
     published: true
@@ -142,4 +142,4 @@ types:
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.00800000037997961

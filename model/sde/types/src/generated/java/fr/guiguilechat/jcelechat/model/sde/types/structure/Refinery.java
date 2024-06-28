@@ -173,6 +173,13 @@ public class Refinery
     @DefaultIntValue(1)
     public int moonasteroiddecaytimemultiplier;
     /**
+     * Impedance against Remote Repair (shield, armor, hull and energy).
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double remoterepairimpedance;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -284,6 +291,10 @@ public class Refinery
             case  2706 :
             {
                 return moonasteroiddecaytimemultiplier;
+            }
+            case  2116 :
+            {
+                return remoterepairimpedance;
             }
             case  1547 :
             {

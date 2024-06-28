@@ -180,6 +180,20 @@ public class Destroyer
     @DefaultRealValue(1.0)
     public double heatattenuationmed;
     /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int hislots;
+    /**
+     * The number of low power slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int lowslots;
+    /**
      * The main color of a ship type.
      */
     @HighIsGood(true)
@@ -208,6 +222,13 @@ public class Destroyer
     @DefaultRealValue(0.0)
     public double maxrangebonus;
     /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int medslots;
+    /**
      * Authoring has been moved to FSD.
      * meta group of type
      * 
@@ -229,6 +250,20 @@ public class Destroyer
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double mintargetveldmgmultiplier;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
@@ -566,13 +601,27 @@ public class Destroyer
     @DefaultRealValue(0.0)
     public double trackingspeedbonus;
     /**
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int typecolorscheme;
+    /**
+     * Attribute on ships used for ship upgrades
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int upgradecapacity;
+    /**
      * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, RookieDroneBonus.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, MaxRangeBonus.INSTANCE, ShipBonusAD1 .INSTANCE, ShipBonusAD2 .INSTANCE, ShipBonusABC2 .INSTANCE, ShipBonusNavyDestroyerAmarr1 .INSTANCE, ShipBonusNavyDestroyerAmarr2 .INSTANCE, ShipBonusNavyDestroyerAmarr3 .INSTANCE, ShipBonusNavyDestroyerAmarr4 .INSTANCE, LauncherSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr5 .INSTANCE, TurretSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr6 .INSTANCE, ShipBonusNavyDestroyerAmarr7 .INSTANCE, ShipBonusNavyDestroyerCaldari1 .INSTANCE, ShipBonusNavyDestroyerCaldari5 .INSTANCE, ShipBonusNavyDestroyerCaldari4 .INSTANCE, ShipBonusNavyDestroyerCaldari2 .INSTANCE, UpgradeCapacity.INSTANCE, ShipBonusNavyDestroyerCaldari3 .INSTANCE, KineticDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente1 .INSTANCE, ThermalDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente5 .INSTANCE, ExplosiveDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente2 .INSTANCE, RigSlots.INSTANCE, ShipBonusNavyDestroyerGallente3 .INSTANCE, EmDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente4 .INSTANCE, ShipBonusNavyDestroyerMinmatar1 .INSTANCE, ShipBonusNavyDestroyerMinmatar2 .INSTANCE, ShipBonusNavyDestroyerMinmatar3 .INSTANCE, ShipBonusNavyDestroyerMinmatar4 .INSTANCE, ShipBonusNavyDestroyerMinmatar5 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShipBonusMD1 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusCD1 .INSTANCE, ShipBonusCD2 .INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusGD1 .INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusGD2 .INSTANCE, ShipBonusMD2 .INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusPD1 .INSTANCE, ShipBonusPD2 .INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE, TrackingSpeedBonus.INSTANCE, ShipScanResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, RookieDroneBonus.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, MaxRangeBonus.INSTANCE, ShipBonusAD1 .INSTANCE, ShipBonusAD2 .INSTANCE, ShipBonusABC2 .INSTANCE, ShipBonusNavyDestroyerAmarr1 .INSTANCE, ShipBonusNavyDestroyerAmarr2 .INSTANCE, ShipBonusNavyDestroyerAmarr3 .INSTANCE, ShipBonusNavyDestroyerAmarr4 .INSTANCE, LauncherSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr5 .INSTANCE, TurretSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr6 .INSTANCE, ShipBonusNavyDestroyerAmarr7 .INSTANCE, ShipBonusNavyDestroyerCaldari1 .INSTANCE, ShipBonusNavyDestroyerCaldari5 .INSTANCE, ShipBonusNavyDestroyerCaldari4 .INSTANCE, ShipBonusNavyDestroyerCaldari2 .INSTANCE, UpgradeCapacity.INSTANCE, ShipBonusNavyDestroyerCaldari3 .INSTANCE, KineticDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente1 .INSTANCE, ThermalDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente5 .INSTANCE, ExplosiveDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente2 .INSTANCE, RigSlots.INSTANCE, ShipBonusNavyDestroyerGallente3 .INSTANCE, EmDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente4 .INSTANCE, ShipBonusNavyDestroyerMinmatar1 .INSTANCE, ShipBonusNavyDestroyerMinmatar2 .INSTANCE, ShipBonusNavyDestroyerMinmatar3 .INSTANCE, ShipBonusNavyDestroyerMinmatar4 .INSTANCE, ShipBonusNavyDestroyerMinmatar5 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShipBonusMD1 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusCD1 .INSTANCE, ShipBonusCD2 .INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusGD1 .INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusGD2 .INSTANCE, ShipBonusMD2 .INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusPD1 .INSTANCE, ShipBonusPD2 .INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE, TrackingSpeedBonus.INSTANCE, ShipScanResistance.INSTANCE })));
     public static final Destroyer.MetaGroup METAGROUP = new Destroyer.MetaGroup();
 
     @Override
@@ -594,6 +643,14 @@ public class Destroyer
             {
                 return heatattenuationmed;
             }
+            case  14 :
+            {
+                return hislots;
+            }
+            case  12 :
+            {
+                return lowslots;
+            }
             case  124 :
             {
                 return maincolor;
@@ -610,6 +667,10 @@ public class Destroyer
             {
                 return maxrangebonus;
             }
+            case  13 :
+            {
+                return medslots;
+            }
             case  1692 :
             {
                 return metagroupid;
@@ -617,6 +678,14 @@ public class Destroyer
             case  662 :
             {
                 return mintargetveldmgmultiplier;
+            }
+            case  182 :
+            {
+                return requiredskill1;
+            }
+            case  277 :
+            {
+                return requiredskill1level;
             }
             case  183 :
             {
@@ -809,6 +878,14 @@ public class Destroyer
             case  767 :
             {
                 return trackingspeedbonus;
+            }
+            case  1768 :
+            {
+                return typecolorscheme;
+            }
+            case  1132 :
+            {
+                return upgradecapacity;
             }
             case  1154 :
             {

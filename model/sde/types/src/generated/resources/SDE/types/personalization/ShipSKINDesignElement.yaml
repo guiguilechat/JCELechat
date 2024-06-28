@@ -369,7 +369,7 @@ types:
     volume: 0.10000000149011612
   83201:
     id: 83201
-    marketGroup: 3631
+    marketGroup: 3653
     name: Oceanic Serpent Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -377,7 +377,7 @@ types:
     volume: 0.10000000149011612
   83202:
     id: 83202
-    marketGroup: 3631
+    marketGroup: 3653
     name: Azure Skies Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -385,7 +385,7 @@ types:
     volume: 0.10000000149011612
   83203:
     id: 83203
-    marketGroup: 3631
+    marketGroup: 3653
     name: Zakura Cherry Pink Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -393,7 +393,7 @@ types:
     volume: 0.10000000149011612
   83204:
     id: 83204
-    marketGroup: 3631
+    marketGroup: 3653
     name: Suppressed Lavender Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -401,7 +401,7 @@ types:
     volume: 0.10000000149011612
   83205:
     id: 83205
-    marketGroup: 3631
+    marketGroup: 3653
     name: Dark Abyss Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -409,7 +409,7 @@ types:
     volume: 0.10000000149011612
   83206:
     id: 83206
-    marketGroup: 3631
+    marketGroup: 3653
     name: Electric Dreams Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -417,7 +417,7 @@ types:
     volume: 0.10000000149011612
   83207:
     id: 83207
-    marketGroup: 3631
+    marketGroup: 3653
     name: Deep Void Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -425,7 +425,7 @@ types:
     volume: 0.10000000149011612
   83208:
     id: 83208
-    marketGroup: 3631
+    marketGroup: 3653
     name: Sacred Stone Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -433,7 +433,7 @@ types:
     volume: 0.10000000149011612
   83209:
     id: 83209
-    marketGroup: 3631
+    marketGroup: 3653
     name: Stellar White Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -441,7 +441,7 @@ types:
     volume: 0.10000000149011612
   83210:
     id: 83210
-    marketGroup: 3631
+    marketGroup: 3653
     name: Callie After Dark Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -449,7 +449,7 @@ types:
     volume: 0.10000000149011612
   83211:
     id: 83211
-    marketGroup: 3631
+    marketGroup: 3653
     name: Sani Crimson Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -457,7 +457,7 @@ types:
     volume: 0.10000000149011612
   83212:
     id: 83212
-    marketGroup: 3631
+    marketGroup: 3653
     name: Boosted Mint Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -465,7 +465,7 @@ types:
     volume: 0.10000000149011612
   83213:
     id: 83213
-    marketGroup: 3631
+    marketGroup: 3653
     name: Gelidus Aqua Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -473,7 +473,7 @@ types:
     volume: 0.10000000149011612
   83214:
     id: 83214
-    marketGroup: 3631
+    marketGroup: 3653
     name: Planetfall Green Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -481,7 +481,7 @@ types:
     volume: 0.10000000149011612
   83215:
     id: 83215
-    marketGroup: 3631
+    marketGroup: 3653
     name: Industrial Lux Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -489,7 +489,7 @@ types:
     volume: 0.10000000149011612
   83216:
     id: 83216
-    marketGroup: 3631
+    marketGroup: 3653
     name: Emerald Boulevard Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -497,7 +497,7 @@ types:
     volume: 0.10000000149011612
   83217:
     id: 83217
-    marketGroup: 3631
+    marketGroup: 3653
     name: Argon Heat Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -505,7 +505,7 @@ types:
     volume: 0.10000000149011612
   83218:
     id: 83218
-    marketGroup: 3631
+    marketGroup: 3653
     name: Elder's Bone Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -513,7 +513,7 @@ types:
     volume: 0.10000000149011612
   83219:
     id: 83219
-    marketGroup: 3631
+    marketGroup: 3653
     name: Synthetic Mocha Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -521,7 +521,7 @@ types:
     volume: 0.10000000149011612
   83220:
     id: 83220
-    marketGroup: 3631
+    marketGroup: 3653
     name: Zento Legacy Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -529,7 +529,7 @@ types:
     volume: 0.10000000149011612
   83221:
     id: 83221
-    marketGroup: 3631
+    marketGroup: 3653
     name: Imperial Plum Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -537,7 +537,7 @@ types:
     volume: 0.10000000149011612
   83222:
     id: 83222
-    marketGroup: 3631
+    marketGroup: 3653
     name: Isotopic Iodide Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -545,7 +545,7 @@ types:
     volume: 0.10000000149011612
   83223:
     id: 83223
-    marketGroup: 3631
+    marketGroup: 3653
     name: Phantom Rose Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -553,7 +553,7 @@ types:
     volume: 0.10000000149011612
   83224:
     id: 83224
-    marketGroup: 3631
+    marketGroup: 3653
     name: Blood of Pator Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -561,7 +561,7 @@ types:
     volume: 0.10000000149011612
   83225:
     id: 83225
-    marketGroup: 3631
+    marketGroup: 3653
     name: Uncompromising Scarlet Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -569,7 +569,7 @@ types:
     volume: 0.10000000149011612
   83226:
     id: 83226
-    marketGroup: 3631
+    marketGroup: 3653
     name: Exoplanet Sunrise Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -577,7 +577,7 @@ types:
     volume: 0.10000000149011612
   83227:
     id: 83227
-    marketGroup: 3631
+    marketGroup: 3653
     name: Strawberry Fedo Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -585,7 +585,7 @@ types:
     volume: 0.10000000149011612
   83228:
     id: 83228
-    marketGroup: 3631
+    marketGroup: 3653
     name: Polar Glaze Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -593,7 +593,7 @@ types:
     volume: 0.10000000149011612
   83229:
     id: 83229
-    marketGroup: 3631
+    marketGroup: 3653
     name: Asaya Midnight Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -601,7 +601,7 @@ types:
     volume: 0.10000000149011612
   83230:
     id: 83230
-    marketGroup: 3631
+    marketGroup: 3653
     name: Citric Substitute Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -609,7 +609,7 @@ types:
     volume: 0.10000000149011612
   83231:
     id: 83231
-    marketGroup: 3631
+    marketGroup: 3653
     name: Lilac Star Dust Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -617,7 +617,7 @@ types:
     volume: 0.10000000149011612
   83232:
     id: 83232
-    marketGroup: 3631
+    marketGroup: 3654
     name: Oceanic Serpent Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -625,7 +625,7 @@ types:
     volume: 0.10000000149011612
   83233:
     id: 83233
-    marketGroup: 3631
+    marketGroup: 3654
     name: Azure Skies Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -633,7 +633,7 @@ types:
     volume: 0.10000000149011612
   83234:
     id: 83234
-    marketGroup: 3631
+    marketGroup: 3654
     name: Zakura Cherry Pink Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -641,7 +641,7 @@ types:
     volume: 0.10000000149011612
   83235:
     id: 83235
-    marketGroup: 3631
+    marketGroup: 3654
     name: Suppressed Lavender Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -649,7 +649,7 @@ types:
     volume: 0.10000000149011612
   83236:
     id: 83236
-    marketGroup: 3631
+    marketGroup: 3654
     name: Dark Abyss Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -657,7 +657,7 @@ types:
     volume: 0.10000000149011612
   83237:
     id: 83237
-    marketGroup: 3631
+    marketGroup: 3654
     name: Electric Dreams Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -665,7 +665,7 @@ types:
     volume: 0.10000000149011612
   83238:
     id: 83238
-    marketGroup: 3631
+    marketGroup: 3654
     name: Deep Void Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -673,7 +673,7 @@ types:
     volume: 0.10000000149011612
   83239:
     id: 83239
-    marketGroup: 3631
+    marketGroup: 3654
     name: Sacred Stone Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -681,7 +681,7 @@ types:
     volume: 0.10000000149011612
   83240:
     id: 83240
-    marketGroup: 3631
+    marketGroup: 3654
     name: Stellar White Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -689,7 +689,7 @@ types:
     volume: 0.10000000149011612
   83241:
     id: 83241
-    marketGroup: 3631
+    marketGroup: 3654
     name: Callie After Dark Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -697,7 +697,7 @@ types:
     volume: 0.10000000149011612
   83242:
     id: 83242
-    marketGroup: 3631
+    marketGroup: 3654
     name: Sani Crimson Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -705,7 +705,7 @@ types:
     volume: 0.10000000149011612
   83243:
     id: 83243
-    marketGroup: 3631
+    marketGroup: 3654
     name: Boosted Mint Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -713,7 +713,7 @@ types:
     volume: 0.10000000149011612
   83244:
     id: 83244
-    marketGroup: 3631
+    marketGroup: 3654
     name: Gelidus Aqua Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -721,7 +721,7 @@ types:
     volume: 0.10000000149011612
   83245:
     id: 83245
-    marketGroup: 3631
+    marketGroup: 3654
     name: Planetfall Green Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -729,7 +729,7 @@ types:
     volume: 0.10000000149011612
   83246:
     id: 83246
-    marketGroup: 3631
+    marketGroup: 3654
     name: Industrial Lux Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -737,7 +737,7 @@ types:
     volume: 0.10000000149011612
   83247:
     id: 83247
-    marketGroup: 3631
+    marketGroup: 3654
     name: Emerald Boulevard Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -745,7 +745,7 @@ types:
     volume: 0.10000000149011612
   83248:
     id: 83248
-    marketGroup: 3631
+    marketGroup: 3654
     name: Argon Heat Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -753,7 +753,7 @@ types:
     volume: 0.10000000149011612
   83249:
     id: 83249
-    marketGroup: 3631
+    marketGroup: 3654
     name: Elder's Bone Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -761,7 +761,7 @@ types:
     volume: 0.10000000149011612
   83250:
     id: 83250
-    marketGroup: 3631
+    marketGroup: 3654
     name: Synthetic Mocha Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -769,7 +769,7 @@ types:
     volume: 0.10000000149011612
   83251:
     id: 83251
-    marketGroup: 3631
+    marketGroup: 3654
     name: Zento Legacy Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -777,7 +777,7 @@ types:
     volume: 0.10000000149011612
   83252:
     id: 83252
-    marketGroup: 3631
+    marketGroup: 3654
     name: Imperial Plum Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -785,7 +785,7 @@ types:
     volume: 0.10000000149011612
   83253:
     id: 83253
-    marketGroup: 3631
+    marketGroup: 3654
     name: Isotopic Iodide Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -793,7 +793,7 @@ types:
     volume: 0.10000000149011612
   83254:
     id: 83254
-    marketGroup: 3631
+    marketGroup: 3654
     name: Phantom Rose Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -801,7 +801,7 @@ types:
     volume: 0.10000000149011612
   83255:
     id: 83255
-    marketGroup: 3631
+    marketGroup: 3654
     name: Blood of Pator Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -809,7 +809,7 @@ types:
     volume: 0.10000000149011612
   83256:
     id: 83256
-    marketGroup: 3631
+    marketGroup: 3654
     name: Uncompromising Scarlet Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -817,7 +817,7 @@ types:
     volume: 0.10000000149011612
   83257:
     id: 83257
-    marketGroup: 3631
+    marketGroup: 3654
     name: Exoplanet Sunrise Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -825,7 +825,7 @@ types:
     volume: 0.10000000149011612
   83258:
     id: 83258
-    marketGroup: 3631
+    marketGroup: 3654
     name: Strawberry Fedo Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -833,7 +833,7 @@ types:
     volume: 0.10000000149011612
   83259:
     id: 83259
-    marketGroup: 3631
+    marketGroup: 3654
     name: Polar Glaze Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -841,7 +841,7 @@ types:
     volume: 0.10000000149011612
   83260:
     id: 83260
-    marketGroup: 3631
+    marketGroup: 3654
     name: Asaya Midnight Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -849,7 +849,7 @@ types:
     volume: 0.10000000149011612
   83261:
     id: 83261
-    marketGroup: 3631
+    marketGroup: 3654
     name: Citric Substitute Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -857,7 +857,7 @@ types:
     volume: 0.10000000149011612
   83262:
     id: 83262
-    marketGroup: 3631
+    marketGroup: 3654
     name: Lilac Star Dust Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -865,7 +865,7 @@ types:
     volume: 0.10000000149011612
   83263:
     id: 83263
-    marketGroup: 3631
+    marketGroup: 3655
     name: Oceanic Serpent Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -873,7 +873,7 @@ types:
     volume: 0.10000000149011612
   83264:
     id: 83264
-    marketGroup: 3631
+    marketGroup: 3655
     name: Azure Skies Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -881,7 +881,7 @@ types:
     volume: 0.10000000149011612
   83265:
     id: 83265
-    marketGroup: 3631
+    marketGroup: 3655
     name: Zakura Cherry Pink Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -889,7 +889,7 @@ types:
     volume: 0.10000000149011612
   83266:
     id: 83266
-    marketGroup: 3631
+    marketGroup: 3655
     name: Suppressed Lavender Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -897,7 +897,7 @@ types:
     volume: 0.10000000149011612
   83267:
     id: 83267
-    marketGroup: 3631
+    marketGroup: 3655
     name: Dark Abyss Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -905,7 +905,7 @@ types:
     volume: 0.10000000149011612
   83268:
     id: 83268
-    marketGroup: 3631
+    marketGroup: 3655
     name: Electric Dreams Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -913,7 +913,7 @@ types:
     volume: 0.10000000149011612
   83269:
     id: 83269
-    marketGroup: 3631
+    marketGroup: 3655
     name: Deep Void Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -921,7 +921,7 @@ types:
     volume: 0.10000000149011612
   83270:
     id: 83270
-    marketGroup: 3631
+    marketGroup: 3655
     name: Sacred Stone Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -929,7 +929,7 @@ types:
     volume: 0.10000000149011612
   83271:
     id: 83271
-    marketGroup: 3631
+    marketGroup: 3655
     name: Stellar White Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -937,7 +937,7 @@ types:
     volume: 0.10000000149011612
   83272:
     id: 83272
-    marketGroup: 3631
+    marketGroup: 3655
     name: Callie After Dark Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -945,7 +945,7 @@ types:
     volume: 0.10000000149011612
   83273:
     id: 83273
-    marketGroup: 3631
+    marketGroup: 3655
     name: Sani Crimson Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -953,7 +953,7 @@ types:
     volume: 0.10000000149011612
   83274:
     id: 83274
-    marketGroup: 3631
+    marketGroup: 3655
     name: Boosted Mint Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -961,7 +961,7 @@ types:
     volume: 0.10000000149011612
   83275:
     id: 83275
-    marketGroup: 3631
+    marketGroup: 3655
     name: Gelidus Aqua Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -969,7 +969,7 @@ types:
     volume: 0.10000000149011612
   83276:
     id: 83276
-    marketGroup: 3631
+    marketGroup: 3655
     name: Planetfall Green Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -977,7 +977,7 @@ types:
     volume: 0.10000000149011612
   83277:
     id: 83277
-    marketGroup: 3631
+    marketGroup: 3655
     name: Industrial Lux Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -985,7 +985,7 @@ types:
     volume: 0.10000000149011612
   83278:
     id: 83278
-    marketGroup: 3631
+    marketGroup: 3655
     name: Emerald Boulevard Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -993,7 +993,7 @@ types:
     volume: 0.10000000149011612
   83279:
     id: 83279
-    marketGroup: 3631
+    marketGroup: 3655
     name: Argon Heat Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1001,7 +1001,7 @@ types:
     volume: 0.10000000149011612
   83280:
     id: 83280
-    marketGroup: 3631
+    marketGroup: 3655
     name: Elder's Bone Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1009,7 +1009,7 @@ types:
     volume: 0.10000000149011612
   83281:
     id: 83281
-    marketGroup: 3631
+    marketGroup: 3655
     name: Synthetic Mocha Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1017,7 +1017,7 @@ types:
     volume: 0.10000000149011612
   83282:
     id: 83282
-    marketGroup: 3631
+    marketGroup: 3655
     name: Zento Legacy Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1025,7 +1025,7 @@ types:
     volume: 0.10000000149011612
   83283:
     id: 83283
-    marketGroup: 3631
+    marketGroup: 3655
     name: Imperial Plum Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1033,7 +1033,7 @@ types:
     volume: 0.10000000149011612
   83284:
     id: 83284
-    marketGroup: 3631
+    marketGroup: 3655
     name: Isotopic Iodide Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1041,7 +1041,7 @@ types:
     volume: 0.10000000149011612
   83286:
     id: 83286
-    marketGroup: 3631
+    marketGroup: 3655
     name: Phantom Rose Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1049,7 +1049,7 @@ types:
     volume: 0.10000000149011612
   83287:
     id: 83287
-    marketGroup: 3631
+    marketGroup: 3655
     name: Blood of Pator Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1057,7 +1057,7 @@ types:
     volume: 0.10000000149011612
   83288:
     id: 83288
-    marketGroup: 3631
+    marketGroup: 3655
     name: Uncompromising Scarlet Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1065,7 +1065,7 @@ types:
     volume: 0.10000000149011612
   83289:
     id: 83289
-    marketGroup: 3631
+    marketGroup: 3655
     name: Exoplanet Sunrise Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1073,7 +1073,7 @@ types:
     volume: 0.10000000149011612
   83290:
     id: 83290
-    marketGroup: 3631
+    marketGroup: 3655
     name: Strawberry Fedo Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1081,7 +1081,7 @@ types:
     volume: 0.10000000149011612
   83291:
     id: 83291
-    marketGroup: 3631
+    marketGroup: 3655
     name: Polar Glaze Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1089,7 +1089,7 @@ types:
     volume: 0.10000000149011612
   83292:
     id: 83292
-    marketGroup: 3631
+    marketGroup: 3655
     name: Asaya Midnight Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1097,7 +1097,7 @@ types:
     volume: 0.10000000149011612
   83293:
     id: 83293
-    marketGroup: 3631
+    marketGroup: 3655
     name: Citric Substitute Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1105,7 +1105,7 @@ types:
     volume: 0.10000000149011612
   83294:
     id: 83294
-    marketGroup: 3631
+    marketGroup: 3655
     name: Lilac Star Dust Gloss - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1113,7 +1113,7 @@ types:
     volume: 0.10000000149011612
   83296:
     id: 83296
-    marketGroup: 3631
+    marketGroup: 3653
     name: Oceanic Serpent Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1121,7 +1121,7 @@ types:
     volume: 0.10000000149011612
   83297:
     id: 83297
-    marketGroup: 3631
+    marketGroup: 3653
     name: Azure Skies Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1129,7 +1129,7 @@ types:
     volume: 0.10000000149011612
   83298:
     id: 83298
-    marketGroup: 3631
+    marketGroup: 3653
     name: Zakura Cherry Pink Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1137,7 +1137,7 @@ types:
     volume: 0.10000000149011612
   83299:
     id: 83299
-    marketGroup: 3631
+    marketGroup: 3653
     name: Suppressed Lavender Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1145,7 +1145,7 @@ types:
     volume: 0.10000000149011612
   83300:
     id: 83300
-    marketGroup: 3631
+    marketGroup: 3653
     name: Dark Abyss Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1153,7 +1153,7 @@ types:
     volume: 0.10000000149011612
   83301:
     id: 83301
-    marketGroup: 3631
+    marketGroup: 3653
     name: Electric Dreams Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1161,7 +1161,7 @@ types:
     volume: 0.10000000149011612
   83302:
     id: 83302
-    marketGroup: 3631
+    marketGroup: 3653
     name: Deep Void Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1169,7 +1169,7 @@ types:
     volume: 0.10000000149011612
   83303:
     id: 83303
-    marketGroup: 3631
+    marketGroup: 3653
     name: Sacred Stone Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1177,7 +1177,7 @@ types:
     volume: 0.10000000149011612
   83304:
     id: 83304
-    marketGroup: 3631
+    marketGroup: 3653
     name: Stellar White Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1185,7 +1185,7 @@ types:
     volume: 0.10000000149011612
   83305:
     id: 83305
-    marketGroup: 3631
+    marketGroup: 3653
     name: Callie After Dark Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1193,7 +1193,7 @@ types:
     volume: 0.10000000149011612
   83306:
     id: 83306
-    marketGroup: 3631
+    marketGroup: 3653
     name: Sani Crimson Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1201,7 +1201,7 @@ types:
     volume: 0.10000000149011612
   83307:
     id: 83307
-    marketGroup: 3631
+    marketGroup: 3653
     name: Boosted Mint Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1209,7 +1209,7 @@ types:
     volume: 0.10000000149011612
   83308:
     id: 83308
-    marketGroup: 3631
+    marketGroup: 3653
     name: Gelidus Aqua Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1217,7 +1217,7 @@ types:
     volume: 0.10000000149011612
   83309:
     id: 83309
-    marketGroup: 3631
+    marketGroup: 3653
     name: Planetfall Green Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1225,7 +1225,7 @@ types:
     volume: 0.10000000149011612
   83310:
     id: 83310
-    marketGroup: 3631
+    marketGroup: 3653
     name: Industrial Lux Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1233,7 +1233,7 @@ types:
     volume: 0.10000000149011612
   83311:
     id: 83311
-    marketGroup: 3631
+    marketGroup: 3653
     name: Emerald Boulevard Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1241,7 +1241,7 @@ types:
     volume: 0.10000000149011612
   83312:
     id: 83312
-    marketGroup: 3631
+    marketGroup: 3653
     name: Argon Heat Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1249,7 +1249,7 @@ types:
     volume: 0.10000000149011612
   83313:
     id: 83313
-    marketGroup: 3631
+    marketGroup: 3653
     name: Elder's Bone Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1257,7 +1257,7 @@ types:
     volume: 0.10000000149011612
   83314:
     id: 83314
-    marketGroup: 3631
+    marketGroup: 3653
     name: Synthetic Mocha Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1265,7 +1265,7 @@ types:
     volume: 0.10000000149011612
   83315:
     id: 83315
-    marketGroup: 3631
+    marketGroup: 3653
     name: Zento Legacy Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1273,7 +1273,7 @@ types:
     volume: 0.10000000149011612
   83316:
     id: 83316
-    marketGroup: 3631
+    marketGroup: 3653
     name: Imperial Plum Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1281,7 +1281,7 @@ types:
     volume: 0.10000000149011612
   83317:
     id: 83317
-    marketGroup: 3631
+    marketGroup: 3653
     name: Isotopic Iodide Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1289,7 +1289,7 @@ types:
     volume: 0.10000000149011612
   83318:
     id: 83318
-    marketGroup: 3631
+    marketGroup: 3653
     name: Phantom Rose Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1297,7 +1297,7 @@ types:
     volume: 0.10000000149011612
   83319:
     id: 83319
-    marketGroup: 3631
+    marketGroup: 3653
     name: Blood of Pator Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1305,7 +1305,7 @@ types:
     volume: 0.10000000149011612
   83320:
     id: 83320
-    marketGroup: 3631
+    marketGroup: 3653
     name: Uncompromising Scarlet Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1313,7 +1313,7 @@ types:
     volume: 0.10000000149011612
   83321:
     id: 83321
-    marketGroup: 3631
+    marketGroup: 3653
     name: Exoplanet Sunrise Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1321,7 +1321,7 @@ types:
     volume: 0.10000000149011612
   83322:
     id: 83322
-    marketGroup: 3631
+    marketGroup: 3653
     name: Strawberry Fedo Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1329,7 +1329,7 @@ types:
     volume: 0.10000000149011612
   83323:
     id: 83323
-    marketGroup: 3631
+    marketGroup: 3653
     name: Polar Glaze Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1337,7 +1337,7 @@ types:
     volume: 0.10000000149011612
   83324:
     id: 83324
-    marketGroup: 3631
+    marketGroup: 3653
     name: Asaya Midnight Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1345,7 +1345,7 @@ types:
     volume: 0.10000000149011612
   83325:
     id: 83325
-    marketGroup: 3631
+    marketGroup: 3653
     name: Citric Substitute Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1353,7 +1353,7 @@ types:
     volume: 0.10000000149011612
   83326:
     id: 83326
-    marketGroup: 3631
+    marketGroup: 3653
     name: Lilac Star Dust Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1361,7 +1361,7 @@ types:
     volume: 0.10000000149011612
   83327:
     id: 83327
-    marketGroup: 3631
+    marketGroup: 3654
     name: Oceanic Serpent Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1369,7 +1369,7 @@ types:
     volume: 0.10000000149011612
   83328:
     id: 83328
-    marketGroup: 3631
+    marketGroup: 3654
     name: Azure Skies Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1377,7 +1377,7 @@ types:
     volume: 0.10000000149011612
   83329:
     id: 83329
-    marketGroup: 3631
+    marketGroup: 3654
     name: Zakura Cherry Pink Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1385,7 +1385,7 @@ types:
     volume: 0.10000000149011612
   83330:
     id: 83330
-    marketGroup: 3631
+    marketGroup: 3654
     name: Suppressed Lavender Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1393,7 +1393,7 @@ types:
     volume: 0.10000000149011612
   83331:
     id: 83331
-    marketGroup: 3631
+    marketGroup: 3654
     name: Dark Abyss Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1401,7 +1401,7 @@ types:
     volume: 0.10000000149011612
   83332:
     id: 83332
-    marketGroup: 3631
+    marketGroup: 3654
     name: Electric Dreams Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1409,7 +1409,7 @@ types:
     volume: 0.10000000149011612
   83333:
     id: 83333
-    marketGroup: 3631
+    marketGroup: 3654
     name: Deep Void Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1417,7 +1417,7 @@ types:
     volume: 0.10000000149011612
   83334:
     id: 83334
-    marketGroup: 3631
+    marketGroup: 3654
     name: Sacred Stone Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1425,7 +1425,7 @@ types:
     volume: 0.10000000149011612
   83335:
     id: 83335
-    marketGroup: 3631
+    marketGroup: 3654
     name: Stellar White Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1433,7 +1433,7 @@ types:
     volume: 0.10000000149011612
   83336:
     id: 83336
-    marketGroup: 3631
+    marketGroup: 3654
     name: Callie After Dark Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1441,7 +1441,7 @@ types:
     volume: 0.10000000149011612
   83337:
     id: 83337
-    marketGroup: 3631
+    marketGroup: 3654
     name: Sani Crimson Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1449,7 +1449,7 @@ types:
     volume: 0.10000000149011612
   83338:
     id: 83338
-    marketGroup: 3631
+    marketGroup: 3654
     name: Boosted Mint Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1457,7 +1457,7 @@ types:
     volume: 0.10000000149011612
   83339:
     id: 83339
-    marketGroup: 3631
+    marketGroup: 3654
     name: Gelidus Aqua Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1465,7 +1465,7 @@ types:
     volume: 0.10000000149011612
   83340:
     id: 83340
-    marketGroup: 3631
+    marketGroup: 3654
     name: Planetfall Green Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1473,7 +1473,7 @@ types:
     volume: 0.10000000149011612
   83341:
     id: 83341
-    marketGroup: 3631
+    marketGroup: 3654
     name: Industrial Lux Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1481,7 +1481,7 @@ types:
     volume: 0.10000000149011612
   83342:
     id: 83342
-    marketGroup: 3631
+    marketGroup: 3654
     name: Emerald Boulevard Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1489,7 +1489,7 @@ types:
     volume: 0.10000000149011612
   83343:
     id: 83343
-    marketGroup: 3631
+    marketGroup: 3654
     name: Argon Heat Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1497,7 +1497,7 @@ types:
     volume: 0.10000000149011612
   83344:
     id: 83344
-    marketGroup: 3631
+    marketGroup: 3654
     name: Elder's Bone Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1505,7 +1505,7 @@ types:
     volume: 0.10000000149011612
   83345:
     id: 83345
-    marketGroup: 3631
+    marketGroup: 3654
     name: Synthetic Mocha Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1513,7 +1513,7 @@ types:
     volume: 0.10000000149011612
   83346:
     id: 83346
-    marketGroup: 3631
+    marketGroup: 3654
     name: Zento Legacy Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1521,7 +1521,7 @@ types:
     volume: 0.10000000149011612
   83347:
     id: 83347
-    marketGroup: 3631
+    marketGroup: 3654
     name: Imperial Plum Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1529,7 +1529,7 @@ types:
     volume: 0.10000000149011612
   83348:
     id: 83348
-    marketGroup: 3631
+    marketGroup: 3654
     name: Isotopic Iodide Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1537,7 +1537,7 @@ types:
     volume: 0.10000000149011612
   83349:
     id: 83349
-    marketGroup: 3631
+    marketGroup: 3654
     name: Phantom Rose Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1545,7 +1545,7 @@ types:
     volume: 0.10000000149011612
   83350:
     id: 83350
-    marketGroup: 3631
+    marketGroup: 3654
     name: Blood of Pator Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1553,7 +1553,7 @@ types:
     volume: 0.10000000149011612
   83351:
     id: 83351
-    marketGroup: 3631
+    marketGroup: 3654
     name: Uncompromising Scarlet Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1561,7 +1561,7 @@ types:
     volume: 0.10000000149011612
   83352:
     id: 83352
-    marketGroup: 3631
+    marketGroup: 3654
     name: Exoplanet Sunrise Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1569,7 +1569,7 @@ types:
     volume: 0.10000000149011612
   83353:
     id: 83353
-    marketGroup: 3631
+    marketGroup: 3654
     name: Strawberry Fedo Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1577,7 +1577,7 @@ types:
     volume: 0.10000000149011612
   83354:
     id: 83354
-    marketGroup: 3631
+    marketGroup: 3654
     name: Polar Glaze Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1585,7 +1585,7 @@ types:
     volume: 0.10000000149011612
   83355:
     id: 83355
-    marketGroup: 3631
+    marketGroup: 3654
     name: Asaya Midnight Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1593,7 +1593,7 @@ types:
     volume: 0.10000000149011612
   83356:
     id: 83356
-    marketGroup: 3631
+    marketGroup: 3654
     name: Citric Substitute Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1601,7 +1601,7 @@ types:
     volume: 0.10000000149011612
   83357:
     id: 83357
-    marketGroup: 3631
+    marketGroup: 3654
     name: Lilac Star Dust Satin - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1609,7 +1609,7 @@ types:
     volume: 0.10000000149011612
   83358:
     id: 83358
-    marketGroup: 3631
+    marketGroup: 3655
     name: Oceanic Serpent Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1617,7 +1617,7 @@ types:
     volume: 0.10000000149011612
   83359:
     id: 83359
-    marketGroup: 3631
+    marketGroup: 3655
     name: Azure Skies Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1625,7 +1625,7 @@ types:
     volume: 0.10000000149011612
   83360:
     id: 83360
-    marketGroup: 3631
+    marketGroup: 3655
     name: Zakura Cherry Pink Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1633,7 +1633,7 @@ types:
     volume: 0.10000000149011612
   83361:
     id: 83361
-    marketGroup: 3631
+    marketGroup: 3655
     name: Suppressed Lavender Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1641,7 +1641,7 @@ types:
     volume: 0.10000000149011612
   83362:
     id: 83362
-    marketGroup: 3631
+    marketGroup: 3655
     name: Dark Abyss Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1649,7 +1649,7 @@ types:
     volume: 0.10000000149011612
   83363:
     id: 83363
-    marketGroup: 3631
+    marketGroup: 3655
     name: Electric Dreams Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1657,7 +1657,7 @@ types:
     volume: 0.10000000149011612
   83364:
     id: 83364
-    marketGroup: 3631
+    marketGroup: 3655
     name: Deep Void Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1665,7 +1665,7 @@ types:
     volume: 0.10000000149011612
   83365:
     id: 83365
-    marketGroup: 3631
+    marketGroup: 3655
     name: Sacred Stone Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1673,7 +1673,7 @@ types:
     volume: 0.10000000149011612
   83366:
     id: 83366
-    marketGroup: 3631
+    marketGroup: 3655
     name: Stellar White Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1681,7 +1681,7 @@ types:
     volume: 0.10000000149011612
   83367:
     id: 83367
-    marketGroup: 3631
+    marketGroup: 3655
     name: Callie After Dark Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1689,7 +1689,7 @@ types:
     volume: 0.10000000149011612
   83368:
     id: 83368
-    marketGroup: 3631
+    marketGroup: 3655
     name: Sani Crimson Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1697,7 +1697,7 @@ types:
     volume: 0.10000000149011612
   83369:
     id: 83369
-    marketGroup: 3631
+    marketGroup: 3655
     name: Boosted Mint Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1705,7 +1705,7 @@ types:
     volume: 0.10000000149011612
   83370:
     id: 83370
-    marketGroup: 3631
+    marketGroup: 3655
     name: Gelidus Aqua Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1713,7 +1713,7 @@ types:
     volume: 0.10000000149011612
   83371:
     id: 83371
-    marketGroup: 3631
+    marketGroup: 3655
     name: Planetfall Green Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1721,7 +1721,7 @@ types:
     volume: 0.10000000149011612
   83372:
     id: 83372
-    marketGroup: 3631
+    marketGroup: 3655
     name: Industrial Lux Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1729,7 +1729,7 @@ types:
     volume: 0.10000000149011612
   83373:
     id: 83373
-    marketGroup: 3631
+    marketGroup: 3655
     name: Emerald Boulevard Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1737,7 +1737,7 @@ types:
     volume: 0.10000000149011612
   83374:
     id: 83374
-    marketGroup: 3631
+    marketGroup: 3655
     name: Argon Heat Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1745,7 +1745,7 @@ types:
     volume: 0.10000000149011612
   83375:
     id: 83375
-    marketGroup: 3631
+    marketGroup: 3655
     name: Elder's Bone Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1753,7 +1753,7 @@ types:
     volume: 0.10000000149011612
   83376:
     id: 83376
-    marketGroup: 3631
+    marketGroup: 3655
     name: Synthetic Mocha Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1761,7 +1761,7 @@ types:
     volume: 0.10000000149011612
   83377:
     id: 83377
-    marketGroup: 3631
+    marketGroup: 3655
     name: Zento Legacy Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1769,7 +1769,7 @@ types:
     volume: 0.10000000149011612
   83378:
     id: 83378
-    marketGroup: 3631
+    marketGroup: 3655
     name: Imperial Plum Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1777,7 +1777,7 @@ types:
     volume: 0.10000000149011612
   83379:
     id: 83379
-    marketGroup: 3631
+    marketGroup: 3655
     name: Isotopic Iodide Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1785,7 +1785,7 @@ types:
     volume: 0.10000000149011612
   83380:
     id: 83380
-    marketGroup: 3631
+    marketGroup: 3655
     name: Phantom Rose Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1793,7 +1793,7 @@ types:
     volume: 0.10000000149011612
   83381:
     id: 83381
-    marketGroup: 3631
+    marketGroup: 3655
     name: Blood of Pator Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1801,7 +1801,7 @@ types:
     volume: 0.10000000149011612
   83382:
     id: 83382
-    marketGroup: 3631
+    marketGroup: 3655
     name: Uncompromising Scarlet Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1809,7 +1809,7 @@ types:
     volume: 0.10000000149011612
   83383:
     id: 83383
-    marketGroup: 3631
+    marketGroup: 3655
     name: Exoplanet Sunrise Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1817,7 +1817,7 @@ types:
     volume: 0.10000000149011612
   83384:
     id: 83384
-    marketGroup: 3631
+    marketGroup: 3655
     name: Strawberry Fedo Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1825,7 +1825,7 @@ types:
     volume: 0.10000000149011612
   83385:
     id: 83385
-    marketGroup: 3631
+    marketGroup: 3655
     name: Polar Glaze Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1833,7 +1833,7 @@ types:
     volume: 0.10000000149011612
   83386:
     id: 83386
-    marketGroup: 3631
+    marketGroup: 3655
     name: Asaya Midnight Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1841,7 +1841,7 @@ types:
     volume: 0.10000000149011612
   83387:
     id: 83387
-    marketGroup: 3631
+    marketGroup: 3655
     name: Citric Substitute Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1849,7 +1849,7 @@ types:
     volume: 0.10000000149011612
   83388:
     id: 83388
-    marketGroup: 3631
+    marketGroup: 3655
     name: Lilac Star Dust Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1857,7 +1857,7 @@ types:
     volume: 0.10000000149011612
   83921:
     id: 83921
-    marketGroup: 3631
+    marketGroup: 3653
     name: Holovisual Violet Matte - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1865,7 +1865,7 @@ types:
     volume: 0.10000000149011612
   83922:
     id: 83922
-    marketGroup: 3631
+    marketGroup: 3654
     name: Holovisual Violet Satin - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -1873,8 +1873,48 @@ types:
     volume: 0.10000000149011612
   83923:
     id: 83923
-    marketGroup: 3631
+    marketGroup: 3655
     name: Holovisual Violet Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84009:
+    id: 84009
+    marketGroup: 3653
+    name: Villore Viridescent Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84012:
+    id: 84012
+    marketGroup: 3653
+    name: Old Man's Sunset Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84014:
+    id: 84014
+    marketGroup: 3632
+    name: Intaki Emerald Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84015:
+    id: 84015
+    marketGroup: 3633
+    name: Liberty's Wings - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84016:
+    id: 84016
+    marketGroup: 3633
+    name: United Front - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

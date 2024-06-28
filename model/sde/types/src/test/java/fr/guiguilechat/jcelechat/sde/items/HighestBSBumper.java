@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.sde.items;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 
 public class HighestBSBumper {
@@ -18,7 +19,7 @@ public class HighestBSBumper {
 	public static double getMomentumMWD(Ship ship) {
 		double addedMass = 0;
 		double thrust = ship.mass;
-		if (ship.medslots > 0) {
+		if (MedSlots.INSTANCE.value(ship)> 0) {
 			addedMass = 50000000;
 			thrust = 150000000;
 		}

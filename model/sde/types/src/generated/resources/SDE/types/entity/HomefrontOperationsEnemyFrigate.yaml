@@ -3904,9 +3904,9 @@ types:
     armorhp: 2500.0
     armorkineticdamageresonance: 0.6524999737739563
     armorthermaldamageresonance: 0.6524999737739563
-    behaviorremotecapacitortransmitterdischarge: 40
+    behaviorremotecapacitortransmitterdischarge: 60
     behaviorremotecapacitortransmitterduration: 5000
-    behaviorremotecapacitortransmitterrange: 3500
+    behaviorremotecapacitortransmitterrange: 5000
     capacitorcapacity: 757.0
     capacity: 235.0
     damagemultiplier: 1.0
@@ -3930,7 +3930,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 28700.0
     portionSize: 1
-    powertransferamount: 120
+    powertransferamount: 360
     published: false
     radius: 20.5
     rechargerate: 142648.0

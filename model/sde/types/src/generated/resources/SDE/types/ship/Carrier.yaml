@@ -13,7 +13,7 @@ types:
     canjump: 1
     capacitorcapacity: 58000.0
     capacity: 825.0
-    conduitjumpdriveconsumptionamount: 21000
+    conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
     cpuoutput: 625
     disallowinhighsec: 1
@@ -135,7 +135,7 @@ types:
     canjump: 1
     capacitorcapacity: 55000.0
     capacity: 875.0
-    conduitjumpdriveconsumptionamount: 21000
+    conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
     cpuoutput: 725
     disallowinhighsec: 1
@@ -258,7 +258,7 @@ types:
     canjump: 1
     capacitorcapacity: 50000.0
     capacity: 870.0
-    conduitjumpdriveconsumptionamount: 21000
+    conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
     cpuoutput: 825
     disallowinhighsec: 1
@@ -380,7 +380,7 @@ types:
     canjump: 1
     capacitorcapacity: 48000.0
     capacity: 860.0
-    conduitjumpdriveconsumptionamount: 21000
+    conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
     cpuoutput: 775
     disallowinhighsec: 1

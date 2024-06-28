@@ -157,6 +157,13 @@ public class EngineeringComplex
     @DefaultIntValue(1)
     public int hiddenmissiledamagemultiplier;
     /**
+     * Impedance against Remote Repair (shield, armor, hull and energy).
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double remoterepairimpedance;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -263,6 +270,10 @@ public class EngineeringComplex
             case  2750 :
             {
                 return hiddenmissiledamagemultiplier;
+            }
+            case  2116 :
+            {
+                return remoterepairimpedance;
             }
             case  1547 :
             {

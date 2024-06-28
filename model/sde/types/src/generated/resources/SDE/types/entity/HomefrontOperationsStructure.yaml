@@ -11,6 +11,11 @@ types:
     falloff: 1.0
     hp: 900000.0
     id: 77065
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Blood Raider Temple
     optimalsigradius: 1000
     portionSize: 1
@@ -35,6 +40,11 @@ types:
     hp: 82500.0
     id: 77120
     mass: 100000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Longshot Relay
     optimalsigradius: 1000
     packagedVolume: 1.0E8
@@ -60,6 +70,11 @@ types:
     falloff: 1.0
     hp: 10000.0
     id: 77126
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Holy Mission
     optimalsigradius: 1000
     portionSize: 1
@@ -85,6 +100,11 @@ types:
     hp: 82500.0
     id: 77195
     mass: 100000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Quantum-Override Broadcaster
     optimalsigradius: 1000
     packagedVolume: 1.0E8
@@ -112,6 +132,11 @@ types:
     hp: 82500.0
     id: 77199
     mass: 100000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Sacred Exploiter
     optimalsigradius: 1000
     packagedVolume: 1.0E8
@@ -139,6 +164,11 @@ types:
     hp: 82500.0
     id: 77200
     mass: 100000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Megafinance Siphoner
     optimalsigradius: 1000
     packagedVolume: 1.0E8
@@ -165,6 +195,11 @@ types:
     falloff: 1.0
     hp: 900000.0
     id: 77251
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Occupied Industrial Housing
     optimalsigradius: 1000
     portionSize: 1
@@ -188,6 +223,11 @@ types:
     falloff: 1.0
     hp: 900000.0
     id: 77252
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Decommissioned Base
     optimalsigradius: 1000
     portionSize: 1
@@ -211,6 +251,11 @@ types:
     falloff: 1.0
     hp: 900000.0
     id: 77253
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Cartel Racket HQ
     optimalsigradius: 1000
     portionSize: 1
@@ -233,6 +278,11 @@ types:
     falloff: 1.0
     hp: 10000.0
     id: 77287
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Charon Repatriator
     optimalsigradius: 1000
     portionSize: 1
@@ -256,6 +306,11 @@ types:
     falloff: 1.0
     hp: 20000.0
     id: 77290
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Master Controller
     optimalsigradius: 1000
     portionSize: 1
@@ -279,6 +334,11 @@ types:
     falloff: 1.0
     hp: 10000.0
     id: 77292
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Clan Commons
     optimalsigradius: 1000
     portionSize: 1
@@ -304,13 +364,18 @@ types:
     hp: 100000.0
     id: 81402
     mass: 100000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Destabilizing Array
     optimalsigradius: 1000
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2411.0
-    rechargerate: 1200000.0
+    rechargerate: 1800000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -339,6 +404,11 @@ types:
     mass: 1000.0
     maxlockedtargets: 6
     maxrange: 250000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Damaged Werpost
     optimalsigradius: 100
     packagedVolume: 1000.0
@@ -365,3 +435,43 @@ types:
     tierdifficulty: 3
     trackingspeed: 35.0
     volume: 1000.0
+  83635:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 1.0E7
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 1875.0
+    capacity: 650.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    entitymissiletypeid: 44260
+    falloff: 1.0
+    gfxboosterid: 394
+    gfxturretid: 19660
+    hp: 1.0E7
+    id: 83635
+    mass: 1.272E7
+    maxlockedtargets: 7
+    maxtargetrange: 64000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 3.0
+    missilelaunchduration: 12000.0
+    name: Tournament Firework Launcher
+    optimalsigradius: 1000
+    portionSize: 1
+    price: 100.0
+    published: false
+    radius: 476.0
+    rechargerate: 285000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0

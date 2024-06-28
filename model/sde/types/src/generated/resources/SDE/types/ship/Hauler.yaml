@@ -1497,7 +1497,7 @@ types:
     basewarpspeed: 1
     capacitorcapacity: 1250.0
     capacity: 3000.0
-    cpuoutput: 380
+    cpuoutput: 395
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -1532,7 +1532,7 @@ types:
     name: Squall
     packagedVolume: 20000.0
     portionSize: 1
-    poweroutput: 400
+    poweroutput: 250
     powertospeed: 1
     price: 1.8E7
     propulsiongraphicid: 395
@@ -1569,6 +1569,7 @@ types:
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
+    upwellhaulersmediummissilefittingbonus: 0.10000000149011612
     volume: 250000.0
     warpcapacitorneed: 1.0891100288290545E-7
     warpspeedmultiplier: 4.5

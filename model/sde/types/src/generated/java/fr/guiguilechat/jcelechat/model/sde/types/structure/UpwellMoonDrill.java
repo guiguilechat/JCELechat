@@ -26,19 +26,15 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoDeliveryRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ECMResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.GateMaxJumpMass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiddenArmorHPMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveConsumptionType;
-import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalAdditionalConsumption;
-import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalConsumptionMassFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots;
@@ -46,15 +42,16 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaximumRangeCap;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OutputMoonMaterialBayCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PauseArmorRepairDpsThreshold;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PauseHullRepairDpsThreshold;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PauseShieldRepairDpsThreshold;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PreFitServiceSlot0;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PreFitStructureCore;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
@@ -87,44 +84,20 @@ import fr.guiguilechat.jcelechat.model.sde.types.Structure;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class UpwellJumpGate
+public class UpwellMoonDrill
     extends Structure
 {
     /**
-     * 
+     * Security status restriction, preventing ships from entering high sec and modules from being activated.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int gatemaxjumpmass;
-    /**
-     * Type that is used for consumption from cargo hold when activating jump drive operation.
-     */
+    public int disallowinhighsec;
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int jumpdriveconsumptiontype;
-    /**
-     * Range in light years the ship can maximum jump to.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double jumpdriverange;
-    /**
-     * Additional units of fuel that are consumed on each jump through a jump portal, not subject to any of the mass or distance multipliers
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int jumpportaladditionalconsumption;
-    /**
-     * Multiplier used to calculate amount of quantity used for jumping via portals based on mass of ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double jumpportalconsumptionmassfactor;
+    public int outputmoonmaterialbaycapacity;
     /**
      * Module type ID to pre-fit into service slot 0
      */
@@ -133,12 +106,12 @@ public class UpwellJumpGate
     @DefaultIntValue(0)
     public int prefitserviceslot0;
     /**
-     * Impedance against Remote Repair (shield, armor, hull and energy).
+     * Module type ID to pre-fit as structure core
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double remoterepairimpedance;
+    @DefaultIntValue(0)
+    public int prefitstructurecore;
     /**
      * scanning speed in milliseconds
      */
@@ -153,39 +126,27 @@ public class UpwellJumpGate
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hackable.INSTANCE, Uniformity.INSTANCE, ServiceSlots.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, PauseShieldRepairDpsThreshold.INSTANCE, PauseArmorRepairDpsThreshold.INSTANCE, PauseHullRepairDpsThreshold.INSTANCE, MaximumRangeCap.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, StructureFullPowerStateHitpointMultiplier.INSTANCE, HiddenArmorHPMultiplier.INSTANCE, SensorDampenerResistance.INSTANCE, MaxLockedTargets.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, MaxTargetRange.INSTANCE, ECMResistance.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, ShieldRechargeRate.INSTANCE, JumpDriveConsumptionType.INSTANCE, CapacitorCapacity.INSTANCE, JumpDriveRange.INSTANCE, ShieldUniformity.INSTANCE, LauncherSlotsLeft.INSTANCE, CargoDeliveryRange.INSTANCE, PreFitServiceSlot0 .INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalAdditionalConsumption.INSTANCE, KineticDamageResonance.INSTANCE, GateMaxJumpMass.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ShieldDamageLimit.INSTANCE, ArmorDamageLimit.INSTANCE, StructureDamageLimit.INSTANCE, StructurePowerStateArmorPlatingMultiplier.INSTANCE, EnergyWarfareResistance.INSTANCE, TierDifficulty.INSTANCE })));
-    public static final UpwellJumpGate.MetaGroup METAGROUP = new UpwellJumpGate.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hackable.INSTANCE, Uniformity.INSTANCE, ServiceSlots.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, PauseShieldRepairDpsThreshold.INSTANCE, PauseArmorRepairDpsThreshold.INSTANCE, PauseHullRepairDpsThreshold.INSTANCE, MaximumRangeCap.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, DisallowInHighSec.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, StructureFullPowerStateHitpointMultiplier.INSTANCE, OutputMoonMaterialBayCapacity.INSTANCE, HiddenArmorHPMultiplier.INSTANCE, SensorDampenerResistance.INSTANCE, MaxLockedTargets.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, PreFitStructureCore.INSTANCE, MaxTargetRange.INSTANCE, ECMResistance.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, LauncherSlotsLeft.INSTANCE, CargoDeliveryRange.INSTANCE, PreFitServiceSlot0 .INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ShieldDamageLimit.INSTANCE, ArmorDamageLimit.INSTANCE, StructureDamageLimit.INSTANCE, StructurePowerStateArmorPlatingMultiplier.INSTANCE, EnergyWarfareResistance.INSTANCE, TierDifficulty.INSTANCE })));
+    public static final UpwellMoonDrill.MetaGroup METAGROUP = new UpwellMoonDrill.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  2798 :
+            case  1970 :
             {
-                return gatemaxjumpmass;
+                return disallowinhighsec;
             }
-            case  866 :
+            case  5693 :
             {
-                return jumpdriveconsumptiontype;
-            }
-            case  867 :
-            {
-                return jumpdriverange;
-            }
-            case  2793 :
-            {
-                return jumpportaladditionalconsumption;
-            }
-            case  1001 :
-            {
-                return jumpportalconsumptionmassfactor;
+                return outputmoonmaterialbaycapacity;
             }
             case  2792 :
             {
                 return prefitserviceslot0;
             }
-            case  2116 :
+            case  5701 :
             {
-                return remoterepairimpedance;
+                return prefitstructurecore;
             }
             case  79 :
             {
@@ -208,35 +169,35 @@ public class UpwellJumpGate
     }
 
     @Override
-    public IMetaGroup<UpwellJumpGate> getGroup() {
+    public IMetaGroup<UpwellMoonDrill> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<UpwellJumpGate>
+        implements IMetaGroup<UpwellMoonDrill>
     {
-        public static final String RESOURCE_PATH = "SDE/types/structure/UpwellJumpGate.yaml";
-        private Map<Integer, UpwellJumpGate> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/structure/UpwellMoonDrill.yaml";
+        private Map<Integer, UpwellMoonDrill> cache = (null);
 
         @Override
-        public IMetaCategory<? super UpwellJumpGate> category() {
+        public IMetaCategory<? super UpwellMoonDrill> category() {
             return Structure.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  1408;
+            return  4744;
         }
 
         @Override
         public String getName() {
-            return "UpwellJumpGate";
+            return "UpwellMoonDrill";
         }
 
         @Override
-        public synchronized Map<Integer, UpwellJumpGate> load() {
+        public synchronized Map<Integer, UpwellMoonDrill> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(UpwellJumpGate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(UpwellMoonDrill.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -248,7 +209,7 @@ public class UpwellJumpGate
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, UpwellJumpGate> types;
+            public LinkedHashMap<Integer, UpwellMoonDrill> types;
         }
     }
 }

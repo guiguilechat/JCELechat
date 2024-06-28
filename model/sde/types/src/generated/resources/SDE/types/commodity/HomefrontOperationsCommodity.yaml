@@ -103,6 +103,7 @@ types:
     volume: 0.009999999776482582
   81383:
     id: 81383
+    marketGroup: 1863
     mass: 500.0
     name: Contraband Data
     packagedVolume: 50.0

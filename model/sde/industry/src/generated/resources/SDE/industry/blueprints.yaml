@@ -176931,6 +176931,36 @@ blueprints:
     research_time:
       time: 21000
     seeded: true
+  81922:
+    copying:
+      time: 600000
+    id: 81922
+    manufacturing:
+      materials:
+      - id: 21947
+        quantity: 3
+      - id: 21951
+        quantity: 1
+      - id: 21959
+        quantity: 1
+      - id: 21967
+        quantity: 1
+      - id: 81920
+        quantity: 1
+      products:
+      - id: 81826
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3400
+        : 1
+      time: 750000
+    maxCopyRuns: 2
+    research_material:
+      time: 50000
+    research_time:
+      time: 50000
+    seeded: true
   81946:
     id: 81946
     manufacturing:

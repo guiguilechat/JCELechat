@@ -93,6 +93,13 @@ public class UpwellCynoJammer
     @DefaultIntValue(0)
     public int prefitserviceslot0;
     /**
+     * Impedance against Remote Repair (shield, armor, hull and energy).
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double remoterepairimpedance;
+    /**
      * scanning speed in milliseconds
      */
     @HighIsGood(false)
@@ -115,6 +122,10 @@ public class UpwellCynoJammer
             case  2792 :
             {
                 return prefitserviceslot0;
+            }
+            case  2116 :
+            {
+                return remoterepairimpedance;
             }
             case  79 :
             {
