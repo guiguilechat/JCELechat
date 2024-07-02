@@ -1,15 +1,19 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.GroupedPrices;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.IPricing;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import lombok.Getter;
@@ -38,21 +42,37 @@ public class Markets {
 	public RegionalMarket getMarket(int regionID) {
 		RegionalMarket rm = regionMarkets.get(regionID);
 		if (rm == null) {
+			// first check that the requested region id indeed exists
 			if (!esiConnection.cache().universe.regions().get().contains(regionID)) {
-				logger.warn("requested inexisting region id " + regionID, new NullPointerException());
+				logger.error("requested inexisting region id " + regionID, new NullPointerException());
 				return null;
 			}
 			synchronized (regionMarkets) {
 				rm = regionMarkets.get(regionID);
 				if (rm == null) {
 					rm = new RegionalMarket(esiConnection.cache(), regionID);
+					rm.getAllOrders();
 					regionMarkets.put(regionID, rm);
-				} else {
-					rm = regionMarkets.get(regionID);
 				}
 			}
 		}
 		return rm;
+	}
+
+	public RegionalMarket domain() {
+		return getMarket(10000043);
+	}
+
+	public RegionalMarket heimatar() {
+		return getMarket(10000030);
+	}
+
+	public RegionalMarket metropolis() {
+		return getMarket(10000042);
+	}
+
+	public RegionalMarket sinqLaison() {
+		return getMarket(10000032);
 	}
 
 	public RegionalMarket theForge() {
@@ -88,6 +108,50 @@ public class Markets {
 		}
 		return lm;
 	}
+
+	//
+
+	protected ListHolder<R_get_markets_region_id_orders> extractBuyOrders(RegionalMarket market, Integer typeId) {
+		ListHolder<R_get_markets_region_id_orders> ret = market.getBuyOrdersByTypeId()
+		    .at(typeId, List.of())
+		    .toList(l -> l)
+		    .sorted(Comparator.comparing(o -> -o.price));
+		return ret;
+	}
+
+	protected Double average(List<? extends List<R_get_markets_region_id_orders>> regional) {
+		double min = Double.POSITIVE_INFINITY,
+		    max = 0.0, total = 0.0;
+		int count = 0;
+		for (List<R_get_markets_region_id_orders> l : regional) {
+			if (l.size() > 0) {
+				double price = l.get(0).price;
+				if (price < min) {
+					min = price;
+				}
+				if (price > max) {
+					max = price;
+				}
+				total += price;
+				count++;
+			}
+		}
+		if(count>2) {
+			return (total - min - max) / (count - 2);
+		}
+		if(count>0) {
+			return total/count;
+		}
+		return 0.0;
+	}
+
+	/**
+	 * get empire average BO price removing two highest and lowest value.
+	 */
+	@Getter(lazy = true)
+	private final GroupedPrices empireAvgPrice = new GroupedPrices(
+	    new RegionalMarket[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() }, this::extractBuyOrders,
+	    this::average);
 
 	//
 	// prices : adjusted and average

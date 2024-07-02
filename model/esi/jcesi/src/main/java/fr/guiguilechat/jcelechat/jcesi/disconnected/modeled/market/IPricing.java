@@ -7,7 +7,9 @@ public interface IPricing {
 	public LocalTypeOrders getMarketOrders(int typeID, boolean buyOrders);
 
 	public default DoubleHolder getPrice(int typeID, long qtty, boolean buy) {
-		return getMarketOrders(typeID, buy).getPrice(qtty);
+		LocalTypeOrders mo = getMarketOrders(typeID, buy);
+		DoubleHolder ret = mo.getPrice(qtty);
+		return ret;
 	}
 
 	public default DoubleHolder getSO(int typeID, long qtty) {
@@ -15,7 +17,8 @@ public interface IPricing {
 	}
 
 	public default DoubleHolder getBO(int typeID, long qtty) {
-		return getPrice(typeID, qtty, true);
+		DoubleHolder ret = getPrice(typeID, qtty, true);
+		return ret;
 	}
 
 }

@@ -9,9 +9,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -22,18 +19,15 @@ import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@RequiredArgsConstructor
+@Slf4j
 public class RegionalMarket implements IPricing {
-
-	private static final Logger logger = LoggerFactory.getLogger(RegionalMarket.class);
 
 	private final CacheStatic cache;
 	private final int regionId;
-
-	public RegionalMarket(CacheStatic cache, int regionId) {
-		this.cache = cache;
-		this.regionId = regionId;
-	}
 
 	@Getter(lazy = true)
 	private final ListHolder<R_get_markets_region_id_orders> allOrders = cache.markets.orders(order_type.all, regionId,
@@ -58,10 +52,10 @@ public class RegionalMarket implements IPricing {
 	// orders
 
 	// typeid-> cached buy orders
-	private Map<Integer, LocalTypeOrders> cachedBuyOrders = new HashMap<>();
+	private final Map<Integer, LocalTypeOrders> cachedBuyOrders = new HashMap<>();
 
 	// typeid-> cached sell orders
-	private Map<Integer, LocalTypeOrders> cachedSellOrders = new HashMap<>();
+	private final Map<Integer, LocalTypeOrders> cachedSellOrders = new HashMap<>();
 
 	@Override
 	public LocalTypeOrders getMarketOrders(int typeID, boolean buyOrders) {
@@ -162,14 +156,14 @@ public class RegionalMarket implements IPricing {
 															.get().size() <= distance)
 									.forEach(systemsInRange::add);
 						}
-						logger.debug("allowed systems in region " + regionId + " filter " + key + " are " + systemsInRange);
+						log.debug("allowed systems in region " + regionId + " filter " + key + " are " + systemsInRange);
 						// then get all the stations in those systems
 						Set<Long> stationIds = systemsInRange.parallelStream()
 								.map(si -> ESIRawPublic.INSTANCE.cache().universe.systems(si).get())
 								.filter(sys -> !onlyHS || sys.security_status >= 0.45)
 								.flatMapToLong(sys -> IntStream.of(sys.stations).asLongStream())
 								.mapToObj(i -> (Long) i).collect(Collectors.toSet());
-						logger.debug(" corresponding stations are " + stationIds);
+						log.debug(" corresponding stations are " + stationIds);
 						ret2 = new ProxyRegionalMarket(getAllOrders().filter(order -> stationIds.contains(order.location_id)));
 					}
 				}

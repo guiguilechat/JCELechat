@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
+import java.util.Comparator;
 import java.util.HashMap;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
+import fr.lelouet.tools.synchronization.LockWatchDog;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -25,42 +27,39 @@ public class LocalTypeOrders {
 	 * orders are sorted by price ASC
 	 */
 	@Getter(lazy = true)
-	private final ListHolder<R_get_markets_region_id_orders> filteredOrders = buy
-			? allOrders.filter(order -> order.is_buy_order && order.min_volume == 1)
-					.sorted((o1, o2) -> -Double.compare(o1.price, o2.price))
-			: allOrders.filter(order -> !order.is_buy_order && order.min_volume == 1)
-					.sorted((o1, o2) -> Double.compare(o1.price, o2.price));
+	private final ListHolder<R_get_markets_region_id_orders> filteredOrders = allOrders
+	    .filter(order -> order.is_buy_order == buy && order.min_volume == 1)
+	    .sorted(buy ? Comparator.comparing(o -> -o.price) : Comparator.comparing(o -> o.price));
 
 
-	private HashMap<Long, DoubleHolder> cachedPrice = new HashMap<>();
+	private final HashMap<Long, DoubleHolder> qttyToPriceHolder = new HashMap<>();
 
 	public DoubleHolder getPrice(long qtty) {
-		DoubleHolder ret = cachedPrice.get(qtty);
+		DoubleHolder ret = qttyToPriceHolder.get(qtty);
 		if (ret == null) {
-			ListHolder<R_get_markets_region_id_orders> source = getFilteredOrders();
-			synchronized (cachedPrice) {
-				ret = cachedPrice.get(qtty);
-				if (ret == null) {
-					ret = source.mapDouble(l -> {
-						double total = 0.0;
-						long remain = qtty;
-						for (R_get_markets_region_id_orders o : l) {
-							if (o.volume_remain >= remain) {
-								total += remain * o.price;
-								return total;
-							} else {
-								total += o.price * o.volume_remain;
-								remain -= o.volume_remain;
-							}
-						}
-						return buy ? total : Double.POSITIVE_INFINITY;
-					});
-					cachedPrice.put(qtty, ret);
-				}
-
-			}
+			ret = LockWatchDog.BARKER.syncExecute(qttyToPriceHolder,
+			    () -> qttyToPriceHolder.computeIfAbsent(qtty, this::makePrice));
 		}
 		return ret;
+	}
+
+	protected DoubleHolder makePrice(long qtty) {
+		ListHolder<R_get_markets_region_id_orders> source = getFilteredOrders();
+		DoubleHolder ret2 = source.mapDouble(l -> {
+			double total = 0.0;
+			long remain = qtty;
+			for (R_get_markets_region_id_orders o : l) {
+				if (o.volume_remain >= remain) {
+					total += remain * o.price;
+					return total;
+				} else {
+					total += o.price * o.volume_remain;
+					remain -= o.volume_remain;
+				}
+			}
+			return buy ? total : Double.POSITIVE_INFINITY;
+		});
+		return ret2;
 	}
 
 	/**
