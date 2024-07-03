@@ -22,20 +22,22 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
 @SuppressWarnings("serial")
-@Entity(name = "EsiMarketRegionContract")
-@Table(name = "esi_market_regioncontract", indexes = {
+@Entity(name = "EsiMarketContractInfo")
+@Table(name = "esi_market_contractinfo", indexes = {
 		@Index(columnList = "region_region_id,removed,fetched"),
 		@Index(columnList = "contractId") })
-@Data
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class RegionContract implements Serializable {
+@Getter
+@Setter
+public class ContractInfo implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -46,7 +48,7 @@ public class RegionContract implements Serializable {
 
 	@ToString.Exclude
 	@OneToMany(mappedBy = "contract", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-	private List<RegionContractItem> items;
+	private List<ContractItem> items;
 
 	/**
 	 * set to true when the contract only requires one type, and only offers isks.
@@ -167,7 +169,7 @@ public class RegionContract implements Serializable {
 	 */
 	private double volume;
 
-	public static RegionContract of(ObservedRegion region, R_get_contracts_public_region_id line) {
+	public static ContractInfo of(ObservedRegion region, R_get_contracts_public_region_id line) {
 		return builder()
 				.region(region)
 				.buyout(line.buyout)

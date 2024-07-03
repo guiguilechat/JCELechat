@@ -14,27 +14,27 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-public class RegionContractService {
+public class ContractInfoService {
 
-	final private RegionContractRepository repo;
+	final private ContractInfoRepository repo;
 
-	public RegionContract save(RegionContract entity) {
+	public ContractInfo save(ContractInfo entity) {
 		return repo.save(entity);
 	}
 
-	public List<RegionContract> saveAll(Iterable<RegionContract> entities) {
+	public List<ContractInfo> saveAll(Iterable<ContractInfo> entities) {
 		return repo.saveAll(entities);
 	}
 
-	public Map<Long, RegionContract> allPresentInRegionById(int regionId) {
+	public Map<Long, ContractInfo> allPresentInRegionById(int regionId) {
 		return repo.findByRegionRegionIdAndRemovedFalse(regionId).stream()
-				.collect(Collectors.toMap(RegionContract::getContractId, rc -> rc));
+				.collect(Collectors.toMap(ContractInfo::getContractId, rc -> rc));
 	}
 
 	/**
 	 * @return the next 1000 contracts that need to be fetched their items
 	 */
-	public List<RegionContract> nextFetch() {
+	public List<ContractInfo> nextFetch() {
 		return repo.findTop1000ByTypeAndFetchedFalseAndRemovedFalseOrderByContractId(
 				get_contracts_public_region_id_type.item_exchange);
 	}

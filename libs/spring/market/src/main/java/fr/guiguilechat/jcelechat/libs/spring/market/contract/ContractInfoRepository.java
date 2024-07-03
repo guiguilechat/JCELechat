@@ -8,18 +8,18 @@ import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 
-public interface RegionContractRepository extends JpaRepository<RegionContract, Long> {
+public interface ContractInfoRepository extends JpaRepository<ContractInfo, Long> {
 
-	public List<RegionContract> findTop1000ByTypeAndFetchedFalseAndRemovedFalseOrderByContractId(
+	public List<ContractInfo> findTop1000ByTypeAndFetchedFalseAndRemovedFalseOrderByContractId(
 			get_contracts_public_region_id_type type);
 
-	public List<RegionContract> findByRegionRegionIdAndRemovedFalse(int regionId);
+	public List<ContractInfo> findByRegionRegionIdAndRemovedFalse(int regionId);
 
 	@Query("""
 select
 	count(*)
 from
-	EsiMarketRegionContract
+	EsiMarketContractInfo
 where
 	not fetched
 	and not removed
@@ -31,27 +31,27 @@ where
 select
 	distinct(contract)
 from
-	EsiMarketRegionContractItem
+	EsiMarketContractItem
 where
 	contract.fetched
 	and not contract.removed
 	and contract.asksOneTypeForIsks
 	and typeId=:typeId
 """)
-	public Stream<RegionContract> listBOs(int typeId);
+	public Stream<ContractInfo> listBOs(int typeId);
 
 	@Query("""
 	select
 	distinct(contract)
 from
-	EsiMarketRegionContractItem
+	EsiMarketContractItem
 where
 	contract.fetched
 	and not contract.removed
 	and contract.offersOneTypeForIsk
 	and typeId=:typeId
 """)
-	public Stream<RegionContract> listSOs(int typeId);
+	public Stream<ContractInfo> listSOs(int typeId);
 
 	/*
 	 select

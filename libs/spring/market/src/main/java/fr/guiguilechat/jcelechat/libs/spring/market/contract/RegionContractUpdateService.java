@@ -36,9 +36,9 @@ public class RegionContractUpdateService {
 
 	final private CacheManager cacheManager;
 
-	private final RegionContractItemService regionContractItemService;
+	private final ContractItemService regionContractItemService;
 
-	private final RegionContractService regionContractService;
+	private final ContractInfoService regionContractService;
 
 	final private ObservedRegionService orService;
 
@@ -56,11 +56,11 @@ public class RegionContractUpdateService {
 			return List.of();
 		}
 
-		public default void onContractsUpdate(ObservedRegion region, List<RegionContract> removed) {
+		public default void onContractsUpdate(ObservedRegion region, List<ContractInfo> removed) {
 
 		}
 
-		public default void onContractsItemsUpdated(RegionContract contract) {
+		public default void onContractsItemsUpdated(ContractInfo contract) {
 
 		}
 
@@ -68,7 +68,7 @@ public class RegionContractUpdateService {
 
 	private final List<ContractUpdateListener> updateContractListeners;
 
-	protected void notifyContractListeners(ObservedRegion region, List<RegionContract> removed) {
+	protected void notifyContractListeners(ObservedRegion region, List<ContractInfo> removed) {
 		updateContractListeners.stream().flatMap(l -> l.listContractCaches(region.getRegionId()).stream())
 				.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 		updateContractListeners.stream().forEach(l -> l.onContractsUpdate(region, removed));
@@ -82,11 +82,11 @@ public class RegionContractUpdateService {
 				.collect(Collectors.toMap(l -> (long) l.contract_id, l -> l));
 		long retrievedMs = System.currentTimeMillis();
 		if (received != null) {
-			Map<Long, RegionContract> alreadyStored = regionContractService.allPresentInRegionById(region.getRegionId());
-			List<RegionContract> updated = new ArrayList<>();
-			List<RegionContract> removed = new ArrayList<>();
+			Map<Long, ContractInfo> alreadyStored = regionContractService.allPresentInRegionById(region.getRegionId());
+			List<ContractInfo> updated = new ArrayList<>();
+			List<ContractInfo> removed = new ArrayList<>();
 			int created = 0;
-			for (RegionContract rc : alreadyStored.values()) {
+			for (ContractInfo rc : alreadyStored.values()) {
 				if (!received.containsKey(rc.getContractId())) {
 					rc.setRemoved(true);
 					removed.add(rc);
@@ -96,7 +96,7 @@ public class RegionContractUpdateService {
 			for (R_get_contracts_public_region_id r : received.values()) {
 				if (!alreadyStored.containsKey((long) r.contract_id)) {
 					created++;
-					updated.add(RegionContract.of(region, r));
+					updated.add(ContractInfo.of(region, r));
 				}
 			}
 			long applyMS = System.currentTimeMillis();
@@ -205,14 +205,14 @@ public class RegionContractUpdateService {
 
 	@Async
 	@Transactional
-	public CompletableFuture<Void> updateContractItems(RegionContract contract) {
+	public CompletableFuture<Void> updateContractItems(ContractInfo contract) {
 		List<R_get_contracts_public_items_contract_id> items = fetchContractsItemsNoDB(contract);
 		if (items != null) {
 			if (contract.isRemoved()) {
 				notifyContractListeners(contract.getRegion(), List.of(contract));
 			} else {
 				regionContractItemService.saveAll(
-						items.stream().map(line -> RegionContractItem.of(contract, line)).toList());
+						items.stream().map(line -> ContractItem.of(contract, line)).toList());
 			}
 			regionContractService.save(contract);
 		}
@@ -228,7 +228,7 @@ public class RegionContractUpdateService {
 	 * @return null in case of error. Otherwise the contract is updated to reflect
 	 *           the items fetched, they need to be saved and he also needs.
 	 */
-	List<R_get_contracts_public_items_contract_id> fetchContractsItemsNoDB(RegionContract contract) {
+	List<R_get_contracts_public_items_contract_id> fetchContractsItemsNoDB(ContractInfo contract) {
 		long startTime = System.currentTimeMillis();
 		Integer pages = null;
 		List<R_get_contracts_public_items_contract_id> fetchedItems = new ArrayList<>();

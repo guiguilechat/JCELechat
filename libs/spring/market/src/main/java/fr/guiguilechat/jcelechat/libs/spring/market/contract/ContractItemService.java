@@ -8,15 +8,15 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-public class RegionContractItemService {
+public class ContractItemService {
 
-	private final RegionContractItemRepository repo;
+	private final ContractItemRepository repo;
 
-	public RegionContractItem save(RegionContractItem entity) {
+	public ContractItem save(ContractItem entity) {
 		return repo.save(entity);
 	}
 
-	public List<RegionContractItem> saveAll(Iterable<RegionContractItem> entities) {
+	public List<ContractItem> saveAll(Iterable<ContractItem> entities) {
 		return repo.saveAll(entities);
 	}
 

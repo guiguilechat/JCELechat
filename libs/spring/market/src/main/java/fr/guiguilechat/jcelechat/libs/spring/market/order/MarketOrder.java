@@ -5,8 +5,8 @@ import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContract;
-import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContractItem;
+import fr.guiguilechat.jcelechat.libs.spring.market.contract.ContractInfo;
+import fr.guiguilechat.jcelechat.libs.spring.market.contract.ContractItem;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
 import fr.guiguilechat.tools.FormatTools;
@@ -119,11 +119,11 @@ public class MarketOrder implements Serializable {
 				.build();
 	}
 
-	public static MarketOrder of(RegionContract contract) {
+	public static MarketOrder of(ContractInfo contract) {
 		if (!contract.isAsksOneTypeForIsks() && !contract.isOffersOneTypeForIsk()) {
 			throw new RuntimeException("contract can't be used as a market order");
 		}
-		int volume = contract.getItems().stream().mapToInt(RegionContractItem::getQuantity).sum();
+		int volume = contract.getItems().stream().mapToInt(ContractItem::getQuantity).sum();
 		long locationId = contract.getEndLocationId();
 		double price = contract.isAsksOneTypeForIsks() ? contract.getReward() : contract.getPrice();
 		return builder()

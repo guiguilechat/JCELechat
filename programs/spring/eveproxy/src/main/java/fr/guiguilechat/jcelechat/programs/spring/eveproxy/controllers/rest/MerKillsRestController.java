@@ -41,8 +41,8 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.Group;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.mer.services.KillService;
-import fr.guiguilechat.jcelechat.libs.spring.mer.services.KillService.KillStats;
+import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService;
+import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService.KillStats;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 

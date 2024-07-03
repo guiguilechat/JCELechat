@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.mer.model;
+package fr.guiguilechat.jcelechat.libs.spring.mer.updater;
 
 import java.time.Instant;
 import java.time.LocalDate;

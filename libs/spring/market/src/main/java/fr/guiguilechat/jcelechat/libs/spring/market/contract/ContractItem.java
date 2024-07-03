@@ -16,22 +16,22 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @SuppressWarnings("serial")
-@Entity(name = "EsiMarketRegionContractItem")
-@Table(name = "esi_market_regioncontractitem", indexes = {
+@Entity(name = "EsiMarketContractItem")
+@Table(name = "esi_market_contractitem", indexes = {
 		@Index(columnList = "contract_id"),
 		@Index(columnList = "typeId") })
 @Data
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class RegionContractItem implements Serializable {
+public class ContractItem implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
 
 	@ManyToOne
-	private RegionContract contract;
+	private ContractInfo contract;
 
 	/**
 	 * is_blueprint_copy boolean
@@ -80,7 +80,7 @@ public class RegionContractItem implements Serializable {
 	 */
 	private int typeId;
 
-	public static RegionContractItem of(RegionContract contract, R_get_contracts_public_items_contract_id line) {
+	public static ContractItem of(ContractInfo contract, R_get_contracts_public_items_contract_id line) {
 		return builder()
 				.contract(contract)
 				.blueprintCopy(line.is_blueprint_copy)

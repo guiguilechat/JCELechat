@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.mer.services;
+package fr.guiguilechat.jcelechat.libs.spring.mer.updater;
 
 import java.time.LocalDate;
 import java.util.Set;
@@ -6,8 +6,6 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.mer.model.LoadedMer;
-import fr.guiguilechat.jcelechat.libs.spring.mer.repositories.LoadedMerRepository;
 import lombok.RequiredArgsConstructor;
 
 @Service

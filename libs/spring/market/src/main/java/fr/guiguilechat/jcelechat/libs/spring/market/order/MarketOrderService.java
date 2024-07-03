@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContractService;
+import fr.guiguilechat.jcelechat.libs.spring.market.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContractUpdateService.ContractUpdateListener;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionMarketUpdateService.MarketUpdateListener;
@@ -26,7 +26,7 @@ public class MarketOrderService implements ContractUpdateListener, MarketUpdateL
 
 	private final RegionLineService regionLineService;
 
-	private final RegionContractService regionContractService;
+	private final ContractInfoService regionContractService;
 
 	@Transactional
 	@Cacheable("MarketOrdersSellOrdersForType")

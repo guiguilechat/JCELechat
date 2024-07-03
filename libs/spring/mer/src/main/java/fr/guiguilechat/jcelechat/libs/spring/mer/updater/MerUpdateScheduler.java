@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.mer.services;
+package fr.guiguilechat.jcelechat.libs.spring.mer.updater;
 
 import java.util.ArrayList;
 import java.util.List;

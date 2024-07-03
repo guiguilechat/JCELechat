@@ -12,8 +12,8 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.status.ESIStatusService;
-import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContract;
-import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContractService;
+import fr.guiguilechat.jcelechat.libs.spring.market.contract.ContractInfo;
+import fr.guiguilechat.jcelechat.libs.spring.market.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.market.contract.RegionContractUpdateService;
 import fr.guiguilechat.jcelechat.libs.spring.market.history.HistoryReq;
 import fr.guiguilechat.jcelechat.libs.spring.market.history.HistoryReqService;
@@ -37,7 +37,7 @@ public class MarketUpdateScheduler {
 
 	final private ObservedRegionService orService;
 
-	private final RegionContractService regionContractService;
+	private final ContractInfoService regionContractService;
 
 	final private RegionContractUpdateService regionContractUpdateService;
 
@@ -154,12 +154,12 @@ public class MarketUpdateScheduler {
 		}
 		long startMs = System.currentTimeMillis();
 		int limit = availMult * esiStatusService.availErrors();
-		List<RegionContract> toFetch = regionContractService.nextFetch();
+		List<ContractInfo> toFetch = regionContractService.nextFetch();
 		if (toFetch.isEmpty()) {
 			return;
 		}
 		log.info("updating contracts items");
-		Map<RegionContract, CompletableFuture<Void>> futures = toFetch.stream()
+		Map<ContractInfo, CompletableFuture<Void>> futures = toFetch.stream()
 				.limit(limit)
 				.collect(Collectors.toMap(r -> r,
 						r -> regionContractUpdateService.updateContractItems(r).orTimeout(3, TimeUnit.MINUTES)));

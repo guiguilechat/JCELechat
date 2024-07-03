@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.mer.services;
+package fr.guiguilechat.jcelechat.libs.spring.mer.kill;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -10,9 +10,7 @@ import java.util.List;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.mer.model.Kill;
-import fr.guiguilechat.jcelechat.libs.spring.mer.repositories.KillRepository;
-import fr.guiguilechat.jcelechat.libs.spring.mer.services.MerUpdateService.MerUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.mer.updater.MerUpdateService.MerUpdateListener;
 import lombok.RequiredArgsConstructor;
 
 @Service
