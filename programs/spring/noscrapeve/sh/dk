@@ -6,8 +6,8 @@ ACTION=STATUS
 
 show_usage(){
 	echo usage : $0 ACTION [TARGET]
-	echo " ACTION : [start|stop|log|help]"
-	echo " TARGET : [h2|pg] default h2"
+	echo " ACTION : [start|stop|reset|log|help] or shorthands [u|d|rl|l|h]"
+	echo " TARGET : [h2|ms|pg|xe] default h2"
 	exit ${1:-0};
 }
 

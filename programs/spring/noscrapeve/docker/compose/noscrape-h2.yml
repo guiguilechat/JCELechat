@@ -8,7 +8,7 @@ services:
       deploy:
          resources:
             limits:
-               memory: 2000M
+               memory: 4000M
       image: glechat/noscrapeve:latest
       environment:
       - SPRING_DATASOURCE_URL=jdbc:h2:/db/export_db

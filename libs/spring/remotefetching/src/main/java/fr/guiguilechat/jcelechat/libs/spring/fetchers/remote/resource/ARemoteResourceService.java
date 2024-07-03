@@ -31,13 +31,8 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class ARemoteResourceService<
-			Entity extends ARemoteResource<Id, Fetched>,
-			Id,
-			Fetched,
-			Repository extends IRemoteResourceRepository<Entity, Id>>
+public abstract class ARemoteResourceService<Entity extends ARemoteResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteResourceRepository<Entity, Id>>
     extends AFetchedResourceService<Entity, Id, Repository> {
-
 
 	//
 	// entity create & save
@@ -159,6 +154,7 @@ public abstract class ARemoteResourceService<
 				break;
 			case 304:
 				updateNoChange(data, response);
+				responseOk.put(data, null);
 				break;
 			default:
 				log.error("while updating {} id {}, received response code {} and error {}",
@@ -221,9 +217,10 @@ public abstract class ARemoteResourceService<
 	 * @param responseOk map of entities updated to their ok response.
 	 */
 	protected void updateResponseOk(Map<Entity, Fetched> responseOk) {
-		responseOk.entrySet().stream().forEach(e -> {
-			e.getKey().update(e.getValue());
-		});
+		responseOk.entrySet().stream()
+		    .forEach(e -> {
+			    e.getKey().update(e.getValue());
+		    });
 	}
 
 	/**
@@ -308,7 +305,6 @@ public abstract class ARemoteResourceService<
 	//
 	// pre update is fetching new elements if possible
 	//
-
 
 	//
 	// list updating methods
@@ -443,8 +439,10 @@ public abstract class ARemoteResourceService<
 	protected int update(List<Entity> data) {
 		log.trace("{} updating list of {} elements}", fetcherName(), data.size());
 		Map<Entity, Fetched> successes = fetchData(data);
-		updateResponseOk(successes);
 		int success = successes.size();
+		// remove those with null Fetched : they are 304
+		successes.entrySet().removeIf(e -> e.getValue() == null);
+		updateResponseOk(successes);
 		saveAll(data);
 		log.trace(" {} updated list of {} elements", fetcherName(), data.size());
 		return success;

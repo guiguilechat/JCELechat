@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.fetchers.manager;
 
 import java.io.IOException;
+import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
 
@@ -38,24 +39,40 @@ public class RemoteResourceUpdaterService {
 
 	private final Optional<List<IRemoteResourceUpdateListener>> listeners;
 
+	//
+	// fetch management
+	//
+
 	@Value("${esi.updater.skip:false}")
 	private boolean skip;
 
-	@Scheduled(fixedRateString = "${esi.updater.period:10000}", initialDelayString = "${esi.updater.delay:1000}")
-	public void updateRemoteResources() throws IOException {
+	@Value("${esi.updater.updateddelay:60}")
+	private int updatedDelay;
+
+	private Instant nextUpdate = Instant.now();
+
+	@Scheduled(fixedRateString = "${esi.updater.period:1000}", initialDelayString = "${esi.updater.delay:1000}")
+	public void fetchResources() throws IOException {
+		if (Instant.now().isBefore(nextUpdate)) {
+			return;
+		}
 		boolean remain = false;
 		if (!skip && fetchedServices.isPresent()) {
 			List<AFetchedResourceService<?, ?, ?>> services = fetchedServices.get();
 			log.debug("updating " + services.size() + " services");
 			remain = services.stream().filter(this::updateService).count() > 0;
 		} else {
-			log.info("skipping update of {} services with skip={}",
+			log.debug("skipping update of {} services with skip={}",
 			    fetchedServices.isPresent() ? fetchedServices.get().size() : 0, skip);
 		}
-		if (!remain && listeners.isPresent()) {
-			for (IRemoteResourceUpdateListener l : listeners.get()) {
-				l.onNoUpdateRemain();
+
+		if (!remain) {
+			if ( listeners.isPresent()) {
+				for (IRemoteResourceUpdateListener l : listeners.get()) {
+					l.onNoUpdateRemain();
+				}
 			}
+			nextUpdate = Instant.now().plusSeconds(updatedDelay);
 		}
 	}
 

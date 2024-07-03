@@ -143,7 +143,10 @@ public abstract class AFetchedResourceService<
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
-	/** return the number of items that are still to be updated */
+	/**
+	 * return the number of items that are still to be updated. This is used to
+	 * decide if all the entities are updated.
+	 */
 	public abstract long nbToUpdate();
 
 	private Instant nextUpdateTime = null;
@@ -151,6 +154,21 @@ public abstract class AFetchedResourceService<
 	/** stored here to avoid counting when delay not reached */
 	private boolean lastMoreToUpdate = true;
 
+	/**
+	 * request to fetch the resources that need it.
+	 * <ol>
+	 * <li>verifies that its own delays are respected ;</li>
+	 * <li>checks if new resource exists in {@link #preUpdate()}</li>
+	 * <li>perform the actual fetch in {@link #fetchUpdate()}</li>
+	 * <li>update corresponding data, stats, cache in {@link #postUpdate()}</li>
+	 * <li>update the delay and own status</li>
+	 * </ol>
+	 * 
+	 * @return true if more resource need fetching (ie if this service is not fully
+	 *           updated). Note that in case of error, the resources not fetched may
+	 *           be saved with a future expires (to avoid frequent errors) and as
+	 *           such, this may return false even if resources are still not fetched
+	 */
 	@Transactional
 	public boolean fetch() {
 		// skip if delay not met

@@ -17,7 +17,7 @@ services:
       image: glechat/noscrapeve:latest
       environment:
       - SPRING_DATASOURCE_PASSWORD=noscrape
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://database:5432/noscrape
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://database:5432/noscrape?reWriteBatchedInserts=true
       - SPRING_DATASOURCE_USERNAME=noscrape
 #actuators
       - management_endpoint_env_show-values=ALWAYS
