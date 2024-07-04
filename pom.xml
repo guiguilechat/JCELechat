@@ -41,7 +41,7 @@
 		<openjfx.version>22.0.1</openjfx.version>
 		<slf4j.version>2.0.13</slf4j.version>
 		<springboot.version>3.2.5</springboot.version>
-		<tools.version>1.7.12</tools.version>
+		<tools.version>1.7.14</tools.version>
 	</properties>
 	<repositories>
 		<repository>
