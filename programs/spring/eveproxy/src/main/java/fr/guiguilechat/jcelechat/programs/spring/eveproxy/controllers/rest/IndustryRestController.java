@@ -24,8 +24,8 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import lombok.RequiredArgsConstructor;
 

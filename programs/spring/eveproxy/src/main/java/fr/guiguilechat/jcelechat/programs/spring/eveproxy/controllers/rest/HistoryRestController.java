@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.market.history.HistoryLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.history.HistoryLineService.PriceVolumeAcc;
-import fr.guiguilechat.jcelechat.libs.spring.market.history.HistoryLineService.WeightStrategy;
+import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
+import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
 import lombok.RequiredArgsConstructor;
 
 @RestController

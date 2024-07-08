@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.IFetchedResourceRepo
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * update entities in a batch
+ * abstract service to update entities in a batch
  * 
  * @param <Entity>
  * @param <Id>

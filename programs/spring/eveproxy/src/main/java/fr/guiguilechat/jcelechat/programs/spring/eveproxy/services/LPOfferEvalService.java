@@ -15,13 +15,13 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivit
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.valuation.MaterialSourcing;
-import fr.guiguilechat.jcelechat.libs.spring.market.valuation.ProductValuator;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Offer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Requirement;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.valuation.MaterialSourcing;
+import fr.guiguilechat.jcelechat.libs.spring.trade.valuation.ProductValuator;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
 import lombok.Builder;

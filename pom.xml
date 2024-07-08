@@ -275,11 +275,6 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>market</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 				<artifactId>mer</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -290,12 +285,12 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>prices</artifactId>
+				<artifactId>remotefetching</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>remotefetching</artifactId>
+				<artifactId>trade</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>

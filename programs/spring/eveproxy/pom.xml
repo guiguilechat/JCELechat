@@ -19,10 +19,6 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>market</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>mer</artifactId>
 			<exclusions>
 				<exclusion>
@@ -37,11 +33,11 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>prices</artifactId>
+			<artifactId>sde</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>sde</artifactId>
+			<artifactId>trade</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>

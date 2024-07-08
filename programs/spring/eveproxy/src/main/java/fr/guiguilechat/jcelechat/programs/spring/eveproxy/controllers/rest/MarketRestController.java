@@ -25,10 +25,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.LocatedBestOffer;
-import fr.guiguilechat.jcelechat.libs.spring.market.regional.RegionLineService.OfferStat;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService.OfferStat;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import io.swagger.v3.oas.annotations.Operation;
