@@ -11,9 +11,8 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.contract.RegionContractUpdateService.ContractUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItemService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionMarketUpdateService.MarketUpdateListener;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
@@ -22,16 +21,18 @@ import lombok.RequiredArgsConstructor;
  */
 @Service
 @RequiredArgsConstructor
-public class MarketOrderService implements ContractUpdateListener, MarketUpdateListener {
+public class MarketOrderService {
 
 	private final RegionLineService regionLineService;
 
 	private final ContractInfoService regionContractService;
 
+	private final ContractItemService contractItemService;
+
 	@Transactional
 	@Cacheable("MarketOrdersSellOrdersForType")
 	public List<MarketOrder> sellOrders(int typeId) {
-		return Stream.concat(regionContractService.streamSOs(typeId), regionLineService.streamSOs(typeId))
+		return Stream.concat(contractItemService.streamSOs(typeId), regionLineService.streamSOs(typeId))
 				.sorted(Comparator.comparing(MarketOrder::getPrice))
 				.toList();
 	}
@@ -39,7 +40,7 @@ public class MarketOrderService implements ContractUpdateListener, MarketUpdateL
 	@Transactional
 	@Cacheable("MarketOrdersBuyOrdersForType")
 	public List<MarketOrder> buyOrders(int typeId) {
-		return Stream.concat(regionContractService.streamBOs(typeId), regionLineService.streamBOs(typeId))
+		return Stream.concat(contractItemService.streamBOs(typeId), regionLineService.streamBOs(typeId))
 				.sorted(Comparator.comparing(mo -> -mo.getPrice()))
 				.toList();
 	}
@@ -47,7 +48,7 @@ public class MarketOrderService implements ContractUpdateListener, MarketUpdateL
 	@Transactional
 	@Cacheable("MarketOrdersLowestSellForType")
 	public Map<Integer, Double> lowestSellByRegion(int typeId) {
-		return Stream.concat(regionContractService.streamSOs(typeId), regionLineService.streamSOs(typeId))
+		return Stream.concat(contractItemService.streamSOs(typeId), regionLineService.streamSOs(typeId))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey,
@@ -57,31 +58,31 @@ public class MarketOrderService implements ContractUpdateListener, MarketUpdateL
 	@Transactional
 	@Cacheable("MarketOrdersHighestBuyForType")
 	public Map<Integer, Double> highestBuyByRegion(int typeId) {
-		return Stream.concat(regionContractService.streamBOs(typeId), regionLineService.streamBOs(typeId))
+		return Stream.concat(contractItemService.streamBOs(typeId), regionLineService.streamBOs(typeId))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey,
 						k -> k.getValue().stream().mapToDouble(MarketOrder::getPrice).max().orElse(Double.POSITIVE_INFINITY)));
 	}
 
-	/**
-	 * cache management
-	 */
-
-	private static final List<String> CACHES = List.of(
-			"MarketOrdersSellOrdersForType",
-			"MarketOrdersBuyOrdersForType",
-			"MarketOrdersLowestSellForType",
-			"MarketOrdersHighestBuyForType");
-
-	@Override
-	public List<String> listContractCaches(int regionId) {
-		return CACHES;
-	}
-
-	@Override
-	public List<String> listMarketCaches(int regionId) {
-		return CACHES;
-	}
+	// /**
+	// * cache management
+	// */
+	//
+	// private static final List<String> CACHES = List.of(
+	// "MarketOrdersSellOrdersForType",
+	// "MarketOrdersBuyOrdersForType",
+	// "MarketOrdersLowestSellForType",
+	// "MarketOrdersHighestBuyForType");
+	//
+	// @Override
+	// public List<String> listContractCaches(int regionId) {
+	// return CACHES;
+	// }
+	//
+	// @Override
+	// public List<String> listMarketCaches(int regionId) {
+	// return CACHES;
+	// }
 
 }

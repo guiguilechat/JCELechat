@@ -31,7 +31,11 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class ARemoteResourceService<Entity extends ARemoteResource<Id, Fetched>, Id, Fetched, Repository extends IRemoteResourceRepository<Entity, Id>>
+public abstract class ARemoteResourceService<
+			Entity extends ARemoteResource<Id, Fetched>,
+			Id,
+			Fetched,
+			Repository extends IRemoteResourceRepository<Entity, Id>>
     extends AFetchedResourceService<Entity, Id, Repository> {
 
 	//
@@ -152,6 +156,10 @@ public abstract class ARemoteResourceService<Entity extends ARemoteResource<Id, 
 				updateMetaOk(data, response);
 				responseOk.put(data, response.getOK());
 				break;
+			case 204: // no content => null
+				updateMetaOk(data, response);
+				responseOk.put(data, null);
+				break;
 			case 304:
 				updateNoChange(data, response);
 				responseOk.put(data, null);
@@ -167,7 +175,7 @@ public abstract class ARemoteResourceService<Entity extends ARemoteResource<Id, 
 					updateServerError(data, response);
 					break;
 				default:
-					throw new UnsupportedOperationException("case " + responseCode + " not handled");
+					throw new UnsupportedOperationException("case " + responseCode + " not handled for url" + response.getURL());
 				}
 			}
 		}

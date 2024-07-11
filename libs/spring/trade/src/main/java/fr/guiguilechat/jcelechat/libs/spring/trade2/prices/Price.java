@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.prices;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.prices;
 
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResource;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;

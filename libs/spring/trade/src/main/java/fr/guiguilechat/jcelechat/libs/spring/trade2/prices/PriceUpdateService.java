@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.prices;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.prices;
 
 import java.util.HashMap;
 import java.util.List;

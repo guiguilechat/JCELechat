@@ -1,0 +1,35 @@
+esi:
+   trade:
+      contractregions:
+         update:
+            skip: false
+      contractinfo:
+         update:
+            skip: false
+   updater:
+      default:
+         skip: true
+      delay: 0
+      period: 2000
+      skip: false
+      
+
+logging:
+   level:
+      fr:
+         guiguilechat:
+            jcelechat:
+               jcesi: INFO
+               libs:
+                  spring:
+                     fetchers: DEBUG
+sde.updater.skip: true
+spring:
+   cache:
+      type: simple
+   datasource:
+      hikari: validationTimeout:300000 # 5min timeout for access local h2 DB
+      password: admin
+      url: jdbc:h2:./db/contract
+      username: admin
+#debug: true

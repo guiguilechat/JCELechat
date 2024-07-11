@@ -7,7 +7,6 @@ import java.util.Map;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.ObservedRegion;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.AllArgsConstructor;
@@ -24,7 +23,7 @@ import lombok.Getter;
 @AllArgsConstructor
 public class MarketOrder implements Serializable {
 
-	private ObservedRegion region;
+	private int regionId;
 
 	public static enum OrderType {
 		MARKET, CONTRACT
@@ -95,28 +94,24 @@ public class MarketOrder implements Serializable {
 		return FormatTools.formatDelay(expires);
 	}
 
-	public int getRegionId() {
-		return region.getRegionId();
-	}
-
 	@Getter(lazy = true)
 	private final String formatedPrice = FormatTools.formatPrice(price);
 
 	public static MarketOrder of(RegionLine line) {
 		return builder()
-				.expires(line.getIssued().plus(line.getDuration(), ChronoUnit.DAYS))
-				.isBuyOrder(line.isBuyOrder())
-				.issued(line.getIssued())
-				.locationId(line.getLocationId())
-				.minVolume(line.getMinVolume())
-				.orderType(OrderType.MARKET)
-				.price(line.getPrice())
-				.region(line.getRegion())
-				.systemId(line.getSystemId())
-				.typeId(line.getTypeId())
-				.volumeRemain(line.getVolumeRemain())
-				.volumeTotal(line.getVolumeTotal())
-				.build();
+		    .expires(line.getIssued().plus(line.getDuration(), ChronoUnit.DAYS))
+		    .isBuyOrder(line.isBuyOrder())
+		    .issued(line.getIssued())
+		    .locationId(line.getLocationId())
+		    .minVolume(line.getMinVolume())
+		    .orderType(OrderType.MARKET)
+		    .price(line.getPrice())
+		    .regionId(line.getRegion().getRegionId())
+		    .systemId(line.getSystemId())
+		    .typeId(line.getTypeId())
+		    .volumeRemain(line.getVolumeRemain())
+		    .volumeTotal(line.getVolumeTotal())
+		    .build();
 	}
 
 	public static MarketOrder of(ContractInfo contract) {
@@ -127,27 +122,25 @@ public class MarketOrder implements Serializable {
 		long locationId = contract.getEndLocationId();
 		double price = contract.isAsksOneTypeForIsks() ? contract.getReward() : contract.getPrice();
 		return builder()
-				.expires(contract.getDateExpired())
-				.isBuyOrder(contract.isAsksOneTypeForIsks())
-				.issued(contract.getDateIssued())
-				.locationId(contract.getEndLocationId())
-				.minVolume(volume)
-				.orderType(OrderType.CONTRACT)
-				.price(price / volume)
-				.region(contract.getRegion())
-				.systemId((int) (locationId < 100000000 ? locationId : 0))
-				.typeId(contract.getItems().get(0).getTypeId())
-				.volumeRemain(volume)
-				.volumeTotal(volume)
-				.build();
+		    .expires(contract.getDateExpired())
+		    .isBuyOrder(contract.isAsksOneTypeForIsks())
+		    .issued(contract.getDateIssued())
+		    .locationId(contract.getEndLocationId())
+		    .minVolume(volume)
+		    .orderType(OrderType.CONTRACT)
+		    .price(price / volume)
+		    .regionId(contract.getRegion().getId())
+		    .systemId((int) (locationId < 100000000 ? locationId : 0))
+		    .typeId(contract.getItems().get(0).getType().getId())
+		    .volumeRemain(volume)
+		    .volumeTotal(volume)
+		    .build();
 	}
 
 	public MarketOrder resolveRegionName(Map<Integer, String> names) {
-		if (region != null) {
-			setRegionName(names.get(region.getRegionId()));
-			if (getRegionName() == null) {
-				setRegionName("region:" + region.getRegionId());
-			}
+		setRegionName(names.get(regionId));
+		if (getRegionName() == null) {
+			setRegionName("region:" + regionId);
 		}
 		return this;
 	}
@@ -159,7 +152,7 @@ public class MarketOrder implements Serializable {
 			setLocationName(structureNames.get(locationId));
 		}
 		if (getLocationName() == null) {
-			setLocationName("location:"+getLocationId());
+			setLocationName("location:" + getLocationId());
 		}
 		return this;
 	}

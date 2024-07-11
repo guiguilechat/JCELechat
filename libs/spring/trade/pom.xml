@@ -9,7 +9,17 @@
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 	<artifactId>trade</artifactId>
 	<name>Spring lib Trade</name>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.yaml</groupId>
+				<artifactId>snakeyaml</artifactId>
+				<version>2.2</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	<dependencies>
+		<!-- own -->
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>items</artifactId>
@@ -18,7 +28,16 @@
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>remotefetching</artifactId>
 		</dependency>
-		
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>universe</artifactId>
+		</dependency>
+		<!-- /own -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -35,6 +54,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 			<scope>test</scope>
 		</dependency>
 		<dependency>

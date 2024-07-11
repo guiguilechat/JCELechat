@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.prices;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.prices;
 
 import java.util.List;
 import java.util.Map;
@@ -8,7 +8,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceUpdateService.PriceUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.prices.PriceUpdateService.PriceUpdateListener;
 import lombok.RequiredArgsConstructor;
 
 @Service

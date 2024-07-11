@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.trade.order.MarketOrder;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -17,7 +20,17 @@ public class ContractItemService {
 	}
 
 	public List<ContractItem> saveAll(Iterable<ContractItem> entities) {
-		return repo.saveAll(entities);
+		return repo.saveAllAndFlush(entities);
+	}
+
+	@Transactional
+	public Stream<MarketOrder> streamBOs(int typeId) {
+		return repo.listBOs(typeId).map(MarketOrder::of);
+	}
+
+	@Transactional
+	public Stream<MarketOrder> streamSOs(int typeId) {
+		return repo.listSOs(typeId).map(MarketOrder::of);
 	}
 
 }

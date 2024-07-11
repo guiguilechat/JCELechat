@@ -1,11 +1,11 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
-import java.io.Serializable;
 import java.time.Instant;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.AFetchedList;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 import jakarta.persistence.CascadeType;
@@ -13,38 +13,28 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.FetchType;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@SuppressWarnings("serial")
-@Entity(name = "EsiMarketContractInfo")
-@Table(name = "esi_market_contractinfo", indexes = {
-		@Index(columnList = "region_region_id,removed,fetched"),
-		@Index(columnList = "contractId") })
-@Builder
-@RequiredArgsConstructor
+@Entity(name = "EsiTradeContractInfo")
+@Table(name = "esi_trade_contractinfo", indexes = {
+    @Index(columnList = "region_id")
+})
 @AllArgsConstructor
+@RequiredArgsConstructor
 @Getter
 @Setter
-public class ContractInfo implements Serializable {
-
-	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	private Long id;
+public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_items_contract_id, ContractItem> {
 
 	@ManyToOne
-	private ObservedRegion region;
+	private ContractRegion region;
 
 	@ToString.Exclude
 	@OneToMany(mappedBy = "contract", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
@@ -53,13 +43,11 @@ public class ContractInfo implements Serializable {
 	/**
 	 * set to true when the contract only requires one type, and only offers isks.
 	 */
-	@Builder.Default
 	private boolean asksOneTypeForIsks = false;
 
-	@Builder.Default
-	private boolean fetched = false;
-
-	@Builder.Default
+	/**
+	 * set to true once the contract is 404
+	 */
 	private boolean removed = false;
 
 	/**
@@ -72,11 +60,6 @@ public class ContractInfo implements Serializable {
 	 */
 
 	private double collateral;
-	/**
-	 * contract_id integer
-	 */
-
-	private long contractId;
 
 	/**
 	 * Expiration date of the contract
@@ -116,26 +99,22 @@ public class ContractInfo implements Serializable {
 	/**
 	 * number of distinct types that are asked by the contract creator
 	 */
-	@Builder.Default
 	private int nbTypesAsked = 0;
 
 	/**
 	 * number of distinct types that are included in the contract.
 	 */
-	@Builder.Default
 	private int nbTypesIncluded = 0;
 
 	/**
 	 * set to true when the contract only offers one type of blueprint that is a
 	 * copy, and only asks for isks.
 	 */
-	@Builder.Default
 	private boolean offersBpcForIsk = false;
 
 	/**
 	 * set to true when the contract only offers one type and only asks for isks.
 	 */
-	@Builder.Default
 	private boolean offersOneTypeForIsk = false;
 
 	/**
@@ -169,26 +148,31 @@ public class ContractInfo implements Serializable {
 	 */
 	private double volume;
 
-	public static ContractInfo of(ObservedRegion region, R_get_contracts_public_region_id line) {
-		return builder()
-				.region(region)
-				.buyout(line.buyout)
-				.collateral(line.collateral)
-				.contractId(line.contract_id)
-				.dateExpired(ESITools.fieldInstant(line.date_expired))
-				.dateIssued(ESITools.fieldInstant(line.date_issued))
-				.daysToComplete(line.days_to_complete)
-				.endLocationId(line.end_location_id)
-				.forCorporation(line.for_corporation)
-				.issuerCorporationId(line.issuer_corporation_id)
-				.issuerId(line.issuer_id)
-				.price(line.price)
-				.reward(line.reward)
-				.startLocationId(line.start_location_id)
-				.title(line.title)
-				.type(line.type)
-				.volume(line.volume)
-				.build();
+	public ContractInfo update(ContractRegion region, R_get_contracts_public_region_id line) {
+		setRegion(region);
+
+		setBuyout(line.buyout);
+		setCollateral(line.collateral);
+		setDateExpired(ESITools.fieldInstant(line.date_expired));
+		setDateIssued(ESITools.fieldInstant(line.date_issued));
+		setDaysToComplete(line.days_to_complete);
+		setEndLocationId(line.end_location_id);
+		setForCorporation(line.for_corporation);
+		setIssuerCorporationId(line.issuer_corporation_id);
+		setIssuerId(line.issuer_id);
+		setPrice(line.price);
+		setReward(line.reward);
+		setStartLocationId(line.start_location_id);
+		setTitle(line.title);
+		setType(line.type);
+		setVolume(line.volume);
+
+		if (line.type != get_contracts_public_region_id_type.auction
+		    && line.type != get_contracts_public_region_id_type.item_exchange) {
+			setFetched(true);
+			setFetchActive(false);
+		}
+		return this;
 	}
 
 }

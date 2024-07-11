@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.market.services;
+package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;

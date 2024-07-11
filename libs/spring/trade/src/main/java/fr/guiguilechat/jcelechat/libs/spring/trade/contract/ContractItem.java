@@ -1,37 +1,34 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
-import java.io.Serializable;
-
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@SuppressWarnings("serial")
 @Entity(name = "EsiMarketContractItem")
 @Table(name = "esi_market_contractitem", indexes = {
 		@Index(columnList = "contract_id"),
 		@Index(columnList = "typeId") })
-@Data
-@Builder
-@RequiredArgsConstructor
 @AllArgsConstructor
-public class ContractItem implements Serializable {
-
-	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	private Long id;
+@NoArgsConstructor
+@Builder
+@Getter
+@Setter
+public class ContractItem extends AFetchedListElement<ContractItem, ContractInfo> {
 
 	@ManyToOne
 	private ContractInfo contract;
+
+	@ManyToOne
+	private Type type;
 
 	/**
 	 * is_blueprint_copy boolean
@@ -75,14 +72,10 @@ public class ContractItem implements Serializable {
 	 */
 	private int timeEfficiency;
 
-	/**
-	 * Type ID for item
-	 */
-	private int typeId;
-
-	public static ContractItem of(ContractInfo contract, R_get_contracts_public_items_contract_id line) {
+	public static ContractItem of(ContractInfo contract, Type type, R_get_contracts_public_items_contract_id line) {
 		return builder()
 				.contract(contract)
+				.type(type)
 				.blueprintCopy(line.is_blueprint_copy)
 				.included(line.is_included)
 				.itemId(line.item_id)
@@ -91,7 +84,6 @@ public class ContractItem implements Serializable {
 				.recordId(line.record_id)
 				.runs(line.runs)
 				.timeEfficiency(line.time_efficiency)
-				.typeId(line.type_id)
 				.build();
 	}
 

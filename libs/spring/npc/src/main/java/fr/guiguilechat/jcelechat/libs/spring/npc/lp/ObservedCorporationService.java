@@ -28,7 +28,11 @@ import lombok.RequiredArgsConstructor;
 // depend on corporations, types
 @Order(4)
 public class ObservedCorporationService extends
-    ARemoteResourceService<ObservedCorporation, Integer, List<R_get_loyalty_stores_corporation_id_offers>, ObservedCorporationRepository> {
+    ARemoteResourceService<
+    ObservedCorporation,
+    Integer,
+    List<R_get_loyalty_stores_corporation_id_offers>,
+    ObservedCorporationRepository> {
 
 	@Lazy
 	private final CorporationInfoService corporationInfoService;
