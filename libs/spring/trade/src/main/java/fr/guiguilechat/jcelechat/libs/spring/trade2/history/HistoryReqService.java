@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.history;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.history;
 
 import java.time.Instant;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.ObservedRegion;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

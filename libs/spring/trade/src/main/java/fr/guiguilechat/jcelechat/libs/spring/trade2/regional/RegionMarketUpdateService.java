@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.regional;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.regional;
 
 import java.time.Instant;
 import java.util.ArrayList;
@@ -21,8 +21,8 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryReq;
-import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryReqService;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.history.HistoryReq;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.history.HistoryReqService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;

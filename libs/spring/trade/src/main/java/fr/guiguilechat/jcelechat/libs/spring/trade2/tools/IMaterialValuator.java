@@ -1,14 +1,14 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.valuation;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLine;
 
 /**
  * common interface for material and product pricing strategies. Basically
  * tools.
  */
-public interface IMarketInteraction {
+public interface IMaterialValuator {
 
 	/**
 	 * when true, and placing direct order, we only sell/buy at the worst

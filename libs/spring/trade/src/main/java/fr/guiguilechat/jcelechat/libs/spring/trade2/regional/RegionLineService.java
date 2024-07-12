@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.regional;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.regional;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -13,8 +13,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade.order.MarketOrder;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionMarketUpdateService.MarketUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionMarketUpdateService.MarketUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.tools.MarketOrder;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

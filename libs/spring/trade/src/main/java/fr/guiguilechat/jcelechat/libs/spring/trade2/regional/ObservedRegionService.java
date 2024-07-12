@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.regional;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.regional;
 
 import java.util.List;
 

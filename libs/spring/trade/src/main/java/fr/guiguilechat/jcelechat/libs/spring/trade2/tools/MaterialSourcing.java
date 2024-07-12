@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.valuation;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
 
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLine;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
  */
 @RequiredArgsConstructor
 @Getter
-public enum MaterialSourcing implements IMarketInteraction {
+public enum MaterialSourcing implements IMaterialValuator {
 
 	BUY_SO_INDIVIDUAL(false, false, false, "buy from SO individual orders"),
 

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -18,14 +19,22 @@ import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteRes
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contractinfo")
 @Order(4) // depends on contract region, type for the items
-public class ContractInfoService extends
-    ARemoteResourceService<ContractInfo, Integer, R_get_contracts_public_items_contract_id[], ContractInfoRepository> {
+public class ContractInfoService extends ARemoteResourceService<
+    ContractInfo,
+    Integer,
+    R_get_contracts_public_items_contract_id[],
+    ContractInfoRepository> {
+
+	//
+	// implementation
+	//
 
 	@Lazy
 	private final ContractItemService contractItemService;
@@ -48,11 +57,6 @@ public class ContractInfoService extends
 		return ret;
 	}
 
-	public Map<Integer, ContractInfo> byRegionPresent(ContractRegion region) {
-		return repo().findByRegionAndRemovedFalse(region).stream()
-		    .collect(Collectors.toMap(ContractInfo::getId, c -> c));
-	}
-
 	@Override
 	protected void updateResponseOk(Map<ContractInfo, R_get_contracts_public_items_contract_id[]> responseOk) {
 		super.updateResponseOk(responseOk);
@@ -72,4 +76,29 @@ public class ContractInfoService extends
 		contractItemService.saveAll(items);
 		saveAll(responseOk.keySet());
 	}
+	
+	//
+	// usage
+	//
+
+	public Map<Integer, ContractInfo> byRegionPresent(ContractRegion region) {
+		return repo().findByRegionAndRemovedFalse(region).stream()
+		    .collect(Collectors.toMap(ContractInfo::getId, c -> c));
+	}
+
+	//
+	// cache management
+	//
+
+	/**
+	 * react to updates in contracts. called whenever at least one contract ITEM is
+	 * updated
+	 */
+	public static interface ContractItemsListener extends EntityUpdateListener {
+	}
+
+	@Getter
+	@Lazy
+	private final Optional<List<ContractItemsListener>> listeners;
+
 }

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.order;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -7,7 +7,7 @@ import java.util.Map;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLine;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

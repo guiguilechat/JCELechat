@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.valuation;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLine;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -13,7 +13,7 @@ import lombok.RequiredArgsConstructor;
  */
 @RequiredArgsConstructor
 @Getter
-public enum ProductValuator implements IMarketInteraction {
+public enum ProductValuator implements IMaterialValuator {
 
 	BUY_SO_INDIVIDUAL(false, false, true, "buy from SO individual orders"),
 

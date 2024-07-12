@@ -385,7 +385,7 @@ public abstract class ARemoteResourceService<
 	}
 
 	@Override
-	protected void fetchUpdate() {
+	protected boolean fetchUpdate() {
 		long startTimeMs = System.currentTimeMillis();
 		List<Entity> list = listToUpdate();
 		int nbUpdates = list.size();
@@ -398,6 +398,7 @@ public abstract class ARemoteResourceService<
 			    nbSuccess, nbUpdates,
 			    endTimeMs - startTimeMs, nbRemain);
 		}
+		return nbUpdates > 0;
 	}
 
 	private Instant lastUpdateTime = null;

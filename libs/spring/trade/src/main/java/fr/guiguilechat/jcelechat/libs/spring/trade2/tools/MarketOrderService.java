@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.order;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
 
 import java.util.Comparator;
 import java.util.List;
@@ -10,10 +10,11 @@ import java.util.stream.Stream;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractItemsListener;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItemService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
 import jakarta.transaction.Transactional;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
@@ -21,11 +22,9 @@ import lombok.RequiredArgsConstructor;
  */
 @Service
 @RequiredArgsConstructor
-public class MarketOrderService {
+public class MarketOrderService implements ContractItemsListener {
 
 	private final RegionLineService regionLineService;
-
-	private final ContractInfoService regionContractService;
 
 	private final ContractItemService contractItemService;
 
@@ -65,24 +64,11 @@ public class MarketOrderService {
 						k -> k.getValue().stream().mapToDouble(MarketOrder::getPrice).max().orElse(Double.POSITIVE_INFINITY)));
 	}
 
-	// /**
-	// * cache management
-	// */
-	//
-	// private static final List<String> CACHES = List.of(
-	// "MarketOrdersSellOrdersForType",
-	// "MarketOrdersBuyOrdersForType",
-	// "MarketOrdersLowestSellForType",
-	// "MarketOrdersHighestBuyForType");
-	//
-	// @Override
-	// public List<String> listContractCaches(int regionId) {
-	// return CACHES;
-	// }
-	//
-	// @Override
-	// public List<String> listMarketCaches(int regionId) {
-	// return CACHES;
-	// }
+	@Getter
+	private final List<String> cacheList = List.of(
+	    "MarketOrdersSellOrdersForType",
+	    "MarketOrdersBuyOrdersForType",
+	    "MarketOrdersLowestSellForType",
+	    "MarketOrdersHighestBuyForType");
 
 }

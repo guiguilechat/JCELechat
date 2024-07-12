@@ -43,10 +43,11 @@ public abstract class ABatchResourceFetcher<
 	/** check new entries */
 
 	@Override
-	protected void fetchUpdate() {
+	protected boolean fetchUpdate() {
 		if (nextUpdate != null && nextUpdate.isAfter(Instant.now())) {
-			return;
+			return false;
 		}
+		boolean updated = false;
 		long startTimeMs = System.currentTimeMillis();
 		Map<String, String> properties = new HashMap<>();
 		if (lastListEtag != null) {
@@ -65,6 +66,7 @@ public abstract class ABatchResourceFetcher<
 				    fetcherName(),
 				    fetched.size(),
 				    endTimeMs - startTimeMs);
+				updated = true;
 				break;
 			case 304:
 				nextUpdate = resp.getExpiresInstant();
@@ -81,6 +83,7 @@ public abstract class ABatchResourceFetcher<
 		if (nextUpdate == null || minDelay.isAfter(nextUpdate)) {
 			nextUpdate=minDelay;
 		}
+		return updated;
 	}
 
 	/** called when the list has been updated */

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.history;
+package fr.guiguilechat.jcelechat.libs.spring.trade2.history;
 
 import java.time.Instant;
 import java.time.LocalDate;

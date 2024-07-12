@@ -9,11 +9,13 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.CacheManager;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.status.ESIStatusService;
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.tools.ExecutionService;
+import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -30,17 +32,17 @@ public abstract class AFetchedResourceService<
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
-	@Getter
+	@Getter(value = AccessLevel.PROTECTED)
 	private Repository repo;
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
-	@Getter
+	@Getter(value = AccessLevel.PROTECTED)
 	private ExecutionService executionService;
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
-	@Getter
+	@Getter(value = AccessLevel.PROTECTED)
 	private ESIStatusService esiStatusService;
 
 	/**
@@ -177,8 +179,9 @@ public abstract class AFetchedResourceService<
 		}
 
 		preUpdate();
-		fetchUpdate();
-		postUpdate();
+		if (fetchUpdate()) {
+			postUpdate();
+		}
 
 		long nbToUpdate = nbToUpdate();
 		// create delay to next
@@ -197,11 +200,73 @@ public abstract class AFetchedResourceService<
 
 	}
 
-	// actually update the udpatable data
-	protected abstract void fetchUpdate();
+	/**
+	 * actually update the udpatable data
+	 * 
+	 * @return true if at least an item was updated
+	 */
+	protected abstract boolean fetchUpdate();
 
-	// save stats
+	//
+	// cache management
+	//
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private CacheManager cacheManager;
+
+	/**
+	 * react to updates. to use it, define your own interface, and create a field
+	 * with getter to have {@link #getListeners}
+	 * 
+	 * <pre>{@code
+	 * 
+	 * public static interface XListener extends EntityUpdateListener {
+	 * }
+	 * 
+	 * @Getter
+	 * private final Optional<List<XListener>> listeners;
+	 * }</pre>
+	 */
+	public static interface EntityUpdateListener {
+
+		/** triggered when at least an item is updated */
+		public default void onUpdate() {
+		}
+
+		/**
+		 * list the caches that should be invalidated on entity update.
+		 * <p>
+		 * can be declared in a service implementing the sub interface with eg
+		 * 
+		 * <pre>{@code
+		 * 
+		 * @Getter
+		 * private final List<String> cacheList = List.of(
+		 *     "cache1",
+		 *     "cache2");
+		 * }</pre>
+		 * </p>
+		 */
+		public default List<String> getCacheList() {
+			return List.of();
+		}
+	}
+
+	protected Optional<? extends List<? extends EntityUpdateListener>> getListeners() {
+		return null;
+	}
+
 	protected void postUpdate() {
+		Optional<? extends List<? extends EntityUpdateListener>> listeners = getListeners();
+		if (listeners != null && listeners.isPresent()) {
+			List<String> caches = listeners.get().stream().flatMap(l -> l.getCacheList().stream()).distinct().toList();
+			log.debug("{} invalidating {} caches from {} listeners post update", fetcherName(), caches.size(),
+			    listeners.get().size());
+			caches.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			listeners.get().stream().forEach(EntityUpdateListener::onUpdate);
+		}
 	}
 
 	//

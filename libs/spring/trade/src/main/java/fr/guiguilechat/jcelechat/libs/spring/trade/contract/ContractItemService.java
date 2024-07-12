@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade.order.MarketOrder;
+import fr.guiguilechat.jcelechat.libs.spring.trade2.tools.MarketOrder;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
