@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import java.time.Instant;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.AFetchedList;
@@ -46,9 +48,19 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	private boolean asksOneTypeForIsks = false;
 
 	/**
-	 * set to true once the contract is 404
+	 * set to true once 404 or 403
 	 */
 	private boolean removed = false;
+
+	/**
+	 * set to true once the contract is 404
+	 */
+	private boolean canceled = false;
+
+	/**
+	 * set to true once the contract is 403
+	 */
+	private boolean completed = false;
 
 	/**
 	 * Buyout price (for Auctions only)
@@ -173,6 +185,32 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 			setFetchActive(false);
 		}
 		return this;
+	}
+
+	@Override
+	public void update(R_get_contracts_public_items_contract_id[] data) {
+		super.update(data);
+
+		Set<Integer> askedTypesIds = new HashSet<>();
+		Set<Integer> offeredTypesIds = new HashSet<>();
+		boolean hasBPC = false;
+		for (R_get_contracts_public_items_contract_id item : data) {
+			if (item.is_included) {
+				if (!item.is_blueprint_copy) {
+					offeredTypesIds.add(item.type_id);
+				}
+			} else {
+				askedTypesIds.add(item.type_id);
+			}
+			if (item.is_blueprint_copy) {
+				hasBPC = true;
+			}
+		}
+		setNbTypesAsked(askedTypesIds.size());
+		setAsksOneTypeForIsks(!hasBPC && offeredTypesIds.isEmpty() && askedTypesIds.size() == 1);
+		setNbTypesIncluded(offeredTypesIds.size());
+		setOffersOneTypeForIsk(!hasBPC && offeredTypesIds.size() == 1 && askedTypesIds.isEmpty());
+		setOffersBpcForIsk(hasBPC && offeredTypesIds.size() == 1 && askedTypesIds.isEmpty());
 	}
 
 }

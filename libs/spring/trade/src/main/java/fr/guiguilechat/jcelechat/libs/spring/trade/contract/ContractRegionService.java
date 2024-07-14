@@ -65,15 +65,15 @@ public class ContractRegionService
 	public void createForRegion(ContractRegion region, List<R_get_contracts_public_region_id> contracts) {
 		Map<Integer, ContractInfo> existingPresent = contractInfoService.byRegionPresent(region);
 
-		// contract stored that are no more present are marked as removed and not to be
-		// fetched
+		// contract stored that are no more present are marked as removed and to be
+		// fetched again, to find out if they are completed (403) or canceled (404)
 		Map<Integer, R_get_contracts_public_region_id> newById = contracts.stream()
 		    .collect(Collectors.toMap(c -> c.contract_id, c -> c));
 		List<ContractInfo> removed = new ArrayList<>();
 		for (Entry<Integer, ContractInfo> e : existingPresent.entrySet()) {
 			if (!newById.containsKey(e.getKey())) {
 				e.getValue().setRemoved(true);
-				e.getValue().setFetchActive(false);
+				e.getValue().setFetchActive(true);
 				removed.add(e.getValue());
 			}
 		}

@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.status.ESIStatusService;
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.tools.ExecutionService;
+import jakarta.annotation.PostConstruct;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -62,10 +63,11 @@ public abstract class AFetchedResourceService<
 	}
 
 	protected void preSave(Entity data) {
+		Instant now = Instant.now();
 		if (data.getCreated() == null) {
-			data.setCreated(Instant.now());
+			data.setCreated(now);
 		}
-		data.setLastUpdate(Instant.now());
+		data.setLastUpdate(now);
 	}
 
 	public Entity save(Entity data) {
@@ -144,6 +146,11 @@ public abstract class AFetchedResourceService<
 
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
+
+	@PostConstruct
+	protected void debugConfig() {
+		log.debug("initialized {} with {}", fetcherName(), getUpdate());
+	}
 
 	/**
 	 * return the number of items that are still to be updated. This is used to

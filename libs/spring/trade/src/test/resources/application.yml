@@ -3,11 +3,17 @@ esi:
       contract:
          info:
             update:
+               skip: false
+         region:
+            list:
+               init: 10000002
                skip: true
-         regions:
             update:
-               skip: true
+               skip: false
       market:
+         list:
+            init: 10000002
+            skip: true
          update:
             skip: false
    updater:

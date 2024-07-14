@@ -16,6 +16,8 @@ import java.util.concurrent.TimeoutException;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import org.springframework.boot.context.event.ApplicationReadyEvent;
+import org.springframework.context.event.EventListener;
 import org.springframework.data.domain.Limit;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.transaction.annotation.Propagation;
@@ -25,8 +27,10 @@ import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResourceService;
-import jakarta.annotation.PostConstruct;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -305,11 +309,6 @@ public abstract class ARemoteResourceService<
 		data.setExpiresInRandom(data.getSuccessiveErrors() * 60);
 	}
 
-	@PostConstruct
-	public void debugConfig() {
-		log.debug("initialized {} with {}", getClass().getSimpleName(), getUpdate());
-	}
-
 	//
 	// pre update is fetching new elements if possible
 	//
@@ -320,6 +319,20 @@ public abstract class ARemoteResourceService<
 	// to implement, just override the listFetcher()
 	//
 
+	@Getter
+	@Setter
+	@ToString()
+	public class ListConfig {
+
+		private boolean skip = false;
+
+		private List<Id> init = null;
+
+	}
+
+	@Getter
+	private final ListConfig list = new ListConfig();
+
 	private String lastListEtag = null;
 	private Instant listExpires = null;
 
@@ -327,7 +340,7 @@ public abstract class ARemoteResourceService<
 
 	@Override
 	protected void preUpdate() {
-		if (listExpires == null || listExpires.isBefore(Instant.now())) {
+		if (!list.skip && (listExpires == null || listExpires.isBefore(Instant.now()))) {
 			Function<Map<String, String>, Requested<List<Id>>> fetcher = listFetcher();
 			if (fetcher != null) {
 				log.trace("{} started listing new entries", fetcherName());
@@ -368,6 +381,14 @@ public abstract class ARemoteResourceService<
 	/** the method to overwrite to make it auto fetch entities */
 	protected Function<Map<String, String>, Requested<List<Id>>> listFetcher() {
 		return null;
+	}
+
+	@EventListener(ApplicationReadyEvent.class)
+	public void addListInit() {
+		if (list.init != null && !list.init.isEmpty()) {
+			log.trace("{} init={}", fetcherName(), list.init);
+			createIfAbsent(list.init);
+		}
 	}
 
 	//
