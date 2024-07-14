@@ -23,7 +23,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-@ConfigurationProperties(prefix = "esi.trade.contractregions")
+@ConfigurationProperties(prefix = "esi.trade.contract.region")
 @Order(2) // depends on region
 public class ContractRegionService 
 	extends ARemoteResourceService<

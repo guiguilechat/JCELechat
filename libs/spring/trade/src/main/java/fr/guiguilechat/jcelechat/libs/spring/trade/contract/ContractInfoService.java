@@ -24,7 +24,7 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-@ConfigurationProperties(prefix = "esi.trade.contractinfo")
+@ConfigurationProperties(prefix = "esi.trade.contract.info")
 @Order(4) // depends on contract region, type for the items
 public class ContractInfoService extends ARemoteResourceService<
     ContractInfo,
@@ -91,8 +91,7 @@ public class ContractInfoService extends ARemoteResourceService<
 	//
 
 	/**
-	 * react to updates in contracts. called whenever at least one contract ITEM is
-	 * updated
+	 * notified when one+ item of a contract is modified
 	 */
 	public static interface ContractItemsListener extends EntityUpdateListener {
 	}

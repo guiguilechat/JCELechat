@@ -1,9 +1,13 @@
 esi:
    trade:
-      contractregions:
-         update:
-            skip: false
-      contractinfo:
+      contract:
+         info:
+            update:
+               skip: true
+         regions:
+            update:
+               skip: true
+      market:
          update:
             skip: false
    updater:
@@ -12,7 +16,6 @@ esi:
       delay: 0
       period: 2000
       skip: false
-      
 
 logging:
    level:
@@ -23,6 +26,7 @@ logging:
                libs:
                   spring:
                      fetchers: DEBUG
+                     trade: trace
 sde.updater.skip: true
 spring:
    cache:

@@ -9,7 +9,7 @@ import org.springframework.data.repository.NoRepositoryBean;
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.IFetchedResourceRepository;
 
 @NoRepositoryBean
-public interface IRemoteResourceRepository<Entity extends ARemoteResource<Id, ?>, Id>
+public interface IRemoteResourceRepository<Entity extends ARemoteResource<Id, ?>, Id extends Number>
     extends IFetchedResourceRepository<Entity, Id> {
 
 	public List<Entity> findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant now, Limit limit);

@@ -20,10 +20,10 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchematicService
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.valuation.MaterialSourcing;
 import fr.guiguilechat.jcelechat.libs.spring.trade.valuation.ProductValuator;
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2;

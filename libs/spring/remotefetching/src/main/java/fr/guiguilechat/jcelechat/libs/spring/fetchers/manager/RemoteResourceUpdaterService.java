@@ -87,7 +87,7 @@ public class RemoteResourceUpdaterService {
 	 * @param fetchedService the updater service to fetch
 	 * @return true if the given service requires more fetch after this pass
 	 */
-	protected <Entity extends AFetchedResource<Id>, Id, Repository extends IFetchedResourceRepository<Entity, Id>> boolean updateService(
+	protected <Entity extends AFetchedResource<Id>, Id extends Number, Repository extends IFetchedResourceRepository<Entity, Id>> boolean updateService(
 	    AFetchedResourceService<Entity, Id, Repository> fetchedService) {
 		boolean skipService = Optional.ofNullable(fetchedService.getUpdate().getSkip()).orElse(defaultSkip);
 		if (skipService) {

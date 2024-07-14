@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegion;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -16,8 +16,8 @@ public class HistoryReqService {
 
 	final private HistoryReqRepository repo;
 
-	public List<Integer> findMissingTypeIds(ObservedRegion or) {
-		return repo.findMissingTypesForRegion(or.getRegionId());
+	public List<Integer> findMissingTypeIds(MarketRegion or) {
+		return repo.findMissingTypesForRegion(or.getId());
 	}
 
 	public void saveAll(Iterable<HistoryReq> entities) {

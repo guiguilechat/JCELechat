@@ -18,7 +18,9 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterAsset")
-@Table(name = "esi_connect_characterasset")
+@Table(name = "esi_connect_characterasset", indexes = {
+    @Index(columnList = "fetch_resource_id")
+})
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

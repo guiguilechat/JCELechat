@@ -1,8 +1,8 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
+package fr.guiguilechat.jcelechat.libs.spring.trade.tools;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 
 /**
  * common interface for material and product pricing strategies. Basically
@@ -21,11 +21,11 @@ public interface IMaterialValuator {
 	 * @param sos             sell orders to use, sorted by price increasing
 	 * @return cost to purchase quantity from SOs
 	 */
-	public default double costBuySo(long quantity, List<RegionLine> sos) {
+	public default double costBuySo(long quantity, List<MarketLine> sos) {
 		long remain = quantity;
 		double cumulated = 0.0;
 		if (sos != null) {
-			for (RegionLine so : sos) {
+			for (MarketLine so : sos) {
 				int remove = (int) Math.min(remain, so.getVolumeRemain());
 				cumulated += so.getPrice() * remove;
 				remain -= remove;
@@ -37,11 +37,11 @@ public interface IMaterialValuator {
 		return Double.POSITIVE_INFINITY;
 	}
 
-	public default double uPriceBuySo(long quantity, List<RegionLine> sos) {
+	public default double uPriceBuySo(long quantity, List<MarketLine> sos) {
 		long remain = quantity;
 		double cumulated = 0.0;
 		if (sos != null) {
-			for (RegionLine so : sos) {
+			for (MarketLine so : sos) {
 				int remove = (int) Math.min(remain, so.getVolumeRemain());
 				cumulated += so.getPrice() * remove;
 				remain -= remove;
@@ -60,7 +60,7 @@ public interface IMaterialValuator {
 	 * @param bos             buy orders to fill, sorted by price decreasing
 	 * @return cost to purchase quantity, placing BOs
 	 */
-	public default double costBuyBo(long quantity, double brokerPct, List<RegionLine> bos) {
+	public default double costBuyBo(long quantity, double brokerPct, List<MarketLine> bos) {
 		double unitPrice = 0.01;
 		if (bos != null && !bos.isEmpty()) {
 			unitPrice = bos.get(0).getPrice();
@@ -68,7 +68,7 @@ public interface IMaterialValuator {
 		return unitPrice * (100 + brokerPct) / 100 * quantity;
 	}
 
-	public default double uPriceBuyBo(long quantity, List<RegionLine> bos) {
+	public default double uPriceBuyBo(long quantity, List<MarketLine> bos) {
 		double unitPrice = 0.01;
 		if (bos != null && !bos.isEmpty()) {
 			unitPrice = bos.get(0).getPrice();
@@ -83,11 +83,11 @@ public interface IMaterialValuator {
 	 * @param bos             buy orders to fill, sorted by price decreasing
 	 * @return value we would get from selling quantity directly to BOs
 	 */
-	public default double costSellBo(long quantity, double taxPct, List<RegionLine> bos) {
+	public default double costSellBo(long quantity, double taxPct, List<MarketLine> bos) {
 		long remain = quantity;
 		double cumulated = 0.0;
 		if (bos != null) {
-			for (RegionLine bo : bos) {
+			for (MarketLine bo : bos) {
 				int remove = (int) Math.min(remain, bo.getVolumeRemain());
 				cumulated += bo.getPrice() * remove;
 				remain -= remove;
@@ -99,11 +99,11 @@ public interface IMaterialValuator {
 		return isMassPrice() ? 0 : cumulated;
 	}
 
-	public default double uPriceSellBo(long quantity, List<RegionLine> bos) {
+	public default double uPriceSellBo(long quantity, List<MarketLine> bos) {
 		long remain = quantity;
 		double cumulated = 0.0;
 		if (bos != null) {
-			for (RegionLine bo : bos) {
+			for (MarketLine bo : bos) {
 				int remove = (int) Math.min(remain, bo.getVolumeRemain());
 				cumulated += bo.getPrice() * remove;
 				remain -= remove;
@@ -124,7 +124,7 @@ public interface IMaterialValuator {
 	 * @return value we would get from selling quantity using long term SO orders
 	 */
 	public default double costSellSo(long quantity, double taxPct, double brokerPct,
-			List<RegionLine> sos) {
+			List<MarketLine> sos) {
 		double unitPrice = Double.POSITIVE_INFINITY;
 		if (sos != null && !sos.isEmpty()) {
 			unitPrice = sos.get(0).getPrice();
@@ -132,7 +132,7 @@ public interface IMaterialValuator {
 		return unitPrice * (100 - taxPct - brokerPct) / 100 * quantity;
 	}
 
-	public default double uPriceSellSo(long quantity, List<RegionLine> sos) {
+	public default double uPriceSellSo(long quantity, List<MarketLine> sos) {
 		double unitPrice = Double.POSITIVE_INFINITY;
 		if (sos != null && !sos.isEmpty()) {
 			unitPrice = sos.get(0).getPrice();

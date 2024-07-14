@@ -15,7 +15,7 @@ import lombok.Setter;
 
 @Entity(name = "EsiMarketContractItem")
 @Table(name = "esi_market_contractitem", indexes = {
-		@Index(columnList = "contract_id"),
+    @Index(columnList = "fetch_resource_id"),
 		@Index(columnList = "typeId") })
 @AllArgsConstructor
 @NoArgsConstructor
@@ -23,9 +23,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ContractItem extends AFetchedListElement<ContractItem, ContractInfo> {
-
-	@ManyToOne
-	private ContractInfo contract;
 
 	@ManyToOne
 	private Type type;
@@ -73,8 +70,7 @@ public class ContractItem extends AFetchedListElement<ContractItem, ContractInfo
 	private int timeEfficiency;
 
 	public static ContractItem of(ContractInfo contract, Type type, R_get_contracts_public_items_contract_id line) {
-		return builder()
-				.contract(contract)
+		ContractItem ret = builder()
 				.type(type)
 				.blueprintCopy(line.is_blueprint_copy)
 				.included(line.is_included)
@@ -85,6 +81,8 @@ public class ContractItem extends AFetchedListElement<ContractItem, ContractInfo
 				.runs(line.runs)
 				.timeEfficiency(line.time_efficiency)
 				.build();
+		ret.setFetchResource(contract);
+		return ret;
 	}
 
 }

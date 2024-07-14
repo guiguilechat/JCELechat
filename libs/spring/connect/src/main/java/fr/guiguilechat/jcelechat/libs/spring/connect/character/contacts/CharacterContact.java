@@ -18,7 +18,8 @@ import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterContact")
 @Table(name = "esi_connect_charactercontact", indexes = {
-    @Index(columnList = "fetchResourceRemoteId,contactType")
+    @Index(columnList = "fetch_resource_id"),
+    @Index(columnList = "contactType")
 })
 @AllArgsConstructor
 @NoArgsConstructor
@@ -30,6 +31,7 @@ public class CharacterContact extends
 
 	@Entity(name = "EsiConnectCharacterContactList")
 	@Table(name = "esi_connect_charactercontactlist", indexes = {
+	    @Index(columnList = "fetch_resource_id"),
 	    @Index(columnList = "fetch_active,expires")
 	})
 	@NoArgsConstructor

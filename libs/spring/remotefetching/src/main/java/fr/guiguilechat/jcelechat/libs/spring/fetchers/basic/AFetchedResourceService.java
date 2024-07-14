@@ -27,7 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 public abstract class AFetchedResourceService<
 		Entity extends AFetchedResource<Id>,
-		Id,
+    Id extends Number,
 		Repository extends IFetchedResourceRepository<Entity, Id>> {
 
 	@Autowired // can't use constructor injection for generic service
@@ -151,7 +151,11 @@ public abstract class AFetchedResourceService<
 	 */
 	public abstract long nbToUpdate();
 
-	private Instant nextUpdateTime = null;
+	/**
+	 * defaults to update cycle time. Set it in {@link #fetchUpdate()}
+	 */
+	@Setter(AccessLevel.PROTECTED)
+	private Instant nextUpdate = null;
 
 	/** stored here to avoid counting when delay not reached */
 	private boolean lastMoreToUpdate = true;
@@ -174,7 +178,7 @@ public abstract class AFetchedResourceService<
 	@Transactional
 	public boolean fetch() {
 		// skip if delay not met
-		if (nextUpdateTime != null && nextUpdateTime.isAfter(Instant.now())) {
+		if (nextUpdate != null && nextUpdate.isAfter(Instant.now())) {
 			return lastMoreToUpdate;
 		}
 
@@ -190,10 +194,13 @@ public abstract class AFetchedResourceService<
 			delay = getUpdate().getDelayUpdated();
 			log.debug(" {} no more data to update({}), extended delay {}s", fetcherName(), nbToUpdate, delay);
 		}
-		nextUpdateTime = Instant.now().plusSeconds(delay);
+		if (nextUpdate == null || nextUpdate.isBefore(Instant.now())) {
+		nextUpdate = Instant.now().plusSeconds(delay);
+		}
 		lastMoreToUpdate = nbToUpdate > 0;
 		return lastMoreToUpdate;
 	}
+
 
 	// cleanup, fetch if exists new elements
 	protected void preUpdate() {
@@ -238,7 +245,7 @@ public abstract class AFetchedResourceService<
 		/**
 		 * list the caches that should be invalidated on entity update.
 		 * <p>
-		 * can be declared in a service implementing the sub interface with eg
+		 * can be implemented with eg
 		 * 
 		 * <pre>{@code
 		 * 
@@ -254,19 +261,45 @@ public abstract class AFetchedResourceService<
 		}
 	}
 
+	/**
+	 * override this to provide your own list of listeners, eg
+	 * 
+	 * <pre>{@code
+	 * 
+	 * @Getter@Lazy private final Optional<List<MyListener>> listeners;
+	 * }</pre>
+	 */
 	protected Optional<? extends List<? extends EntityUpdateListener>> getListeners() {
 		return null;
 	}
 
+	/**
+	 * override this to return true and make the class implement
+	 * {@link EntityUpdateListener} to have its own caches invalidated on entity
+	 * update.Code to override :
+	 * 
+	 * <pre>{@code
+	 * @Getter(lazy = true)
+	 * private final boolean selfInvalidate = true;
+	 * }</pre>
+	 */
+	protected boolean isSelfInvalidate() {
+		return false;
+	}
+
 	protected void postUpdate() {
 		Optional<? extends List<? extends EntityUpdateListener>> listeners = getListeners();
-		if (listeners != null && listeners.isPresent()) {
-			List<String> caches = listeners.get().stream().flatMap(l -> l.getCacheList().stream()).distinct().toList();
-			log.debug("{} invalidating {} caches from {} listeners post update", fetcherName(), caches.size(),
-			    listeners.get().size());
-			caches.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-			listeners.get().stream().forEach(EntityUpdateListener::onUpdate);
+		Stream<EntityUpdateListener> ls = Stream.empty();
+		if(isSelfInvalidate()&& this instanceof EntityUpdateListener) {
+			ls = Stream.concat(ls, Stream.of((EntityUpdateListener) this));
 		}
+		if (listeners != null && listeners.isPresent()) {
+			ls = Stream.concat(ls, listeners.get().stream());
+		}
+		ls.forEach(eul -> {
+			eul.getCacheList().stream().forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			eul.onUpdate();
+		});
 	}
 
 	//

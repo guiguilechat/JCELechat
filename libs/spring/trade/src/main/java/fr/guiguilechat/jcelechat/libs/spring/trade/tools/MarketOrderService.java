@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
+package fr.guiguilechat.jcelechat.libs.spring.trade.tools;
 
 import java.util.Comparator;
 import java.util.List;
@@ -8,11 +8,13 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractItemsListener;
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItemService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegionService.MarketRegionListener;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -21,11 +23,13 @@ import lombok.RequiredArgsConstructor;
  * Facade to unify the contract and market orders.
  */
 @Service
-@RequiredArgsConstructor
-public class MarketOrderService implements ContractItemsListener {
+@RequiredArgsConstructor(onConstructor = @__(@Lazy))
+public class MarketOrderService implements ContractItemsListener, MarketRegionListener {
 
-	private final RegionLineService regionLineService;
+	@Lazy
+	private final MarketLineService regionLineService;
 
+	@Lazy
 	private final ContractItemService contractItemService;
 
 	@Transactional
@@ -70,5 +74,6 @@ public class MarketOrderService implements ContractItemsListener {
 	    "MarketOrdersBuyOrdersForType",
 	    "MarketOrdersLowestSellForType",
 	    "MarketOrdersHighestBuyForType");
+
 
 }

@@ -37,7 +37,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	private ContractRegion region;
 
 	@ToString.Exclude
-	@OneToMany(mappedBy = "contract", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "fetchResource", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<ContractItem> items;
 
 	/**

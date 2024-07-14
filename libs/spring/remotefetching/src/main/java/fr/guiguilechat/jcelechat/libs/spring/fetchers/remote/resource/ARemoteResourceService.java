@@ -33,7 +33,7 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 public abstract class ARemoteResourceService<
 			Entity extends ARemoteResource<Id, Fetched>,
-			Id,
+			Id extends Number,
 			Fetched,
 			Repository extends IRemoteResourceRepository<Entity, Id>>
     extends AFetchedResourceService<Entity, Id, Repository> {
@@ -451,9 +451,11 @@ public abstract class ARemoteResourceService<
 		int success = successes.size();
 		// remove those with null Fetched : they are 304
 		successes.entrySet().removeIf(e -> e.getValue() == null);
-		updateResponseOk(successes);
+		if (!successes.isEmpty()) {
+			updateResponseOk(successes);
+		}
 		saveAll(data);
-		log.trace(" {} updated list of {} elements", fetcherName(), data.size());
+		log.trace(" {} updated list of {} elements with {} success", fetcherName(), data.size(), successes.size());
 		return success;
 	}
 

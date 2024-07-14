@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade2.tools.MarketOrder;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
@@ -16,7 +16,7 @@ public class ContractItemService {
 	private final ContractItemRepository repo;
 
 	public ContractItem save(ContractItem entity) {
-		return repo.save(entity);
+		return repo.saveAndFlush(entity);
 	}
 
 	public List<ContractItem> saveAll(Iterable<ContractItem> entities) {

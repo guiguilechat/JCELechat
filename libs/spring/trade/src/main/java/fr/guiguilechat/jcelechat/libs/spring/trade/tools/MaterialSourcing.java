@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
+package fr.guiguilechat.jcelechat.libs.spring.trade.tools;
 
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -48,8 +48,8 @@ public enum MaterialSourcing implements IMaterialValuator {
 	 */
 	private final String explain;
 
-	public double cost(long quantity, double taxPct, double brokerPct, List<RegionLine> bos,
-			List<RegionLine> sos) {
+	public double cost(long quantity, double taxPct, double brokerPct, List<MarketLine> bos,
+			List<MarketLine> sos) {
 		if (producing) {
 			return useBo ? costSellBo(quantity, taxPct, bos) : costSellSo(quantity, taxPct, brokerPct, sos);
 		} else {
@@ -69,7 +69,7 @@ public enum MaterialSourcing implements IMaterialValuator {
 	 * @return
 	 */
 	public double cost(Map<Integer, Long> requiredMats, double taxPct, double brokerPct,
-			Map<Integer, List<RegionLine>> bos, Map<Integer, List<RegionLine>> sos) {
+			Map<Integer, List<MarketLine>> bos, Map<Integer, List<MarketLine>> sos) {
 		return requiredMats.entrySet().stream()
 				.mapToDouble(
 						k -> cost(k.getValue(), taxPct, brokerPct, bos.get(k.getKey()), sos.get(k.getKey())))

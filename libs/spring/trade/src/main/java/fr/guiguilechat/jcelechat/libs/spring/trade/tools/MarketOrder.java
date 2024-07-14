@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
+package fr.guiguilechat.jcelechat.libs.spring.trade.tools;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -7,7 +7,7 @@ import java.util.Map;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,7 +15,9 @@ import lombok.Data;
 import lombok.Getter;
 
 /**
- * class for representing both market orders and contract orders
+ * class for representing both market orders and contract orders.
+ * It's serializable to be cached easily, so does not contain any external
+ * reference.
  */
 @SuppressWarnings("serial")
 @Data
@@ -63,6 +65,9 @@ public class MarketOrder implements Serializable {
 	 */
 	private double price;
 
+	@Getter(lazy = true)
+	private final String formatedPrice = FormatTools.formatPrice(price);
+
 	/**
 	 * region name once set
 	 */
@@ -90,14 +95,10 @@ public class MarketOrder implements Serializable {
 
 	private Instant expires;
 
-	public String getFormatedExpires() {
-		return FormatTools.formatDelay(expires);
-	}
-
 	@Getter(lazy = true)
-	private final String formatedPrice = FormatTools.formatPrice(price);
+	private final String formatedExpires = FormatTools.formatDelay(expires);
 
-	public static MarketOrder of(RegionLine line) {
+	public static MarketOrder of(MarketLine line) {
 		return builder()
 		    .expires(line.getIssued().plus(line.getDuration(), ChronoUnit.DAYS))
 		    .isBuyOrder(line.isBuyOrder())
@@ -106,9 +107,9 @@ public class MarketOrder implements Serializable {
 		    .minVolume(line.getMinVolume())
 		    .orderType(OrderType.MARKET)
 		    .price(line.getPrice())
-		    .regionId(line.getRegion().getRegionId())
-		    .systemId(line.getSystemId())
-		    .typeId(line.getTypeId())
+		    .regionId(line.getFetchResource().getId())
+		    .systemId(line.getSolarSystem().getId())
+		    .typeId(line.getType().getId())
 		    .volumeRemain(line.getVolumeRemain())
 		    .volumeTotal(line.getVolumeTotal())
 		    .build();

@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.fetchers.batch;
 
-import java.time.Instant;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,7 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public abstract class ABatchResourceFetcher<
 		Entity extends AFetchedResource<Id>,
-		Id,
+    Id extends Number,
     Fetched,
     Repository extends IFetchedResourceRepository<Entity, Id>>
     extends AFetchedResourceService<Entity, Id, Repository> {
@@ -38,15 +37,11 @@ public abstract class ABatchResourceFetcher<
 	protected abstract Requested<List<Fetched>> fetchList(Map<String, String> properties);
 
 	private String lastListEtag = null;
-	private Instant nextUpdate = null;
 
 	/** check new entries */
 
 	@Override
 	protected boolean fetchUpdate() {
-		if (nextUpdate != null && nextUpdate.isAfter(Instant.now())) {
-			return false;
-		}
 		boolean updated = false;
 		long startTimeMs = System.currentTimeMillis();
 		Map<String, String> properties = new HashMap<>();
@@ -60,7 +55,7 @@ public abstract class ABatchResourceFetcher<
 				List<Fetched> fetched = resp.getOK();
 				updateFromFetched(fetched);
 				lastListEtag = resp.getETag();
-				nextUpdate = resp.getExpiresInstant();
+				setNextUpdate(resp.getExpiresInstant());
 				long endTimeMs = System.currentTimeMillis();
 				log.info("{} updated {} values in {} ms",
 				    fetcherName(),
@@ -69,7 +64,7 @@ public abstract class ABatchResourceFetcher<
 				updated = true;
 				break;
 			case 304:
-				nextUpdate = resp.getExpiresInstant();
+				setNextUpdate(resp.getExpiresInstant());
 				break;
 			default:
 				log.warn("update service {} received invalid response {} when requesting list of entities",
@@ -78,10 +73,6 @@ public abstract class ABatchResourceFetcher<
 		} else {
 			log.warn("update service {} received null list of entities",
 			    getClass().getSimpleName());
-		}
-		Instant minDelay = Instant.now().plusSeconds(getUpdate().getDelay());
-		if (nextUpdate == null || minDelay.isAfter(nextUpdate)) {
-			nextUpdate=minDelay;
 		}
 		return updated;
 	}

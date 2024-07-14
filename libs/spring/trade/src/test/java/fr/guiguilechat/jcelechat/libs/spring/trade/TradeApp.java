@@ -12,15 +12,15 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableCaching
 @EnableScheduling
 @SpringBootApplication
-public class ContractApp extends SpringBootServletInitializer {
+public class TradeApp extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ContractApp.class, args);
+		SpringApplication.run(TradeApp.class, args);
 	}
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(ContractApp.class);
+		return builder.sources(TradeApp.class);
 	}
 
 }

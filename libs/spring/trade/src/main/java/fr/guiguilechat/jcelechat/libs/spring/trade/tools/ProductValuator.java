@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade2.tools;
+package fr.guiguilechat.jcelechat.libs.spring.trade.tools;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -50,7 +50,7 @@ public enum ProductValuator implements IMaterialValuator {
 	private final String explain;
 
 	public double value(long productQuantity, double taxPct, double brokerPct,
-			List<RegionLine> bos, List<RegionLine> sos) {
+			List<MarketLine> bos, List<MarketLine> sos) {
 		if (useBo) {
 			return consuming ? costBuyBo(productQuantity, brokerPct, bos)
 					: costSellBo(productQuantity, taxPct, bos);
@@ -61,7 +61,7 @@ public enum ProductValuator implements IMaterialValuator {
 	}
 
 	public double value(Map<Integer, Long> products, double taxpct, double brokerPct,
-			Map<Integer, List<RegionLine>> bos, Map<Integer, List<RegionLine>> sos) {
+			Map<Integer, List<MarketLine>> bos, Map<Integer, List<MarketLine>> sos) {
 		double sum = 0.0;
 		for (Entry<Integer, Long> e : products.entrySet()) {
 			int typeId = e.getKey();
@@ -70,7 +70,7 @@ public enum ProductValuator implements IMaterialValuator {
 		return sum;
 	}
 
-	public double unitPrice(long quantity, List<RegionLine> bos, List<RegionLine> sos) {
+	public double unitPrice(long quantity, List<MarketLine> bos, List<MarketLine> sos) {
 		if (useBo) {
 			return consuming ? uPriceBuyBo(quantity, bos) : uPriceSellBo(quantity, bos);
 		} else {

@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import java.util.stream.Stream;
 
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.IFetchedListElementRepository;
@@ -10,28 +11,33 @@ public interface ContractItemRepository extends IFetchedListElementRepository<Co
 
 	@Query("""
 select
-	distinct(contract)
+	distinct(fetchResource)
 from
 	EsiMarketContractItem
 where
-	contract.fetched
-	and not contract.removed
-	and contract.asksOneTypeForIsks
+	fetchResource.fetched
+	and not fetchResource.removed
+	and fetchResource.asksOneTypeForIsks
 	and type.id=:typeId
 """)
 	public Stream<ContractInfo> listBOs(int typeId);
 
 	@Query("""
 	select
-	distinct(contract)
+	distinct(fetchResource)
 from
 	EsiMarketContractItem
 where
-	contract.fetched
-	and not contract.removed
-	and contract.offersOneTypeForIsk
+	fetchResource.fetched
+	and not fetchResource.removed
+	and fetchResource.offersOneTypeForIsk
 	and type.id=:typeId
 """)
 	public Stream<ContractInfo> listSOs(int typeId);
+
+	@Override
+	@Modifying
+	@Query("delete from EsiMarketContractItem where fetchResource.id in :ids")
+	void deleteByFetchResourceIdIn(Iterable<? extends Number> ids);
 
 }

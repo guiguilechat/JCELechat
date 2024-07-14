@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade2.regional;
+package fr.guiguilechat.jcelechat.libs.spring.trade.regional;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -9,32 +9,36 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.RegionMarketUpdateService.MarketUpdateListener;
-import fr.guiguilechat.jcelechat.libs.spring.trade2.tools.MarketOrder;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegionService.MarketRegionListener;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-@RequiredArgsConstructor
-public class RegionLineService implements MarketUpdateListener {
+@RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@ConfigurationProperties(prefix = "esi.trade.market.line")
+public class MarketLineService implements MarketRegionListener {
 
-	final private RegionLineRepository repo;
+	@Lazy
+	final private MarketLineRepository repo;
 
-	public RegionLine save(RegionLine entity) {
-		return repo.save(entity);
+	public MarketLine save(MarketLine entity) {
+		return repo.saveAndFlush(entity);
 	}
 
-	public List<RegionLine> saveAll(Iterable<RegionLine> entities) {
-		return repo.saveAll(entities);
+	public List<MarketLine> saveAll(Iterable<MarketLine> entities) {
+		return repo.saveAllAndFlush(entities);
 	}
 
-	public void clearRegion(ObservedRegion region) {
-		repo.deleteByRegion(region);
+	public void clearRegion(MarketRegion region) {
+		repo.deleteByFetchResourceIn(List.of(region));
 	}
 
 	//
@@ -53,11 +57,11 @@ public class RegionLineService implements MarketUpdateListener {
 	 *           descending
 	 */
 // @Cacheable("marketLocationTypesBo")
-	public Map<Integer, List<RegionLine>> locationBos(long locationId, Set<Integer> typeIds) {
+	public Map<Integer, List<MarketLine>> locationBos(long locationId, Set<Integer> typeIds) {
 		long start = System.currentTimeMillis();
-		Map<Integer, List<RegionLine>> ret = repo
+		Map<Integer, List<MarketLine>> ret = repo
 				.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds)
-				.collect(Collectors.groupingBy(RegionLine::getTypeId));
+		    .collect(Collectors.groupingBy(ml -> ml.getType().getId()));
 		long fetched = System.currentTimeMillis();
 		log.debug(
 				"listed BO lines for " + typeIds.size() + " ids , fetch=" + (fetched - start) + "ms, ids=" + typeIds);
@@ -69,22 +73,22 @@ public class RegionLineService implements MarketUpdateListener {
 	 *           ascending
 	 */
 // @Cacheable("marketLocationTypesSo")
-	public Map<Integer, List<RegionLine>> locationSos(long locationId, Set<Integer> typeIds) {
+	public Map<Integer, List<MarketLine>> locationSos(long locationId, Set<Integer> typeIds) {
 		long start = System.currentTimeMillis();
-		Map<Integer, List<RegionLine>> ret = repo
+		Map<Integer, List<MarketLine>> ret = repo
 				.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds)
-				.collect(Collectors.groupingBy(RegionLine::getTypeId));
+		    .collect(Collectors.groupingBy(ml -> ml.getType().getId()));
 		long fetched = System.currentTimeMillis();
 		log.debug(
 				"listed SO lines for " + typeIds.size() + " ids, fetch=" + (fetched - start) + "ms, ids=" + typeIds);
 		return ret;
 	}
 
-	static List<RegionLine> reverseIf(List<RegionLine> lines, boolean reverse) {
+	static List<MarketLine> reverseIf(List<MarketLine> lines, boolean reverse) {
 		if (!reverse) {
 			return lines;
 		}
-		List<RegionLine> ret = new ArrayList<>(lines);
+		List<MarketLine> ret = new ArrayList<>(lines);
 		Collections.reverse(ret);
 		return ret;
 	}
@@ -95,7 +99,7 @@ public class RegionLineService implements MarketUpdateListener {
 	 *           BO
 	 */
 	@Cacheable("marketLocation")
-	public List<RegionLine> forLocation(long locationId, int type_id, boolean isBuyOrder) {
+	public List<MarketLine> forLocation(long locationId, int type_id, boolean isBuyOrder) {
 		return reverseIf(repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, type_id, isBuyOrder),
 				isBuyOrder);
 	}
@@ -106,8 +110,8 @@ public class RegionLineService implements MarketUpdateListener {
 	 *           BO
 	 */
 	@Cacheable("marketRegion")
-	public List<RegionLine> forRegion(int regionId, int type_id, boolean isBuyOrder) {
-		return reverseIf(repo.findByRegionRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder),
+	public List<MarketLine> forRegion(int regionId, int type_id, boolean isBuyOrder) {
+		return reverseIf(repo.findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder),
 				isBuyOrder);
 	}
 
@@ -116,7 +120,7 @@ public class RegionLineService implements MarketUpdateListener {
 	 *           ordered by price asc for SO and price desc for BO
 	 */
 	@Cacheable("marketAll")
-	public List<RegionLine> forAll(int type_id, boolean isBuyOrder) {
+	public List<MarketLine> forAll(int type_id, boolean isBuyOrder) {
 		return reverseIf(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder), isBuyOrder);
 	}
 
@@ -141,10 +145,10 @@ public class RegionLineService implements MarketUpdateListener {
 	 * @param infOnMissing if true return +inf when not enough volume. else use 0;
 	 * @return cumulated or exact price for given quantity
 	 */
-	double price(List<RegionLine> lines, long quantity, boolean cumulated, boolean infOnMissing) {
+	double price(List<MarketLine> lines, long quantity, boolean cumulated, boolean infOnMissing) {
 		long remain = quantity;
 		double cumul = 0.0;
-		for (RegionLine line : lines) {
+		for (MarketLine line : lines) {
 			long taken = Math.min(remain, line.getVolumeRemain());
 			remain -= taken;
 			cumul += line.getPrice() * taken;
@@ -223,18 +227,18 @@ public class RegionLineService implements MarketUpdateListener {
 	public static record OfferStat(long qtty, double price, long cumulQtty, double cumulValue) implements Serializable {
 	}
 
-	@Value("${market.sellstats.clipmult:10}")
-	private float priceGainClipMult;
+	@Setter
+	private float clipmult = 10;
 
-	List<OfferStat> sellGain(List<RegionLine> sos, List<RegionLine> bos) {
+	List<OfferStat> sellGain(List<MarketLine> sos, List<MarketLine> bos) {
 		ArrayList<OfferStat> ret = new ArrayList<>();
 		long cumulQtty = 0;
 		double cumulValue = 0.0;
 		Double lowestSOPrice = null;
-		for (RegionLine rl : sos) {
+		for (MarketLine rl : sos) {
 			if (lowestSOPrice == null) {
 				lowestSOPrice = rl.getPrice();
-			} else if (rl.getPrice() > lowestSOPrice * priceGainClipMult) {
+			} else if (rl.getPrice() > lowestSOPrice * clipmult) {
 				break;
 			}
 			cumulQtty += rl.getVolumeRemain();
@@ -245,10 +249,10 @@ public class RegionLineService implements MarketUpdateListener {
 		cumulQtty = 0;
 		cumulValue = 0.0;
 		Double highestBOPrice = null;
-		for (RegionLine rl : bos) {
+		for (MarketLine rl : bos) {
 			if (highestBOPrice == null) {
 				highestBOPrice = rl.getPrice();
-			} else if (rl.getPrice() < highestBOPrice / priceGainClipMult) {
+			} else if (rl.getPrice() < highestBOPrice / clipmult) {
 				break;
 			}
 			cumulQtty += rl.getVolumeRemain();
@@ -260,31 +264,32 @@ public class RegionLineService implements MarketUpdateListener {
 	}
 
 	public List<OfferStat> offerStatsLocation(long locationId, int typeId) {
-		List<RegionLine> sos = repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, typeId, false);
-		List<RegionLine> bos = new ArrayList<>(
+		List<MarketLine> sos = repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, typeId, false);
+		List<MarketLine> bos = new ArrayList<>(
 				repo.findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(locationId, typeId, true));
 		Collections.reverse(bos);
 		return sellGain(sos, bos);
 	}
 
 	public List<OfferStat> offerStatsRegion(int regionId, int typeId) {
-		List<RegionLine> sos = repo.findByRegionRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, false);
-		List<RegionLine> bos = new ArrayList<>(
-				repo.findByRegionRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, true));
+		List<MarketLine> sos = repo.findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, false);
+		List<MarketLine> bos = new ArrayList<>(
+		    repo.findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, true));
 		Collections.reverse(bos);
 		return sellGain(sos, bos);
 	}
 
 	public List<OfferStat> offerStatsAll(int typeId) {
-		List<RegionLine> sos = repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(typeId, false);
-		List<RegionLine> bos = new ArrayList<>(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(typeId, true));
+		List<MarketLine> sos = repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(typeId, false);
+		List<MarketLine> bos = new ArrayList<>(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(typeId, true));
 		Collections.reverse(bos);
 		return sellGain(sos, bos);
 	}
 
 
-	/** list of caches to invalidate */
-	static final List<String> MARKET_ORDERS_CACHES = List.of(
+	@Override
+	public List<String> getCacheList() {
+		return List.of(
 			"marketAll",
 			"marketLocation",
 			"marketRegion",
@@ -292,10 +297,7 @@ public class RegionLineService implements MarketUpdateListener {
 			"marketSoValueLocation",
 			"marketLocationTypesBo",
 			"marketLocationTypesSo");
-
-	@Override
-	public List<String> listMarketCaches(int regionId) {
-		return MARKET_ORDERS_CACHES;
 	}
+
 
 }

@@ -5,7 +5,6 @@ import java.util.LinkedList;
 
 public class FormatTools {
 
-
 	static final long[] unitSuffixValue = { 1000000000000l, 1000000000l, 1000000l, 1000l };
 	static final String[] unitSuffix = { "T", "B", "M", "k" };
 
@@ -19,11 +18,11 @@ public class FormatTools {
 	 */
 	public static String formatPrice(double value) {
 		if (value == Double.MAX_VALUE || value == Double.MIN_VALUE || value == Double.POSITIVE_INFINITY
-				|| value == Double.NEGATIVE_INFINITY) {
+		    || value == Double.NEGATIVE_INFINITY) {
 			return "" + value;
 		}
 		if (value < 0) {
-			return "-"+formatPrice(-value);
+			return "-" + formatPrice(-value);
 		}
 		double prefix = value;
 		String suffix = null;
@@ -38,7 +37,7 @@ public class FormatTools {
 		}
 		String rets = "" + prefix;
 		if (rets.endsWith(".0")) {
-			rets=rets.substring(0, rets.length()-2);
+			rets = rets.substring(0, rets.length() - 2);
 		}
 		return (rets.length() > 5 ? rets.substring(0, 5).replaceAll("\\.$", "") : rets) + suffix;
 	}
@@ -75,53 +74,52 @@ public class FormatTools {
 	}
 
 	/**
-	 * @param daysAdded days added to source
-	 * @param source    the source of the delay
+	 * format the delay between now and an instant
+	 * 
+	 * @param source target instant. Can be in the past.
 	 */
 	public static String formatDelay(Instant source) {
 		long endS = source.getEpochSecond();
 		long startS = Instant.now().getEpochSecond();
-		long delay = endS - startS;
-		boolean minus = delay < 0;
+		long rest = endS - startS;
+		boolean minus = rest < 0;
 		if (minus) {
-			delay *= -1;
+			rest *= -1;
 		}
-		int seconds = (int) (delay % 60);
-		delay /= 60;
+		int seconds = (int) (rest % 60);
+		rest /= 60;
 
-		int minutes = (int) (delay % 60);
-		delay /= 60;
+		int minutes = (int) (rest % 60);
+		rest /= 60;
 
-		int hours = (int) (delay % 24);
-		delay /= 24;
+		int hours = (int) (rest % 24);
+		rest /= 24;
 
-		int days = (int) (delay % 365);
-		delay /= 365;
+		int days = (int) (rest % 365);
+		int years = (int) (rest / 365);
 
 		StringBuilder sb = new StringBuilder();
 		if (minus) {
 			sb.append("-");
 		}
-		if (delay > 0) {
-			sb.append(delay).append("y");
+		boolean add = false;
+		if (years > 0) {
+			sb.append(years).append("y");
+			add = true;
 		}
-		if (delay < 10) {
-			if (days > 0) {
-				sb.append(days).append("d");
-			}
-			if (days < 30) {
-
-				if (hours > 0) {
-					sb.append(hours).append("h");
-				}
-				if (minutes > 0) {
-					sb.append(minutes).append("min");
-				}
-				if (hours == 0 && seconds > 0) {
-					sb.append(seconds).append("s");
-				}
-			}
+		if (days > 0 || add) {
+			sb.append(String.format("%03dd", days));
+			add = true;
 		}
+		if (hours > 0 || add) {
+			sb.append(String.format("%02dh", hours));
+			add = true;
+		}
+		if (minutes > 0 || add) {
+			sb.append(String.format("%02dm", minutes));
+			add = true;
+		}
+		sb.append(String.format("%02ds", seconds));
 		return sb.toString();
 	}
 }

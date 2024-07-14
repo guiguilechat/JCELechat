@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.ObservedRegion;
-import fr.guiguilechat.jcelechat.libs.spring.trade2.regional.ObservedRegionService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.ObservedRegion;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.ObservedRegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import lombok.RequiredArgsConstructor;

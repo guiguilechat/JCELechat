@@ -17,7 +17,7 @@ import lombok.Setter;
 @MappedSuperclass
 @NoArgsConstructor
 @Setter
-public abstract class AFetchedList<Id, Fetched, RecordType extends AFetchedListElement<?, ?>>
+public abstract class AFetchedList<Id extends Number, Fetched, RecordType extends AFetchedListElement<?, ?>>
     extends ARemoteResource<Id, Fetched[]> {
 
 	@Override

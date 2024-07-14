@@ -22,7 +22,7 @@ import lombok.Setter;
 @Getter
 @MappedSuperclass
 @Setter
-public abstract class ARemoteResource<RemoteId, Fetched> extends AFetchedResource<RemoteId> {
+public abstract class ARemoteResource<RemoteId extends Number, Fetched> extends AFetchedResource<RemoteId> {
 
 	/** date the last successful update expires at */
 	private Instant expires;

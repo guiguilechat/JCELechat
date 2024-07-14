@@ -18,7 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public abstract class AFetchedResource<IdType> {
+public abstract class AFetchedResource<IdType extends Number> {
 
 	@Id
 	private IdType id;

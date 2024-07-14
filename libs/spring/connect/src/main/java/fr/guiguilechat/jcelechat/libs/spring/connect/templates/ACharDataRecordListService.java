@@ -41,7 +41,7 @@ public abstract class ACharDataRecordListService<
 	private RecordRepo recordRepo;
 
 	protected void updateResponseOk(Entity data, Fetched[] arr) {
-		recordRepo().deleteByFetchResource(data);
+		recordRepo().deleteByFetchResourceIn(List.of(data));
 		if (arr != null && arr.length != 0) {
 			saveNewResources(data, Stream.of(arr));
 		}
