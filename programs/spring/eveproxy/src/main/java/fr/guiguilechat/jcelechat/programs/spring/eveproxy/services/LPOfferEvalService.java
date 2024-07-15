@@ -18,10 +18,10 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Offer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Requirement;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.valuation.MaterialSourcing;
-import fr.guiguilechat.jcelechat.libs.spring.trade.valuation.ProductValuator;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MaterialSourcing;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.ProductValuator;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
 import lombok.Builder;
@@ -38,7 +38,7 @@ public class LPOfferEvalService {
 
 	final private BlueprintActivityService blueprintActivityService;
 
-	final private RegionLineService regionLineService;
+	final private MarketLineService regionLineService;
 
 	@Getter
 	@Setter
@@ -47,7 +47,7 @@ public class LPOfferEvalService {
 
 		private double bpcost = 1000000.0;
 		private double brpct = 2.0;
-		private long location = RegionLineService.JITAIV_ID;
+		private long location = MarketLineService.JITAIV_ID;
 		private int lp = 100000;
 		private double margin = 5.0;
 		private double marginPerHour = 0.5;
@@ -126,8 +126,8 @@ public class LPOfferEvalService {
 	LPOfferEval value(LinkCorporationOffer lco, int maxLpAmount, MaterialSourcing materialSourcing,
 			ProductValuator productValuator,
 			double brokerPct, double taxPct, double marginPct, double marginPctPerHour, double bpCost,
-			Map<Integer, List<BlueprintActivity>> typeToActivities, Map<Integer, List<RegionLine>> bosByTypeId,
-			Map<Integer, List<RegionLine>> sosByTypeId) {
+	    Map<Integer, List<BlueprintActivity>> typeToActivities, Map<Integer, List<MarketLine>> bosByTypeId,
+	    Map<Integer, List<MarketLine>> sosByTypeId) {
 
 		Offer offer = lco.getOffer();
 		long offerQuantity = (long) Math.floor(1.0 * maxLpAmount / offer.getLpCost());
@@ -207,9 +207,9 @@ public class LPOfferEvalService {
 		        .map(mat -> mat.getType().getId()))
 				.flatMap(s -> s).collect(Collectors.toSet());
 		long idsGathered = System.currentTimeMillis();
-		Map<Integer, List<RegionLine>> bosByTypeId = regionLineService.locationBos(marketLocationId, allIds);
+		Map<Integer, List<MarketLine>> bosByTypeId = regionLineService.locationBos(marketLocationId, allIds);
 		long bosFetched = System.currentTimeMillis();
-		Map<Integer, List<RegionLine>> sosByTypeId = regionLineService.locationSos(marketLocationId, allIds);
+		Map<Integer, List<MarketLine>> sosByTypeId = regionLineService.locationSos(marketLocationId, allIds);
 		long sosFetched = System.currentTimeMillis();
 		List<LPOfferEval> ret = corporationOffers.parallelStream()
 		    .map(o -> value(o, maxLpAmount, materialSourcing, productValuator, brokerPct, taxPct, marginPct,

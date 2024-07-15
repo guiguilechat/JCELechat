@@ -24,8 +24,8 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import lombok.RequiredArgsConstructor;
 
@@ -44,7 +44,7 @@ public class IndustryRestController {
 
 	final private TypeService typeService;
 
-	final private RegionLineService regionLineService;
+	final private MarketLineService marketLineService;
 
 	public static record BPInfo(double eiv, double ptv1020, long researchSeconds, String researchHuman,
 			Map<ACTIVITY_TYPE, List<Integer>> produces) {
@@ -95,10 +95,10 @@ public class IndustryRestController {
 			@RequestParam Optional<String> accept) throws IOException {
 		List<IndustryInfo> ret = typeService.typesFilter(typeFiltering, typeFilter)
 				.stream().map(type -> {
-			    List<LocatedBestOffer> seeds = type.getMarketGroupId() > 0 ? regionLineService.seedLocations(type.getId())
+			    List<LocatedBestOffer> seeds = type.getMarketGroupId() > 0 ? marketLineService.seedLocations(type.getId())
 							: Collections.emptyList();
 					Map<Integer, Map<Long, Double>> seedMap = new HashMap<>();
-					for (LocatedBestOffer s : seeds) {
+			    for (LocatedBestOffer s : seeds) {
 						Map<Long, Double> rmap = seedMap.computeIfAbsent(s.regionId(), rid -> new HashMap<>());
 						rmap.put(s.locationId(), s.bestPrice());
 					}

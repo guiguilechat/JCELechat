@@ -290,12 +290,12 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>trade</artifactId>
+				<artifactId>sde</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>sde</artifactId>
+				<artifactId>trade</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>

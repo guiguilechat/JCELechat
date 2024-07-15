@@ -29,11 +29,11 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.order.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
@@ -72,7 +72,7 @@ public class DogmaHtmlController {
 
 	private final RegionService regionService;
 
-	private final RegionLineService regionLineService;
+	private final MarketLineService marketLineService;
 
 	private final StationService stationService;
 
@@ -217,7 +217,7 @@ public class DogmaHtmlController {
 							.sorted(Comparator.comparing(u -> u.type().getName()))
 							.toList());
 			model.addAttribute("seeded",
-			    regionLineService.seedLocations(t.getId()).stream()
+			    marketLineService.seedLocations(t.getId()).stream()
 							.map(this::seed)
 							.toList());
 			List<LinkedActivity> productOf = productService
@@ -252,11 +252,11 @@ public class DogmaHtmlController {
 				model.addAttribute("bpeiv",
 				    (long) eivService.eiv(productOf.get(0).product().getActivity().getType().getId()));
 			}
-			List<RegionLine> bos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getId(), true);
+			List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
 			if (bos != null && !bos.isEmpty()) {
 				model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getPrice()));
 			}
-			List<RegionLine> sos = regionLineService.forLocation(RegionLineService.JITAIV_ID, t.getId(), false);
+			List<MarketLine> sos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), false);
 			if (sos != null && !sos.isEmpty()) {
 				model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getPrice()));
 			}

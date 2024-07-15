@@ -14,16 +14,16 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.PlanetaryTaxService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchemProductService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchematicService;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.valuation.MaterialSourcing;
-import fr.guiguilechat.jcelechat.libs.spring.trade.valuation.ProductValuator;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MaterialSourcing;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.ProductValuator;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2;
@@ -44,7 +44,7 @@ public class PlanetEvalService {
 
 	final private PlanetaryTaxService planetaryTaxService;
 
-	final private RegionLineService regionLineService;
+	final private MarketLineService marketLineService;
 
 	final private SchemProductService schemProductService;
 
@@ -129,7 +129,7 @@ public class PlanetEvalService {
 		private PRODUCT_FILTER filter = PRODUCT_FILTER.ANY;
 		private int hours = 2 * 24;
 		private boolean hs = false;
-		private long location = RegionLineService.JITAIV_ID;
+		private long location = MarketLineService.JITAIV_ID;
 		private double margin = 5.0;
 		private MaterialSourcing materialSourcing = MaterialSourcing.BUY_SO_MASS;
 		private int nbPlanets = 6;
@@ -206,8 +206,8 @@ public class PlanetEvalService {
 						fe.getLinkedProd().stream().map(LinkedMaterial::type)))
 		    .map(Type::getId)
 				.collect(Collectors.toSet());
-		Map<Integer, List<RegionLine>> bosByTypeId = regionLineService.locationBos(params.getLocation(), allIds);
-		Map<Integer, List<RegionLine>> sosByTypeId = regionLineService.locationSos(params.getLocation(), allIds);
+		Map<Integer, List<MarketLine>> bosByTypeId = marketLineService.locationBos(params.getLocation(), allIds);
+		Map<Integer, List<MarketLine>> sosByTypeId = marketLineService.locationSos(params.getLocation(), allIds);
 		Map<Integer, Double> exportTaxById = planetaryTaxService.exportTaxById();
 		Map<Integer, Double> importTaxById = planetaryTaxService.importTaxById();
 		double taxMult = 0.01 * params.customTaxPct

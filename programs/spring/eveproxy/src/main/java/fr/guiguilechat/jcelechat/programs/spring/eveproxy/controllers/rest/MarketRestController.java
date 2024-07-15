@@ -25,10 +25,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLine;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService.LocatedBestOffer;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.RegionLineService.OfferStat;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.OfferStat;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -42,7 +42,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class MarketRestController {
 
-	final private RegionLineService rlService;
+	final private MarketLineService rlService;
 
 	final private TypeService typeService;
 
@@ -63,7 +63,7 @@ public class MarketRestController {
 			return region() == null ? null : region().getId();
 		}
 
-		public List<RegionLine> bos(RegionLineService rlService, int typeId) {
+		public List<MarketLine> bos(MarketLineService rlService, int typeId) {
 			if (locationId() > 0) {
 				return rlService.forLocation(locationId, typeId, true);
 			}
@@ -73,7 +73,7 @@ public class MarketRestController {
 			return rlService.forAll(typeId, true);
 		}
 
-		public List<RegionLine> sos(RegionLineService rlService, int typeId) {
+		public List<MarketLine> sos(MarketLineService rlService, int typeId) {
 			if (locationId() > 0) {
 				return rlService.forLocation(locationId, typeId, false);
 			}
@@ -83,7 +83,7 @@ public class MarketRestController {
 			return rlService.forAll(typeId, false);
 		}
 
-		List<OfferStat> gains(RegionLineService rlService, int typeId) {
+		List<OfferStat> gains(MarketLineService rlService, int typeId) {
 			if (locationId() > 0) {
 				return rlService.offerStatsLocation(locationId(), typeId);
 			}
@@ -133,7 +133,7 @@ public class MarketRestController {
 	}
 
 	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,
-			List<RegionLine> bos, List<RegionLine> sos, Optional<String> accept) {
+	    List<MarketLine> bos, List<MarketLine> sos, Optional<String> accept) {
 		return RestControllerHelper.makeResponse(TypeMarketStats.of(typeId, regionId, locationId, bos, sos), accept);
 	}
 
@@ -162,8 +162,8 @@ public class MarketRestController {
 			return requireInf ? orderPrice <= limit : orderPrice >= limit;
 		}
 
-		public PriceAccumulator accumulate(Iterable<RegionLine> lines) {
-			for (RegionLine l : lines) {
+		public PriceAccumulator accumulate(Iterable<MarketLine> lines) {
+			for (MarketLine l : lines) {
 				if (accept(l.getPrice(), priceLimit)) {
 					volume += l.getVolumeRemain();
 					totValue += l.getVolumeRemain() * l.getPrice();
@@ -185,8 +185,8 @@ public class MarketRestController {
 
 	static record TypeMarketStats(PriceFilter filter, List<PriceLimitData> sellorders, List<PriceLimitData> buyorders) {
 
-		static TypeMarketStats of(int typeId, Integer regionId, Long locationId, List<RegionLine> bos,
-				List<RegionLine> sos) {
+		static TypeMarketStats of(int typeId, Integer regionId, Long locationId, List<MarketLine> bos,
+		    List<MarketLine> sos) {
 			PriceFilter filter = new PriceFilter(typeId, regionId, locationId);
 
 			List<PriceLimitData> sosData = Collections.emptyList();
@@ -220,8 +220,8 @@ public class MarketRestController {
 			@RequestParam Optional<String> accept) {
 
 		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
-		List<RegionLine> bos = place.bos(rlService, typeId);
-		List<RegionLine> sos = place.sos(rlService, typeId);
+		List<MarketLine> bos = place.bos(rlService, typeId);
+		List<MarketLine> sos = place.sos(rlService, typeId);
 		return makeMarketStatsResponse(typeId, place.regionId(), place.locationId(), bos, sos, accept);
 	}
 
@@ -232,11 +232,11 @@ public class MarketRestController {
 	@GetMapping("/jita/typeId/{typeId}/stats")
 	public ResponseEntity<TypeMarketStats> statsJitaByType(@PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
-		return statsByPlaceByType("lid", "" + RegionLineService.JITAIV_ID, typeId, accept);
+		return statsByPlaceByType("lid", "" + MarketLineService.JITAIV_ID, typeId, accept);
 	}
 
 	public static record MarketOffer(int volume, double price) {
-		public MarketOffer(RegionLine line) {
+		public MarketOffer(MarketLine line) {
 			this(line.getVolumeRemain(), line.getPrice());
 		}
 	}
@@ -259,7 +259,7 @@ public class MarketRestController {
 	public ResponseEntity<List<MarketOffer>> sosJitaByType(
 			@PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
-		return RestControllerHelper.makeResponse(offers("lid", "" + RegionLineService.JITAIV_ID, typeId, false), accept);
+		return RestControllerHelper.makeResponse(offers("lid", "" + MarketLineService.JITAIV_ID, typeId, false), accept);
 	}
 
 	@GetMapping("/{placeFiltering}/{placeFilter}/typeId/{typeId}/bos")
@@ -274,7 +274,7 @@ public class MarketRestController {
 	public ResponseEntity<List<MarketOffer>> bosJitaByType(
 			@PathVariable int typeId,
 			@RequestParam Optional<String> accept) {
-		return RestControllerHelper.makeResponse(offers("lid", "" + RegionLineService.JITAIV_ID, typeId, true), accept);
+		return RestControllerHelper.makeResponse(offers("lid", "" + MarketLineService.JITAIV_ID, typeId, true), accept);
 	}
 
 	@GetMapping("/{placeFiltering}/{placeFilter}/{typeFiltering}/{typeFilter}/chart")
@@ -325,7 +325,7 @@ public class MarketRestController {
 			@PathVariable String typeFilter,
 			HttpServletResponse response, @RequestParam Optional<String> accept,
 			@RequestParam Optional<String> bcolor) throws IOException {
-		chartbyLocationByType("lid", "" + RegionLineService.JITAIV_ID, typeFiltering, typeFilter, response, accept, bcolor);
+		chartbyLocationByType("lid", "" + MarketLineService.JITAIV_ID, typeFiltering, typeFilter, response, accept, bcolor);
 	}
 
 	@GetMapping("/selllocations/byTypeId/{typeId}")
