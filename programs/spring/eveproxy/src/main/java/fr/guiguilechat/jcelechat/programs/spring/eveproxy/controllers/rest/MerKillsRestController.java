@@ -203,7 +203,7 @@ public class MerKillsRestController {
 				int typeId = Integer.parseInt(filterparam);
 				Type type = typeService.byId(typeId);
 				return type == null ? new NAMED_TYPELIST("unknown t" + typeId, Collections.emptyList())
-						: new NAMED_TYPELIST(type.getName(), List.of(typeId));
+				    : new NAMED_TYPELIST(type.name(), List.of(typeId));
 			}
 		},
 		GROUP_ID {
@@ -223,7 +223,7 @@ public class MerKillsRestController {
 				if (list.isEmpty()) {
 					return new NAMED_TYPELIST("unmatched type name " + filterparam, Collections.emptyList());
 				}
-				String name = list.size() == 1 ? list.get(0).getName()
+				String name = list.size() == 1 ? list.get(0).name()
 						: "matched " + list.size() + " type names " + filterparam;
 				return new NAMED_TYPELIST(name, list.stream().map(Type::getId).sorted().toList());
 			}
@@ -414,7 +414,7 @@ public class MerKillsRestController {
 		String timeOrder = time.orElse("desc");
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
 		Map<String, TypesKillsStats> statsByType = resolved.typeIds.parallelStream().collect(
-		    Collectors.toMap(typeId -> typeService.byId(typeId).getName(),
+		    Collectors.toMap(typeId -> typeService.byId(typeId).name(),
 						typeId -> new TypesKillsStats(List.of(typeId), timeOrder, ap.stats(List.of(typeId), killService), ap)));
 		if (timeOrder.equals("asc")) {
 			for (TypesKillsStats stats : statsByType.values()) {
@@ -446,7 +446,7 @@ public class MerKillsRestController {
 		KILLS_DETAIL det = KILLS_DETAIL.of(detail);
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
 		Map<String, List<KillStats>> statsByType = resolved.typeIds.parallelStream().collect(
-		    Collectors.toMap(typeId -> typeService.byId(typeId).getName(),
+		    Collectors.toMap(typeId -> typeService.byId(typeId).name(),
 						typeId -> ap.stats(List.of(typeId), killService)));
 		JFreeChart chart = drawChart(statsByType,
 				det.legend + " for " + resolved.name() + ", by " + ap.name().toLowerCase(), ap,

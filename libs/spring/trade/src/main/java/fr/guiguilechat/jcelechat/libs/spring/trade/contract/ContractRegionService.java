@@ -78,7 +78,9 @@ public class ContractRegionService
 			}
 		}
 		contractInfoService.saveAll(removed);
-		log.debug("{} contracts have been removed", removed.size());
+		if (removed.size() > 0) {
+			log.debug("{} contracts have been removed in region {}", removed.size(), region.getId());
+		}
 
 		// then create the new ones
 		List<Integer> missingIds = contracts.stream()
@@ -93,7 +95,9 @@ public class ContractRegionService
 			}
 		}
 		contractInfoService.saveAll(newContracts.values());
-		log.debug("{} contracts have been created", newContracts.size());
+		if (newContracts.size() > 0) {
+			log.debug("{} new contracts in region {}", newContracts.size(), region.getId());
+	}
 
 	}
 

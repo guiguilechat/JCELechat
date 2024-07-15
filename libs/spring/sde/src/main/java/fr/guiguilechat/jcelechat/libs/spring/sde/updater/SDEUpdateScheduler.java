@@ -14,10 +14,10 @@ public class SDEUpdateScheduler {
 
 	final private SDEUpdateService sdeUpdateService;
 
-	@Value("${sde.updater.skip:false}")
+	@Value("${sde.update.skip:false}")
 	private boolean skip;
 
-	@Scheduled(fixedRateString = "${sde.updater.fetchperiod:3600000}", initialDelayString = "${sde.updater.fetchdelay:5000}")
+	@Scheduled(fixedRateString = "${sde.update.delayms:3600000}", initialDelayString = "${sde.update.waitms:5000}")
 	public void checkSDE() throws IOException {
 		if (!skip) {
 			sdeUpdateService.updateSDE();

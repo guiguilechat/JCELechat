@@ -9,7 +9,7 @@ import org.springframework.lang.NonNull;
 
 public interface KillRepository extends JpaRepository<Kill, Long> {
 
-	public List<Kill> findByDestroyedShipTypeIdIn(Collection<Integer> destroyedShipTypeId);
+	public List<Kill> findByDestroyedShipIdIn(Collection<Integer> destroyedShipTypeId);
 
 	@Query(value = """
 select

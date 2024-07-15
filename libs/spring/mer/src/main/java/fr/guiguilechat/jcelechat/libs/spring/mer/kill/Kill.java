@@ -22,10 +22,10 @@ import lombok.Setter;
 
 @Entity(name = "MerKill")
 @Table(name = "mer_kill", indexes = {
-		@Index(columnList = "destroyed_ship_type_id"),
+    @Index(columnList = "destroyed_ship_id"),
 		@Index(columnList = "killerCorporationId"),
 		@Index(columnList = "killDate"),
-		@Index(columnList = "solar_system_solar_system_id"),
+    @Index(columnList = "solar_system_id"),
 		@Index(columnList = "victimCorporationId"),
 		@Index(columnList = "mer_id")
 })

@@ -55,7 +55,7 @@ public class SDEUpdateService {
 
 	private final Optional<List<SdeUpdateListener>> updateListeners;
 
-	@Value("${sde.updater.forcereinsert:false}")
+	@Value("${sde.update.forcereinsert:false}")
 	private boolean forceReinsert;
 
 	@Transactional
@@ -116,9 +116,7 @@ public class SDEUpdateService {
 			    .forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 			listeners.forEach(SdeUpdateListener::afterSdeUpdate);
 		}
-
 		log.info(" finished updating SDE DB.");
-
 	}
 
 

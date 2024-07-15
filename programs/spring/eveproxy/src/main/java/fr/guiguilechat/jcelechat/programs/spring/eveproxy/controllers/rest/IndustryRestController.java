@@ -82,7 +82,7 @@ public class IndustryRestController {
 		IndustryInfo(Type type, BPInfo bp,
 				Map<ACTIVITY_TYPE, List<Integer>> productOf,
 				Map<Integer, Map<Long, Double>> rid2lid2price) {
-			this(type.getId(), type.getName(), type.getBasePrice(),
+			this(type.getId(), type.name(), type.getBasePrice(),
 					bp, productOf,
 					rid2lid2price);
 		}
@@ -139,13 +139,13 @@ public class IndustryRestController {
 
 	public static record ConsumedMat(int typeId, String typeName, int quantity) {
 		public ConsumedMat(Material mat) {
-			this(mat.getType().getId(), mat.getType().getName(), mat.getQuantity());
+			this(mat.getType().getId(), mat.getType().name(), mat.getQuantity());
 		}
 	}
 
 	public static record ProducedItem(int typeId, String typeName, int quantity, double probability) {
 		public ProducedItem(Product prod) {
-			this(prod.getType().getId(), prod.getType().getName(), prod.getQuantity(), prod.getProbability());
+			this(prod.getType().getId(), prod.getType().name(), prod.getQuantity(), prod.getProbability());
 		}
 	}
 
@@ -153,7 +153,7 @@ public class IndustryRestController {
 			List<ConsumedMat> consumes, List<ProducedItem> produces) {
 
 		public ActivityInfo(Type type, ACTIVITY_TYPE activity, List<Material> mats, List<Product> prods) {
-			this(type.getId(), type.getName(), activity,
+			this(type.getId(), type.name(), activity,
 					mats.stream().map(ConsumedMat::new).toList(),
 					prods.stream().map(ProducedItem::new).toList());
 		}

@@ -64,11 +64,7 @@ public class PriceService extends AFetchedResourceService<Price, Integer, PriceR
 			repo().deleteAllInBatch();
 			saveAll(
 			    Stream.of(prices.getOK()).map(
-			        p -> Price.builder()
-			            .type(idToType.get(p.type_id))
-			            .adjustedPrice(p.adjusted_price)
-			            .averagePrice(p.average_price)
-			            .build())
+			        p -> Price.of(idToType.get(p.type_id), p.adjusted_price, p.average_price))
 			        .toList());
 			lastEtag = prices.getETag();
 			setNextUpdate(prices.getExpiresInstant());

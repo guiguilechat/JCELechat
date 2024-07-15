@@ -96,6 +96,13 @@ public class Station extends ARemoteResource<Integer, R_get_universe_stations_st
 	@Enumerated(EnumType.STRING)
 	private Set<get_universe_stations_station_id_services> services = new HashSet<>();
 
+	public String name() {
+		if (name != null) {
+			return name;
+		}
+		return "station:" + getId();
+	}
+
 	@Override
 	public void update(R_get_universe_stations_station_id data) {
 		setMaxDockableShipVolume(data.max_dockable_ship_volume);

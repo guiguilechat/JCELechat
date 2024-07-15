@@ -260,14 +260,14 @@ public class PlanetEvalService {
 		FactoryEval ret = new FactoryEval(pf, params);
 		ConsumeProduct prod = pf.production(params.getHours());
 		ret.setLinkedMats(prod.materials().entrySet().stream()
-				.sorted(Comparator.comparing(e -> e.getKey().getName()))
+		    .sorted(Comparator.comparing(e -> e.getKey().name()))
 				.map(e -> dogmaHtmlController.linkedMaterial(e.getKey(), e.getValue().intValue() * params.getNbPlanets()))
 				.toList());
 		ret.setMaterialsById(
 				prod.materials().entrySet().stream()
 		        .collect(Collectors.toMap(e -> e.getKey().getId(), e -> e.getValue() * params.getNbPlanets())));
 		ret.setLinkedProd(prod.product().entrySet().stream()
-				.sorted(Comparator.comparing(e -> e.getKey().getName()))
+		    .sorted(Comparator.comparing(e -> e.getKey().name()))
 				.map(e -> dogmaHtmlController.linkedMaterial(e.getKey(), e.getValue().intValue() * params.getNbPlanets()))
 				.toList());
 		ret.setProductById(

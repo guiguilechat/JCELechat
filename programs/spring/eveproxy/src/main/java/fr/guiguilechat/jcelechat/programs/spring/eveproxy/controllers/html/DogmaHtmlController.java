@@ -177,7 +177,7 @@ public class DogmaHtmlController {
 		List<Type> types = typeService.typesFilter(typeFiltering, typeFilter);
 		if (types.size() == 1) {
 			Type t = types.get(0);
-			model.addAttribute("name", t.getName());
+			model.addAttribute("name", t.name());
 			model.addAttribute("group", t.getGroup());
 			model.addAttribute("groupUrl", uri(t.getGroup()).toString());
 			model.addAttribute("category", t.getGroup().getCategory());
@@ -197,24 +197,24 @@ public class DogmaHtmlController {
 
 			List<LinkedProduct> manufProd = productService.findProducts(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
 					.map(this::linkedProduct)
-					.sorted(Comparator.comparing(u -> u.type().getName()))
+			    .sorted(Comparator.comparing(u -> u.type().name()))
 					.toList();
 			model.addAttribute("manufacturingProd", manufProd);
 			List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.manufacturing)
 			    .stream()
 					.map(this::linkedMaterial)
-					.sorted(Comparator.comparing(u -> u.type().getName()))
+			    .sorted(Comparator.comparing(u -> u.type().name()))
 					.toList();
 			model.addAttribute("manufacturingMats", manufMats);
 			model.addAttribute("reactionProd",
 			    productService.findProducts(t.getId(), ACTIVITY_TYPE.reaction).stream()
 							.map(this::linkedProduct)
-							.sorted(Comparator.comparing(u -> u.type().getName()))
+			        .sorted(Comparator.comparing(u -> u.type().name()))
 							.toList());
 			model.addAttribute("reactionMats",
 			    materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.reaction).stream()
 							.map(this::linkedMaterial)
-							.sorted(Comparator.comparing(u -> u.type().getName()))
+			        .sorted(Comparator.comparing(u -> u.type().name()))
 							.toList());
 			model.addAttribute("seeded",
 			    marketLineService.seedLocations(t.getId()).stream()
@@ -223,7 +223,7 @@ public class DogmaHtmlController {
 			List<LinkedActivity> productOf = productService
 			    .findProducers(List.of(t.getId()), List.of(ACTIVITY_TYPE.values())).stream()
 					.map(this::linkedActivity)
-					.sorted(Comparator.comparing(u -> u.type().getName()))
+			    .sorted(Comparator.comparing(u -> u.type().name()))
 					.toList();
 			model.addAttribute("productOf", productOf);
 			List<LinkedLPOffer> offers =
@@ -235,12 +235,12 @@ public class DogmaHtmlController {
 			model.addAttribute("manufacturingUses",
 			    materialService.findUsages(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
 							.map(this::linkedUsage)
-							.sorted(Comparator.comparing(u -> u.type().getName()))
+			        .sorted(Comparator.comparing(u -> u.type().name()))
 							.toList());
 			model.addAttribute("reactionUses",
 			    materialService.findUsages(t.getId(), ACTIVITY_TYPE.reaction).stream()
 							.map(this::linkedUsage)
-							.sorted(Comparator.comparing(u -> u.type().getName()))
+			        .sorted(Comparator.comparing(u -> u.type().name()))
 							.toList());
 
 			model.addAttribute("adjusted", priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue());
@@ -328,7 +328,7 @@ public class DogmaHtmlController {
 		}
 
 		model.addAttribute("types", typeService.byGroupId(groupId).stream()
-				.sorted(Comparator.comparing(Type::getName))
+		    .sorted(Comparator.comparing(Type::name))
 				.map(this::linkedType)
 				.toList());
 

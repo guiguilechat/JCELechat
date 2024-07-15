@@ -48,7 +48,7 @@ public class MarketHtmlController {
 		if (oType.isPresent()) {
 			Type type = oType.get();
 			model.addAttribute("typeUrl", dogmaHtmlController.uri(type).toString());
-			model.addAttribute("name", type.getName());
+			model.addAttribute("name", type.name());
 		} else {
 			model.addAttribute("name",  "unknown" + typeId);
 		}
@@ -74,7 +74,7 @@ public class MarketHtmlController {
 	}
 
 	public LinkedMarketType linkedMarketType(Type type) {
-		return new LinkedMarketType(type.getName(), uri(type).toString());
+		return new LinkedMarketType(type.name(), uri(type).toString());
 	}
 
 

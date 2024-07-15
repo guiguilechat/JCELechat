@@ -61,7 +61,7 @@ public class CuratedP4FromP2 implements PlanetaryFactory {
 
 	@Override
 	public String name() {
-		return "" + NB_P4F + "×" + product.getName() + " from P2";
+		return "" + NB_P4F + "×" + product.name() + " from P2";
 	}
 
 	@Override

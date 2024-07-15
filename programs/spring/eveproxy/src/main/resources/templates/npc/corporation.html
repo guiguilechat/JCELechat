@@ -49,14 +49,14 @@
 									th:value="${params.lp}" /></td>
 								<td><select name="materialSourcing">
 										<option
-											th:each="strat : ${T(fr.guiguilechat.jcelechat.libs.spring.market.strategies.MaterialSourcing).values()}"
+											th:each="strat : ${T(fr.guiguilechat.jcelechat.libs.spring.trade.tools.MaterialSourcing).values()}"
 											th:value="${strat}"
 											th:selected="${params.materialSourcing==strat}"
 											th:text="${strat.explain}" />
 								</select></td>
 								<td><select name="productValuator">
 										<option
-											th:each="strat : ${T(fr.guiguilechat.jcelechat.libs.spring.market.strategies.ProductValuator).values()}"
+											th:each="strat : ${T(fr.guiguilechat.jcelechat.libs.spring.trade.tools.ProductValuator).values()}"
 											th:value="${strat}"
 											th:selected="${params.productValuator==strat}"
 											th:text="${strat.explain}" />

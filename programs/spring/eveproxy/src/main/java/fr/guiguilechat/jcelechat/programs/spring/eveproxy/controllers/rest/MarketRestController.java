@@ -295,7 +295,7 @@ public class MarketRestController {
 			if (gains.isEmpty()) {
 				continue;
 			}
-			XYSeries series = new XYSeries(type.getName());
+			XYSeries series = new XYSeries(type.name());
 			for (OfferStat ss : gains) {
 				series.add(new XYDataItem(ss.cumulQtty(), ss.cumulValue() / 1000000));
 			}

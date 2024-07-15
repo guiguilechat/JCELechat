@@ -11,6 +11,15 @@
 	<artifactId>eveproxy</artifactId>
 	<name>Eve Proxy</name>
 	<description>Spring proxy on Eve data</description>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.yaml</groupId>
+				<artifactId>snakeyaml</artifactId>
+				<version>2.2</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	<dependencies>
 		<!-- own dependencies -->
 		<dependency>

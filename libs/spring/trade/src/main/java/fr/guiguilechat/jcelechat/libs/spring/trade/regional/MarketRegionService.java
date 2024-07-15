@@ -91,13 +91,13 @@ public class MarketRegionService
 	    Map<Integer, SolarSystem> idToSolarSystem,
 	    Map<Integer, Type> idToType) {
 		marketLineService.clearRegion(region);
-		log.trace("cleared old orders for region id {}", region.getId());
+		log.trace("removed all orders for region id {}", region.getId());
 		List<MarketLine> newOrders = marketLineService.saveAll(
 		    Stream.of(orders)
 		        .map(order -> MarketLine.of(order, region, idToSolarSystem.get(order.system_id),
 		            idToType.get(order.type_id)))
 		        .toList());
-		log.trace("saved {} new orders for region id {}", newOrders.size(), region.getId());
+		log.trace(" saved {} orders for region id {}", newOrders.size(), region.getId());
 	}
 
 	@Override

@@ -132,6 +132,8 @@ public class LPOfferEvalService {
 		Offer offer = lco.getOffer();
 		long offerQuantity = (long) Math.floor(1.0 * maxLpAmount / offer.getLpCost());
 		if (offerQuantity < 1) {
+			log.trace("offer {} has offerquantiy {} from maxLPAmount {} and LpCost {}", lco.getOffer().name(), offerQuantity,
+			    maxLpAmount, offer.getLpCost());
 			return null;
 		}
 		double tediousCost = 0.0;

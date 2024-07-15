@@ -109,6 +109,13 @@ public class Type extends ARemoteResource<Integer, R_get_universe_types_type_id>
 	 */
 	private float volume;
 
+	public String name() {
+		if (name != null) {
+			return name;
+		}
+		return "type:" + getId();
+	}
+
 	@Override
 	public void update(R_get_universe_types_type_id data) {
 		setCapacity(data.capacity);

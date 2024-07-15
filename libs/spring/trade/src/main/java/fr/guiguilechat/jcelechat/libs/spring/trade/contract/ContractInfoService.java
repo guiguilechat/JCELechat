@@ -93,7 +93,12 @@ public class ContractInfoService extends ARemoteResourceService<
 		default:
 			super.updateRequestError(data, response);
 		}
+	}
 
+	@Override
+	protected void updateNullBody(ContractInfo data, Requested<R_get_contracts_public_items_contract_id[]> response) {
+		// do nothing, it means there is no item in the contract.
+		updateMetaOk(data, response);
 	}
 
 	//

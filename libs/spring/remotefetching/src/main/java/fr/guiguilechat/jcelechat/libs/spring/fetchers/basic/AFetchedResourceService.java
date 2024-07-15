@@ -161,11 +161,17 @@ public abstract class AFetchedResourceService<
 	/**
 	 * defaults to update cycle time. Set it in {@link #fetchUpdate()}
 	 */
+	@Getter(AccessLevel.PROTECTED)
 	@Setter(AccessLevel.PROTECTED)
 	private Instant nextUpdate = null;
 
-	/** stored here to avoid counting when delay not reached */
-	private boolean lastMoreToUpdate = true;
+	/**
+	 * stored here to avoid counting when delay not reached. set after at least one
+	 * element has been updated
+	 */
+	@Getter(AccessLevel.PROTECTED)
+	@Setter(AccessLevel.PROTECTED)
+	private boolean moreToUpdate = true;
 
 	/**
 	 * request to fetch the resources that need it.
@@ -186,7 +192,7 @@ public abstract class AFetchedResourceService<
 	public boolean fetch() {
 		// skip if delay not met
 		if (nextUpdate != null && nextUpdate.isAfter(Instant.now())) {
-			return lastMoreToUpdate;
+			return moreToUpdate;
 		}
 
 		preUpdate();
@@ -194,18 +200,8 @@ public abstract class AFetchedResourceService<
 			postUpdate();
 		}
 
-		long nbToUpdate = nbToUpdate();
-		// create delay to next
-		int delay = Math.max(getUpdate().getDelay(), 0);
-		if (getUpdate().getDelayUpdated() > delay && nbToUpdate == 0) {
-			delay = getUpdate().getDelayUpdated();
-			log.debug(" {} no more data to update({}), extended delay {}s", fetcherName(), nbToUpdate, delay);
-		}
-		if (nextUpdate == null || nextUpdate.isBefore(Instant.now())) {
-		nextUpdate = Instant.now().plusSeconds(delay);
-		}
-		lastMoreToUpdate = nbToUpdate > 0;
-		return lastMoreToUpdate;
+		onRemainToUpdate(nbToUpdate());
+		return moreToUpdate;
 	}
 
 
@@ -307,6 +303,19 @@ public abstract class AFetchedResourceService<
 			eul.getCacheList().stream().forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 			eul.onUpdate();
 		});
+	}
+
+	// ** called after the update to apply how many items remain to udpate*/
+	protected void onRemainToUpdate(long remainToUpdate) {
+		int delay = Math.max(getUpdate().getDelay(), 0);
+		if (getUpdate().getDelayUpdated() > delay && remainToUpdate == 0) {
+			delay = getUpdate().getDelayUpdated();
+			log.debug(" {} no more data to update({}), extended delay {}s", fetcherName(), remainToUpdate, delay);
+		}
+		if (nextUpdate == null || nextUpdate.isBefore(Instant.now())) {
+			nextUpdate = Instant.now().plusSeconds(delay);
+		}
+		moreToUpdate = remainToUpdate > 0;
 	}
 
 	//

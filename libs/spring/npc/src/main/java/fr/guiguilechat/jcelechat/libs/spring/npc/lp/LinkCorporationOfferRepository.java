@@ -18,6 +18,6 @@ public interface LinkCorporationOfferRepository extends JpaRepository<LinkCorpor
 
 	List<LinkCorporationOffer> findAllByOfferTypeOrderByCorporationNameAscOfferIdAsc(Type type);
 
-	List<LinkCorporationOffer> findAllByObservedIdAndOfferLpCostGreaterThanOrderByOfferIdAsc(
+	List<LinkCorporationOffer> findAllByObservedIdAndOfferLpCostLessThanEqualOrderByOfferIdAsc(
 	    int observedId, int nbLp);
 }

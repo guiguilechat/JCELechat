@@ -1,0 +1,84 @@
+esi:
+   items:
+      attribute:
+         update:
+            skip: true
+      effect:
+         update:
+            skip: true
+      type:
+         update:
+            skip: false
+   trade:
+      contract:
+         info:
+            update:
+               skip: false
+         region:
+            list:
+               init: 10000002
+               skip: false
+            update:
+               skip: false
+      history:
+         update:
+            skip: true
+      market:
+         list:
+            init: 10000002
+            skip: false
+         update:
+            skip: true
+   universe:
+      moon:
+         update:
+            skip: true
+      planet:
+         update:
+            skip: true
+      solarSystem:
+         asteroidbelts: false
+         planets: false
+         moons: false
+         update:
+            skip: false
+         list:
+            skip: true
+   updater:
+      default:
+         skip: true
+      delay: 0
+      period: 2000
+      skip: false
+
+logging:
+   level:
+      fr:
+         guiguilechat:
+            jcelechat:
+               jcesi: INFO
+               libs:
+                  spring:
+                     fetchers: debug
+                     trade: info
+               programs:
+                  spring:
+                     eveproxy: trace
+
+mer:
+   update:
+      skip: true
+
+sde:
+   update:
+      skip: false
+
+spring:
+   cache:
+      type: simple
+   datasource:
+      hikari: validationTimeout:300000 # 5min timeout for access local h2 DB
+      password: admin
+      url: jdbc:h2:./db/eveproxy
+      username: admin
+#debug: true

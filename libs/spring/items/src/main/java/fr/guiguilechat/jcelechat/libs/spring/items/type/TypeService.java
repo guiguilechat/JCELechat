@@ -246,11 +246,11 @@ public class TypeService
 	}
 
 	public Type prevType(Type type) {
-		return repo().findTop1ByGroupAndNameLessThanOrderByNameDesc(type.getGroup(), type.getName());
+		return repo().findTop1ByGroupAndNameLessThanOrderByNameDesc(type.getGroup(), type.name());
 	}
 
 	public Type nextType(Type type) {
-		return repo().findTop1ByGroupAndNameGreaterThanOrderByNameAsc(type.getGroup(), type.getName());
+		return repo().findTop1ByGroupAndNameGreaterThanOrderByNameAsc(type.getGroup(), type.name());
 	}
 
 	static final Pattern ENTRYNAME_TYPES_PATTERN = Pattern.compile(

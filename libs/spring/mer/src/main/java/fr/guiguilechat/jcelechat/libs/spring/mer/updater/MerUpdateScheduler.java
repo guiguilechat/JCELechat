@@ -25,16 +25,16 @@ public class MerUpdateScheduler {
 
 	final private MerUpdateService merUpdateService;
 
-	@Value("${mer.updater.fetchsize:10}")
+	@Value("${mer.update.max:10}")
 	private int maxFetches;
 
-	@Value("${mer.updater.skip:false}")
+	@Value("${mer.update.skip:false}")
 	private boolean skip;
 
-	@Value("${mer.updater.timeoutsec:300}")
+	@Value("${mer.update.timeoutsec:300}")
 	private int timeout_seconds;
 
-	@Scheduled(fixedRateString = "${mer.updater.fetchperiod:600000}", initialDelayString = "${mer.updater.fetchdelay:20000}")
+	@Scheduled(fixedRateString = "${mer.update.delayms:600000}", initialDelayString = "${mer.updater.waitms:20000}")
 	public void updateMers() {
 		if (skip) {
 			return;

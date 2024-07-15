@@ -48,7 +48,7 @@ public class LinkCorporationOfferService {
 	}
 
 	public List<LinkCorporationOffer> byObservedIdRequiringLp(int observedId, int lpQuantity) {
-		return repo().findAllByObservedIdAndOfferLpCostGreaterThanOrderByOfferIdAsc(observedId, lpQuantity);
+		return repo().findAllByObservedIdAndOfferLpCostLessThanEqualOrderByOfferIdAsc(observedId, lpQuantity);
 	}
 
 }

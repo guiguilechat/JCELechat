@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.Collectors;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
@@ -58,10 +59,24 @@ public class HistoryReqService
 	}
 
 	@Override
-	protected void preUpdate() {
-		Map<Long, HistoryReq> required = createIfAbsent(
-		    marketLineService.listRegionIdTypeId().stream().map(arr -> HistoryReq.makeId(arr[0], arr[1])).toList());
-		log.debug("require {} history entries to observe", required.size());
+	protected void onRemainToUpdate(long remainToUpdate) {
+		super.onRemainToUpdate(remainToUpdate);
+		if (isMoreToUpdate()) {
+			Map<Integer, List<Integer[]>> regionIdToRegionType = marketLineService.listRegionIdTypeId().stream()
+			    .collect(Collectors.groupingBy(arr -> arr[0]));
+			for (Entry<Integer, List<Integer[]>> e : regionIdToRegionType.entrySet()) {
+				int regionId = e.getKey();
+				List<Long> typeIds = e.getValue().stream().map(arr -> HistoryReq.makeId(arr[0], arr[1])).toList();
+				log.debug("require {} history entries to observe in region {}", typeIds.size(), regionId);
+				createIfAbsent(typeIds);
+			}
+			// Map<Long, HistoryReq> required = createIfAbsent(
+			// marketLineService.listRegionIdTypeId().stream().map(arr ->
+			// HistoryReq.makeId(arr[0], arr[1])).toList());
+			// log.debug("require {} history entries to observe", required.size());
+
+			setMoreToUpdate(nbToUpdate() > 0);
+		}
 	}
 
 	@Override

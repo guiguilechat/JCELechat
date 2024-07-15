@@ -48,11 +48,8 @@ public class Offer {
 	public static Offer of(R_get_loyalty_stores_corporation_id_offers offer) {
 		return builder()
 		    .id(offer.offer_id)
-		    .akCost(offer.ak_cost)
-		    .iskCost(offer.isk_cost)
-		    .lpCost(offer.lp_cost)
-		    .quantity(offer.quantity)
-		    .build();
+		    .build()
+		    .update(offer);
 	}
 
 	public String name() {
@@ -60,11 +57,12 @@ public class Offer {
 		    + (getQuantity() > 1 ? getQuantity() + "×" : "") + type.getName();
 	}
 
-	public void update(R_get_loyalty_stores_corporation_id_offers co) {
+	public Offer update(R_get_loyalty_stores_corporation_id_offers co) {
 		akCost = co.ak_cost;
 		iskCost = co.isk_cost;
 		lpCost = co.lp_cost;
 		quantity = co.quantity;
+		return this;
 	}
 
 }

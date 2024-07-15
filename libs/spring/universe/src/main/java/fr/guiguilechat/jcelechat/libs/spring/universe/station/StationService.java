@@ -68,7 +68,7 @@ public class StationService extends
 	}
 
 	public Map<Integer, String> namesById() {
-		return repo().findAll().stream().collect(Collectors.toMap(Station::getId, Station::getName));
+		return repo().findAll().stream().collect(Collectors.toMap(Station::getId, Station::name));
 	}
 
 }

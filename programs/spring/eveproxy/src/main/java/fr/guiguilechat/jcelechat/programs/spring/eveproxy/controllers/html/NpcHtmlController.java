@@ -28,7 +28,9 @@ import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalSe
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService.EvalParams;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService.LPOfferEval;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Controller
 @RequestMapping("/html/npc")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
@@ -73,7 +75,7 @@ public class NpcHtmlController {
 	public static record LinkedLPOffer(String url, LinkCorporationOffer offer) {
 		public String name() {
 			Offer off = offer.getOffer();
-			return off.getType().getName() + (off.getQuantity() > 1 ? "×" + off.getQuantity() : "");
+			return off.getType().name() + (off.getQuantity() > 1 ? "×" + off.getQuantity() : "");
 		}
 	}
 
@@ -86,7 +88,7 @@ public class NpcHtmlController {
 
 		public String name() {
 			return (eval.getOffer().getQuantity() > 1 ? eval.getOffer().getQuantity() + "×" : "")
-					+ eval.getProduct().getName();
+			    + eval.getProduct().name();
 		}
 	}
 
@@ -97,7 +99,7 @@ public class NpcHtmlController {
 				dogmaHtmlController.linkedType(eval.getFinalProduct()),
 				eval.getMaterialsByTypeId().entrySet().stream()
 						.map(e -> dogmaHtmlController.linkedMaterial(e.getKey(), e.getValue()))
-						.sorted(Comparator.comparing(lm -> lm.type().getName()))
+		        .sorted(Comparator.comparing(lm -> lm.type().name()))
 						.toList());
 	}
 
@@ -124,15 +126,17 @@ public class NpcHtmlController {
 
 		List<LinkCorporationOffer> offers = linkCorporationOfferService.byObservedIdRequiringLp(corporationId,
 		    params.getLp());
+		List<LinkedLPOfferEval> linked = offerValueService
+		    .value(offers, params.getLp(), params.getMaterialSourcing(), params.getProductValuator(),
+		        params.getBrpct(),
+		        params.getTaxpct(), params.getMargin(), params.getMarginPerHour(), params.getBpcost(), params.getLocation())
+		    .stream()
+		    .sorted(Comparator.comparing(LPOfferEval::getIskplp).reversed())
+		    .map(this::linkedLPOfferEval)
+		    .toList();
+		log.trace("having {} offers into {} linked", offers.size(), linked.size());
 
-		model.addAttribute("offers",
-				offerValueService.value(offers, params.getLp(), params.getMaterialSourcing(), params.getProductValuator(),
-						params.getBrpct(),
-						params.getTaxpct(), params.getMargin(), params.getMarginPerHour(), params.getBpcost(), params.getLocation())
-						.stream()
-						.sorted(Comparator.comparing(LPOfferEval::getIskplp).reversed())
-						.map(this::linkedLPOfferEval)
-						.toList());
+		model.addAttribute("offers", linked);
 
 		model.addAttribute("params", params);
 

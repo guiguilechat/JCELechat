@@ -27,4 +27,10 @@ public class Price extends AFetchedResource<Integer> {
 
 	private double averagePrice;
 
+	public static Price of(Type type, double adjustedPrice, double averagePrice) {
+		Price ret = new Price(type, adjustedPrice, averagePrice);
+		ret.setId(type.getId());
+		return ret;
+	}
+
 }
