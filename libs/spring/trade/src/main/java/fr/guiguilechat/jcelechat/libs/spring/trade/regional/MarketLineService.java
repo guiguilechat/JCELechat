@@ -26,7 +26,6 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.trade.market.line")
 public class MarketLineService implements MarketRegionListener {
 
-	@Lazy
 	final private MarketLineRepository repo;
 
 	public MarketLine save(MarketLine entity) {
@@ -39,6 +38,13 @@ public class MarketLineService implements MarketRegionListener {
 
 	public void clearRegion(MarketRegion region) {
 		repo.deleteByFetchResourceIn(List.of(region));
+	}
+
+	// usage
+
+	public List<Integer[]> listRegionIdTypeId() {
+		return repo.findAllRegionTypeCouple().stream()
+		    .map(arr -> new Integer[] { ((Number) arr[0]).intValue(), ((Number) arr[1]).intValue() }).toList();
 	}
 
 	//

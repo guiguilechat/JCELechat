@@ -10,6 +10,9 @@ esi:
                skip: true
             update:
                skip: false
+      history:
+         update:
+            skip: false
       market:
          list:
             init: 10000002

@@ -25,6 +25,7 @@ import lombok.Setter;
 @Table(name = "esi_trade_market_line", indexes = {
     @Index(columnList = "fetch_resource_id"),
 		@Index(columnList = "locationId"),
+    @Index(columnList = "solarSystemId"),
 		@Index(columnList = "typeId, isBuyOrder")
 })
 @AllArgsConstructor

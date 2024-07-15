@@ -1,10 +1,12 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade2.history;
+package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.springframework.stereotype.Service;
@@ -18,19 +20,20 @@ public class HistoryLineService {
 	final private HistoryLineRepository repo;
 
 	public List<HistoryLine> saveAll(Iterable<HistoryLine> entities) {
-		return repo.saveAll(entities);
+		return repo.saveAllAndFlush(entities);
 	}
 
 	public HistoryLine save(HistoryLine entity) {
-		return repo.save(entity);
-	}
-
-	public void clearFor(HistoryReq req) {
-		repo.deleteByHistoryReq(req);
+		return repo.saveAndFlush(entity);
 	}
 
 	public List<HistoryLine> byRegionType(int regionId, int typeId) {
-		return repo.findByHistoryReqRegionIdAndHistoryReqTypeId(regionId, typeId);
+		return repo.findByFetchResourceRegionIdAndFetchResourceTypeId(regionId, typeId);
+	}
+
+	public Map<HistoryReq, Instant> findLastFetched(Iterable<HistoryReq> reqs) {
+		return repo.findLastByReqIn(reqs).stream()
+		    .collect(Collectors.toMap(arr -> (HistoryReq) arr[0], arr -> (Instant) arr[1]));
 	}
 
 	//

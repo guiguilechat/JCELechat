@@ -25,7 +25,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.info")
-@Order(4) // depends on contract region, type for the items
+@Order(4) // depends on type for the items
 public class ContractInfoService extends ARemoteResourceService<
     ContractInfo,
     Integer,

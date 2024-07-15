@@ -1,7 +1,11 @@
 package fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -19,6 +23,9 @@ import lombok.Setter;
 @Setter
 public abstract class AFetchedList<Id extends Number, Fetched, RecordType extends AFetchedListElement<?, ?>>
     extends ARemoteResource<Id, Fetched[]> {
+
+	@OneToMany(mappedBy = "fetchResource")
+	private List<RecordType> elements = new ArrayList<>();
 
 	@Override
 	public void update(Fetched[] data) {

@@ -1,37 +1,32 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade2.history;
+package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import jakarta.persistence.Index;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@Entity(name = "EsiMarketHistoryLine")
-@Table(name = "esi_market_historyline", indexes = { @Index(columnList = "history_req_id") })
-@Data
-@Builder
-@RequiredArgsConstructor
+@Entity(name = "EsiTradeHistoryLine")
+@Table(name = "esi_trade_historyline", indexes = {
+    @Index(columnList = "fetch_resource_id"),
+    @Index(columnList = "date"),
+})
 @AllArgsConstructor
-public class HistoryLine {
-
-	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	private Long id;
-
-	@ManyToOne
-	private HistoryReq historyReq;
+@NoArgsConstructor
+@Builder
+@Getter
+@Setter
+public class HistoryLine extends AFetchedListElement<HistoryLine, HistoryReq> {
 
 	/**
 	 * average number
@@ -57,16 +52,21 @@ public class HistoryLine {
 	private long volume;
 
 	public static HistoryLine of(HistoryReq req, R_get_markets_region_id_history line) {
-		return builder()
-				.historyReq(req)
+		HistoryLine ret = builder()
 				.average(line.average)
-				.date(DateTimeFormatter.ISO_DATE.parse(line.date, LocalDate::from).atStartOfDay()
-						.toInstant(ZoneOffset.UTC))
+		    .date(dateInstant(line.date))
 				.highest(line.highest)
 				.lowest(line.lowest)
 				.orderCount(line.order_count)
 				.volume(line.volume)
 				.build();
+		ret.setFetchResource(req);
+		return ret;
+	}
+
+	static Instant dateInstant(String date) {
+		return DateTimeFormatter.ISO_DATE.parse(date, LocalDate::from).atStartOfDay()
+		    .toInstant(ZoneOffset.UTC);
 	}
 
 }

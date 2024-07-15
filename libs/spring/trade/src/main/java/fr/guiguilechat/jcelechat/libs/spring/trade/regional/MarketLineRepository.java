@@ -117,4 +117,16 @@ order by
 """)
 	public List<Object[]> findBuyOfferLocations(int typeid);
 
+	@Query(""" 
+select
+	fetchResource.id,
+	type.id
+from
+	EsiTradeMarketLine
+group by
+	fetchResource.id,
+	type.id
+""")
+	public List<Object[]> findAllRegionTypeCouple();
+
 }

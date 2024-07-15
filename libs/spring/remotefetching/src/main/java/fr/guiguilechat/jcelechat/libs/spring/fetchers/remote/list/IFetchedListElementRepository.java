@@ -23,13 +23,11 @@ public interface IFetchedListElementRepository<
 
 		/**
 		 * MUST be overriden in sub classes (just change to the actual entity name)
-		 * 
-		 * @param ids
 		 */
 		@Modifying
 		@Query("delete from EntityName where fetchResource.id in :ids")
 		void deleteByFetchResourceIdIn(Iterable<? extends Number> ids);
 
-	public List<ListElement> findAllByFetchResourceId(int id);
+		public List<ListElement> findAllByFetchResourceId(int id);
 
 }

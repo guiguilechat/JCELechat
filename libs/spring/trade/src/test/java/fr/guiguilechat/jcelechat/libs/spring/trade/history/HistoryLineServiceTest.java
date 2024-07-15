@@ -6,7 +6,7 @@ import java.time.temporal.ChronoUnit;
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade2.history.HistoryLineService.WeightStrategy;
+import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
 
 public class HistoryLineServiceTest {
 
