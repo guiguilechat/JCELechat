@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# stop and purge the local dev container
-
-docker compose -f docker/docker-compose.yml stop

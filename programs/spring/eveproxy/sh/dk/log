@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# shows logs of the tomcat container
-
-reset\
-&& docker logs -f eveproxy-tomcat

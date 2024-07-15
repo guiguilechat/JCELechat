@@ -1,0 +1,68 @@
+#!/bin/bash
+
+CONTAINER=eveproxy-h2-server
+FILE=docker/compose/eveproxy-h2.yml
+ACTION=STATUS
+
+show_usage(){
+	echo usage : $0 ACTION [TARGET]
+	echo " ACTION : [start|stop|reset|log|help] or shorthands [u|d|rl|l|h]"
+	echo " TARGET : [h2|pg] default h2"
+	exit ${1:-0};
+}
+
+if [ "$#" -eq 0 ]; then
+  show_usage
+fi
+
+for arg in "$@"
+do
+	case $arg in
+		h2)
+			CONTAINER=eveproxy-h2-server
+			FILE=docker/compose/eveproxy-h2.yml
+		;;
+		pg | postgres)
+			CONTAINER=eveproxy-postgres-server
+			FILE=docker/compose/eveproxy-postgresql.yml
+		;;
+		start | up | u)
+			ACTION=start
+		;;
+		stop | down | d)
+			ACTION=stop
+		;;
+		reset | rl )
+			ACTION=rl
+		;;
+		log | logs | l)
+			ACTION=log
+		;;
+		help | h)
+			ACTION=help
+		;;
+		*)
+			show_usage 1
+		;;
+	esac
+done
+
+case $ACTION in
+	start)
+		docker compose -f "$FILE" up -d
+	;;
+	stop)
+		docker compose -f "$FILE" down --rmi local -v
+	;;
+	log)
+		docker logs -f "$CONTAINER"
+	;;
+	rl)
+		docker compose -f "$FILE" down --rmi local -v
+		docker compose -f "$FILE" up -d
+		docker logs -f "$CONTAINER"
+	;;
+	help)
+		show_usage
+	;;
+esac

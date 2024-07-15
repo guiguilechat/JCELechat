@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+   database:
+      container_name: eveproxy-postgres-db
+      image: postgres:16.0-alpine
+      environment:
+      - POSTGRES_USER=eveproxy
+      - POSTGRES_PASSWORD=eveproxy
+      ports:
+      - 45432:5432
+      restart: unless-stopped
+      shm_size: '512mb'# actually MB
+   server:
+      container_name: eveproxy-postgres-server
+      depends_on:
+      - database
+      image: glechat/eveproxy:latest
+      environment:
+      - SPRING_DATASOURCE_PASSWORD=eveproxy
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://database:5432/eveproxy?reWriteBatchedInserts=true
+      - SPRING_DATASOURCE_USERNAME=eveproxy
+# use memory cache
+      - SPRING_CACHE_TYPE=simple
+# disable fetching of moons and asteroid belts
+      - esi_universe_solarsystem_asteroidbelts=false
+      - esi_universe_solarsystem_planets=false
+      - esi_universe_solarsystem_moons=false
+      ports:
+      - 48080:8080
+      restart: unless-stopped
+      deploy:
+         resources:
+            limits:
+               memory: 2000M

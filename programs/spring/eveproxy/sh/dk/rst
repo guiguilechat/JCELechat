@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# stop, purge and restart the local dev containers.
-
-docker compose -f docker/docker-compose.yml down
-docker compose -f docker/docker-compose.yml up -d --build --pull always --remove-orphans

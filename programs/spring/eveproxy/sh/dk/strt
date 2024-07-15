@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# create and start a local dev container. You need to deploy the war.
-
-docker compose -f docker/docker-compose.yml up -d --build --pull always --remove-orphans
