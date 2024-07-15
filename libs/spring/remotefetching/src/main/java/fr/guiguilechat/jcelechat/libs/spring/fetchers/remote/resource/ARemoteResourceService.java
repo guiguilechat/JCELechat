@@ -133,7 +133,9 @@ public abstract class ARemoteResourceService<
 	 * corresponding (meta) values.
 	 * 
 	 * @param entities
-	 * @return The map of successful fetch, from the entitiy to the fetch result
+	 * @return The map of successful fetch, from the entitiy to the fetch result .
+	 *           Also contains entity mapped to null so that they are still saved,
+	 *           but not processed
 	 */
 	protected Map<Entity, Fetched> fetchData(List<Entity> entities) {
 		Map<Entity, Future<Requested<Fetched>>> dataToFuture = entities.stream()
@@ -161,7 +163,7 @@ public abstract class ARemoteResourceService<
 				responseOk.put(data, response.getOK());
 				break;
 			case 204: // no content => null
-				updateMetaOk(data, response);
+				updateNullBody(data, response);
 				responseOk.put(data, null);
 				break;
 			case 304:
@@ -281,16 +283,19 @@ public abstract class ARemoteResourceService<
 	}
 
 	/**
-	 * Called when the request returned a 4xx
+	 * Called when the request returned a 4xx .
+	 * default implementation is to wait 12 hours per incremental error (limited to
+	 * 48) on 401
+	 * (banned), or 1 hour per incremental error (limited to 24) on other 4xx
 	 */
 	protected void updateRequestError(Entity data, Requested<Fetched> response) {
 		int nbErrors = data.increaseSuccessiveErrors();
 		switch (response.getResponseCode()) {
 		case 401: // banned. Wait a day
-			data.setExpires(Instant.now().plus(nbErrors * 12, ChronoUnit.HOURS));
+			data.setExpires(Instant.now().plus(Math.min(nbErrors * 12, 48), ChronoUnit.HOURS));
 			return;
 		default:
-			data.setExpires(Instant.now().plus(nbErrors, ChronoUnit.HOURS));
+			data.setExpires(Instant.now().plus(Math.min(nbErrors, 24), ChronoUnit.HOURS));
 		}
 
 	}
@@ -302,11 +307,25 @@ public abstract class ARemoteResourceService<
 		data.setExpires(Instant.now().plus(5, ChronoUnit.MINUTES));
 	}
 
+	/**
+	 * called when fetching given data returned null response
+	 */
 	protected void updateNullResponse(Entity data) {
 		log.warn("received null response when requesting update for {} id={}", data.getClass().getSimpleName(),
 		    data.getId());
 		data.increaseSuccessiveErrors();
 		data.setExpiresInRandom(data.getSuccessiveErrors() * 60);
+	}
+
+	/**
+	 * called when entity received 204 no content. Default implementation is to save
+	 * the meta as OK then log a warning. Since the actual use case in this case
+	 * heavily depends on the underlying updated entity, this method is expected to
+	 * be overriden by services which are likly to call it.
+	 */
+	protected void updateNullBody(Entity data, Requested<Fetched> response) {
+		updateMetaOk(data, response);
+		log.warn("{} received null body (204) for entity {}", fetcherName(), data.getId());
 	}
 
 	//
