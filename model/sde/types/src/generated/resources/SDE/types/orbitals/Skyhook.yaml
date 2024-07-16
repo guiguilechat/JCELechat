@@ -29,6 +29,10 @@ types:
     reinforcementvariance: 10800
     remoteassistanceimpedance: 9.999999747378752E-6
     remoterepairimpedance: 9.999999747378752E-6
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
     sensordampenerresistance: 9.999999747378752E-6
     shieldcapacity: 2400000.0
     shielddamagelimit: 50000000

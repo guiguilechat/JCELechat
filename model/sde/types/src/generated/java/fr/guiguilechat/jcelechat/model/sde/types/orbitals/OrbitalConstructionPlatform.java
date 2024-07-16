@@ -11,7 +11,6 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
@@ -104,34 +103,6 @@ public class OrbitalConstructionPlatform
     @DefaultIntValue(0)
     public int requiredskill1level;
     /**
-     * Gravimetric strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scangravimetricstrength;
-    /**
-     * Ladar strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanladarstrength;
-    /**
-     * Magnetometric strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanmagnetometricstrength;
-    /**
-     * Radar strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanradarstrength;
-    /**
      * Capacity of material bay
      */
     @HighIsGood(true)
@@ -182,22 +153,6 @@ public class OrbitalConstructionPlatform
             case  277 :
             {
                 return requiredskill1level;
-            }
-            case  211 :
-            {
-                return scangravimetricstrength;
-            }
-            case  209 :
-            {
-                return scanladarstrength;
-            }
-            case  210 :
-            {
-                return scanmagnetometricstrength;
-            }
-            case  208 :
-            {
-                return scanradarstrength;
             }
             case  1770 :
             {

@@ -20938,7 +20938,6 @@ usages:
       83594: null
       83643: null
       83644: null
-      83647: null
       83660: null
       83661: null
   38:
@@ -25417,7 +25416,6 @@ usages:
       83642: null
       83643: null
       83644: null
-      83647: null
       83660: null
       83661: null
   39:
@@ -130620,9 +130618,6 @@ usages:
       59301: null
       59302: null
       59303: null
-      80342: null
-      80343: null
-      80344: null
   49099:
     productOfManuf: !!set
       49100: null
@@ -136630,15 +136625,6 @@ usages:
       80007: null
       80008: null
       80009: null
-  80342:
-    reprocessInto:
-      48927: 1.0
-  80343:
-    reprocessInto:
-      48927: 1.0
-  80344:
-    reprocessInto:
-      48927: 1.0
   80449: {}
   81008:
     materialInManuf: !!set
@@ -137566,10 +137552,6 @@ usages:
       38: 6.0
       39: 6.0
       40: 8.0
-  83647:
-    reprocessInto:
-      37: 10.0
-      38: 1.0
   83660:
     productOfManuf: !!set
       83662: null

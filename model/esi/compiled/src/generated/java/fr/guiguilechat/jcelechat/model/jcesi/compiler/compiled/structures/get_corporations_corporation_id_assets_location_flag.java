@@ -87,6 +87,8 @@ public enum get_corporations_corporation_id_assets_location_flag {
     Implant("Implant"),
     @JsonProperty("Impounded")
     Impounded("Impounded"),
+    @JsonProperty("InfrastructureHangar")
+    InfrastructureHangar("InfrastructureHangar"),
     @JsonProperty("JunkyardReprocessed")
     JunkyardReprocessed("JunkyardReprocessed"),
     @JsonProperty("JunkyardTrashed")
@@ -127,6 +129,8 @@ public enum get_corporations_corporation_id_assets_location_flag {
     MedSlot7("MedSlot7"),
     @JsonProperty("MobileDepotHold")
     MobileDepotHold("MobileDepotHold"),
+    @JsonProperty("MoonMaterialBay")
+    MoonMaterialBay("MoonMaterialBay"),
     @JsonProperty("OfficeFolder")
     OfficeFolder("OfficeFolder"),
     @JsonProperty("Pilot")

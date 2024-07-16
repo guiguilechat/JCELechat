@@ -59,6 +59,8 @@ public enum get_characters_character_id_assets_location_flag {
     HiddenModifiers("HiddenModifiers"),
     @JsonProperty("Implant")
     Implant("Implant"),
+    @JsonProperty("InfrastructureHangar")
+    InfrastructureHangar("InfrastructureHangar"),
     @JsonProperty("LoSlot0")
     LoSlot0("LoSlot0"),
     @JsonProperty("LoSlot1")
@@ -95,6 +97,8 @@ public enum get_characters_character_id_assets_location_flag {
     MedSlot7("MedSlot7"),
     @JsonProperty("MobileDepotHold")
     MobileDepotHold("MobileDepotHold"),
+    @JsonProperty("MoonMaterialBay")
+    MoonMaterialBay("MoonMaterialBay"),
     @JsonProperty("QuafeBay")
     QuafeBay("QuafeBay"),
     @JsonProperty("RigSlot0")

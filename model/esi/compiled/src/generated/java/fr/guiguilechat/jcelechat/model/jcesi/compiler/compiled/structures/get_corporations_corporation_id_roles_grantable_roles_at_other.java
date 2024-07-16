@@ -21,6 +21,8 @@ public enum get_corporations_corporation_id_roles_grantable_roles_at_other {
     Accountant("Accountant"),
     @JsonProperty("Auditor")
     Auditor("Auditor"),
+    @JsonProperty("Brand_Manager")
+    Brand_Manager("Brand_Manager"),
     @JsonProperty("Communications_Officer")
     Communications_Officer("Communications_Officer"),
     @JsonProperty("Config_Equipment")
@@ -43,6 +45,12 @@ public enum get_corporations_corporation_id_roles_grantable_roles_at_other {
     Container_Take_7("Container_Take_7"),
     @JsonProperty("Contract_Manager")
     Contract_Manager("Contract_Manager"),
+    @JsonProperty("Deliveries_Container_Take")
+    Deliveries_Container_Take("Deliveries_Container_Take"),
+    @JsonProperty("Deliveries_Query")
+    Deliveries_Query("Deliveries_Query"),
+    @JsonProperty("Deliveries_Take")
+    Deliveries_Take("Deliveries_Take"),
     @JsonProperty("Diplomat")
     Diplomat("Diplomat"),
     @JsonProperty("Director")

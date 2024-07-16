@@ -42029,3 +42029,427 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  84073:
+    id: 84073
+    marketGroup: 2321
+    name: Venture Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84074:
+    id: 84074
+    marketGroup: 2320
+    name: Prospect Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84075:
+    id: 84075
+    marketGroup: 2320
+    name: Endurance Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84076:
+    id: 84076
+    marketGroup: 2319
+    name: Procurer Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84077:
+    id: 84077
+    marketGroup: 2319
+    name: Retriever Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84078:
+    id: 84078
+    marketGroup: 2319
+    name: Covetor Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84079:
+    id: 84079
+    marketGroup: 2338
+    name: Orca Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84080:
+    id: 84080
+    marketGroup: 2318
+    name: Bowhead Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84081:
+    id: 84081
+    marketGroup: 2331
+    name: Primae Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84082:
+    id: 84082
+    marketGroup: 2328
+    name: Noctis Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84083:
+    id: 84083
+    marketGroup: 1969
+    name: Rorqual Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84084:
+    id: 84084
+    marketGroup: 2338
+    name: Porpoise Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84085:
+    id: 84085
+    marketGroup: 2012
+    name: Skiff Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84086:
+    id: 84086
+    marketGroup: 2012
+    name: Mackinaw Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84087:
+    id: 84087
+    marketGroup: 2012
+    name: Hulk Equinox Era SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84099:
+    id: 84099
+    marketGroup: 2069
+    name: Zealot War for the Empire SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84100:
+    id: 84100
+    marketGroup: 2024
+    name: Paladin War for the Empire SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84101:
+    id: 84101
+    marketGroup: 2069
+    name: Sacrilege War for the Empire SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84102:
+    id: 84102
+    marketGroup: 2070
+    name: Cerberus War for the State SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84103:
+    id: 84103
+    marketGroup: 2025
+    name: Golem War for the State SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84104:
+    id: 84104
+    marketGroup: 1957
+    name: Naga War for the State SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84105:
+    id: 84105
+    marketGroup: 2071
+    name: Ishtar War for the Federation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84106:
+    id: 84106
+    marketGroup: 2026
+    name: Kronos War for the Federation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84107:
+    id: 84107
+    marketGroup: 2106
+    name: Eos War for the Federation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84108:
+    id: 84108
+    marketGroup: 2072
+    name: Vagabond War for the Republic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84109:
+    id: 84109
+    marketGroup: 2027
+    name: Vargur War for the Republic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84110:
+    id: 84110
+    marketGroup: 2072
+    name: Muninn War for the Republic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84111:
+    id: 84111
+    marketGroup: 1959
+    name: Tornado War for the Republic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84112:
+    id: 84112
+    marketGroup: 2000
+    name: Magnate Navy Issue Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84113:
+    id: 84113
+    marketGroup: 2103
+    name: Prophecy Navy Issue Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84114:
+    id: 84114
+    marketGroup: 2000
+    name: Imicus Navy Issue Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84115:
+    id: 84115
+    marketGroup: 2000
+    name: Federation Navy Comet Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84116:
+    id: 84116
+    marketGroup: 2063
+    name: Vexor Navy Issue Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84117:
+    id: 84117
+    marketGroup: 2103
+    name: Myrmidon Navy Issue Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84118:
+    id: 84118
+    marketGroup: 2000
+    name: Heron Navy Issue Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84119:
+    id: 84119
+    marketGroup: 2031
+    name: Worm Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84120:
+    id: 84120
+    marketGroup: 2063
+    name: Osprey Navy Issue Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84121:
+    id: 84121
+    marketGroup: 1991
+    name: Osprey Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84122:
+    id: 84122
+    marketGroup: 2103
+    name: Ferox Navy Issue Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84123:
+    id: 84123
+    marketGroup: 2005
+    name: Probe Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84124:
+    id: 84124
+    marketGroup: 2005
+    name: Burst Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84125:
+    id: 84125
+    marketGroup: 2140
+    name: Scalpel Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84126:
+    id: 84126
+    marketGroup: 2000
+    name: Republic Fleet Firetail Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84127:
+    id: 84127
+    marketGroup: 2080
+    name: Scimitar Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84128:
+    id: 84128
+    marketGroup: 2103
+    name: Cyclone Fleet Issue Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84129:
+    id: 84129
+    marketGroup: 2012
+    name: Hulk Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84130:
+    id: 84130
+    marketGroup: 2031
+    name: Succubus Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84131:
+    id: 84131
+    marketGroup: 1963
+    name: Nightmare Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84132:
+    id: 84132
+    marketGroup: 2316
+    name: Apotheosis Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84133:
+    id: 84133
+    marketGroup: 3549
+    name: Metamorphosis Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84134:
+    id: 84134
+    marketGroup: 2314
+    name: Sunesis Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84135:
+    id: 84135
+    marketGroup: 2312
+    name: Gnosis Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84136:
+    id: 84136
+    marketGroup: 2406
+    name: Praxis Media Miasma SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

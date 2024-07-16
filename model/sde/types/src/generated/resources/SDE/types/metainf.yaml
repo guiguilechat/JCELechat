@@ -30135,30 +30135,6 @@ id2group:
   80044: entity/AbyssalSpaceshipEntities
   80240: specialeditionassets/SpecialEditionCommodities
   80248: entity/AbyssalDroneEntities
-  80342: implant/Booster
-  80343: implant/Booster
-  80344: implant/Booster
-  80352: implant/Booster
-  80353: implant/Booster
-  80354: implant/Booster
-  80357: implant/Booster
-  80358: implant/Booster
-  80359: implant/Booster
-  80360: implant/Booster
-  80361: implant/Booster
-  80362: implant/Booster
-  80363: implant/Booster
-  80364: implant/Booster
-  80365: implant/Booster
-  80366: implant/Booster
-  80367: implant/Booster
-  80368: implant/Booster
-  80369: implant/Booster
-  80370: implant/Booster
-  80371: implant/Booster
-  80379: implant/Booster
-  80380: implant/Booster
-  80381: implant/Booster
   80425: entity/SpawnContainer
   80438: entity/IrregularCorvette
   80440: specialeditionassets/SpecialEditionCommodities
@@ -30169,15 +30145,6 @@ id2group:
   80451: entity/PirateEntities
   80452: entity/PirateEntities
   80523: specialeditionassets/SpecialEditionCommodities
-  80757: implant/Booster
-  80760: implant/Booster
-  80763: implant/Booster
-  80765: implant/Booster
-  80767: implant/Booster
-  80768: implant/Booster
-  80769: implant/Booster
-  80770: implant/Booster
-  80773: implant/Booster
   80806: entity/PirateEntities
   80807: entity/PirateEntities
   80808: entity/PirateEntities
@@ -30297,6 +30264,8 @@ id2group:
   81367: skill/Sequencing
   81368: skill/Sequencing
   81369: skill/Sequencing
+  81370: skill/Sequencing
+  81371: skill/Sequencing
   81372: skill/Sequencing
   81373: skill/Sequencing
   81374: skill/Sequencing
@@ -30760,7 +30729,6 @@ id2group:
   83644: module/SignatureSuppressor
   83645: blueprint/SignatureSuppressorBlueprint
   83646: blueprint/SignatureSuppressorBlueprint
-  83647: module/ExpandedCargohold
   83648: entity/HomefrontOperationsNoncombatant
   83649: entity/HomefrontOperationsNoncombatant
   83650: entity/HomefrontOperationsNoncombatant
@@ -30792,6 +30760,74 @@ id2group:
   84014: personalization/ShipSKINDesignElement
   84015: personalization/ShipSKINDesignElement
   84016: personalization/ShipSKINDesignElement
+  84073: skins/PermanentSKIN
+  84074: skins/PermanentSKIN
+  84075: skins/PermanentSKIN
+  84076: skins/PermanentSKIN
+  84077: skins/PermanentSKIN
+  84078: skins/PermanentSKIN
+  84079: skins/PermanentSKIN
+  84080: skins/PermanentSKIN
+  84081: skins/PermanentSKIN
+  84082: skins/PermanentSKIN
+  84083: skins/PermanentSKIN
+  84084: skins/PermanentSKIN
+  84085: skins/PermanentSKIN
+  84086: skins/PermanentSKIN
+  84087: skins/PermanentSKIN
+  84088: personalization/ShipSKINDesignElement
+  84089: personalization/ShipSKINDesignElement
+  84090: personalization/ShipSKINDesignElement
+  84091: personalization/ShipSKINDesignElement
+  84092: personalization/ShipSKINDesignElement
+  84093: personalization/ShipSKINDesignElement
+  84094: personalization/ShipSKINDesignElement
+  84095: personalization/ShipSKINDesignElement
+  84096: personalization/ShipSKINDesignElement
+  84097: personalization/ShipSKINDesignElement
+  84099: skins/PermanentSKIN
+  84100: skins/PermanentSKIN
+  84101: skins/PermanentSKIN
+  84102: skins/PermanentSKIN
+  84103: skins/PermanentSKIN
+  84104: skins/PermanentSKIN
+  84105: skins/PermanentSKIN
+  84106: skins/PermanentSKIN
+  84107: skins/PermanentSKIN
+  84108: skins/PermanentSKIN
+  84109: skins/PermanentSKIN
+  84110: skins/PermanentSKIN
+  84111: skins/PermanentSKIN
+  84112: skins/PermanentSKIN
+  84113: skins/PermanentSKIN
+  84114: skins/PermanentSKIN
+  84115: skins/PermanentSKIN
+  84116: skins/PermanentSKIN
+  84117: skins/PermanentSKIN
+  84118: skins/PermanentSKIN
+  84119: skins/PermanentSKIN
+  84120: skins/PermanentSKIN
+  84121: skins/PermanentSKIN
+  84122: skins/PermanentSKIN
+  84123: skins/PermanentSKIN
+  84124: skins/PermanentSKIN
+  84125: skins/PermanentSKIN
+  84126: skins/PermanentSKIN
+  84127: skins/PermanentSKIN
+  84128: skins/PermanentSKIN
+  84129: skins/PermanentSKIN
+  84130: skins/PermanentSKIN
+  84131: skins/PermanentSKIN
+  84132: skins/PermanentSKIN
+  84133: skins/PermanentSKIN
+  84134: skins/PermanentSKIN
+  84135: skins/PermanentSKIN
+  84136: skins/PermanentSKIN
+  84163: personalization/ShipSKINDesignElement
+  84164: personalization/ShipSKINDesignElement
+  84165: personalization/ShipSKINDesignElement
+  84166: personalization/ShipSKINDesignElement
+  84212: personalization/ShipSKINDesignElement
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

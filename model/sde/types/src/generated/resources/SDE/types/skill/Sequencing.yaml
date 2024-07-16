@@ -91,6 +91,36 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
+  81370:
+    cannotbetrainedontrial: 1
+    id: 81370
+    marketGroup: 3656
+    name: Studio Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    secondaryattribute: 167
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  81371:
+    cannotbetrainedontrial: 1
+    id: 81371
+    marketGroup: 3656
+    name: Advanced Studio Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E7
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 81370
+    requiredskill1level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
   81372:
     cannotbetrainedontrial: 1
     id: 81372

@@ -267,6 +267,8 @@ public enum get_characters_character_id_notifications_type {
     KillRightUnavailableOpen("KillRightUnavailableOpen"),
     @JsonProperty("KillRightUsed")
     KillRightUsed("KillRightUsed"),
+    @JsonProperty("LPAutoRedeemed")
+    LPAutoRedeemed("LPAutoRedeemed"),
     @JsonProperty("LocateCharMsg")
     LocateCharMsg("LocateCharMsg"),
     @JsonProperty("MadeWarMutual")
@@ -333,8 +335,22 @@ public enum get_characters_character_id_notifications_type {
     ResearchMissionAvailableMsg("ResearchMissionAvailableMsg"),
     @JsonProperty("RetractsWar")
     RetractsWar("RetractsWar"),
+    @JsonProperty("SPAutoRedeemed")
+    SPAutoRedeemed("SPAutoRedeemed"),
     @JsonProperty("SeasonalChallengeCompleted")
     SeasonalChallengeCompleted("SeasonalChallengeCompleted"),
+    @JsonProperty("SkinSequencingCompleted")
+    SkinSequencingCompleted("SkinSequencingCompleted"),
+    @JsonProperty("SkyhookDeployed")
+    SkyhookDeployed("SkyhookDeployed"),
+    @JsonProperty("SkyhookDestroyed")
+    SkyhookDestroyed("SkyhookDestroyed"),
+    @JsonProperty("SkyhookLostShields")
+    SkyhookLostShields("SkyhookLostShields"),
+    @JsonProperty("SkyhookOnline")
+    SkyhookOnline("SkyhookOnline"),
+    @JsonProperty("SkyhookUnderAttack")
+    SkyhookUnderAttack("SkyhookUnderAttack"),
     @JsonProperty("SovAllClaimAquiredMsg")
     SovAllClaimAquiredMsg("SovAllClaimAquiredMsg"),
     @JsonProperty("SovAllClaimLostMsg")

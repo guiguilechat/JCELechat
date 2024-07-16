@@ -35,6 +35,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     alliance_maintainance_fee("alliance_maintainance_fee"),
     @JsonProperty("alliance_registration_fee")
     alliance_registration_fee("alliance_registration_fee"),
+    @JsonProperty("allignment_based_gate_toll")
+    allignment_based_gate_toll("allignment_based_gate_toll"),
     @JsonProperty("asset_safety_recovery_tax")
     asset_safety_recovery_tax("asset_safety_recovery_tax"),
     @JsonProperty("bounty")
@@ -121,6 +123,18 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     corporation_payment("corporation_payment"),
     @JsonProperty("corporation_registration_fee")
     corporation_registration_fee("corporation_registration_fee"),
+    @JsonProperty("cosmetic_market_component_item_purchase")
+    cosmetic_market_component_item_purchase("cosmetic_market_component_item_purchase"),
+    @JsonProperty("cosmetic_market_skin_purchase")
+    cosmetic_market_skin_purchase("cosmetic_market_skin_purchase"),
+    @JsonProperty("cosmetic_market_skin_sale")
+    cosmetic_market_skin_sale("cosmetic_market_skin_sale"),
+    @JsonProperty("cosmetic_market_skin_sale_broker_fee")
+    cosmetic_market_skin_sale_broker_fee("cosmetic_market_skin_sale_broker_fee"),
+    @JsonProperty("cosmetic_market_skin_sale_tax")
+    cosmetic_market_skin_sale_tax("cosmetic_market_skin_sale_tax"),
+    @JsonProperty("cosmetic_market_skin_transaction")
+    cosmetic_market_skin_transaction("cosmetic_market_skin_transaction"),
     @JsonProperty("courier_mission_escrow")
     courier_mission_escrow("courier_mission_escrow"),
     @JsonProperty("cspa")
@@ -129,6 +143,10 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     cspaofflinerefund("cspaofflinerefund"),
     @JsonProperty("daily_challenge_reward")
     daily_challenge_reward("daily_challenge_reward"),
+    @JsonProperty("daily_goal_payouts")
+    daily_goal_payouts("daily_goal_payouts"),
+    @JsonProperty("daily_goal_payouts_tax")
+    daily_goal_payouts_tax("daily_goal_payouts_tax"),
     @JsonProperty("datacore_fee")
     datacore_fee("datacore_fee"),
     @JsonProperty("dna_modification_fee")
@@ -169,6 +187,10 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     inheritance("inheritance"),
     @JsonProperty("insurance")
     insurance("insurance"),
+    @JsonProperty("insurgency_corruption_contribution_reward")
+    insurgency_corruption_contribution_reward("insurgency_corruption_contribution_reward"),
+    @JsonProperty("insurgency_suppression_contribution_reward")
+    insurgency_suppression_contribution_reward("insurgency_suppression_contribution_reward"),
     @JsonProperty("item_trader_payment")
     item_trader_payment("item_trader_payment"),
     @JsonProperty("jump_clone_activation_fee")
@@ -223,6 +245,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     project_discovery_reward("project_discovery_reward"),
     @JsonProperty("project_discovery_tax")
     project_discovery_tax("project_discovery_tax"),
+    @JsonProperty("project_payouts")
+    project_payouts("project_payouts"),
     @JsonProperty("reaction")
     reaction("reaction"),
     @JsonProperty("redeemed_isk_token")
@@ -261,6 +285,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     structure_gate_jump("structure_gate_jump"),
     @JsonProperty("transaction_tax")
     transaction_tax("transaction_tax"),
+    @JsonProperty("under_construction")
+    under_construction("under_construction"),
     @JsonProperty("upkeep_adjustment_fee")
     upkeep_adjustment_fee("upkeep_adjustment_fee"),
     @JsonProperty("war_ally_contract")
