@@ -48,11 +48,6 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	private boolean asksOneTypeForIsks = false;
 
 	/**
-	 * set to true once 404 or 403
-	 */
-	private boolean removed = false;
-
-	/**
 	 * set to true once the contract is 404
 	 */
 	private boolean canceled = false;

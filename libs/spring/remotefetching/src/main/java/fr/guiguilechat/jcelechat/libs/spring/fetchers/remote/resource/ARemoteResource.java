@@ -36,6 +36,9 @@ public abstract class ARemoteResource<RemoteId extends Number, Fetched> extends 
 	/** date the last successful update had its remote value changed */
 	private Instant lastModified;
 
+	/** set to true once a 404 is returned */
+	private boolean removed;
+
 	public void setExpiresIn(int seconds) {
 		setExpires(Instant.now().plusSeconds(seconds));
 	}
@@ -44,6 +47,13 @@ public abstract class ARemoteResource<RemoteId extends Number, Fetched> extends 
 		setExpiresInRandom(0, maxSeconds);
 	}
 
+	/**
+	 * set {@link #expires} to a random valuye between min and min+added
+	 * 
+	 * @param minSeconds  minimum seconds. Can be <0 to set in the past
+	 * @param addedRandom added maximum seconds. Can be <0 to remove seconds from
+	 *                      min
+	 */
 	public void setExpiresInRandom(int minSeconds, int addedRandom) {
 		setExpiresIn(minSeconds + (int) (Math.random() * addedRandom));
 	}

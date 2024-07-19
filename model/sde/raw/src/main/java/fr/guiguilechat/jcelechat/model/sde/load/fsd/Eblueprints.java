@@ -106,7 +106,6 @@ public class Eblueprints {
 	@SuppressWarnings("unchecked")
 	public static LinkedHashMap<Integer, Eblueprints> from(InputStream is) {
 		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
-
 			@Override
 			protected Construct getConstructor(Node node) {
 				if (node.getNodeId() == NodeId.mapping) {

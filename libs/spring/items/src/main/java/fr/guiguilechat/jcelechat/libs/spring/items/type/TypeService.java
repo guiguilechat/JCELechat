@@ -26,13 +26,15 @@ import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.AttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.EffectService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.items.type")
@@ -260,22 +262,33 @@ public class TypeService
 	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
 		Matcher matcher = ENTRYNAME_TYPES_PATTERN.matcher(entryName);
 		if (matcher.matches()) {
-
 			try (InputStream is = fileContent.get()) {
 				LinkedHashMap<Integer, Etypes> newTypes = Etypes.from(is);
-				Map<Integer, Type> existingTypes = allById();
-				for (Entry<Integer, Etypes> e : newTypes.entrySet()) {
-					Type existing = existingTypes.get(e.getKey());
-					if (existing == null) {
-						existing = createIfAbsent(e.getKey());
-						existingTypes.put(e.getKey(), existing);
-					}
-					existing.setBasePrice(e.getValue().basePrice);
-				}
+				updateTypes(newTypes);
 			} catch (IOException e) {
-				throw new RuntimeException();
+				throw new RuntimeException(e);
 			}
 		}
+	}
+
+	protected void updateTypes(Map<Integer, Etypes> newTypes) {
+		Map<Integer, Type> idToType = createIfAbsent(newTypes.keySet());
+		if (idToType.size() != newTypes.size()) {
+			log.error(" got {} types to update but retrieved only {}", newTypes, idToType);
+		}
+		List<Type> updated = new ArrayList<>();
+		for (Entry<Integer, Etypes> e : newTypes.entrySet()) {
+			Type type = idToType.get(e.getKey());
+			if (type != null) {
+				type.setBasePrice(e.getValue().basePrice);
+				updated.add(type);
+			} else {
+				throw new RuntimeException("missing type for id " + e.getKey() + " type name=" + e.getValue().enName());
+			}
+		}
+		saveAll(updated);
+		log.info("updated {} types", updated.size());
+
 	}
 
 }

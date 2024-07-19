@@ -10,7 +10,7 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
-public class SolarSystem {
+public class ESolarSystem {
 
 	public boolean border = false;
 	public Position center ;
@@ -120,14 +120,14 @@ public class SolarSystem {
 				.mapToDouble(Position::distanceFromOriginInAU).max().orElse(0.0);
 	}
 
-	public static SolarSystem load(File systemDir) {
+	public static ESolarSystem load(File systemDir) {
 		File[] data = systemDir.listFiles((d, name) -> name.equals("solarsystem.yaml"));
 		if (data == null || data.length != 1 || !data[0].exists() || !data[0].isFile()) {
 			throw new UnsupportedOperationException(
 					"while looking for one file of system data, found " + Arrays.asList(data));
 		}
 		try {
-			return new Yaml().loadAs(SDECache.fileReader(data[0]), SolarSystem.class);
+			return new Yaml().loadAs(SDECache.fileReader(data[0]), ESolarSystem.class);
 		} catch (Exception e) {
 			throw new UnsupportedOperationException("while loading solarsystem from directory " + systemDir.getAbsolutePath(),
 					e);

@@ -4,12 +4,12 @@ import java.util.Comparator;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Universe;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.ESolarSystem;
 
 public class ShowHSLowestRadiusSyst {
 
 	public static void main(String[] args) {
-		Entry<String, SolarSystem> eLowestHS = Universe.load().eve.values().stream()
+		Entry<String, ESolarSystem> eLowestHS = Universe.load().eve.values().stream()
 				.flatMap(r -> r.constellations.values().stream())
 				.flatMap(c -> c.systems.entrySet().stream())
 				.filter(es -> es.getValue().security > 0.45)
@@ -18,7 +18,7 @@ public class ShowHSLowestRadiusSyst {
 		System.out.println(
 				"lowest HS system is " + eLowestHS.getKey() + " with size : " + eLowestHS.getValue().furthestCelestialAU());
 
-		Entry<String, SolarSystem> eHighestHS = Universe.load().eve.values().stream()
+		Entry<String, ESolarSystem> eHighestHS = Universe.load().eve.values().stream()
 				.flatMap(r -> r.constellations.values().stream())
 				.flatMap(c -> c.systems.entrySet().stream())
 				.filter(es -> es.getValue().security > 0.45)
@@ -27,7 +27,7 @@ public class ShowHSLowestRadiusSyst {
 		System.out.println(
 				"highest HS system is " + eHighestHS.getKey() + " with size : " + eHighestHS.getValue().furthestCelestialAU());
 
-		Entry<String, SolarSystem> eLowestKS = Universe.load().eve.values().stream()
+		Entry<String, ESolarSystem> eLowestKS = Universe.load().eve.values().stream()
 				.flatMap(r -> r.constellations.values().stream())
 				.flatMap(c -> c.systems.entrySet().stream())
 				.sorted(Comparator.comparing(es -> es.getValue().furthestCelestialAU()))
@@ -35,7 +35,7 @@ public class ShowHSLowestRadiusSyst {
 		System.out.println(
 				"lowest KS system is " + eLowestKS.getKey() + " with size : " + eLowestKS.getValue().furthestCelestialAU());
 
-		Entry<String, SolarSystem> eHighestKS = Universe.load().eve.values().stream()
+		Entry<String, ESolarSystem> eHighestKS = Universe.load().eve.values().stream()
 				.flatMap(r -> r.constellations.values().stream())
 				.flatMap(c -> c.systems.entrySet().stream())
 				.sorted(Comparator.comparing(es -> -es.getValue().furthestCelestialAU()))
@@ -45,7 +45,7 @@ public class ShowHSLowestRadiusSyst {
 						"highest KS system is " + eHighestKS.getKey() + " with size : "
 								+ eHighestKS.getValue().furthestCelestialAU());
 
-		Entry<String, SolarSystem> eLowestWS = Universe.load().wormhole.values().stream()
+		Entry<String, ESolarSystem> eLowestWS = Universe.load().wormhole.values().stream()
 				.flatMap(r -> r.constellations.values().stream())
 				.flatMap(c -> c.systems.entrySet().stream())
 				.sorted(Comparator.comparing(es -> es.getValue().furthestCelestialAU()))
@@ -53,7 +53,7 @@ public class ShowHSLowestRadiusSyst {
 		System.out.println(
 				"lowest WS system is " + eLowestWS.getKey() + " with size : " + eLowestWS.getValue().furthestCelestialAU());
 
-		Entry<String, SolarSystem> eHighestWS = Universe.load().wormhole.values().stream()
+		Entry<String, ESolarSystem> eHighestWS = Universe.load().wormhole.values().stream()
 				.flatMap(r -> r.constellations.values().stream())
 				.flatMap(c -> c.systems.entrySet().stream())
 				.sorted(Comparator.comparing(es -> -es.getValue().furthestCelestialAU()))

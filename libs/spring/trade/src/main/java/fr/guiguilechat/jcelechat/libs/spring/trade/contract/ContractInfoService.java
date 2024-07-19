@@ -78,21 +78,17 @@ public class ContractInfoService extends ARemoteResourceService<
 	}
 	
 	@Override
-	protected void updateRequestError(ContractInfo data, Requested<R_get_contracts_public_items_contract_id[]> response) {
-		switch (response.getResponseCode()) {
-		case 403:
-			data.setRemoved(true);
-			data.setCompleted(true);
-			data.setFetchActive(false);
-			break;
-		case 404:
-			data.setRemoved(true);
-			data.setCanceled(true);
-			data.setFetchActive(false);
-			break;
-		default:
-			super.updateRequestError(data, response);
-		}
+	protected void update403(ContractInfo data, Requested<R_get_contracts_public_items_contract_id[]> response) {
+		data.setRemoved(true);
+		data.setCompleted(true);
+		data.setFetchActive(false);
+	}
+
+	@Override
+	protected void update404(ContractInfo data, Requested<R_get_contracts_public_items_contract_id[]> response) {
+		data.setRemoved(true);
+		data.setCanceled(true);
+		data.setFetchActive(false);
 	}
 
 	@Override

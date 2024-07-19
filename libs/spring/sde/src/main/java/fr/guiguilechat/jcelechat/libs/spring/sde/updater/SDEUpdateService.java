@@ -33,26 +33,6 @@ public class SDEUpdateService {
 
 	final private UpdateResultService updateresultService;
 
-	/** interface for the beans that should react to SDE update */
-	public static interface SdeUpdateListener {
-
-		public default List<String> listSDECaches() {
-			return List.of();
-		}
-
-		public default void beforeSdeUpdate() {
-
-		}
-
-		public default void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
-
-		}
-
-		public default void afterSdeUpdate() {
-
-		}
-	}
-
 	private final Optional<List<SdeUpdateListener>> updateListeners;
 
 	@Value("${sde.update.forcereinsert:false}")

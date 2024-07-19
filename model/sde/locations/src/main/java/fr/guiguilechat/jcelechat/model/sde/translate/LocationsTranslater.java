@@ -22,10 +22,10 @@ import fr.guiguilechat.jcelechat.model.sde.load.bsd.EstaStations;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EstationOperations;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EstationServices;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Universe;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Moon;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.NPCStation;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Planet;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Stargate;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.ESolarSystem.Moon;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.ESolarSystem.NPCStation;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.ESolarSystem.Planet;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.ESolarSystem.Stargate;
 import fr.guiguilechat.jcelechat.model.sde.locations.Constellation;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
@@ -173,7 +173,7 @@ public class LocationsTranslater {
 		});
 	}
 
-	public static void addRegion(String regionName, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region region,
+	public static void addRegion(String regionName, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.ERegion region,
 			LinkedHashMap<String, Region> regions, LinkedHashMap<String, Constellation> constellations,
 			LinkedHashMap<String, SolarSystem> systems, LinkedHashMap<String, Station> stations, REGION_TYPE rtype) {
 		regionName = unFuckLocationName(regionName);
@@ -194,7 +194,7 @@ public class LocationsTranslater {
 				rtype=REGION_TYPE.POCHVEN;
 			}
 		}
-		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation> e : region.constellations
+		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.EConstellation> e : region.constellations
 				.entrySet()) {
 			Constellation constel = addConstellation(e.getKey(), e.getValue(), regionName, constellations, systems, stations,
 					rtype);
@@ -210,13 +210,13 @@ public class LocationsTranslater {
 	}
 
 	public static Constellation addConstellation(String constelName,
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation constellation, String regionName,
+			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.EConstellation constellation, String regionName,
 			LinkedHashMap<String, Constellation> constellations, LinkedHashMap<String, SolarSystem> systems,
 			LinkedHashMap<String, Station> stations, REGION_TYPE rtype) {
 		constelName = unFuckLocationName(constelName);
 		Constellation c = new Constellation();
 		constellations.put(constelName, c);
-		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem> e : constellation.systems
+		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.ESolarSystem> e : constellation.systems
 				.entrySet()) {
 			SolarSystem sys = addSystem(e.getKey(), e.getValue(), constelName, regionName, systems, stations, rtype);
 			c.hasBorder |= sys.isBorder;
@@ -237,7 +237,7 @@ public class LocationsTranslater {
 	}
 
 	public static SolarSystem addSystem(String sysName,
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem system, String ConstellationName,
+			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.ESolarSystem system, String ConstellationName,
 			String regionName, LinkedHashMap<String, SolarSystem> systems, LinkedHashMap<String, Station> stations,
 			REGION_TYPE rtype) {
 		sysName = unFuckLocationName(sysName);

@@ -129,13 +129,13 @@ public abstract class ARemoteResourceService<
 
 	/**
 	 * do the fetching of a list of entities. <br />
-	 * The entities that could not be fetched will be updated, but not saved, with
-	 * corresponding (meta) values.
+	 * The entities that could not be fetched have their meta data updated.
 	 * 
 	 * @param entities
-	 * @return The map of successful fetch, from the entitiy to the fetch result .
-	 *           Also contains entity mapped to null so that they are still saved,
-	 *           but not processed
+	 * @return The map of successful fetch, from the entity to the fetch result .
+	 *           entities that are fetched for 204 (no body) or 304 (no change) are
+	 *           mapped to null so that they are still considered as a success,
+	 *           but are not processed
 	 */
 	protected Map<Entity, Fetched> fetchData(List<Entity> entities) {
 		Map<Entity, Future<Requested<Fetched>>> dataToFuture = entities.stream()
@@ -186,7 +186,6 @@ public abstract class ARemoteResourceService<
 			}
 		}
 		return responseOk;
-
 	}
 
 	/**
@@ -226,7 +225,7 @@ public abstract class ARemoteResourceService<
 
 	/**
 	 * called when a batch of entity update has resulted in ok responses. Non-ok
-	 * responses are filtered out.
+	 * responses, as well as 304, are filtered out.
 	 * 
 	 * @param responseOk map of entities updated to their ok response.
 	 */
@@ -284,20 +283,45 @@ public abstract class ARemoteResourceService<
 
 	/**
 	 * Called when the request returned a 4xx .
-	 * default implementation is to wait 12 hours per incremental error (limited to
-	 * 48) on 401
-	 * (banned), or 1 hour per incremental error (limited to 24) on other 4xx
+	 * delegates to some known code, can be overridden to handle more.
 	 */
 	protected void updateRequestError(Entity data, Requested<Fetched> response) {
 		int nbErrors = data.increaseSuccessiveErrors();
 		switch (response.getResponseCode()) {
-		case 401: // banned. Wait a day
-			data.setExpires(Instant.now().plus(Math.min(nbErrors * 12, 48), ChronoUnit.HOURS));
+		case 401:
+			update401(data, response);
+			return;
+		case 403:
+			update403(data, response);
+			return;
+		case 404:
+			update404(data, response);
 			return;
 		default:
 			data.setExpires(Instant.now().plus(Math.min(nbErrors, 24), ChronoUnit.HOURS));
 		}
+	}
 
+	/** banned. Wait a day */
+	protected void update401(Entity data, Requested<Fetched> response) {
+		int nbErrors = data.increaseSuccessiveErrors();
+		data.setExpires(Instant.now().plus(Math.min(nbErrors * 12, 48), ChronoUnit.HOURS));
+	}
+
+	/** data is not authorized ? Can happen when status changed. */
+	protected void update403(Entity data, Requested<Fetched> response) {
+		int nbErrors = data.increaseSuccessiveErrors();
+		data.setExpires(Instant.now().plus(Math.min(nbErrors, 24), ChronoUnit.HOURS));
+	}
+
+	/** data is removed. After 5 errors we deactivate fetch. */
+	protected void update404(Entity data, Requested<Fetched> response) {
+		int nbErrors = data.increaseSuccessiveErrors();
+		data.setExpires(Instant.now().plus(Math.min(nbErrors, 24), ChronoUnit.HOURS));
+		data.setRemoved(true);
+		if (nbErrors > 4) {
+			data.setFetchActive(false);
+		}
 	}
 
 	/**

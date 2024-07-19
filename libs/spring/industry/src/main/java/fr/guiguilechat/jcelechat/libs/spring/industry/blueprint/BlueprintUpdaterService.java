@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity;
@@ -133,6 +133,7 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 		materialService.saveAll(newMaterials);
 		productService.saveAll(newProducts);
 		skillReqService.saveAll(newSkills);
+		log.info("updated {} blueprints", blueprints.size());
 	}
 
 	void addActivityData(

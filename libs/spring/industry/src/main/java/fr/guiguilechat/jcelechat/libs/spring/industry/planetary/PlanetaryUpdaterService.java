@@ -7,13 +7,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
 import java.util.regex.Pattern;
+import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EplanetSchematics;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -55,9 +56,13 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 		sdeFileMissing = false;
 		Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>(EplanetSchematics.from(is));
 
-		Map<Integer, Type> typesById = typeService.allById();
+		Map<Integer, Type> typesById = typeService.createIfAbsent(
+		    planetSchematics.entrySet().stream()
+		        .flatMap(e -> Stream.concat(Stream.of(e.getKey()),
+		            Stream.concat(e.getValue().pins.stream(), e.getValue().types.keySet().stream())))
+		        .distinct().toList());
 
-		schematicService
+		List<Schematic> saved = schematicService
 		    .saveAll(planetSchematics.entrySet().stream().map(e -> {
 			    Schematic ret = Schematic.of(e.getValue(), e.getKey());
 			    List<Integer> pins = e.getValue().pins;
@@ -82,6 +87,7 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 			        .toList());
 			    return ret;
 		    }).toList());
+		log.info("updated {} schematics with {} used types", saved.size(), typesById.size());
 	}
 
 	@Override

@@ -158,9 +158,11 @@ public class NpcHtmlController {
 	}
 
 	public LinkedObservedCorporation linkedObservedCorporation(ObservedCorporation corp) {
-		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporation().getName(), corp.getNbOffers());
+		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporation().nameOrId(),
+		    (int) corp.getOffers().stream().filter(of -> of.getOffer() != null && of.getOffer().getLpCost() > 0).count());
 	}
 
+	@Transactional
 	@GetMapping("/corporations")
 	public String corporationsIndex(Model model) {
 		model.addAttribute("corporations",

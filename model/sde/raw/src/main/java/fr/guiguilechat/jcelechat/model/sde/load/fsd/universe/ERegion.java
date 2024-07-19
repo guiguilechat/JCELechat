@@ -9,8 +9,8 @@ import java.util.stream.Stream;
 
 import org.yaml.snakeyaml.Yaml;
 
-public class Region {
-	public LinkedHashMap<String, Constellation> constellations = new LinkedHashMap<>();
+public class ERegion {
+	public LinkedHashMap<String, EConstellation> constellations = new LinkedHashMap<>();
 
 	public Position center;
 	public int descriptionID;
@@ -22,7 +22,7 @@ public class Region {
 	public int regionID;
 	public int wormholeClassID;
 
-	public static Region load(File regionDir) {
+	public static ERegion load(File regionDir) {
 		if (!regionDir.isDirectory()) {
 			return null;
 		}
@@ -32,11 +32,11 @@ public class Region {
 					"while looking for one region.staticdata, found : " + Arrays.asList(data));
 		}
 		try {
-			Region ret = load(new FileInputStream(data[0]));
+			ERegion ret = from(new FileInputStream(data[0]));
 			File[] constelFiles = Stream.of(regionDir.listFiles()).parallel().filter(File::isDirectory).sorted()
 					.toArray(File[]::new);
 			for (File constelFile : constelFiles) {
-				ret.constellations.put(constelFile.getName(), Constellation.load(constelFile));
+				ret.constellations.put(constelFile.getName(), EConstellation.load(constelFile));
 			}
 			return ret;
 		} catch (Exception e) {
@@ -44,7 +44,7 @@ public class Region {
 		}
 	}
 
-	public static Region load(InputStream is) {
-		return new Yaml().loadAs(is, Region.class);
+	public static ERegion from(InputStream is) {
+		return new Yaml().loadAs(is, ERegion.class);
 	}
 }

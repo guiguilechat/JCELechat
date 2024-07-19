@@ -100,8 +100,10 @@ public abstract class AFetchedResourceService<
 		Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
 		    .collect(Collectors.toMap(AFetchedResource::getId,
 		        e -> e));
-		List<Entity> newEntities = saveAll(entityIds.stream().filter(id -> !storedEntities.containsKey(id)).distinct()
-		    .map(this::createMinimal).toList());
+		List<Entity> newEntities = saveAll(entityIds.stream()
+		    .filter(id -> !storedEntities.containsKey(id)).distinct()
+		    .map(this::createMinimal)
+		    .toList());
 
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
 		    .collect(Collectors.toMap(AFetchedResource::getId, e -> e));

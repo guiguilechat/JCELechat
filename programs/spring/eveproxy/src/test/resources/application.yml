@@ -1,12 +1,26 @@
 esi:
+   affiliations:
+      corporation:
+         update:
+            skip: false
    items:
       attribute:
          update:
             skip: true
+      category:
+         update:
+            skip: false
+      group:
+         update:
+            skip: false
       effect:
          update:
             skip: true
       type:
+         update:
+            skip: false
+   npc:
+      lpcorporation:
          update:
             skip: false
    trade:
@@ -28,7 +42,7 @@ esi:
             init: 10000002
             skip: false
          update:
-            skip: true
+            skip: false
    universe:
       moon:
          update:
@@ -36,6 +50,9 @@ esi:
       planet:
          update:
             skip: true
+      region:
+         update:
+            skip: false
       solarSystem:
          asteroidbelts: false
          planets: false
@@ -79,6 +96,6 @@ spring:
    datasource:
       hikari: validationTimeout:300000 # 5min timeout for access local h2 DB
       password: admin
-      url: jdbc:h2:./db/eveproxy
+      url: jdbc:h2:./db/export
       username: admin
 #debug: true

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SDEUpdateService.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -22,11 +22,11 @@ public class BlueprintActivityService implements SdeUpdateListener {
 	}
 
 	public List<BlueprintActivity> saveAll(Iterable<BlueprintActivity> entities) {
-		return repo.saveAll(entities);
+		return repo.saveAllAndFlush(entities);
 	}
 
 	public BlueprintActivity save(BlueprintActivity entity) {
-		return repo.save(entity);
+		return repo.saveAndFlush(entity);
 	}
 
 	public List<BlueprintActivity> forBPActivity(List<Integer> bpTypeIds,

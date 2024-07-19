@@ -12,11 +12,11 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
-public class Constellation {
+public class EConstellation {
 
-	private static final Logger logger = LoggerFactory.getLogger(Constellation.class);
+	private static final Logger logger = LoggerFactory.getLogger(EConstellation.class);
 
-	public LinkedHashMap<String, SolarSystem> systems = new LinkedHashMap<>();
+	public LinkedHashMap<String, ESolarSystem> systems = new LinkedHashMap<>();
 
 	public Position center;
 	public int constellationID;
@@ -27,7 +27,7 @@ public class Constellation {
 	public double radius;
 	public int wormholeClassID;
 
-	public static Constellation load(File contellationDir) {
+	public static EConstellation load(File contellationDir) {
 		if (!contellationDir.isDirectory()) {
 			return null;
 		}
@@ -37,24 +37,24 @@ public class Constellation {
 					"while looking for one file of constellation data, found " + Arrays.asList(data));
 		}
 		try {
-			Object ret = new Yaml().loadAs(SDECache.fileReader(data[0]), Constellation.class);
-			if (ret.getClass().getClassLoader() != Constellation.class.getClassLoader()) {
+			Object ret = new Yaml().loadAs(SDECache.fileReader(data[0]), EConstellation.class);
+			if (ret.getClass().getClassLoader() != EConstellation.class.getClassLoader()) {
 				logger.warn("returned object " + ret + " from cl " + ret.getClass().getClassLoader()
 						+ " while Constellation cl is "
-						+ Constellation.class.getClassLoader() + " , current thread cl is "
+						+ EConstellation.class.getClassLoader() + " , current thread cl is "
 						+ Thread.currentThread().getClass().getClassLoader() + " and current thread context cl is "
 						+ Thread.currentThread().getContextClassLoader());
 			}
-			Constellation cst = (Constellation) ret;
+			EConstellation cst = (EConstellation) ret;
 			File[] sysFiles = Stream.of(contellationDir.listFiles()).parallel().filter(File::isDirectory).sorted()
 					.toArray(File[]::new);
 			for (File sysFile : sysFiles) {
-				cst.systems.put(sysFile.getName(), SolarSystem.load(sysFile));
+				cst.systems.put(sysFile.getName(), ESolarSystem.load(sysFile));
 			}
 			return cst;
 		} catch (ClassCastException e) {
 			throw new UnsupportedOperationException("while loading constellation from directory "
-					+ contellationDir.getAbsolutePath() + " : Constellation cl is " + Constellation.class.getClassLoader(), e);
+					+ contellationDir.getAbsolutePath() + " : Constellation cl is " + EConstellation.class.getClassLoader(), e);
 		} catch (FileNotFoundException e) {
 			throw new UnsupportedOperationException(
 					"while loading constellation from directory " + contellationDir.getAbsolutePath(), e);
