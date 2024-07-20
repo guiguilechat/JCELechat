@@ -17,22 +17,16 @@
 			</div>
 			<div class="col-6">
 				category : <a th:if="${category != null}" th:href="${catUrl}"
-					th:text="${category.name}" /><br /> group : <a
-					th:if="${group != null}" th:href="${groupUrl}"
+					th:text="${category.name}" /><br />
+				group : <a th:if="${group != null}" th:href="${groupUrl}"
 					th:text="${group.name}" /><br />
+				market group : <a th:if="${marketGroup != null}" th:href="${marketGroup.url}"
+					th:text="${marketGroup.name}" /><br />
 				<h1 th:text="${name}" />
 			</div>
 			<div class="col">
 				<a th:if="${nxtType != null}" th:href="${nxtTypeUrl}"
 					th:text="${nxtType.name}">previous</a>
-			</div>
-		</div>
-		<div class="row border" th:if="${types!=null && !types.isEmpty()}">
-			<div class="col">
-				<ul>
-					<li th:each="type : ${types}"><a th:href="${type.url}"
-						th:text="${type.type.name}" /></li>
-				</ul>
 			</div>
 		</div>
 		<div class="row border">
@@ -265,7 +259,7 @@
 					</thead>
 					<tbody>
 						<tr th:each="offer : ${offers}">
-							<td><a th:href="${offer.url}" th:text="${offer.offer.name}" /></td>
+							<td><a th:href="${offer.url}" th:text="${offer.name}" /></td>
 						</tr>
 					</tbody>
 				</table>

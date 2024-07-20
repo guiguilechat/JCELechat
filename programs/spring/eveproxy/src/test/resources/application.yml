@@ -10,12 +10,15 @@ esi:
       category:
          update:
             skip: false
-      group:
-         update:
-            skip: false
       effect:
          update:
             skip: true
+      group:
+         update:
+            skip: false
+      marketgroup:
+         update:
+            skip: false
       type:
          update:
             skip: false

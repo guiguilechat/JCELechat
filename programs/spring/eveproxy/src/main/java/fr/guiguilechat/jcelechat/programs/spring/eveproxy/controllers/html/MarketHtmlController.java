@@ -14,11 +14,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroup;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
@@ -29,6 +32,8 @@ public class MarketHtmlController {
 
 	@Lazy
 	private final DogmaHtmlController dogmaHtmlController;
+
+	private final MarketGroupService marketGroupService;
 
 	private final MarketOrderService marketOrderService;
 
@@ -100,6 +105,48 @@ public class MarketHtmlController {
 	@GetMapping("/search/")
 	public String getSearchSlash(Model model, Optional<String> typeName) {
 		return getSearch(model, typeName);
+	}
+
+	// market groups
+
+	@Transactional
+	@GetMapping("/group/{marketGroupId}")
+	public String getMarketGroup(Model model, @PathVariable int marketGroupId) {
+		Optional<MarketGroup> oMarketGroup = marketGroupService.findById(marketGroupId);
+		if (oMarketGroup.isPresent()) {
+			MarketGroup marketGroup = oMarketGroup.get();
+			model.addAttribute("name", marketGroup.name());
+			if (marketGroup.getParent() != null) {
+				model.addAttribute("parent", linkedMarketGroup(marketGroup.getParent()));
+			}
+			if (marketGroup.getSubGroups() != null && !marketGroup.getSubGroups().isEmpty()) {
+				model.addAttribute("children", marketGroup.getSubGroups().stream()
+				    .map(this::linkedMarketGroup)
+				    .sorted(Comparator.comparing(l -> l.name))
+				    .toList());
+			}
+			if (marketGroup.getTypes() != null && !marketGroup.getTypes().isEmpty()) {
+				model.addAttribute("types", marketGroup.getTypes().stream()
+				    .map(dogmaHtmlController::linkedType)
+				    .sorted(Comparator.comparing(LinkedType::name))
+				    .toList());
+			}
+		} else {
+			model.addAttribute("name", "unknown" + marketGroupId);
+		}
+		return "market/group";
+	}
+
+	public URI uri(MarketGroup marketGroup) {
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getMarketGroup", null, "" + marketGroup.getId()).build()
+		    .toUri();
+	}
+
+	public static record LinkedMarketGroup(String name, String url) {
+	}
+
+	public LinkedMarketGroup linkedMarketGroup(MarketGroup marketGroup) {
+		return new LinkedMarketGroup(marketGroup.name(), uri(marketGroup).toString());
 	}
 
 }

@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.regex.Matcher;
@@ -15,12 +16,14 @@ import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResourceService.EntityUpdateListener;
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.AttributeService;
@@ -31,6 +34,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -42,7 +46,7 @@ import lombok.extern.slf4j.Slf4j;
 @Order(3)
 public class TypeService
     extends ARemoteResourceService<Type, Integer, R_get_universe_types_type_id, TypeRepository>
-    implements SdeUpdateListener {
+    implements SdeUpdateListener, EntityUpdateListener {
 
 	@Lazy
 	private final AttributeService attributeService;
@@ -52,6 +56,9 @@ public class TypeService
 
 	@Lazy
 	private final GroupService groupService;
+
+	@Lazy
+	private final MarketGroupService marketGroupService;
 
 	@Lazy
 	private final TypeAttributeService typeAttributeService;
@@ -77,7 +84,8 @@ public class TypeService
 	protected void updateResponseOk(Type data, R_get_universe_types_type_id received,
 	    Map<Integer, Group> idToGroup,
 	    Map<Integer, Attribute> idToAttribute,
-	    Map<Integer, Effect> idToEffect) {
+	    Map<Integer, Effect> idToEffect,
+	    Map<Integer, MarketGroup> idToMarketGroup) {
 		data.setGroup(idToGroup.get(received.group_id));
 		if (received.dogma_attributes != null) {
 			List<TypeAttribute> typeAttributes = new ArrayList<>();
@@ -97,38 +105,52 @@ public class TypeService
 				data.getEffectsDefault().put(eff, e.is_default);
 			}
 		}
+		data.setMarketGroup(idToMarketGroup.get(received.market_group_id));
 	}
 
 	@Override
 	protected void updateResponseOk(Map<Type, R_get_universe_types_type_id> responseOk) {
 		super.updateResponseOk(responseOk);
-		Map<Integer, Group> idToGroup = groupService
-		    .createIfAbsent(responseOk.values().stream().map(r -> r.group_id).distinct().toList());
-		Map<Integer, Attribute> idToAttribute = attributeService
-		    .createIfAbsent(responseOk.values().stream()
+		Map<Integer, Group> idToGroup = groupService.createIfAbsent(
+		    responseOk.values().stream()
+		        .map(r -> r.group_id)
+		        .distinct().toList());
+		Map<Integer, Attribute> idToAttribute = attributeService.createIfAbsent(
+		    responseOk.values().stream()
 		        .flatMap(r -> r.dogma_attributes == null ? Stream.empty() : Stream.of(r.dogma_attributes))
-		        .map(da -> da.attribute_id).distinct().toList());
-		Map<Integer, Effect> idToEffect = effectService
-		    .createIfAbsent(responseOk.values().stream()
-		        .flatMap(r -> r.dogma_effects == null ? Stream.empty() : Stream.of(r.dogma_effects))
-		        .map(da -> da.effect_id).distinct().toList());
+		        .map(da -> da.attribute_id)
+		        .distinct().toList());
 		typeAttributeService.deleteByTypes(responseOk.keySet());
-		responseOk.entrySet().stream()
-		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToGroup, idToAttribute, idToEffect));
+		Map<Integer, Effect> idToEffect = effectService.createIfAbsent(
+		    responseOk.values().stream()
+		        .flatMap(r -> r.dogma_effects == null ? Stream.empty() : Stream.of(r.dogma_effects))
+		        .map(da -> da.effect_id)
+		        .distinct().toList());
+		Map<Integer, MarketGroup> idToMarketGroup = marketGroupService.createIfAbsent(
+		    responseOk.values().stream()
+		        .map(r -> r.market_group_id)
+		        .filter(i -> i != 0)
+		        .distinct().toList());
+		responseOk.entrySet().forEach(
+		        e -> updateResponseOk(e.getKey(), e.getValue(), idToGroup, idToAttribute, idToEffect, idToMarketGroup));
 	}
 
+	@Cacheable("TypesByGroupId")
 	public List<Type> byGroupId(int groupId) {
 		return repo().findByGroupId(groupId);
 	}
 
+	@Cacheable("TypesByGroupIdIn")
 	public List<Type> byGroupIdIn(Iterable<Integer> groupIds) {
 		return repo().findByGroupIdIn(groupIds);
 	}
 
+	@Cacheable("TypesByCategoryId")
 	public List<Type> byCategoryId(int categoryId) {
 		return repo().findByGroupCategoryId(categoryId);
 	}
 
+	@Cacheable("TypesByCategoryIdIn")
 	public List<Type> byCategoryIdIn(Iterable<Integer> categoryIds) {
 		return repo().findByGroupCategoryIdIn(categoryIds);
 	}
@@ -255,6 +277,8 @@ public class TypeService
 		return repo().findTop1ByGroupAndNameGreaterThanOrderByNameAsc(type.getGroup(), type.name());
 	}
 
+	// on sde update
+
 	static final Pattern ENTRYNAME_TYPES_PATTERN = Pattern.compile(
 	    "fsd/types\\.yaml");
 
@@ -288,7 +312,25 @@ public class TypeService
 		}
 		saveAll(updated);
 		log.info("updated {} types", updated.size());
-
 	}
+
+	// cache
+
+	public static interface TypeListener extends EntityUpdateListener {
+	}
+
+	@Getter
+	@Lazy
+	private final Optional<List<TypeListener>> listeners;
+
+	@Getter(lazy = true)
+	private final boolean selfInvalidate = true;
+
+	@Getter(lazy = true)
+	private final List<String> cacheList = List.of(
+	    "TypesByCategoryId",
+	    "TypesByCategoryIdIn",
+	    "TypesByGroupId",
+	    "TypesByGroupIdIn");
 
 }

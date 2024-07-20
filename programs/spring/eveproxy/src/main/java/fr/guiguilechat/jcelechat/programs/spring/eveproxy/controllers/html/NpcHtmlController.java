@@ -75,7 +75,9 @@ public class NpcHtmlController {
 	public static record LinkedLPOffer(String url, LinkCorporationOffer offer) {
 		public String name() {
 			Offer off = offer.getOffer();
-			return off.getType().name() + (off.getQuantity() > 1 ? "×" + off.getQuantity() : "");
+			return "[" +
+			    offer.getCorporation().nameOrId() + "] " + off.getType().name()
+			    + (off.getQuantity() > 1 ? "×" + off.getQuantity() : "");
 		}
 	}
 

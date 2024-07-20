@@ -233,7 +233,6 @@ public abstract class AFetchedResourceService<
 	 * with getter to have {@link #getListeners}
 	 * 
 	 * <pre>{@code
-	 * 
 	 * public static interface XListener extends EntityUpdateListener {
 	 * }
 	 * 
@@ -253,8 +252,7 @@ public abstract class AFetchedResourceService<
 		 * can be implemented with eg
 		 * 
 		 * <pre>{@code
-		 * 
-		 * @Getter
+		 * @Getter(lazy=true)
 		 * private final List<String> cacheList = List.of(
 		 *     "cache1",
 		 *     "cache2");
@@ -270,7 +268,6 @@ public abstract class AFetchedResourceService<
 	 * override this to provide your own list of listeners, eg
 	 * 
 	 * <pre>{@code
-	 * 
 	 * @Getter@Lazy private final Optional<List<MyListener>> listeners;
 	 * }</pre>
 	 */
@@ -284,8 +281,7 @@ public abstract class AFetchedResourceService<
 	 * update.Code to override :
 	 * 
 	 * <pre>{@code
-	 * @Getter(lazy = true)
-	 * private final boolean selfInvalidate = true;
+	 * @Getter(lazy = true) private final boolean selfInvalidate = true;
 	 * }</pre>
 	 */
 	protected boolean isSelfInvalidate() {

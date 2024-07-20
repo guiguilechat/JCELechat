@@ -103,7 +103,7 @@ public class DogmaHtmlController {
 	public static record LinkedProduct(String url, Type type, int quantity, double probability) {
 	}
 
-	LinkedProduct linkedProduct(Product product) {
+	public LinkedProduct linkedProduct(Product product) {
 		return new LinkedProduct(
 				uri(product.getType()).toString(),
 				product.getType(),
@@ -136,7 +136,7 @@ public class DogmaHtmlController {
 			Product product) {
 	}
 
-	LinkedActivity linkedActivity(Product product) {
+	public LinkedActivity linkedActivity(Product product) {
 		return new LinkedActivity(
 				uri(product.getActivity().getType()).toString(),
 				product.getActivity().getType(),
@@ -149,7 +149,7 @@ public class DogmaHtmlController {
 	public static record LinkedUsage(String url, Type type, int quantity) {
 	}
 
-	LinkedUsage linkedUsage(Material material) {
+	public LinkedUsage linkedUsage(Material material) {
 		return new LinkedUsage(
 				uri(material.getActivity().getType()).toString(),
 				material.getActivity().getType(),
@@ -183,6 +183,7 @@ public class DogmaHtmlController {
 			model.addAttribute("category", t.getGroup().getCategory());
 			model.addAttribute("catUrl", uri(t.getGroup().getCategory()).toString());
 			model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
+			model.addAttribute("marketGroup", marketHtmlController.linkedMarketGroup(t.getMarketGroup()));
 
 			Type prvType = typeService.prevType(t);
 			if (prvType != null) {
@@ -297,11 +298,11 @@ public class DogmaHtmlController {
 				.toUri();
 	}
 
-	static record LinkedType(String url, Type type) {
+	public static record LinkedType(String url, Type type, String name) {
 	}
 
-	LinkedType linkedType(Type type) {
-		return new LinkedType(uri(type).toString(), type);
+	public LinkedType linkedType(Type type) {
+		return new LinkedType(uri(type).toString(), type, type.name());
 	}
 
 	@GetMapping("/group/{groupId}")
@@ -349,7 +350,7 @@ public class DogmaHtmlController {
 	static record LinkedGroup(String url, Group group) {
 	}
 
-	LinkedGroup linkedGroup(Group group) {
+	public LinkedGroup linkedGroup(Group group) {
 		return new LinkedGroup(uri(group).toString(), group);
 	}
 

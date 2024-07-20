@@ -95,7 +95,7 @@ public class IndustryRestController {
 			@RequestParam Optional<String> accept) throws IOException {
 		List<IndustryInfo> ret = typeService.typesFilter(typeFiltering, typeFilter)
 				.stream().map(type -> {
-			    List<LocatedBestOffer> seeds = type.getMarketGroupId() > 0 ? marketLineService.seedLocations(type.getId())
+			    List<LocatedBestOffer> seeds = type.getMarketGroup() != null ? marketLineService.seedLocations(type.getId())
 							: Collections.emptyList();
 					Map<Integer, Map<Long, Double>> seedMap = new HashMap<>();
 			    for (LocatedBestOffer s : seeds) {

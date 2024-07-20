@@ -26,6 +26,7 @@ import lombok.Setter;
     @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "group_id"),
     @Index(columnList = "published"),
+    @Index(columnList = "market_group_id"),
     @Index(columnList = "name") })
 @AllArgsConstructor
 @NoArgsConstructor
@@ -72,7 +73,8 @@ public class Type extends ARemoteResource<Integer, R_get_universe_types_type_id>
 	/**
 	 * This only exists for types that can be put on the market
 	 */
-	private int marketGroupId;
+	@ManyToOne
+	private MarketGroup marketGroup;
 
 	/**
 	 * mass number
@@ -122,7 +124,6 @@ public class Type extends ARemoteResource<Integer, R_get_universe_types_type_id>
 		setDescription(data.description);
 		setGraphicId(data.graphic_id);
 		setIconId(data.icon_id);
-		setMarketGroupId(data.market_group_id);
 		setMass(data.mass);
 		setName(data.name);
 		setPackagedVolume(data.packaged_volume);

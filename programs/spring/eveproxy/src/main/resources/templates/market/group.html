@@ -1,0 +1,44 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title th:text="'Market Group '+${name}" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+    <header th:insert="~{fragments/general.html :: header}"> </header>
+	<div class="container-fluid border">
+		<div class="row border">
+			<div class="col-6">
+				parent : <a th:if="${parent != null}" th:href="${parent.url}" th:text="${parent.name}" /><br />
+				<h1 th:text="${name}" />
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col" th:if="${children!=null}">
+				<h2>Sub groups</h2>
+				<table>
+					<tbody>
+						<tr th:each="child : ${children}">
+							<td><a th:href="${child.url}" th:text="${child.name}" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col" th:if="${types!=null}">
+				<h2>Types</h2>
+				<table>
+					<tbody>
+						<tr th:each="type : ${types}">
+							<td><a th:href="${type.url}" th:text="${type.name}" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</body>
