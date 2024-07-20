@@ -171,8 +171,6 @@ public abstract class ARemoteResourceService<
 				responseOk.put(data, null);
 				break;
 			default:
-				log.error("while updating {} id {}, received response code {} and error {}",
-				    data.getClass().getSimpleName(), data.getId(), responseCode, response.getError());
 				switch (responseCode / 100) {
 				case 4:
 					updateRequestError(data, response);
@@ -181,6 +179,8 @@ public abstract class ARemoteResourceService<
 					updateServerError(data, response);
 					break;
 				default:
+					log.error("while updating {} id {}, received response code {} and error {}",
+					    data.getClass().getSimpleName(), data.getId(), responseCode, response.getError());
 					throw new UnsupportedOperationException("case " + responseCode + " not handled for url" + response.getURL());
 				}
 			}
@@ -297,7 +297,11 @@ public abstract class ARemoteResourceService<
 		case 404:
 			update404(data, response);
 			return;
+		case 420:
+			update420(data, response);
+			return;
 		default:
+			log.warn("unhandled error code {} for service {}", response.getResponseCode(), fetcherName());
 			data.setExpires(Instant.now().plus(Math.min(nbErrors, 24), ChronoUnit.HOURS));
 		}
 	}
@@ -322,6 +326,11 @@ public abstract class ARemoteResourceService<
 		if (nbErrors > 4) {
 			data.setFetchActive(false);
 		}
+	}
+
+	/** error limit exceeded */
+	protected void update420(Entity data, Requested<Fetched> response) {
+		data.setExpires(response.getErrorsResetInstant());
 	}
 
 	/**

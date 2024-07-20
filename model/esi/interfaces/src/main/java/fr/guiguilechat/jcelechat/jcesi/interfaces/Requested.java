@@ -162,6 +162,13 @@ public interface Requested<T> {
 	}
 
 	/**
+	 * @return the moment we can start fetching resource again.
+	 */
+	public default Instant getErrorsResetInstant() {
+		return getDateInstant().plusSeconds(getErrorsReset());
+	}
+
+	/**
 	 * get the number of pages for a request.
 	 *
 	 * @return the number of pages specified by the header

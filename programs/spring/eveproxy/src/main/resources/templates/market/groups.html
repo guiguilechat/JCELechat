@@ -1,0 +1,33 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>Market Groups</title>
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+    <header th:insert="~{fragments/general.html :: header}"> </header>
+	<div class="container-fluid border">
+		<div class="row border">
+			<div class="col-6">
+				<h1>Market groups</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col" th:if="${roots != null}">
+				<h2>Roots</h2>
+				<table>
+					<tbody>
+						<tr th:each="root : ${roots}">
+							<td><a th:href="${root.url}" th:text="${root.name}" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</body>

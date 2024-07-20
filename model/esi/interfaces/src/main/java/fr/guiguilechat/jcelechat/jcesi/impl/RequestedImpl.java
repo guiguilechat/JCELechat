@@ -6,9 +6,13 @@ import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
+@Builder
 @AllArgsConstructor
 public class RequestedImpl<T> implements Requested<T> {
 
@@ -41,7 +45,7 @@ public class RequestedImpl<T> implements Requested<T> {
 
 	@Override
 	public <U> RequestedImpl<U> mapBody(Function<T, U> mapper) {
-		return new RequestedImpl<>(URL, responseCode, error, mapper.apply(OK), headers);
+		return new RequestedImpl<>(URL, responseCode, error, OK == null ? null : mapper.apply(OK), headers);
 	}
 
 	@Override

@@ -137,6 +137,17 @@ public class MarketHtmlController {
 		return "market/group";
 	}
 
+	@Transactional
+	@GetMapping("/groups")
+	public String getMarketGroups(Model model) {
+		model.addAttribute("roots",
+		    marketGroupService.roots().stream()
+		    .sorted(Comparator.comparing(MarketGroup::name))
+		    .map(this::linkedMarketGroup)
+		        .toList());
+		return "market/groups";
+	}
+
 	public URI uri(MarketGroup marketGroup) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getMarketGroup", null, "" + marketGroup.getId()).build()
 		    .toUri();
