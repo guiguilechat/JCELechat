@@ -1,3 +1,8 @@
 reset
-mvn versions:display-plugin-updates
-mvn versions:display-dependency-updates
+echo checking plugins on root module
+echo
+mvn -ntp -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true versions:display-plugin-updates -pl .
+echo
+echo checking dependencies on root module
+echo
+mvn -ntp -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true versions:display-dependency-updates -pl .
