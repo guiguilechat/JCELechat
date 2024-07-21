@@ -80,7 +80,7 @@ logging:
                libs:
                   spring:
                      fetchers: debug
-                     trade: info
+                     trade: debug
                programs:
                   spring:
                      eveproxy: trace

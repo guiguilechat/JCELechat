@@ -395,6 +395,11 @@ public abstract class ARemoteResourceService<
 		if (!list.skip && (listExpires == null || listExpires.isBefore(Instant.now()))) {
 			Function<Map<String, String>, Requested<List<Id>>> fetcher = listFetcher();
 			if (fetcher != null) {
+				int nbRemainingErrors = esiStatusService().availErrors();
+				if (nbRemainingErrors <= getUpdate().getErrorsMin()) {
+					log.trace("{} skip pre update as only {} remaining errors", fetcherName(), nbRemainingErrors);
+					return;
+				}
 				log.trace("{} started listing new entries", fetcherName());
 				Map<String, String> properties = new HashMap<>();
 				if (lastListEtag != null) {
@@ -481,7 +486,8 @@ public abstract class ARemoteResourceService<
 		int maxFromCycle = getUpdate().getMax();
 		int remainErrors = esiStatusService().availErrors();
 		if (remainErrors <= getUpdate().getErrorsMin()) {
-			maxFromCycle = 0;
+			log.trace("{} skip updates as only {} remaining errors", fetcherName(), remainErrors);
+			return 0;
 		} else if (remainErrors < getUpdate().getErrorsForMax()) {
 			maxFromCycle = (int) Math.ceil(1.0 * maxFromCycle * getUpdate().getErrorsForMax() / remainErrors);
 		}
@@ -492,7 +498,7 @@ public abstract class ARemoteResourceService<
 			maxFromRate = (int) (getUpdate().getRate() * elapsedms / 1000 - lastBatchSize);
 		}
 		int ret = Math.min(maxFromCycle, maxFromRate);
-		log.debug(" {} fetch={} limits: rate={} cycle={}", fetcherName(), ret, maxFromRate, maxFromCycle);
+		log.debug(" {} max={} from rate={} cycle={}", fetcherName(), ret, maxFromRate, maxFromCycle);
 		return ret;
 	}
 

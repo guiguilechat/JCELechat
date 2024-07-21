@@ -151,7 +151,7 @@ public abstract class AFetchedResourceService<
 
 	@PostConstruct
 	protected void debugConfig() {
-		log.debug("initialized {} with {}", fetcherName(), getUpdate());
+		log.debug("{} config {}", fetcherName(), getUpdate());
 	}
 
 	/**

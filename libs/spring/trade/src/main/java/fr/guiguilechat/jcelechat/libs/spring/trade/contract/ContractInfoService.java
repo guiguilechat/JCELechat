@@ -25,7 +25,8 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.info")
-@Order(4) // depends on type for the items
+@Order(10) // depends on type for the items ; then set to a higher number because it's
+           // likely to create more errors
 public class ContractInfoService extends ARemoteResourceService<
     ContractInfo,
     Integer,
