@@ -56,7 +56,13 @@ public abstract class AFetchedResourceService<
 
 	protected abstract Entity create(Id entityId);
 
-	protected Entity createMinimal(Id entityId) {
+	/**
+	 * create a minimal entity
+	 * 
+	 * @param entityId
+	 * @return
+	 */
+	public Entity createMinimal(Id entityId) {
 		Entity e = create(entityId);
 		log.trace("create entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
 		return e;

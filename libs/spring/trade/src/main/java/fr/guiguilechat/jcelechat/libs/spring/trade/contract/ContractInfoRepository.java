@@ -1,12 +1,19 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
+import java.time.Instant;
 import java.util.List;
+
+import org.springframework.data.domain.Limit;
 
 import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
 
 public interface ContractInfoRepository extends IRemoteResourceRepository<ContractInfo, Integer> {
 
-	public List<ContractInfo> findByRegionAndRemovedFalse(ContractRegion region);
+	public List<ContractInfo> findByRegionIdAndRemovedFalseAndFetchedTrue(int regionId);
 
+	public List<ContractInfo> findByRegionInAndRemovedFalse(Iterable<ContractRegion> regions);
+
+	public List<ContractInfo> findByFetchActiveTrueAndRemovedFalseAndExpiresLessThanOrderByExpiresAsc(Instant now,
+	    Limit limit);
 
 }

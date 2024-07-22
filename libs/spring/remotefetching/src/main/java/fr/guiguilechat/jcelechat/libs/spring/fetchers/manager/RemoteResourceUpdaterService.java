@@ -73,6 +73,8 @@ public class RemoteResourceUpdaterService {
 				}
 			}
 			nextUpdate = Instant.now().plusSeconds(updatedDelay);
+		} else {
+			nextUpdate = Instant.now().plusSeconds(1);
 		}
 	}
 

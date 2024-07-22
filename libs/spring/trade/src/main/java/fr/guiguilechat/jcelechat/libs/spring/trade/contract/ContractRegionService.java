@@ -25,12 +25,9 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.region")
 @Order(2) // depends on region
-public class ContractRegionService 
-	extends ARemoteResourceService<
-		ContractRegion,
-		Integer,
-    List<R_get_contracts_public_region_id>,
-		ContractRegionRepository>{
+public class ContractRegionService
+    extends
+    ARemoteResourceService<ContractRegion, Integer, List<R_get_contracts_public_region_id>, ContractRegionRepository> {
 
 	@Lazy
 	private final ContractInfoService contractInfoService;
@@ -57,13 +54,29 @@ public class ContractRegionService
 	@Override
 	protected void updateResponseOk(Map<ContractRegion, List<R_get_contracts_public_region_id>> responseOk) {
 		super.updateResponseOk(responseOk);
+		Map<ContractRegion, Map<Integer, ContractInfo>> regionToIdToContract = contractInfoService
+		    .presentByRegion(responseOk.keySet());
+		List<ContractInfo> updated = new ArrayList<>();
 		for (Entry<ContractRegion, List<R_get_contracts_public_region_id>> e : responseOk.entrySet()) {
-			createForRegion(e.getKey(), e.getValue());
+			updated.addAll(createForRegion(e.getKey(), e.getValue(), regionToIdToContract.get(e.getKey())));
 		}
+		log.trace("saving {} updated contract infos", updated.size());
+		contractInfoService.saveAll(updated);
 	}
 
-	public void createForRegion(ContractRegion region, List<R_get_contracts_public_region_id> contracts) {
-		Map<Integer, ContractInfo> existingPresent = contractInfoService.byRegionPresent(region);
+	/**
+	 * update if needed, and create the new contracts to save later
+	 * 
+	 * @param region    region we fetched the contracts for
+	 * @param contracts list of corresponding contracts
+	 * @return list of contract info that have been modified
+	 */
+	protected List<ContractInfo> createForRegion(ContractRegion region,
+	    List<R_get_contracts_public_region_id> contracts,
+	    Map<Integer, ContractInfo> existingPresent) {
+		log.debug("contracts list {}({}) : received {}, stored active {}", region.getRegion().getName(), region.getId(),
+		    contracts.size(),
+		    existingPresent.size());
 
 		// contract stored that are no more present are marked as removed and to be
 		// fetched again, to find out if they are completed (403) or canceled (404)
@@ -77,28 +90,17 @@ public class ContractRegionService
 				removed.add(e.getValue());
 			}
 		}
-		contractInfoService.saveAll(removed);
-		if (removed.size() > 0) {
-			log.debug("{} contracts have been removed in region {}", removed.size(), region.getId());
-		}
+		ArrayList<ContractInfo> ret = new ArrayList<>(removed);
 
 		// then create the new ones
-		List<Integer> missingIds = contracts.stream()
+		List<ContractInfo> newContracts = contracts.stream()
 		    .filter(c -> !existingPresent.containsKey(c.contract_id))
-		    .map(c -> c.contract_id)
+		    .map(c -> contractInfoService.createMinimal(c.contract_id).update(region, c))
 		    .toList();
-		Map<Integer, ContractInfo> newContracts = contractInfoService.createIfAbsent(missingIds);
-		for (R_get_contracts_public_region_id c : contracts) {
-			ContractInfo ci = newContracts.get(c.contract_id);
-			if (ci != null) {
-				ci.update(region, c);
-			}
-		}
-		contractInfoService.saveAll(newContracts.values());
-		if (newContracts.size() > 0) {
-			log.debug("{} new contracts in region {}", newContracts.size(), region.getId());
-	}
-
+		log.debug(" contract list in {}({}) : {} new, {} removed", region.getRegion().getName(), region.getId(),
+		    newContracts.size(), removed.size());
+		ret.addAll(newContracts);
+		return ret;
 	}
 
 	@Override

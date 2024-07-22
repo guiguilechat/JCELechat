@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -11,6 +12,7 @@ import java.util.stream.Stream;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.annotation.Order;
+import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -21,6 +23,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
@@ -42,6 +45,14 @@ public class ContractInfoService extends ARemoteResourceService<
 
 	@Lazy
 	private final TypeService typeService;
+
+	@Getter
+	@Setter
+	/**
+	 * number of fetch we accept to do, at max, when we have error contracts (those
+	 * removed we want to know if they were completed or not)
+	 */
+	private int maxExpectedErrors = 50;
 
 	@Override
 	protected Requested<R_get_contracts_public_items_contract_id[]> fetchData(Integer id,
@@ -98,14 +109,45 @@ public class ContractInfoService extends ARemoteResourceService<
 		updateMetaOk(data, response);
 	}
 
+	/**
+	 * only fetch the contracts which are not removed first, then fetch the status
+	 * of contracts that are removed.
+	 */
+	@Override
+	protected List<ContractInfo> listToUpdate() {
+		lastBatchSize = nextBatchSize();
+		if (lastBatchSize < 1) {
+			return List.of();
+		}
+		List<ContractInfo> ret = repo().findByFetchActiveTrueAndRemovedFalseAndExpiresLessThanOrderByExpiresAsc(
+		    Instant.now(), Limit.of(lastBatchSize));
+		if (ret.isEmpty()) {
+			ret = repo().findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(),
+			    Limit.of(Math.min(lastBatchSize / 2, maxExpectedErrors)));
+		}
+		return ret;
+	}
+
 	//
 	// usage
 	//
 
-	public Map<Integer, ContractInfo> byRegionPresent(ContractRegion region) {
-		return repo().findByRegionAndRemovedFalse(region).stream()
+	/**
+	 * @param region a contract region
+	 * @return list of contracts in given region that were still available at the
+	 *           last update of that region's contract, and for which we already
+	 *           have fetched the data.
+	 */
+	public Map<Integer, ContractInfo> presentFetchedByRegion(int regionId) {
+		return repo().findByRegionIdAndRemovedFalseAndFetchedTrue(regionId).stream()
 		    .collect(Collectors.toMap(ContractInfo::getId, c -> c));
 	}
+
+	public Map<ContractRegion, Map<Integer, ContractInfo>> presentByRegion(Iterable<ContractRegion> regions) {
+		return repo().findByRegionInAndRemovedFalse(regions).stream()
+		    .collect(Collectors.groupingBy(ContractInfo::getRegion, Collectors.toMap(ContractInfo::getId, c -> c)));
+	}
+
 
 	//
 	// cache management

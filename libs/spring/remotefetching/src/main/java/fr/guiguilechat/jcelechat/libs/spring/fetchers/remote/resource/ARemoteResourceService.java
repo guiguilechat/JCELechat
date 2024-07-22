@@ -60,7 +60,7 @@ public abstract class ARemoteResourceService<
 	}
 
 	@Override
-	protected Entity createMinimal(Id entityId) {
+	public Entity createMinimal(Id entityId) {
 		Entity e = super.createMinimal(entityId);
 		e.setFetchActive(isActivateNewEntry());
 		return e;
@@ -452,7 +452,7 @@ public abstract class ARemoteResourceService<
 	// actual update
 	//
 
-	private int lastBatchSize = 0;
+	protected int lastBatchSize = 0;
 
 	/**
 	 * @return number of remaining entities that could be updated
