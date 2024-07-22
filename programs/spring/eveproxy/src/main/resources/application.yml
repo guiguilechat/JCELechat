@@ -1,0 +1,61 @@
+esi:
+   affiliations:
+      corporation:
+         update:
+            skip: false
+   items:
+      category:
+         update:
+            delayUpdated: 3600
+            skip: false
+      group:
+         update:
+            delayUpdated: 3600
+            skip: false
+      marketgroup:
+         update:
+            delayUpdated: 3600
+            skip: false
+      type:
+         update:
+            delayUpdated: 3600
+            skip: false
+   npc:
+      lpcorporation:
+         update:
+            delayUpdated: 3600
+            skip: false
+   trade:
+      contract:
+         info:
+            update:
+               skip: false
+         region:
+            list:
+               skip: false
+            update:
+               skip: false
+      market:
+         list:
+            skip: false
+         update:
+            skip: false
+   universe:
+      region:
+         update:
+            delayUpdated: 3600
+            skip: false
+      solarSystem:
+         asteroidbelts: false
+         planets: false
+         moons: false
+         update:
+            delayUpdated: 3600
+            skip: false
+         list:
+            skip: false
+   updater:
+      default:
+         skip: true
+      delay: 0
+      period: 2000
