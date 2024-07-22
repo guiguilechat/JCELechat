@@ -58,7 +58,11 @@ public class ContractRegionService
 		    .presentByRegion(responseOk.keySet());
 		List<ContractInfo> updated = new ArrayList<>();
 		for (Entry<ContractRegion, List<R_get_contracts_public_region_id>> e : responseOk.entrySet()) {
-			updated.addAll(createForRegion(e.getKey(), e.getValue(), regionToIdToContract.get(e.getKey())));
+			updated.addAll(
+			    createForRegion(
+			        e.getKey(),
+			        e.getValue(),
+			        regionToIdToContract.getOrDefault(e.getKey(), Map.of())));
 		}
 		log.trace("saving {} updated contract infos", updated.size());
 		contractInfoService.saveAll(updated);
