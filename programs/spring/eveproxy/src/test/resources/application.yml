@@ -4,27 +4,26 @@ esi:
          update:
             skip: false
    items:
-      attribute:
-         update:
-            skip: true
       category:
          update:
+            delayUpdated: 3600
             skip: false
-      effect:
-         update:
-            skip: true
       group:
          update:
+            delayUpdated: 3600
             skip: false
       marketgroup:
          update:
+            delayUpdated: 3600
             skip: false
       type:
          update:
+            delayUpdated: 3600
             skip: false
    npc:
       lpcorporation:
          update:
+            delayUpdated: 3600
             skip: false
    trade:
       contract:
@@ -37,9 +36,6 @@ esi:
                skip: false
             update:
                skip: false
-      history:
-         update:
-            skip: true
       market:
          list:
             init: 10000002
@@ -47,20 +43,16 @@ esi:
          update:
             skip: false
    universe:
-      moon:
-         update:
-            skip: true
-      planet:
-         update:
-            skip: true
       region:
          update:
+            delayUpdated: 3600
             skip: false
       solarSystem:
          asteroidbelts: false
          planets: false
          moons: false
          update:
+            delayUpdated: 3600
             skip: false
          list:
             skip: true
