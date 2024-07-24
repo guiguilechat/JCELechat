@@ -1,3 +1,5 @@
+# start a server storing data in another container
+
 version: '3.8'
 services:
    database:
@@ -21,12 +23,6 @@ services:
       - SPRING_DATASOURCE_USERNAME=eveproxy
 # use memory cache
       - SPRING_CACHE_TYPE=simple
-# disable fetching of moons and asteroid belts
-      - esi_universe_solarsystem_asteroidbelts=false
-      - esi_universe_solarsystem_planets=false
-      - esi_universe_solarsystem_moons=false
-# logging
-      - logging.level.fr.guiguilechat.jcelechat.libs.spring.trade=debug
       ports:
       - 48080:8080
       restart: unless-stopped

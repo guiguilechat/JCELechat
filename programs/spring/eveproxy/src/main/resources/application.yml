@@ -1,3 +1,5 @@
+# specific case : we only start the required fetch
+
 esi:
    affiliations:
       corporation:
@@ -31,13 +33,9 @@ esi:
             update:
                skip: false
          region:
-            list:
-               skip: false
             update:
                skip: false
       market:
-         list:
-            skip: false
          update:
             skip: false
    universe:
