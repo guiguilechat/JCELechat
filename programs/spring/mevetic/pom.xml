@@ -132,7 +132,7 @@
 				</configuration>
 				<executions>
 					<execution>
-						<id>package-latest</id>
+						<id>instgall-latest</id>
 						<configuration>
 							<image>
 								<publish>false</publish>
@@ -141,7 +141,7 @@
 						<goals>
 							<goal>build-image-no-fork</goal>
 						</goals>
-						<phase>package</phase>
+						<phase>install</phase>
 					</execution>
 					<execution>
 						<id>build-version</id>

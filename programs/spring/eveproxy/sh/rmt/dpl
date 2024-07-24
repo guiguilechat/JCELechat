@@ -3,6 +3,5 @@
 
 source $HOME/.config/EveProxy/remote.cfg\
 && mvn clean package\
-&& scp target/EveProxy.war $RMT_SSH:\
-&& ssh $RMT_SSH mv EveProxy.war /var/lib/tomcat10/webapps/
+&& scp target/EveProxy.war $RMT_SSH:/var/lib/tomcat10/webapps/
 

@@ -135,7 +135,7 @@ see https://hub.docker.com/repository/docker/glechat/noscrapeve/general</descrip
 				</configuration>
 				<executions>
 					<execution>
-						<id>package-latest</id>
+						<id>install-latest</id>
 						<configuration>
 							<image>
 								<publish>false</publish>
@@ -144,7 +144,7 @@ see https://hub.docker.com/repository/docker/glechat/noscrapeve/general</descrip
 						<goals>
 							<goal>build-image-no-fork</goal>
 						</goals>
-						<phase>package</phase>
+						<phase>install</phase>
 					</execution>
 					<execution>
 						<id>build-version</id>

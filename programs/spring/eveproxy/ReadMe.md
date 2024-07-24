@@ -2,7 +2,7 @@
 
 This program uses various Eve libs that fetch and store data into a DB to present them as an API / HTML.
 
-## Installation as docker container
+## Installation from docker compose
 
 The [example docker compose](docker/compose) contains exampless of starting configurations.
 
@@ -37,13 +37,11 @@ docker container rm -f eveproxy-postgres-db eveproxy-postgres-server
 
 Another dockerfile in the same directory contains also a redis instance to delegate the cache to this server. This gives more control over the cache (I guess ?)
 
-## Installation of working env
+## Installation on local dev env
 
-### Local install
+The dev env allows to deploy locally the image that you just created, typically to test modification on the classes.
 
-The working env allows to deploy locally the image that you just created, typically to test modification on the classes.
-
-This env is automatically updated by maven when the "package" goal is called (eg package, install, deploy). Therefore to update the local env, you can either run `mvn install` in that directory, or `sh/install` in the root module directory to bundle the modifications added in other modules.
+This env is automatically updated by maven when the "install" goal is called (eg install, deploy). Therefore to update the local env, you can either run `mvn install` in that directory, or `sh/install` in the root module directory to bundle the modifications added in other modules.
 
 Then to start it, a script [`sh/dk`](sh/dk) is present.
 
@@ -124,8 +122,8 @@ sudo -u postgres psql -c "drop user eveproxy"
 ### Tomcat
 
 This will make tomcat load a specific properties for the app.
-This is only important if your tomcat is shared. Otherwise see next section
 
+You can then modify that file to 
 
 ``` bash
 sudo tee /etc/tomcat10/Catalina/localhost/EveProxy.xml <<- EOF
@@ -137,17 +135,28 @@ EOF
 
 sudo chgrp tomcat /etc/tomcat10/Catalina/localhost/EveProxy.xml
 sudo mkdir -p /var/EveProxy
-
-sudo tee /var/EveProxy/application.yml << EOF
+sudo tee /var/EveProxy/application.yml>> /dev/null << EOF
+logging:
+   level:
+      fr:
+         guiguilechat:
+            jcelechat:
+               jcesi: INFO
+               libs:
+                  spring:
+                     fetchers: debug
+                     trade: debug
+               programs:
+                  spring:
+                     eveproxy: trace
 spring:
-	datasource:
-		password: $PGPASSWORD
-		url: jdbc:postgresql://localhost:5432/eveproxy
-		username: eveproxy
-
-
+   cache:
+      type: simple
+   datasource:
+      password: $PGPASSWORD
+      url: jdbc:postgresql://localhost:5432/eveproxy
+      username: eveproxy
 EOF
-
 sudo chgrp -R tomcat /var/EveProxy
 ```
 
@@ -182,6 +191,8 @@ Then run `sh/rmt/dpl` to build and deploy the app remotely.
 #### monitor the remote logs
 
 run the command `sh/rmt/log200` for last 200.
+
+If there is none, use your system's logs to find why . Typically `source $HOME/.config/EveProxy/remote.cfg && ssh $RMT_SSH journalctl -n 1000 -u tomcat10.service`
 
 
 #### check http access
