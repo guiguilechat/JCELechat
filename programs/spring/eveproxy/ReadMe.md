@@ -135,27 +135,16 @@ EOF
 
 sudo chgrp tomcat /etc/tomcat10/Catalina/localhost/EveProxy.xml
 sudo mkdir -p /var/EveProxy
-sudo tee /var/EveProxy/application.yml>> /dev/null << EOF
-logging:
-   level:
-      fr:
-         guiguilechat:
-            jcelechat:
-               jcesi: INFO
-               libs:
-                  spring:
-                     fetchers: debug
-                     trade: debug
-               programs:
-                  spring:
-                     eveproxy: trace
-spring:
-   cache:
-      type: simple
-   datasource:
-      password: $PGPASSWORD
-      url: jdbc:postgresql://localhost:5432/eveproxy
-      username: eveproxy
+
+sudo tee /var/EveProxy/application.properties>> /dev/null << EOF
+logging.level.fr.guiguilechat.jcelechat.jcesi=info
+logging.level.fr.guiguilechat.jcelechat.libs.spring=debug
+logging.level.fr.guiguilechat.jcelechat.programs=trace
+
+spring.cache.type=simple
+spring.datasource.password=$PGPASSWORD
+spring.datasource.url=jdbc:postgresql://localhost:5432/eveproxy
+spring.datasource.username=eveproxy
 EOF
 sudo chgrp -R tomcat /var/EveProxy
 ```
