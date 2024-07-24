@@ -34,11 +34,18 @@ public class ESIStatusService {
 			log.info(" ESI is in VIP mode, skipping");
 			return 0;
 		}
-		if (esiAccessReq.getResponseCode() == 420) {
+		switch (esiAccessReq.getResponseCode()) {
+		case 420:
 			errorReset = esiAccessReq.getErrorsResetInstant();
-			log.debug("got a 420, prevent fetch until {}", errorReset);
+			log.debug("esi error limit reached (420), prevent fetch until {}", errorReset);
+			break;
+		case 503:
+			errorReset = Instant.now().plusSeconds(10);
+			log.debug("esi not avail (503), prevent fetch until {}", errorReset);
+			break;
+		default:
+			log.info(" could not get ESI status, skipping for {}", esiAccessReq.getResponseCode());
 		}
-		log.info(" could not get ESI status, skipping");
 		return 0;
 	}
 }
