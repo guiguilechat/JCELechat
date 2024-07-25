@@ -51,4 +51,16 @@ public class LinkCorporationOfferService {
 		return repo().findAllByObservedIdAndOfferLpCostLessThanEqualOrderByOfferIdAsc(observedId, lpQuantity);
 	}
 
+	public static record CorporationLPOffers(ObservedCorporation corporation, int nbLPOffers) {
+
+	}
+
+	public List<CorporationLPOffers> listCorporationsWithLPOffers() {
+		return repo().listCorporationsWithLPOffers().stream()
+		    .map(arr -> new CorporationLPOffers(
+		        (ObservedCorporation) arr[0],
+		        ((Number) arr[1]).intValue()))
+		    .toList();
+	}
+
 }

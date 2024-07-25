@@ -61,7 +61,7 @@ public class NpcHtmlController {
 		model.addAttribute("offerMats", offer.getRequirements().stream()
 				.map(mat -> dogmaHtmlController.linkedMaterial(mat.getType(), mat.getQuantity()))
 				.toList());
-		model.addAttribute("corporation", linkedObservedCorporation(link.getObserved()));
+		model.addAttribute("corporation", linkedObservedCorporation(link.getObserved(), link.getObserved().getNbOffers()));
 		model.addAttribute("product", dogmaHtmlController.linkedType(offer.getType()));
 		return "npc/offer";
 	}
@@ -159,20 +159,22 @@ public class NpcHtmlController {
 
 	}
 
-	public LinkedObservedCorporation linkedObservedCorporation(ObservedCorporation corp) {
-		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporation().nameOrId(),
-		    (int) corp.getOffers().stream().filter(of -> of.getOffer() != null && of.getOffer().getLpCost() > 0).count());
+	public LinkedObservedCorporation linkedObservedCorporation(ObservedCorporation corp, int nbLpOffers) {
+		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporation().nameOrId(), nbLpOffers);
 	}
 
 	@Transactional
 	@GetMapping("/corporations")
 	public String corporationsIndex(Model model) {
-		model.addAttribute("corporations",
-		    observedCorporationService.allById().values().stream()
-						.map(this::linkedObservedCorporation)
-						.filter(ci -> ci.nbOffers() > 0)
-		        .sorted(Comparator.comparing(LinkedObservedCorporation::name))
-						.toList());
+		long startMs = System.currentTimeMillis();
+		List<LinkedObservedCorporation> npcCorporations = linkCorporationOfferService
+		    .listCorporationsWithLPOffers().stream()
+		    .map(lpc -> linkedObservedCorporation(lpc.corporation(), lpc.nbLPOffers()))
+		    .sorted(Comparator.comparing(LinkedObservedCorporation::name))
+		    .toList();
+		long postFetch = System.currentTimeMillis();
+		log.trace("fetched {} observed LP corporations in {}s", npcCorporations.size(), (postFetch - startMs) / 1000);
+		model.addAttribute("corporations", npcCorporations);
 		return "npc/corporations";
 	}
 

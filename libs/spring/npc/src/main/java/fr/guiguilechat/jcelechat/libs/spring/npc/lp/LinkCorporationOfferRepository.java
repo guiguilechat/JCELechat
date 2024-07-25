@@ -20,4 +20,18 @@ public interface LinkCorporationOfferRepository extends JpaRepository<LinkCorpor
 
 	List<LinkCorporationOffer> findAllByObservedIdAndOfferLpCostLessThanEqualOrderByOfferIdAsc(
 	    int observedId, int nbLp);
+
+	@Query("""
+select
+	off.observed,
+	count(*)
+from
+	EsiNpcLPCorporationOffer off
+where
+	off.offer.lpCost>0
+group by
+	off.observed
+""")
+
+	List<Object[]> listCorporationsWithLPOffers();
 }

@@ -1,6 +1,0 @@
-#!/bin/bash
-# get the last 3000 lines of logs then follow
-
-source $HOME/.config/EveProxy/remote.cfg\
-&& reset\
-&& ssh $RMT_SSH tail -n 3000 -f /var/log/tomcat10/catalina.out
