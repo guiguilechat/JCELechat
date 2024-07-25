@@ -25,6 +25,17 @@ import lombok.Setter;
 @Getter
 @Setter
 public class MarketGroup extends ARemoteResource<Integer, R_get_markets_groups_market_group_id> {
+	/**
+	 * parent_group_id integer
+	 */
+	@ManyToOne
+	private MarketGroup parent;
+
+	@OneToMany(mappedBy = "parent")
+	private List<MarketGroup> subGroups;
+
+	@OneToMany(mappedBy = "marketGroup")
+	private List<Type> types;
 
 	/**
 	 * description string
@@ -34,17 +45,6 @@ public class MarketGroup extends ARemoteResource<Integer, R_get_markets_groups_m
 	 * name string
 	 */
 	private String name;
-	/**
-	 * parent_group_id integer
-	 */
-	@ManyToOne
-	private MarketGroup parent;
-
-	@OneToMany(mappedBy = "marketGroup")
-	private List<Type> types;
-
-	@OneToMany(mappedBy = "parent")
-	private List<MarketGroup> subGroups;
 
 	public String name() {
 		if (name != null) {

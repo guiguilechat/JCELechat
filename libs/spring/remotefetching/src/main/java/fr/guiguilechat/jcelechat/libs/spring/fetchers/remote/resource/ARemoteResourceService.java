@@ -400,6 +400,7 @@ public abstract class ARemoteResourceService<
 					log.trace("{} skip pre update as only {} remaining errors", fetcherName(), nbRemainingErrors);
 					return;
 				}
+				long startms = System.currentTimeMillis();
 				log.trace("{} started listing new entries", fetcherName());
 				Map<String, String> properties = new HashMap<>();
 				if (lastListEtag != null) {
@@ -409,8 +410,9 @@ public abstract class ARemoteResourceService<
 				if (resp != null) {
 					switch (resp.getResponseCode()) {
 					case 200:
+						long postFetch = System.currentTimeMillis();
+						log.debug(" {} listed {} entries in {}s", fetcherName(), resp.getOK().size(), (postFetch - startms) / 1000);
 						onNewListFetched(createIfAbsent(resp.getOK()));
-						log.debug(" {} listed {} entries", fetcherName(), resp.getOK().size());
 						lastListEtag = resp.getETag();
 						listExpires = resp.getExpiresInstant();
 						break;
@@ -426,7 +428,8 @@ public abstract class ARemoteResourceService<
 					log.warn("update service {} received null list of entities",
 					    getClass().getSimpleName());
 				}
-				log.trace("{} finished listing new entries", fetcherName());
+				long endms = System.currentTimeMillis();
+				log.trace("{} finished listing new entriesin {}s", fetcherName(), (endms - startms) / 1000);
 			}
 		}
 	}
@@ -526,7 +529,7 @@ public abstract class ARemoteResourceService<
 	}
 
 	protected int update(List<Entity> data) {
-		log.trace("{} updating list of {} elements}", fetcherName(), data.size());
+		log.trace("{} updating {} entities}", fetcherName(), data.size());
 		Map<Entity, Fetched> successes = fetchData(data);
 		int success = successes.size();
 		// remove those with null Fetched : they are 304
@@ -535,7 +538,7 @@ public abstract class ARemoteResourceService<
 			updateResponseOk(successes);
 		}
 		saveAll(data);
-		log.trace(" {} updated list of {} elements with {} success", fetcherName(), data.size(), successes.size());
+		log.trace(" {} updated {} entities with {} changes", fetcherName(), data.size(), successes.size());
 		return success;
 	}
 

@@ -143,7 +143,7 @@ logging.level.fr.guiguilechat.jcelechat.programs=trace
 
 spring.cache.type=simple
 spring.datasource.password=$PGPASSWORD
-spring.datasource.url=jdbc:postgresql://localhost:5432/eveproxy
+spring.datasource.url=jdbc:postgresql://localhost:5432/eveproxy?reWriteBatchedInserts=true
 spring.datasource.username=eveproxy
 EOF
 sudo chgrp -R tomcat /var/EveProxy
