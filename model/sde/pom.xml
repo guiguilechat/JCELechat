@@ -20,15 +20,6 @@
 		<module>types</module>
 		<module>types-compiler</module>
 	</modules>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>types-compiler</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 	<build>
 		<plugins>
 			<plugin>
@@ -54,6 +45,10 @@
 		</plugins>
 	</build>
 	<dependencies>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model</groupId>
+			<artifactId>formula</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>fr.lelouet.tools.application</groupId>
 			<artifactId>YamlSettings</artifactId>

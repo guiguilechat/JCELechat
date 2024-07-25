@@ -1,5 +1,9 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services;
 
+import static fr.guiguilechat.jcelechat.model.formula.Market.BROKER_FEE_MINIMUM;
+import static fr.guiguilechat.jcelechat.model.formula.Market.BROKER_RELIST_MINIMUM;
+import static fr.guiguilechat.jcelechat.model.formula.Market.MARKET_TAX_MINIMUM;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -46,14 +50,14 @@ public class LPOfferEvalService {
 	public static class EvalParams {
 
 		private double bpcost = 1000000.0;
-		private double brpct = 2.0;
+		private double brpct = (BROKER_FEE_MINIMUM + 5 * BROKER_RELIST_MINIMUM) * 100;
 		private long location = MarketLineService.JITAIV_ID;
 		private int lp = 100000;
 		private double margin = 5.0;
 		private double marginPerHour = 0.5;
 		private MaterialSourcing materialSourcing = MaterialSourcing.BUY_SO_MASS;
 		private ProductValuator productValuator = ProductValuator.SELL_BO_MASS;
-		private double taxpct = 3.6;
+		private double taxpct = MARKET_TAX_MINIMUM * 100;
 
 	}
 

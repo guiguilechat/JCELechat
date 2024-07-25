@@ -11,6 +11,10 @@
 	<artifactId>jcesi</artifactId>
 	<dependencies>
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model</groupId>
+			<artifactId>formula</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
