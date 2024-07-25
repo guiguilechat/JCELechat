@@ -410,12 +410,13 @@ public abstract class ARemoteResourceService<
 					switch (resp.getResponseCode()) {
 					case 200:
 						onNewListFetched(createIfAbsent(resp.getOK()));
-						log.debug(" {} listed {} new entries", fetcherName(), resp.getOK().size());
+						log.debug(" {} listed {} entries", fetcherName(), resp.getOK().size());
 						lastListEtag = resp.getETag();
 						listExpires = resp.getExpiresInstant();
 						break;
 					case 304:
 						listExpires = resp.getExpiresInstant();
+						log.trace(" {} received no list change", fetcherName());
 						break;
 					default:
 						log.warn("update service {} received invalid response {} when requesting list of entities",

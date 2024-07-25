@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.mer.updater;
 
+import java.io.FileNotFoundException;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.util.List;
@@ -88,7 +89,11 @@ public class MerUpdateService {
 			if (merfetch.error() == null) {
 				log.debug("" + localdate + " url=" + merfetch.url());
 			} else {
-				log.debug("" + localdate + " url=" + merfetch.url(), merfetch.error());
+				if (merfetch.error() instanceof FileNotFoundException fnf) {
+					log.debug("{} url= {} no file", localdate, merfetch.url());
+				} else {
+					log.debug("" + localdate + " url=" + merfetch.url(), merfetch.error());
+				}
 			}
 		}
 		return CompletableFuture.completedFuture(null);

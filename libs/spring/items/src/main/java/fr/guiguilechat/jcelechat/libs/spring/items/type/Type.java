@@ -11,7 +11,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
@@ -40,7 +39,7 @@ public class Type extends ARemoteResource<Integer, R_get_universe_types_type_id>
 	/**
 	 * dogma_effects array
 	 */
-	@ElementCollection(fetch = FetchType.EAGER)
+	@ElementCollection
 	private Map<Effect, Boolean> effectsDefault = new HashMap<>();
 
 	@ManyToOne

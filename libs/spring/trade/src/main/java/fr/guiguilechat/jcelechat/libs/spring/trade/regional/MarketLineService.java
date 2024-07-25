@@ -36,8 +36,8 @@ public class MarketLineService implements MarketRegionListener {
 		return repo.saveAllAndFlush(entities);
 	}
 
-	public void clearRegion(MarketRegion region) {
-		repo.deleteByFetchResourceIn(List.of(region));
+	public void clearRegions(Iterable<MarketRegion> regions) {
+		repo.deleteByFetchResourceIn(regions);
 	}
 
 	// usage
@@ -69,8 +69,8 @@ public class MarketLineService implements MarketRegionListener {
 				.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds)
 		    .collect(Collectors.groupingBy(ml -> ml.getType().getId()));
 		long fetched = System.currentTimeMillis();
-		log.debug(
-				"listed BO lines for " + typeIds.size() + " ids , fetch=" + (fetched - start) + "ms, ids=" + typeIds);
+		log.trace("listed {} locations of BO lines for {} type ids in {}s", ret.size(), typeIds.size(),
+		    (fetched - start) / 1000);
 		return ret;
 	}
 
@@ -85,8 +85,8 @@ public class MarketLineService implements MarketRegionListener {
 				.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds)
 		    .collect(Collectors.groupingBy(ml -> ml.getType().getId()));
 		long fetched = System.currentTimeMillis();
-		log.debug(
-				"listed SO lines for " + typeIds.size() + " ids, fetch=" + (fetched - start) + "ms, ids=" + typeIds);
+		log.trace("listed {} locations of SO lines for {} type ids in {}s", ret.size(), typeIds.size(),
+		    (fetched - start) / 1000);
 		return ret;
 	}
 
