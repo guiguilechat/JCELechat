@@ -51,7 +51,7 @@ public class RegionService
 	}
 
 	public Map<Integer, String> namesById() {
-		return repo().findAll().stream().collect(Collectors.toMap(Region::getId, Region::getName));
+		return repo().findAll().stream().collect(Collectors.toMap(Region::getId, Region::name));
 	}
 
 	public List<Region> byName(String name) {

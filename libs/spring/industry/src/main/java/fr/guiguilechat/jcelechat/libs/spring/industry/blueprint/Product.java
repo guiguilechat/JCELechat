@@ -39,6 +39,9 @@ public class Product implements Serializable {
 	private int quantity;
 
 	public static Product of(BlueprintActivity bpa, Type type, double probability, int quantity) {
+		if (type == null) {
+			throw new RuntimeException("type null for bp activity " + bpa.getType().name() + " " + bpa.getActivity());
+		}
 		return builder()
 				.activity(bpa)
 				.type(type)

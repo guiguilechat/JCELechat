@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.function.Supplier;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -60,7 +61,22 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 	private void saveBlueprints(InputStream is) {
 		sdeFileMissing = false;
 		List<Eblueprints> blueprints = new ArrayList<>(Eblueprints.from(is).values());
-		Map<Integer, Type> typesById = typeService.allById();
+		List<Integer> referencedIds = blueprints.stream().flatMap(bp -> Stream.concat(
+		    Stream.of(bp.blueprintTypeID),
+		    Stream.of(bp.activities.copying,
+		        bp.activities.invention,
+		        bp.activities.manufacturing,
+		        bp.activities.reaction,
+		        bp.activities.research_material,
+		        bp.activities.research_time)
+		        .filter(act -> act != null)
+		        .flatMap(act -> Stream.of(
+		            act.materials.stream().map(mat -> mat.typeID),
+		            act.products.stream().map(pr -> pr.typeID),
+		            act.skills.stream().map(sk -> sk.typeID))
+		            .flatMap(s -> s))))
+		    .distinct().toList();
+		Map<Integer, Type> typesById = typeService.createIfAbsent(referencedIds);
 
 		// blueprints
 		// first create all the activities that exist for each blueprint, store them by

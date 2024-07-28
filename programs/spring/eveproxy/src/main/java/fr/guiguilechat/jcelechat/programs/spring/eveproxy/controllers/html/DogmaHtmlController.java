@@ -179,7 +179,9 @@ public class DogmaHtmlController {
 			Type t = types.get(0);
 			model.addAttribute("name", t.name());
 			model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
-			model.addAttribute("marketGroup", marketHtmlController.linkedMarketGroup(t.getMarketGroup()));
+			if (t.getMarketGroup() != null) {
+				model.addAttribute("marketGroup", marketHtmlController.linkedMarketGroup(t.getMarketGroup()));
+			}
 			Group group = t.getGroup();
 			if (group != null) {
 				// can be null if type not fetched yet

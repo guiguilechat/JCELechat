@@ -1,3 +1,4 @@
+
 logging:
    level:
       fr:
@@ -6,8 +7,9 @@ logging:
                jcesi: INFO
                libs:
                   spring:
-                     fetchers: debug
                      trade: debug
+                     universe: debug
+                     update: debug                     
                programs:
                   spring:
                      eveproxy: trace

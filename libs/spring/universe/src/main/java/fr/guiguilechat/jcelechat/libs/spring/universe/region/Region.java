@@ -52,4 +52,11 @@ public class Region extends ARemoteEntity<Integer, R_get_universe_regions_region
 		setName(data.name);
 	}
 
+	public String name() {
+		if(name!=null) {
+			return name;
+		}
+		return "region:" + getId();
+	}
+
 }

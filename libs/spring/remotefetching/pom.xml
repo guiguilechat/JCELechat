@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 	<artifactId>remotefetching</artifactId>
-	<name>Spring lib Remote fetching</name>
+	<name>Spring lib Update</name>
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
