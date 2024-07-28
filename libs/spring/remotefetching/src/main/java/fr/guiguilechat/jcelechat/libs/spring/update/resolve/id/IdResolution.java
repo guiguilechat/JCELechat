@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.resolve.id;
+package fr.guiguilechat.jcelechat.libs.spring.update.resolve.id;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import jakarta.persistence.Entity;
@@ -30,7 +30,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class IdResolution extends ARemoteResource<Integer, R_post_universe_names> {
+public class IdResolution extends ARemoteEntity<Integer, R_post_universe_names> {
 
 	/**
 	 * category string

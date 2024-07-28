@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.AFetchedListElement;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;

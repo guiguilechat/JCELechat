@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface ContractRegionRepository extends IRemoteResourceRepository<ContractRegion, Integer> {
+public interface ContractRegionRepository extends IRemoteEntityRepository<ContractRegion, Integer> {
 
 }

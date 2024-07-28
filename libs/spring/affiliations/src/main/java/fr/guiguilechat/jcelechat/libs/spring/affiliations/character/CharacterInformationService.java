@@ -14,9 +14,9 @@ import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfoS
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.resolve.id.IdResolution;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.resolve.id.IdResolutionListener;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
+import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import lombok.RequiredArgsConstructor;
@@ -26,7 +26,7 @@ import lombok.RequiredArgsConstructor;
 @ConfigurationProperties(prefix = "esi.affiliations.charinfo")
 @Order(4) // depends on corporation
 public class CharacterInformationService
-    extends ARemoteResourceService<
+    extends ARemoteEntityService<
     	CharacterInformation,
     	Integer,
     	R_get_characters_character_id,

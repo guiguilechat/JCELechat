@@ -1,8 +1,8 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource;
+package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
 
 import java.time.Instant;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResource;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,7 +22,7 @@ import lombok.Setter;
 @Getter
 @MappedSuperclass
 @Setter
-public abstract class ARemoteResource<RemoteId extends Number, Fetched> extends AFetchedResource<RemoteId> {
+public abstract class ARemoteEntity<RemoteId extends Number, Fetched> extends AFetchedResource<RemoteId> {
 
 	/** date the last successful update expires at */
 	private Instant expires;
@@ -70,7 +70,7 @@ public abstract class ARemoteResource<RemoteId extends Number, Fetched> extends 
 	 * update that entity's scalar values from a newly fetched remote data.
 	 * non-scalar values (eg reference to other entities) must be updated in the
 	 * service's
-	 * {@link ARemoteResourceService#updateResponseOk(ARemoteFetchedResource, fr.guiguilechat.jcelechat.jcesi.interfaces.Requested)
+	 * {@link ARemoteEntityService#updateResponseOk(ARemoteFetchedResource, fr.guiguilechat.jcelechat.jcesi.interfaces.Requested)
 	 * updateResponseOk}
 	 */
 	public abstract void update(Fetched data);

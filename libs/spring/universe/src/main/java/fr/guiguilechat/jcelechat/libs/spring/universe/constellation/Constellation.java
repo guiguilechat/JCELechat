@@ -5,9 +5,9 @@ import java.util.List;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -30,7 +30,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Constellation extends ARemoteResource<Integer, R_get_universe_constellations_constellation_id> {
+public class Constellation extends ARemoteEntity<Integer, R_get_universe_constellations_constellation_id> {
 
 	/**
 	 * The region this constellation is in

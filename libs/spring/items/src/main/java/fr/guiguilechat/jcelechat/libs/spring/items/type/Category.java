@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -22,7 +22,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Category extends ARemoteResource<Integer, R_get_universe_categories_category_id> {
+public class Category extends ARemoteEntity<Integer, R_get_universe_categories_category_id> {
 
 	@OneToMany(mappedBy = "category")
 	private List<Group> groups;

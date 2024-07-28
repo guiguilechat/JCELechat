@@ -3,9 +3,9 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.moon;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import fr.guiguilechat.jcelechat.libs.spring.universe.planet.Planet;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_moons_moon_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -27,7 +27,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Moon extends ARemoteResource<Integer, R_get_universe_moons_moon_id> {
+public class Moon extends ARemoteEntity<Integer, R_get_universe_moons_moon_id> {
 
 	@ManyToOne
 	private Planet planet;

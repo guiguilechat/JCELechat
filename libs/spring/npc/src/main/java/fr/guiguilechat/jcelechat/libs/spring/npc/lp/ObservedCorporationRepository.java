@@ -2,9 +2,9 @@ package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface ObservedCorporationRepository extends IRemoteResourceRepository<ObservedCorporation, Integer> {
+public interface ObservedCorporationRepository extends IRemoteEntityRepository<ObservedCorporation, Integer> {
 
 	List<ObservedCorporation> findByNbOffersGreaterThanOrderByCorporationNameAsc(int minLP);
 

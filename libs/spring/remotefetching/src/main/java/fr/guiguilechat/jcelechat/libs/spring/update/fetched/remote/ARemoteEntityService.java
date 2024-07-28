@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource;
+package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
@@ -26,7 +26,7 @@ import org.springframework.transaction.annotation.Transactional;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -35,11 +35,11 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class ARemoteResourceService<
-			Entity extends ARemoteResource<Id, Fetched>,
+public abstract class ARemoteEntityService<
+			Entity extends ARemoteEntity<Id, Fetched>,
 			Id extends Number,
 			Fetched,
-			Repository extends IRemoteResourceRepository<Entity, Id>>
+			Repository extends IRemoteEntityRepository<Entity, Id>>
     extends AFetchedResourceService<Entity, Id, Repository> {
 
 	//
@@ -112,7 +112,7 @@ public abstract class ARemoteResourceService<
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, CompletableFuture<Entity>> createFetchIfNeeded(Collection<Id> entityIds) {
 		Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-		    .collect(Collectors.toMap(ARemoteResource::getId, e -> e));
+		    .collect(Collectors.toMap(ARemoteEntity::getId, e -> e));
 		return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
 		    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
 	}
@@ -529,7 +529,7 @@ public abstract class ARemoteResourceService<
 	}
 
 	protected int update(List<Entity> data) {
-		log.trace("{} updating {} entities}", fetcherName(), data.size());
+		log.trace("{} updating {} entities", fetcherName(), data.size());
 		Map<Entity, Fetched> successes = fetchData(data);
 		int success = successes.size();
 		// remove those with null Fetched : they are 304

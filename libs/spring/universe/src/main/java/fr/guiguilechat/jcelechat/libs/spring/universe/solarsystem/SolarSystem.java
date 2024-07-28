@@ -5,7 +5,6 @@ import java.util.List;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt.AsteroidBelt;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.moon.Moon;
@@ -13,6 +12,7 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.planet.Planet;
 import fr.guiguilechat.jcelechat.libs.spring.universe.star.Star;
 import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.Stargate;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -35,7 +35,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class SolarSystem extends ARemoteResource<Integer, R_get_universe_systems_system_id> {
+public class SolarSystem extends ARemoteEntity<Integer, R_get_universe_systems_system_id> {
 
 	@OneToMany(mappedBy = "solarSystem")
 	private List<AsteroidBelt> asteroidBelts;

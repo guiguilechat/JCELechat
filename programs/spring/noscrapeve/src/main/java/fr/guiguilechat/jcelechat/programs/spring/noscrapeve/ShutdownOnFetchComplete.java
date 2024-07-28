@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.manager.RemoteResourceUpdaterService.IRemoteResourceUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.RemoteResourceUpdaterService.IRemoteResourceUpdateListener;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;

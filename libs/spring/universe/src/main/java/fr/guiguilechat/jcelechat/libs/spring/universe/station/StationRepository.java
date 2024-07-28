@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.station;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface StationRepository extends IRemoteResourceRepository<Station, Integer> {
+public interface StationRepository extends IRemoteEntityRepository<Station, Integer> {
 
 }

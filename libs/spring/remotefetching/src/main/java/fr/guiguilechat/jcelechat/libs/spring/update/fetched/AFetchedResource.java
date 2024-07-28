@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.basic;
+package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
 
 import java.time.Instant;
 

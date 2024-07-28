@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.moon;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface MoonRepository extends IRemoteResourceRepository<Moon, Integer> {
+public interface MoonRepository extends IRemoteEntityRepository<Moon, Integer> {
 
 }

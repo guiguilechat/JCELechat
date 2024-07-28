@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.attributes;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface CharacterAttributesRepository extends IRemoteResourceRepository<CharacterAttributes, Integer> {
+public interface CharacterAttributesRepository extends IRemoteEntityRepository<CharacterAttributes, Integer> {
 
 }

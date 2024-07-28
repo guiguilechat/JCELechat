@@ -6,9 +6,9 @@ import java.util.Set;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_universe_stations_station_id_services;
 import jakarta.persistence.ElementCollection;
@@ -35,7 +35,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Station extends ARemoteResource<Integer, R_get_universe_stations_station_id> {
+public class Station extends ARemoteEntity<Integer, R_get_universe_stations_station_id> {
 
 	/**
 	 * The solar system this station is in

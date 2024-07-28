@@ -14,8 +14,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -27,7 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 @Order(2) // depends on region
 public class ContractRegionService
     extends
-    ARemoteResourceService<ContractRegion, Integer, List<R_get_contracts_public_region_id>, ContractRegionRepository> {
+    ARemoteEntityService<ContractRegion, Integer, List<R_get_contracts_public_region_id>, ContractRegionRepository> {
 
 	@Lazy
 	private final ContractInfoService contractInfoService;

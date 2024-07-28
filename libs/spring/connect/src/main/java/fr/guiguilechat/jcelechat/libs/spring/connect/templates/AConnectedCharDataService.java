@@ -9,9 +9,9 @@ import org.springframework.context.annotation.Lazy;
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiConnectionInterceptor.EsiUserListener;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import lombok.Getter;
@@ -32,10 +32,10 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 @Getter
 public abstract class AConnectedCharDataService<
-			Entity extends ARemoteResource<Integer, Fetched>,
+			Entity extends ARemoteEntity<Integer, Fetched>,
 			Fetched,
-			Repository extends IRemoteResourceRepository<Entity, Integer>>
-    extends ARemoteResourceService<Entity, Integer, Fetched, Repository>
+			Repository extends IRemoteEntityRepository<Entity, Integer>>
+    extends ARemoteEntityService<Entity, Integer, Fetched, Repository>
     implements EsiUserListener {
 
 	@Autowired

@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface AsteroidBeltRepository extends IRemoteResourceRepository<AsteroidBelt, Integer> {
+public interface AsteroidBeltRepository extends IRemoteEntityRepository<AsteroidBelt, Integer> {
 
 }

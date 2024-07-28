@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.basic;
+package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
 
 import java.time.Instant;
 import java.util.Collection;
@@ -13,14 +13,14 @@ import org.springframework.cache.CacheManager;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.status.ESIStatusService;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.tools.ExecutionService;
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.resolve.status.ESIStatusService;
+import fr.guiguilechat.jcelechat.libs.spring.update.tools.ExecutionService;
 import jakarta.annotation.PostConstruct;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
@@ -29,7 +29,8 @@ import lombok.extern.slf4j.Slf4j;
 public abstract class AFetchedResourceService<
 		Entity extends AFetchedResource<Id>,
     Id extends Number,
-		Repository extends IFetchedResourceRepository<Entity, Id>> {
+    Repository extends IFetchedResourceRepository<Entity, Id>>
+    implements IEntityUpdater {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -45,14 +46,6 @@ public abstract class AFetchedResourceService<
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
 	private ESIStatusService esiStatusService;
-
-	/**
-	 * @return actual class name. Used to avoid proxy name when called from outside
-	 *           service
-	 */
-	public String fetcherName() {
-		return getClass().getSimpleName();
-	}
 
 	protected abstract Entity create(Id entityId);
 
@@ -119,38 +112,7 @@ public abstract class AFetchedResourceService<
 	// update management
 	//
 
-	@Getter
-	@Setter
-	@ToString()
-	public static class UpdateConfig {
 
-		/**
-		 * if true, skip the fetch. If false, never skip. if null, use
-		 * RemoteResourceUpdaterService value
-		 */
-		private Boolean skip = null;
-
-		/** max number of fetch each cycle */
-		private int max = 1000;
-
-		/** if we have this number or more remain errors, use max updates */
-		private int errorsForMax = 90;
-
-		/** if we have this number or less remaining errors, we skip the fetching */
-		private int errorsMin = 10;
-
-		/** minimum delay, in s, between two fetch cycles. Ignored if &lt;0 */
-		private int delay = 0;
-
-		/** maximum queries per second for this service. */
-		private float rate = 1000;
-
-		/**
-		 * delay to wait for next fetch cycle when there is no update. Ignored if lower
-		 * than {@link #getDelay()}
-		 */
-		private int delayUpdated = 60;
-	}
 
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();

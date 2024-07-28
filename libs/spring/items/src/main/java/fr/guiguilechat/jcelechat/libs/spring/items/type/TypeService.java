@@ -23,13 +23,13 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResourceService.EntityUpdateListener;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.AttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.EffectService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService.EntityUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
@@ -45,7 +45,7 @@ import lombok.extern.slf4j.Slf4j;
 // depends on group effect attribute
 @Order(3)
 public class TypeService
-    extends ARemoteResourceService<Type, Integer, R_get_universe_types_type_id, TypeRepository>
+    extends ARemoteEntityService<Type, Integer, R_get_universe_types_type_id, TypeRepository>
     implements SdeUpdateListener, EntityUpdateListener {
 
 	@Lazy

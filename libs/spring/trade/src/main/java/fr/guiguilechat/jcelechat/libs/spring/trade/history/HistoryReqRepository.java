@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface HistoryReqRepository extends IRemoteResourceRepository<HistoryReq, Long> {
+public interface HistoryReqRepository extends IRemoteEntityRepository<HistoryReq, Long> {
 
 }

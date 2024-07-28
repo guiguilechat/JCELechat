@@ -2,9 +2,9 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.region;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface RegionRepository extends IRemoteResourceRepository<Region, Integer> {
+public interface RegionRepository extends IRemoteEntityRepository<Region, Integer> {
 
 	List<Region> findByNameEqualsIgnoreCase(String name);
 

@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface CategoryRepository extends IRemoteResourceRepository<Category, Integer> {
+public interface CategoryRepository extends IRemoteEntityRepository<Category, Integer> {
 
 	public Category findTop1ByNameLessThanOrderByNameDesc(String name);
 

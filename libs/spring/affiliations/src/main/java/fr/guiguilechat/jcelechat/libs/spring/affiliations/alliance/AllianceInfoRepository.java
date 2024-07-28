@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface AllianceInfoRepository extends IRemoteResourceRepository<AllianceInfo, Integer> {
+public interface AllianceInfoRepository extends IRemoteEntityRepository<AllianceInfo, Integer> {
 
 }

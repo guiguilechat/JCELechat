@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface SolarSystemRepository extends IRemoteResourceRepository<SolarSystem, Integer> {
+public interface SolarSystemRepository extends IRemoteEntityRepository<SolarSystem, Integer> {
 
 	@Query("""
 select

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list;
+package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list;
 
 import java.util.List;
 import java.util.stream.StreamSupport;

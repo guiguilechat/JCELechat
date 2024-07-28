@@ -2,9 +2,9 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface GroupRepository extends IRemoteResourceRepository<Group, Integer> {
+public interface GroupRepository extends IRemoteEntityRepository<Group, Integer> {
 
 	public List<Group> findByNameEqualsIgnoreCase(String name);
 

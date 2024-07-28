@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;

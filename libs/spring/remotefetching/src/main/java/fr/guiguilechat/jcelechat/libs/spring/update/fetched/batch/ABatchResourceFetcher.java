@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.batch;
+package fr.guiguilechat.jcelechat.libs.spring.update.fetched.batch;
 
 import java.util.HashMap;
 import java.util.List;
@@ -7,13 +7,15 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResource;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.IFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.IFetchedResourceRepository;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * abstract service to update entities in a batch
+ * abstract service to fetch all entities in a batch. Such a service does not
+ * update entities by their id, but instead fetch a list of all the entities at
+ * once.
  * 
  * @param <Entity>
  * @param <Id>

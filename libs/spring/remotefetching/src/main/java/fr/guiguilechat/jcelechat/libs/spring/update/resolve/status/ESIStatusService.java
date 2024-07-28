@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.status;
+package fr.guiguilechat.jcelechat.libs.spring.update.resolve.status;
 
 import java.time.Instant;
 
@@ -10,6 +10,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_s
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * get the status of the ESI.
+ */
 @Service
 @Slf4j
 public class ESIStatusService {

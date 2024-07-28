@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.attribute;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface AttributeRepository extends IRemoteResourceRepository<Attribute, Integer> {
+public interface AttributeRepository extends IRemoteEntityRepository<Attribute, Integer> {
 
 }

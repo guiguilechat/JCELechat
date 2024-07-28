@@ -5,8 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
@@ -31,7 +31,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Type extends ARemoteResource<Integer, R_get_universe_types_type_id> {
+public class Type extends ARemoteEntity<Integer, R_get_universe_types_type_id> {
 
 	@OneToMany(mappedBy = "type")
 	private List<TypeAttribute> attributes = new ArrayList<>();

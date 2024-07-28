@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.manager;
+package fr.guiguilechat.jcelechat.libs.spring.update.manager;
 
 import java.io.IOException;
 import java.time.Instant;
@@ -10,9 +10,6 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResource;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.IFetchedResourceRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -24,7 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class RemoteResourceUpdaterService {
 
-	private final Optional<List<AFetchedResourceService<?, ?, ?>>> fetchedServices;
+	private final Optional<List<IEntityUpdater>> fetchedServices;
 
 	//
 	// those are mostly used for debuging and stopping
@@ -58,9 +55,11 @@ public class RemoteResourceUpdaterService {
 		}
 		boolean remain = false;
 		if (!skip && fetchedServices.isPresent()) {
-			List<AFetchedResourceService<?, ?, ?>> services = fetchedServices.get();
-			log.debug("updating " + services.size() + " services");
-			remain = services.stream().filter(this::updateService).count() > 0;
+			List<IEntityUpdater> registeredServices = fetchedServices.get();
+			List<IEntityUpdater> activeServices = registeredServices.stream().filter(s -> !skipService(s))
+			    .toList();
+			log.debug("updating services : {} active / {} registered", activeServices.size(), registeredServices.size());
+			remain = activeServices.stream().filter(IEntityUpdater::fetch).count() > 0;
 		} else {
 			log.debug("skipping update of {} services with skip={}",
 			    fetchedServices.isPresent() ? fetchedServices.get().size() : 0, skip);
@@ -81,22 +80,8 @@ public class RemoteResourceUpdaterService {
 	@Value("${esi.updater.default.skip:false}")
 	private boolean defaultSkip;
 
-	/**
-	 * @param <Entity>
-	 * @param <Id>
-	 * @param <Fetched>
-	 * @param <Repository>
-	 * @param fetchedService the updater service to fetch
-	 * @return true if the given service requires more fetch after this pass
-	 */
-	protected <Entity extends AFetchedResource<Id>, Id extends Number, Repository extends IFetchedResourceRepository<Entity, Id>> boolean updateService(
-	    AFetchedResourceService<Entity, Id, Repository> fetchedService) {
-		boolean skipService = Optional.ofNullable(fetchedService.getUpdate().getSkip()).orElse(defaultSkip);
-		if (skipService) {
-			return false;
-		}
-		log.trace("start fetching {}", fetchedService.fetcherName());
-		return fetchedService.fetch();
+	protected boolean skipService(IEntityUpdater updater) {
+		return Optional.ofNullable(updater.getUpdate().getSkip()).orElse(defaultSkip);
 	}
 
 }

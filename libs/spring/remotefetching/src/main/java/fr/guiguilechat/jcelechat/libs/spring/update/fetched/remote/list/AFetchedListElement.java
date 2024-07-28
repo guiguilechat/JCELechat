@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list;
+package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

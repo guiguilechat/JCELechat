@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.regional;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface MarketRegionRepository extends IRemoteResourceRepository<MarketRegion, Integer> {
+public interface MarketRegionRepository extends IRemoteEntityRepository<MarketRegion, Integer> {
 
 }

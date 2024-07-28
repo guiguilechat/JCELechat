@@ -5,9 +5,9 @@ import java.util.List;
 
 import org.springframework.data.domain.Limit;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.IRemoteResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
-public interface ContractInfoRepository extends IRemoteResourceRepository<ContractInfo, Integer> {
+public interface ContractInfoRepository extends IRemoteEntityRepository<ContractInfo, Integer> {
 
 	public List<ContractInfo> findByRegionIdAndRemovedFalseAndFetchedTrue(int regionId);
 

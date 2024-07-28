@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.tools;
+package fr.guiguilechat.jcelechat.libs.spring.update.tools;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;

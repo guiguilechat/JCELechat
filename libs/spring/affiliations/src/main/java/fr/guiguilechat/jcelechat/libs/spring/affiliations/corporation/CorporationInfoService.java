@@ -14,9 +14,9 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.resolve.id.IdResolution;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.resolve.id.IdResolutionListener;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
+import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import lombok.RequiredArgsConstructor;
@@ -26,7 +26,7 @@ import lombok.RequiredArgsConstructor;
 @ConfigurationProperties(prefix = "esi.affiliations.corporation")
 @Order(3) // depends on alliance and faction
 public class CorporationInfoService extends
-    ARemoteResourceService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository>
+    ARemoteEntityService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository>
     implements IdResolutionListener {
 
 	@Lazy

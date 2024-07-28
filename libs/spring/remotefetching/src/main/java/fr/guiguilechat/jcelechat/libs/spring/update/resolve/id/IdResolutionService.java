@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.fetchers.resolve.id;
+package fr.guiguilechat.jcelechat.libs.spring.update.resolve.id;
 
 import java.util.HashMap;
 import java.util.List;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -23,18 +23,10 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.resolve.name")
 public class IdResolutionService
-    extends ARemoteResourceService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
+    extends ARemoteEntityService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
 
 	@Lazy
 	private final Optional<List<IdResolutionListener>> idResolutionListeners;
-
-	protected void oneNewIdResolution(IdResolution newIdResolution) {
-		if(idResolutionListeners.isPresent()) {
-			for( IdResolutionListener l : idResolutionListeners.get()) {
-				l.onNewIdResolution(newIdResolution);
-			}
-		}
-	}
 
 	@Override
 	protected IdResolution create(Integer entityId) {
@@ -64,31 +56,31 @@ public class IdResolutionService
 		}
 		Map<IdResolution, R_post_universe_names> ret = new HashMap<>();
 		int[] elementsIds = data.stream().mapToInt(IdResolution::getId).toArray();
-			Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
-			int responseCode = response.getResponseCode();
-			switch (responseCode) {
-			case 200:
-				Map<Integer, R_post_universe_names> retMapById = Stream.of(response.getOK())
-				    .collect(Collectors.toMap(r -> r.id, r -> r));
-				for (IdResolution idr : data) {
-					R_post_universe_names result = retMapById.get(idr.getId());
-					if (result != null) {
-						ret.put(idr, result);
-					} else {
-						log.error(
-						    "fetched character affiliation for " + idr.getId() + " but got ids for " + retMapById.keySet());
-						updateNullResponse(idr);
-					}
-				}
-				break;
-			default:
-				log.error("while resolving ids, received response code {} and error {}", responseCode,
-				    response.getError());
-				for (IdResolution idr : data) {
-					idr.increaseSuccessiveErrors();
-					idr.setExpiresInRandom(idr.getSuccessiveErrors() * 60);
+		Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
+		int responseCode = response.getResponseCode();
+		switch (responseCode) {
+		case 200:
+			Map<Integer, R_post_universe_names> retMapById = Stream.of(response.getOK())
+			    .collect(Collectors.toMap(r -> r.id, r -> r));
+			for (IdResolution idr : data) {
+				R_post_universe_names result = retMapById.get(idr.getId());
+				if (result != null) {
+					ret.put(idr, result);
+				} else {
+					log.error(
+					    "fetched character affiliation for " + idr.getId() + " but got ids for " + retMapById.keySet());
+					updateNullResponse(idr);
 				}
 			}
+			break;
+		default:
+			log.error("while resolving ids, received response code {} and error {}", responseCode,
+			    response.getError());
+			for (IdResolution idr : data) {
+				idr.increaseSuccessiveErrors();
+				idr.setExpiresInRandom(idr.getSuccessiveErrors() * 60);
+			}
+		}
 		return ret;
 
 	}

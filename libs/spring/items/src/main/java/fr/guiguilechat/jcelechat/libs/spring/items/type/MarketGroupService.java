@@ -15,8 +15,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.basic.AFetchedResourceService.EntityUpdateListener;
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResourceService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService.EntityUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_groups_market_group_id;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -28,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.items.marketgroup")
 @Order(1)
 public class MarketGroupService
-    extends ARemoteResourceService<MarketGroup, Integer, R_get_markets_groups_market_group_id, MarketGroupRepository>
+    extends ARemoteEntityService<MarketGroup, Integer, R_get_markets_groups_market_group_id, MarketGroupRepository>
     implements EntityUpdateListener {
 
 	@Lazy
@@ -72,7 +72,8 @@ public class MarketGroupService
 			for (int tid : data.types) {
 				Type type = idtoType.get(tid);
 				if (type.getMarketGroup() != null && type.getMarketGroup().getId() != mg.getId()) {
-					log.warn("type {} marketgroup changed from {} to {}", type.name(), type.getMarketGroup().name(), mg.name());
+					log.warn("type {} marketgroup changed from {}({}) to {}({})", type.name(), type.getMarketGroup().name(),
+					    type.getMarketGroup().getId(), mg.name(), mg.getId());
 				}
 				type.setMarketGroup(mg);
 			}

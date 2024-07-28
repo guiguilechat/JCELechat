@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.fetchers.remote.resource.ARemoteResource;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_groups_market_group_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -24,7 +24,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class MarketGroup extends ARemoteResource<Integer, R_get_markets_groups_market_group_id> {
+public class MarketGroup extends ARemoteEntity<Integer, R_get_markets_groups_market_group_id> {
 	/**
 	 * parent_group_id integer
 	 */
