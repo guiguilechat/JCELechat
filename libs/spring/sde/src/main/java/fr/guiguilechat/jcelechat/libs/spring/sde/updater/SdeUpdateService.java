@@ -12,53 +12,89 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.UpdateResult.STATUS;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdate.STATUS;
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache.SDEDownload;
 import jakarta.transaction.Transactional;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class SDEUpdateService {
+@ConfigurationProperties(prefix = "sde.fetcher")
+public class SdeUpdateService implements IEntityUpdater {
 
 	final private CacheManager cacheManager;
 
-	final private UpdateResultService updateresultService;
+	final private SdeUpdateRepository repo;
 
 	private final Optional<List<SdeUpdateListener>> updateListeners;
 
-	@Value("${sde.update.forcereinsert:false}")
-	private boolean forceReinsert;
+	@Getter
+	private UpdateConfig update = new UpdateConfig();
 
+	@Getter
+	@Setter
+	private boolean force = false;
+
+	/** moment after which we actually try to fetch */
+	private Instant nextFetch = null;
+
+	/**
+	 * consider no previous fetch was performed
+	 */
 	@Transactional
-	public void updateSDE() throws IOException {
+	public void forceNext() {
+		repo.changeStatusFromTo(STATUS.SUCCESS, STATUS.SUCCESS_NEED_REFETCH);
+		nextFetch = null;
+	}
+
+	protected SdeUpdate findLastSuccess() {
+		return repo.findTop1ByStatusOrderByStartedDateDesc(STATUS.SUCCESS);
+	}
+
+	public SdeUpdate save(SdeUpdate entity) {
+		if (entity.getCreatedDate() == null) {
+			entity.setCreatedDate(Instant.now());
+		}
+		return repo.saveAndFlush(entity);
+	}
+
+	@Override
+	@Transactional
+	public boolean fetch() {
 		Instant startDate = Instant.now();
-		UpdateResult ur = UpdateResult.builder().startedDate(startDate).build();
-		UpdateResult lastSuccess = updateresultService.lastSuccess();
+		if (nextFetch != null && nextFetch.isAfter(startDate)) {
+			return false;
+		}
+		log.debug("updating SDE");
+		SdeUpdate ur = SdeUpdate.builder().startedDate(startDate).build();
+		SdeUpdate lastSuccess = findLastSuccess();
 		SDEDownload fetch = SDECache.getSDE(lastSuccess != null ? lastSuccess.getEtag() : null);
 		Instant fetchedDate = Instant.now();
 		ur.setFetchedDurationMs(fetchedDate.toEpochMilli() - startDate.toEpochMilli());
-		if (!forceReinsert && lastSuccess != null && fetch.etag().equals(lastSuccess.getEtag())) {
+		if (!force && lastSuccess != null && fetch.etag().equals(lastSuccess.getEtag())) {
 			ur.setStatus(STATUS.CACHED);
+
 			// skip the update
 		} else if (fetch.channel() != null) {
-			File newFile = fetch.toTempFile();
 			try {
+				File newFile = fetch.toTempFile();
 				updateFromFile(newFile);
 				ur.setStatus(STATUS.SUCCESS);
 				ur.setEtag(fetch.etag());
 			} catch (Exception e) {
 				ur.setStatus(STATUS.FAIL);
 				ur.setError(e.getMessage());
-				log.error("while updating from SDE file " + newFile.getAbsolutePath(), e);
 			}
 		} else if (fetch.error() != null) {
 			ur.setStatus(STATUS.FAIL);
@@ -66,7 +102,12 @@ public class SDEUpdateService {
 		}
 		Instant processedDate = Instant.now();
 		ur.setProcessDurationMs(processedDate.toEpochMilli() - fetchedDate.toEpochMilli());
-		updateresultService.save(ur);
+		save(ur);
+		log.debug(" sde udpate result is {}", ur);
+
+		force = false;
+		nextFetch = startDate.plusSeconds(getUpdate().getDelay());
+		return ur.getStatus() != STATUS.SUCCESS;
 	}
 
 	/**
@@ -98,6 +139,5 @@ public class SDEUpdateService {
 		}
 		log.info(" finished updating SDE DB.");
 	}
-
 
 }

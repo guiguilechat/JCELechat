@@ -59,9 +59,8 @@ public class HistoryReqService
 	}
 
 	@Override
-	protected void onRemainToUpdate(long remainToUpdate) {
-		super.onRemainToUpdate(remainToUpdate);
-		if (isMoreToUpdate()) {
+	public Instant nextUpdate(boolean remain, Instant now) {
+		if (!remain) {
 			Map<Integer, List<Integer[]>> regionIdToRegionType = marketLineService.listRegionIdTypeId().stream()
 			    .collect(Collectors.groupingBy(arr -> arr[0]));
 			for (Entry<Integer, List<Integer[]>> e : regionIdToRegionType.entrySet()) {
@@ -70,13 +69,9 @@ public class HistoryReqService
 				log.debug("require {} history entries to observe in region {}", typeIds.size(), regionId);
 				createIfAbsent(typeIds);
 			}
-			// Map<Long, HistoryReq> required = createIfAbsent(
-			// marketLineService.listRegionIdTypeId().stream().map(arr ->
-			// HistoryReq.makeId(arr[0], arr[1])).toList());
-			// log.debug("require {} history entries to observe", required.size());
-
-			setMoreToUpdate(nbToUpdate() > 0);
+			remain = nbToUpdate() > 0;
 		}
+		return super.nextUpdate(remain, now);
 	}
 
 	@Override

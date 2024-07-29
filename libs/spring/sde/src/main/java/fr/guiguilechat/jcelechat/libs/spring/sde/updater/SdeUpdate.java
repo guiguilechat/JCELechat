@@ -22,7 +22,7 @@ import lombok.RequiredArgsConstructor;
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class UpdateResult {
+public class SdeUpdate {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

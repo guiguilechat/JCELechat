@@ -15,6 +15,11 @@
 			<artifactId>raw</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>remotefetching</artifactId>
+		</dependency>
+		<!-- /own deps -->
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>

@@ -53,6 +53,7 @@ public class PriceService extends AFetchedResourceService<Price, Integer, PriceR
 
 	@Override
 	protected boolean fetchUpdate() {
+		setNextUpdate(null);
 		Map<String, String> properties = new HashMap<>();
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
@@ -75,7 +76,6 @@ public class PriceService extends AFetchedResourceService<Price, Integer, PriceR
 			}
 			return false;
 		}
-
 	}
 
 	// usage

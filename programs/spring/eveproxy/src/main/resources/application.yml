@@ -52,8 +52,14 @@ esi:
             skip: false
          list:
             skip: false
+jcesi:
    updater:
       default:
          skip: true
       delay: 0
       period: 2000
+
+sde:
+   fetcher:
+      update:
+         skip: false

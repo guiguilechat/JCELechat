@@ -16,7 +16,6 @@ import org.springframework.transaction.annotation.Transactional;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.status.ESIStatusService;
 import fr.guiguilechat.jcelechat.libs.spring.update.tools.ExecutionService;
-import jakarta.annotation.PostConstruct;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -117,31 +116,11 @@ public abstract class AFetchedResourceService<
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
-	@PostConstruct
-	protected void debugConfig() {
-		log.debug("{} config {}", fetcherName(), getUpdate());
-	}
-
 	/**
 	 * return the number of items that are still to be updated. This is used to
 	 * decide if all the entities are updated.
 	 */
 	public abstract long nbToUpdate();
-
-	/**
-	 * defaults to update cycle time. Set it in {@link #fetchUpdate()}
-	 */
-	@Getter(AccessLevel.PROTECTED)
-	@Setter(AccessLevel.PROTECTED)
-	private Instant nextUpdate = null;
-
-	/**
-	 * stored here to avoid counting when delay not reached. set after at least one
-	 * element has been updated
-	 */
-	@Getter(AccessLevel.PROTECTED)
-	@Setter(AccessLevel.PROTECTED)
-	private boolean moreToUpdate = true;
 
 	/**
 	 * request to fetch the resources that need it.
@@ -158,34 +137,45 @@ public abstract class AFetchedResourceService<
 	 *           be saved with a future expires (to avoid frequent errors) and as
 	 *           such, this may return false even if resources are still not fetched
 	 */
+	@Override
 	@Transactional
 	public boolean fetch() {
-		// skip if delay not met
-		if (nextUpdate != null && nextUpdate.isAfter(Instant.now())) {
-			return moreToUpdate;
-		}
-
 		preUpdate();
 		if (fetchUpdate()) {
 			postUpdate();
 		}
-
-		onRemainToUpdate(nbToUpdate());
-		return moreToUpdate;
-	}
-
-
-	// cleanup, fetch if exists new elements
-	protected void preUpdate() {
-
+		return nbToUpdate() > 0;
 	}
 
 	/**
-	 * actually update the udpatable data
+	 * cleanup, fetch if exists new elements, default implementation resets the
+	 * {@link #nextUpdate}
+	 */
+	protected void preUpdate() {
+		setNextUpdate(null);
+	}
+
+	/**
+	 * actually update the updatable data
 	 * 
 	 * @return true if at least an item was updated
 	 */
 	protected abstract boolean fetchUpdate();
+
+	/**
+	 * following fetch date, if any. If not set, default method to use the
+	 * {@link UpdateConfig}. It is reset during the {@link #preUpdate()}
+	 */
+	@Setter(value = AccessLevel.PROTECTED)
+	private Instant nextUpdate = null;
+
+	@Override
+	public Instant nextUpdate(boolean remain, Instant now) {
+		if (nextUpdate != null) {
+			return nextUpdate;
+		}
+		return IEntityUpdater.super.nextUpdate(remain, now);
+	}
 
 	//
 	// cache management
@@ -269,19 +259,6 @@ public abstract class AFetchedResourceService<
 			eul.getCacheList().stream().forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 			eul.onUpdate();
 		});
-	}
-
-	// ** called after the update to apply how many items remain to udpate*/
-	protected void onRemainToUpdate(long remainToUpdate) {
-		int delay = Math.max(getUpdate().getDelay(), 0);
-		if (getUpdate().getDelayUpdated() > delay && remainToUpdate == 0) {
-			delay = getUpdate().getDelayUpdated();
-			log.debug(" {} no more data to update({}), extended delay {}s", fetcherName(), remainToUpdate, delay);
-		}
-		if (nextUpdate == null || nextUpdate.isBefore(Instant.now())) {
-			nextUpdate = Instant.now().plusSeconds(delay);
-		}
-		moreToUpdate = remainToUpdate > 0;
 	}
 
 	//

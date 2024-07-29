@@ -392,6 +392,7 @@ public abstract class ARemoteEntityService<
 
 	@Override
 	protected void preUpdate() {
+		super.preUpdate();
 		if (!list.skip && (listExpires == null || listExpires.isBefore(Instant.now()))) {
 			Function<Map<String, String>, Requested<List<Id>>> fetcher = listFetcher();
 			if (fetcher != null) {
@@ -475,7 +476,7 @@ public abstract class ARemoteEntityService<
 			int nbSuccess = update(list);
 			long nbRemain = nbToUpdate();
 			long endTimeMs = System.currentTimeMillis();
-			log.info("{} updated {}/{} in {} ms, remain {}",
+			log.debug("{} updated {}/{} in {} ms, remain {}",
 			    fetcherName(),
 			    nbSuccess, nbUpdates,
 			    endTimeMs - startTimeMs, nbRemain);

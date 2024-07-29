@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.fetched.batch;
 
+import java.time.Instant;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -10,6 +11,7 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResource;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.IFetchedResourceRepository;
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -40,6 +42,9 @@ public abstract class ABatchResourceFetcher<
 
 	private String lastListEtag = null;
 
+	@Setter
+	private Instant nextUpdate = null;
+
 	/** check new entries */
 
 	@Override
@@ -51,32 +56,41 @@ public abstract class ABatchResourceFetcher<
 			properties.put(ConnectedImpl.IFNONEMATCH, lastListEtag);
 		}
 		Requested<List<Fetched>> resp = fetchList(properties);
+		nextUpdate = null;
 		if (resp != null) {
 			switch (resp.getResponseCode()) {
 			case 200:
 				List<Fetched> fetched = resp.getOK();
 				updateFromFetched(fetched);
 				lastListEtag = resp.getETag();
-				setNextUpdate(resp.getExpiresInstant());
+				nextUpdate = resp.getExpiresInstant();
 				long endTimeMs = System.currentTimeMillis();
-				log.info("{} updated {} values in {} ms",
+				log.debug("{} updated {} values in {} ms",
 				    fetcherName(),
 				    fetched.size(),
 				    endTimeMs - startTimeMs);
 				updated = true;
 				break;
 			case 304:
-				setNextUpdate(resp.getExpiresInstant());
+				nextUpdate = resp.getExpiresInstant();
 				break;
 			default:
-				log.warn("update service {} received invalid response {} when requesting list of entities",
+				log.warn("update {} received invalid response {} when requesting list of entities",
 				    getClass().getSimpleName(), resp);
 			}
 		} else {
-			log.warn("update service {} received null list of entities",
-			    getClass().getSimpleName());
+			log.warn("update {} received null list of entities",
+			    fetcherName());
 		}
 		return updated;
+	}
+
+	@Override
+	public Instant nextUpdate(boolean remain, Instant now) {
+		if (nextUpdate != null) {
+			return nextUpdate;
+		}
+		return super.nextUpdate(remain, now);
 	}
 
 	/** called when the list has been updated */

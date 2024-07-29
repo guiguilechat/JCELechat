@@ -1,9 +1,14 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.manager;
 
+import java.time.Instant;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * interface to implement by services which update local entities.
+ */
 public interface IEntityUpdater {
 
 	/**
@@ -16,7 +21,7 @@ public interface IEntityUpdater {
 
 	@Getter
 	@Setter
-	@ToString()
+	@ToString
 	public static class UpdateConfig {
 
 		/**
@@ -47,8 +52,42 @@ public interface IEntityUpdater {
 		private int delayUpdated = 60;
 	}
 
+	/**
+	 * just set a private field to implement
+	 * 
+	 * <pre>{@code
+	 * @Getter
+	 * private UpdateConfig update;
+	 * }</pre>
+	 */
 	public UpdateConfig getUpdate();
 
+	/**
+	 * @return true if more data are to be updated the moment this call exits (that
+	 *           is, if the update was partial)
+	 */
 	public boolean fetch();
+
+	/**
+	 * deduce the next Instant to fetch based on previous result of {@link #fetch()}
+	 * 
+	 * @param remain    result of last fetch
+	 * @param startTime time when the fetch started
+	 * @return Instant after which next fetch can be performed
+	 */
+	public default Instant nextUpdate(boolean remain, Instant now) {
+		int delay = getUpdate().getDelay();
+		if (delay < 0) {
+			delay = 0;
+		}
+		if (!remain) {
+			int delayUpdated = getUpdate().getDelayUpdated();
+			if (delayUpdated > 0) {
+				delay += delayUpdated;
+			}
+		}
+		return now.plusSeconds(delay);
+
+	}
 
 }
