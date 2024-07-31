@@ -71,7 +71,7 @@ public class MarketGroupService
 			mg.setParent(idToMarketGroup.get(data.parent_group_id));
 			for (int tid : data.types) {
 				Type type = idtoType.get(tid);
-				if (type.getMarketGroup() != null && type.getMarketGroup().getId() != mg.getId()) {
+				if (type.getMarketGroup() != null && !mg.getId().equals(type.getMarketGroup().getId())) {
 					log.warn("type {} marketgroup changed from {}({}) to {}({})", type.name(), type.getMarketGroup().name(),
 					    type.getMarketGroup().getId(), mg.name(), mg.getId());
 				}

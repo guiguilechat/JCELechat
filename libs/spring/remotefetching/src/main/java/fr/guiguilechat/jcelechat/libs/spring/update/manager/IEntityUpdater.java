@@ -57,7 +57,7 @@ public interface IEntityUpdater {
 	 * 
 	 * <pre>{@code
 	 * @Getter
-	 * private UpdateConfig update;
+	 * private final UpdateConfig update = new UpdateConfig();
 	 * }</pre>
 	 */
 	public UpdateConfig getUpdate();
@@ -69,7 +69,8 @@ public interface IEntityUpdater {
 	public boolean fetch();
 
 	/**
-	 * deduce the next Instant to fetch based on previous result of {@link #fetch()}
+	 * deduce the next Instant to fetch based on previous execution of
+	 * {@link #fetch()}
 	 * 
 	 * @param remain    result of last fetch
 	 * @param startTime time when the fetch started

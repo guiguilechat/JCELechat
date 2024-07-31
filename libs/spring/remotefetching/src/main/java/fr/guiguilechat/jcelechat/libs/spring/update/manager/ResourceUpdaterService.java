@@ -113,7 +113,8 @@ public class ResourceUpdaterService {
 
 	@PostConstruct
 	protected void debugConfig() {
-		log.debug("configuration of {} registered updaters : ", fetchedServices.orElse(List.of()).size());
+		log.debug("configuration of {} registered updaters, with manager skip={} defaultSkip={} updatedDelay={}",
+		    fetchedServices.orElse(List.of()).size(), skip, defaultSkip, updatedDelay);
 		for (IEntityUpdater l : fetchedServices.orElse(List.of())) {
 			log.debug("{} ({}): {}", l.fetcherName(), skipService(l) ? "skiped" : "active", l.getUpdate());
 		}

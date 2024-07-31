@@ -34,6 +34,7 @@ public class ESIStatusService {
 			if (!esiAccess.vip) {
 				return esiAccessReq.getRemainingErrors();
 			}
+			errorReset = Instant.now().plusSeconds(60);
 			log.info(" ESI is in VIP mode, skipping");
 			return 0;
 		}
@@ -47,6 +48,7 @@ public class ESIStatusService {
 			log.debug("esi not avail (503), prevent fetch until {}", errorReset);
 			break;
 		default:
+			errorReset = Instant.now().plusSeconds(10);
 			log.info(" could not get ESI status, skipping for {}", esiAccessReq.getResponseCode());
 		}
 		return 0;

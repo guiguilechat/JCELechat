@@ -52,8 +52,14 @@ esi:
             skip: false
          list:
             skip: false
+      statsjumps:
+         update:
+            skip: false
+      statskills:
+         update:
+            skip: false
 jcesi:
-   updater:
+   manager:
       default:
          skip: true
       delay: 0

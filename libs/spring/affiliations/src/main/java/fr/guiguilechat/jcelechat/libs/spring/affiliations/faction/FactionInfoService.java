@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.batch.ABatchResourceFetcher;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.batch.AResourceBatchFetcher;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
 import lombok.RequiredArgsConstructor;
 
@@ -21,7 +21,7 @@ import lombok.RequiredArgsConstructor;
 @ConfigurationProperties(prefix = "esi.affiliations.faction")
 @Order(1)
 public class FactionInfoService
-    extends ABatchResourceFetcher<FactionInfo, Integer, R_get_universe_factions, FactionInfoRepository> {
+    extends AResourceBatchFetcher<FactionInfo, Integer, R_get_universe_factions, FactionInfoRepository> {
 
 	@Lazy
 	private final CorporationInfoService corporationInfoService;

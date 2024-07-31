@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched.batch;
+package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.batch;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -24,7 +24,7 @@ import lombok.extern.slf4j.Slf4j;
  * @param <Repository>
  */
 @Slf4j
-public abstract class ABatchResourceFetcher<
+public abstract class AResourceBatchFetcher<
 		Entity extends AFetchedResource<Id>,
     Id extends Number,
     Fetched,
