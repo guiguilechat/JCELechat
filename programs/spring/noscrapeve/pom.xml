@@ -63,9 +63,8 @@ see https://hub.docker.com/repository/docker/glechat/noscrapeve/general</descrip
 		</dependency>
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>
-			<artifactId>ojdbc11-production</artifactId>
-			<version>23.2.0.0</version> 
-			<type>pom</type>
+			<artifactId>ojdbc11</artifactId>
+			<version>23.5.0.24.07</version> 
 		</dependency>
 		<dependency>
 			<groupId>jakarta.servlet</groupId>

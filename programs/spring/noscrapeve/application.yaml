@@ -60,7 +60,7 @@ logging:
                jcesi: INFO
                libs:
                   spring:
-                     remotefetching: INFO
+                     update: debug
 spring:
    cache:
       type: simple
