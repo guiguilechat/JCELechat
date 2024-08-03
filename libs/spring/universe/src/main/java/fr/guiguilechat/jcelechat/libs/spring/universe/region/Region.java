@@ -8,9 +8,9 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
+import jakarta.persistence.Lob;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -36,7 +36,7 @@ public class Region extends ARemoteEntity<Integer, R_get_universe_regions_region
 	/**
 	 * description string
 	 */
-	@Column(columnDefinition = "TEXT")
+	@Lob
 	private String description;
 
 	/**

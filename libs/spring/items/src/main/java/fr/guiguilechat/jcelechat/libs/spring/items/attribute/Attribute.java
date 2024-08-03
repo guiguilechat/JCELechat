@@ -5,9 +5,9 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
+import jakarta.persistence.Lob;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -35,7 +35,7 @@ public class Attribute extends ARemoteEntity<Integer, R_get_dogma_attributes_att
 	/**
 	 * description string
 	 */
-	@Column(columnDefinition = "TEXT")
+	@Lob
 	private String description;
 
 	/**

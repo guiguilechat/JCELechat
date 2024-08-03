@@ -3,12 +3,12 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 import java.math.BigDecimal;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
+import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -42,7 +42,7 @@ public class TypeAttribute {
 	/**
 	 * can't use "value" as it bugs
 	 */
-	@Column(name = "value_")
+	@Lob
 	private BigDecimal value;
 
 }

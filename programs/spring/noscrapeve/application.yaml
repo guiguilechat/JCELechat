@@ -65,7 +65,11 @@ spring:
    cache:
       type: simple
    datasource:
-      hikari: validationTimeout:300000 # 5min timeout for access local h2 DB
-      password: admin
-      url: jdbc:h2:./db/export
-      username: admin
+      password: noscrape
+      url: jdbc:oracle:thin:@localhost:31521/FREEPDB1
+      username: noscrape
+#   datasource:
+#      hikari: validationTimeout:300000 # 5min timeout for access local h2 DB
+#      password: admin
+#      url: jdbc:h2:./db/export
+#      username: admin

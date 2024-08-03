@@ -5,9 +5,9 @@ import java.util.List;
 import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
+import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -78,7 +78,7 @@ public class Effect extends ARemoteEntity<Integer, R_get_dogma_effects_effect_id
 	/**
 	 * description string
 	 */
-	@Column(columnDefinition = "TEXT")
+	@Lob
 	private String description;
 
 	/**

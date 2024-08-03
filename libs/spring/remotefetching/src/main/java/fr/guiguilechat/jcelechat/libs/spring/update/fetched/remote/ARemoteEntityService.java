@@ -33,14 +33,24 @@ import lombok.Setter;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * extends this for an service that updates an entity : with a number id that
+ * correspond to a single remote resource for that entity
+ * 
+ * @param <Entity>     local entity we update from the remote
+ * @param <IdType>         class of the id for the local entity
+ * @param <Fetched>    structure that is returned from remote, containing
+ *                       information about a local entity
+ * @param <Repository> repo to save the entities
+ */
 @Slf4j
 @NoArgsConstructor
 public abstract class ARemoteEntityService<
-			Entity extends ARemoteEntity<Id, Fetched>,
-			Id extends Number,
+			Entity extends ARemoteEntity<IdType, Fetched>,
+			IdType extends Number,
 			Fetched,
-			Repository extends IRemoteEntityRepository<Entity, Id>>
-    extends AFetchedResourceService<Entity, Id, Repository> {
+			Repository extends IRemoteEntityRepository<Entity, IdType>>
+    extends AFetchedResourceService<Entity, IdType, Repository> {
 
 	//
 	// entity create & save
@@ -60,7 +70,7 @@ public abstract class ARemoteEntityService<
 	}
 
 	@Override
-	public Entity createMinimal(Id entityId) {
+	public Entity createMinimal(IdType entityId) {
 		Entity e = super.createMinimal(entityId);
 		e.setFetchActive(isActivateNewEntry());
 		return e;
@@ -74,7 +84,7 @@ public abstract class ARemoteEntityService<
 		}
 	}
 
-	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, Id entityId) {
+	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, IdType entityId) {
 		if (e == null) {
 			e = save(createMinimal(entityId));
 		}
@@ -100,7 +110,7 @@ public abstract class ARemoteEntityService<
 	 *           It may not be fetched if {@link #isActivateNewEntry()} is false
 	 */
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
-	public Entity createFetch(Id entityId) {
+	public Entity createFetch(IdType entityId) {
 		try {
 			return createFetchIfNeeded(repo().findById(entityId).orElse(null), entityId).get();
 		} catch (InterruptedException | ExecutionException e) {
@@ -110,16 +120,16 @@ public abstract class ARemoteEntityService<
 	}
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
-	public Map<Id, CompletableFuture<Entity>> createFetchIfNeeded(Collection<Id> entityIds) {
-		Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
+	public Map<IdType, CompletableFuture<Entity>> createFetchIfNeeded(Collection<IdType> entityIds) {
+		Map<IdType, Entity> storedEntities = repo().findAllById(entityIds).stream()
 		    .collect(Collectors.toMap(ARemoteEntity::getId, e -> e));
 		return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
 		    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
 	}
 
-	protected abstract Requested<Fetched> fetchData(Id id, Map<String, String> properties);
+	protected abstract Requested<Fetched> fetchData(IdType id, Map<String, String> properties);
 
-	protected Requested<Fetched> fetchData(Id id, String lastEtag) {
+	protected Requested<Fetched> fetchData(IdType id, String lastEtag) {
 		Map<String, String> properties = new HashMap<>();
 		if (lastEtag != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
@@ -196,7 +206,7 @@ public abstract class ARemoteEntityService<
 	 *           fetched if the {@link #isActivateNewEntry()} is false ; may be
 	 *           empty if not created.
 	 */
-	public Optional<Entity> getExistingFetched(Id id) {
+	public Optional<Entity> getExistingFetched(IdType id) {
 		Optional<Entity> ret = repo().findById(id);
 		if (ret.isEmpty() || ret.get().isFetched() || !ret.get().isFetchActive()) {
 			return ret;
@@ -378,7 +388,10 @@ public abstract class ARemoteEntityService<
 
 		private boolean skip = false;
 
-		private List<Id> init = null;
+		private List<IdType> init = null;
+
+		/** minimum delay, in s, between two listing. Ignored if &lt;0 */
+		private int delay = 10;
 
 	}
 
@@ -394,7 +407,7 @@ public abstract class ARemoteEntityService<
 	protected void preUpdate() {
 		super.preUpdate();
 		if (!list.skip && (listExpires == null || listExpires.isBefore(Instant.now()))) {
-			Function<Map<String, String>, Requested<List<Id>>> fetcher = listFetcher();
+			Function<Map<String, String>, Requested<List<IdType>>> fetcher = listFetcher();
 			if (fetcher != null) {
 				int nbRemainingErrors = esiStatusService().availErrors();
 				if (nbRemainingErrors <= getUpdate().getErrorsMin()) {
@@ -407,7 +420,7 @@ public abstract class ARemoteEntityService<
 				if (lastListEtag != null) {
 					properties.put(ConnectedImpl.IFNONEMATCH, lastListEtag);
 				}
-				Requested<List<Id>> resp = fetcher.apply(properties);
+				Requested<List<IdType>> resp = fetcher.apply(properties);
 				if (resp != null) {
 					switch (resp.getResponseCode()) {
 					case 200:
@@ -429,6 +442,12 @@ public abstract class ARemoteEntityService<
 					log.warn("update service {} received null list of entities",
 					    getClass().getSimpleName());
 				}
+				if (getList().getDelay() > 0) {
+					Instant nextListFromDelay = Instant.now().plusSeconds(getList().getDelay());
+					if (nextListFromDelay.isAfter(listExpires)) {
+						listExpires = nextListFromDelay;
+					}
+				}
 				long endms = System.currentTimeMillis();
 				log.trace("{} finished listing new entriesin {}s", fetcherName(), (endms - startms) / 1000);
 			}
@@ -436,12 +455,12 @@ public abstract class ARemoteEntityService<
 	}
 
 	/** called when the list has been updated */
-	protected void onNewListFetched(Map<Id, Entity> map) {
+	protected void onNewListFetched(Map<IdType, Entity> map) {
 
 	}
 
 	/** the method to overwrite to make it auto fetch entities */
-	protected Function<Map<String, String>, Requested<List<Id>>> listFetcher() {
+	protected Function<Map<String, String>, Requested<List<IdType>>> listFetcher() {
 		return null;
 	}
 

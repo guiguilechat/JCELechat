@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.interfaces;
 
 import java.time.Instant;
+import java.time.ZoneOffset;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -68,6 +69,14 @@ public interface Requested<T> {
 			return Instant.ofEpochSecond(0);
 		}
 		return ESITools.headerInstant(expire);
+	}
+
+	public default void setExpires(Instant expires) {
+		if (expires == null) {
+			getHeaders().remove(EXPIRES_PROP);
+		} else {
+			getHeaders().put(EXPIRES_PROP, List.of(ESITools.offsetDateTimeHeader(expires.atOffset(ZoneOffset.UTC))));
+		}
 	}
 
 	public static String DATE_PROP = "Date";
@@ -198,5 +207,7 @@ public interface Requested<T> {
 	public <U> Requested<U> mapBody(Function<T, U> mapper);
 
 	public Requested<T> mapHeaders(Function<Map<String, List<String>>, Map<String, List<String>>> mapper);
+
+	Requested<T> mapExpires(Function<Instant, Instant> mapper);
 
 }

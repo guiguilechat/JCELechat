@@ -1,11 +1,11 @@
-version: '3.8'
 services:
    database:
       container_name: noscrape-oracle-db
-      image: gvenzl/oracle-xe:21.3.0-slim-faststart
+      image: gvenzl/oracle-free:23.4-slim-faststart
       environment:
       - APP_USER=noscrape
       - APP_USER_PASSWORD=noscrape
+      - ORACLE_PASSWORD=noscrape
       ports:
       - 31521:1521
       restart: unless-stopped
@@ -18,7 +18,7 @@ services:
       environment:
       - SPRING_DATASOURCE_PASSWORD=noscrape
       # default is jdbc:oracle:thin:@localhost:1521/XEPDB1
-      - SPRING_DATASOURCE_URL=jdbc:oracle:thin:database:1521/XEPDB1
+      - SPRING_DATASOURCE_URL=jdbc:oracle:thin:@database:1521/FREEPDB1
       - SPRING_DATASOURCE_USERNAME=noscrape
 # use memory cache
       - SPRING_CACHE_TYPE=simple

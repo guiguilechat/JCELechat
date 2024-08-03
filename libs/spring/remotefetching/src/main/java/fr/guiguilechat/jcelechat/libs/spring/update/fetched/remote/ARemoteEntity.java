@@ -10,19 +10,20 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * representation of a fetched resource that is linked to a remote entity. The
- * actual implementation + {@link #getRemoteId()} should identify the remote
- * resource completely.
+ * managed resource that is linked to a remote entity, and therefore whose
+ * informations are fetched from. The actual implementation +
+ * {@link #getId()} should identify the remote resource completely.
  * 
- * @param <RemoteId> type of remote id used, typically int or long.
- * @param <Fetched>  {@link AFetchedResource}
+ * @param <IdType>  type of id used, typically int or long.
+ * @param <Fetched> structure returned from remote server to describe this
+ *                    entity
  */
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @MappedSuperclass
 @Setter
-public abstract class ARemoteEntity<RemoteId extends Number, Fetched> extends AFetchedResource<RemoteId> {
+public abstract class ARemoteEntity<IdType extends Number, Fetched> extends AFetchedResource<IdType> {
 
 	/** date the last successful update expires at */
 	private Instant expires;

@@ -8,10 +8,10 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
-import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
+import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -56,7 +56,7 @@ public class Type extends ARemoteEntity<Integer, R_get_universe_types_type_id> {
 	/**
 	 * description string
 	 */
-	@Column(columnDefinition = "TEXT")
+	@Lob
 	private String description;
 
 	/**

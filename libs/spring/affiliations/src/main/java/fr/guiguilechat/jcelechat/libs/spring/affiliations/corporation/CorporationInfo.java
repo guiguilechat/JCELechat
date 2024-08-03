@@ -10,9 +10,9 @@ import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
+import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -54,7 +54,7 @@ public class CorporationInfo extends ARemoteEntity<Integer, R_get_corporations_c
 	/**
 	 * description string
 	 */
-	@Column(columnDefinition = "TEXT")
+	@Lob
 	private String description;
 	/**
 	 * faction_id integer

@@ -15,6 +15,7 @@
 	<description>pom of the JCELechat libraries made for spring</description>
 	<modules>
 		<module>affiliations</module>
+		<module>conflicts</module>
 		<module>connect</module>
 		<module>industry</module>
 		<module>items</module>

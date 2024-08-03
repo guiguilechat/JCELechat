@@ -4,12 +4,12 @@ import java.time.Instant;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetch.BatchItem;
-import jakarta.persistence.Column;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.MappedSuperclass;
 import jakarta.persistence.OneToMany;
@@ -50,7 +50,7 @@ public class BatchFetch<Item extends BatchItem<?, ?>> {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
 
-	@Column(columnDefinition = "TEXT")
+	@Lob
 	private String errorMessage = null;
 
 	private String etag;

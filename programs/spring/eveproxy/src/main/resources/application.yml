@@ -5,6 +5,11 @@ esi:
       corporation:
          update:
             skip: false
+   conflicts:
+      war:
+         info:
+            update:
+               skip: false
    items:
       category:
          update:
