@@ -111,28 +111,51 @@ public class TypeService
 	@Override
 	protected void updateResponseOk(Map<Type, R_get_universe_types_type_id> responseOk) {
 		super.updateResponseOk(responseOk);
+		long startTime = System.currentTimeMillis();
+
 		Map<Integer, Group> idToGroup = groupService.createIfAbsent(
 		    responseOk.values().stream()
 		        .map(r -> r.group_id)
 		        .distinct().toList());
+		long postGroups = System.currentTimeMillis();
+
 		Map<Integer, Attribute> idToAttribute = attributeService.createIfAbsent(
 		    responseOk.values().stream()
 		        .flatMap(r -> r.dogma_attributes == null ? Stream.empty() : Stream.of(r.dogma_attributes))
 		        .map(da -> da.attribute_id)
 		        .distinct().toList());
+		long postAttributes = System.currentTimeMillis();
+
 		typeAttributeService.deleteByTypes(responseOk.keySet());
+		long postDeleteAtts = System.currentTimeMillis();
+
 		Map<Integer, Effect> idToEffect = effectService.createIfAbsent(
 		    responseOk.values().stream()
 		        .flatMap(r -> r.dogma_effects == null ? Stream.empty() : Stream.of(r.dogma_effects))
 		        .map(da -> da.effect_id)
 		        .distinct().toList());
+		long postEffects = System.currentTimeMillis();
+
 		Map<Integer, MarketGroup> idToMarketGroup = marketGroupService.createIfAbsent(
 		    responseOk.values().stream()
 		        .map(r -> r.market_group_id)
 		        .filter(i -> i != 0)
 		        .distinct().toList());
+		long postMarketGroups = System.currentTimeMillis();
+
 		responseOk.entrySet().forEach(
 		        e -> updateResponseOk(e.getKey(), e.getValue(), idToGroup, idToAttribute, idToEffect, idToMarketGroup));
+		long postUpdateElements = System.currentTimeMillis();
+		log.debug(
+		    "processed {} received types in {} ms, fetchGroups={}ms fetchAtts={}ms deleteAtts={}ms fetchEffects={}ms fetchmkg={}ms processElemes={}ms",
+		    responseOk.size(),
+		    postUpdateElements - startTime,
+		    postGroups - startTime,
+		    postAttributes - postGroups,
+		    postDeleteAtts - postAttributes,
+		    postEffects - postDeleteAtts,
+		    postMarketGroups - postEffects,
+		    postUpdateElements - postMarketGroups);
 	}
 
 	@Cacheable("TypesByGroupId")
@@ -311,7 +334,7 @@ public class TypeService
 			}
 		}
 		saveAll(updated);
-		log.info("updated {} types", updated.size());
+		log.info("updated {} types from SDE", updated.size());
 	}
 
 	// cache

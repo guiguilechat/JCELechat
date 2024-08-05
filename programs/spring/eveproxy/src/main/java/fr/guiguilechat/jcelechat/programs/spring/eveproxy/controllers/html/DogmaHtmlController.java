@@ -10,6 +10,7 @@ import java.util.Optional;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -171,6 +172,7 @@ public class DogmaHtmlController {
 		}
 	}
 
+	@Transactional
 	@GetMapping("/type/{typeFiltering}/{typeFilter}")
 	public String getType(Model model, @PathVariable String typeFiltering,
 	    @PathVariable String typeFilter) {
@@ -290,12 +292,14 @@ public class DogmaHtmlController {
 		return "dogma/type";
 	}
 
+	@Transactional
 	@GetMapping("/type/{typeFiltering}")
 	public String getTypeParam(Model model, @PathVariable String typeFiltering,
 	    String filter) {
 		return getType(model, typeFiltering, filter);
 	}
 
+	@Transactional
 	@GetMapping("/types")
 	public String getTypesIndex() {
 		return "dogma/types";
@@ -313,6 +317,7 @@ public class DogmaHtmlController {
 		return new LinkedType(uri(type).toString(), type, type.name());
 	}
 
+	@Transactional
 	@GetMapping("/group/{groupId}")
 	public String getGroup(Model model, @PathVariable int groupId) {
 		Optional<Group> og = groupService.findById(groupId);
@@ -344,6 +349,7 @@ public class DogmaHtmlController {
 		return "dogma/group";
 	}
 
+	@Transactional
 	@GetMapping("/group/gi")
 	public String getGroupById(Model model, int groupId) {
 		return getGroup(model, groupId);
@@ -362,6 +368,7 @@ public class DogmaHtmlController {
 		return new LinkedGroup(uri(group).toString(), group);
 	}
 
+	@Transactional
 	@GetMapping("/category/{categoryId}")
 	public String getCategory(Model model, @PathVariable int categoryId) {
 		Optional<Category> oc = categoryService.findById(categoryId);
