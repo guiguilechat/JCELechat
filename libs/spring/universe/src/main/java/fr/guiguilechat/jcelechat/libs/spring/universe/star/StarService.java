@@ -19,7 +19,7 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-@ConfigurationProperties(prefix = "esi.universe.stargate")
+@ConfigurationProperties(prefix = "esi.universe.star")
 // depend on solarsystem type
 @Order(4)
 public class StarService extends

@@ -105,6 +105,7 @@ public class NpcHtmlController {
 						.toList());
 	}
 
+	@Transactional
 	@GetMapping("/corporation/{corporationId}")
 	public String getCorporationOffers(Model model, @PathVariable int corporationId,
 			EvalParams params) {
