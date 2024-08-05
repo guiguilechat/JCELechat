@@ -118,6 +118,11 @@ public class Type extends ARemoteEntity<Integer, R_get_universe_types_type_id> {
 	}
 
 	@Override
+	public String toString() {
+		return name == null ? "type:" + getId() : name + "(" + getId() + ")";
+	}
+
+	@Override
 	public void update(R_get_universe_types_type_id data) {
 		setCapacity(data.capacity);
 		setDescription(data.description);

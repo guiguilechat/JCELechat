@@ -101,7 +101,8 @@ public class MarketRegionService
 		marketLineService.saveAll(created);
 		long postSaved = System.currentTimeMillis();
 		log.trace(" saved {} orders for {} regions in {}s, at {} orders/s", created.size(), responseOk.size(),
-		    (postSaved - postCreated) / 1000, created.size() * 1000 / (postSaved - postCreated));
+		    (postSaved - postCreated) / 1000,
+		    postSaved - postCreated == 0 ? 0 : created.size() * 1000 / (postSaved - postCreated));
 	}
 
 	public List<MarketLine> createForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders,

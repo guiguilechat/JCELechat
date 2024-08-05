@@ -483,7 +483,7 @@ public abstract class ARemoteEntityService<
 	 */
 	@Override
 	public long nbToUpdate() {
-		return repo().countByFetchActiveTrueAndExpiresLessThan(Instant.now());
+		return repo().countByFetchActiveTrueAndExpiresBefore(Instant.now());
 	}
 
 	@Override
@@ -543,9 +543,14 @@ public abstract class ARemoteEntityService<
 	 */
 	protected List<Entity> listToUpdate() {
 		lastBatchSize = nextBatchSize();
-		return lastBatchSize < 1
+		List<Entity> active = repo().findByFetchActiveTrueOrderByExpiresAsc(Limit.unlimited());
+		List<Entity> expired = repo().findByExpiresBeforeOrderByExpiresAsc(Instant.now(), Limit.unlimited());
+		log.trace(" {} has {} active entity and {} expired", fetcherName(), active.size(), expired.size());
+		List<Entity> ret = lastBatchSize < 1
 		    ? List.of()
-		    : repo().findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));
+		    : repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));
+		log.trace(" {} has {} entities to update with max batch size {}", fetcherName(), ret.size(), lastBatchSize);
+		return ret;
 	}
 
 	protected int update(List<Entity> data) {

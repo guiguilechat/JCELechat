@@ -56,7 +56,7 @@ public abstract class AFetchedResourceService<
 	 */
 	public Entity createMinimal(Id entityId) {
 		Entity e = create(entityId);
-		log.trace("create entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
+		log.trace("create {} id {}", e.getClass().getSimpleName(), entityId);
 		return e;
 	}
 

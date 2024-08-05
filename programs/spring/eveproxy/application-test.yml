@@ -7,6 +7,7 @@ logging:
                jcesi: INFO
                libs:
                   spring:
+                     npc: trace
                      sde: debug
                      trade: debug
                      universe: debug
@@ -14,14 +15,25 @@ logging:
                programs:
                   spring:
                      eveproxy: trace
+#      org:
+#         hibernate:
+#            orm:
+#               jdbc:
+#                  bind: trace
+#            SQL: debug
+#            type:
+#               descriptor:
+#                  sql:
+#                     BasicBinder: trace
 
 mer:
    update:
       skip: true
 
 sde:
-   update:
-      skip: false
+   fetcher:
+      update:
+         skip: false
 
 spring:
    cache:
@@ -31,4 +43,9 @@ spring:
       password: admin
       url: jdbc:h2:./db/export
       username: admin
+   jpa:
+      properties:
+         hibernate:
+            format_sql: true
+#      show-sql: true
 #debug: true

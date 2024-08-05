@@ -122,7 +122,7 @@ public class ContractInfoService extends ARemoteEntityService<
 		List<ContractInfo> ret = repo().findByFetchActiveTrueAndRemovedFalseAndExpiresLessThanOrderByExpiresAsc(
 		    Instant.now(), Limit.of(lastBatchSize));
 		if (ret.isEmpty()) {
-			ret = repo().findByFetchActiveTrueAndExpiresLessThanOrderByExpiresAsc(Instant.now(),
+			ret = repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(Instant.now(),
 			    Limit.of(Math.min(lastBatchSize / 2, maxExpectedErrors)));
 		}
 		return ret;

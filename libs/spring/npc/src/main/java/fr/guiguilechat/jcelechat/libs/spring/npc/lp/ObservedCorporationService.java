@@ -21,7 +21,9 @@ import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.Corporatio
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.npc.lpcorporation")
@@ -61,15 +63,17 @@ public class ObservedCorporationService extends
 	@Override
 	protected void updateResponseOk(
 	    Map<ObservedCorporation, List<R_get_loyalty_stores_corporation_id_offers>> map) {
+		log.trace("retrieved modified set of offers for  {} corporations", map.size());
 		super.updateResponseOk(map);
 		// first check all the offers are unique by id
 		Map<Integer, List<R_get_loyalty_stores_corporation_id_offers>> offersById = map.values().stream()
 		    .flatMap(List::stream)
 		    .collect(Collectors.groupingBy(o -> o.offer_id));
+
 		Map<Integer, R_get_loyalty_stores_corporation_id_offers> offerById = new HashMap<>();
 		for (Entry<Integer, List<R_get_loyalty_stores_corporation_id_offers>> e : offersById.entrySet()) {
 			List<R_get_loyalty_stores_corporation_id_offers> l = e.getValue();
-			if (l.size() > 1) {
+			if (l.size() > 0) {
 				R_get_loyalty_stores_corporation_id_offers first = l.get(0);
 				List<R_get_loyalty_stores_corporation_id_offers> different = l.stream().filter(o -> different(first, o))
 				    .toList();
