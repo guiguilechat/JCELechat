@@ -11,7 +11,6 @@ import java.util.stream.Stream;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.annotation.Order;
-import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
@@ -25,7 +24,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Service
+// @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.conflicts.war.info")
 @Order(4) // depends on corporationinfo and allianceinfo
@@ -73,8 +72,8 @@ public class WarInformationService
 			R_get_wars_war_id w = e.getValue();
 			wi.setAggressorAlliance(idToAllianceInfo.get(w.aggressor.alliance_id));
 			wi.setDefenderAlliance(idToAllianceInfo.get(w.defender.alliance_id));
-			wi.setAggressorAlliance(idToAllianceInfo.get(w.aggressor.alliance_id));
-			wi.setAggressorAlliance(idToAllianceInfo.get(w.aggressor.alliance_id));
+			wi.setAggressorCorporation(idToCorporationInfo.get(w.aggressor.alliance_id));
+			wi.setDefenderCorporation(idToCorporationInfo.get(w.aggressor.alliance_id));
 		}
 	}
 
