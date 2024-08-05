@@ -111,7 +111,7 @@ public class NpcHtmlController {
 			EvalParams params) {
 
 		CorporationInfo corp = corporationInfoService.byId(corporationId);
-		model.addAttribute("corpName", corp == null ? "absent_" + corporationId : corp.nameOrId());
+		model.addAttribute("corpName", corp == null ? "corporation:" + corporationId : corp.nameOrId());
 
 		ObservedCorporation prevCorp = observedCorporationService.prevCorp(corp.nameOrId());
 		if (prevCorp != null) {
