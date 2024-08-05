@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -94,6 +95,7 @@ public class TypeService
 				typeAttributes.add(TypeAttribute.builder()
 				    .attribute(att)
 				    .type(data)
+				    .value(BigDecimal.valueOf(a.value))
 				    .build());
 			}
 			typeAttributeService.saveAll(typeAttributes);
