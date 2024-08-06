@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.libs.spring.update.manager;
 
 import java.time.Instant;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -17,6 +19,19 @@ public interface IEntityUpdater {
 	 */
 	public default String fetcherName() {
 		return getClass().getSimpleName();
+	}
+
+	public default String propertiesPrefix() {
+		ConfigurationProperties annotation = getClass().getDeclaredAnnotation(ConfigurationProperties.class);
+		if (annotation != null) {
+			if (annotation.prefix() != null) {
+				return annotation.prefix();
+			}
+			if (annotation.value() != null) {
+				return annotation.value();
+			}
+		}
+		return "";
 	}
 
 	@Getter

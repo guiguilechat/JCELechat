@@ -5,9 +5,11 @@ import java.time.Instant;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Value;
@@ -115,8 +117,16 @@ public class ResourceUpdaterService {
 	protected void debugConfig() {
 		log.debug("configuration of {} registered updaters, with manager skip={} defaultSkip={} updatedDelay={}",
 		    fetchedServices.orElse(List.of()).size(), skip, defaultSkip, updatedDelay);
+		Map<String, List<String>> propertiesPrefixToServices = new HashMap<>();
 		for (IEntityUpdater l : fetchedServices.orElse(List.of())) {
-			log.debug("{} ({}): {}", l.fetcherName(), skipService(l) ? "skiped" : "active", l.getUpdate());
+			log.debug("{} ({}): {}={}", l.fetcherName(), skipService(l) ? "skiped" : "active", l.propertiesPrefix(),
+			    l.getUpdate());
+			propertiesPrefixToServices.computeIfAbsent(l.propertiesPrefix(), s -> new ArrayList<>()).add(l.fetcherName());
+		}
+		for (Entry<String, List<String>> e : propertiesPrefixToServices.entrySet()) {
+			if (e.getValue().size() > 1) {
+				log.error("propertyprefix {} is associated to {} services : {}", e.getKey(), e.getValue().size(), e.getValue());
+			}
 		}
 	}
 
