@@ -120,7 +120,7 @@ public class ResourceUpdaterService {
 		Map<String, List<String>> propertiesPrefixToServices = new HashMap<>();
 		for (IEntityUpdater l : fetchedServices.orElse(List.of())) {
 			log.debug("{} ({}): {}={}", l.fetcherName(), skipService(l) ? "skiped" : "active", l.propertiesPrefix(),
-			    l.getUpdate());
+			    l.propertiesAsString());
 			propertiesPrefixToServices.computeIfAbsent(l.propertiesPrefix(), s -> new ArrayList<>()).add(l.fetcherName());
 		}
 		for (Entry<String, List<String>> e : propertiesPrefixToServices.entrySet()) {

@@ -5,13 +5,16 @@ import java.util.Collections;
 import java.util.Map;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper;
-import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper.AccessToken;
+import fr.guiguilechat.jcelechat.jcesi.connected.SsoFlow.AccessToken;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
 import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -21,13 +24,22 @@ import lombok.extern.slf4j.Slf4j;
  * raw access to the esi services using a connection.
  */
 @RequiredArgsConstructor
+@AllArgsConstructor
 @Slf4j
+@Builder
+@EqualsAndHashCode(callSuper = false)
 public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 
 	private final String refreshToken;
 
 	private final String basicAuth;
 
+	@Builder.Default
+	@Getter(value = AccessLevel.PROTECTED)
+	@Accessors(fluent = true)
+	private SsoFlow version = SsoFlow.V2;
+
+	@Builder.Default
 	private transient AccessToken accessToken = null;
 
 	@Getter
@@ -45,7 +57,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 					log.trace("fetching access token for connection {} refresh {} and basic auth {}, previous null={}",
 					    Integer.toHexString(System.identityHashCode(this)), refreshToken,
 					    basicAuth, accessToken == null);
-					accessToken = ESIAccountHelper.getAccessToken(basicAuth, refreshToken);
+					accessToken = version.getAccessToken(basicAuth, refreshToken);
 					// log.trace(" fetched access token is null={}", accessToken == null);
 				}
 			}
@@ -93,31 +105,15 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 		if (isNull()) {
 			return NULLVERIFY;
 		} else {
-			Requested<R_Verify> req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
+			Requested<R_Verify> req = requestGet(version.verifyUrl(), null, R_Verify.class);
 			while (req.isServerError() && req.getResponseCode() != 401) {
 				log.warn("got error " + req.getError());
-				req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
+				req = requestGet(version.verifyUrl(), null, R_Verify.class);
 			}
 			R_Verify ret = req.isOk() ? req.getOK() : NULLVERIFY;
 			log.debug("got verification " + ret + " for refresh " + refreshToken);
 			return ret;
 		}
-	}
-
-	@Override
-	public int hashCode() {
-		return (basicAuth != null ? basicAuth.hashCode() : 0) + (refreshToken != null ? refreshToken.hashCode() : 0);
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (obj == null || obj.getClass() != ESIConnected.class) {
-			return false;
-		}
-		ESIConnected o = (ESIConnected) obj;
-		return (refreshToken == null && o.refreshToken == null
-		    || refreshToken != null && refreshToken.equals(o.refreshToken))
-		    && (basicAuth == null && o.basicAuth == null || basicAuth != null && basicAuth.equals(o.basicAuth));
 	}
 
 	// getting the roles

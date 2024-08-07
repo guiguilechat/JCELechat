@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
+import fr.guiguilechat.jcelechat.jcesi.connected.SsoFlow;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -26,8 +27,16 @@ public class ESIAccount {
 	 */
 	private final String name;
 
+	public ESIAccount(String refresh, String base, String name, SsoFlow version) {
+		this(ESIConnected.builder()
+		    .refreshToken(refresh)
+		    .basicAuth(base)
+		    .version(version)
+		    .build(), name);
+	}
+
 	public ESIAccount(String refresh, String base, String name) {
-		this(new ESIConnected(refresh, base), name);
+		this(refresh, base, name, SsoFlow.extract(refresh));
 	}
 
 	public ESIAccount(String refresh, String base) {

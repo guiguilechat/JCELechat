@@ -23,6 +23,11 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.json.JsonReadFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.json.JsonMapper;
+
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
@@ -397,6 +402,18 @@ public abstract class ARemoteEntityService<
 
 	@Getter
 	private final ListConfig list = new ListConfig();
+
+	@Override
+	public String propertiesAsString() {
+		try {
+			ObjectMapper om = JsonMapper.builder().configure(JsonReadFeature.ALLOW_UNQUOTED_FIELD_NAMES, true).build();
+			return om.writeValueAsString(Map.of(
+			    "update", getUpdate(),
+			    "list", getList()));
+		} catch (JsonProcessingException e) {
+			throw new RuntimeException(e);
+		}
+	}
 
 	private String lastListEtag = null;
 	private Instant listExpires = null;

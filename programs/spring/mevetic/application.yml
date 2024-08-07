@@ -17,7 +17,7 @@ spring:
             registration:
                eve:
                   clientName: contacts&standings
-                  provider: ccplz
+                  provider: esiv2
                   scope: >-
                      esi-assets.read_assets.v1,
                      esi-characters.read_contacts.v1,
@@ -30,7 +30,13 @@ spring:
 # -Dspring.security.oauth2.client.registration.eve.clientSecret=[app secret]
 logging:
   level:
-    fr.guiguilechat.jcelechat.jcesi: trace
+    fr:
+       guiguilechat:
+          jcelechat:
+             jcesi: info
+             libs:
+                spring:
+                   update: debug
     org:
       springframework:
         web:

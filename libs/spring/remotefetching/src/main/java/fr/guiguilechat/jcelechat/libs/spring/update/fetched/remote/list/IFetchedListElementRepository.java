@@ -14,7 +14,7 @@ public interface IFetchedListElementRepository<
 		ListElement extends AFetchedListElement<?, ListType>
 	> extends JpaRepository<ListElement, Long> {
 
-		default void deleteByFetchResourceIn(Iterable<ListType> fetchResources) {
+		default void removeForFetcher(Iterable<ListType> fetchResources) {
 			List<? extends Number> ids = StreamSupport.stream(fetchResources.spliterator(), false)
 			    .map(AFetchedList::getId)
 			    .toList();

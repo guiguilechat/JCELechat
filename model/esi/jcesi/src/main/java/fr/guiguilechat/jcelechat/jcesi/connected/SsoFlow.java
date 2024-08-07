@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi;
+package fr.guiguilechat.jcelechat.jcesi.connected;
 
 import java.awt.Desktop;
 import java.awt.Toolkit;
@@ -20,6 +20,7 @@ import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Objects;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -38,65 +39,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * code to make a sso key
  *
  */
-public class ESIAccountHelper {
-	private static final Logger logger = LoggerFactory.getLogger(ESIAccountHelper.class);
-
-// public static final String LOCAL_CALLBACK = "http://localhost/callback/";
-	public static final String LOCAL_CALLBACK = "http://localhost:8080/login/oauth2/code/eve";
-
-	// access flow to the sso
-	public static void main(String[] args) {
-		// 1 we need app id and app secret.
-		String appID = null, appSecret = null;
-		// if args were specified we assume they are the app id and app secret.
-		if (args.length > 1) {
-			appID = args[0];
-			appSecret = args[1];
-		} else {
-			// request user to create api by directing him to the site.
-			// the user should copy the appID, then copy the appCode
-			openBrowserForDevCreate();
-			appID = extractStringFromClipboard();
-			System.out.println("api id is " + appID);
-			appSecret = extractStringFromClipboard();
-			System.out.println("api code is " + appSecret);
-		}
-
-		if (!checkAppId(appID)) {
-			System.out.println("incorrect app ID " + appID);
-			return;
-		}
-		if (!checkAppSecret(appSecret)) {
-			System.out.println("incorect app secret " + appSecret);
-			return;
-		}
-		// the api + code is transformed into the basic code used in headers :
-		String basicCode = encode(appID, appSecret);
-
-		// 2 request user to accept the connection of his app to his account
-		// the user should copy the url of the error page
-		String authCode = getCodeByClipboard(appID, LOCAL_CALLBACK,
-				"esi-characters.read_contacts.v1",
-				"esi-wallet.read_character_wallet.v1"
-// G_ICOAccess.SCOPES
-//
-		);
-		System.out.println("auth code is " + authCode);
-
-		// 3 get a refresh token. The couple basicCode+refreshtoken allow us to
-		// access the app later.
-		String refreshToken = getRefreshToken(basicCode, authCode);
-		System.out.println("refresh token is " + refreshToken);
-
-		// 4 get an access token from the refreshToken. We need the access token to
-		// actually ask the esi.
-		String accessToken = getAccessToken(basicCode, refreshToken).token;
-		System.out.println("acces token is " + accessToken);
-
-		// 5 call verify to be sure you have a correct
-
-
-	}
+public abstract class SsoFlow {
+	private static final Logger logger = LoggerFactory.getLogger(SsoFlow.class);
 
 	/**
 	 * Open a browser to given URL. This is done in another thread otherwise it
@@ -114,6 +58,12 @@ public class ESIAccountHelper {
 		}).start();
 	}
 
+	public abstract String verifyUrl();
+
+	public abstract String baseAuthUrl();
+
+	public abstract boolean addState();
+
 	/**
 	 * open browser for the client to log in his account for an app.
 	 *
@@ -124,8 +74,9 @@ public class ESIAccountHelper {
 	 * @param scopes
 	 *          the optional scopes to request for the app.
 	 */
-	public static void openBrowserForApp(String appID, String appCalllback, String... scopes) {
-		String uri = "https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=" + appCalllback
+	public void openBrowserForApp(String appID, String appCalllback, String... scopes) {
+		String uri = baseAuthUrl() + "authorize?" + (addState() ? "state=aa&" : "") + "response_type=code&redirect_uri="
+		    + appCalllback
 				+ "&client_id=" + appID;
 		if (scopes != null && scopes.length != 0) {
 			uri = uri + "&scope=" + Stream.of(scopes).collect(Collectors.joining("%20"));
@@ -148,7 +99,7 @@ public class ESIAccountHelper {
 		openBrowser("https://developers.eveonline.com/applications");
 	}
 
-	public static final Pattern appIdPat = Pattern.compile("^[0-9a-fA-F]{32}$");
+	static final Pattern appIdPat = Pattern.compile("^[0-9a-fA-F]{32}$");
 
 	/**
 	 * check if an application ID string matches the requested format.
@@ -161,7 +112,7 @@ public class ESIAccountHelper {
 		return appIdPat.matcher(appId).matches();
 	}
 
-	public static final Pattern appSecretPat = Pattern.compile("^[0-9a-zA-Z]{40}$");
+	static final Pattern appSecretPat = Pattern.compile("^[0-9a-zA-Z]{40}$");
 
 	/**
 	 * check if an application secret string matches the requested format.
@@ -211,14 +162,12 @@ public class ESIAccountHelper {
 		if (redirectURL == null || !redirectURL.startsWith(callback + "?code=")) {
 			return null;
 		}
-		return redirectURL.substring(callback.length() + "?code=".length());
+		return redirectURL.substring(callback.length() + "?code=".length()).replaceAll("&state=.*", "");
 	}
 
 
-	public static String getCodeByClipboard(String appID, String callback, String... scopes) {
-		if (callback == null) {
-			callback = LOCAL_CALLBACK;
-		}
+	public String getCodeByClipboard(String appID, String callback, String... scopes) {
+		Objects.requireNonNull(callback);
 		openBrowserForApp(appID, callback, scopes == null || scopes.length == 0 ? new String[0]
 				: scopes);
 		return callbackURLToAuthCode(extractStringFromClipboard(), callback);
@@ -290,7 +239,7 @@ public class ESIAccountHelper {
 	 * @return the line returned as the result of connection, or null if any issue
 	 *         appears.
 	 */
-	protected static String getAuthLine(String appAuth, Map<String, String> transmitMap, CONTENT_TYPE type) {
+	protected String getAuthLine(String appAuth, Map<String, String> transmitMap, CONTENT_TYPE type) {
 		try {
 			if (appAuth == null) {
 				throw new UnsupportedOperationException("can't auth with null appAuth");
@@ -301,7 +250,7 @@ public class ESIAccountHelper {
 			String transmitData = type.encode(transmitMap);
 			// System.err.println("sending auth line with base64=" + appAuth + " and body="
 			// + transmitData);
-			String url = "https://login.eveonline.com/oauth/token";
+			String url = baseAuthUrl() + "token";
 			URL target = new URL(url);
 			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
 			con.setRequestMethod("POST");
@@ -316,7 +265,7 @@ public class ESIAccountHelper {
 			if (responseCode != 200) {
 				logger.error("while fetching url=" + url + " appAuth=" + appAuth
 						+ " transmit=" + transmitData + " : responseCode="
-						+ responseCode + " ");
+				    + responseCode, new Exception());
 				System.err.println("transmit is " + transmitData);
 				System.err.println("response is " + responseCode);
 				if (con.getErrorStream() != null) {
@@ -334,15 +283,15 @@ public class ESIAccountHelper {
 		}
 	}
 
-	private static CONTENT_TYPE type = CONTENT_TYPE.FORM;
+	static CONTENT_TYPE content_type = CONTENT_TYPE.FORM;
 
-	public static Map<String, String> getFromCode(String appAuth, String authorizationCode) {
+	public Map<String, String> getFromCode(String appAuth, String authorizationCode) {
 		try {
 			Map<String, String> params = new HashMap<>();
 			params.put("grant_type", "authorization_code");
 			params.put("code", authorizationCode);
 			return new ObjectMapper().readValue(
-					getAuthLine(appAuth, params, type),
+			    getAuthLine(appAuth, params, content_type),
 					new TypeReference<Map<String, String>>() {
 					});
 		} catch (Exception e) {
@@ -359,7 +308,7 @@ public class ESIAccountHelper {
 	 *          the token returned by ccp server when login the client.
 	 * @return the new refresh token that allows to create esiconnection.
 	 */
-	public static String getRefreshToken(String appAuth, String authorizationCode) {
+	public String getRefreshToken(String appAuth, String authorizationCode) {
 		try {
 			Map<String, String> map = getFromCode(appAuth, authorizationCode);
 			// System.err.println("auth response is " + map);
@@ -379,12 +328,20 @@ public class ESIAccountHelper {
 		public String token;
 	}
 
-	public static AccessToken getAccessToken(String appAuth, String refreshtoken) {
+	/**
+	 * get an access token from a refresh token
+	 * 
+	 * @param appAuth
+	 *                       the base64 value of APPID:APPSECRET
+	 * @param refreshtoken retrieved refresh token
+	 * @return access token, or null if error
+	 */
+	public AccessToken getAccessToken(String appAuth, String refreshtoken) {
 		try {
 			Map<String, String> params = new HashMap<>();
 			params.put("grant_type", "refresh_token");
 			params.put("refresh_token", refreshtoken);
-			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, params, type),
+			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, params, content_type),
 					new TypeReference<Map<String, String>>() {
 			});
 			String accessToken = map.get("access_token");
@@ -396,8 +353,60 @@ public class ESIAccountHelper {
 			ret.expire = System.currentTimeMillis() + (Integer.parseInt(map.get("expires_in")) - 1) * 1000;
 			return ret;
 		} catch (Exception e) {
-			logger.debug("while getting access token", e);
+			logger.error("while getting access token", e);
 			return null;
 		}
 	}
+
+	// actual implementations
+
+	public static SsoFlow V1 = new SsoFlow() {
+
+		@Override
+		public String verifyUrl() {
+			return "https://login.eveonline.com/oauth/verify";
+		}
+
+		@Override
+		public String baseAuthUrl() {
+			return "https://login.eveonline.com/oauth/";
+		}
+
+		@Override
+		public boolean addState() {
+			return false;
+		}
+
+	};
+
+	public static SsoFlow V2 = new SsoFlow() {
+
+		@Override
+		public String verifyUrl() {
+			return "https://login.eveonline.com/oauth/verify";
+		}
+
+		@Override
+		public String baseAuthUrl() {
+			return "https://login.eveonline.com/v2/oauth/";
+		}
+
+		@Override
+		public boolean addState() {
+			return true;
+		}
+
+	};
+
+	/** extract version from refresh token. Defaults to V2 */
+	public static SsoFlow extract(String refresh) {
+		if (refresh == null) {
+			return V2;
+		}
+		if (refresh.length() != 24) {
+			return V1;
+		}
+		return V2;
+	}
+
 }

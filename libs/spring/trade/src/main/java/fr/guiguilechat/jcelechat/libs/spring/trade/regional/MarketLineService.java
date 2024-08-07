@@ -37,7 +37,7 @@ public class MarketLineService implements MarketRegionListener {
 	}
 
 	public void clearRegions(Iterable<MarketRegion> regions) {
-		repo.deleteByFetchResourceIn(regions);
+		repo.removeForFetcher(regions);
 	}
 
 	// usage

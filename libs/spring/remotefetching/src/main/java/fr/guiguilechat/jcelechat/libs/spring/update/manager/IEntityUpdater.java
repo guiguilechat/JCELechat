@@ -1,11 +1,14 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.manager;
 
 import java.time.Instant;
+import java.util.Map;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.json.JsonReadFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.json.JsonMapper;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -87,6 +90,16 @@ public interface IEntityUpdater {
 	 * }</pre>
 	 */
 	public UpdateConfig getUpdate();
+
+	public default String propertiesAsString() {
+		try {
+			ObjectMapper om = JsonMapper.builder().configure(JsonReadFeature.ALLOW_UNQUOTED_FIELD_NAMES, true).build();
+			return om.writeValueAsString(Map.of(
+			    "update", getUpdate()));
+		} catch (JsonProcessingException e) {
+			throw new RuntimeException(e);
+		}
+	}
 
 	/**
 	 * @return true if more data are to be updated the moment this call exits (that

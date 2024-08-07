@@ -31,7 +31,6 @@ public class CharacterContact extends
 
 	@Entity(name = "EsiConnectCharacterContactList")
 	@Table(name = "esi_connect_charactercontactlist", indexes = {
-	    @Index(columnList = "fetch_resource_id"),
 	    @Index(columnList = "fetch_active,expires")
 	})
 	@NoArgsConstructor
