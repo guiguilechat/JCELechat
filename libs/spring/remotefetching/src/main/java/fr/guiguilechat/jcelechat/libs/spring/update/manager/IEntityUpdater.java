@@ -4,9 +4,11 @@ import java.time.Instant;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 /**
  * interface to implement by services which update local entities.
@@ -36,7 +38,6 @@ public interface IEntityUpdater {
 
 	@Getter
 	@Setter
-	@ToString
 	public static class UpdateConfig {
 
 		/**
@@ -65,6 +66,16 @@ public interface IEntityUpdater {
 		 * than {@link #getDelay()}
 		 */
 		private int delayUpdated = 60;
+
+		@Override
+		public String toString() {
+			ObjectMapper objectMapper = new ObjectMapper();
+			try {
+				return objectMapper.writeValueAsString(this);
+			} catch (JsonProcessingException e) {
+				throw new RuntimeException(e);
+			}
+		}
 	}
 
 	/**
