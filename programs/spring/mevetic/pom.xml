@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 		<artifactId>spring</artifactId>
-		<version>7.35.1</version>
+		<version>7.35.2</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs.spring</groupId>
 	<artifactId>mevetic</artifactId>
@@ -117,11 +117,11 @@
 					<image>
 						<name>${MEVETIC_DOCKER_HUB_USER}/${project.artifactId}</name>
 						<publish>true</publish>
-						<buildpacks>
-							<!--  ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of belllab-->
-							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
-							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>
-						</buildpacks>
+						<!--						<buildpacks>-->
+						<!--							  ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of belllab-->
+						<!--							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>-->
+						<!--							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>-->
+						<!--						</buildpacks>-->
 					</image>
 					<docker>
 						<publishRegistry>

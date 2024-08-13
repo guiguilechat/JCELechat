@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 		<artifactId>spring</artifactId>
-		<version>7.35.1</version>
+		<version>7.35.2</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs.spring</groupId>
 	<artifactId>noscrapeve</artifactId>
@@ -64,7 +64,7 @@ see https://hub.docker.com/repository/docker/glechat/noscrapeve/general</descrip
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>
 			<artifactId>ojdbc11</artifactId>
-			<version>23.5.0.24.07</version> 
+			<version>23.5.0.24.07</version>
 		</dependency>
 		<dependency>
 			<groupId>jakarta.servlet</groupId>
@@ -125,11 +125,11 @@ see https://hub.docker.com/repository/docker/glechat/noscrapeve/general</descrip
 					<image>
 						<name>${NOSCRAPEVE_DOCKER_HUB_USER}/${project.artifactId}</name>
 						<publish>true</publish>
-						<buildpacks>
-							<!--  ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of belllab-->
-							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
-							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>
-						</buildpacks>
+						<!--						<buildpacks>-->
+						<!--							  ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of belllab-->
+						<!--							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>-->
+						<!--							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>-->
+						<!--						</buildpacks>-->
 					</image>
 					<docker>
 						<publishRegistry>

@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 		<artifactId>spring</artifactId>
-		<version>7.35.1</version>
+		<version>7.35.2</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs.spring</groupId>
 	<artifactId>eveproxy</artifactId>
@@ -140,11 +140,15 @@
 						<!--						<builder>gcr.io/paketo-buildpacks/builder:full-cf</builder>-->
 						<name>${EVEPROXY_DOCKER_HUB_USER}/${project.artifactId}</name>
 						<publish>true</publish>
-						<buildpacks>
-							<!--  ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of belllab-->
-							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>
-							<buildpack>urn:cnb:builder:paketo-buildpacks/java</buildpack>
-						</buildpacks>
+						<!--						<buildpacks>-->
+						<!--							<buildpack>paketo-buildpacks/ca-certificates</buildpack>-->
+						<!--							  ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of belllab-->
+						<!--							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>-->
+						<!--							<buildpack>paketo-buildpacks/java</buildpack>-->
+						<!--						</buildpacks>-->
+						<!--						<env>-->
+						<!--							<BP_LOG_LEVEL>DEBUG</BP_LOG_LEVEL>-->
+						<!--						</env>-->
 					</image>
 					<docker>
 						<publishRegistry>

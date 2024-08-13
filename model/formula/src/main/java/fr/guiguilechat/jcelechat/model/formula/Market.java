@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.model.formula;
 
 public class Market {
 
-	public static final double MARKET_TAX_BASE = 4.0 * 0.01;
+	public static final double MARKET_TAX_BASE = 4.5 * 0.01;
 
 	protected static final double MARKET_TAX_ACCOUNTING_REDUCE = 11 * 0.01;
 
