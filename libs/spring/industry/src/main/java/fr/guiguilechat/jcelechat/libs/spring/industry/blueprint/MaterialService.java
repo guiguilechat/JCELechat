@@ -29,8 +29,8 @@ public class MaterialService implements SdeUpdateListener {
 		return repo.save(entity);
 	}
 
-	public List<Material> forBPActivity(List<Integer> bpTypeIds,
-			List<ACTIVITY_TYPE> ats) {
+	public List<Material> forBPActivity(Iterable<Integer> bpTypeIds,
+	    Iterable<ACTIVITY_TYPE> ats) {
 		return repo.findAllByActivityTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 

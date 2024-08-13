@@ -43,6 +43,9 @@ esi:
       market:
          update:
             skip: false
+      prices:
+         update:
+            skip: false
    universe:
       region:
          update:

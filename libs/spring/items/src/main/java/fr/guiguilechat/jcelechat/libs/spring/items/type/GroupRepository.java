@@ -8,6 +8,8 @@ public interface GroupRepository extends IRemoteEntityRepository<Group, Integer>
 
 	public List<Group> findByNameEqualsIgnoreCase(String name);
 
+	public List<Group> findByNameContainsIgnoreCase(String name);
+
 	public List<Group> findByCategoryId(int catId);
 
 	public Group findTop1ByCategoryAndNameGreaterThanOrderByNameAsc(Category category, String name);

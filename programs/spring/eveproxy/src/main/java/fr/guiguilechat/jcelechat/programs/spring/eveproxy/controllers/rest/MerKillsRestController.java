@@ -30,6 +30,7 @@ import org.jfree.data.time.Week;
 import org.jfree.data.time.Year;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -297,6 +298,8 @@ public class MerKillsRestController {
 	 * @param aggregate
 	 * @return
 	 */
+
+	@Transactional
 	@GetMapping("/{filterBy}/{filter}")
 	public ResponseEntity<TypesKillsStats> statsByVictim(
 			@PathVariable String filterBy,
@@ -322,6 +325,7 @@ public class MerKillsRestController {
 				accept);
 	}
 
+	@Transactional
 	@GetMapping("/{filterBy}/{filter}/chart")
 	public void chartStatsByVictimType(
 			@PathVariable String filterBy,
@@ -397,6 +401,7 @@ public class MerKillsRestController {
 		return chart;
 	}
 
+	@Transactional
 	@GetMapping("/{filterBy}/{filter}/detail")
 	public ResponseEntity<List<Entry<String, TypesKillsStats>>> statsByVictimTypeDetailed(
 			@PathVariable String filterBy,
@@ -427,6 +432,7 @@ public class MerKillsRestController {
 				accept);
 	}
 
+	@Transactional
 	@GetMapping("/{filterBy}/{filter}/chart/{detail}")
 	public void chartStatsByVictimTypeDetailed(
 			@PathVariable String filterBy,

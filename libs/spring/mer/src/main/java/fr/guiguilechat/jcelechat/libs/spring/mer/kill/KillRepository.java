@@ -21,7 +21,7 @@ select
 from
 	mer_kill kill
 where
-	kill.destroyed_ship_type_id in :destroyedShipTypeId
+	kill.destroyed_ship_id in :destroyedShipTypeId
 group by
 	DATE_TRUNC( 'month', kill.kill_date at time zone 'UTC')
 order by
@@ -39,7 +39,7 @@ select
 from
 	mer_kill kill
 where
-	kill.destroyed_ship_type_id in :destroyedShipTypeId
+	kill.destroyed_ship_id in :destroyedShipTypeId
 group by
 	DATE_TRUNC( 'week', kill.kill_date at time zone 'UTC')
 order by
@@ -57,7 +57,7 @@ select
 from
 	mer_kill kill
 where
-	kill.destroyed_ship_type_id in :destroyedShipTypeId
+	kill.destroyed_ship_id in :destroyedShipTypeId
 group by
 	DATE_TRUNC( 'year', kill.kill_date at time zone 'UTC')
 order by
@@ -75,7 +75,7 @@ select
 from
 	mer_kill kill
 where
-	kill.destroyed_ship_type_id in :destroyedShipTypeId
+	kill.destroyed_ship_id in :destroyedShipTypeId
 group by
 	DATE_TRUNC( 'day', kill.kill_date at time zone 'UTC')
 order by

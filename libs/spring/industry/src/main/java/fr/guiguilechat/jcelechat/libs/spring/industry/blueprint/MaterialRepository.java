@@ -11,8 +11,8 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 
 public interface MaterialRepository extends JpaRepository<Material, Long> {
 
-	public List<Material> findAllByActivityTypeIdInAndActivityActivityIn(List<Integer> typeIds,
-			List<ACTIVITY_TYPE> ats);
+	public List<Material> findAllByActivityTypeIdInAndActivityActivityIn(Iterable<Integer> typeIds,
+	    Iterable<ACTIVITY_TYPE> ats);
 
 	public List<Material> findAllByActivity(BlueprintActivity activity);
 
