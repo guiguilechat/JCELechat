@@ -118,10 +118,20 @@ public class ResourceUpdaterService {
 		log.debug("configuration of {} registered updaters, with manager skip={} defaultSkip={} updatedDelay={}",
 		    fetchedServices.orElse(List.of()).size(), skip, defaultSkip, updatedDelay);
 		Map<String, List<String>> propertiesPrefixToServices = new HashMap<>();
+		log.debug("{} active services :", fetchedServices.orElse(List.of()).stream().filter(l -> !skipService(l)).count());
+		List<IEntityUpdater> inactive = new ArrayList<>();
 		for (IEntityUpdater l : fetchedServices.orElse(List.of())) {
-			log.debug("{} ({}): {}={}", l.fetcherName(), skipService(l) ? "skiped" : "active", l.propertiesPrefix(),
-			    l.propertiesAsString());
+			if (skipService(l)) {
+				inactive.add(l);
+			} else {
+				log.debug(" {} : {}={}", l.fetcherName(), l.propertiesPrefix(),   l.propertiesAsString());
+			}
 			propertiesPrefixToServices.computeIfAbsent(l.propertiesPrefix(), s -> new ArrayList<>()).add(l.fetcherName());
+		}
+		log.debug("{} inactive services :", inactive.size());
+		for (IEntityUpdater l : inactive) {
+			log.debug(" {} : {}={}", l.fetcherName(), l.propertiesPrefix(), l.propertiesAsString());
+
 		}
 		for (Entry<String, List<String>> e : propertiesPrefixToServices.entrySet()) {
 			if (e.getValue().size() > 1) {
