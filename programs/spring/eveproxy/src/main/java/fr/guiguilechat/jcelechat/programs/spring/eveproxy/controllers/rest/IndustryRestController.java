@@ -3,6 +3,10 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.time.Instant;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -204,13 +208,19 @@ public class IndustryRestController {
 	    @RequestParam Optional<List<String>> pgn,
 	    @RequestParam Optional<List<Integer>> pgi,
 	    @RequestParam Optional<Boolean> published,
+	    @RequestParam Optional<Boolean> marketable,
 	    Optional<String> accept) throws IOException {
 
 		long start = System.currentTimeMillis();
-		Map<String, String> query = new HashMap<>();
+		Map<String, String> query = new LinkedHashMap<>();
+		query.put("receivedAt",
+		    DateTimeFormatter.ISO_DATE_TIME.format(Instant.now().atZone(ZoneOffset.UTC).truncatedTo(ChronoUnit.SECONDS)));
 
 		Boolean publishedValue = published == null ? null : published.orElse(null);
 		query.put("published", String.valueOf(publishedValue));
+
+		Boolean marketableValue = marketable == null ? null : marketable.orElse(null);
+		query.put("marketable", String.valueOf(marketableValue));
 
 		Set<Integer> gidFilters = new HashSet<>();
 		if (pgn != null && pgn.isPresent()) {
@@ -240,6 +250,10 @@ public class IndustryRestController {
 		productService.loadTypes(acceptedBpIdToProduct.values());
 		if (publishedValue != null) {
 			acceptedBpIdToProduct.entrySet().removeIf(e->e.getValue().getType().isPublished()!=publishedValue );
+		}
+		if (marketableValue != null) {
+			acceptedBpIdToProduct.entrySet()
+			    .removeIf(e -> e.getValue().getType().getMarketGroup() != null != marketableValue);
 		}
 		bpIds.addAll(acceptedBpIdToProduct.keySet());
 
@@ -272,7 +286,7 @@ public class IndustryRestController {
 				    new BigDecimal(average == null ? 0.0 : average).setScale(5, RoundingMode.FLOOR).stripTrailingZeros()));
 			}
 		}
-		query.put("qtty", String.valueOf(bpEivs.size()));
+		query.put("responseSize", String.valueOf(bpEivs.size()));
 		bpEivs.sort(Comparator.comparing(BpValue::bpName));
 
 		query.put("timeMs", String.valueOf(System.currentTimeMillis() - start));
