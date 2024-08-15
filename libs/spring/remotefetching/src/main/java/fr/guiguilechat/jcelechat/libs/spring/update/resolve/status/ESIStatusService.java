@@ -20,6 +20,9 @@ public class ESIStatusService {
 	@Getter
 	Instant errorReset = null;
 
+	/**
+	 * @return number of errors remaining. Can be cached if previous was error
+	 */
 	public int availErrors() {
 		if (errorReset != null) {
 			if (Instant.now().isBefore(errorReset)) {
@@ -52,5 +55,12 @@ public class ESIStatusService {
 			log.info(" could not get ESI status, skipping for {}", esiAccessReq.getResponseCode());
 		}
 		return 0;
+	}
+
+	/*
+	 * true if last call was not error
+	 */
+	public boolean lastOk() {
+		return errorReset == null;
 	}
 }

@@ -17,6 +17,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.update.resolve.status.ESIStatusService;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -28,6 +29,9 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ResourceUpdaterService {
+
+	@Lazy
+	private final ESIStatusService esiStatusService;
 
 	private final Optional<List<IEntityUpdater>> fetchedServices;
 
@@ -84,6 +88,11 @@ public class ResourceUpdaterService {
 			Instant serviceNextUpdate = s.nextUpdate(remain, start);
 			fetcherNameToNextUpdate.put(s.fetcherName(), serviceNextUpdate);
 			log.debug(" updated {} remaining={} next={}", s.fetcherName(), remain, format(serviceNextUpdate));
+			if (!esiStatusService.lastOk()) {
+				log.debug("skip next services as esi status is error");
+				remainService = true;
+				break;
+			}
 		}
 
 		if (!remainService) {
