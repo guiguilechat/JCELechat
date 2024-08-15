@@ -49,6 +49,11 @@ public abstract class AResourceBatchFetcher<
 
 	@Override
 	protected boolean fetchUpdate() {
+		int remainErrors = esiStatusService().availErrors();
+		if (remainErrors <= getUpdate().getErrorsMin()) {
+			log.trace("{} skip updates as only {} remaining errors", fetcherName(), remainErrors);
+			return false;
+		}
 		boolean updated = false;
 		long startTimeMs = System.currentTimeMillis();
 		Map<String, String> properties = new HashMap<>();
