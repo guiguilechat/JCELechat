@@ -47,7 +47,7 @@ public class ESIStatusService {
 			log.debug("esi error limit reached (420), prevent fetch until {}", errorReset);
 			break;
 		case 503:
-			errorReset = Instant.now().plusSeconds(10);
+			errorReset = Instant.now().plusSeconds(30);
 			log.debug("esi not avail (503), prevent fetch until {}", errorReset);
 			break;
 		default:

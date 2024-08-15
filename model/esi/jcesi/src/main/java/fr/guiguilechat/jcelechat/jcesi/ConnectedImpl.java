@@ -111,7 +111,7 @@ public abstract class ConnectedImpl implements ITransfer {
 							+ "\t" + response.headers().toMultimap());
 					maxRetry--;
 				}
-			} while (isServerError && maxRetry >= 0);
+			} while (isServerError && maxRetry > 0);
 			// try with resource to close the response.body at the end.
 			try (var body = response.body()) {
 				Map<String, List<String>> headers = response.headers().toMultimap();
