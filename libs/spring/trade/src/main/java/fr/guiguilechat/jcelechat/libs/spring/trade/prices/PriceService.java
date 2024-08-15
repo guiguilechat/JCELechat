@@ -53,6 +53,11 @@ public class PriceService extends AFetchedResourceService<Price, Integer, PriceR
 
 	@Override
 	protected boolean fetchUpdate() {
+		int remainErrors = esiStatusService().availErrors();
+		if (remainErrors <= getUpdate().getErrorsMin()) {
+			log.trace("{} skip updates as only {} remaining errors", fetcherName(), remainErrors);
+			return false;
+		}
 		setNextUpdate(null);
 		Map<String, String> properties = new HashMap<>();
 		if (lastEtag != null) {
