@@ -19,8 +19,8 @@ import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.Corporatio
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.lp.ObservedCorporation;
-import fr.guiguilechat.jcelechat.libs.spring.npc.lp.ObservedCorporationService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LPCorporation;
+import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LPCorporationService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Offer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
@@ -40,7 +40,7 @@ public class NpcHtmlController {
 
 	private final LinkCorporationOfferService linkCorporationOfferService;
 
-	private final ObservedCorporationService observedCorporationService;
+	private final LPCorporationService observedCorporationService;
 
 	private final LPOfferEvalService offerValueService;
 
@@ -113,14 +113,14 @@ public class NpcHtmlController {
 		CorporationInfo corp = corporationInfoService.byId(corporationId);
 		model.addAttribute("corpName", corp == null ? "corporation:" + corporationId : corp.nameOrId());
 
-		ObservedCorporation prevCorp = observedCorporationService.prevCorp(corp.nameOrId());
+		LPCorporation prevCorp = observedCorporationService.prevCorp(corp.nameOrId());
 		if (prevCorp != null) {
 			model.addAttribute("prevCorpName", prevCorp.getCorporation().nameOrId());
 			model.addAttribute("prevCorpUrl",
 					uri(prevCorp, params).toString());
 		}
 
-		ObservedCorporation nextCorp = observedCorporationService.nextCorp(corp.nameOrId());
+		LPCorporation nextCorp = observedCorporationService.nextCorp(corp.nameOrId());
 		if (nextCorp != null) {
 			model.addAttribute("nextCorpName", nextCorp.getCorporation().nameOrId());
 			model.addAttribute("nextCorpUrl",
@@ -146,13 +146,13 @@ public class NpcHtmlController {
 		return "npc/corporation";
 	}
 
-	public URI uri(ObservedCorporation corporation, EvalParams params) {
+	public URI uri(LPCorporation corporation, EvalParams params) {
 		return MvcUriComponentsBuilder
 		    .fromMethodName(getClass(), "getCorporationOffers", null, corporation.getId(), params).build()
 				.toUri();
 	}
 
-	public URI uri(ObservedCorporation corporation) {
+	public URI uri(LPCorporation corporation) {
 		return uri(corporation, new EvalParams());
 	}
 
@@ -160,7 +160,7 @@ public class NpcHtmlController {
 
 	}
 
-	public LinkedObservedCorporation linkedObservedCorporation(ObservedCorporation corp, int nbLpOffers) {
+	public LinkedObservedCorporation linkedObservedCorporation(LPCorporation corp, int nbLpOffers) {
 		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporation().nameOrId(), nbLpOffers);
 	}
 

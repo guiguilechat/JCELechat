@@ -41,7 +41,7 @@ public class LinkCorporationOffer {
 	private CorporationInfo corporation;
 
 	@ManyToOne
-	private ObservedCorporation observed;
+	private LPCorporation observed;
 
 	@ManyToOne
 	private Offer offer;

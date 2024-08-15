@@ -29,8 +29,8 @@ public class LinkCorporationOfferService {
 		return repo().saveAllAndFlush(data);
 	}
 
-	public void clearForObserved(Collection<ObservedCorporation> observed) {
-		repo().deleteByObservedId(observed.stream().map(ObservedCorporation::getId).distinct().toList());
+	public void clearForObserved(Collection<LPCorporation> observed) {
+		repo().deleteByObservedId(observed.stream().map(LPCorporation::getId).distinct().toList());
 	}
 
 	public List<LinkCorporationOffer> forCorporationOffer(int corporationId, int offerId) {
@@ -52,14 +52,14 @@ public class LinkCorporationOfferService {
 		    0, lpQuantity);
 	}
 
-	public static record CorporationLPOffers(ObservedCorporation corporation, int nbLPOffers) {
+	public static record CorporationLPOffers(LPCorporation corporation, int nbLPOffers) {
 
 	}
 
 	public List<CorporationLPOffers> listCorporationsWithLPOffers() {
 		return repo().listCorporationsWithLPOffers().stream()
 		    .map(arr -> new CorporationLPOffers(
-		        (ObservedCorporation) arr[0],
+		        (LPCorporation) arr[0],
 		        ((Number) arr[1]).intValue()))
 		    .toList();
 	}

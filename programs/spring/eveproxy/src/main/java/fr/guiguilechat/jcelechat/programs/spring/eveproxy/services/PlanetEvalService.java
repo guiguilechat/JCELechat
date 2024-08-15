@@ -1,9 +1,5 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services;
 
-import static fr.guiguilechat.jcelechat.model.formula.Market.BROKER_FEE_MINIMUM;
-import static fr.guiguilechat.jcelechat.model.formula.Market.BROKER_RELIST_MINIMUM;
-import static fr.guiguilechat.jcelechat.model.formula.Market.MARKET_TAX_MINIMUM;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
@@ -28,6 +24,9 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MaterialSourcing;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.ProductValuator;
+import fr.guiguilechat.jcelechat.model.formula.Market.BrokerFee;
+import fr.guiguilechat.jcelechat.model.formula.Market.BrokerRelist;
+import fr.guiguilechat.jcelechat.model.formula.Market.Tax;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2;
@@ -127,7 +126,7 @@ public class PlanetEvalService {
 	@Setter
 	@ToString
 	public static class PlanetEvalParams {
-		private double brpct = (BROKER_FEE_MINIMUM + 5 * BROKER_RELIST_MINIMUM) * 100;
+		private double brpct = (BrokerFee.MINIMUM + 5 * BrokerRelist.MINIMUM) * 100;
 		private int customCodeExpertise = 5;
 		private double customTaxPct = 5.0;
 		private PRODUCT_FILTER filter = PRODUCT_FILTER.ANY;
@@ -139,7 +138,7 @@ public class PlanetEvalService {
 		private int nbPlanets = 6;
 		private boolean showAll;
 		private ProductValuator productValuator = ProductValuator.SELL_BO_MASS;
-		private double taxpct = MARKET_TAX_MINIMUM * 100;
+		private double taxpct = Tax.MINIMUM * 100;
 		private double volumicPrice = 1000.0;
 	}
 

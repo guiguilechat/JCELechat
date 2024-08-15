@@ -29,7 +29,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class ObservedCorporation extends ARemoteEntity<Integer, List<R_get_loyalty_stores_corporation_id_offers>> {
+public class LPCorporation extends ARemoteEntity<Integer, List<R_get_loyalty_stores_corporation_id_offers>> {
 
 	@OneToOne(optional = false)
 	private CorporationInfo corporation;

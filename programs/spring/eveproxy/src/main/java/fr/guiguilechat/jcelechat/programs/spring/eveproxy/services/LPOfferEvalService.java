@@ -1,9 +1,5 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.services;
 
-import static fr.guiguilechat.jcelechat.model.formula.Market.BROKER_FEE_MINIMUM;
-import static fr.guiguilechat.jcelechat.model.formula.Market.BROKER_RELIST_MINIMUM;
-import static fr.guiguilechat.jcelechat.model.formula.Market.MARKET_TAX_MINIMUM;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -26,6 +22,9 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MaterialSourcing;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.ProductValuator;
+import fr.guiguilechat.jcelechat.model.formula.Market.BrokerFee;
+import fr.guiguilechat.jcelechat.model.formula.Market.BrokerRelist;
+import fr.guiguilechat.jcelechat.model.formula.Market.Tax;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
 import lombok.Builder;
@@ -50,14 +49,14 @@ public class LPOfferEvalService {
 	public static class EvalParams {
 
 		private double bpcost = 1000000.0;
-		private double brpct = (BROKER_FEE_MINIMUM + 5 * BROKER_RELIST_MINIMUM) * 100;
+		private double brpct = (BrokerFee.MINIMUM + 5 * BrokerRelist.MINIMUM) * 100;
 		private long location = MarketLineService.JITAIV_ID;
 		private int lp = 100000;
 		private double margin = 5.0;
 		private double marginPerHour = 0.5;
 		private MaterialSourcing materialSourcing = MaterialSourcing.BUY_SO_MASS;
 		private ProductValuator productValuator = ProductValuator.SELL_BO_MASS;
-		private double taxpct = MARKET_TAX_MINIMUM * 100;
+		private double taxpct = Tax.MINIMUM * 100;
 
 	}
 

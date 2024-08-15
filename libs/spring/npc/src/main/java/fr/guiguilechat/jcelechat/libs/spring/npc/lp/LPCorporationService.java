@@ -29,12 +29,12 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.npc.lpcorporation")
 // depend on corporations, types
 @Order(4)
-public class ObservedCorporationService extends
+public class LPCorporationService extends
     ARemoteEntityService<
-    ObservedCorporation,
+    LPCorporation,
     Integer,
     List<R_get_loyalty_stores_corporation_id_offers>,
-    ObservedCorporationRepository> {
+    LPCorporationRepository> {
 
 	@Lazy
 	private final CorporationInfoService corporationInfoService;
@@ -53,8 +53,8 @@ public class ObservedCorporationService extends
 	}
 
 	@Override
-	protected ObservedCorporation create(Integer entityId) {
-		ObservedCorporation ret = new ObservedCorporation();
+	protected LPCorporation create(Integer entityId) {
+		LPCorporation ret = new LPCorporation();
 		ret.setId(entityId);
 		ret.setCorporation(corporationInfoService.createIfAbsent(entityId));
 		return ret;
@@ -62,7 +62,7 @@ public class ObservedCorporationService extends
 
 	@Override
 	protected void updateResponseOk(
-	    Map<ObservedCorporation, List<R_get_loyalty_stores_corporation_id_offers>> map) {
+	    Map<LPCorporation, List<R_get_loyalty_stores_corporation_id_offers>> map) {
 		log.trace("retrieved modified set of offers for  {} corporations", map.size());
 		super.updateResponseOk(map);
 		// first check all the offers are unique by id
@@ -89,10 +89,10 @@ public class ObservedCorporationService extends
 		
 		// then link the corporation observed to those offers
 		linkCorporationOfferService.clearForObserved(map.keySet());
-		Map<Integer, CorporationInfo> idtoCorporationInfo = corporationInfoService.createIfAbsent(map.keySet().stream().map(ObservedCorporation::getId).toList());
+		Map<Integer, CorporationInfo> idtoCorporationInfo = corporationInfoService.createIfAbsent(map.keySet().stream().map(LPCorporation::getId).toList());
 		List<LinkCorporationOffer> links = new ArrayList<>();
-		for ( Entry<ObservedCorporation, List<R_get_loyalty_stores_corporation_id_offers>> e : map.entrySet()) {
-			ObservedCorporation oc = e.getKey();
+		for ( Entry<LPCorporation, List<R_get_loyalty_stores_corporation_id_offers>> e : map.entrySet()) {
+			LPCorporation oc = e.getKey();
 			CorporationInfo ci = idtoCorporationInfo.get(oc.getId());
 			for (R_get_loyalty_stores_corporation_id_offers o : e.getValue()) {
 				links.add(LinkCorporationOffer.builder()
@@ -151,15 +151,15 @@ public class ObservedCorporationService extends
 
 	// external usage
 
-	public List<ObservedCorporation> allWithOffers() {
+	public List<LPCorporation> allWithOffers() {
 		return repo().findByNbOffersGreaterThanOrderByCorporationNameAsc(0);
 	}
 
-	public ObservedCorporation prevCorp(String name) {
+	public LPCorporation prevCorp(String name) {
 		return repo().findTop1ByCorporationNameLessThanOrderByCorporationNameDesc(name);
 	}
 
-	public ObservedCorporation nextCorp(String name) {
+	public LPCorporation nextCorp(String name) {
 		return repo().findTop1ByCorporationNameGreaterThanOrderByCorporationNameAsc(name);
 	}
 
