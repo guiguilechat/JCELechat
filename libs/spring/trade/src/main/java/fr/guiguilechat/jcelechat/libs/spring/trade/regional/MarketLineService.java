@@ -67,7 +67,7 @@ public class MarketLineService implements MarketRegionListener {
 		long start = System.currentTimeMillis();
 		Map<Integer, List<MarketLine>> ret = repo
 				.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds)
-		    .collect(Collectors.groupingBy(ml -> ml.getType().getId()));
+		    .collect(Collectors.groupingBy(MarketLine::getTypeId));
 		long fetched = System.currentTimeMillis();
 		log.trace("listed {} locations of BO lines for {} type ids in {}s", ret.size(), typeIds.size(),
 		    (fetched - start) / 1000);
@@ -83,7 +83,7 @@ public class MarketLineService implements MarketRegionListener {
 		long start = System.currentTimeMillis();
 		Map<Integer, List<MarketLine>> ret = repo
 				.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds)
-		    .collect(Collectors.groupingBy(ml -> ml.getType().getId()));
+		    .collect(Collectors.groupingBy(MarketLine::getTypeId));
 		long fetched = System.currentTimeMillis();
 		log.trace("listed {} locations of SO lines for {} type ids in {}s", ret.size(), typeIds.size(),
 		    (fetched - start) / 1000);

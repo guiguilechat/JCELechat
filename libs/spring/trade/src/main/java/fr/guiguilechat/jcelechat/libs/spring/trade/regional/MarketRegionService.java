@@ -15,10 +15,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -71,46 +69,28 @@ public class MarketRegionService
 		log.trace("applying {} market orders updates for regions {}", responseOk.size(),
 		    responseOk.keySet().stream().map(MarketRegion::getId).toList());
 		super.updateResponseOk(responseOk);
-		Map<Integer, SolarSystem> idToSolarSystem = solarSystemService.createIfAbsent(
-		    responseOk.values()
-		        .stream().flatMap(Stream::of)
-		        .map(o -> o.system_id)
-		        .distinct().toList());
-		long postSolar = System.currentTimeMillis();
-		log.trace(" got the {} solar systems to use in {}s", idToSolarSystem.size(), (postSolar - startms) / 1000);
-
-		Map<Integer, Type> idToType = typeService.createIfAbsent(
-		    responseOk.values()
-		        .stream().flatMap(Stream::of)
-		        .map(o -> o.type_id)
-		        .distinct().toList());
-		long postType = System.currentTimeMillis();
-		log.trace(" got the {} types to use in {}s", idToType.size(), (postType - postSolar) / 1000);
 
 		marketLineService.clearRegions(responseOk.keySet());
 		long postClear = System.currentTimeMillis();
 		log.trace(" removed all existing orders for the {} regions in {}s", responseOk.size(),
-		    (postClear - postType) / 1000);
+		    (postClear - startms) / 1000);
 
-		List<MarketLine> created = new ArrayList<>();
+		List<MarketLine> translated = new ArrayList<>();
 		for (Entry<MarketRegion, R_get_markets_region_id_orders[]> e : responseOk.entrySet()) {
-			created.addAll(createForRegion(e.getKey(), e.getValue(), idToSolarSystem, idToType));
+			translated.addAll(createForRegion(e.getKey(), e.getValue()));
 		}
 		long postCreated = System.currentTimeMillis();
-		log.trace(" created the {} orders in {}s", created.size(), (postCreated - postClear) / 1000);
-		marketLineService.saveAll(created);
+		log.trace(" translated the {} orders in {}s", translated.size(), (postCreated - postClear) / 1000);
+		marketLineService.saveAll(translated);
 		long postSaved = System.currentTimeMillis();
-		log.trace(" saved {} orders for {} regions in {}s, at {} orders/s", created.size(), responseOk.size(),
+		log.trace(" saved {} orders for {} regions in {}s, at {} orders/s", translated.size(), responseOk.size(),
 		    (postSaved - postCreated) / 1000,
-		    postSaved - postCreated == 0 ? 0 : created.size() * 1000 / (postSaved - postCreated));
+		    postSaved - postCreated == 0 ? 0 : translated.size() * 1000 / (postSaved - postCreated));
 	}
 
-	public List<MarketLine> createForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders,
-	    Map<Integer, SolarSystem> idToSolarSystem,
-	    Map<Integer, Type> idToType) {
+	public List<MarketLine> createForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders) {
 		return Stream.of(orders)
-		        .map(order -> MarketLine.of(order, region, idToSolarSystem.get(order.system_id),
-		            idToType.get(order.type_id)))
+		    .map(order -> MarketLine.of(order, region))
 		    .toList();
 	}
 

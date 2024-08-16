@@ -8,12 +8,14 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
-import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -39,10 +41,10 @@ public class Type extends ARemoteEntity<Integer, R_get_universe_types_type_id> {
 	/**
 	 * dogma_effects array
 	 */
-	@ElementCollection
+	@ElementCollection(fetch = FetchType.LAZY)
 	private Map<Effect, Boolean> effectsDefault = new HashMap<>();
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Group group;
 	
 	/** data integrated from SDE */
@@ -56,8 +58,8 @@ public class Type extends ARemoteEntity<Integer, R_get_universe_types_type_id> {
 	/**
 	 * description string
 	 */
-	@Lob
-	private String description;
+	@OneToOne(fetch = FetchType.LAZY, mappedBy = "type", cascade = CascadeType.ALL, orphanRemoval = true)
+	private TypeDescription description;
 
 	/**
 	 * graphic_id integer
@@ -125,7 +127,7 @@ public class Type extends ARemoteEntity<Integer, R_get_universe_types_type_id> {
 	@Override
 	public void update(R_get_universe_types_type_id data) {
 		setCapacity(data.capacity);
-		setDescription(data.description);
+		setDescription(new TypeDescription(null, this, data.description));
 		setGraphicId(data.graphic_id);
 		setIconId(data.icon_id);
 		setMass(data.mass);

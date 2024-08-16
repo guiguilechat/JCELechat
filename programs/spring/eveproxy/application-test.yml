@@ -10,9 +10,10 @@ logging:
                      items: debug
                      npc: trace
                      sde: debug
-                     trade: debug
+                     trade: trace
                      universe: debug
-                     update: debug                     
+                     update:
+                        manager: trace                     
                programs:
                   spring:
                      eveproxy: trace
@@ -30,11 +31,6 @@ logging:
 mer:
    update:
       skip: true
-
-sde:
-   fetcher:
-      update:
-         skip: false
 
 spring:
    cache:

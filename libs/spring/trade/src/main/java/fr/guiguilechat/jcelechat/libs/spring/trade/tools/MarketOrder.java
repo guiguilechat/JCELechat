@@ -108,8 +108,8 @@ public class MarketOrder implements Serializable {
 		    .orderType(OrderType.MARKET)
 		    .price(line.getPrice())
 		    .regionId(line.getFetchResource().getId())
-		    .systemId(line.getSolarSystem().getId())
-		    .typeId(line.getType().getId())
+		    .systemId(line.getSolarSystemId())
+		    .typeId(line.getTypeId())
 		    .volumeRemain(line.getVolumeRemain())
 		    .volumeTotal(line.getVolumeTotal())
 		    .build();

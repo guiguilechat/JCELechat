@@ -6,6 +6,7 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -14,6 +15,8 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.env.ConfigurableEnvironment;
+import org.springframework.core.env.MapPropertySource;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -29,6 +32,9 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ResourceUpdaterService {
+
+	@Lazy
+	private final ConfigurableEnvironment configurableEnvironment;
 
 	@Lazy
 	private final ESIStatusService esiStatusService;
@@ -147,6 +153,19 @@ public class ResourceUpdaterService {
 				log.error("propertyprefix {} is associated to {} services : {}", e.getKey(), e.getValue().size(), e.getValue());
 			}
 		}
+	}
+
+	@PostConstruct
+	protected void dumpDatasource() {
+		log.trace("application properties");
+		configurableEnvironment.getPropertySources()
+		    .stream()
+		    .filter(ps -> ps instanceof MapPropertySource)
+		    .map(ps -> ((MapPropertySource) ps).getSource().keySet())
+		    .flatMap(Collection::stream)
+		    .distinct()
+		    .sorted()
+		    .forEach(key -> log.trace(" {}={}", key, configurableEnvironment.getProperty(key)));
 	}
 
 }

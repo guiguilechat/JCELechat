@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
 
 import java.time.Instant;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -95,14 +97,39 @@ public abstract class AFetchedResourceService<
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<Id, Entity> createIfAbsent(Collection<Id> entityIds) {
-		Map<Id, Entity> storedEntities = repo().findAllById(entityIds).stream()
-		    .collect(Collectors.toMap(AFetchedResource::getId,
-		        e -> e));
+		long start = System.currentTimeMillis();
+		Map<Id, Entity> storedEntities = new HashMap<>();
+		if (entityIds.isEmpty()) {
+			return storedEntities;
+		}
+		log.trace("{} createIfAbsent {} entities", fetcherName(), entityIds.size());
+		int maxList = Integer.MAX_VALUE;
+		if (entityIds.size() <= maxList) {
+			repo().findAllById(entityIds).stream()
+			    .forEach(r -> storedEntities.put(r.getId(), r));
+		} else {
+			List<Id> lastList = new ArrayList<>();
+			for (Id id : entityIds) {
+				if (lastList.size() >= maxList) {
+					repo().findAllById(lastList).stream()
+					    .forEach(r -> storedEntities.put(r.getId(), r));
+					lastList = new ArrayList<>();
+				}
+				lastList.add(id);
+			}
+			if (!lastList.isEmpty()) {
+				repo().findAllById(lastList).stream()
+				    .forEach(r -> storedEntities.put(r.getId(), r));
+			}
+		}
+		long postRetrieved = System.currentTimeMillis();
+		log.trace(" {} createIfAbsent retrieved {} stored entities in {} ms @ {}/s", fetcherName(), storedEntities.size(),
+		    postRetrieved - start, storedEntities.size() * 1000 / Math.max(1, postRetrieved - start));
 		List<Entity> newEntities = saveAll(entityIds.stream()
 		    .filter(id -> !storedEntities.containsKey(id)).distinct()
 		    .map(this::createMinimal)
 		    .toList());
-
+		log.trace(" {} createIfAbsent created {} new entities", fetcherName(), newEntities.size());
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
 		    .collect(Collectors.toMap(AFetchedResource::getId, e -> e));
 	}

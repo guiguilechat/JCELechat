@@ -4,6 +4,7 @@ public class Industry {
 
 	public static class Research {
 
+
 	}
 
 	public static final Research research = new Research();

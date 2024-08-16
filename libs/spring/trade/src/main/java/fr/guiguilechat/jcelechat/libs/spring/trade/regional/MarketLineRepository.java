@@ -64,7 +64,7 @@ select
 from
 	EsiTradeMarketLine line
 where
-	line.type.id=:typeid
+	line.typeId=:typeid
 	and not line.isBuyOrder
 group by
 	line.fetchResource.id,
@@ -85,7 +85,7 @@ select
 from
 	EsiTradeMarketLine line
 where
-	line.type.id=:typeid
+	line.typeId=:typeid
 	and not line.isBuyOrder
 	and line.duration=365
 group by
@@ -107,7 +107,7 @@ select
 from
 	EsiTradeMarketLine line
 where
-	line.type.id=:typeid
+	line.typeId=:typeid
 	and line.isBuyOrder
 group by
 	line.fetchResource.id,
@@ -120,12 +120,12 @@ order by
 	@Query(""" 
 select
 	fetchResource.id,
-	type.id
+	typeId
 from
 	EsiTradeMarketLine
 group by
 	fetchResource.id,
-	type.id
+	typeId
 """)
 	public List<Object[]> findAllRegionTypeCouple();
 
