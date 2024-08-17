@@ -89,7 +89,7 @@ public class MerUpdateService {
 			if (merfetch.error() == null) {
 				log.debug("" + localdate + " url=" + merfetch.url());
 			} else {
-				if (merfetch.error() instanceof FileNotFoundException fnf) {
+				if (merfetch.error() instanceof FileNotFoundException) {
 					log.debug("{} url= {} no file", localdate, merfetch.url());
 				} else {
 					log.debug("" + localdate + " url=" + merfetch.url(), merfetch.error());

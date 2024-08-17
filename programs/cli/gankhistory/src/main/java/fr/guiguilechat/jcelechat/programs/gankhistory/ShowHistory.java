@@ -3,6 +3,8 @@ package fr.guiguilechat.jcelechat.programs.gankhistory;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -14,7 +16,9 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -64,9 +68,9 @@ public class ShowHistory {
 		}
 	}
 
-	protected static InputStream openStreamFor(String uri) throws IOException, InterruptedException {
+	protected static InputStream openStreamFor(String uri) throws IOException, InterruptedException, URISyntaxException {
 		boolean zip = true;
-		URL url = new URL(uri);
+		URL url = new URI(uri).toURL();
 		// System.err.println("url = " + url.toString());
 		HttpURLConnection uc = (HttpURLConnection) url.openConnection();
 		if (zip) {
@@ -94,14 +98,14 @@ public class ShowHistory {
 	private static final ArrayType RETURN_TYPE = TypeFactory.defaultInstance().constructArrayType(EZKB.class);
 
 	public static List<EZKB> lossesForGroup(int groupID, int year, int month)
-			throws JsonParseException, JsonMappingException, IOException, InterruptedException {
+	    throws JsonParseException, JsonMappingException, IOException, InterruptedException, URISyntaxException {
 		List<EZKB> ret = lossesForGroup(groupID, year, month, 1);
 		ret.removeIf(km -> km.zkb.awox);
 		return ret;
 	}
 
 	public static List<EZKB> lossesForGroup(int groupID, int year, int month, int page)
-			throws JsonParseException, JsonMappingException, IOException, InterruptedException {
+	    throws JsonParseException, JsonMappingException, IOException, InterruptedException, URISyntaxException {
 		String uri = "https://zkillboard.com/api/losses/highsec/groupID/" + groupID + "/year/" + year + "/month/" + month
 				+ "/npc/0/page/" + page + "/";
 		InputStream is = openStreamFor(uri);
@@ -118,12 +122,13 @@ public class ShowHistory {
 		return ret;
 	}
 
-	public static List<EZKB> killsForType(int typeId, int year, int month) throws IOException, InterruptedException {
+	public static List<EZKB> killsForType(int typeId, int year, int month)
+	    throws IOException, InterruptedException, URISyntaxException {
 		return killsForType(typeId, year, month, 1);
 	}
 
 	public static List<EZKB> killsForType(int typeId, int year, int month, int page)
-			throws IOException, InterruptedException {
+	    throws IOException, InterruptedException, URISyntaxException {
 		String uri = "https://zkillboard.com/api/kills/highsec/shipTypeID/" + typeId + "/year/" + year
 				+ "/month/" + month
 				+ "/page/" + page + "/";
@@ -154,7 +159,7 @@ public class ShowHistory {
 
 	public static void mainLosses(String[] args) {
 
-		int[] groups = new int[] { EXPEDITIONGROUP, FREIGHTERGROUP, JFGROUP, DSTGROUP, BRGROUP };
+		int[] groups = { EXPEDITIONGROUP, FREIGHTERGROUP, JFGROUP, DSTGROUP, BRGROUP };
 
 		LocalDate start = LocalDate.of(2010, 1, 1);
 		LocalDate end = LocalDate.now();
@@ -169,8 +174,8 @@ public class ShowHistory {
 				try {
 					List<EZKB> val = lossesForGroup(groupId, d.getYear(), d.getMonthValue());
 					group2Kills.put(groupId, val);
-				} catch (IOException | InterruptedException e) {
-					throw new UnsupportedOperationException("catch this", e);
+				} catch (IOException | InterruptedException | URISyntaxException e) {
+					throw new RuntimeException(e);
 				}
 			}
 			date2Group2Kills.put(d, group2Kills);
@@ -193,7 +198,7 @@ public class ShowHistory {
 		}
 		System.out.println(header + "\tall Kills\tall systems");
 
-		date2Group2Kills.entrySet().stream().sorted(Comparator.comparing(e -> e.getKey())).forEach(e -> {
+		date2Group2Kills.entrySet().stream().sorted(Comparator.comparing((Function<? super Entry<LocalDate, Map<Integer, List<EZKB>>>, ? extends LocalDate>) Entry::getKey)).forEach(e -> {
 			Map<Integer, List<EZKB>> group2kills = e.getValue();
 			StringBuilder sb = new StringBuilder(e.getKey().format(ff));
 			int allKills = 0;
@@ -231,7 +236,7 @@ public class ShowHistory {
 
 	public static void mainKills(String... args) {
 		int[] types = IntStream.of(POLICEDRONES_GROUP, SENTRY_GROUP, CONCORD_GROUP)
-				.mapToObj(gid -> ESIRawPublic.INSTANCE.cache().universe.groups(gid)).map(h -> h.get())
+				.mapToObj(gid -> ESIRawPublic.INSTANCE.cache().universe.groups(gid)).map(ObjHolder::get)
 				.flatMapToInt(g -> IntStream.of(g.types)).toArray();
 		System.err
 		.println("" + types.length + " types : " + IntStream.of(types).sorted().boxed().collect(Collectors.toList()));
@@ -255,8 +260,8 @@ public class ShowHistory {
 				try {
 					List<EZKB> val = killsForType(tid, d.getYear(), d.getMonthValue());
 					data.addAll(val);
-				} catch (IOException | InterruptedException e) {
-					throw new UnsupportedOperationException("catch this", e);
+				} catch (IOException | InterruptedException | URISyntaxException e) {
+					throw new RuntimeException(e);
 				}
 			});
 			long endTime = System.currentTimeMillis();
@@ -276,7 +281,7 @@ public class ShowHistory {
 		System.out.println("date\tkills\tsystems\t10th\t100th\tavg\tginy");
 
 		int systemCount = 1192;
-		date2Kills.entrySet().stream().sorted(Comparator.comparing(e -> e.getKey())).forEach(e -> {
+		date2Kills.entrySet().stream().sorted(Comparator.comparing((Function<? super Entry<LocalDate, Set<EZKB>>, ? extends LocalDate>) Entry::getKey)).forEach(e -> {
 			StringBuilder sb = new StringBuilder(e.getKey().format(ff));
 
 			Set<EZKB> kills = e.getValue();

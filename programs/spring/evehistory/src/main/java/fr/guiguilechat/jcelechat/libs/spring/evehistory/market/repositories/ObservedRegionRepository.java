@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.evehistory.market.model.ObservedRegion;
 
-public interface ObservedRegionRepository extends JpaRepository<ObservedRegion, Long> {
+public interface ObservedRegionRepository extends JpaRepository<ObservedRegion, Integer> {
 
 	boolean existsByRegionId(int region_id);
 

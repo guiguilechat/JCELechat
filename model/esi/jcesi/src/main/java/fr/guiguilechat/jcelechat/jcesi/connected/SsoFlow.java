@@ -239,6 +239,7 @@ public abstract class SsoFlow {
 	 * @return the line returned as the result of connection, or null if any issue
 	 *         appears.
 	 */
+	@SuppressWarnings("resource")
 	protected String getAuthLine(String appAuth, Map<String, String> transmitMap, CONTENT_TYPE type) {
 		try {
 			if (appAuth == null) {
@@ -251,7 +252,7 @@ public abstract class SsoFlow {
 			// System.err.println("sending auth line with base64=" + appAuth + " and body="
 			// + transmitData);
 			String url = baseAuthUrl() + "token";
-			URL target = new URL(url);
+			URL target = new URI(url).toURL();
 			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Authorization", "Basic " + appAuth);

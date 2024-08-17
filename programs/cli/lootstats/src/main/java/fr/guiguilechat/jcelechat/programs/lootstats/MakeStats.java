@@ -49,12 +49,11 @@ public class MakeStats {
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
 		Stream.of(args).parallel().forEach(dirname -> {
-			try {
-				File dir = new File(dirname);
-				File outDir = new File(srcDir, dir.getName());
-				outDir.mkdirs();
-				PrintStream ps;
-				ps = new PrintStream(new File(outDir, "result.txt"));
+
+			File dir = new File(dirname);
+			File outDir = new File(srcDir, dir.getName());
+			outDir.mkdirs();
+			try (PrintStream ps = new PrintStream(new File(outDir, "result.txt"))) {
 				ArrayList<LootEntry> list = bp.loadDirectory(dir);
 
 				HashSet<Integer> allFactionItems = new HashSet<>();
@@ -141,7 +140,7 @@ public class MakeStats {
 	}
 
 	public static double getValue(LootEntry le, IntToDoubleFunction cost) {
-		return le.loots.entrySet().stream().mapToDouble((e) -> e.getValue() * cost.applyAsDouble(e.getKey())).sum();
+		return le.loots.entrySet().stream().mapToDouble(e -> e.getValue() * cost.applyAsDouble(e.getKey())).sum();
 	}
 
 	public static Map<String, Map<RegularTimePeriod, Double>> makeGroupToPeriodToValues(Stream<LootEntry> loots,

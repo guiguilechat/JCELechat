@@ -10,4 +10,16 @@
 	<artifactId>formula</artifactId>
 	<name>Eve formula</name>
 	<description>centralize formula from Eve.</description>
+	<dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>

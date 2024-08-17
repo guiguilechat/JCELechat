@@ -2,10 +2,13 @@ package fr.guiguilechat.jcelechat.model.sde.locations;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.net.URL;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -115,11 +118,11 @@ public class Invasions {
 				if (cachedEntries == null) {
 					try {
 						ObjectMapper mapper = new ObjectMapper();
-						cachedEntries = mapper.readValue(new URL("https://kybernaut.space/invasions.json"),
+						cachedEntries = mapper.readValue(new URI("https://kybernaut.space/invasions.json").toURL(),
 								new TypeReference<List<JsonEntry>>() {
 						});
-					} catch (IOException e) {
-						throw new UnsupportedOperationException("catch this", e);
+					} catch (IOException | URISyntaxException e) {
+						throw new RuntimeException(e);
 					}
 				}
 			}
@@ -160,7 +163,7 @@ public class Invasions {
 			synchronized (this) {
 				if (cacheSystems2Status == null) {
 					cacheSystems2Status = sysnames.entrySet().stream()
-							.collect(Collectors.toMap(e -> SolarSystem.getSystem(e.getKey()), e -> e.getValue()));
+							.collect(Collectors.toMap(e -> SolarSystem.getSystem(e.getKey()), (Function<? super Entry<String, STATUS>, ? extends STATUS>) Entry::getValue));
 				}
 			}
 		}
@@ -207,7 +210,7 @@ public class Invasions {
 			List<JsonEntry> entries = getEntries();
 			synchronized (this) {
 				if (cacheReducedSystems == null) {
-					cacheReducedSystems = entries.stream().filter(e -> e.secReduced())
+					cacheReducedSystems = entries.stream().filter(JsonEntry::secReduced)
 							.map(e -> SolarSystem.getSystem(e.system_id))
 							.collect(Collectors.toSet());
 				}

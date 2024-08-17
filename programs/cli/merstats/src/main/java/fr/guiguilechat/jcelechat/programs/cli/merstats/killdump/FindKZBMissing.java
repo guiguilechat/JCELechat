@@ -1,7 +1,8 @@
 package fr.guiguilechat.jcelechat.programs.cli.merstats.killdump;
 
 import java.io.IOException;
-import java.net.URL;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -40,7 +41,7 @@ public class FindKZBMissing {
 				Etypes etype = types.get(type_id);
 				ZKEntry[] zkills = fetchKills(year, month, sys, type_id);
 				Thread.sleep(1000);
-				long nbkills = e2.getValue().values().stream().flatMap(l -> l.stream()).count();
+				long nbkills = e2.getValue().values().stream().flatMap(List::stream).count();
 				if (nbkills != zkills.length) {
 					int excess = (int) (zkills.length - nbkills);
 					System.out
@@ -89,9 +90,9 @@ public class FindKZBMissing {
 				"https://zkillboard.com/api/losses/shipTypeID/%d/year/%04d/month/%02d/solarSystemID/%d/npc/0/",
 				typeid, year, month, systemid);
 		try {
-			return new ObjectMapper().readValue(new URL(url), ZKEntry[].class);
-		} catch (IOException e) {
-			throw new UnsupportedOperationException(e);
+			return new ObjectMapper().readValue(new URI(url).toURL(), ZKEntry[].class);
+		} catch (IOException | URISyntaxException e) {
+			throw new RuntimeException(e);
 		}
 	}
 
