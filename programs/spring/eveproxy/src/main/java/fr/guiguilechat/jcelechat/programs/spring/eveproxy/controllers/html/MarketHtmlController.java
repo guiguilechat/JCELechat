@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrderService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.orders.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
@@ -58,12 +58,12 @@ public class MarketHtmlController {
 			model.addAttribute("name",  "unknown" + typeId);
 		}
 		model.addAttribute("sos",
-						marketOrderService.sellOrders(typeId).stream()
+		    marketOrderService.sellOrders(List.of(typeId)).stream()
 						.peek(
 								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 						.toList());
 		model.addAttribute("bos",
-				marketOrderService.buyOrders(typeId).stream()
+		    marketOrderService.buyOrders(List.of(typeId)).stream()
 						.peek(
 								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 						.toList());

@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.trade.regional;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
@@ -130,12 +131,12 @@ public class MarketLineService implements MarketRegionListener {
 		return reverseIf(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder), isBuyOrder);
 	}
 
-	public Stream<MarketOrder> streamBOs(int typeId) {
-		return repo.findByTypeIdAndIsBuyOrderTrueOrderByPriceDesc(typeId).map(MarketOrder::of);
+	public Stream<MarketOrder> streamBOs(Collection<Integer> typeIds) {
+		return repo.findByTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(typeIds).map(MarketOrder::of);
 	}
 
-	public Stream<MarketOrder> streamSOs(int typeId) {
-		return repo.findByTypeIdAndIsBuyOrderFalseOrderByPriceAsc(typeId).map(MarketOrder::of);
+	public Stream<MarketOrder> streamSOs(Collection<Integer> typeIds) {
+		return repo.findByTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(typeIds).map(MarketOrder::of);
 	}
 
 	//

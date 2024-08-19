@@ -38,11 +38,11 @@ public interface MarketLineRepository extends IFetchedListElementRepository<Mark
 	int typeid,
 	boolean isBuyOrder);
 
-	public Stream<MarketLine> findByTypeIdAndIsBuyOrderFalseOrderByPriceAsc(
-	int typeid);
+	public Stream<MarketLine> findByTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(
+	    Iterable<Integer> typeids);
 
-	public Stream<MarketLine> findByTypeIdAndIsBuyOrderTrueOrderByPriceDesc(
-	int typeid);
+	public Stream<MarketLine> findByTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(
+	    Iterable<Integer> typeids);
 
 	public List<MarketLine> findByFetchResourceIdAndTypeIdInOrderByPriceAsc(
 	int regionId, List<Integer>typeids);

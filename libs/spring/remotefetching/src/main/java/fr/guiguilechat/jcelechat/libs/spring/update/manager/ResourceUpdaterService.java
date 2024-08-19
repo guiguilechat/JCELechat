@@ -5,23 +5,18 @@ import java.time.Instant;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.core.env.ConfigurableEnvironment;
-import org.springframework.core.env.MapPropertySource;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.status.ESIStatusService;
-import jakarta.annotation.PostConstruct;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -31,14 +26,13 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@Getter
 public class ResourceUpdaterService {
-
-	@Lazy
-	private final ConfigurableEnvironment configurableEnvironment;
 
 	@Lazy
 	private final ESIStatusService esiStatusService;
 
+	@Lazy
 	private final Optional<List<IEntityUpdater>> fetchedServices;
 
 	//
@@ -124,48 +118,14 @@ public class ResourceUpdaterService {
 	@Value("${jcesi.manager.default.skip:false}")
 	private boolean defaultSkip;
 
-	protected boolean skipService(IEntityUpdater updater) {
+	/**
+	 * tells whether a give updater service should be skipped
+	 * 
+	 * @param updater
+	 * @return
+	 */
+	public boolean skipService(IEntityUpdater updater) {
 		return Optional.ofNullable(updater.getUpdate().getSkip()).orElse(defaultSkip);
-	}
-
-	@PostConstruct
-	protected void debugConfig() {
-		log.debug("configuration of {} registered updaters, with manager skip={} defaultSkip={} updatedDelay={}",
-		    fetchedServices.orElse(List.of()).size(), skip, defaultSkip, updatedDelay);
-		Map<String, List<String>> propertiesPrefixToServices = new HashMap<>();
-		log.debug("{} active services :", fetchedServices.orElse(List.of()).stream().filter(l -> !skipService(l)).count());
-		List<IEntityUpdater> inactive = new ArrayList<>();
-		for (IEntityUpdater l : fetchedServices.orElse(List.of())) {
-			if (skipService(l)) {
-				inactive.add(l);
-			} else {
-				log.debug(" {} : {}={}", l.fetcherName(), l.propertiesPrefix(),   l.propertiesAsString());
-			}
-			propertiesPrefixToServices.computeIfAbsent(l.propertiesPrefix(), s -> new ArrayList<>()).add(l.fetcherName());
-		}
-		log.debug("{} inactive services :", inactive.size());
-		for (IEntityUpdater l : inactive) {
-			log.debug(" {} : {}={}", l.fetcherName(), l.propertiesPrefix(), l.propertiesAsString());
-
-		}
-		for (Entry<String, List<String>> e : propertiesPrefixToServices.entrySet()) {
-			if (e.getValue().size() > 1) {
-				log.error("propertyprefix {} is associated to {} services : {}", e.getKey(), e.getValue().size(), e.getValue());
-			}
-		}
-	}
-
-	@PostConstruct
-	protected void dumpDatasource() {
-		log.trace("application properties");
-		configurableEnvironment.getPropertySources()
-		    .stream()
-		    .filter(ps -> ps instanceof MapPropertySource)
-		    .map(ps -> ((MapPropertySource) ps).getSource().keySet())
-		    .flatMap(Collection::stream)
-		    .distinct()
-		    .sorted()
-		    .forEach(key -> log.trace(" {}={}", key, configurableEnvironment.getProperty(key)));
 	}
 
 }

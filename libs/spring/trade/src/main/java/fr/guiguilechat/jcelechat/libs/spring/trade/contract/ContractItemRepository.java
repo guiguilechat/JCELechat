@@ -18,9 +18,9 @@ where
 	fetchResource.fetched
 	and not fetchResource.removed
 	and fetchResource.asksOneTypeForIsks
-	and type.id=:typeId
+	and type.id in :typeId
 """)
-	public Stream<ContractInfo> listBOs(int typeId);
+	public Stream<ContractInfo> listBOs(Iterable<Integer> typeId);
 
 	@Query("""
 	select
@@ -31,9 +31,9 @@ where
 	fetchResource.fetched
 	and not fetchResource.removed
 	and fetchResource.offersOneTypeForIsk
-	and type.id=:typeId
+	and type.id in :typeId
 """)
-	public Stream<ContractInfo> listSOs(int typeId);
+	public Stream<ContractInfo> listSOs(Iterable<Integer> typeId);
 
 	@Override
 	@Modifying

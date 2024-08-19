@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -24,13 +25,13 @@ public class ContractItemService {
 	}
 
 	@Transactional
-	public Stream<MarketOrder> streamBOs(int typeId) {
-		return repo.listBOs(typeId).map(MarketOrder::of);
+	public Stream<MarketOrder> streamBOs(Collection<Integer> typeIds) {
+		return repo.listBOs(typeIds).map(MarketOrder::of);
 	}
 
 	@Transactional
-	public Stream<MarketOrder> streamSOs(int typeId) {
-		return repo.listSOs(typeId).map(MarketOrder::of);
+	public Stream<MarketOrder> streamSOs(Collection<Integer> typeIds) {
+		return repo.listSOs(typeIds).map(MarketOrder::of);
 	}
 
 }

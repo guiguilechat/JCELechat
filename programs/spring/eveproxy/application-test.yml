@@ -13,11 +13,15 @@ logging:
                      trade: trace
                      universe: debug
                      update:
-                        manager: trace                     
+                        dump:
+#                           Env: trace # dumps the environment
+#                           Manager: trace # dumps the update managers and its entity updaters.
+                        manager: trace
                programs:
                   spring:
                      eveproxy: trace
 #      org:
+mer:
 #         hibernate:
 #            orm:
 #               jdbc:
@@ -26,9 +30,8 @@ logging:
 #            type:
 #               descriptor:
 #                  sql:
-#                     BasicBinder: trace
 
-mer:
+#                     BasicBinder: trace
    update:
       skip: true
 
@@ -36,7 +39,8 @@ spring:
    cache:
       type: simple
    datasource:
-      hikari: validationTimeout:300000 # 5min timeout for access local h2 DB
+      hikari:
+         validationTimeout: 300000 # 5min timeout for access local h2 DB
       password: admin
       url: jdbc:h2:./db/export
       username: admin
@@ -45,4 +49,7 @@ spring:
          hibernate:
             format_sql: true
 #      show-sql: true
-#debug: true
+# ------------------
+# Orphaned comments:
+# ------------------
+# Was at begin of line:52 :#debug: true

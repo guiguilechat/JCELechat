@@ -117,7 +117,7 @@ public class MarketOrder implements Serializable {
 
 	public static MarketOrder of(ContractInfo contract) {
 		if (!contract.isAsksOneTypeForIsks() && !contract.isOffersOneTypeForIsk()) {
-			throw new RuntimeException("contract can't be used as a market order");
+			throw new RuntimeException("multiple item contract id=" + contract.getId() + " can't be used as a market order");
 		}
 		int volume = contract.getItems().stream().mapToInt(ContractItem::getQuantity).sum();
 		long locationId = contract.getEndLocationId();

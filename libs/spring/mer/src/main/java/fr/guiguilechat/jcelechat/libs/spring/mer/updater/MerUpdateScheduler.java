@@ -9,30 +9,35 @@ import java.util.concurrent.CompletionException;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher.MERFetch;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-@RequiredArgsConstructor
+@RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@ConfigurationProperties(prefix = "mer.update")
+@Getter
+@Setter
 public class MerUpdateScheduler {
 
+	@Lazy
 	final private MerUpdateService merUpdateService;
 
-	@Value("${mer.update.max:10}")
-	private int maxFetches;
 
-	@Value("${mer.update.skip:false}")
-	private boolean skip;
+	private int max = 10;
 
-	@Value("${mer.update.timeoutsec:300}")
-	private int timeout_seconds;
+	private boolean skip = false;
+
+	private int timeoutsec = 300;
 
 	@Scheduled(fixedRateString = "${mer.update.delayms:600000}", initialDelayString = "${mer.updater.waitms:20000}")
 	public void updateMers() {
@@ -44,7 +49,7 @@ public class MerUpdateScheduler {
 				merUpdateService.nextFetches().stream().map(ld -> MERFetcher.INSTANCE.forDate(ld))
 						.filter(mf -> mf.url() != null).toList());
 		Random rand = new Random();
-		while (merFetches.size() > maxFetches) {
+		while (merFetches.size() > max) {
 			merFetches.remove(rand.nextInt(merFetches.size()));
 		}
 		log.info("updating " + merFetches.size() + " mers out of "
@@ -52,7 +57,7 @@ public class MerUpdateScheduler {
 						.filter(mf -> mf.url() != null).count());
 		Map<MERFetch, CompletableFuture<Void>> futures = merFetches.stream()
 				.collect(Collectors.toMap(mf -> mf,
-						mf -> merUpdateService.loadMer(mf).orTimeout(timeout_seconds, TimeUnit.SECONDS)));
+		        mf -> merUpdateService.loadMer(mf).orTimeout(timeoutsec, TimeUnit.SECONDS)));
 		futures.entrySet().forEach(f -> {
 			try {
 				f.getValue().join();

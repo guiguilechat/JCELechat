@@ -1,5 +1,6 @@
-package fr.guiguilechat.jcelechat.libs.spring.trade.tools;
+package fr.guiguilechat.jcelechat.libs.spring.trade.orders;
 
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -15,6 +16,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItemService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegionService.MarketRegionListener;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -33,17 +35,17 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 	private final ContractItemService contractItemService;
 
 	@Transactional
-	@Cacheable("MarketOrdersSellOrdersForType")
-	public List<MarketOrder> sellOrders(int typeId) {
-		return Stream.concat(contractItemService.streamSOs(typeId), regionLineService.streamSOs(typeId))
+	@Cacheable("MarketOrdersSellOrdersForTypes")
+	public List<MarketOrder> sellOrders(Collection<Integer> typeIds) {
+		return Stream.concat(contractItemService.streamSOs(typeIds), regionLineService.streamSOs(typeIds))
 				.sorted(Comparator.comparing(MarketOrder::getPrice))
 				.toList();
 	}
 
 	@Transactional
-	@Cacheable("MarketOrdersBuyOrdersForType")
-	public List<MarketOrder> buyOrders(int typeId) {
-		return Stream.concat(contractItemService.streamBOs(typeId), regionLineService.streamBOs(typeId))
+	@Cacheable("MarketOrdersBuyOrdersForTypes")
+	public List<MarketOrder> buyOrders(Collection<Integer> typeIds) {
+		return Stream.concat(contractItemService.streamBOs(typeIds), regionLineService.streamBOs(typeIds))
 				.sorted(Comparator.comparing(mo -> -mo.getPrice()))
 				.toList();
 	}
@@ -51,7 +53,7 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 	@Transactional
 	@Cacheable("MarketOrdersLowestSellForType")
 	public Map<Integer, Double> lowestSellByRegion(int typeId) {
-		return Stream.concat(contractItemService.streamSOs(typeId), regionLineService.streamSOs(typeId))
+		return Stream.concat(contractItemService.streamSOs(List.of(typeId)), regionLineService.streamSOs(List.of(typeId)))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey,
@@ -61,7 +63,7 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 	@Transactional
 	@Cacheable("MarketOrdersHighestBuyForType")
 	public Map<Integer, Double> highestBuyByRegion(int typeId) {
-		return Stream.concat(contractItemService.streamBOs(typeId), regionLineService.streamBOs(typeId))
+		return Stream.concat(contractItemService.streamBOs(List.of(typeId)), regionLineService.streamBOs(List.of(typeId)))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey,
@@ -70,8 +72,8 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 
 	@Getter
 	private final List<String> cacheList = List.of(
-	    "MarketOrdersSellOrdersForType",
-	    "MarketOrdersBuyOrdersForType",
+	    "MarketOrdersSellOrdersForTypes",
+	    "MarketOrdersBuyOrdersForTypes",
 	    "MarketOrdersLowestSellForType",
 	    "MarketOrdersHighestBuyForType");
 
