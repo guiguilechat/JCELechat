@@ -28,7 +28,7 @@ public class Research {
 	 * @param eiv    BP eiv
 	 * @param me     ME rank (from 0 to 10)
 	 * @param te     TE rank (from 0 to 20)
-	 * @param totTax total taxes base 1 (so a 5% tax is 0.05)
+	 * @param totTax total taxes sum, base 1 (so a 5% tax is 0.05)
 	 * @return total installation fee to research BP at given ME and TE
 	 */
 	public static long researchTax(long eiv, int me, int te, double totTax) {

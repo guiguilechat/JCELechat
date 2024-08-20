@@ -1,0 +1,88 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>Market Contracts</title>
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+    <header th:insert="~{fragments/general.html :: header}"> </header>
+	<div class="container-fluid border">
+		<div class="row border">
+			<div class="col-6">
+				<h1>Market contracts</h1>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h3>Options</h3>
+				<form method="get" th:action="@{${action}}">
+					<table>
+						<thead>
+							<tr>
+								<th>market location id</th>
+								<th>margin cost, % of provided value</th>
+								<th>bp</th>
+								<th>only single sell</th>
+								<th>only single buy</th>
+								<th>structure</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input class="form-control" type="number"
+									name="location" th:value="${params.location}" /></td>
+								<td><input class="form-control" type="number" step="0.1"
+									name="margin" th:value="${params.margin}" /></td>
+								<td><select name="bpo">
+									<option th:value="true" th:selected="${params.bpo!=null && params.bpo}">only</option>
+									<option th:value="false" th:selected="${params.bpo!=null && !params.bpo}">none</option>
+									<option th:value="null" th:selected="${params.bpo==null}">any</option>
+								</select></td>
+								<td><input class="form-check-input" type="checkbox"	name="singleSell" th:checked="${params.singleSell}" /></td>
+								<td><input class="form-check-input" type="checkbox"	name="singleBuy" th:checked="${params.singleBuy}" /></td>
+								<td><input class="form-check-input" type="checkbox"	name="structure" th:checked="${params.structure}" /></td>
+							</tr>
+						</tbody>
+					</table>
+					<p>
+						<input type="submit" value="Submit" /> <input type="reset"
+							value="Reset" />
+					</p>
+				</form>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col" th:if="${contracts != null}">
+				<h2>Evaluations</h2>
+				<table>
+				<thead>
+					<tr>
+						<th>contract</th>
+						<th>region</th>
+						<th>ingame link</th>
+						<th>gain</th>
+						<th>contract cost</th>
+						<th>contract value</th>
+					</tr>
+				</thead>
+					<tbody>
+						<tr th:each="contract : ${contracts}">
+							<td><a th:href="${contract.url}" th:text="${contract.name()}" /></td>
+							<td th:text="${contract.region}"></td>
+							<td><span class="user-select-all border border-info bg-light" th:text="${contract.gameLink()}"/></td>
+							<td th:text="${contract.gain()}"></td>
+							<td th:text="${contract.cost()}"></td>
+							<td th:text="${contract.value()}"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</body>

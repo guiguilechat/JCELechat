@@ -24,6 +24,8 @@ import lombok.Setter;
 @Setter
 public class Category extends ARemoteEntity<Integer, R_get_universe_categories_category_id> {
 
+	public static final int BP_CAT_ID = 9;
+
 	@OneToMany(mappedBy = "category")
 	private List<Group> groups;
 

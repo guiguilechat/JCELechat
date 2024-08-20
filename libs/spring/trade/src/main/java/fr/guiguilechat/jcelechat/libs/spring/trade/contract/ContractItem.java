@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "EsiMarketContractItem")
-@Table(name = "esi_market_contractitem", indexes = {
+@Table(name = "esi_trade_contractitem", indexes = {
     @Index(columnList = "fetch_resource_id"),
 		@Index(columnList = "typeId") })
 @AllArgsConstructor

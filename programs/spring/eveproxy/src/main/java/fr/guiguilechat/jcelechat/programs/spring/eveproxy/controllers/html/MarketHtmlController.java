@@ -58,12 +58,12 @@ public class MarketHtmlController {
 			model.addAttribute("name",  "unknown" + typeId);
 		}
 		model.addAttribute("sos",
-		    marketOrderService.sellOrders(List.of(typeId)).stream()
+		    marketOrderService.sellOrders(typeId).stream()
 						.peek(
 								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 						.toList());
 		model.addAttribute("bos",
-		    marketOrderService.buyOrders(List.of(typeId)).stream()
+		    marketOrderService.buyOrders(typeId).stream()
 						.peek(
 								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 						.toList());

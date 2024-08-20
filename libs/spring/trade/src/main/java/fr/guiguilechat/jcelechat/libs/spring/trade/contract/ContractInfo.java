@@ -10,6 +10,7 @@ import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetched
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
+import fr.guiguilechat.tools.FormatTools;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -206,6 +207,25 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 		setNbTypesIncluded(offeredTypesIds.size());
 		setOffersOneTypeForIsk(!hasBPC && offeredTypesIds.size() == 1 && askedTypesIds.isEmpty());
 		setOffersBpcForIsk(hasBPC && offeredTypesIds.size() == 1 && askedTypesIds.isEmpty());
+	}
+
+	public String name() {
+		if (type == get_contracts_public_region_id_type.item_exchange) {
+			if (isOffersOneTypeForIsk()) {
+				ContractItem item = items.get(0);
+				String name = item.getType().name();
+				if (item.getMaterialEfficiency() > 0 || item.getTimeEfficiency() > 0) {
+					name += " " + item.getMaterialEfficiency() + "/" + item.getTimeEfficiency();
+				}
+				long quantity = items.stream().mapToLong(ContractItem::getQuantity).sum();
+				return "sell " + quantity + "×" + name + " for " + FormatTools.formatPrice(price);
+			}
+		}
+		return "" + type + ":" + getId();
+	}
+
+	public String gameLink() {
+		return "<url=contract:0//" + getId() + ">contract " + getId() + "</url>";
 	}
 
 }

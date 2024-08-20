@@ -5,6 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -29,31 +30,47 @@ import lombok.RequiredArgsConstructor;
 public class MarketOrderService implements ContractItemsListener, MarketRegionListener {
 
 	@Lazy
-	private final MarketLineService regionLineService;
+	private final MarketLineService marketLineService;
 
 	@Lazy
 	private final ContractItemService contractItemService;
 
 	@Transactional
 	@Cacheable("MarketOrdersSellOrdersForTypes")
-	public List<MarketOrder> sellOrders(Collection<Integer> typeIds) {
-		return Stream.concat(contractItemService.streamSOs(typeIds), regionLineService.streamSOs(typeIds))
-				.sorted(Comparator.comparing(MarketOrder::getPrice))
-				.toList();
+	public Map<Integer, List<MarketOrder>> sellOrders(Collection<Integer> typeIds, Set<Long> alllowedLocations) {
+		Map<Integer, List<MarketOrder>> ret = Stream
+		    .concat(contractItemService.streamSOs(typeIds), marketLineService.streamSOs(typeIds).map(MarketOrder::of))
+		    .filter(mo -> alllowedLocations == null || alllowedLocations.contains(mo.getLocationId()))
+		    .collect(Collectors.groupingBy(MarketOrder::getTypeId));
+		ret.values().forEach(l -> l.sort(Comparator.comparing(MarketOrder::getPrice)));
+		return ret;
+	}
+
+	public List<MarketOrder> sellOrders(int typeId) {
+		return sellOrders(List.of(typeId), null).getOrDefault(typeId, List.of());
 	}
 
 	@Transactional
 	@Cacheable("MarketOrdersBuyOrdersForTypes")
-	public List<MarketOrder> buyOrders(Collection<Integer> typeIds) {
-		return Stream.concat(contractItemService.streamBOs(typeIds), regionLineService.streamBOs(typeIds))
-				.sorted(Comparator.comparing(mo -> -mo.getPrice()))
-				.toList();
+	public Map<Integer, List<MarketOrder>> buyOrders(Collection<Integer> typeIds, Set<Long> alllowedLocations) {
+		Map<Integer, List<MarketOrder>> ret = Stream
+		    .concat(contractItemService.streamBOs(typeIds), marketLineService.streamBOs(typeIds).map(MarketOrder::of))
+		    .filter(mo -> alllowedLocations == null || alllowedLocations.contains(mo.getLocationId()))
+		    .collect(Collectors.groupingBy(MarketOrder::getTypeId));
+		ret.values().forEach(l -> l.sort(Comparator.comparing(mo -> -mo.getPrice())));
+		return ret;
+	}
+
+	public List<MarketOrder> buyOrders(int typeId) {
+		return buyOrders(List.of(typeId), null).getOrDefault(typeId, List.of());
 	}
 
 	@Transactional
 	@Cacheable("MarketOrdersLowestSellForType")
 	public Map<Integer, Double> lowestSellByRegion(int typeId) {
-		return Stream.concat(contractItemService.streamSOs(List.of(typeId)), regionLineService.streamSOs(List.of(typeId)))
+		return Stream
+		    .concat(contractItemService.streamSOs(List.of(typeId)),
+		        marketLineService.streamSOs(List.of(typeId)).map(MarketOrder::of))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey,
@@ -63,7 +80,9 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 	@Transactional
 	@Cacheable("MarketOrdersHighestBuyForType")
 	public Map<Integer, Double> highestBuyByRegion(int typeId) {
-		return Stream.concat(contractItemService.streamBOs(List.of(typeId)), regionLineService.streamBOs(List.of(typeId)))
+		return Stream
+		    .concat(contractItemService.streamBOs(List.of(typeId)),
+		        marketLineService.streamBOs(List.of(typeId)).map(MarketOrder::of))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey,

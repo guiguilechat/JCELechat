@@ -16,7 +16,6 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegionService.MarketRegionListener;
-import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -131,12 +130,26 @@ public class MarketLineService implements MarketRegionListener {
 		return reverseIf(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder), isBuyOrder);
 	}
 
-	public Stream<MarketOrder> streamBOs(Collection<Integer> typeIds) {
-		return repo.findByTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(typeIds).map(MarketOrder::of);
+	public Stream<MarketLine> streamBOs(Collection<Integer> typeIds) {
+		return repo.findByTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(typeIds);
 	}
 
-	public Stream<MarketOrder> streamSOs(Collection<Integer> typeIds) {
-		return repo.findByTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(typeIds).map(MarketOrder::of);
+	public Stream<MarketLine> streamBOsAt(Collection<Integer> typeIds, long locationId) {
+		if (typeIds == null || typeIds.isEmpty()) {
+			return Stream.empty();
+		}
+		return repo.findByTypeIdInAndLocationIdAndIsBuyOrderTrueOrderByPriceDesc(typeIds, locationId);
+	}
+
+	public Stream<MarketLine> streamSOs(Collection<Integer> typeIds) {
+		return repo.findByTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(typeIds);
+	}
+
+	public Stream<MarketLine> streamSOsAt(Collection<Integer> typeIds, long locationId) {
+		if (typeIds == null || typeIds.isEmpty()) {
+			return Stream.empty();
+		}
+		return repo.findByTypeIdInAndLocationIdAndIsBuyOrderFalseOrderByPriceAsc(typeIds, locationId);
 	}
 
 	//

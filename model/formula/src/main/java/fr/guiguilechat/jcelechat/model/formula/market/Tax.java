@@ -16,6 +16,9 @@ public class Tax {
 		return multiplier(skillIdToLevel.getOrDefault(16622, 0));
 	}
 
+	/**
+	 * minimum multiplier of sell price.
+	 */
 	public static final double MINIMUM = multiplier(5);
 
 	/** value removed from the sale gain when concluding a sale at given price */
