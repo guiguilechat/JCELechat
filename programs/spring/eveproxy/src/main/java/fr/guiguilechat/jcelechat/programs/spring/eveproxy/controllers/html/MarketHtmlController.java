@@ -88,6 +88,7 @@ public class MarketHtmlController {
 		return "redirect:market/search";
 	}
 
+	@Transactional
 	@GetMapping("/search")
 	public String getSearch(Model model, Optional<String> typeName) {
 		if (typeName.isPresent() && !typeName.get().isBlank()) {
@@ -102,6 +103,7 @@ public class MarketHtmlController {
 		return "market/index";
 	}
 
+	@Transactional
 	@GetMapping("/search/")
 	public String getSearchSlash(Model model, Optional<String> typeName) {
 		return getSearch(model, typeName);
