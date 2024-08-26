@@ -1,6 +1,10 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
 
 import java.net.URI;
+import java.util.Comparator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
@@ -11,19 +15,25 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItemService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.ContractEvalService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.ContractEvalService.ContractEval;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.ContractEvalService.EvalParams;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Controller
 @RequestMapping("/html/contracts")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ContractEvalController {
 
 	private final ContractEvalService contractEvalService;
+
+	private final ContractItemService contractItemService;
 
 	private final RegionService regionService;
 
@@ -86,6 +96,14 @@ public class ContractEvalController {
 		model.addAttribute("contracts",
 		    contractEvalService.evaluate(params).stream().map(this::LinkedContractEval).toList());
 		model.addAttribute("params", params);
+		long postEvaluate = System.currentTimeMillis();
+		List<Category> categories = contractItemService.categories();
+		long postCategories = System.currentTimeMillis();
+		log.trace("fetched {} categories in {} ms", categories.size(), postCategories - postEvaluate);
+		model.addAttribute("categories",
+		    categories.stream()
+		        .sorted(Comparator.comparing(Category::name))
+		        .collect(Collectors.toMap(Category::getId, Category::name, (x, y) -> y, LinkedHashMap::new)));
 		return "market/contracts";
 	}
 

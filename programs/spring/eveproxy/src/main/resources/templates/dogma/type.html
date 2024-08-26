@@ -36,7 +36,7 @@
 				<span th:if="${marketUrl!=null}"> <a th:href="${marketUrl}">type
 						market</a>
 				</span>
-				<table>
+				<table class="table table-striped table-hover">
 					<tbody>
 						<tr th:if="${jitaso!=null}">
 							<td>Jita SO</td>
@@ -67,7 +67,7 @@
 			</div>
 			<div class="col" th:if="${regionSell!=null && !regionSell.isEmpty()}">
 				<h3>regional sell</h3>
-				<table>
+				<table class="table table-striped table-hover">
 					<thead>
 						<tr>
 							<th>region</th>
@@ -85,7 +85,7 @@
 			</div>
 			<div class="col" th:if="${regionBuy!=null && !regionBuy.isEmpty()}">
 				<h3>regional buy</h3>
-				<table>
+				<table class="table table-striped table-hover">
 					<thead>
 						<tr>
 							<th>region</th>

@@ -19,7 +19,7 @@
 		<div class="row">
 			<div class="col" th:if="${roots != null}">
 				<h2>Roots</h2>
-				<table>
+				<table class="table">
 					<tbody>
 						<tr th:each="root : ${roots}">
 							<td><a th:href="${root.url}" th:text="${root.name}" /></td>

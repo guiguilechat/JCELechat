@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -149,14 +148,8 @@ public class ContractInfoService extends ARemoteEntityService<
 		    .collect(Collectors.groupingBy(ContractInfo::getRegion, Collectors.toMap(ContractInfo::getId, c -> c)));
 	}
 
-	public Stream<ContractInfo> exchanges() {
-		return repo().findByRemovedFalseAndFetchedTrueAndType(get_contracts_public_region_id_type.item_exchange);
-	}
-
-	public Stream<ContractInfo> singleSellExchanges() {
-		return repo()
-		    .findByRemovedFalseAndFetchedTrueAndOffersOneTypeForIskTrueAndType(
-		        get_contracts_public_region_id_type.item_exchange);
+	public Stream<ContractInfo> byTypeOffered(List<Type> types, boolean offered) {
+		return repo().findWithTypeIncluded(types, offered);
 	}
 
 	//

@@ -14,6 +14,8 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;
@@ -39,27 +41,34 @@ public class ContractEvalService {
 	@Lazy
 	private final MarketLineService marketLineService;
 
+	private final TypeService typeService;
+
 	@Getter
 	@Setter
 	@ToString
 	public static class EvalParams {
 
+		private double baseMcost = 25;
+
+		private int category = 9;
+
+		private boolean itemrequest = false;
+
 		private long location = MarketLineService.JITAIV_ID;
 
 		private double margin = 5.0;
 
-		private double baseMcost = 25;
-
-		private Boolean bpo = null;
+		private Integer region = null;
 
 		private boolean structure = false;
 
-		private Integer region = null;
-
-		private boolean singleBuy = false;
-
-		private boolean singleSell = false;
-
+		/**
+		 * checks on contracts that are not performed by the listing of
+		 * {@link ContractEvalService#stream(EvalParams)}
+		 * 
+		 * @param contract
+		 * @return
+		 */
 		public boolean accept(ContractInfo contract) {
 			if (region != null && contract.getRegion().getId() != region) {
 				return false;
@@ -67,20 +76,6 @@ public class ContractEvalService {
 			if (!structure && contract.getEndLocationId() > 100000000l) {
 				return false;
 			}
-			if (singleSell && !contract.isOffersOneTypeForIsk()) {
-				return false;
-			}
-			if (singleBuy && !contract.isAsksOneTypeForIsks()) {
-				return false;
-			}
-			if (bpo != null) {
-				for (ContractItem item : contract.getItems()) {
-					if (item.getType().getGroup().getCategory().getId() == Category.BP_CAT_ID != bpo) {
-						return false;
-					}
-				}
-			}
-
 			return true;
 		}
 
@@ -119,10 +114,15 @@ public class ContractEvalService {
 	}
 
 	protected Stream<ContractInfo> stream(EvalParams params) {
-		if (params.singleSell) {
-			return contractInfoService.singleSellExchanges();
-		}
-		return contractInfoService.exchanges();
+		long start = System.currentTimeMillis();
+		List<Type> types = typeService.byCategoryId(params.category);
+		long postType = System.currentTimeMillis();
+		log.trace("retrieved the  {} types of category {} in {} ms", types.size(), params.category, postType - start);
+		List<ContractInfo> fetched = contractInfoService.byTypeOffered(types, !params.itemrequest).toList();
+		long postContracts = System.currentTimeMillis();
+		log.trace("retrieved the  {} contracts with item in category {} and requested {}, in {} ms", fetched.size(),
+		    params.category, params.itemrequest, postContracts - postType);
+		return fetched.stream();
 	}
 
 	public List<ContractEval> evaluate(Collection<ContractInfo> contracts, EvalParams params) {

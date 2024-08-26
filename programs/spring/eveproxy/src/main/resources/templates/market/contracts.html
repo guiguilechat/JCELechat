@@ -20,15 +20,14 @@
 			<div class="col">
 				<h3>Options</h3>
 				<form method="get" th:action="@{${action}}">
-					<table>
+					<table class="table table-striped table-hover">
 						<thead>
 							<tr>
 								<th>market location id</th>
 								<th>margin cost, % of provided value</th>
-								<th>bp</th>
-								<th>only single sell</th>
-								<th>only single buy</th>
-								<th>structure</th>
+								<th>category</th>
+								<th></th>
+								<th></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -37,14 +36,15 @@
 									name="location" th:value="${params.location}" /></td>
 								<td><input class="form-control" type="number" step="0.1"
 									name="margin" th:value="${params.margin}" /></td>
-								<td><select name="bpo">
-									<option th:value="true" th:selected="${params.bpo!=null && params.bpo}">only</option>
-									<option th:value="false" th:selected="${params.bpo!=null && !params.bpo}">none</option>
-									<option th:value="null" th:selected="${params.bpo==null}">any</option>
-								</select></td>
-								<td><input class="form-check-input" type="checkbox"	name="singleSell" th:checked="${params.singleSell}" /></td>
-								<td><input class="form-check-input" type="checkbox"	name="singleBuy" th:checked="${params.singleBuy}" /></td>
-								<td><input class="form-check-input" type="checkbox"	name="structure" th:checked="${params.structure}" /></td>
+									<td><select name="category">
+										<option th:each="kv : ${categories}"
+												th:selected="${params.category!=null && params.category==kv.key}"
+												th:text=${kv.value}
+												th:value=${kv.key}
+										/>
+									</select></td>
+								<td><input class="form-check-input" type="checkbox"	name="itemrequest" th:checked="${params.itemrequest}" />item purchased</td>
+								<td><input class="form-check-input" type="checkbox"	name="structure" th:checked="${params.structure}" />allow structure</td>
 							</tr>
 						</tbody>
 					</table>
@@ -59,7 +59,7 @@
 		<div class="row">
 			<div class="col" th:if="${contracts != null}">
 				<h2>Evaluations</h2>
-				<table>
+				<table class="table">
 				<thead>
 					<tr>
 						<th>contract</th>

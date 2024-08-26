@@ -21,7 +21,7 @@
 		<div class="row">
 			<div class="col" th:if="${children!=null}">
 				<h2>Sub groups</h2>
-				<table>
+				<table class="table">
 					<tbody>
 						<tr th:each="child : ${children}">
 							<td><a th:href="${child.url}" th:text="${child.name}" /></td>
@@ -31,7 +31,7 @@
 			</div>
 			<div class="col" th:if="${types!=null}">
 				<h2>Types</h2>
-				<table>
+				<table class="table">
 					<tbody>
 						<tr th:each="type : ${types}">
 							<td><a th:href="${type.url}" th:text="${type.name}" /></td>

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
+import java.util.List;
 import java.util.stream.Stream;
 
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepository;
 
 public interface ContractItemRepository extends IFetchedListElementRepository<ContractInfo, ContractItem> {
@@ -34,6 +36,14 @@ where
 	and type.id in :typeId
 """)
 	public Stream<ContractInfo> listSOs(Iterable<Integer> typeId);
+
+	@Query("""
+select
+	distinct(type.group.category)
+from
+	EsiMarketContractItem
+""")
+	public List<Category> listCategories();
 
 	@Override
 	@Modifying

@@ -41,6 +41,13 @@ public class Group extends ARemoteEntity<Integer, R_get_universe_groups_group_id
 	 */
 	private boolean published;
 
+	public String name() {
+		if (name != null) {
+			return name;
+		}
+		return "type:" + getId();
+	}
+
 	@Override
 	public void update(R_get_universe_groups_group_id data) {
 		setName(data.name);

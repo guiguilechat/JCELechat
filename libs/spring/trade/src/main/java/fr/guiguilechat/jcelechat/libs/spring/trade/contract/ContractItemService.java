@@ -6,6 +6,7 @@ import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -32,6 +33,10 @@ public class ContractItemService {
 	@Transactional
 	public Stream<MarketOrder> streamSOs(Collection<Integer> typeIds) {
 		return repo.listSOs(typeIds).map(MarketOrder::of);
+	}
+
+	public List<Category> categories() {
+		return repo.listCategories();
 	}
 
 }
