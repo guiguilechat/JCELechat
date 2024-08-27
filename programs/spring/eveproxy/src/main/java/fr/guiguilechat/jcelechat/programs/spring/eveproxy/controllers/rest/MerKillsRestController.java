@@ -344,7 +344,8 @@ public class MerKillsRestController {
 		AGGREG_PERIOD ap = AGGREG_PERIOD.by(aggregate);
 		List<KillStats> stats = typeFilter == TYPE_FILTER_STRATEGY.ERROR ? Collections.emptyList()
 				: ap.stats(resolved.typeIds(), killService);
-		JFreeChart chart = drawChart(stats, "kills of " + resolved.name() + " by " + ap.name().toLowerCase(), ap);
+		JFreeChart chart = drawChart(stats, "kills of " + resolved.name() + ", aggregated by " + ap.name().toLowerCase(),
+		    ap);
 		RestControllerHelper.addResponseChart(response, chart, accept);
 	}
 
@@ -439,7 +440,7 @@ public class MerKillsRestController {
 			@PathVariable String filter,
 			@PathVariable String detail,
 			HttpServletResponse response,
-			@RequestParam Optional<String> period,
+			@RequestParam Optional<String> aggregate,
 			@RequestParam Optional<String> accept) throws IOException {
 		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
 		NAMED_TYPELIST resolved;
@@ -450,12 +451,12 @@ public class MerKillsRestController {
 			return;
 		}
 		KILLS_DETAIL det = KILLS_DETAIL.of(detail);
-		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
+		AGGREG_PERIOD ap = AGGREG_PERIOD.by(aggregate);
 		Map<String, List<KillStats>> statsByType = resolved.typeIds.parallelStream().collect(
 		    Collectors.toMap(typeId -> typeService.byId(typeId).name(),
 						typeId -> ap.stats(List.of(typeId), killService)));
 		JFreeChart chart = drawChart(statsByType,
-				det.legend + " for " + resolved.name() + ", by " + ap.name().toLowerCase(), ap,
+		    det.legend + " for " + resolved.name() + ", aggregated by " + ap.name().toLowerCase(), ap,
 				det);
 		RestControllerHelper.addResponseChart(response, chart, accept);
 	}
