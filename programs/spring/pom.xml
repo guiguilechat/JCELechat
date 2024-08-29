@@ -13,7 +13,7 @@
 	<name>Spring programs</name>
 	<description>programs that generate spring war</description>
 	<modules>
-		<module>evehistory</module>
+<!--		<module>evehistory</module>-->
 		<module>eveproxy</module>
 		<module>mevetic</module>
 		<module>noscrapeve</module>

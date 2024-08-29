@@ -20,8 +20,8 @@ logging:
                programs:
                   spring:
                      eveproxy: trace
+
 #      org:
-mer:
 #         hibernate:
 #            orm:
 #               jdbc:
@@ -30,8 +30,9 @@ mer:
 #            type:
 #               descriptor:
 #                  sql:
-
 #                     BasicBinder: trace
+
+mer:
    update:
       skip: true
 
@@ -49,7 +50,3 @@ spring:
          hibernate:
             format_sql: true
 #      show-sql: true
-# ------------------
-# Orphaned comments:
-# ------------------
-# Was at begin of line:52 :#debug: true

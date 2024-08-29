@@ -14,8 +14,6 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;
@@ -41,8 +39,6 @@ public class ContractEvalService {
 	@Lazy
 	private final MarketLineService marketLineService;
 
-	private final TypeService typeService;
-
 	@Getter
 	@Setter
 	@ToString
@@ -52,6 +48,9 @@ public class ContractEvalService {
 
 		private int category = 9;
 
+		/**
+		 * if we need contracts requesting item (true), or selling (false)
+		 */
 		private boolean itemrequest = false;
 
 		private long location = MarketLineService.JITAIV_ID;
@@ -76,7 +75,11 @@ public class ContractEvalService {
 			if (!structure && contract.getEndLocationId() > 100000000l) {
 				return false;
 			}
-			return true;
+			return contract.getItems().stream()
+					.filter(ci->
+						ci.isIncluded()!=itemrequest
+					    && ci.getType().getGroup().getCategory().getId() == category
+					).findAny().isPresent();
 		}
 
 	}
@@ -109,20 +112,19 @@ public class ContractEvalService {
 		log.trace("evaluate contracts for {}", params);
 		long startList = System.currentTimeMillis();
 		List<ContractInfo> list = stream(params).filter(params::accept).toList();
-		log.trace("fetched list of {} contracts in {} ms", list.size(), System.currentTimeMillis() - startList);
+		log.trace("filtered list of {} contracts in {} ms", list.size(), System.currentTimeMillis() - startList);
 		return evaluate(list, params);
 	}
 
 	protected Stream<ContractInfo> stream(EvalParams params) {
 		long start = System.currentTimeMillis();
-		List<Type> types = typeService.byCategoryId(params.category);
-		long postType = System.currentTimeMillis();
-		log.trace("retrieved the  {} types of category {} in {} ms", types.size(), params.category, postType - start);
-		List<ContractInfo> fetched = contractInfoService.byTypeOffered(types, !params.itemrequest).toList();
-		long postContracts = System.currentTimeMillis();
-		log.trace("retrieved the  {} contracts with item in category {} and requested {}, in {} ms", fetched.size(),
-		    params.category, params.itemrequest, postContracts - postType);
-		return fetched.stream();
+		List<ContractInfo> fetchedFull = (params.itemrequest ? contractInfoService.exchangesBuying()
+		    : contractInfoService.exchangesSelling())
+		    .toList();
+		long postAllExchanges = System.currentTimeMillis();
+		log.trace("retrieved the full {} exchange contracts with itemrequest={} in {} ms",
+		    fetchedFull.size(), params.itemrequest, postAllExchanges - start);
+		return fetchedFull.stream();
 	}
 
 	public List<ContractEval> evaluate(Collection<ContractInfo> contracts, EvalParams params) {
@@ -175,6 +177,8 @@ public class ContractEvalService {
 	    Map<Integer, Long> eivs) {
 		double valueRequired = params.getBaseMcost();
 		double valueProvided = 0;
+		double valueRigsAloneProvided = 0;
+		boolean containsShip = false;
 		if (ci.getPrice() > 0) {
 			valueRequired += ci.getPrice();
 		} else {
@@ -209,6 +213,12 @@ public class ContractEvalService {
 							}
 						}
 						valueProvided += buyOrderValue * (1 - Tax.MINIMUM);
+						if (item.getQuantity() == 1 && item.getType().getGroup().name().startsWith("Rig ")) {
+							valueRigsAloneProvided += buyOrderValue * (1 - Tax.MINIMUM);
+						}
+						if (item.getType().getGroup().getCategory().getId() == Category.SHIP_CAT_ID) {
+							containsShip = true;
+						}
 					}
 				}
 			} else {
@@ -228,6 +238,9 @@ public class ContractEvalService {
 				}
 				valueRequired += sellOrderValue;
 			}
+		}
+		if (containsShip) {
+			valueProvided-=valueRigsAloneProvided;
 		}
 		double valueMargin = valueProvided * params.margin / 100;
 		ContractEval ret = new ContractEval(ci, valueRequired, valueProvided, valueMargin);

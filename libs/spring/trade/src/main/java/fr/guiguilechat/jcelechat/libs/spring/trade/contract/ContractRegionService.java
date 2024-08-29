@@ -15,6 +15,8 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import lombok.RequiredArgsConstructor;
@@ -24,7 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.region")
-@Order(2) // depends on region
+@Order(5) // depends on region, stations
 public class ContractRegionService
     extends
     ARemoteEntityService<ContractRegion, Integer, List<R_get_contracts_public_region_id>, ContractRegionRepository> {
@@ -34,6 +36,9 @@ public class ContractRegionService
 
 	@Lazy
 	private final RegionService regionService;
+
+	@Lazy
+	private final StationService stationService;
 
 	@Override
 	protected Requested<List<R_get_contracts_public_region_id>> fetchData(Integer id, Map<String, String> properties) {
@@ -94,12 +99,23 @@ public class ContractRegionService
 				removed.add(e.getValue());
 			}
 		}
+
+		long preFetchStations = System.currentTimeMillis();
+		Map<Long, SolarSystem> stationId2SolarSystem = stationService.getSolarSystems(contracts.stream()
+		    .filter(c -> c.start_location_id < Integer.MAX_VALUE)
+		    .map(c -> (int) c.start_location_id)
+		    .distinct().toList());
+		long postFetchStations = System.currentTimeMillis();
+		log.trace("retrieved {} stations's solar systems in {} ms", stationId2SolarSystem.size(),
+		    postFetchStations - preFetchStations);
 		ArrayList<ContractInfo> ret = new ArrayList<>(removed);
 
 		// then create the new ones
 		List<ContractInfo> newContracts = contracts.stream()
 		    .filter(c -> !existingPresent.containsKey(c.contract_id))
-		    .map(c -> contractInfoService.createMinimal(c.contract_id).update(region, c))
+		    .map(c -> contractInfoService.createMinimal(c.contract_id)
+		        .updateContract(region, c)
+		        .updateSystem(stationId2SolarSystem))
 		    .toList();
 		log.debug(" contract list in {}({}) : {} new, {} removed", region.getRegion().getName(), region.getId(),
 		    newContracts.size(), removed.size());

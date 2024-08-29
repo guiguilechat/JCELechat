@@ -21,6 +21,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -28,7 +29,8 @@ import lombok.Setter;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.info")
-@Order(10) // depends on type for the items ; then set to a higher number because it's
+@Order(6) // depends on type n contractregion for the items ; then set to a higher number
+           // because it's
            // likely to create more errors
 public class ContractInfoService extends ARemoteEntityService<
     ContractInfo,
@@ -148,8 +150,22 @@ public class ContractInfoService extends ARemoteEntityService<
 		    .collect(Collectors.groupingBy(ContractInfo::getRegion, Collectors.toMap(ContractInfo::getId, c -> c)));
 	}
 
-	public Stream<ContractInfo> byTypeOffered(List<Type> types, boolean offered) {
-		return repo().findWithTypeIncluded(types, offered);
+	/**
+	 * @return a stream of the contracts that offer at least one non-bpc item and do
+	 *           not require an item
+	 */
+	public Stream<ContractInfo> exchangesSelling() {
+		return repo().findByTypeAndFetchedTrueAndRemovedFalseAndOffersNonBpcTrueAndRequestsItemFalse(
+		    get_contracts_public_region_id_type.item_exchange);
+	}
+
+	/**
+	 * @return a stream of the contracts that require at least an item and do not
+	 *           offer an item
+	 */
+	public Stream<ContractInfo> exchangesBuying() {
+		return repo().findByTypeAndFetchedTrueAndRemovedFalseAndRequestsItemTrueAndOffersItemFalse(
+		    get_contracts_public_region_id_type.item_exchange);
 	}
 
 	//

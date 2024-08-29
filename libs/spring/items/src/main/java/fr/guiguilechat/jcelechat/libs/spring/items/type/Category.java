@@ -26,6 +26,8 @@ public class Category extends ARemoteEntity<Integer, R_get_universe_categories_c
 
 	public static final int BP_CAT_ID = 9;
 
+	public static final int SHIP_CAT_ID = 6;
+
 	@OneToMany(mappedBy = "category")
 	private List<Group> groups;
 

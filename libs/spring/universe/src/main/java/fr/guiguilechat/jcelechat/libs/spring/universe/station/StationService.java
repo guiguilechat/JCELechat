@@ -17,7 +17,9 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemSer
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.universe.station")
@@ -51,24 +53,36 @@ public class StationService extends
 	}
 
 	protected void updateResponseOk(Station data, R_get_universe_stations_station_id received,
-	    Map<Integer, SolarSystem> idToSystem, Map<Integer, Type> idToType) {
-		data.setSolarSystem(idToSystem.get(received.system_id));
-		data.setType(idToType.get(received.type_id));
+	    Map<Integer, SolarSystem> id2SolarSystem, Map<Integer, Type> id2Type) {
+		data.setSolarSystem(id2SolarSystem.get(received.system_id));
+		if (data.getSolarSystem() == null) {
+			log.error("null solar system id {} for station id {} ", received.system_id, data.getId());
+		}
+		data.setType(id2Type.get(received.type_id));
+		if (data.getType() == null) {
+			log.error("null type id {} for station id {} ", received.system_id, data.getId());
+		}
 	}
 
 	@Override
 	protected void updateResponseOk(Map<Station, R_get_universe_stations_station_id> responseOk) {
 		super.updateResponseOk(responseOk);
-		Map<Integer, SolarSystem> idToSystem = solarSystemService
+		Map<Integer, SolarSystem> id2SolarSystem = solarSystemService
 		    .createIfAbsent(responseOk.values().stream().map(r -> r.system_id).distinct().toList());
-		Map<Integer, Type> idToType = typeService
+		Map<Integer, Type> id2Type = typeService
 		    .createIfAbsent(responseOk.values().stream().map(r -> r.type_id).distinct().toList());
 		responseOk.entrySet().stream()
-		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToSystem, idToType));
+		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), id2SolarSystem, id2Type));
 	}
 
 	public Map<Integer, String> namesById() {
 		return repo().findAll().stream().collect(Collectors.toMap(Station::getId, Station::name));
+	}
+
+	public Map<Long, SolarSystem> getSolarSystems(Iterable<Integer> stationIds) {
+		return repo().findAllByIdIn(stationIds)
+		    .filter(sta -> sta.getSolarSystem() != null)
+		    .collect(Collectors.toMap(sta -> (long) sta.getId(), Station::getSolarSystem));
 	}
 
 }

@@ -45,7 +45,7 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 					InventionDecryptor.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
 				cache = new Yaml().loadAs(reader, Container.class).decryptors;
 			} catch (Exception exception) {
-				throw new UnsupportedOperationException("catch this", exception);
+				throw new RuntimeException(exception);
 			}
 		}
 		return cache;

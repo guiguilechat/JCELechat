@@ -60,6 +60,9 @@ esi:
             skip: false
          list:
             skip: false
+      station:
+         update:
+            skip: false
       statsjumps:
          update:
             skip: false
