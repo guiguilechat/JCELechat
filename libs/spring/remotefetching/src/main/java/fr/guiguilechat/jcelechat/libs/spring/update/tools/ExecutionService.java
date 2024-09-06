@@ -13,6 +13,10 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
+/**
+ * service to allow limited parrallel execution. The number of cores is settable
+ * with configuration
+ */
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.executor")
@@ -31,7 +35,5 @@ public class ExecutionService {
 	public <T> Future<T> submit(Callable<T> task) {
 		return getExecutor().submit(task);
 	}
-
-
 
 }

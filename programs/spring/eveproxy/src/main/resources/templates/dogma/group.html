@@ -27,10 +27,10 @@
 		<div class="row">
 			<div class="col">
 			<h3>Types</h3>
-				<table class="table table-striped table-hover">
+				<table>
 					<tbody>
-						<tr th:each="type : ${types}">
-							<td><a th:href="${type.url}" th:text="${type.type.name}" /></td>
+						<tr th:each="tl : ${types}">
+							<td><a th:href="${tl.url}" th:text="${tl.type.name()}" /></td>
 						</tr>
 					</tbody>
 				</table>

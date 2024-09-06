@@ -6,11 +6,13 @@ import java.util.stream.Stream;
 
 import org.springframework.data.domain.Limit;
 import org.springframework.data.jpa.repository.EntityGraph;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 
-public interface ContractInfoRepository extends IRemoteEntityRepository<ContractInfo, Integer> {
+public interface ContractInfoRepository
+    extends IRemoteEntityRepository<ContractInfo, Integer>, JpaSpecificationExecutor<ContractInfo> {
 
 	public List<ContractInfo> findByRegionIdAndRemovedFalseAndFetchedTrue(int regionId);
 

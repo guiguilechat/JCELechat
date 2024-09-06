@@ -212,42 +212,50 @@ public class DogmaHtmlController {
 			    .sorted(Comparator.comparing(u -> u.type().name()))
 			    .toList();
 			model.addAttribute("manufacturingProd", manufProd);
+
 			List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.manufacturing)
 			    .stream()
 			    .map(this::linkedMaterial)
 			    .sorted(Comparator.comparing(u -> u.type().name()))
 			    .toList();
 			model.addAttribute("manufacturingMats", manufMats);
+
 			model.addAttribute("reactionProd",
 			    productService.findProducts(t.getId(), ACTIVITY_TYPE.reaction).stream()
 			        .map(this::linkedProduct)
 			        .sorted(Comparator.comparing(u -> u.type().name()))
 			        .toList());
+
 			model.addAttribute("reactionMats",
 			    materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.reaction).stream()
 			        .map(this::linkedMaterial)
 			        .sorted(Comparator.comparing(u -> u.type().name()))
 			        .toList());
+
 			model.addAttribute("seeded",
 			    marketLineService.seedLocations(t.getId()).stream()
 			        .map(this::seed)
 			        .toList());
+
 			List<LinkedActivity> productOf = productService
 			    .findProducers(List.of(t.getId()), List.of(ACTIVITY_TYPE.values())).stream()
 			    .map(this::linkedActivity)
 			    .sorted(Comparator.comparing(u -> u.type().name()))
 			    .toList();
 			model.addAttribute("productOf", productOf);
+
 			List<LinkedLPOffer> offers = linkCorporationOfferService.producing(t).stream()
 			    .map(npcHtmlController::linkedLPOffer)
 			    .sorted(Comparator.comparing(LinkedLPOffer::name))
 			    .toList();
 			model.addAttribute("offers", offers);
+
 			model.addAttribute("manufacturingUses",
 			    materialService.findUsages(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
 			        .map(this::linkedUsage)
 			        .sorted(Comparator.comparing(u -> u.type().name()))
 			        .toList());
+
 			model.addAttribute("reactionUses",
 			    materialService.findUsages(t.getId(), ACTIVITY_TYPE.reaction).stream()
 			        .map(this::linkedUsage)
@@ -257,11 +265,11 @@ public class DogmaHtmlController {
 			model.addAttribute("adjusted", priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue());
 			model.addAttribute("average", FormatTools.formatPrice(priceService.average().getOrDefault(t.getId(), 0.0)));
 			if (!manufProd.isEmpty()) {
-				model.addAttribute("eiv", (long) eivService.eiv(t.getId()));
+				model.addAttribute("eiv", eivService.eiv(t.getId()));
 			}
 			if (productOf.size() == 1) {
 				model.addAttribute("bpeiv",
-				    (long) eivService.eiv(productOf.get(0).product().getActivity().getType().getId()));
+				    eivService.eiv(productOf.get(0).product().getActivity().getType().getId()));
 			}
 			List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
 			if (bos != null && !bos.isEmpty()) {
@@ -301,7 +309,11 @@ public class DogmaHtmlController {
 
 	@Transactional
 	@GetMapping("/types")
-	public String getTypesIndex() {
+	public String getTypesIndex(Model model) {
+		model.addAttribute("categories", categoryService.allById().values().stream()
+		    .sorted(Comparator.comparing(Category::name))
+				.map(this::linkedCategory)
+				.toList());
 		return "dogma/types";
 	}
 
@@ -355,12 +367,6 @@ public class DogmaHtmlController {
 		return getGroup(model, groupId);
 	}
 
-	public URI uri(Category category) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getCategory", null,
-		    category.getId()).build()
-		    .toUri();
-	}
-
 	static record LinkedGroup(String url, Group group) {
 	}
 
@@ -396,6 +402,19 @@ public class DogmaHtmlController {
 		    .toList());
 
 		return "dogma/category";
+	}
+
+	public URI uri(Category category) {
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getCategory", null,
+		    category.getId()).build()
+		    .toUri();
+	}
+
+	static record LinkedCategory(String url, Category category) {
+	}
+
+	public LinkedCategory linkedCategory(Category category) {
+		return new LinkedCategory(uri(category).toString(), category);
 	}
 
 }

@@ -55,6 +55,9 @@ public class ContractEvalService {
 
 		private long location = MarketLineService.JITAIV_ID;
 
+		// can be HS, LS, NS or a region id.
+		private String locationFilter = "HS";
+
 		private double margin = 5.0;
 
 		private Integer region = null;

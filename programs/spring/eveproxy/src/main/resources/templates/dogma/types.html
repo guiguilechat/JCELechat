@@ -39,5 +39,13 @@
 			</div>
 		</div>
 	</div>
+	<div class="row border">
+		<div class="col" th:if="${categories!=null && !categories.isEmpty()}">
+			<h1>Categories</h1>
+			<ul>
+				<li th:each="cl : ${categories}"><a th:href="${cl.url}" th:text="${cl.category.name()}"/></li>
+			</ul>
+		</div>		
+	</div>
 </body>
 </html>

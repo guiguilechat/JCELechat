@@ -13,12 +13,14 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.annotation.Order;
 import org.springframework.data.domain.Limit;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
@@ -166,6 +168,46 @@ public class ContractInfoService extends ARemoteEntityService<
 	public Stream<ContractInfo> exchangesBuying() {
 		return repo().findByTypeAndFetchedTrueAndRemovedFalseAndRequestsItemTrueAndOffersItemFalse(
 		    get_contracts_public_region_id_type.item_exchange);
+	}
+
+	//
+	// specifications to help criterions
+	//
+
+	public static Specification<ContractInfo> valid() {
+		return (ci, cq, cb) -> cb.and(cb.isTrue(ci.get("fetched")), cb.isFalse(ci.get("removed")));
+	}
+
+	public static Specification<ContractInfo> forType(get_contracts_public_region_id_type type) {
+		return (ci, cq, cb) -> cb.equal(ci.get("type"), type);
+	}
+
+	public static Specification<ContractInfo> isHs() {
+		return (ci, cq, cb) -> cb.isTrue(ci.get("secHigh"));
+	}
+
+	public static Specification<ContractInfo> isLs() {
+		return (ci, cq, cb) -> cb.isTrue(ci.get("secLow"));
+	}
+
+	public static Specification<ContractInfo> isNs() {
+		return (ci, cq, cb) -> cb.isTrue(ci.get("secNull"));
+	}
+
+	public static Specification<ContractInfo> inRegion(Region region) {
+		return (ci, cq, cb) -> cb.equal(ci.get("regionId"), region.getId());
+	}
+
+	public static Specification<ContractInfo> requestsItem(boolean requests) {
+		return (ci, cq, cb) -> cb.equal(ci.get("requestsItem"), requests);
+	}
+
+	public static Specification<ContractInfo> offersItem(boolean offers) {
+		return (ci, cq, cb) -> cb.equal(ci.get("offersItem"), offers);
+	}
+
+	public static Specification<ContractInfo> offersNonBpc(boolean offers) {
+		return (ci, cq, cb) -> cb.equal(ci.get("offersNonBpc"), offers);
 	}
 
 	//

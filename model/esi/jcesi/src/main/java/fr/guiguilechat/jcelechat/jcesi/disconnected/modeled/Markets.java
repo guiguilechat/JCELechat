@@ -146,7 +146,7 @@ public class Markets {
 	}
 
 	/**
-	 * get empire average BO price removing two highest and lowest value.
+	 * get empire average BO price after removing the highest and lowest values.
 	 */
 	@Getter(lazy = true)
 	private final GroupedPrices empireAvgPrice = new GroupedPrices(

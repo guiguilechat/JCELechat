@@ -17,6 +17,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.ContractEvalService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.ContractEvalService.ContractEval;
@@ -93,10 +94,12 @@ public class ContractEvalController {
 	@Transactional
 	@GetMapping("/evaluate")
 	public String getEvaluatedContracts(Model model, EvalParams params) {
+		model.addAttribute("params", params);
+
 		model.addAttribute("contracts",
 		    contractEvalService.evaluate(params).stream().map(this::LinkedContractEval).toList());
-		model.addAttribute("params", params);
 		long postEvaluate = System.currentTimeMillis();
+
 		List<Category> categories = contractItemService.categories();
 		long postCategories = System.currentTimeMillis();
 		log.trace("fetched {} categories in {} ms", categories.size(), postCategories - postEvaluate);
@@ -104,6 +107,16 @@ public class ContractEvalController {
 		    categories.stream()
 		        .sorted(Comparator.comparing(Category::name))
 		        .collect(Collectors.toMap(Category::getId, Category::name, (x, y) -> y, LinkedHashMap::new)));
+
+		LinkedHashMap<String, String> locationFilters = new LinkedHashMap<>();
+		locationFilters.put("HS", "High Security");
+		locationFilters.put("LS", "Low Security");
+		locationFilters.put("NS", "Null Security");
+		regionService.allById().values().stream()
+		    .sorted(Comparator.comparing(Region::name))
+		    .forEach(r -> locationFilters.put("" + r.getId(), r.name()));
+		model.addAttribute("locationFilters", locationFilters);
+
 		return "market/contracts";
 	}
 

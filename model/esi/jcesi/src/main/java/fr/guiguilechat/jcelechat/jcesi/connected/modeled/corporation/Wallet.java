@@ -97,7 +97,7 @@ public class Wallet {
 	 * @return a new or cached object that contains all the transactions in the
 	 *         history of the corpo of a given division.
 	 */
-	protected ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> getTransactions(
+	public ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> getTransactions(
 			int division_id) {
 		ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret = cachedDivisionTransactions
 				.get(division_id);

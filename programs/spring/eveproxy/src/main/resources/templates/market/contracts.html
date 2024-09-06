@@ -25,8 +25,9 @@
 							<tr>
 								<th>market location id</th>
 								<th>margin cost, % of provided value</th>
-								<th>category</th>
+								<th>type category</th>
 								<th></th>
+								<th>location filter</th>
 								<th></th>
 							</tr>
 						</thead>
@@ -44,6 +45,13 @@
 										/>
 									</select></td>
 								<td><input class="form-check-input" type="checkbox"	name="itemrequest" th:checked="${params.itemrequest}" />item requested</td>
+								<td><select name="locationFilter">
+									<option th:each="lf: ${locationFilters}"
+											th:selected="${params.locationFilter!=null && params.locationFilter==lf.key}"
+											th:text=${lf.value}
+											th:value=${lf.key}
+									/>
+								</select></td>
 								<td><input class="form-check-input" type="checkbox"	name="structure" th:checked="${params.structure}" />allow structure</td>
 							</tr>
 						</tbody>
