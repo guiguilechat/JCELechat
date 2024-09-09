@@ -11,6 +11,7 @@ types:
     armorhp: 1400.0
     armorkineticdamageresonance: 0.5
     armorthermaldamageresonance: 0.5249999761581421
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 450.0
     capacity: 235.0
     damagemultiplier: 5.952381134033203
@@ -114,6 +115,7 @@ types:
     armorkineticdamageresonance: 0.7300000190734863
     armorthermaldamageresonance: 0.6299999952316284
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 775.0
     capacity: 480.0
     damagemultiplier: 6.0
@@ -213,6 +215,7 @@ types:
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 0.800000011920929
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviortargetpainterdischarge: 10.0
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 75000.0
@@ -295,6 +298,7 @@ types:
     armorhp: 1284.0
     armorkineticdamageresonance: 0.800000011920929
     armorthermaldamageresonance: 0.5
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviortargetpainterdischarge: 9.5
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 90000.0
@@ -386,6 +390,7 @@ types:
     armorkineticdamageresonance: 0.699999988079071
     armorthermaldamageresonance: 0.625
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 450.0
     capacity: 280.0
     damagemultiplier: 5.0
@@ -487,6 +492,7 @@ types:
     armorkineticdamageresonance: 0.30000001192092896
     armorthermaldamageresonance: 0.30000001192092896
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 110.0
     capacity: 120.0
     damagemultiplier: 1.0
@@ -589,6 +595,7 @@ types:
     armorkineticdamageresonance: 0.30000001192092896
     armorthermaldamageresonance: 0.30000001192092896
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 725.0
     capacity: 120.0
     damagemultiplier: 1.0
@@ -685,6 +692,7 @@ types:
     armorkineticdamageresonance: 0.699999988079071
     armorthermaldamageresonance: 0.699999988079071
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 725.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
@@ -774,6 +782,7 @@ types:
     armorhp: 4800.0
     armorkineticdamageresonance: 0.30000001192092896
     armorthermaldamageresonance: 0.30000001192092896
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 725.0
     capacity: 120.0
     damagemultiplier: 1.0
@@ -861,6 +870,7 @@ types:
     behaviorenergyneutralizerduration: 10000
     behaviorenergyneutralizerfalloff: 28000.0
     behaviorenergyneutralizerrange: 12000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 725.0
     capacity: 120.0
     damagemultiplier: 0.800000011920929
@@ -944,6 +954,7 @@ types:
     armorhp: 10000.0
     armorkineticdamageresonance: 0.5
     armorthermaldamageresonance: 0.5
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpscrambledischarge: 6.0
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 11250.0
@@ -1037,6 +1048,7 @@ types:
     armorhp: 4000.0
     armorkineticdamageresonance: 0.5
     armorthermaldamageresonance: 0.800000011920929
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 370.0
     capacity: 400.0
     damagemultiplier: 12.0
@@ -1126,6 +1138,7 @@ types:
     armorkineticdamageresonance: 0.6000000238418579
     armorthermaldamageresonance: 0.699999988079071
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 600.0
     capacity: 1200.0
     damagemultiplier: 3.75
@@ -1231,6 +1244,7 @@ types:
     armorkineticdamageresonance: 0.5899999737739563
     armorthermaldamageresonance: 0.6899999976158142
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 625.0
     capacity: 1200.0
     damagemultiplier: 3.75
@@ -1336,6 +1350,7 @@ types:
     armorkineticdamageresonance: 0.550000011920929
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 725.0
     capacity: 235.0
     damagemultiplier: 4.900000095367432
@@ -1444,6 +1459,7 @@ types:
     armorkineticdamageresonance: 0.5299999713897705
     armorthermaldamageresonance: 0.6299999952316284
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 775.0
     capacity: 235.0
     damagemultiplier: 6.0
@@ -1548,6 +1564,7 @@ types:
     armorkineticdamageresonance: 0.5799999833106995
     armorthermaldamageresonance: 0.6800000071525574
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 650.0
     capacity: 235.0
     damagemultiplier: 3.125
@@ -1658,6 +1675,7 @@ types:
     armorhp: 1840.0
     armorkineticdamageresonance: 0.5
     armorthermaldamageresonance: 0.800000011920929
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 450.0
     capacity: 235.0
     damagemultiplier: 3.0
@@ -1758,6 +1776,7 @@ types:
     behaviorecmduration: 20000
     behaviorecmfalloff: 35100.0
     behaviorecmrange: 31200
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 825.0
     capacity: 235.0
     damagemultiplier: 1.0
@@ -1845,6 +1864,7 @@ types:
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 0.4000000059604645
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1562.5
     capacity: 235.0
     damagemultiplier: 1.0
@@ -1925,6 +1945,7 @@ types:
     armorkineticdamageresonance: 0.699999988079071
     armorthermaldamageresonance: 0.625
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 450.0
     capacity: 280.0
     damagemultiplier: 5.0
@@ -2028,6 +2049,7 @@ types:
     behaviorshieldboosteramount: 260
     behaviorshieldboosterdischarge: 140
     behaviorshieldboosterduration: 10000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpscrambledischarge: 3.0
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 11250.0
@@ -2119,6 +2141,7 @@ types:
     behaviorshieldboosteramount: 260
     behaviorshieldboosterdischarge: 140
     behaviorshieldboosterduration: 10000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1600.0
     capacity: 450.0
     damagemultiplier: 1.0
@@ -2204,6 +2227,7 @@ types:
     behaviorshieldboosteramount: 260
     behaviorshieldboosterdischarge: 140
     behaviorshieldboosterduration: 10000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 2000.0
     capacity: 450.0
     damagemultiplier: 21.0
@@ -2295,6 +2319,7 @@ types:
     behaviorenergyneutralizerduration: 10000
     behaviorenergyneutralizerfalloff: 16000.0
     behaviorenergyneutralizerrange: 8000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 30000
@@ -2390,6 +2415,7 @@ types:
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 60000.0
     behaviorsensordampenerrange: 30000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpscrambledischarge: 1.0
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 11000.0
@@ -2485,6 +2511,7 @@ types:
     behaviorarmorrepaireramount: 135
     behaviorarmorrepairerdischarge: 40
     behaviorarmorrepairerduration: 9000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviortargetpainterdischarge: 15.0
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 125000.0
@@ -2587,6 +2614,7 @@ types:
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 150000.0
     behaviorsensordampenerrange: 100000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1625.0
     capacity: 320.0
     damagemultiplier: 6.0
@@ -2679,6 +2707,7 @@ types:
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 150000.0
     behaviorsensordampenerrange: 100000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 56000
@@ -2777,6 +2806,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 15000
     behaviorremotearmorrepairrange: 50000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 5000.0
     capacity: 495.0
     damagemultiplier: 1.0
@@ -2862,6 +2892,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 50000
     behaviorremotearmorrepairrange: 70000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 6000.0
     capacity: 495.0
     damagemultiplier: 1.0
@@ -2942,6 +2973,7 @@ types:
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -3040,6 +3072,7 @@ types:
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 2000.0
     capacity: 305.0
     damagemultiplier: 1.0
@@ -3135,6 +3168,7 @@ types:
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -3232,6 +3266,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1400.0
     capacity: 480.0
     damagemultiplier: 0.8999999761581421
@@ -3328,6 +3363,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpscrambledischarge: 2.0
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 11400.0
@@ -3431,6 +3467,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpscrambledischarge: 2.0
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 15000.0
@@ -3532,6 +3569,7 @@ types:
     behaviorremotearmorrepairduration: 2000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1870.0
     capacity: 435.0
     damagemultiplier: 0.8999999761581421
@@ -3628,6 +3666,7 @@ types:
     behaviorremotearmorrepairduration: 2000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1870.0
     capacity: 435.0
     damagemultiplier: 0.8999999761581421
@@ -3728,6 +3767,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1400.0
     capacity: 480.0
     damagemultiplier: 0.8999999761581421
@@ -3824,6 +3864,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpscrambledischarge: 3.0
     behaviorwebifierdischarge: 2.0
     behaviorwebifierduration: 5000.0
@@ -3926,6 +3967,7 @@ types:
     behaviorshieldboosteramount: 80
     behaviorshieldboosterdischarge: 30
     behaviorshieldboosterduration: 6000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -4044,6 +4086,7 @@ types:
     behaviorshieldboosteramount: 80
     behaviorshieldboosterdischarge: 30
     behaviorshieldboosterduration: 6000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -4154,6 +4197,7 @@ types:
     behaviorarmorrepaireramount: 50
     behaviorarmorrepairerdischarge: 5
     behaviorarmorrepairerduration: 3000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 2.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -4252,6 +4296,7 @@ types:
     behaviorremotearmorrepairduration: 2000.0
     behaviorremotearmorrepairfalloff: 50000
     behaviorremotearmorrepairrange: 50000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 2250.0
     capacity: 465.0
     damagemultiplier: 10.0
@@ -4338,6 +4383,7 @@ types:
     behaviorarmorrepaireramount: 50
     behaviorarmorrepairerdischarge: 5
     behaviorarmorrepairerduration: 3000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwebifierdischarge: 1.0
     behaviorwebifierduration: 5000.0
     behaviorwebifierrange: 13000.0
@@ -4434,6 +4480,7 @@ types:
     behaviorenergyneutralizerduration: 12000
     behaviorenergyneutralizerfalloff: 16000.0
     behaviorenergyneutralizerrange: 30000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -4541,6 +4588,7 @@ types:
     behaviorenergyneutralizerduration: 5000
     behaviorenergyneutralizerfalloff: 8000.0
     behaviorenergyneutralizerrange: 12000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwebifierdischarge: 2.0
     behaviorwebifierduration: 5000.0
     behaviorwebifierrange: 20000.0
@@ -4635,6 +4683,7 @@ types:
     behaviorecmduration: 20000
     behaviorecmfalloff: 35100.0
     behaviorecmrange: 31200
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 825.0
     capacity: 235.0
     damagemultiplier: 1.0
@@ -4726,6 +4775,7 @@ types:
     behaviorshieldboosteramount: 180
     behaviorshieldboosterdischarge: 140
     behaviorshieldboosterduration: 10000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwebifierdischarge: 6.0
     behaviorwebifierduration: 5000.0
     behaviorwebifierrange: 15000.0
@@ -4824,6 +4874,7 @@ types:
     behaviorshieldboosteramount: 180
     behaviorshieldboosterdischarge: 140
     behaviorshieldboosterduration: 10000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1850.0
     damagemultiplier: 20.0
     damagemultiplierbonusmax: 0.5
@@ -4918,6 +4969,7 @@ types:
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 150000.0
     behaviorsensordampenerrange: 100000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 56000
@@ -5014,6 +5066,7 @@ types:
     behaviorremotearmorrepairduration: 6000.0
     behaviorremotearmorrepairfalloff: 60000
     behaviorremotearmorrepairrange: 46000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 2500.0
     capacity: 2500.0
     damagemultiplier: 1.0
@@ -5096,6 +5149,7 @@ types:
     behaviorarmorrepaireramount: 300
     behaviorarmorrepairerdischarge: 160
     behaviorarmorrepairerduration: 9000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1900.0
     capacity: 1900.0
     damagemultiplier: 4.0
@@ -5185,6 +5239,7 @@ types:
     behaviorarmorrepaireramount: 270
     behaviorarmorrepairerdischarge: 160
     behaviorarmorrepairerduration: 9000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1600.0
     capacity: 1600.0
     damagemultiplier: 1.0
@@ -5283,6 +5338,7 @@ types:
     behaviorenergyneutralizerduration: 12000
     behaviorenergyneutralizerfalloff: 10000.0
     behaviorenergyneutralizerrange: 10000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1875.0
     capacity: 480.0
     damagemultiplier: 11.0
@@ -5370,6 +5426,7 @@ types:
     behaviorarmorrepaireramount: 414
     behaviorarmorrepairerdischarge: 40
     behaviorarmorrepairerduration: 9000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1600.0
     capacity: 440.0
     damagemultiplier: 42.0
@@ -5463,6 +5520,7 @@ types:
     behaviorshieldboosteramount: 95
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -5571,6 +5629,7 @@ types:
     behaviorshieldboosteramount: 95
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -5679,6 +5738,7 @@ types:
     behaviorshieldboosteramount: 95
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -5787,6 +5847,7 @@ types:
     behaviorshieldboosteramount: 95
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -5895,6 +5956,7 @@ types:
     behaviorshieldboosteramount: 140
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 30000
@@ -6003,6 +6065,7 @@ types:
     behaviorshieldboosteramount: 140
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 30000
@@ -6111,6 +6174,7 @@ types:
     behaviorshieldboosteramount: 140
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 30000
@@ -6219,6 +6283,7 @@ types:
     behaviorshieldboosteramount: 140
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 30000
@@ -6319,6 +6384,7 @@ types:
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 0.4000000059604645
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1562.5
     capacity: 235.0
     damagemultiplier: 1.0
@@ -6403,6 +6469,7 @@ types:
     behaviorenergyneutralizerduration: 8000
     behaviorenergyneutralizerfalloff: 6000.0
     behaviorenergyneutralizerrange: 12000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -6494,6 +6561,7 @@ types:
     armoruniformity: 1.0
     behaviorshieldboosteramount: 220
     behaviorshieldboosterduration: 6000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviortargetpainterdischarge: 2.0
     behaviortargetpainterduration: 75000.0
     behaviortargetpainterfalloff: 5000.0
@@ -6591,6 +6659,7 @@ types:
     behaviorenergyneutralizerduration: 10000
     behaviorenergyneutralizerfalloff: 10000.0
     behaviorenergyneutralizerrange: 30000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -6696,6 +6765,7 @@ types:
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 60000.0
     behaviorsensordampenerrange: 30000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpscrambledischarge: 5.0
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 20000.0
@@ -6793,6 +6863,7 @@ types:
     behaviorremoteshieldboostduration: 2000
     behaviorremoteshieldboostfalloff: 50000
     behaviorremoteshieldboostrange: 50000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 3000.0
     capacity: 485.0
     damagemultiplier: 1.0
@@ -6883,6 +6954,7 @@ types:
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -6973,6 +7045,7 @@ types:
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviortargetpainterdischarge: 2.0
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 75000.0
@@ -7069,6 +7142,7 @@ types:
     behaviorenergyneutralizerduration: 5000
     behaviorenergyneutralizerfalloff: 8000.0
     behaviorenergyneutralizerrange: 12000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 3000.0
     capacity: 480.0
     damagemultiplier: 42.0
@@ -7165,6 +7239,7 @@ types:
     behaviorshieldboosteramount: 95
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -7271,6 +7346,7 @@ types:
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -7371,6 +7447,7 @@ types:
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 150000.0
     behaviorsensordampenerrange: 100000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -7478,6 +7555,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -7580,6 +7658,7 @@ types:
     behaviorshieldboosteramount: 95
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -7686,6 +7765,7 @@ types:
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -7786,6 +7866,7 @@ types:
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 150000.0
     behaviorsensordampenerrange: 100000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -7892,6 +7973,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 25000
@@ -7989,6 +8071,7 @@ types:
     behaviorshieldboosteramount: 16
     behaviorshieldboosterdischarge: 5
     behaviorshieldboosterduration: 3000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviortargetpainterdischarge: 2.0
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 75000.0
@@ -8089,6 +8172,7 @@ types:
     behaviorenergyneutralizerduration: 10000
     behaviorenergyneutralizerfalloff: 8000.0
     behaviorenergyneutralizerrange: 12000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpscrambledischarge: 1.0
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 12000.0
@@ -8183,6 +8267,7 @@ types:
     behaviorshieldboosteramount: 35
     behaviorshieldboosterdischarge: 5
     behaviorshieldboosterduration: 3000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -8279,6 +8364,7 @@ types:
     behaviorshieldboosteramount: 45
     behaviorshieldboosterdischarge: 5
     behaviorshieldboosterduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 3000.0
     capacity: 440.0
     damagemultiplier: 1.0
@@ -8371,6 +8457,7 @@ types:
     behaviorenergyneutralizerduration: 8000
     behaviorenergyneutralizerfalloff: 6000.0
     behaviorenergyneutralizerrange: 12000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 24000
@@ -8463,6 +8550,7 @@ types:
     behaviorshieldboosteramount: 25
     behaviorshieldboosterdischarge: 5
     behaviorshieldboosterduration: 3000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviortargetpainterdischarge: 2.0
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 75000.0
@@ -8542,3 +8630,602 @@ types:
     vortonarctargets: 1
     warpscrambleduration: 8000
     warpspeedmultiplier: 15.0
+  84547:
+    agility: 0.4300000071525574
+    aitankingmodifierdrone: 0.699999988079071
+    aoedamagereductionfactor: 1.0
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 14700.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    behaviorsmartbombdischarge: 49
+    behaviorsmartbombduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 0.800000011920929
+    capacitorcapacity: 1975.0
+    capacity: 235.0
+    damagemultiplier: 2.299999952316284
+    damagemultiplierbonusmax: 0.5
+    emdamage: 220.0
+    emdamageresonance: 1.0
+    empfieldrange: 7200
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 392500
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 220.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 397
+    gfxturretid: 47446
+    hp: 3000.0
+    id: 84547
+    kineticdamage: 220.0
+    kineticdamageresonance: 1.0
+    mass: 1.3E7
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 6
+    maxtargetrange: 55000.0
+    maxvelocity: 390.86541748046875
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Allecto Tyrannos
+    optimalsigradius: 1000
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    radius: 134.0
+    rechargerate: 420800.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 15.0
+    scanresolution: 300.0
+    shieldcapacity: 1800.0
+    shieldemdamageresonance: 0.6524999737739563
+    shieldexplosivedamageresonance: 0.6524999737739563
+    shieldkineticdamageresonance: 0.6524999737739563
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.6524999737739563
+    shielduniformity: 0.75
+    signatureradius: 115.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 220.0
+    thermaldamageresonance: 1.0
+    volume: 118000.0
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0
+  84548:
+    agility: 0.4300000071525574
+    aitankingmodifierdrone: 0.699999988079071
+    aoedamagereductionfactor: 1.0
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 14700.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    behaviorenergynosferatudischarge: 120.0
+    behaviorenergynosferatuduration: 12000
+    behaviorenergynosferatufalloff: 6000
+    behaviorenergynosferaturange: 12000
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacitorcapacity: 1975.0
+    capacity: 235.0
+    damagemultiplier: 5.699999809265137
+    damagemultiplierbonusmax: 0.5
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 392500
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 60.0
+    explosivedamageresonance: 1.0
+    falloff: 6000.0
+    gfxboosterid: 397
+    gfxturretid: 47446
+    hp: 3000.0
+    id: 84548
+    kineticdamage: 60.0
+    kineticdamageresonance: 1.0
+    mass: 1.3E7
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 6
+    maxrange: 17500.0
+    maxtargetrange: 55000.0
+    maxvelocity: 390.86541748046875
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Megaera Tyrannos
+    optimalsigradius: 40000
+    packagedVolume: 118000.0
+    portionSize: 1
+    powertransferamount: 117
+    published: false
+    radius: 134.0
+    rechargerate: 420800.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 15.0
+    scanresolution: 300.0
+    shieldcapacity: 1800.0
+    shieldemdamageresonance: 0.6524999737739563
+    shieldexplosivedamageresonance: 0.6524999737739563
+    shieldkineticdamageresonance: 0.6524999737739563
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.6524999737739563
+    shielduniformity: 0.75
+    signatureradius: 115.0
+    speed: 3800.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 60.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 12.095999717712402
+    volume: 118000.0
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0
+  84549:
+    agility: 0.4300000071525574
+    aitankingmodifierdrone: 0.699999988079071
+    aoedamagereductionfactor: 1.0
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 14700.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    behaviortargetpainterdischarge: 10.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 97500.0
+    behaviortargetpainterrange: 39000.0
+    capacitorcapacity: 1975.0
+    capacity: 235.0
+    damagemultiplier: 5.699999809265137
+    damagemultiplierbonusmax: 0.5
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 392500
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 60.0
+    explosivedamageresonance: 1.0
+    falloff: 6000.0
+    gfxboosterid: 397
+    gfxturretid: 47446
+    hp: 3000.0
+    id: 84549
+    kineticdamage: 60.0
+    kineticdamageresonance: 1.0
+    mass: 1.3E7
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 6
+    maxrange: 17500.0
+    maxtargetrange: 55000.0
+    maxvelocity: 390.86541748046875
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Tisiphone Tyrannos
+    optimalsigradius: 40000
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    radius: 134.0
+    rechargerate: 420800.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 15.0
+    scanresolution: 300.0
+    shieldcapacity: 1800.0
+    shieldemdamageresonance: 0.6524999737739563
+    shieldexplosivedamageresonance: 0.6524999737739563
+    shieldkineticdamageresonance: 0.6524999737739563
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.6524999737739563
+    shielduniformity: 0.75
+    signatureradius: 115.0
+    signatureradiusbonus: 360.0
+    speed: 3800.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 60.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 12.095999717712402
+    volume: 118000.0
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0
+  84550:
+    agility: 0.4300000071525574
+    aitankingmodifierdrone: 0.699999988079071
+    aoedamagereductionfactor: 1.0
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 9800.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    behaviorenergyneutralizerdischarge: 120.0
+    behaviorenergyneutralizerduration: 12000
+    behaviorenergyneutralizerfalloff: 6000.0
+    behaviorenergyneutralizerrange: 12000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacitorcapacity: 1975.0
+    capacity: 235.0
+    damagemultiplier: 4.800000190734863
+    damagemultiplierbonusmax: 0.5
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizeramount: 360.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 325000
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 60.0
+    explosivedamageresonance: 1.0
+    falloff: 6000.0
+    gfxboosterid: 397
+    gfxturretid: 47446
+    hp: 2000.0
+    id: 84550
+    kineticdamage: 60.0
+    kineticdamageresonance: 1.0
+    mass: 1.3E7
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 6
+    maxrange: 17500.0
+    maxtargetrange: 55000.0
+    maxvelocity: 390.86541748046875
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Drifter Siege Cruiser
+    optimalsigradius: 40000
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    radius: 134.0
+    rechargerate: 420800.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 15.0
+    scanresolution: 300.0
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 0.6524999737739563
+    shieldexplosivedamageresonance: 0.6524999737739563
+    shieldkineticdamageresonance: 0.6524999737739563
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.6524999737739563
+    shielduniformity: 0.75
+    signatureradius: 115.0
+    speed: 3800.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 60.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 12.095999717712402
+    volume: 118000.0
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0
+  84635:
+    agility: 0.4300000071525574
+    aitankingmodifierdrone: 0.699999988079071
+    aoedamagereductionfactor: 1.0
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 5500.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacitorcapacity: 1975.0
+    capacity: 235.0
+    damagemultiplier: 4.199999809265137
+    damagemultiplierbonusmax: 0.5
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 175000
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 60.0
+    explosivedamageresonance: 1.0
+    falloff: 6000.0
+    gfxboosterid: 397
+    gfxturretid: 4045
+    hp: 1500.0
+    id: 84635
+    kineticdamage: 60.0
+    kineticdamageresonance: 1.0
+    mass: 1.3E7
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 6
+    maxrange: 17500.0
+    maxtargetrange: 55000.0
+    maxvelocity: 390.86541748046875
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Risen Akontia
+    optimalsigradius: 40000
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    radius: 134.0
+    rechargerate: 420800.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 15.0
+    scanresolution: 300.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 115.0
+    speed: 3600.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 60.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 12.095999717712402
+    volume: 118000.0
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0
+  84636:
+    agility: 0.3779999911785126
+    aitankingmodifierdrone: 0.699999988079071
+    aoedamagereductionfactor: 1.0
+    armordamageamount: 784.0
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 7800.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    behaviorremotearmorrepairdischarge: 234.0
+    behaviorremotearmorrepairduration: 6000.0
+    behaviorremotearmorrepairfalloff: 13250
+    behaviorremotearmorrepairrange: 46375
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacitorcapacity: 4188.0
+    capacity: 235.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 237500
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 397
+    hp: 1700.0
+    id: 84636
+    kineticdamageresonance: 1.0
+    mass: 1.287E7
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 8
+    maxtargetrange: 75000.0
+    maxvelocity: 581.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Soothing Linothorax
+    optimalsigradius: 1000
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    radius: 80.0
+    rechargerate: 256500.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 15.600000381469727
+    scanresolution: 375.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 90.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 118000.0
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0
+  84637:
+    agility: 0.3779999911785126
+    aitankingmodifierdrone: 0.699999988079071
+    aoedamagereductionfactor: 1.0
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 6200.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    behaviorenergyneutralizerdischarge: 120.0
+    behaviorenergyneutralizerduration: 12000
+    behaviorenergyneutralizerfalloff: 6000.0
+    behaviorenergyneutralizerrange: 12000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacitorcapacity: 1718.0
+    capacity: 235.0
+    damagemultiplier: 4.199999809265137
+    damagemultiplierbonusmax: 0.5
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizeramount: 300.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 187500
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 60.0
+    explosivedamageresonance: 1.0
+    falloff: 6000.0
+    gfxboosterid: 397
+    gfxturretid: 4045
+    hp: 1300.0
+    id: 84637
+    kineticdamage: 60.0
+    kineticdamageresonance: 1.0
+    mass: 1.12E7
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 7
+    maxrange: 17500.0
+    maxtargetrange: 79375.0
+    maxvelocity: 495.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Enervating Akontia
+    optimalsigradius: 40000
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    radius: 172.0
+    rechargerate: 367500.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 25.920000076293945
+    scanresolution: 403.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 130.0
+    speed: 3800.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 60.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 12.095999717712402
+    volume: 118000.0
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0

@@ -1013,7 +1013,7 @@ types:
     shieldthermaldamageresonance: 0.5400000214576721
     shielduniformity: 0.75
     signatureradius: 80.0
-    speed: 2200.0
+    speed: 2420.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
@@ -1350,7 +1350,7 @@ types:
     shieldthermaldamageresonance: 0.5400000214576721
     shielduniformity: 0.75
     signatureradius: 70.0
-    speed: 1900.0
+    speed: 2090.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0

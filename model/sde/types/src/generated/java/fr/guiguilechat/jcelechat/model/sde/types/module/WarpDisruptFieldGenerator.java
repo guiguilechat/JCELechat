@@ -23,6 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDamage;
@@ -110,6 +111,13 @@ public class WarpDisruptFieldGenerator
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinempirespace;
+    /**
+     * If set on a charge or module type, will prevent it from being activated in hazard system
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowinhazardsystem;
     /**
      * Length of activation time.
      */
@@ -258,7 +266,7 @@ public class WarpDisruptFieldGenerator
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, SpeedFactorBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowAssistance.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, SignatureRadiusBonus.INSTANCE, MassBonusPercentage.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, SpeedBoostFactorBonus.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, SpeedFactorBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowAssistance.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, SignatureRadiusBonus.INSTANCE, MassBonusPercentage.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, SpeedBoostFactorBonus.INSTANCE, RequiredSkill2 .INSTANCE, DisallowInHazardSystem.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
     public static final WarpDisruptFieldGenerator.MetaGroup METAGROUP = new WarpDisruptFieldGenerator.MetaGroup();
 
     @Override
@@ -295,6 +303,10 @@ public class WarpDisruptFieldGenerator
             case  1074 :
             {
                 return disallowinempirespace;
+            }
+            case  5561 :
+            {
+                return disallowinhazardsystem;
             }
             case  73 :
             {

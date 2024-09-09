@@ -42453,3 +42453,219 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  84673:
+    id: 84673
+    marketGroup: 1984
+    name: Providence Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84674:
+    id: 84674
+    marketGroup: 2095
+    name: Ark Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84675:
+    id: 84675
+    marketGroup: 2007
+    name: Bestower Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84676:
+    id: 84676
+    marketGroup: 2088
+    name: Impel Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84677:
+    id: 84677
+    marketGroup: 1985
+    name: Charon Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84678:
+    id: 84678
+    marketGroup: 2096
+    name: Rhea Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84679:
+    id: 84679
+    marketGroup: 2008
+    name: Tayra Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84680:
+    id: 84680
+    marketGroup: 2089
+    name: Bustard Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84681:
+    id: 84681
+    marketGroup: 1986
+    name: Obelisk Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84682:
+    id: 84682
+    marketGroup: 2097
+    name: Anshar Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84683:
+    id: 84683
+    marketGroup: 2009
+    name: Epithal Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84684:
+    id: 84684
+    marketGroup: 2090
+    name: Occator Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84685:
+    id: 84685
+    marketGroup: 1987
+    name: Fenrir Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84686:
+    id: 84686
+    marketGroup: 2098
+    name: Nomad Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84687:
+    id: 84687
+    marketGroup: 2010
+    name: Mammoth Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84688:
+    id: 84688
+    marketGroup: 2091
+    name: Mastodon Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84689:
+    id: 84689
+    marketGroup: 3672
+    name: Squall Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84690:
+    id: 84690
+    marketGroup: 3673
+    name: Torrent Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84691:
+    id: 84691
+    marketGroup: 3673
+    name: Deluge Mabebu Exchange SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84937:
+    id: 84937
+    marketGroup: 1963
+    name: Bhaalgorn Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84938:
+    id: 84938
+    marketGroup: 2031
+    name: Cruor Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84939:
+    id: 84939
+    marketGroup: 2030
+    name: Ashimmu Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84940:
+    id: 84940
+    marketGroup: 1980
+    name: Revelation Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84941:
+    id: 84941
+    marketGroup: 2137
+    name: Deacon Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84942:
+    id: 84942
+    marketGroup: 2371
+    name: Legion Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84943:
+    id: 84943
+    marketGroup: 2051
+    name: Purifier Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  84944:
+    id: 84944
+    marketGroup: 2063
+    name: Augoror Navy Issue Sanguinary Savant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

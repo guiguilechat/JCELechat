@@ -3894,6 +3894,25 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  80382:
+    cpumultiplier: 1.0
+    id: 80382
+    marketGroup: 1661
+    mass: 1.0
+    name: Deepflow Adaptive Canister
+    packagedVolume: 6.0
+    portionSize: 1
+    published: true
+    volume: 6.0
+  80387:
+    cpumultiplier: 1.0
+    id: 80387
+    mass: 0.10000000149011612
+    name: Indecipherable Cache Chart
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   80440:
     cpumultiplier: 1.0
     id: 80440
@@ -4006,3 +4025,51 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  84474:
+    cpumultiplier: 1.0
+    id: 84474
+    mass: 0.10000000149011612
+    name: Azdaja Statuette
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84475:
+    cpumultiplier: 1.0
+    id: 84475
+    mass: 0.10000000149011612
+    name: Frozen Ryba
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84519:
+    cpumultiplier: 1.0
+    id: 84519
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Tau Decay Resonance
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84520:
+    cpumultiplier: 1.0
+    id: 84520
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Electron Spin Resonance
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84521:
+    cpumultiplier: 1.0
+    id: 84521
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Muon Cosmic Resonance
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

@@ -3003,3 +3003,30 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
+  84740:
+    capacitorneed: 49.0
+    cpu: 50.0
+    duration: 10000.0
+    emdamage: 45.0
+    empfieldrange: 7200
+    explosivedamage: 45.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.699999809265137
+    hp: 40.0
+    id: 84740
+    kineticdamage: 45.0
+    marketGroup: 383
+    mass: 100.0
+    name: Allecto’s Modified Medium Multispectrum Smartbomb
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 350
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamage: 45.0
+    volume: 10.0

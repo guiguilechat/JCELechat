@@ -490,7 +490,7 @@ types:
     shieldthermaldamageresonance: 0.5400000214576721
     shielduniformity: 0.75
     signatureradius: 270.0
-    speed: 5500.0
+    speed: 6050.0
     structureuniformity: 1.0
     thermaldamage: 60.0
     trackingspeed: 11.78495979309082

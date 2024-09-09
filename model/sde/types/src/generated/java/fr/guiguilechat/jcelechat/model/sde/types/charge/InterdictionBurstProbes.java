@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AllowInFullyCorruptedLowSec;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOEDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOERange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayWarningDuration;
@@ -52,6 +53,13 @@ public class InterdictionBurstProbes
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinempirespace;
+    /**
+     * If set on a charge or module type, will prevent it from being activated in hazard system
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowinhazardsystem;
     /**
      * Duration of the AOE Effect
      */
@@ -144,7 +152,7 @@ public class InterdictionBurstProbes
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DoomsdayAOERange.INSTANCE, SignatureRadius.INSTANCE, DoomsdayAOEDuration.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, DisallowInEmpireSpace.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DoomsdayWarningDuration.INSTANCE, RequiredSkill1 .INSTANCE, RemoteResistanceID.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DoomsdayAOERange.INSTANCE, SignatureRadius.INSTANCE, DoomsdayAOEDuration.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, DisallowInEmpireSpace.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DoomsdayWarningDuration.INSTANCE, RequiredSkill1 .INSTANCE, DisallowInHazardSystem.INSTANCE, RemoteResistanceID.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE })));
     public static final InterdictionBurstProbes.MetaGroup METAGROUP = new InterdictionBurstProbes.MetaGroup();
 
     @Override
@@ -157,6 +165,10 @@ public class InterdictionBurstProbes
             case  1074 :
             {
                 return disallowinempirespace;
+            }
+            case  5561 :
+            {
+                return disallowinhazardsystem;
             }
             case  2280 :
             {

@@ -413,6 +413,10 @@ public enum get_characters_character_id_notifications_type {
     StructureLostArmor("StructureLostArmor"),
     @JsonProperty("StructureLostShields")
     StructureLostShields("StructureLostShields"),
+    @JsonProperty("StructureLowReagentsAlert")
+    StructureLowReagentsAlert("StructureLowReagentsAlert"),
+    @JsonProperty("StructureNoReagentsAlert")
+    StructureNoReagentsAlert("StructureNoReagentsAlert"),
     @JsonProperty("StructureOnline")
     StructureOnline("StructureOnline"),
     @JsonProperty("StructurePaintPurchased")

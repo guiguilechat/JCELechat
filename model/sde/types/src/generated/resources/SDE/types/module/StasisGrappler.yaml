@@ -266,3 +266,40 @@ types:
     speedfactor: -86.0
     techlevel: 1
     volume: 50.0
+  84743:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 898
+    canfitshipgroup03: 900
+    canfitshipgroup04: 547
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 485
+    canfitshipgroup07: 659
+    canfitshipgroup08: 30
+    canfitshipgroup09: 883
+    canfitshipgroup10: 4594
+    capacitorneed: 4.0
+    cpu: 25.0
+    duration: 2000.0
+    falloff: 1.0
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.0
+    hp: 40.0
+    id: 84743
+    marketGroup: 2154
+    maxgroupfitted: 1
+    maxrange: 1000.0
+    name: Strategos' Modified Heavy Stasis Grappler
+    overloadrangebonus: 300
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 240
+    published: true
+    radius: 500.0
+    remoteresistanceid: 2115
+    requiredskill1: 3453
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    speedfactor: -88.0
+    techlevel: 1
+    volume: 50.0

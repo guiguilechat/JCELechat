@@ -3,6 +3,7 @@ types:
     agility: 1000.0
     allowinfullycorruptedlowsec: 1
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     explosiondelay: 120000
     hp: 1000.0
     id: 22778
@@ -26,6 +27,7 @@ types:
     agility: 1000.0
     allowinfullycorruptedlowsec: 1
     disallowinempirespace: 1
+    disallowinhazardsystem: 1
     explosiondelay: 180000
     hp: 1000.0
     id: 34260

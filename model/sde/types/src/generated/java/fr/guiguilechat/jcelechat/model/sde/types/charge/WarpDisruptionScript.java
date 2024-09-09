@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeedHidden;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeHidden;
@@ -52,6 +53,13 @@ public class WarpDisruptionScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinempirespace;
+    /**
+     * If set on a charge or module type, will prevent it from being activated in hazard system
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowinhazardsystem;
     /**
      * Bonus to duration.
      */
@@ -95,7 +103,7 @@ public class WarpDisruptionScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblerangebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, Radius.INSTANCE, MaxRangeHidden.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CapacitorNeedHidden.INSTANCE, LauncherGroup.INSTANCE, SignatureRadiusBonusBonus.INSTANCE, CapNeedBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, Radius.INSTANCE, MaxRangeHidden.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CapacitorNeedHidden.INSTANCE, LauncherGroup.INSTANCE, DisallowInHazardSystem.INSTANCE, SignatureRadiusBonusBonus.INSTANCE, CapNeedBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE })));
     public static final WarpDisruptionScript.MetaGroup METAGROUP = new WarpDisruptionScript.MetaGroup();
 
     @Override
@@ -112,6 +120,10 @@ public class WarpDisruptionScript
             case  1074 :
             {
                 return disallowinempirespace;
+            }
+            case  5561 :
+            {
+                return disallowinhazardsystem;
             }
             case  66 :
             {

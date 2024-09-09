@@ -1919,86 +1919,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  84088:
-    id: 84088
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  84089:
-    id: 84089
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  84090:
-    id: 84090
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  84091:
-    id: 84091
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  84092:
-    id: 84092
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  84093:
-    id: 84093
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  84094:
-    id: 84094
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  84095:
-    id: 84095
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  84096:
-    id: 84096
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  84097:
-    id: 84097
-    marketGroup: 3632
-    name: Intaki Emerald Metallic - Limited
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
   84163:
     id: 84163
     marketGroup: 3653
@@ -2027,6 +1947,102 @@ types:
     id: 84166
     marketGroup: 3633
     name: Freedom's Foundation Pattern - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84167:
+    id: 84167
+    marketGroup: 3653
+    name: True Blue Loyalty Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84168:
+    id: 84168
+    marketGroup: 3655
+    name: Dark Duty Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84169:
+    id: 84169
+    marketGroup: 3655
+    name: State Concrete Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84170:
+    id: 84170
+    marketGroup: 3632
+    name: Silver Honor Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84171:
+    id: 84171
+    marketGroup: 3633
+    name: Mountain Wind Spirit Pattern - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84172:
+    id: 84172
+    marketGroup: 3633
+    name: Divine Arch Pattern - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84173:
+    id: 84173
+    marketGroup: 3632
+    name: Imperial Gold Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84174:
+    id: 84174
+    marketGroup: 3655
+    name: Sands of the Chosen Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84175:
+    id: 84175
+    marketGroup: 3655
+    name: Epitoth Eclipse Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84177:
+    id: 84177
+    marketGroup: 3654
+    name: Scientific Panache Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84178:
+    id: 84178
+    marketGroup: 3632
+    name: Insightful Azure Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  84179:
+    id: 84179
+    marketGroup: 3632
+    name: Citizen Cyan Metallic - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

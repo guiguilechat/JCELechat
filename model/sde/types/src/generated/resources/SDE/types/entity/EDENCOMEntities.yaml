@@ -5299,7 +5299,7 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 4000.0
-    name: Scout  State Navy Cerberus
+    name: Scout State Navy Cerberus
     optimalsigradius: 1000
     packagedVolume: 92000.0
     portionSize: 1
@@ -5365,7 +5365,7 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 4500.0
-    name: Scout  State Navy Rook
+    name: Scout State Navy Rook
     npcbehaviormaximumcombatorbitrange: 22000.0
     optimalsigradius: 1000
     packagedVolume: 96000.0
@@ -5432,7 +5432,7 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 4500.0
-    name: Scout  State Navy Drake
+    name: Scout State Navy Drake
     optimalsigradius: 1000
     packagedVolume: 252000.0
     portionSize: 1
@@ -5498,7 +5498,7 @@ types:
     missileentityflighttimemultiplier: 4.900000095367432
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 7500.0
-    name: Scout  State Navy Scorpion
+    name: Scout State Navy Scorpion
     npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 1000
     packagedVolume: 468000.0
@@ -5565,7 +5565,7 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 6000.0
-    name: Scout  State Navy Raven
+    name: Scout State Navy Raven
     optimalsigradius: 1000
     packagedVolume: 486000.0
     portionSize: 1

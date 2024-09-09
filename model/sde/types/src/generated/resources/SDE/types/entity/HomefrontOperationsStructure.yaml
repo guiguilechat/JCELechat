@@ -351,6 +351,37 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
+  77727:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 10000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 30.0
+    id: 77727
+    mass: 10000.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Faulty Triglavian Cache
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 1226.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    volume: 1.0E8
   81402:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -374,7 +405,7 @@ types:
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
-    radius: 2411.0
+    radius: 241.0
     rechargerate: 1800000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0

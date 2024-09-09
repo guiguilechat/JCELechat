@@ -197,3 +197,17 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
+  84217:
+    cannotbetrainedontrial: 1
+    id: 84217
+    marketGroup: 3656
+    name: Paragon Relations
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E7
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    secondaryattribute: 167
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582

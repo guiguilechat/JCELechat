@@ -22,6 +22,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDamage;
@@ -96,6 +97,13 @@ public class InterdictionSphereLauncher
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinempirespace;
+    /**
+     * If set on a charge or module type, will prevent it from being activated in hazard system
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowinhazardsystem;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
@@ -194,7 +202,7 @@ public class InterdictionSphereLauncher
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double speed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, Speed.INSTANCE, OverloadRofBonus.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, Speed.INSTANCE, OverloadRofBonus.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, DisallowInHazardSystem.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
     public static final InterdictionSphereLauncher.MetaGroup METAGROUP = new InterdictionSphereLauncher.MetaGroup();
 
     @Override
@@ -227,6 +235,10 @@ public class InterdictionSphereLauncher
             case  1074 :
             {
                 return disallowinempirespace;
+            }
+            case  5561 :
+            {
+                return disallowinhazardsystem;
             }
             case  1014 :
             {

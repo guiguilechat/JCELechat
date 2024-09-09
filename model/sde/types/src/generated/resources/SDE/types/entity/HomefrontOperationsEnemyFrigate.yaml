@@ -57,7 +57,7 @@ types:
     volume: 28100.0
   77255:
     agility: 2.396250009536743
-    armordamageamount: 245.0
+    armordamageamount: 196.0
     armoremdamageresonance: 0.8999999761581421
     armorexplosivedamageresonance: 0.5400000214576721
     armorhp: 2000.0
@@ -989,7 +989,7 @@ types:
     shieldthermaldamageresonance: 0.5400000214576721
     shielduniformity: 0.75
     signatureradius: 37.0
-    speed: 1400.0
+    speed: 1540.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
@@ -1704,7 +1704,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 38.0
     signatureradiusbonus: 34.375
-    speed: 1700.0
+    speed: 1870.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
@@ -2169,7 +2169,7 @@ types:
     volume: 28100.0
   77584:
     agility: 2.396250009536743
-    armordamageamount: 245.0
+    armordamageamount: 196.0
     armoremdamageresonance: 0.5400000214576721
     armorexplosivedamageresonance: 0.44999998807907104
     armorhp: 2000.0
@@ -2257,7 +2257,7 @@ types:
     rechargerate: 142648.0
     scanradarstrength: 12.0
     scanresolution: 1125.0
-    shieldbonus: 325.0
+    shieldbonus: 260.0
     shieldcapacity: 2000.0
     shieldemdamageresonance: 0.5400000214576721
     shieldexplosivedamageresonance: 0.44999998807907104
@@ -2308,7 +2308,7 @@ types:
     rechargerate: 142648.0
     scanradarstrength: 12.0
     scanresolution: 1125.0
-    shieldbonus: 325.0
+    shieldbonus: 260.0
     shieldcapacity: 2000.0
     shieldemdamageresonance: 0.8999999761581421
     shieldexplosivedamageresonance: 0.44999998807907104
@@ -2322,7 +2322,7 @@ types:
     volume: 28700.0
   77587:
     agility: 2.396250009536743
-    armordamageamount: 245.0
+    armordamageamount: 196.0
     armoremdamageresonance: 0.44999998807907104
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 2000.0
@@ -2410,7 +2410,7 @@ types:
     rechargerate: 142648.0
     scanradarstrength: 12.0
     scanresolution: 1125.0
-    shieldbonus: 325.0
+    shieldbonus: 260.0
     shieldcapacity: 2000.0
     shieldemdamageresonance: 0.8999999761581421
     shieldexplosivedamageresonance: 0.7200000286102295
@@ -2424,7 +2424,7 @@ types:
     volume: 28700.0
   77589:
     agility: 2.396250009536743
-    armordamageamount: 245.0
+    armordamageamount: 196.0
     armoremdamageresonance: 0.8999999761581421
     armorexplosivedamageresonance: 0.7200000286102295
     armorhp: 2000.0
@@ -2512,7 +2512,7 @@ types:
     rechargerate: 142648.0
     scanradarstrength: 12.0
     scanresolution: 1125.0
-    shieldbonus: 325.0
+    shieldbonus: 260.0
     shieldcapacity: 2000.0
     shieldemdamageresonance: 0.8999999761581421
     shieldexplosivedamageresonance: 0.44999998807907104
@@ -2526,7 +2526,7 @@ types:
     volume: 28700.0
   77591:
     agility: 2.396250009536743
-    armordamageamount: 245.0
+    armordamageamount: 196.0
     armoremdamageresonance: 0.44999998807907104
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 2000.0
@@ -2577,7 +2577,7 @@ types:
     volume: 28700.0
   77592:
     agility: 2.396250009536743
-    armordamageamount: 245.0
+    armordamageamount: 196.0
     armoremdamageresonance: 0.8999999761581421
     armorexplosivedamageresonance: 0.44999998807907104
     armorhp: 2000.0
@@ -2628,7 +2628,7 @@ types:
     volume: 28700.0
   77593:
     agility: 2.396250009536743
-    armordamageamount: 245.0
+    armordamageamount: 196.0
     armoremdamageresonance: 0.6524999737739563
     armorexplosivedamageresonance: 0.6524999737739563
     armorhp: 2500.0
@@ -2714,7 +2714,7 @@ types:
     rechargerate: 142648.0
     scanradarstrength: 12.0
     scanresolution: 1125.0
-    shieldbonus: 325.0
+    shieldbonus: 260.0
     shieldcapacity: 2000.0
     shieldemdamageresonance: 0.5400000214576721
     shieldexplosivedamageresonance: 0.8999999761581421
@@ -2728,7 +2728,7 @@ types:
     volume: 28700.0
   77595:
     agility: 2.396250009536743
-    armordamageamount: 245.0
+    armordamageamount: 196.0
     armoremdamageresonance: 0.44999998807907104
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 2000.0
@@ -2816,7 +2816,7 @@ types:
     rechargerate: 142648.0
     scanradarstrength: 12.0
     scanresolution: 1125.0
-    shieldbonus: 325.0
+    shieldbonus: 260.0
     shieldcapacity: 2000.0
     shieldemdamageresonance: 0.8999999761581421
     shieldexplosivedamageresonance: 0.7200000286102295
@@ -2830,7 +2830,7 @@ types:
     volume: 28700.0
   77597:
     agility: 2.396250009536743
-    armordamageamount: 245.0
+    armordamageamount: 196.0
     armoremdamageresonance: 0.8999999761581421
     armorexplosivedamageresonance: 0.7200000286102295
     armorhp: 2000.0
@@ -3504,7 +3504,7 @@ types:
     shieldthermaldamageresonance: 0.5400000214576721
     shielduniformity: 0.75
     signatureradius: 37.0
-    speed: 1400.0
+    speed: 1540.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0

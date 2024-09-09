@@ -29780,7 +29780,7 @@ id2group:
   77708: commodity/HomefrontOperationsCommodity
   77725: skill/Production
   77726: ship/HeavyAssaultCruiser
-  77727: entity/SpawnContainer
+  77727: entity/HomefrontOperationsStructure
   77738: skill/SpaceshipCommand
   77739: skill/Gunnery
   77867: skins/PermanentSKIN
@@ -30135,6 +30135,8 @@ id2group:
   80044: entity/AbyssalSpaceshipEntities
   80240: specialeditionassets/SpecialEditionCommodities
   80248: entity/AbyssalDroneEntities
+  80382: specialeditionassets/SpecialEditionCommodities
+  80387: specialeditionassets/SpecialEditionCommodities
   80425: entity/SpawnContainer
   80438: entity/IrregularCorvette
   80440: specialeditionassets/SpecialEditionCommodities
@@ -30333,7 +30335,6 @@ id2group:
   81976: asteroid/Griemeer
   81977: asteroid/Griemeer
   81978: asteroid/Griemeer
-  82015: asteroid/Hedbergite
   82016: asteroid/Nocxite
   82017: asteroid/Nocxite
   82018: asteroid/Nocxite
@@ -30775,16 +30776,6 @@ id2group:
   84085: skins/PermanentSKIN
   84086: skins/PermanentSKIN
   84087: skins/PermanentSKIN
-  84088: personalization/ShipSKINDesignElement
-  84089: personalization/ShipSKINDesignElement
-  84090: personalization/ShipSKINDesignElement
-  84091: personalization/ShipSKINDesignElement
-  84092: personalization/ShipSKINDesignElement
-  84093: personalization/ShipSKINDesignElement
-  84094: personalization/ShipSKINDesignElement
-  84095: personalization/ShipSKINDesignElement
-  84096: personalization/ShipSKINDesignElement
-  84097: personalization/ShipSKINDesignElement
   84099: skins/PermanentSKIN
   84100: skins/PermanentSKIN
   84101: skins/PermanentSKIN
@@ -30827,7 +30818,80 @@ id2group:
   84164: personalization/ShipSKINDesignElement
   84165: personalization/ShipSKINDesignElement
   84166: personalization/ShipSKINDesignElement
+  84167: personalization/ShipSKINDesignElement
+  84168: personalization/ShipSKINDesignElement
+  84169: personalization/ShipSKINDesignElement
+  84170: personalization/ShipSKINDesignElement
+  84171: personalization/ShipSKINDesignElement
+  84172: personalization/ShipSKINDesignElement
+  84173: personalization/ShipSKINDesignElement
+  84174: personalization/ShipSKINDesignElement
+  84175: personalization/ShipSKINDesignElement
+  84177: personalization/ShipSKINDesignElement
+  84178: personalization/ShipSKINDesignElement
+  84179: personalization/ShipSKINDesignElement
   84212: personalization/ShipSKINDesignElement
+  84217: skill/Sequencing
+  84294: entity/LargeCollidableStructure
+  84358: entity/MissionContainer
+  84468: entity/IrregularFrigate
+  84469: entity/IrregularFrigate
+  84470: entity/IrregularFrigate
+  84471: entity/IrregularFrigate
+  84472: entity/IrregularFrigate
+  84473: entity/IrregularDestroyer
+  84474: specialeditionassets/SpecialEditionCommodities
+  84475: specialeditionassets/SpecialEditionCommodities
+  84519: specialeditionassets/SpecialEditionCommodities
+  84520: specialeditionassets/SpecialEditionCommodities
+  84521: specialeditionassets/SpecialEditionCommodities
+  84547: entity/IrregularCruiser
+  84548: entity/IrregularCruiser
+  84549: entity/IrregularCruiser
+  84550: entity/IrregularCruiser
+  84551: entity/IrregularBattleship
+  84619: entity/IrregularFrigate
+  84620: entity/IrregularFrigate
+  84631: entity/IrregularFrigate
+  84632: entity/IrregularFrigate
+  84633: entity/IrregularDestroyer
+  84634: entity/IrregularDestroyer
+  84635: entity/IrregularCruiser
+  84636: entity/IrregularCruiser
+  84637: entity/IrregularCruiser
+  84638: entity/IrregularBattleship
+  84639: entity/IrregularBattleship
+  84673: skins/PermanentSKIN
+  84674: skins/PermanentSKIN
+  84675: skins/PermanentSKIN
+  84676: skins/PermanentSKIN
+  84677: skins/PermanentSKIN
+  84678: skins/PermanentSKIN
+  84679: skins/PermanentSKIN
+  84680: skins/PermanentSKIN
+  84681: skins/PermanentSKIN
+  84682: skins/PermanentSKIN
+  84683: skins/PermanentSKIN
+  84684: skins/PermanentSKIN
+  84685: skins/PermanentSKIN
+  84686: skins/PermanentSKIN
+  84687: skins/PermanentSKIN
+  84688: skins/PermanentSKIN
+  84689: skins/PermanentSKIN
+  84690: skins/PermanentSKIN
+  84691: skins/PermanentSKIN
+  84740: module/SmartBomb
+  84741: module/EnergyNosferatu
+  84742: module/TargetPainter
+  84743: module/StasisGrappler
+  84937: skins/PermanentSKIN
+  84938: skins/PermanentSKIN
+  84939: skins/PermanentSKIN
+  84940: skins/PermanentSKIN
+  84941: skins/PermanentSKIN
+  84942: skins/PermanentSKIN
+  84943: skins/PermanentSKIN
+  84944: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits
