@@ -6,7 +6,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_ref_type;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
-import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Wallet {
@@ -20,26 +19,6 @@ public class Wallet {
 	/** get total isk balance */
 	public ObjHolder<Double> get() {
 		return con.connection().cache().characters.wallet(con.characterId());
-	}
-
-	private MapHolder<String, R_get_characters_character_id_wallet_transactions> transactions;
-
-	/**
-	 * get wallet history.<br />
-	 * The key is String because a transaction can appear in the corporation and
-	 * character wallets, with same id. so we concatenate char id with transaction
-	 * id.
-	 */
-	public MapHolder<String, R_get_characters_character_id_wallet_transactions> getTransactions() {
-		if (transactions == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (transactions == null) {
-					transactions = con.connection().cache().characters.wallet_transactions(con.characterId(), null)
-							.toMap(h -> "" + con.characterId() + h.transaction_id);
-				}
-			});
-		}
-		return transactions;
 	}
 
 	/**
