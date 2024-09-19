@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+
+<configuration>
+
+	<appender name="CSL_INFO"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder 
+			by default -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} %-5level %logger{20} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="FILE_ALL"
+		class="ch.qos.logback.core.FileAppender">
+		<file>logs/traces.log</file>
+		<immediateFlush>false</immediateFlush>
+		<append>false</append>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} %-5level %logger{20} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="FILE_REQUESTS"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>logs/csv/requests.csv</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<FileNamePattern>logs/csv/file.%d{yyyy-MM-dd}.csv.gz</FileNamePattern>
+			<maxHistory>60</maxHistory>
+			<totalSizeCap>3GB</totalSizeCap>
+			<cleanHistoryOnStart>true</cleanHistoryOnStart>
+		</rollingPolicy>
+		<append>true</append>
+		<immediateFlush>false</immediateFlush>
+		<encoder>
+			<pattern>%d\t%level\t%msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<root level="all">
+		<appender-ref ref="FILE_ALL" />
+		<appender-ref ref="CSL_INFO" />
+	</root>
+
+	<logger name="fr.guiguilechat.jcelechat.jcesi.ConnectedImpl.csv" additivity="false">
+		<appender-ref ref="FILE_REQUESTS" />
+		<appender-ref ref="CSL_INFO" />
+	</logger>
+
+</configuration>
