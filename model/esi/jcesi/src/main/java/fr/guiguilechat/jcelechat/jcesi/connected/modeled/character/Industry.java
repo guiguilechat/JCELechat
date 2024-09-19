@@ -30,7 +30,11 @@ public class Industry {
 	 */
 
 	@Getter(lazy = true)
-	private final ListHolder<R_get_characters_character_id_industry_jobs> jobs = con.connection()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> allJobs = con.connection()
+	    .cache().characters.industry_jobs(con.characterId(), true);
+
+	@Getter(lazy = true)
+	private final ListHolder<R_get_characters_character_id_industry_jobs> activeJobs = con.connection()
 	.cache().characters.industry_jobs(con.characterId(), false);
 
 	public static boolean isManufacture(R_get_characters_character_id_industry_jobs job) {
@@ -62,7 +66,7 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final ListHolder<R_get_characters_character_id_industry_jobs> researchJobs = getJobs()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> researchJobs = getActiveJobs()
 	.filter(j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j));
 
 	//
@@ -70,7 +74,7 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final ListHolder<R_get_characters_character_id_industry_jobs> inventJobs = getJobs()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> inventJobs = getActiveJobs()
 	.filter(Industry::isInvention);
 
 	@Getter(lazy = true)
@@ -82,7 +86,7 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final ListHolder<R_get_characters_character_id_industry_jobs> copyJobs = getJobs()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> copyJobs = getActiveJobs()
 	.filter(Industry::isCopy);
 
 	@Getter(lazy = true)
@@ -94,7 +98,8 @@ public class Industry {
 	//
 
 	@Getter(lazy=true)
-	private final ListHolder<R_get_characters_character_id_industry_jobs> productionJobs = getJobs().filter(Industry::isManufacture);
+	private final ListHolder<R_get_characters_character_id_industry_jobs> productionJobs = getActiveJobs()
+	    .filter(Industry::isManufacture);
 
 	private MapHolder<Integer, Long> cacheProduction = null;
 
@@ -124,7 +129,7 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final ListHolder<R_get_characters_character_id_industry_jobs> reactionJobs = getJobs()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> reactionJobs = getActiveJobs()
 	.filter(Industry::isReaction);
 
 	private MapHolder<Integer, Long> cacheReaction = null;
@@ -155,7 +160,7 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final SetHolder<Long> usedBPs = getJobs().mapItems(j -> j.blueprint_id).distinct();
+	private final SetHolder<Long> usedBPs = getActiveJobs().mapItems(j -> j.blueprint_id).distinct();
 
 	//
 	// blueprints

@@ -241,7 +241,7 @@ public class EveCharacter {
 	public Map<Integer, Long> getAssetsProd() {
 		Map<Integer, Long> massets = assets.getAvailable().get().values().stream().flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(Entry::getKey, Entry::getValue, Long::sum));
-		Map<Integer, Long> prod = industry.getJobs().get().stream().parallel().filter(Industry::isManufacture)
+		Map<Integer, Long> prod = industry.getActiveJobs().get().stream().parallel().filter(Industry::isManufacture)
 				.collect(Collectors.toMap(e -> e.product_type_id, e -> (long) e.runs, Long::sum));
 		return Stream.concat(massets.entrySet().stream(), prod.entrySet().stream())
 				.collect(Collectors.toMap(Entry::getKey, Entry::getValue, Long::sum));

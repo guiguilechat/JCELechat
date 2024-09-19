@@ -20,7 +20,9 @@ import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import lombok.Getter;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class Wallet {
 
 	private final Corporation corporation;
@@ -56,21 +58,12 @@ public class Wallet {
 
 
 	@Getter(lazy = true)
-	private final ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> transactionsList = makeTransactionsList();
-
-	/**
-	 *
-	 * @return the cached observable list of transactions for this character's
-	 *         corporation, in all divisions
-	 */
-	protected ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> makeTransactionsList() {
-		ListHolder<ListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> allDivisionsTransactions = corporation
-				.getDivisions()
-				.toList(div -> Stream.of(div.wallet)
-						.map(wallet -> getTransactions(wallet.division))
-						.collect(Collectors.toList()));
-		return allDivisionsTransactions.flatten(obs -> obs);
-	}
+	private final ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> transactionsList = corporation
+	    .getDivisions()
+	    .toList(div -> Stream.of(div.wallet)
+	        .map(wallet -> getTransactions(wallet.division))
+	        .collect(Collectors.toList()))
+	    .flatten(obs -> obs);
 
 	/**
 	 * get all divisions' transactions history.<br />
@@ -107,7 +100,7 @@ public class Wallet {
 						.get(division_id);
 				if (ret2 == null) {
 					ret2 = getAcc().connection().cache().corporations.wallets_transactions(getId(), division_id, null)
-							.toList(l -> expandWholeTransactions(division_id, l));
+					    .toList(l -> expandTransactions(division_id, l));
 					cachedDivisionTransactions.put(division_id, ret2);
 				}
 				return ret2;
@@ -116,43 +109,32 @@ public class Wallet {
 		return ret;
 	}
 
-	protected List<R_get_corporations_corporation_id_wallets_division_transactions> expandWholeTransactions(int divid,
+	protected List<R_get_corporations_corporation_id_wallets_division_transactions> expandTransactions(int divid,
 			List<R_get_corporations_corporation_id_wallets_division_transactions> firstPage) {
-		if (firstPage.size() == 0) {
-			return firstPage;
+		if (firstPage == null || firstPage.isEmpty()) {
+			return List.of();
 		}
 		List<R_get_corporations_corporation_id_wallets_division_transactions> ret = new ArrayList<>(firstPage);
-		Long firstId = ret.get(ret.size() - 1).transaction_id - 1;
+		Long from_id = ret.get(ret.size() - 1).transaction_id - 1;
+		int pages = 1;
 		do {
-			// System.err.println("call corp:" + getId() + " division:" + divid + "
-			// transaction up to id " + firstId);
 			Requested<R_get_corporations_corporation_id_wallets_division_transactions[]> req = getAcc().connection()
-					.get_corporations_wallets_transactions(getId(), divid, firstId, null);
-			// System.err.println(" response code is " + req.getResponseCode());
-			if (req.getResponseCode() == 200) {
+			    .get_corporations_wallets_transactions(getId(), divid, from_id, null);
+			from_id = null;
+			if (req.isOk()) {
 				R_get_corporations_corporation_id_wallets_division_transactions[] added = req.getOK();
 				if (added != null && added.length > 0) {
-					// System.err.println("received " + added.length + " new
-					// transactions");
-					long newfirstId = added[added.length - 1].transaction_id - 1;
+					from_id = added[added.length - 1].transaction_id - 1;
 					ret.addAll(Arrays.asList(added));
-					if (newfirstId != firstId) {
-						firstId = newfirstId;
-					} else {
-						// System.err.println(" new first id is same as sold, stop
-						// walking");
-						firstId = null;
-					}
-				} else {
-					// System.err.println("no more transaction");
-					firstId = null;
+					pages++;
 				}
 			} else {
-				// System.err.println("received response " + req.getResponseCode() + ",
-				// stop walking");
-				firstId = null;
+				log.error("requesting transactions before {} for corp {} division {}, got error [{}:{}]", from_id, getId(),
+				    divid, req.getResponseCode(), req.getError());
 			}
-		} while (firstId != null);
+		} while (from_id != null);
+		log.debug("retrieved {} transactions in {} pages for corporation [{}:{}]/{}", ret.size(), pages, getId(),
+		    corporation.getName(), divid);
 		return ret;
 	}
 

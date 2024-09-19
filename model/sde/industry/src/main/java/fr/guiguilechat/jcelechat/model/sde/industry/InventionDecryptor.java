@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -159,13 +160,20 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 			}
 		}
 
-		double skillsProbaMult = 1.0 * skillsProbaPoints_base120 / 120;
+		float skillsProbaMult = 1.0f * skillsProbaPoints_base120 / 120;
 		double ret = Math.min(1.0, invented.probability * skillsProbaMult * probmult());
 		logger.trace(
 		    " invent from " + target.name() + "with dec=" + name() + " gives success probability=" + ret + " bp value="
 				+ invented.probability + " skills=" + skillsProbaMult + " decryptormult=" + probmult());
 		return ret;
 	}
+
+	@SuppressWarnings("serial")
+	public static final Map<Integer, Integer> ALL_5 = new HashMap<>() {
+		public Integer get(Object key) {
+			return 5;
+		};
+	};
 
 	/**
 	 * get the increase, in base 120 points and per skill level, of the invention

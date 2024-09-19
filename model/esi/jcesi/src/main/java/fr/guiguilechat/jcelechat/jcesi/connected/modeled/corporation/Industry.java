@@ -19,6 +19,10 @@ public class Industry {
 	}
 
 	@Getter(lazy = true)
+	private final ListHolder<R_get_corporations_corporation_id_industry_jobs> allJobs = con.connection()
+	    .cache().corporations.industry_jobs(con.corporation.getId(), true);
+
+	@Getter(lazy = true)
 	private final ListHolder<R_get_corporations_corporation_id_industry_jobs> activeJobs = con.connection()
 	.cache().corporations.industry_jobs(con.corporation.getId(), false);
 
@@ -68,7 +72,7 @@ public class Industry {
 	 */
 	@Getter(lazy = true)
 	private final MapHolder<Integer, Long> invention = getInventJobs().toMap(j -> j.product_type_id,
-			j -> (long) j.runs, Long::sum);
+	    j -> (long) (j.runs * j.licensed_runs), Long::sum);
 
 	//
 	// copy
