@@ -166,8 +166,8 @@ public class RegionalMarket implements IPricing {
 						log.debug(" corresponding stations are " + stationIds);
 						ret2 = new ProxyRegionalMarket(getAllOrders().filter(order -> stationIds.contains(order.location_id)));
 					}
+					filtered.put(key, ret2);
 				}
-				filtered.put(key, ret2);
 				return ret2;
 			});
 		}

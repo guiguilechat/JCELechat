@@ -1,8 +1,10 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +14,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.GroupedPrices
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.IPricing;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
+import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location.LOCTYPE;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
@@ -79,6 +82,12 @@ public class Markets {
 		return getMarket(10000002);
 	}
 
+	private Map<Integer, IPricing> stationsMarket = Collections.synchronizedMap(new HashMap<>());
+
+	public IPricing getStationMarket(int stationId, int regionId) {
+		return stationsMarket.computeIfAbsent(stationId, i -> getMarket(regionId).filter(stationId, 0, false));
+	}
+
 	private HashMap<Long, IPricing> localMarket = new HashMap<>();
 
 	/**
@@ -94,19 +103,23 @@ public class Markets {
 		if (locationId >= 10000000l && locationId < 12000000l) {
 			return getMarket((int) locationId);
 		}
-		IPricing lm = localMarket.get(locationId);
-		if (lm == null) {
+		IPricing ip = localMarket.get(locationId);
+		if (ip == null) {
 			synchronized (localMarket) {
-				lm = localMarket.get(locationId);
-				if (lm == null) {
+				ip = localMarket.get(locationId);
+				if (ip == null) {
 					Location loc = Location.resolve(null, locationId);
-					RegionalMarket rm = getMarket(loc.region().region_id);
-					lm = rm.filter((int) locationId, 0, false);
-					localMarket.put(locationId, lm);
+					if (loc.type == LOCTYPE.STATION) {
+						ip = getStationMarket((int) loc.id, loc.region().region_id);
+					} else {
+						RegionalMarket rm = getMarket(loc.region().region_id);
+						ip = rm.filter((int) locationId, 0, false);
+					}
+					localMarket.put(locationId, ip);
 				}
 			}
 		}
-		return lm;
+		return ip;
 	}
 
 	//
@@ -136,11 +149,11 @@ public class Markets {
 				count++;
 			}
 		}
-		if(count>2) {
+		if (count > 2) {
 			return (total - min - max) / (count - 2);
 		}
-		if(count>0) {
-			return total/count;
+		if (count > 0) {
+			return total / count;
 		}
 		return 0.0;
 	}
@@ -157,14 +170,13 @@ public class Markets {
 	// prices : adjusted and average
 	//
 
-
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final ListHolder<R_get_markets_prices> marketPrices = esiConnection.cache().markets.prices();
 
 	@Getter(lazy = true)
 	private final MapHolder<Integer, Double> adjusteds = marketPrices().toMap(p -> p.type_id,
-			p -> p.adjusted_price);
+	    p -> p.adjusted_price);
 
 	public double getAdjusted(int itemId) {
 		return getAdjusteds().get().getOrDefault(itemId, 0.0);
@@ -172,7 +184,6 @@ public class Markets {
 
 	@Getter(lazy = true)
 	private final MapHolder<Integer, Double> averages = marketPrices().toMap(p -> p.type_id, p -> p.average_price);
-
 
 	public double getAverage(int itemId) {
 		return getAverages().get().getOrDefault(itemId, 0.0);

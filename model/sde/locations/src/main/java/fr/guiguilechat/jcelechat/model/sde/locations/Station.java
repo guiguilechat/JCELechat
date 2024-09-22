@@ -80,7 +80,7 @@ public class Station {
 	private static final Map<String, List<Station>> loadBySystemName = load().values().stream()
 	    .collect(Collectors.groupingBy(sta -> sta.solarSystem.toLowerCase()));
 
-	public static List<Station> foSystemName(String name) {
+	public static List<Station> forSystemName(String name) {
 		if (name == null) {
 			return List.of();
 		}
@@ -92,7 +92,7 @@ public class Station {
 	private static final Map<Integer, List<Station>> loadBySystemId = load().values().stream()
 	    .collect(Collectors.groupingBy(sta -> sta.system().id));
 
-	public static List<Station> foSystemId(int solarSystemId) {
+	public static List<Station> forSystemId(int solarSystemId) {
 		if (solarSystemId < 1) {
 			return List.of();
 		}
@@ -120,6 +120,11 @@ public class Station {
 			solarsystem = SolarSystem.getSystem(solarSystem);
 		}
 		return solarsystem;
+	}
+
+	@Override
+	public String toString() {
+		return name();
 	}
 
 }
