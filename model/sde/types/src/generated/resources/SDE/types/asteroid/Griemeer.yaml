@@ -1,7 +1,8 @@
 types:
   81975:
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 1000
     id: 81975
     marketGroup: 3640
     mass: 1.0000000409184788E35
@@ -19,7 +20,8 @@ types:
     volume: 0.800000011920929
   81976:
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 1000
     id: 81976
     marketGroup: 3640
     mass: 1.0000000409184788E35
@@ -37,7 +39,8 @@ types:
     volume: 0.800000011920929
   81977:
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 1000
     id: 81977
     marketGroup: 3640
     mass: 1.0000000409184788E35
@@ -55,7 +58,8 @@ types:
     volume: 0.800000011920929
   81978:
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusgrowthfactor: 0.75
+    asteroidradiusunitsize: 1000
     id: 81978
     marketGroup: 3640
     mass: 1.0000000409184788E35
@@ -74,6 +78,7 @@ types:
   82316:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
     id: 82316
     marketGroup: 3640
     mass: 1.0000000409184788E35
@@ -92,6 +97,7 @@ types:
   82317:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
     id: 82317
     marketGroup: 3640
     mass: 1.0000000409184788E35
@@ -110,6 +116,7 @@ types:
   82318:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
     id: 82318
     marketGroup: 3640
     mass: 1.0000000409184788E35
@@ -128,6 +135,7 @@ types:
   82319:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
     id: 82319
     marketGroup: 3640
     mass: 1.0000000409184788E35

@@ -40,13 +40,6 @@ public class Spodumain
     @DefaultIntValue(16255)
     public int asteroidmaxradius;
     /**
-     * Sets the radius of the asteroid ball when it has a quantity of 1 unit
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(90)
-    public int asteroidradiusunitsize;
-    /**
      * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
      */
     @HighIsGood(false)
@@ -76,10 +69,6 @@ public class Spodumain
             case  2727 :
             {
                 return asteroidmaxradius;
-            }
-            case  1981 :
-            {
-                return asteroidradiusunitsize;
             }
             case  2711 :
             {

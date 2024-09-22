@@ -35,13 +35,6 @@ public class Mercoxit
     extends Asteroid
 {
     /**
-     * Sets the radius of the asteroid ball when it has a quantity of 1 unit
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(90)
-    public int asteroidradiusunitsize;
-    /**
      * %chance of new asteroid releasing damage cloud each mining turn.
      */
     @HighIsGood(true)
@@ -89,10 +82,6 @@ public class Mercoxit
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  1981 :
-            {
-                return asteroidradiusunitsize;
-            }
             case  522 :
             {
                 return damagecloudchance;

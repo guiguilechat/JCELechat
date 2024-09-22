@@ -6949,6 +6949,7 @@ types:
     entitylootcountmin: 5
     explosivedamageresonance: 1.0
     falloff: 1.0
+    fighterabilityanticapitalmissileresistance: 1
     hp: 700.0
     id: 81151
     kineticdamageresonance: 1.0
@@ -6991,6 +6992,7 @@ types:
     entitylootcountmin: 5
     explosivedamageresonance: 1.0
     falloff: 1.0
+    fighterabilityanticapitalmissileresistance: 1
     hp: 700.0
     id: 83480
     kineticdamageresonance: 1.0
@@ -7033,6 +7035,7 @@ types:
     entitylootcountmin: 5
     explosivedamageresonance: 1.0
     falloff: 1.0
+    fighterabilityanticapitalmissileresistance: 1
     hp: 700.0
     id: 83481
     kineticdamageresonance: 1.0
@@ -7075,6 +7078,7 @@ types:
     entitylootcountmin: 5
     explosivedamageresonance: 1.0
     falloff: 1.0
+    fighterabilityanticapitalmissileresistance: 1
     hp: 700.0
     id: 83482
     kineticdamageresonance: 1.0
@@ -7117,6 +7121,7 @@ types:
     entitylootcountmin: 5
     explosivedamageresonance: 1.0
     falloff: 1.0
+    fighterabilityanticapitalmissileresistance: 1
     hp: 700.0
     id: 83483
     kineticdamageresonance: 1.0
@@ -7159,6 +7164,7 @@ types:
     entitylootcountmin: 5
     explosivedamageresonance: 1.0
     falloff: 1.0
+    fighterabilityanticapitalmissileresistance: 1
     hp: 700.0
     id: 83484
     kineticdamageresonance: 1.0

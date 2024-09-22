@@ -1100,3 +1100,115 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 4000.0
+  84985:
+    armordamageamount: 82.0
+    capacitorneed: 34.0
+    cpu: 11.0
+    duration: 2700.0
+    falloffeffectiveness: 3750
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.8999999761581421
+    hp: 40.0
+    id: 84985
+    marketGroup: 1059
+    mass: 20.0
+    maxrange: 10500.0
+    mediumremoterepfittingmultiplier: 1
+    metalevelold: 15
+    name: Asine's Modified Small Remote Armor Repairer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 6
+    price: 4996.0
+    published: true
+    radius: 1.0
+    requiredskill1: 16069
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  84986:
+    armordamageamount: 101.0
+    capacitorneed: 46.0
+    cpu: 12.0
+    duration: 3000.0
+    falloffeffectiveness: 3750
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
+    id: 84986
+    marketGroup: 1059
+    mass: 20.0
+    maxrange: 10500.0
+    mediumremoterepfittingmultiplier: 1
+    metalevelold: 15
+    name: Makra's Modified Small Remote Armor Repairer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 11
+    price: 4996.0
+    published: true
+    radius: 1.0
+    requiredskill1: 16069
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  84987:
+    armordamageamount: 328.0
+    capacitorneed: 139.0
+    cpu: 24.0
+    duration: 5400.0
+    falloffeffectiveness: 3750
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.7999999523162842
+    hp: 40.0
+    id: 84987
+    marketGroup: 1058
+    mass: 20.0
+    maxrange: 13126.0
+    mediumremoterepfittingmultiplier: 1
+    metalevelold: 15
+    name: Gara's Modified Medium Remote Armor Repairer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 132
+    price: 12470.0
+    published: true
+    radius: 1.0
+    requiredskill1: 16069
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  84988:
+    armordamageamount: 404.0
+    capacitorneed: 188.0
+    cpu: 24.0
+    duration: 6000.0
+    falloffeffectiveness: 3750
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
+    id: 84988
+    marketGroup: 1058
+    mass: 20.0
+    maxrange: 13126.0
+    mediumremoterepfittingmultiplier: 1
+    metalevelold: 15
+    name: Ryhad's Modified Medium Remote Armor Repairer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 198
+    price: 12470.0
+    published: true
+    radius: 1.0
+    requiredskill1: 16069
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0

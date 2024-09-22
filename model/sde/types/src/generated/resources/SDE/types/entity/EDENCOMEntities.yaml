@@ -2004,7 +2004,7 @@ types:
     signatureradius: 41.0
     signatureradiusbonus: 27.0
     speed: 2700.0
-    speedfactor: -65.0
+    speedfactor: -50.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -2370,7 +2370,7 @@ types:
     signatureradius: 150.0
     signatureradiusbonus: 35.0
     speed: 5250.0
-    speedfactor: -104.0
+    speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -8785,7 +8785,7 @@ types:
     signatureradius: 51.25
     signatureradiusbonus: 20.25
     speed: 2700.0
-    speedfactor: -48.75
+    speedfactor: -45.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -9151,7 +9151,7 @@ types:
     signatureradius: 187.5
     signatureradiusbonus: 26.25
     speed: 5250.0
-    speedfactor: -78.0
+    speedfactor: -69.75
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -9435,7 +9435,7 @@ types:
     signatureradius: 61.5
     signatureradiusbonus: 33.75
     speed: 2700.0
-    speedfactor: -81.25
+    speedfactor: -55.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -9801,7 +9801,7 @@ types:
     signatureradius: 225.0
     signatureradiusbonus: 43.75
     speed: 5250.0
-    speedfactor: -130.0
+    speedfactor: -79.75
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -10085,7 +10085,7 @@ types:
     signatureradius: 82.0
     signatureradiusbonus: 40.5
     speed: 2700.0
-    speedfactor: -97.5
+    speedfactor: -60.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -10451,7 +10451,7 @@ types:
     signatureradius: 300.0
     signatureradiusbonus: 52.5
     speed: 5250.0
-    speedfactor: -156.0
+    speedfactor: -84.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0

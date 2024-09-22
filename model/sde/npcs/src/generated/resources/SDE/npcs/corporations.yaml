@@ -373,6 +373,17 @@ corporations:
     - 19329
     - 19333
     - 19337
+    - 19342
+    - 19343
+    - 19344
+    - 19362
+    - 19366
+    - 19367
+    - 19382
+    - 19383
+    - 19394
+    - 19395
+    - 19406
     name: 24th Imperial Crusade
     warfare: Amarr Empire
   AEGIS:
@@ -535,6 +546,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Aliastra
   Allotek Industries:
     concordRate: 0.8
@@ -693,6 +710,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Allotek Industries
   Amarr Certified News:
     concordRate: 0.8
@@ -823,6 +846,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Amarr Certified News
   Amarr Civil Service:
     concordRate: 0.8
@@ -953,6 +982,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Amarr Civil Service
   Amarr Constructions:
     concordRate: 0.8
@@ -1126,6 +1161,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Amarr Constructions
   Amarr Navy:
     concordRate: 0.8
@@ -1443,6 +1484,12 @@ corporations:
     - 16075
     - 16076
     - 17096
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Amarr Navy
   Amarr Templars:
     faction: Amarr Empire
@@ -1577,6 +1624,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Amarr Trade Registry
   Ametat Security:
     faction: Amarr Empire
@@ -2453,6 +2506,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Ardishapur Family
   Arkombine:
     faction: Deathless Circle
@@ -2619,6 +2678,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Astral Mining Inc.
   Bank of Luminaire:
     concordRate: 0.8
@@ -2760,6 +2825,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Bank of Luminaire
   Blood Raiders:
     faction: Blood Raider Covenant
@@ -3210,6 +3281,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Boundless Creation
   Bragian Order:
     faction: Amarr Empire
@@ -3544,6 +3621,12 @@ corporations:
     - 16200
     - 16202
     - 17096
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Brutor Tribe
   Brutor Vanguard:
     faction: Minmatar Republic
@@ -3698,6 +3781,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: CBD Corporation
   CBD Sell Division:
     concordRate: 0.8
@@ -3848,6 +3937,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: CBD Sell Division
   CONCORD:
     concordRate: 1.0
@@ -4239,6 +4334,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Caldari Business Tribunal
   Caldari Constructions:
     concordRate: 0.8
@@ -4394,6 +4495,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Caldari Constructions
   Caldari Funds Unlimited:
     concordRate: 0.8
@@ -4544,6 +4651,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Caldari Funds Unlimited
   Caldari Navy:
     concordRate: 0.8
@@ -4877,6 +4990,12 @@ corporations:
     - 15822
     - 16170
     - 17096
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Caldari Navy
   Caldari Provisions:
     concordRate: 0.8
@@ -5032,6 +5151,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Caldari Provisions
   Caldari Steel:
     concordRate: 0.8
@@ -5187,6 +5312,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Caldari Steel
   Carthum Conglomerate:
     concordRate: 0.8
@@ -5340,6 +5471,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Carthum Conglomerate
   Center for Advanced Studies:
     concordRate: 0.8
@@ -5498,6 +5635,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Center for Advanced Studies
   Chatelain Rapid Response:
     faction: Gallente Federation
@@ -5661,6 +5804,12 @@ corporations:
     - 16194
     - 16195
     - 16221
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Chemal Tech
   Chief Executive Panel:
     concordRate: 0.8
@@ -5811,6 +5960,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Chief Executive Panel
   Circle of Huskarl:
     faction: Minmatar Republic
@@ -5945,6 +6100,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Civic Court
   Combined Harvest:
     concordRate: 0.8
@@ -6103,6 +6264,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Combined Harvest
   Commando Guri:
     faction: Guristas Pirates
@@ -6667,6 +6834,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Core Complexion Inc.
   Corporate Police Force:
     concordRate: 0.8
@@ -7000,6 +7173,12 @@ corporations:
     - 15822
     - 16170
     - 17096
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Corporate Police Force
   Court Chamberlain:
     concordRate: 0.8
@@ -7130,6 +7309,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Court Chamberlain
   CreoDron:
     concordRate: 0.8
@@ -7288,6 +7473,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: CreoDron
   Cromeaux Inc:
     faction: EverMore
@@ -7559,6 +7750,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Deep Core Mining Inc.
   Directive Intelligence Agency:
     faction: CONCORD Assembly
@@ -8010,6 +8207,12 @@ corporations:
     - 16075
     - 16076
     - 16221
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Ducia Foundry
   Duvolle Laboratories:
     concordRate: 0.8
@@ -8160,6 +8363,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Duvolle Laboratories
   Echelon Entertainment:
     concordRate: 0.8
@@ -8310,6 +8519,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Echelon Entertainment
   Edimmu Warfighters:
     faction: Gallente Federation
@@ -8455,6 +8670,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Egonics Inc.
   Eifyr and Co.:
     concordRate: 0.8
@@ -8621,6 +8842,12 @@ corporations:
     - 16200
     - 16202
     - 16221
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Eifyr and Co.
   Emperor Family:
     concordRate: 0.8
@@ -8751,6 +8978,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Emperor Family
   Expert Distribution:
     concordRate: 0.8
@@ -8901,6 +9134,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Expert Distribution
   Expert Housing:
     concordRate: 0.8
@@ -9051,6 +9290,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Expert Housing
   Expert Intervention:
     faction: Caldari State
@@ -9200,6 +9445,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: FedMart
   Federal Administration:
     concordRate: 0.8
@@ -9341,6 +9592,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Federal Administration
   Federal Defense Union:
     faction: Gallente Federation
@@ -9715,6 +9972,17 @@ corporations:
     - 19331
     - 19335
     - 19339
+    - 19352
+    - 19353
+    - 19354
+    - 19364
+    - 19374
+    - 19376
+    - 19388
+    - 19389
+    - 19400
+    - 19401
+    - 19408
     name: Federal Defense Union
     warfare: Gallente Federation
   Federal Freight:
@@ -9857,6 +10125,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Federal Freight
   Federal Intelligence Office:
     concordRate: 0.8
@@ -10175,6 +10449,12 @@ corporations:
     - 16194
     - 16195
     - 17096
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Federal Intelligence Office
   Federal Marines:
     faction: Gallente Federation
@@ -10497,6 +10777,12 @@ corporations:
     - 16194
     - 16195
     - 17096
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Federal Navy Academy
   Federal Strategic Materiel:
     faction: Gallente Federation
@@ -10846,6 +11132,12 @@ corporations:
     - 16194
     - 16195
     - 17096
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Federation Customs
   Federation Navy:
     concordRate: 0.8
@@ -11164,6 +11456,12 @@ corporations:
     - 16194
     - 16195
     - 17096
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Federation Navy
   Food Relief:
     concordRate: 0.4
@@ -11406,6 +11704,12 @@ corporations:
     - 16200
     - 16202
     - 16221
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Freedom Extension
   Frostline Laboratories:
     faction: ORE
@@ -11584,6 +11888,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Further Foodstuffs
   Gallentia Primacy:
     faction: Unknown
@@ -11729,6 +12039,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Garoun Investment Bank
   Genolution:
     faction: The Society of Conscious Thought
@@ -12654,6 +12970,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: HZO Refinery
   Hedion University:
     concordRate: 0.8
@@ -12784,6 +13106,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Hedion University
   Holdfast Syndicate:
     faction: Amarr Empire
@@ -13121,6 +13449,12 @@ corporations:
     - 15822
     - 16170
     - 17096
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Home Guard
   House of Records:
     concordRate: 0.8
@@ -13271,6 +13605,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: House of Records
   Hrada-Oki Caravan:
     faction: Deathless Circle
@@ -13430,6 +13770,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Hyasyoda Corporation
   Ikomari-Onu Enforcement:
     faction: Caldari State
@@ -13751,6 +14097,12 @@ corporations:
     - 16075
     - 16076
     - 17096
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Imperial Academy
   Imperial Armaments:
     concordRate: 0.8
@@ -13904,6 +14256,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Imperial Armaments
   Imperial Chancellor:
     concordRate: 0.8
@@ -14034,6 +14392,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Imperial Chancellor
   Imperial Guard:
     faction: Amarr Empire
@@ -14168,6 +14532,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Imperial Shipment
   Imperial War Reserves:
     faction: Amarr Empire
@@ -14338,6 +14708,12 @@ corporations:
     - 16194
     - 16195
     - 16221
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Impetus
   Impro:
     faction: The Society of Conscious Thought
@@ -14503,6 +14879,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Inherent Implants
   Inner Circle:
     faction: CONCORD Assembly
@@ -14648,6 +15030,12 @@ corporations:
     - 16074
     - 16194
     - 16195
+    - 19355
+    - 19356
+    - 19375
+    - 19377
+    - 19390
+    - 19402
     name: Inner Zone Shipping
   Intaki Bank:
     concordRate: 0.4
@@ -15626,6 +16014,12 @@ corporations:
     - 15822
     - 16170
     - 17096
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Internal Security
   Interplanetary Media Network:
     faction: EverMore
@@ -15785,6 +16179,12 @@ corporations:
     - 15809
     - 15821
     - 16170
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Ishukone Corporation
   Ishukone Watch:
     concordRate: 0.8
@@ -16118,6 +16518,12 @@ corporations:
     - 15822
     - 16170
     - 17096
+    - 19350
+    - 19351
+    - 19372
+    - 19373
+    - 19387
+    - 19399
     name: Ishukone Watch
   Isuuaya Tactical:
     faction: Caldari State
@@ -16275,6 +16681,12 @@ corporations:
     - 15806
     - 16075
     - 16076
+    - 19345
+    - 19346
+    - 19368
+    - 19369
+    - 19384
+    - 19396
     name: Joint Harvesting
   Jove Navy:
     faction: Jove Empire
@@ -16922,6 +17334,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Krusual Tribe
   Lai Dai Corporation:
     concordRate: 0.8
@@ -18513,6 +18931,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Minmatar Mining Corporation
   Modern Finances:
     concordRate: 0.8
@@ -18996,6 +19420,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Native Freshfood
   Navka Overminds:
     faction: Triglavian Collective
@@ -20466,6 +20896,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Pator Tech School
   Peace and Order Unit:
     concordRate: 0.8
@@ -21737,6 +22173,12 @@ corporations:
     - 16200
     - 16202
     - 17096
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Republic Fleet
   Republic Fleet Ordnance:
     faction: Minmatar Republic
@@ -22096,6 +22538,12 @@ corporations:
     - 16200
     - 16202
     - 17096
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Republic Justice Department
   Republic Military School:
     concordRate: 0.8
@@ -22426,6 +22874,12 @@ corporations:
     - 16200
     - 16202
     - 17096
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Republic Military School
   Republic Parliament:
     concordRate: 0.8
@@ -22581,6 +23035,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Republic Parliament
   Republic Security Services:
     concordRate: 0.8
@@ -22911,6 +23371,12 @@ corporations:
     - 16200
     - 16202
     - 17096
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Republic Security Services
   Republic University:
     concordRate: 0.8
@@ -23076,6 +23542,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Republic University
   Resheph Interstellar Strategy:
     faction: Gallente Federation
@@ -24168,6 +24640,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Sebiestor Tribe
   Secure Commerce Commission:
     faction: CONCORD Assembly
@@ -24953,6 +25431,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Six Kin Development
   Society of Conscious Thought:
     faction: The Society of Conscious Thought
@@ -25622,6 +26106,17 @@ corporations:
     - 19330
     - 19334
     - 19338
+    - 19347
+    - 19348
+    - 19349
+    - 19363
+    - 19370
+    - 19371
+    - 19385
+    - 19386
+    - 19397
+    - 19398
+    - 19407
     name: State Protectorate
     warfare: Caldari State
   State War Academy:
@@ -26451,6 +26946,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: The Leisure Group
   The Sanctuary:
     faction: Servant Sisters of EVE
@@ -27424,6 +27925,17 @@ corporations:
     - 19332
     - 19336
     - 19340
+    - 19357
+    - 19358
+    - 19359
+    - 19365
+    - 19378
+    - 19379
+    - 19391
+    - 19392
+    - 19403
+    - 19404
+    - 19409
     name: Tribal Liberation Force
     warfare: Minmatar Republic
   Tronhadar Free Guard:
@@ -28075,6 +28587,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Urban Management
   Vapor Sea Technologies:
     faction: EverMore
@@ -28331,6 +28849,12 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 19360
+    - 19361
+    - 19380
+    - 19381
+    - 19393
+    - 19405
     name: Vherokior Tribe
   Vigilant Tyrannos:
     faction: Drifters

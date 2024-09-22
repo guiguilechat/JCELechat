@@ -1174,7 +1174,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    shieldbonus: 41.0
+    shieldbonus: 48.0
     techlevel: 1
     volume: 5.0
   19173:
@@ -1324,7 +1324,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    shieldbonus: 124.0
+    shieldbonus: 144.0
     techlevel: 1
     volume: 10.0
   19185:
@@ -2156,3 +2156,103 @@ types:
     requiredskill1level: 4
     techlevel: 1
     volume: 4000.0
+  84998:
+    capacitorneed: 14.0
+    cpu: 21.0
+    duration: 2000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.800000011920929
+    hp: 40.0
+    id: 84998
+    marketGroup: 609
+    metagroupid: 5
+    metalevelold: 15
+    name: Ramaku's Modified Small Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2
+    published: true
+    radius: 500.0
+    requiredskill1: 3416
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 66.0
+    techlevel: 1
+    volume: 5.0
+  84999:
+    capacitorneed: 20.0
+    cpu: 30.0
+    duration: 2000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.800000011920929
+    hp: 40.0
+    id: 84999
+    marketGroup: 609
+    metagroupid: 5
+    metalevelold: 15
+    name: Panola's Modified Small Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 2
+    published: true
+    radius: 500.0
+    requiredskill1: 3416
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 86.0
+    techlevel: 1
+    volume: 5.0
+  85000:
+    capacitorneed: 40.0
+    cpu: 43.0
+    duration: 3000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
+    id: 85000
+    marketGroup: 610
+    metagroupid: 5
+    metalevelold: 15
+    name: Sila's Modified Medium Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 12
+    published: true
+    radius: 500.0
+    requiredskill1: 3416
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 197.0
+    techlevel: 1
+    volume: 10.0
+  85001:
+    capacitorneed: 60.0
+    cpu: 60.0
+    duration: 3000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
+    id: 85001
+    marketGroup: 610
+    metagroupid: 5
+    metalevelold: 15
+    name: Hanaruwa's Modified Medium Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 12
+    published: true
+    radius: 500.0
+    requiredskill1: 3416
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 260.0
+    techlevel: 1
+    volume: 10.0

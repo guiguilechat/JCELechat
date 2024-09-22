@@ -2732,3 +2732,111 @@ types:
     requiredskill1level: 4
     techlevel: 1
     volume: 4000.0
+  84970:
+    armordamageamount: 130.0
+    capacitorneed: 40.0
+    cpu: 4.0
+    duration: 6000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.400000095367432
+    hp: 40.0
+    id: 84970
+    marketGroup: 1049
+    mass: 500.0
+    metalevelold: 15
+    name: Asine's Modified Small Armor Repairer
+    overloadarmordamageamount: 10
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 8
+    published: true
+    radius: 1.0
+    requiredskill1: 3393
+    requiredskill1level: 1
+    requiredskill2: 3392
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  84971:
+    armordamageamount: 145.0
+    capacitorneed: 45.0
+    cpu: 4.0
+    duration: 6000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.400000095367432
+    hp: 40.0
+    id: 84971
+    marketGroup: 1049
+    mass: 500.0
+    metalevelold: 15
+    name: Makra's Modified Small Armor Repairer
+    overloadarmordamageamount: 10
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 8
+    published: true
+    radius: 1.0
+    requiredskill1: 3393
+    requiredskill1level: 1
+    requiredskill2: 3392
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  84972:
+    armordamageamount: 515.0
+    capacitorneed: 160.0
+    cpu: 23.0
+    duration: 12000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.300000190734863
+    hp: 40.0
+    id: 84972
+    marketGroup: 1050
+    mass: 500.0
+    metalevelold: 15
+    name: Gara's Modified Medium Armor Repairer
+    overloadarmordamageamount: 10
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 3393
+    requiredskill1level: 1
+    requiredskill2: 3392
+    requiredskill2level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  84973:
+    armordamageamount: 580.0
+    capacitorneed: 180.0
+    cpu: 23.0
+    duration: 12000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.300000190734863
+    hp: 40.0
+    id: 84973
+    marketGroup: 1050
+    mass: 500.0
+    metalevelold: 15
+    name: Ryhad's Modified Medium Armor Repairer
+    overloadarmordamageamount: 10
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 3393
+    requiredskill1level: 1
+    requiredskill2: 3392
+    requiredskill2level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0

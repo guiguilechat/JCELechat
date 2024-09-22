@@ -15,6 +15,7 @@ types:
     emdamageresonance: 1.0
     energywarfareresistance: 9.999999747378752E-6
     explosivedamageresonance: 1.0
+    fighterabilityanticapitalmissileresistance: 1
     hackable: 1
     hiddenarmorhpmultiplier: 1
     hp: 2.4E7
@@ -53,7 +54,7 @@ types:
     shieldrechargerate: 1.0E8
     shieldthermaldamageresonance: 0.25
     shielduniformity: 1.0
-    signatureradius: 20000.0
+    signatureradius: 32000.0
     stasiswebifierresistance: 9.999999747378752E-6
     structuredamagelimit: 10000000
     structurefullpowerstatehitpointmultiplier: 1

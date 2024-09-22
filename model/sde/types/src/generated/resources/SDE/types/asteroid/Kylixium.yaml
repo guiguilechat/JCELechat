@@ -1,8 +1,9 @@
 types:
   81900:
+    asteroidmaxradius: 10000
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.6000000238418579
-    asteroidradiusunitsize: 500
+    asteroidradiusgrowthfactor: 2.0
+    asteroidradiusunitsize: 600
     id: 81900
     marketGroup: 3636
     mass: 1.0000000409184788E35
@@ -19,9 +20,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.2000000476837158
   81901:
+    asteroidmaxradius: 10000
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.42500001192092896
-    asteroidradiusunitsize: 400
+    asteroidradiusgrowthfactor: 2.0
+    asteroidradiusunitsize: 600
     id: 81901
     marketGroup: 3636
     mass: 1.0000000409184788E35
@@ -38,9 +40,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.2000000476837158
   81902:
+    asteroidmaxradius: 10000
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.42500001192092896
-    asteroidradiusunitsize: 400
+    asteroidradiusgrowthfactor: 2.0
+    asteroidradiusunitsize: 600
     id: 81902
     marketGroup: 3636
     mass: 1.0000000409184788E35
@@ -57,9 +60,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.2000000476837158
   81903:
+    asteroidmaxradius: 10000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.42500001192092896
-    asteroidradiusunitsize: 400
+    asteroidradiusgrowthfactor: 2.0
+    asteroidradiusunitsize: 600
     id: 81903
     marketGroup: 3636
     mass: 1.0000000409184788E35
@@ -76,6 +80,7 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.2000000476837158
   82300:
+    asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 400
@@ -95,6 +100,7 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.012000000104308128
   82301:
+    asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 400
@@ -114,6 +120,7 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.012000000104308128
   82302:
+    asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 400
@@ -133,6 +140,7 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.012000000104308128
   82303:
+    asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.42500001192092896
     asteroidradiusunitsize: 400

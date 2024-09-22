@@ -30458,19 +30458,33 @@ id2group:
   82504: blueprint/InfrastructureUpgradeBlueprint
   82505: blueprint/InfrastructureUpgradeBlueprint
   82506: blueprint/InfrastructureUpgradeBlueprint
+  82579: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   82580: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  82581: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   82582: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  82583: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   82584: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  82585: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   82586: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  82587: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   82588: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  82589: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   82590: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  82591: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   82592: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  82594: blueprint/InfrastructureUpgradeBlueprint
   82595: blueprint/InfrastructureUpgradeBlueprint
+  82596: blueprint/InfrastructureUpgradeBlueprint
   82597: blueprint/InfrastructureUpgradeBlueprint
+  82598: blueprint/InfrastructureUpgradeBlueprint
   82599: blueprint/InfrastructureUpgradeBlueprint
+  82600: blueprint/InfrastructureUpgradeBlueprint
   82601: blueprint/InfrastructureUpgradeBlueprint
+  82602: blueprint/InfrastructureUpgradeBlueprint
   82603: blueprint/InfrastructureUpgradeBlueprint
+  82604: blueprint/InfrastructureUpgradeBlueprint
   82605: blueprint/InfrastructureUpgradeBlueprint
+  82606: blueprint/InfrastructureUpgradeBlueprint
   82607: blueprint/InfrastructureUpgradeBlueprint
   82957: personalization/ShipSKINDesignElement
   82958: personalization/ShipSKINDesignElement
@@ -30834,6 +30848,54 @@ id2group:
   84217: skill/Sequencing
   84294: entity/LargeCollidableStructure
   84358: entity/MissionContainer
+  84398: commodity/Mutaplasmids
+  84399: commodity/Mutaplasmids
+  84400: commodity/Mutaplasmids
+  84401: commodity/Mutaplasmids
+  84402: commodity/Mutaplasmids
+  84403: commodity/Mutaplasmids
+  84404: commodity/Mutaplasmids
+  84405: commodity/Mutaplasmids
+  84406: commodity/Mutaplasmids
+  84407: commodity/Mutaplasmids
+  84408: commodity/Mutaplasmids
+  84409: commodity/Mutaplasmids
+  84410: commodity/Mutaplasmids
+  84411: commodity/Mutaplasmids
+  84412: commodity/Mutaplasmids
+  84413: commodity/Mutaplasmids
+  84414: commodity/Mutaplasmids
+  84415: commodity/Mutaplasmids
+  84416: commodity/Mutaplasmids
+  84417: commodity/Mutaplasmids
+  84418: commodity/Mutaplasmids
+  84419: commodity/Mutaplasmids
+  84420: commodity/Mutaplasmids
+  84421: commodity/Mutaplasmids
+  84422: commodity/Mutaplasmids
+  84423: commodity/Mutaplasmids
+  84424: commodity/Mutaplasmids
+  84425: commodity/Mutaplasmids
+  84426: commodity/Mutaplasmids
+  84427: commodity/Mutaplasmids
+  84428: commodity/Mutaplasmids
+  84429: commodity/Mutaplasmids
+  84430: commodity/Mutaplasmids
+  84431: commodity/Mutaplasmids
+  84432: commodity/Mutaplasmids
+  84433: commodity/Mutaplasmids
+  84434: module/SmartBomb
+  84435: module/SmartBomb
+  84436: module/SmartBomb
+  84437: module/SmartBomb
+  84438: module/SmartBomb
+  84439: module/SmartBomb
+  84440: module/SmartBomb
+  84441: module/SmartBomb
+  84442: module/SmartBomb
+  84443: module/SmartBomb
+  84444: module/SmartBomb
+  84445: module/SmartBomb
   84468: entity/IrregularFrigate
   84469: entity/IrregularFrigate
   84470: entity/IrregularFrigate
@@ -30842,6 +30904,18 @@ id2group:
   84473: entity/IrregularDestroyer
   84474: specialeditionassets/SpecialEditionCommodities
   84475: specialeditionassets/SpecialEditionCommodities
+  84495: module/SmartBomb
+  84496: module/SmartBomb
+  84497: module/SmartBomb
+  84498: module/SmartBomb
+  84499: module/SmartBomb
+  84500: module/SmartBomb
+  84501: blueprint/SmartBombBlueprint
+  84502: blueprint/SmartBombBlueprint
+  84503: blueprint/SmartBombBlueprint
+  84504: blueprint/SmartBombBlueprint
+  84505: blueprint/SmartBombBlueprint
+  84506: blueprint/SmartBombBlueprint
   84519: specialeditionassets/SpecialEditionCommodities
   84520: specialeditionassets/SpecialEditionCommodities
   84521: specialeditionassets/SpecialEditionCommodities
@@ -30884,6 +30958,7 @@ id2group:
   84741: module/EnergyNosferatu
   84742: module/TargetPainter
   84743: module/StasisGrappler
+  84926: entity/AsteroidAngelCartelOfficerFrigate
   84937: skins/PermanentSKIN
   84938: skins/PermanentSKIN
   84939: skins/PermanentSKIN
@@ -30892,6 +30967,70 @@ id2group:
   84942: skins/PermanentSKIN
   84943: skins/PermanentSKIN
   84944: skins/PermanentSKIN
+  84945: entity/AsteroidBloodRaidersOfficerFrigate
+  84946: entity/AsteroidGuristasOfficerFrigate
+  84947: entity/AsteroidSanshaSNationOfficerFrigate
+  84948: entity/AsteroidSerpentisOfficerFrigate
+  84950: entity/AsteroidAngelCartelOfficerCruiser
+  84951: entity/AsteroidSerpentisOfficerCruiser
+  84952: entity/AsteroidBloodRaidersOfficerCruiser
+  84953: entity/AsteroidGuristasOfficerCruiser
+  84954: entity/AsteroidSanshaSNationOfficerCruiser
+  84959: module/AuxiliaryPowerCore
+  84961: module/DamageControl
+  84962: module/PropulsionModule
+  84963: module/PropulsionModule
+  84964: module/PropulsionModule
+  84965: module/PropulsionModule
+  84966: module/PropulsionModule
+  84967: module/PropulsionModule
+  84968: module/PropulsionModule
+  84969: module/PropulsionModule
+  84970: module/ArmorRepairUnit
+  84971: module/ArmorRepairUnit
+  84972: module/ArmorRepairUnit
+  84973: module/ArmorRepairUnit
+  84985: module/RemoteArmorRepairer
+  84986: module/RemoteArmorRepairer
+  84987: module/RemoteArmorRepairer
+  84988: module/RemoteArmorRepairer
+  84989: module/EnergyNosferatu
+  84991: module/EnergyNeutralizer
+  84992: module/EnergyNeutralizer
+  84993: module/EnergyNosferatu
+  84994: module/RemoteShieldBooster
+  84995: module/RemoteShieldBooster
+  84996: module/RemoteShieldBooster
+  84997: module/RemoteShieldBooster
+  84998: module/ShieldBooster
+  84999: module/ShieldBooster
+  85000: module/ShieldBooster
+  85001: module/ShieldBooster
+  85002: module/ECM
+  85003: module/ECM
+  85004: module/ECM
+  85005: module/ECM
+  85006: module/ECMStabilizer
+  85007: module/ECMStabilizer
+  85008: module/HybridWeapon
+  85009: module/HybridWeapon
+  85010: module/ProjectileWeapon
+  85011: module/ProjectileWeapon
+  85012: module/EnergyWeapon
+  85013: module/EnergyWeapon
+  85014: module/EnergyWeapon
+  85015: module/EnergyWeapon
+  85021: module/MissileLauncherRocket
+  85023: module/MissileLauncherHeavyAssault
+  85025: module/PropulsionModule
+  85026: module/PropulsionModule
+  85027: module/CapacitorBooster
+  85028: module/CapacitorBooster
+  85031: module/PropulsionModule
+  85032: module/PropulsionModule
+  85033: module/RemoteCapacitorTransmitter
+  85034: module/RemoteCapacitorTransmitter
+  85035: module/WarpDisruptFieldGenerator
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

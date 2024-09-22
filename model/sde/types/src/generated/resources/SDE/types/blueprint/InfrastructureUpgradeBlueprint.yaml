@@ -109,14 +109,36 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
-  82595:
-    id: 82595
+  82594:
+    id: 82594
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Megacyte Prospecting Array 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.5E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82595:
+    id: 82595
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Megacyte Prospecting Array 2 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82596:
+    id: 82596
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Zydrine Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -124,10 +146,21 @@ types:
     id: 82597
     industryblueprintrank: 200.0
     marketGroup: 2014
-    name: Zydrine Prospecting Array 1 Blueprint
+    name: Zydrine Prospecting Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82598:
+    id: 82598
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Nocxium Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -135,10 +168,21 @@ types:
     id: 82599
     industryblueprintrank: 200.0
     marketGroup: 2014
-    name: Nocxium Prospecting Array 1 Blueprint
+    name: Nocxium Prospecting Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82600:
+    id: 82600
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Isogen Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -146,10 +190,21 @@ types:
     id: 82601
     industryblueprintrank: 200.0
     marketGroup: 2014
-    name: Isogen Prospecting Array 1 Blueprint
+    name: Isogen Prospecting Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82602:
+    id: 82602
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Mexallon Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -157,10 +212,21 @@ types:
     id: 82603
     industryblueprintrank: 200.0
     marketGroup: 2014
-    name: Mexallon Prospecting Array 1 Blueprint
+    name: Mexallon Prospecting Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82604:
+    id: 82604
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Pyerite Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -168,10 +234,21 @@ types:
     id: 82605
     industryblueprintrank: 200.0
     marketGroup: 2014
-    name: Pyerite Prospecting Array 1 Blueprint
+    name: Pyerite Prospecting Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.75E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  82606:
+    id: 82606
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Tritanium Prospecting Array 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -179,7 +256,7 @@ types:
     id: 82607
     industryblueprintrank: 200.0
     marketGroup: 2014
-    name: Tritanium Prospecting Array 1 Blueprint
+    name: Tritanium Prospecting Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.75E8

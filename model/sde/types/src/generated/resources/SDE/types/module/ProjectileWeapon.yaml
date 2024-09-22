@@ -6290,3 +6290,80 @@ types:
     trackingspeed: 0.017954999580979347
     typecolorscheme: 11342
     volume: 4000.0
+  85010:
+    capacity: 0.30000001192092896
+    chargegroup1: 83
+    chargegroup2: 372
+    chargerate: 1
+    chargesize: 1
+    cpu: 9.0
+    damagemultiplier: 4.0432000160217285
+    falloff: 5160.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.0
+    hp: 40.0
+    id: 85010
+    marketGroup: 574
+    mass: 500.0
+    maxrange: 1200.0
+    metalevelold: 15
+    name: Ramaku's Modified 200mm AutoCannon
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 5
+    price: 109744.0
+    published: true
+    radius: 20.0
+    reloadtime: 10000.0
+    requiredskill1: 3302
+    requiredskill1level: 1
+    requiredskill2: 3300
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 3750.0
+    techlevel: 1
+    trackingspeed: 315.0
+    typecolorscheme: 11343
+    volume: 5.0
+  85011:
+    capacity: 1.5
+    chargegroup1: 83
+    chargegroup2: 372
+    chargerate: 1
+    chargesize: 2
+    cpu: 17.0
+    damagemultiplier: 4.0432000160217285
+    falloff: 10836.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.800000011920929
+    hp: 40.0
+    id: 85011
+    marketGroup: 575
+    mass: 8.0
+    maxrange: 2400.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Sila's Modified 425mm Autocannon
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 162
+    price: 44740.0
+    published: true
+    radius: 20.0
+    reloadtime: 10000.0
+    requiredskill1: 3305
+    requiredskill1level: 1
+    requiredskill2: 3300
+    requiredskill2level: 3
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5456.0
+    techlevel: 1
+    trackingspeed: 33.79199981689453
+    typecolorscheme: 11318
+    volume: 10.0

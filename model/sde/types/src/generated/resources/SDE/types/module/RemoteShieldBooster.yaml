@@ -1072,3 +1072,119 @@ types:
     shieldbonus: 1100.0
     techlevel: 1
     volume: 4000.0
+  84994:
+    capacitorneed: 67.0
+    cpu: 42.0
+    duration: 4000.0
+    falloffeffectiveness: 9750
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
+    id: 84994
+    marketGroup: 603
+    maxrange: 6000.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 5
+    metalevelold: 15
+    name: Panola's Modified Small Remote Shield Booster
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 3
+    price: 4996.0
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 137.0
+    techlevel: 1
+    volume: 5.0
+  84995:
+    capacitorneed: 52.0
+    cpu: 30.0
+    duration: 3600.0
+    falloffeffectiveness: 9750
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.25
+    hp: 40.0
+    id: 84995
+    marketGroup: 603
+    maxrange: 6000.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 5
+    metalevelold: 15
+    name: Ramaku's Modified Small Remote Shield Booster
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 3
+    price: 4996.0
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 110.0
+    techlevel: 1
+    volume: 5.0
+  84996:
+    capacitorneed: 268.0
+    cpu: 85.0
+    duration: 8000.0
+    falloffeffectiveness: 11250
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
+    id: 84996
+    marketGroup: 602
+    maxrange: 7500.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 5
+    metalevelold: 15
+    name: Hanaruwa's Modified Medium Remote Shield Booster
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 65
+    price: 12470.0
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 548.0
+    techlevel: 1
+    volume: 10.0
+  84997:
+    capacitorneed: 208.0
+    cpu: 61.0
+    duration: 7200.0
+    falloffeffectiveness: 11250
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
+    id: 84997
+    marketGroup: 602
+    maxrange: 7500.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 5
+    metalevelold: 15
+    name: Sila's Modified Medium Remote Shield Booster
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 65
+    price: 12470.0
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 435.0
+    techlevel: 1
+    volume: 10.0

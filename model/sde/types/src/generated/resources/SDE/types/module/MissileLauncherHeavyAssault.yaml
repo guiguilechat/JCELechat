@@ -404,3 +404,35 @@ types:
     techlevel: 2
     typecolorscheme: 11461
     volume: 10.0
+  85023:
+    capacity: 1.125
+    chargegroup1: 772
+    chargegroup2: 654
+    chargerate: 1
+    cpu: 50.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.8500000238418579
+    hp: 40.0
+    id: 85023
+    marketGroup: 974
+    metagroupid: 5
+    metalevelold: 15
+    name: Hanaruwa's Modified Heavy Assault Missile Launcher
+    overloadrofbonus: -15
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 119
+    price: 34096.0
+    published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5200.0
+    techlevel: 1
+    typecolorscheme: 11335
+    volume: 10.0

@@ -1575,3 +1575,61 @@ types:
     requiredskill1level: 5
     techlevel: 1
     volume: 4000.0
+  84991:
+    capacitorneed: 45.0
+    cpu: 10.0
+    duration: 6000.0
+    energyneutralizeramount: 60.0
+    entitycapacitorlevelmodifierlarge: 0.9916666746139526
+    entitycapacitorlevelmodifiermedium: 0.9666666388511658
+    entitycapacitorlevelmodifiersmall: 0.8823529481887817
+    falloffeffectiveness: 5000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5999999046325684
+    hp: 40.0
+    id: 84991
+    marketGroup: 689
+    mass: 2000.0
+    maxrange: 10000.0
+    metalevelold: 15
+    name: Makra's Modified Small Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 12
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  84992:
+    capacitorneed: 150.0
+    cpu: 20.0
+    duration: 12000.0
+    energyneutralizeramount: 195.0
+    entitycapacitorlevelmodifierlarge: 0.9645833373069763
+    entitycapacitorlevelmodifiermedium: 0.8583333492279053
+    entitycapacitorlevelmodifiersmall: 0.5
+    falloffeffectiveness: 9000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.200000047683716
+    hp: 40.0
+    id: 84992
+    marketGroup: 690
+    mass: 2000.0
+    maxrange: 18000.0
+    metalevelold: 16
+    name: Ryhad's Modified Medium Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 245
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0

@@ -468,3 +468,35 @@ types:
     techlevel: 2
     typecolorscheme: 11461
     volume: 5.0
+  85021:
+    capacity: 0.28130000829696655
+    chargegroup1: 387
+    chargegroup3: 648
+    chargerate: 1
+    cpu: 17.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.800000011920929
+    hp: 40.0
+    id: 85021
+    marketGroup: 639
+    metagroupid: 5
+    metalevelold: 15
+    name: Panola's Modified Rocket Launcher
+    overloadrofbonus: -15
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 5
+    price: 3000.0
+    published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3320
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 3250.0
+    techlevel: 1
+    typecolorscheme: 11335
+    volume: 5.0

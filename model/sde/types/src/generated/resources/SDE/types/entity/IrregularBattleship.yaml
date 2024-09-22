@@ -6332,7 +6332,7 @@ types:
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 827500
+    entitykillbounty: 1031250
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityreactionfactor: 1.0
     entityshieldboostdelaychance: 1.0

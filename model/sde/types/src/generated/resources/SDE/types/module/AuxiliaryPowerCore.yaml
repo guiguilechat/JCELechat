@@ -80,3 +80,19 @@ types:
     requiredskill1level: 2
     techlevel: 1
     volume: 20.0
+  84959:
+    cpu: 24.0
+    hp: 40.0
+    id: 84959
+    marketGroup: 660
+    metalevelold: 15
+    name: Makra's Modified Micro Auxiliary Power Core
+    packagedVolume: 20.0
+    portionSize: 1
+    powerincrease: 15
+    published: true
+    radius: 1.0
+    requiredskill1: 3418
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 20.0

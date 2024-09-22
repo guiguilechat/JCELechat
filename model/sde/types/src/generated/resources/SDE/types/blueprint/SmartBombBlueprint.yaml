@@ -448,7 +448,7 @@ types:
   21535:
     id: 21535
     industryblueprintrank: 3.0
-    name: Small Degenerative Concussion Bomb I Blueprint
+    name: '''Degenerative'' Small Proton Smartbomb Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -458,7 +458,7 @@ types:
   21537:
     id: 21537
     industryblueprintrank: 6.0
-    name: Medium Degenerative Concussion Bomb I Blueprint
+    name: '''Dwindling'' Medium Proton Smartbomb Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -468,7 +468,7 @@ types:
   21539:
     id: 21539
     industryblueprintrank: 9.0
-    name: Large Degenerative Concussion Bomb I Blueprint
+    name: '''Regressive'' Large Proton Smartbomb Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -478,7 +478,7 @@ types:
   23865:
     id: 23865
     industryblueprintrank: 3.0
-    name: '''Pike'' Small EMP Smartbomb I Blueprint'
+    name: '''Pike'' Small EMP Smartbomb Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -488,7 +488,7 @@ types:
   23867:
     id: 23867
     industryblueprintrank: 6.0
-    name: '''Lance'' Medium EMP Smartbomb I Blueprint'
+    name: '''Lance'' Medium EMP Smartbomb Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -498,7 +498,7 @@ types:
   23869:
     id: 23869
     industryblueprintrank: 9.0
-    name: '''Warhammer'' Large EMP Smartbomb I Blueprint'
+    name: '''Warhammer'' Large EMP Smartbomb Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -519,6 +519,66 @@ types:
     id: 28551
     industryblueprintrank: 6.0
     name: Khanid Navy Medium EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  84501:
+    id: 84501
+    industryblueprintrank: 9.0
+    name: '''Blasting'' Large Graviton Smartbomb Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  84502:
+    id: 84502
+    industryblueprintrank: 9.0
+    name: '''Scalding'' Large Plasma Smartbomb Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  84503:
+    id: 84503
+    industryblueprintrank: 6.0
+    name: '''Booming'' Medium Graviton Smartbomb Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  84504:
+    id: 84504
+    industryblueprintrank: 6.0
+    name: '''Boiling'' Medium Plasma Smartbomb Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  84505:
+    id: 84505
+    industryblueprintrank: 3.0
+    name: '''Roaring'' Small Graviton Smartbomb Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  84506:
+    id: 84506
+    industryblueprintrank: 3.0
+    name: '''Seething'' Small Plasma Smartbomb Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

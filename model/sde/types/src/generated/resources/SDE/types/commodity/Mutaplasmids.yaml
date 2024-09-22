@@ -1699,3 +1699,363 @@ types:
     price: 1000.0
     published: true
     volume: 1.0
+  84398:
+    id: 84398
+    marketGroup: 3670
+    mass: 1.0
+    name: Decayed Large EMP Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84399:
+    id: 84399
+    marketGroup: 3670
+    mass: 1.0
+    name: Decayed Large Plasma Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84400:
+    id: 84400
+    marketGroup: 3669
+    mass: 1.0
+    name: Decayed Medium EMP Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84401:
+    id: 84401
+    marketGroup: 3669
+    mass: 1.0
+    name: Decayed Medium Plasma Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84402:
+    id: 84402
+    marketGroup: 3669
+    mass: 1.0
+    name: Decayed Medium Graviton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84403:
+    id: 84403
+    marketGroup: 3669
+    mass: 1.0
+    name: Decayed Medium Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84404:
+    id: 84404
+    marketGroup: 3668
+    mass: 1.0
+    name: Decayed Small EMP Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84405:
+    id: 84405
+    marketGroup: 3668
+    mass: 1.0
+    name: Decayed Small Plasma Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84406:
+    id: 84406
+    marketGroup: 3668
+    mass: 1.0
+    name: Decayed Small Graviton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84407:
+    id: 84407
+    marketGroup: 3668
+    mass: 1.0
+    name: Decayed Small Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84408:
+    id: 84408
+    marketGroup: 3670
+    mass: 1.0
+    name: Decayed Large Graviton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84409:
+    id: 84409
+    marketGroup: 3670
+    mass: 1.0
+    name: Decayed Large Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84410:
+    id: 84410
+    marketGroup: 3668
+    mass: 1.0
+    name: Gravid Small EMP Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84411:
+    id: 84411
+    marketGroup: 3668
+    mass: 1.0
+    name: Gravid Small Plasma Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84412:
+    id: 84412
+    marketGroup: 3668
+    mass: 1.0
+    name: Gravid Small Graviton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84413:
+    id: 84413
+    marketGroup: 3668
+    mass: 1.0
+    name: Gravid Small Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84414:
+    id: 84414
+    marketGroup: 3670
+    mass: 1.0
+    name: Gravid Large Graviton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84415:
+    id: 84415
+    marketGroup: 3670
+    mass: 1.0
+    name: Gravid Large Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84416:
+    id: 84416
+    marketGroup: 3670
+    mass: 1.0
+    name: Gravid Large EMP Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84417:
+    id: 84417
+    marketGroup: 3670
+    mass: 1.0
+    name: Gravid Large Plasma Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84418:
+    id: 84418
+    marketGroup: 3669
+    mass: 1.0
+    name: Gravid Medium EMP Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84419:
+    id: 84419
+    marketGroup: 3669
+    mass: 1.0
+    name: Gravid Medium Plasma Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84420:
+    id: 84420
+    marketGroup: 3669
+    mass: 1.0
+    name: Gravid Medium Graviton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84421:
+    id: 84421
+    marketGroup: 3669
+    mass: 1.0
+    name: Gravid Medium Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84422:
+    id: 84422
+    marketGroup: 3670
+    mass: 1.0
+    name: Unstable Large EMP Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84423:
+    id: 84423
+    marketGroup: 3670
+    mass: 1.0
+    name: Unstable Large Plasma Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84424:
+    id: 84424
+    marketGroup: 3669
+    mass: 1.0
+    name: Unstable Medium EMP Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84425:
+    id: 84425
+    marketGroup: 3669
+    mass: 1.0
+    name: Unstable Medium Plasma Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84426:
+    id: 84426
+    marketGroup: 3669
+    mass: 1.0
+    name: Unstable Medium Graviton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84427:
+    id: 84427
+    marketGroup: 3669
+    mass: 1.0
+    name: Unstable Medium Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84428:
+    id: 84428
+    marketGroup: 3668
+    mass: 1.0
+    name: Unstable Small EMP Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84429:
+    id: 84429
+    marketGroup: 3668
+    mass: 1.0
+    name: Unstable Small Plasma Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84430:
+    id: 84430
+    marketGroup: 3668
+    mass: 1.0
+    name: Unstable Small Graviton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84431:
+    id: 84431
+    marketGroup: 3668
+    mass: 1.0
+    name: Unstable Small Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84432:
+    id: 84432
+    marketGroup: 3670
+    mass: 1.0
+    name: Unstable Large Graviton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  84433:
+    id: 84433
+    marketGroup: 3670
+    mass: 1.0
+    name: Unstable Large Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0

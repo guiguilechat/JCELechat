@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -78,6 +79,13 @@ public abstract class Asteroid
     @DefaultRealValue(1.0)
     public double asteroidradiusgrowthfactor;
     /**
+     * Sets the radius of the asteroid ball when it has a quantity of 1 unit
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(90)
+    public int asteroidradiusunitsize;
+    /**
      * The cargo space allowed
      */
     @HighIsGood(true)
@@ -105,7 +113,7 @@ public abstract class Asteroid
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
@@ -118,6 +126,10 @@ public abstract class Asteroid
             case  1980 :
             {
                 return asteroidradiusgrowthfactor;
+            }
+            case  1981 :
+            {
+                return asteroidradiusunitsize;
             }
             case  38 :
             {

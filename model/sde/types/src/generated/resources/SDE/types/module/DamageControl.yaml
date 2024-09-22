@@ -960,3 +960,41 @@ types:
     shieldthermaldamageresonance: 1.0
     techlevel: 1
     volume: 5.0
+  84961:
+    armoremdamageresonance: 0.875
+    armorexplosivedamageresonance: 0.875
+    armorkineticdamageresonance: 0.875
+    armorthermaldamageresonance: 0.875
+    canfitshipgroup01: 358
+    canfitshipgroup02: 324
+    capacitorneed: 35.0
+    cpu: 40.0
+    disallowrepeatingactivation: 1
+    duration: 12500.0
+    hp: 40.0
+    hullemdamageresonance: 0.675000011920929
+    hullexplosivedamageresonance: 0.675000011920929
+    hullkineticdamageresonance: 0.675000011920929
+    hullthermaldamageresonance: 0.675000011920929
+    id: 84961
+    marketGroup: 615
+    mass: 5000.0
+    maxgroupfitted: 1
+    metagroupid: 5
+    metalevelold: 15
+    modulereactivationdelay: 150000
+    name: Asine's Modified Assault Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    resistancemultiplier: 0.25
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8999999761581421
+    shieldkineticdamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.8999999761581421
+    techlevel: 1
+    volume: 5.0

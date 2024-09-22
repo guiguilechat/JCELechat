@@ -14,6 +14,7 @@ types:
     emdamageresonance: 0.800000011920929
     energywarfareresistance: 9.999999747378752E-6
     explosivedamageresonance: 0.800000011920929
+    fighterabilityanticapitalmissileresistance: 1
     hackable: 1
     hiddenarmorhpmultiplier: 1
     hp: 3000000.0

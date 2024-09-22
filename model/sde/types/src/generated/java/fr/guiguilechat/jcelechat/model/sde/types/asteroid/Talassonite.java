@@ -29,13 +29,6 @@ public class Talassonite
     extends Asteroid
 {
     /**
-     * Sets the radius of the asteroid ball when it has a quantity of 1 unit
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(90)
-    public int asteroidradiusunitsize;
-    /**
      * The skill required to reprocess this ore type.
      */
     @HighIsGood(true)
@@ -48,10 +41,6 @@ public class Talassonite
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  1981 :
-            {
-                return asteroidradiusunitsize;
-            }
             case  790 :
             {
                 return reprocessingskilltype;

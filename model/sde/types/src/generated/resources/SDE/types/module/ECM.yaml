@@ -1178,3 +1178,124 @@ types:
     scanradarstrengthbonus: 4.099999904632568
     techlevel: 1
     volume: 5.0
+  85002:
+    capacitorneed: 60.0
+    cpu: 60.0
+    duration: 20000.0
+    falloffeffectiveness: 33000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 85002
+    marketGroup: 716
+    maxrange: 35000.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Panola's Modified Ladar ECM
+    overloadecmstrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 20000.0
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2253
+    requiredskill1: 3427
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthbonus: 1.5
+    scanladarstrengthbonus: 4.5
+    scanmagnetometricstrengthbonus: 1.5
+    scanradarstrengthbonus: 1.5
+    techlevel: 1
+    volume: 5.0
+  85003:
+    capacitorneed: 60.0
+    cpu: 60.0
+    duration: 20000.0
+    falloffeffectiveness: 33000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 85003
+    marketGroup: 718
+    maxrange: 35000.0
+    metalevelold: 15
+    name: Panola's Modified Radar ECM
+    overloadecmstrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 192450.0
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2253
+    requiredskill1: 3427
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthbonus: 1.5
+    scanladarstrengthbonus: 1.5
+    scanmagnetometricstrengthbonus: 1.5
+    scanradarstrengthbonus: 4.5
+    techlevel: 1
+    volume: 5.0
+  85004:
+    capacitorneed: 60.0
+    cpu: 60.0
+    duration: 20000.0
+    falloffeffectiveness: 33000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 85004
+    marketGroup: 715
+    maxrange: 35000.0
+    metalevelold: 15
+    name: Panola's Modified Magnetometric ECM
+    overloadecmstrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 194778.0
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2253
+    requiredskill1: 3427
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthbonus: 1.5
+    scanladarstrengthbonus: 1.5
+    scanmagnetometricstrengthbonus: 4.5
+    scanradarstrengthbonus: 1.5
+    techlevel: 1
+    volume: 5.0
+  85005:
+    capacitorneed: 60.0
+    cpu: 60.0
+    duration: 20000.0
+    falloffeffectiveness: 33000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 85005
+    marketGroup: 717
+    maxrange: 35000.0
+    metalevelold: 15
+    name: Panola's Modified Gravimetric ECM
+    overloadecmstrengthbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 184600.0
+    published: true
+    radius: 1.0
+    remoteresistanceid: 2253
+    requiredskill1: 3427
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthbonus: 4.5
+    scanladarstrengthbonus: 1.5
+    scanmagnetometricstrengthbonus: 1.5
+    scanradarstrengthbonus: 1.5
+    techlevel: 1
+    volume: 5.0

@@ -784,23 +784,23 @@ types:
     techlevel: 2
     volume: 50.0
   9668:
-    capacitorneed: 200.0
-    cpu: 72.0
+    capacitorneed: 180.0
+    cpu: 64.0
     duration: 10000.0
     empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 9668
-    kineticdamage: 300.0
+    kineticdamage: 275.0
     marketGroup: 381
     mass: 100.0
     metalevelold: 1
-    name: Large Rudimentary Concussion Bomb I
+    name: '''Concussion'' Compact Large Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
-    power: 1000
+    power: 950
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -809,8 +809,8 @@ types:
     techlevel: 1
     volume: 50.0
   9670:
-    capacitorneed: 30.0
-    cpu: 27.0
+    capacitorneed: 27.0
+    cpu: 24.0
     duration: 10000.0
     empfieldrange: 3000
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -821,11 +821,11 @@ types:
     marketGroup: 382
     mass: 10.0
     metalevelold: 1
-    name: Small Rudimentary Concussion Bomb I
+    name: '''Concussion'' Compact Small Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
-    power: 8
+    power: 7
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -834,10 +834,10 @@ types:
     techlevel: 1
     volume: 5.0
   9678:
-    capacitorneed: 200.0
+    capacitorneed: 180.0
     cpu: 64.0
     duration: 10000.0
-    emdamage: 300.0
+    emdamage: 275.0
     empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
@@ -846,11 +846,11 @@ types:
     marketGroup: 381
     mass: 100.0
     metalevelold: 1
-    name: Large 'Vehemence' Shockwave Charge
+    name: '''Vehemence'' Compact Large EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
-    power: 1000
+    power: 950
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -859,7 +859,7 @@ types:
     techlevel: 1
     volume: 50.0
   9680:
-    capacitorneed: 30.0
+    capacitorneed: 27.0
     cpu: 24.0
     duration: 10000.0
     emdamage: 60.0
@@ -871,11 +871,11 @@ types:
     marketGroup: 382
     mass: 10.0
     metalevelold: 1
-    name: Small 'Vehemence' Shockwave Charge
+    name: '''Vehemence'' Compact Small EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
-    power: 8
+    power: 7
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -934,8 +934,8 @@ types:
     techlevel: 1
     volume: 2.5
   9728:
-    capacitorneed: 75.0
-    cpu: 45.0
+    capacitorneed: 67.5
+    cpu: 40.0
     duration: 10000.0
     empfieldrange: 4000
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -946,11 +946,11 @@ types:
     marketGroup: 383
     mass: 100.0
     metalevelold: 1
-    name: Medium Rudimentary Concussion Bomb I
+    name: '''Concussion'' Compact Medium Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
-    power: 200
+    power: 190
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -959,7 +959,7 @@ types:
     techlevel: 1
     volume: 10.0
   9734:
-    capacitorneed: 75.0
+    capacitorneed: 67.5
     cpu: 40.0
     duration: 10000.0
     emdamage: 120.0
@@ -971,11 +971,11 @@ types:
     marketGroup: 383
     mass: 100.0
     metalevelold: 1
-    name: Medium 'Vehemence' Shockwave Charge
+    name: '''Vehemence'' Compact Medium EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
-    power: 200
+    power: 190
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -984,8 +984,8 @@ types:
     techlevel: 1
     volume: 10.0
   9744:
-    capacitorneed: 30.0
-    cpu: 28.0
+    capacitorneed: 27.0
+    cpu: 24.0
     duration: 10000.0
     empfieldrange: 3000
     explosivedamage: 60.0
@@ -996,11 +996,11 @@ types:
     marketGroup: 382
     mass: 10.0
     metalevelold: 1
-    name: Small 'Notos' Explosive Charge I
+    name: '''Notos'' Compact Small Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
-    power: 8
+    power: 7
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -1034,8 +1034,8 @@ types:
     techlevel: 1
     volume: 2.5
   9762:
-    capacitorneed: 75.0
-    cpu: 47.0
+    capacitorneed: 67.5
+    cpu: 40.0
     duration: 10000.0
     empfieldrange: 4000
     explosivedamage: 120.0
@@ -1046,11 +1046,11 @@ types:
     marketGroup: 383
     mass: 100.0
     metalevelold: 1
-    name: Medium 'Notos' Explosive Charge I
+    name: '''Notos'' Compact Medium Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
-    power: 200
+    power: 190
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -1059,11 +1059,11 @@ types:
     techlevel: 1
     volume: 10.0
   9772:
-    capacitorneed: 200.0
-    cpu: 76.0
+    capacitorneed: 180.0
+    cpu: 64.0
     duration: 10000.0
     empfieldrange: 5000
-    explosivedamage: 300.0
+    explosivedamage: 275.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1071,11 +1071,11 @@ types:
     marketGroup: 381
     mass: 100.0
     metalevelold: 1
-    name: Large 'Notos' Explosive Charge I
+    name: '''Notos'' Compact Large Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
-    power: 1000
+    power: 950
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -1084,8 +1084,8 @@ types:
     techlevel: 1
     volume: 50.0
   9784:
-    capacitorneed: 30.0
-    cpu: 25.0
+    capacitorneed: 27.0
+    cpu: 24.0
     duration: 10000.0
     empfieldrange: 3000
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -1095,11 +1095,11 @@ types:
     marketGroup: 382
     mass: 10.0
     metalevelold: 1
-    name: Small YF-12a Smartbomb
+    name: '''YF-12a'' Compact Small Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
-    power: 8
+    power: 7
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -1134,8 +1134,8 @@ types:
     thermaldamage: 30.0
     volume: 2.5
   9800:
-    capacitorneed: 75.0
-    cpu: 42.0
+    capacitorneed: 67.5
+    cpu: 40.0
     duration: 10000.0
     empfieldrange: 4000
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -1145,11 +1145,11 @@ types:
     marketGroup: 383
     mass: 100.0
     metalevelold: 1
-    name: Medium YF-12a Smartbomb
+    name: '''YF-12a'' Compact Medium Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
-    power: 200
+    power: 190
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -1159,8 +1159,8 @@ types:
     thermaldamage: 120.0
     volume: 10.0
   9808:
-    capacitorneed: 200.0
-    cpu: 68.0
+    capacitorneed: 180.0
+    cpu: 64.0
     duration: 10000.0
     empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -1170,18 +1170,18 @@ types:
     marketGroup: 381
     mass: 100.0
     metalevelold: 1
-    name: Large YF-12a Smartbomb
+    name: '''YF-12a'' Compact Large Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
-    power: 1000
+    power: 950
     published: true
     radius: 1000.0
     requiredskill1: 3421
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 300.0
+    thermaldamage: 275.0
     volume: 50.0
   14188:
     capacitorneed: 130.0
@@ -1240,7 +1240,7 @@ types:
     cpu: 50.0
     duration: 10000.0
     emdamage: 150.0
-    empfieldrange: 6000
+    empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1266,7 +1266,7 @@ types:
     cpu: 50.0
     duration: 10000.0
     emdamage: 150.0
-    empfieldrange: 6000
+    empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1392,15 +1392,15 @@ types:
     techlevel: 1
     volume: 5.0
   14204:
-    capacitorneed: 160.0
-    cpu: 80.0
-    duration: 10000.0
-    empfieldrange: 6250
+    capacitorneed: 105.0
+    cpu: 64.0
+    duration: 12000.0
+    empfieldrange: 7500
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 14204
-    kineticdamage: 313.0
+    kineticdamage: 375.0
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
@@ -1418,10 +1418,10 @@ types:
     techlevel: 1
     volume: 50.0
   14206:
-    capacitorneed: 140.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 6750
+    empfieldrange: 9000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1441,14 +1441,14 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 338.0
+    thermaldamage: 300.0
     volume: 50.0
   14208:
-    capacitorneed: 150.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 6500
-    explosivedamage: 325.0
+    empfieldrange: 6000
+    explosivedamage: 450.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1470,15 +1470,15 @@ types:
     techlevel: 1
     volume: 50.0
   14210:
-    capacitorneed: 60.0
-    cpu: 50.0
-    duration: 10000.0
+    capacitorneed: 40.0
+    cpu: 40.0
+    duration: 12000.0
     empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 14210
-    kineticdamage: 125.0
+    kineticdamage: 150.0
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
@@ -1522,15 +1522,15 @@ types:
     techlevel: 1
     volume: 2.5
   14214:
-    capacitorneed: 24.0
-    cpu: 30.0
-    duration: 10000.0
-    empfieldrange: 3750
+    capacitorneed: 16.0
+    cpu: 24.0
+    duration: 12000.0
+    empfieldrange: 4500
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 14214
-    kineticdamage: 63.0
+    kineticdamage: 75.0
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
@@ -1574,10 +1574,10 @@ types:
     thermaldamage: 34.0
     volume: 2.5
   14220:
-    capacitorneed: 53.0
+    capacitorneed: 49.0
     cpu: 50.0
     duration: 10000.0
-    empfieldrange: 5400
+    empfieldrange: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1597,14 +1597,14 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 135.0
+    thermaldamage: 120.0
     volume: 10.0
   14222:
-    capacitorneed: 56.0
+    capacitorneed: 49.0
     cpu: 50.0
     duration: 10000.0
-    empfieldrange: 5200
-    explosivedamage: 130.0
+    empfieldrange: 4000
+    explosivedamage: 180.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1652,11 +1652,11 @@ types:
     techlevel: 1
     volume: 2.5
   14226:
-    capacitorneed: 23.0
+    capacitorneed: 20.0
     cpu: 30.0
     duration: 10000.0
-    empfieldrange: 3900
-    explosivedamage: 65.0
+    empfieldrange: 3600
+    explosivedamage: 90.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1678,10 +1678,10 @@ types:
     techlevel: 1
     volume: 5.0
   14228:
-    capacitorneed: 21.0
+    capacitorneed: 20.0
     cpu: 30.0
     duration: 10000.0
-    empfieldrange: 4050
+    empfieldrange: 5400
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1701,14 +1701,14 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 68.0
+    thermaldamage: 60.0
     volume: 5.0
   14544:
-    capacitorneed: 150.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 7150
-    explosivedamage: 358.0
+    empfieldrange: 6600
+    explosivedamage: 495.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1730,11 +1730,11 @@ types:
     techlevel: 1
     volume: 50.0
   14546:
-    capacitorneed: 150.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 7800
-    explosivedamage: 390.0
+    empfieldrange: 7200
+    explosivedamage: 540.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1756,11 +1756,11 @@ types:
     techlevel: 1
     volume: 50.0
   14548:
-    capacitorneed: 150.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 8450
-    explosivedamage: 423.0
+    empfieldrange: 7800
+    explosivedamage: 585.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1782,11 +1782,11 @@ types:
     techlevel: 1
     volume: 50.0
   14550:
-    capacitorneed: 150.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 9100
-    explosivedamage: 455.0
+    empfieldrange: 8400
+    explosivedamage: 630.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1808,15 +1808,15 @@ types:
     techlevel: 1
     volume: 50.0
   14692:
-    capacitorneed: 160.0
-    cpu: 88.0
-    duration: 10000.0
-    empfieldrange: 6875
+    capacitorneed: 105.0
+    cpu: 64.0
+    duration: 12000.0
+    empfieldrange: 8250
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 14692
-    kineticdamage: 344.0
+    kineticdamage: 413.0
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
@@ -1825,7 +1825,7 @@ types:
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
-    power: 1000
+    power: 1500
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -1834,15 +1834,15 @@ types:
     techlevel: 1
     volume: 50.0
   14694:
-    capacitorneed: 160.0
-    cpu: 96.0
-    duration: 10000.0
-    empfieldrange: 7500
+    capacitorneed: 105.0
+    cpu: 64.0
+    duration: 12000.0
+    empfieldrange: 9000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 14694
-    kineticdamage: 375.0
+    kineticdamage: 450.0
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
@@ -1851,7 +1851,7 @@ types:
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
-    power: 1000
+    power: 1750
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -1860,15 +1860,15 @@ types:
     techlevel: 1
     volume: 50.0
   14696:
-    capacitorneed: 160.0
-    cpu: 104.0
-    duration: 10000.0
-    empfieldrange: 8125
+    capacitorneed: 105.0
+    cpu: 64.0
+    duration: 12000.0
+    empfieldrange: 9750
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 14696
-    kineticdamage: 407.0
+    kineticdamage: 488.0
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
@@ -1877,7 +1877,7 @@ types:
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
-    power: 1000
+    power: 2000
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -1886,15 +1886,15 @@ types:
     techlevel: 1
     volume: 50.0
   14698:
-    capacitorneed: 160.0
-    cpu: 112.0
-    duration: 10000.0
-    empfieldrange: 8750
+    capacitorneed: 105.0
+    cpu: 64.0
+    duration: 12000.0
+    empfieldrange: 10500
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 14698
-    kineticdamage: 438.0
+    kineticdamage: 525.0
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
@@ -1903,7 +1903,7 @@ types:
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
-    power: 1000
+    power: 2250
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -2120,10 +2120,10 @@ types:
     techlevel: 1
     volume: 50.0
   15152:
-    capacitorneed: 140.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 7425
+    empfieldrange: 9900
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2143,13 +2143,13 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 372.0
+    thermaldamage: 330.0
     volume: 50.0
   15154:
-    capacitorneed: 140.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 8100
+    empfieldrange: 10800
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2169,13 +2169,13 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 405.0
+    thermaldamage: 360.0
     volume: 50.0
   15156:
-    capacitorneed: 140.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 8775
+    empfieldrange: 11700
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2195,13 +2195,13 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 440.0
+    thermaldamage: 390.0
     volume: 50.0
   15158:
-    capacitorneed: 140.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 9450
+    empfieldrange: 12600
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2221,18 +2221,18 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 473.0
+    thermaldamage: 420.0
     volume: 50.0
   15925:
-    capacitorneed: 24.0
-    cpu: 30.0
-    duration: 10000.0
-    empfieldrange: 3750
+    capacitorneed: 16.0
+    cpu: 24.0
+    duration: 12000.0
+    empfieldrange: 4500
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 15925
-    kineticdamage: 63.0
+    kineticdamage: 75.0
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
@@ -2276,15 +2276,15 @@ types:
     techlevel: 1
     volume: 2.5
   15929:
-    capacitorneed: 60.0
-    cpu: 50.0
-    duration: 10000.0
+    capacitorneed: 40.0
+    cpu: 40.0
+    duration: 12000.0
     empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 15929
-    kineticdamage: 125.0
+    kineticdamage: 150.0
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
@@ -2302,15 +2302,15 @@ types:
     techlevel: 1
     volume: 10.0
   15931:
-    capacitorneed: 160.0
-    cpu: 80.0
-    duration: 10000.0
-    empfieldrange: 6250
+    capacitorneed: 105.0
+    cpu: 64.0
+    duration: 12000.0
+    empfieldrange: 7500
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
     id: 15931
-    kineticdamage: 313.0
+    kineticdamage: 375.0
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
@@ -2354,11 +2354,11 @@ types:
     techlevel: 1
     volume: 2.5
   15935:
-    capacitorneed: 23.0
+    capacitorneed: 20.0
     cpu: 30.0
     duration: 10000.0
-    empfieldrange: 3900
-    explosivedamage: 65.0
+    empfieldrange: 3600
+    explosivedamage: 90.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2380,11 +2380,11 @@ types:
     techlevel: 1
     volume: 5.0
   15937:
-    capacitorneed: 56.0
+    capacitorneed: 49.0
     cpu: 50.0
     duration: 10000.0
-    empfieldrange: 5200
-    explosivedamage: 130.0
+    empfieldrange: 4000
+    explosivedamage: 180.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2406,11 +2406,11 @@ types:
     techlevel: 1
     volume: 10.0
   15939:
-    capacitorneed: 150.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 6500
-    explosivedamage: 325.0
+    empfieldrange: 6000
+    explosivedamage: 450.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2488,7 +2488,7 @@ types:
     cpu: 50.0
     duration: 10000.0
     emdamage: 150.0
-    empfieldrange: 6000
+    empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2536,10 +2536,10 @@ types:
     techlevel: 1
     volume: 50.0
   15949:
-    capacitorneed: 21.0
+    capacitorneed: 20.0
     cpu: 30.0
     duration: 10000.0
-    empfieldrange: 4050
+    empfieldrange: 5400
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2559,7 +2559,7 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 68.0
+    thermaldamage: 60.0
     volume: 5.0
   15951:
     capacitorneed: 11.0
@@ -2588,10 +2588,10 @@ types:
     thermaldamage: 34.0
     volume: 2.5
   15953:
-    capacitorneed: 53.0
+    capacitorneed: 49.0
     cpu: 50.0
     duration: 10000.0
-    empfieldrange: 5400
+    empfieldrange: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2611,13 +2611,13 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 135.0
+    thermaldamage: 120.0
     volume: 10.0
   15955:
-    capacitorneed: 140.0
+    capacitorneed: 130.0
     cpu: 80.0
     duration: 10000.0
-    empfieldrange: 6750
+    empfieldrange: 9000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2637,7 +2637,7 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamage: 338.0
+    thermaldamage: 300.0
     volume: 50.0
   15957:
     capacitorneed: 20.0
@@ -2696,7 +2696,7 @@ types:
     cpu: 50.0
     duration: 10000.0
     emdamage: 150.0
-    empfieldrange: 6000
+    empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2773,8 +2773,8 @@ types:
     capacitorneed: 15.0
     cpu: 17.0
     duration: 10000.0
-    empfieldrange: 2400
-    explosivedamage: 25.0
+    empfieldrange: 3600
+    explosivedamage: 70.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2783,7 +2783,7 @@ types:
     mass: 100.0
     metagroupid: 3
     metalevelold: 6
-    name: Small Degenerative Concussion Bomb I
+    name: '''Degenerative'' Small Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 2.5
     portionSize: 1
@@ -2796,11 +2796,11 @@ types:
     techlevel: 1
     volume: 2.5
   21536:
-    capacitorneed: 75.0
-    cpu: 43.0
+    capacitorneed: 49.0
+    cpu: 37.5
     duration: 10000.0
     empfieldrange: 4800
-    explosivedamage: 100.0
+    explosivedamage: 140.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2809,7 +2809,7 @@ types:
     mass: 100.0
     metagroupid: 3
     metalevelold: 6
-    name: Medium Degenerative Concussion Bomb I
+    name: '''Dwindling'' Medium Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
@@ -2823,10 +2823,10 @@ types:
     volume: 10.0
   21538:
     capacitorneed: 200.0
-    cpu: 68.0
+    cpu: 60.0
     duration: 10000.0
     empfieldrange: 6000
-    explosivedamage: 250.0
+    explosivedamage: 350.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2835,7 +2835,7 @@ types:
     mass: 100.0
     metagroupid: 3
     metalevelold: 6
-    name: Large Degenerative Concussion Bomb I
+    name: '''Regressive'' Large Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
@@ -2848,8 +2848,8 @@ types:
     techlevel: 1
     volume: 50.0
   23864:
-    capacitorneed: 30.0
-    cpu: 24.0
+    capacitorneed: 15.0
+    cpu: 17.0
     duration: 10000.0
     emdamage: 70.0
     empfieldrange: 3600
@@ -2861,11 +2861,11 @@ types:
     mass: 10.0
     metagroupid: 3
     metalevelold: 6
-    name: '''Pike'' Small EMP Smartbomb I'
+    name: '''Pike'' Small EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
-    power: 7
+    power: 5
     published: true
     radius: 1000.0
     requiredskill1: 3421
@@ -2874,8 +2874,8 @@ types:
     techlevel: 1
     volume: 5.0
   23866:
-    capacitorneed: 75.0
-    cpu: 40.0
+    capacitorneed: 49.0
+    cpu: 37.5
     duration: 10000.0
     emdamage: 140.0
     empfieldrange: 4800
@@ -2887,7 +2887,7 @@ types:
     mass: 100.0
     metagroupid: 3
     metalevelold: 6
-    name: '''Lance'' Medium EMP Smartbomb I'
+    name: '''Lance'' Medium EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
@@ -2901,7 +2901,7 @@ types:
     volume: 10.0
   23868:
     capacitorneed: 200.0
-    cpu: 64.0
+    cpu: 60.0
     duration: 10000.0
     emdamage: 350.0
     empfieldrange: 6000
@@ -2913,7 +2913,7 @@ types:
     mass: 100.0
     metagroupid: 3
     metalevelold: 6
-    name: '''Warhammer'' Large EMP Smartbomb I'
+    name: '''Warhammer'' Large EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
@@ -2956,7 +2956,7 @@ types:
     cpu: 50.0
     duration: 10000.0
     emdamage: 150.0
-    empfieldrange: 6000
+    empfieldrange: 5000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -3003,6 +3003,318 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
+  84434:
+    empfieldrange: 7500
+    id: 84434
+    mass: 100.0
+    name: Large Abyssal EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 50.0
+  84435:
+    empfieldrange: 9000
+    id: 84435
+    mass: 100.0
+    name: Large Abyssal Plasma Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 50.0
+  84436:
+    empfieldrange: 7500
+    id: 84436
+    mass: 100.0
+    name: Large Abyssal Graviton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 50.0
+  84437:
+    empfieldrange: 6000
+    id: 84437
+    mass: 100.0
+    name: Large Abyssal Proton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 50.0
+  84438:
+    empfieldrange: 6000
+    id: 84438
+    mass: 100.0
+    name: Medium Abyssal EMP Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 10.0
+  84439:
+    empfieldrange: 7200
+    id: 84439
+    mass: 100.0
+    name: Medium Abyssal Plasma Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 10.0
+  84440:
+    empfieldrange: 6000
+    id: 84440
+    mass: 100.0
+    name: Medium Abyssal Graviton Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 10.0
+  84441:
+    empfieldrange: 4800
+    id: 84441
+    mass: 100.0
+    name: Medium Abyssal Proton Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 10.0
+  84442:
+    empfieldrange: 4500
+    id: 84442
+    mass: 100.0
+    name: Small Abyssal EMP Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  84443:
+    empfieldrange: 5400
+    id: 84443
+    mass: 100.0
+    name: Small Abyssal Plasma Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  84444:
+    empfieldrange: 4500
+    id: 84444
+    mass: 100.0
+    name: Small Abyssal Graviton Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  84445:
+    empfieldrange: 3600
+    id: 84445
+    mass: 100.0
+    name: Small Abyssal Proton Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  84495:
+    capacitorneed: 200.0
+    cpu: 60.0
+    duration: 10000.0
+    empfieldrange: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.699999809265137
+    hp: 40.0
+    id: 84495
+    kineticdamage: 350.0
+    marketGroup: 381
+    mass: 100.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Blasting'' Large Graviton Smartbomb'
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 900
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 50.0
+  84496:
+    capacitorneed: 200.0
+    cpu: 60.0
+    duration: 10000.0
+    empfieldrange: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.699999809265137
+    hp: 40.0
+    id: 84496
+    marketGroup: 381
+    mass: 100.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Scalding'' Large Plasma Smartbomb'
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 50.0
+    portionSize: 1
+    power: 900
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamage: 350.0
+    volume: 50.0
+  84497:
+    capacitorneed: 49.0
+    cpu: 37.5
+    duration: 10000.0
+    empfieldrange: 4800
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.699999809265137
+    hp: 40.0
+    id: 84497
+    kineticdamage: 140.0
+    marketGroup: 383
+    mass: 100.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Booming'' Medium Graviton Smartbomb'
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 180
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0
+  84498:
+    capacitorneed: 49.0
+    cpu: 37.5
+    duration: 10000.0
+    empfieldrange: 4800
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.699999809265137
+    hp: 40.0
+    id: 84498
+    marketGroup: 383
+    mass: 100.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Boiling'' Medium Plasma Smartbomb'
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 180
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamage: 140.0
+    volume: 10.0
+  84499:
+    capacitorneed: 15.0
+    cpu: 17.0
+    duration: 10000.0
+    empfieldrange: 3600
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.699999809265137
+    hp: 40.0
+    id: 84499
+    kineticdamage: 70.0
+    marketGroup: 382
+    mass: 10.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Roaring'' Small Graviton Smartbomb'
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 5
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  84500:
+    capacitorneed: 15.0
+    cpu: 17.0
+    duration: 10000.0
+    empfieldrange: 3600
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.699999809265137
+    hp: 40.0
+    id: 84500
+    marketGroup: 382
+    mass: 10.0
+    metagroupid: 3
+    metalevelold: 6
+    name: '''Seething'' Small Plasma Smartbomb'
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 5
+    published: true
+    radius: 1000.0
+    requiredskill1: 3421
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamage: 70.0
+    volume: 5.0
   84740:
     capacitorneed: 49.0
     cpu: 50.0
@@ -3017,7 +3329,9 @@ types:
     kineticdamage: 45.0
     marketGroup: 383
     mass: 100.0
-    name: Allecto’s Modified Medium Multispectrum Smartbomb
+    metagroupid: 5
+    metalevelold: 17
+    name: Allecto's Modified Medium Multispectrum Smartbomb
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1

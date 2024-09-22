@@ -55,3 +55,41 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 5.0
+  85006:
+    cpu: 25.0
+    ecmrangebonus: 11.0
+    ecmstrengthbonuspercent: 11
+    hp: 40.0
+    id: 85006
+    marketGroup: 967
+    mass: 1.0
+    metalevelold: 8
+    name: Dread Guristas Signal Distortion Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 5.0
+  85007:
+    cpu: 35.0
+    ecmrangebonus: 12.0
+    ecmstrengthbonuspercent: 12
+    hp: 40.0
+    id: 85007
+    marketGroup: 967
+    mass: 1.0
+    metalevelold: 15
+    name: Hanaruwa's Modified Signal Distortion Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 5.0

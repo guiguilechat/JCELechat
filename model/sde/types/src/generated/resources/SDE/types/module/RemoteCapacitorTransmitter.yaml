@@ -969,3 +969,59 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 4000.0
+  85033:
+    capacitorneed: 46.0
+    cpu: 30.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.200000047683716
+    hp: 40.0
+    id: 85033
+    marketGroup: 695
+    mass: 1000.0
+    maxrange: 7000.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Usaras' Modified Small Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 8
+    powertransferamount: 46
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  85034:
+    capacitorneed: 138.0
+    cpu: 40.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
+    id: 85034
+    marketGroup: 696
+    mass: 1000.0
+    maxrange: 10000.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Nija's Modified Medium Remote Capacitor Transmitter
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 10.0
+    portionSize: 1
+    power: 120
+    powertransferamount: 140
+    price: 30000.0
+    published: true
+    radius: 1000.0
+    remoteresistanceid: 2116
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 10.0

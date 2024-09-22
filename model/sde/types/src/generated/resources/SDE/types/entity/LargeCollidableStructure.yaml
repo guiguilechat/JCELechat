@@ -20951,6 +20951,7 @@ types:
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     falloff: 1.0
+    fighterabilityanticapitalmissileresistance: 1
     hp: 100.0
     id: 81150
     kineticdamageresonance: 1.0

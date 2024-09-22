@@ -41,13 +41,6 @@ public class Crokite
     @DefaultIntValue(16255)
     public int asteroidmaxradius;
     /**
-     * Sets the radius of the asteroid ball when it has a quantity of 1 unit
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(90)
-    public int asteroidradiusunitsize;
-    /**
      * If set to true, this results in no mining waste.
      */
     @HighIsGood(false)
@@ -84,10 +77,6 @@ public class Crokite
             case  2727 :
             {
                 return asteroidmaxradius;
-            }
-            case  1981 :
-            {
-                return asteroidradiusunitsize;
             }
             case  3236 :
             {

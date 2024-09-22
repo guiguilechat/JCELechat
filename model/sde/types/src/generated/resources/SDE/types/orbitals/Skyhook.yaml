@@ -12,6 +12,7 @@ types:
     emdamageresonance: 0.800000011920929
     energywarfareresistance: 9.999999747378752E-6
     explosivedamageresonance: 0.800000011920929
+    fighterabilityanticapitalmissileresistance: 1
     hp: 1200000.0
     id: 81080
     kineticdamageresonance: 0.800000011920929
@@ -42,7 +43,7 @@ types:
     shieldrechargerate: 9.99999995904E11
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 1.0
-    signatureradius: 14000.0
+    signatureradius: 32000.0
     stasiswebifierresistance: 9.999999747378752E-6
     structuredamagelimit: 5000
     structureuniformity: 1.0

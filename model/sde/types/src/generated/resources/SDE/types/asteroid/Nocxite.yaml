@@ -1,7 +1,9 @@
 types:
   82016:
+    asteroidmaxradius: 1500
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusgrowthfactor: 4.0
+    asteroidradiusunitsize: 250
     id: 82016
     marketGroup: 3637
     mass: 1.0000000409184788E35
@@ -18,8 +20,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 4.0
   82017:
+    asteroidmaxradius: 1500
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusgrowthfactor: 4.0
+    asteroidradiusunitsize: 250
     id: 82017
     marketGroup: 3637
     mass: 1.0000000409184788E35
@@ -36,8 +40,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 4.0
   82018:
+    asteroidmaxradius: 1500
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusgrowthfactor: 4.0
+    asteroidradiusunitsize: 250
     id: 82018
     marketGroup: 3637
     mass: 1.0000000409184788E35
@@ -54,8 +60,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 4.0
   82019:
+    asteroidmaxradius: 1500
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusgrowthfactor: 4.0
+    asteroidradiusunitsize: 250
     id: 82019
     marketGroup: 3637
     mass: 1.0000000409184788E35
@@ -72,8 +80,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 4.0
   82304:
+    asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
     id: 82304
     marketGroup: 3637
     mass: 1.0000000409184788E35
@@ -90,8 +100,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.03999999910593033
   82305:
+    asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
     id: 82305
     marketGroup: 3637
     mass: 1.0000000409184788E35
@@ -108,8 +120,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.03999999910593033
   82306:
+    asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
     id: 82306
     marketGroup: 3637
     mass: 1.0000000409184788E35
@@ -126,8 +140,10 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.03999999910593033
   82307:
+    asteroidmaxradius: 16255
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
     id: 82307
     marketGroup: 3637
     mass: 1.0000000409184788E35

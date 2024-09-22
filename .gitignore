@@ -25,3 +25,4 @@ dependency-reduced-pom.xml
 **/.factorypath
 
 package-lock.json
+**/logs/
