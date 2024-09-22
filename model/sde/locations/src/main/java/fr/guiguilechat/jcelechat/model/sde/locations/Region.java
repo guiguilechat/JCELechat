@@ -7,68 +7,32 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
+import lombok.Getter;
+import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class Region extends ALocation {
-
-	private static final Logger logger = LoggerFactory.getLogger(Region.class);
 
 	// loading/dumping
 
-	private static LinkedHashMap<String, Region> cache = null;
-
 	public static final String RESOURCE_PATH = "SDE/locations/regions.yaml";
 
-	public static synchronized LinkedHashMap<String, Region> load() {
-		if (cache == null) {
-			try (InputStreamReader reader = new InputStreamReader(
-					Region.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
-				cache = new Yaml().loadAs(reader, Container.class).locations;
-			} catch (Exception exception) {
-				throw new UnsupportedOperationException("catch this", exception);
-			}
-		}
-		return cache;
-	}
-
-	private static Map<Integer, String> loadNameById = null;
-
-	public static Map<Integer, String> loadNameById() {
-		if (loadNameById == null) {
-			LinkedHashMap<String, Region> mcache = load();
-			synchronized (mcache) {
-				if (loadNameById == null) {
-					loadNameById = mcache.entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getKey()));
-				}
-			}
-		}
-		return loadNameById;
-	}
-
-	private static Map<Integer, Region> loadById = null;
-
-	public static Map<Integer, Region> loadById() {
-		if (loadById == null) {
-			LinkedHashMap<String, Region> mcache = load();
-			synchronized (mcache) {
-				if (loadById == null) {
-					loadById = mcache.values().stream().collect(Collectors.toMap(e -> e.id, e -> e));
-				}
-			}
-		}
-		return loadById;
+	private static final class Container {
+		public LinkedHashMap<String, Region> locations;
 	}
 
 	public static void export(LinkedHashMap<String, Region> data, File folderout) {
@@ -84,38 +48,39 @@ public class Region extends ALocation {
 		}
 	}
 
-	private static final class Container {
-		public LinkedHashMap<String, Region> locations;
+	protected static LinkedHashMap<String, Region> loadFile() {
+		try (InputStreamReader reader = new InputStreamReader(
+		    Region.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+			return new Yaml().loadAs(reader, Container.class).locations;
+		} catch (Exception exception) {
+			throw new RuntimeException(exception);
+		}
 	}
 
-	// normalizing
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final LinkedHashMap<String, Region> load = loadFile();
 
-	private static Map<String, String> lowerCased = null;
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final Map<Integer, Region> loadById = load().values().stream()
+	    .collect(Collectors.toMap(e -> e.id, e -> e));
+
+	public static Region getRegion(int id) {
+		return loadById().get(id);
+	}
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final Map<String, Region> loadLowerCase = load().values().stream().collect(Collectors.toMap(
+	    r -> r.name().toLowerCase(),
+	    r -> r));
 
 	public static Region getRegion(String name) {
 		if (name == null) {
 			return null;
 		}
-		Region ret = load().get(name);
-		if (ret == null) {
-			name = name.toLowerCase();
-			if (lowerCased == null) {
-				synchronized (cache) {
-					if (lowerCased == null) {
-						lowerCased = cache.keySet().stream().collect(Collectors.toMap(String::toLowerCase, s -> s));
-					}
-				}
-			}
-			ret = cache.get(lowerCased.get(name));
-		}
-		if (ret == null) {
-			logger.warn("can't load region for name " + name);
-		}
-		return ret;
-	}
-
-	public static Region getRegion(int id) {
-		return loadById().get(id);
+		return loadLowerCase().get(name.toLowerCase());
 	}
 
 	// structure
@@ -128,24 +93,24 @@ public class Region extends ALocation {
 	}
 
 	public static final Set<String> EMPIRE_ANGELS = Collections
-			.unmodifiableSet(new HashSet<>(Arrays.asList("Heimatar", "Metropolis", "Molden Heath")));
+	    .unmodifiableSet(new HashSet<>(Arrays.asList("Heimatar", "Metropolis", "Molden Heath")));
 
 	public static final Set<String> EMPIRE_BLOODS = Collections.unmodifiableSet(
-			new HashSet<>(Arrays.asList("Aridia", "Genesis", "Kador", "Khanid", "Kor-Azor", "The Bleak Lands")));
+	    new HashSet<>(Arrays.asList("Aridia", "Genesis", "Kador", "Khanid", "Kor-Azor", "The Bleak Lands")));
 
 	public static final Set<String> EMPIRE_GURISTAS = Collections
-			.unmodifiableSet(new HashSet<>(Arrays.asList("Black Rise", "The Citadel", "The Forge", "Lonetrek")));
+	    .unmodifiableSet(new HashSet<>(Arrays.asList("Black Rise", "The Citadel", "The Forge", "Lonetrek")));
 
 	public static final Set<String> EMPIRE_SANSHAS = Collections
-			.unmodifiableSet(new HashSet<>(Arrays.asList("Derelik", "Devoid", "Domain", "Tash-Murkon")));
+	    .unmodifiableSet(new HashSet<>(Arrays.asList("Derelik", "Devoid", "Domain", "Tash-Murkon")));
 
 	public static final Set<String> EMPIRE_SERPENTIS = Collections.unmodifiableSet(
-			new HashSet<>(Arrays.asList("Essence", "Everyshore", "Placid", "Sinq Laison", "Solitude", "Verge Vendor")));
+	    new HashSet<>(Arrays.asList("Essence", "Everyshore", "Placid", "Sinq Laison", "Solitude", "Verge Vendor")));
 
 	public static final Set<String> EMPIRE = Collections.unmodifiableSet(Stream
-			.concat(Stream.concat(EMPIRE_ANGELS.stream(), EMPIRE_BLOODS.stream()),
-					Stream.concat(EMPIRE_GURISTAS.stream(), Stream.concat(EMPIRE_SANSHAS.stream(), EMPIRE_SERPENTIS.stream())))
-			.collect(Collectors.toSet()));
+	    .concat(Stream.concat(EMPIRE_ANGELS.stream(), EMPIRE_BLOODS.stream()),
+	        Stream.concat(EMPIRE_GURISTAS.stream(), Stream.concat(EMPIRE_SANSHAS.stream(), EMPIRE_SERPENTIS.stream())))
+	    .collect(Collectors.toSet()));
 
 	public static enum EMPIRE_FACTIONS {
 
@@ -295,45 +260,38 @@ public class Region extends ALocation {
 		}
 
 		public double dedPoints(int dedLvl) {
-			if (dedLvl == 1) {
+			switch (dedLvl) {
+			case 1:
 				return ded1Points();
-			}
-			if (dedLvl == 2) {
+			case 2:
 				return ded2Points();
-			}
-			if (dedLvl == 3) {
+			case 3:
 				return ded3Points();
-			}
-			if (dedLvl == 4) {
+			case 4:
 				return ded4Points();
-			}
-			if (dedLvl == 5) {
+			case 5:
 				return ded5Points();
-			}
-			if (dedLvl == 6) {
+			case 6:
 				return ded6Points();
-			}
-			if (dedLvl == 7) {
+			case 7:
 				return ded7Points();
-			}
-			if (dedLvl == 8) {
+			case 8:
 				return ded8Points();
-			}
-			if (dedLvl == 9) {
+			case 9:
 				return ded9Points();
-			}
-			if (dedLvl == 10) {
+			case 10:
 				return ded10Points();
+			default:
+				break;
 			}
 			return 0.0f;
 		}
 
 		/**
-		 *
 		 * @return points for .5, .6, .7, .8, .9 and 1.0 ss
 		 */
 		public double[] escalHSPoints() {
-			double[] points = new double[] { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+			double[] points = { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
 
 			// dens are in .5 and .6
 			double sitesPoints = chanceDen() * dedPoints(escalDen());
@@ -383,7 +341,7 @@ public class Region extends ALocation {
 		public Set<SolarSystem> systems() {
 			if (systems == null) {
 				systems = regions().stream().flatMap(r -> getRegion(r).systems()).map(SolarSystem::getSystem)
-						.filter(ss -> ss.isHS()).collect(Collectors.toUnmodifiableSet());
+				    .filter(SolarSystem::isHS).collect(Collectors.toUnmodifiableSet());
 			}
 			return systems;
 		}
@@ -401,5 +359,43 @@ public class Region extends ALocation {
 			return of(sys.region);
 		}
 	}
+
+	/**
+	 * sorted list of all regions
+	 */
+	@Getter(lazy = true)
+	private static final List<Region> all = load().values().stream()
+	    .sorted(Comparator.comparing(Region::name))
+	    .toList();
+
+	/**
+	 * sorted list of all regions with an added null first one
+	 */
+	@Getter(lazy = true)
+	private static final List<Region> allNullLeading = Stream.concat(
+	    Stream.of((Region) null),
+	    load().values().stream()
+	        .sorted(Comparator.comparing(Region::name)))
+	    .toList();
+
+	/**
+	 * sorted list of known space regions
+	 */
+	@Getter(lazy = true)
+	private static final List<Region> ks = load().values().stream()
+	    .filter(r -> !r.isWormhole)
+	    .sorted(Comparator.comparing(Region::name))
+	    .toList();
+
+	/**
+	 * sorted list of known space regions with an added null first one
+	 */
+	@Getter(lazy = true)
+	private static final List<Region> ksNullLeading = Stream.concat(
+	    Stream.of((Region) null),
+	    load().values().stream()
+	        .filter(r -> !r.isWormhole)
+	        .sorted(Comparator.comparing(Region::name)))
+	    .toList();
 
 }

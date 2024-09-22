@@ -38,4 +38,8 @@ public class ALocation {
 		return name;
 	}
 
+	public String name() {
+		return name == null ? "region:" + id : name;
+	}
+
 }

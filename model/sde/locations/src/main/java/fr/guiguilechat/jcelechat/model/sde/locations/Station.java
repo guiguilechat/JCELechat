@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -13,51 +14,17 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
 public class Station {
 
 	// loading
 
-	private static LinkedHashMap<String, Station> cache = null;
-
 	public static final String RESOURCE_PATH = "SDE/locations/stations.yaml";
 
-	public static synchronized LinkedHashMap<String, Station> load() {
-		if (cache == null) {
-			try (InputStreamReader reader = new InputStreamReader(
-					Station.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
-				cache = new Yaml().loadAs(reader, Container.class).locations;
-			} catch (Exception exception) {
-				throw new UnsupportedOperationException("catch this", exception);
-			}
-		}
-		return cache;
-	}
-
-	private static Map<Integer, String> loadById = null;
-
-	public static Map<Integer, String> loadById() {
-		if (loadById == null) {
-			LinkedHashMap<String, Station> mcache = load();
-			synchronized (mcache) {
-				if (loadById == null) {
-					loadById = mcache.entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getKey()));
-				}
-			}
-		}
-		return loadById;
-	}
-
-	public static Station get(int stationID) {
-		String name = loadById().get(stationID);
-		if (name == null) {
-			return null;
-		}
-		return load().get(name);
-	}
-
-	public static Station get(String stationName) {
-		return load().get(stationName);
+	private static final class Container {
+		public LinkedHashMap<String, Station> locations;
 	}
 
 	public static void export(LinkedHashMap<String, Station> data, File folderout) {
@@ -73,8 +40,63 @@ public class Station {
 		}
 	}
 
-	private static final class Container {
-		public LinkedHashMap<String, Station> locations;
+	protected static LinkedHashMap<String, Station> loadFile() {
+		try (InputStreamReader reader = new InputStreamReader(
+		    Region.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+			return new Yaml().loadAs(reader, Container.class).locations;
+		} catch (Exception exception) {
+			throw new RuntimeException(exception);
+		}
+	}
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final LinkedHashMap<String, Station> load = loadFile();
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final Map<Integer, Station> loadById = load().values().stream()
+	    .collect(Collectors.toMap(e -> e.id, e -> e));
+
+	public static Station getStation(int stationID) {
+		return loadById().get(stationID);
+	}
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final Map<String, Station> loadLowerCase = load().values().stream().collect(Collectors.toMap(
+	    r -> r.name().toLowerCase(),
+	    r -> r));
+
+	public static Station getStation(String name) {
+		if (name == null) {
+			return null;
+		}
+		return loadLowerCase().get(name.toLowerCase());
+	}
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final Map<String, List<Station>> loadBySystemName = load().values().stream()
+	    .collect(Collectors.groupingBy(sta -> sta.solarSystem.toLowerCase()));
+
+	public static List<Station> foSystemName(String name) {
+		if (name == null) {
+			return List.of();
+		}
+		return loadBySystemName().get(name.toLowerCase());
+	}
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final Map<Integer, List<Station>> loadBySystemId = load().values().stream()
+	    .collect(Collectors.groupingBy(sta -> sta.system().id));
+
+	public static List<Station> foSystemId(int solarSystemId) {
+		if (solarSystemId < 1) {
+			return List.of();
+		}
+		return loadBySystemId().get(solarSystemId);
 	}
 
 	// structure
@@ -86,6 +108,10 @@ public class Station {
 	public String name;
 
 	public String solarSystem;
+
+	public String name() {
+		return name == null ? "region:" + id : name;
+	}
 
 	private transient SolarSystem solarsystem = null;
 
