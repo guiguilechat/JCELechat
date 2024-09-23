@@ -7,11 +7,15 @@ import java.util.stream.IntStream;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.tools.market.OrderTool;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_structures_structure_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
+import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.distances.Distances;
 import fr.lelouet.tools.holders.interfaces.collections.CollectionHolder;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
@@ -32,6 +36,10 @@ public class Market {
 	@Getter(lazy = true)
 	private final MapHolder<Long, R_get_characters_character_id_orders> orders = con.connection().cache().characters
 	.orders(con.characterId()).toMap(o -> o.order_id);
+
+	/** ids of the orders placed by this character */
+	@Getter(lazy = true)
+	private final SetHolder<Long> orderIds = getOrders().keys();
 
 
 	@Getter(lazy = true)
@@ -100,6 +108,24 @@ public class Market {
 		ret.volume_remain = order.volume_remain;
 		ret.volume_total = order.volume_total;
 		return ret;
+	}
+
+	/**
+	 * @param order the BO from market
+	 * @param loc   the location we are at
+	 * @return true iff the buy order can purchase the items sold in the location of
+	 *           this regional offer.
+	 */
+	public boolean canReach(R_get_markets_region_id_orders order, long locationId, int systemId) {
+		if (order.location_id == locationId) {
+			return true;
+		}
+		R_get_universe_systems_system_id resolvedSystem = con.universe.location(order.location_id).system();
+		if (resolvedSystem != null) {
+			return Distances.between(SolarSystem.getSystem(resolvedSystem.system_id),
+			    SolarSystem.getSystem(systemId)) <= OrderTool.maxDist(order);
+		}
+		return false;
 	}
 
 }
