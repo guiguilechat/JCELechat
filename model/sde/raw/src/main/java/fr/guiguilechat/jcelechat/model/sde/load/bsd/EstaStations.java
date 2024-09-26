@@ -4,8 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -15,15 +15,19 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
 public class EstaStations {
 
 	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "bsd/staStations.yaml");
-	private static ArrayList<EstaStations> cache;
+	
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final ArrayList<EstaStations> load = loadList();
 
 	@SuppressWarnings("unchecked")
-	public static synchronized ArrayList<EstaStations> load() {
-		if (cache == null) {
+	private static ArrayList<EstaStations> loadList() {
 			SDECache.INSTANCE.donwloadSDE();
 			Constructor cons = new Constructor(ArrayList.class, new LoaderOptions()) {
 
@@ -38,21 +42,16 @@ public class EstaStations {
 			};
 			Yaml yaml = new Yaml(cons);
 			try {
-				cache = yaml.loadAs(new FileReader(FILE), ArrayList.class);
+				return yaml.loadAs(new FileReader(FILE), ArrayList.class);
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
-		}
-		return cache;
 	}
 
-	public static Map<Integer, EstaStations> loadById() {
-		HashMap<Integer, EstaStations> ret = new HashMap<>();
-		for (EstaStations s : load()) {
-			ret.put(s.stationID, s);
-		}
-		return ret;
-	}
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final Map<Integer, EstaStations> loadById = load().stream()
+	    .collect(Collectors.toMap(sta -> sta.stationID, sta -> sta));
 
 	public int constellationID;
 	public int corporationID;

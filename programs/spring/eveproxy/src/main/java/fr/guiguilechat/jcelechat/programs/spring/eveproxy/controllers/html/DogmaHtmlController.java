@@ -262,7 +262,8 @@ public class DogmaHtmlController {
 			        .sorted(Comparator.comparing(u -> u.type().name()))
 			        .toList());
 
-			model.addAttribute("adjusted", priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue());
+			model.addAttribute("adjusted",
+			    FormatTools.formatPrice(priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue()));
 			model.addAttribute("average", FormatTools.formatPrice(priceService.average().getOrDefault(t.getId(), 0.0)));
 			if (!manufProd.isEmpty()) {
 				model.addAttribute("eiv", eivService.eiv(t.getId()));
