@@ -39,6 +39,7 @@ import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;
 import javafx.collections.ObservableSet;
 import lombok.Getter;
+import lombok.experimental.Accessors;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -49,10 +50,62 @@ import okhttp3.Response;
 public abstract class ConnectedImpl implements ITransfer {
 
 	private static final Logger logger = LoggerFactory.getLogger(ConnectedImpl.class);
-	private static final Logger csvLogger = LoggerFactory.getLogger(ConnectedImpl.class.getCanonicalName() + ".csv");
 
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
+
+	private static final Logger csvLogger = LoggerFactory.getLogger(ConnectedImpl.class.getCanonicalName() + ".csv");
+
+	/** to be called before sending a request */
+	protected static void logRequest(String method, String url, String transmit,
+	    Map<String, String> transmitHeaders) {
+		csvLogger.trace("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}",
+		    method,
+		    url,
+		    "",
+		    "",
+		    "",
+		    "",
+		    transmit == null ? "" : transmit,
+		    transmitHeaders == null ? "" : transmitHeaders);
+	}
+
+	protected static void logResponse(String method, String url, Integer responseCode, Number durationMs, String error,
+	    String warning,
+	    String transmit,
+	    Map<String, ?> receivedHeaders) {
+		if (error != null) {
+			csvLogger.error("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}",
+			    method,
+			    url,
+			    responseCode == null ? "" : responseCode,
+			    durationMs == null ? "" : durationMs,
+			    error == null ? "" : error,
+			    warning == null ? "" : warning,
+			    transmit == null ? "" : transmit,
+			    receivedHeaders == null ? "" : receivedHeaders);
+		} else if (warning != null) {
+			csvLogger.warn("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}",
+			    method,
+			    url,
+			    responseCode == null ? "" : responseCode,
+			    durationMs == null ? "" : durationMs,
+			    error == null ? "" : error,
+			    warning == null ? "" : warning,
+			    transmit == null ? "" : transmit,
+			    receivedHeaders == null ? "" : receivedHeaders);
+		} else {
+			csvLogger.debug("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}",
+			    method,
+			    url,
+			    responseCode == null ? "" : responseCode,
+			    durationMs == null ? "" : durationMs,
+			    error == null ? "" : error,
+			    warning == null ? "" : warning,
+			    transmit == null ? "" : transmit,
+			    receivedHeaders == null ? "" : receivedHeaders);
+		}
+	}
 
 	@Getter(lazy = true)
 	private final OkHttpClient client = new OkHttpClient.Builder()
@@ -81,7 +134,6 @@ public abstract class ConnectedImpl implements ITransfer {
 			properties = new HashMap<>();
 		}
 		addConnection(properties);
-		csvLogger.debug(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson);
 
 		boolean isServerError = false;
 		Builder builder = new Request.Builder()
@@ -104,11 +156,13 @@ public abstract class ConnectedImpl implements ITransfer {
 				if (response != null) {
 					response.close();
 				}
+				logRequest(method, url, transmitStr, properties);
 				response = getClient().newCall(req).execute();
 				isServerError = response.code() / 100 == 5;
 				if (isServerError) {
-					csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
-							+ "\t" + response.headers().toMultimap());
+					long milliseconds = response.receivedResponseAtMillis() - response.sentRequestAtMillis();
+					logResponse(method, url, response.code(), milliseconds, response.message(), null, transmitStr,
+					    response.headers().toMultimap());
 					maxRetry--;
 				}
 			} while (isServerError && maxRetry > 0);
@@ -116,6 +170,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			try (var body = response.body()) {
 				Map<String, List<String>> headers = response.headers().toMultimap();
 				int responseCode = response.code();
+				long milliseconds = response.receivedResponseAtMillis() - response.sentRequestAtMillis();
 				switch (responseCode) {
 					// 2xx ok
 					case HttpURLConnection.HTTP_OK:
@@ -126,26 +181,24 @@ public abstract class ConnectedImpl implements ITransfer {
 					case HttpURLConnection.HTTP_RESET:
 					case HttpURLConnection.HTTP_PARTIAL:
 						String ret = new String(body.bytes());
-						csvLogger
-								.trace(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
-										+ "\t" + response.headers().toMultimap());
+						logResponse(method, url, responseCode, milliseconds, null, null, transmitStr,
+						    response.headers().toMultimap());
 						return new RequestedImpl<>(url, responseCode, null, convertJson(ret, expectedClass), headers);
 					// 304 not modified
 					case HttpURLConnection.HTTP_NOT_MODIFIED:
 						String date = headers.getOrDefault("Date", List.of("")).get(0);
 						String expires = headers.getOrDefault("Expires", List.of("")).get(0);
 						if (date.equals(expires)) {
-							csvLogger
-									.warn(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
-											+ "\t" + response.headers().toMultimap());
 							// if expires=Date we add 20s of avoid CCP bug
+							logResponse(method, url, responseCode, milliseconds, null, "expires=" + expires + " same as date=" + date,
+							    transmitStr,
+							    response.headers().toMultimap());
 							headers = new HashMap<>(headers);
 							String newExpiry = ESITools.offsetDateTimeHeader(ESITools.headerOffsetDateTime(date).plusSeconds(20));
 							headers.put("Expires", List.of(newExpiry));
 						} else {
-							csvLogger
-									.trace(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
-											+ "\t" + response.headers().toMultimap());
+							logResponse(method, url, responseCode, milliseconds, null, null, transmitStr,
+							    response.headers().toMultimap());
 						}
 						return new RequestedImpl<>(url, responseCode, null, null, headers);
 					// 4xx client error
@@ -161,19 +214,18 @@ public abstract class ConnectedImpl implements ITransfer {
 					case HttpURLConnection.HTTP_UNAVAILABLE:
 					case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
 					default:
+						logResponse(method, url, responseCode, milliseconds, response.message(), null, transmitStr,
+						    response.headers().toMultimap());
 						StringBuilder sb = new StringBuilder(
 								"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
 						if (response.message() != null) {
 							sb.append(response.message());
 						}
-						csvLogger.error(
-								method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t" + response.code()
-										+ "\t" + response.headers().toMultimap());
 						return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
 				}
 			}
 		} catch (Exception e) {
-			csvLogger.error(method + "\t" + url + "\t" + properties + "\t" + transmitAsJson + "\t\t" + e.getMessage());
+			logResponse(method, url, null, null, e.getMessage(), null, transmitStr, null);
 			return new RequestedImpl<>(url, HttpURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
 		}
 	}
@@ -288,9 +340,13 @@ public abstract class ConnectedImpl implements ITransfer {
 	//
 	////
 
-	private final ObjectMapper mapper = new ObjectMapper();
-	{
+	@Getter(lazy = true)
+	private final ObjectMapper mapper = makeMapper();
+
+	protected ObjectMapper makeMapper() {
+		ObjectMapper mapper = new ObjectMapper();
 		mapper.configure(DeserializationFeature.READ_UNKNOWN_ENUM_VALUES_AS_NULL, true);
+		return mapper;
 	}
 
 	@SuppressWarnings("unchecked")
@@ -307,7 +363,7 @@ public abstract class ConnectedImpl implements ITransfer {
 					return null;
 				}
 			}
-			return mapper.readerFor(clazz).readValue(line);
+			return getMapper().readerFor(clazz).readValue(line);
 		} catch (Exception e) {
 			logger.error("while converting line " + line + "to class" + clazz.getName(), e);
 			System.err.println(
@@ -388,27 +444,27 @@ public abstract class ConnectedImpl implements ITransfer {
 	@Getter(lazy = true)
 	private final ScheduledThreadPoolExecutor executor = _exec();
 
-	private static ScheduledThreadPoolExecutor _exec = null;
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final static ScheduledThreadPoolExecutor _exec = buildExec();
 
 	/**
-	 * access to the internal static scheduledexecutor
+	 * build a scheduledexecutor
 	 *
 	 * @return
 	 */
-	public final static synchronized ScheduledThreadPoolExecutor _exec() {
-		if (_exec == null) {
+	private final static ScheduledThreadPoolExecutor buildExec() {
 			// TODO why set to 200 ? it seems lower value make deadlock
 			// we set daemon otherwise the thread will prevent jvm from dying.
-			_exec = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(200, r -> {
+		ScheduledThreadPoolExecutor ret = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(200, r -> {
 				Thread t = Executors.defaultThreadFactory().newThread(r);
 				// daemon to allow JVM to shut down while the thread is still active
 				t.setDaemon(true);
 				return t;
 			});
-			_exec.setExecuteExistingDelayedTasksAfterShutdownPolicy(false);
-			_exec.setContinueExistingPeriodicTasksAfterShutdownPolicy(false);
-		}
-		return _exec;
+		ret.setExecuteExistingDelayedTasksAfterShutdownPolicy(false);
+		ret.setContinueExistingPeriodicTasksAfterShutdownPolicy(false);
+		return ret;
 	}
 
 	/**
