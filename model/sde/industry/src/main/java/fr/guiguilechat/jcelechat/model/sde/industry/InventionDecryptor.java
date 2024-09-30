@@ -172,7 +172,7 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 	public static final Map<Integer, Integer> ALL_5 = new HashMap<>() {
 		public Integer get(Object key) {
 			return 5;
-		};
+		}
 	};
 
 	/**
@@ -197,6 +197,9 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 
 	@Override
 	public boolean equals(Object obj) {
+		if (this == obj) {
+			return true;
+		}
 		if (obj != null && obj.getClass() == this.getClass()) {
 			InventionDecryptor o = (InventionDecryptor) obj;
 			return o.id == id;

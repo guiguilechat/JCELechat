@@ -57,7 +57,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	private static final Logger csvLogger = LoggerFactory.getLogger(ConnectedImpl.class.getCanonicalName() + ".csv");
 
 	/** to be called before sending a request */
-	protected static void logRequest(String method, String url, String transmit,
+	public static void logRequest(String method, String url, String transmit,
 	    Map<String, String> transmitHeaders) {
 		csvLogger.trace("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}",
 		    method,
@@ -70,7 +70,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		    transmitHeaders == null ? "" : transmitHeaders);
 	}
 
-	protected static void logResponse(String method, String url, Integer responseCode, Number durationMs, String error,
+	public static void logResponse(String method, String url, Integer responseCode, Number durationMs, String error,
 	    String warning,
 	    String transmit,
 	    Map<String, ?> receivedHeaders) {
@@ -109,7 +109,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	@Getter(lazy = true)
 	private final OkHttpClient client = new OkHttpClient.Builder()
-			.callTimeout(4, TimeUnit.SECONDS)
+	    .callTimeout(12, TimeUnit.SECONDS)
 			.build();
 
 	/**
@@ -313,7 +313,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			String firstUrl = mismatcheds.get(0).getURL();
 			String message = "mismatching " + mismatcheds.size() + " pages lastmodified , one url is " + firstUrl;
 			logger.warn(message);
-			System.err.println(message);
+			// logResponse("GET", firstUrl, mismatcheds.get(0).getResponseCode());
 			mismatch[0] = true;
 		}
 		for (Requested<T[]> page : pages) {
