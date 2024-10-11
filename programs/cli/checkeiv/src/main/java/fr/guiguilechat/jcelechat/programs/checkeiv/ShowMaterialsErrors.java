@@ -24,7 +24,8 @@ public class ShowMaterialsErrors {
 		private final EveType type = TypeIndex.getType(prices.type_id);
 
 		@Getter(lazy = true)
-		private final double jitaSO = ESIAccess.INSTANCE.markets.getLocalMarket(10000002).getSO(prices.type_id, 1).get();
+		private final double jitaSO = ESIAccess.INSTANCE.markets.getLocalMarket(10000002).getSOValue(prices.type_id, 1)
+		    .get();
 
 		@Getter(lazy = true)
 		private final double logDiffMarket = Math.log10(getJitaSO() / prices.adjusted_price);

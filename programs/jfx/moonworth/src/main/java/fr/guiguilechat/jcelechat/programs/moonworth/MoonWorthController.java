@@ -51,7 +51,7 @@ public class MoonWorthController {
 		BO {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
-				return controller.market().getBO(typeID, 1).get();
+				return controller.market().getBOValue(typeID, 1).get();
 			}
 		},
 		// SO {
@@ -198,7 +198,7 @@ public class MoonWorthController {
 		} else {
 			marketHolder.setValue(ESIAccess.INSTANCE.markets.getMarket(newValue.id));
 			Asteroid.METACAT.load().values().stream().filter(astero -> astero.marketGroup != 0)
-			.forEach(astero -> marketHolder.getValue().getBO(astero.id, 1));
+			.forEach(astero -> marketHolder.getValue().getBOValue(astero.id, 1));
 		}
 	}
 

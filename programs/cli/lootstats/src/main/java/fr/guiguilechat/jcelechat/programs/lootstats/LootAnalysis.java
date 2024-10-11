@@ -102,7 +102,7 @@ public class LootAnalysis {
 			Map<String, LootAnalysis> grouped = Stream.of(types).parallel().flatMap(type -> {
 				return Stream.of(races).parallel().map(race -> {
 					LootAnalysis la = analyse(al.stream().filter(le -> type.equals(le.type) && race.equals(le.race)),
-							i -> em.getBO(i, 1).get());
+							i -> em.getBOValue(i, 1).get());
 					if (la != null) {
 						la.desc = type + " " + race;
 					}

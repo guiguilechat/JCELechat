@@ -18,6 +18,9 @@ public class BrokerFee {
 		    - corporation_base_standing * CORP_REDUCE;
 	}
 
+	/**
+	 * minimum broker multiplier of a price to remove from it
+	 */
 	public static final double MINIMUM = multiplier(5, 10, 10);
 
 	/** price to place an order at given buy or sell price */

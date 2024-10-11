@@ -67,7 +67,7 @@ public class ExampleStaticAccess {
 		/**
 		 * since this is tedious and error prone I bring some in the modeled class
 		 */
-		ObservableDoubleValue maxBOObs = JFXTools.obs(ESIAccess.INSTANCE.markets.getMarket(theforge).getBO(veldspar, 1));
+		ObservableDoubleValue maxBOObs = JFXTools.obs(ESIAccess.INSTANCE.markets.getMarket(theforge).getBOValue(veldspar, 1));
 
 		/**
 		 * ^You should use this one ^ Everybody loves maxBOObs.

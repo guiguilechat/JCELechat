@@ -21,7 +21,7 @@ public class VolumicPrice {
 
 		public TypeData(R_get_universe_types_type_id t, RegionalMarket market) {
 			type = t;
-			buyPrice = market.getBO(t.type_id, 1);
+			buyPrice = market.getBOValue(t.type_id, 1);
 			volPrice = buyPrice.div((double) t.volume);
 		}
 

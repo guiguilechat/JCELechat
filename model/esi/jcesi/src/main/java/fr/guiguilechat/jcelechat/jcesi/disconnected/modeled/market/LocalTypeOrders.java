@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 
 /**
  * holds the local orders for a type, either for buy or for sell . Caches the
- * price of items.
+ * values of items per quantity.
  */
 @RequiredArgsConstructor
 public class LocalTypeOrders {
@@ -32,18 +32,23 @@ public class LocalTypeOrders {
 	    .sorted(buy ? Comparator.comparing(o -> -o.price) : Comparator.comparing(o -> o.price));
 
 
-	private final HashMap<Long, DoubleHolder> qttyToPriceHolder = new HashMap<>();
+	private final HashMap<Long, DoubleHolder> qttyToValue = new HashMap<>();
 
-	public DoubleHolder getPrice(long qtty) {
-		DoubleHolder ret = qttyToPriceHolder.get(qtty);
+	/**
+	 * @param qtty
+	 * @return holder on the total value for given quantity. missing quantity is
+	 *           ignored for buy order, makes value infinite for sell order
+	 */
+	public DoubleHolder getValue(long qtty) {
+		DoubleHolder ret = qttyToValue.get(qtty);
 		if (ret == null) {
-			ret = LockWatchDog.BARKER.syncExecute(qttyToPriceHolder,
-			    () -> qttyToPriceHolder.computeIfAbsent(qtty, this::makePrice));
+			ret = LockWatchDog.BARKER.syncExecute(qttyToValue,
+			    () -> qttyToValue.computeIfAbsent(qtty, this::makeValue));
 		}
 		return ret;
 	}
 
-	protected DoubleHolder makePrice(long qtty) {
+	protected DoubleHolder makeValue(long qtty) {
 		ListHolder<R_get_markets_region_id_orders> source = getFilteredOrders();
 		DoubleHolder ret2 = source.mapDouble(l -> {
 			double total = 0.0;

@@ -57,7 +57,7 @@ public class MakeStats {
 				ArrayList<LootEntry> list = bp.loadDirectory(dir);
 
 				HashSet<Integer> allFactionItems = new HashSet<>();
-				IntToDoubleFunction cost = i -> em.getBO(i, 1).get();
+				IntToDoubleFunction cost = i -> em.getBOValue(i, 1).get();
 				LinkedHashMap<String, Double> catValue = new LinkedHashMap<>();
 				LinkedHashMap<String, Integer> catNumber = new LinkedHashMap<>();
 

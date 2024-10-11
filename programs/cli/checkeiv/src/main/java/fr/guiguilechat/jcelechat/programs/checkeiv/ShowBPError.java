@@ -36,7 +36,7 @@ public class ShowBPError {
 
 		@Getter(lazy = true)
 		private final double eivSO = bp
-		.makeEIV(type_id -> ESIAccess.INSTANCE.markets.getLocalMarket(10000002).getSO(type_id, 1).get());
+		    .makeEIV(type_id -> ESIAccess.INSTANCE.markets.getLocalMarket(10000002).getSOValue(type_id, 1).get());
 
 		@Getter(lazy = true)
 		private final double logDiffSO = Math.log10(getEivSO() / getEiv());

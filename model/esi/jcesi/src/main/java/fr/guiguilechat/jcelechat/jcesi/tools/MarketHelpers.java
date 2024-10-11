@@ -42,7 +42,7 @@ public class MarketHelpers {
 	 *         market region
 	 */
 	public static DoubleProperty bo(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getBO(typeID, 1)));
+		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getBOValue(typeID, 1)));
 	}
 
 	/**
@@ -53,6 +53,6 @@ public class MarketHelpers {
 	 *         market region
 	 */
 	public static DoubleProperty so(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getSO(typeID, 1)));
+		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getSOValue(typeID, 1)));
 	}
 }

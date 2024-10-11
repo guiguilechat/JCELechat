@@ -36,10 +36,10 @@ public class ShowDEDLPs {
 			return 0;
 		}
 		int nbOffers = Math.max(1, (int) Math.ceil(1.0 * minlp / offer.requirements.lp));
-		double iskplp = market.getBO(offer.product.id, offer.product.quantity * nbOffers).get() / nbOffers
+		double iskplp = market.getBOValue(offer.product.id, offer.product.quantity * nbOffers).get() / nbOffers
 				- offer.requirements.isk;
 		for (ItemRef it : offer.requirements.items) {
-			iskplp -= market.getSO(it.id, it.quantity * nbOffers).get() / nbOffers;
+			iskplp -= market.getSOValue(it.id, it.quantity * nbOffers).get() / nbOffers;
 		}
 		iskplp /= offer.requirements.lp;
 		return iskplp;
