@@ -296,7 +296,8 @@ public class DogmaHtmlController {
 			        .toList());
 		} else {
 				model.addAttribute("name", "unknown type " + typeFilter);
-				model.addAttribute("types", types.stream().map(this::linkedType).toList());
+				model.addAttribute("types",
+				    types.stream().sorted(Comparator.comparing(Type::name)).map(this::linkedType).toList());
 		}
 		return "dogma/type";
 	}

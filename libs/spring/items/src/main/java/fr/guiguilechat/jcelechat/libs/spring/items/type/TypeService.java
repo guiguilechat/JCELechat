@@ -10,10 +10,12 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Optional;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -146,7 +148,7 @@ public class TypeService
 		long postMarketGroups = System.currentTimeMillis();
 
 		responseOk.entrySet().forEach(
-		        e -> updateResponseOk(e.getKey(), e.getValue(), idToGroup, idToAttribute, idToEffect, idToMarketGroup));
+		    e -> updateResponseOk(e.getKey(), e.getValue(), idToGroup, idToAttribute, idToEffect, idToMarketGroup));
 		long postUpdateElements = System.currentTimeMillis();
 		log.debug(
 		    "processed {} received types in {} ms, fetchGroups={}ms fetchAtts={}ms deleteAtts={}ms fetchEffects={}ms fetchmkg={}ms processElemes={}ms",
@@ -192,6 +194,9 @@ public class TypeService
 	 */
 	public List<Type> searchByName(String typeName) {
 		List<Type> ret = List.of();
+		if (typeName == null || typeName.isBlank()) {
+			return ret;
+		}
 		if (ret.isEmpty()) {
 			ret = repo().findByNameEqualsIgnoreCase(typeName);
 		}
@@ -200,6 +205,22 @@ public class TypeService
 		}
 		if (ret.isEmpty()) {
 			ret = repo().findByNameContainsIgnoreCase(typeName);
+		}
+		if (ret.isEmpty()) {
+			Set<String> tokens = Stream.of((typeName == null ? "" : typeName).split(" "))
+			    .filter(t -> t != null && !t.isBlank())
+			    .map(String::toLowerCase)
+			    .collect(Collectors.toSet());
+			if (!tokens.isEmpty()) {
+				ret = null;
+				for (String token : tokens) {
+					if (ret == null) {
+						ret = repo().findByNameContainsIgnoreCase(token);
+					} else {
+						ret = ret.stream().filter(t -> t.name().contains(token)).toList();
+					}
+				}
+			}
 		}
 		return ret;
 	}
