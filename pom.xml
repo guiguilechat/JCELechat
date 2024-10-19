@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.guiguilechat</groupId>
 	<artifactId>jcelechat</artifactId>
-	<version>7.36.3</version>
+	<version>7.36.4</version>
 	<packaging>pom</packaging>
 	<name>JCE Lechat</name>
 	<description>Java Compile Eve by Lechat</description>
