@@ -4,18 +4,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Optional;
-import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -207,18 +206,47 @@ public class TypeService
 			ret = repo().findByNameContainsIgnoreCase(typeName);
 		}
 		if (ret.isEmpty()) {
-			Set<String> tokens = Stream.of((typeName == null ? "" : typeName).split(" "))
-			    .filter(t -> t != null && !t.isBlank())
-			    .map(String::toLowerCase)
-			    .collect(Collectors.toSet());
-			if (!tokens.isEmpty()) {
-				ret = null;
-				for (String token : tokens) {
-					if (ret == null) {
-						ret = repo().findByNameContainsIgnoreCase(token);
-					} else {
-						ret = ret.stream().filter(t -> t.name().contains(token)).toList();
-					}
+			ret = searchByNameTokens(typeName);
+		}
+		return ret;
+	}
+
+	public List<Type> searchByNameTokens(String tokens) {
+		List<Type> ret = List.of();
+		// have the biggest terms first to reduce the initial query the most.
+		List<String> requiredTerms = Stream.of((tokens == null ? "" : tokens).split(" "))
+		    .filter(t -> t != null && !t.isBlank() && !t.startsWith("-") && t.length() > 1)
+		    .map(String::toLowerCase)
+		    .distinct()
+		    .sorted(Comparator.comparing(s -> -s.length()))
+		    .toList();
+		List<String> ignoredTerms = Stream.of((tokens == null ? "" : tokens).split(" "))
+		    .filter(t -> t != null && !t.isBlank() && t.startsWith("-"))
+		    .map(s -> s.toLowerCase().substring(1))
+		    .distinct()
+		    .toList();
+		log.trace("searching name for tokens " + requiredTerms + " ignore " + ignoredTerms);
+		if (!requiredTerms.isEmpty()) {
+			ret = null;
+			for (String required : requiredTerms) {
+				if (ret == null) {
+					ret = repo().findByNameContainsIgnoreCase(required);
+					log.trace("initial query [" + required + "] gets " + ret.size() + " results");
+				} else {
+					ret = ret.stream()
+					    .filter(
+					        t -> t.name().toLowerCase().contains(required))
+					    .toList();
+					log.trace("query requiring [" + required + "] is size " + ret.size());
+				}
+			}
+			if (!ignoredTerms.isEmpty() && !ret.isEmpty()) {
+				for (String ignore : ignoredTerms) {
+					ret = ret.stream()
+					    .filter(
+					        t -> !t.name().toLowerCase().contains(ignore))
+					    .toList();
+					log.trace("query ignoring [" + ignore + "] is size " + ret.size());
 				}
 			}
 		}
