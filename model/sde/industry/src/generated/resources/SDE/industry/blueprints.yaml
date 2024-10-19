@@ -67369,11 +67369,11 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 81000
+        quantity: 90000
       - id: 35
         quantity: 325000
       - id: 36
-        quantity: 90000
+        quantity: 81000
       - id: 37
         quantity: 22500
       - id: 38
@@ -178216,4 +178216,61 @@ blueprints:
       time: 315
     research_time:
       time: 315
+    seeded: false
+  85749:
+    copying:
+      time: 4800
+    id: 85749
+    manufacturing:
+      materials:
+      - id: 2346
+        quantity: 104
+      - id: 2348
+        quantity: 51
+      - id: 34575
+        quantity: 32
+      products:
+      - id: 85748
+        probability: 1.0
+        quantity: 1
+      time: 3600
+    maxCopyRuns: 3
+    research_material:
+      time: 2100
+    research_time:
+      time: 2100
+    seeded: false
+  85751:
+    copying:
+      time: 3755
+    id: 85751
+    manufacturing:
+      materials:
+      - id: 9840
+        quantity: 15
+      - id: 11483
+        quantity: 1
+      - id: 11536
+        quantity: 5
+      - id: 11539
+        quantity: 11
+      - id: 22177
+        quantity: 1
+      products:
+      - id: 85750
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 11448
+        : 1
+        ? id: 11453
+        : 1
+      time: 4680
+    maxCopyRuns: 1
+    research_material:
+      time: 1640
+    research_time:
+      time: 1640
     seeded: false

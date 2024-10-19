@@ -204,3 +204,28 @@ types:
     viruselementslots: 2
     virusstrength: 26
     volume: 5.0
+  85750:
+    accessdifficultybonus: 7.0
+    capacitorneed: 20.0
+    cpu: 20.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    hp: 40.0
+    id: 85750
+    marketGroup: 1718
+    maxrange: 6000.0
+    metalevelold: 8
+    name: Deathless Circle Relic Analyzer
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 550000.0
+    published: true
+    radius: 500.0
+    requiredskill2: 13278
+    requiredskill2level: 5
+    techlevel: 1
+    viruscoherence: 50
+    viruselementslots: 3
+    virusstrength: 35
+    volume: 5.0

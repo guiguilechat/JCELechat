@@ -95,3 +95,11 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  85127:
+    id: 85127
+    mass: 1.0
+    name: Crimson Harvest Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

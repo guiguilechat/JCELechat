@@ -214,3 +214,19 @@ types:
     viruscoherencebonus: -40
     virusstrengthbonus: 20
     volume: 1.0
+  85748:
+    accessdifficultybonusmodifier: 10
+    id: 85748
+    implantness: 9
+    marketGroup: 1773
+    name: Neural Lace 'Bluefire' Net Ablation 960-10
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
+    viruscoherencebonus: 60
+    virusstrengthbonus: -10
+    volume: 1.0

@@ -109,3 +109,14 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
+  85751:
+    id: 85751
+    industryblueprintrank: 15.600000381469727
+    name: Deathless Circle Relic Analyzer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 332640.0
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

@@ -20,3 +20,18 @@ types:
     portionSize: 1
     published: false
     volume: 1.0
+  85683:
+    id: 85683
+    name: Unreleased Skillbook
+    portionSize: 1
+    published: false
+  85684:
+    id: 85684
+    name: Unreleased Expert System
+    portionSize: 1
+    published: false
+  85689:
+    id: 85689
+    name: Unreleased New Pattern
+    portionSize: 1
+    published: false

@@ -569,7 +569,7 @@ types:
     moonminingamount: 1
     name: Genetic Lock Preserver
     packagedVolume: 1.0
-    portionSize: 20
+    portionSize: 1
     price: 1500000.0
     published: true
     volume: 1.0
@@ -580,7 +580,7 @@ types:
     moonminingamount: 1
     name: Genetic Safeguard Filter
     packagedVolume: 1.0
-    portionSize: 20
+    portionSize: 1
     price: 3.0E7
     published: true
     volume: 1.0
@@ -602,7 +602,7 @@ types:
     moonminingamount: 1
     name: Genetic Structure Repairer
     packagedVolume: 1.0
-    portionSize: 20
+    portionSize: 1
     price: 1500000.0
     published: true
     volume: 1.0
@@ -613,7 +613,7 @@ types:
     moonminingamount: 1
     name: Genetic Mutation Inhibitor
     packagedVolume: 1.0
-    portionSize: 20
+    portionSize: 1
     price: 1500000.0
     published: true
     volume: 1.0

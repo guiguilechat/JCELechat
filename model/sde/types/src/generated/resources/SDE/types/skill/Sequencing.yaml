@@ -211,3 +211,19 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
+  84218:
+    cannotbetrainedontrial: 1
+    id: 84218
+    marketGroup: 3656
+    name: Paragon Partnership
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E7
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 84217
+    requiredskill1level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582

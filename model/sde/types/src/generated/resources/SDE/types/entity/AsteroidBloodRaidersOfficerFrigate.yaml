@@ -15,7 +15,7 @@ types:
     armoruniformity: 0.75
     capacitorcapacity: 500.0
     capacity: 130.0
-    damagemultiplier: 10.0
+    damagemultiplier: 17.0
     disallowassistance: 1
     emdamage: 8.899999618530273
     emdamageresonance: 0.6700000166893005

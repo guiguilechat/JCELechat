@@ -6,3 +6,10 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  85749:
+    id: 85749
+    name: Neural Lace 'Bluefire' Net Ablation 960-10 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

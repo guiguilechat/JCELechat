@@ -1946,7 +1946,7 @@ types:
   84166:
     id: 84166
     marketGroup: 3633
-    name: Freedom's Foundation Pattern - Limited
+    name: Freedom's Foundation - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1986,7 +1986,7 @@ types:
   84171:
     id: 84171
     marketGroup: 3633
-    name: Mountain Wind Spirit Pattern - Limited
+    name: Mountain Wind Spirit - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1994,7 +1994,7 @@ types:
   84172:
     id: 84172
     marketGroup: 3633
-    name: Divine Arch Pattern - Limited
+    name: Divine Arch - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -2050,7 +2050,295 @@ types:
   84212:
     id: 84212
     marketGroup: 3633
-    name: Pillars of the Republic Pattern - Limited
+    name: Pillars of the Republic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85118:
+    id: 85118
+    marketGroup: 3655
+    name: Sani Ichor Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85133:
+    id: 85133
+    marketGroup: 3653
+    name: Sani Ichor Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85134:
+    id: 85134
+    marketGroup: 3655
+    name: Savant Carmine Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85137:
+    id: 85137
+    marketGroup: 3655
+    name: Savant Carmine Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85139:
+    id: 85139
+    marketGroup: 3654
+    name: Charcoal Covenant Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85140:
+    id: 85140
+    marketGroup: 3654
+    name: Charcoal Covenant Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85141:
+    id: 85141
+    marketGroup: 3654
+    name: Purified Cerise Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85143:
+    id: 85143
+    marketGroup: 3653
+    name: Sacred Flesh Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85144:
+    id: 85144
+    marketGroup: 3655
+    name: Haunted Citroen Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85145:
+    id: 85145
+    marketGroup: 3653
+    name: Bleached Bone Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85146:
+    id: 85146
+    marketGroup: 3654
+    name: Ritual Gourd Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85147:
+    id: 85147
+    marketGroup: 3633
+    name: Brutal Splatter Pattern - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85148:
+    id: 85148
+    marketGroup: 3633
+    name: Annointed Dead Pattern - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85149:
+    id: 85149
+    marketGroup: 3633
+    name: Annointed Dead Pattern - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85150:
+    id: 85150
+    marketGroup: 3632
+    name: Haema Iron Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85151:
+    id: 85151
+    marketGroup: 3632
+    name: Haema Iron Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85152:
+    id: 85152
+    marketGroup: 3632
+    name: Phantom Ferros Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85153:
+    id: 85153
+    marketGroup: 3632
+    name: Steel Violet - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85154:
+    id: 85154
+    marketGroup: 3654
+    name: Savant Carmine Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85155:
+    id: 85155
+    marketGroup: 3654
+    name: Savant Carmine Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85290:
+    id: 85290
+    marketGroup: 3655
+    name: Burnt Sacrament Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85305:
+    id: 85305
+    marketGroup: 3633
+    name: Scars of Sarikusa - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85306:
+    id: 85306
+    marketGroup: 3654
+    name: Shadow Sabik Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85307:
+    id: 85307
+    marketGroup: 3632
+    name: Blooded Steel Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85308:
+    id: 85308
+    marketGroup: 3653
+    name: Illuminating Faith Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85403:
+    id: 85403
+    marketGroup: 3653
+    name: Managerial Black Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85404:
+    id: 85404
+    marketGroup: 3653
+    name: Council Meeting Beige Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85405:
+    id: 85405
+    marketGroup: 3633
+    name: Consensus Drift - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85406:
+    id: 85406
+    marketGroup: 3632
+    name: Stellar Indigo Chrome Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85752:
+    id: 85752
+    marketGroup: 3655
+    name: 'Glorified Ruby Gloss - Limited '
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85753:
+    id: 85753
+    marketGroup: 3654
+    name: Murky Pravda Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85754:
+    id: 85754
+    marketGroup: 3655
+    name: Azure Istina Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85755:
+    id: 85755
+    marketGroup: 3632
+    name: Bujan Blue Steel Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85756:
+    id: 85756
+    marketGroup: 3633
+    name: Kyber Conjunction - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  86143:
+    id: 86143
+    marketGroup: 3653
+    name: Lapin Fire Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  86144:
+    id: 86144
+    marketGroup: 3632
+    name: Lethal Navy Metallic - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

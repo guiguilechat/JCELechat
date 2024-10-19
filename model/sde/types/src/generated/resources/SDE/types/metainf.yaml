@@ -28396,8 +28396,6 @@ id2group:
   73428: entity/SpawnContainer
   73429: entity/SpawnContainer
   73430: entity/SpawnContainer
-  73431: commodity/AccelerationGateKeys
-  73432: commodity/AccelerationGateKeys
   73436: apparel/Augmentations
   73437: apparel/Augmentations
   73443: entity/ControlPoint
@@ -30846,7 +30844,67 @@ id2group:
   84179: personalization/ShipSKINDesignElement
   84212: personalization/ShipSKINDesignElement
   84217: skill/Sequencing
+  84218: skill/Sequencing
+  84271: implant/Booster
+  84272: implant/Booster
+  84273: implant/Booster
   84294: entity/LargeCollidableStructure
+  84297: implant/Booster
+  84298: implant/Booster
+  84299: implant/Booster
+  84300: implant/Booster
+  84301: implant/Booster
+  84302: implant/Booster
+  84303: implant/Booster
+  84304: implant/Booster
+  84305: implant/Booster
+  84306: implant/Booster
+  84307: implant/Booster
+  84308: implant/Booster
+  84309: implant/Booster
+  84310: implant/Booster
+  84311: implant/Booster
+  84312: implant/Booster
+  84313: implant/Booster
+  84314: implant/Booster
+  84315: implant/Booster
+  84316: implant/Booster
+  84317: implant/Booster
+  84318: implant/Booster
+  84319: implant/Booster
+  84320: implant/Booster
+  84321: implant/Booster
+  84322: implant/Booster
+  84323: implant/Booster
+  84324: implant/Booster
+  84325: implant/Booster
+  84326: implant/Booster
+  84327: implant/Booster
+  84328: implant/Booster
+  84330: skins/PermanentSKIN
+  84331: skins/PermanentSKIN
+  84332: skins/PermanentSKIN
+  84333: skins/PermanentSKIN
+  84334: skins/PermanentSKIN
+  84335: skins/PermanentSKIN
+  84336: skins/PermanentSKIN
+  84337: skins/PermanentSKIN
+  84338: skins/PermanentSKIN
+  84339: skins/PermanentSKIN
+  84340: skins/PermanentSKIN
+  84341: skins/PermanentSKIN
+  84342: skins/PermanentSKIN
+  84343: skins/PermanentSKIN
+  84344: skins/PermanentSKIN
+  84345: skins/PermanentSKIN
+  84346: skins/PermanentSKIN
+  84347: skins/PermanentSKIN
+  84348: skins/PermanentSKIN
+  84349: skins/PermanentSKIN
+  84350: skins/PermanentSKIN
+  84351: skins/PermanentSKIN
+  84352: skins/PermanentSKIN
+  84353: skins/PermanentSKIN
   84358: entity/MissionContainer
   84398: commodity/Mutaplasmids
   84399: commodity/Mutaplasmids
@@ -30904,6 +30962,8 @@ id2group:
   84473: entity/IrregularDestroyer
   84474: specialeditionassets/SpecialEditionCommodities
   84475: specialeditionassets/SpecialEditionCommodities
+  84482: commodity/AccelerationGateKeys
+  84483: commodity/AccelerationGateKeys
   84495: module/SmartBomb
   84496: module/SmartBomb
   84497: module/SmartBomb
@@ -31031,6 +31091,85 @@ id2group:
   85033: module/RemoteCapacitorTransmitter
   85034: module/RemoteCapacitorTransmitter
   85035: module/WarpDisruptFieldGenerator
+  85118: personalization/ShipSKINDesignElement
+  85127: expertsystems/StandardExpertSystems
+  85133: personalization/ShipSKINDesignElement
+  85134: personalization/ShipSKINDesignElement
+  85137: personalization/ShipSKINDesignElement
+  85139: personalization/ShipSKINDesignElement
+  85140: personalization/ShipSKINDesignElement
+  85141: personalization/ShipSKINDesignElement
+  85143: personalization/ShipSKINDesignElement
+  85144: personalization/ShipSKINDesignElement
+  85145: personalization/ShipSKINDesignElement
+  85146: personalization/ShipSKINDesignElement
+  85147: personalization/ShipSKINDesignElement
+  85148: personalization/ShipSKINDesignElement
+  85149: personalization/ShipSKINDesignElement
+  85150: personalization/ShipSKINDesignElement
+  85151: personalization/ShipSKINDesignElement
+  85152: personalization/ShipSKINDesignElement
+  85153: personalization/ShipSKINDesignElement
+  85154: personalization/ShipSKINDesignElement
+  85155: personalization/ShipSKINDesignElement
+  85178: commodity/Miscellaneous
+  85179: commodity/Miscellaneous
+  85242: commodity/Miscellaneous
+  85279: implant/Booster
+  85290: personalization/ShipSKINDesignElement
+  85305: personalization/ShipSKINDesignElement
+  85306: personalization/ShipSKINDesignElement
+  85307: personalization/ShipSKINDesignElement
+  85308: personalization/ShipSKINDesignElement
+  85316: commodity/Atavum
+  85403: personalization/ShipSKINDesignElement
+  85404: personalization/ShipSKINDesignElement
+  85405: personalization/ShipSKINDesignElement
+  85406: personalization/ShipSKINDesignElement
+  85683: abstrct/Miscellaneous
+  85684: abstrct/Miscellaneous
+  85689: abstrct/Miscellaneous
+  85712: commodity/Miscellaneous
+  85713: commodity/Miscellaneous
+  85714: commodity/Miscellaneous
+  85715: commodity/Miscellaneous
+  85716: commodity/Miscellaneous
+  85717: commodity/Miscellaneous
+  85718: commodity/Miscellaneous
+  85719: commodity/Miscellaneous
+  85720: commodity/Miscellaneous
+  85724: commodity/Miscellaneous
+  85726: commodity/Miscellaneous
+  85727: commodity/Miscellaneous
+  85728: commodity/Miscellaneous
+  85746: commodity/Commodities
+  85747: charge/ScannerProbe
+  85748: implant/CyberScanning
+  85749: blueprint/CyberScanningImplantBlueprints
+  85750: module/DataMiners
+  85751: blueprint/DataMinerBlueprint
+  85752: personalization/ShipSKINDesignElement
+  85753: personalization/ShipSKINDesignElement
+  85754: personalization/ShipSKINDesignElement
+  85755: personalization/ShipSKINDesignElement
+  85756: personalization/ShipSKINDesignElement
+  85787: specialeditionassets/SpecialEditionCommodities
+  85849: commodity/Miscellaneous
+  85880: specialeditionassets/SpecialEditionCommodities
+  85929: skins/PermanentSKIN
+  85930: skins/PermanentSKIN
+  85931: skins/PermanentSKIN
+  85932: skins/PermanentSKIN
+  86143: personalization/ShipSKINDesignElement
+  86144: personalization/ShipSKINDesignElement
+  86149: skins/PermanentSKIN
+  86150: skins/PermanentSKIN
+  86151: skins/PermanentSKIN
+  86152: skins/PermanentSKIN
+  86153: skins/PermanentSKIN
+  86154: skins/PermanentSKIN
+  86155: skins/PermanentSKIN
+  86156: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

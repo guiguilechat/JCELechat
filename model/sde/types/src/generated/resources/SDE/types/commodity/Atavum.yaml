@@ -1,0 +1,11 @@
+types:
+  85316:
+    id: 85316
+    marketGroup: 3697
+    mass: 1.0
+    name: Atavum
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.10000000149011612

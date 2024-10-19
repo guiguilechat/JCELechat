@@ -135,3 +135,30 @@ types:
     techlevel: 1
     volume: 0.10000000149011612
     warpspeedmultiplier: 15.0
+  85747:
+    agility: 1000.0
+    basemaxscandeviation: 0.25
+    basescanrange: 0.5
+    basesensorstrength: 24
+    explosiondelay: 600000
+    hp: 500.0
+    id: 85747
+    launchergroup: 481
+    marketGroup: 1199
+    mass: 1.0
+    maxvelocity: 5000.0
+    metagroupid: 4
+    name: Satori-Horigu Combat Scanner Probe
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 453442.0
+    probecanscanships: 1
+    published: true
+    radius: 1.0
+    rangefactor: 2
+    requiredskill1: 3412
+    requiredskill1level: 2
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 1.0
+    warpspeedmultiplier: 22.5

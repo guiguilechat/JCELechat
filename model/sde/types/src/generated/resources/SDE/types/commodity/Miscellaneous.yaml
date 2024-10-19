@@ -7403,3 +7403,228 @@ types:
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
+  85178:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85178
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Tetrimonic Warclone Blanks
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85179:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85179
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Overseer Sabik Vial
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85242:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85242
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Hypercatabolic Clone Tissue
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 3.0E8
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85712:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85712
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC110.05.29 - Arceho. Student Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85713:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85713
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC110.06.09 - Asst. Archeo. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85714:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85714
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC110.08.20 - Asst. Archeo. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85715:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85715
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC110.11.30 - Asst. Archeo. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85716:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85716
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC110.12.04 - Asst. Archeo. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85717:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85717
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC110.12.10 - Asst. Archeo. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85718:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85718
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC113.01.15 - Dr. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85719:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85719
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC113.04.15 - Dr. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85720:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85720
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC113.05.01 - Dr. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85724:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85724
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC115.08.19 - Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85726:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85726
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC117.02.20 - Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85727:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85727
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC117.10.15 - Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85728:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85728
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC117.10.30 - Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85849:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85849
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Deathless Research Honorarium
+    packagedVolume: 0.0010000000474974513
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.0010000000474974513

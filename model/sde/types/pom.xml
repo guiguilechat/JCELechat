@@ -13,13 +13,13 @@
 	<description>contains the DB of types from ESI+SDE</description>
 	<dependencies>
 		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>types-compiler</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>types-compiler</artifactId>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
