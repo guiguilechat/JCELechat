@@ -93,4 +93,5 @@
 			</build>
 		</profile>
 	</profiles>
+	<name>SDE-Locations</name>
 </project>

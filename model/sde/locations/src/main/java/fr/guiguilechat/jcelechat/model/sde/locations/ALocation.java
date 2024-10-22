@@ -4,8 +4,9 @@ import java.util.ArrayList;
 
 public class ALocation {
 
-	public int id;
+	public static double AU_IN_M = 1.057e16;
 
+	public int id;
 
 	public boolean isAbyssal = false;
 	public boolean isJovian = false;
@@ -14,6 +15,10 @@ public class ALocation {
 
 	public boolean isPochven = false;
 	public boolean isWormhole = false;
+
+	public Double centerX, centerY, centerZ;
+	public Double maxX, maxY, maxZ;
+	public Double minX, minY, minZ;
 
 	public ArrayList<String> adjacentSystems = new ArrayList<>();
 
@@ -40,6 +45,17 @@ public class ALocation {
 
 	public String name() {
 		return name == null ? "region:" + id : name;
+	}
+
+	public double centerDistanceAu(ALocation other) {
+		if (other.centerX == null || other.centerY == null || other.centerZ == null
+		    || centerX == null || centerY == null || centerZ == null) {
+			return Double.NaN;
+		}
+		return Math.sqrt(
+		    Math.pow((other.centerX - centerX) / AU_IN_M, 2)
+		        + Math.pow((other.centerY - centerY) / AU_IN_M, 2)
+		        + Math.pow((other.centerZ - centerZ) / AU_IN_M, 2));
 	}
 
 }

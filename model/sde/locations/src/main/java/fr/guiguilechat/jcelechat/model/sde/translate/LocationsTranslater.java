@@ -275,6 +275,21 @@ public class LocationsTranslater {
 				}
 			}
 		}
+		if (system.center != null) {
+			s.centerX = system.center.x();
+			s.centerY = system.center.y();
+			s.centerZ = system.center.z();
+		}
+		if (system.max != null) {
+			s.maxX = system.max.x();
+			s.maxY = system.max.y();
+			s.maxZ = system.max.z();
+		}
+		if (system.min != null) {
+			s.minX = system.min.x();
+			s.minY = system.min.y();
+			s.minZ = system.min.z();
+		}
 		return s;
 	}
 
