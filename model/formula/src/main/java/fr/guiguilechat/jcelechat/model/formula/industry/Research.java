@@ -9,12 +9,10 @@ public class Research {
 	/**
 	 * base for research is 2% of EIV
 	 */
-	protected static final double EIV_MULT = 2 * 0.01;
-
-	protected static final int EIV_DIV = 50;
+	static final double EIV_MULT = 2 * 0.01;
 
 	static long ptv(long eiv, int endLevel) {
-		return eiv * LEVEL_MULT[endLevel] / MULT_BASE / EIV_DIV;
+		return (long) (eiv * LEVEL_MULT[endLevel] / MULT_BASE * EIV_MULT);
 	}
 
 	public static long ptv(long eiv, int startlevel, int endlevel) {

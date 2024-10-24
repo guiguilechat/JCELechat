@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.industry;
+package fr.guiguilechat.jcelechat.model.formula.industry;
 
 public class Activity {
 

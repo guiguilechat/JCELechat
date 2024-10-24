@@ -1,8 +1,6 @@
-package fr.guiguilechat.jcelechat.model.sde.industry.activities;
+package fr.guiguilechat.jcelechat.model.formula.industry;
 
 import java.util.Map;
-
-import fr.guiguilechat.jcelechat.model.sde.industry.Activity;
 
 public class Copying {
 
@@ -21,11 +19,13 @@ public class Copying {
 		return ret;
 	}
 
+	public static final double EIV_MULT = Research.EIV_MULT;
+
 	public static double installationCost(double bpEIV, int nbRuns, int runsPerCopy, double costIndexMult,
 			double locationManufCostMult,
 			double taxMult, boolean alphaclone) {
 		return Activity.installationCost(bpEIV, nbRuns * runsPerCopy, costIndexMult, locationManufCostMult, taxMult,
 				alphaclone,
-				2.0 / 100);
+		    EIV_MULT);
 	}
 }

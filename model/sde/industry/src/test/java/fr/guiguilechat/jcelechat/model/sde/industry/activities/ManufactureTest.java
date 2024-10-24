@@ -3,6 +3,8 @@ package fr.guiguilechat.jcelechat.model.sde.industry.activities;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.jcelechat.model.formula.industry.Manufacture;
+
 public class ManufactureTest {
 
 	@Test

@@ -1,11 +1,8 @@
-package fr.guiguilechat.jcelechat.model.sde.industry.activities;
+package fr.guiguilechat.jcelechat.model.formula.industry;
 
-import java.util.ArrayList;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.function.BiFunction;
-
-import fr.guiguilechat.jcelechat.model.sde.industry.Activity;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 
 /**
  * manufacturing activity tools
@@ -52,27 +49,29 @@ public class Manufacture {
 	 *
 	 * @param eiv
 	 * @param ME
-	 *          the Me of the BP. Should be 10 for BPO and 5 for invented BP (with
-	 *          process)
+	 *                        the Me of the BP. Should be 10 for BPO and 5 for
+	 *                        invented BP (with
+	 *                        process)
 	 * @param runs
-	 *          batch run, helps reduce the requirement for rounding. 5 should be
-	 *          enough
+	 *                        batch run, helps reduce the requirement for rounding.
+	 *                        5 should be
+	 *                        enough
 	 * @param materials
-	 *          the manufacturing materials list
+	 *                        the manufacturing materials id to quantity
 	 * @param typeQttyPrice
-	 *          (type id, qtty)-&gt; price : function to get the price of
-	 *          acquiring a type with a quantity.
+	 *                        (type id, qtty)-&gt; price : function to get the price
+	 *                        of
+	 *                        acquiring a type with a quantity.
 	 * @return the sum of installation cost and
 	 */
-	@SuppressWarnings("rawtypes")
-	public static double minConstructionCost(double eiv, int ME, int runs, ArrayList<MaterialReq> materials,
+	public static double minConstructionCost(double eiv, int ME, int runs, Map<Integer, Long> materials,
 			BiFunction<Integer, Integer, Double> typeQttyPrice) {
 		double installationCost = installationCost(eiv, 1, LOWER_COST_INDEX / 100, 1.0, LOWER_TAX_MULT / 100, false);
 		double matMult = (100.0 - ME) / 100 * LOWER_MATCOST_MULT;
 		double matCost = 0.0;
-		for (MaterialReq<?> mr : materials) {
-			int qtty = mr.quantity == 1 ? runs : (int) Math.ceil(matMult * mr.quantity * runs);
-			double cost = typeQttyPrice.apply(mr.id, qtty) / runs;
+		for (Entry<Integer, Long> mr : materials.entrySet()) {
+			int qtty = mr.getValue() == 1 ? runs : (int) Math.ceil(matMult * mr.getValue() * runs);
+			double cost = typeQttyPrice.apply(mr.getKey(), qtty) / runs;
 			matCost += cost;
 		}
 		return matCost + installationCost;

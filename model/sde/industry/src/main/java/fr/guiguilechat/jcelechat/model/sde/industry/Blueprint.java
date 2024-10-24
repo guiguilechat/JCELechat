@@ -126,6 +126,10 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		public Activity() {
 		}
 
+		public Map<Integer, Long> materialsMap() {
+			return materials.stream().collect(Collectors.toMap(mt -> mt.id, mt -> (long) mt.quantity));
+		}
+
 		@Override
 		public String toString() {
 			return "products" + products + " from " + materials;
