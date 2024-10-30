@@ -33,6 +33,7 @@ types:
     canfitshipgroup03: 540
     canfitshipgroup04: 380
     canfitshipgroup05: 1201
+    canfitshiptype1: 85229
     capacitorneed: 197.0
     cpu: 51.0
     disallowearlydeactivation: 1

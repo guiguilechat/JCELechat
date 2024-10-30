@@ -14,6 +14,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ATBurstJammerStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ATInverseSecStatus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
@@ -125,6 +127,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonus2CB;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAB;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAB2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusATprobDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCB;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCB3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGB;
@@ -154,6 +157,14 @@ import org.yaml.snakeyaml.Yaml;
 public class BlackOps
     extends Ship
 {
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double atburstjammerstrengthbonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int atinversesecstatus;
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
@@ -548,6 +559,10 @@ public class BlackOps
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shipbonusab2;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusatprobduration;
     /**
      * 
      */
@@ -625,12 +640,20 @@ public class BlackOps
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, RequiredSkill4 .INSTANCE, ShipBonusMB2 .INSTANCE, RequiredSkill4Level.INSTANCE, RequiredSkill5Level.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, RequiredSkill5 .INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, CovertOpsStealthBomberTargettingDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ShipBonusGB2 .INSTANCE, CpuLoad.INSTANCE, PilotSecurityStatus.INSTANCE, ScanResolution.INSTANCE, CpuNeedBonus.INSTANCE, RechargeRate.INSTANCE, ConduitJumpDriveConsumptionAmount.INSTANCE, ConcordRoleBonusSecGain.INSTANCE, ConduitJumpPassengerCount.INSTANCE, InverseCappedSecStatus.INSTANCE, ConcordTankBonus.INSTANCE, WeaponDisruptionResistance.INSTANCE, DurationBonus.INSTANCE, EliteBonusBlackOps3 .INSTANCE, StasisWebifierResistance.INSTANCE, EliteBonusBlackOps4 .INSTANCE, Agility.INSTANCE, ShipBonusAB2 .INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ShipBonusCB3 .INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, JumpFatigueMultiplier.INSTANCE, JumpThroughFatigueMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, BattleshipPlateHPBonus.INSTANCE, BattleshipExtenderHPBonus.INSTANCE, BattleshipBulkheadHPModifierBonus.INSTANCE, HeatGenerationMultiplier.INSTANCE, FrigateEscapeBayCapacity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, EliteBonusBlackOps1 .INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, EliteBonusBlackOps2 .INSTANCE, ShipBonusMB.INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusCB.INSTANCE, ShipBonusAB.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusGB.INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, ShipBonus2CB.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, RequiredSkill4 .INSTANCE, ShipBonusMB2 .INSTANCE, RequiredSkill4Level.INSTANCE, RequiredSkill5Level.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, RequiredSkill5 .INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, CovertOpsStealthBomberTargettingDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ShipBonusGB2 .INSTANCE, CpuLoad.INSTANCE, PilotSecurityStatus.INSTANCE, ScanResolution.INSTANCE, CpuNeedBonus.INSTANCE, RechargeRate.INSTANCE, ConduitJumpDriveConsumptionAmount.INSTANCE, ConcordRoleBonusSecGain.INSTANCE, ConduitJumpPassengerCount.INSTANCE, InverseCappedSecStatus.INSTANCE, ConcordTankBonus.INSTANCE, WeaponDisruptionResistance.INSTANCE, DurationBonus.INSTANCE, EliteBonusBlackOps3 .INSTANCE, StasisWebifierResistance.INSTANCE, EliteBonusBlackOps4 .INSTANCE, Agility.INSTANCE, ShipBonusAB2 .INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ShipBonusCB3 .INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, ATInverseSecStatus.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, ShipBonusATprobDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, ATBurstJammerStrengthBonus.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, JumpFatigueMultiplier.INSTANCE, JumpThroughFatigueMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, BattleshipPlateHPBonus.INSTANCE, BattleshipExtenderHPBonus.INSTANCE, BattleshipBulkheadHPModifierBonus.INSTANCE, HeatGenerationMultiplier.INSTANCE, FrigateEscapeBayCapacity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, EliteBonusBlackOps1 .INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, EliteBonusBlackOps2 .INSTANCE, ShipBonusMB.INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusCB.INSTANCE, ShipBonusAB.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusGB.INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, ShipBonus2CB.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final BlackOps.MetaGroup METAGROUP = new BlackOps.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  5734 :
+            {
+                return atburstjammerstrengthbonus;
+            }
+            case  5728 :
+            {
+                return atinversesecstatus;
+            }
             case  3268 :
             {
                 return battleshipbulkheadhpmodifierbonus;
@@ -862,6 +885,10 @@ public class BlackOps
             case  585 :
             {
                 return shipbonusab2;
+            }
+            case  5733 :
+            {
+                return shipbonusatprobduration;
             }
             case  491 :
             {

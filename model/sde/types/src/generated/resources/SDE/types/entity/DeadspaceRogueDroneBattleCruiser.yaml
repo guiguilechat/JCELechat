@@ -707,7 +707,7 @@ types:
     entityequipmentmax: 70
     entityequipmentmin: 15
     entityflyrange: 20000.0
-    entitykillbounty: 350625
+    entitykillbounty: 420800
     entitylootcountmax: 4
     entitylootcountmin: 2
     entitymaxvelocitysignatureradiusmultiplier: 1

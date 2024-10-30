@@ -688,7 +688,7 @@ types:
     entityequipmentmin: 5
     entityflyrange: 8000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 30625
+    entitykillbounty: 36800
     entitylootcountmax: 6
     entitylootcountmin: 2
     entitymaxvelocitysignatureradiusmultiplier: 1

@@ -31091,6 +31091,7 @@ id2group:
   85033: module/RemoteCapacitorTransmitter
   85034: module/RemoteCapacitorTransmitter
   85035: module/WarpDisruptFieldGenerator
+  85062: ship/CovertOps
   85118: personalization/ShipSKINDesignElement
   85127: expertsystems/StandardExpertSystems
   85133: personalization/ShipSKINDesignElement
@@ -31114,6 +31115,8 @@ id2group:
   85155: personalization/ShipSKINDesignElement
   85178: commodity/Miscellaneous
   85179: commodity/Miscellaneous
+  85229: ship/ForceReconShip
+  85236: ship/BlackOps
   85242: commodity/Miscellaneous
   85279: implant/Booster
   85290: personalization/ShipSKINDesignElement
@@ -31138,10 +31141,17 @@ id2group:
   85718: commodity/Miscellaneous
   85719: commodity/Miscellaneous
   85720: commodity/Miscellaneous
+  85721: commodity/Miscellaneous
+  85722: commodity/Miscellaneous
+  85723: commodity/Miscellaneous
   85724: commodity/Miscellaneous
+  85725: commodity/Miscellaneous
   85726: commodity/Miscellaneous
   85727: commodity/Miscellaneous
   85728: commodity/Miscellaneous
+  85729: commodity/Miscellaneous
+  85730: commodity/Miscellaneous
+  85731: commodity/Miscellaneous
   85746: commodity/Commodities
   85747: charge/ScannerProbe
   85748: implant/CyberScanning
@@ -31156,10 +31166,19 @@ id2group:
   85787: specialeditionassets/SpecialEditionCommodities
   85849: commodity/Miscellaneous
   85880: specialeditionassets/SpecialEditionCommodities
+  85890: skins/PermanentSKIN
+  85891: skins/PermanentSKIN
+  85892: skins/PermanentSKIN
+  85893: skins/PermanentSKIN
+  85894: skins/PermanentSKIN
+  85895: skins/PermanentSKIN
+  85896: skins/PermanentSKIN
+  85897: skins/PermanentSKIN
   85929: skins/PermanentSKIN
   85930: skins/PermanentSKIN
   85931: skins/PermanentSKIN
   85932: skins/PermanentSKIN
+  85979: skins/PermanentSKIN
   86143: personalization/ShipSKINDesignElement
   86144: personalization/ShipSKINDesignElement
   86149: skins/PermanentSKIN

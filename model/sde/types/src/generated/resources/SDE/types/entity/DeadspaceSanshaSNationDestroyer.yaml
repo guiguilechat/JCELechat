@@ -1081,7 +1081,7 @@ types:
     entityequipmentmin: -4
     entityfactionloss: 0.0032500000670552254
     entityflyrange: 8000.0
-    entitykillbounty: 30625
+    entitykillbounty: 36800
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 1
     entityoverviewshipgroupid: 25

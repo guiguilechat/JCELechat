@@ -14,6 +14,10 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ATInverseSecStatus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ATcruiserDroneBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ATcruiserScramblerDisruptorBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ATcruiserStasisWebifierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
@@ -42,6 +46,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusReconShip3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FlagCruiserFittingBonusPropMods;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FwLpKill;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationHi;
@@ -109,6 +114,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAC;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAC2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCC;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCC3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGC;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGC2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMC;
@@ -140,6 +146,22 @@ import org.yaml.snakeyaml.Yaml;
 public class ForceReconShip
     extends Ship
 {
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int atinversesecstatus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int atcruiserdronebonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double atcruiserscramblerdisruptorbonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double atcruiserstasiswebifierbonus;
     /**
      * 
      */
@@ -196,6 +218,13 @@ public class ForceReconShip
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double elitebonusreconship3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int flagcruiserfittingbonuspropmods;
     /**
      * 
      */
@@ -447,6 +476,13 @@ public class ForceReconShip
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonuscc3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultRealValue(5.0)
     public double shipbonusgc;
     /**
@@ -533,12 +569,28 @@ public class ForceReconShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EliteBonusReconShip3 .INSTANCE, BaseWarpSpeed.INSTANCE, Damage.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, RequiredSkill5Level.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, RequiredSkill5 .INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, PilotSecurityStatus.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, ConcordRoleBonusSecGain.INSTANCE, InverseCappedSecStatus.INSTANCE, ConcordTankBonus.INSTANCE, WeaponDisruptionResistance.INSTANCE, DurationBonus.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, SpecialBoosterHoldCapacity.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, ShipBonusCC2 .INSTANCE, ShipBonusGC2 .INSTANCE, ShipBonusMC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, EliteBonusReconShip1 .INSTANCE, EliteBonusReconShip2 .INSTANCE, HeatGenerationMultiplier.INSTANCE, ShipBonusPC1 .INSTANCE, ShipBonusPC2 .INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusAC.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, ShipBonusGC.INSTANCE, ShipBonusCC.INSTANCE, TypeColorScheme.INSTANCE, ShipBonusMC.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EliteBonusReconShip3 .INSTANCE, BaseWarpSpeed.INSTANCE, Damage.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, RequiredSkill5Level.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, RequiredSkill5 .INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, PilotSecurityStatus.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, ConcordRoleBonusSecGain.INSTANCE, InverseCappedSecStatus.INSTANCE, ConcordTankBonus.INSTANCE, WeaponDisruptionResistance.INSTANCE, DurationBonus.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, ATInverseSecStatus.INSTANCE, SpecialBoosterHoldCapacity.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ATcruiserStasisWebifierBonus.INSTANCE, ExplosiveDamageResonance.INSTANCE, ATcruiserScramblerDisruptorBonus.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ATcruiserDroneBonus.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, ShipBonusCC2 .INSTANCE, ShipBonusGC2 .INSTANCE, ShipBonusMC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, FlagCruiserFittingBonusPropMods.INSTANCE, EliteBonusReconShip1 .INSTANCE, EliteBonusReconShip2 .INSTANCE, HeatGenerationMultiplier.INSTANCE, ShipBonusPC1 .INSTANCE, ShipBonusPC2 .INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusAC.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, ShipBonusGC.INSTANCE, ShipBonusCC.INSTANCE, TypeColorScheme.INSTANCE, ShipBonusMC.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE, ShipBonusCC3 .INSTANCE })));
     public static final ForceReconShip.MetaGroup METAGROUP = new ForceReconShip.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  5728 :
+            {
+                return atinversesecstatus;
+            }
+            case  5748 :
+            {
+                return atcruiserdronebonus;
+            }
+            case  5744 :
+            {
+                return atcruiserscramblerdisruptorbonus;
+            }
+            case  5743 :
+            {
+                return atcruiserstasiswebifierbonus;
+            }
             case  2620 :
             {
                 return concordrolebonussecgain;
@@ -570,6 +622,10 @@ public class ForceReconShip
             case  1537 :
             {
                 return elitebonusreconship3;
+            }
+            case  2753 :
+            {
+                return flagcruiserfittingbonuspropmods;
             }
             case  1555 :
             {
@@ -706,6 +762,10 @@ public class ForceReconShip
             case  657 :
             {
                 return shipbonuscc2;
+            }
+            case  1535 :
+            {
+                return shipbonuscc3;
             }
             case  486 :
             {

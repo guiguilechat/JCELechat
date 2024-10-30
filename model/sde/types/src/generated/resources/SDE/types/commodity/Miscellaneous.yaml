@@ -7455,6 +7455,7 @@ types:
     name: YC110.05.29 - Arceho. Student Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7468,6 +7469,7 @@ types:
     name: YC110.06.09 - Asst. Archeo. Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7481,6 +7483,7 @@ types:
     name: YC110.08.20 - Asst. Archeo. Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7494,6 +7497,7 @@ types:
     name: YC110.11.30 - Asst. Archeo. Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7507,6 +7511,7 @@ types:
     name: YC110.12.04 - Asst. Archeo. Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7520,6 +7525,7 @@ types:
     name: YC110.12.10 - Asst. Archeo. Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7533,6 +7539,7 @@ types:
     name: YC113.01.15 - Dr. Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7546,6 +7553,7 @@ types:
     name: YC113.04.15 - Dr. Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7559,6 +7567,49 @@ types:
     name: YC113.05.01 - Dr. Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85721:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85721
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC113.05.24 - Dr. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85722:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85722
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC113.11.09 - Dr. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85723:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85723
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC114.01.19 - Dr. Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 4.0E7
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7572,6 +7623,21 @@ types:
     name: YC115.08.19 - Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85725:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85725
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC117.02.06 - Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7585,6 +7651,7 @@ types:
     name: YC117.02.20 - Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1.0E7
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7598,6 +7665,7 @@ types:
     name: YC117.10.15 - Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
@@ -7611,6 +7679,49 @@ types:
     name: YC117.10.30 - Yosef Okada Journal entry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2.0E7
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85729:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85729
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC117.11.01 - Yosef Okada Journal entry
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85730:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85730
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC117.11.06 - dictated record
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1.5E7
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  85731:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85731
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 1.0
+    name: YC117.11.08 - dictated record
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1.5E7
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
