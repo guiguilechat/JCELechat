@@ -137,7 +137,7 @@ public abstract class SsoFlow {
 				try {
 					dataHolder.put(null);
 				} catch (InterruptedException e1) {
-					throw new UnsupportedOperationException("catch this", e1);
+					throw new RuntimeException(e1);
 				}
 			}
 		});
@@ -190,7 +190,7 @@ public abstract class SsoFlow {
 				try {
 					return new ObjectMapper().writeValueAsString(params);
 				} catch (JsonProcessingException e) {
-					throw new UnsupportedOperationException("catch this", e);
+					throw new RuntimeException(e);
 				}
 			}
 		},
@@ -216,7 +216,7 @@ public abstract class SsoFlow {
 						sb.append("=");
 						sb.append(URLEncoder.encode(entry.getValue(), "UTF-8"));
 					} catch (UnsupportedEncodingException e) {
-						throw new UnsupportedOperationException("catch this", e);
+						throw new RuntimeException(e);
 					}
 				}
 				return sb == null ? "" : sb.toString();
@@ -280,7 +280,7 @@ public abstract class SsoFlow {
 				}
 			}
 		} catch (Exception e) {
-			throw new UnsupportedOperationException("catch this", e);
+			throw new RuntimeException(e);
 		}
 	}
 
