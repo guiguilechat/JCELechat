@@ -62,7 +62,7 @@ public class Manufacture {
 	 *                        (type id, qtty)-&gt; price : function to get the price
 	 *                        of
 	 *                        acquiring a type with a quantity.
-	 * @return the sum of installation cost and
+	 * @return the sum of installation cost and material costs
 	 */
 	public static double minConstructionCost(double eiv, int ME, int runs, Map<Integer, Long> materials,
 			BiFunction<Integer, Integer, Double> typeQttyPrice) {
