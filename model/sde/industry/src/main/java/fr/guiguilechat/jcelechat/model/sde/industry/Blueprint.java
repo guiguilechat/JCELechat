@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
@@ -38,9 +39,11 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		if (cache == null) {
 			try (InputStreamReader reader = new InputStreamReader(
 					Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
-				cache = new Yaml().loadAs(reader, Container.class).blueprints;
+				LoaderOptions options = new LoaderOptions();
+				options.setCodePointLimit(Integer.MAX_VALUE);
+				cache = new Yaml(options).loadAs(reader, Container.class).blueprints;
 			} catch (Exception exception) {
-				throw new UnsupportedOperationException("catch this", exception);
+				throw new RuntimeException(exception);
 			}
 		}
 		return cache;
