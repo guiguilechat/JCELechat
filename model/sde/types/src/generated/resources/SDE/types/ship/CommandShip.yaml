@@ -293,8 +293,7 @@ types:
     cpuoutput: 420
     dronebandwidth: 25
     dronecapacity: 25
-    elitebonuscommandships1: 10.0
-    elitebonuscommandships2: -5.0
+    elitebonuscommandships1: 20.0
     elitebonuscommandships3: 4
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0

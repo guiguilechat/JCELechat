@@ -42871,6 +42871,78 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  85734:
+    id: 85734
+    marketGroup: 3568
+    name: Tholos Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85735:
+    id: 85735
+    marketGroup: 3567
+    name: Cenotaph Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85736:
+    id: 85736
+    marketGroup: 2362
+    name: Enforcer Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85737:
+    id: 85737
+    marketGroup: 2419
+    name: Monitor Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85738:
+    id: 85738
+    marketGroup: 2103
+    name: Drake Navy Issue Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85739:
+    id: 85739
+    marketGroup: 2108
+    name: Scorpion Navy Issue Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85740:
+    id: 85740
+    marketGroup: 2048
+    name: Harpy Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85741:
+    id: 85741
+    marketGroup: 2105
+    name: Nighthawk Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85742:
+    id: 85742
+    marketGroup: 2111
+    name: Widow Empyrean Outlaws SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   85890:
     id: 85890
     marketGroup: 1990
@@ -42963,6 +43035,78 @@ types:
     id: 85932
     marketGroup: 1977
     name: Nidhoggur Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85964:
+    id: 85964
+    marketGroup: 2030
+    name: Cynabal Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85965:
+    id: 85965
+    marketGroup: 2031
+    name: Daredevil Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85966:
+    id: 85966
+    marketGroup: 2030
+    name: Vigilant Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85967:
+    id: 85967
+    marketGroup: 1963
+    name: Vindicator Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85968:
+    id: 85968
+    marketGroup: 2376
+    name: Vendetta Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85969:
+    id: 85969
+    marketGroup: 2380
+    name: Vehement Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85970:
+    id: 85970
+    marketGroup: 2376
+    name: Revenant Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85971:
+    id: 85971
+    marketGroup: 3568
+    name: Tholos Luminae Polaris SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85972:
+    id: 85972
+    marketGroup: 3567
+    name: Cenotaph Luminae Polaris SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

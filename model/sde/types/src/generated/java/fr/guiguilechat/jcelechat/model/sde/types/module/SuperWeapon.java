@@ -73,6 +73,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactorFloor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
@@ -468,13 +469,20 @@ public class SuperWeapon
     @DefaultRealValue(1.0)
     public double speedfactor;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(-99)
+    public int speedfactorfloor;
+    /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType4 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, Radius.INSTANCE, DoomsdayAppliedDBuffDuration.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, SignatureRadius.INSTANCE, EffectDeactivationDelay.INSTANCE, DamageDelayDuration.INSTANCE, DoomsdayEnergyNeutResistanceID.INSTANCE, DisruptionLanceDisallowCloaking.INSTANCE, DisallowDocking.INSTANCE, DisallowInEmpireSpace.INSTANCE, Cpu.INSTANCE, ActivationRequiresActiveSiegeModule.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, JumpDelayDuration.INSTANCE, ConsumptionType.INSTANCE, Duration.INSTANCE, ConsumptionQuantity.INSTANCE, DoomsdayEnergyNeutRadius.INSTANCE, DoomsdayEnergyNeutAmount.INSTANCE, SiegeModeWarpStatus.INSTANCE, DoomsdayEnergyNeutSignatureRadius.INSTANCE, DoomsdayWarningDuration.INSTANCE, DoomsdayDamageRadius.INSTANCE, DoomsdayDamageDuration.INSTANCE, DoomsdayDamageCycleTime.INSTANCE, IsPointTargeted.INSTANCE, DisallowActivateOnWarp.INSTANCE, PanicDuration.INSTANCE, DoomsdayAOERange.INSTANCE, BuffDuration.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, DisallowRepeatingActivation.INSTANCE, ThermalDamage.INSTANCE, MetaLevelOld.INSTANCE, DoomsdayNoJumpOrCloakDuration.INSTANCE, MaxGroupActive.INSTANCE, DoomsdayImmobilityDuration.INSTANCE, DoomsdayAOEShape.INSTANCE, DoomsdayRangeIsFixed.INSTANCE, MaxTypeFitted.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType4 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, Radius.INSTANCE, DoomsdayAppliedDBuffDuration.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, SignatureRadius.INSTANCE, EffectDeactivationDelay.INSTANCE, DamageDelayDuration.INSTANCE, DoomsdayEnergyNeutResistanceID.INSTANCE, DisruptionLanceDisallowCloaking.INSTANCE, DisallowDocking.INSTANCE, DisallowInEmpireSpace.INSTANCE, Cpu.INSTANCE, ActivationRequiresActiveSiegeModule.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, JumpDelayDuration.INSTANCE, ConsumptionType.INSTANCE, Duration.INSTANCE, ConsumptionQuantity.INSTANCE, DoomsdayEnergyNeutRadius.INSTANCE, DoomsdayEnergyNeutAmount.INSTANCE, SiegeModeWarpStatus.INSTANCE, DoomsdayEnergyNeutSignatureRadius.INSTANCE, DoomsdayWarningDuration.INSTANCE, DoomsdayDamageRadius.INSTANCE, DoomsdayDamageDuration.INSTANCE, DoomsdayDamageCycleTime.INSTANCE, SpeedFactorFloor.INSTANCE, IsPointTargeted.INSTANCE, DisallowActivateOnWarp.INSTANCE, PanicDuration.INSTANCE, DoomsdayAOERange.INSTANCE, BuffDuration.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, DisallowRepeatingActivation.INSTANCE, ThermalDamage.INSTANCE, MetaLevelOld.INSTANCE, DoomsdayNoJumpOrCloakDuration.INSTANCE, MaxGroupActive.INSTANCE, DoomsdayImmobilityDuration.INSTANCE, DoomsdayAOEShape.INSTANCE, DoomsdayRangeIsFixed.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final SuperWeapon.MetaGroup METAGROUP = new SuperWeapon.MetaGroup();
 
     @Override
@@ -699,6 +707,10 @@ public class SuperWeapon
             case  20 :
             {
                 return speedfactor;
+            }
+            case  2266 :
+            {
+                return speedfactorfloor;
             }
             case  118 :
             {

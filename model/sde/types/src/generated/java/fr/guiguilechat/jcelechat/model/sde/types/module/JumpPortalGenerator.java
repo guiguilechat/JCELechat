@@ -39,6 +39,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactorFloor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -194,7 +195,14 @@ public class JumpPortalGenerator
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double speedfactor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, JumpPortalPassengerRequiredAttributeID.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(-99)
+    public int speedfactorfloor;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, SpeedFactorFloor.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, JumpPortalPassengerRequiredAttributeID.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final JumpPortalGenerator.MetaGroup METAGROUP = new JumpPortalGenerator.MetaGroup();
 
     @Override
@@ -283,6 +291,10 @@ public class JumpPortalGenerator
             case  20 :
             {
                 return speedfactor;
+            }
+            case  2266 :
+            {
+                return speedfactorfloor;
             }
             default:
             {

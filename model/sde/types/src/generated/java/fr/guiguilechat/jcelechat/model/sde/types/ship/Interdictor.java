@@ -323,8 +323,8 @@ public class Interdictor
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonuscd1;
+    @DefaultRealValue(0.0)
+    public double shipbonuscd1;
     /**
      * 
      */

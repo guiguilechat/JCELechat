@@ -44,6 +44,7 @@ types:
     entityreactionfactor: 0.8999999761581421
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 1.2999999523162842
+    entitywarpscramblechance: 1.0
     falloff: 25000.0
     fighterabilityanticapitalmissileresistance: 1
     gfxboosterid: 394
@@ -131,6 +132,7 @@ types:
     entityreactionfactor: 0.8999999761581421
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 1.399999976158142
+    entitywarpscramblechance: 1.0
     falloff: 25000.0
     fighterabilityanticapitalmissileresistance: 1
     gfxboosterid: 394

@@ -53,6 +53,7 @@ types:
     siegetorpedovelocitybonus: 150
     siegeturretdamagebonus: 840
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 2
     volume: 4000.0
     weapondisruptionresistancebonus: -70
@@ -111,6 +112,7 @@ types:
     siegeremotelogisticsdurationbonus: -75
     siegeremotelogisticsrangebonus: 200
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 2
     volume: 4000.0
   20280:
@@ -166,6 +168,7 @@ types:
     siegetorpedovelocitybonus: 150
     siegeturretdamagebonus: 700
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 1
     volume: 4000.0
     weapondisruptionresistancebonus: -60
@@ -223,6 +226,7 @@ types:
     siegeremotelogisticsdurationbonus: -75
     siegeremotelogisticsrangebonus: 200
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 1
     volume: 4000.0
   28583:
@@ -281,6 +285,7 @@ types:
     siegemassmultiplier: 10
     siegemodewarpstatus: 100
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 1
     volume: 4000.0
   33400:
@@ -338,6 +343,7 @@ types:
     shieldthermaldamageresonance: 0.699999988079071
     siegemodewarpstatus: 100
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 1
     volume: 200.0
   42890:
@@ -398,6 +404,7 @@ types:
     siegemassmultiplier: 10
     siegemodewarpstatus: 100
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 2
     volume: 4000.0
   56313:
@@ -427,6 +434,7 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     speedfactor: 1.0
+    speedfactorfloor: -99
     techlevel: 1
     volume: 4000.0
   58945:
@@ -482,6 +490,7 @@ types:
     siegemassmultiplier: 10
     siegemodewarpstatus: 100
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 1
     volume: 3500.0
   58950:
@@ -537,6 +546,7 @@ types:
     siegemassmultiplier: 10
     siegemodewarpstatus: 100
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 2
     volume: 3500.0
   62590:
@@ -592,6 +602,7 @@ types:
     siegemassmultiplier: 10
     siegemodewarpstatus: 100
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 1
     volume: 3500.0
   62591:
@@ -647,5 +658,6 @@ types:
     siegemassmultiplier: 10
     siegemodewarpstatus: 100
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 2
     volume: 3500.0

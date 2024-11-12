@@ -9,6 +9,7 @@ types:
     price: 20000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1131:
     id: 1131
@@ -20,6 +21,7 @@ types:
     price: 30000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1132:
     id: 1132
@@ -31,6 +33,7 @@ types:
     price: 40000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1133:
     id: 1133
@@ -42,6 +45,7 @@ types:
     price: 50000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1134:
     id: 1134
@@ -53,6 +57,7 @@ types:
     price: 60000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1135:
     id: 1135
@@ -64,6 +69,7 @@ types:
     price: 70000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1136:
     id: 1136
@@ -75,6 +81,7 @@ types:
     price: 80000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1137:
     id: 1137
@@ -86,6 +93,7 @@ types:
     price: 100000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1138:
     id: 1138
@@ -97,6 +105,7 @@ types:
     price: 80000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1139:
     id: 1139
@@ -108,6 +117,7 @@ types:
     price: 110000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1140:
     id: 1140
@@ -119,6 +129,7 @@ types:
     price: 150000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1141:
     id: 1141
@@ -130,6 +141,7 @@ types:
     price: 175000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1142:
     id: 1142
@@ -141,6 +153,7 @@ types:
     price: 225000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1143:
     id: 1143
@@ -152,6 +165,7 @@ types:
     price: 275000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1144:
     id: 1144
@@ -163,6 +177,7 @@ types:
     price: 325000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1145:
     id: 1145
@@ -174,6 +189,7 @@ types:
     price: 400000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1146:
     id: 1146
@@ -185,6 +201,7 @@ types:
     price: 200000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1147:
     id: 1147
@@ -196,6 +213,7 @@ types:
     price: 300000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1148:
     id: 1148
@@ -207,6 +225,7 @@ types:
     price: 400000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1149:
     id: 1149
@@ -218,6 +237,7 @@ types:
     price: 500000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1150:
     id: 1150
@@ -229,6 +249,7 @@ types:
     price: 600000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1151:
     id: 1151
@@ -240,6 +261,7 @@ types:
     price: 700000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1152:
     id: 1152
@@ -251,6 +273,7 @@ types:
     price: 800000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   1153:
     id: 1153
@@ -262,6 +285,7 @@ types:
     price: 1000000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   17649:
     id: 17649
@@ -273,6 +297,7 @@ types:
     price: 1.0E7
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   17651:
     id: 17651
@@ -284,6 +309,7 @@ types:
     price: 4000000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   17653:
     id: 17653
@@ -295,6 +321,7 @@ types:
     price: 2000000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   17655:
     id: 17655
@@ -306,6 +333,7 @@ types:
     price: 5000000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   17657:
     id: 17657
@@ -317,6 +345,7 @@ types:
     price: 8000000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   17659:
     id: 17659
@@ -328,6 +357,7 @@ types:
     price: 6000000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   17661:
     id: 17661
@@ -339,6 +369,7 @@ types:
     price: 3000000.0
     published: true
     radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   17663:
     id: 17663
@@ -350,4 +381,27 @@ types:
     price: 7000000.0
     published: true
     radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  86176:
+    id: 86176
+    mass: 1.0
+    name: SCARAB Breacher Pod S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  86177:
+    id: 86177
+    mass: 1.0
+    name: SCARAB Breacher Pod M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582

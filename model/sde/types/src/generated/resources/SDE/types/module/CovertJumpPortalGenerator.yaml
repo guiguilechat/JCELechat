@@ -30,5 +30,6 @@ types:
     requiredskill1level: 1
     siegemodewarpstatus: 100
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 1
     volume: 125.0

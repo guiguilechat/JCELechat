@@ -51,6 +51,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityDefenderChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityGroupRespawnChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
@@ -61,6 +62,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityMaxGain;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityShieldBoostAmountPerSecond;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityShieldBoostDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityWarpScrambleChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiCapitalMissileResistance;
@@ -369,6 +371,13 @@ public class AsteroidRogueDroneCarrier
     @DefaultIntValue(0)
     public int entityequipmentmin;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entityfactionloss;
+    /**
      * The distance at which the entity orbits, follows.. and more.
      */
     @HighIsGood(true)
@@ -439,6 +448,13 @@ public class AsteroidRogueDroneCarrier
     @Stackable(true)
     @DefaultIntValue(10000)
     public int entityshieldboostduration;
+    /**
+     * Chance of entity warp scrambling it's target.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entitywarpscramblechance;
     /**
      * Explosive damage done.
      */
@@ -706,7 +722,7 @@ public class AsteroidRogueDroneCarrier
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, EntityGroupRespawnChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, AIShouldUseEvasiveManeuver.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EnergyNeutralizerDuration.INSTANCE, Speed.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, AIIgnoreDronesBelowSignatureRadius.INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanLadarStrength.INSTANCE, EntityReactionFactor.INSTANCE, DisallowAssistance.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EntityKillBounty.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityShieldBoostAmountPerSecond.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, EntityDefenderChance.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, EmDamage.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, AITankingModifierDrone.INSTANCE, IsCapitalSize.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, EntityGroupRespawnChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, AIShouldUseEvasiveManeuver.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EnergyNeutralizerDuration.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, AIIgnoreDronesBelowSignatureRadius.INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanLadarStrength.INSTANCE, EntityReactionFactor.INSTANCE, DisallowAssistance.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EntityKillBounty.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityShieldBoostAmountPerSecond.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, EntityDefenderChance.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, EmDamage.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, AITankingModifierDrone.INSTANCE, EntityWarpScrambleChance.INSTANCE, IsCapitalSize.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final AsteroidRogueDroneCarrier.MetaGroup METAGROUP = new AsteroidRogueDroneCarrier.MetaGroup();
 
     @Override
@@ -860,6 +876,10 @@ public class AsteroidRogueDroneCarrier
             {
                 return entityequipmentmin;
             }
+            case  562 :
+            {
+                return entityfactionloss;
+            }
             case  416 :
             {
                 return entityflyrange;
@@ -899,6 +919,10 @@ public class AsteroidRogueDroneCarrier
             case  636 :
             {
                 return entityshieldboostduration;
+            }
+            case  504 :
+            {
+                return entitywarpscramblechance;
             }
             case  116 :
             {

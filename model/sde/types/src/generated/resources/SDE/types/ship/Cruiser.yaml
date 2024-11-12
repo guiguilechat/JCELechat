@@ -1957,6 +1957,7 @@ types:
     shipbonusgc: 5.0
     shipbonusmc: -7.5
     shipbonusmc2: 10.0
+    shipbonusmc3: 5
     shipbonusuc1: 1.0
     shipbonusuc2: 1
     signatureradius: 100.0
@@ -2849,7 +2850,7 @@ types:
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   29344:
-    agility: 0.4000000059604645
+    agility: 0.4399999976158142
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1950.0
@@ -2894,7 +2895,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 760
     maxtargetrange: 47500.0
-    maxvelocity: 280.0
+    maxvelocity: 270.0
     medslots: 4
     metagroupid: 4
     metalevelold: 7
@@ -2925,11 +2926,11 @@ types:
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 20.0
-    shipbonusgc2: 10.0
+    shipbonusgc2: 7.5
     shipbonusgc3: -15.0
     shipbonusuc1: 1.0
     shipbonusuc2: 1
-    signatureradius: 110.0
+    signatureradius: 120.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1

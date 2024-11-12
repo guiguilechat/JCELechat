@@ -26,6 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.EncounterSurveillanceSystem;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.FWListeningOutpost;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.FWPropagandaBroadcastStructure;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MercenaryDen;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileAnalysisBeacon;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileCynoInhibitor;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileCynosuralBeacon;
@@ -191,7 +192,7 @@ public abstract class Deployable
 
         @Override
         public Collection<IMetaGroup<? extends Deployable>> groups() {
-            return Arrays.asList(MobileObservatory.METAGROUP, MobileAnalysisBeacon.METAGROUP, MobileWarpDisruptor.METAGROUP, FWPropagandaBroadcastStructure.METAGROUP, FWListeningOutpost.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP, MobileCynosuralBeacon.METAGROUP);
+            return Arrays.asList(MobileObservatory.METAGROUP, MobileAnalysisBeacon.METAGROUP, MobileWarpDisruptor.METAGROUP, FWPropagandaBroadcastStructure.METAGROUP, FWListeningOutpost.METAGROUP, MercenaryDen.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP, MobileCynosuralBeacon.METAGROUP);
         }
     }
 }

@@ -44,6 +44,7 @@ types:
     entitysecuritystatuskillbonus: 1.600000023841858
     entityshieldboostamountpersecond: 2000.0
     entityshieldboostduration: 10000
+    entitywarpscramblechance: 1.0
     fighterabilityanticapitalmissileresistance: 1
     gfxboosterid: 395
     gfxturretid: 37293

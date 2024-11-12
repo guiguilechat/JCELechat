@@ -26,6 +26,7 @@ types:
     requiredskill1level: 1
     siegemodewarpstatus: 100
     speedfactor: -100.0
+    speedfactorfloor: -100
     techlevel: 1
     volume: 4000.0
   56735:
@@ -53,5 +54,6 @@ types:
     requiredskill1level: 3
     siegemodewarpstatus: 100
     speedfactor: 1.0
+    speedfactorfloor: -99
     techlevel: 1
     volume: 4000.0

@@ -4089,3 +4089,66 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  86270:
+    cpumultiplier: 1.0
+    id: 86270
+    marketGroup: 1661
+    name: Tholos Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  86271:
+    cpumultiplier: 1.0
+    id: 86271
+    marketGroup: 1661
+    name: Cenotaph Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  86272:
+    cpumultiplier: 1.0
+    id: 86272
+    marketGroup: 1661
+    name: SCARAB Breacher Pod S Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  86273:
+    cpumultiplier: 1.0
+    id: 86273
+    marketGroup: 1661
+    name: SCARAB Breacher Pod M Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  86274:
+    cpumultiplier: 1.0
+    id: 86274
+    marketGroup: 1661
+    name: Small Breacher Pod Launcher Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  86275:
+    cpumultiplier: 1.0
+    id: 86275
+    marketGroup: 1661
+    name: Medium Breacher Pod Launcher Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  86276:
+    cpumultiplier: 1.0
+    id: 86276
+    marketGroup: 1661
+    name: '''Seneschal'' Mercenary Den Blueprint Crate'
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

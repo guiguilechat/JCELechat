@@ -103,3 +103,19 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  86227:
+    id: 86227
+    mass: 1.0
+    name: Brand Manager Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  86393:
+    id: 86393
+    mass: 1.0
+    name: Deathless Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

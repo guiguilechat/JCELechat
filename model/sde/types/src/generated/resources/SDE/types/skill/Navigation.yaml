@@ -235,7 +235,6 @@ types:
     volume: 0.009999999776482582
   83094:
     cannotbetrainedontrial: 1
-    conduitpassengerbonuspercent: 100
     id: 83094
     marketGroup: 374
     name: Capital Jump Portal Generation

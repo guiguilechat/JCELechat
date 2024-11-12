@@ -1,6 +1,8 @@
 types:
   3319:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 3319
     marketGroup: 373
     name: Missile Launcher Operation
@@ -18,6 +20,8 @@ types:
   3320:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 3320
     marketGroup: 373
     name: Rockets
@@ -36,6 +40,8 @@ types:
   3321:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 3321
     marketGroup: 373
     name: Light Missiles
@@ -54,6 +60,8 @@ types:
   3322:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 3322
     marketGroup: 373
     name: Auto-Targeting Missiles
@@ -71,6 +79,8 @@ types:
     volume: 0.009999999776482582
   3323:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 3323
     marketGroup: 373
     missilevelocitybonus: 10.0
@@ -88,6 +98,8 @@ types:
   3324:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 3324
     marketGroup: 373
     name: Heavy Missiles
@@ -108,6 +120,8 @@ types:
   3325:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 3325
     marketGroup: 373
     name: Torpedoes
@@ -128,6 +142,8 @@ types:
   3326:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 3326
     marketGroup: 373
     name: Cruise Missiles
@@ -147,6 +163,8 @@ types:
     volume: 0.009999999776482582
   12441:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 12441
     marketGroup: 373
     maxflighttimebonus: 10
@@ -165,6 +183,8 @@ types:
     volume: 0.009999999776482582
   12442:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 12442
     marketGroup: 373
     name: Missile Projection
@@ -182,6 +202,8 @@ types:
     volume: 0.009999999776482582
   20209:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 20209
     marketGroup: 373
     name: Rocket Specialization
@@ -202,6 +224,8 @@ types:
     volume: 0.009999999776482582
   20210:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 20210
     marketGroup: 373
     name: Light Missile Specialization
@@ -222,6 +246,8 @@ types:
     volume: 0.009999999776482582
   20211:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 20211
     marketGroup: 373
     name: Heavy Missile Specialization
@@ -242,6 +268,8 @@ types:
     volume: 0.009999999776482582
   20212:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 20212
     marketGroup: 373
     name: Cruise Missile Specialization
@@ -262,6 +290,8 @@ types:
     volume: 0.009999999776482582
   20213:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 20213
     marketGroup: 373
     name: Torpedo Specialization
@@ -283,6 +313,8 @@ types:
   20312:
     aoecloudsizebonus: -5.0
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 20312
     marketGroup: 373
     name: Guided Missile Precision
@@ -301,6 +333,8 @@ types:
   20314:
     aoevelocitybonus: 10.0
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 20314
     marketGroup: 373
     name: Target Navigation Prediction
@@ -319,6 +353,8 @@ types:
   20315:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 20315
     marketGroup: 373
     name: Warhead Upgrades
@@ -336,6 +372,8 @@ types:
     volume: 0.009999999776482582
   21071:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 21071
     marketGroup: 373
     name: Rapid Launch
@@ -355,6 +393,8 @@ types:
   21668:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 21668
     marketGroup: 373
     name: XL Torpedoes
@@ -374,6 +414,8 @@ types:
     volume: 0.009999999776482582
   25718:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 25718
     marketGroup: 373
     name: Heavy Assault Missile Specialization
@@ -395,6 +437,8 @@ types:
   25719:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 25719
     marketGroup: 373
     name: Heavy Assault Missiles
@@ -414,6 +458,8 @@ types:
     volume: 0.009999999776482582
   28073:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 28073
     marketGroup: 373
     name: Bomb Deployment
@@ -433,6 +479,8 @@ types:
   32435:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 32435
     marketGroup: 373
     name: XL Cruise Missiles
@@ -452,6 +500,8 @@ types:
     volume: 0.009999999776482582
   41409:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 41409
     marketGroup: 373
     name: XL Torpedo Specialization
@@ -472,6 +522,8 @@ types:
     volume: 0.009999999776482582
   41410:
     cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
     id: 41410
     marketGroup: 373
     name: XL Cruise Missile Specialization
@@ -488,5 +540,104 @@ types:
     rofbonus: -2
     secondaryattribute: 168
     skilltimeconstant: 10.0
+    speedfactor: 1.0
+    volume: 0.009999999776482582
+  86260:
+    cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 5
+    id: 86260
+    marketGroup: 373
+    name: Breacher Pod Launcher Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 250000.0
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 3
+    requiredskill2: 24242
+    requiredskill2level: 1
+    secondaryattribute: 164
+    skilltimeconstant: 3.0
+    speedfactor: 1.0
+    volume: 0.009999999776482582
+  86261:
+    cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 5
+    dotmaxhppercentagepertickbonus: 1
+    id: 86261
+    marketGroup: 373
+    name: Breacher Pod Clone Efficacity
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 250000.0
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 86260
+    requiredskill1level: 1
+    secondaryattribute: 164
+    skilltimeconstant: 5.0
+    speedfactor: 1.0
+    volume: 0.009999999776482582
+  86262:
+    cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
+    durationbonus: 10
+    id: 86262
+    marketGroup: 373
+    name: Breacher Pod Clone Longevity
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 250000.0
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 86260
+    requiredskill1level: 3
+    secondaryattribute: 164
+    skilltimeconstant: 7.0
+    speedfactor: 1.0
+    volume: 0.009999999776482582
+  86263:
+    cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
+    id: 86263
+    marketGroup: 373
+    name: Breacher Pod Projection
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 250000.0
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 86260
+    requiredskill1level: 2
+    secondaryattribute: 164
+    skilltimeconstant: 5.0
+    speedfactor: 10.0
+    volume: 0.009999999776482582
+  86264:
+    cannotbetrainedontrial: 1
+    dotmaxdamagepertickbonus: 1
+    dotmaxhppercentagepertickbonus: 1
+    id: 86264
+    marketGroup: 373
+    name: Breacher Pod Rapid Firing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 250000.0
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 86260
+    requiredskill1level: 2
+    rofbonus: -10
+    secondaryattribute: 164
+    skilltimeconstant: 5.0
     speedfactor: 1.0
     volume: 0.009999999776482582

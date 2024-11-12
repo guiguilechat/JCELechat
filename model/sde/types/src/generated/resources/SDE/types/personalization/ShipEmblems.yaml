@@ -3929,3 +3929,23 @@ types:
     name: Torrent Corporation Emblem
     portionSize: 1
     published: true
+  85418:
+    id: 85418
+    name: Tholos Corporation Emblem
+    portionSize: 1
+    published: true
+  85419:
+    id: 85419
+    name: Tholos Alliance Emblem
+    portionSize: 1
+    published: true
+  85435:
+    id: 85435
+    name: Cenotaph Corporation Emblem
+    portionSize: 1
+    published: true
+  85437:
+    id: 85437
+    name: Cenotaph Alliance Emblem
+    portionSize: 1
+    published: true

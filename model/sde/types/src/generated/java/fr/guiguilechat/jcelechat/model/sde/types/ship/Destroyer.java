@@ -26,6 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CovertOpsAndReconOpsCloakModuleDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
@@ -151,6 +152,13 @@ import org.yaml.snakeyaml.Yaml;
 public class Destroyer
     extends Ship
 {
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(30000)
+    public int covertopsandreconopscloakmoduledelay;
     /**
      * 
      */
@@ -346,8 +354,8 @@ public class Destroyer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonuscd1;
+    @DefaultRealValue(0.0)
+    public double shipbonuscd1;
     /**
      * 
      */
@@ -621,12 +629,16 @@ public class Destroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, RookieDroneBonus.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, MaxRangeBonus.INSTANCE, ShipBonusAD1 .INSTANCE, ShipBonusAD2 .INSTANCE, ShipBonusABC2 .INSTANCE, ShipBonusNavyDestroyerAmarr1 .INSTANCE, ShipBonusNavyDestroyerAmarr2 .INSTANCE, ShipBonusNavyDestroyerAmarr3 .INSTANCE, ShipBonusNavyDestroyerAmarr4 .INSTANCE, LauncherSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr5 .INSTANCE, TurretSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr6 .INSTANCE, ShipBonusNavyDestroyerAmarr7 .INSTANCE, ShipBonusNavyDestroyerCaldari1 .INSTANCE, ShipBonusNavyDestroyerCaldari5 .INSTANCE, ShipBonusNavyDestroyerCaldari4 .INSTANCE, ShipBonusNavyDestroyerCaldari2 .INSTANCE, UpgradeCapacity.INSTANCE, ShipBonusNavyDestroyerCaldari3 .INSTANCE, KineticDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente1 .INSTANCE, ThermalDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente5 .INSTANCE, ExplosiveDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente2 .INSTANCE, RigSlots.INSTANCE, ShipBonusNavyDestroyerGallente3 .INSTANCE, EmDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente4 .INSTANCE, ShipBonusNavyDestroyerMinmatar1 .INSTANCE, ShipBonusNavyDestroyerMinmatar2 .INSTANCE, ShipBonusNavyDestroyerMinmatar3 .INSTANCE, ShipBonusNavyDestroyerMinmatar4 .INSTANCE, ShipBonusNavyDestroyerMinmatar5 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShipBonusMD1 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusCD1 .INSTANCE, ShipBonusCD2 .INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusGD1 .INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusGD2 .INSTANCE, ShipBonusMD2 .INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusPD1 .INSTANCE, ShipBonusPD2 .INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE, TrackingSpeedBonus.INSTANCE, ShipScanResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, RookieDroneBonus.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, MaxRangeBonus.INSTANCE, ShipBonusAD1 .INSTANCE, ShipBonusAD2 .INSTANCE, ShipBonusABC2 .INSTANCE, ShipBonusNavyDestroyerAmarr1 .INSTANCE, ShipBonusNavyDestroyerAmarr2 .INSTANCE, ShipBonusNavyDestroyerAmarr3 .INSTANCE, ShipBonusNavyDestroyerAmarr4 .INSTANCE, LauncherSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr5 .INSTANCE, TurretSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr6 .INSTANCE, ShipBonusNavyDestroyerAmarr7 .INSTANCE, ShipBonusNavyDestroyerCaldari1 .INSTANCE, ShipBonusNavyDestroyerCaldari5 .INSTANCE, ShipBonusNavyDestroyerCaldari4 .INSTANCE, ShipBonusNavyDestroyerCaldari2 .INSTANCE, UpgradeCapacity.INSTANCE, ShipBonusNavyDestroyerCaldari3 .INSTANCE, KineticDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente1 .INSTANCE, ThermalDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente5 .INSTANCE, ExplosiveDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente2 .INSTANCE, RigSlots.INSTANCE, ShipBonusNavyDestroyerGallente3 .INSTANCE, EmDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente4 .INSTANCE, ShipBonusNavyDestroyerMinmatar1 .INSTANCE, ShipBonusNavyDestroyerMinmatar2 .INSTANCE, ShipBonusNavyDestroyerMinmatar3 .INSTANCE, ShipBonusNavyDestroyerMinmatar4 .INSTANCE, ShipBonusNavyDestroyerMinmatar5 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShipBonusMD1 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusCD1 .INSTANCE, ShipBonusCD2 .INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusGD1 .INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusGD2 .INSTANCE, ShipBonusMD2 .INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusPD1 .INSTANCE, ShipBonusPD2 .INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE, TrackingSpeedBonus.INSTANCE, ShipScanResistance.INSTANCE })));
     public static final Destroyer.MetaGroup METAGROUP = new Destroyer.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  1034 :
+            {
+                return covertopsandreconopscloakmoduledelay;
+            }
             case  1555 :
             {
                 return fwlpkill;

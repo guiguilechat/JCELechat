@@ -17,3 +17,107 @@ types:
     price: 100000.0
     published: true
     volume: 0.20000000298023224
+  85390:
+    id: 85390
+    marketGroup: 2479
+    name: Armor Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85391:
+    id: 85391
+    marketGroup: 2479
+    name: Astronautic Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85392:
+    id: 85392
+    marketGroup: 2479
+    name: Damage Control Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85393:
+    id: 85393
+    marketGroup: 2479
+    name: Stasis Webifier Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85394:
+    id: 85394
+    marketGroup: 2479
+    name: Warp Disruption Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85395:
+    id: 85395
+    marketGroup: 2479
+    name: Weapon Upgrade Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85396:
+    id: 85396
+    marketGroup: 2479
+    name: Drone Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85397:
+    id: 85397
+    marketGroup: 2479
+    name: Small Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85398:
+    id: 85398
+    marketGroup: 2479
+    name: Medium Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85399:
+    id: 85399
+    marketGroup: 2479
+    name: Large Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85400:
+    id: 85400
+    marketGroup: 2479
+    name: X-Large Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85401:
+    id: 85401
+    marketGroup: 2479
+    name: Engineering Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  85402:
+    id: 85402
+    marketGroup: 2479
+    name: Shield Mutaplasmid Residue
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

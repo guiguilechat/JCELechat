@@ -630,3 +630,27 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
+  86178:
+    id: 86178
+    industryblueprintrank: 3.0
+    marketGroup: 340
+    name: Medium Breacher Pod Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 60000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  86179:
+    id: 86179
+    industryblueprintrank: 3.0
+    marketGroup: 340
+    name: Small Breacher Pod Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 60000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

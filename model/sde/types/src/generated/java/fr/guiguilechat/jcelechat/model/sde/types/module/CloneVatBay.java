@@ -39,6 +39,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactorFloor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -194,7 +195,14 @@ public class CloneVatBay
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double speedfactor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, AllowsCloneJumpsWhenActive.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, ReclonerFuelQuantity.INSTANCE, DeadspaceUnsafe.INSTANCE, ReclonerFuelType.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(-99)
+    public int speedfactorfloor;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, AllowsCloneJumpsWhenActive.INSTANCE, SpeedFactorFloor.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, ReclonerFuelQuantity.INSTANCE, DeadspaceUnsafe.INSTANCE, ReclonerFuelType.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CloneVatBay.MetaGroup METAGROUP = new CloneVatBay.MetaGroup();
 
     @Override
@@ -283,6 +291,10 @@ public class CloneVatBay
             case  20 :
             {
                 return speedfactor;
+            }
+            case  2266 :
+            {
+                return speedfactorfloor;
             }
             default:
             {

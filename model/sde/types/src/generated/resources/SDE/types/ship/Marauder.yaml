@@ -8,9 +8,6 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
-    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
-    battleshipextenderhpbonus: 100
-    battleshipplatehpbonus: 50
     capacitorcapacity: 7500.0
     capacity: 1125.0
     cpuoutput: 530
@@ -107,9 +104,6 @@ types:
     armorthermaldamageresonance: 0.5687500238418579
     armoruniformity: 0.75
     basewarpspeed: 1
-    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
-    battleshipextenderhpbonus: 100
-    battleshipplatehpbonus: 50
     capacitorcapacity: 8000.0
     capacity: 1275.0
     cpuoutput: 580
@@ -207,12 +201,9 @@ types:
     armorthermaldamageresonance: 0.5687500238418579
     armoruniformity: 0.75
     basewarpspeed: 1
-    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
-    battleshipextenderhpbonus: 100
-    battleshipplatehpbonus: 50
     capacitorcapacity: 6200.0
     capacity: 1150.0
-    cpuoutput: 625
+    cpuoutput: 600
     dronebandwidth: 50
     dronecapacity: 75
     elitebonusviolators1: 7.5
@@ -281,7 +272,7 @@ types:
     shielduniformity: 0.75
     shipbonusab: 5.0
     shipbonuscb: 5
-    shipbonusmb: 10.0
+    shipbonusmb: 7.5
     shipbonusmb2: 7.5
     signatureradius: 360.0
     stasiswebifierresistance: 1.0
@@ -306,9 +297,6 @@ types:
     armorthermaldamageresonance: 0.4124999940395355
     armoruniformity: 0.75
     basewarpspeed: 1
-    battleshipbulkheadhpmodifierbonus: 0.05000000074505806
-    battleshipextenderhpbonus: 100
-    battleshipplatehpbonus: 50
     capacitorcapacity: 6325.0
     capacity: 1225.0
     cpuoutput: 715

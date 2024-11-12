@@ -2641,7 +2641,6 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Imperial Navy Revelation
-    npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 40000
     packagedVolume: 1.85E7
     portionSize: 1
@@ -2718,7 +2717,7 @@ types:
     maxtargetrange: 85000.0
     maxvelocity: 165.0
     missiledamagemultiplier: 8.600000381469727
-    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
     missileentityflighttimemultiplier: 2.799999952316284
     missileentityvelocitymultiplier: 2.299999952316284

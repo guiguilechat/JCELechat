@@ -395,3 +395,14 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  85180:
+    id: 85180
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
+    name: Cenotaph Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

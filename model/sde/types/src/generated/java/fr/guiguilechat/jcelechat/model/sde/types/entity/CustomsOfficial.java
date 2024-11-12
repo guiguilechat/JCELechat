@@ -83,6 +83,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonan
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactorFloor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
@@ -584,6 +585,13 @@ public class CustomsOfficial
     @DefaultRealValue(1.0)
     public double speedfactor;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(-99)
+    public int speedfactorfloor;
+    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -632,7 +640,7 @@ public class CustomsOfficial
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityTargetJam.INSTANCE, ECMDuration.INSTANCE, Radius.INSTANCE, ECMEntityChance.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, Speed.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, ECMRangeFalloff.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, Duration.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ContrabandDetectionChance.INSTANCE, ContrabandScanChance.INSTANCE, DisallowAssistance.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStatus.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, EntityDefenderChance.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, GfxTurretID.INSTANCE, KineticDamage.INSTANCE, GfxBoosterID.INSTANCE, ThermalDamage.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, EntityLootValueMin.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityCruiseSpeed.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityTargetJam.INSTANCE, ECMDuration.INSTANCE, Radius.INSTANCE, ECMEntityChance.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, Speed.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, ECMRangeFalloff.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, Duration.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ContrabandDetectionChance.INSTANCE, ContrabandScanChance.INSTANCE, DisallowAssistance.INSTANCE, PropulsionGraphicID.INSTANCE, SpeedFactorFloor.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStatus.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, EntityDefenderChance.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, GfxTurretID.INSTANCE, KineticDamage.INSTANCE, GfxBoosterID.INSTANCE, ThermalDamage.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, EntityLootValueMin.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final CustomsOfficial.MetaGroup METAGROUP = new CustomsOfficial.MetaGroup();
 
     @Override
@@ -913,6 +921,10 @@ public class CustomsOfficial
             case  20 :
             {
                 return speedfactor;
+            }
+            case  2266 :
+            {
+                return speedfactorfloor;
             }
             case  525 :
             {

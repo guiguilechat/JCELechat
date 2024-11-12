@@ -149,7 +149,7 @@ public class CapturePoint
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, CaptureProximityInteractivesOnly.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, KineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Charge.INSTANCE, EntityFactionLoss.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, CaptureProximityRange.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, CaptureProximityInteractivesOnly.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, StructureUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Charge.INSTANCE, EntityFactionLoss.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, CaptureProximityRange.INSTANCE })));
     public static final CapturePoint.MetaGroup METAGROUP = new CapturePoint.MetaGroup();
 
     @Override

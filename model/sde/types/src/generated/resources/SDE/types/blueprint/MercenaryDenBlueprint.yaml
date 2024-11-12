@@ -1,0 +1,23 @@
+types:
+  85232:
+    id: 85232
+    industryblueprintrank: 40.0
+    marketGroup: 3681
+    name: Mercenary Den Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  86180:
+    id: 86180
+    industryblueprintrank: 40.0
+    marketGroup: 3681
+    name: '''Seneschal'' Mercenary Den Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.0E7
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

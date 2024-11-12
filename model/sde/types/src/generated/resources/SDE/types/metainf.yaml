@@ -15260,7 +15260,6 @@ id2group:
   33078: skill/Armor
   33079: ship/Corvette
   33081: ship/Corvette
-  33082: blueprint/FrigateBlueprint
   33083: ship/Corvette
   33087: implant/Booster
   33088: blueprint/BoosterBlueprints
@@ -30418,32 +30417,122 @@ id2group:
   82318: asteroid/Griemeer
   82319: asteroid/Griemeer
   82340: personalization/ShipSKINDesignElement
+  82342: personalization/ShipSKINDesignElement
+  82343: personalization/ShipSKINDesignElement
   82344: personalization/ShipSKINDesignElement
   82345: personalization/ShipSKINDesignElement
+  82346: personalization/ShipSKINDesignElement
+  82347: personalization/ShipSKINDesignElement
+  82348: personalization/ShipSKINDesignElement
   82349: personalization/ShipSKINDesignElement
+  82350: personalization/ShipSKINDesignElement
+  82351: personalization/ShipSKINDesignElement
+  82352: personalization/ShipSKINDesignElement
   82353: personalization/ShipSKINDesignElement
+  82354: personalization/ShipSKINDesignElement
+  82355: personalization/ShipSKINDesignElement
   82356: personalization/ShipSKINDesignElement
+  82357: personalization/ShipSKINDesignElement
   82358: personalization/ShipSKINDesignElement
+  82359: personalization/ShipSKINDesignElement
+  82360: personalization/ShipSKINDesignElement
+  82361: personalization/ShipSKINDesignElement
+  82362: personalization/ShipSKINDesignElement
+  82363: personalization/ShipSKINDesignElement
+  82364: personalization/ShipSKINDesignElement
+  82365: personalization/ShipSKINDesignElement
+  82366: personalization/ShipSKINDesignElement
   82367: personalization/ShipSKINDesignElement
+  82368: personalization/ShipSKINDesignElement
+  82369: personalization/ShipSKINDesignElement
+  82370: personalization/ShipSKINDesignElement
+  82371: personalization/ShipSKINDesignElement
+  82372: personalization/ShipSKINDesignElement
+  82373: personalization/ShipSKINDesignElement
+  82374: personalization/ShipSKINDesignElement
   82375: personalization/ShipSKINDesignElement
+  82376: personalization/ShipSKINDesignElement
+  82377: personalization/ShipSKINDesignElement
   82378: personalization/ShipSKINDesignElement
+  82379: personalization/ShipSKINDesignElement
+  82380: personalization/ShipSKINDesignElement
+  82381: personalization/ShipSKINDesignElement
+  82382: personalization/ShipSKINDesignElement
+  82383: personalization/ShipSKINDesignElement
+  82384: personalization/ShipSKINDesignElement
   82385: personalization/ShipSKINDesignElement
+  82386: personalization/ShipSKINDesignElement
+  82387: personalization/ShipSKINDesignElement
+  82388: personalization/ShipSKINDesignElement
+  82389: personalization/ShipSKINDesignElement
+  82390: personalization/ShipSKINDesignElement
+  82391: personalization/ShipSKINDesignElement
   82392: personalization/ShipSKINDesignElement
+  82393: personalization/ShipSKINDesignElement
+  82394: personalization/ShipSKINDesignElement
+  82395: personalization/ShipSKINDesignElement
+  82396: personalization/ShipSKINDesignElement
   82397: personalization/ShipSKINDesignElement
+  82398: personalization/ShipSKINDesignElement
   82432: specialeditionassets/SpecialEditionCommodities
   82433: personalization/ShipSKINDesignElement
+  82434: personalization/ShipSKINDesignElement
+  82435: personalization/ShipSKINDesignElement
   82436: personalization/ShipSKINDesignElement
   82437: personalization/ShipSKINDesignElement
+  82438: personalization/ShipSKINDesignElement
+  82439: personalization/ShipSKINDesignElement
+  82440: personalization/ShipSKINDesignElement
   82441: personalization/ShipSKINDesignElement
+  82442: personalization/ShipSKINDesignElement
+  82443: personalization/ShipSKINDesignElement
+  82444: personalization/ShipSKINDesignElement
   82445: personalization/ShipSKINDesignElement
+  82446: personalization/ShipSKINDesignElement
+  82447: personalization/ShipSKINDesignElement
   82448: personalization/ShipSKINDesignElement
+  82449: personalization/ShipSKINDesignElement
   82450: personalization/ShipSKINDesignElement
+  82451: personalization/ShipSKINDesignElement
+  82452: personalization/ShipSKINDesignElement
+  82453: personalization/ShipSKINDesignElement
+  82454: personalization/ShipSKINDesignElement
+  82455: personalization/ShipSKINDesignElement
   82456: personalization/ShipSKINDesignElement
+  82457: personalization/ShipSKINDesignElement
+  82458: personalization/ShipSKINDesignElement
+  82459: personalization/ShipSKINDesignElement
+  82460: personalization/ShipSKINDesignElement
+  82461: personalization/ShipSKINDesignElement
+  82462: personalization/ShipSKINDesignElement
+  82463: personalization/ShipSKINDesignElement
+  82464: personalization/ShipSKINDesignElement
   82465: personalization/ShipSKINDesignElement
+  82466: personalization/ShipSKINDesignElement
+  82467: personalization/ShipSKINDesignElement
+  82468: personalization/ShipSKINDesignElement
+  82469: personalization/ShipSKINDesignElement
+  82470: personalization/ShipSKINDesignElement
   82471: personalization/ShipSKINDesignElement
+  82472: personalization/ShipSKINDesignElement
+  82473: personalization/ShipSKINDesignElement
+  82474: personalization/ShipSKINDesignElement
+  82475: personalization/ShipSKINDesignElement
   82476: personalization/ShipSKINDesignElement
+  82477: personalization/ShipSKINDesignElement
+  82478: personalization/ShipSKINDesignElement
+  82479: personalization/ShipSKINDesignElement
+  82480: personalization/ShipSKINDesignElement
   82481: personalization/ShipSKINDesignElement
+  82482: personalization/ShipSKINDesignElement
+  82484: personalization/ShipSKINDesignElement
   82485: personalization/ShipSKINDesignElement
+  82486: personalization/ShipSKINDesignElement
+  82487: personalization/ShipSKINDesignElement
+  82488: personalization/ShipSKINDesignElement
+  82489: personalization/ShipSKINDesignElement
+  82490: personalization/ShipSKINDesignElement
+  82491: personalization/ShipSKINDesignElement
   82492: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   82496: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   82497: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
@@ -30845,6 +30934,7 @@ id2group:
   84212: personalization/ShipSKINDesignElement
   84217: skill/Sequencing
   84218: skill/Sequencing
+  84220: skill/Sequencing
   84271: implant/Booster
   84272: implant/Booster
   84273: implant/Booster
@@ -31091,7 +31181,16 @@ id2group:
   85033: module/RemoteCapacitorTransmitter
   85034: module/RemoteCapacitorTransmitter
   85035: module/WarpDisruptFieldGenerator
+  85038: entity/SpawnContainer
+  85039: entity/SpawnContainer
+  85040: entity/SpawnContainer
   85062: ship/CovertOps
+  85084: module/BreacherPodLaunchers
+  85085: module/BreacherPodLaunchers
+  85086: ship/CombatBattlecruiser
+  85087: ship/Destroyer
+  85088: charge/SCARABBreacherPods
+  85089: charge/SCARABBreacherPods
   85118: personalization/ShipSKINDesignElement
   85127: expertsystems/StandardExpertSystems
   85133: personalization/ShipSKINDesignElement
@@ -31115,7 +31214,12 @@ id2group:
   85155: personalization/ShipSKINDesignElement
   85178: commodity/Miscellaneous
   85179: commodity/Miscellaneous
+  85180: blueprint/BattlecruiserBlueprint
+  85181: blueprint/DestroyerBlueprint
   85229: ship/ForceReconShip
+  85230: deployable/MercenaryDen
+  85232: blueprint/MercenaryDenBlueprint
+  85233: skill/StructureManagement
   85236: ship/BlackOps
   85242: commodity/Miscellaneous
   85279: implant/Booster
@@ -31125,13 +31229,200 @@ id2group:
   85307: personalization/ShipSKINDesignElement
   85308: personalization/ShipSKINDesignElement
   85316: commodity/Atavum
+  85390: material/AbyssalMaterials
+  85391: material/AbyssalMaterials
+  85392: material/AbyssalMaterials
+  85393: material/AbyssalMaterials
+  85394: material/AbyssalMaterials
+  85395: material/AbyssalMaterials
+  85396: material/AbyssalMaterials
+  85397: material/AbyssalMaterials
+  85398: material/AbyssalMaterials
+  85399: material/AbyssalMaterials
+  85400: material/AbyssalMaterials
+  85401: material/AbyssalMaterials
+  85402: material/AbyssalMaterials
   85403: personalization/ShipSKINDesignElement
   85404: personalization/ShipSKINDesignElement
   85405: personalization/ShipSKINDesignElement
   85406: personalization/ShipSKINDesignElement
+  85418: personalization/ShipEmblems
+  85419: personalization/ShipEmblems
+  85435: personalization/ShipEmblems
+  85437: personalization/ShipEmblems
+  85438: commodity/Mutaplasmids
+  85439: commodity/Mutaplasmids
+  85440: commodity/Mutaplasmids
+  85441: commodity/Mutaplasmids
+  85442: commodity/Mutaplasmids
+  85443: commodity/Mutaplasmids
+  85445: commodity/Mutaplasmids
+  85446: commodity/Mutaplasmids
+  85447: commodity/Mutaplasmids
+  85448: commodity/Mutaplasmids
+  85449: commodity/Mutaplasmids
+  85450: commodity/Mutaplasmids
+  85451: commodity/Mutaplasmids
+  85452: commodity/Mutaplasmids
+  85453: commodity/Mutaplasmids
+  85454: commodity/Mutaplasmids
+  85455: commodity/Mutaplasmids
+  85456: commodity/Mutaplasmids
+  85457: commodity/Mutaplasmids
+  85458: commodity/Mutaplasmids
+  85459: commodity/Mutaplasmids
+  85460: commodity/Mutaplasmids
+  85461: commodity/Mutaplasmids
+  85462: commodity/Mutaplasmids
+  85463: commodity/Mutaplasmids
+  85464: commodity/Mutaplasmids
+  85465: commodity/Mutaplasmids
+  85466: commodity/Mutaplasmids
+  85467: commodity/Mutaplasmids
+  85468: commodity/Mutaplasmids
+  85469: commodity/Mutaplasmids
+  85470: commodity/Mutaplasmids
+  85471: commodity/Mutaplasmids
+  85472: commodity/Mutaplasmids
+  85473: commodity/Mutaplasmids
+  85474: commodity/Mutaplasmids
+  85475: commodity/Mutaplasmids
+  85476: commodity/Mutaplasmids
+  85477: commodity/Mutaplasmids
+  85478: commodity/Mutaplasmids
+  85479: commodity/Mutaplasmids
+  85480: commodity/Mutaplasmids
+  85481: commodity/Mutaplasmids
+  85482: commodity/Mutaplasmids
+  85483: commodity/Mutaplasmids
+  85484: commodity/Mutaplasmids
+  85485: commodity/Mutaplasmids
+  85486: commodity/Mutaplasmids
+  85487: commodity/Mutaplasmids
+  85488: commodity/Mutaplasmids
+  85489: commodity/Mutaplasmids
+  85490: commodity/Mutaplasmids
+  85491: commodity/Mutaplasmids
+  85492: commodity/Mutaplasmids
+  85493: commodity/Mutaplasmids
+  85494: commodity/Mutaplasmids
+  85495: commodity/Mutaplasmids
+  85496: commodity/Mutaplasmids
+  85497: commodity/Mutaplasmids
+  85498: commodity/Mutaplasmids
+  85499: commodity/Mutaplasmids
+  85500: commodity/Mutaplasmids
+  85501: commodity/Mutaplasmids
+  85502: commodity/Mutaplasmids
+  85504: commodity/Mutaplasmids
+  85506: commodity/Mutaplasmids
+  85507: commodity/Mutaplasmids
+  85508: commodity/Mutaplasmids
+  85509: commodity/Mutaplasmids
+  85510: commodity/Mutaplasmids
+  85511: commodity/Mutaplasmids
+  85512: commodity/Mutaplasmids
+  85513: commodity/Mutaplasmids
+  85514: commodity/Mutaplasmids
+  85515: commodity/Mutaplasmids
+  85516: commodity/Mutaplasmids
+  85517: commodity/Mutaplasmids
+  85518: commodity/Mutaplasmids
+  85519: commodity/Mutaplasmids
+  85520: commodity/Mutaplasmids
+  85521: commodity/Mutaplasmids
+  85522: commodity/Mutaplasmids
+  85523: commodity/Mutaplasmids
+  85524: commodity/Mutaplasmids
+  85525: commodity/Mutaplasmids
+  85526: commodity/Mutaplasmids
+  85527: commodity/Mutaplasmids
+  85528: commodity/Mutaplasmids
+  85529: commodity/Mutaplasmids
+  85530: commodity/Mutaplasmids
+  85531: commodity/Mutaplasmids
+  85532: commodity/Mutaplasmids
+  85533: commodity/Mutaplasmids
+  85534: commodity/Mutaplasmids
+  85535: commodity/Mutaplasmids
+  85536: commodity/Mutaplasmids
+  85537: commodity/Mutaplasmids
+  85538: commodity/Mutaplasmids
+  85539: commodity/Mutaplasmids
+  85540: commodity/Mutaplasmids
+  85541: commodity/Mutaplasmids
+  85542: commodity/Mutaplasmids
+  85543: commodity/Mutaplasmids
+  85544: commodity/Mutaplasmids
+  85545: commodity/Mutaplasmids
+  85546: commodity/Mutaplasmids
+  85547: commodity/Mutaplasmids
+  85548: commodity/Mutaplasmids
+  85549: commodity/Mutaplasmids
+  85550: commodity/Mutaplasmids
+  85551: commodity/Mutaplasmids
+  85552: commodity/Mutaplasmids
+  85553: commodity/Mutaplasmids
+  85554: commodity/Mutaplasmids
+  85555: commodity/Mutaplasmids
+  85556: commodity/Mutaplasmids
+  85557: commodity/Mutaplasmids
+  85558: commodity/Mutaplasmids
+  85559: commodity/Mutaplasmids
+  85640: commodity/Mutaplasmids
+  85641: commodity/Mutaplasmids
+  85642: commodity/Mutaplasmids
+  85643: commodity/Mutaplasmids
+  85644: commodity/Mutaplasmids
+  85645: commodity/Mutaplasmids
+  85646: commodity/Mutaplasmids
+  85647: commodity/Mutaplasmids
+  85648: commodity/Mutaplasmids
+  85649: commodity/Mutaplasmids
+  85650: commodity/Mutaplasmids
+  85651: commodity/Mutaplasmids
+  85652: commodity/Mutaplasmids
+  85653: commodity/Mutaplasmids
+  85654: commodity/Mutaplasmids
+  85655: commodity/Mutaplasmids
+  85656: commodity/Mutaplasmids
+  85657: commodity/Mutaplasmids
+  85660: commodity/Mutaplasmids
+  85661: commodity/Mutaplasmids
+  85662: commodity/Mutaplasmids
+  85663: commodity/Mutaplasmids
+  85664: commodity/Mutaplasmids
+  85665: commodity/Mutaplasmids
+  85666: commodity/Mutaplasmids
+  85667: commodity/Mutaplasmids
+  85668: commodity/Mutaplasmids
+  85669: commodity/Mutaplasmids
+  85670: commodity/Mutaplasmids
+  85671: commodity/Mutaplasmids
+  85672: commodity/Mutaplasmids
+  85673: commodity/Mutaplasmids
+  85674: commodity/Mutaplasmids
+  85675: commodity/Mutaplasmids
+  85676: commodity/Mutaplasmids
+  85677: commodity/Mutaplasmids
+  85678: commodity/Mutaplasmids
+  85679: commodity/Mutaplasmids
+  85680: commodity/Mutaplasmids
+  85681: commodity/Mutaplasmids
+  85682: commodity/Mutaplasmids
   85683: abstrct/Miscellaneous
   85684: abstrct/Miscellaneous
+  85685: commodity/Mutaplasmids
+  85686: commodity/Mutaplasmids
+  85687: commodity/Mutaplasmids
+  85688: commodity/Mutaplasmids
   85689: abstrct/Miscellaneous
+  85690: commodity/Mutaplasmids
+  85691: commodity/Mutaplasmids
+  85692: commodity/Mutaplasmids
+  85693: commodity/Mutaplasmids
+  85696: commodity/Mutaplasmids
+  85698: commodity/Mutaplasmids
   85712: commodity/Miscellaneous
   85713: commodity/Miscellaneous
   85714: commodity/Miscellaneous
@@ -31152,6 +31443,15 @@ id2group:
   85729: commodity/Miscellaneous
   85730: commodity/Miscellaneous
   85731: commodity/Miscellaneous
+  85734: skins/PermanentSKIN
+  85735: skins/PermanentSKIN
+  85736: skins/PermanentSKIN
+  85737: skins/PermanentSKIN
+  85738: skins/PermanentSKIN
+  85739: skins/PermanentSKIN
+  85740: skins/PermanentSKIN
+  85741: skins/PermanentSKIN
+  85742: skins/PermanentSKIN
   85746: commodity/Commodities
   85747: charge/ScannerProbe
   85748: implant/CyberScanning
@@ -31165,6 +31465,31 @@ id2group:
   85756: personalization/ShipSKINDesignElement
   85787: specialeditionassets/SpecialEditionCommodities
   85849: commodity/Miscellaneous
+  85851: blueprint/MutaplasmidBlueprint
+  85852: blueprint/MutaplasmidBlueprint
+  85853: blueprint/MutaplasmidBlueprint
+  85854: blueprint/MutaplasmidBlueprint
+  85855: blueprint/MutaplasmidBlueprint
+  85856: blueprint/MutaplasmidBlueprint
+  85857: blueprint/MutaplasmidBlueprint
+  85858: blueprint/MutaplasmidBlueprint
+  85859: blueprint/MutaplasmidBlueprint
+  85860: blueprint/MutaplasmidBlueprint
+  85861: blueprint/MutaplasmidBlueprint
+  85862: blueprint/MutaplasmidBlueprint
+  85863: blueprint/MutaplasmidBlueprint
+  85864: blueprint/MutaplasmidBlueprint
+  85865: blueprint/MutaplasmidBlueprint
+  85866: blueprint/MutaplasmidBlueprint
+  85867: blueprint/MutaplasmidBlueprint
+  85868: blueprint/MutaplasmidBlueprint
+  85869: blueprint/MutaplasmidBlueprint
+  85870: blueprint/MutaplasmidBlueprint
+  85871: blueprint/MutaplasmidBlueprint
+  85872: blueprint/MutaplasmidBlueprint
+  85873: blueprint/MutaplasmidBlueprint
+  85874: blueprint/MutaplasmidBlueprint
+  85875: blueprint/MutaplasmidBlueprint
   85880: specialeditionassets/SpecialEditionCommodities
   85890: skins/PermanentSKIN
   85891: skins/PermanentSKIN
@@ -31178,7 +31503,167 @@ id2group:
   85930: skins/PermanentSKIN
   85931: skins/PermanentSKIN
   85932: skins/PermanentSKIN
+  85940: blueprint/MutaplasmidBlueprint
+  85941: blueprint/MutaplasmidBlueprint
+  85942: blueprint/MutaplasmidBlueprint
+  85943: blueprint/MutaplasmidBlueprint
+  85944: blueprint/MutaplasmidBlueprint
+  85945: blueprint/MutaplasmidBlueprint
+  85946: blueprint/MutaplasmidBlueprint
+  85947: blueprint/MutaplasmidBlueprint
+  85948: blueprint/MutaplasmidBlueprint
+  85949: blueprint/MutaplasmidBlueprint
+  85950: blueprint/MutaplasmidBlueprint
+  85951: blueprint/MutaplasmidBlueprint
+  85952: blueprint/MutaplasmidBlueprint
+  85953: blueprint/MutaplasmidBlueprint
+  85954: blueprint/MutaplasmidBlueprint
+  85955: blueprint/MutaplasmidBlueprint
+  85956: blueprint/MutaplasmidBlueprint
+  85957: blueprint/MutaplasmidBlueprint
+  85958: blueprint/MutaplasmidBlueprint
+  85959: blueprint/MutaplasmidBlueprint
+  85960: blueprint/MutaplasmidBlueprint
+  85961: blueprint/MutaplasmidBlueprint
+  85962: blueprint/MutaplasmidBlueprint
+  85963: blueprint/MutaplasmidBlueprint
+  85964: skins/PermanentSKIN
+  85965: skins/PermanentSKIN
+  85966: skins/PermanentSKIN
+  85967: skins/PermanentSKIN
+  85968: skins/PermanentSKIN
+  85969: skins/PermanentSKIN
+  85970: skins/PermanentSKIN
+  85971: skins/PermanentSKIN
+  85972: skins/PermanentSKIN
+  85973: blueprint/MutaplasmidBlueprint
+  85974: blueprint/MutaplasmidBlueprint
+  85975: blueprint/MutaplasmidBlueprint
+  85976: blueprint/MutaplasmidBlueprint
+  85977: blueprint/MutaplasmidBlueprint
+  85978: blueprint/MutaplasmidBlueprint
   85979: skins/PermanentSKIN
+  85980: deployable/MercenaryDen
+  85981: blueprint/MutaplasmidBlueprint
+  85982: blueprint/MutaplasmidBlueprint
+  85983: blueprint/MutaplasmidBlueprint
+  85984: blueprint/MutaplasmidBlueprint
+  85985: blueprint/MutaplasmidBlueprint
+  85986: blueprint/MutaplasmidBlueprint
+  85987: blueprint/MutaplasmidBlueprint
+  85988: blueprint/MutaplasmidBlueprint
+  85989: blueprint/MutaplasmidBlueprint
+  85990: blueprint/MutaplasmidBlueprint
+  85991: blueprint/MutaplasmidBlueprint
+  85992: blueprint/MutaplasmidBlueprint
+  85993: blueprint/MutaplasmidBlueprint
+  85994: blueprint/MutaplasmidBlueprint
+  85995: blueprint/MutaplasmidBlueprint
+  85996: blueprint/MutaplasmidBlueprint
+  85997: blueprint/MutaplasmidBlueprint
+  85998: blueprint/MutaplasmidBlueprint
+  85999: blueprint/MutaplasmidBlueprint
+  86000: blueprint/MutaplasmidBlueprint
+  86001: blueprint/MutaplasmidBlueprint
+  86002: blueprint/MutaplasmidBlueprint
+  86003: blueprint/MutaplasmidBlueprint
+  86004: blueprint/MutaplasmidBlueprint
+  86005: blueprint/MutaplasmidBlueprint
+  86006: blueprint/MutaplasmidBlueprint
+  86007: blueprint/MutaplasmidBlueprint
+  86008: blueprint/MutaplasmidBlueprint
+  86009: blueprint/MutaplasmidBlueprint
+  86010: blueprint/MutaplasmidBlueprint
+  86011: blueprint/MutaplasmidBlueprint
+  86012: blueprint/MutaplasmidBlueprint
+  86013: blueprint/MutaplasmidBlueprint
+  86016: blueprint/MutaplasmidBlueprint
+  86017: blueprint/MutaplasmidBlueprint
+  86018: blueprint/MutaplasmidBlueprint
+  86019: blueprint/MutaplasmidBlueprint
+  86020: blueprint/MutaplasmidBlueprint
+  86021: blueprint/MutaplasmidBlueprint
+  86022: blueprint/MutaplasmidBlueprint
+  86023: blueprint/MutaplasmidBlueprint
+  86024: blueprint/MutaplasmidBlueprint
+  86025: blueprint/MutaplasmidBlueprint
+  86026: blueprint/MutaplasmidBlueprint
+  86027: blueprint/MutaplasmidBlueprint
+  86028: blueprint/MutaplasmidBlueprint
+  86029: blueprint/MutaplasmidBlueprint
+  86030: blueprint/MutaplasmidBlueprint
+  86031: blueprint/MutaplasmidBlueprint
+  86032: blueprint/MutaplasmidBlueprint
+  86033: blueprint/MutaplasmidBlueprint
+  86034: blueprint/MutaplasmidBlueprint
+  86035: blueprint/MutaplasmidBlueprint
+  86036: blueprint/MutaplasmidBlueprint
+  86037: blueprint/MutaplasmidBlueprint
+  86038: blueprint/MutaplasmidBlueprint
+  86039: blueprint/MutaplasmidBlueprint
+  86040: blueprint/MutaplasmidBlueprint
+  86041: blueprint/MutaplasmidBlueprint
+  86042: blueprint/MutaplasmidBlueprint
+  86043: blueprint/MutaplasmidBlueprint
+  86044: blueprint/MutaplasmidBlueprint
+  86045: blueprint/MutaplasmidBlueprint
+  86046: blueprint/MutaplasmidBlueprint
+  86047: blueprint/MutaplasmidBlueprint
+  86048: blueprint/MutaplasmidBlueprint
+  86049: blueprint/MutaplasmidBlueprint
+  86050: blueprint/MutaplasmidBlueprint
+  86051: blueprint/MutaplasmidBlueprint
+  86052: blueprint/MutaplasmidBlueprint
+  86053: blueprint/MutaplasmidBlueprint
+  86054: blueprint/MutaplasmidBlueprint
+  86055: blueprint/MutaplasmidBlueprint
+  86056: blueprint/MutaplasmidBlueprint
+  86057: blueprint/MutaplasmidBlueprint
+  86058: blueprint/MutaplasmidBlueprint
+  86059: blueprint/MutaplasmidBlueprint
+  86060: blueprint/MutaplasmidBlueprint
+  86061: blueprint/MutaplasmidBlueprint
+  86062: blueprint/MutaplasmidBlueprint
+  86063: blueprint/MutaplasmidBlueprint
+  86064: blueprint/MutaplasmidBlueprint
+  86065: blueprint/MutaplasmidBlueprint
+  86066: blueprint/MutaplasmidBlueprint
+  86067: blueprint/MutaplasmidBlueprint
+  86068: blueprint/MutaplasmidBlueprint
+  86069: blueprint/MutaplasmidBlueprint
+  86070: blueprint/MutaplasmidBlueprint
+  86071: blueprint/MutaplasmidBlueprint
+  86072: blueprint/MutaplasmidBlueprint
+  86073: blueprint/MutaplasmidBlueprint
+  86074: blueprint/MutaplasmidBlueprint
+  86075: blueprint/MutaplasmidBlueprint
+  86076: blueprint/MutaplasmidBlueprint
+  86077: blueprint/MutaplasmidBlueprint
+  86078: blueprint/MutaplasmidBlueprint
+  86079: blueprint/MutaplasmidBlueprint
+  86100: entity/LargeCollidableStructure
+  86104: personalization/ShipSKINDesignElement
+  86105: personalization/ShipSKINDesignElement
+  86106: personalization/ShipSKINDesignElement
+  86107: personalization/ShipSKINDesignElement
+  86125: blueprint/MutaplasmidBlueprint
+  86126: blueprint/MutaplasmidBlueprint
+  86127: blueprint/MutaplasmidBlueprint
+  86128: blueprint/MutaplasmidBlueprint
+  86129: blueprint/MutaplasmidBlueprint
+  86130: blueprint/MutaplasmidBlueprint
+  86131: blueprint/MutaplasmidBlueprint
+  86132: blueprint/MutaplasmidBlueprint
+  86133: blueprint/MutaplasmidBlueprint
+  86134: blueprint/MutaplasmidBlueprint
+  86135: blueprint/MutaplasmidBlueprint
+  86136: blueprint/MutaplasmidBlueprint
+  86137: blueprint/MutaplasmidBlueprint
+  86138: blueprint/MutaplasmidBlueprint
+  86139: blueprint/MutaplasmidBlueprint
+  86140: blueprint/MutaplasmidBlueprint
+  86141: blueprint/MutaplasmidBlueprint
+  86142: blueprint/MutaplasmidBlueprint
   86143: personalization/ShipSKINDesignElement
   86144: personalization/ShipSKINDesignElement
   86149: skins/PermanentSKIN
@@ -31189,6 +31674,26 @@ id2group:
   86154: skins/PermanentSKIN
   86155: skins/PermanentSKIN
   86156: skins/PermanentSKIN
+  86176: blueprint/HybridChargeBlueprint
+  86177: blueprint/HybridChargeBlueprint
+  86178: blueprint/MissileLauncherBlueprint
+  86179: blueprint/MissileLauncherBlueprint
+  86180: blueprint/MercenaryDenBlueprint
+  86216: commodity/TriglavianData
+  86227: expertsystems/StandardExpertSystems
+  86260: skill/Missiles
+  86261: skill/Missiles
+  86262: skill/Missiles
+  86263: skill/Missiles
+  86264: skill/Missiles
+  86270: specialeditionassets/SpecialEditionCommodities
+  86271: specialeditionassets/SpecialEditionCommodities
+  86272: specialeditionassets/SpecialEditionCommodities
+  86273: specialeditionassets/SpecialEditionCommodities
+  86274: specialeditionassets/SpecialEditionCommodities
+  86275: specialeditionassets/SpecialEditionCommodities
+  86276: specialeditionassets/SpecialEditionCommodities
+  86393: expertsystems/StandardExpertSystems
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

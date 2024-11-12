@@ -239,3 +239,14 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  85181:
+    id: 85181
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Tholos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

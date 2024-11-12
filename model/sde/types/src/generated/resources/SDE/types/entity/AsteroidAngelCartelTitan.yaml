@@ -45,6 +45,7 @@ types:
     entitysecuritystatuskillbonus: 1.600000023841858
     entityshieldboostamountpersecond: 2000.0
     entityshieldboostduration: 10000
+    entitywarpscramblechance: 1.0
     explosivedamage: 55.0
     falloff: 400000.0
     fighterabilityanticapitalmissileresistance: 1

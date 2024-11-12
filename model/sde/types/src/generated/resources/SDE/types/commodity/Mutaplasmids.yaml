@@ -1491,7 +1491,7 @@ types:
     volume: 1.0
   60460:
     id: 60460
-    marketGroup: 2800
+    marketGroup: 3720
     mass: 1.0
     name: Exigent Light Drone Navigation Mutaplasmid
     packagedVolume: 1.0
@@ -1501,7 +1501,7 @@ types:
     volume: 1.0
   60461:
     id: 60461
-    marketGroup: 2800
+    marketGroup: 3720
     mass: 1.0
     name: Exigent Light Drone Firepower Mutaplasmid
     packagedVolume: 1.0
@@ -1511,7 +1511,7 @@ types:
     volume: 1.0
   60462:
     id: 60462
-    marketGroup: 2800
+    marketGroup: 3720
     mass: 1.0
     name: Exigent Light Drone Durability Mutaplasmid
     packagedVolume: 1.0
@@ -1521,7 +1521,7 @@ types:
     volume: 1.0
   60463:
     id: 60463
-    marketGroup: 2800
+    marketGroup: 3722
     mass: 1.0
     name: Exigent Heavy Drone Navigation Mutaplasmid
     packagedVolume: 1.0
@@ -1531,7 +1531,7 @@ types:
     volume: 1.0
   60464:
     id: 60464
-    marketGroup: 2800
+    marketGroup: 3722
     mass: 1.0
     name: Exigent Heavy Drone Firepower Mutaplasmid
     packagedVolume: 1.0
@@ -1541,7 +1541,7 @@ types:
     volume: 1.0
   60465:
     id: 60465
-    marketGroup: 2800
+    marketGroup: 3722
     mass: 1.0
     name: Exigent Heavy Drone Durability Mutaplasmid
     packagedVolume: 1.0
@@ -1551,7 +1551,7 @@ types:
     volume: 1.0
   60466:
     id: 60466
-    marketGroup: 2800
+    marketGroup: 3722
     mass: 1.0
     name: Exigent Heavy Drone Projection Mutaplasmid
     packagedVolume: 1.0
@@ -1561,7 +1561,7 @@ types:
     volume: 1.0
   60467:
     id: 60467
-    marketGroup: 2800
+    marketGroup: 3723
     mass: 1.0
     name: Exigent Sentry Drone Precision Mutaplasmid
     packagedVolume: 1.0
@@ -1571,7 +1571,7 @@ types:
     volume: 1.0
   60468:
     id: 60468
-    marketGroup: 2800
+    marketGroup: 3723
     mass: 1.0
     name: Exigent Sentry Drone Firepower Mutaplasmid
     packagedVolume: 1.0
@@ -1581,7 +1581,7 @@ types:
     volume: 1.0
   60469:
     id: 60469
-    marketGroup: 2800
+    marketGroup: 3723
     mass: 1.0
     name: Exigent Sentry Drone Durability Mutaplasmid
     packagedVolume: 1.0
@@ -1591,7 +1591,7 @@ types:
     volume: 1.0
   60470:
     id: 60470
-    marketGroup: 2800
+    marketGroup: 3723
     mass: 1.0
     name: Exigent Sentry Drone Projection Mutaplasmid
     packagedVolume: 1.0
@@ -1601,7 +1601,7 @@ types:
     volume: 1.0
   60471:
     id: 60471
-    marketGroup: 2800
+    marketGroup: 3720
     mass: 1.0
     name: Exigent Light Drone Projection Mutaplasmid
     packagedVolume: 1.0
@@ -1611,7 +1611,7 @@ types:
     volume: 1.0
   60472:
     id: 60472
-    marketGroup: 2800
+    marketGroup: 3721
     mass: 1.0
     name: Exigent Medium Drone Navigation Mutaplasmid
     packagedVolume: 1.0
@@ -1621,7 +1621,7 @@ types:
     volume: 1.0
   60473:
     id: 60473
-    marketGroup: 2800
+    marketGroup: 3721
     mass: 1.0
     name: Exigent Medium Drone Firepower Mutaplasmid
     packagedVolume: 1.0
@@ -1631,7 +1631,7 @@ types:
     volume: 1.0
   60474:
     id: 60474
-    marketGroup: 2800
+    marketGroup: 3721
     mass: 1.0
     name: Exigent Medium Drone Durability Mutaplasmid
     packagedVolume: 1.0
@@ -1641,7 +1641,7 @@ types:
     volume: 1.0
   60475:
     id: 60475
-    marketGroup: 2800
+    marketGroup: 3721
     mass: 1.0
     name: Exigent Medium Drone Projection Mutaplasmid
     packagedVolume: 1.0
@@ -1651,7 +1651,7 @@ types:
     volume: 1.0
   60476:
     id: 60476
-    marketGroup: 2800
+    marketGroup: 3724
     mass: 1.0
     name: Radical Drone Damage Amplifier Mutaplasmid
     packagedVolume: 1.0
@@ -1661,7 +1661,7 @@ types:
     volume: 1.0
   60477:
     id: 60477
-    marketGroup: 2800
+    marketGroup: 3724
     mass: 1.0
     name: Radical Fighter Support Unit Mutaplasmid
     packagedVolume: 1.0
@@ -2054,6 +2054,1706 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Unstable Large Proton Smartbomb Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85438:
+    id: 85438
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Decayed Small Armor Plate Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85439:
+    id: 85439
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Unstable Small Armor Plate Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85440:
+    id: 85440
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Gravid Small Armor Plate Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85441:
+    id: 85441
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Decayed Small Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85442:
+    id: 85442
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Unstable Small Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85443:
+    id: 85443
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Gravid Small Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85445:
+    id: 85445
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Unstable Small Ancillary Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85446:
+    id: 85446
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Unstable Medium Armor Plate Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85447:
+    id: 85447
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Gravid Medium Armor Plate Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85448:
+    id: 85448
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Decayed Medium Armor Plate Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85449:
+    id: 85449
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Decayed Medium Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85450:
+    id: 85450
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Gravid Medium Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85451:
+    id: 85451
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Unstable Medium Ancillary Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85452:
+    id: 85452
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Unstable Medium Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85453:
+    id: 85453
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Decayed Large Armor Plate Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85454:
+    id: 85454
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Unstable Large Armor Plate Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85455:
+    id: 85455
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Decayed Large Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85456:
+    id: 85456
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Gravid Large Armor Plate Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85457:
+    id: 85457
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Unstable Large Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85458:
+    id: 85458
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Gravid Large Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85459:
+    id: 85459
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Unstable Large Ancillary Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85460:
+    id: 85460
+    marketGroup: 2751
+    mass: 1.0
+    name: Glorified Decayed Capital Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85461:
+    id: 85461
+    marketGroup: 2751
+    mass: 1.0
+    name: Glorified Unstable Capital Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85462:
+    id: 85462
+    marketGroup: 2751
+    mass: 1.0
+    name: Glorified Gravid Capital Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85463:
+    id: 85463
+    marketGroup: 2751
+    mass: 1.0
+    name: Glorified Unstable Capital Ancillary Armor Repairer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85464:
+    id: 85464
+    marketGroup: 2450
+    mass: 1.0
+    name: Glorified Decayed 1MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85465:
+    id: 85465
+    marketGroup: 2450
+    mass: 1.0
+    name: Glorified Unstable 1MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85466:
+    id: 85466
+    marketGroup: 2450
+    mass: 1.0
+    name: Glorified Gravid 1MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85467:
+    id: 85467
+    marketGroup: 2450
+    mass: 1.0
+    name: Glorified Gravid 5MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85468:
+    id: 85468
+    marketGroup: 2450
+    mass: 1.0
+    name: Glorified Decayed 5MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85469:
+    id: 85469
+    marketGroup: 2450
+    mass: 1.0
+    name: Glorified Unstable 5MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85470:
+    id: 85470
+    marketGroup: 2451
+    mass: 1.0
+    name: Glorified Decayed 10MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85471:
+    id: 85471
+    marketGroup: 2451
+    mass: 1.0
+    name: Glorified Unstable 10MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85472:
+    id: 85472
+    marketGroup: 2451
+    mass: 1.0
+    name: Glorified Gravid 10MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85473:
+    id: 85473
+    marketGroup: 2451
+    mass: 1.0
+    name: Glorified Unstable 50MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85474:
+    id: 85474
+    marketGroup: 2451
+    mass: 1.0
+    name: Glorified Decayed 50MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85475:
+    id: 85475
+    marketGroup: 2451
+    mass: 1.0
+    name: Glorified Gravid 50MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85476:
+    id: 85476
+    marketGroup: 2452
+    mass: 1.0
+    name: Glorified Gravid 100MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85477:
+    id: 85477
+    marketGroup: 2452
+    mass: 1.0
+    name: 'Glorified Decayed 100MN Afterburner Mutaplasmid '
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85478:
+    id: 85478
+    marketGroup: 2452
+    mass: 1.0
+    name: Glorified Unstable 100MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85479:
+    id: 85479
+    marketGroup: 2452
+    mass: 1.0
+    name: Glorified Decayed 500MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85480:
+    id: 85480
+    marketGroup: 2452
+    mass: 1.0
+    name: Glorified Gravid 500MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85481:
+    id: 85481
+    marketGroup: 2452
+    mass: 1.0
+    name: Glorified Unstable 500MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85482:
+    id: 85482
+    marketGroup: 2750
+    mass: 1.0
+    name: Glorified Decayed 10000MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85483:
+    id: 85483
+    marketGroup: 2750
+    mass: 1.0
+    name: Glorified Unstable 10000MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85484:
+    id: 85484
+    marketGroup: 2750
+    mass: 1.0
+    name: Glorified Gravid 10000MN Afterburner Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85485:
+    id: 85485
+    marketGroup: 2750
+    mass: 1.0
+    name: Glorified Gravid 50000MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85486:
+    id: 85486
+    marketGroup: 2750
+    mass: 1.0
+    name: Glorified Decayed 50000MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85487:
+    id: 85487
+    marketGroup: 2750
+    mass: 1.0
+    name: Glorified Unstable 50000MN Microwarpdrive Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85488:
+    id: 85488
+    marketGroup: 2533
+    mass: 1.0
+    name: Glorified Decayed Damage Control Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85489:
+    id: 85489
+    marketGroup: 2533
+    mass: 1.0
+    name: Glorified Unstable Damage Control Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85490:
+    id: 85490
+    marketGroup: 2534
+    mass: 1.0
+    name: Glorified Decayed Assault Damage Control Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85491:
+    id: 85491
+    marketGroup: 2533
+    mass: 1.0
+    name: Glorified Gravid Damage Control Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85492:
+    id: 85492
+    marketGroup: 2534
+    mass: 1.0
+    name: Glorified Gravid Assault Damage Control Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85493:
+    id: 85493
+    marketGroup: 2534
+    mass: 1.0
+    name: Glorified Unstable Assault Damage Control Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85494:
+    id: 85494
+    marketGroup: 2453
+    mass: 1.0
+    name: Glorified Decayed Small Cap Battery Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85495:
+    id: 85495
+    marketGroup: 2453
+    mass: 1.0
+    name: Glorified Unstable Small Cap Battery Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85496:
+    id: 85496
+    marketGroup: 2453
+    mass: 1.0
+    name: Glorified Gravid Small Cap Battery Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85497:
+    id: 85497
+    marketGroup: 2453
+    mass: 1.0
+    name: Glorified Decayed Small Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85498:
+    id: 85498
+    marketGroup: 2453
+    mass: 1.0
+    name: Glorified Gravid Small Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85499:
+    id: 85499
+    marketGroup: 2453
+    mass: 1.0
+    name: Glorified Unstable Small Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85500:
+    id: 85500
+    marketGroup: 2453
+    mass: 1.0
+    name: Glorified Decayed Small Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85501:
+    id: 85501
+    marketGroup: 2453
+    mass: 1.0
+    name: Glorified Gravid Small Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85502:
+    id: 85502
+    marketGroup: 2453
+    mass: 1.0
+    name: Glorified Unstable Small Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85504:
+    id: 85504
+    marketGroup: 2454
+    mass: 1.0
+    name: Glorified Decayed Medium Cap Battery Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85506:
+    id: 85506
+    marketGroup: 2454
+    mass: 1.0
+    name: Glorified Gravid Medium Cap Battery Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85507:
+    id: 85507
+    marketGroup: 2454
+    mass: 1.0
+    name: Glorified Unstable Medium Cap Battery Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85508:
+    id: 85508
+    marketGroup: 2454
+    mass: 1.0
+    name: Glorified Decayed Medium Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85509:
+    id: 85509
+    marketGroup: 2454
+    mass: 1.0
+    name: Glorified Gravid Medium Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85510:
+    id: 85510
+    marketGroup: 2454
+    mass: 1.0
+    name: Glorified Unstable Medium Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85511:
+    id: 85511
+    marketGroup: 2454
+    mass: 1.0
+    name: Glorified Decayed Medium Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85512:
+    id: 85512
+    marketGroup: 2454
+    mass: 1.0
+    name: Glorified Unstable Medium Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85513:
+    id: 85513
+    marketGroup: 2454
+    mass: 1.0
+    name: Glorified Gravid Medium Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85514:
+    id: 85514
+    marketGroup: 2455
+    mass: 1.0
+    name: Glorified Gravid Large Cap Battery Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85515:
+    id: 85515
+    marketGroup: 2455
+    mass: 1.0
+    name: Glorified Decayed Large Cap Battery Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85516:
+    id: 85516
+    marketGroup: 2455
+    mass: 1.0
+    name: Glorified Unstable Large Cap Battery Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85517:
+    id: 85517
+    marketGroup: 2455
+    mass: 1.0
+    name: Glorified Decayed Heavy Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85518:
+    id: 85518
+    marketGroup: 2455
+    mass: 1.0
+    name: Glorified Gravid Heavy Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85519:
+    id: 85519
+    marketGroup: 2455
+    mass: 1.0
+    name: Glorified Gravid Heavy Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85520:
+    id: 85520
+    marketGroup: 2455
+    mass: 1.0
+    name: Glorified Decayed Heavy Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85521:
+    id: 85521
+    marketGroup: 2455
+    mass: 1.0
+    name: Glorified Unstable Heavy Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85522:
+    id: 85522
+    marketGroup: 2455
+    mass: 1.0
+    name: Glorified Unstable Heavy Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85523:
+    id: 85523
+    marketGroup: 2753
+    mass: 1.0
+    name: Glorified Unstable Capital Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85524:
+    id: 85524
+    marketGroup: 2753
+    mass: 1.0
+    name: Glorified Gravid Capital Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85525:
+    id: 85525
+    marketGroup: 2753
+    mass: 1.0
+    name: Glorified Decayed Capital Energy Neutralizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85526:
+    id: 85526
+    marketGroup: 2753
+    mass: 1.0
+    name: Glorified Decayed Capital Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85527:
+    id: 85527
+    marketGroup: 2753
+    mass: 1.0
+    name: Glorified Gravid Capital Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85528:
+    id: 85528
+    marketGroup: 2753
+    mass: 1.0
+    name: Glorified Unstable Capital Energy Nosferatu Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85529:
+    id: 85529
+    marketGroup: 2446
+    mass: 1.0
+    name: Glorified Decayed Small Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85530:
+    id: 85530
+    marketGroup: 2446
+    mass: 1.0
+    name: Glorified Decayed Small Shield Extender Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85531:
+    id: 85531
+    marketGroup: 2446
+    mass: 1.0
+    name: Glorified Unstable Small Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85532:
+    id: 85532
+    marketGroup: 2446
+    mass: 1.0
+    name: Glorified Gravid Small Shield Extender Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85533:
+    id: 85533
+    marketGroup: 2446
+    mass: 1.0
+    name: Glorified Gravid Small Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85534:
+    id: 85534
+    marketGroup: 2446
+    mass: 1.0
+    name: Glorified Unstable Small Shield Extender Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85535:
+    id: 85535
+    marketGroup: 2447
+    mass: 1.0
+    name: Glorified Decayed Medium Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85536:
+    id: 85536
+    marketGroup: 2447
+    mass: 1.0
+    name: Glorified Gravid Medium Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85537:
+    id: 85537
+    marketGroup: 2447
+    mass: 1.0
+    name: Glorified Unstable Medium Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85538:
+    id: 85538
+    marketGroup: 2447
+    mass: 1.0
+    name: Glorified Gravid Medium Shield Extender Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85539:
+    id: 85539
+    marketGroup: 2447
+    mass: 1.0
+    name: Glorified Unstable Medium Shield Extender Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85540:
+    id: 85540
+    marketGroup: 2447
+    mass: 1.0
+    name: Glorified Decayed Medium Shield Extender Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85541:
+    id: 85541
+    marketGroup: 2447
+    mass: 1.0
+    name: Glorified Unstable Medium Ancillary Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85542:
+    id: 85542
+    marketGroup: 2448
+    mass: 1.0
+    name: Glorified Decayed Large Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85543:
+    id: 85543
+    marketGroup: 2448
+    mass: 1.0
+    name: Glorified Gravid Large Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85544:
+    id: 85544
+    marketGroup: 2448
+    mass: 1.0
+    name: Glorified Gravid Large Shield Extender Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85545:
+    id: 85545
+    marketGroup: 2448
+    mass: 1.0
+    name: Glorified Unstable Large Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85546:
+    id: 85546
+    marketGroup: 2448
+    mass: 1.0
+    name: Glorified Decayed Large Shield Extender Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85547:
+    id: 85547
+    marketGroup: 2448
+    mass: 1.0
+    name: Glorified Unstable Large Shield Extender Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85548:
+    id: 85548
+    marketGroup: 2448
+    mass: 1.0
+    name: Glorified Unstable Large Ancillary Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85549:
+    id: 85549
+    marketGroup: 2449
+    mass: 1.0
+    name: Glorified Unstable X-Large Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85550:
+    id: 85550
+    marketGroup: 2449
+    mass: 1.0
+    name: Glorified Decayed X-Large Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85551:
+    id: 85551
+    marketGroup: 2449
+    mass: 1.0
+    name: Glorified Gravid X-Large Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85552:
+    id: 85552
+    marketGroup: 2449
+    mass: 1.0
+    name: Glorified Unstable X-Large Ancillary Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85553:
+    id: 85553
+    marketGroup: 2752
+    mass: 1.0
+    name: Glorified Decayed Capital Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85554:
+    id: 85554
+    marketGroup: 2752
+    mass: 1.0
+    name: Glorified Unstable Capital Ancillary Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85555:
+    id: 85555
+    marketGroup: 2752
+    mass: 1.0
+    name: Glorified Gravid Capital Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85556:
+    id: 85556
+    marketGroup: 2752
+    mass: 1.0
+    name: Glorified Unstable Capital Shield Booster Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85557:
+    id: 85557
+    marketGroup: 2442
+    mass: 1.0
+    name: Glorified Decayed Stasis Webifier Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85558:
+    id: 85558
+    marketGroup: 2442
+    mass: 1.0
+    name: Glorified Unstable Stasis Webifier Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85559:
+    id: 85559
+    marketGroup: 2442
+    mass: 1.0
+    name: Glorified Gravid Stasis Webifier Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85640:
+    id: 85640
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Decayed Warp Disruptor Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85641:
+    id: 85641
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Unstable Warp Disruptor Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85642:
+    id: 85642
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Gravid Warp Disruptor Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85643:
+    id: 85643
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Decayed Warp Scrambler Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85644:
+    id: 85644
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Gravid Warp Scrambler Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85645:
+    id: 85645
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Unstable Warp Scrambler Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85646:
+    id: 85646
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Decayed Heavy Warp Scrambler Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85647:
+    id: 85647
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Gravid Heavy Warp Scrambler Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85648:
+    id: 85648
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Unstable Heavy Warp Scrambler Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85649:
+    id: 85649
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Decayed Heavy Warp Disruptor Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85650:
+    id: 85650
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Gravid Heavy Warp Disruptor Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85651:
+    id: 85651
+    marketGroup: 2441
+    mass: 1.0
+    name: Glorified Unstable Heavy Warp Disruptor Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85652:
+    id: 85652
+    marketGroup: 2517
+    mass: 1.0
+    name: Glorified Decayed Ballistic Control System Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85653:
+    id: 85653
+    marketGroup: 2517
+    mass: 1.0
+    name: Glorified Gravid Ballistic Control System Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85654:
+    id: 85654
+    marketGroup: 2517
+    mass: 1.0
+    name: Glorified Unstable Ballistic Control System Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85655:
+    id: 85655
+    marketGroup: 2516
+    mass: 1.0
+    name: Glorified Decayed Entropic Radiation Sink Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85656:
+    id: 85656
+    marketGroup: 2516
+    mass: 1.0
+    name: Glorified Unstable Entropic Radiation Sink Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85657:
+    id: 85657
+    marketGroup: 2516
+    mass: 1.0
+    name: Glorified Gravid Entropic Radiation Sink Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85660:
+    id: 85660
+    marketGroup: 2515
+    mass: 1.0
+    name: Glorified Decayed Gyrostabilizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85661:
+    id: 85661
+    marketGroup: 2515
+    mass: 1.0
+    name: Glorified Gravid Gyrostabilizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85662:
+    id: 85662
+    marketGroup: 2515
+    mass: 1.0
+    name: Glorified Unstable Gyrostabilizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85663:
+    id: 85663
+    marketGroup: 2514
+    mass: 1.0
+    name: Glorified Decayed Heat Sink Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85664:
+    id: 85664
+    marketGroup: 2514
+    mass: 1.0
+    name: Glorified Unstable Heat Sink Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85665:
+    id: 85665
+    marketGroup: 2514
+    mass: 1.0
+    name: Glorified Gravid Heat Sink Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85666:
+    id: 85666
+    marketGroup: 2513
+    mass: 1.0
+    name: Glorified Decayed Magnetic Field Stabilizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85667:
+    id: 85667
+    marketGroup: 2513
+    mass: 1.0
+    name: Glorified Gravid Magnetic Field Stabilizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85668:
+    id: 85668
+    marketGroup: 2513
+    mass: 1.0
+    name: Glorified Unstable Magnetic Field Stabilizer Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85669:
+    id: 85669
+    marketGroup: 2754
+    mass: 1.0
+    name: Glorified Decayed Siege Module Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85670:
+    id: 85670
+    marketGroup: 2754
+    mass: 1.0
+    name: Glorified Gravid Siege Module Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85671:
+    id: 85671
+    marketGroup: 2754
+    mass: 1.0
+    name: Glorified Unstable Siege Module Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85672:
+    id: 85672
+    marketGroup: 3542
+    mass: 1.0
+    name: Glorified Decayed Vorton Tuning System Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85673:
+    id: 85673
+    marketGroup: 3542
+    mass: 1.0
+    name: Glorified Unstable Vorton Tuning System Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85674:
+    id: 85674
+    marketGroup: 3542
+    mass: 1.0
+    name: Glorified Gravid Vorton Tuning System Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85675:
+    id: 85675
+    marketGroup: 3720
+    mass: 1.0
+    name: Glorified Exigent Light Drone Durability Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85676:
+    id: 85676
+    marketGroup: 3720
+    mass: 1.0
+    name: Glorified Exigent Light Drone Navigation Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85677:
+    id: 85677
+    marketGroup: 3720
+    mass: 1.0
+    name: Glorified Exigent Light Drone Projection Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85678:
+    id: 85678
+    marketGroup: 3720
+    mass: 1.0
+    name: Glorified Exigent Light Drone Firepower Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85679:
+    id: 85679
+    marketGroup: 3721
+    mass: 1.0
+    name: Glorified Exigent Medium Drone Durability Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85680:
+    id: 85680
+    marketGroup: 3721
+    mass: 1.0
+    name: Glorified Exigent Medium Drone Navigation Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85681:
+    id: 85681
+    marketGroup: 3721
+    mass: 1.0
+    name: Glorified Exigent Medium Drone Firepower Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85682:
+    id: 85682
+    marketGroup: 3721
+    mass: 1.0
+    name: Glorified Exigent Medium Drone Projection Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85685:
+    id: 85685
+    marketGroup: 3722
+    mass: 1.0
+    name: Glorified Exigent Heavy Drone Durability Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85686:
+    id: 85686
+    marketGroup: 3722
+    mass: 1.0
+    name: Glorified Exigent Heavy Drone Navigation Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85687:
+    id: 85687
+    marketGroup: 3722
+    mass: 1.0
+    name: Glorified Exigent Heavy Drone Projection Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85688:
+    id: 85688
+    marketGroup: 3722
+    mass: 1.0
+    name: Glorified Exigent Heavy Drone Firepower Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85690:
+    id: 85690
+    marketGroup: 3723
+    mass: 1.0
+    name: Glorified Exigent Sentry Drone Durability Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85691:
+    id: 85691
+    marketGroup: 3723
+    mass: 1.0
+    name: Glorified Exigent Sentry Drone Firepower Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85692:
+    id: 85692
+    marketGroup: 3723
+    mass: 1.0
+    name: Glorified Exigent Sentry Drone Precision Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85693:
+    id: 85693
+    marketGroup: 3723
+    mass: 1.0
+    name: Glorified Exigent Sentry Drone Projection Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85696:
+    id: 85696
+    marketGroup: 3724
+    mass: 1.0
+    name: Glorified Radical Drone Damage Amplifier Mutaplasmid
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  85698:
+    id: 85698
+    marketGroup: 3724
+    mass: 1.0
+    name: Glorified Radical Fighter Support Unit Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
     price: 1000.0

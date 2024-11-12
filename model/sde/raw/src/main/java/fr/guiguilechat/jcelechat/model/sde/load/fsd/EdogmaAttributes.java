@@ -74,6 +74,7 @@ public class EdogmaAttributes {
 	public boolean highIsGood;
 	public int iconID;
 	public int maxAttributeID;
+	public int minAttributeID;
 	public String name;
 	public boolean published;
 	public boolean stackable;

@@ -22,9 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonanc
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BattleshipBulkheadHPModifierBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BattleshipExtenderHPBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BattleshipPlateHPBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
@@ -126,18 +123,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Marauder
     extends Ship
 {
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double battleshipbulkheadhpmodifierbonus;
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int battleshipextenderhpbonus;
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int battleshipplatehpbonus;
     /**
      * 
      */
@@ -401,24 +386,12 @@ public class Marauder
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShipBonusMB2 .INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ShipBonusGB2 .INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, ShipBonusAB2 .INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ShipBonusCB3 .INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, RoleBonusMarauder.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, BattleshipPlateHPBonus.INSTANCE, BattleshipExtenderHPBonus.INSTANCE, BattleshipBulkheadHPModifierBonus.INSTANCE, HeatGenerationMultiplier.INSTANCE, FrigateEscapeBayCapacity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, ShipBonusMB.INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusCB.INSTANCE, ShipBonusAB.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, EliteBonusViolators1 .INSTANCE, EliteBonusViolators2 .INSTANCE, EliteBonusViolatorsRole1 .INSTANCE, ShipBonusGB.INSTANCE, EliteBonusViolatorsRole2 .INSTANCE, ShipBonus2CB.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE, EliteBonusViolatorsRole3 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShipBonusMB2 .INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ShipBonusGB2 .INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, ShipBonusAB2 .INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ShipBonusCB3 .INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, RoleBonusMarauder.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, FrigateEscapeBayCapacity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, ShipBonusMB.INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusCB.INSTANCE, ShipBonusAB.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, EliteBonusViolators1 .INSTANCE, EliteBonusViolators2 .INSTANCE, EliteBonusViolatorsRole1 .INSTANCE, ShipBonusGB.INSTANCE, EliteBonusViolatorsRole2 .INSTANCE, ShipBonus2CB.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE, EliteBonusViolatorsRole3 .INSTANCE })));
     public static final Marauder.MetaGroup METAGROUP = new Marauder.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  3268 :
-            {
-                return battleshipbulkheadhpmodifierbonus;
-            }
-            case  3267 :
-            {
-                return battleshipextenderhpbonus;
-            }
-            case  3266 :
-            {
-                return battleshipplatehpbonus;
-            }
             case  1265 :
             {
                 return elitebonusviolators1;

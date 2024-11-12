@@ -12531,3 +12531,87 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 3
     volume: 27500.0
+  85038:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 85038
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Rogue Drone Rubble
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  85039:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 85039
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Rogue Drone Ship Remains
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  85040:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 85040
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Rogue Drone Ruins
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0

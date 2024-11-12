@@ -440,7 +440,7 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
-    name: Damaged Werpost
+    name: Malfunctioning Werpost
     optimalsigradius: 100
     packagedVolume: 1000.0
     portionSize: 1

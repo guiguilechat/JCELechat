@@ -15,6 +15,7 @@ types:
     capacity: 825.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
+    conduitpassengerbonuspercent: 100
     cpuoutput: 625
     disallowinhighsec: 1
     emdamageresonance: 0.6700000166893005
@@ -137,6 +138,7 @@ types:
     capacity: 875.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
+    conduitpassengerbonuspercent: 100
     cpuoutput: 725
     disallowinhighsec: 1
     emdamageresonance: 0.6700000166893005
@@ -260,6 +262,7 @@ types:
     capacity: 870.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
+    conduitpassengerbonuspercent: 100
     cpuoutput: 825
     disallowinhighsec: 1
     emdamageresonance: 0.6700000166893005
@@ -382,6 +385,7 @@ types:
     capacity: 860.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
+    conduitpassengerbonuspercent: 100
     cpuoutput: 775
     disallowinhighsec: 1
     emdamageresonance: 0.6700000166893005

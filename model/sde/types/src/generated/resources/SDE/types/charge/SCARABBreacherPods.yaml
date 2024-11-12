@@ -1,0 +1,62 @@
+types:
+  85088:
+    agility: 8.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    chargesize: 1
+    detonationrange: 35
+    dotduration: 50000
+    dotmaxdamagepertick: 160
+    dotmaxhppercentagepertick: 0.6000000238418579
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 60.0
+    id: 85088
+    kineticdamageresonance: 1.0
+    launchergroup: 4807
+    marketGroup: 3725
+    mass: 100.0
+    maxvelocity: 2000.0
+    name: SCARAB Breacher Pod S
+    packagedVolume: 0.10000000149011612
+    portionSize: 20
+    price: 240.0
+    published: true
+    radius: 300.0
+    requiredskill1: 86260
+    requiredskill1level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.10000000149011612
+  85089:
+    agility: 8.0
+    aimedlaunch: 1
+    chargesize: 2
+    detonationrange: 35
+    dotduration: 50000
+    dotmaxdamagepertick: 800
+    dotmaxhppercentagepertick: 0.800000011920929
+    emdamageresonance: 1.0
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 120.0
+    id: 85089
+    kineticdamageresonance: 1.0
+    launchergroup: 4807
+    marketGroup: 3725
+    mass: 1000.0
+    maxvelocity: 2000.0
+    name: SCARAB Breacher Pod M
+    packagedVolume: 0.5
+    portionSize: 20
+    price: 2516.0
+    published: true
+    radius: 300.0
+    requiredskill1: 86260
+    requiredskill1level: 2
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 0.5

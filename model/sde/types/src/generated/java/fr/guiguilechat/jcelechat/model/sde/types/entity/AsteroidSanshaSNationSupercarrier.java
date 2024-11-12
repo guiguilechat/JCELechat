@@ -63,6 +63,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityMaxGain;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityShieldBoostAmountPerSecond;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityShieldBoostDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityWarpScrambleChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiCapitalMissileResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
@@ -454,6 +455,13 @@ public class AsteroidSanshaSNationSupercarrier
     @DefaultIntValue(10000)
     public int entityshieldboostduration;
     /**
+     * Chance of entity warp scrambling it's target.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entitywarpscramblechance;
+    /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
@@ -706,7 +714,7 @@ public class AsteroidSanshaSNationSupercarrier
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, EntityGroupRespawnChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, AIShouldUseEvasiveManeuver.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EnergyNeutralizerDuration.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, AIIgnoreDronesBelowSignatureRadius.INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, ActivationBlockedStrenght.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanRadarStrength.INSTANCE, EntityReactionFactor.INSTANCE, DisallowAssistance.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EntityKillBounty.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityShieldBoostAmountPerSecond.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, EntityDefenderChance.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, EmDamage.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, AITankingModifierDrone.INSTANCE, IsCapitalSize.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, EntityGroupRespawnChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, AIShouldUseEvasiveManeuver.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EnergyNeutralizerDuration.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, AIIgnoreDronesBelowSignatureRadius.INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, ActivationBlockedStrenght.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanRadarStrength.INSTANCE, EntityReactionFactor.INSTANCE, DisallowAssistance.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EntityKillBounty.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityShieldBoostAmountPerSecond.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, EntityDefenderChance.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, EmDamage.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, AITankingModifierDrone.INSTANCE, EntityWarpScrambleChance.INSTANCE, IsCapitalSize.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final AsteroidSanshaSNationSupercarrier.MetaGroup METAGROUP = new AsteroidSanshaSNationSupercarrier.MetaGroup();
 
     @Override
@@ -907,6 +915,10 @@ public class AsteroidSanshaSNationSupercarrier
             case  636 :
             {
                 return entityshieldboostduration;
+            }
+            case  504 :
+            {
+                return entitywarpscramblechance;
             }
             case  158 :
             {

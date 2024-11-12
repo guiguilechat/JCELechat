@@ -91,7 +91,7 @@ public class StructureManagement
     @Stackable(true)
     @DefaultIntValue(0)
     public int skilllevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, PosStructureControlAmount.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, SkillLevel.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, PosStructureControlAmount.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final StructureManagement.MetaGroup METAGROUP = new StructureManagement.MetaGroup();
 
     @Override

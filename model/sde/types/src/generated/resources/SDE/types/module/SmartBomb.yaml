@@ -1240,7 +1240,7 @@ types:
     cpu: 50.0
     duration: 10000.0
     emdamage: 150.0
-    empfieldrange: 5000
+    empfieldrange: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1266,7 +1266,7 @@ types:
     cpu: 50.0
     duration: 10000.0
     emdamage: 150.0
-    empfieldrange: 5000
+    empfieldrange: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1473,7 +1473,7 @@ types:
     capacitorneed: 40.0
     cpu: 40.0
     duration: 12000.0
-    empfieldrange: 5000
+    empfieldrange: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1577,7 +1577,7 @@ types:
     capacitorneed: 49.0
     cpu: 50.0
     duration: 10000.0
-    empfieldrange: 6000
+    empfieldrange: 7200
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -1603,7 +1603,7 @@ types:
     capacitorneed: 49.0
     cpu: 50.0
     duration: 10000.0
-    empfieldrange: 4000
+    empfieldrange: 4800
     explosivedamage: 180.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
@@ -2279,7 +2279,7 @@ types:
     capacitorneed: 40.0
     cpu: 40.0
     duration: 12000.0
-    empfieldrange: 5000
+    empfieldrange: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2383,7 +2383,7 @@ types:
     capacitorneed: 49.0
     cpu: 50.0
     duration: 10000.0
-    empfieldrange: 4000
+    empfieldrange: 4800
     explosivedamage: 180.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
@@ -2591,7 +2591,7 @@ types:
     capacitorneed: 49.0
     cpu: 50.0
     duration: 10000.0
-    empfieldrange: 6000
+    empfieldrange: 7200
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2696,7 +2696,7 @@ types:
     cpu: 50.0
     duration: 10000.0
     emdamage: 150.0
-    empfieldrange: 5000
+    empfieldrange: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0
@@ -2956,7 +2956,7 @@ types:
     cpu: 50.0
     duration: 10000.0
     emdamage: 150.0
-    empfieldrange: 5000
+    empfieldrange: 6000
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.699999809265137
     hp: 40.0

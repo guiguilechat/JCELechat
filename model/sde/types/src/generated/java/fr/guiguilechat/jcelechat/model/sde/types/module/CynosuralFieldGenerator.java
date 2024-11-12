@@ -50,6 +50,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactorFloor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -282,7 +283,14 @@ public class CynosuralFieldGenerator
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double speedfactor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, IsIndustrialCyno.INSTANCE, CanCloak.INSTANCE, CovertCloakCPUAdd.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, SiegeModeWarpStatus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CynosuralFieldSpawnRadius.INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipGroup06 .INSTANCE, CanFitShipType3 .INSTANCE, ModuleReactivationDelay.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, IsCovert.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, DisallowDocking.INSTANCE, Cpu.INSTANCE, MaxVelocityLimited.INSTANCE, RequiredSkill1 .INSTANCE, MaxVelocityActivationLimit.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(-99)
+    public int speedfactorfloor;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, IsIndustrialCyno.INSTANCE, CanCloak.INSTANCE, CovertCloakCPUAdd.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, SiegeModeWarpStatus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CynosuralFieldSpawnRadius.INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipGroup06 .INSTANCE, CanFitShipType3 .INSTANCE, SpeedFactorFloor.INSTANCE, ModuleReactivationDelay.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, IsCovert.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, DisallowDocking.INSTANCE, Cpu.INSTANCE, MaxVelocityLimited.INSTANCE, RequiredSkill1 .INSTANCE, MaxVelocityActivationLimit.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CynosuralFieldGenerator.MetaGroup METAGROUP = new CynosuralFieldGenerator.MetaGroup();
 
     @Override
@@ -415,6 +423,10 @@ public class CynosuralFieldGenerator
             case  20 :
             {
                 return speedfactor;
+            }
+            case  2266 :
+            {
+                return speedfactorfloor;
             }
             default:
             {

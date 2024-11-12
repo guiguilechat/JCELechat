@@ -42176,3 +42176,35 @@ offers:
       - id: 57488
         quantity: 1
       lp: 1000000
+  19410:
+    id: 19410
+    name: Tholos Corporation Emblem
+    product:
+      id: 85418
+      quantity: 1
+    requirements:
+      lp: 8500
+  19411:
+    id: 19411
+    name: Tholos Alliance Emblem
+    product:
+      id: 85419
+      quantity: 1
+    requirements:
+      lp: 8500
+  19412:
+    id: 19412
+    name: Cenotaph Corporation Emblem
+    product:
+      id: 85435
+      quantity: 1
+    requirements:
+      lp: 13500
+  19413:
+    id: 19413
+    name: Cenotaph Alliance Emblem
+    product:
+      id: 85437
+      quantity: 1
+    requirements:
+      lp: 13500

@@ -355,7 +355,7 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.4000000059604645
     shielduniformity: 0.75
-    shipbonuscd1: 10
+    shipbonuscd1: 10.0
     shipbonuscd2: 10
     signatureradius: 80.0
     stasiswebifierresistance: 1.0

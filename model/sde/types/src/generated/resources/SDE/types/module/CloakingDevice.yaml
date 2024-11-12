@@ -55,6 +55,7 @@ types:
     canfitshipgroup04: 834
     canfitshipgroup05: 1202
     canfitshiptype1: 32790
+    canfitshiptype10: 85086
     canfitshiptype2: 33468
     canfitshiptype3: 33470
     canfitshiptype4: 33553
@@ -62,6 +63,7 @@ types:
     canfitshiptype6: 33697
     canfitshiptype7: 42245
     canfitshiptype8: 77114
+    canfitshiptype9: 85087
     capacitorcapacitymultiplier: 1.0
     cloakingtargetingdelay: 10000
     cpu: 100.0
@@ -293,6 +295,7 @@ types:
     canfitshipgroup04: 834
     canfitshipgroup05: 1202
     canfitshiptype1: 32790
+    canfitshiptype10: 85086
     canfitshiptype2: 33468
     canfitshiptype3: 33470
     canfitshiptype4: 33553
@@ -300,6 +303,7 @@ types:
     canfitshiptype6: 33697
     canfitshiptype7: 42245
     canfitshiptype8: 77114
+    canfitshiptype9: 85087
     capacitorcapacitymultiplier: 1.0
     cloakingtargetingdelay: 9000
     cpu: 50.0

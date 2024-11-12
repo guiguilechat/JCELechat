@@ -8,6 +8,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -57,6 +58,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -106,6 +108,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -155,6 +158,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -204,6 +208,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -253,6 +258,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -302,6 +308,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -351,6 +358,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -400,6 +408,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -449,6 +458,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -498,6 +508,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -547,6 +558,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -596,6 +608,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -645,6 +658,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -694,6 +708,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -738,6 +753,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -782,6 +798,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -826,6 +843,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -870,6 +888,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -914,6 +933,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -963,6 +983,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1012,6 +1033,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1060,6 +1082,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1109,6 +1132,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1158,6 +1182,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1207,6 +1232,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1256,6 +1282,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1305,6 +1332,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1354,6 +1382,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1403,6 +1432,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1452,6 +1482,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1501,6 +1532,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1550,6 +1582,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1599,6 +1632,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1648,6 +1682,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1697,6 +1732,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1746,6 +1782,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1795,6 +1832,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1844,6 +1882,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1893,6 +1932,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1942,6 +1982,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1991,6 +2032,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2040,6 +2082,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2089,6 +2132,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2138,6 +2182,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2187,6 +2232,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2236,6 +2282,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2285,6 +2332,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2334,6 +2382,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2383,6 +2432,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2432,6 +2482,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2481,6 +2532,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2530,6 +2582,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2579,6 +2632,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2628,6 +2682,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2677,6 +2732,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2726,6 +2782,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2775,6 +2832,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2824,6 +2882,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2873,6 +2932,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2922,6 +2982,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2971,6 +3032,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3020,6 +3082,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3069,6 +3132,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3118,6 +3182,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3167,6 +3232,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3216,6 +3282,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3265,6 +3332,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3314,6 +3382,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3363,6 +3432,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3412,6 +3482,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3461,6 +3532,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3510,6 +3582,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3559,6 +3632,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3608,6 +3682,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3657,6 +3732,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3706,6 +3782,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3755,6 +3832,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3804,6 +3882,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3853,6 +3932,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3902,6 +3982,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3951,6 +4032,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4000,6 +4082,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4049,6 +4132,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4098,6 +4182,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4147,6 +4232,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4196,6 +4282,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4245,6 +4332,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4294,6 +4382,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4343,6 +4432,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4392,6 +4482,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4441,6 +4532,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4490,6 +4582,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4539,6 +4632,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4588,6 +4682,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4637,6 +4732,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4686,6 +4782,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4735,6 +4832,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4784,6 +4882,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4833,6 +4932,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4882,6 +4982,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4931,6 +5032,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4980,6 +5082,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5029,6 +5132,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5078,6 +5182,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5127,6 +5232,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5176,6 +5282,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5225,6 +5332,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5274,6 +5382,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5323,6 +5432,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5372,6 +5482,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5421,6 +5532,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5470,6 +5582,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5519,6 +5632,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5568,6 +5682,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5617,6 +5732,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5666,6 +5782,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5715,6 +5832,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5764,6 +5882,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5813,6 +5932,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5862,6 +5982,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5911,6 +6032,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5960,6 +6082,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6009,6 +6132,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6058,6 +6182,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6107,6 +6232,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6156,6 +6282,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6205,6 +6332,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6254,6 +6382,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6303,6 +6432,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6352,6 +6482,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6401,6 +6532,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6450,6 +6582,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6499,6 +6632,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6548,6 +6682,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6597,6 +6732,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6646,6 +6782,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6695,6 +6832,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6744,6 +6882,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6793,6 +6932,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6842,6 +6982,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6891,6 +7032,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6940,6 +7082,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6989,6 +7132,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7038,6 +7182,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7087,6 +7232,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7136,6 +7282,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7185,6 +7332,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7234,6 +7382,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7283,6 +7432,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7332,6 +7482,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7381,6 +7532,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7430,6 +7582,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7479,6 +7632,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7528,6 +7682,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7577,6 +7732,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7626,6 +7782,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7675,6 +7832,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7724,6 +7882,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7773,6 +7932,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7822,6 +7982,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7871,6 +8032,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7920,6 +8082,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7969,6 +8132,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8018,6 +8182,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8067,6 +8232,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8116,6 +8282,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8164,6 +8331,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8212,6 +8380,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8262,6 +8431,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8311,6 +8481,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8360,6 +8531,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8409,6 +8581,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8458,6 +8631,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8507,6 +8681,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8556,6 +8731,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8604,6 +8780,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8652,6 +8829,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8700,6 +8878,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8749,6 +8928,7 @@ types:
     armoruniformity: 1.0
     capacity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8797,6 +8977,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8846,6 +9027,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8895,6 +9077,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8944,6 +9127,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -8993,6 +9177,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9042,6 +9227,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9091,6 +9277,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9140,6 +9327,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9189,6 +9377,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9238,6 +9427,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9287,6 +9477,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9336,6 +9527,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9385,6 +9577,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9434,6 +9627,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9483,6 +9677,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9532,6 +9727,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9581,6 +9777,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9630,6 +9827,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9679,6 +9877,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9727,6 +9926,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9776,6 +9976,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9825,6 +10026,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9874,6 +10076,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9923,6 +10126,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -9972,6 +10176,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10021,6 +10226,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10070,6 +10276,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10119,6 +10326,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10169,6 +10377,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10217,6 +10426,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10264,6 +10474,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10313,6 +10524,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10362,6 +10574,7 @@ types:
     armoruniformity: 1.0
     capacity: 10250.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10413,6 +10626,7 @@ types:
     capacitorcapacity: 1000.0
     capacity: 7250.0
     damagemultiplier: 20.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 9.0
     emdamageresonance: 1.0
@@ -10476,6 +10690,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10525,6 +10740,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10574,6 +10790,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10623,6 +10840,7 @@ types:
     armoruniformity: 1.0
     capacity: 7250.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10672,6 +10890,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10721,6 +10940,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10770,6 +10990,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10819,6 +11040,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10868,6 +11090,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10917,6 +11140,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -10965,6 +11189,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11011,6 +11236,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11060,6 +11286,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11108,6 +11335,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11153,6 +11381,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11199,6 +11428,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11247,6 +11477,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11293,6 +11524,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11342,6 +11574,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11390,6 +11623,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11436,6 +11670,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11484,6 +11719,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11529,6 +11765,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11574,6 +11811,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11619,6 +11857,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11664,6 +11903,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11709,6 +11949,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11754,6 +11995,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11799,6 +12041,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11844,6 +12087,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11890,6 +12134,7 @@ types:
     armoruniformity: 1.0
     capacity: 250.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11939,6 +12184,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -11988,6 +12234,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12037,6 +12284,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     duration: 10000.0
     ecmentitychance: 0.5
@@ -12090,6 +12338,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12138,6 +12387,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12183,6 +12433,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12229,6 +12480,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12275,6 +12527,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12323,6 +12576,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12368,6 +12622,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12413,6 +12668,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12458,6 +12714,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12504,6 +12761,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12553,6 +12811,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12602,6 +12861,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12651,6 +12911,7 @@ types:
     armoruniformity: 1.0
     capacity: 20000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12700,6 +12961,7 @@ types:
     armoruniformity: 1.0
     capacity: 20000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12749,6 +13011,7 @@ types:
     armoruniformity: 1.0
     capacity: 2.0E7
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12798,6 +13061,7 @@ types:
     armoruniformity: 1.0
     capacity: 1.55E8
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12847,6 +13111,7 @@ types:
     armoruniformity: 1.0
     capacity: 200000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12895,6 +13160,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12944,6 +13210,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -12992,6 +13259,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13041,6 +13309,7 @@ types:
     armoruniformity: 1.0
     capacity: 20000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13090,6 +13359,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13139,6 +13409,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13188,6 +13459,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13237,6 +13509,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13286,6 +13559,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13335,6 +13609,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13378,6 +13653,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13424,6 +13700,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13470,6 +13747,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13517,6 +13795,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13566,6 +13845,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13614,6 +13894,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13660,6 +13941,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13708,6 +13990,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13756,6 +14039,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13805,6 +14089,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13854,6 +14139,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13903,6 +14189,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13951,6 +14238,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -13996,6 +14284,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14041,6 +14330,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14086,6 +14376,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14131,6 +14422,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14179,6 +14471,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14227,6 +14520,7 @@ types:
     armoruniformity: 2500000.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14276,6 +14570,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14325,6 +14620,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14374,6 +14670,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14423,6 +14720,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14472,6 +14770,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14520,6 +14819,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14565,6 +14865,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14610,6 +14911,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14656,6 +14958,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14705,6 +15008,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14754,6 +15058,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14802,6 +15107,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14849,6 +15155,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14898,6 +15205,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14947,6 +15255,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -14996,6 +15305,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15045,6 +15355,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15094,6 +15405,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15143,6 +15455,7 @@ types:
     armoruniformity: 1.0
     capacity: 3200.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15192,6 +15505,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15241,6 +15555,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15290,6 +15605,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15339,6 +15655,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15388,6 +15705,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15437,6 +15755,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15486,6 +15805,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15535,6 +15855,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15584,6 +15905,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15633,6 +15955,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15682,6 +16005,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15731,6 +16055,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15780,6 +16105,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15829,6 +16155,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15878,6 +16205,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15927,6 +16255,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -15976,6 +16305,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16025,6 +16355,7 @@ types:
     armoruniformity: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16074,6 +16405,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16123,6 +16455,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16171,6 +16504,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16219,6 +16553,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16268,6 +16603,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16316,6 +16652,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16365,6 +16702,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16414,6 +16752,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16463,6 +16802,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16512,6 +16852,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16561,6 +16902,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16610,6 +16952,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16659,6 +17002,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16708,6 +17052,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16757,6 +17102,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16806,6 +17152,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16855,6 +17202,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16904,6 +17252,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -16953,6 +17302,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17002,6 +17352,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17051,6 +17402,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17100,6 +17452,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17149,6 +17502,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17198,6 +17552,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17247,6 +17602,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17296,6 +17652,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17345,6 +17702,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17394,6 +17752,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17443,6 +17802,7 @@ types:
     armoruniformity: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17491,6 +17851,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17536,6 +17897,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17582,6 +17944,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17631,6 +17994,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17680,6 +18044,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17729,6 +18094,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17778,6 +18144,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17827,6 +18194,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17876,6 +18244,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -17925,6 +18294,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -17972,6 +18342,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -18018,6 +18389,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -18066,6 +18438,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 0.75
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
     entityattackdelaymax: 30000
@@ -18124,6 +18497,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -18172,6 +18546,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -18220,6 +18595,7 @@ types:
     armoruniformity: 1.0
     capacity: 20000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -18265,6 +18641,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -18306,6 +18683,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18346,6 +18724,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18387,6 +18766,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18430,6 +18810,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18473,6 +18854,7 @@ types:
     capacity: 1000.0
     damagemultiplier: 1.0
     damagemultiplierbonus: 100
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -18526,6 +18908,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18568,6 +18951,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18602,6 +18986,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18641,6 +19026,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18683,6 +19069,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18724,6 +19111,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18768,6 +19156,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18807,6 +19196,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18847,6 +19237,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18893,6 +19284,7 @@ types:
     armorthermaldamageresonance: 0.009999999776482582
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18933,6 +19325,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -18980,6 +19373,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19027,6 +19421,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19074,6 +19469,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19114,6 +19510,7 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19154,6 +19551,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19200,6 +19598,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19246,6 +19645,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19292,6 +19692,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19338,6 +19739,7 @@ types:
     armorthermaldamageresonance: 0.009999999776482582
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19387,6 +19789,7 @@ types:
     capacitorcapacity: 20000.0
     capacity: 1000000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 0.5
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19443,6 +19846,7 @@ types:
     armorthermaldamageresonance: 0.009999999776482582
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19487,6 +19891,7 @@ types:
     armorthermaldamageresonance: 0.009999999776482582
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19530,6 +19935,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 27500.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19571,6 +19977,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19612,6 +20019,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -19655,6 +20063,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -19702,6 +20111,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -19751,6 +20161,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -19800,6 +20211,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -19849,6 +20261,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -19898,6 +20311,7 @@ types:
     armoruniformity: 1.0
     capacity: 500.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -19945,6 +20359,7 @@ types:
     armoruniformity: 1.0
     capacity: 500.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -19992,6 +20407,7 @@ types:
     armoruniformity: 1.0
     capacity: 500.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20039,6 +20455,7 @@ types:
     armoruniformity: 1.0
     capacity: 500.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20086,6 +20503,7 @@ types:
     armoruniformity: 1.0
     capacity: 500.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20134,6 +20552,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20182,6 +20601,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20230,6 +20650,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20277,6 +20698,7 @@ types:
     armorthermaldamageresonance: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -20319,6 +20741,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20368,6 +20791,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20417,6 +20841,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20466,6 +20891,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20515,6 +20941,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20564,6 +20991,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20611,6 +21039,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20657,6 +21086,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20703,6 +21133,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20749,6 +21180,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20796,6 +21228,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20842,6 +21275,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20888,6 +21322,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20934,6 +21369,7 @@ types:
     armoruniformity: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -20983,6 +21419,7 @@ types:
     armorkineticdamageresonance: 0.6524999737739563
     armorthermaldamageresonance: 0.6524999737739563
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -21019,4 +21456,62 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 1.0E8
+    warpscrambleduration: 8000
+  86100:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 37500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 50.0
+    damagemultiplierbonuspercycle: 0.5
+    emdamage: 150.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamage: 150.0
+    explosivedamageresonance: 1.0
+    falloff: 300000.0
+    gfxturretid: 47274
+    hp: 15000.0
+    id: 86100
+    kineticdamage: 150.0
+    kineticdamageresonance: 1.0
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxrange: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Threshold Werpost
+    optimalsigradius: 300
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1359.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    scanresolution: 300.0
+    shieldcapacity: 18000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 400.0
+    speed: 3000.0
+    structureuniformity: 1.0
+    thermaldamage: 150.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 300.0
+    volume: 1000.0
     warpscrambleduration: 8000
