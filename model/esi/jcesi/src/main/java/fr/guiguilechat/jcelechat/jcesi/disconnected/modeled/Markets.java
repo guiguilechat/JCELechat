@@ -135,12 +135,13 @@ public class Markets {
 	/**
 	 * weighted average of the empire orders. The first one is The Forge and
 	 * weighted 3, the second one Domain and weighted 2, the three others Sinq
-	 * Laison, Matropolis, Heimatar each weighted 1 . if The Forge or Domain is
+	 * Laison, Metropolis, Heimatar each weighted 1 . if The Forge or Domain is
 	 * absent, their weight is allocated to the next one instead, so eg if The Forge
 	 * is absent, Domain weight is 3, Sinq Laison is 2.
 	 * 
-	 * @param regional list of orders for the empires
-	 * @return
+	 * @param regional list of orders for the empires, with the important one in
+	 *                   first position.
+	 * @return weighted average, after removal of best and worst values.
 	 */
 	protected Double average(List<? extends List<R_get_markets_region_id_orders>> regional) {
 		double min = Double.POSITIVE_INFINITY,
@@ -159,19 +160,11 @@ public class Markets {
 				}
 				total += price * nextWeight;
 				count += nextWeight;
+				nextWeight = nextWeight < 2 ? 1 : (nextWeight - 1);
 			}
-			nextWeight = nextWeight < 2 ? 1 : nextWeight - 1;
-		}
-		if (count > 5) {
-			// meaning we got at least 3 items : one weighted 3, one weighted 2, and one
-			// weighted 1
-			return (total - 2 * min - 2 * max) / (count - 4);
-		}
-		if (count > 2) {
-			return (total - min - max) / (count - 2);
 		}
 		if (count > 0) {
-			return total / count;
+			return (total - min - max) / (count - 2);
 		}
 		return 0.0;
 	}
