@@ -13,7 +13,38 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 
 public class TypesTools {
 
+	/**
+	 * make a predicate to match a type.
+	 * <p>
+	 * The filter list argument is tokenized by spaces, with the predicate checking
+	 * each token
+	 * <ul>
+	 * <li>default is : token is contained ignore case in the type's name, group
+	 * name, or category name</li>
+	 * <li>tokens starting with "-" are negated (so "-ship" will ignore all types
+	 * that contain "ship" in their name, group name or cat name)</li>
+	 * <li>tokens containing ":" refer to specific search depending on the prefix
+	 * and suffix:
+	 * <ul>
+	 * <li>tn:X, gn:X, cn:X refer to the type, group or category name containing
+	 * X</li>
+	 * <li>t:X, m:X, p:X refer to techlevel, metalevel, or published of the type
+	 * being X</li>
+	 * </ul>
+	 * </li>
+	 * </ul>
+	 * </p>
+	 * 
+	 * @param <T>
+	 * @param filtersWithSpace a string containing the tokens separated by spaces
+	 * @return a predicate that returns true when a type matches all the existing
+	 *           requested tokens. If parameter is null, return an accept-all
+	 *           predicate
+	 */
 	public static <T extends TypeRef<?>> Predicate<T> makePredicate(String filtersWithSpace) {
+		if (filtersWithSpace == null || filtersWithSpace.isBlank()) {
+			return o->true;
+		}
 		Set<String> required = Stream.of(filtersWithSpace.split("\\s+")).map(String::toLowerCase)
 				.filter(s -> !s.startsWith("-")).collect(Collectors.toSet());
 		Set<String> forbidden = Stream.of(filtersWithSpace.split("\\s+")).map(String::toLowerCase)
@@ -22,8 +53,16 @@ public class TypesTools {
 			if (t.type() == null) {
 				return false;
 			}
-			List<String> tokens = Stream
-					.of(Stream.of(t.name().split(" ")), Stream.of(t.group().split(" ")), Stream.of(t.category().split(" ")))
+			List<String> tokens = Stream.of(
+			    Stream.of(t.name().split(" ")),
+			    Stream.of(t.name().split(" ")).map(n -> "tn:" + n),
+			    Stream.of(t.group().split(" ")),
+			    Stream.of(t.group().split(" ")).map(n -> "gn:" + n),
+			    Stream.of(t.category().split(" ")),
+			    Stream.of(t.category().split(" ")).map(n -> "cn:" + n),
+			    Stream.of("p:" + (t.type().published)),
+			    Stream.of("t:"+TechLevel.INSTANCE.value(t.type()), "m:"+MetaLevelOld.INSTANCE.value(t.type()))
+			    )
 					.flatMap(s -> s).map(String::toLowerCase).distinct().toList();
 			for (String req : required) {
 				if (tokens.stream().filter(tk -> tk.contains(req)).findAny().isEmpty()) {
