@@ -695,7 +695,7 @@ types:
     entityequipmentmax: 100
     entityequipmentmin: 50
     entityflyrange: 6500.0
-    entitykillbounty: 881250
+    entitykillbounty: 1150000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymaxvelocitysignatureradiusmultiplier: 6
@@ -789,7 +789,7 @@ types:
     entityequipmentmax: 120
     entityequipmentmin: 60
     entityflyrange: 6250.0
-    entitykillbounty: 993750
+    entitykillbounty: 1350000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymaxvelocitysignatureradiusmultiplier: 6
@@ -883,7 +883,7 @@ types:
     entityequipmentmax: 120
     entityequipmentmin: 60
     entityflyrange: 38750.0
-    entitykillbounty: 1162500
+    entitykillbounty: 1600000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymaxvelocitysignatureradiusmultiplier: 6
@@ -979,7 +979,7 @@ types:
     entityequipmentmax: 130
     entityequipmentmin: 65
     entityflyrange: 36250.0
-    entitykillbounty: 1218750
+    entitykillbounty: 1700000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymaxvelocitysignatureradiusmultiplier: 6
@@ -1585,7 +1585,7 @@ types:
     entityequipmentmax: 130
     entityequipmentmin: 65
     entityflyrange: 36250.0
-    entitykillbounty: 2287500
+    entitykillbounty: 3200000
     entitylootcountmax: 10
     entitylootcountmin: 3
     entitymaxvelocitysignatureradiusmultiplier: 1

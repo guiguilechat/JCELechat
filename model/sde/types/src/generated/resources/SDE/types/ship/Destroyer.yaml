@@ -1423,6 +1423,8 @@ types:
     hislots: 6
     hp: 1100.0
     id: 85087
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 2
     lowslots: 2

@@ -8,6 +8,7 @@ types:
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacity: 3000.0
+    fighterabilityanticapitalmissileresistance: 1
     hp: 500000.0
     id: 85230
     marketGroup: 3680
@@ -29,7 +30,7 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 0.75
     shielduniformity: 0.75
-    signatureradius: 500.0
+    signatureradius: 10000.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 50.0
@@ -42,11 +43,12 @@ types:
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacity: 3000.0
+    fighterabilityanticapitalmissileresistance: 1
     hp: 550000.0
     id: 85980
     marketGroup: 3680
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 4
     name: '''Seneschal'' Mercenary Den'
     packagedVolume: 50.0
     portionSize: 1
@@ -63,7 +65,7 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
-    signatureradius: 500.0
+    signatureradius: 10000.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 50.0

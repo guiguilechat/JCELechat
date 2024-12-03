@@ -7739,3 +7739,16 @@ types:
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
+  86413:
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 86413
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: PDN Passkey
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582

@@ -2,31 +2,29 @@ types:
   2838:
     boostermaxcharagehours: 840
     boosterness: 4
-    charismabonus: 3
+    charismabonus: 5
     damagemultiplier: 1.0
-    damagemultiplierbonus: 20
     followsjumpclones: 1
     id: 2838
-    intelligencebonus: 3
+    intelligencebonus: 5
     mass: 1.0
-    memorybonus: 3
+    memorybonus: 5
     metalevelold: 8
     name: Standard Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
-    perceptionbonus: 3
+    perceptionbonus: 5
     portionSize: 1
     price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 1
-    rofbonus: -20
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-    willpowerbonus: 3
+    willpowerbonus: 5
   3898:
     boosterduration: 3600000.0
     boosterness: 1

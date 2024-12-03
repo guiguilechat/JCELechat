@@ -3047,6 +3047,46 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  85843:
+    id: 85843
+    marketGroup: 3655
+    name: Blue Ice Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85844:
+    id: 85844
+    marketGroup: 3654
+    name: Clear Gelidus Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85845:
+    id: 85845
+    marketGroup: 3653
+    name: Winter Bloom Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85846:
+    id: 85846
+    marketGroup: 3632
+    name: Festive Iron Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85847:
+    id: 85847
+    marketGroup: 3633
+    name: Jagged Crystal - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   86104:
     id: 86104
     marketGroup: 3653
@@ -3091,6 +3131,38 @@ types:
     id: 86144
     marketGroup: 3632
     name: Lethal Navy Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  86660:
+    id: 86660
+    marketGroup: 3653
+    name: Groundbreaker Black Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  86678:
+    id: 86678
+    marketGroup: 3653
+    name: Corrupted Coral Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  86679:
+    id: 86679
+    marketGroup: 3653
+    name: Extraction White Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  86680:
+    id: 86680
+    marketGroup: 3633
+    name: Hacked Virtuality - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

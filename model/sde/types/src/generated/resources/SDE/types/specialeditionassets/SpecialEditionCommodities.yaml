@@ -4152,3 +4152,11 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  87098:
+    cpumultiplier: 1.0
+    id: 87098
+    name: Arkombine Arisen SKINs Crate
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    volume: 5.0

@@ -1030,7 +1030,7 @@ types:
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   631:
-    agility: 0.6000000238418579
+    agility: 0.5699999928474426
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1100.0
@@ -1041,7 +1041,7 @@ types:
     capacitorcapacity: 1750.0
     capacity: 475.0
     covertopsandreconopscloakmoduledelay: 30000
-    cpuoutput: 285
+    cpuoutput: 300
     dronearmordamageamountbonus: 100
     dronebandwidth: 45
     dronecapacity: 45
@@ -1080,13 +1080,13 @@ types:
     maxpassengers: 630
     maxrangebonus: 430.0
     maxtargetrange: 52500.0
-    maxvelocity: 250.0
+    maxvelocity: 260.0
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Scythe
     packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 345
+    poweroutput: 375
     powertospeed: 1
     price: 6400000.0
     propulsiongraphicid: 397
@@ -2462,7 +2462,7 @@ types:
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17922:
-    agility: 0.5799999833106995
+    agility: 0.550000011920929
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.800000011920929
     armorhp: 2950.0
@@ -2474,8 +2474,8 @@ types:
     capacity: 430.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 350
-    dronebandwidth: 40
-    dronecapacity: 40
+    dronebandwidth: 50
+    dronecapacity: 50
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -2507,7 +2507,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 500
     maxtargetrange: 55000.0
-    maxvelocity: 208.0
+    maxvelocity: 215.0
     medslots: 4
     metagroupid: 4
     metalevelold: 8

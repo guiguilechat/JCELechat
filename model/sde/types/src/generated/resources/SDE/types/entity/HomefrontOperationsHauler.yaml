@@ -17,7 +17,7 @@ types:
     mass: 1.065E7
     maxlockedtargets: 2
     maxtargetrange: 53125.0
-    maxvelocity: 109.0
+    maxvelocity: 100.0
     name: Offertory Sigil
     packagedVolume: 1.025E7
     portionSize: 1
@@ -55,7 +55,7 @@ types:
     mass: 1.065E7
     maxlockedtargets: 2
     maxtargetrange: 53125.0
-    maxvelocity: 109.0
+    maxvelocity: 100.0
     name: Badger Runner
     packagedVolume: 1.025E7
     portionSize: 1
@@ -93,7 +93,7 @@ types:
     mass: 1.065E7
     maxlockedtargets: 2
     maxtargetrange: 53125.0
-    maxvelocity: 109.0
+    maxvelocity: 100.0
     name: Nereus Mule
     packagedVolume: 1.025E7
     portionSize: 1
@@ -131,7 +131,7 @@ types:
     mass: 1.065E7
     maxlockedtargets: 2
     maxtargetrange: 53125.0
-    maxvelocity: 109.0
+    maxvelocity: 100.0
     name: Plunder Wreathe
     packagedVolume: 1.025E7
     portionSize: 1

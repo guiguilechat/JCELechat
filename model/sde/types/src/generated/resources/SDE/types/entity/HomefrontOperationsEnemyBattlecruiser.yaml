@@ -21,7 +21,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Grand Oracle
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -66,7 +66,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Proselytizer Oracle
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -111,7 +111,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Eraser Naga
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -156,7 +156,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Grim Naga
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -201,7 +201,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Tycoon Talos
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -247,7 +247,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Sundering Tornado
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -292,7 +292,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Instigator Naga
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -337,7 +337,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Supreme Talos
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -381,7 +381,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Ulfhednar Tornado
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -426,7 +426,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Vitiator Stainer
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -472,7 +472,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Dominant Drekavac
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -517,7 +517,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Veritas Talos
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -563,7 +563,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Spymaster Tornado
     optimalsigradius: 40000
     packagedVolume: 1100000.0
@@ -607,7 +607,7 @@ types:
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
-    maxvelocity: 267.2192687988281
+    maxvelocity: 450.0
     name: Venerated Oracle
     optimalsigradius: 40000
     packagedVolume: 1100000.0

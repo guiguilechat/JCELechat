@@ -71,7 +71,7 @@ types:
     radius: 1700.0
     rechargerate: 1000000.0
     scanladarstrength: 90.0
-    scanresolution: 60.0
+    scanresolution: 50.0
     shieldcapacity: 140000.0
     shieldemdamageresonance: 0.4099999964237213
     shieldexplosivedamageresonance: 0.7099999785423279
@@ -87,7 +87,7 @@ types:
     trackingspeed: 0.09000000357627869
     volume: 1.55E7
     warpscrambleduration: 5000
-    warpscramblerange: 125000
+    warpscramblerange: 90000
     warpscramblestrength: 1
   41396:
     agility: 0.10000000149011612
@@ -177,5 +177,5 @@ types:
     trackingspeed: 0.10000000149011612
     volume: 1.55E7
     warpscrambleduration: 5000
-    warpscramblerange: 125000
+    warpscramblerange: 90000
     warpscramblestrength: 1

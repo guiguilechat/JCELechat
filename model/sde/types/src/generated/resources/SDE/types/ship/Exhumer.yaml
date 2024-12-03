@@ -48,7 +48,7 @@ types:
     marketGroup: 874
     mass: 1.5E7
     maxdirectionalvelocity: 3000
-    maxlockedtargets: 6
+    maxlockedtargets: 8
     maxpassengers: 20
     maxtargetrange: 55000.0
     maxvelocity: 160.0
@@ -107,7 +107,7 @@ types:
     weapondisruptionresistance: 1.0
   22546:
     affectedbyindustrialinvulnmodule: 1
-    agility: 0.800000011920929
+    agility: 0.6399999856948853
     allowedincapindustrialmaintenancebay: 1
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
@@ -152,11 +152,11 @@ types:
     marketGroup: 874
     mass: 2.0E7
     maxdirectionalvelocity: 3000
-    maxlockedtargets: 6
+    maxlockedtargets: 8
     maxpassengers: 2
     maxtargetrange: 67500.0
     maxvelocity: 110.0
-    medslots: 4
+    medslots: 5
     metalevelold: 5
     miningamountmultiplier: 1.0
     miningbargebonusiceharvestingduration: -4
@@ -253,7 +253,7 @@ types:
     marketGroup: 874
     mass: 1.75E7
     maxdirectionalvelocity: 3000
-    maxlockedtargets: 6
+    maxlockedtargets: 8
     maxpassengers: 2
     maxtargetrange: 45000.0
     maxvelocity: 130.0

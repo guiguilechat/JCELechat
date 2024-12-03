@@ -155,12 +155,18 @@ public enum get_characters_character_id_notifications_type {
     CorporationGoalCompleted("CorporationGoalCompleted"),
     @JsonProperty("CorporationGoalCreated")
     CorporationGoalCreated("CorporationGoalCreated"),
+    @JsonProperty("CorporationGoalExpired")
+    CorporationGoalExpired("CorporationGoalExpired"),
+    @JsonProperty("CorporationGoalLimitReached")
+    CorporationGoalLimitReached("CorporationGoalLimitReached"),
     @JsonProperty("CorporationGoalNameChange")
     CorporationGoalNameChange("CorporationGoalNameChange"),
     @JsonProperty("CorporationLeft")
     CorporationLeft("CorporationLeft"),
     @JsonProperty("CustomsMsg")
     CustomsMsg("CustomsMsg"),
+    @JsonProperty("DailyItemRewardAutoClaimed")
+    DailyItemRewardAutoClaimed("DailyItemRewardAutoClaimed"),
     @JsonProperty("DeclareWar")
     DeclareWar("DeclareWar"),
     @JsonProperty("DistrictAttacked")
@@ -277,6 +283,10 @@ public enum get_characters_character_id_notifications_type {
     MercOfferRetractedMsg("MercOfferRetractedMsg"),
     @JsonProperty("MercOfferedNegotiationMsg")
     MercOfferedNegotiationMsg("MercOfferedNegotiationMsg"),
+    @JsonProperty("MercenaryDenAttacked")
+    MercenaryDenAttacked("MercenaryDenAttacked"),
+    @JsonProperty("MercenaryDenReinforced")
+    MercenaryDenReinforced("MercenaryDenReinforced"),
     @JsonProperty("MissionCanceledTriglavian")
     MissionCanceledTriglavian("MissionCanceledTriglavian"),
     @JsonProperty("MissionOfferExpirationMsg")

@@ -69,7 +69,7 @@ types:
     radius: 1700.0
     rechargerate: 1000000.0
     scanradarstrength: 95.0
-    scanresolution: 60.0
+    scanresolution: 50.0
     shieldcapacity: 100000.0
     shieldemdamageresonance: 0.7099999785423279
     shieldexplosivedamageresonance: 0.4099999964237213
@@ -85,7 +85,7 @@ types:
     trackingspeed: 0.07000000029802322
     volume: 1.85E7
     warpscrambleduration: 5000
-    warpscramblerange: 100000
+    warpscramblerange: 80000
     warpscramblestrength: 1
   41397:
     agility: 0.10000000149011612
@@ -173,5 +173,5 @@ types:
     trackingspeed: 0.07999999821186066
     volume: 1.85E7
     warpscrambleduration: 5000
-    warpscramblerange: 100000
+    warpscramblerange: 80000
     warpscramblestrength: 1

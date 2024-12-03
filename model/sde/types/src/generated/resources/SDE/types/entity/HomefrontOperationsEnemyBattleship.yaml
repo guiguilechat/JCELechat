@@ -31,7 +31,7 @@ types:
     maxlockedtargets: 7
     maxrange: 70000.0
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 350.0
     name: Ravenous Leshak
     optimalsigradius: 40000
     packagedVolume: 495000.0
@@ -83,7 +83,7 @@ types:
     maxlockedtargets: 7
     maxrange: 70000.0
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 400.0
     name: Dominant Leshak
     optimalsigradius: 40000
     packagedVolume: 495000.0
@@ -136,7 +136,7 @@ types:
     maxlockedtargets: 7
     maxrange: 70000.0
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 400.0
     name: Watchful Steward
     optimalsigradius: 40000
     packagedVolume: 495000.0
@@ -185,7 +185,7 @@ types:
     maxlockedtargets: 7
     maxrange: 70000.0
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 400.0
     name: Vitiator Inspector
     optimalsigradius: 40000
     packagedVolume: 495000.0
@@ -239,7 +239,7 @@ types:
     maxlockedtargets: 7
     maxrange: 70000.0
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 350.0
     name: Alienator Controller
     optimalsigradius: 40000
     packagedVolume: 495000.0
@@ -297,7 +297,7 @@ types:
     maxlockedtargets: 7
     maxrange: 70000.0
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 350.0
     name: Enervating Overseer
     optimalsigradius: 40000
     packagedVolume: 495000.0
@@ -358,7 +358,7 @@ types:
     maxlockedtargets: 7
     maxrange: 70000.0
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 350.0
     name: Tyrannos Basileus
     optimalsigradius: 40000
     packagedVolume: 495000.0
@@ -411,7 +411,7 @@ types:
     mass: 6.3E7
     maxlockedtargets: 7
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 350.0
     name: Focused Sanguinary Bhaalgorn
     optimalsigradius: 1000
     packagedVolume: 495000.0
@@ -461,7 +461,7 @@ types:
     mass: 6.3E7
     maxlockedtargets: 7
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 350.0
     name: Focused Leeching Machariel
     optimalsigradius: 1000
     packagedVolume: 495000.0
@@ -511,7 +511,7 @@ types:
     mass: 6.3E7
     maxlockedtargets: 7
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 350.0
     name: Focused Negotiator Widow
     optimalsigradius: 1000
     packagedVolume: 495000.0
@@ -561,7 +561,7 @@ types:
     mass: 6.3E7
     maxlockedtargets: 7
     maxtargetrange: 200000.0
-    maxvelocity: 750.0
+    maxvelocity: 350.0
     name: Focused Liberator Sin
     optimalsigradius: 1000
     packagedVolume: 495000.0

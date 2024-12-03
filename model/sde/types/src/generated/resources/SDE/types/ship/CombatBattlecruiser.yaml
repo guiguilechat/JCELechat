@@ -1320,7 +1320,7 @@ types:
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   72812:
-    agility: 0.6600000262260437
+    agility: 0.6899999976158142
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 5250.0
@@ -1360,7 +1360,7 @@ types:
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 450
-    maxtargetrange: 67500.0
+    maxtargetrange: 60000.0
     maxvelocity: 170.0
     medslots: 7
     mintargetveldmgmultiplier: 0.25
@@ -1393,7 +1393,7 @@ types:
     shipbonuscbc1: 7.5
     shipbonuscbc2: 10
     shipbonuscbc3: -7.5
-    signatureradius: 300.0
+    signatureradius: 325.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1804,6 +1804,8 @@ types:
     hislots: 8
     hp: 6000.0
     id: 85086
+    isblackopsjumpconduitpassenger: 1
+    isblackopsjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
     lowslots: 3
@@ -1834,7 +1836,7 @@ types:
     requiredskill2level: 2
     rigsize: 2
     rigslots: 3
-    rolebonuscbc: 7.5
+    rolebonuscbc: 25.0
     rolebonuscommandburstaoerange: 50
     scanladarstrength: 25.0
     scanresolution: 220.0
@@ -1846,7 +1848,7 @@ types:
     shieldrechargerate: 1800000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonuscbc1: 10.0
+    shipbonuscbc1: 7.5
     shipbonusmbc1: -5.0
     shipbonusrole1: 100.0
     shipbonusrole2: 100
@@ -1863,5 +1865,5 @@ types:
     upgradeslotsleft: 3
     volume: 216000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 2.700000047683716
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

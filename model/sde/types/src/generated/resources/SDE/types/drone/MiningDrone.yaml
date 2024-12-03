@@ -230,7 +230,7 @@ types:
     marketGroup: 158
     maxlockedtargets: 8
     maxrange: 5000.0
-    maxvelocity: 175.0
+    maxvelocity: 250.0
     metagroupid: 4
     metalevelold: 8
     miningamount: 80

@@ -230,7 +230,7 @@ types:
     name: Vengeance
     packagedVolume: 2500.0
     portionSize: 1
-    poweroutput: 43
+    poweroutput: 46
     powertospeed: 1
     price: 1.98E7
     propulsiongraphicid: 394
@@ -254,7 +254,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonus2af: -5.0
-    shipbonusaf: 5.0
+    shipbonusaf: 7.5
     signatureradius: 37.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0

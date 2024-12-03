@@ -230,6 +230,7 @@ types:
     medslots: 5
     metalevelold: 5
     mintargetveldmgmultiplier: 1.0
+    mwdsignatureradiusbonus: -50
     name: Cerberus
     packagedVolume: 10000.0
     portionSize: 1
@@ -320,6 +321,7 @@ types:
     medslots: 4
     metalevelold: 5
     mintargetveldmgmultiplier: 1.0
+    mwdsignatureradiusbonus: -50
     name: Vagabond
     packagedVolume: 10000.0
     portionSize: 1
@@ -411,6 +413,7 @@ types:
     medslots: 3
     metalevelold: 5
     mintargetveldmgmultiplier: 1.0
+    mwdsignatureradiusbonus: -50
     name: Zealot
     packagedVolume: 10000.0
     portionSize: 1
@@ -502,6 +505,7 @@ types:
     medslots: 4
     metalevelold: 5
     mintargetveldmgmultiplier: 1.0
+    mwdsignatureradiusbonus: -50
     name: Ishtar
     packagedVolume: 10000.0
     portionSize: 1
@@ -594,6 +598,7 @@ types:
     medslots: 6
     metalevelold: 5
     mintargetveldmgmultiplier: 1.0
+    mwdsignatureradiusbonus: -50
     name: Eagle
     packagedVolume: 10000.0
     portionSize: 1
@@ -685,6 +690,7 @@ types:
     medslots: 4
     metalevelold: 5
     mintargetveldmgmultiplier: 1.0
+    mwdsignatureradiusbonus: -50
     name: Muninn
     packagedVolume: 10000.0
     portionSize: 1
@@ -777,6 +783,7 @@ types:
     medslots: 4
     metalevelold: 5
     mintargetveldmgmultiplier: 1.0
+    mwdsignatureradiusbonus: -50
     name: Sacrilege
     packagedVolume: 10000.0
     portionSize: 1
@@ -868,6 +875,7 @@ types:
     medslots: 4
     metalevelold: 5
     mintargetveldmgmultiplier: 1.0
+    mwdsignatureradiusbonus: -50
     name: Deimos
     packagedVolume: 10000.0
     portionSize: 1
@@ -1050,6 +1058,7 @@ types:
     maxvelocity: 220.0
     medslots: 4
     mintargetveldmgmultiplier: 0.25
+    mwdsignatureradiusbonus: -50
     name: Ikitursa
     packagedVolume: 10000.0
     portionSize: 1

@@ -6278,6 +6278,33 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 4
     volume: 27500.0
+  30529:
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 30529
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Deserted Talocan Cruiser
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 275.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
   30720:
     capacitorcapacity: 1000.0
     capacity: 1400.0

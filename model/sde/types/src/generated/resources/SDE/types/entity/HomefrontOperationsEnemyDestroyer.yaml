@@ -24,7 +24,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 4.699999809265137
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
@@ -77,7 +77,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -116,7 +116,7 @@ types:
     armorthermaldamageresonance: 0.44999998807907104
     capacitorcapacity: 875.0
     capacity: 235.0
-    damagemultiplier: 5.099999904632568
+    damagemultiplier: 9.399999618530273
     damagemultiplierbonusmax: 0.5
     entitykillbounty: 112500
     explosivedamage: 6.0
@@ -129,7 +129,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -183,7 +183,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -234,7 +234,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -285,7 +285,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -336,7 +336,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -384,8 +384,8 @@ types:
     mass: 2860000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
-    missiledamagemultiplier: 5.099999904632568
+    maxvelocity: 950.0
+    missiledamagemultiplier: 9.399999618530273
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
     missileentityflighttimemultiplier: 1.25
@@ -420,7 +420,7 @@ types:
     armorthermaldamageresonance: 0.5400000214576721
     capacitorcapacity: 875.0
     capacity: 235.0
-    damagemultiplier: 5.099999904632568
+    damagemultiplier: 9.399999618530273
     damagemultiplierbonusmax: 0.5
     emdamage: 10.0
     entitykillbounty: 112500
@@ -433,7 +433,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -472,7 +472,7 @@ types:
     armorthermaldamageresonance: 0.7200000286102295
     capacitorcapacity: 875.0
     capacity: 235.0
-    damagemultiplier: 5.099999904632568
+    damagemultiplier: 9.399999618530273
     damagemultiplierbonusmax: 0.5
     entitykillbounty: 112500
     explosivedamage: 10.0
@@ -486,7 +486,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -543,7 +543,7 @@ types:
     maxlockedtargets: 6
     maxrange: 20000.0
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -600,7 +600,7 @@ types:
     maxlockedtargets: 6
     maxrange: 20000.0
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -654,7 +654,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 4.699999809265137
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
@@ -708,7 +708,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 4.699999809265137
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
@@ -761,7 +761,7 @@ types:
     maxlockedtargets: 6
     maxrange: 20000.0
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -822,7 +822,7 @@ types:
     maxrange: 20000.0
     maxtargetrange: 50000.0
     maxtargetrangebonus: -25.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -878,7 +878,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 4.699999809265137
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
@@ -931,7 +931,7 @@ types:
     maxlockedtargets: 6
     maxrange: 20000.0
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -989,7 +989,7 @@ types:
     maxlockedtargets: 6
     maxrange: 20000.0
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1048,7 +1048,7 @@ types:
     maxlockedtargets: 6
     maxrange: 20000.0
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1101,7 +1101,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 4.699999809265137
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
@@ -1158,7 +1158,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 4.699999809265137
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
@@ -1211,7 +1211,7 @@ types:
     maxlockedtargets: 6
     maxrange: 20000.0
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1272,7 +1272,7 @@ types:
     maxrange: 20000.0
     maxtargetrange: 50000.0
     maxtargetrangebonus: -25.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1326,7 +1326,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1380,7 +1380,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1430,7 +1430,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1482,7 +1482,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1533,7 +1533,7 @@ types:
     mass: 2860000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 4.699999809265137
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
@@ -1582,7 +1582,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1635,7 +1635,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1685,7 +1685,7 @@ types:
     mass: 2860000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 4.699999809265137
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
@@ -1735,7 +1735,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1786,7 +1786,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1837,7 +1837,7 @@ types:
     mass: 2860000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 4.699999809265137
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.5
@@ -1886,7 +1886,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1939,7 +1939,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1990,7 +1990,7 @@ types:
     maxlockedtargets: 5
     maxrange: 20000.0
     maxtargetrange: 35000.0
-    maxvelocity: 2000.0
+    maxvelocity: 950.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2043,7 +2043,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2097,7 +2097,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2151,7 +2151,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2205,7 +2205,7 @@ types:
     mass: 1700000.0
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 832.0
+    maxvelocity: 850.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0

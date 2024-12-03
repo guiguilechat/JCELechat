@@ -859,7 +859,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     falloff: 8282.1396484375
     gfxboosterid: 394
-    gfxturretid: 5219
+    gfxturretid: 3074
     hp: 525.0
     id: 52934
     kineticdamage: 26.399999618530273
@@ -2716,8 +2716,8 @@ types:
     maxlockedtargets: 7
     maxtargetrange: 85000.0
     maxvelocity: 165.0
-    missiledamagemultiplier: 8.600000381469727
-    missileentityaoecloudsizemultiplier: 3.0
+    missiledamagemultiplier: 12.199999809265137
+    missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 3.0
     missileentityflighttimemultiplier: 2.799999952316284
     missileentityvelocitymultiplier: 2.299999952316284
@@ -5149,7 +5149,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     falloff: 8282.1396484375
     gfxboosterid: 394
-    gfxturretid: 5219
+    gfxturretid: 3074
     hp: 262.5
     id: 54029
     kineticdamage: 26.399999618530273
@@ -5758,7 +5758,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     falloff: 8282.1396484375
     gfxboosterid: 394
-    gfxturretid: 5219
+    gfxturretid: 3074
     hp: 787.5
     id: 54038
     kineticdamage: 26.399999618530273
@@ -6367,7 +6367,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     falloff: 8282.1396484375
     gfxboosterid: 394
-    gfxturretid: 5219
+    gfxturretid: 3074
     hp: 1312.5
     id: 54047
     kineticdamage: 26.399999618530273

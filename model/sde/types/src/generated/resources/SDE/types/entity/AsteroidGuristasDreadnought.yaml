@@ -73,7 +73,7 @@ types:
     radius: 1700.0
     rechargerate: 1000000.0
     scangravimetricstrength: 120.0
-    scanresolution: 60.0
+    scanresolution: 50.0
     shieldcapacity: 170000.0
     shieldemdamageresonance: 0.4099999964237213
     shieldexplosivedamageresonance: 0.5099999904632568
@@ -86,7 +86,7 @@ types:
     structureuniformity: 1.0
     volume: 1.625E7
     warpscrambleduration: 5000
-    warpscramblerange: 110000
+    warpscramblerange: 85000
     warpscramblestrength: 1
   41398:
     agility: 0.10000000149011612
@@ -175,5 +175,5 @@ types:
     structureuniformity: 1.0
     volume: 1.625E7
     warpscrambleduration: 5000
-    warpscramblerange: 110000
+    warpscramblerange: 85000
     warpscramblestrength: 1

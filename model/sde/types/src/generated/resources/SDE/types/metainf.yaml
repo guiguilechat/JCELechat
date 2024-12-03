@@ -13684,6 +13684,7 @@ id2group:
   30512: entity/LargeCollidableStructure
   30519: entity/SpawnContainer
   30525: entity/SpawnContainer
+  30529: entity/SpawnContainer
   30532: skill/Subsystems
   30537: skill/Subsystems
   30538: skill/Subsystems
@@ -15413,6 +15414,7 @@ id2group:
   33325: decryptors/DecryptorsCaldari
   33326: decryptors/DecryptorsGallente
   33327: blueprint/BattlecruiserBlueprint
+  33328: ship/Capsule
   33329: implant/SpecialEditionImplant
   33330: charge/CapacitorBoosterCharge
   33332: charge/CapacitorBoosterCharge
@@ -31452,7 +31454,7 @@ id2group:
   85740: skins/PermanentSKIN
   85741: skins/PermanentSKIN
   85742: skins/PermanentSKIN
-  85746: commodity/Commodities
+  85746: commodity/InfomorphSystems
   85747: charge/ScannerProbe
   85748: implant/CyberScanning
   85749: blueprint/CyberScanningImplantBlueprints
@@ -31464,6 +31466,11 @@ id2group:
   85755: personalization/ShipSKINDesignElement
   85756: personalization/ShipSKINDesignElement
   85787: specialeditionassets/SpecialEditionCommodities
+  85843: personalization/ShipSKINDesignElement
+  85844: personalization/ShipSKINDesignElement
+  85845: personalization/ShipSKINDesignElement
+  85846: personalization/ShipSKINDesignElement
+  85847: personalization/ShipSKINDesignElement
   85849: commodity/Miscellaneous
   85851: blueprint/MutaplasmidBlueprint
   85852: blueprint/MutaplasmidBlueprint
@@ -31491,14 +31498,6 @@ id2group:
   85874: blueprint/MutaplasmidBlueprint
   85875: blueprint/MutaplasmidBlueprint
   85880: specialeditionassets/SpecialEditionCommodities
-  85890: skins/PermanentSKIN
-  85891: skins/PermanentSKIN
-  85892: skins/PermanentSKIN
-  85893: skins/PermanentSKIN
-  85894: skins/PermanentSKIN
-  85895: skins/PermanentSKIN
-  85896: skins/PermanentSKIN
-  85897: skins/PermanentSKIN
   85929: skins/PermanentSKIN
   85930: skins/PermanentSKIN
   85931: skins/PermanentSKIN
@@ -31694,6 +31693,59 @@ id2group:
   86275: specialeditionassets/SpecialEditionCommodities
   86276: specialeditionassets/SpecialEditionCommodities
   86393: expertsystems/StandardExpertSystems
+  86410: entity/LargeCollidableStructure
+  86413: commodity/Miscellaneous
+  86417: entity/IrregularFrigate
+  86418: entity/IrregularFrigate
+  86419: entity/IrregularFrigate
+  86421: entity/IrregularDestroyer
+  86422: entity/IrregularDestroyer
+  86423: entity/IrregularFrigate
+  86424: entity/IrregularFrigate
+  86425: entity/IrregularDestroyer
+  86426: entity/IrregularCruiser
+  86427: entity/IrregularCruiser
+  86428: entity/IrregularCruiser
+  86429: entity/IrregularBattleship
+  86430: entity/IrregularBattleship
+  86448: entity/IrregularFrigate
+  86450: entity/IrregularFrigate
+  86451: entity/IrregularDestroyer
+  86453: entity/IrregularDestroyer
+  86454: entity/IrregularCruiser
+  86455: entity/IrregularCruiser
+  86456: entity/IrregularCruiser
+  86457: entity/IrregularCruiser
+  86458: entity/IrregularFrigate
+  86459: entity/IrregularFrigate
+  86460: entity/IrregularCruiser
+  86461: entity/IrregularCruiser
+  86462: entity/IrregularBattlecruiser
+  86477: entity/IrregularFrigate
+  86478: entity/IrregularFrigate
+  86479: entity/IrregularFrigate
+  86480: entity/IrregularFrigate
+  86481: entity/IrregularFrigate
+  86482: entity/IrregularCruiser
+  86483: entity/IrregularCruiser
+  86490: entity/IrregularCruiser
+  86498: entity/DrifterResponseBattleship
+  86512: entity/IrregularDestroyer
+  86513: entity/IrregularDestroyer
+  86514: entity/IrregularFrigate
+  86515: entity/IrregularFrigate
+  86516: entity/IrregularFrigate
+  86518: entity/IrregularFrigate
+  86604: entity/IrregularDestroyer
+  86605: entity/IrregularCruiser
+  86606: entity/IrregularBattlecruiser
+  86607: entity/IrregularBattleship
+  86660: personalization/ShipSKINDesignElement
+  86678: personalization/ShipSKINDesignElement
+  86679: personalization/ShipSKINDesignElement
+  86680: personalization/ShipSKINDesignElement
+  86703: entity/IrregularCruiser
+  87098: specialeditionassets/SpecialEditionCommodities
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

@@ -8947,7 +8947,7 @@ types:
     maxrange: 3600.0
     metagroupid: 5
     metalevelold: 15
-    name: Gara's Modified Navy Heavy Neutron Blaster
+    name: Gara's Modified Heavy Neutron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
     packagedVolume: 10.0

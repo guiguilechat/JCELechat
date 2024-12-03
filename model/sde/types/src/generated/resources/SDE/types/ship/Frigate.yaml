@@ -2879,7 +2879,7 @@ types:
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   17926:
-    agility: 3.5999999046325684
+    agility: 3.4000000953674316
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.800000011920929
     armorhp: 740.0
@@ -2891,8 +2891,8 @@ types:
     capacity: 135.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 150
-    dronebandwidth: 5
-    dronecapacity: 5
+    dronebandwidth: 10
+    dronecapacity: 10
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -2924,7 +2924,7 @@ types:
     maxlockedtargets: 6
     maxpassengers: 12
     maxtargetrange: 33000.0
-    maxvelocity: 330.0
+    maxvelocity: 340.0
     medslots: 3
     metagroupid: 4
     metalevelold: 8
@@ -3989,7 +3989,7 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 1.0
-    hislots: 2
+    hislots: 3
     hp: 550.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -4005,7 +4005,7 @@ types:
     maxlockedtargets: 5
     maxpassengers: 12
     maxtargetrange: 64500.0
-    maxvelocity: 315.0
+    maxvelocity: 325.0
     medslots: 3
     metagroupid: 4
     metalevelold: 7
@@ -4014,7 +4014,7 @@ types:
     name: Maulus Navy Issue
     packagedVolume: 2500.0
     portionSize: 1
-    poweroutput: 35
+    poweroutput: 38
     powertospeed: 1
     price: 2100000.0
     propulsiongraphicid: 394
