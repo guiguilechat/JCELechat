@@ -17,8 +17,10 @@ import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location.LOCTYPE;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
+import fr.lelouet.tools.holders.impl.collections.SetHolderImpl;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -176,6 +178,14 @@ public class Markets {
 	private final GroupedPrices empireAvgPrice = new GroupedPrices(
 	    new RegionalMarket[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() }, this::extractBuyOrders,
 	    this::average);
+
+	@Getter(lazy = true)
+	private final SetHolder<Integer> empireSeeded = SetHolderImpl.union(
+	    domain().getSeeded(),
+	    heimatar().getSeeded(),
+	    metropolis().getSeeded(),
+	    sinqLaison().getSeeded(),
+	    theForge().getSeeded());
 
 	//
 	// prices : adjusted and average

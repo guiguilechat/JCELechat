@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -49,7 +50,14 @@ public class RegionalMarket implements IPricing {
 	private final MapHolder<Integer, List<R_get_markets_region_id_orders>> sellOrdersByTypeId = getSellOrders()
 			.mapMap(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
 
-	// orders
+	/** ids of types that are seeded in that region */
+	@Getter(lazy = true)
+	private final SetHolder<Integer> seeded = getSellOrders()
+	    .filter(order -> order.duration == 365)
+	    .mapItems(order -> order.type_id)
+	    .distinct();
+
+	// orders by isbuy and typeid
 
 	// typeid-> cached buy orders
 	private final Map<Integer, LocalTypeOrders> cachedBuyOrders = new HashMap<>();
