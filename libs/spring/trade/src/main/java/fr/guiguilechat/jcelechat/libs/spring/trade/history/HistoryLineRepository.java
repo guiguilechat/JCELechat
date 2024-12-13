@@ -27,6 +27,32 @@ where
 
 	@Query("""
 select
+	line
+from
+	EsiTradeHistoryLine line
+where
+	line.fetchResource.type.id = :typeId
+""")
+	public List<HistoryLine> findByFetchResourceTypeId(int typeId);
+
+	@Query("""
+select
+	date date,
+	sum(volume) volume,
+	sum(volume*average) totalValue,
+	max(highest) highestPrice,
+	min(lowest) lowestPrice,
+	sum(orderCount) orderCount
+from
+	EsiTradeHistoryLine line
+where
+	line.fetchResource.type.id = :typeId
+group by date
+""")
+	public List<Object[]> aggregated(int typeId);
+
+	@Query("""
+select
 	line.fetchResource,
 	max(line.date)
 from

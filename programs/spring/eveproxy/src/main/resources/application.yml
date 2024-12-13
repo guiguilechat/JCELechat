@@ -40,6 +40,9 @@ esi:
          region:
             update:
                skip: false
+      history:
+         update:
+            skip: false
       market:
          update:
             skip: false

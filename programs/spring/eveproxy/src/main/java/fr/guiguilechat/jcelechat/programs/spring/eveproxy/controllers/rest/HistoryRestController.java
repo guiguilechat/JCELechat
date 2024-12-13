@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
@@ -60,6 +61,13 @@ public class HistoryRestController {
 		return RestControllerHelper.makeResponse(
 				DailyExchanges.of(new HistoryAggreg(typeId, regionId, weighter.toString(), NB_STEPS), priceVolumes),
 				accept);
+	}
+
+	@GetMapping("/byTypeId/{typeId}")
+	public ResponseEntity<List<AggregatedHL>> byType(@PathVariable int typeId,
+	    @RequestParam Optional<String> accept) {
+		return RestControllerHelper.makeResponse(hlService.byType(typeId),
+		    accept);
 	}
 
 }

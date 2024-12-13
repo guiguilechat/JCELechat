@@ -31,6 +31,10 @@ public class HistoryLineService {
 		return repo.findByFetchResourceRegionIdAndFetchResourceTypeId(regionId, typeId);
 	}
 
+	public List<AggregatedHL> byType(int typeId) {
+		return repo.aggregated(typeId).stream().map(AggregatedHL::convert).toList();
+	}
+
 	public Map<HistoryReq, Instant> findLastFetched(Iterable<HistoryReq> reqs) {
 		return repo.findLastByReqIn(reqs).stream()
 		    .collect(Collectors.toMap(arr -> (HistoryReq) arr[0], arr -> (Instant) arr[1]));
@@ -59,6 +63,7 @@ public class HistoryLineService {
 	 * account.
 	 */
 	public static interface WeightStrategy {
+
 		public double totalWeight();
 
 		public double weight(HistoryLine line);
@@ -77,10 +82,6 @@ public class HistoryLineService {
 			return ChronoUnit.DAYS.between(first, second);
 		}
 
-		default long days(Instant first, Instant second) {
-			return daysBetween(first, second);
-		}
-
 	}
 
 	/**
@@ -96,7 +97,7 @@ public class HistoryLineService {
 
 			@Override
 			public double weight(HistoryLine line) {
-				long days = days(line.getDate(), refDate);
+				long days = WeightStrategy.daysBetween(line.getDate(), refDate);
 				return days > 0 && days < maxDays ? 1 : 0;
 			}
 
@@ -127,7 +128,7 @@ public class HistoryLineService {
 
 			@Override
 			public double weight(HistoryLine line) {
-				long days = days(line.getDate(), refDate);
+				long days = WeightStrategy.daysBetween(line.getDate(), refDate);
 				return days > 0 ? Math.pow(1.0 - 1.0 / totalWeight, days) : 0;
 			}
 
