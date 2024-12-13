@@ -9,15 +9,19 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
+@RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class HistoryLineService {
 
 	final private HistoryLineRepository repo;
+
+	@Lazy
+	final private HistoryReqService hrService;
 
 	public List<HistoryLine> saveAll(Iterable<HistoryLine> entities) {
 		return repo.saveAllAndFlush(entities);
@@ -32,6 +36,7 @@ public class HistoryLineService {
 	}
 
 	public List<AggregatedHL> byType(int typeId) {
+		hrService.prioritizeType(typeId);
 		return repo.aggregated(typeId).stream().map(AggregatedHL::convert).toList();
 	}
 
@@ -41,7 +46,7 @@ public class HistoryLineService {
 	}
 
 	//
-	// analyzis
+	// Analysis
 	//
 
 	static record DayWeight(double weight, double low, double lowQtty, double high, double highQtty) {

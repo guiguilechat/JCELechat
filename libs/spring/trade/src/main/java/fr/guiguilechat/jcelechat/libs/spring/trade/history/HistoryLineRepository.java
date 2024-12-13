@@ -42,7 +42,8 @@ select
 	sum(volume*average) totalValue,
 	max(highest) highestPrice,
 	min(lowest) lowestPrice,
-	sum(orderCount) orderCount
+	sum(orderCount) orderCount,
+	count(*) regions
 from
 	EsiTradeHistoryLine line
 where

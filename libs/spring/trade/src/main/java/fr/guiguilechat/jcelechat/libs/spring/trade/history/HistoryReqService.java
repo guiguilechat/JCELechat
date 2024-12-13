@@ -11,6 +11,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
@@ -91,6 +92,11 @@ public class HistoryReqService
 		}
 		log.debug("added {} new history lines for {} requirements", newLines.size(), responseOk.size());
 		historyLineService.saveAll(newLines);
+	}
+
+	@Transactional
+	public void prioritizeType(int typeId) {
+		prioritize(repo().findByTypeId(typeId));
 	}
 
 }

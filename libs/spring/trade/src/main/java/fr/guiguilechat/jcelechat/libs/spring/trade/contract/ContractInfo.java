@@ -15,19 +15,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 import fr.guiguilechat.tools.FormatTools;
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Index;
-import jakarta.persistence.Lob;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -281,13 +269,12 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 		for (R_get_contracts_public_items_contract_id item : retrievedItems) {
 			if (item.is_included) {
 				offersItem = true;
-				if (!item.is_blueprint_copy) {
-					offeredTypesIds.add(item.type_id);
-				}
 				if (item.is_blueprint_copy) {
 					offersBpc = true;
 				} else {
+
 					offersNonBpc = true;
+					offeredTypesIds.add(item.type_id);
 				}
 			} else {
 				requestsItem = true;

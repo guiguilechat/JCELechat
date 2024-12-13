@@ -15,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
@@ -43,18 +44,14 @@ import lombok.extern.slf4j.Slf4j;
  * correspond to a single remote resource for that entity
  * 
  * @param <Entity>     local entity we update from the remote
- * @param <IdType>         class of the id for the local entity
+ * @param <IdType>     class of the id for the local entity
  * @param <Fetched>    structure that is returned from remote, containing
  *                       information about a local entity
  * @param <Repository> repo to save the entities
  */
 @Slf4j
 @NoArgsConstructor
-public abstract class ARemoteEntityService<
-			Entity extends ARemoteEntity<IdType, Fetched>,
-			IdType extends Number,
-			Fetched,
-			Repository extends IRemoteEntityRepository<Entity, IdType>>
+public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, Fetched>, IdType extends Number, Fetched, Repository extends IRemoteEntityRepository<Entity, IdType>>
     extends AFetchedResourceService<Entity, IdType, Repository> {
 
 	//
@@ -518,6 +515,26 @@ public abstract class ARemoteEntityService<
 			    endTimeMs - startTimeMs, nbRemain);
 		}
 		return nbUpdates > 0;
+	}
+
+	/**
+	 * set the expiry of the data that need fetching to 30 days before. This
+	 * ensures they will be prioritized on the next update pulse. Note that this
+	 * does not make their fetch active if they are not already ; on the contrary,
+	 * those with fetch inactive won't be updated.
+	 * 
+	 * @param datas
+	 */
+	@Transactional
+	public void prioritize(Iterable<Entity> datas) {
+		List<Entity> updated = StreamSupport.stream(datas.spliterator(), false)
+		    .filter(d -> d.isFetchActive() &&
+		        (!d.isFetched()
+		            || d.getExpires() != null
+		                && d.getExpires().isBefore(Instant.now())))
+		    .peek(d -> d.setExpires(d.getExpires().minus(30, ChronoUnit.DAYS)))
+		    .toList();
+		saveAll(updated);
 	}
 
 	private Instant lastUpdateTime = null;
