@@ -40,6 +40,7 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.HistoryRestController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.RequiredArgsConstructor;
@@ -61,6 +62,9 @@ public class DogmaHtmlController {
 
 	@Lazy
 	private final MarketHtmlController marketHtmlController;
+
+	@Lazy
+	private final HistoryRestController historyRestController;
 
 	private final MarketOrderService marketOrderService;
 
@@ -181,6 +185,7 @@ public class DogmaHtmlController {
 			Type t = types.get(0);
 			model.addAttribute("name", t.name());
 			model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
+			model.addAttribute("historyUrl", historyRestController.uri(t).toString());
 			if (t.getMarketGroup() != null) {
 				model.addAttribute("marketGroup", marketHtmlController.linkedMarketGroup(t.getMarketGroup()));
 			}

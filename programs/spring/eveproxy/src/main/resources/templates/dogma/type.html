@@ -101,6 +101,12 @@
 					</tbody>
 				</table>
 			</div>
+			<div class="col" th:if="${historyUrl!=null}">
+				<h3>history</h3>
+				<a th:href="${historyUrl}">
+					<img th:src="${historyUrl}" class="img-fluid" alt="history chart">
+				</a>
+			</div>
 		</div>
 
 		<div class="row border"
