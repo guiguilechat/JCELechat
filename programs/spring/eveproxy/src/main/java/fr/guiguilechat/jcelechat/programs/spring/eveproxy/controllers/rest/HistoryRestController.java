@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.net.URI;
+import java.text.FieldPosition;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Date;
@@ -16,6 +18,7 @@ import org.jfree.chart.axis.DateAxis;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+import org.jfree.chart.util.HexNumberFormat;
 import org.jfree.data.time.Day;
 import org.jfree.data.time.RegularTimePeriod;
 import org.jfree.data.time.TimeSeries;
@@ -38,6 +41,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
+import fr.guiguilechat.tools.FormatTools;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
@@ -109,9 +113,20 @@ public class HistoryRestController {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
 		List<AggregatedHL> data = hlService.byType(typeId);
-		JFreeChart chart = drawChart(data, "history sales of " + type.name());
+		JFreeChart chart = drawChart(data, "universe sales of " + type.name());
 		RestControllerHelper.addResponseChart(response, chart, accept);
 	}
+
+	@SuppressWarnings("serial")
+	private static final NumberFormat NUMBERFORMAT = new HexNumberFormat() {
+		@Override
+		public StringBuffer format(long number, StringBuffer toAppendTo,
+		    FieldPosition pos) {
+			String formatted = FormatTools.formatPrice(number);
+
+			return new StringBuffer(formatted);
+		}
+	};
 
 	private JFreeChart drawChart(List<AggregatedHL> data, String title) {
 		XYPlot plot = new XYPlot();
@@ -136,6 +151,7 @@ public class HistoryRestController {
 			}
 
 			NumberAxis priceAxis = new NumberAxis("price");
+			priceAxis.setNumberFormatOverride(NUMBERFORMAT);
 			plot.setRangeAxis(0, priceAxis);
 			TimeSeriesCollection priceCollections = new TimeSeriesCollection();
 			priceCollections.addSeries(averagePrice);
@@ -147,6 +163,7 @@ public class HistoryRestController {
 			plot.mapDatasetToRangeAxis(0, 0);
 
 			NumberAxis quantityAxis = new NumberAxis("quantity");
+			quantityAxis.setNumberFormatOverride(NUMBERFORMAT);
 			plot.setRangeAxis(1, quantityAxis);
 			TimeSeriesCollection qttyCollections = new TimeSeriesCollection();
 			qttyCollections.addSeries(volumeTraded);
