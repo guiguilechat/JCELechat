@@ -42,7 +42,8 @@ public class AggregatedHL {
 	private static final MathContext MC = new MathContext(4, RoundingMode.HALF_UP);
 
 	@Getter(lazy = true)
-	private final BigDecimal averagePrice = new BigDecimal(totalValue.doubleValue() / volume, MC);
+	private final BigDecimal averagePrice = totalValue == null ? null
+	    : new BigDecimal(totalValue.doubleValue() / volume, MC);
 
 	/**
 	 * Total number of orders placed that day

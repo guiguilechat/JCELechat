@@ -5,20 +5,23 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.net.URI;
-import java.text.FieldPosition;
-import java.text.NumberFormat;
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
+import java.util.TimeZone;
+import java.util.stream.Stream;
 
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.DateAxis;
+import org.jfree.chart.axis.DateTickUnit;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
-import org.jfree.chart.util.HexNumberFormat;
 import org.jfree.data.time.Day;
 import org.jfree.data.time.RegularTimePeriod;
 import org.jfree.data.time.TimeSeries;
@@ -41,7 +44,6 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
-import fr.guiguilechat.tools.FormatTools;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
@@ -117,24 +119,33 @@ public class HistoryRestController {
 		RestControllerHelper.addResponseChart(response, chart, accept);
 	}
 
-	@SuppressWarnings("serial")
-	private static final NumberFormat NUMBERFORMAT = new HexNumberFormat() {
-		@Override
-		public StringBuffer format(long number, StringBuffer toAppendTo,
-		    FieldPosition pos) {
-			String formatted = FormatTools.formatPrice(number);
-
-			return new StringBuffer(formatted);
-		}
-	};
-
 	private JFreeChart drawChart(List<AggregatedHL> data, String title) {
 		XYPlot plot = new XYPlot();
-		DateAxis timeAxis = new DateAxis(null);
+		// tick on first day of week https://stackoverflow.com/a/11052090
+		@SuppressWarnings("serial")
+		DateAxis timeAxis = new DateAxis(null) {
+			@Override
+			protected Date previousStandardDate(Date date, DateTickUnit unit) {
+				Date prevDate = super.previousStandardDate(date, unit);
+
+				Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
+				calendar.setTime(prevDate);
+
+				int firstDayOfWeek = calendar.getFirstDayOfWeek();
+				if (firstDayOfWeek != calendar.get(Calendar.DAY_OF_WEEK)) {
+					calendar.set(Calendar.DAY_OF_WEEK, firstDayOfWeek);
+				}
+
+				return calendar.getTime();
+			}
+		};
 		timeAxis.setLowerMargin(0.02);
 		timeAxis.setUpperMargin(0.02);
 		plot.setDomainAxis(timeAxis);
-		List<AggregatedHL> sortedStatsList = data.stream()
+		List<AggregatedHL> sortedStatsList = Stream.concat(
+		    data.stream(),
+		    Stream.of(new AggregatedHL(Instant.now().truncatedTo(ChronoUnit.DAYS), 0, null, null,
+		        null, 0, 0)))
 		    .sorted(Comparator.comparing(AggregatedHL::getDate)).toList();
 
 		{
@@ -142,16 +153,40 @@ public class HistoryRestController {
 			TimeSeries minPrice = new TimeSeries("minimum price");
 			TimeSeries maxPrice = new TimeSeries("maximum price");
 			TimeSeries volumeTraded = new TimeSeries("number traded");
+			Instant lastDate = null;
 			for (AggregatedHL e : sortedStatsList) {
-				RegularTimePeriod period = new Day(Date.from(e.getDate()));
-				averagePrice.add(period, e.getAveragePrice().doubleValue());
-				minPrice.add(period, e.getLowestPrice().doubleValue());
-				maxPrice.add(period, e.getHighestPrice().doubleValue());
+				Instant aggregDate = (e.getDate());
+				if (lastDate != null) {
+					long daysDiff = ChronoUnit.DAYS.between(lastDate, aggregDate);
+					for (int days = 1; days < daysDiff; days++) {
+						Date missingDate = Date.from(lastDate.plus(days, ChronoUnit.DAYS));
+						// System.err
+						// .println("adding missing day " + missingDate + " as missing days " + days + "
+						// out of " + daysDiff
+						// + " from " + lastDate + " to " + aggregDate);
+						RegularTimePeriod period = new Day(missingDate);
+						volumeTraded.add(period, 0);
+					}
+				}
+				lastDate = aggregDate;
+				if (aggregDate.equals(Instant.now().truncatedTo(ChronoUnit.DAYS))) {
+					continue;
+				}
+				RegularTimePeriod period = new Day(Date.from(aggregDate));
+				if (e.getAveragePrice() != null) {
+					averagePrice.add(period, e.getAveragePrice().doubleValue());
+				}
+				if (e.getLowestPrice() != null) {
+					minPrice.add(period, e.getLowestPrice().doubleValue());
+				}
+				if (e.getHighestPrice() != null) {
+					maxPrice.add(period, e.getHighestPrice().doubleValue());
+				}
 				volumeTraded.add(period, e.getVolume());
 			}
 
 			NumberAxis priceAxis = new NumberAxis("price");
-			priceAxis.setNumberFormatOverride(NUMBERFORMAT);
+			priceAxis.setNumberFormatOverride(RestControllerHelper.NUMBER_FORMAT_PRICES);
 			plot.setRangeAxis(0, priceAxis);
 			TimeSeriesCollection priceCollections = new TimeSeriesCollection();
 			priceCollections.addSeries(averagePrice);
@@ -163,7 +198,7 @@ public class HistoryRestController {
 			plot.mapDatasetToRangeAxis(0, 0);
 
 			NumberAxis quantityAxis = new NumberAxis("quantity");
-			quantityAxis.setNumberFormatOverride(NUMBERFORMAT);
+			quantityAxis.setNumberFormatOverride(RestControllerHelper.NUMBER_FORMAT_PRICES);
 			plot.setRangeAxis(1, quantityAxis);
 			TimeSeriesCollection qttyCollections = new TimeSeriesCollection();
 			qttyCollections.addSeries(volumeTraded);

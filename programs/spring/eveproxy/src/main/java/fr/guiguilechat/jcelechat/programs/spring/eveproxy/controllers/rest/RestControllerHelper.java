@@ -2,16 +2,21 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.text.FieldPosition;
+import java.text.NumberFormat;
 import java.util.Optional;
 
 import org.jfree.chart.ChartUtils;
 import org.jfree.chart.JFreeChart;
+import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.util.HexNumberFormat;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.YamlMessageConverter;
+import fr.guiguilechat.tools.FormatTools;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class RestControllerHelper {
@@ -67,5 +72,21 @@ public class RestControllerHelper {
 			HttpServletResponse response, JFreeChart chart, Optional<String> accept) throws IOException {
 		addResponseChart(response, chart, accept, 2000, 1000);
 	}
+
+	/**
+	 * A number format that shows prices using
+	 * {@link FormatTools#formatPrice(double)}. Designed to be passed as a
+	 * parameter to an {@link NumberAxis#setNumberFormatOverride(NumberFormat)}, to
+	 * make the chart show prices correctly
+	 */
+	@SuppressWarnings("serial")
+	public static final NumberFormat NUMBER_FORMAT_PRICES = new HexNumberFormat() {
+		@Override
+		public StringBuffer format(long number, StringBuffer toAppendTo,
+		    FieldPosition pos) {
+			String formatted = FormatTools.formatPrice(number);
+			return new StringBuffer(formatted);
+		}
+	};
 
 }
