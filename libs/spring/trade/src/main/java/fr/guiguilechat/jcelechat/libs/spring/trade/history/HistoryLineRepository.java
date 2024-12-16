@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 
+import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.Modifying;
@@ -48,9 +49,10 @@ from
 	EsiTradeHistoryLine line
 where
 	line.fetchResource.type.id = :typeId
+	and line.date>=:from
 group by date
 """)
-	public List<Object[]> aggregated(int typeId);
+	public List<Object[]> aggregated(int typeId, Instant from);
 
 	@Query("""
 select

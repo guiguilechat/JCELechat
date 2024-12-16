@@ -29,6 +29,7 @@ import org.jfree.data.time.TimeSeriesCollection;
 import org.knowm.xchart.OHLCChart;
 import org.knowm.xchart.OHLCChartBuilder;
 import org.knowm.xchart.internal.chartpart.Chart;
+import org.knowm.xchart.style.Styler.LegendPosition;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -98,13 +99,15 @@ public class HistoryRestController {
 
 	@GetMapping("/byTypeId/{typeId}")
 	@Transactional
-	public ResponseEntity<TypeDataDto<List<AggregatedHL>>> byType(@PathVariable int typeId,
-	    @RequestParam Optional<String> accept) {
+	public ResponseEntity<TypeDataDto<List<AggregatedHL>>> byType(
+	    @PathVariable int typeId,
+	    @RequestParam Optional<String> accept,
+	    @RequestParam Optional<Integer> days) {
 		Type type = typeService.byId(typeId);
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
-		List<AggregatedHL> data = hlService.byType(typeId);
+		List<AggregatedHL> data = hlService.byType(typeId, Instant.now().minus(days.orElse(365 * 10), ChronoUnit.DAYS));
 		return RestControllerHelper.makeResponse(TypeDataDto.of(type, data),
 		    accept);
 	}
@@ -118,19 +121,21 @@ public class HistoryRestController {
 	 * @throws IOException
 	 */
 	@Operation(summary = "type sales chart", description = "create a chart of the sales of an item")
-	@Transactional
+	@Transactional // otherwise bug from retrieving data in pg
 	@GetMapping("/byTypeId/{typeId}/chart")
 	public void chartHistoryByType(
 	    @PathVariable @Parameter(description = "type id we want to chart the history of") int typeId,
 	    HttpServletResponse response,
 	    @RequestParam @Parameter(description = "format of the image. values depend on the builder chosen. typically jpg, or png (ignore case)") Optional<String> accept,
-	    @RequestParam @Parameter(description = "builder for the chart. Can be \"jfreechart\" or \"xchart\"(default)") Optional<String> builder)
+	    @RequestParam @Parameter(description = "builder for the chart. Can be \"jfreechart\" or \"xchart\"(default)") Optional<String> builder,
+	    @RequestParam @Parameter(description = "maximum days to show. Default 10 years") Optional<Integer> days)
 	    throws IOException {
 		Type type = typeService.byId(typeId);
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
-		List<AggregatedHL> fetchedData = hlService.byType(typeId);
+		List<AggregatedHL> fetchedData = hlService.byType(typeId,
+		    Instant.now().minus(days.orElse(365 * 10) + 1, ChronoUnit.DAYS));
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}
@@ -140,15 +145,15 @@ public class HistoryRestController {
 		        null, 0, 0)))
 		    .sorted(Comparator.comparing(AggregatedHL::getDate)).toList();
 
+		String title = "universe sales of " + type.name()
+		    + (days.isPresent() ? " over the last " + days.get() + " days" : "");
 		switch (builder.orElse("xchart").toLowerCase()) {
 		case "jfreechart":
-			JFreeChart jfchart = drawJFreeChart(sortedData, "universe sales of " + type.name());
-			RestControllerHelper.addResponseJFreeChart(response, jfchart, accept);
+			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, title), accept);
 			break;
 		case "xchart":
 		default:
-			Chart<?, ?> xchart = drawXChart(sortedData, "universe sales of " + type.name());
-			RestControllerHelper.addResponseXChart(response, xchart, accept);
+			RestControllerHelper.addResponseXChart(response, drawXChart(sortedData, title), accept);
 			break;
 		}
 	}
@@ -246,6 +251,7 @@ public class HistoryRestController {
 	private Chart<?, ?> drawXChart(List<AggregatedHL> sortedData, String title) {
 		OHLCChart ret = new OHLCChartBuilder().width(2000).height(1000).title(title).yAxisTitle("price").build();
 		ret.getStyler().setYAxisMin(0.0);
+		ret.getStyler().setLegendPosition(LegendPosition.OutsideS);
 		List<Date> xData = new ArrayList<>();
 		List<Double> openData = new ArrayList<>();
 		List<Double> highData = new ArrayList<>();
@@ -275,7 +281,11 @@ public class HistoryRestController {
 			if (e.getAveragePrice() != null) {
 				xData.add(Date.from(aggregDate));
 				double val = e.getAveragePrice().doubleValue();
-				openData.add(lastVal);
+				if (lastVal != null) {
+					openData.add(lastVal);
+				} else {
+					openData.add(val * 0.999);
+				}
 				closeData.add(val);
 				lowData.add(e.getLowestPrice() != null ? e.getLowestPrice().doubleValue() : val);
 				highData.add(e.getHighestPrice() != null ? Math.min(e.getHighestPrice().doubleValue(), val * 2) : val);
@@ -284,18 +294,20 @@ public class HistoryRestController {
 			}
 		}
 
-		ret.addSeries("price", xData, openData, highData, lowData, closeData, volumeTraded);
+		ret.addSeries("price", xData, openData, highData, lowData, closeData);
 		return ret;
 	}
 
 	public URI uri(Type type) {
-		return uri(type, null, null);
+		return uri(type, null, null, null);
 	}
 
-	public URI uri(Type type, String accept, String builder) {
+	public URI uri(Type type, String accept, String builder, Integer days) {
 		return MvcUriComponentsBuilder
-		    .fromMethodName(getClass(), "chartHistoryByType", "" + type.getId(), null, Optional.ofNullable(accept),
-		        Optional.ofNullable(builder))
+		    .fromMethodName(getClass(), "chartHistoryByType", "" + type.getId(), null,
+		        Optional.ofNullable(accept),
+		        Optional.ofNullable(builder),
+		        Optional.ofNullable(days))
 		    .build()
 		    .toUri();
 	}

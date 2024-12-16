@@ -35,9 +35,16 @@ public class HistoryLineService {
 		return repo.findByFetchResourceRegionIdAndFetchResourceTypeId(regionId, typeId);
 	}
 
-	public List<AggregatedHL> byType(int typeId) {
+	/**
+	 * prioritize the fetch of this type, and return the already known data.
+	 * 
+	 * @param typeId
+	 * @param from
+	 * @return
+	 */
+	public List<AggregatedHL> byType(int typeId, Instant from) {
 		hrService.prioritizeType(typeId);
-		return repo.aggregated(typeId).stream().map(AggregatedHL::convert).toList();
+		return repo.aggregated(typeId, from).stream().map(AggregatedHL::convert).toList();
 	}
 
 	public Map<HistoryReq, Instant> findLastFetched(Iterable<HistoryReq> reqs) {
