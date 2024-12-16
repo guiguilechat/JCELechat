@@ -10,6 +10,9 @@ import org.jfree.chart.ChartUtils;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.util.HexNumberFormat;
+import org.knowm.xchart.BitmapEncoder;
+import org.knowm.xchart.BitmapEncoder.BitmapFormat;
+import org.knowm.xchart.internal.chartpart.Chart;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -51,7 +54,7 @@ public class RestControllerHelper {
 		return new ResponseEntity<>(data, responseHeaders, HttpStatus.OK);
 	}
 
-	public static void addResponseChart(
+	public static void addResponseJFreeChart(
 			HttpServletResponse response, JFreeChart chart, Optional<String> accept, int width, int height)
 			throws IOException {
 		switch (accept.orElse("png").toLowerCase()) {
@@ -68,9 +71,21 @@ public class RestControllerHelper {
 		}
 	}
 
-	public static void addResponseChart(
+	public static void addResponseJFreeChart(
 			HttpServletResponse response, JFreeChart chart, Optional<String> accept) throws IOException {
-		addResponseChart(response, chart, accept, 2000, 1000);
+		addResponseJFreeChart(response, chart, accept, 2000, 1000);
+	}
+
+	public static void addResponseXChart(
+	    HttpServletResponse response, Chart<?, ?> chart, Optional<String> accept) throws IOException {
+		BitmapFormat format = 	switch (accept.orElse("png").toLowerCase()) {
+		case "bp", "bmp" -> BitmapFormat.BMP;
+		case "gf", "gif" -> BitmapFormat.GIF;
+		case "jpg", "jpeg" -> BitmapFormat.JPG;
+		case "png" -> BitmapFormat.PNG;
+		default ->BitmapFormat.PNG;
+		};
+		BitmapEncoder.saveBitmap(chart, response.getOutputStream(), format);
 	}
 
 	/**

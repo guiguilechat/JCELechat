@@ -317,7 +317,7 @@ public class MarketRestController {
 		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
 			// no care
 		}
-		RestControllerHelper.addResponseChart(response, chart, accept);
+		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
 	}
 
 	@GetMapping("/jita/{typeFiltering}/{typeFilter}/chart")

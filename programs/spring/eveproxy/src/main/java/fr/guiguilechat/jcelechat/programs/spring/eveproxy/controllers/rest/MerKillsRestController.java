@@ -346,7 +346,7 @@ public class MerKillsRestController {
 				: ap.stats(resolved.typeIds(), killService);
 		JFreeChart chart = drawChart(stats, "kills of " + resolved.name() + ", aggregated by " + ap.name().toLowerCase(),
 		    ap);
-		RestControllerHelper.addResponseChart(response, chart, accept);
+		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
 	}
 
 	static JFreeChart drawChart(List<KillStats> stats, String title, AGGREG_PERIOD by) {
@@ -458,7 +458,7 @@ public class MerKillsRestController {
 		JFreeChart chart = drawChart(statsByType,
 		    det.legend + " for " + resolved.name() + ", aggregated by " + ap.name().toLowerCase(), ap,
 				det);
-		RestControllerHelper.addResponseChart(response, chart, accept);
+		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
 	}
 
 	/**

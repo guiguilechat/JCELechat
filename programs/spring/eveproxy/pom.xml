@@ -79,6 +79,10 @@
 			<artifactId>jfreechart</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.knowm.xchart</groupId>
+			<artifactId>xchart</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -137,13 +141,17 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<!--						<builder>gcr.io/paketo-buildpacks/builder:full-cf</builder>-->
+						<!--
+						<builder>gcr.io/paketo-buildpacks/builder:full-cf</builder>-->
 						<name>${EVEPROXY_DOCKER_HUB_USER}/${project.artifactId}</name>
 						<publish>true</publish>
 						<!--						<buildpacks>-->
-						<!--							<buildpack>paketo-buildpacks/ca-certificates</buildpack>-->
-						<!--							  ask to use adoptium buildpack for jvm before paketo. So will use openjdk instead of belllab-->
-						<!--							<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>-->
+						<!--
+						<buildpack>paketo-buildpacks/ca-certificates</buildpack>-->
+						<!--							  ask to use adoptium buildpack for jvm before
+						paketo. So will use openjdk instead of belllab-->
+						<!--
+						<buildpack>gcr.io/paketo-buildpacks/adoptium</buildpack>-->
 						<!--							<buildpack>paketo-buildpacks/java</buildpack>-->
 						<!--						</buildpacks>-->
 						<!--						<env>-->
@@ -174,7 +182,8 @@
 						<id>build-version</id>
 						<configuration>
 							<image>
-								<name>${EVEPROXY_DOCKER_HUB_USER}/${project.artifactId}:${project.version}</name>
+								<name>
+									${EVEPROXY_DOCKER_HUB_USER}/${project.artifactId}:${project.version}</name>
 							</image>
 						</configuration>
 						<goals>
