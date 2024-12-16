@@ -27,7 +27,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_co
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.info")
@@ -119,15 +121,23 @@ public class ContractInfoService extends ARemoteEntityService<
 	 */
 	@Override
 	protected List<ContractInfo> listToUpdate() {
-		lastBatchSize = nextBatchSize();
-		if (lastBatchSize < 1) {
+		int batchSize = nextBatchSize();
+		if (batchSize < 1) {
 			return List.of();
 		}
 		List<ContractInfo> ret = repo().findByFetchActiveTrueAndRemovedFalseAndExpiresLessThanOrderByExpiresAsc(
-		    Instant.now(), Limit.of(lastBatchSize));
+		    Instant.now(),
+		    Limit.of(batchSize));
 		if (ret.isEmpty()) {
-			ret = repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(Instant.now(),
-			    Limit.of(Math.min(lastBatchSize / 2, maxExpectedErrors)));
+			// no new contract : fetch the old contract that have been removed from the list
+			batchSize = Math.min(batchSize, esiStatusService().availErrors() / 2);
+			if (batchSize < 1) {
+				return List.of();
+			}
+			ret = repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(
+			    Instant.now(),
+			    Limit.of(batchSize));
+			log.debug("will fail {} contrat info requests to deduce their end state", ret.size());
 		}
 		return ret;
 	}
