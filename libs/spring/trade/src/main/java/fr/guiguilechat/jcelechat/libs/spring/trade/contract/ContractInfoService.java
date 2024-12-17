@@ -137,7 +137,9 @@ public class ContractInfoService extends ARemoteEntityService<
 			ret = repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(
 			    Instant.now(),
 			    Limit.of(batchSize));
-			log.debug("will fail {} contrat info requests to deduce their end state", ret.size());
+			if (!ret.isEmpty()) {
+				log.debug("will fail {} contrat info requests to deduce their end state", ret.size());
+			}
 		}
 		return ret;
 	}
