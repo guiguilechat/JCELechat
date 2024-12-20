@@ -463,7 +463,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 					}
 				}
 				long endms = System.currentTimeMillis();
-				log.trace("{} finished listing new entriesin {}s", fetcherName(), (endms - startms) / 1000);
+				log.trace("{} finished listing new entries in {}s", fetcherName(), (endms - startms) / 1000);
 			}
 		}
 	}

@@ -35,6 +35,7 @@ public class ContractItemService {
 		return repo.listSOs(typeIds).map(MarketOrder::of);
 	}
 
+
 	public List<Category> categories() {
 		return repo.listCategories();
 	}

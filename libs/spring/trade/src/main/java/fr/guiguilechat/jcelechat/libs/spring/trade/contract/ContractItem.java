@@ -29,7 +29,7 @@ public class ContractItem extends AFetchedListElement<ContractItem, ContractInfo
 	private Type type;
 
 	/**
-	 * is_blueprint_copy boolean
+	 * is_blueprint_copy boolean . true for BPC, false otherwise
 	 */
 	private boolean blueprintCopy;
 
@@ -46,7 +46,7 @@ public class ContractItem extends AFetchedListElement<ContractItem, ContractInfo
 	private long itemId;
 
 	/**
-	 * Material Efficiency Level of the blueprint
+	 * Material Efficiency Level of the blueprint. 0 for non-bp
 	 */
 	private int materialEfficiency;
 
@@ -61,12 +61,13 @@ public class ContractItem extends AFetchedListElement<ContractItem, ContractInfo
 	private long recordId;
 
 	/**
-	 * Number of runs remaining if the blueprint is a copy, -1 if it is an original
+	 * Number of runs remaining if the blueprint is a copy, 0 if it is an original
+	 * or non-bp
 	 */
 	private int runs;
 
 	/**
-	 * Time Efficiency Level of the blueprint
+	 * Time Efficiency Level of the blueprint. 0 for non-bp
 	 */
 	private int timeEfficiency;
 

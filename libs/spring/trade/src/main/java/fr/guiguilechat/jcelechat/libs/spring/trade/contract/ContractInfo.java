@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import java.time.Instant;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -31,6 +32,7 @@ import lombok.ToString;
     @Index(columnList = "secHigh"),
     @Index(columnList = "secLow"),
     @Index(columnList = "secNull"),
+    @Index(columnList = "offersOneTypeForIsk,offeredTypeId,offeredCopy,offeredMe,offeredTe,offeredQuantity,offeredRuns"),
 
 })
 @AllArgsConstructor
@@ -45,6 +47,10 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	@ToString.Exclude
 	@OneToMany(mappedBy = "fetchResource", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<ContractItem> items;
+
+	//
+	// retrieved from region listing
+	//
 
 	/**
 	 * text elements of a contract info
@@ -77,21 +83,6 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	 */
 	@OneToOne(fetch = FetchType.LAZY, mappedBy = "contract", cascade = CascadeType.ALL, orphanRemoval = true)
 	private ContractInfoText text;
-
-	/**
-	 * set to true when the contract only requires one type, and only offers isks.
-	 */
-	private boolean asksOneTypeForIsks = false;
-
-	/**
-	 * set to true once the contract is 404
-	 */
-	private boolean canceled = false;
-
-	/**
-	 * set to true once the contract is 403
-	 */
-	private boolean completed = false;
 
 	/**
 	 * Buyout price (for Auctions only)
@@ -140,79 +131,14 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	private int issuerId;
 
 	/**
-	 * number of distinct types that are asked by the contract creator
-	 */
-	private int nbTypesAsked = 0;
-
-	/**
-	 * number of distinct types that are included in the contract.
-	 */
-	private int nbTypesIncluded = 0;
-
-	/**
-	 * set to true when the contract offers at least one BPC
-	 */
-	@ColumnDefault("false")
-	private boolean offersBpc = false;
-
-	/**
-	 * set to true when the contract only offers one type of blueprint that is a
-	 * copy, and only asks for isks.
-	 */
-	@ColumnDefault("false")
-	private boolean offersBpcForIsk = false;
-
-	/**
-	 * set to true when the contract offers at least one item
-	 */
-	@ColumnDefault("false")
-	private boolean offersItem = false;
-
-	/**
-	 * set to true when the contract offers at least one non-BPC
-	 */
-	@ColumnDefault("false")
-	private boolean offersNonBpc = false;
-
-	/**
-	 * set to true when the contract only offers one type and only asks for isks.
-	 */
-	@ColumnDefault("false")
-	private boolean offersOneTypeForIsk = false;
-
-	/**
 	 * Price of contract (for ItemsExchange and Auctions)
 	 */
 	private double price;
 
 	/**
-	 * set to true when the contract requests at least one item
-	 */
-	@ColumnDefault("false")
-	private boolean requestsItem = false;
-
-	/**
 	 * Remuneration for contract (for Couriers only)
 	 */
 	private double reward;
-
-	/**
-	 * set to true if the location is a known station in HS
-	 */
-	@ColumnDefault("false")
-	private boolean secHigh = false;
-
-	/**
-	 * set to true if the location is a known station in LS
-	 */
-	@ColumnDefault("false")
-	private boolean secLow = false;
-
-	/**
-	 * set to true if the location is a known station in NS
-	 */
-	@ColumnDefault("false")
-	private boolean secNull = false;
 
 	/**
 	 * Start location ID (for Couriers contract)
@@ -257,36 +183,27 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 		return this;
 	}
 
-	@Override
-	public void update(R_get_contracts_public_items_contract_id[] retrievedItems) {
-		super.update(retrievedItems);
-		Set<Integer> askedTypesIds = new HashSet<>();
-		Set<Integer> offeredTypesIds = new HashSet<>();
-		offersBpc = false;
-		offersItem = false;
-		offersNonBpc = false;
-		requestsItem = false;
-		for (R_get_contracts_public_items_contract_id item : retrievedItems) {
-			if (item.is_included) {
-				offersItem = true;
-				if (item.is_blueprint_copy) {
-					offersBpc = true;
-				} else {
+	//
+	// post region retrieval analyzis
+	//
 
-					offersNonBpc = true;
-					offeredTypesIds.add(item.type_id);
-				}
-			} else {
-				requestsItem = true;
-				askedTypesIds.add(item.type_id);
-			}
-		}
-		setNbTypesAsked(askedTypesIds.size());
-		setAsksOneTypeForIsks(!offersBpc && offeredTypesIds.isEmpty() && askedTypesIds.size() == 1);
-		setNbTypesIncluded(offeredTypesIds.size());
-		setOffersOneTypeForIsk(!offersBpc && offeredTypesIds.size() == 1 && askedTypesIds.isEmpty());
-		setOffersBpcForIsk(offersBpc && offeredTypesIds.size() == 1 && askedTypesIds.isEmpty());
-	}
+	/**
+	 * set to true if the location is a known station in HS
+	 */
+	@ColumnDefault("false")
+	private boolean secHigh = false;
+
+	/**
+	 * set to true if the location is a known station in LS
+	 */
+	@ColumnDefault("false")
+	private boolean secLow = false;
+
+	/**
+	 * set to true if the location is a known station in NS
+	 */
+	@ColumnDefault("false")
+	private boolean secNull = false;
 
 	public ContractInfo updateSystem(Map<Long, SolarSystem> stationId2SolarSystem) {
 		SolarSystem solSys = stationId2SolarSystem.get(startLocationId);
@@ -300,6 +217,205 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 		}
 		return this;
 	}
+
+	//
+	// post item retrieval analyzis
+	//
+
+	/**
+	 * short for !offersItem && nbTypesAsked==1
+	 */
+	private boolean asksOneTypeForIsks = false;
+
+	/**
+	 * number of distinct types that are asked by the contract creator
+	 */
+	private int nbTypesAsked = 0;
+
+	/**
+	 * number of distinct types that are included in the contract. those with
+	 * different
+	 * iscopy, me, or te counts as different items
+	 */
+	private int nbTypesIncluded = 0;
+
+	/**
+	 * when the contract provides only one type, is the item provided a copy? false
+	 * for non-bpc
+	 */
+	private Boolean offeredCopy = null;
+
+	/**
+	 * when the contract provides only one type, the ME of the item provided. 0 for
+	 * non-BP
+	 */
+	private Integer offeredMe = null;
+
+	/**
+	 * when the contract provides only one type, the quantity provided
+	 */
+	private Long offeredQuantity = null;
+
+	/**
+	 * when the contract provides only one type, the runs of the item provided. 0 if
+	 * non-bp or BPO
+	 */
+	private Long offeredRuns = null;
+
+	/**
+	 * when the contract provides only one type, the TE of the item provided. 0 for
+	 * non-bp
+	 */
+	private Integer offeredTe = null;
+
+	/**
+	 * when the contract provides only one type, the type id provided
+	 */
+	private Integer offeredTypeId = null;
+
+	/**
+	 * set to true when the contract contains at least one provided item that is a
+	 * copy
+	 */
+	@ColumnDefault("false")
+	private boolean offersBpc = false;
+
+	/**
+	 * short for !requestsItem && nbTypesIncluded==1 && offersBPC
+	 */
+	@ColumnDefault("false")
+	private boolean offersBpcForIsk = false;
+
+	/**
+	 * set to true when the contract contains at least one provided item
+	 */
+	@ColumnDefault("false")
+	private boolean offersItem = false;
+
+	/**
+	 * set to true when the contract contains at least one provided non-BPC item
+	 */
+	@ColumnDefault("false")
+	private boolean offersNonBpc = false;
+
+	/**
+	 * short for !requestsItem && nbTypesIncluded==1 && !offersBPC
+	 */
+	@ColumnDefault("false")
+	private boolean offersOneTypeForIsk = false;
+
+	/**
+	 * set to true when the contract requests at least one item
+	 */
+	@ColumnDefault("false")
+	private boolean requestsItem = false;
+
+	public static record ItemHash(int typeId, boolean iscopy, int me, int te) {
+		public static ItemHash of(R_get_contracts_public_items_contract_id item) {
+			return new ItemHash(item.type_id, item.is_blueprint_copy, item.material_efficiency, item.time_efficiency);
+		}
+
+		public static ItemHash of(ContractItem item) {
+			return new ItemHash(item.getType().getId(), item.isBlueprintCopy(), item.getMaterialEfficiency(),
+			    item.getTimeEfficiency());
+		}
+	}
+
+	@Override
+	public void update(R_get_contracts_public_items_contract_id[] retrievedItems) {
+		super.update(retrievedItems);
+		Set<Integer> askedTypesIds = new HashSet<>();
+		Map<ItemHash, Long> includedItemQuantity = new HashMap<>();
+		boolean offersBpc = false;
+		boolean offersNonBpc = false;
+		long offeredRuns = 0l;
+		for (R_get_contracts_public_items_contract_id item : retrievedItems) {
+			if (item.is_included) {
+				ItemHash itemHash = ItemHash.of(item);
+				includedItemQuantity.put(itemHash, item.quantity + includedItemQuantity.getOrDefault(itemHash, 0l));
+				if (item.is_blueprint_copy) {
+					offersBpc = true;
+					offeredRuns += item.runs;
+				} else {
+					offersNonBpc = true;
+				}
+			} else {
+				askedTypesIds.add(item.type_id);
+			}
+		}
+		updateFromAnalyzis(includedItemQuantity, askedTypesIds, offersBpc, offersNonBpc, offeredRuns);
+	}
+
+	protected void updateFromAnalyzis(Map<ItemHash, Long> includedItemQuantity, Set<Integer> askedTypesIds,
+	    boolean offersBpc,
+	    boolean offersNonBpc,
+	    long offeredRuns) {
+		if (includedItemQuantity.size() == 1) {
+			ItemHash itemHash = includedItemQuantity.keySet().stream().findAny().get();
+			setOfferedCopy(itemHash.iscopy());
+			setOfferedMe(itemHash.me());
+			setOfferedQuantity(includedItemQuantity.values().stream().findAny().get());
+			setOfferedRuns(offeredRuns < 0 ? -1 : offeredRuns);
+			setOfferedTe(itemHash.te);
+			setOfferedTypeId(itemHash.typeId());
+		}
+		setAsksOneTypeForIsks(includedItemQuantity.isEmpty() && askedTypesIds.size() == 1);
+		setNbTypesAsked(askedTypesIds.size());
+		setNbTypesIncluded(includedItemQuantity.size());
+		setOffersBpc(offersBpc);
+		setOffersBpcForIsk(offersBpc && !offersNonBpc && includedItemQuantity.size() == 1 && askedTypesIds.isEmpty());
+		setOffersItem(!includedItemQuantity.isEmpty());
+		setOffersNonBpc(offersNonBpc);
+		setOffersOneTypeForIsk(!offersBpc && includedItemQuantity.size() == 1 && askedTypesIds.isEmpty());
+		setRequestsItem(!askedTypesIds.isEmpty());
+	}
+
+	public void reAnalize() {
+		Set<Integer> askedTypesIds = new HashSet<>();
+		Map<ItemHash, Long> includedItemQuantity = new HashMap<>();
+		boolean offersBpc = false;
+		boolean offersNonBpc = false;
+		long offeredRuns = 0l;
+		for (ContractItem item : getItems()) {
+			if (item.isIncluded()) {
+				ItemHash itemHash = ItemHash.of(item);
+				includedItemQuantity.put(itemHash, item.getQuantity() + includedItemQuantity.getOrDefault(itemHash, 0l));
+				if (item.isBlueprintCopy()) {
+					offersBpc = true;
+					offeredRuns += item.getRuns();
+				} else {
+					offersNonBpc = true;
+				}
+			} else {
+				askedTypesIds.add(item.getType().getId());
+			}
+		}
+		updateFromAnalyzis(includedItemQuantity, askedTypesIds, offersBpc, offersNonBpc, offeredRuns);
+
+	}
+
+	//
+	// post removal analyzis
+	//
+
+	/**
+	 * first time that contract was removed. It may have been accepted or canceled
+	 * before that.
+	 */
+	private Instant removedBefore;
+
+	/**
+	 * set to true once the contract is 404(canceled)
+	 */
+	private boolean canceled = false;
+
+	/**
+	 * set to true once the contract is 403 (accepted)
+	 */
+	private boolean completed = false;
+
+	//
+	//
 
 	public String name() {
 		if (type == get_contracts_public_region_id_type.item_exchange) {

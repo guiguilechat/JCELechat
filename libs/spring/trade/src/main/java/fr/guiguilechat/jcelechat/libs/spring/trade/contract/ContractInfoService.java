@@ -26,7 +26,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -52,13 +51,6 @@ public class ContractInfoService extends ARemoteEntityService<
 	@Lazy
 	private final TypeService typeService;
 
-	@Getter
-	@Setter
-	/**
-	 * number of fetch we accept to do, at max, when we have error contracts (those
-	 * removed we want to know if they were completed or not)
-	 */
-	private int maxExpectedErrors = 50;
 
 	@Override
 	protected Requested<R_get_contracts_public_items_contract_id[]> fetchData(Integer id,
@@ -130,10 +122,11 @@ public class ContractInfoService extends ARemoteEntityService<
 		    Limit.of(batchSize));
 		if (ret.isEmpty()) {
 			// no new contract : fetch the old contract that have been removed from the list
-			batchSize = Math.min(batchSize, esiStatusService().availErrors() / 2);
-			if (batchSize < 1) {
+			int maxErrors = esiStatusService().availErrors();
+			if (maxErrors < 20) {
 				return List.of();
 			}
+			batchSize = Math.min(batchSize, maxErrors / 2);
 			ret = repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(
 			    Instant.now(),
 			    Limit.of(batchSize));
@@ -145,6 +138,48 @@ public class ContractInfoService extends ARemoteEntityService<
 	}
 
 	//
+	// force update analyzis
+	//
+
+	private Integer lastUpdateEnd = null;
+
+	private int updateAnalyzisBatchSize = 10000;
+
+	@Override
+	protected void preUpdate() {
+		super.preUpdate();
+		if (lastUpdateEnd != null) {
+			long preListIdsTime = System.currentTimeMillis();
+			List<Integer> ids = repo().listIdsByFetchedTrue(lastUpdateEnd, updateAnalyzisBatchSize);
+			long postListIdsTime = System.currentTimeMillis();
+			if (ids.isEmpty()) {
+				lastUpdateEnd = null;
+				log.trace(" no more contract to re analyze");
+			} else {
+				List<ContractInfo> list = repo().findByIdIn(ids);
+				long postFetchTime = System.currentTimeMillis();
+				int maxId = list.get(list.size() - 1).getId();
+				log.debug("re analyzing {} contract infos, last id={} max id={}", list.size(), lastUpdateEnd, maxId);
+				for (ContractInfo ci : list) {
+					ci.reAnalize();
+				}
+				saveAll(list);
+				long postAnalyze = System.currentTimeMillis();
+				log.trace(" finished analyzing {} contracts in {} ms (listIds={} fetch={} analyze+save={})", list.size(),
+				    (postAnalyze - preListIdsTime),
+				    (postListIdsTime - preListIdsTime),
+				    (postFetchTime - postListIdsTime),
+				    (postAnalyze - postFetchTime));
+				lastUpdateEnd = maxId;
+			}
+		}
+	}
+
+	public void requestAnalize() {
+		lastUpdateEnd = 0;
+	}
+
+	//
 	// usage
 	//
 
@@ -152,7 +187,7 @@ public class ContractInfoService extends ARemoteEntityService<
 	 * @param region a contract region
 	 * @return list of contracts in given region that were still available at the
 	 *           last update of that region's contract, and for which we already
-	 *           have fetched the data.
+	 *           have fetched the data, with the key being the contract id
 	 */
 	public Map<Integer, ContractInfo> presentFetchedByRegion(int regionId) {
 		return repo().findByRegionIdAndRemovedFalseAndFetchedTrue(regionId).stream()
@@ -165,8 +200,8 @@ public class ContractInfoService extends ARemoteEntityService<
 	}
 
 	/**
-	 * @return a stream of the contracts that offer at least one non-bpc item and do
-	 *           not require an item
+	 * @return a stream of the contracts that provides at least an item of given
+	 *           type and do not require an item
 	 */
 	public Stream<ContractInfo> exchangesSelling() {
 		return repo().findByTypeAndFetchedTrueAndRemovedFalseAndOffersNonBpcTrueAndRequestsItemFalse(
@@ -180,6 +215,58 @@ public class ContractInfoService extends ARemoteEntityService<
 	public Stream<ContractInfo> exchangesBuying() {
 		return repo().findByTypeAndFetchedTrueAndRemovedFalseAndRequestsItemTrueAndOffersItemFalse(
 		    get_contracts_public_region_id_type.item_exchange);
+	}
+
+	/**
+	 * find non-bp item offers
+	 * 
+	 * @param typeId
+	 * @return list of open contracts that provide only given type, with
+	 *           only one (0,0,false) for (me, te, iscopy)value
+	 */
+	public List<ContractInfo> selling(int typeId) {
+		return repo().findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeId(typeId);
+	}
+
+	/**
+	 * find specific bp item sales
+	 * 
+	 * @param typeId
+	 * @param copy
+	 * @param me
+	 * @param te
+	 * @return list of open contracts that provide only given type with given
+	 *           (ME,TE,iscopy) value
+	 */
+	public List<ContractInfo> sellingBp(int typeId, boolean copy, int me, int te) {
+		return repo().findByRemovedFalseAndOffersOneTypeForIskTrueAndOfferedTypeIdAndOfferedCopyAndOfferedMeAndOfferedTe(
+		    typeId, copy, me, te);
+	}
+
+	/**
+	 * find non-bp item sales
+	 * 
+	 * @param typeId
+	 * @return list of contracts completed that provided only given type, with only
+	 *           one (ME,TE,iscopy) value
+	 */
+	public List<ContractInfo> completedSales(int typeId) {
+		return repo().findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeId(typeId);
+	}
+
+	/**
+	 * find specific bp item sales
+	 * 
+	 * @param typeId
+	 * @param copy
+	 * @param me
+	 * @param te
+	 * @return list of contracts completed that provided only given type with given
+	 *           (ME,TE,iscopy) value
+	 */
+	public List<ContractInfo> completedBpSales(int typeId, boolean copy, int me, int te) {
+		return repo().findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeIdAndOfferedCopyAndOfferedMeAndOfferedTe(
+		    typeId, copy, me, te);
 	}
 
 	//

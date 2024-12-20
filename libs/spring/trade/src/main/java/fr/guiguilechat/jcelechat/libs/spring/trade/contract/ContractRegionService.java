@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -78,7 +79,8 @@ public class ContractRegionService
 	 * 
 	 * @param region    region we fetched the contracts for
 	 * @param contracts list of corresponding contracts
-	 * @return list of contract info that have been modified
+	 * @return list of contract info that have been modified (created or marked as
+	 *           removed)
 	 */
 	protected List<ContractInfo> createForRegion(ContractRegion region,
 	    List<R_get_contracts_public_region_id> contracts,
@@ -96,6 +98,7 @@ public class ContractRegionService
 			if (!newById.containsKey(e.getKey())) {
 				e.getValue().setRemoved(true);
 				e.getValue().setFetchActive(true);
+				e.getValue().setRemovedBefore(Instant.now());
 				removed.add(e.getValue());
 			}
 		}
@@ -106,7 +109,7 @@ public class ContractRegionService
 		    .map(c -> (int) c.start_location_id)
 		    .distinct().toList());
 		long postFetchStations = System.currentTimeMillis();
-		log.trace("retrieved {} stations's solar systems in {} ms", stationId2SolarSystem.size(),
+		log.trace("{} retrieved {} stations's solar systems in {} ms", fetcherName(), stationId2SolarSystem.size(),
 		    postFetchStations - preFetchStations);
 		ArrayList<ContractInfo> ret = new ArrayList<>(removed);
 

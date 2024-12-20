@@ -13,6 +13,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractItemsListener;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItemService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
@@ -34,6 +35,9 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 
 	@Lazy
 	private final ContractItemService contractItemService;
+
+	@Lazy
+	private final ContractInfoService contractInfoService;
 
 	@Transactional
 	@Cacheable("MarketOrdersSellOrdersForTypes")

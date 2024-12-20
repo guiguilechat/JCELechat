@@ -25,7 +25,7 @@ where
 	public Stream<ContractInfo> listBOs(Iterable<Integer> typeId);
 
 	@Query("""
-	select
+select
 	distinct(fetchResource)
 from
 	EsiMarketContractItem
