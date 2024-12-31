@@ -6,7 +6,6 @@ import java.time.temporal.ChronoUnit;
 import java.util.Map;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
-import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.AllArgsConstructor;
@@ -116,23 +115,38 @@ public class MarketOrder implements Serializable {
 	}
 
 	public static MarketOrder of(ContractInfo contract) {
-		if (!contract.isAsksOneTypeForIsks() && !contract.isOffersOneTypeForIsk()) {
-			throw new RuntimeException("multiple item contract id=" + contract.getId() + " can't be used as a market order");
+		if (!contract.isAsksOneTypeForIsk() && !contract.isOffersOneTypeForIsk()) {
+			throw new RuntimeException(
+			    "contract id=" + contract.getId() + " has several items, can't be used as a market order");
 		}
-		int volume = contract.getItems().stream().mapToInt(ContractItem::getQuantity).sum();
+		int volume = 0;
+		int typeId = 0;
+		double price = 0.0;
+		if (contract.isRequestsItem()) {
+			volume = contract.getAskedQuantity().intValue();
+			typeId = contract.getAskedTypeId();
+			price = contract.getReward();
+		} else {
+			if (contract.getOfferedCopy()) {
+				volume = contract.getOfferedRuns().intValue();
+			} else {
+				volume = contract.getOfferedQuantity().intValue();
+			}
+			typeId = contract.getOfferedTypeId();
+			price = contract.getPrice();
+		}
 		long locationId = contract.getEndLocationId();
-		double price = contract.isAsksOneTypeForIsks() ? contract.getReward() : contract.getPrice();
 		return builder()
 		    .expires(contract.getDateExpired())
-		    .isBuyOrder(contract.isAsksOneTypeForIsks())
+		    .isBuyOrder(contract.isAsksOneTypeForIsk())
 		    .issued(contract.getDateIssued())
 		    .locationId(contract.getEndLocationId())
 		    .minVolume(volume)
 		    .orderType(OrderType.CONTRACT)
-		    .price(price / volume)
+		    .price(price / volume)// actually unit price for an order
 		    .regionId(contract.getRegion().getId())
 		    .systemId((int) (locationId < 100000000 ? locationId : 0))
-		    .typeId(contract.getItems().get(0).getType().getId())
+		    .typeId(typeId)
 		    .volumeRemain(volume)
 		    .volumeTotal(volume)
 		    .build();

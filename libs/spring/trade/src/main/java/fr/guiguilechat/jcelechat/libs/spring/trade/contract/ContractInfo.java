@@ -2,10 +2,9 @@ package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import java.time.Instant;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
+import java.util.Map.Entry;
 
 import org.hibernate.annotations.ColumnDefault;
 
@@ -225,7 +224,18 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	/**
 	 * short for !offersItem && nbTypesAsked==1
 	 */
-	private boolean asksOneTypeForIsks = false;
+	@ColumnDefault("false")
+	private boolean asksOneTypeForIsk = false;
+
+	/**
+	 * when the contract requests only one type, the quantity requested
+	 */
+	private Long askedQuantity = null;
+
+	/**
+	 * when the contract only requests one type, the id of that type
+	 */
+	private Integer askedTypeId;
 
 	/**
 	 * number of distinct types that are asked by the contract creator
@@ -234,8 +244,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 
 	/**
 	 * number of distinct types that are included in the contract. those with
-	 * different
-	 * iscopy, me, or te counts as different items
+	 * different (iscopy, me, te) counts as different types
 	 */
 	private int nbTypesIncluded = 0;
 
@@ -324,7 +333,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	@Override
 	public void update(R_get_contracts_public_items_contract_id[] retrievedItems) {
 		super.update(retrievedItems);
-		Set<Integer> askedTypesIds = new HashSet<>();
+		Map<Integer, Long> askedItemQuantity = new HashMap<>();
 		Map<ItemHash, Long> includedItemQuantity = new HashMap<>();
 		boolean offersBpc = false;
 		boolean offersNonBpc = false;
@@ -340,16 +349,20 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 					offersNonBpc = true;
 				}
 			} else {
-				askedTypesIds.add(item.type_id);
+				askedItemQuantity.put(item.type_id, item.quantity + askedItemQuantity.getOrDefault(item.type_id, 0l));
 			}
 		}
-		updateFromAnalyzis(includedItemQuantity, askedTypesIds, offersBpc, offersNonBpc, offeredRuns);
+		updateFromAnalyzis(includedItemQuantity, askedItemQuantity, offersBpc, offersNonBpc, offeredRuns);
 	}
 
-	protected void updateFromAnalyzis(Map<ItemHash, Long> includedItemQuantity, Set<Integer> askedTypesIds,
+	protected void updateFromAnalyzis(
+	    Map<ItemHash, Long> includedItemQuantity,
+	    Map<Integer, Long> askedItemQuantity,
 	    boolean offersBpc,
 	    boolean offersNonBpc,
 	    long offeredRuns) {
+		setNbTypesIncluded(includedItemQuantity.size());
+		setOffersOneTypeForIsk(!offersBpc && includedItemQuantity.size() == 1 && askedItemQuantity.isEmpty());
 		if (includedItemQuantity.size() == 1) {
 			ItemHash itemHash = includedItemQuantity.keySet().stream().findAny().get();
 			setOfferedCopy(itemHash.iscopy());
@@ -359,19 +372,23 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 			setOfferedTe(itemHash.te);
 			setOfferedTypeId(itemHash.typeId());
 		}
-		setAsksOneTypeForIsks(includedItemQuantity.isEmpty() && askedTypesIds.size() == 1);
-		setNbTypesAsked(askedTypesIds.size());
-		setNbTypesIncluded(includedItemQuantity.size());
 		setOffersBpc(offersBpc);
-		setOffersBpcForIsk(offersBpc && !offersNonBpc && includedItemQuantity.size() == 1 && askedTypesIds.isEmpty());
+		setOffersBpcForIsk(offersBpc && !offersNonBpc && includedItemQuantity.size() == 1 && askedItemQuantity.isEmpty());
 		setOffersItem(!includedItemQuantity.isEmpty());
 		setOffersNonBpc(offersNonBpc);
-		setOffersOneTypeForIsk(!offersBpc && includedItemQuantity.size() == 1 && askedTypesIds.isEmpty());
-		setRequestsItem(!askedTypesIds.isEmpty());
+
+		setNbTypesAsked(askedItemQuantity.size());
+		setAsksOneTypeForIsk(includedItemQuantity.isEmpty() && askedItemQuantity.size() == 1);
+		if (askedItemQuantity.size() == 1) {
+			Entry<Integer, Long> e = askedItemQuantity.entrySet().stream().findAny().get();
+			setAskedTypeId(e.getKey());
+			setAskedQuantity(e.getValue());
+		}
+		setRequestsItem(!askedItemQuantity.isEmpty());
 	}
 
 	public void reAnalize() {
-		Set<Integer> askedTypesIds = new HashSet<>();
+		Map<Integer, Long> askedItemQuantity = new HashMap<>();
 		Map<ItemHash, Long> includedItemQuantity = new HashMap<>();
 		boolean offersBpc = false;
 		boolean offersNonBpc = false;
@@ -387,10 +404,11 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 					offersNonBpc = true;
 				}
 			} else {
-				askedTypesIds.add(item.getType().getId());
+				askedItemQuantity.put(item.getType().getId(),
+				    item.getQuantity() + askedItemQuantity.getOrDefault(item.getType().getId(), 0l));
 			}
 		}
-		updateFromAnalyzis(includedItemQuantity, askedTypesIds, offersBpc, offersNonBpc, offeredRuns);
+		updateFromAnalyzis(includedItemQuantity, askedItemQuantity, offersBpc, offersNonBpc, offeredRuns);
 
 	}
 

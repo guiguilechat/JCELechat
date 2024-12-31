@@ -13,6 +13,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeNonBp;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractItemsListener;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItemService;
@@ -31,7 +32,7 @@ import lombok.RequiredArgsConstructor;
 public class MarketOrderService implements ContractItemsListener, MarketRegionListener {
 
 	@Lazy
-	private final MarketLineService marketLineService;
+	private final ContractFacadeNonBp contractFacadeNonBp;
 
 	@Lazy
 	private final ContractItemService contractItemService;
@@ -39,11 +40,14 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 	@Lazy
 	private final ContractInfoService contractInfoService;
 
+	@Lazy
+	private final MarketLineService marketLineService;
+
 	@Transactional
 	@Cacheable("MarketOrdersSellOrdersForTypes")
 	public Map<Integer, List<MarketOrder>> sellOrders(Collection<Integer> typeIds, Set<Long> alllowedLocations) {
 		Map<Integer, List<MarketOrder>> ret = Stream
-		    .concat(contractItemService.streamSOs(typeIds), marketLineService.streamSOs(typeIds).map(MarketOrder::of))
+		    .concat(contractFacadeNonBp.streamSOs(typeIds), marketLineService.streamSOs(typeIds).map(MarketOrder::of))
 		    .filter(mo -> alllowedLocations == null || alllowedLocations.contains(mo.getLocationId()))
 		    .collect(Collectors.groupingBy(MarketOrder::getTypeId));
 		ret.values().forEach(l -> l.sort(Comparator.comparing(MarketOrder::getPrice)));
@@ -58,7 +62,7 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 	@Cacheable("MarketOrdersBuyOrdersForTypes")
 	public Map<Integer, List<MarketOrder>> buyOrders(Collection<Integer> typeIds, Set<Long> alllowedLocations) {
 		Map<Integer, List<MarketOrder>> ret = Stream
-		    .concat(contractItemService.streamBOs(typeIds), marketLineService.streamBOs(typeIds).map(MarketOrder::of))
+		    .concat(contractFacadeNonBp.streamBOs(typeIds), marketLineService.streamBOs(typeIds).map(MarketOrder::of))
 		    .filter(mo -> alllowedLocations == null || alllowedLocations.contains(mo.getLocationId()))
 		    .collect(Collectors.groupingBy(MarketOrder::getTypeId));
 		ret.values().forEach(l -> l.sort(Comparator.comparing(mo -> -mo.getPrice())));
@@ -73,7 +77,7 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 	@Cacheable("MarketOrdersLowestSellForType")
 	public Map<Integer, Double> lowestSellByRegion(int typeId) {
 		return Stream
-		    .concat(contractItemService.streamSOs(List.of(typeId)),
+		    .concat(contractFacadeNonBp.streamSOs(List.of(typeId)),
 		        marketLineService.streamSOs(List.of(typeId)).map(MarketOrder::of))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()
@@ -85,7 +89,7 @@ public class MarketOrderService implements ContractItemsListener, MarketRegionLi
 	@Cacheable("MarketOrdersHighestBuyForType")
 	public Map<Integer, Double> highestBuyByRegion(int typeId) {
 		return Stream
-		    .concat(contractItemService.streamBOs(List.of(typeId)),
+		    .concat(contractFacadeNonBp.streamBOs(List.of(typeId)),
 		        marketLineService.streamBOs(List.of(typeId)).map(MarketOrder::of))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()

@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import java.time.Instant;
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -30,15 +31,16 @@ public interface ContractInfoRepository
 	public Stream<ContractInfo> findByTypeAndFetchedTrueAndRemovedFalseAndRequestsItemTrueAndOffersItemFalse(
 	    get_contracts_public_region_id_type contractType);
 
-	public List<ContractInfo> findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeId(int typeId);
+	/** completed contracts providing only given types and iscopy, me, te */
+	public List<ContractInfo> findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+	    Collection<Integer> typeIds, boolean copy, int me, int te);
 
-	public List<ContractInfo> findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeIdAndOfferedCopyAndOfferedMeAndOfferedTe(
-	    int typeId, boolean copy, int me, int te);
+	/** open contracts providing only given type and iscopy, me, te */
+	public List<ContractInfo> findByRemovedFalseAndOffersOneTypeForIskTrueAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+	    Collection<Integer> typeIds, boolean copy, int me, int te);
 
-	public List<ContractInfo> findByRemovedFalseAndOffersOneTypeForIskTrueAndOfferedTypeId(int typeId);
-
-	public List<ContractInfo> findByRemovedFalseAndOffersOneTypeForIskTrueAndOfferedTypeIdAndOfferedCopyAndOfferedMeAndOfferedTe(
-	    int typeId, boolean copy, int me, int te);
+	/** open contracts requesting only given types */
+	public List<ContractInfo> findByRemovedFalseAndAsksOneTypeForIskTrueAndAskedTypeIdIn(Collection<Integer> typeIds);
 
 	@Query("""  
 select

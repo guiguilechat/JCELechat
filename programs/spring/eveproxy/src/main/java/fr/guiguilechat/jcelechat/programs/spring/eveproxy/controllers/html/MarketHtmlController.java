@@ -45,8 +45,14 @@ public class MarketHtmlController {
 
 	@Transactional
 	@GetMapping("/{typeId}")
-	public String getTypeMarket(Model model, @PathVariable int typeId) {
+	public String getTypeMarket(Model model, @PathVariable int typeId,
+	    Optional<Integer> me,
+	    Optional<Integer> te,
+	    Optional<Boolean> copy) {
 		Optional<Type> oType = typeService.findById(typeId);
+		int meValue = me == null ? 0 : me.orElse(0);
+		int teValue = te == null ? 0 : te.orElse(0);
+		boolean copyValue = copy == null ? false : copy.orElse(false);
 		Map<Integer, String> regionNamesById = regionService.namesById();
 		Map<Integer, String> stationNamesById = stationService.namesById();
 		Map<Long, String> structuresNamesById = Map.of();
@@ -71,8 +77,15 @@ public class MarketHtmlController {
 	}
 
 	public URI uri(Type type) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getTypeMarket", null, "" + type.getId()).build()
+		return MvcUriComponentsBuilder
+		    .fromMethodName(getClass(), "getTypeMarket", null, "" + type.getId(), null, null, null).build()
 				.toUri();
+	}
+
+	public URI uri(Type type, int me, int te, boolean copy) {
+		return MvcUriComponentsBuilder
+		    .fromMethodName(getClass(), "getTypeMarket", null, "" + type.getId(), me, te, copy).build()
+		    .toUri();
 	}
 
 	public static record LinkedMarketType(String name, String url) {
@@ -82,6 +95,9 @@ public class MarketHtmlController {
 		return new LinkedMarketType(type.name(), uri(type).toString());
 	}
 
+	public LinkedMarketType linkedMarketType(Type type, int me, int te, boolean copy) {
+		return new LinkedMarketType(type.name() + (copy ? "(cp)" : "" + "  " + me + "/" + te), uri(type).toString());
+	}
 
 	@GetMapping("")
 	public String getRoot() {

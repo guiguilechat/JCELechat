@@ -32,9 +32,8 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.info")
-@Order(6) // depends on type n contractregion for the items ; then set to a higher number
-           // because it's
-           // likely to create more errors
+@Order(6) // depends on type and contractregion for the items ; then set to a higher
+          // number because it's likely to create more errors
 public class ContractInfoService extends ARemoteEntityService<
     ContractInfo,
     Integer,
@@ -148,6 +147,10 @@ public class ContractInfoService extends ARemoteEntityService<
 	@Override
 	protected void preUpdate() {
 		super.preUpdate();
+		// re analyze contracts if needed
+		// ids are fetched first, then contracts with items are fetched. Two queries
+		// needed otherwise the fetch join generates too much data and the one query is
+		// too slow
 		if (lastUpdateEnd != null) {
 			long preListIdsTime = System.currentTimeMillis();
 			List<Integer> ids = repo().listIdsByFetchedTrue(lastUpdateEnd, updateAnalyzisBatchSize);
@@ -215,58 +218,6 @@ public class ContractInfoService extends ARemoteEntityService<
 	public Stream<ContractInfo> exchangesBuying() {
 		return repo().findByTypeAndFetchedTrueAndRemovedFalseAndRequestsItemTrueAndOffersItemFalse(
 		    get_contracts_public_region_id_type.item_exchange);
-	}
-
-	/**
-	 * find non-bp item offers
-	 * 
-	 * @param typeId
-	 * @return list of open contracts that provide only given type, with
-	 *           only one (0,0,false) for (me, te, iscopy)value
-	 */
-	public List<ContractInfo> selling(int typeId) {
-		return repo().findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeId(typeId);
-	}
-
-	/**
-	 * find specific bp item sales
-	 * 
-	 * @param typeId
-	 * @param copy
-	 * @param me
-	 * @param te
-	 * @return list of open contracts that provide only given type with given
-	 *           (ME,TE,iscopy) value
-	 */
-	public List<ContractInfo> sellingBp(int typeId, boolean copy, int me, int te) {
-		return repo().findByRemovedFalseAndOffersOneTypeForIskTrueAndOfferedTypeIdAndOfferedCopyAndOfferedMeAndOfferedTe(
-		    typeId, copy, me, te);
-	}
-
-	/**
-	 * find non-bp item sales
-	 * 
-	 * @param typeId
-	 * @return list of contracts completed that provided only given type, with only
-	 *           one (ME,TE,iscopy) value
-	 */
-	public List<ContractInfo> completedSales(int typeId) {
-		return repo().findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeId(typeId);
-	}
-
-	/**
-	 * find specific bp item sales
-	 * 
-	 * @param typeId
-	 * @param copy
-	 * @param me
-	 * @param te
-	 * @return list of contracts completed that provided only given type with given
-	 *           (ME,TE,iscopy) value
-	 */
-	public List<ContractInfo> completedBpSales(int typeId, boolean copy, int me, int te) {
-		return repo().findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeIdAndOfferedCopyAndOfferedMeAndOfferedTe(
-		    typeId, copy, me, te);
 	}
 
 	//
