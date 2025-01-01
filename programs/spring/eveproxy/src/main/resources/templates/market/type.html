@@ -17,7 +17,7 @@
 		</div>
 
 		<div class="row border">
-			<div class="col">
+			<div class="col" th:if="${sos!=null && !sos.isEmpty()}">
 				<h2>Sell orders</h2>
 				<div class="overflow-auto" style="height: 70vh;">
 					<table class="table table-striped table-hover">
@@ -46,7 +46,7 @@
 					</table>
 				</div>
 			</div>
-			<div class="col">
+			<div class="col" th:if="${bos!=null && !bos.isEmpty()}">
 				<h2>Buy orders</h2>
 				<div class="overflow-auto" style="height: 70vh;">
 					<table class="table table-striped table-hover">
@@ -75,6 +75,22 @@
 					</table>
 				</div>
 			</div>
+		</div>
+		<div class="row border" th:if="${bpoVariants!=null && !bpoVariants.isEmpty() || bpcVariants!=null && !bpcVariants.isEmpty()}">
+			<h1 th:text="'Variants of '+ ${name}"></h1>
+			<a th:if="${baseTypeUrl!=null}" th:href="${baseTypeUrl}">Base type</a>
+		</div>
+		<div class="col" th:if="${bpoVariants!=null && !bpoVariants.isEmpty()}">
+			<h2>Bpos</h2>
+			<ul>
+				<li th:each="variant: ${bpoVariants}"><a th:text="${variant.name}" th:href="${variant.url}"/></li>
+			</ul>
+		</div>
+		<div class="col" th:if="${bpcVariants!=null && !bpcVariants.isEmpty()}">
+			<h2>Bpcs</h2>
+			<ul>
+				<li th:each="variant: ${bpcVariants}"><a th:text="${variant.name}" th:href="${variant.url}"/></li>
+			</ul>
 		</div>
 	</div>
 </body>

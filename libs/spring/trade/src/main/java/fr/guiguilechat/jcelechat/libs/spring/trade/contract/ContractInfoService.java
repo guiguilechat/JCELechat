@@ -219,6 +219,29 @@ public class ContractInfoService extends ARemoteEntityService<
 		return repo().findByTypeAndFetchedTrueAndRemovedFalseAndRequestsItemTrueAndOffersItemFalse(
 		    get_contracts_public_region_id_type.item_exchange);
 	}
+	
+	public static record ContractTypeVariant(int typeId, int me, int te, boolean copy){
+		
+		public ContractTypeVariant(int typeId, Object[] arr) {
+			this(typeId, ((Number) arr[0]).intValue(), ((Number) arr[1]).intValue(), ((Boolean) arr[2]));
+		}
+
+		/**
+		 * @return an int to compare them using (me+te) then me, so that it sorts first
+		 *           ones as
+		 *           (0,0),(0,1),(1,0),(0,2),(1,1),(2,0) etc.
+		 */
+		public int meteval() {
+			return me * 100 + te * 101;
+		}
+
+	}
+	
+	
+	public List<ContractTypeVariant> variants(int typeId) {
+		return repo().listTypeVariants(typeId).stream().map(arr -> new ContractTypeVariant(typeId, arr)).toList();
+	}
+	
 
 	//
 	// specifications to help criterions

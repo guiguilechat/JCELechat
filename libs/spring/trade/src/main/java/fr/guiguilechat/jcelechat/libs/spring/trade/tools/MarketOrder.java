@@ -115,7 +115,9 @@ public class MarketOrder implements Serializable {
 	}
 
 	public static MarketOrder of(ContractInfo contract) {
-		if (!contract.isAsksOneTypeForIsk() && !contract.isOffersOneTypeForIsk()) {
+		if (contract.getNbTypesAsked() > 1 ||
+		    contract.getNbTypesIncluded() > 1
+		    || contract.getNbTypesAsked() + contract.getNbTypesIncluded() != 1) {
 			throw new RuntimeException(
 			    "contract id=" + contract.getId() + " has several items, can't be used as a market order");
 		}

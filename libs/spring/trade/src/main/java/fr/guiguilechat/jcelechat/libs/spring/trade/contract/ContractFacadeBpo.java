@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -28,13 +32,19 @@ public class ContractFacadeBpo {
 	 */
 	public List<ContractInfo> selling(int typeId, int me, int te) {
 		return contractInfoRepository
-		    .findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+		    .findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
 		        List.of(typeId),
 		        false, me, te);
 	}
 
 	public List<ContractOrder> sos(int typeId, int me, int te) {
 		return selling(typeId, me, te).stream().map(ContractOrder::new).toList();
+	}
+
+	@Transactional
+	public Stream<MarketOrder> streamSOs(int typeId, int me, int te) {
+		return selling(typeId, me, te).stream().map(MarketOrder::of)
+		    .sorted(Comparator.comparing(MarketOrder::getPrice));
 	}
 
 	/**
@@ -46,7 +56,7 @@ public class ContractFacadeBpo {
 	 */
 	public List<ContractInfo> sold(int typeId, int me, int te) {
 		return contractInfoRepository
-		    .findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+		    .findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
 		        List.of(typeId),
 		        false, me, te);
 	}

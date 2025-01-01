@@ -33,7 +33,7 @@ public class ContractFacadeNonBp {
 	 */
 	public List<ContractInfo> selling(Collection<Integer> typeIds) {
 		return contractInfoRepository
-		    .findByRemovedFalseAndOffersOneTypeForIskTrueAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+		    .findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
 		        (typeIds),
 		        false, 0, 0);
 	}
@@ -56,7 +56,7 @@ public class ContractFacadeNonBp {
 	 */
 	public List<ContractInfo> sold(Collection<Integer> typeIds) {
 		return contractInfoRepository
-		    .findByCompletedTrueAndOffersOneTypeForIskTrueAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+		    .findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
 		        (typeIds),
 		        false, 0, 0);
 	}

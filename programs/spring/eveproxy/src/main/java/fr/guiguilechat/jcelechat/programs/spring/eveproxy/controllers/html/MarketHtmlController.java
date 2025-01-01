@@ -18,7 +18,12 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractTypeVariant;
 import fr.guiguilechat.jcelechat.libs.spring.trade.orders.MarketOrderService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
@@ -29,6 +34,12 @@ import lombok.RequiredArgsConstructor;
 @RequestMapping("/html/market")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class MarketHtmlController {
+
+	private final ContractFacadeBpc contractFacadeBpc;
+
+	private final ContractFacadeBpo contractFacadeBpo;
+
+	private final ContractInfoService contractInfoService;
 
 	@Lazy
 	private final DogmaHtmlController dogmaHtmlController;
@@ -56,36 +67,96 @@ public class MarketHtmlController {
 		Map<Integer, String> regionNamesById = regionService.namesById();
 		Map<Integer, String> stationNamesById = stationService.namesById();
 		Map<Long, String> structuresNamesById = Map.of();
+		String name = null;
 		if (oType.isPresent()) {
 			Type type = oType.get();
 			model.addAttribute("typeUrl", dogmaHtmlController.uri(type).toString());
-			model.addAttribute("name", type.name());
+			name = type.name();
 		} else {
-			model.addAttribute("name",  "unknown" + typeId);
+			name = "unknown" + typeId;
 		}
-		model.addAttribute("sos",
-		    marketOrderService.sellOrders(typeId).stream()
-						.peek(
-								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
-						.toList());
-		model.addAttribute("bos",
-		    marketOrderService.buyOrders(typeId).stream()
-						.peek(
-								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
-						.toList());
+		if (meValue > 0 || teValue > 0 || copyValue) {
+			name = name + (copyValue ? "(CP)" : "") + " " + meValue + "/" + teValue;
+		}
+		model.addAttribute("name", name);
+		if (copyValue) {
+			// working with BPC
+			List<MarketOrder> sos = contractFacadeBpc.streamSOs(typeId, meValue, teValue)
+			    .peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+			    .toList();
+			System.err.println("found " + sos.size() + " orders for " + name);
+			model.addAttribute("sos", sos);
+		} else {
+			// working wit non-copy
+			if (meValue < 1 && teValue < 1) {
+				// working with base type
+				model.addAttribute("sos",
+				    marketOrderService.sellOrders(typeId).stream()
+				        .peek(
+				            mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
+				                structuresNamesById))
+				        .toList());
+				model.addAttribute("bos",
+				    marketOrderService.buyOrders(typeId).stream()
+				        .peek(
+				            mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
+				                structuresNamesById))
+				        .toList());
+			} else {
+				// working with researched BPO
+				List<MarketOrder> sos = contractFacadeBpo.streamSOs(typeId, meValue, teValue)
+				    .peek(
+				        mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+				    .toList();
+				// System.err.println("found " + sos.size() + " orders for " + name);
+				model.addAttribute("sos", sos);
+			}
+		}
+		if (meValue > 0 || teValue > 0 || copyValue) {
+			model.addAttribute("baseTypeUrl", uri(typeId).toString());
+		}
+		List<ContractTypeVariant> variants = contractInfoService.variants(typeId);
+		// System.err.println("received variants " + variants);
+		if (!variants.isEmpty()) {
+			List<LinkedMarketType> bpoVariants = variants.stream()
+			    .filter(v -> !v.copy())
+			    .sorted(Comparator.comparing(ctv -> ctv.meteval()))
+			    .map(ctv -> linkedMarketType(oType.orElse(null), ctv))
+			    .toList();
+			if (!bpoVariants.isEmpty()) {
+				model.addAttribute("bpoVariants", bpoVariants);
+			}
+			List<LinkedMarketType> bpcVariants = variants.stream()
+			    .filter(v -> v.copy())
+			    .sorted(Comparator.comparing(ctv -> ctv.meteval()))
+			    .map(ctv -> linkedMarketType(oType.orElse(null), ctv))
+			    .toList();
+			if (!bpcVariants.isEmpty()) {
+				model.addAttribute("bpcVariants", bpcVariants);
+			}
+		}
+
 		return "market/type";
 	}
 
-	public URI uri(Type type) {
+	public URI uri(int typeId) {
 		return MvcUriComponentsBuilder
-		    .fromMethodName(getClass(), "getTypeMarket", null, "" + type.getId(), null, null, null).build()
-				.toUri();
+		    .fromMethodName(getClass(), "getTypeMarket", null, "" + typeId, null, null, null).build()
+		    .toUri();
+	}
+
+	public URI uri(Type type) {
+		return uri(type.getId());
+	}
+
+	public URI uri(int typeId, int me, int te, boolean copy) {
+		return MvcUriComponentsBuilder
+		    .fromMethodName(getClass(), "getTypeMarket", null, "" + typeId, me, te, copy).build()
+		    .toUri();
 	}
 
 	public URI uri(Type type, int me, int te, boolean copy) {
-		return MvcUriComponentsBuilder
-		    .fromMethodName(getClass(), "getTypeMarket", null, "" + type.getId(), me, te, copy).build()
-		    .toUri();
+		return uri(type.getId(), me, te, copy);
 	}
 
 	public static record LinkedMarketType(String name, String url) {
@@ -96,7 +167,12 @@ public class MarketHtmlController {
 	}
 
 	public LinkedMarketType linkedMarketType(Type type, int me, int te, boolean copy) {
-		return new LinkedMarketType(type.name() + (copy ? "(cp)" : "" + "  " + me + "/" + te), uri(type).toString());
+		String name = type == null ? "null" : type.name();
+		return new LinkedMarketType(name + (copy ? "(cp)" : "") + "  " + me + "/" + te, uri(type, me, te, copy).toString());
+	}
+
+	public LinkedMarketType linkedMarketType(Type type, ContractTypeVariant ctv) {
+		return linkedMarketType(type, ctv.me(), ctv.te(), ctv.copy());
 	}
 
 	@GetMapping("")
@@ -113,7 +189,7 @@ public class MarketHtmlController {
 				return "redirect:" + types.get(0).getId();
 			} else {
 				model.addAttribute("types",
-						types.stream().map(this::linkedMarketType).sorted(Comparator.comparing(lmt -> lmt.name)).toList());
+				    types.stream().map(this::linkedMarketType).sorted(Comparator.comparing(lmt -> lmt.name)).toList());
 			}
 		}
 		return "market/index";
@@ -160,8 +236,8 @@ public class MarketHtmlController {
 	public String getMarketGroups(Model model) {
 		model.addAttribute("roots",
 		    marketGroupService.roots().stream()
-		    .sorted(Comparator.comparing(MarketGroup::name))
-		    .map(this::linkedMarketGroup)
+		        .sorted(Comparator.comparing(MarketGroup::name))
+		        .map(this::linkedMarketGroup)
 		        .toList());
 		return "market/groups";
 	}
