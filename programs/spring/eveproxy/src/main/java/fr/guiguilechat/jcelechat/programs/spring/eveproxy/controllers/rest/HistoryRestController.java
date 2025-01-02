@@ -44,6 +44,8 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeDataDto;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
@@ -57,6 +59,10 @@ import lombok.RequiredArgsConstructor;
 @RequestMapping("/api/history")
 @RequiredArgsConstructor
 public class HistoryRestController {
+
+	final private ContractFacadeBpc contractFacadeBpc;
+
+	final private ContractFacadeBpo contractFacadeBpo;
 
 	final private HistoryLineService hlService;
 
@@ -156,6 +162,54 @@ public class HistoryRestController {
 			RestControllerHelper.addResponseXChart(response, drawXChart(sortedData, title), accept);
 			break;
 		}
+	}
+
+	/**
+	 * @param typeId   type id we want the history of
+	 * @param response http response to add data into.
+	 * @param accept   format of the image. values depend on the builder chosen.
+	 * @param builder  builder for the chart. Can be "jfreechart" or "xchart"
+	 *                   (default) .
+	 * @throws IOException
+	 */
+	@Operation(summary = "modified type sales chart", description = "create a chart of the sales of a modified item")
+	@Transactional // otherwise bug from retrieving data in pg
+	@GetMapping("/byTypeId/{typeId}/copy/{copy}/me/{me}/te/{te}/chart")
+	public void chartContractHistoryByType(
+	    @PathVariable @Parameter(description = "type id we want to chart the history of") int typeId,
+	    @PathVariable @Parameter(description = "true to only consider BPC, false to only conser BPO") boolean copy,
+	    @PathVariable @Parameter(description = "me value to consider") int me,
+	    @PathVariable @Parameter(description = "te value to consider") int te,
+	    HttpServletResponse response,
+	    @RequestParam @Parameter(description = "format of the image. values depend on the builder chosen. typically jpg, or png (ignore case)") Optional<String> accept,
+	    @RequestParam @Parameter(description = "builder for the chart. Can be \"jfreechart\" or \"xchart\"(default)") Optional<String> builder)
+	    throws IOException {
+		Type type = typeService.byId(typeId);
+		if (type == null) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
+		}
+		List<AggregatedHL> fetchedData = copy ? contractFacadeBpc.aggregatedSales(typeId, me, te)
+		    : contractFacadeBpo.aggregatedSales(typeId, me, te);
+		if (fetchedData.isEmpty()) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
+		}
+		List<AggregatedHL> sortedData = Stream.concat(
+		    fetchedData.stream(),
+		    Stream.of(new AggregatedHL(Instant.now().truncatedTo(ChronoUnit.DAYS), 0, null, null,
+		        null, 0, 0)))
+		    .sorted(Comparator.comparing(AggregatedHL::getDate)).toList();
+
+		String title = "contract sales of " + type.name() + (copy ? " (CP)" : "") + " " + me + "/" + te;
+		switch (builder.orElse("xchart").toLowerCase()) {
+		case "jfreechart":
+			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, title), accept);
+			break;
+		case "xchart":
+		default:
+			RestControllerHelper.addResponseXChart(response, drawXChart(sortedData, title), accept);
+			break;
+		}
+
 	}
 
 	private JFreeChart drawJFreeChart(List<AggregatedHL> sortedData, String title) {
@@ -298,18 +352,52 @@ public class HistoryRestController {
 		return ret;
 	}
 
-	public URI uri(Type type) {
-		return uri(type, null, null, null);
-	}
-
-	public URI uri(Type type, String accept, String builder, Integer days) {
+	public URI uri(int typeId, String accept, String builder, Integer days) {
 		return MvcUriComponentsBuilder
-		    .fromMethodName(getClass(), "chartHistoryByType", "" + type.getId(), null,
+		    .fromMethodName(getClass(), "chartHistoryByType", "" + typeId, null,
 		        Optional.ofNullable(accept),
 		        Optional.ofNullable(builder),
 		        Optional.ofNullable(days))
 		    .build()
 		    .toUri();
+	}
+
+	public URI uri(Type type, String accept, String builder, Integer days) {
+		return uri(type.getId(), accept, builder, days);
+	}
+
+	public URI uri(int typeId) {
+		return uri(typeId, null, null, null);
+	}
+
+	public URI uri(Type type) {
+		return uri(type.getId());
+	}
+
+
+	public URI uri(int typeId, boolean copy, int me, int te, String accept, String builder) {
+		return MvcUriComponentsBuilder
+		    .fromMethodName(getClass(), "chartContractHistoryByType", "" + typeId,
+		        copy,
+		        me,
+		        te,
+		        null,
+		        Optional.ofNullable(accept),
+		        Optional.ofNullable(builder))
+		    .build()
+		    .toUri();
+	}
+
+	public URI uri(Type type, boolean copy, int me, int te, String accept, String builder) {
+		return uri(type.getId(), copy, me, te, accept, builder);
+	}
+
+	public URI uri(int typeId, boolean copy, int me, int te) {
+		return uri(typeId, copy, me, te, null, null);
+	}
+
+	public URI uri(Type type, boolean copy, int me, int te) {
+		return uri(type.getId(), copy, me, te);
 	}
 
 }

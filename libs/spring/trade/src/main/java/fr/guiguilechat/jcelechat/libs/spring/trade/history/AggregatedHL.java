@@ -9,6 +9,9 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
+/**
+ * daily aggregated sales data.
+ */
 @Getter
 @Setter
 @RequiredArgsConstructor
@@ -50,6 +53,7 @@ public class AggregatedHL {
 	 */
 	private final long orderCount;
 
+	/** number of regions which had a corresponding trade on that period */
 	private final int nbRegions;
 
 	public static AggregatedHL convert(Object[] line) {

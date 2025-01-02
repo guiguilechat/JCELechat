@@ -40,6 +40,9 @@ public class ContractRegion extends ARemoteEntity<Integer, List<R_get_contracts_
 	@OneToMany(mappedBy = "region")
 	private List<ContractInfo> contracts = new ArrayList<>();
 
+	/**
+	 * number of contracts active on last fetch
+	 */
 	private int nbContracts = 0;
 
 	@Override

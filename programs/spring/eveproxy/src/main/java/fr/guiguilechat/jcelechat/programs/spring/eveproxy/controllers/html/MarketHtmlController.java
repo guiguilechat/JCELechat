@@ -27,6 +27,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.HistoryRestController;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
@@ -43,6 +44,9 @@ public class MarketHtmlController {
 
 	@Lazy
 	private final DogmaHtmlController dogmaHtmlController;
+
+	@Lazy
+	private final HistoryRestController historyRestController;
 
 	private final MarketGroupService marketGroupService;
 
@@ -114,6 +118,7 @@ public class MarketHtmlController {
 		}
 		if (meValue > 0 || teValue > 0 || copyValue) {
 			model.addAttribute("baseTypeUrl", uri(typeId).toString());
+			model.addAttribute("historyChartUrl", historyRestController.uri(typeId, copyValue, meValue, teValue).toString());
 		}
 		List<ContractTypeVariant> variants = contractInfoService.variants(typeId);
 		// System.err.println("received variants " + variants);

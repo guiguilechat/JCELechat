@@ -39,6 +39,12 @@ public interface ContractInfoRepository
 	public List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
 	    Collection<Integer> typeIds, boolean copy, int me, int te);
 
+	/**
+	 * open contracts providing only given type and iscopy, with minimal me and te
+	 */
+	public List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
+	    Collection<Integer> typeIds, boolean copy, int me, int te);
+
 	/** open contracts requesting only given types */
 	public List<ContractInfo> findByRemovedFalseAndAsksOneTypeForIskTrueAndAskedTypeIdIn(Collection<Integer> typeIds);
 
