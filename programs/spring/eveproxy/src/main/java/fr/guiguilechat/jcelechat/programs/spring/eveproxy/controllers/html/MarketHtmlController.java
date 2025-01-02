@@ -88,7 +88,7 @@ public class MarketHtmlController {
 			List<MarketOrder> sos = contractFacadeBpc.streamSOs(typeId, meValue, teValue)
 			    .peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 			    .toList();
-			System.err.println("found " + sos.size() + " orders for " + name);
+			// System.err.println("found " + sos.size() + " orders for " + name);
 			model.addAttribute("sos", sos);
 		} else {
 			// working wit non-copy
