@@ -14141,7 +14141,6 @@ types:
     entitychasemaxdurationchance: 1.0
     entitydefenderchance: 0.05000000074505806
     entityequipmentgroupmax: 1
-    entityfactionloss: 1.9999999494757503E-4
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 12500000

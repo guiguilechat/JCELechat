@@ -30062,13 +30062,6 @@ id2group:
   79763: skins/PermanentSKIN
   79764: skins/PermanentSKIN
   79785: commodity/Miscellaneous
-  79819: specialeditionassets/SpecialEditionCommodities
-  79832: specialeditionassets/SpecialEditionCommodities
-  79833: specialeditionassets/SpecialEditionCommodities
-  79834: specialeditionassets/SpecialEditionCommodities
-  79835: specialeditionassets/SpecialEditionCommodities
-  79836: specialeditionassets/SpecialEditionCommodities
-  79837: specialeditionassets/SpecialEditionCommodities
   79838: skins/PermanentSKIN
   79840: skins/PermanentSKIN
   79841: skins/PermanentSKIN
@@ -31223,14 +31216,59 @@ id2group:
   85232: blueprint/MercenaryDenBlueprint
   85233: skill/StructureManagement
   85236: ship/BlackOps
+  85237: implant/Booster
+  85238: implant/Booster
+  85239: implant/Booster
   85242: commodity/Miscellaneous
+  85252: implant/Booster
+  85253: implant/Booster
+  85254: implant/Booster
+  85255: implant/Booster
+  85256: implant/Booster
+  85257: implant/Booster
+  85258: implant/Booster
+  85259: implant/Booster
+  85260: implant/Booster
+  85261: implant/Booster
+  85262: implant/Booster
+  85263: implant/Booster
+  85264: implant/Booster
+  85265: implant/Booster
+  85266: implant/Booster
+  85267: implant/Booster
+  85268: implant/Booster
+  85269: implant/Booster
+  85270: implant/Booster
+  85271: implant/Booster
+  85272: implant/Booster
+  85273: implant/Booster
+  85274: implant/Booster
+  85275: implant/Booster
   85279: implant/Booster
+  85281: commodity/JumpFilaments
+  85282: commodity/JumpFilaments
+  85283: commodity/JumpFilaments
+  85284: commodity/JumpFilaments
+  85285: commodity/JumpFilaments
+  85286: commodity/JumpFilaments
+  85287: commodity/JumpFilaments
+  85288: commodity/JumpFilaments
+  85289: commodity/JumpFilaments
   85290: personalization/ShipSKINDesignElement
   85305: personalization/ShipSKINDesignElement
   85306: personalization/ShipSKINDesignElement
   85307: personalization/ShipSKINDesignElement
   85308: personalization/ShipSKINDesignElement
+  85309: specialeditionassets/SpecialEditionCommodities
+  85310: specialeditionassets/SpecialEditionCommodities
+  85311: specialeditionassets/SpecialEditionCommodities
   85316: commodity/Atavum
+  85355: specialeditionassets/SpecialEditionCommodities
+  85357: specialeditionassets/SpecialEditionCommodities
+  85358: specialeditionassets/SpecialEditionCommodities
+  85359: specialeditionassets/SpecialEditionCommodities
+  85360: specialeditionassets/SpecialEditionCommodities
+  85361: specialeditionassets/SpecialEditionCommodities
   85390: material/AbyssalMaterials
   85391: material/AbyssalMaterials
   85392: material/AbyssalMaterials
@@ -31465,6 +31503,21 @@ id2group:
   85754: personalization/ShipSKINDesignElement
   85755: personalization/ShipSKINDesignElement
   85756: personalization/ShipSKINDesignElement
+  85772: personalization/ShipSKINDesignElement
+  85773: personalization/ShipSKINDesignElement
+  85774: personalization/ShipSKINDesignElement
+  85775: personalization/ShipSKINDesignElement
+  85776: personalization/ShipSKINDesignElement
+  85777: personalization/ShipSKINDesignElement
+  85778: personalization/ShipSKINDesignElement
+  85779: personalization/ShipSKINDesignElement
+  85780: personalization/ShipSKINDesignElement
+  85781: personalization/ShipSKINDesignElement
+  85782: personalization/ShipSKINDesignElement
+  85783: personalization/ShipSKINDesignElement
+  85784: personalization/ShipSKINDesignElement
+  85785: personalization/ShipSKINDesignElement
+  85786: personalization/ShipSKINDesignElement
   85787: specialeditionassets/SpecialEditionCommodities
   85843: personalization/ShipSKINDesignElement
   85844: personalization/ShipSKINDesignElement
@@ -31502,6 +31555,11 @@ id2group:
   85930: skins/PermanentSKIN
   85931: skins/PermanentSKIN
   85932: skins/PermanentSKIN
+  85934: personalization/ShipSKINDesignElement
+  85935: personalization/ShipSKINDesignElement
+  85936: personalization/ShipSKINDesignElement
+  85938: personalization/ShipSKINDesignElement
+  85939: personalization/ShipSKINDesignElement
   85940: blueprint/MutaplasmidBlueprint
   85941: blueprint/MutaplasmidBlueprint
   85942: blueprint/MutaplasmidBlueprint
@@ -31645,6 +31703,21 @@ id2group:
   86105: personalization/ShipSKINDesignElement
   86106: personalization/ShipSKINDesignElement
   86107: personalization/ShipSKINDesignElement
+  86108: skins/PermanentSKIN
+  86109: skins/PermanentSKIN
+  86110: skins/PermanentSKIN
+  86111: skins/PermanentSKIN
+  86112: skins/PermanentSKIN
+  86113: skins/PermanentSKIN
+  86114: skins/PermanentSKIN
+  86115: skins/PermanentSKIN
+  86116: skins/PermanentSKIN
+  86117: skins/PermanentSKIN
+  86118: skins/PermanentSKIN
+  86119: skins/PermanentSKIN
+  86120: skins/PermanentSKIN
+  86121: skins/PermanentSKIN
+  86122: skins/PermanentSKIN
   86125: blueprint/MutaplasmidBlueprint
   86126: blueprint/MutaplasmidBlueprint
   86127: blueprint/MutaplasmidBlueprint
@@ -31729,6 +31802,8 @@ id2group:
   86482: entity/IrregularCruiser
   86483: entity/IrregularCruiser
   86490: entity/IrregularCruiser
+  86495: specialeditionassets/SpecialEditionCommodities
+  86496: specialeditionassets/SpecialEditionCommodities
   86498: entity/DrifterResponseBattleship
   86512: entity/IrregularDestroyer
   86513: entity/IrregularDestroyer
@@ -31746,6 +31821,15 @@ id2group:
   86680: personalization/ShipSKINDesignElement
   86703: entity/IrregularCruiser
   87098: specialeditionassets/SpecialEditionCommodities
+  87121: personalization/ShipSKINDesignElement
+  87135: entity/IrregularBattleship
+  87136: specialeditionassets/SpecialEditionCommodities
+  87165: personalization/ShipEmblems
+  87166: personalization/ShipEmblems
+  87167: personalization/ShipEmblems
+  87168: personalization/ShipEmblems
+  87169: personalization/ShipEmblems
+  87170: personalization/ShipEmblems
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

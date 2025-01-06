@@ -98,7 +98,6 @@ types:
   81048:
     id: 81048
     industryblueprintrank: 800.0
-    marketGroup: 636
     name: Deluge Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -110,7 +109,6 @@ types:
   81049:
     id: 81049
     industryblueprintrank: 800.0
-    marketGroup: 636
     name: Torrent Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1

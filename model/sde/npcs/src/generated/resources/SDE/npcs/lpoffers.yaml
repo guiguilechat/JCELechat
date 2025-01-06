@@ -39736,7 +39736,7 @@ offers:
       quantity: 1
     requirements:
       isk: 1000000
-      lp: 1000
+      lp: 750
   19324:
     id: 19324
     name: Guristas NET Resonator
@@ -39772,7 +39772,7 @@ offers:
       quantity: 1
     requirements:
       isk: 1000000
-      lp: 1000
+      lp: 750
   19328:
     id: 19328
     name: SoE NET Resonator
@@ -42208,3 +42208,51 @@ offers:
       quantity: 1
     requirements:
       lp: 13500
+  19426:
+    id: 19426
+    name: Sidewinder Alliance Emblem
+    product:
+      id: 87165
+      quantity: 1
+    requirements:
+      lp: 6000
+  19427:
+    id: 19427
+    name: Sidewinder Corporation Emblem
+    product:
+      id: 87166
+      quantity: 1
+    requirements:
+      lp: 6000
+  19428:
+    id: 19428
+    name: Cobra Alliance Emblem
+    product:
+      id: 87167
+      quantity: 1
+    requirements:
+      lp: 11000
+  19429:
+    id: 19429
+    name: Cobra Corporation Emblem
+    product:
+      id: 87168
+      quantity: 1
+    requirements:
+      lp: 11000
+  19430:
+    id: 19430
+    name: Python Alliance Emblem
+    product:
+      id: 87169
+      quantity: 1
+    requirements:
+      lp: 16000
+  19431:
+    id: 19431
+    name: Python Corporation Emblem
+    product:
+      id: 87170
+      quantity: 1
+    requirements:
+      lp: 16000

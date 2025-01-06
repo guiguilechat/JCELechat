@@ -3949,3 +3949,33 @@ types:
     name: Cenotaph Alliance Emblem
     portionSize: 1
     published: true
+  87165:
+    id: 87165
+    name: Sidewinder Alliance Emblem
+    portionSize: 1
+    published: true
+  87166:
+    id: 87166
+    name: Sidewinder Corporation Emblem
+    portionSize: 1
+    published: true
+  87167:
+    id: 87167
+    name: Cobra Alliance Emblem
+    portionSize: 1
+    published: true
+  87168:
+    id: 87168
+    name: Cobra Corporation Emblem
+    portionSize: 1
+    published: true
+  87169:
+    id: 87169
+    name: Python Alliance Emblem
+    portionSize: 1
+    published: true
+  87170:
+    id: 87170
+    name: Python Corporation Emblem
+    portionSize: 1
+    published: true

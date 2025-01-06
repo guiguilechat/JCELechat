@@ -40907,6 +40907,7 @@ types:
     volume: 0.009999999776482582
   79713:
     id: 79713
+    marketGroup: 2002
     name: Tormentor Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40914,6 +40915,7 @@ types:
     volume: 0.009999999776482582
   79714:
     id: 79714
+    marketGroup: 1994
     name: Dragoon Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40921,6 +40923,7 @@ types:
     volume: 0.009999999776482582
   79715:
     id: 79715
+    marketGroup: 1990
     name: Arbitrator Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40936,6 +40939,7 @@ types:
     volume: 0.009999999776482582
   79717:
     id: 79717
+    marketGroup: 2048
     name: Harpy Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40951,6 +40955,7 @@ types:
     volume: 0.009999999776482582
   79719:
     id: 79719
+    marketGroup: 2143
     name: Stork Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40958,6 +40963,7 @@ types:
     volume: 0.009999999776482582
   79720:
     id: 79720
+    marketGroup: 1991
     name: Blackbird Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40965,6 +40971,7 @@ types:
     volume: 0.009999999776482582
   79721:
     id: 79721
+    marketGroup: 2082
     name: Rook Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40980,6 +40987,7 @@ types:
     volume: 0.009999999776482582
   79723:
     id: 79723
+    marketGroup: 1975
     name: Chimera Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40987,6 +40995,7 @@ types:
     volume: 0.009999999776482582
   79724:
     id: 79724
+    marketGroup: 2004
     name: Incursus Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -40994,6 +41003,7 @@ types:
     volume: 0.009999999776482582
   79725:
     id: 79725
+    marketGroup: 2049
     name: Ishkur Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41001,6 +41011,7 @@ types:
     volume: 0.009999999776482582
   79726:
     id: 79726
+    marketGroup: 1996
     name: Algos Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41008,6 +41019,7 @@ types:
     volume: 0.009999999776482582
   79727:
     id: 79727
+    marketGroup: 2144
     name: Magus Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41023,6 +41035,7 @@ types:
     volume: 0.009999999776482582
   79729:
     id: 79729
+    marketGroup: 2083
     name: Lachesis Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41030,6 +41043,7 @@ types:
     volume: 0.009999999776482582
   79730:
     id: 79730
+    marketGroup: 2083
     name: Arazu Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41037,6 +41051,7 @@ types:
     volume: 0.009999999776482582
   79731:
     id: 79731
+    marketGroup: 1976
     name: Thanatos Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41044,6 +41059,7 @@ types:
     volume: 0.009999999776482582
   79732:
     id: 79732
+    marketGroup: 2003
     name: Merlin Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41059,6 +41075,7 @@ types:
     volume: 0.009999999776482582
   79734:
     id: 79734
+    marketGroup: 1997
     name: Talwar Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41074,6 +41091,7 @@ types:
     volume: 0.009999999776482582
   79736:
     id: 79736
+    marketGroup: 1993
     name: Bellicose Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41081,6 +41099,7 @@ types:
     volume: 0.009999999776482582
   79737:
     id: 79737
+    marketGroup: 2084
     name: Huginn Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41088,6 +41107,7 @@ types:
     volume: 0.009999999776482582
   79738:
     id: 79738
+    marketGroup: 2084
     name: Rapier Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41095,6 +41115,7 @@ types:
     volume: 0.009999999776482582
   79739:
     id: 79739
+    marketGroup: 1977
     name: Nidhoggur Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41102,6 +41123,7 @@ types:
     volume: 0.009999999776482582
   79740:
     id: 79740
+    marketGroup: 2005
     name: Vigil Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41109,6 +41131,7 @@ types:
     volume: 0.009999999776482582
   79741:
     id: 79741
+    marketGroup: 2521
     name: Kikimora Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41116,6 +41139,7 @@ types:
     volume: 0.009999999776482582
   79742:
     id: 79742
+    marketGroup: 1963
     name: Nestor Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41123,6 +41147,7 @@ types:
     volume: 0.009999999776482582
   79744:
     id: 79744
+    marketGroup: 1963
     name: Barghest Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -41130,6 +41155,7 @@ types:
     volume: 0.009999999776482582
   79745:
     id: 79745
+    marketGroup: 2142
     name: Pontifex Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -43051,6 +43077,115 @@ types:
     id: 85979
     marketGroup: 2120
     name: CONCORD Victory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86108:
+    id: 86108
+    marketGroup: 1974
+    name: Aeon Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86109:
+    id: 86109
+    marketGroup: 2088
+    name: Impel Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86110:
+    id: 86110
+    name: Ark Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86111:
+    id: 86111
+    name: Wyvern Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86112:
+    id: 86112
+    name: Crane Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86113:
+    id: 86113
+    marketGroup: 2096
+    name: Rhea Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86114:
+    id: 86114
+    name: Nyx Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86115:
+    id: 86115
+    name: Viator Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86116:
+    id: 86116
+    name: Anshar Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86117:
+    id: 86117
+    marketGroup: 1977
+    name: Hel Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86118:
+    id: 86118
+    name: Mastodon Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86119:
+    id: 86119
+    name: Nomad Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86120:
+    id: 86120
+    name: Enforcer Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86121:
+    id: 86121
+    name: Pacifier Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  86122:
+    id: 86122
+    name: Marshal Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

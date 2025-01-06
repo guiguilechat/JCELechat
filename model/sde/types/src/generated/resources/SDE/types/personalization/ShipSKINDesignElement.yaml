@@ -3047,6 +3047,126 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  85772:
+    id: 85772
+    marketGroup: 3653
+    name: Winter’s Pale Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85773:
+    id: 85773
+    marketGroup: 3653
+    name: Darkest Amethyst Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85774:
+    id: 85774
+    marketGroup: 3653
+    name: Vibrant Truth Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85775:
+    id: 85775
+    marketGroup: 3654
+    name: Crystal Glaze Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85776:
+    id: 85776
+    marketGroup: 3654
+    name: Incursive Ink Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85777:
+    id: 85777
+    marketGroup: 3654
+    name: Vibrant Truth Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85778:
+    id: 85778
+    marketGroup: 3655
+    name: Winter’s Pale Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85779:
+    id: 85779
+    marketGroup: 3655
+    name: Crystal Glaze Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85780:
+    id: 85780
+    marketGroup: 3655
+    name: Thick Blue Frost Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85781:
+    id: 85781
+    marketGroup: 3655
+    name: True Krystallos Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85782:
+    id: 85782
+    marketGroup: 3632
+    name: Steel Bauble Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85783:
+    id: 85783
+    marketGroup: 3632
+    name: Antique Copper Foil Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85784:
+    id: 85784
+    marketGroup: 3632
+    name: Electroplated Wish Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85785:
+    id: 85785
+    marketGroup: 3633
+    name: Solstice Nexus - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85786:
+    id: 85786
+    marketGroup: 3633
+    name: Cross Drift - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   85843:
     id: 85843
     marketGroup: 3655
@@ -3083,6 +3203,46 @@ types:
     id: 85847
     marketGroup: 3633
     name: Jagged Crystal - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85934:
+    id: 85934
+    marketGroup: 3653
+    name: Vibrant Truth Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85935:
+    id: 85935
+    marketGroup: 3654
+    name: Crystal Glaze Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85936:
+    id: 85936
+    marketGroup: 3654
+    name: Incursive Ink Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85938:
+    id: 85938
+    marketGroup: 3655
+    name: Winter’s Pale Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85939:
+    id: 85939
+    marketGroup: 3632
+    name: Electroplated Wish Metallic - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -3163,6 +3323,14 @@ types:
     id: 86680
     marketGroup: 3633
     name: Hacked Virtuality - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87121:
+    id: 87121
+    marketGroup: 3633
+    name: Crystalflake Comet - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

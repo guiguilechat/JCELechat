@@ -17880,7 +17880,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     published: false
-    radius: 371.0
+    radius: 10000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 250000.0
     shieldemdamageresonance: 1.0

@@ -246,7 +246,7 @@ types:
     name: Capital Core Temperature Regulator
     packagedVolume: 28000.0
     portionSize: 1
-    price: 1.0E8
+    price: 5.0E8
     published: true
     volume: 28000.0
   57488:
@@ -257,7 +257,7 @@ types:
     name: Neurolink Protection Cell
     packagedVolume: 5500.0
     portionSize: 1
-    price: 5000000.0
+    price: 1.0E9
     published: true
     volume: 5500.0
   57489:

@@ -285,6 +285,8 @@ public enum get_characters_character_id_notifications_type {
     MercOfferedNegotiationMsg("MercOfferedNegotiationMsg"),
     @JsonProperty("MercenaryDenAttacked")
     MercenaryDenAttacked("MercenaryDenAttacked"),
+    @JsonProperty("MercenaryDenNewMTO")
+    MercenaryDenNewMTO("MercenaryDenNewMTO"),
     @JsonProperty("MercenaryDenReinforced")
     MercenaryDenReinforced("MercenaryDenReinforced"),
     @JsonProperty("MissionCanceledTriglavian")

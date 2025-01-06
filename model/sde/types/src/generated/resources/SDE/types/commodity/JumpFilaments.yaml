@@ -74,3 +74,120 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  85281:
+    filamentdescriptionmessageid: 554513
+    id: 85281
+    marketGroup: 1663
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: DNCR-05H Highsec Ice Storm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  85282:
+    filamentdescriptionmessageid: 554512
+    id: 85282
+    marketGroup: 1663
+    mjdshipjumpcap: 1
+    mjfgradius: 6000
+    name: DSHR-01H Highsec Ice Storm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  85283:
+    filamentdescriptionmessageid: 554514
+    id: 85283
+    marketGroup: 1663
+    mjdshipjumpcap: 10
+    mjfgradius: 6000
+    name: PRNCR-10H Highsec Ice Storm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  85284:
+    filamentdescriptionmessageid: 554520
+    id: 85284
+    marketGroup: 1663
+    mjdshipjumpcap: 10
+    mjfgradius: 6000
+    name: RDLF-10L Lowsec Ice Storm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  85285:
+    filamentdescriptionmessageid: 554515
+    id: 85285
+    marketGroup: 1663
+    mjdshipjumpcap: 1
+    mjfgradius: 6000
+    name: VXN-01N Nullsec Ice Storm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  85286:
+    filamentdescriptionmessageid: 554519
+    id: 85286
+    marketGroup: 1663
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: BLTZN-05L Lowsec Ice Storm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  85287:
+    filamentdescriptionmessageid: 554516
+    id: 85287
+    marketGroup: 1663
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: CMT-05N Nullsec Ice Storm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  85288:
+    filamentdescriptionmessageid: 554517
+    id: 85288
+    marketGroup: 1663
+    mjdshipjumpcap: 10
+    mjfgradius: 6000
+    name: CPD-10N Nullsec Ice Storm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+  85289:
+    filamentdescriptionmessageid: 554518
+    id: 85289
+    marketGroup: 1663
+    mjdshipjumpcap: 1
+    mjfgradius: 6000
+    name: DNNR-01L Lowsec Ice Storm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
