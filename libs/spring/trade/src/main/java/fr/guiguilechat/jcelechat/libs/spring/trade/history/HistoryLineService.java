@@ -12,7 +12,11 @@ import java.util.stream.IntStream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.tools.FormatTools;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
@@ -53,6 +57,51 @@ public class HistoryLineService {
 	}
 
 	//
+	// highest sales since last X days
+	//
+
+	@RequiredArgsConstructor
+	@Getter
+	@Setter
+	public static class AggregatedTypeHistory {
+
+		private final int typeId;
+
+		private final String typeName;
+
+		private final int days;
+
+		private final double valueSold;
+
+		@Getter(lazy = true)
+		private final String valueSoldString = FormatTools.formatPrice(getValueSold());
+
+		private final long quantitySold;
+
+		@Getter(lazy = true)
+		private final double unitPrice = getValueSold() / getQuantitySold();
+
+		@Getter(lazy = true)
+		private final String unitPriceString = FormatTools.formatPrice(getUnitPrice());
+
+		/** set externally depending on what we want to do about it */
+		private String url;
+
+	}
+
+	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days) {
+		var now = Instant.now().truncatedTo(ChronoUnit.DAYS);
+		var minDay = now.minus(days, ChronoUnit.DAYS);
+		return repo.sortSalesByTotalValue(minDay, now).stream()
+		    .map(arr -> {
+			    Type type = (Type) arr[2];
+			    return new AggregatedTypeHistory(type.getId(), type.name(), days, ((Number) arr[0]).doubleValue(),
+			        ((Number) arr[1]).longValue());
+		    })
+		    .toList();
+	}
+
+	//
 	// Analysis
 	//
 
@@ -64,7 +113,7 @@ public class HistoryLineService {
 				return new DayWeight(weight, line.getLowest(), line.getVolume(), 0.0, 0.0);
 			}
 			double nh = line.getVolume() * (line.getAverage() - line.getLowest())
-					/ (line.getHighest() - line.getLowest());
+			    / (line.getHighest() - line.getLowest());
 			return new DayWeight(weight, line.getLowest(), line.getVolume() - nh, line.getHighest(), nh);
 		}
 
@@ -82,11 +131,11 @@ public class HistoryLineService {
 
 		public static WeightStrategy of(String name) {
 			return switch (name == null ? "" : name.toLowerCase()) {
-				case "uni" -> HistoryLineService.uni(400);
-				case "uni30" -> HistoryLineService.uni(30);
-				case "uni365" -> HistoryLineService.uni(365);
-				case "geo10" -> HistoryLineService.geo(10);
-				default -> HistoryLineService.geo(10);
+			case "uni" -> HistoryLineService.uni(400);
+			case "uni30" -> HistoryLineService.uni(30);
+			case "uni365" -> HistoryLineService.uni(365);
+			case "geo10" -> HistoryLineService.geo(10);
+			default -> HistoryLineService.geo(10);
 			};
 		}
 
@@ -182,11 +231,11 @@ public class HistoryLineService {
 	}
 
 	List<PriceVolumeAcc> groupPrices(double minPrice, double maxPrice, int nbSteps, List<DayWeight> dayWeights,
-			double totalWeight) {
+	    double totalWeight) {
 		double stepInc = 1.0 * (maxPrice - minPrice) / (nbSteps - 1);
 		return IntStream.rangeClosed(0, nbSteps - 1).mapToDouble(step -> minPrice + stepInc * step)
-				.mapToObj(PriceVolumeAcc::new)
-				.map(pv -> pv.accumulate(dayWeights, totalWeight)).toList();
+		    .mapToObj(PriceVolumeAcc::new)
+		    .map(pv -> pv.accumulate(dayWeights, totalWeight)).toList();
 	}
 
 	List<PriceVolumeAcc> groupPrices(List<HistoryLine> lines, WeightStrategy weighter, int nbSteps) {

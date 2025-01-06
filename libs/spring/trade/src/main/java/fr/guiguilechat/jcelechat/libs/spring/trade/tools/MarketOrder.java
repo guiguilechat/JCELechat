@@ -32,10 +32,21 @@ public class MarketOrder implements Serializable {
 
 	private OrderType orderType;
 
+	/** when it is a contract, the id of the contract */
+	@Builder.Default
+	private int contractId = 0;
+
+	/**
+	 * additional details for non-type items (BPC, researched BPOs)
+	 */
+	private String details;
+
 	/**
 	 * duration integer
 	 */
 	private int duration;
+
+	private Instant expires;
 
 	/**
 	 * is_buy_order boolean
@@ -83,6 +94,11 @@ public class MarketOrder implements Serializable {
 	private int typeId;
 
 	/**
+	 * internal url to list it, set by the fetching service
+	 */
+	private String url;
+
+	/**
 	 * volume_remain integer
 	 */
 	private int volumeRemain;
@@ -91,8 +107,6 @@ public class MarketOrder implements Serializable {
 	 * volume_total integer
 	 */
 	private int volumeTotal;
-
-	private Instant expires;
 
 	@Getter(lazy = true)
 	private final String formatedExpires = FormatTools.formatDelay(expires);
@@ -115,6 +129,8 @@ public class MarketOrder implements Serializable {
 	}
 
 	public static MarketOrder of(ContractInfo contract) {
+		// can't make an order out of a contract unless exactly one item is either
+		// offered or required.
 		if (contract.getNbTypesAsked() > 1 ||
 		    contract.getNbTypesIncluded() > 1
 		    || contract.getNbTypesAsked() + contract.getNbTypesIncluded() != 1) {
@@ -124,21 +140,30 @@ public class MarketOrder implements Serializable {
 		int volume = 0;
 		int typeId = 0;
 		double price = 0.0;
+		String details = null;
 		if (contract.isRequestsItem()) {
-			volume = contract.getAskedQuantity().intValue();
-			typeId = contract.getAskedTypeId();
 			price = contract.getReward();
+			typeId = contract.getAskedTypeId();
+			volume = contract.getAskedQuantity().intValue();
 		} else {
+			if (contract.getOfferedCopy()
+			    || contract.getOfferedMe() != null && contract.getOfferedMe() > 0
+			    || contract.getOfferedTe() != null && contract.getOfferedTe() > 0) {
+				details = "" + contract.getOfferedMe() + "/" + contract.getOfferedTe()
+				    + (contract.getOfferedCopy() ? "(CP)" : "");
+			}
+			price = contract.getPrice();
+			typeId = contract.getOfferedTypeId();
 			if (contract.getOfferedCopy()) {
 				volume = contract.getOfferedRuns().intValue();
 			} else {
 				volume = contract.getOfferedQuantity().intValue();
 			}
-			typeId = contract.getOfferedTypeId();
-			price = contract.getPrice();
 		}
 		long locationId = contract.getEndLocationId();
 		return builder()
+		    .contractId(contract.getId())
+		    .details(details)
 		    .expires(contract.getDateExpired())
 		    .isBuyOrder(contract.isAsksOneTypeForIsk())
 		    .issued(contract.getDateIssued())

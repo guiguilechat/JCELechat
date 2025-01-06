@@ -9,16 +9,17 @@
 </head>
 <body>
     <header th:insert="~{fragments/general.html :: header}"> </header>
-	<h1>Market types search</h1>
 	<div class="container-fluid border">
 		<div class="row border">
+			<h1>Market types search</h1>
 			<form method="get" th:action="@{${action}}">
 				<input class="form-control" type="text" name="typeName"
 					th:value="${param.typeName!=null ? param.typeName[0]:''}" /> <input
 					type="submit" value="search" />
 			</form>
 		</div>
-		<div class="row border">
+		<div class="row border" th:if="${types!=null
+			|| groups!=null}">
 			<div class="col" th:if="${types!=null}">
 				<h2>Matching types</h2>
 				<ul>
@@ -33,6 +34,33 @@
 						th:href="${group.url}" /></li>
 				</ul>
 			</div>
+		</div>
+		<div class="row border">
+			<h1>Weekly most sold</h1>
+				<div class="col" th:if="${regionalMarketSales!=null && !regionalMarketSales.isEmpty()}">
+				<h2>Regional Markets</h2>
+				<table class="table">
+					<thead class="thead-light sticky-top bg-light">
+						<tr>
+						<th>type</th>
+						<th>value</th>
+						<th>unit price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="line : ${regionalMarketSales}">
+							<td><a th:href="${line.url}" th:text="${line.typeName}" /></td>
+							<td th:text="${line.valueSoldString}" />
+							<td th:text="${line.unitPriceString}" />
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<form method="get" th:action="@{${action}}">
+				<input class="form-control" type="text" name="typeName"
+					th:value="${param.typeName!=null ? param.typeName[0]:''}" /> <input
+					type="submit" value="search" />
+			</form>
 		</div>
 	</div>
 

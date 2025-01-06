@@ -22,6 +22,8 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractTypeVariant;
+import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.orders.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
@@ -29,12 +31,16 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.HistoryRestController;
 import jakarta.transaction.Transactional;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Controller
 @RequestMapping("/html/market")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class MarketHtmlController {
+
+	@Lazy
+	private final ContractEvalController contractEvalController;
 
 	private final ContractFacadeBpc contractFacadeBpc;
 
@@ -44,6 +50,9 @@ public class MarketHtmlController {
 
 	@Lazy
 	private final DogmaHtmlController dogmaHtmlController;
+
+	@Lazy
+	private final HistoryLineService historyLineService;
 
 	@Lazy
 	private final HistoryRestController historyRestController;
@@ -85,6 +94,7 @@ public class MarketHtmlController {
 		model.addAttribute("name", name);
 		if (copyValue) {
 			// working with BPC
+			model.addAttribute("showDetails", true);
 			List<MarketOrder> sos = contractFacadeBpc.streamSOs(typeId, meValue, teValue)
 			    .peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 			    .toList();
@@ -108,9 +118,11 @@ public class MarketHtmlController {
 				        .toList());
 			} else {
 				// working with researched BPO
+				model.addAttribute("showDetails", true);
 				List<MarketOrder> sos = contractFacadeBpo.streamSOs(typeId, meValue, teValue)
 				    .peek(
 				        mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+				    .peek(mo -> mo.setUrl(contractEvalController.uri(mo.getContractId()).toString()))
 				    .toList();
 				// System.err.println("found " + sos.size() + " orders for " + name);
 				model.addAttribute("sos", sos);
@@ -184,10 +196,18 @@ public class MarketHtmlController {
 	public String getRoot() {
 		return "redirect:market/search";
 	}
+	
+	@RequiredArgsConstructor
+	@Getter
+	public static enum PERIOD{
+		week(7), month(30), year(365);
+
+		private final int days;
+	}
 
 	@Transactional
 	@GetMapping("/search")
-	public String getSearch(Model model, Optional<String> typeName) {
+	public String getSearch(Model model, Optional<String> typeName, Optional<PERIOD> period) {
 		if (typeName.isPresent() && !typeName.get().isBlank()) {
 			List<Type> types = typeService.search(typeName.get());
 			if (types.size() == 1) {
@@ -197,13 +217,22 @@ public class MarketHtmlController {
 				    types.stream().map(this::linkedMarketType).sorted(Comparator.comparing(lmt -> lmt.name)).toList());
 			}
 		}
+		PERIOD periodValue = period.orElse(PERIOD.week);
+		model.addAttribute("periods", PERIOD.values());
+		model.addAttribute("period", periodValue);
+		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(periodValue.getDays());
+		for (AggregatedTypeHistory line : regionalSales) {
+			line.setUrl(uri(line.getTypeId()).toString());
+		}
+		model.addAttribute("regionalMarketSales", regionalSales);
+		// TODO add period most sold for contracts (unresearched, BPO, BPC)
 		return "market/index";
 	}
 
 	@Transactional
 	@GetMapping("/search/")
 	public String getSearchSlash(Model model, Optional<String> typeName) {
-		return getSearch(model, typeName);
+		return getSearch(model, typeName, null);
 	}
 
 	// market groups

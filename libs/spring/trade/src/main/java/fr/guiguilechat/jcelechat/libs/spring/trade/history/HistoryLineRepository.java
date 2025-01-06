@@ -67,4 +67,27 @@ group by
 """)
 	public List<Object[]> findLastByReqIn(Iterable<HistoryReq> reqIds);
 
+	/**
+	 * @param minInstant minimimum date, included
+	 * @param maxInstant maximum date, included
+	 * @return aggregated totalValue, totalQuantity, type for each type with at
+	 *           least an history line, over the included range of dates
+	 */
+	@Query("""
+select
+	sum(average*volume) totalvalue,
+	sum(volume) totalQuantity,
+	 line.fetchResource.type type
+from 
+	EsiTradeHistoryLine line
+where
+	line.date <= :maxInstant
+	and line.date >= :minInstant
+group by
+	line.fetchResource.type
+order by
+ 	sum(average*volume) desc
+""")
+	public List<Object[]> sortSalesByTotalValue(Instant minInstant, Instant maxInstant);
+
 }
