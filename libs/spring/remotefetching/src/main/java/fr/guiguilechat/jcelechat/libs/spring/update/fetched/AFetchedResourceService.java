@@ -12,7 +12,6 @@ import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;
-import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -106,7 +105,7 @@ public abstract class AFetchedResourceService<
 		log.trace("{} createIfAbsent {} entities", fetcherName(), entityIds.size());
 		int maxList = Integer.MAX_VALUE;
 		if (entityIds.size() <= maxList) {
-			repo().findAllByIdIn(entityIds).stream()
+			repo().findAllById(entityIds).stream()
 			    .forEach(r -> storedEntities.put(r.getId(), r));
 		} else {
 			List<Id> lastList = new ArrayList<>();
@@ -166,7 +165,7 @@ public abstract class AFetchedResourceService<
 	 *           such, this may return false even if resources are still not fetched
 	 */
 	@Override
-	@Transactional(isolation = Isolation.REPEATABLE_READ)
+	@Transactional
 	public boolean fetch() {
 		preUpdate();
 		if (fetchUpdate()) {
