@@ -13,9 +13,15 @@
 		<div class="row border">
 			<h1>Market types search</h1>
 			<form method="get" th:action="@{${action}}">
-				<input class="form-control" type="text" name="typeName"
-					th:value="${param.typeName!=null ? param.typeName[0]:''}" /> <input
-					type="submit" value="search" />
+				<div class="row form-row"> 
+				<div class="col-md-2">
+					<input type="text" class="form-control" name="typeName"
+						th:value="${param.typeName!=null ? param.typeName[0]:''}" />
+				</div>
+					<div class="col-md-1">
+				 		<input type="submit" class="form-control" value="search" />
+					</div>
+				</div>
 			</form>
 		</div>
 		<div class="row border" th:if="${types!=null

@@ -21,17 +21,6 @@ logging:
                   spring:
                      eveproxy: trace
 
-#      org:
-#         hibernate:
-#            orm:
-#               jdbc:
-#                  bind: trace
-#            SQL: debug
-#            type:
-#               descriptor:
-#                  sql:
-#                     BasicBinder: trace
-
 mer:
    update:
       skip: true
@@ -41,7 +30,7 @@ spring:
       type: simple
    datasource:
       hikari:
-         validationTimeout: 300000 # 5min timeout for access local h2 DB
+         validationTimeout: 10000 #10s timeout for access local h2 DB
       password: admin
       url: jdbc:h2:./db/export
       username: admin

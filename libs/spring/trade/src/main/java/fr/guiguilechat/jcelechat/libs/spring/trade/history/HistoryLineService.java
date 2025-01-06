@@ -12,12 +12,11 @@ import java.util.stream.IntStream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.tools.FormatTools;
-import lombok.Getter;
+import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class HistoryLineService {
@@ -60,45 +59,23 @@ public class HistoryLineService {
 	// highest sales since last X days
 	//
 
-	@RequiredArgsConstructor
-	@Getter
-	@Setter
-	public static class AggregatedTypeHistory {
-
-		private final int typeId;
-
-		private final String typeName;
-
-		private final int days;
-
-		private final double valueSold;
-
-		@Getter(lazy = true)
-		private final String valueSoldString = FormatTools.formatPrice(getValueSold());
-
-		private final long quantitySold;
-
-		@Getter(lazy = true)
-		private final double unitPrice = getValueSold() / getQuantitySold();
-
-		@Getter(lazy = true)
-		private final String unitPriceString = FormatTools.formatPrice(getUnitPrice());
-
-		/** set externally depending on what we want to do about it */
-		private String url;
-
-	}
-
-	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days) {
+	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
 		var now = Instant.now().truncatedTo(ChronoUnit.DAYS);
 		var minDay = now.minus(days, ChronoUnit.DAYS);
-		return repo.sortSalesByTotalValue(minDay, now).stream()
+		long start = System.currentTimeMillis();
+		List<AggregatedTypeHistory> ret = repo.sortSalesByTotalValue(minDay, now, limit).stream()
 		    .map(arr -> {
-			    Type type = (Type) arr[2];
-			    return new AggregatedTypeHistory(type.getId(), type.name(), days, ((Number) arr[0]).doubleValue(),
-			        ((Number) arr[1]).longValue());
+		    	int typeId = ((Number)arr[2]).intValue();
+		    	String typeName = (String) arr[3];
+		    	double totalValue =  ((Number) arr[0]).doubleValue();
+		    	long totalQuantity = ((Number) arr[1]).longValue(); 
+			    return new AggregatedTypeHistory(typeId, typeName, days,totalValue,
+			        totalQuantity);
 		    })
 		    .toList();
+		long stop = System.currentTimeMillis();
+		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, (stop - start), ret.size());
+		return ret;
 	}
 
 	//

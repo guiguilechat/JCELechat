@@ -18,12 +18,12 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractTypeVariant;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.orders.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
@@ -220,7 +220,8 @@ public class MarketHtmlController {
 		PERIOD periodValue = period.orElse(PERIOD.week);
 		model.addAttribute("periods", PERIOD.values());
 		model.addAttribute("period", periodValue);
-		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(periodValue.getDays());
+		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(periodValue.getDays(),
+		    100);
 		for (AggregatedTypeHistory line : regionalSales) {
 			line.setUrl(uri(line.getTypeId()).toString());
 		}

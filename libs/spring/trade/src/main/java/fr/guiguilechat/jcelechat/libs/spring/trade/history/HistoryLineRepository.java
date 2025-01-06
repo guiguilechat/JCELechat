@@ -70,24 +70,28 @@ group by
 	/**
 	 * @param minInstant minimimum date, included
 	 * @param maxInstant maximum date, included
-	 * @return aggregated totalValue, totalQuantity, type for each type with at
+	 * @return aggregated totalValue, totalQuantity, typeId, typeName for each type
+	 *           with at
 	 *           least an history line, over the included range of dates
 	 */
 	@Query("""
 select
 	sum(average*volume) totalvalue,
 	sum(volume) totalQuantity,
-	 line.fetchResource.type type
+	line.fetchResource.type.id typeId,
+	line.fetchResource.type.name typeName
 from 
 	EsiTradeHistoryLine line
 where
 	line.date <= :maxInstant
 	and line.date >= :minInstant
 group by
-	line.fetchResource.type
+	line.fetchResource.type.id,
+	line.fetchResource.type.name
 order by
  	sum(average*volume) desc
+limit :limit
 """)
-	public List<Object[]> sortSalesByTotalValue(Instant minInstant, Instant maxInstant);
+	public List<Object[]> sortSalesByTotalValue(Instant minInstant, Instant maxInstant, int limit);
 
 }
