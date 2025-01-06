@@ -16,6 +16,8 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import jakarta.transaction.Transactional;
@@ -33,6 +35,9 @@ public class ContractFacadeBpc {
 
 	@Lazy
 	private final ContractInfoRepository contractInfoRepository;
+
+	@Lazy
+	private final TypeService typeService;
 
 	/**
 	 * find contracts that are open and offer a given type as copy, with ME/TE ge
@@ -105,6 +110,39 @@ public class ContractFacadeBpc {
 			    new BigDecimal(lowestPrice),
 			    orderCount, regionIds.size()));
 		}
+		return ret;
+	}
+
+	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
+		var now = Instant.now();
+		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
+		long start = System.currentTimeMillis();
+		List<Object[]> fetched = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit);
+		Map<Integer, String> typeId2Name = typeService.findById(
+		    fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
+		    .collect(Collectors.toMap(t -> t.getId(), t -> t.getName()));
+		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit)
+		    .stream()
+		    .map(arr -> {
+			    int typeId = ((Number) arr[0]).intValue();
+			    int me = ((Number) arr[1]).intValue();
+			    int te = ((Number) arr[2]).intValue();
+			    double totalValue = ((Number) arr[3]).doubleValue();
+			    long totalRuns = ((Number) arr[4]).longValue();
+			    String typeName = typeId2Name.get(typeId);
+			    if (typeName == null) {
+				    typeName = "unknown " + typeId;
+			    }
+			    typeName += "(CP) " + me + "/" + te;
+			    AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, days, totalValue,
+			        totalRuns);
+			    line.setMe(me);
+			    line.setTe(te);
+			    return line;
+		    })
+		    .toList();
+		long stop = System.currentTimeMillis();
+		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, (stop - start), ret.size());
 		return ret;
 	}
 

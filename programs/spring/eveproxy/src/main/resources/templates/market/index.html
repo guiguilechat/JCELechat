@@ -1,7 +1,7 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title th:text="'market types'" />
+<title th:text="'Market search'" />
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
 <script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
@@ -11,7 +11,7 @@
     <header th:insert="~{fragments/general.html :: header}"> </header>
 	<div class="container-fluid border">
 		<div class="row border">
-			<h1>Market types search</h1>
+			<h1>Market search</h1>
 			<form method="get" th:action="@{${action}}">
 				<div class="row form-row"> 
 				<div class="col-md-2">
@@ -43,13 +43,14 @@
 		</div>
 		<div class="row border">
 			<h1>Weekly most sold</h1>
-				<div class="col" th:if="${regionalMarketSales!=null && !regionalMarketSales.isEmpty()}">
+			<div class="col" th:if="${regionalMarketSales!=null && !regionalMarketSales.isEmpty()}">
 				<h2>Regional Markets</h2>
 				<table class="table">
 					<thead class="thead-light sticky-top bg-light">
 						<tr>
 						<th>type</th>
 						<th>value</th>
+						<th>quantity</th>
 						<th>unit price</th>
 						</tr>
 					</thead>
@@ -57,16 +58,75 @@
 						<tr th:each="line : ${regionalMarketSales}">
 							<td><a th:href="${line.url}" th:text="${line.typeName}" /></td>
 							<td th:text="${line.valueSoldString}" />
+							<td th:text="${line.quantitySold}" />
 							<td th:text="${line.unitPriceString}" />
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<form method="get" th:action="@{${action}}">
-				<input class="form-control" type="text" name="typeName"
-					th:value="${param.typeName!=null ? param.typeName[0]:''}" /> <input
-					type="submit" value="search" />
-			</form>
+			<div class="col" th:if="${unresearchedContractSales!=null}">
+				<h2>Completed Unresearched Contracts</h2>
+				<table class="table">
+					<thead class="thead-light sticky-top bg-light">
+						<tr>
+						<th>type</th>
+						<th>value</th>
+						<th>quantity</th>
+						<th>unit price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="line : ${unresearchedContractSales}">
+							<td><a th:href="${line.url}" th:text="${line.typeName}" /></td>
+							<td th:text="${line.valueSoldString}" />
+							<td th:text="${line.quantitySold}" />
+							<td th:text="${line.unitPriceString}" />
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col" th:if="${bpoContractSales!=null}">
+				<h2>Completed researched BPO Contracts</h2>
+				<table class="table">
+					<thead class="thead-light sticky-top bg-light">
+						<tr>
+						<th>type</th>
+						<th>value</th>
+						<th>quantity</th>
+						<th>unit price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="line : ${bpoContractSales}">
+							<td><a th:href="${line.url}" th:text="${line.typeName}" /></td>
+							<td th:text="${line.valueSoldString}" />
+							<td th:text="${line.quantitySold}" />
+							<td th:text="${line.unitPriceString}" />
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col" th:if="${bpcContractSales!=null}">
+				<h2>Completed BPC Contracts</h2>
+				<table class="table">
+					<thead class="thead-light sticky-top bg-light">
+						<tr>
+						<th>type</th>
+						<th>value</th>
+						<th>runs</th>
+						<th>unit price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="line : ${bpcContractSales}">
+							<td><a th:href="${line.url}" th:text="${line.typeName}" /></td>
+							<td th:text="${line.valueSoldString}" />
+							<td th:text="${line.quantitySold}" />
+							<td th:text="${line.unitPriceString}" />
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</div>
 

@@ -100,9 +100,13 @@ public class DogmaHtmlController {
 		return new Seed(space, regionName, ol.regionId(), systemName, ol.locationId(), ol.bestPrice());
 	}
 
-	public URI uri(Type type) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getType", null, "ti", "" + type.getId()).build()
+	public URI typeUri(int typeId) {
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getType", null, "ti", "" + typeId).build()
 		    .toUri();
+	}
+
+	public URI uri(Type type) {
+		return typeUri(type.getId());
 	}
 
 	public static record LinkedProduct(String url, Type type, int quantity, double probability) {

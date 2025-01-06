@@ -32,6 +32,7 @@ import lombok.ToString;
     @Index(columnList = "secLow"),
     @Index(columnList = "secNull"),
     @Index(columnList = "offersOneTypeForIsk,offeredTypeId,offeredCopy,offeredMe,offeredTe,offeredQuantity,offeredRuns"),
+    @Index(columnList = "removedBefore"),
 
 })
 @AllArgsConstructor

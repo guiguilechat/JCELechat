@@ -21,6 +21,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeNonBp;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractTypeVariant;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
@@ -45,6 +46,8 @@ public class MarketHtmlController {
 	private final ContractFacadeBpc contractFacadeBpc;
 
 	private final ContractFacadeBpo contractFacadeBpo;
+
+	private final ContractFacadeNonBp contractFacadeNonBp;
 
 	private final ContractInfoService contractInfoService;
 
@@ -207,7 +210,7 @@ public class MarketHtmlController {
 
 	@Transactional
 	@GetMapping("/search")
-	public String getSearch(Model model, Optional<String> typeName, Optional<PERIOD> period) {
+	public String getSearch(Model model, Optional<String> typeName, Optional<PERIOD> period, Optional<Integer> limit) {
 		if (typeName.isPresent() && !typeName.get().isBlank()) {
 			List<Type> types = typeService.search(typeName.get());
 			if (types.size() == 1) {
@@ -220,12 +223,39 @@ public class MarketHtmlController {
 		PERIOD periodValue = period.orElse(PERIOD.week);
 		model.addAttribute("periods", PERIOD.values());
 		model.addAttribute("period", periodValue);
+		int limitValue = limit.orElse(100);
+
 		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(periodValue.getDays(),
-		    100);
+		    limitValue);
 		for (AggregatedTypeHistory line : regionalSales) {
 			line.setUrl(uri(line.getTypeId()).toString());
 		}
 		model.addAttribute("regionalMarketSales", regionalSales);
+
+		List<AggregatedTypeHistory> unresearchedContractSales = contractFacadeNonBp.aggregateHighestIskVolume(
+		    periodValue.getDays(),
+		    limitValue);
+		for (AggregatedTypeHistory line : unresearchedContractSales) {
+			line.setUrl(uri(line.getTypeId()).toString());
+		}
+		model.addAttribute("unresearchedContractSales", unresearchedContractSales);
+
+		List<AggregatedTypeHistory> bpoContractSales = contractFacadeBpo.aggregateHighestIskVolume(
+		    periodValue.getDays(),
+		    limitValue);
+		for (AggregatedTypeHistory line : bpoContractSales) {
+			line.setUrl(uri(line.getTypeId(), line.getMe(), line.getTe(), false).toString());
+		}
+		model.addAttribute("bpoContractSales", bpoContractSales);
+
+		List<AggregatedTypeHistory> bpcContractSales = contractFacadeBpc.aggregateHighestIskVolume(
+		    periodValue.getDays(),
+		    limitValue);
+		for (AggregatedTypeHistory line : bpcContractSales) {
+			line.setUrl(uri(line.getTypeId(), line.getMe(), line.getTe(), true).toString());
+		}
+		model.addAttribute("bpcContractSales", bpcContractSales);
+
 		// TODO add period most sold for contracts (unresearched, BPO, BPC)
 		return "market/index";
 	}
@@ -233,7 +263,7 @@ public class MarketHtmlController {
 	@Transactional
 	@GetMapping("/search/")
 	public String getSearchSlash(Model model, Optional<String> typeName) {
-		return getSearch(model, typeName, null);
+		return getSearch(model, typeName, null, null);
 	}
 
 	// market groups

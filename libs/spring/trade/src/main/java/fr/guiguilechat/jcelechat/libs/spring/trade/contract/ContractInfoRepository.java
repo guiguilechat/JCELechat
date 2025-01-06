@@ -83,4 +83,77 @@ group by offeredMe, offeredTe, offeredCopy
 """)
 	public List<Object[]> listTypeVariants(int typeId);
 
+	@Query("""
+select
+	offeredTypeId typeId,
+	sum(price) totalValue,
+	sum(offeredQuantity) totalQuantity
+from
+	EsiTradeContractInfo
+where
+	completed
+	and offersItem
+	and not requestsItem
+	and offeredMe=0
+	and offeredTe=0
+	and not offeredCopy
+	and removedBefore>= :minDate
+	and removedBefore<= :maxDate
+group by offeredTypeId
+order by sum(price) desc
+limit :limit
+""")
+	public List<Object[]> aggregateUnresearchedHighestSales(Instant minDate, Instant maxDate, int limit);
+
+	@Query("""
+select
+	offeredTypeId typeId,
+	offeredMe,
+	offeredTe,	
+	sum(price) totalValue,
+	sum(offeredQuantity) totalQuantity
+from
+	EsiTradeContractInfo
+where
+	completed
+	and offersItem
+	and not requestsItem
+	and (offeredMe>0 or offeredTe>0)
+	and not offeredCopy
+	and removedBefore>= :minDate
+	and removedBefore<= :maxDate
+group by
+	offeredTypeId,
+	offeredMe,
+	offeredTe
+order by sum(price) desc
+limit :limit
+""")
+	public List<Object[]> aggregateResearchedHighestSales(Instant minDate, Instant maxDate, int limit);
+
+	@Query("""
+select
+	offeredTypeId typeId,
+	offeredMe,
+	offeredTe,	
+	sum(price) totalValue,
+	sum(offeredRuns) totalRuns
+from
+	EsiTradeContractInfo
+where
+	completed
+	and offersItem
+	and not requestsItem
+	and offeredCopy
+	and removedBefore>= :minDate
+	and removedBefore<= :maxDate
+group by
+	offeredTypeId,
+	offeredMe,
+	offeredTe
+order by sum(price) desc
+limit :limit
+""")
+	public List<Object[]> aggregateBpcHighestSales(Instant minDate, Instant maxDate, int limit);
+
 }

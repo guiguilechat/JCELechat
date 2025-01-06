@@ -38,6 +38,10 @@ public class AggregatedTypeHistory {
 	@Getter(lazy = true)
 	private final String unitPriceString = FormatTools.formatPrice(getUnitPrice());
 
+	private int me;
+
+	private int te;
+
 	/**
 	 * set externally depending on what we want to do about it. Should be set by the
 	 * way it's retrieved, depending on how to use it

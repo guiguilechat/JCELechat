@@ -1,12 +1,18 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Collection;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -23,6 +29,9 @@ public class ContractFacadeNonBp {
 
 	@Lazy
 	private final ContractInfoRepository contractInfoRepository;
+
+	@Lazy
+	private final TypeService typeService;
 
 	/**
 	 * find contracts that are open and offer a given type, with 0 ME/TE/runs
@@ -76,6 +85,33 @@ public class ContractFacadeNonBp {
 	@Transactional
 	public Stream<MarketOrder> streamBOs(Collection<Integer> typeIds) {
 		return buying(typeIds).stream().map(MarketOrder::of);
+	}
+
+	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
+		var now = Instant.now();
+		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
+		long start = System.currentTimeMillis();
+		List<Object[]> fetched = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now, limit);
+		Map<Integer, String> typeId2Name = typeService.findById(
+		    fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
+		    .collect(Collectors.toMap(t -> t.getId(), t -> t.getName()));
+		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now, limit)
+		    .stream()
+		    .map(arr -> {
+			    int typeId = ((Number) arr[0]).intValue();
+			    double totalValue = ((Number) arr[1]).doubleValue();
+			    long totalQuantity = ((Number) arr[2]).longValue();
+			    String typeName = typeId2Name.get(typeId);
+			    if (typeName == null) {
+						typeName="unknown "+typeId;
+					}
+			    return new AggregatedTypeHistory(typeId, typeName, days, totalValue,
+			        totalQuantity);
+		    })
+		    .toList();
+		long stop = System.currentTimeMillis();
+		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, (stop - start), ret.size());
+		return ret;
 	}
 
 }
