@@ -14,6 +14,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
+import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
@@ -71,15 +72,20 @@ public class ContractFacadeBpc {
 	 * @return list of completed contracts that provide only given type, with
 	 *           iscopy=true and given me and te
 	 */
-	public List<ContractInfo> sold(int typeId, int me, int te) {
+	public List<ContractInfo> sold(int typeId, int me, int te, Limit limit) {
 		return contractInfoRepository
-		    .findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+		    .findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
 		        List.of(typeId),
-		        true, me, te);
+		        true, me, te, limit);
+	}
+
+	@Transactional
+	public Stream<MarketOrder> streamSold(int typeId, int me, int te, Limit limit) {
+		return sold(typeId, me, te, limit).stream().map(MarketOrder::of);
 	}
 
 	public List<AggregatedHL> aggregatedSales(int typeId, int me, int te) {
-		Map<Instant, List<ContractInfo>> byDay = sold(typeId, me, te)
+		Map<Instant, List<ContractInfo>> byDay = sold(typeId, me, te, Limit.unlimited())
 		    .stream()
 		    .filter(ci -> ci.getRemovedBefore() != null)
 		    .collect(Collectors.groupingBy(ci -> ci.getRemovedBefore().truncatedTo(ChronoUnit.DAYS)));
@@ -133,7 +139,7 @@ public class ContractFacadeBpc {
 			    if (typeName == null) {
 				    typeName = "unknown " + typeId;
 			    }
-			    typeName += "(CP) " + me + "/" + te;
+			    typeName += "(" + totalRuns + "r) " + me + "/" + te;
 			    AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, days, totalValue,
 			        totalRuns);
 			    line.setMe(me);

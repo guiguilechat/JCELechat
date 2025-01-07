@@ -32,8 +32,8 @@ public interface ContractInfoRepository
 	    get_contracts_public_region_id_type contractType);
 
 	/** completed contracts providing only given types and iscopy, me, te */
-	public List<ContractInfo> findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
-	    Collection<Integer> typeIds, boolean copy, int me, int te);
+	public List<ContractInfo> findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
+	    Collection<Integer> typeIds, boolean copy, int me, int te, Limit limit);
 
 	/** open contracts providing only given type and iscopy, me, te */
 	public List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(

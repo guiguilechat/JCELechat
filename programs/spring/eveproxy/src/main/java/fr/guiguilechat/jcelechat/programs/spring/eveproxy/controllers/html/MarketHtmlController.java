@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.Optional;
 
 import org.springframework.context.annotation.Lazy;
+import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -98,11 +99,17 @@ public class MarketHtmlController {
 		if (copyValue) {
 			// working with BPC
 			model.addAttribute("showDetails", true);
+
 			List<MarketOrder> sos = contractFacadeBpc.streamSOs(typeId, meValue, teValue)
 			    .peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 			    .toList();
 			// System.err.println("found " + sos.size() + " orders for " + name);
 			model.addAttribute("sos", sos);
+
+			List<MarketOrder> completed = contractFacadeBpc.streamSold(typeId, meValue, teValue, Limit.of(100))
+			    .peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+			    .toList();
+			model.addAttribute("completed", completed);
 		} else {
 			// working wit non-copy
 			if (meValue < 1 && teValue < 1) {

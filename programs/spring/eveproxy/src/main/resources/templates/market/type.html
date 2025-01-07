@@ -86,6 +86,34 @@
 					<img th:src="${historyChartUrl}" class="img-fluid" alt="history chart">
 				</a>
 			</div>
+			<div class="col" th:if="${completed!=null}">
+				<h2>Completed</h2>
+				<div class="overflow-auto" style="height: 70vh;">
+					<table class="table table-striped table-hover">
+						<thead class="thead-light sticky-top bg-light">
+							<tr>
+								<th>price</th>
+								<th>runs</th>
+								<th>region</th>
+								<th>location</th>
+								<th>details</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr th:each="order : ${completed}">
+								<td th:text="${order.formatedPrice}" />
+								<td th:text="${order.volumeRemain}" />
+								<td th:text="${order.regionName}" />
+								<td >
+									<span th:if="${order.url==null}" th:text="${order.locationName}" />
+									<a th:if="${order.url!=null}" th:text="${order.locationName}" th:href="${order.url}"/>
+								</td>
+								<td th:text="${order.details}" />
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</div>
 		<div class="row border" th:if="${bpoVariants!=null && !bpoVariants.isEmpty() || bpcVariants!=null && !bpcVariants.isEmpty()}">
 			<h1 th:text="'Variants of '+ ${name}"></h1>

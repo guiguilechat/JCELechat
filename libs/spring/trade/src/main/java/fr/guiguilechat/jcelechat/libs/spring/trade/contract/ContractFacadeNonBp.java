@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
+import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
@@ -63,11 +64,10 @@ public class ContractFacadeNonBp {
 	 * @return list of completed contracts that provide only given type with
 	 *           (0,0,false) for (me, te, iscopy) value
 	 */
-	public List<ContractInfo> sold(Collection<Integer> typeIds) {
+	public List<ContractInfo> sold(Collection<Integer> typeIds, Limit limit) {
 		return contractInfoRepository
-		    .findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
-		        (typeIds),
-		        false, 0, 0);
+		    .findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
+		        typeIds, false, 0, 0, limit);
 	}
 
 	/**

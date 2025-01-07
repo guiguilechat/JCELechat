@@ -14,6 +14,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
+import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
@@ -70,15 +71,15 @@ public class ContractFacadeBpo {
 	 * @return list of completed contracts that provide only given type, with
 	 *           iscopy=false and given me and te
 	 */
-	public List<ContractInfo> sold(int typeId, int me, int te) {
+	public List<ContractInfo> sold(int typeId, int me, int te, Limit limit) {
 		return contractInfoRepository
-		    .findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+		    .findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
 		        List.of(typeId),
-		        false, me, te);
+		        false, me, te, limit);
 	}
 
 	public List<AggregatedHL> aggregatedSales(int typeId, int me, int te) {
-		Map<Instant, List<ContractInfo>> byDay = sold(typeId, me, te)
+		Map<Instant, List<ContractInfo>> byDay = sold(typeId, me, te, Limit.unlimited())
 		    .stream()
 		    .filter(ci -> ci.getRemovedBefore() != null)
 		    .collect(Collectors.groupingBy(ci -> ci.getRemovedBefore().truncatedTo(ChronoUnit.DAYS)));

@@ -150,7 +150,7 @@ public class MarketOrder implements Serializable {
 			    || contract.getOfferedMe() != null && contract.getOfferedMe() > 0
 			    || contract.getOfferedTe() != null && contract.getOfferedTe() > 0) {
 				details = "" + contract.getOfferedMe() + "/" + contract.getOfferedTe()
-				    + (contract.getOfferedCopy() ? "(CP)" : "");
+				    + (contract.getOfferedCopy() ? "(" + contract.getOfferedRuns() + "r)" : "");
 			}
 			price = contract.getPrice();
 			typeId = contract.getOfferedTypeId();
