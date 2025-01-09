@@ -1,15 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde.load;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -62,7 +53,7 @@ public class SDECache {
 	}
 
 	private static final String URL_STATIC = "https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/sde.zip";
-	private final static String URL_DYNAMIC = "https://developers.eveonline.com/resource/resources";
+	private final static String URL_DYNAMIC = "https://developers.eveonline.com/docs/resources/";
 
 	/**
 	 * find the url to download the SDE from.
