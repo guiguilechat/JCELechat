@@ -140,6 +140,22 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	 */
 	private double reward;
 
+	public static enum STATUS {
+		created,
+		created_need_fetch,
+		fetched,
+		removed_need_fetch,
+		expired,
+		completed,
+		canceled
+	}
+
+	/**
+	 * status of the fetch of the contract
+	 */
+	@Enumerated(EnumType.STRING)
+	private STATUS status = STATUS.created;
+
 	/**
 	 * Start location ID (for Couriers contract)
 	 */
@@ -181,6 +197,39 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 			setFetchActive(false);
 		}
 		return this;
+	}
+
+	public void updateStatus() {
+		setStatus(guessStatus());
+	}
+
+	/**
+	 * guess the new status to set
+	 * 
+	 * @return
+	 */
+	protected STATUS guessStatus() {
+		if (!isFetched()) {
+			return getType().equals(get_contracts_public_region_id_type.item_exchange)
+			    ? STATUS.created_need_fetch
+			    : STATUS.created;
+		}
+		if (!isRemoved()) {
+			return STATUS.fetched;
+		}
+		if (isFetchActive()) {
+			return STATUS.removed_need_fetch;
+		}
+		if (isCanceled()) {
+			return STATUS.canceled;
+		}
+		// removed, fetch has been done, not cancled (!404) : 403 means either expires
+		// or completed. selection is made from the date of the contract expires
+		if (getDateExpired().isBefore(getRemovedBefore())) {
+			return STATUS.expired;
+		} else {
+			return STATUS.completed;
+		}
 	}
 
 	//
@@ -426,12 +475,21 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	/**
 	 * set to true once the contract is 404(canceled)
 	 */
+	@ColumnDefault("false")
 	private boolean canceled = false;
 
 	/**
-	 * set to true once the contract is 403 (accepted)
+	 * set to true once the contract is 403 and dateexpired is not elapsed
+	 * (accepted)
 	 */
+	@ColumnDefault("false")
 	private boolean completed = false;
+
+	/**
+	 * set to true once the contract is 403 and dateexpired is elapsed (expired)
+	 */
+	@ColumnDefault("false")
+	private boolean expired = false;
 
 	//
 	//

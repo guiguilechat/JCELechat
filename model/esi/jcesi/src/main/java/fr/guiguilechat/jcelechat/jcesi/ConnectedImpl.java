@@ -214,14 +214,20 @@ public abstract class ConnectedImpl implements ITransfer {
 					case HttpURLConnection.HTTP_UNAVAILABLE:
 					case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
 					default:
-						logResponse(method, url, responseCode, milliseconds, response.message(), null, transmitStr,
-						    response.headers().toMultimap());
+						String errorMessage = null;
+						if (response.body() != null) {
+							errorMessage = response.body().string();
+						} else {
 						StringBuilder sb = new StringBuilder(
 								"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
 						if (response.message() != null) {
 							sb.append(response.message());
 						}
-						return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
+						errorMessage = sb.toString();
+					}
+					logResponse(method, url, responseCode, milliseconds, errorMessage, null, transmitStr,
+					    response.headers().toMultimap());
+					return new RequestedImpl<>(url, responseCode, errorMessage, null, headers);
 				}
 			}
 		} catch (Exception e) {

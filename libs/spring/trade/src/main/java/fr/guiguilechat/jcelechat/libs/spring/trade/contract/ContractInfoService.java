@@ -67,6 +67,12 @@ public class ContractInfoService extends ARemoteEntityService<
 	}
 
 	@Override
+	protected void preSave(ContractInfo data) {
+		super.preSave(data);
+		data.updateStatus();
+	}
+
+	@Override
 	protected void updateResponseOk(Map<ContractInfo, R_get_contracts_public_items_contract_id[]> responseOk) {
 		super.updateResponseOk(responseOk);
 		Map<Integer, Type> idToType = typeService.createIfAbsent(responseOk.values().stream()
@@ -86,18 +92,27 @@ public class ContractInfoService extends ARemoteEntityService<
 		saveAll(responseOk.keySet());
 	}
 	
+	/**
+	 * 403 actually means the contract still exists but can't be accepted, so either
+	 * already accepted, or expired
+	 */
 	@Override
 	protected void update403(ContractInfo data, Requested<R_get_contracts_public_items_contract_id[]> response) {
-		data.setRemoved(true);
-		data.setCompleted(true);
+		boolean accepted = response.getError().contains("accepted");
+		data.setCanceled(false);
+		data.setCompleted(accepted);
+		data.setExpired(!accepted);
 		data.setFetchActive(false);
+		data.setRemoved(true);
 	}
 
 	@Override
 	protected void update404(ContractInfo data, Requested<R_get_contracts_public_items_contract_id[]> response) {
-		data.setRemoved(true);
 		data.setCanceled(true);
+		data.setCompleted(false);
+		data.setExpired(false);
 		data.setFetchActive(false);
+		data.setRemoved(true);
 	}
 
 	@Override
