@@ -200,15 +200,13 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	}
 
 	public void updateStatus() {
-		setStatus(guessStatus());
+		setStatus(makeStatus());
 	}
 
 	/**
-	 * guess the new status to set
-	 * 
-	 * @return
+	 * @return the new status to set, based on the flags
 	 */
-	protected STATUS guessStatus() {
+	protected STATUS makeStatus() {
 		if (!isFetched()) {
 			return getType().equals(get_contracts_public_region_id_type.item_exchange)
 			    ? STATUS.created_need_fetch
@@ -223,9 +221,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 		if (isCanceled()) {
 			return STATUS.canceled;
 		}
-		// removed, fetch has been done, not cancled (!404) : 403 means either expires
-		// or completed. selection is made from the date of the contract expires
-		if (getDateExpired().isBefore(getRemovedBefore())) {
+		if (expired) {
 			return STATUS.expired;
 		} else {
 			return STATUS.completed;
