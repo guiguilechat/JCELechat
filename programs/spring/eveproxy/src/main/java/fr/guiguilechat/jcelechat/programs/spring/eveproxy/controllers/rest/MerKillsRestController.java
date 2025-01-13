@@ -2,17 +2,13 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
 import java.awt.Color;
 import java.io.IOException;
-import java.time.Instant;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -21,13 +17,9 @@ import org.jfree.chart.axis.DateAxis;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
-import org.jfree.data.time.Day;
-import org.jfree.data.time.Month;
 import org.jfree.data.time.RegularTimePeriod;
 import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
-import org.jfree.data.time.Week;
-import org.jfree.data.time.Year;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -38,12 +30,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Group;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService.KillStats;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills.AggregPeriod;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills.KillsDetail;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills.NamedTypelist;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills.TypeFiltering;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills.TypesKillsStats;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
@@ -60,245 +58,13 @@ public class MerKillsRestController {
 	final private GroupService groupService;
 
 	/**
-	 * period to aggregate kills over
-	 */
-	static enum AGGREG_PERIOD {
-		MONTH {
-			@Override
-			public String format(OffsetDateTime offsetted) {
-				return new StringBuilder()
-						.append(offsetted.get(ChronoField.YEAR))
-						.append('-')
-						.append(offsetted.get(ChronoField.MONTH_OF_YEAR))
-						.toString();
-			}
-
-			@Override
-			public List<KillStats> stats(List<Integer> types, KillService killservice) {
-				return killservice.monthlyStats(types);
-			}
-
-			@Override
-			public RegularTimePeriod of(OffsetDateTime odt) {
-				return new Month(odt.getMonthValue(), odt.getYear());
-			}
-
-			@Override
-			public int periodDays(OffsetDateTime odt) {
-				return (int) ChronoUnit.DAYS.between(odt, odt.plusMonths(1));
-			}
-		},
-		WEEK {
-			@Override
-			public String format(OffsetDateTime offsetted) {
-				return new StringBuilder()
-						.append(offsetted.get(ChronoField.YEAR))
-						.append('w')
-						.append(offsetted.get(ChronoField.ALIGNED_WEEK_OF_YEAR))
-						.toString();
-			}
-
-			@Override
-			public List<KillStats> stats(List<Integer> types, KillService killservice) {
-				return killservice.weeklyStats(types);
-			}
-
-			@Override
-			public RegularTimePeriod of(OffsetDateTime odt) {
-				return new Week(odt.get(ChronoField.ALIGNED_WEEK_OF_YEAR), odt.getYear());
-			}
-
-			@Override
-			public int periodDays(OffsetDateTime odt) {
-				return 7;
-			}
-		},
-		YEAR {
-			@Override
-			public String format(OffsetDateTime offsetted) {
-				return new StringBuilder()
-						.append(offsetted.get(ChronoField.YEAR))
-						.toString();
-			}
-
-			@Override
-			public List<KillStats> stats(List<Integer> types, KillService killservice) {
-				return killservice.yearlyStats(types);
-			}
-
-			@Override
-			public RegularTimePeriod of(OffsetDateTime odt) {
-				return new Year(odt.getYear());
-			}
-
-			@Override
-			public int periodDays(OffsetDateTime odt) {
-				return (int) ChronoUnit.DAYS.between(odt, odt.plusYears(1));
-			}
-		},
-		DAY {
-			@Override
-			public String format(OffsetDateTime offsetted) {
-				return new StringBuilder()
-						.append(offsetted.get(ChronoField.YEAR))
-						.append('-')
-						.append(offsetted.get(ChronoField.MONTH_OF_YEAR))
-						.append('-')
-						.append(offsetted.get(ChronoField.DAY_OF_MONTH))
-						.toString();
-			}
-
-			@Override
-			public List<KillStats> stats(List<Integer> types, KillService killservice) {
-				return killservice.dailyStats(types);
-			}
-
-			@Override
-			public RegularTimePeriod of(OffsetDateTime odt) {
-				return new Day(odt.getDayOfMonth(), odt.getMonthValue(), odt.getYear());
-			}
-
-			@Override
-			public int periodDays(OffsetDateTime odt) {
-				return 1;
-			}
-		};
-
-		public abstract String format(OffsetDateTime offsetted);
-
-		public String format(Instant instant) {
-			return format(instant.atOffset(ZoneOffset.UTC));
-		}
-
-		public abstract List<KillStats> stats(List<Integer> types, KillService killservice);
-
-		public abstract RegularTimePeriod of(OffsetDateTime odt);
-
-		public abstract int periodDays(OffsetDateTime odt);
-
-		static AGGREG_PERIOD by(Optional<String> by) {
-			String bys = by.orElse("month");
-			if (bys.equalsIgnoreCase("week") || bys.equalsIgnoreCase("weekly")) {
-				return WEEK;
-			}
-			if (bys.equalsIgnoreCase("year") || bys.equalsIgnoreCase("yearly")) {
-				return YEAR;
-			}
-			if (bys.equalsIgnoreCase("day") || bys.equalsIgnoreCase("daily")) {
-				return DAY;
-			}
-			return MONTH;
-		}
-	}
-
-	static record NAMED_TYPELIST(String name, List<Integer> typeIds) {
-	}
-
-	/**
-	 * request to filter the typed by
-	 */
-	static enum TYPE_FILTER_STRATEGY {
-		TYPE_ID {
-			@Override
-			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
-				int typeId = Integer.parseInt(filterparam);
-				Type type = typeService.byId(typeId);
-				return type == null ? new NAMED_TYPELIST("unknown t" + typeId, Collections.emptyList())
-				    : new NAMED_TYPELIST(type.name(), List.of(typeId));
-			}
-		},
-		GROUP_ID {
-			@Override
-			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
-				int groupId = Integer.parseInt(filterparam);
-				Group group = groupService.byId(groupId);
-				return group == null ? new NAMED_TYPELIST("unknown g" + groupId, Collections.emptyList())
-						: new NAMED_TYPELIST(group.getName(),
-				        typeService.byGroupId(groupId).stream().map(Type::getId).distinct().sorted().toList());
-			}
-		},
-		TYPE_NAME {
-			@Override
-			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
-				List<Type> list = typeService.searchByName(filterparam);
-				if (list.isEmpty()) {
-					return new NAMED_TYPELIST("unmatched type name " + filterparam, Collections.emptyList());
-				}
-				String name = list.size() == 1 ? list.get(0).name()
-						: "matched " + list.size() + " type names " + filterparam;
-				return new NAMED_TYPELIST(name, list.stream().map(Type::getId).sorted().toList());
-			}
-		},
-		GROUP_NAME {
-			@Override
-			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
-				List<Group> list = groupService.byName(filterparam);
-				if (list.isEmpty()) {
-					return new NAMED_TYPELIST("unmatched group name " + filterparam, Collections.emptyList());
-				}
-				String name = list.size() == 1 ? list.get(0).getName()
-						: "matched " + list.size() + " group names " + filterparam;
-				return new NAMED_TYPELIST(name,
-				    list.stream().flatMap(g -> typeService.byGroupId(g.getId()).stream()).map(Type::getId)
-								.distinct().sorted().toList());
-			}
-		},
-		ERROR {
-			@Override
-			public NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService) {
-				return new NAMED_TYPELIST("invalid selector", Collections.emptyList());
-			}
-		};
-
-		public abstract NAMED_TYPELIST resolve(String filterparam, TypeService typeService, GroupService groupService);
-
-		static TYPE_FILTER_STRATEGY of(String filterBy) {
-			return switch (Objects.requireNonNullElse(filterBy, "").toLowerCase()) {
-				case "gi", "gid", "groupid" -> GROUP_ID;
-				case "gn", "gname", "groupname" -> GROUP_NAME;
-				case "ti", "tid", "typeid" -> TYPE_ID;
-				case "tn", "tname", "typename" -> TYPE_NAME;
-				default -> ERROR;
-			};
-		}
-	}
-
-	static record KillsFilters(
-			List<Integer> types, String timeSort, AGGREG_PERIOD period) {
-	}
-
-	static record PeriodKillStats(String periodStart, long numberKills, double totalMIskLost, double averageMIskLost,
-			double medianMIskLost) {
-
-		public PeriodKillStats(KillStats source, AGGREG_PERIOD period) {
-			this(period.format(source.periodStart()),
-					source.nbKills(),
-					source.totalIskLost() / 1000000,
-					source.totalIskLost() / 1000000 / source.nbKills(),
-					source.medianIskLost() / 1000000);
-		}
-
-	}
-
-	static record TypesKillsStats(KillsFilters filters, List<PeriodKillStats> stats) {
-
-		TypesKillsStats(List<Integer> types, String timeSort, List<KillStats> periodStats, AGGREG_PERIOD period) {
-			this(new KillsFilters(types, timeSort, period),
-					periodStats.stream().map(s -> new PeriodKillStats(s, period)).toList());
-		}
-	}
-
-	/**
-	 * @param filterBy  method to filter the solar system. Must be one of gi, gn,
-	 *                    ti,
-	 *                    tn
+	 * @param filterBy  method to filter the killed type.
 	 * @param filter
 	 * @param accept
 	 * @param order
 	 * @param aggregate
 	 * @return
 	 */
-
 	@Transactional
 	@GetMapping("/{filterBy}/{filter}")
 	public ResponseEntity<TypesKillsStats> statsByVictim(
@@ -307,15 +73,15 @@ public class MerKillsRestController {
 			@RequestParam Optional<String> accept,
 	    @RequestParam Optional<String> order,
 	    @RequestParam Optional<String> aggregate) {
-		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
-		NAMED_TYPELIST resolved;
+		TypeFiltering typeFilter = TypeFiltering.of(filterBy);
+		NamedTypelist resolved;
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "param " + filter + " should be a number");
 		}
 		String timeOrder = order.orElse("desc");
-		AGGREG_PERIOD ap = AGGREG_PERIOD.by(aggregate);
+		AggregPeriod ap = AggregPeriod.by(aggregate);
 		List<KillStats> stats = ap.stats(resolved.typeIds(), killService);
 		if (timeOrder.equals("asc")) {
 			Collections.reverse(stats);
@@ -325,31 +91,34 @@ public class MerKillsRestController {
 				accept);
 	}
 
+	@Operation(summary = "type kills chart", description = "create a chart of the kills of an type")
 	@Transactional
 	@GetMapping("/{filterBy}/{filter}/chart")
 	public void chartStatsByVictimType(
-			@PathVariable String filterBy,
-			@PathVariable String filter,
+	    @PathVariable @Parameter(description = "what is the filter : gi, gn, ti, tn for Group/Type Id/Name") String filterBy,
+	    @PathVariable @Parameter(description = "id or name to filter") String filter,
 			HttpServletResponse response,
-			@RequestParam Optional<String> aggregate,
-			@RequestParam Optional<String> accept) throws IOException {
-		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
-		NAMED_TYPELIST resolved;
+	    @RequestParam @Parameter(description = "period to aggregate over : day, week, month(default), year") Optional<String> aggregate,
+	    @RequestParam @Parameter(description = "format fo chart : png(default), jpg") Optional<String> accept)
+	    throws IOException {
+		TypeFiltering typeFilter = TypeFiltering.of(filterBy);
+		NamedTypelist resolved;
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {
 			response.sendError(400, "param " + filter + " should be a number");
 			return;
 		}
-		AGGREG_PERIOD ap = AGGREG_PERIOD.by(aggregate);
-		List<KillStats> stats = typeFilter == TYPE_FILTER_STRATEGY.ERROR ? Collections.emptyList()
+		AggregPeriod ap = AggregPeriod.by(aggregate);
+		List<KillStats> stats = typeFilter == TypeFiltering.ERROR ? Collections.emptyList()
 				: ap.stats(resolved.typeIds(), killService);
-		JFreeChart chart = drawChart(stats, "kills of " + resolved.name() + ", aggregated by " + ap.name().toLowerCase(),
+		JFreeChart chart = drawChart(stats,
+		    "daily kills of " + resolved.name() + ", aggregated by " + ap.name().toLowerCase(),
 		    ap);
 		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
 	}
 
-	static JFreeChart drawChart(List<KillStats> stats, String title, AGGREG_PERIOD by) {
+	static JFreeChart drawChart(List<KillStats> stats, String title, AggregPeriod by) {
 		TimeSeries medianValueSeries = new TimeSeries("median value");
 		TimeSeries avgValueSeries = new TimeSeries("average value");
 		TimeSeries minValueSeries = new TimeSeries("min value");
@@ -405,23 +174,26 @@ public class MerKillsRestController {
 	@Transactional
 	@GetMapping("/{filterBy}/{filter}/detail")
 	public ResponseEntity<List<Entry<String, TypesKillsStats>>> statsByVictimTypeDetailed(
-			@PathVariable String filterBy,
-			@PathVariable String filter,
+	    @PathVariable @Parameter(description = "what is the filter : gi, gn, ti, tn for Group/Type Id/Name") String filterBy,
+	    @PathVariable @Parameter(description = "id or name to filter") String filter,
 			@RequestParam Optional<String> accept,
-			@RequestParam Optional<String> time,
+	    @RequestParam @Parameter(description = "ordering : asc or desc(default)") Optional<String> time,
 			@RequestParam Optional<String> period) {
-		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
-		NAMED_TYPELIST resolved;
+		TypeFiltering typeFilter = TypeFiltering.of(filterBy);
+		NamedTypelist resolved;
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "param " + filter + " should be a number");
 		}
-		String timeOrder = time.orElse("desc");
-		AGGREG_PERIOD ap = AGGREG_PERIOD.by(period);
-		Map<String, TypesKillsStats> statsByType = resolved.typeIds.parallelStream().collect(
-		    Collectors.toMap(typeId -> typeService.byId(typeId).name(),
-						typeId -> new TypesKillsStats(List.of(typeId), timeOrder, ap.stats(List.of(typeId), killService), ap)));
+		String timeOrder = time.orElse("desc").toLowerCase();
+		AggregPeriod aggregPeriod = AggregPeriod.by(period);
+		Map<Integer, Type> typeId2Type = typeService.findById(resolved.typeIds()).stream()
+		    .collect(Collectors.toMap(t -> t.getId(), t -> t));
+		Map<String, TypesKillsStats> statsByType = resolved.typeIds().parallelStream().collect(
+		    Collectors.toMap(
+		        typeId -> typeId2Type.get(typeId).name(),
+						typeId -> new TypesKillsStats(List.of(typeId), timeOrder, aggregPeriod.stats(List.of(typeId), killService), aggregPeriod)));
 		if (timeOrder.equals("asc")) {
 			for (TypesKillsStats stats : statsByType.values()) {
 				Collections.reverse(stats.stats());
@@ -433,27 +205,32 @@ public class MerKillsRestController {
 				accept);
 	}
 
+	@Operation(summary = "type kills details chart", description = "create a chart of the details kills of an type")
 	@Transactional
 	@GetMapping("/{filterBy}/{filter}/chart/{detail}")
 	public void chartStatsByVictimTypeDetailed(
-			@PathVariable String filterBy,
-			@PathVariable String filter,
-			@PathVariable String detail,
+	    @PathVariable @Parameter(description = "what is the filter : gi, gn, ti, tn for Group/Type Id/Name") String filterBy,
+	    @PathVariable @Parameter(description = "id or name to filter") String filter,
+	    @PathVariable @Parameter(description = "detail to chart : avg/median/min (M isk value killed per day), kills (avg single daily kills), lost(value destroyed per day) ") String detail,
 			HttpServletResponse response,
-			@RequestParam Optional<String> aggregate,
-			@RequestParam Optional<String> accept) throws IOException {
-		TYPE_FILTER_STRATEGY typeFilter = TYPE_FILTER_STRATEGY.of(filterBy);
-		NAMED_TYPELIST resolved;
+	    @RequestParam @Parameter(description = "period to aggregate over : day, week, month(default), year") Optional<String> aggregate,
+	    @RequestParam @Parameter(description = "format fo chart : png(default), jpg") Optional<String> accept)
+	    throws IOException {
+		TypeFiltering typeFilter = TypeFiltering.of(filterBy);
+		NamedTypelist resolved;
 		try {
 			resolved = typeFilter.resolve(filter, typeService, groupService);
 		} catch (NumberFormatException e) {
 			response.sendError(400, "param " + filter + " should be a number");
 			return;
 		}
-		KILLS_DETAIL det = KILLS_DETAIL.of(detail);
-		AGGREG_PERIOD ap = AGGREG_PERIOD.by(aggregate);
-		Map<String, List<KillStats>> statsByType = resolved.typeIds.parallelStream().collect(
-		    Collectors.toMap(typeId -> typeService.byId(typeId).name(),
+		KillsDetail det = KillsDetail.of(detail);
+		AggregPeriod ap = AggregPeriod.by(aggregate);
+		Map<Integer, Type> typeId2Type = typeService.findById(resolved.typeIds()).stream()
+		    .collect(Collectors.toMap(t -> t.getId(), t -> t));
+		Map<String, List<KillStats>> statsByType = resolved.typeIds().parallelStream().collect(
+		    Collectors.toMap(
+		        typeId -> typeId2Type.get(typeId).name(),
 						typeId -> ap.stats(List.of(typeId), killService)));
 		JFreeChart chart = drawChart(statsByType,
 		    det.legend + " for " + resolved.name() + ", aggregated by " + ap.name().toLowerCase(), ap,
@@ -461,87 +238,8 @@ public class MerKillsRestController {
 		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
 	}
 
-	/**
-	 * requested kill details over a period to chart on
-	 */
-	static enum KILLS_DETAIL {
-		AVG_LOST("average M isk lost") {
-			@Override
-			public double extract(KillStats stat, AGGREG_PERIOD by) {
-				return stat.totalIskLost() / stat.nbKills() / 100000;
-			}
-		},
-		KILLS_P_DAY("kills per day") {
-			@Override
-			public double extract(KillStats stat, AGGREG_PERIOD by) {
-				OffsetDateTime odt = stat.periodStart().atOffset(ZoneOffset.UTC);
-				int periodDays = by.periodDays(odt);
-				return 1.0 * stat.nbKills() / periodDays;
-			}
-		},
-		MEDIAN_LOST("median M isk lost") {
-			@Override
-			public double extract(KillStats stat, AGGREG_PERIOD by) {
-				return stat.medianIskLost() / 1000000;
-			}
-		},
-		MIN_LOST("min M isk lost") {
-			@Override
-			public double extract(KillStats stat, AGGREG_PERIOD by) {
-				return stat.minIskLost() / 1000000;
-			}
-		},
-		TOTAL_LOST_P_DAY("total M isk lost per day") {
-			@Override
-			public double extract(KillStats stat, AGGREG_PERIOD by) {
-				OffsetDateTime odt = stat.periodStart().atOffset(ZoneOffset.UTC);
-				int periodDays = by.periodDays(odt);
-				return stat.totalIskLost() / periodDays / 1000000;
-
-			}
-		};
-
-		public final String legend;
-
-		private KILLS_DETAIL(String legend) {
-			this.legend = legend;
-		}
-
-		public abstract double extract(KillStats stat, AGGREG_PERIOD by);
-
-		static KILLS_DETAIL of(String requested) {
-			switch (Objects.requireNonNullElse(requested, "").toLowerCase()) {
-				case "av":
-				case "avg":
-				case "average":
-					return AVG_LOST;
-				case "kill":
-				case "kills":
-				case "nb":
-				case "qtty":
-				case "quantity":
-					return KILLS_P_DAY;
-				case "md":
-				case "med":
-				case "median":
-					return MEDIAN_LOST;
-				case "low":
-				case "min":
-				case "minimum":
-					return MIN_LOST;
-				case "lost":
-				case "tot":
-				case "total":
-				case "val":
-				case "value":
-					return TOTAL_LOST_P_DAY;
-			}
-			return KILLS_P_DAY;
-		}
-	}
-
-	private JFreeChart drawChart(Map<String, List<KillStats>> statsByType, String title, AGGREG_PERIOD by,
-			KILLS_DETAIL det) {
+	private JFreeChart drawChart(Map<String, List<KillStats>> statsByType, String title, AggregPeriod by,
+			KillsDetail det) {
 		XYPlot plot = new XYPlot();
 		DateAxis timeAxis = new DateAxis(null);
 		timeAxis.setLowerMargin(0.02);
