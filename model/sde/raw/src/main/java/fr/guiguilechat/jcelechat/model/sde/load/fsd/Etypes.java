@@ -54,7 +54,7 @@ public class Etypes {
 			try {
 				cache = from(new FileInputStream(FILE));
 			} catch (FileNotFoundException e) {
-				throw new UnsupportedOperationException("catch this", e);
+				throw new UnsupportedOperationException(e);
 			}
 		}
 		return cache;
