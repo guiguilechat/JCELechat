@@ -23,6 +23,10 @@
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>remotefetching</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>sde</artifactId>
+		</dependency >
 		<!-- /self dependencies -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
