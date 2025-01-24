@@ -40,19 +40,30 @@ public class HistoryLineService {
 
 	/**
 	 * prioritize the fetch of this type, and return the already known data.
-	 * 
+	 *
 	 * @param typeId
 	 * @param from
 	 * @return
 	 */
 	public List<AggregatedHL> byType(int typeId, Instant from) {
 		hrService.prioritizeType(typeId);
-		return repo.aggregated(typeId, from).stream().map(AggregatedHL::convert).toList();
+		return repo.aggregated(typeId, from).stream().map(this::convert).toList();
+	}
+
+	protected AggregatedHL convert(Object[] line) {
+		return new AggregatedHL(
+				(Instant) line[0],
+				((Number) line[1]).longValue(),
+		    ((Number) line[2]).doubleValue(),
+		    ((Number) line[3]).doubleValue(),
+		    ((Number) line[4]).doubleValue(),
+				((Number) line[5]).longValue(),
+				((Number) line[6]).intValue());
 	}
 
 	public Map<HistoryReq, Instant> findLastFetched(Iterable<HistoryReq> reqs) {
 		return repo.findLastByReqIn(reqs).stream()
-		    .collect(Collectors.toMap(arr -> (HistoryReq) arr[0], arr -> (Instant) arr[1]));
+				.collect(Collectors.toMap(arr -> (HistoryReq) arr[0], arr -> (Instant) arr[1]));
 	}
 
 	//
@@ -64,17 +75,17 @@ public class HistoryLineService {
 		var minDay = now.minus(days, ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
 		List<AggregatedTypeHistory> ret = repo.sortSalesByTotalValue(minDay, now, limit).stream()
-		    .map(arr -> {
-		    	int typeId = ((Number)arr[2]).intValue();
-		    	String typeName = (String) arr[3];
-		    	double totalValue =  ((Number) arr[0]).doubleValue();
-		    	long totalQuantity = ((Number) arr[1]).longValue(); 
-			    return new AggregatedTypeHistory(typeId, typeName, days,totalValue,
-			        totalQuantity);
-		    })
-		    .toList();
+				.map(arr -> {
+					int typeId = ((Number)arr[2]).intValue();
+					String typeName = (String) arr[3];
+					double totalValue =  ((Number) arr[0]).doubleValue();
+					long totalQuantity = ((Number) arr[1]).longValue();
+					return new AggregatedTypeHistory(typeId, typeName, days,totalValue,
+							totalQuantity);
+				})
+				.toList();
 		long stop = System.currentTimeMillis();
-		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, (stop - start), ret.size());
+		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;
 	}
 
@@ -90,7 +101,7 @@ public class HistoryLineService {
 				return new DayWeight(weight, line.getLowest(), line.getVolume(), 0.0, 0.0);
 			}
 			double nh = line.getVolume() * (line.getAverage() - line.getLowest())
-			    / (line.getHighest() - line.getLowest());
+					/ (line.getHighest() - line.getLowest());
 			return new DayWeight(weight, line.getLowest(), line.getVolume() - nh, line.getHighest(), nh);
 		}
 
@@ -100,13 +111,13 @@ public class HistoryLineService {
 	 * give weights to history lines. Also total weight to take missing lines into
 	 * account.
 	 */
-	public static interface WeightStrategy {
+	public interface WeightStrategy {
 
-		public double totalWeight();
+		double totalWeight();
 
-		public double weight(HistoryLine line);
+		double weight(HistoryLine line);
 
-		public static WeightStrategy of(String name) {
+		static WeightStrategy of(String name) {
 			return switch (name == null ? "" : name.toLowerCase()) {
 			case "uni" -> HistoryLineService.uni(400);
 			case "uni30" -> HistoryLineService.uni(30);
@@ -116,7 +127,7 @@ public class HistoryLineService {
 			};
 		}
 
-		public static long daysBetween(Instant first, Instant second) {
+		static long daysBetween(Instant first, Instant second) {
 			return ChronoUnit.DAYS.between(first, second);
 		}
 
@@ -208,11 +219,11 @@ public class HistoryLineService {
 	}
 
 	List<PriceVolumeAcc> groupPrices(double minPrice, double maxPrice, int nbSteps, List<DayWeight> dayWeights,
-	    double totalWeight) {
+			double totalWeight) {
 		double stepInc = 1.0 * (maxPrice - minPrice) / (nbSteps - 1);
 		return IntStream.rangeClosed(0, nbSteps - 1).mapToDouble(step -> minPrice + stepInc * step)
-		    .mapToObj(PriceVolumeAcc::new)
-		    .map(pv -> pv.accumulate(dayWeights, totalWeight)).toList();
+				.mapToObj(PriceVolumeAcc::new)
+				.map(pv -> pv.accumulate(dayWeights, totalWeight)).toList();
 	}
 
 	List<PriceVolumeAcc> groupPrices(List<HistoryLine> lines, WeightStrategy weighter, int nbSteps) {

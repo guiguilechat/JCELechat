@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
 import java.awt.Color;
 import java.io.IOException;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.net.URI;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
@@ -50,6 +48,8 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.DailyExchanges;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.HistoryAggreg;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import jakarta.servlet.http.HttpServletResponse;
@@ -69,28 +69,6 @@ public class HistoryRestController {
 	private final TypeService typeService;
 
 	private final int NB_STEPS = 10;
-
-	record HistoryAggreg(int typeId, Integer regionId, String weightName, int steps) {
-	}
-
-	record PriceVolume(BigDecimal price, BigDecimal volumeAbove, BigDecimal volumeBelow) {
-	}
-
-	record DailyExchanges(HistoryAggreg filter, List<PriceVolume> volumes) {
-
-		static List<PriceVolume> convertVolumes(List<PriceVolumeAcc> groups) {
-			ArrayList<PriceVolume> ret = new ArrayList<>();
-			groups.forEach(pv -> ret.add(new PriceVolume(
-			    new BigDecimal(pv.price).setScale(2, RoundingMode.HALF_EVEN),
-			    new BigDecimal(pv.above).setScale(2, RoundingMode.HALF_EVEN),
-			    new BigDecimal(pv.below).setScale(2, RoundingMode.HALF_EVEN))));
-			return ret;
-		}
-
-		public static DailyExchanges of(HistoryAggreg filter, List<PriceVolumeAcc> groups) {
-			return new DailyExchanges(filter, convertVolumes(groups));
-		}
-	}
 
 	@GetMapping("/byRegionId/{regionId}/byTypeId/{typeId}/byWeightName/{weightname}/daily")
 	public ResponseEntity<DailyExchanges> byRegionByType(@PathVariable int regionId, @PathVariable int typeId,

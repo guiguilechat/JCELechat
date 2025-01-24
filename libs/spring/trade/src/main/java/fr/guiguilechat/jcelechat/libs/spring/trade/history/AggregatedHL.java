@@ -10,12 +10,28 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 /**
- * daily aggregated sales data.
+ * daily aggregated sales data, with high, low, total value and number of sales.
  */
 @Getter
 @Setter
 @RequiredArgsConstructor
 public class AggregatedHL {
+
+	public static final MathContext MC = new MathContext(4, RoundingMode.HALF_UP);
+
+	public AggregatedHL(Instant date, long volume,
+		double totalValue,
+		double highestPrice,
+		double lowestPrice,
+		long orderCount,
+		int nbRegions ) {
+		this(date, volume,
+		    new BigDecimal(totalValue, MC),
+		    new BigDecimal(highestPrice, MC),
+		    new BigDecimal(lowestPrice, MC),
+		    orderCount,
+		    nbRegions);
+}
 
 	/**
 	 * The date of this historical statistic entry
@@ -42,8 +58,6 @@ public class AggregatedHL {
 	 */
 	private final BigDecimal lowestPrice;
 
-	private static final MathContext MC = new MathContext(4, RoundingMode.HALF_UP);
-
 	@Getter(lazy = true)
 	private final BigDecimal averagePrice = totalValue == null ? null
 	    : new BigDecimal(totalValue.doubleValue() / volume, MC);
@@ -55,16 +69,5 @@ public class AggregatedHL {
 
 	/** number of regions which had a corresponding trade on that period */
 	private final int nbRegions;
-
-	public static AggregatedHL convert(Object[] line) {
-		return new AggregatedHL(
-		    (Instant) line[0],
-		    ((Number) line[1]).longValue(),
-		    new BigDecimal(((Number) line[2]).doubleValue()),
-		    new BigDecimal(((Number) line[3]).doubleValue(), MC),
-		    new BigDecimal(((Number) line[4]).doubleValue(), MC),
-		    ((Number) line[5]).longValue(),
-		    ((Number) line[6]).intValue());
-	}
 
 }

@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
-import java.math.BigDecimal;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -105,9 +104,9 @@ public class ContractFacadeBpo {
 				regionIds.add(ci.getRegion().getId());
 			}
 			ret.add(new AggregatedHL(date, volume,
-			    new BigDecimal(totalValue),
-			    new BigDecimal(highestPrice),
-			    new BigDecimal(lowestPrice),
+			    (totalValue),
+			    (highestPrice),
+			    (lowestPrice),
 			    orderCount, regionIds.size()));
 		}
 		return ret;

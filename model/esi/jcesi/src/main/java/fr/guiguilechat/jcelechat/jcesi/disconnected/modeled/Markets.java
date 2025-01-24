@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -126,13 +127,44 @@ public class Markets {
 
 	//
 
-	protected ListHolder<R_get_markets_region_id_orders> extractBuyOrders(RegionalMarket market, Integer typeId) {
+	protected ListHolder<R_get_markets_region_id_orders> extractBuyOrdersRemoveLow(RegionalMarket market,
+	    Integer typeId) {
 		ListHolder<R_get_markets_region_id_orders> ret = market.getBuyOrdersByTypeId()
 		    .at(typeId, List.of())
 		    .toList(l -> l)
-		    .sorted(Comparator.comparing(o -> -o.price));
+		    .sorted(Comparator.comparing(o -> -o.price))
+		// .mapList(this::removeLowerOrders)
+		;
 		return ret;
 	}
+
+	/**
+	 * remove up to 10M from the first orders
+	 */
+	private static final double BO_VAL_REMOVE = 10000000;
+
+	/**
+	 * remove the first orders unless we have removed {@link Markets.BO_VAL_REMOVE}
+	 * total
+	 * value
+	 * 
+	 * @param source
+	 * @return source but with removed first orders unless total removed is enough
+	 */
+	protected List<R_get_markets_region_id_orders> removeLowerOrders(List<R_get_markets_region_id_orders> source) {
+		List<R_get_markets_region_id_orders> ret = new ArrayList<>(source);
+		double removed = 0.0;
+		for (R_get_markets_region_id_orders order : source) {
+			removed += order.price * order.volume_remain;
+			if (removed < BO_VAL_REMOVE) {
+				ret.remove(0);
+			} else {
+				break;
+			}
+		}
+		return ret;
+	}
+
 
 	/**
 	 * weighted average of the empire orders. The first one is The Forge and
@@ -176,7 +208,8 @@ public class Markets {
 	 */
 	@Getter(lazy = true)
 	private final GroupedPrices empireAvgPrice = new GroupedPrices(
-	    new RegionalMarket[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() }, this::extractBuyOrders,
+	    new RegionalMarket[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
+	    this::extractBuyOrdersRemoveLow,
 	    this::average);
 
 	@Getter(lazy = true)
