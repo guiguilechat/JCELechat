@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -33,12 +34,12 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.info")
 @Order(6) // depends on type and contractregion for the items ; then set to a higher
-          // number because it's likely to create more errors
+// number because it's likely to create more errors
 public class ContractInfoService extends ARemoteEntityService<
-    ContractInfo,
-    Integer,
-    R_get_contracts_public_items_contract_id[],
-    ContractInfoRepository> {
+ContractInfo,
+Integer,
+R_get_contracts_public_items_contract_id[],
+ContractInfoRepository> {
 
 	//
 	// implementation
@@ -53,10 +54,10 @@ public class ContractInfoService extends ARemoteEntityService<
 
 	@Override
 	protected Requested<R_get_contracts_public_items_contract_id[]> fetchData(Integer id,
-	    Map<String, String> properties) {
+			Map<String, String> properties) {
 		return ESIRawPublic.INSTANCE.requestGetPages(
-		    (page, props) -> ESIRawPublic.INSTANCE.get_contracts_public_items(id, page, props), properties)
-		    .mapBody(l -> l.toArray(R_get_contracts_public_items_contract_id[]::new));
+				(page, props) -> ESIRawPublic.INSTANCE.get_contracts_public_items(id, page, props), properties)
+				.mapBody(l -> l.toArray(R_get_contracts_public_items_contract_id[]::new));
 	}
 
 	@Override
@@ -76,9 +77,9 @@ public class ContractInfoService extends ARemoteEntityService<
 	protected void updateResponseOk(Map<ContractInfo, R_get_contracts_public_items_contract_id[]> responseOk) {
 		super.updateResponseOk(responseOk);
 		Map<Integer, Type> idToType = typeService.createIfAbsent(responseOk.values().stream()
-		    .flatMap(Stream::of)
-		    .map(c -> c.type_id)
-		    .distinct().toList());
+				.flatMap(Stream::of)
+				.map(c -> c.type_id)
+				.distinct().toList());
 		List<ContractItem> items = new ArrayList<>();
 		for (Entry<ContractInfo, R_get_contracts_public_items_contract_id[]> e : responseOk.entrySet()) {
 			ContractInfo ci = e.getKey();
@@ -91,7 +92,7 @@ public class ContractInfoService extends ARemoteEntityService<
 		contractItemService.saveAll(items);
 		saveAll(responseOk.keySet());
 	}
-	
+
 	/**
 	 * 403 actually means the contract still exists but can't be accepted, so either
 	 * already accepted, or expired
@@ -132,23 +133,47 @@ public class ContractInfoService extends ARemoteEntityService<
 			return List.of();
 		}
 		List<ContractInfo> ret = repo().findByFetchActiveTrueAndRemovedFalseAndExpiresLessThanOrderByExpiresAsc(
-		    Instant.now(),
-		    Limit.of(batchSize));
+				Instant.now(),
+				Limit.of(batchSize));
 		if (ret.isEmpty()) {
 			// no new contract : fetch the old contract that have been removed from the list
-			int maxErrors = esiStatusService().availErrors();
-			if (maxErrors < 20) {
+			batchSize = pessimisticBatchSize(batchSize);
+			if (batchSize <= 0) {
 				return List.of();
 			}
-			batchSize = Math.min(batchSize, maxErrors / 2);
 			ret = repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(
-			    Instant.now(),
-			    Limit.of(batchSize));
+					Instant.now(),
+					Limit.of(batchSize));
 			if (!ret.isEmpty()) {
 				log.debug("will fail {} contrat info requests to deduce their end state", ret.size());
 			}
+		} else {
+			ContractInfo firstCI = ret.get(0);
+			// if the first contract is older than a day, it's likely to fail : only fetch
+			// with pessimistic batch size, so half the remaining esi errors
+			if (ChronoUnit.DAYS.between(firstCI.getDateIssued(), Instant.now()) >= 1) {
+				int pessimisticBatchSize = pessimisticBatchSize(batchSize);
+				log.debug("pessimistic batch sized from {} to {} with first contract issued date {}",
+				    batchSize,
+						pessimisticBatchSize,
+						firstCI.getDateIssued());
+				if (pessimisticBatchSize <= 0) {
+					return List.of();
+				}
+				if (pessimisticBatchSize < ret.size()) {
+					ret = ret.subList(0, pessimisticBatchSize);
+				}
+			}
 		}
 		return ret;
+	}
+
+	protected int pessimisticBatchSize(int optimisticBatchSize) {
+		int maxErrors = esiStatusService().availErrors();
+		if (maxErrors < 20) {
+			return 0;
+		}
+		return Math.min(optimisticBatchSize, maxErrors / 2);
 	}
 
 	//
@@ -184,10 +209,10 @@ public class ContractInfoService extends ARemoteEntityService<
 				saveAll(list);
 				long postAnalyze = System.currentTimeMillis();
 				log.trace(" finished analyzing {} contracts in {} ms (listIds={} fetch={} analyze+save={})", list.size(),
-				    (postAnalyze - preListIdsTime),
-				    (postListIdsTime - preListIdsTime),
-				    (postFetchTime - postListIdsTime),
-				    (postAnalyze - postFetchTime));
+						postAnalyze - preListIdsTime,
+						postListIdsTime - preListIdsTime,
+						postFetchTime - postListIdsTime,
+						postAnalyze - postFetchTime);
 				lastUpdateEnd = maxId;
 			}
 		}
@@ -209,12 +234,12 @@ public class ContractInfoService extends ARemoteEntityService<
 	 */
 	public Map<Integer, ContractInfo> presentFetchedByRegion(int regionId) {
 		return repo().findByRegionIdAndRemovedFalseAndFetchedTrue(regionId).stream()
-		    .collect(Collectors.toMap(ContractInfo::getId, c -> c));
+				.collect(Collectors.toMap(ContractInfo::getId, c -> c));
 	}
 
 	public Map<ContractRegion, Map<Integer, ContractInfo>> presentByRegion(Iterable<ContractRegion> regions) {
 		return repo().findByRegionInAndRemovedFalse(regions).stream()
-		    .collect(Collectors.groupingBy(ContractInfo::getRegion, Collectors.toMap(ContractInfo::getId, c -> c)));
+				.collect(Collectors.groupingBy(ContractInfo::getRegion, Collectors.toMap(ContractInfo::getId, c -> c)));
 	}
 
 	/**
@@ -223,7 +248,7 @@ public class ContractInfoService extends ARemoteEntityService<
 	 */
 	public Stream<ContractInfo> exchangesSelling() {
 		return repo().findByTypeAndFetchedTrueAndRemovedFalseAndOffersNonBpcTrueAndRequestsItemFalse(
-		    get_contracts_public_region_id_type.item_exchange);
+				get_contracts_public_region_id_type.item_exchange);
 	}
 
 	/**
@@ -232,13 +257,13 @@ public class ContractInfoService extends ARemoteEntityService<
 	 */
 	public Stream<ContractInfo> exchangesBuying() {
 		return repo().findByTypeAndFetchedTrueAndRemovedFalseAndRequestsItemTrueAndOffersItemFalse(
-		    get_contracts_public_region_id_type.item_exchange);
+				get_contracts_public_region_id_type.item_exchange);
 	}
-	
+
 	public static record ContractTypeVariant(int typeId, int me, int te, boolean copy){
-		
+
 		public ContractTypeVariant(int typeId, Object[] arr) {
-			this(typeId, ((Number) arr[0]).intValue(), ((Number) arr[1]).intValue(), ((Boolean) arr[2]));
+			this(typeId, ((Number) arr[0]).intValue(), ((Number) arr[1]).intValue(), (Boolean) arr[2]);
 		}
 
 		/**
@@ -251,12 +276,12 @@ public class ContractInfoService extends ARemoteEntityService<
 		}
 
 	}
-	
-	
+
+
 	public List<ContractTypeVariant> variants(int typeId) {
 		return repo().listTypeVariants(typeId).stream().map(arr -> new ContractTypeVariant(typeId, arr)).toList();
 	}
-	
+
 
 	//
 	// specifications to help criterions
@@ -305,7 +330,7 @@ public class ContractInfoService extends ARemoteEntityService<
 	/**
 	 * notified when one+ item of a contract is modified
 	 */
-	public static interface ContractItemsListener extends EntityUpdateListener {
+	public interface ContractItemsListener extends EntityUpdateListener {
 	}
 
 	@Getter

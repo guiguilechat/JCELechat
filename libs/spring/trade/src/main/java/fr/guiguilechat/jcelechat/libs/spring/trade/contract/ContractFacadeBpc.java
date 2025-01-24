@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -16,6 +17,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
@@ -42,16 +44,16 @@ public class ContractFacadeBpc {
 	/**
 	 * find contracts that are open and offer a given type as copy, with ME/TE ge
 	 * requested
-	 * 
+	 *
 	 * @param typeId
 	 * @return list of open contracts that provide only given type, with
 	 *           iscopy=true and me and te GE the one specified
 	 */
 	public List<ContractInfo> selling(int typeId, int me, int te) {
 		return contractInfoRepository
-		    .findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
-		        List.of(typeId),
-		        true, me, te);
+				.findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
+						List.of(typeId),
+						true, me, te);
 	}
 
 	public List<ContractOrder> sos(int typeId, int me, int te) {
@@ -61,21 +63,21 @@ public class ContractFacadeBpc {
 	@Transactional
 	public Stream<MarketOrder> streamSOs(int typeId, int me, int te) {
 		return selling(typeId, me, te).stream().map(MarketOrder::of)
-		    .sorted(Comparator.comparing(MarketOrder::getPrice));
+				.sorted(Comparator.comparing(MarketOrder::getPrice));
 	}
 
 	/**
 	 * find contracts that sold a given type, with given ME/TE and iscopy=true
-	 * 
+	 *
 	 * @param typeId
 	 * @return list of completed contracts that provide only given type, with
 	 *           iscopy=true and given me and te
 	 */
 	public List<ContractInfo> sold(int typeId, int me, int te, Limit limit) {
 		return contractInfoRepository
-		    .findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
-		        List.of(typeId),
-		        true, me, te, limit);
+				.findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
+						List.of(typeId),
+						true, me, te, limit);
 	}
 
 	@Transactional
@@ -85,17 +87,17 @@ public class ContractFacadeBpc {
 
 	public List<AggregatedHL> aggregatedSales(int typeId, int me, int te) {
 		Map<Instant, List<ContractInfo>> byDay = sold(typeId, me, te, Limit.unlimited())
-		    .stream()
-		    .filter(ci -> ci.getRemovedBefore() != null)
-		    .collect(Collectors.groupingBy(ci -> ci.getRemovedBefore().truncatedTo(ChronoUnit.DAYS)));
+				.stream()
+				.filter(ci -> ci.getRemovedBefore() != null)
+				.collect(Collectors.groupingBy(ci -> ci.getRemovedBefore().truncatedTo(ChronoUnit.DAYS)));
 		List<AggregatedHL> ret = new ArrayList<>();
 		for (Entry<Instant, List<ContractInfo>> e : byDay.entrySet()) {
 			Instant date = e.getKey();
-			long volume = 0l;
+			long volume = 0L;
 			double totalValue = 0.0;
 			double highestPrice = 0.0;
 			double lowestPrice = Double.MAX_VALUE;
-			long orderCount = 0l;
+			long orderCount = 0L;
 			Set<Integer> regionIds = new HashSet<>();
 			for (ContractInfo ci : e.getValue()) {
 				volume += ci.getOfferedRuns();
@@ -110,10 +112,10 @@ public class ContractFacadeBpc {
 				regionIds.add(ci.getRegion().getId());
 			}
 			ret.add(new AggregatedHL(date, volume,
-			    (totalValue),
-			    (highestPrice),
-			    (lowestPrice),
-			    orderCount, regionIds.size()));
+					totalValue,
+					highestPrice,
+					lowestPrice,
+					orderCount, regionIds.size()));
 		}
 		return ret;
 	}
@@ -124,30 +126,30 @@ public class ContractFacadeBpc {
 		long start = System.currentTimeMillis();
 		List<Object[]> fetched = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit);
 		Map<Integer, String> typeId2Name = typeService.findById(
-		    fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
-		    .collect(Collectors.toMap(t -> t.getId(), t -> t.getName()));
+				fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
+				.collect(Collectors.toMap((Function<? super Type, ? extends Integer>) Type::getId, (Function<? super Type, ? extends String>) Type::getName));
 		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit)
-		    .stream()
-		    .map(arr -> {
-			    int typeId = ((Number) arr[0]).intValue();
-			    int me = ((Number) arr[1]).intValue();
-			    int te = ((Number) arr[2]).intValue();
-			    double totalValue = ((Number) arr[3]).doubleValue();
-			    long totalRuns = ((Number) arr[4]).longValue();
-			    String typeName = typeId2Name.get(typeId);
-			    if (typeName == null) {
-				    typeName = "unknown " + typeId;
-			    }
-			    typeName += "(" + totalRuns + "r) " + me + "/" + te;
-			    AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, days, totalValue,
-			        totalRuns);
-			    line.setMe(me);
-			    line.setTe(te);
-			    return line;
-		    })
-		    .toList();
+				.stream()
+				.map(arr -> {
+					int typeId = ((Number) arr[0]).intValue();
+					int me = ((Number) arr[1]).intValue();
+					int te = ((Number) arr[2]).intValue();
+					double totalValue = ((Number) arr[3]).doubleValue();
+					long totalRuns = ((Number) arr[4]).longValue();
+					String typeName = typeId2Name.get(typeId);
+					if (typeName == null) {
+						typeName = "unknown " + typeId;
+					}
+					typeName += me + "/" + te;
+					AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, days, totalValue,
+							totalRuns);
+					line.setMe(me);
+					line.setTe(te);
+					return line;
+				})
+				.toList();
 		long stop = System.currentTimeMillis();
-		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, (stop - start), ret.size());
+		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;
 	}
 

@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 
-import java.math.BigDecimal;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +8,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * keep a list of {@link AggregatedHL} , when adding a new one removes those
+ * a list of {@link AggregatedHL} , when adding a new one removes those
  * older than {@link #days}. The {@link AggregatedHL} should be added by date
  * increasing.
  */
@@ -31,12 +30,46 @@ public class SlidingAverage {
 	}
 
 	public long volume() {
-		return getList().stream().mapToLong(hl -> hl.getVolume()).sum();
+		return getList().stream().mapToLong(AggregatedHL::getVolume).sum();
 	}
 
-	public BigDecimal totalValue() {
-		return new BigDecimal(getList().stream().mapToDouble(hl -> hl.getTotalValue().doubleValue()).sum(),
-		    AggregatedHL.MC);
+	public double totalValue() {
+		return getList().stream().mapToDouble(hl -> hl.getTotalValue().doubleValue()).sum();
+	}
+
+	public double highest() {
+		return getList().stream().mapToDouble(hl -> hl.getHighestPrice().doubleValue()).max().getAsDouble();
+
+	}
+
+	public double lowest() {
+		return getList().stream().mapToDouble(hl -> hl.getLowestPrice().doubleValue()).min().getAsDouble();
+
+	}
+
+	public long orderCount() {
+		return getList().stream().mapToLong(AggregatedHL::getOrderCount).sum();
+	}
+
+	public Double averagePrice() {
+		long volume = volume();
+		return volume == 0 ? null : totalValue() / volume;
+	}
+
+	public double averageDailyVolume() {
+		return volume() / (days + 1);
+	}
+
+	/**
+	 * @return a new {@link AggregatedHL} to represent this list. Will return null
+	 *           if no item present.
+	 */
+	public AggregatedHL toAggregatedHL() {
+		if (list.isEmpty()) {
+			return null;
+		}
+		return new AggregatedHL(list.get(list.size() - 1).getDate(), volume(), totalValue(), highest(), lowest(),
+				orderCount(), list.get(list.size() - 1).getNbRegions());
 	}
 
 }
