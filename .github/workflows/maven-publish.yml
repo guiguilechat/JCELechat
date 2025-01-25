@@ -36,7 +36,9 @@ jobs:
 # ignore certificate issues for repositories that are https
       -  name: Publish to GitHub Packages Apache Maven
 #         run: cat $GITHUB_WORKSPACE/settings.xml
-         run: mvn -PskipDeployPom deploy -ntp -s $GITHUB_WORKSPACE/settings.xml -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true
+         run: >
+            mvn -PskipDeployPom deploy -ntp -s $GITHUB_WORKSPACE/settings.xml
+            -Dmaven.resolver.transport=wagon -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true
          env:
             GH_JCELECHAT: ${{ vars.GH_REPO }}
             GITHUB_TOKEN: ${{ github.token }}
