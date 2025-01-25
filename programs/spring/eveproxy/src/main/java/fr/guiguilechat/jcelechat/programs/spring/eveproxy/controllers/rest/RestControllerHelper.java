@@ -36,38 +36,44 @@ public class RestControllerHelper {
 		}
 		HttpHeaders responseHeaders = new HttpHeaders();
 		switch (accept.orElse("json").toLowerCase()) {
-			case "xml":
-				responseHeaders.setContentType(MediaType.APPLICATION_XML);
+		case "xml":
+			responseHeaders.setContentType(MediaType.APPLICATION_XML);
 			break;
-			case "yaml":
-			case "yml":
-				responseHeaders.setContentType(YamlMessageConverter.APPLICATION_YAML);
-// responseHeaders.setContentDisposition(ContentDisposition.inline().build());
+		case "yaml":
+		case "yml":
+			responseHeaders.setContentType(YamlMessageConverter.APPLICATION_YAML);
+			// responseHeaders.setContentDisposition(ContentDisposition.inline().build());
 			break;
-			case "jason":
-			case "js":
-			case "json":
-			default:
-				responseHeaders.setContentType(MediaType.APPLICATION_JSON);
+		case "jason":
+		case "js":
+		case "json":
+		default:
+			responseHeaders.setContentType(MediaType.APPLICATION_JSON);
 			break;
 		}
 		return new ResponseEntity<>(data, responseHeaders, HttpStatus.OK);
 	}
 
+	public static void setResponseTitle(HttpServletResponse response, String title) {
+		if (title != null) {
+			response.setHeader("Content-Disposition", "inline; filename=" + title);
+		}
+	}
+
 	public static void addResponseJFreeChart(
 			HttpServletResponse response, JFreeChart chart, Optional<String> accept, int width, int height)
-			throws IOException {
+					throws IOException {
 		switch (accept.orElse("png").toLowerCase()) {
-			case "jpg":
-			case "jpeg":
-				response.setContentType(MediaType.IMAGE_JPEG_VALUE);
-				ChartUtils.writeBufferedImageAsJPEG(response.getOutputStream(),
-						chart.createBufferedImage(width, height, BufferedImage.TYPE_INT_RGB, null));
+		case "jpg":
+		case "jpeg":
+			response.setContentType(MediaType.IMAGE_JPEG_VALUE);
+			ChartUtils.writeBufferedImageAsJPEG(response.getOutputStream(),
+					chart.createBufferedImage(width, height, BufferedImage.TYPE_INT_RGB, null));
 			break;
-			case "png":
-			default:
-				response.setContentType(MediaType.IMAGE_PNG_VALUE);
-				ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
+		case "png":
+		default:
+			response.setContentType(MediaType.IMAGE_PNG_VALUE);
+			ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
 		}
 	}
 
@@ -77,7 +83,7 @@ public class RestControllerHelper {
 	}
 
 	public static void addResponseXChart(
-	    HttpServletResponse response, Chart<?, ?> chart, Optional<String> accept) throws IOException {
+			HttpServletResponse response, Chart<?, ?> chart, Optional<String> accept) throws IOException {
 		BitmapFormat format = 	switch (accept.orElse("png").toLowerCase()) {
 		case "bp", "bmp" -> BitmapFormat.BMP;
 		case "gf", "gif" -> BitmapFormat.GIF;
@@ -98,7 +104,7 @@ public class RestControllerHelper {
 	public static final NumberFormat NUMBER_FORMAT_PRICES = new HexNumberFormat() {
 		@Override
 		public StringBuffer format(long number, StringBuffer toAppendTo,
-		    FieldPosition pos) {
+				FieldPosition pos) {
 			String formatted = FormatTools.formatPrice(number);
 			return new StringBuffer(formatted);
 		}

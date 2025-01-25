@@ -150,6 +150,7 @@ public class HistoryRestController {
 
 		String title = "universe sales of " + type.name() + "(" + type.getId() + ")"
 				+ (days.isPresent() ? " over the last " + days.get() + " days" : "");
+		RestControllerHelper.setResponseTitle(response, type.name());
 		switch (ChartBuilder.orDefault(builder)) {
 		case jfreechart:
 			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, title, "items"), accept);
@@ -199,6 +200,8 @@ public class HistoryRestController {
 
 		String title = "public contract sales of " + type.name() + "(" + type.getId() + ")" + (copy ? " (CP)" : "")
 				+ " " + me + "/" + te;
+		RestControllerHelper.setResponseTitle(response, type.name() + " " + (copy ? " (CP)" : "")
+		    + " " + me + "/" + te);
 		switch (ChartBuilder.orDefault(builder)) {
 		case jfreechart:
 			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, title, copy ? "runs" : "items"),
