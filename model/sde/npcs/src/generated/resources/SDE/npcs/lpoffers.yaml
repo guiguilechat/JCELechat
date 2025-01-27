@@ -42208,6 +42208,274 @@ offers:
       quantity: 1
     requirements:
       lp: 13500
+  19414:
+    bpid: 57134
+    bpruns: 1
+    id: 19414
+    name: Mid-grade Rapture Alpha(BPC)
+    product:
+      id: 57117
+      quantity: 1
+    requirements:
+      isk: 7500000
+      items:
+      - id: 2346
+        quantity: 326
+      - id: 2367
+        quantity: 357
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 48
+      - id: 47975
+        quantity: 180
+      lp: 7500
+  19415:
+    bpid: 57135
+    bpruns: 1
+    id: 19415
+    name: Mid-grade Rapture Beta(BPC)
+    product:
+      id: 57118
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 2348
+        quantity: 372
+      - id: 2367
+        quantity: 326
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 69
+      - id: 47975
+        quantity: 200
+      lp: 10000
+  19416:
+    bpid: 57137
+    bpruns: 1
+    id: 19416
+    name: Mid-grade Rapture Delta(BPC)
+    product:
+      id: 57120
+      quantity: 1
+    requirements:
+      isk: 25000000
+      items:
+      - id: 2367
+        quantity: 532
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 94
+      - id: 12836
+        quantity: 543
+      - id: 47975
+        quantity: 250
+      lp: 25000
+  19417:
+    bpid: 57138
+    bpruns: 1
+    id: 19417
+    name: Mid-grade Rapture Epsilon(BPC)
+    product:
+      id: 57121
+      quantity: 1
+    requirements:
+      isk: 45000000
+      items:
+      - id: 2346
+        quantity: 642
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 103
+      - id: 12836
+        quantity: 757
+      - id: 47975
+        quantity: 270
+      lp: 45000
+  19418:
+    bpid: 57136
+    bpruns: 1
+    id: 19418
+    name: Mid-grade Rapture Gamma(BPC)
+    product:
+      id: 57119
+      quantity: 1
+    requirements:
+      isk: 15000000
+      items:
+      - id: 2348
+        quantity: 532
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 88
+      - id: 12836
+        quantity: 414
+      - id: 47975
+        quantity: 225
+      lp: 15000
+  19419:
+    bpid: 57139
+    bpruns: 1
+    id: 19419
+    name: Mid-grade Rapture Omega(BPC)
+    product:
+      id: 57122
+      quantity: 1
+    requirements:
+      isk: 85000000
+      items:
+      - id: 2346
+        quantity: 412
+      - id: 2348
+        quantity: 366
+      - id: 2367
+        quantity: 392
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 110
+      - id: 47975
+        quantity: 340
+      lp: 85000
+  19420:
+    bpid: 57140
+    bpruns: 1
+    id: 19420
+    name: High-grade Rapture Alpha(BPC)
+    product:
+      id: 57123
+      quantity: 1
+    requirements:
+      isk: 23000000
+      items:
+      - id: 2346
+        quantity: 542
+      - id: 2367
+        quantity: 594
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 79
+      - id: 47975
+        quantity: 360
+      lp: 23625
+  19421:
+    bpid: 57142
+    bpruns: 1
+    id: 19421
+    name: High-grade Rapture Beta(BPC)
+    product:
+      id: 57124
+      quantity: 1
+    requirements:
+      isk: 32000000
+      items:
+      - id: 2348
+        quantity: 620
+      - id: 2367
+        quantity: 542
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 114
+      - id: 47975
+        quantity: 400
+      lp: 31500
+  19422:
+    bpid: 57144
+    bpruns: 1
+    id: 19422
+    name: High-grade Rapture Delta(BPC)
+    product:
+      id: 57126
+      quantity: 1
+    requirements:
+      isk: 75000000
+      items:
+      - id: 2367
+        quantity: 888
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 157
+      - id: 12836
+        quantity: 906
+      - id: 47975
+        quantity: 500
+      lp: 78750
+  19423:
+    bpid: 57145
+    bpruns: 1
+    id: 19423
+    name: High-grade Rapture Epsilon(BPC)
+    product:
+      id: 57127
+      quantity: 1
+    requirements:
+      isk: 140000000
+      items:
+      - id: 2346
+        quantity: 1070
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 172
+      - id: 12836
+        quantity: 1261
+      - id: 47975
+        quantity: 540
+      lp: 141750
+  19424:
+    bpid: 57143
+    bpruns: 1
+    id: 19424
+    name: High-grade Rapture Gamma(BPC)
+    product:
+      id: 57125
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - id: 2348
+        quantity: 887
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 146
+      - id: 12836
+        quantity: 691
+      - id: 47975
+        quantity: 450
+      lp: 47250
+  19425:
+    bpid: 57146
+    bpruns: 1
+    id: 19425
+    name: High-grade Rapture Omega(BPC)
+    product:
+      id: 57128
+      quantity: 1
+    requirements:
+      isk: 265000000
+      items:
+      - id: 2346
+        quantity: 687
+      - id: 2348
+        quantity: 609
+      - id: 2367
+        quantity: 654
+      - id: 2869
+        quantity: 1
+      - id: 11399
+        quantity: 183
+      - id: 47975
+        quantity: 680
+      lp: 267750
   19426:
     id: 19426
     name: Sidewinder Alliance Emblem

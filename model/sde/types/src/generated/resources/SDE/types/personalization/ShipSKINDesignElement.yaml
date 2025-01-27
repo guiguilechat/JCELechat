@@ -3207,6 +3207,38 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  85876:
+    id: 85876
+    marketGroup: 3654
+    name: Vermillion Seal Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85877:
+    id: 85877
+    marketGroup: 3654
+    name: Midnight Mass Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85878:
+    id: 85878
+    marketGroup: 3632
+    name: Golden Nova Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  85879:
+    id: 85879
+    marketGroup: 3633
+    name: Infinite Cyclones - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   85934:
     id: 85934
     marketGroup: 3653

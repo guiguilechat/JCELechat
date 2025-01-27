@@ -1,0 +1,11 @@
+types:
+  86216:
+    id: 86216
+    marketGroup: 2480
+    mass: 1.0
+    name: Stellar Surveillance Data
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3000000.0
+    published: true
+    volume: 0.009999999776482582

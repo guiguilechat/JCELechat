@@ -14300,7 +14300,6 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.12600000202655792
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
@@ -14381,7 +14380,6 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.16899999976158142
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0

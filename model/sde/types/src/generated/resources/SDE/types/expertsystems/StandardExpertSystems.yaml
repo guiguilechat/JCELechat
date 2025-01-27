@@ -119,3 +119,11 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  87293:
+    id: 87293
+    mass: 1.0
+    name: Resplendent Coil Expert System
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
