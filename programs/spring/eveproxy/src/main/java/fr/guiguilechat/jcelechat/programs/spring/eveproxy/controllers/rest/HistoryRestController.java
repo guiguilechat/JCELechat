@@ -13,6 +13,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import java.util.TimeZone;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import org.jfree.chart.JFreeChart;
@@ -53,6 +54,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.SlidingAverage;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.ChartTheme;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.DailyExchanges;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.HistoryAggreg;
 import io.swagger.v3.oas.annotations.Operation;
@@ -103,8 +105,7 @@ public class HistoryRestController {
 
 	public enum ChartBuilder {
 		jfreechart,
-		xchart
-		;
+		xchart;
 
 		public static ChartBuilder orDefault(Optional<ChartBuilder> param) {
 			ChartBuilder orDefault = jfreechart;
@@ -131,6 +132,7 @@ public class HistoryRestController {
 			HttpServletResponse response,
 			@RequestParam @Parameter(description = "format of the image. values depend on the builder chosen. typically jpg, or png (ignore case)") Optional<String> accept,
 			@RequestParam @Parameter(description = "builder for the chart. Can be \"jfreechart\" or \"xchart\"(default)") Optional<ChartBuilder> builder,
+			@RequestParam @Parameter(description = "theme to use for the chart color") Optional<String> theme,
 			@RequestParam @Parameter(description = "maximum days to show. Default 10 years") Optional<Integer> days)
 					throws IOException {
 		Type type = typeService.byId(typeId);
@@ -151,9 +153,11 @@ public class HistoryRestController {
 		String title = "universe sales of " + type.name() + "(" + type.getId() + ")"
 				+ (days.isPresent() ? " over the last " + days.get() + " days" : "");
 		RestControllerHelper.setResponseTitle(response, type.name());
+
+		ChartTheme ct = ChartTheme.forName(theme.orElse(null));
 		switch (ChartBuilder.orDefault(builder)) {
 		case jfreechart:
-			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, title, "items"), accept);
+			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, title, "items", ct), accept);
 			break;
 		case xchart:
 			RestControllerHelper.addResponseXChart(response, drawXChart(sortedData, title), accept);
@@ -181,7 +185,8 @@ public class HistoryRestController {
 			@PathVariable @Parameter(description = "te value to consider") int te,
 			HttpServletResponse response,
 			@RequestParam @Parameter(description = "format of the image. values depend on the builder chosen. typically jpg, or png (ignore case)") Optional<String> accept,
-			@RequestParam @Parameter(description = "builder for the chart. Can be \"jfreechart\" or \"xchart\"(default)") Optional<ChartBuilder> builder)
+			@RequestParam @Parameter(description = "builder for the chart. Can be \"jfreechart\" or \"xchart\"(default)") Optional<ChartBuilder> builder,
+			@RequestParam @Parameter(description = "theme to use for the chart color") Optional<String> theme)
 					throws IOException {
 		Type type = typeService.byId(typeId);
 		if (type == null) {
@@ -201,10 +206,13 @@ public class HistoryRestController {
 		String title = "public contract sales of " + type.name() + "(" + type.getId() + ")" + (copy ? " (CP)" : "")
 				+ " " + me + "/" + te;
 		RestControllerHelper.setResponseTitle(response, type.name() + " " + (copy ? " (CP)" : "")
-		    + " " + me + "/" + te);
+				+ " " + me + "/" + te);
+
+		ChartTheme ct = ChartTheme.forName(theme.orElse(null));
 		switch (ChartBuilder.orDefault(builder)) {
 		case jfreechart:
-			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, title, copy ? "runs" : "items"),
+			RestControllerHelper.addResponseJFreeChart(response,
+					drawJFreeChart(sortedData, title, copy ? "runs" : "items", ct),
 					accept);
 			break;
 		case xchart:
@@ -216,13 +224,26 @@ public class HistoryRestController {
 
 	}
 
-	private JFreeChart drawJFreeChart(List<AggregatedHL> sortedData, String title, String quantityUnit) {
-		Color bgColor = new Color(23, 23, 23);
-		Color textColor = new Color(145, 145, 145);
-		Color immediatePriceColor = new Color(145, 70, 0);
-		Color avg7PriceColor = new Color(22, 125, 152);
-		Color avg30PriceColor = new Color(152, 85, 22);
-		Color quantityCol = new Color(0, 63, 79);
+	private JFreeChart drawJFreeChart(List<AggregatedHL> sortedData, String title, String quantityUnit,
+			ChartTheme theme) {
+		Color bgColor = theme.backgGroundColor();
+		Color textColor = theme.textColor();
+		List<Integer> requestedCumulatedDays = List.of(7, 30);
+		// first color is for immediate, next colors are for cumulated
+		List<Color> priceColors = theme.priceColors(requestedCumulatedDays.size());
+		List<Color> volColors = theme.volumeColors(requestedCumulatedDays.size());
+		// we limit the number of cumulated series to how much colors we have.
+		// if we have 1 vol and 1 price colors, these will be assigned to the immediate
+		// series
+		// if we have 2 vol and 1 price colors, we have the immediate and first
+		// cumulated, but only the cumulated vol will be charted
+		int nbCumulAverages = Math.min(
+				requestedCumulatedDays.size(),
+				Math.max(priceColors.size(), volColors.size()) - 1);
+		List<Integer> cumulatedDays = nbCumulAverages < requestedCumulatedDays.size()
+				? requestedCumulatedDays.subList(0, nbCumulAverages)
+						: requestedCumulatedDays;
+
 		XYPlot plot = new XYPlot();
 		plot.setBackgroundPaint(bgColor);
 		// plot.setDomainGridlinesVisible(false);
@@ -252,13 +273,17 @@ public class HistoryRestController {
 		plot.setDomainAxis(timeAxis);
 
 		TimeSeries averagePrice = new TimeSeries("average price");
-		SlidingAverage sliding1 = new SlidingAverage(7);
-		TimeSeries averageSlidedSeries1 = new TimeSeries("average price " + sliding1.getDays() + "d");
-		SlidingAverage sliding2 = new SlidingAverage(30);
-		TimeSeries averageSlidedSeries2 = new TimeSeries("average price " + sliding2.getDays() + "d");
-		TimeSeries minPrice = new TimeSeries("minimum price");
-		TimeSeries maxPrice = new TimeSeries("maximum price");
-		TimeSeries volumeTraded = new TimeSeries(quantityUnit + " traded");
+		TimeSeries volumeTraded = new TimeSeries("daily " + quantityUnit + " traded");
+		List<SlidingAverage> slidingAverages = cumulatedDays.stream().map(SlidingAverage::new).toList();
+		List<TimeSeries> cumulatedPriceSeries = IntStream.range(0,
+				Math.min(nbCumulAverages, priceColors.size() - 1))
+				.mapToObj(daysIndex -> new TimeSeries("average price " + cumulatedDays.get(daysIndex) + "d"))
+				.toList();
+		List<TimeSeries> cumulatedVolumeSeries = IntStream.range(0,
+				Math.min(nbCumulAverages, volColors.size() - 1))
+				.mapToObj(
+						daysIndex -> new TimeSeries("daily " + quantityUnit + " traded " + cumulatedDays.get(daysIndex) + "d"))
+				.toList();
 		Instant lastDate = null;
 		for (AggregatedHL e : sortedData) {
 			Instant aggregDate = e.getDate();
@@ -278,27 +303,24 @@ public class HistoryRestController {
 			if (aggregDate.equals(Instant.now().truncatedTo(ChronoUnit.DAYS))) {
 				continue;
 			}
-			sliding1.add(e);
-			sliding2.add(e);
 			RegularTimePeriod period = new Day(Date.from(aggregDate));
 			if (e.getAveragePrice() != null) {
 				averagePrice.add(period, e.getAveragePrice().doubleValue());
 			}
-			Double avgPrice1 = sliding1.averagePrice();
-			if (avgPrice1 != null) {
-				averageSlidedSeries1.add(period, avgPrice1);
-			}
-			Double avgPrice2 = sliding2.averagePrice();
-			if (avgPrice2 != null) {
-				averageSlidedSeries2.add(period, avgPrice2);
-			}
-			if (e.getLowestPrice() != null) {
-				minPrice.add(period, e.getLowestPrice().doubleValue());
-			}
-			if (e.getHighestPrice() != null) {
-				maxPrice.add(period, e.getHighestPrice().doubleValue());
-			}
 			volumeTraded.add(period, e.getVolume());
+			for (int i = 0; i < slidingAverages.size(); i++) {
+				SlidingAverage sa = slidingAverages.get(i);
+				sa.add(e);
+				Double avgPrice = sa.averagePrice();
+				if (avgPrice != null && i < cumulatedPriceSeries.size()) {
+					TimeSeries priceSeries = cumulatedPriceSeries.get(i);
+					priceSeries.add(period, avgPrice);
+				}
+				if (i < cumulatedVolumeSeries.size()) {
+					TimeSeries volSeries = cumulatedVolumeSeries.get(i);
+					volSeries.add(period, sa.averageDailyVolume());
+				}
+			}
 		}
 
 		NumberAxis priceAxis = new NumberAxis("price");
@@ -308,21 +330,17 @@ public class HistoryRestController {
 		plot.setRangeAxis(0, priceAxis);
 		TimeSeriesCollection priceCollections = new TimeSeriesCollection();
 		priceCollections.addSeries(averagePrice);
-		priceCollections.addSeries(averageSlidedSeries1);
-		priceCollections.addSeries(averageSlidedSeries2);
-		// priceCollections.addSeries(minPrice);
-		// priceCollections.addSeries(maxPrice);
+		cumulatedPriceSeries.forEach(priceCollections::addSeries);
 		plot.setDataset(0, priceCollections);
 		XYLineAndShapeRenderer priceRenderer = new XYLineAndShapeRenderer(false, true);
-		priceRenderer.setSeriesPaint(0, immediatePriceColor);
 
-		priceRenderer.setSeriesPaint(1, avg7PriceColor);
-		priceRenderer.setSeriesLinesVisible(1, true);
-		priceRenderer.setSeriesShapesVisible(1, false);
-
-		priceRenderer.setSeriesPaint(2, avg30PriceColor);
-		priceRenderer.setSeriesLinesVisible(2, true);
-		priceRenderer.setSeriesShapesVisible(2, false);
+		priceRenderer.setSeriesPaint(0, priceColors.get(0));
+		for (int i = 0; i < cumulatedPriceSeries.size(); i++) {
+			int seriesindex = i + 1;
+			priceRenderer.setSeriesPaint(seriesindex, priceColors.get(seriesindex));
+			priceRenderer.setSeriesLinesVisible(seriesindex, true);
+			priceRenderer.setSeriesShapesVisible(seriesindex, false);
+		}
 
 		plot.setRenderer(0, priceRenderer);
 		plot.mapDatasetToRangeAxis(0, 0);
@@ -332,16 +350,23 @@ public class HistoryRestController {
 		quantityAxis.setTickLabelPaint(textColor);
 		quantityAxis.setLabelPaint(textColor);
 		quantityAxis.setStandardTickUnits(NumberAxis.createIntegerTickUnits());
+
 		plot.setRangeAxis(1, quantityAxis);
 		TimeSeriesCollection qttyCollections = new TimeSeriesCollection();
 		qttyCollections.addSeries(volumeTraded);
+		cumulatedVolumeSeries.forEach(qttyCollections::addSeries);
 		plot.setDataset(1, qttyCollections);
 
 		XYBarRenderer quantityRenderer = new XYBarRenderer();
-		quantityRenderer.setShadowVisible(false);
-		quantityRenderer.setSeriesPaint(0, quantityCol);
-		quantityRenderer.setMargin(0.3);
 		quantityRenderer.setBarPainter(new StandardXYBarPainter());
+		quantityRenderer.setShadowVisible(false);
+		quantityRenderer.setMargin(0.3);
+
+		quantityRenderer.setSeriesPaint(0, volColors.get(0));
+		for (int i = 0; i < cumulatedVolumeSeries.size(); i++) {
+			int seriesindex = i + 1;
+			quantityRenderer.setSeriesPaint(seriesindex, volColors.get(seriesindex));
+		}
 
 		plot.setRenderer(1, quantityRenderer);
 		plot.mapDatasetToRangeAxis(1, 1);
@@ -407,30 +432,30 @@ public class HistoryRestController {
 		return ret;
 	}
 
-	public URI uri(int typeId, String accept, ChartBuilder builder, Integer days) {
+	public URI uri(int typeId, String accept, ChartBuilder builder, String theme, Integer days) {
 		return MvcUriComponentsBuilder
 				.fromMethodName(getClass(), "chartHistoryByType", "" + typeId, null,
 						Optional.ofNullable(accept),
 						Optional.ofNullable(builder),
+						Optional.ofNullable(theme),
 						Optional.ofNullable(days))
 				.build()
 				.toUri();
 	}
 
-	public URI uri(Type type, String accept, ChartBuilder builder, Integer days) {
-		return uri(type.getId(), accept, builder, days);
+	public URI uri(Type type, String accept, ChartBuilder builder, String theme, Integer days) {
+		return uri(type.getId(), accept, builder, theme, days);
 	}
 
 	public URI uri(int typeId) {
-		return uri(typeId, null, null, null);
+		return uri(typeId, null, null, null, null);
 	}
 
 	public URI uri(Type type) {
 		return uri(type.getId());
 	}
 
-
-	public URI uri(int typeId, boolean copy, int me, int te, String accept, ChartBuilder builder) {
+	public URI uri(int typeId, boolean copy, int me, int te, String accept, ChartBuilder builder, String theme) {
 		return MvcUriComponentsBuilder
 				.fromMethodName(getClass(), "chartContractHistoryByType", "" + typeId,
 						copy,
@@ -438,17 +463,18 @@ public class HistoryRestController {
 						te,
 						null,
 						Optional.ofNullable(accept),
-						Optional.ofNullable(builder))
+						Optional.ofNullable(builder),
+						Optional.ofNullable(theme))
 				.build()
 				.toUri();
 	}
 
-	public URI uri(Type type, boolean copy, int me, int te, String accept, ChartBuilder builder) {
-		return uri(type.getId(), copy, me, te, accept, builder);
+	public URI uri(Type type, boolean copy, int me, int te, String accept, ChartBuilder builder, String theme) {
+		return uri(type.getId(), copy, me, te, accept, builder, theme);
 	}
 
 	public URI uri(int typeId, boolean copy, int me, int te) {
-		return uri(typeId, copy, me, te, null, null);
+		return uri(typeId, copy, me, te, null, null, null);
 	}
 
 	public URI uri(Type type, boolean copy, int me, int te) {
