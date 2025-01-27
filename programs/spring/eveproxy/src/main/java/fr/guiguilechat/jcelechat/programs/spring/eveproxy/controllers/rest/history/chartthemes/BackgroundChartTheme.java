@@ -109,6 +109,9 @@ public class BackgroundChartTheme implements ChartTheme {
 	}
 
 	public static BackgroundChartTheme forName(String name) {
+		if (name == null) {
+			return null;
+		}
 		try {
 			int value = Integer.decode(name);
 			return new BackgroundChartTheme(new Color(value));

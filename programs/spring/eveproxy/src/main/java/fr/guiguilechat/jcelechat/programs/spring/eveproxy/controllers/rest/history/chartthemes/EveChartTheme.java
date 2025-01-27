@@ -46,7 +46,7 @@ public class EveChartTheme implements ChartTheme {
 			"minmatar", new EveChartTheme(17, 22, 22));
 
 	public static EveChartTheme forName(String name) {
-		return eve.getOrDefault(name == null ? null : name.toLowerCase(), BG);
+		return name == null ? BG : eve.getOrDefault(name.toLowerCase(), BG);
 	}
 
 }
