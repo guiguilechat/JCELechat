@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.libs.logparser.gamelogs.LogLine;
 
 public class CombatLine extends LogLine {
 
-	public static enum SUBTYPE {
+	public enum SUBTYPE {
 		MISS, HIT, POINT, NOS, NEUT
 	}
 
