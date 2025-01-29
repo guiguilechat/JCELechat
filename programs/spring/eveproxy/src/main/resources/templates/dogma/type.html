@@ -209,21 +209,19 @@
 				<table class="table table-striped table-hover">
 					<thead>
 						<tr>
-							<th>region space</th>
-							<th>region name</th>
-							<th>region id</th>
-							<th>system name</th>
-							<th>location id</th>
+							<th>space</th>
+							<th>region</th>
+							<th>system</th>
+							<th>location</th>
 							<th>price</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr th:each="seed : ${seeded}">
-							<td><span th:text="${seed.space}"> region space </span></td>
-							<td><span th:text="${seed.regionName}"> region name </span></td>
-							<td><span th:text="${seed.regionId}"> region id </span></td>
-							<td><span th:text="${seed.systemName}"> system name </span></td>
-							<td><span th:text="${seed.locationId}"> location id </span></td>
+							<td><span th:text="${seed.space}"> space </span></td>
+							<td><span th:text="${seed.region()}"> region </span></td>
+							<td><span th:text="${seed.system()}"> system </span></td>
+							<td><span th:text="${seed.location()}"> location </span></td>
 							<td><span th:text="${seed.formatedPrice()}"> price </span></td>
 						</tr>
 					</tbody>

@@ -9,6 +9,7 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt.AsteroidBelt;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.moon.Moon;
 import fr.guiguilechat.jcelechat.libs.spring.universe.planet.Planet;
+import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.star.Star;
 import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.Stargate;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
@@ -27,9 +28,9 @@ import lombok.Setter;
 
 @Entity(name = "EsiUniverseSolarSystem")
 @Table(name = "esi_universe_solarsystem", indexes = {
-    @Index(columnList = "fetch_active,expires"),
-    @Index(columnList = "constellation_id"),
-    @Index(columnList = "name") })
+		@Index(columnList = "fetch_active,expires"),
+		@Index(columnList = "constellation_id"),
+		@Index(columnList = "name") })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
 @NoArgsConstructor
@@ -87,6 +88,18 @@ public class SolarSystem extends ARemoteEntity<Integer, R_get_universe_systems_s
 		setPosZ(data.position.z);
 		setSecurityClass(data.security_class);
 		setSecurityStatus(data.security_status);
+	}
+
+	public Space getSpace() {
+		String regionUniverse = null;
+		Constellation c = getConstellation();
+		if (c != null) {
+			Region r = c.getRegion();
+			if (r != null) {
+				regionUniverse = r.getUniverse();
+			}
+		}
+		return Space.of(getSecurityStatus(), regionUniverse);
 	}
 
 }

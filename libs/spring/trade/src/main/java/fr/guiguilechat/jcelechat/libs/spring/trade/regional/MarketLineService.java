@@ -44,7 +44,7 @@ public class MarketLineService implements MarketRegionListener {
 
 	public List<Integer[]> listRegionIdTypeId() {
 		return repo.findAllRegionTypeCouple().stream()
-		    .map(arr -> new Integer[] { ((Number) arr[0]).intValue(), ((Number) arr[1]).intValue() }).toList();
+				.map(arr -> new Integer[] { ((Number) arr[0]).intValue(), ((Number) arr[1]).intValue() }).toList();
 	}
 
 	//
@@ -62,15 +62,15 @@ public class MarketLineService implements MarketRegionListener {
 	 * @return all the buy orders of given types, grouped by type id, by price
 	 *           descending
 	 */
-// @Cacheable("marketLocationTypesBo")
+	// @Cacheable("marketLocationTypesBo")
 	public Map<Integer, List<MarketLine>> locationBos(long locationId, Set<Integer> typeIds) {
 		long start = System.currentTimeMillis();
 		Map<Integer, List<MarketLine>> ret = repo
 				.findByLocationIdAndTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(locationId, typeIds)
-		    .collect(Collectors.groupingBy(MarketLine::getTypeId));
+				.collect(Collectors.groupingBy(MarketLine::getTypeId));
 		long fetched = System.currentTimeMillis();
 		log.trace("listed {} locations of BO lines for {} type ids in {}s", ret.size(), typeIds.size(),
-		    (fetched - start) / 1000);
+				(fetched - start) / 1000);
 		return ret;
 	}
 
@@ -78,15 +78,15 @@ public class MarketLineService implements MarketRegionListener {
 	 * @return all the sell orders of given types, grouped by type id, by price
 	 *           ascending
 	 */
-// @Cacheable("marketLocationTypesSo")
+	// @Cacheable("marketLocationTypesSo")
 	public Map<Integer, List<MarketLine>> locationSos(long locationId, Set<Integer> typeIds) {
 		long start = System.currentTimeMillis();
 		Map<Integer, List<MarketLine>> ret = repo
 				.findByLocationIdAndTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(locationId, typeIds)
-		    .collect(Collectors.groupingBy(MarketLine::getTypeId));
+				.collect(Collectors.groupingBy(MarketLine::getTypeId));
 		long fetched = System.currentTimeMillis();
 		log.trace("listed {} locations of SO lines for {} type ids in {}s", ret.size(), typeIds.size(),
-		    (fetched - start) / 1000);
+				(fetched - start) / 1000);
 		return ret;
 	}
 
@@ -207,7 +207,7 @@ public class MarketLineService implements MarketRegionListener {
 	 * easiness
 	 */
 	public static record LocatedBestOffer(int regionId, long locationId, int typeId, double bestPrice)
-			implements Serializable {
+	implements Serializable {
 	}
 
 	/**
@@ -234,7 +234,8 @@ public class MarketLineService implements MarketRegionListener {
 	 */
 	public List<LocatedBestOffer> seedLocations(int typeId) {
 		return repo.findSeedOffers(typeId).stream()
-				.map(arr -> new LocatedBestOffer((int) arr[0], (long) arr[1], typeId, (double) arr[2])).toList();
+		    .map(arr -> new LocatedBestOffer((int) arr[0], (long) arr[1], typeId, (double) arr[2]))
+		    .toList();
 	}
 
 	//
@@ -294,7 +295,7 @@ public class MarketLineService implements MarketRegionListener {
 	public List<OfferStat> offerStatsRegion(int regionId, int typeId) {
 		List<MarketLine> sos = repo.findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, false);
 		List<MarketLine> bos = new ArrayList<>(
-		    repo.findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, true));
+				repo.findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, true));
 		Collections.reverse(bos);
 		return sellGain(sos, bos);
 	}
@@ -310,13 +311,13 @@ public class MarketLineService implements MarketRegionListener {
 	@Override
 	public List<String> getCacheList() {
 		return List.of(
-			"marketAll",
-			"marketLocation",
-			"marketRegion",
-			"marketBoValueLocation",
-			"marketSoValueLocation",
-			"marketLocationTypesBo",
-			"marketLocationTypesSo");
+				"marketAll",
+				"marketLocation",
+				"marketRegion",
+				"marketBoValueLocation",
+				"marketSoValueLocation",
+				"marketLocationTypesBo",
+				"marketLocationTypesSo");
 	}
 
 

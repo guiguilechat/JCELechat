@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
@@ -37,6 +39,8 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.Space;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
@@ -52,21 +56,23 @@ public class DogmaHtmlController {
 
 	private final CategoryService categoryService;
 
-	private final LinkCorporationOfferService linkCorporationOfferService;
-
 	private final EivService eivService;
-
-	private final MaterialService materialService;
 
 	private final GroupService groupService;
 
 	@Lazy
-	private final MarketHtmlController marketHtmlController;
-
-	@Lazy
 	private final HistoryRestController historyRestController;
 
+	private final LinkCorporationOfferService linkCorporationOfferService;
+
+	@Lazy
+	private final MarketHtmlController marketHtmlController;
+
+	private final MarketLineService marketLineService;
+
 	private final MarketOrderService marketOrderService;
+
+	private final MaterialService materialService;
 
 	@Lazy
 	private final NpcHtmlController npcHtmlController;
@@ -77,32 +83,71 @@ public class DogmaHtmlController {
 
 	private final RegionService regionService;
 
-	private final MarketLineService marketLineService;
-
 	private final StationService stationService;
 
 	private final TypeService typeService;
 
-	public static record Seed(String space, String regionName, int regionId, String systemName, long locationId,
-	    double price) {
+	public static record Seed(String space, String regionName, int regionId, String systemName, int systemId,
+			String locationName, long locationId,
+			double price) {
 
 		public String formatedPrice() {
 			return FormatTools.formatPrice(price);
 		}
+
+		public String location() {
+			return locationName + " (" + locationId + ")";
+		}
+
+		public String region() {
+			return regionName + " (" + regionId + ")";
+		}
+
+		public String system() {
+			return systemName + " (" + systemId + ")";
+		}
+
+		public static Seed of(Region region, int regionId, SolarSystem solSys, String locationName, long locationId,
+				double price) {
+			return new Seed(
+					Space.of(solSys == null ? -1.0f : solSys.getSecurityStatus(),
+							region == null ? null : region.getUniverse())
+					.getName(),
+					region == null ? null : region.name(),
+							regionId,
+							solSys == null ? "unknown system" : solSys.getName(),
+									solSys == null ? -1 : solSys.getId(),
+											locationName,
+											locationId,
+											price);
+		}
 	}
 
-	Seed seed(LocatedBestOffer ol) {
-		Optional<Region> or = regionService.findById(ol.regionId());
-		String space = or.isPresent() ? or.get().getUniverse() : "ø";
-		String regionName = or.isPresent() ? or.get().getName() : "unknown region " + ol.regionId();
-		Station os = stationService.byId((int) ol.locationId());
-		String systemName = os != null ? os.getSolarSystem().getName() : "unknown location " + ol.locationId();
-		return new Seed(space, regionName, ol.regionId(), systemName, ol.locationId(), ol.bestPrice());
+	List<Seed> seeds(List<LocatedBestOffer> offers) {
+		List<Integer> seedStationIds = offers.stream().filter(s -> s.locationId() < Integer.MAX_VALUE)
+				.mapToInt(s -> (int) s.locationId()).distinct().boxed().toList();
+		Map<Integer, Station> stationId2Station = stationService.findById(seedStationIds).stream()
+				.collect(Collectors.toMap((Function<? super Station, ? extends Integer>) Station::getId, s -> s));
+		List<Integer> seedRegionIds = offers.stream().mapToInt(LocatedBestOffer::regionId).distinct().boxed().toList();
+		Map<Integer, Region> regionId2Region = regionService.findById(seedRegionIds).stream()
+				.collect(Collectors.toMap((Function<? super Region, ? extends Integer>) Region::getId, r -> r));
+		Map<Long, SolarSystem> stationId2SolSys = stationService.getSolarSystems(seedStationIds);
+		return offers.stream()
+				.map(off -> {
+					Region r = regionId2Region.get(off.regionId());
+					SolarSystem solSys = stationId2SolSys.get(off.locationId());
+					Station sta = off.locationId() < Integer.MAX_VALUE ? stationId2Station.get((int) off.locationId()) : null;
+					return Seed.of(r, off.regionId(), solSys, sta == null ? "unresolved" : sta.name(), off.locationId(),
+							off.bestPrice());
+				})
+				.sorted(Comparator.comparing((Function<? super Seed, ? extends String>) Seed::space))
+				.sorted(Comparator.comparing((Function<? super Seed, ? extends Double>) Seed::price))
+				.toList();
 	}
 
 	public URI typeUri(int typeId) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getType", null, "ti", "" + typeId).build()
-		    .toUri();
+				.toUri();
 	}
 
 	public URI uri(Type type) {
@@ -114,10 +159,10 @@ public class DogmaHtmlController {
 
 	public LinkedProduct linkedProduct(Product product) {
 		return new LinkedProduct(
-		    uri(product.getType()).toString(),
-		    product.getType(),
-		    product.getQuantity(),
-		    product.getProbability());
+				uri(product.getType()).toString(),
+				product.getType(),
+				product.getQuantity(),
+				product.getProbability());
 	}
 
 	public static record LinkedMaterial(String url, Type type, long quantity) {
@@ -125,16 +170,16 @@ public class DogmaHtmlController {
 
 	public LinkedMaterial linkedMaterial(Material material) {
 		return new LinkedMaterial(
-		    uri(material.getType()).toString(),
-		    material.getType(),
-		    material.getQuantity());
+				uri(material.getType()).toString(),
+				material.getType(),
+				material.getQuantity());
 	}
 
 	public LinkedMaterial linkedMaterial(Type type, long quantity) {
 		return new LinkedMaterial(
-		    uri(type).toString(),
-		    type,
-		    quantity);
+				uri(type).toString(),
+				type,
+				quantity);
 	}
 
 	public LinkedMaterial linkedMaterial(int typeId, long quantity) {
@@ -142,17 +187,17 @@ public class DogmaHtmlController {
 	}
 
 	public static record LinkedActivity(String url, Type type, ACTIVITY_TYPE activity, int quantity, double probability,
-	    Product product) {
+			Product product) {
 	}
 
 	public LinkedActivity linkedActivity(Product product) {
 		return new LinkedActivity(
-		    uri(product.getActivity().getType()).toString(),
-		    product.getActivity().getType(),
-		    product.getActivity().getActivity(),
-		    product.getQuantity(),
-		    product.getProbability(),
-		    product);
+				uri(product.getActivity().getType()).toString(),
+				product.getActivity().getType(),
+				product.getActivity().getActivity(),
+				product.getQuantity(),
+				product.getProbability(),
+				product);
 	}
 
 	public static record LinkedUsage(String url, Type type, int quantity) {
@@ -160,9 +205,9 @@ public class DogmaHtmlController {
 
 	public LinkedUsage linkedUsage(Material material) {
 		return new LinkedUsage(
-		    uri(material.getActivity().getType()).toString(),
-		    material.getActivity().getType(),
-		    material.getQuantity());
+				uri(material.getActivity().getType()).toString(),
+				material.getActivity().getType(),
+				material.getQuantity());
 	}
 
 	public static record RegionBestPrice(String regionName, double price) {
@@ -183,7 +228,7 @@ public class DogmaHtmlController {
 	@Transactional
 	@GetMapping("/type/{typeFiltering}/{typeFilter}")
 	public String getType(Model model, @PathVariable String typeFiltering,
-	    @PathVariable String typeFilter) {
+			@PathVariable String typeFilter) {
 		List<Type> types = typeService.typesFilter(typeFiltering, typeFilter);
 		if (types.size() == 1) {
 			Type t = types.get(0);
@@ -217,69 +262,67 @@ public class DogmaHtmlController {
 			}
 
 			List<LinkedProduct> manufProd = productService.findProducts(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
-			    .map(this::linkedProduct)
-			    .sorted(Comparator.comparing(u -> u.type().name()))
-			    .toList();
+					.map(this::linkedProduct)
+					.sorted(Comparator.comparing(u -> u.type().name()))
+					.toList();
 			model.addAttribute("manufacturingProd", manufProd);
 
 			List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.manufacturing)
-			    .stream()
-			    .map(this::linkedMaterial)
-			    .sorted(Comparator.comparing(u -> u.type().name()))
-			    .toList();
+					.stream()
+					.map(this::linkedMaterial)
+					.sorted(Comparator.comparing(u -> u.type().name()))
+					.toList();
 			model.addAttribute("manufacturingMats", manufMats);
 
 			model.addAttribute("reactionProd",
-			    productService.findProducts(t.getId(), ACTIVITY_TYPE.reaction).stream()
-			        .map(this::linkedProduct)
-			        .sorted(Comparator.comparing(u -> u.type().name()))
-			        .toList());
+					productService.findProducts(t.getId(), ACTIVITY_TYPE.reaction).stream()
+					.map(this::linkedProduct)
+					.sorted(Comparator.comparing(u -> u.type().name()))
+					.toList());
 
 			model.addAttribute("reactionMats",
-			    materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.reaction).stream()
-			        .map(this::linkedMaterial)
-			        .sorted(Comparator.comparing(u -> u.type().name()))
-			        .toList());
+					materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.reaction).stream()
+					.map(this::linkedMaterial)
+					.sorted(Comparator.comparing(u -> u.type().name()))
+					.toList());
 
-			model.addAttribute("seeded",
-			    marketLineService.seedLocations(t.getId()).stream()
-			        .map(this::seed)
-			        .toList());
+			List<LocatedBestOffer> seedOffers = marketLineService.seedLocations(t.getId());
+			model.addAttribute("seeded", seeds(seedOffers));
 
 			List<LinkedActivity> productOf = productService
-			    .findProducers(List.of(t.getId()), List.of(ACTIVITY_TYPE.values())).stream()
-			    .map(this::linkedActivity)
-			    .sorted(Comparator.comparing(u -> u.type().name()))
-			    .toList();
+					.findProducers(List.of(t.getId()), List.of(ACTIVITY_TYPE.values())).stream()
+					.map(this::linkedActivity)
+					.sorted(Comparator.comparing(u -> u.type().name()))
+					.toList();
 			model.addAttribute("productOf", productOf);
 
 			List<LinkedLPOffer> offers = linkCorporationOfferService.producing(t).stream()
-			    .map(npcHtmlController::linkedLPOffer)
-			    .sorted(Comparator.comparing(LinkedLPOffer::name))
-			    .toList();
+					.map(npcHtmlController::linkedLPOffer)
+					.sorted(Comparator.comparing(LinkedLPOffer::name))
+					.toList();
 			model.addAttribute("offers", offers);
 
 			model.addAttribute("manufacturingUses",
-			    materialService.findUsages(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
-			        .map(this::linkedUsage)
-			        .sorted(Comparator.comparing(u -> u.type().name()))
-			        .toList());
+					materialService.findUsages(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
+					.map(this::linkedUsage)
+					.sorted(Comparator.comparing(u -> u.type().name()))
+					.toList());
 
 			model.addAttribute("reactionUses",
-			    materialService.findUsages(t.getId(), ACTIVITY_TYPE.reaction).stream()
-			        .map(this::linkedUsage)
-			        .sorted(Comparator.comparing(u -> u.type().name()))
-			        .toList());
+					materialService.findUsages(t.getId(), ACTIVITY_TYPE.reaction).stream()
+					.map(this::linkedUsage)
+					.sorted(Comparator.comparing(u -> u.type().name()))
+					.toList());
 
 			model.addAttribute("adjusted",
-			    FormatTools.formatPrice(priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue()));
+					FormatTools.formatPrice(priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue()));
 			model.addAttribute("average", FormatTools.formatPrice(priceService.average().getOrDefault(t.getId(), 0.0)));
 			if (!manufProd.isEmpty()) {
 				model.addAttribute("eiv", eivService.eiv(t.getId()));
 			}
 			if (productOf.size() == 1) {
 				model.addAttribute("bpeiv",
-				    eivService.eiv(productOf.get(0).product().getActivity().getType().getId()));
+						eivService.eiv(productOf.get(0).product().getActivity().getType().getId()));
 			}
 			List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
 			if (bos != null && !bos.isEmpty()) {
@@ -292,21 +335,21 @@ public class DogmaHtmlController {
 
 			Map<Integer, String> regionNamesById = regionService.namesById();
 			model.addAttribute("regionSell",
-			    marketOrderService.lowestSellByRegion(t.getId())
-			        .entrySet().stream()
-			        .map(e -> RegionBestPrice.of(e, regionNamesById))
-			        .sorted(Comparator.comparing(RegionBestPrice::price))
-			        .toList());
+					marketOrderService.lowestSellByRegion(t.getId())
+					.entrySet().stream()
+					.map(e -> RegionBestPrice.of(e, regionNamesById))
+					.sorted(Comparator.comparing(RegionBestPrice::price))
+					.toList());
 			model.addAttribute("regionBuy",
-			    marketOrderService.highestBuyByRegion(t.getId())
-			        .entrySet().stream()
-			        .map(e -> RegionBestPrice.of(e, regionNamesById))
-			        .sorted(Comparator.comparing(rp -> -rp.price()))
-			        .toList());
+					marketOrderService.highestBuyByRegion(t.getId())
+					.entrySet().stream()
+					.map(e -> RegionBestPrice.of(e, regionNamesById))
+					.sorted(Comparator.comparing(rp -> -rp.price()))
+					.toList());
 		} else {
-				model.addAttribute("name", "unknown type " + typeFilter);
-				model.addAttribute("types",
-				    types.stream().sorted(Comparator.comparing(Type::name)).map(this::linkedType).toList());
+			model.addAttribute("name", "unknown type " + typeFilter);
+			model.addAttribute("types",
+					types.stream().sorted(Comparator.comparing(Type::name)).map(this::linkedType).toList());
 		}
 		return "dogma/type";
 	}
@@ -314,7 +357,7 @@ public class DogmaHtmlController {
 	@Transactional
 	@GetMapping("/type/{typeFiltering}")
 	public String getTypeParam(Model model, @PathVariable String typeFiltering,
-	    String filter) {
+			String filter) {
 		return getType(model, typeFiltering, filter);
 	}
 
@@ -322,7 +365,7 @@ public class DogmaHtmlController {
 	@GetMapping("/types")
 	public String getTypesIndex(Model model) {
 		model.addAttribute("categories", categoryService.allById().values().stream()
-		    .sorted(Comparator.comparing(Category::name))
+				.sorted(Comparator.comparing(Category::name))
 				.map(this::linkedCategory)
 				.toList());
 		return "dogma/types";
@@ -330,7 +373,7 @@ public class DogmaHtmlController {
 
 	public URI uri(Group group) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getGroup", null, group.getId()).build()
-		    .toUri();
+				.toUri();
 	}
 
 	public static record LinkedType(String url, Type type, String name) {
@@ -365,9 +408,9 @@ public class DogmaHtmlController {
 		}
 
 		model.addAttribute("types", typeService.byGroupId(groupId).stream()
-		    .sorted(Comparator.comparing(Type::name))
-		    .map(this::linkedType)
-		    .toList());
+				.sorted(Comparator.comparing(Type::name))
+				.map(this::linkedType)
+				.toList());
 
 		return "dogma/group";
 	}
@@ -408,17 +451,17 @@ public class DogmaHtmlController {
 		}
 
 		model.addAttribute("groups", groupService.byCatId(categoryId).stream()
-		    .sorted(Comparator.comparing(Group::getName))
-		    .map(this::linkedGroup)
-		    .toList());
+				.sorted(Comparator.comparing(Group::getName))
+				.map(this::linkedGroup)
+				.toList());
 
 		return "dogma/category";
 	}
 
 	public URI uri(Category category) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getCategory", null,
-		    category.getId()).build()
-		    .toUri();
+				category.getId()).build()
+				.toUri();
 	}
 
 	static record LinkedCategory(String url, Category category) {
