@@ -13,10 +13,9 @@ import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 /**
- * implement pricing over a filtered list of market orders. also shows a history
- * but this is delegated to root market. Basically just keeps the filtered order
+ * implement pricing over a filtered list of market orders. Basically just keeps
+ * the filtered order
  * and a cache of the type orders based on those filtered orders.
- *
  */
 public class ProxyRegionalMarket implements IPricing {
 

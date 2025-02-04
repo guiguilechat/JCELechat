@@ -16,11 +16,12 @@ public class TypesTools {
 	/**
 	 * make a predicate to match a type.
 	 * <p>
-	 * The filter list argument is tokenized by spaces, with the predicate checking
-	 * each token
+	 * The filter argument is split by spaces, with the returned predicate checking
+	 * each of those token
 	 * <ul>
 	 * <li>default is : token is contained ignore case in the type's name, group
-	 * name, or category name</li>
+	 * name, or category name. so "rig" filter will match all types of group
+	 * frigate, any "X frigate" skill, any "rig" category item, etc.</li>
 	 * <li>tokens starting with "-" are negated (so "-ship" will ignore all types
 	 * that contain "ship" in their name, group name or cat name)</li>
 	 * <li>tokens containing ":" refer to specific search depending on the prefix
@@ -34,7 +35,18 @@ public class TypesTools {
 	 * </li>
 	 * </ul>
 	 * </p>
-	 * 
+	 * <p>
+	 * Implementation : <br />
+	 * The predicate contains a list of filter token to contain, based on the
+	 * filter's words.
+	 * When checking a type, the predicate generates its list of type tokens, which
+	 * include its name's, group's,
+	 * and category's words, as well as specific token for group name ("g:X") and
+	 * category name ("c:X"), metalevel("m:X") and techlevel("t:X").<br />
+	 * For a given type, the predicate validates it iff each filter token is
+	 * contained in at least one token of the type
+	 * </p>
+	 *
 	 * @param <T>
 	 * @param filtersWithSpace a string containing the tokens separated by spaces
 	 * @return a predicate that returns true when a type matches all the existing
@@ -54,15 +66,17 @@ public class TypesTools {
 				return false;
 			}
 			List<String> tokens = Stream.of(
-			    Stream.of(t.name().split(" ")),
-			    Stream.of(t.name().split(" ")).map(n -> "tn:" + n),
-			    Stream.of(t.group().split(" ")),
-			    Stream.of(t.group().split(" ")).map(n -> "gn:" + n),
-			    Stream.of(t.category().split(" ")),
-			    Stream.of(t.category().split(" ")).map(n -> "cn:" + n),
-			    Stream.of("p:" + (t.type().published)),
-			    Stream.of("t:"+TechLevel.INSTANCE.value(t.type()), "m:"+MetaLevelOld.INSTANCE.value(t.type()))
-			    )
+					Stream.of(t.name().split(" ")),
+					Stream.of(t.name().split(" ")).map(n -> "tn:" + n),
+					Stream.of(t.group().split(" ")),
+					Stream.of(t.group().split(" ")).map(n -> "gn:" + n),
+					Stream.of(t.category().split(" ")),
+					Stream.of(t.category().split(" ")).map(n -> "cn:" + n),
+					Stream.of("p:" + t.type().published),
+					Stream.of("t:" + TechLevel.INSTANCE.value(t.type()), "tl:" + TechLevel.INSTANCE.value(t.type()),
+							"m:" + MetaLevelOld.INSTANCE.value(t.type()), "ml:" + MetaLevelOld.INSTANCE.value(t.type())
+							)
+					)
 					.flatMap(s -> s).map(String::toLowerCase).distinct().toList();
 			for (String req : required) {
 				if (tokens.stream().filter(tk -> tk.contains(req)).findAny().isEmpty()) {

@@ -26,6 +26,9 @@ public class ESITools {
 		return convertISODateTimeAsOffsetDateTime(date);
 	}
 
+	/**
+	 * converts a timestamp from a returned esi field into an instant
+	 */
 	public static Instant fieldInstant(String date) {
 		return convertISODateTimeAsOffsetDateTime(date).toInstant();
 	}
