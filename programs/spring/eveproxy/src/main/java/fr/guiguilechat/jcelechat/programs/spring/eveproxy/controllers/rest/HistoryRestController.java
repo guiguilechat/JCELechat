@@ -473,7 +473,7 @@ public class HistoryRestController {
 						Optional.ofNullable(accept),
 						Optional.ofNullable(builder),
 						Optional.ofNullable(theme),
-						Optional.ofNullable(DEFAULT_AVERAGE_DAYS))
+		        null)
 				.build()
 				.toUri();
 	}

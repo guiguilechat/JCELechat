@@ -116,7 +116,8 @@ extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[]
 		long start = System.currentTimeMillis();
 		log.info("deduplicating lines for {} entries", entries.size());
 		List<HistoryLine> toDelete = new ArrayList<>();
-		Map<HistoryReq, List<HistoryLine>> byReq = historyLineService.byReq(entries).stream()
+		List<HistoryLine> allLines = historyLineService.byReq(entries);
+		Map<HistoryReq, List<HistoryLine>> byReq = allLines.stream()
 				.collect(Collectors.groupingBy((Function<? super HistoryLine, ? extends HistoryReq>) HistoryLine::getFetchResource));
 		long postFetch = System.currentTimeMillis();
 		for (Entry<HistoryReq, List<HistoryLine>> e : byReq.entrySet()) {
@@ -130,22 +131,23 @@ extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[]
 				}
 			}
 			if (reqDeleted > 0) {
-				log.debug("remove {} duplicates for request {}", reqDeleted, e.getKey().getId());
+				log.debug(" {}/{} lines are duplicates for request id {}", reqDeleted, e.getValue().size(), e.getKey().getId());
 			}
 		}
 		long postAnalyze = System.currentTimeMillis();
 		if (toDelete.size() > 0) {
 			log.info("deleting {} duplicates", toDelete.size());
 			historyLineService.delete(toDelete);
-			long postDelete = System.currentTimeMillis();
-			log.trace("deduplicated {} lines for {} HistoryReq in {}ms (fetch={} analyze={} delete={})",
-					toDelete.size(),
-					entries.size(),
-					postDelete - start,
-					postFetch - start,
-					postAnalyze - postFetch,
-					postDelete - postAnalyze);
 		}
+		long postDelete = System.currentTimeMillis();
+		log.trace("deduplicated {}/{} lines for {} HistoryReq in {}ms (fetch={} analyze={} delete={})",
+				toDelete.size(),
+				allLines.size(),
+				entries.size(),
+				postDelete - start,
+				postFetch - start,
+				postAnalyze - postFetch,
+				postDelete - postAnalyze);
 	}
 
 	@Transactional
