@@ -367,7 +367,7 @@ public class HistoryRestController {
 		XYBarRenderer quantityRenderer = new ClusteredXYBarRenderer();
 		quantityRenderer.setBarPainter(new StandardXYBarPainter());
 		quantityRenderer.setShadowVisible(false);
-		// quantityRenderer.setMargin(0.3);
+		quantityRenderer.setMargin(0.1);
 
 		quantityRenderer.setSeriesPaint(0, volColors.get(0));
 		for (int i = 0; i < cumulatedVolumeSeries.size(); i++) {
