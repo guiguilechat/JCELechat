@@ -10,7 +10,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
 import jakarta.persistence.Table;
-import jakarta.persistence.UniqueConstraint;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -21,9 +20,11 @@ import lombok.Setter;
 @Table(name = "esi_trade_historyline", indexes = {
 		@Index(columnList = "fetch_resource_id"),
 		@Index(columnList = "date"),
-}, uniqueConstraints = {
-    @UniqueConstraint(columnNames = { "fetched_resource_id", "date" })
-})
+}
+// , uniqueConstraints = {
+// @UniqueConstraint(columnNames = { "fetched_resource_id", "date" })
+// }
+		)
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder

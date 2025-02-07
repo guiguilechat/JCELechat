@@ -38,6 +38,14 @@ public class HistoryLineService {
 		return repo.findByFetchResourceRegionIdAndFetchResourceTypeId(regionId, typeId);
 	}
 
+	public List<HistoryLine> byReq(Iterable<HistoryReq> req) {
+		return repo.findAllByFetchResourceIn(req);
+	}
+
+	public void delete(Iterable<HistoryLine> lines) {
+		repo.deleteAll(lines);
+	}
+
 	/**
 	 * prioritize the fetch of this type, and return the already known data.
 	 *
@@ -54,9 +62,9 @@ public class HistoryLineService {
 		return new AggregatedHL(
 				(Instant) line[0],
 				((Number) line[1]).longValue(),
-		    ((Number) line[2]).doubleValue(),
-		    ((Number) line[3]).doubleValue(),
-		    ((Number) line[4]).doubleValue(),
+				((Number) line[2]).doubleValue(),
+				((Number) line[3]).doubleValue(),
+				((Number) line[4]).doubleValue(),
 				((Number) line[5]).longValue(),
 				((Number) line[6]).intValue());
 	}

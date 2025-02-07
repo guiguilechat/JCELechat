@@ -10,24 +10,26 @@ import org.springframework.data.repository.NoRepositoryBean;
 
 @NoRepositoryBean
 public interface IFetchedListElementRepository<
-		ListType extends AFetchedList<?, ?, ?>,
-		ListElement extends AFetchedListElement<?, ListType>
-	> extends JpaRepository<ListElement, Long> {
+ListType extends AFetchedList<?, ?, ?>,
+ListElement extends AFetchedListElement<?, ListType>
+> extends JpaRepository<ListElement, Long> {
 
-		default void removeForFetcher(Iterable<ListType> fetchResources) {
-			List<? extends Number> ids = StreamSupport.stream(fetchResources.spliterator(), false)
-			    .map(AFetchedList::getId)
-			    .toList();
-			deleteByFetchResourceIdIn(ids);
-		}
+	default void removeForFetcher(Iterable<ListType> fetchResources) {
+		List<? extends Number> ids = StreamSupport.stream(fetchResources.spliterator(), false)
+				.map(AFetchedList::getId)
+				.toList();
+		deleteByFetchResourceIdIn(ids);
+	}
 
-		/**
-		 * MUST be overriden in sub classes (just change to the actual entity name)
-		 */
-		@Modifying
-		@Query("delete from EntityName where fetchResource.id in :ids")
-		void deleteByFetchResourceIdIn(Iterable<? extends Number> ids);
+	/**
+	 * MUST be overriden in sub classes (just change to the actual entity name)
+	 */
+	@Modifying
+	@Query("delete from EntityName where fetchResource.id in :ids")
+	void deleteByFetchResourceIdIn(Iterable<? extends Number> ids);
 
-		public List<ListElement> findAllByFetchResourceId(int id);
+	List<ListElement> findAllByFetchResourceId(int id);
+
+		List<ListElement> findAllByFetchResourceIn(Iterable<ListType> fetchResources);
 
 }

@@ -23,8 +23,7 @@ from
 where
 	line.fetchResource.region.id = :regionId
 	and line.fetchResource.type.id = :typeId
-""")
-	public List<HistoryLine> findByFetchResourceRegionIdAndFetchResourceTypeId(int regionId, int typeId);
+""") List<HistoryLine> findByFetchResourceRegionIdAndFetchResourceTypeId(int regionId, int typeId);
 
 	@Query("""
 select
@@ -33,8 +32,7 @@ from
 	EsiTradeHistoryLine line
 where
 	line.fetchResource.type.id = :typeId
-""")
-	public List<HistoryLine> findByFetchResourceTypeId(int typeId);
+""") List<HistoryLine> findByFetchResourceTypeId(int typeId);
 
 	@Query("""
 select
@@ -51,8 +49,7 @@ where
 	line.fetchResource.type.id = :typeId
 	and line.date>=:from
 group by date
-""")
-	public List<Object[]> aggregated(int typeId, Instant from);
+""") List<Object[]> aggregated(int typeId, Instant from);
 
 	@Query("""
 select
@@ -64,8 +61,7 @@ where
 	line.fetchResource in :reqIds
 group by
 	line.fetchResource
-""")
-	public List<Object[]> findLastByReqIn(Iterable<HistoryReq> reqIds);
+""") List<Object[]> findLastByReqIn(Iterable<HistoryReq> reqIds);
 
 	/**
 	 * @param minInstant minimimum date, included
@@ -91,7 +87,6 @@ group by
 order by
  	sum(average*volume) desc
 limit :limit
-""")
-	public List<Object[]> sortSalesByTotalValue(Instant minInstant, Instant maxInstant, int limit);
+""") List<Object[]> sortSalesByTotalValue(Instant minInstant, Instant maxInstant, int limit);
 
 }

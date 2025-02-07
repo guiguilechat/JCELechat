@@ -2,9 +2,11 @@ package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 
 import java.time.Instant;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -22,7 +24,9 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -30,6 +34,8 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.history")
 @Order(5) // depends on type, region, and market line
+@Getter
+@Setter
 public class HistoryReqService
 extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[], HistoryReqRepository> {
 
@@ -44,6 +50,12 @@ extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[]
 
 	@Lazy
 	private final TypeService typeService;
+
+	/**
+	 * when true, on update of history data also checks and remove duplicate (that
+	 * is, multiple entries with same date) for each historyreq
+	 */
+	protected boolean deduplicate = false;
 
 
 	@Override
@@ -92,6 +104,48 @@ extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[]
 		}
 		log.debug("added {} new history lines for {} requirements", newLines.size(), responseOk.size());
 		historyLineService.saveAll(newLines);
+		if (deduplicate) {
+			deduplicate(responseOk.keySet());
+		}
+	}
+
+	protected void deduplicate(Collection<HistoryReq> entries) {
+		if (entries == null || entries.isEmpty()) {
+			return;
+		}
+		long start = System.currentTimeMillis();
+		log.info("deduplicating lines for {} entries", entries.size());
+		List<HistoryLine> toDelete = new ArrayList<>();
+		Map<HistoryReq, List<HistoryLine>> byReq = historyLineService.byReq(entries).stream()
+				.collect(Collectors.groupingBy((Function<? super HistoryLine, ? extends HistoryReq>) HistoryLine::getFetchResource));
+		long postFetch = System.currentTimeMillis();
+		for (Entry<HistoryReq, List<HistoryLine>> e : byReq.entrySet()) {
+			Map<Instant, List<HistoryLine>> byDate = e.getValue().stream().collect(Collectors.groupingBy((Function<? super HistoryLine, ? extends Instant>) HistoryLine::getDate));
+			int reqDeleted = 0;
+			for (List<HistoryLine> lines : byDate.values()) {
+				if (lines.size() > 1) {
+					List<HistoryLine> sublist = lines.subList(1, lines.size());
+					toDelete.addAll(sublist);
+					reqDeleted += sublist.size();
+				}
+			}
+			if (reqDeleted > 0) {
+				log.debug("remove {} duplicates for request {}", reqDeleted, e.getKey().getId());
+			}
+		}
+		long postAnalyze = System.currentTimeMillis();
+		if (toDelete.size() > 0) {
+			log.info("deleting {} duplicates", toDelete.size());
+			historyLineService.delete(toDelete);
+			long postDelete = System.currentTimeMillis();
+			log.trace("deduplicated {} lines for {} HistoryReq in {}ms (fetch={} analyze={} delete={})",
+					toDelete.size(),
+					entries.size(),
+					postDelete - start,
+					postFetch - start,
+					postAnalyze - postFetch,
+					postDelete - postAnalyze);
+		}
 	}
 
 	@Transactional
