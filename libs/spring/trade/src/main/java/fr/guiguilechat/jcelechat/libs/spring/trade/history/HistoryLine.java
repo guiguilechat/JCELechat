@@ -10,6 +10,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
 import jakarta.persistence.Table;
+import jakarta.persistence.UniqueConstraint;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -18,8 +19,10 @@ import lombok.Setter;
 
 @Entity(name = "EsiTradeHistoryLine")
 @Table(name = "esi_trade_historyline", indexes = {
-    @Index(columnList = "fetch_resource_id"),
-    @Index(columnList = "date"),
+		@Index(columnList = "fetch_resource_id"),
+		@Index(columnList = "date"),
+}, uniqueConstraints = {
+    @UniqueConstraint(columnNames = { "fetched_resource_id", "date" })
 })
 @AllArgsConstructor
 @NoArgsConstructor
@@ -54,7 +57,7 @@ public class HistoryLine extends AFetchedListElement<HistoryLine, HistoryReq> {
 	public static HistoryLine of(HistoryReq req, R_get_markets_region_id_history line) {
 		HistoryLine ret = builder()
 				.average(line.average)
-		    .date(dateInstant(line.date))
+				.date(dateInstant(line.date))
 				.highest(line.highest)
 				.lowest(line.lowest)
 				.orderCount(line.order_count)
@@ -66,7 +69,7 @@ public class HistoryLine extends AFetchedListElement<HistoryLine, HistoryReq> {
 
 	static Instant dateInstant(String date) {
 		return DateTimeFormatter.ISO_DATE.parse(date, LocalDate::from).atStartOfDay()
-		    .toInstant(ZoneOffset.UTC);
+				.toInstant(ZoneOffset.UTC);
 	}
 
 }

@@ -31,7 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.trade.history")
 @Order(5) // depends on type, region, and market line
 public class HistoryReqService
-    extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[], HistoryReqRepository> {
+extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[], HistoryReqRepository> {
 
 	@Lazy
 	private final HistoryLineService historyLineService;
@@ -49,7 +49,7 @@ public class HistoryReqService
 	@Override
 	protected Requested<R_get_markets_region_id_history[]> fetchData(Long id, Map<String, String> properties) {
 		return ESIRawPublic.INSTANCE.get_markets_history(HistoryReq.getRegionId(id),
-		    HistoryReq.getTypeId(id), properties);
+				HistoryReq.getTypeId(id), properties);
 	}
 
 	@Override
@@ -63,7 +63,7 @@ public class HistoryReqService
 	public Instant nextUpdate(boolean remain, Instant now) {
 		if (!remain) {
 			Map<Integer, List<Integer[]>> regionIdToRegionType = marketLineService.listRegionIdTypeId().stream()
-			    .collect(Collectors.groupingBy(arr -> arr[0]));
+					.collect(Collectors.groupingBy(arr -> arr[0]));
 			for (Entry<Integer, List<Integer[]>> e : regionIdToRegionType.entrySet()) {
 				int regionId = e.getKey();
 				List<Long> typeIds = e.getValue().stream().map(arr -> HistoryReq.makeId(arr[0], arr[1])).toList();
@@ -85,7 +85,7 @@ public class HistoryReqService
 			R_get_markets_region_id_history[] lines = e.getValue();
 			Instant lastDate = reqToLastDate.get(req);
 			for (R_get_markets_region_id_history line : lines) {
-				if (lastDate == null || !lastDate.isAfter(HistoryLine.dateInstant(line.date))) {
+				if (lastDate == null || lastDate.isBefore(HistoryLine.dateInstant(line.date))) {
 					newLines.add(HistoryLine.of(req, line));
 				}
 			}
