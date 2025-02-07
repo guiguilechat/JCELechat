@@ -21,6 +21,7 @@ import org.jfree.chart.axis.DateAxis;
 import org.jfree.chart.axis.DateTickUnit;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.ClusteredXYBarRenderer;
 import org.jfree.chart.renderer.xy.StandardXYBarPainter;
 import org.jfree.chart.renderer.xy.XYBarRenderer;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
@@ -132,7 +133,8 @@ public class HistoryRestController {
 			HttpServletResponse response,
 			@RequestParam @Parameter(description = "format of the image. values depend on the builder chosen. typically jpg, or png (ignore case)") Optional<String> accept,
 			@RequestParam @Parameter(description = "builder for the chart. Can be \"jfreechart\" or \"xchart\"(default)") Optional<ChartBuilder> builder,
-			@RequestParam @Parameter(description = "theme to use for the chart color") Optional<String> theme,
+			@RequestParam @Parameter(description = "theme to use for the chart color. Can be a number (0x123, 547 , etc) or a racial style(from the game styling)") Optional<String> theme,
+			@RequestParam @Parameter(description = "list of days to use to draw the average price") Optional<List<Integer>> averageDays,
 			@RequestParam @Parameter(description = "maximum days to show. Default 10 years") Optional<Integer> days)
 					throws IOException {
 		Type type = typeService.byId(typeId);
@@ -157,7 +159,8 @@ public class HistoryRestController {
 		ChartTheme ct = ChartTheme.forName(theme.orElse(null));
 		switch (ChartBuilder.orDefault(builder)) {
 		case jfreechart:
-			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, title, "items", ct), accept);
+			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, averageDays, title, "items", ct),
+					accept);
 			break;
 		case xchart:
 			RestControllerHelper.addResponseXChart(response, drawXChart(sortedData, title), accept);
@@ -186,7 +189,8 @@ public class HistoryRestController {
 			HttpServletResponse response,
 			@RequestParam @Parameter(description = "format of the image. values depend on the builder chosen. typically jpg, or png (ignore case)") Optional<String> accept,
 			@RequestParam @Parameter(description = "builder for the chart. Can be \"jfreechart\" or \"xchart\"(default)") Optional<ChartBuilder> builder,
-			@RequestParam @Parameter(description = "theme to use for the chart color") Optional<String> theme)
+			@RequestParam @Parameter(description = "theme to use for the chart color. Can be a number (0x123, 547 , etc) or a racial style(from the game styling)") Optional<String> theme,
+			@RequestParam @Parameter(description = "list of days to use to draw the average price") Optional<List<Integer>> averageDays)
 					throws IOException {
 		Type type = typeService.byId(typeId);
 		if (type == null) {
@@ -212,7 +216,7 @@ public class HistoryRestController {
 		switch (ChartBuilder.orDefault(builder)) {
 		case jfreechart:
 			RestControllerHelper.addResponseJFreeChart(response,
-					drawJFreeChart(sortedData, title, copy ? "runs" : "items", ct),
+					drawJFreeChart(sortedData, averageDays, title, copy ? "runs" : "items", ct),
 					accept);
 			break;
 		case xchart:
@@ -224,11 +228,14 @@ public class HistoryRestController {
 
 	}
 
-	private JFreeChart drawJFreeChart(List<AggregatedHL> sortedData, String title, String quantityUnit,
+	private static final List<Integer> DEFAULT_AVERAGE_DAYS = List.of(7, 30);
+
+	private JFreeChart drawJFreeChart(List<AggregatedHL> sortedData, Optional<List<Integer>> averageDays, String title,
+			String quantityUnit,
 			ChartTheme theme) {
 		Color bgColor = theme.backgGroundColor();
 		Color textColor = theme.textColor();
-		List<Integer> requestedCumulatedDays = List.of(7, 30);
+		List<Integer> requestedCumulatedDays = averageDays.orElse(DEFAULT_AVERAGE_DAYS);
 		// first color is for immediate, next colors are for cumulated
 		List<Color> priceColors = theme.priceColors(requestedCumulatedDays.size());
 		List<Color> volColors = theme.volumeColors(requestedCumulatedDays.size());
@@ -357,10 +364,10 @@ public class HistoryRestController {
 		cumulatedVolumeSeries.forEach(qttyCollections::addSeries);
 		plot.setDataset(1, qttyCollections);
 
-		XYBarRenderer quantityRenderer = new XYBarRenderer();
+		XYBarRenderer quantityRenderer = new ClusteredXYBarRenderer();
 		quantityRenderer.setBarPainter(new StandardXYBarPainter());
 		quantityRenderer.setShadowVisible(false);
-		quantityRenderer.setMargin(0.3);
+		// quantityRenderer.setMargin(0.3);
 
 		quantityRenderer.setSeriesPaint(0, volColors.get(0));
 		for (int i = 0; i < cumulatedVolumeSeries.size(); i++) {
@@ -438,6 +445,7 @@ public class HistoryRestController {
 						Optional.ofNullable(accept),
 						Optional.ofNullable(builder),
 						Optional.ofNullable(theme),
+						null,
 						Optional.ofNullable(days))
 				.build()
 				.toUri();
@@ -464,7 +472,8 @@ public class HistoryRestController {
 						null,
 						Optional.ofNullable(accept),
 						Optional.ofNullable(builder),
-						Optional.ofNullable(theme))
+						Optional.ofNullable(theme),
+						Optional.ofNullable(DEFAULT_AVERAGE_DAYS))
 				.build()
 				.toUri();
 	}

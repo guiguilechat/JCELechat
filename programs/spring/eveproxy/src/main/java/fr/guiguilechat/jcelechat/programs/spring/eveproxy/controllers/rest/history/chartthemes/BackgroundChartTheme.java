@@ -38,7 +38,7 @@ public class BackgroundChartTheme implements ChartTheme {
 		float rotation = 1.0f / (nbCumulatedSeries + 2);
 		return IntStream.rangeClosed(0, nbCumulatedSeries).mapToObj(i -> {
 			hsb[0] = rotate(baseHue, rotation * (1 + i));
-			return rgb(hsb);
+			return rgb(hsb, 200);
 		}).toList();
 	}
 
@@ -57,7 +57,8 @@ public class BackgroundChartTheme implements ChartTheme {
 			bright = 1.0f - (1.0f - bright) * 0.8f;
 		}
 		hsb[2] = bright;
-		return rgb(hsb);
+		Color ret = rgb(hsb, 150);
+		return ret;
 	}
 
 	@Override
@@ -77,6 +78,12 @@ public class BackgroundChartTheme implements ChartTheme {
 
 	protected Color rgb(float[] hsb) {
 		return new Color(Color.HSBtoRGB(hsb[0], hsb[1], hsb[2]));
+	}
+
+	protected Color rgb(float[] hsb, int alpha) {
+		int rgb = Color.HSBtoRGB(hsb[0], hsb[1], hsb[2]);
+		int argb = rgb & 0xffffff | (alpha & 0xFF) << 24;
+		return new Color(argb, true);
 	}
 
 	protected float rotate(float hue, float angle) {
