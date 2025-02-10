@@ -26,6 +26,7 @@ public abstract class AFetchedListElement<Self extends AFetchedListElement<?, ?>
 	private long id;
 
 	@ManyToOne
+	// @JoinColumn(foreignKey = @ForeignKey(name = "none"))
 	private FetchResource fetchResource;
 
 }

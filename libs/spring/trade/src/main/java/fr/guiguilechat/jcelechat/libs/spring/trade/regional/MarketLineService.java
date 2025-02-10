@@ -1,18 +1,30 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.regional;
 
+import java.io.IOException;
 import java.io.Serializable;
+import java.io.StringReader;
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import java.util.stream.StreamSupport;
 
+import javax.sql.DataSource;
+
+import org.postgresql.PGConnection;
+import org.postgresql.copy.CopyManager;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.jdbc.datasource.DataSourceUtils;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegionService.MarketRegionListener;
@@ -28,12 +40,71 @@ public class MarketLineService implements MarketRegionListener {
 
 	final private MarketLineRepository repo;
 
+	@Autowired
+	private DataSource datasource;
+
 	public MarketLine save(MarketLine entity) {
 		return repo.saveAndFlush(entity);
 	}
 
 	public List<MarketLine> saveAll(Iterable<MarketLine> entities) {
 		return repo.saveAllAndFlush(entities);
+	}
+
+	public void createAll(Iterable<MarketLine> entities) {
+		try {
+			Connection conn = DataSourceUtils.getConnection(datasource);
+			if (conn.isWrapperFor(PGConnection.class)) {
+				log.debug("using PG connection");
+				if (createPGCopy(entities, conn.unwrap(PGConnection.class).getCopyAPI())) {
+					return;
+				} else {
+					log.warn("failed to create using postgresql copy, delegating to hibernate");
+				}
+			} else {
+				log.trace("no PG connection, falling back to hibernate's saveall");
+			}
+		} catch (SQLException e) {
+			log.warn("error using datasource, letting hibernate handle that crap", e);
+		}
+		saveAll(entities);
+	}
+
+	protected boolean createPGCopy(Iterable<MarketLine> entities, CopyManager cm) {
+		long start = System.currentTimeMillis();
+		List<MarketLine> list = StreamSupport.stream(entities.spliterator(), false).toList();
+		long postList = System.currentTimeMillis();
+		Iterator<Long> it = repo.reservePGIds(list.size()).iterator();
+		long postIds = System.currentTimeMillis();
+		log.trace("received next {} indexes", list.size());
+		entities.forEach(ml -> ml.setId(it.next()));
+		long postUpdateIds = System.currentTimeMillis();
+		StringReader reader = new StringReader(
+				list.stream()
+				.map(MarketLine::csv)
+				// .reduce(new StringBuilder(), (BiFunction<StringBuilder, ? super String,
+				// StringBuilder>) StringBuilder::append, (BinaryOperator<StringBuilder>)
+				// StringBuilder::append)
+				.collect(Collectors.joining("\n")));
+		long postReader = System.currentTimeMillis();
+		try {
+			cm.copyIn("COPY esi_trade_market_line (" + MarketLine.CSV_HEADER + ") FROM STDIN WITH DELIMITER '"
+					+ MarketLine.CSV_SEP + "'", reader);
+		} catch (SQLException | IOException e) {
+			log.error("while copying entities", e);
+			return false;
+		}
+
+		long end = System.currentTimeMillis();
+		log.trace("performed copy of {} entries in {} ms (aggreg={} fetchids={} updateids={} concat={} send={}",
+		    list.size(),
+		    end - start,
+		    postList - start,
+		    postIds - postList,
+		    postUpdateIds - postIds,
+		    postReader - postUpdateIds,
+		    end - postReader);
+		return true;
 	}
 
 	public void clearRegions(Iterable<MarketRegion> regions) {
@@ -234,8 +305,8 @@ public class MarketLineService implements MarketRegionListener {
 	 */
 	public List<LocatedBestOffer> seedLocations(int typeId) {
 		return repo.findSeedOffers(typeId).stream()
-		    .map(arr -> new LocatedBestOffer((int) arr[0], (long) arr[1], typeId, (double) arr[2]))
-		    .toList();
+				.map(arr -> new LocatedBestOffer((int) arr[0], (long) arr[1], typeId, (double) arr[2]))
+				.toList();
 	}
 
 	//

@@ -135,4 +135,9 @@ group by
 """)
 	public List<Object[]> findAllRegionTypeCouple();
 
+	@Query(value = """
+SELECT NEXTVAL('esi_trade_market_line_seq') FROM generate_series(1,:nb)
+""", nativeQuery = true)
+	List<Long> reservePGIds(int nb);
+	
 }

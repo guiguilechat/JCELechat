@@ -2,6 +2,10 @@ package fr.guiguilechat.jcelechat.libs.spring.trade.regional;
 
 import java.io.Serializable;
 import java.time.Instant;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElement;
@@ -20,10 +24,10 @@ import lombok.Setter;
 @SuppressWarnings("serial")
 @Entity(name = "EsiTradeMarketLine")
 @Table(name = "esi_trade_market_line", indexes = {
-    @Index(columnList = "fetch_resource_id"),
+		@Index(columnList = "fetch_resource_id"),
 		@Index(columnList = "locationId"),
-    @Index(columnList = "solarSystemId"),
-    @Index(columnList = "typeId, isBuyOrder")
+		@Index(columnList = "solarSystemId"),
+		@Index(columnList = "typeId, isBuyOrder")
 })
 @AllArgsConstructor
 @NoArgsConstructor
@@ -113,4 +117,51 @@ public class MarketLine extends AFetchedListElement<MarketLine, MarketRegion> im
 		return ret;
 	}
 
+	public static final String CSV_SEP = ",";
+
+	public static final String CSV_HEADER = Stream.of(
+			"id",
+			"duration",
+			"is_buy_order",
+			"issued",
+			"location_id",
+			"min_volume",
+			"order_id",
+			"price",
+			"range",
+			"solar_system_id",
+			"type_id",
+			"volume_remain",
+			"volume_total",
+			"fetch_resource_id"
+			//
+			)
+			.collect(Collectors.joining(CSV_SEP));
+
+
+	public String csv() {
+		return Stream.of(
+				Long.toString(getId()),
+				Integer.toString(duration),
+				Boolean.toString(isBuyOrder),
+				convertPGInstant(issued),
+				Long.toString(locationId),
+				Integer.toString(minVolume),
+				Long.toString(orderId),
+				Double.toString(price),
+				range.name(),
+				Integer.toString(solarSystemId),
+				Integer.toString(typeId),
+				Integer.toString(volumeRemain),
+				Integer.toString(volumeTotal),
+				Integer.toString(getFetchResource().getId())
+				//
+				).collect(Collectors.joining(CSV_SEP));
+	}
+
+	private static final DateTimeFormatter PG_INSTANT_FORMATER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ssZ");
+
+	protected static String convertPGInstant(Instant source) {
+		return PG_INSTANT_FORMATER.format(source.atOffset(ZoneOffset.UTC));
+	}
 }
