@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_22;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_contract_bids_4;
@@ -19,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_bookmarks_folders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_calendar;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_calendar_event_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_calendar_event_id_attendees;
@@ -60,7 +58,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_observers_observer_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_bookmarks_folders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_containers_logs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_customs_offices;
@@ -99,7 +96,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_
 public interface G_ICOAccess
     extends ITransfer
 {
-    public static final String[] SCOPES = new String[] {"esi-alliances.read_contacts.v1", "esi-assets.read_assets.v1", "esi-assets.read_corporation_assets.v1", "esi-bookmarks.read_character_bookmarks.v1", "esi-bookmarks.read_corporation_bookmarks.v1", "esi-calendar.read_calendar_events.v1", "esi-calendar.respond_calendar_events.v1", "esi-characters.read_agents_research.v1", "esi-characters.read_blueprints.v1", "esi-characters.read_contacts.v1", "esi-characters.read_corporation_roles.v1", "esi-characters.read_fatigue.v1", "esi-characters.read_fw_stats.v1", "esi-characters.read_loyalty.v1", "esi-characters.read_medals.v1", "esi-characters.read_notifications.v1", "esi-characters.read_opportunities.v1", "esi-characters.read_standings.v1", "esi-characters.read_titles.v1", "esi-characters.write_contacts.v1", "esi-clones.read_clones.v1", "esi-clones.read_implants.v1", "esi-contracts.read_character_contracts.v1", "esi-contracts.read_corporation_contracts.v1", "esi-corporations.read_blueprints.v1", "esi-corporations.read_contacts.v1", "esi-corporations.read_container_logs.v1", "esi-corporations.read_corporation_membership.v1", "esi-corporations.read_divisions.v1", "esi-corporations.read_facilities.v1", "esi-corporations.read_fw_stats.v1", "esi-corporations.read_medals.v1", "esi-corporations.read_standings.v1", "esi-corporations.read_starbases.v1", "esi-corporations.read_structures.v1", "esi-corporations.read_titles.v1", "esi-corporations.track_members.v1", "esi-fittings.read_fittings.v1", "esi-fittings.write_fittings.v1", "esi-fleets.read_fleet.v1", "esi-fleets.write_fleet.v1", "esi-industry.read_character_jobs.v1", "esi-industry.read_character_mining.v1", "esi-industry.read_corporation_jobs.v1", "esi-industry.read_corporation_mining.v1", "esi-killmails.read_corporation_killmails.v1", "esi-killmails.read_killmails.v1", "esi-location.read_location.v1", "esi-location.read_online.v1", "esi-location.read_ship_type.v1", "esi-mail.organize_mail.v1", "esi-mail.read_mail.v1", "esi-mail.send_mail.v1", "esi-markets.read_character_orders.v1", "esi-markets.read_corporation_orders.v1", "esi-markets.structure_markets.v1", "esi-planets.manage_planets.v1", "esi-planets.read_customs_offices.v1", "esi-search.search_structures.v1", "esi-skills.read_skillqueue.v1", "esi-skills.read_skills.v1", "esi-ui.open_window.v1", "esi-ui.write_waypoint.v1", "esi-universe.read_structures.v1", "esi-wallet.read_character_wallet.v1", "esi-wallet.read_corporation_wallets.v1"};
+    public static final String[] SCOPES = new String[] {"esi-alliances.read_contacts.v1", "esi-assets.read_assets.v1", "esi-assets.read_corporation_assets.v1", "esi-calendar.read_calendar_events.v1", "esi-calendar.respond_calendar_events.v1", "esi-characters.read_agents_research.v1", "esi-characters.read_blueprints.v1", "esi-characters.read_contacts.v1", "esi-characters.read_corporation_roles.v1", "esi-characters.read_fatigue.v1", "esi-characters.read_fw_stats.v1", "esi-characters.read_loyalty.v1", "esi-characters.read_medals.v1", "esi-characters.read_notifications.v1", "esi-characters.read_opportunities.v1", "esi-characters.read_standings.v1", "esi-characters.read_titles.v1", "esi-characters.write_contacts.v1", "esi-clones.read_clones.v1", "esi-clones.read_implants.v1", "esi-contracts.read_character_contracts.v1", "esi-contracts.read_corporation_contracts.v1", "esi-corporations.read_blueprints.v1", "esi-corporations.read_contacts.v1", "esi-corporations.read_container_logs.v1", "esi-corporations.read_corporation_membership.v1", "esi-corporations.read_divisions.v1", "esi-corporations.read_facilities.v1", "esi-corporations.read_fw_stats.v1", "esi-corporations.read_medals.v1", "esi-corporations.read_standings.v1", "esi-corporations.read_starbases.v1", "esi-corporations.read_structures.v1", "esi-corporations.read_titles.v1", "esi-corporations.track_members.v1", "esi-fittings.read_fittings.v1", "esi-fittings.write_fittings.v1", "esi-fleets.read_fleet.v1", "esi-fleets.write_fleet.v1", "esi-industry.read_character_jobs.v1", "esi-industry.read_character_mining.v1", "esi-industry.read_corporation_jobs.v1", "esi-industry.read_corporation_mining.v1", "esi-killmails.read_corporation_killmails.v1", "esi-killmails.read_killmails.v1", "esi-location.read_location.v1", "esi-location.read_online.v1", "esi-location.read_ship_type.v1", "esi-mail.organize_mail.v1", "esi-mail.read_mail.v1", "esi-mail.send_mail.v1", "esi-markets.read_character_orders.v1", "esi-markets.read_corporation_orders.v1", "esi-markets.structure_markets.v1", "esi-planets.manage_planets.v1", "esi-planets.read_customs_offices.v1", "esi-search.search_structures.v1", "esi-skills.read_skillqueue.v1", "esi-skills.read_skills.v1", "esi-ui.open_window.v1", "esi-ui.write_waypoint.v1", "esi-universe.read_structures.v1", "esi-wallet.read_character_wallet.v1", "esi-wallet.read_corporation_wallets.v1"};
     /**
      * the roles required for {@link #get_corporation_mining_extractions this method}
      */
@@ -444,40 +441,6 @@ public interface G_ICOAccess
     public default Requested<R_get_characters_character_id_blueprints[]> get_characters_blueprints(int character_id, Integer page, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v3/characters/{character_id}/blueprints/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints[].class));
-    }
-
-    /**
-     * List bookmarks
-     * <p>
-     * A list of your character's personal bookmarks<br />
-     * This route is cached for up to 3600 seconds
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     * @param page
-     *     Which page of results to return
-     */
-    public default Requested<M_get_bookmarks_9 []> get_characters_bookmarks(int character_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/bookmarks/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_bookmarks_9[].class));
-    }
-
-    /**
-     * List bookmark folders
-     * <p>
-     * A list of your character's personal bookmark folders<br />
-     * This route is cached for up to 3600 seconds
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     * @param page
-     *     Which page of results to return
-     */
-    public default Requested<R_get_characters_character_id_bookmarks_folders[]> get_characters_bookmarks_folders(int character_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/bookmarks/folders/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_bookmarks_folders[].class));
     }
 
     /**
@@ -920,7 +883,8 @@ public interface G_ICOAccess
      * Get a character's completed tasks
      * <p>
      * Return a list of tasks finished by a character<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 3600 seconds<br />
+     * Warning: This route is deprecated
      * </p>
      * 
      * @param character_id
@@ -1242,40 +1206,6 @@ public interface G_ICOAccess
     public default Requested<R_get_corporations_corporation_id_blueprints[]> get_corporations_blueprints(int corporation_id, Integer page, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/blueprints/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints[].class));
-    }
-
-    /**
-     * List corporation bookmarks
-     * <p>
-     * A list of your corporation's bookmarks<br />
-     * This route is cached for up to 3600 seconds
-     * </p>
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     * @param page
-     *     Which page of results to return
-     */
-    public default Requested<M_get_bookmarks_9 []> get_corporations_bookmarks(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/bookmarks/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_bookmarks_9[].class));
-    }
-
-    /**
-     * List corporation bookmark folders
-     * <p>
-     * A list of your corporation's bookmark folders<br />
-     * This route is cached for up to 3600 seconds
-     * </p>
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     * @param page
-     *     Which page of results to return
-     */
-    public default Requested<R_get_corporations_corporation_id_bookmarks_folders[]> get_corporations_bookmarks_folders(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/bookmarks/folders/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_bookmarks_folders[].class));
     }
 
     /**

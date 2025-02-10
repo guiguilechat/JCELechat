@@ -608,7 +608,8 @@ public interface G_IDCAccess
      * Get opportunities groups
      * <p>
      * Return a list of opportunities groups<br />
-     * This route expires daily at 11:05
+     * This route expires daily at 11:05<br />
+     * Warning: This route is deprecated
      * </p>
      */
     public default Requested<Integer[]> get_opportunities_groups(Map<String, String> properties) {
@@ -620,7 +621,8 @@ public interface G_IDCAccess
      * Get opportunities group
      * <p>
      * Return information of an opportunities group<br />
-     * This route expires daily at 11:05
+     * This route expires daily at 11:05<br />
+     * Warning: This route is deprecated
      * </p>
      * 
      * @param group_id
@@ -635,7 +637,8 @@ public interface G_IDCAccess
      * Get opportunities tasks
      * <p>
      * Return a list of opportunities tasks<br />
-     * This route expires daily at 11:05
+     * This route expires daily at 11:05<br />
+     * Warning: This route is deprecated
      * </p>
      */
     public default Requested<Integer[]> get_opportunities_tasks(Map<String, String> properties) {
@@ -647,7 +650,8 @@ public interface G_IDCAccess
      * Get opportunities task
      * <p>
      * Return information of an opportunities task<br />
-     * This route expires daily at 11:05
+     * This route expires daily at 11:05<br />
+     * Warning: This route is deprecated
      * </p>
      * 
      * @param task_id

@@ -1,5 +1,7 @@
 types:
   2074:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2074
@@ -12,6 +14,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   2075:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2075
@@ -24,6 +28,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   2100:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2100
@@ -36,6 +42,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   2197:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2197
@@ -48,6 +56,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 32.0
   2198:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2198
@@ -60,6 +70,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 450.0
   2199:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2199
@@ -72,6 +84,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 20.0
   2200:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2200
@@ -84,6 +98,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2000.0
   2201:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2201
@@ -96,6 +112,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 30.0
   2202:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2202
@@ -108,6 +126,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 300.0
   2215:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2215
@@ -120,6 +140,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 12.0
   2216:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2216
@@ -132,6 +154,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 120.0
   2219:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2219
@@ -144,6 +168,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 125.0
   2220:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2220
@@ -156,6 +182,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 12.0
   2221:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2221
@@ -168,6 +196,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 25.0
   2250:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2250
@@ -180,6 +210,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   2368:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 250
     id: 2368
@@ -194,6 +226,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2369:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 250
     id: 2369
@@ -208,6 +242,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2371:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 250
     id: 2371
@@ -222,6 +258,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2373:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 250
     id: 2373
@@ -236,6 +274,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2374:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 250
     id: 2374
@@ -250,6 +290,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2375:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 250
     id: 2375
@@ -264,6 +306,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2376:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 250
     id: 2376
@@ -278,6 +322,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2377:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 250
     id: 2377
@@ -292,6 +338,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2595:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2595
@@ -304,6 +352,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   2596:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2596
@@ -316,6 +366,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 60.0
   2597:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2597
@@ -328,6 +380,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2598:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2598
@@ -340,6 +394,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 80.0
   2599:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2599
@@ -352,6 +408,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2601:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2601
@@ -364,6 +422,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2602:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2602
@@ -376,6 +436,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 90.0
   2608:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2608
@@ -388,6 +450,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 80.0
   2610:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2610
@@ -400,6 +464,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2615:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2615
@@ -412,6 +478,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 90.0
   2616:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2616
@@ -424,6 +492,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 800.0
   2617:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2617
@@ -436,6 +506,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2618:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2618
@@ -448,6 +520,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2619:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2619
@@ -460,6 +534,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 80.0
   2620:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2620
@@ -472,6 +548,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2623:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2623
@@ -484,6 +562,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2624:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2624
@@ -496,6 +576,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2626:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2626
@@ -508,6 +590,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 90.0
   2627:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2627
@@ -520,6 +604,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 80.0
   2628:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2628
@@ -532,6 +618,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2631:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2631
@@ -544,6 +632,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 60.0
   2632:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2632
@@ -556,6 +646,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 70.0
   2633:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2633
@@ -568,6 +660,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2635:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2635
@@ -580,6 +674,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 70.0
   2636:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2636
@@ -592,6 +688,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2639:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2639
@@ -604,6 +702,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 70.0
   2640:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2640
@@ -616,6 +716,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2641:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2641
@@ -628,6 +730,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2642:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2642
@@ -640,6 +744,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 70.0
   2644:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2644
@@ -652,6 +758,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 60.0
   2645:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2645
@@ -664,6 +772,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 50.0
   2646:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2646
@@ -676,6 +786,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 90.0
   2652:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2652
@@ -688,6 +800,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 60.0
   2653:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2653
@@ -700,6 +814,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 90.0
   2654:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2654
@@ -712,6 +828,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 80.0
   2657:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2657
@@ -724,6 +842,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 70.0
   2659:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2659
@@ -736,6 +856,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 60.0
   2660:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2660
@@ -748,6 +870,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2673:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2673
@@ -760,6 +884,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 400.0
   2682:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2682
@@ -772,6 +898,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1000.0
   2683:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2683
@@ -784,6 +912,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1000.0
   2684:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2684
@@ -796,6 +926,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 400.0
   2685:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2685
@@ -809,6 +941,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 500.0
   2686:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2686
@@ -821,6 +955,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1000.0
   2687:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2687
@@ -833,6 +969,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1000.0
   2688:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2688
@@ -845,6 +983,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 800.0
   2689:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2689
@@ -857,6 +997,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 700.0
   2690:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2690
@@ -869,6 +1011,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 400.0
   2691:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2691
@@ -881,6 +1025,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 500.0
   2692:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2692
@@ -893,6 +1039,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 700.0
   2693:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2693
@@ -905,6 +1053,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 400.0
   2694:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2694
@@ -917,6 +1067,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 600.0
   2695:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2695
@@ -929,6 +1081,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 500.0
   2696:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2696
@@ -942,6 +1096,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 600.0
   2697:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2697
@@ -954,6 +1110,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 600.0
   2698:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2698
@@ -966,6 +1124,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 700.0
   2710:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2710
@@ -979,6 +1139,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 700.0
   2712:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2712
@@ -991,6 +1153,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 900.0
   2713:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2713
@@ -1004,6 +1168,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 400.0
   2714:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2714
@@ -1016,6 +1182,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 800.0
   2715:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2715
@@ -1028,6 +1196,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 400.0
   2716:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2716
@@ -1041,6 +1211,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 500.0
   2717:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2717
@@ -1053,6 +1225,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 900.0
   2718:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2718
@@ -1066,6 +1240,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1000.0
   2719:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2719
@@ -1078,6 +1254,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 400.0
   2720:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2720
@@ -1091,6 +1269,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 400.0
   2721:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2721
@@ -1104,6 +1284,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 400.0
   2722:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2722
@@ -1117,6 +1299,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 600.0
   2723:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2723
@@ -1129,6 +1313,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 800.0
   2724:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2724
@@ -1141,6 +1327,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 600.0
   2729:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2729
@@ -1154,6 +1342,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   2730:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2730
@@ -1167,6 +1357,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 70.0
   2731:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2731
@@ -1180,6 +1372,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 50.0
   2732:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2732
@@ -1193,6 +1387,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 50.0
   2851:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2851
@@ -1205,6 +1401,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   2853:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2853
@@ -1217,6 +1415,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 20.0
   2861:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2861
@@ -1229,6 +1429,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 250.0
   2862:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2862
@@ -1241,6 +1443,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 25.0
   2880:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2880
@@ -1253,6 +1457,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   2888:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2888
@@ -1265,6 +1471,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   2893:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2893
@@ -1278,6 +1486,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   2899:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2899
@@ -1291,6 +1501,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   2900:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 50
     id: 2900
@@ -1305,6 +1517,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   2904:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2904
@@ -1317,6 +1531,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   2917:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2917
@@ -1329,6 +1545,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 50.0
   2930:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2930
@@ -1341,6 +1559,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 250.0
   2934:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2934
@@ -1353,6 +1573,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 20.0
   2943:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2943
@@ -1365,6 +1587,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 20.0
   2944:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2944
@@ -1377,6 +1601,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 200.0
   2951:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2951
@@ -1389,6 +1615,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2952:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2952
@@ -1401,6 +1629,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   2955:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2955
@@ -1413,6 +1643,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2956:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2956
@@ -1425,6 +1657,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2957:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2957
@@ -1437,6 +1671,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   2960:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2960
@@ -1449,6 +1685,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 300.0
   2963:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2963
@@ -1461,6 +1699,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 30.0
   2964:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2964
@@ -1473,6 +1713,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 30.0
   2965:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2965
@@ -1485,6 +1727,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 300.0
   2967:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2967
@@ -1497,6 +1741,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   2968:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2968
@@ -1509,6 +1755,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2971:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2971
@@ -1521,6 +1769,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   2972:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2972
@@ -1533,6 +1783,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 30.0
   2973:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2973
@@ -1545,6 +1797,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 300.0
   2974:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2974
@@ -1557,6 +1811,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2979:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2979
@@ -1569,6 +1825,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   2980:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2980
@@ -1581,6 +1839,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2981:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2981
@@ -1593,6 +1853,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   2982:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2982
@@ -1605,6 +1867,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2987:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2987
@@ -1617,6 +1881,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   2988:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2988
@@ -1629,6 +1895,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2989:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2989
@@ -1641,6 +1909,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 60.0
   2990:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2990
@@ -1653,6 +1923,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 500.0
   2991:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2991
@@ -1665,6 +1937,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   2992:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2992
@@ -1677,6 +1951,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   2995:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2995
@@ -1689,6 +1965,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 60.0
   2996:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2996
@@ -1701,6 +1979,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 500.0
   2997:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 2997
@@ -1713,6 +1993,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3000:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3000
@@ -1725,6 +2007,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3003:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3003
@@ -1737,6 +2021,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3005:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3005
@@ -1749,6 +2035,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3007:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3007
@@ -1761,6 +2049,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3011:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3011
@@ -1773,6 +2063,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3012:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3012
@@ -1785,6 +2077,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3013:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3013
@@ -1797,6 +2091,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3014:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3014
@@ -1809,6 +2105,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3015:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3015
@@ -1821,6 +2119,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3016:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3016
@@ -1833,6 +2133,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3019:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3019
@@ -1845,6 +2147,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3020:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3020
@@ -1857,6 +2161,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3021:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3021
@@ -1869,6 +2175,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3022:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3022
@@ -1881,6 +2189,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3023:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3023
@@ -1893,6 +2203,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3024:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3024
@@ -1905,6 +2217,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3027:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3027
@@ -1917,6 +2231,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3028:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3028
@@ -1929,6 +2245,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3029:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3029
@@ -1941,6 +2259,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3030:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3030
@@ -1953,6 +2273,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3031:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3031
@@ -1965,6 +2287,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3035:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3035
@@ -1977,6 +2301,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3037:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3037
@@ -1989,6 +2315,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   3038:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3038
@@ -2001,6 +2329,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   3501:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3501
@@ -2013,6 +2343,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 7500.0
   3583:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3583
@@ -2025,6 +2357,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 4.0
   3584:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3584
@@ -2037,6 +2371,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 4.0
   3585:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3585
@@ -2050,6 +2386,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 5.0
   3627:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3627
@@ -2063,6 +2401,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 70.0
   3701:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3701
@@ -2075,6 +2415,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   3837:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3837
@@ -2087,6 +2429,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   3838:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3838
@@ -2099,6 +2443,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   3843:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3843
@@ -2111,6 +2457,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   3844:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 3844
@@ -2123,6 +2471,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   4089:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 4089
@@ -2135,6 +2485,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   4390:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 4390
@@ -2148,6 +2500,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   10646:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 10646
@@ -2160,6 +2514,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11013:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11013
@@ -2172,6 +2528,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11066:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11066
@@ -2184,6 +2542,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11067:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11067
@@ -2197,6 +2557,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11068:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11068
@@ -2210,6 +2572,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11069:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11069
@@ -2223,6 +2587,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11070:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11070
@@ -2235,6 +2601,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11071:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11071
@@ -2247,6 +2615,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11508:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11508
@@ -2259,6 +2629,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11509:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11509
@@ -2271,6 +2643,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11510:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11510
@@ -2283,6 +2657,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11511:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11511
@@ -2295,6 +2671,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11512:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11512
@@ -2307,6 +2685,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11528:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11528
@@ -2319,6 +2699,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11585:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11585
@@ -2333,6 +2715,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11586:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11586
@@ -2345,6 +2729,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11587:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11587
@@ -2357,6 +2743,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11588:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11588
@@ -2370,6 +2758,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11602:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11602
@@ -2382,6 +2772,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   11603:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11603
@@ -2394,6 +2786,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11604:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11604
@@ -2406,6 +2800,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   11606:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11606
@@ -2418,6 +2814,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   11607:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11607
@@ -2430,6 +2828,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   11608:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11608
@@ -2442,6 +2842,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   11635:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11635
@@ -2454,6 +2856,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   11654:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11654
@@ -2466,6 +2870,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   11702:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11702
@@ -2478,6 +2884,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   11703:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11703
@@ -2490,6 +2898,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   11707:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11707
@@ -2502,6 +2912,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2.0
   11723:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11723
@@ -2515,6 +2927,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   11856:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11856
@@ -2528,6 +2942,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 180.0
   11944:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 11944
@@ -2541,6 +2957,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   12250:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 12250
@@ -2554,6 +2972,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   12302:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 12302
@@ -2568,6 +2988,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2.0
   12303:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 12303
@@ -2581,6 +3003,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 5.0
   12478:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 12478
@@ -2595,6 +3019,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.30000001192092896
   12994:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 12994
@@ -2608,6 +3034,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   12995:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 12995
@@ -2621,6 +3049,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   13067:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13067
@@ -2633,6 +3063,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   13204:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13204
@@ -2645,6 +3077,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13205:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13205
@@ -2657,6 +3091,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13206:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13206
@@ -2669,6 +3105,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13210:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13210
@@ -2681,6 +3119,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13211:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13211
@@ -2693,6 +3133,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13212:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13212
@@ -2705,6 +3147,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13213:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13213
@@ -2717,6 +3161,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13214:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13214
@@ -2729,6 +3175,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13215:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13215
@@ -2741,6 +3189,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   13288:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13288
@@ -2754,6 +3204,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13328:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13328
@@ -2767,6 +3219,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   13918:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 13918
@@ -2780,6 +3234,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   14292:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 14292
@@ -2793,6 +3249,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   14293:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 14293
@@ -2805,6 +3263,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   14358:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 14358
@@ -2819,6 +3279,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   14483:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 14483
@@ -2832,6 +3294,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   15316:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 15316
@@ -2846,6 +3310,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   15318:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 15318
@@ -2859,6 +3325,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   15319:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 15319
@@ -2872,6 +3340,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1000.0
   15353:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 15353
@@ -2886,6 +3356,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   15410:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 15410
@@ -2899,6 +3371,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   16041:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16041
@@ -2912,6 +3386,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1000.0
   16042:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16042
@@ -2925,6 +3401,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 50.0
   16043:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16043
@@ -2938,6 +3416,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 500.0
   16044:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16044
@@ -2951,6 +3431,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   16045:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16045
@@ -2964,6 +3446,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   16614:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16614
@@ -2976,6 +3460,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   16686:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     hp: 100.0
@@ -2991,6 +3477,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   16712:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16712
@@ -3004,6 +3492,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   16713:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16713
@@ -3017,6 +3507,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   16714:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16714
@@ -3030,6 +3522,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   16832:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 16832
@@ -3042,6 +3536,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   17143:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17143
@@ -3056,6 +3552,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2.0
   17391:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17391
@@ -3068,6 +3566,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17423:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17423
@@ -3081,6 +3581,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   17424:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17424
@@ -3095,6 +3597,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.149999976158142
   17624:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17624
@@ -3108,6 +3612,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17640:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17640
@@ -3121,6 +3627,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17643:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17643
@@ -3135,6 +3643,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17646:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17646
@@ -3149,6 +3659,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17647:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17647
@@ -3163,6 +3675,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17755:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17755
@@ -3176,6 +3690,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17756:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17756
@@ -3189,6 +3705,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2.0
   17757:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17757
@@ -3201,6 +3719,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 5.0
   17759:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17759
@@ -3213,6 +3733,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 5.0
   17761:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17761
@@ -3225,6 +3747,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 5.0
   17793:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17793
@@ -3239,6 +3763,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17794:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17794
@@ -3253,6 +3779,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17795:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17795
@@ -3267,6 +3795,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17814:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17814
@@ -3281,6 +3811,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17815:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17815
@@ -3295,6 +3827,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17816:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17816
@@ -3309,6 +3843,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17840:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17840
@@ -3322,6 +3858,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17848:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17848
@@ -3336,6 +3874,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17849:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17849
@@ -3350,6 +3890,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17850:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17850
@@ -3364,6 +3906,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   17893:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17893
@@ -3378,6 +3922,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   17894:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17894
@@ -3392,6 +3938,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   17895:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     hp: 100.0
@@ -3408,6 +3956,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   17897:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 17897
@@ -3422,6 +3972,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   18583:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 18583
@@ -3434,6 +3986,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   18655:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 18655
@@ -3447,6 +4001,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   19382:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 19382
@@ -3459,6 +4015,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   19399:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 19399
@@ -3471,6 +4029,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   19461:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 19461
@@ -3484,6 +4044,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   19462:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 19462
@@ -3497,6 +4059,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   19463:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 19463
@@ -3510,6 +4074,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   19493:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 19493
@@ -3523,6 +4089,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2.0
   19582:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 19582
@@ -3535,6 +4103,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   19730:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 19730
@@ -3547,6 +4117,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   20328:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 20328
@@ -3559,6 +4131,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   20362:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 20362
@@ -3570,6 +4144,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   20375:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 20375
@@ -3582,6 +4158,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   20541:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 20541
@@ -3594,6 +4172,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   20551:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 20551
@@ -3606,6 +4186,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   21624:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 21624
@@ -3618,6 +4200,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   22222:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 22222
@@ -3630,6 +4214,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   22730:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 22730
@@ -3642,6 +4228,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   22764:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 22764
@@ -3654,6 +4242,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   23863:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 23863
@@ -3666,6 +4256,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   23871:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 23871
@@ -3678,6 +4270,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 10.0
   23882:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 23882
@@ -3690,6 +4284,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 50.0
   23909:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 23909
@@ -3702,6 +4298,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   23945:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 23945
@@ -3714,6 +4312,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   23948:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 23948
@@ -3726,6 +4326,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   24717:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 24717
@@ -3738,6 +4340,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   25382:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 25382
@@ -3751,6 +4355,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   26270:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26270
@@ -3763,6 +4369,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   26707:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26707
@@ -3775,6 +4383,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   26774:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26774
@@ -3788,6 +4398,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 100.0
   26776:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26776
@@ -3801,6 +4413,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 8000.0
   26778:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26778
@@ -3814,6 +4428,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 50.0
   26779:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26779
@@ -3827,6 +4443,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   26781:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26781
@@ -3840,6 +4458,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 60.0
   26782:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26782
@@ -3853,6 +4473,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 6000.0
   26784:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26784
@@ -3866,6 +4488,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2500.0
   26785:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26785
@@ -3879,6 +4503,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 50.0
   26786:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26786
@@ -3892,6 +4518,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 60.0
   26787:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26787
@@ -3905,6 +4533,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   26790:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26790
@@ -3918,6 +4548,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   26791:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26791
@@ -3931,6 +4563,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 70.0
   26792:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26792
@@ -3944,6 +4578,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2500.0
   26974:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 26974
@@ -3957,6 +4593,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   27803:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 27803
@@ -3970,6 +4608,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2000.0
   28256:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28256
@@ -3982,6 +4622,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28257:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28257
@@ -3994,6 +4636,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28359:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28359
@@ -4006,6 +4650,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28360:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28360
@@ -4018,6 +4664,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28827:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28827
@@ -4031,6 +4679,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   28828:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28828
@@ -4044,6 +4694,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28829:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28829
@@ -4056,6 +4708,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28830:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28830
@@ -4068,6 +4722,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   28833:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28833
@@ -4080,6 +4736,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28834:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28834
@@ -4092,6 +4750,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   28836:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28836
@@ -4104,6 +4764,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   28843:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28843
@@ -4116,6 +4778,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28865:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     hp: 100.0
@@ -4130,6 +4794,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 5.0
   28866:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28866
@@ -4142,6 +4808,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   28868:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28868
@@ -4155,6 +4823,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 5.0
   28870:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28870
@@ -4168,6 +4838,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 25.0
   28896:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28896
@@ -4180,6 +4852,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28897:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28897
@@ -4192,6 +4866,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   28972:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28972
@@ -4205,6 +4881,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 25.0
   28973:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28973
@@ -4217,6 +4895,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   28975:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28975
@@ -4230,6 +4910,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 3.0
   28996:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 28996
@@ -4243,6 +4925,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29026:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29026
@@ -4255,6 +4939,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   29137:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29137
@@ -4267,6 +4953,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29162:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29162
@@ -4279,6 +4967,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.25
   29202:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29202
@@ -4292,6 +4982,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 5.0
   29203:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29203
@@ -4304,6 +4996,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29205:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29205
@@ -4317,6 +5011,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29211:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29211
@@ -4329,6 +5025,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29272:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29272
@@ -4341,6 +5039,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29278:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29278
@@ -4353,6 +5053,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   29284:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29284
@@ -4366,6 +5068,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 5.0
   29321:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29321
@@ -4378,6 +5082,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 40.0
   29464:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29464
@@ -4391,6 +5097,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 25.0
   29471:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29471
@@ -4403,6 +5111,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29474:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29474
@@ -4415,6 +5125,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29475:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29475
@@ -4427,6 +5139,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29476:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29476
@@ -4439,6 +5153,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   29477:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29477
@@ -4451,6 +5167,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   29478:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29478
@@ -4463,6 +5181,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29480:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29480
@@ -4475,6 +5195,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.20000000298023224
   29531:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29531
@@ -4487,6 +5209,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29607:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29607
@@ -4500,6 +5224,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   29932:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29932
@@ -4512,6 +5238,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1000.0
   29933:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29933
@@ -4524,6 +5252,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29934:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29934
@@ -4536,6 +5266,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 25.0
   29935:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29935
@@ -4549,6 +5281,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   29936:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29936
@@ -4562,6 +5296,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   29937:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29937
@@ -4574,6 +5310,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   29938:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29938
@@ -4586,6 +5324,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2.0
   29939:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29939
@@ -4598,6 +5338,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   29940:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29940
@@ -4610,6 +5352,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29941:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29941
@@ -4622,6 +5366,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   29942:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29942
@@ -4634,6 +5380,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29943:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29943
@@ -4646,6 +5394,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29944:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29944
@@ -4658,6 +5408,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29945:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29945
@@ -4670,6 +5422,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29946:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29946
@@ -4682,6 +5436,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29947:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29947
@@ -4694,6 +5450,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29948:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29948
@@ -4706,6 +5464,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29949:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29949
@@ -4718,6 +5478,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29950:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29950
@@ -4730,6 +5492,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29951:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29951
@@ -4742,6 +5506,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29952:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29952
@@ -4754,6 +5520,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 50.0
   29953:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29953
@@ -4766,6 +5534,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29954:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29954
@@ -4778,6 +5548,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   29955:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 29955
@@ -4790,6 +5562,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   30755:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30755
@@ -4802,6 +5576,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   30756:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30756
@@ -4814,6 +5590,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   30768:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30768
@@ -4826,6 +5604,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 3.0
   30776:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30776
@@ -4838,6 +5618,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   30778:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30778
@@ -4850,6 +5632,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   30780:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30780
@@ -4862,6 +5646,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   30782:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30782
@@ -4874,6 +5660,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   30784:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30784
@@ -4886,6 +5674,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   30794:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30794
@@ -4898,6 +5688,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 150.0
   30809:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30809
@@ -4910,6 +5702,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   30810:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30810
@@ -4922,6 +5716,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   30811:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30811
@@ -4934,6 +5730,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   30816:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30816
@@ -4946,6 +5744,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 3.0
   30907:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30907
@@ -4958,6 +5758,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   30951:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30951
@@ -4970,6 +5772,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 3.0
   30952:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30952
@@ -4982,6 +5786,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   30954:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30954
@@ -4994,6 +5800,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   30955:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30955
@@ -5006,6 +5814,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   30964:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30964
@@ -5018,6 +5828,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 3.0
   30967:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 30967
@@ -5030,6 +5842,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 3.0
   32099:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32099
@@ -5044,6 +5858,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32106:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32106
@@ -5057,6 +5873,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32200:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32200
@@ -5070,6 +5888,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32201:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32201
@@ -5082,6 +5902,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32202:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32202
@@ -5094,6 +5916,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32204:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32204
@@ -5107,6 +5931,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.30000001192092896
   32218:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32218
@@ -5119,6 +5945,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32220:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32220
@@ -5131,6 +5959,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32223:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32223
@@ -5143,6 +5973,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32225:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32225
@@ -5155,6 +5987,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32229:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32229
@@ -5167,6 +6001,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32234:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32234
@@ -5179,6 +6015,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32235:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32235
@@ -5191,6 +6029,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 3.0
   32237:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32237
@@ -5203,6 +6043,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 3.0
   32241:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32241
@@ -5215,6 +6057,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32252:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32252
@@ -5227,6 +6071,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32257:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32257
@@ -5239,6 +6085,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32258:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32258
@@ -5251,6 +6099,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32259:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32259
@@ -5263,6 +6113,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32265:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32265
@@ -5275,6 +6127,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32267:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32267
@@ -5287,6 +6141,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32277:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32277
@@ -5299,6 +6155,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32280:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32280
@@ -5311,6 +6169,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32283:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32283
@@ -5323,6 +6183,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32284:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32284
@@ -5335,6 +6197,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32285:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32285
@@ -5347,6 +6211,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32286:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32286
@@ -5359,6 +6225,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32287:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32287
@@ -5371,6 +6239,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32288:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32288
@@ -5383,6 +6253,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32289:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32289
@@ -5395,6 +6267,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32290:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32290
@@ -5407,6 +6281,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32294:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32294
@@ -5419,6 +6295,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32350:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32350
@@ -5431,6 +6309,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32351:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32351
@@ -5443,6 +6323,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32352:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32352
@@ -5455,6 +6337,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32365:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32365
@@ -5467,6 +6351,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32366:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32366
@@ -5479,6 +6365,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32371:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32371
@@ -5491,6 +6379,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32375:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32375
@@ -5503,6 +6393,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32376:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32376
@@ -5515,6 +6407,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32383:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32383
@@ -5527,6 +6421,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32393:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32393
@@ -5539,6 +6435,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 2.0
   32403:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32403
@@ -5551,6 +6449,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32407:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32407
@@ -5564,6 +6464,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   32408:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32408
@@ -5577,6 +6479,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.5
   32418:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32418
@@ -5589,6 +6493,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32885:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32885
@@ -5601,6 +6507,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32886:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32886
@@ -5613,6 +6521,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32887:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32887
@@ -5625,6 +6535,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32888:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32888
@@ -5637,6 +6549,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   32889:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32889
@@ -5649,6 +6563,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32890:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32890
@@ -5661,6 +6577,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32891:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32891
@@ -5673,6 +6591,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   32892:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 32892
@@ -5685,6 +6605,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   33070:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33070
@@ -5697,6 +6619,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33071:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33071
@@ -5709,6 +6633,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33072:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33072
@@ -5721,6 +6647,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33073:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33073
@@ -5733,6 +6661,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33117:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33117
@@ -5745,6 +6675,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33118:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33118
@@ -5757,6 +6689,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33119:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33119
@@ -5769,6 +6703,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33120:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33120
@@ -5781,6 +6717,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33121:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33121
@@ -5793,6 +6731,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33122:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33122
@@ -5805,6 +6745,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   33123:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33123
@@ -5817,6 +6759,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   33124:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33124
@@ -5829,6 +6773,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   33125:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33125
@@ -5841,6 +6787,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33126:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33126
@@ -5853,6 +6801,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33127:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33127
@@ -5865,6 +6815,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33128:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33128
@@ -5877,6 +6829,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33129:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33129
@@ -5889,6 +6843,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33577:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33577
@@ -5903,6 +6859,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33618:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33618
@@ -5917,6 +6875,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33619:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33619
@@ -5931,6 +6891,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   33620:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 33620
@@ -5945,6 +6907,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34311:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34311
@@ -5957,6 +6921,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34312:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34312
@@ -5969,6 +6935,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34313:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34313
@@ -5981,6 +6949,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34314:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34314
@@ -5993,6 +6963,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34381:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34381
@@ -6005,6 +6977,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34382:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34382
@@ -6017,6 +6991,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34383:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34383
@@ -6029,6 +7005,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34400:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34400
@@ -6042,6 +7020,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34401:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34401
@@ -6055,6 +7035,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34402:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34402
@@ -6068,6 +7050,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34450:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34450
@@ -6080,6 +7064,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34451:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34451
@@ -6092,6 +7078,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   34452:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 34452
@@ -6104,6 +7092,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   40456:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 40456
@@ -6118,6 +7108,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   40548:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 40548
@@ -6132,6 +7124,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   40549:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 40549
@@ -6146,6 +7140,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   40701:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 40701
@@ -6160,6 +7156,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   46278:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 46278
@@ -6172,6 +7170,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   47025:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 47025
@@ -6185,6 +7185,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   47026:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 47026
@@ -6197,6 +7199,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   47027:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 47027
@@ -6209,6 +7213,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   47041:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 47041
@@ -6221,6 +7227,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   53476:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 53476
@@ -6234,6 +7242,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   54257:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 54257
@@ -6246,6 +7256,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   56116:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 56116
@@ -6258,6 +7270,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   56788:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 56788
@@ -6272,6 +7286,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   57213:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57213
@@ -6284,6 +7300,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57222:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57222
@@ -6296,6 +7314,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57223:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57223
@@ -6308,6 +7328,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57224:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57224
@@ -6320,6 +7342,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57278:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57278
@@ -6332,6 +7356,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   57279:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57279
@@ -6344,6 +7370,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57280:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57280
@@ -6356,6 +7384,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57281:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57281
@@ -6368,6 +7398,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57302:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57302
@@ -6380,6 +7412,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57303:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57303
@@ -6392,6 +7426,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57304:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57304
@@ -6404,6 +7440,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57305:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57305
@@ -6416,6 +7454,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57306:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57306
@@ -6428,6 +7468,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57330:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57330
@@ -6440,6 +7482,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57331:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57331
@@ -6452,6 +7496,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57764:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57764
@@ -6464,6 +7510,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57774:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57774
@@ -6476,6 +7524,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   57824:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57824
@@ -6488,6 +7538,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   57825:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57825
@@ -6500,6 +7552,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   57826:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57826
@@ -6512,6 +7566,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   57827:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57827
@@ -6524,6 +7580,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   57828:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 57828
@@ -6536,6 +7594,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   59317:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59317
@@ -6548,6 +7608,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   59318:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59318
@@ -6560,6 +7622,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   59603:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59603
@@ -6572,6 +7636,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   59752:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59752
@@ -6586,6 +7652,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   59755:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59755
@@ -6598,6 +7666,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   59900:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59900
@@ -6610,6 +7680,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   59901:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59901
@@ -6622,6 +7694,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   59902:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59902
@@ -6634,6 +7708,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   59903:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59903
@@ -6646,6 +7722,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   59989:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 59989
@@ -6658,6 +7736,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60024:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60024
@@ -6670,6 +7750,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60025:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60025
@@ -6682,6 +7764,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60095:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60095
@@ -6694,6 +7778,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60096:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60096
@@ -6706,6 +7792,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60191:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60191
@@ -6718,6 +7806,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60192:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60192
@@ -6730,6 +7820,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60252:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60252
@@ -6742,6 +7834,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60253:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60253
@@ -6754,6 +7848,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60454:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60454
@@ -6766,6 +7862,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   60455:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60455
@@ -6778,6 +7876,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   60456:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60456
@@ -6790,6 +7890,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   60457:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60457
@@ -6802,6 +7904,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   60458:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60458
@@ -6814,6 +7918,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   60486:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60486
@@ -6826,6 +7932,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60489:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60489
@@ -6838,6 +7946,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60490:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60490
@@ -6850,6 +7960,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   60750:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60750
@@ -6864,6 +7976,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   60751:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60751
@@ -6878,6 +7992,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   60752:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60752
@@ -6892,6 +8008,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   60753:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 60753
@@ -6906,6 +8024,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   62709:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 62709
@@ -6919,6 +8039,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   63699:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63699
@@ -6932,6 +8054,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   63704:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63704
@@ -6945,6 +8069,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   63705:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63705
@@ -6958,6 +8084,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   63706:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63706
@@ -6971,6 +8099,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   63707:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63707
@@ -6984,6 +8114,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   63708:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63708
@@ -6997,6 +8129,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   63709:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63709
@@ -7010,6 +8144,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   63710:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63710
@@ -7023,6 +8159,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   63711:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63711
@@ -7036,6 +8174,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   63712:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63712
@@ -7049,6 +8189,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   63713:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 63713
@@ -7062,6 +8204,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   64033:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 64033
@@ -7076,6 +8220,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   72258:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 72258
@@ -7090,6 +8236,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   72373:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 72373
@@ -7101,6 +8249,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   73041:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 73041
@@ -7114,6 +8264,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   73248:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 73248
@@ -7128,6 +8280,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
   73249:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 73249
@@ -7142,6 +8296,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
   73250:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 73250
@@ -7156,6 +8312,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
   73251:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 73251
@@ -7170,6 +8328,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
   74001:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 74001
@@ -7184,6 +8344,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   76203:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 76203
@@ -7198,6 +8360,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   76204:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 76204
@@ -7212,6 +8376,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   76207:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 76207
@@ -7225,6 +8391,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   76208:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 76208
@@ -7238,6 +8406,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   76209:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 76209
@@ -7251,6 +8421,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   76210:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 76210
@@ -7264,6 +8436,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   76211:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 76211
@@ -7277,6 +8451,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   76212:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 76212
@@ -7290,6 +8466,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
   76375:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 76375
@@ -7305,6 +8483,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 1.0
   78848:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 78848
@@ -7318,6 +8498,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   78857:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 78857
@@ -7331,6 +8513,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   78862:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 78862
@@ -7344,6 +8528,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   78906:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 78906
@@ -7358,6 +8544,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
   79192:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 79192
@@ -7372,6 +8560,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
   79785:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 3.5
     exporttaxmultiplier: 1
@@ -7390,6 +8580,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
   81953:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 81953
@@ -7404,6 +8596,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
   85178:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85178
@@ -7418,6 +8612,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85179:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85179
@@ -7432,6 +8628,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85242:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85242
@@ -7446,6 +8644,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85712:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85712
@@ -7460,6 +8660,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85713:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85713
@@ -7474,6 +8676,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85714:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85714
@@ -7488,6 +8692,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85715:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85715
@@ -7502,6 +8708,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85716:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85716
@@ -7516,6 +8724,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85717:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85717
@@ -7530,6 +8740,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85718:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85718
@@ -7544,6 +8756,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85719:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85719
@@ -7558,6 +8772,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85720:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85720
@@ -7572,6 +8788,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85721:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85721
@@ -7586,6 +8804,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85722:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85722
@@ -7600,6 +8820,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85723:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85723
@@ -7614,6 +8836,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85724:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85724
@@ -7628,6 +8852,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85725:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85725
@@ -7642,6 +8868,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85726:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85726
@@ -7656,6 +8884,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85727:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85727
@@ -7670,6 +8900,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85728:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85728
@@ -7684,6 +8916,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85729:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85729
@@ -7698,6 +8932,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85730:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85730
@@ -7712,6 +8948,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   85731:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85731
@@ -7725,7 +8963,54 @@ types:
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
+  85757:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85757
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Eradicator Datacore
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  85758:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85758
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Observatory Spectrography
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  85759:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 85759
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Authority Datacore
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
   85849:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 85849
@@ -7740,6 +9025,8 @@ types:
     stasiswebifierresistance: 1.0
     volume: 0.0010000000474974513
   86413:
+    aspectratioheight: 1
+    aspectratiowidth: 1
     asteroidradiusgrowthfactor: 1.0
     exporttaxmultiplier: 1
     id: 86413
@@ -7750,6 +9037,202 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4.0E7
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87217:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87217
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Military Stasis Pods
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87222:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87222
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Restricted Hyperspace Telemetry
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87226:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87226
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Simulated Baseliner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87258:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87258
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Unrestricted Hyperspace Telemetry
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87263:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87263
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Jailer Datacore
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87264:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87264
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Fragmented Observations
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87265:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87265
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Gleaned Static
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87266:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87266
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Gleaned Correspondence
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87267:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87267
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Gleaned Directive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87268:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87268
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Modfied Sleeper Corpse
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87269:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87269
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Tekton Forked Packet
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87273:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87273
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Braking Point Parameters
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.009999999776482582
+  87354:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87354
+    importtaxmultiplier: 1
+    marketGroup: 1863
+    mass: 1.0
+    name: Beacon Datacore
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582

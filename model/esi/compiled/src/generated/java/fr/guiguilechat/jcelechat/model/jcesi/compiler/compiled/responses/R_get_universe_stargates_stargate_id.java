@@ -12,7 +12,7 @@ public class R_get_universe_stargates_stargate_id {
     /**
      * position object
      */
-    public M_3_xnumber_ynumber_znumber position;
+    public get_killmails_killmail_id_killmail_hash_position position;
     /**
      * stargate_id integer
      */

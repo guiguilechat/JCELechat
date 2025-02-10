@@ -1,0 +1,12 @@
+types:
+  87233:
+    armorhp: 900000.0
+    disallowassistance: 1
+    hp: 900000.0
+    id: 87233
+    name: Destructive Scrutinizer
+    portionSize: 1
+    published: false
+    radius: 5500.0
+    shieldcapacity: 900000.0
+    signatureradius: 1000.0

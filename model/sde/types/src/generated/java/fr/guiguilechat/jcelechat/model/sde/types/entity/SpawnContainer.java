@@ -21,6 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
@@ -111,6 +112,13 @@ public class SpawnContainer
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacity;
+    /**
+     * Chance of being able to resist a cargo scan.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double cargoscanresistance;
     /**
      * charge of module
      */
@@ -351,7 +359,7 @@ public class SpawnContainer
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AccessDifficulty.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, Hackable.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMax.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, Charge.INSTANCE, RequiredSkill1Level.INSTANCE, LootRespawnTime.INSTANCE, DisallowAssistance.INSTANCE, AllowOnlyFwAttackers.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, AllowRefills.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SpecialTutorialLootRespawnTime.INSTANCE, EntityFactionLoss.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, EntityAttackRange.INSTANCE, RechargeRate.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, SpewContainerLifeExtension.INSTANCE, TierDifficulty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AccessDifficulty.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, Hackable.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMax.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, Charge.INSTANCE, RequiredSkill1Level.INSTANCE, LootRespawnTime.INSTANCE, DisallowAssistance.INSTANCE, AllowOnlyFwAttackers.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, AllowRefills.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SpecialTutorialLootRespawnTime.INSTANCE, EntityFactionLoss.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, EntityAttackRange.INSTANCE, RechargeRate.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, CargoScanResistance.INSTANCE, SpewContainerLifeExtension.INSTANCE, TierDifficulty.INSTANCE })));
     public static final SpawnContainer.MetaGroup METAGROUP = new SpawnContainer.MetaGroup();
 
     @Override
@@ -384,6 +392,10 @@ public class SpawnContainer
             case  38 :
             {
                 return capacity;
+            }
+            case  188 :
+            {
+                return cargoscanresistance;
             }
             case  18 :
             {

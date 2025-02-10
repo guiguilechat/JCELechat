@@ -4199,3 +4199,40 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87207:
+    cpumultiplier: 1.0
+    id: 87207
+    marketGroup: 1661
+    mass: 1.0
+    name: Ancillary Preservation Canister
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  87208:
+    cpumultiplier: 1.0
+    id: 87208
+    marketGroup: 1661
+    mass: 1.0
+    name: Prime Conservation Canister
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  87209:
+    cpumultiplier: 1.0
+    id: 87209
+    mass: 0.10000000149011612
+    name: Demijohn-Secured Dispatch
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87333:
+    cpumultiplier: 1.0
+    id: 87333
+    name: Resplendent Coil Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0

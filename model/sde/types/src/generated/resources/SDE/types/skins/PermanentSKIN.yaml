@@ -43254,3 +43254,67 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  87235:
+    id: 87235
+    marketGroup: 3672
+    name: Squall Celestial Coalescence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87236:
+    id: 87236
+    marketGroup: 2031
+    name: Astero Celestial Coalescence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87237:
+    id: 87237
+    marketGroup: 1965
+    name: Rokh Celestial Coalescence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87238:
+    id: 87238
+    marketGroup: 2107
+    name: Sleipnir Celestial Coalescence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87239:
+    id: 87239
+    marketGroup: 2144
+    name: Magus Celestial Coalescence SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87307:
+    id: 87307
+    marketGroup: 2031
+    name: Daredevil Resplendent Coil SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87308:
+    id: 87308
+    marketGroup: 2030
+    name: Vigilant Resplendent Coil SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87309:
+    id: 87309
+    marketGroup: 1963
+    name: Vindicator Resplendent Coil SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

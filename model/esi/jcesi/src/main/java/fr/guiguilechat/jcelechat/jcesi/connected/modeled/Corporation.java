@@ -6,24 +6,12 @@ import java.util.Map;
 import org.slf4j.Logger;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Assets;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Industry;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Market;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Wallet;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_contacts;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_divisions;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_facilities;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_membertracking;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles_history;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_titles;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.*;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
@@ -41,8 +29,6 @@ public class Corporation {
 	private static final Logger logger = org.slf4j.LoggerFactory.getLogger(Corporation.class);
 
 	public final ESIAccount con;
-
-	public final CorpBookmarks bms;
 	public final Wallet wallet;
 	public final Market market;
 	public final Industry industry;
@@ -50,7 +36,6 @@ public class Corporation {
 	public Corporation(ESIAccount con) {
 		this.con = con;
 		assets = new Assets(con);
-		bms = new CorpBookmarks(con);
 		wallet = new Wallet(this);
 		market = new Market(this);
 		industry = new Industry(con);

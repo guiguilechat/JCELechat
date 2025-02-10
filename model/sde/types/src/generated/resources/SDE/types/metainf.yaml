@@ -31178,6 +31178,7 @@ id2group:
   85181: blueprint/DestroyerBlueprint
   85229: ship/ForceReconShip
   85230: deployable/MercenaryDen
+  85231: entity/SpawnContainer
   85232: blueprint/MercenaryDenBlueprint
   85233: skill/StructureManagement
   85236: ship/BlackOps
@@ -31234,6 +31235,7 @@ id2group:
   85359: specialeditionassets/SpecialEditionCommodities
   85360: specialeditionassets/SpecialEditionCommodities
   85361: specialeditionassets/SpecialEditionCommodities
+  85362: entity/SpawnContainer
   85390: material/AbyssalMaterials
   85391: material/AbyssalMaterials
   85392: material/AbyssalMaterials
@@ -31251,9 +31253,11 @@ id2group:
   85404: personalization/ShipSKINDesignElement
   85405: personalization/ShipSKINDesignElement
   85406: personalization/ShipSKINDesignElement
+  85410: entity/LargeCollidableStructure
   85418: personalization/ShipEmblems
   85419: personalization/ShipEmblems
   85435: personalization/ShipEmblems
+  85436: entity/LargeCollidableStructure
   85437: personalization/ShipEmblems
   85438: commodity/Mutaplasmids
   85439: commodity/Mutaplasmids
@@ -31319,7 +31323,9 @@ id2group:
   85500: commodity/Mutaplasmids
   85501: commodity/Mutaplasmids
   85502: commodity/Mutaplasmids
+  85503: entity/LargeCollidableStructure
   85504: commodity/Mutaplasmids
+  85505: entity/LargeCollidableStructure
   85506: commodity/Mutaplasmids
   85507: commodity/Mutaplasmids
   85508: commodity/Mutaplasmids
@@ -31468,6 +31474,9 @@ id2group:
   85754: personalization/ShipSKINDesignElement
   85755: personalization/ShipSKINDesignElement
   85756: personalization/ShipSKINDesignElement
+  85757: commodity/Miscellaneous
+  85758: commodity/Miscellaneous
+  85759: commodity/Miscellaneous
   85772: personalization/ShipSKINDesignElement
   85773: personalization/ShipSKINDesignElement
   85774: personalization/ShipSKINDesignElement
@@ -31800,7 +31809,51 @@ id2group:
   87169: personalization/ShipEmblems
   87170: personalization/ShipEmblems
   87179: commodity/AccelerationGateKeys
+  87207: specialeditionassets/SpecialEditionCommodities
+  87208: specialeditionassets/SpecialEditionCommodities
+  87209: specialeditionassets/SpecialEditionCommodities
+  87217: commodity/Miscellaneous
+  87219: entity/LargeCollidableStructure
+  87222: commodity/Miscellaneous
+  87226: commodity/Miscellaneous
+  87227: entity/LargeCollidableStructure
+  87228: entity/SpawnContainer
+  87229: entity/IrregularFrigate
+  87230: entity/IrregularDestroyer
+  87231: entity/IrregularCruiser
+  87232: entity/IrregularDreadnought
+  87233: entity/IrregularStructure
+  87235: skins/PermanentSKIN
+  87236: skins/PermanentSKIN
+  87237: skins/PermanentSKIN
+  87238: skins/PermanentSKIN
+  87239: skins/PermanentSKIN
+  87243: entity/IrregularDreadnought
+  87244: entity/IrregularDreadnought
+  87245: entity/IrregularDreadnought
+  87258: commodity/Miscellaneous
+  87263: commodity/Miscellaneous
+  87264: commodity/Miscellaneous
+  87265: commodity/Miscellaneous
+  87266: commodity/Miscellaneous
+  87267: commodity/Miscellaneous
+  87268: commodity/Miscellaneous
+  87269: commodity/Miscellaneous
+  87273: commodity/Miscellaneous
+  87284: entity/LargeCollidableStructure
+  87285: entity/LargeCollidableStructure
+  87286: entity/LargeCollidableStructure
+  87287: entity/LargeCollidableStructure
   87293: expertsystems/StandardExpertSystems
+  87307: skins/PermanentSKIN
+  87308: skins/PermanentSKIN
+  87309: skins/PermanentSKIN
+  87318: personalization/ShipSKINDesignElement
+  87319: personalization/ShipSKINDesignElement
+  87320: personalization/ShipSKINDesignElement
+  87333: specialeditionassets/SpecialEditionCommodities
+  87353: entity/SpawnContainer
+  87354: commodity/Miscellaneous
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

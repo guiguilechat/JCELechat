@@ -11,18 +11,7 @@ import java.util.stream.Stream;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Assets;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Attributes;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharBookmarks;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Industry;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Location;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Market;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Notifications;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.PI;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Route;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Skills;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Wallet;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.*;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
@@ -56,8 +45,6 @@ public class EveCharacter {
 
 	public final Attributes attributes;
 
-	public final CharBookmarks bms;
-
 	public final Industry industry;
 
 	public final Informations infos;
@@ -80,7 +67,6 @@ public class EveCharacter {
 		this.con = con;
 		attributes = new Attributes(con);
 		assets = new Assets(con);
-		bms = new CharBookmarks(con);
 		industry = new Industry(con);
 		infos = new Informations(con);
 		location = new Location(con);

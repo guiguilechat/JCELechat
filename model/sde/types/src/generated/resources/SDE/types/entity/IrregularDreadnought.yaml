@@ -14,6 +14,10 @@ types:
     entitymissiletypeid: 32436
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.009999999776482582
+    entitysuperweaponfalloff: 250000
+    entitysuperweaponmaxrange: 250000
+    entitysuperweaponoptimalsignatureradius: 20
+    entitysuperweapontrackingspeed: 1.0
     gfxboosterid: 395
     gfxturretid: 41174
     hp: 100000.0
@@ -26,11 +30,13 @@ types:
     missiledamagemultiplier: 1.0
     missilelaunchduration: 30000.0
     name: Kazue's Caiman
+    optimalsigradius: 1000
     packagedVolume: 1.625E7
     portionSize: 1
     published: true
     radius: 1700.0
     rechargerate: 2000000.0
+    remoterepairimpedance: 1.0
     scangravimetricstrength: 55.0
     scanresolution: 75.0
     shieldcapacity: 700000.0
@@ -42,3 +48,279 @@ types:
     signatureradius: 12000.0
     volume: 1.625E7
     warpspeedmultiplier: 25.0
+  87232:
+    agility: 0.017085937783122063
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 178125.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviorsiegedisallowtetheringmodifier: 1
+    behaviorsiegeduration: 90000
+    behaviorsiegeecmresistancemodifier: 100.0
+    behaviorsiegelocallogisticsamountmodifier: 100
+    behaviorsiegelocallogisticsdurationmodifier: -50
+    behaviorsiegemassmodifier: 10
+    behaviorsiegemaxvelocitymodifier: -100
+    behaviorsiegemissiledamagemodifier: 425
+    behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremoterepairimpedancemodifier: -100.0
+    behaviorsiegesensordampenerresistancemodifier: -70
+    behaviorsiegeturretdamagemodifier: 425
+    behaviorsiegewarpscramblestatusmodifier: 100
+    behaviorsiegeweapondisruptionresistancemodifier: -70
+    capacitorcapacity: 40000.0
+    capacitorneed: 30000.0
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    entitysuperweaponduration: 10000
+    entitysuperweaponemdamage: 250000
+    entitysuperweaponexplosivedamage: 250000
+    entitysuperweaponfalloff: 250000
+    entitysuperweaponkineticdamage: 250000
+    entitysuperweaponmaxrange: 250000
+    entitysuperweaponoptimalsignatureradius: 125
+    entitysuperweaponthermaldamage: 250000
+    entitysuperweapontrackingspeed: 0.0949999988079071
+    gfxboosterid: 397
+    hp: 187500.0
+    id: 87232
+    mass: 1.29E9
+    maxlockedtargets: 1
+    maxrange: 250000.0
+    maxtargetrange: 250000.0
+    maxvelocity: 87.5
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Response Valravn
+    npcbehaviormaximumcombatorbitrange: 40000.0
+    optimalsigradius: 40000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1700.0
+    remoterepairimpedance: 0.5
+    scangravimetricstrength: 500.0
+    scanladarstrength: 500.0
+    scanmagnetometricstrength: 500.0
+    scanradarstrength: 500.0
+    scanresolution: 10000.0
+    shieldcapacity: 150000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 1.125E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 11200.0
+    trackingspeed: 1.0
+    volume: 1000.0
+    warpspeedmultiplier: 3.0
+  87243:
+    agility: 0.017085937783122063
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 150000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviorsiegedisallowtetheringmodifier: 1
+    behaviorsiegeduration: 90000
+    behaviorsiegeecmresistancemodifier: 100.0
+    behaviorsiegelocallogisticsamountmodifier: 100
+    behaviorsiegelocallogisticsdurationmodifier: -50
+    behaviorsiegemassmodifier: 10
+    behaviorsiegemaxvelocitymodifier: -100
+    behaviorsiegemissiledamagemodifier: 425
+    behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremoterepairimpedancemodifier: -100.0
+    behaviorsiegesensordampenerresistancemodifier: -70
+    behaviorsiegeturretdamagemodifier: 425
+    behaviorsiegewarpscramblestatusmodifier: 100
+    behaviorsiegeweapondisruptionresistancemodifier: -70
+    capacitorcapacity: 40000.0
+    capacitorneed: 30000.0
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    entitysuperweaponduration: 10000
+    entitysuperweaponemdamage: 250000
+    entitysuperweaponexplosivedamage: 250000
+    entitysuperweaponfalloff: 250000
+    entitysuperweaponkineticdamage: 250000
+    entitysuperweaponmaxrange: 250000
+    entitysuperweaponoptimalsignatureradius: 125
+    entitysuperweaponthermaldamage: 250000
+    entitysuperweapontrackingspeed: 0.0949999988079071
+    gfxboosterid: 394
+    hp: 187500.0
+    id: 87243
+    mass: 1.29E9
+    maxlockedtargets: 1
+    maxrange: 250000.0
+    maxtargetrange: 250000.0
+    maxvelocity: 87.5
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Response Bane
+    npcbehaviormaximumcombatorbitrange: 40000.0
+    optimalsigradius: 40000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1700.0
+    remoterepairimpedance: 0.5
+    scangravimetricstrength: 500.0
+    scanladarstrength: 500.0
+    scanmagnetometricstrength: 500.0
+    scanradarstrength: 500.0
+    scanresolution: 10000.0
+    shieldcapacity: 178125.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 1.125E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 11200.0
+    trackingspeed: 1.0
+    volume: 1000.0
+    warpspeedmultiplier: 3.0
+  87244:
+    agility: 0.017085937783122063
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 178125.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviorsiegedisallowtetheringmodifier: 1
+    behaviorsiegeduration: 90000
+    behaviorsiegeecmresistancemodifier: 100.0
+    behaviorsiegelocallogisticsamountmodifier: 100
+    behaviorsiegelocallogisticsdurationmodifier: -50
+    behaviorsiegemassmodifier: 10
+    behaviorsiegemaxvelocitymodifier: -100
+    behaviorsiegemissiledamagemodifier: 425
+    behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremoterepairimpedancemodifier: -100.0
+    behaviorsiegesensordampenerresistancemodifier: -70
+    behaviorsiegeturretdamagemodifier: 425
+    behaviorsiegewarpscramblestatusmodifier: 100
+    behaviorsiegeweapondisruptionresistancemodifier: -70
+    capacitorcapacity: 40000.0
+    capacitorneed: 30000.0
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    entitysuperweaponduration: 10000
+    entitysuperweaponemdamage: 250000
+    entitysuperweaponexplosivedamage: 250000
+    entitysuperweaponfalloff: 250000
+    entitysuperweaponkineticdamage: 250000
+    entitysuperweaponmaxrange: 250000
+    entitysuperweaponoptimalsignatureradius: 125
+    entitysuperweaponthermaldamage: 250000
+    entitysuperweapontrackingspeed: 0.0949999988079071
+    gfxboosterid: 394
+    hp: 187500.0
+    id: 87244
+    mass: 1.29E9
+    maxlockedtargets: 1
+    maxrange: 250000.0
+    maxtargetrange: 250000.0
+    maxvelocity: 87.5
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Response Hubris
+    npcbehaviormaximumcombatorbitrange: 40000.0
+    optimalsigradius: 40000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1700.0
+    remoterepairimpedance: 0.5
+    scangravimetricstrength: 500.0
+    scanladarstrength: 500.0
+    scanmagnetometricstrength: 500.0
+    scanradarstrength: 500.0
+    scanresolution: 10000.0
+    shieldcapacity: 150000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 1.125E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 11200.0
+    trackingspeed: 1.0
+    volume: 1000.0
+    warpspeedmultiplier: 3.0
+  87245:
+    agility: 0.017085937783122063
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 150000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviorsiegedisallowtetheringmodifier: 1
+    behaviorsiegeduration: 90000
+    behaviorsiegeecmresistancemodifier: 100.0
+    behaviorsiegelocallogisticsamountmodifier: 100
+    behaviorsiegelocallogisticsdurationmodifier: -50
+    behaviorsiegemassmodifier: 10
+    behaviorsiegemaxvelocitymodifier: -100
+    behaviorsiegemissiledamagemodifier: 425
+    behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremoterepairimpedancemodifier: -100.0
+    behaviorsiegesensordampenerresistancemodifier: -70
+    behaviorsiegeturretdamagemodifier: 425
+    behaviorsiegewarpscramblestatusmodifier: 100
+    behaviorsiegeweapondisruptionresistancemodifier: -70
+    capacitorcapacity: 40000.0
+    capacitorneed: 30000.0
+    doomsdayenergyneutamount: 32500
+    doomsdayenergyneutradius: 10000
+    doomsdayenergyneutresistanceid: 2045
+    doomsdayenergyneutsignatureradius: 20000
+    entitysuperweaponduration: 10000
+    entitysuperweaponemdamage: 250000
+    entitysuperweaponexplosivedamage: 250000
+    entitysuperweaponfalloff: 250000
+    entitysuperweaponkineticdamage: 250000
+    entitysuperweaponmaxrange: 250000
+    entitysuperweaponoptimalsignatureradius: 125
+    entitysuperweaponthermaldamage: 250000
+    entitysuperweapontrackingspeed: 0.0949999988079071
+    gfxboosterid: 395
+    hp: 187500.0
+    id: 87245
+    mass: 1.29E9
+    maxlockedtargets: 1
+    maxrange: 250000.0
+    maxtargetrange: 250000.0
+    maxvelocity: 87.5
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Response Karura
+    npcbehaviormaximumcombatorbitrange: 40000.0
+    optimalsigradius: 40000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 1700.0
+    remoterepairimpedance: 0.5
+    scangravimetricstrength: 500.0
+    scanladarstrength: 500.0
+    scanmagnetometricstrength: 500.0
+    scanradarstrength: 500.0
+    scanresolution: 10000.0
+    shieldcapacity: 178125.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 1.125E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 11200.0
+    trackingspeed: 1.0
+    volume: 1000.0
+    warpspeedmultiplier: 3.0

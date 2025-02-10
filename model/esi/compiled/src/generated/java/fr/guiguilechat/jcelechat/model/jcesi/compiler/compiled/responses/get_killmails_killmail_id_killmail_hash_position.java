@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses;
 
-public class M_3_xnumber_ynumber_znumber {
+public class get_killmails_killmail_id_killmail_hash_position {
     /**
      * x number
      */
@@ -22,7 +22,7 @@ public class M_3_xnumber_ynumber_znumber {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        M_3_xnumber_ynumber_znumber othersame = ((M_3_xnumber_ynumber_znumber) other);
+        get_killmails_killmail_id_killmail_hash_position othersame = ((get_killmails_killmail_id_killmail_hash_position) other);
         if (x!= othersame.x) {
             return false;
         }

@@ -12,7 +12,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_3_Boolean_
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_4_Integer_int_Lint;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_5_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_6_Long_int;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_22;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_contract_bids_4;
@@ -24,7 +23,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_bookmarks_folders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_calendar;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_calendar_event_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_calendar_event_id_attendees;
@@ -91,8 +89,6 @@ public class Characters {
     private final Map<Integer, ObjHolderSimple<Double>> get_characters_character_id_wallet_holder = new HashMap<>();
     private final Map<K_6_Long_int, ListHolderImpl<R_get_characters_character_id_wallet_transactions>> get_characters_character_id_wallet_transactions_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_agents_research>> get_characters_character_id_agents_research_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<M_get_bookmarks_9>> get_characters_character_id_bookmarks_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<R_get_characters_character_id_bookmarks_folders>> get_characters_character_id_bookmarks_folders_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_contacts>> get_characters_character_id_contacts_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_fittings>> get_characters_character_id_fittings_holder = new HashMap<>();
@@ -250,74 +246,6 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_blueprints_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * A list of your character's personal bookmarks
-     * 
-     * cache over {@link Swagger#get_characters_bookmarks}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ListHolder<M_get_bookmarks_9> bookmarks(int character_id) {
-        ListHolderImpl<M_get_bookmarks_9> ret = get_characters_character_id_bookmarks_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_bookmarks_holder);
-            try {
-                synchronized (get_characters_character_id_bookmarks_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_bookmarks_holder);
-                    {
-                        ret = get_characters_character_id_bookmarks_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ListHolderImpl<M_get_bookmarks_9>();
-                            get_characters_character_id_bookmarks_holder.put(character_id, ret);
-                            ListHolderImpl<M_get_bookmarks_9> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_bookmarks", (page, properties) -> (cache.swagger).get_characters_bookmarks(character_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * A list of your character's personal bookmark folders
-     * 
-     * cache over {@link Swagger#get_characters_bookmarks_folders}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ListHolder<R_get_characters_character_id_bookmarks_folders> bookmarks_folders(int character_id) {
-        ListHolderImpl<R_get_characters_character_id_bookmarks_folders> ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_bookmarks_folders_holder);
-            try {
-                synchronized (get_characters_character_id_bookmarks_folders_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_bookmarks_folders_holder);
-                    {
-                        ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ListHolderImpl<R_get_characters_character_id_bookmarks_folders>();
-                            get_characters_character_id_bookmarks_folders_holder.put(character_id, ret);
-                            ListHolderImpl<R_get_characters_character_id_bookmarks_folders> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_bookmarks_folders", (page, properties) -> (cache.swagger).get_characters_bookmarks_folders(character_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_folders_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_folders_holder);
             }
         }
         return ret;

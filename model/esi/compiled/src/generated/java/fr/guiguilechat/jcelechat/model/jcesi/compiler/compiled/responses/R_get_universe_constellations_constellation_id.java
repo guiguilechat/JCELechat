@@ -12,7 +12,7 @@ public class R_get_universe_constellations_constellation_id {
     /**
      * position object
      */
-    public M_3_xnumber_ynumber_znumber position;
+    public get_killmails_killmail_id_killmail_hash_position position;
     /**
      * The region this constellation is in
      */

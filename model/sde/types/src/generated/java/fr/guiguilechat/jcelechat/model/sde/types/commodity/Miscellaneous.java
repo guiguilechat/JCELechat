@@ -14,6 +14,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AspectRatioHeight;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AspectRatioWidth;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
@@ -31,6 +33,20 @@ import org.yaml.snakeyaml.Yaml;
 public class Miscellaneous
     extends Commodity
 {
+    /**
+     * attribute that, along with aspectRatioWidth, describes the proportions of videos/images in a puzzle
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int aspectratioheight;
+    /**
+     * attribute that, along with aspectRatioHeight, describes the proportions of videos/images in a puzzle
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int aspectratiowidth;
     /**
      *  0: Mission/NPE Ore
      *  1: Standard Ore/Ice
@@ -106,12 +122,20 @@ public class Miscellaneous
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, Capacity.INSTANCE, OreBasicType.INSTANCE, ImportTaxMultiplier.INSTANCE, Hp.INSTANCE, ExportTaxMultiplier.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AspectRatioHeight.INSTANCE, Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, Capacity.INSTANCE, OreBasicType.INSTANCE, ImportTaxMultiplier.INSTANCE, Hp.INSTANCE, ExportTaxMultiplier.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AspectRatioWidth.INSTANCE })));
     public static final Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  5760 :
+            {
+                return aspectratioheight;
+            }
+            case  5759 :
+            {
+                return aspectratiowidth;
+            }
             case  2699 :
             {
                 return asteroidmetalevel;

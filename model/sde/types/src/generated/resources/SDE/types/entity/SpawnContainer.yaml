@@ -12642,3 +12642,96 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 4
     volume: 27500.0
+  85231:
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 85231
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Drifter Collection
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+  85362:
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 85362
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Watchful Authority
+    portionSize: 1
+    published: false
+    radius: 241.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+  87228:
+    allowrefills: 1
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 87228
+    lootrespawntime: 90000.0
+    mass: 10000.0
+    name: Ultra-Shield Array
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 241.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  87353:
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 87353
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Patient Beacon
+    portionSize: 1
+    published: false
+    radius: 241.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3

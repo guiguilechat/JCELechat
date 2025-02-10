@@ -8,7 +8,7 @@ public class M_post_assets_locations_2 {
     /**
      * position object
      */
-    public M_3_xnumber_ynumber_znumber position;
+    public get_killmails_killmail_id_killmail_hash_position position;
 
     @Override
     public boolean equals(Object other) {

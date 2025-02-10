@@ -20,9 +20,29 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResona
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeDisallowTetheringModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeECMResistanceModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeLocalLogisticsAmountModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeLocalLogisticsDurationModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeMassModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeMaxVelocityModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeMissileDamageModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeRemoteAssistanceImpedanceModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeRemoteRepairImpedanceModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeSensorDampenerResistanceModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeTurretDamageModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeWarpScrambleStatusModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeWeaponDisruptionResistanceModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutResistanceID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutSignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
@@ -30,17 +50,30 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMissileTypeID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityMaxGain;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponEmDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponExplosiveDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponFallOff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponKineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponMaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponOptimalSignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponThermalDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySuperWeaponTrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsCapitalSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileLaunchDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcBehaviorMaximumCombatOrbitRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
@@ -54,6 +87,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonan
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -62,6 +96,111 @@ import org.yaml.snakeyaml.Yaml;
 public class IrregularDreadnought
     extends Entity
 {
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegedisallowtetheringmodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegedischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegeduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorsiegeecmresistancemodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegelocallogisticsamountmodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegelocallogisticsdurationmodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegemassmodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegemaxvelocitymodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegemissiledamagemodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegeremoteassistanceimpedancemodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorsiegeremoterepairimpedancemodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegesensordampenerresistancemodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegeturretdamagemodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegewarpscramblestatusmodifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorsiegeweapondisruptionresistancemodifier;
     /**
      * The agility of the object.
      */
@@ -112,6 +251,13 @@ public class IrregularDreadnought
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
+     * The amount of charge used from the capacitor for a module activation.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacitorneed;
+    /**
      * The cargo space allowed
      */
     @HighIsGood(true)
@@ -125,6 +271,34 @@ public class IrregularDreadnought
     @Stackable(true)
     @DefaultIntValue(0)
     public int charge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int doomsdayenergyneutamount;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int doomsdayenergyneutradius;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int doomsdayenergyneutresistanceid;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int doomsdayenergyneutsignatureradius;
     /**
      * 
      */
@@ -176,6 +350,69 @@ public class IrregularDreadnought
     @DefaultRealValue(0.0)
     public double entitysecuritystatuskillbonus;
     /**
+     * Used for NPCs to replicate cooldown functionality for the super weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitysuperweaponduration;
+    /**
+     * Used for NPCs to replicate damage for the super weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitysuperweaponemdamage;
+    /**
+     * Used for NPCs to replicate damage for the super weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitysuperweaponexplosivedamage;
+    /**
+     * Used for chance based accuracy hit calculation for entity super weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(250000)
+    public int entitysuperweaponfalloff;
+    /**
+     * Used for NPCs to replicate damage for the super weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitysuperweaponkineticdamage;
+    /**
+     * Used for chance based accuracy hit calculation for entity super weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(250000)
+    public int entitysuperweaponmaxrange;
+    /**
+     * Used for chance based accuracy hit calculation for entity super weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(20)
+    public int entitysuperweaponoptimalsignatureradius;
+    /**
+     * Used for NPCs to replicate damage for the super weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitysuperweaponthermaldamage;
+    /**
+     * Used for chance based accuracy hit calculation for entity super weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double entitysuperweapontrackingspeed;
+    /**
      * Graphic ID of the boosters for drone type ships.
      */
     @HighIsGood(true)
@@ -211,6 +448,13 @@ public class IrregularDreadnought
     @DefaultIntValue(0)
     public int maxlockedtargets;
     /**
+     * Distance below which range does not affect the to-hit equation.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double maxrange;
+    /**
      * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
@@ -239,6 +483,20 @@ public class IrregularDreadnought
     @DefaultRealValue(20000.0)
     public double missilelaunchduration;
     /**
+     * Used by Behavior NPCs to work out minimum orbit range. If the npc has an effect with a shorter range, it will use the effects range instead.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double npcbehaviormaximumcombatorbitrange;
+    /**
+     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1000)
+    public int optimalsigradius;
+    /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
@@ -252,6 +510,13 @@ public class IrregularDreadnought
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double rechargerate;
+    /**
+     * Impedance against Remote Repair (shield, armor, hull and energy).
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double remoterepairimpedance;
     /**
      * Gravimetric strength.
      */
@@ -345,18 +610,85 @@ public class IrregularDreadnought
     @DefaultRealValue(100.0)
     public double signatureradius;
     /**
+     * Weapon accuracy
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double trackingspeed;
+    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, Charge.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, WarpSpeedMultiplier.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, IsCapitalSize.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntitySuperWeaponTrackingSpeed.INSTANCE, EntitySuperWeaponOptimalSignatureRadius.INSTANCE, CapacitorNeed.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, ArmorHP.INSTANCE, Hp.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, BehaviorSiegeMissileDamageModifier.INSTANCE, DoomsdayEnergyNeutResistanceID.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorSiegeDuration.INSTANCE, MaxTargetRange.INSTANCE, BehaviorSiegeDischarge.INSTANCE, BehaviorSiegeRemoteRepairImpedanceModifier.INSTANCE, BehaviorSiegeRemoteAssistanceImpedanceModifier.INSTANCE, BehaviorSiegeSensorDampenerResistanceModifier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, BehaviorSiegeWeaponDisruptionResistanceModifier.INSTANCE, ScanMagnetometricStrength.INSTANCE, BehaviorSiegeECMResistanceModifier.INSTANCE, BehaviorSiegeMaxVelocityModifier.INSTANCE, ScanGravimetricStrength.INSTANCE, DoomsdayEnergyNeutRadius.INSTANCE, DoomsdayEnergyNeutAmount.INSTANCE, BehaviorSiegeWarpScrambleStatusModifier.INSTANCE, MissileDamageMultiplier.INSTANCE, BehaviorSiegeDisallowTetheringModifier.INSTANCE, DoomsdayEnergyNeutSignatureRadius.INSTANCE, BehaviorSiegeMassModifier.INSTANCE, BehaviorSiegeLocalLogisticsAmountModifier.INSTANCE, BehaviorSiegeLocalLogisticsDurationModifier.INSTANCE, WarpSpeedMultiplier.INSTANCE, BehaviorSiegeTurretDamageModifier.INSTANCE, EntitySuperWeaponDuration.INSTANCE, EntitySuperWeaponEmDamage.INSTANCE, EntitySuperWeaponKineticDamage.INSTANCE, EntitySuperWeaponThermalDamage.INSTANCE, EntitySuperWeaponExplosiveDamage.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, CapacitorCapacity.INSTANCE, OptimalSigRadius.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, IsCapitalSize.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntitySuperWeaponMaxRange.INSTANCE, EntitySuperWeaponFallOff.INSTANCE })));
     public static final IrregularDreadnought.MetaGroup METAGROUP = new IrregularDreadnought.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  2645 :
+            {
+                return behaviorsiegedisallowtetheringmodifier;
+            }
+            case  2637 :
+            {
+                return behaviorsiegedischarge;
+            }
+            case  2636 :
+            {
+                return behaviorsiegeduration;
+            }
+            case  2642 :
+            {
+                return behaviorsiegeecmresistancemodifier;
+            }
+            case  2647 :
+            {
+                return behaviorsiegelocallogisticsamountmodifier;
+            }
+            case  2648 :
+            {
+                return behaviorsiegelocallogisticsdurationmodifier;
+            }
+            case  2646 :
+            {
+                return behaviorsiegemassmodifier;
+            }
+            case  2643 :
+            {
+                return behaviorsiegemaxvelocitymodifier;
+            }
+            case  2730 :
+            {
+                return behaviorsiegemissiledamagemodifier;
+            }
+            case  2639 :
+            {
+                return behaviorsiegeremoteassistanceimpedancemodifier;
+            }
+            case  2638 :
+            {
+                return behaviorsiegeremoterepairimpedancemodifier;
+            }
+            case  2640 :
+            {
+                return behaviorsiegesensordampenerresistancemodifier;
+            }
+            case  2649 :
+            {
+                return behaviorsiegeturretdamagemodifier;
+            }
+            case  2644 :
+            {
+                return behaviorsiegewarpscramblestatusmodifier;
+            }
+            case  2641 :
+            {
+                return behaviorsiegeweapondisruptionresistancemodifier;
+            }
             case  70 :
             {
                 return agility;
@@ -385,6 +717,10 @@ public class IrregularDreadnought
             {
                 return capacitorcapacity;
             }
+            case  6 :
+            {
+                return capacitorneed;
+            }
             case  38 :
             {
                 return capacity;
@@ -392,6 +728,22 @@ public class IrregularDreadnought
             case  18 :
             {
                 return charge;
+            }
+            case  2260 :
+            {
+                return doomsdayenergyneutamount;
+            }
+            case  2259 :
+            {
+                return doomsdayenergyneutradius;
+            }
+            case  2609 :
+            {
+                return doomsdayenergyneutresistanceid;
+            }
+            case  2261 :
+            {
+                return doomsdayenergyneutsignatureradius;
             }
             case  457 :
             {
@@ -421,6 +773,42 @@ public class IrregularDreadnought
             {
                 return entitysecuritystatuskillbonus;
             }
+            case  2009 :
+            {
+                return entitysuperweaponduration;
+            }
+            case  2010 :
+            {
+                return entitysuperweaponemdamage;
+            }
+            case  2013 :
+            {
+                return entitysuperweaponexplosivedamage;
+            }
+            case  2047 :
+            {
+                return entitysuperweaponfalloff;
+            }
+            case  2011 :
+            {
+                return entitysuperweaponkineticdamage;
+            }
+            case  2046 :
+            {
+                return entitysuperweaponmaxrange;
+            }
+            case  2049 :
+            {
+                return entitysuperweaponoptimalsignatureradius;
+            }
+            case  2012 :
+            {
+                return entitysuperweaponthermaldamage;
+            }
+            case  2048 :
+            {
+                return entitysuperweapontrackingspeed;
+            }
             case  246 :
             {
                 return gfxboosterid;
@@ -441,6 +829,10 @@ public class IrregularDreadnought
             {
                 return maxlockedtargets;
             }
+            case  54 :
+            {
+                return maxrange;
+            }
             case  76 :
             {
                 return maxtargetrange;
@@ -457,6 +849,14 @@ public class IrregularDreadnought
             {
                 return missilelaunchduration;
             }
+            case  2786 :
+            {
+                return npcbehaviormaximumcombatorbitrange;
+            }
+            case  620 :
+            {
+                return optimalsigradius;
+            }
             case  162 :
             {
                 return radius;
@@ -464,6 +864,10 @@ public class IrregularDreadnought
             case  55 :
             {
                 return rechargerate;
+            }
+            case  2116 :
+            {
+                return remoterepairimpedance;
             }
             case  211 :
             {
@@ -516,6 +920,10 @@ public class IrregularDreadnought
             case  552 :
             {
                 return signatureradius;
+            }
+            case  160 :
+            {
+                return trackingspeed;
             }
             case  600 :
             {

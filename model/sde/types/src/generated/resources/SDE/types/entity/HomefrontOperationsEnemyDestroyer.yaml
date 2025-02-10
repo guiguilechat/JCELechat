@@ -174,7 +174,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    energyneutralizeramount: 180.0
+    energyneutralizeramount: 360.0
     entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 394
@@ -225,7 +225,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    energyneutralizeramount: 180.0
+    energyneutralizeramount: 360.0
     entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 395
@@ -276,7 +276,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    energyneutralizeramount: 180.0
+    energyneutralizeramount: 360.0
     entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 394
@@ -327,7 +327,7 @@ types:
     capacity: 235.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    energyneutralizeramount: 180.0
+    energyneutralizeramount: 360.0
     entitykillbounty: 100000
     falloff: 1.0
     gfxboosterid: 397

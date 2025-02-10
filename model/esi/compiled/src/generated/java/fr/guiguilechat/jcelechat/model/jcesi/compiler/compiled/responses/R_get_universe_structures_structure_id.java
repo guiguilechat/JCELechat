@@ -13,7 +13,7 @@ public class R_get_universe_structures_structure_id {
      * Coordinates of the structure in Cartesian space relative to the Sun, in metres.
      * 
      */
-    public M_3_xnumber_ynumber_znumber position;
+    public get_killmails_killmail_id_killmail_hash_position position;
     /**
      * solar_system_id integer
      */

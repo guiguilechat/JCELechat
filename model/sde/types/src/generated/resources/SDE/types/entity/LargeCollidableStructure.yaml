@@ -25,6 +25,7 @@ types:
     hp: 50000.0
     id: 2896
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -72,6 +73,7 @@ types:
     hp: 50000.0
     id: 2902
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -119,6 +121,7 @@ types:
     hp: 200.0
     id: 2915
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -166,6 +169,7 @@ types:
     hp: 2000.0
     id: 3499
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -213,6 +217,7 @@ types:
     hp: 4000000.0
     id: 3500
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -260,6 +265,7 @@ types:
     hp: 20000.0
     id: 3591
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -307,6 +313,7 @@ types:
     hp: 50.0
     id: 3858
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -354,6 +361,7 @@ types:
     hp: 65000.0
     id: 4011
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -401,6 +409,7 @@ types:
     hp: 750.0
     id: 4357
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -448,6 +457,7 @@ types:
     hp: 200000.0
     id: 11076
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -495,6 +505,7 @@ types:
     hp: 200000.0
     id: 11077
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -542,6 +553,7 @@ types:
     hp: 200000.0
     id: 11079
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -589,6 +601,7 @@ types:
     hp: 80000.0
     id: 11080
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -636,6 +649,7 @@ types:
     hp: 100000.0
     id: 11081
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -679,6 +693,7 @@ types:
     hp: 100000.0
     id: 11167
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -721,6 +736,7 @@ types:
     hp: 100000.0
     id: 11168
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -763,6 +779,7 @@ types:
     hp: 100000.0
     id: 11169
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -805,6 +822,7 @@ types:
     hp: 100000.0
     id: 11170
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -847,6 +865,7 @@ types:
     hp: 100000.0
     id: 11171
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -893,6 +912,7 @@ types:
     hp: 50000.0
     id: 12989
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -940,6 +960,7 @@ types:
     hp: 200.0
     id: 13034
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -987,6 +1008,7 @@ types:
     hp: 200.0
     id: 13106
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1033,6 +1055,7 @@ types:
     hp: 1.0
     id: 13200
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1080,6 +1103,7 @@ types:
     hp: 200.0
     id: 16215
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1127,6 +1151,7 @@ types:
     hp: 40000.0
     id: 16726
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1174,6 +1199,7 @@ types:
     hp: 40000.0
     id: 16727
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1221,6 +1247,7 @@ types:
     hp: 5000.0
     id: 16728
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1268,6 +1295,7 @@ types:
     hp: 5000.0
     id: 16729
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1315,6 +1343,7 @@ types:
     hp: 5000.0
     id: 16730
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1362,6 +1391,7 @@ types:
     hp: 5000.0
     id: 16731
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1409,6 +1439,7 @@ types:
     hp: 15000.0
     id: 16732
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1456,6 +1487,7 @@ types:
     hp: 15000.0
     id: 16733
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1503,6 +1535,7 @@ types:
     hp: 2500.0
     id: 16734
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1550,6 +1583,7 @@ types:
     hp: 2000.0
     id: 16735
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1597,6 +1631,7 @@ types:
     hp: 200000.0
     id: 16736
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1644,6 +1679,7 @@ types:
     hp: 150000.0
     id: 16737
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1691,6 +1727,7 @@ types:
     hp: 5000.0
     id: 16738
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1738,6 +1775,7 @@ types:
     hp: 700.0
     id: 16748
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1785,6 +1823,7 @@ types:
     hp: 500.0
     id: 16749
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1832,6 +1871,7 @@ types:
     hp: 300.0
     id: 16750
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1879,6 +1919,7 @@ types:
     hp: 500.0
     id: 16751
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1926,6 +1967,7 @@ types:
     hp: 300.0
     id: 16752
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1973,6 +2015,7 @@ types:
     hp: 300.0
     id: 16753
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2020,6 +2063,7 @@ types:
     hp: 300.0
     id: 16754
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2067,6 +2111,7 @@ types:
     hp: 300.0
     id: 16755
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2114,6 +2159,7 @@ types:
     hp: 300.0
     id: 16756
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2161,6 +2207,7 @@ types:
     hp: 700.0
     id: 16757
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2208,6 +2255,7 @@ types:
     hp: 500.0
     id: 16758
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2255,6 +2303,7 @@ types:
     hp: 300.0
     id: 16759
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2302,6 +2351,7 @@ types:
     hp: 500.0
     id: 16760
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2349,6 +2399,7 @@ types:
     hp: 300.0
     id: 16761
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2396,6 +2447,7 @@ types:
     hp: 300.0
     id: 16762
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2443,6 +2495,7 @@ types:
     hp: 300.0
     id: 16763
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2490,6 +2543,7 @@ types:
     hp: 300.0
     id: 16764
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2537,6 +2591,7 @@ types:
     hp: 300.0
     id: 16765
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2584,6 +2639,7 @@ types:
     hp: 700.0
     id: 16766
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2631,6 +2687,7 @@ types:
     hp: 500.0
     id: 16767
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2678,6 +2735,7 @@ types:
     hp: 300.0
     id: 16768
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2725,6 +2783,7 @@ types:
     hp: 500.0
     id: 16769
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2772,6 +2831,7 @@ types:
     hp: 300.0
     id: 16770
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2819,6 +2879,7 @@ types:
     hp: 300.0
     id: 16771
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2866,6 +2927,7 @@ types:
     hp: 300.0
     id: 16772
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2913,6 +2975,7 @@ types:
     hp: 300.0
     id: 16773
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2960,6 +3023,7 @@ types:
     hp: 300.0
     id: 16774
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3007,6 +3071,7 @@ types:
     hp: 500.0
     id: 16775
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3054,6 +3119,7 @@ types:
     hp: 300.0
     id: 16776
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3101,6 +3167,7 @@ types:
     hp: 500.0
     id: 16777
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3148,6 +3215,7 @@ types:
     hp: 300.0
     id: 16778
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3195,6 +3263,7 @@ types:
     hp: 300.0
     id: 16779
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3242,6 +3311,7 @@ types:
     hp: 300.0
     id: 16780
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3289,6 +3359,7 @@ types:
     hp: 300.0
     id: 16781
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3336,6 +3407,7 @@ types:
     hp: 300.0
     id: 16782
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3383,6 +3455,7 @@ types:
     hp: 700.0
     id: 16784
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3430,6 +3503,7 @@ types:
     hp: 500.0
     id: 16785
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3477,6 +3551,7 @@ types:
     hp: 300.0
     id: 16786
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3524,6 +3599,7 @@ types:
     hp: 500.0
     id: 16787
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3571,6 +3647,7 @@ types:
     hp: 300.0
     id: 16788
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3618,6 +3695,7 @@ types:
     hp: 300.0
     id: 16789
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3665,6 +3743,7 @@ types:
     hp: 300.0
     id: 16790
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3712,6 +3791,7 @@ types:
     hp: 300.0
     id: 16791
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3759,6 +3839,7 @@ types:
     hp: 300.0
     id: 16792
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3806,6 +3887,7 @@ types:
     hp: 300.0
     id: 16793
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3853,6 +3935,7 @@ types:
     hp: 300.0
     id: 16794
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3900,6 +3983,7 @@ types:
     hp: 700.0
     id: 16796
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3947,6 +4031,7 @@ types:
     hp: 300.0
     id: 16797
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3994,6 +4079,7 @@ types:
     hp: 300.0
     id: 16798
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4041,6 +4127,7 @@ types:
     hp: 500.0
     id: 16799
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4088,6 +4175,7 @@ types:
     hp: 300.0
     id: 16800
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4135,6 +4223,7 @@ types:
     hp: 300.0
     id: 16801
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4182,6 +4271,7 @@ types:
     hp: 300.0
     id: 16802
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4229,6 +4319,7 @@ types:
     hp: 300.0
     id: 16803
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4276,6 +4367,7 @@ types:
     hp: 300.0
     id: 16804
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4323,6 +4415,7 @@ types:
     hp: 700.0
     id: 16805
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4370,6 +4463,7 @@ types:
     hp: 500.0
     id: 16806
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4417,6 +4511,7 @@ types:
     hp: 300.0
     id: 16807
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4464,6 +4559,7 @@ types:
     hp: 500.0
     id: 16808
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4511,6 +4607,7 @@ types:
     hp: 300.0
     id: 16809
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4558,6 +4655,7 @@ types:
     hp: 300.0
     id: 16810
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4605,6 +4703,7 @@ types:
     hp: 300.0
     id: 16811
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4652,6 +4751,7 @@ types:
     hp: 300.0
     id: 16812
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4699,6 +4799,7 @@ types:
     hp: 300.0
     id: 16813
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4746,6 +4847,7 @@ types:
     hp: 700.0
     id: 16814
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4793,6 +4895,7 @@ types:
     hp: 500.0
     id: 16815
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4840,6 +4943,7 @@ types:
     hp: 300.0
     id: 16816
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4887,6 +4991,7 @@ types:
     hp: 500.0
     id: 16817
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4934,6 +5039,7 @@ types:
     hp: 300.0
     id: 16818
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -4981,6 +5087,7 @@ types:
     hp: 300.0
     id: 16819
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5028,6 +5135,7 @@ types:
     hp: 300.0
     id: 16820
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5075,6 +5183,7 @@ types:
     hp: 300.0
     id: 16821
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5122,6 +5231,7 @@ types:
     hp: 700.0
     id: 16822
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5169,6 +5279,7 @@ types:
     hp: 500.0
     id: 16823
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5216,6 +5327,7 @@ types:
     hp: 300.0
     id: 16824
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5263,6 +5375,7 @@ types:
     hp: 500.0
     id: 16825
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5310,6 +5423,7 @@ types:
     hp: 300.0
     id: 16826
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5357,6 +5471,7 @@ types:
     hp: 300.0
     id: 16827
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5404,6 +5519,7 @@ types:
     hp: 300.0
     id: 16828
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5451,6 +5567,7 @@ types:
     hp: 300.0
     id: 16829
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5498,6 +5615,7 @@ types:
     hp: 300.0
     id: 16830
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5545,6 +5663,7 @@ types:
     hp: 10000.0
     id: 16831
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5592,6 +5711,7 @@ types:
     hp: 4000.0
     id: 16836
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5639,6 +5759,7 @@ types:
     hp: 4000.0
     id: 16837
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5686,6 +5807,7 @@ types:
     hp: 4000.0
     id: 16838
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5733,6 +5855,7 @@ types:
     hp: 50000.0
     id: 16839
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5780,6 +5903,7 @@ types:
     hp: 6000.0
     id: 16840
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5827,6 +5951,7 @@ types:
     hp: 50000.0
     id: 16841
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5874,6 +5999,7 @@ types:
     hp: 50000.0
     id: 16842
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5921,6 +6047,7 @@ types:
     hp: 50000.0
     id: 16843
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -5968,6 +6095,7 @@ types:
     hp: 50000.0
     id: 16844
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6015,6 +6143,7 @@ types:
     hp: 5.0
     id: 16845
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6062,6 +6191,7 @@ types:
     hp: 50000.0
     id: 16846
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6109,6 +6239,7 @@ types:
     hp: 50000.0
     id: 16847
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6156,6 +6287,7 @@ types:
     hp: 10000.0
     id: 16848
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6203,6 +6335,7 @@ types:
     hp: 50000.0
     id: 16849
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6250,6 +6383,7 @@ types:
     hp: 4000.0
     id: 16850
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6297,6 +6431,7 @@ types:
     hp: 3000.0
     id: 16851
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6344,6 +6479,7 @@ types:
     hp: 4000.0
     id: 16852
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6391,6 +6527,7 @@ types:
     hp: 15000.0
     id: 16853
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6438,6 +6575,7 @@ types:
     hp: 500.0
     id: 16854
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6485,6 +6623,7 @@ types:
     hp: 400.0
     id: 16855
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6532,6 +6671,7 @@ types:
     hp: 10000.0
     id: 16856
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6579,6 +6719,7 @@ types:
     hp: 2000.0
     id: 16857
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6626,6 +6767,7 @@ types:
     hp: 2000.0
     id: 16858
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6673,6 +6815,7 @@ types:
     hp: 2000.0
     id: 16859
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6720,6 +6863,7 @@ types:
     hp: 1000.0
     id: 16860
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6767,6 +6911,7 @@ types:
     hp: 1000.0
     id: 16861
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6814,6 +6959,7 @@ types:
     hp: 15000.0
     id: 16862
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6861,6 +7007,7 @@ types:
     hp: 1000.0
     id: 16864
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6908,6 +7055,7 @@ types:
     hp: 1000.0
     id: 16865
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -6955,6 +7103,7 @@ types:
     hp: 1000.0
     id: 16866
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7002,6 +7151,7 @@ types:
     hp: 20000.0
     id: 17138
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7049,6 +7199,7 @@ types:
     hp: 1500.0
     id: 17140
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7096,6 +7247,7 @@ types:
     hp: 2000.0
     id: 17380
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7143,6 +7295,7 @@ types:
     hp: 5000.0
     id: 17381
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7190,6 +7343,7 @@ types:
     hp: 3000.0
     id: 17382
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7237,6 +7391,7 @@ types:
     hp: 15000.0
     id: 17393
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7284,6 +7439,7 @@ types:
     hp: 1000.0
     id: 17394
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7331,6 +7487,7 @@ types:
     hp: 500.0
     id: 17395
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7378,6 +7535,7 @@ types:
     hp: 1000.0
     id: 17396
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7425,6 +7583,7 @@ types:
     hp: 1000.0
     id: 17397
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7472,6 +7631,7 @@ types:
     hp: 1000.0
     id: 17398
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7519,6 +7679,7 @@ types:
     hp: 1000.0
     id: 17399
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7566,6 +7727,7 @@ types:
     hp: 1000.0
     id: 17400
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7613,6 +7775,7 @@ types:
     hp: 1000.0
     id: 17401
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7660,6 +7823,7 @@ types:
     hp: 600.0
     id: 17626
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7707,6 +7871,7 @@ types:
     hp: 600.0
     id: 17627
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7754,6 +7919,7 @@ types:
     hp: 600.0
     id: 17628
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7801,6 +7967,7 @@ types:
     hp: 600.0
     id: 17629
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7847,6 +8014,7 @@ types:
     hp: 100.0
     id: 17644
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Deadspace Mining Post
@@ -7893,6 +8061,7 @@ types:
     hp: 1.0
     id: 17763
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7941,6 +8110,7 @@ types:
     hp: 700.0
     id: 17775
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -7988,6 +8158,7 @@ types:
     hp: 700.0
     id: 17776
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8035,6 +8206,7 @@ types:
     hp: 2000.0
     id: 17777
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8082,6 +8254,7 @@ types:
     hp: 2000.0
     id: 17778
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8129,6 +8302,7 @@ types:
     hp: 2000.0
     id: 17779
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8176,6 +8350,7 @@ types:
     hp: 2000.0
     id: 17780
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8223,6 +8398,7 @@ types:
     hp: 700.0
     id: 17781
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8269,6 +8445,7 @@ types:
     hp: 700.0
     id: 17782
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8315,6 +8492,7 @@ types:
     hp: 700.0
     id: 17783
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8361,6 +8539,7 @@ types:
     hp: 700.0
     id: 17784
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8408,6 +8587,7 @@ types:
     hp: 700.0
     id: 17785
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8454,6 +8634,7 @@ types:
     hp: 700.0
     id: 17786
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8501,6 +8682,7 @@ types:
     hp: 700.0
     id: 17787
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8548,6 +8730,7 @@ types:
     hp: 700.0
     id: 17788
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8595,6 +8778,7 @@ types:
     hp: 700.0
     id: 17789
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8642,6 +8826,7 @@ types:
     hp: 700.0
     id: 17790
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8689,6 +8874,7 @@ types:
     hp: 300.0
     id: 18012
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8736,6 +8922,7 @@ types:
     hp: 300.0
     id: 18013
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8783,6 +8970,7 @@ types:
     hp: 300.0
     id: 18014
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8830,6 +9018,7 @@ types:
     hp: 300.0
     id: 18015
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8877,6 +9066,7 @@ types:
     hp: 300.0
     id: 18016
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8924,6 +9114,7 @@ types:
     hp: 300.0
     id: 18017
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -8971,6 +9162,7 @@ types:
     hp: 300.0
     id: 18018
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9018,6 +9210,7 @@ types:
     hp: 300.0
     id: 18019
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9065,6 +9258,7 @@ types:
     hp: 300.0
     id: 18020
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9112,6 +9306,7 @@ types:
     hp: 300.0
     id: 18021
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9159,6 +9354,7 @@ types:
     hp: 5000.0
     id: 18567
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9206,6 +9402,7 @@ types:
     hp: 5000.0
     id: 18568
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9253,6 +9450,7 @@ types:
     hp: 5000.0
     id: 18569
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9300,6 +9498,7 @@ types:
     hp: 2000.0
     id: 19505
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9346,6 +9545,7 @@ types:
     hp: 10000.0
     id: 19533
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9393,6 +9593,7 @@ types:
     hp: 5.0
     id: 19593
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9440,6 +9641,7 @@ types:
     hp: 300.0
     id: 19671
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9487,6 +9689,7 @@ types:
     hp: 40000.0
     id: 19672
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9534,6 +9737,7 @@ types:
     hp: 4000.0
     id: 19673
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9581,6 +9785,7 @@ types:
     hp: 50000.0
     id: 19711
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9628,6 +9833,7 @@ types:
     hp: 50000.0
     id: 19712
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9675,6 +9881,7 @@ types:
     hp: 700.0
     id: 19729
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9722,6 +9929,7 @@ types:
     hp: 100.0
     id: 19743
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9770,6 +9978,7 @@ types:
     hp: 5000.0
     id: 20165
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9816,6 +10025,7 @@ types:
     hp: 20000.0
     id: 20177
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Deadspace Mining Colony
@@ -9861,6 +10071,7 @@ types:
     hp: 1000.0
     id: 20182
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -9908,6 +10119,7 @@ types:
     hp: 1.0
     id: 22711
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -9955,6 +10167,7 @@ types:
     hp: 700.0
     id: 22712
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.025E9
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10006,6 +10219,7 @@ types:
     id: 22718
     kineticdamage: 3.0
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.124999936E9
     maxattacktargets: 1
     maxrange: 250000.0
@@ -10065,6 +10279,7 @@ types:
     hp: 10.0
     id: 22742
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10112,6 +10327,7 @@ types:
     hp: 20.0
     id: 22743
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10159,6 +10375,7 @@ types:
     hp: 20.0
     id: 22744
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10206,6 +10423,7 @@ types:
     hp: 300.0
     id: 22758
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.124999936E9
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10253,6 +10471,7 @@ types:
     hp: 300.0
     id: 23222
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10300,6 +10519,7 @@ types:
     hp: 700.0
     id: 23571
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10347,6 +10567,7 @@ types:
     hp: 10000.0
     id: 23663
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10394,6 +10615,7 @@ types:
     hp: 700.0
     id: 23858
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10441,6 +10663,7 @@ types:
     hp: 40000.0
     id: 23859
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10488,6 +10711,7 @@ types:
     hp: 600.0
     id: 23860
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10534,6 +10758,7 @@ types:
     hp: 20000.0
     id: 23906
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Stationary Revelation
@@ -10578,6 +10803,7 @@ types:
     hp: 5000.0
     id: 23963
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10625,6 +10851,7 @@ types:
     hp: 5000.0
     id: 24245
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10671,6 +10898,7 @@ types:
     hp: 100000.0
     id: 24310
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Citadel
@@ -10714,6 +10942,7 @@ types:
     hp: 50000.0
     id: 24452
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Factory
@@ -10758,6 +10987,7 @@ types:
     hp: 250000.0
     id: 24453
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10804,6 +11034,7 @@ types:
     hp: 100000.0
     id: 24456
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Ammatar Battlestation
@@ -10848,6 +11079,7 @@ types:
     hp: 8000.0
     id: 24565
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10895,6 +11127,7 @@ types:
     hp: 150000.0
     id: 24587
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -10941,6 +11174,7 @@ types:
     hp: 150000.0
     id: 24588
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Station Caldari 4
@@ -10985,6 +11219,7 @@ types:
     hp: 5000.0
     id: 24685
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.0000000409184788E35
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11031,6 +11266,7 @@ types:
     hp: 150000.0
     id: 24716
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Station Caldari 6
@@ -11074,6 +11310,7 @@ types:
     hp: 200000.0
     id: 24768
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Station 7
@@ -11117,6 +11354,7 @@ types:
     hp: 200000.0
     id: 24769
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Station 8
@@ -11160,6 +11398,7 @@ types:
     hp: 200000.0
     id: 24770
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Station 4
@@ -11203,6 +11442,7 @@ types:
     hp: 150000.0
     id: 25355
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Station Caldari 1
@@ -11246,6 +11486,7 @@ types:
     hp: 150000.0
     id: 25356
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Station Caldari 2
@@ -11289,6 +11530,7 @@ types:
     hp: 150000.0
     id: 25357
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Station Caldari 3
@@ -11332,6 +11574,7 @@ types:
     hp: 150000.0
     id: 25358
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Station Caldari 5
@@ -11375,6 +11618,7 @@ types:
     hp: 150000.0
     id: 25359
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Station Caldari Research Outpost
@@ -11419,6 +11663,7 @@ types:
     hp: 3000.0
     id: 25363
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.01E7
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11466,6 +11711,7 @@ types:
     hp: 300.0
     id: 25552
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11513,6 +11759,7 @@ types:
     hp: 500.0
     id: 25725
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11564,6 +11811,7 @@ types:
     hp: 2000.0
     id: 25815
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11611,6 +11859,7 @@ types:
     hp: 40000.0
     id: 25819
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11657,6 +11906,7 @@ types:
     hp: 30000.0
     id: 25826
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Mining Station
@@ -11700,6 +11950,7 @@ types:
     hp: 50000.0
     id: 25828
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11744,6 +11995,7 @@ types:
     hp: 150000.0
     id: 25859
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Battlestation 2
@@ -11788,6 +12040,7 @@ types:
     hp: 10000.0
     id: 25991
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -11834,6 +12087,7 @@ types:
     hp: 200000.0
     id: 25992
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Conquerable Station 3
@@ -11877,6 +12131,7 @@ types:
     hp: 200000.0
     id: 25993
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Conquerable Station 2
@@ -11920,6 +12175,7 @@ types:
     hp: 200000.0
     id: 25994
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Conquerable Station 1
@@ -11963,6 +12219,7 @@ types:
     hp: 200000.0
     id: 26121
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Battlestation 3
@@ -12007,6 +12264,7 @@ types:
     hp: 700.0
     id: 26240
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12054,6 +12312,7 @@ types:
     hp: 700.0
     id: 26704
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12101,6 +12360,7 @@ types:
     hp: 700.0
     id: 26706
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12148,6 +12408,7 @@ types:
     hp: 700.0
     id: 26720
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12195,6 +12456,7 @@ types:
     hp: 700.0
     id: 26721
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12242,6 +12504,7 @@ types:
     hp: 700.0
     id: 26722
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12289,6 +12552,7 @@ types:
     hp: 70000.0
     id: 26723
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12336,6 +12600,7 @@ types:
     hp: 700.0
     id: 26724
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12382,6 +12647,7 @@ types:
     hp: 700.0
     id: 26725
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12429,6 +12695,7 @@ types:
     hp: 700.0
     id: 26726
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12475,6 +12742,7 @@ types:
     hp: 10000.0
     id: 26727
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 4000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12522,6 +12790,7 @@ types:
     hp: 700.0
     id: 26728
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12569,6 +12838,7 @@ types:
     hp: 35000.0
     id: 26729
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12616,6 +12886,7 @@ types:
     hp: 35000.0
     id: 26732
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12663,6 +12934,7 @@ types:
     hp: 35000.0
     id: 26734
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12710,6 +12982,7 @@ types:
     hp: 35000.0
     id: 26737
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12757,6 +13030,7 @@ types:
     hp: 600.0
     id: 26740
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12800,6 +13074,7 @@ types:
     hp: 100000.0
     id: 26751
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12845,6 +13120,7 @@ types:
     hp: 50000.0
     id: 26853
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12889,6 +13165,7 @@ types:
     hp: 50000.0
     id: 26854
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12933,6 +13210,7 @@ types:
     hp: 50000.0
     id: 26855
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -12978,6 +13256,7 @@ types:
     hp: 1000.0
     id: 26894
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13025,6 +13304,7 @@ types:
     hp: 1000.0
     id: 26895
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13071,6 +13351,7 @@ types:
     hp: 200000.0
     id: 26896
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Battlestation_Event
@@ -13115,6 +13396,7 @@ types:
     hp: 5000.0
     id: 26897
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13161,6 +13443,7 @@ types:
     hp: 100000.0
     id: 26898
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Slave Mine
@@ -13207,6 +13490,7 @@ types:
     hp: 15000.0
     id: 26899
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13254,6 +13538,7 @@ types:
     hp: 10000.0
     id: 26900
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13301,6 +13586,7 @@ types:
     hp: 1000.0
     id: 27063
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13348,6 +13634,7 @@ types:
     hp: 35000.0
     id: 27290
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13394,6 +13681,7 @@ types:
     hp: 50000.0
     id: 27879
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Station 150k
@@ -13437,6 +13725,7 @@ types:
     hp: 50000.0
     id: 27880
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Station 150k
@@ -13480,6 +13769,7 @@ types:
     hp: 50000.0
     id: 27881
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Station 150k
@@ -13523,6 +13813,7 @@ types:
     hp: 50000.0
     id: 27882
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Amarr Station 150k
@@ -13566,6 +13857,7 @@ types:
     hp: 10000.0
     id: 28065
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13612,6 +13904,7 @@ types:
     hp: 2000000.0
     id: 28227
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Mining Outpost_event
@@ -13658,6 +13951,7 @@ types:
     hp: 1000000.0
     id: 28228
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13705,6 +13999,7 @@ types:
     hp: 1000000.0
     id: 28234
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13752,6 +14047,7 @@ types:
     hp: 1000000.0
     id: 28235
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13799,6 +14095,7 @@ types:
     hp: 100000.0
     id: 28246
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13846,6 +14143,7 @@ types:
     hp: 1.0E7
     id: 28247
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13893,6 +14191,7 @@ types:
     hp: 200000.0
     id: 28248
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -13939,6 +14238,7 @@ types:
     hp: 200000.0
     id: 28249
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Gallente Station_event
@@ -13982,6 +14282,7 @@ types:
     hp: 3000000.0
     id: 28250
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Station_event
@@ -14025,6 +14326,7 @@ types:
     hp: 50000.0
     id: 28251
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Station_event
@@ -14069,6 +14371,7 @@ types:
     hp: 1500000.0
     id: 28252
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14116,6 +14419,7 @@ types:
     hp: 1500000.0
     id: 28254
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14163,6 +14467,7 @@ types:
     hp: 7.2E9
     id: 28258
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14209,6 +14514,7 @@ types:
     hp: 50000.0
     id: 28340
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14254,6 +14560,7 @@ types:
     hp: 700.0
     id: 28582
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14301,6 +14608,7 @@ types:
     hp: 150000.0
     id: 28608
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14348,6 +14656,7 @@ types:
     hp: 400.0
     id: 28616
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14395,6 +14704,7 @@ types:
     hp: 2500.0
     id: 28839
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14442,6 +14752,7 @@ types:
     hp: 750.0
     id: 28854
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14489,6 +14800,7 @@ types:
     hp: 50000.0
     id: 29031
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14536,6 +14848,7 @@ types:
     hp: 3000.0
     id: 29149
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.3075E7
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14583,6 +14896,7 @@ types:
     hp: 2500.0
     id: 29165
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14630,6 +14944,7 @@ types:
     hp: 5000.0
     id: 29166
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14677,6 +14992,7 @@ types:
     hp: 20000.0
     id: 29167
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14724,6 +15040,7 @@ types:
     hp: 10000.0
     id: 29168
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14771,6 +15088,7 @@ types:
     hp: 20000.0
     id: 29169
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14818,6 +15136,7 @@ types:
     hp: 20000.0
     id: 29170
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14865,6 +15184,7 @@ types:
     hp: 20000.0
     id: 29171
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14912,6 +15232,7 @@ types:
     hp: 2500.0
     id: 29172
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -14959,6 +15280,7 @@ types:
     hp: 2500.0
     id: 29173
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15006,6 +15328,7 @@ types:
     hp: 2500.0
     id: 29174
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15053,6 +15376,7 @@ types:
     hp: 10000.0
     id: 29175
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15100,6 +15424,7 @@ types:
     hp: 10000.0
     id: 29176
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15147,6 +15472,7 @@ types:
     hp: 10000.0
     id: 29177
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15194,6 +15520,7 @@ types:
     hp: 5000.0
     id: 29178
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15241,6 +15568,7 @@ types:
     hp: 5000.0
     id: 29179
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15288,6 +15616,7 @@ types:
     hp: 5000.0
     id: 29180
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15335,6 +15664,7 @@ types:
     hp: 20000.0
     id: 29189
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15382,6 +15712,7 @@ types:
     hp: 2000.0
     id: 29209
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15429,6 +15760,7 @@ types:
     hp: 500.0
     id: 29262
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15476,6 +15808,7 @@ types:
     hp: 700.0
     id: 29301
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15522,6 +15855,7 @@ types:
     hp: 1400.0
     id: 29325
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15568,6 +15902,7 @@ types:
     hp: 50000.0
     id: 29346
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15615,6 +15950,7 @@ types:
     hp: 1.0E9
     id: 29391
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15661,6 +15997,7 @@ types:
     hp: 1000.0
     id: 29437
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15708,6 +16045,7 @@ types:
     hp: 500.0
     id: 29446
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15755,6 +16093,7 @@ types:
     hp: 40000.0
     id: 29461
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15802,6 +16141,7 @@ types:
     hp: 125000.0
     id: 29467
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15849,6 +16189,7 @@ types:
     hp: 20000.0
     id: 29468
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15896,6 +16237,7 @@ types:
     hp: 50000.0
     id: 29469
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15943,6 +16285,7 @@ types:
     hp: 50000.0
     id: 30273
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -15990,6 +16333,7 @@ types:
     hp: 50000.0
     id: 30274
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16037,6 +16381,7 @@ types:
     hp: 50000.0
     id: 30275
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16084,6 +16429,7 @@ types:
     hp: 50000.0
     id: 30276
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16131,6 +16477,7 @@ types:
     hp: 50000.0
     id: 30277
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16178,6 +16525,7 @@ types:
     hp: 50000.0
     id: 30278
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16225,6 +16573,7 @@ types:
     hp: 50000.0
     id: 30279
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16272,6 +16621,7 @@ types:
     hp: 50000.0
     id: 30280
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16319,6 +16669,7 @@ types:
     hp: 50000.0
     id: 30507
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16366,6 +16717,7 @@ types:
     hp: 50000.0
     id: 30508
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16413,6 +16765,7 @@ types:
     hp: 50000.0
     id: 30509
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16460,6 +16813,7 @@ types:
     hp: 50000.0
     id: 30510
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16507,6 +16861,7 @@ types:
     hp: 50000.0
     id: 30511
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16554,6 +16909,7 @@ types:
     hp: 50000.0
     id: 30512
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16601,6 +16957,7 @@ types:
     hp: 50000.0
     id: 30806
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16648,6 +17005,7 @@ types:
     hp: 50000.0
     id: 30807
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16695,6 +17053,7 @@ types:
     hp: 50000.0
     id: 30927
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16742,6 +17101,7 @@ types:
     hp: 20000.0
     id: 32194
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16788,6 +17148,7 @@ types:
     hp: 10000.0
     id: 32219
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pator 6 HQ
@@ -16831,6 +17192,7 @@ types:
     hp: 200000.0
     id: 32221
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Scope Station
@@ -16875,6 +17237,7 @@ types:
     hp: 50000.0
     id: 32238
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16922,6 +17285,7 @@ types:
     hp: 5000.0
     id: 32239
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -16969,6 +17333,7 @@ types:
     hp: 200.0
     id: 32264
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17016,6 +17381,7 @@ types:
     hp: 500.0
     id: 32349
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17063,6 +17429,7 @@ types:
     hp: 500.0
     id: 32412
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17110,6 +17477,7 @@ types:
     hp: 500.0
     id: 33480
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17157,6 +17525,7 @@ types:
     hp: 500.0
     id: 34303
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17203,6 +17572,7 @@ types:
     hp: 50000.0
     id: 35764
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17249,6 +17619,7 @@ types:
     hp: 800.0
     id: 37870
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Secure Hold
@@ -17293,6 +17664,7 @@ types:
     hp: 550.0
     id: 42538
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17338,6 +17710,7 @@ types:
     hp: 25.0
     id: 42690
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
@@ -17395,6 +17768,7 @@ types:
     hp: 25.0
     id: 47401
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17441,6 +17815,7 @@ types:
     hp: 25.0
     id: 48652
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17485,6 +17860,7 @@ types:
     hp: 500.0
     id: 48961
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.0E8
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17526,6 +17902,7 @@ types:
     hp: 500.0
     id: 48962
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17565,6 +17942,7 @@ types:
     hp: 500.0
     id: 52359
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Triglavian Graviton Monitor
@@ -17603,6 +17981,7 @@ types:
     hp: 500.0
     id: 52360
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Triglavian Entropic Monitor
@@ -17641,6 +18020,7 @@ types:
     hp: 1.0E8
     id: 52361
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     maxlockedtargets: 20
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17683,6 +18063,7 @@ types:
     hp: 500.0
     id: 52390
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Triglavian Fermion Monitor
@@ -17722,6 +18103,7 @@ types:
     hp: 20000.0
     id: 52700
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17764,6 +18146,7 @@ types:
     hp: 10000.0
     id: 52842
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17802,6 +18185,7 @@ types:
     falloff: 1.0
     id: 53045
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Triglavian Observatory Defense Subpylon
@@ -17834,6 +18218,7 @@ types:
     falloff: 1.0
     id: 53046
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17872,6 +18257,7 @@ types:
     hp: 450000.0
     id: 53047
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17912,6 +18298,7 @@ types:
     hp: 1.0E7
     id: 53080
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17954,6 +18341,7 @@ types:
     hp: 1200000.0
     id: 53292
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -17992,6 +18380,7 @@ types:
     falloff: 1.0
     id: 53305
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18030,6 +18419,7 @@ types:
     hp: 1.0E8
     id: 54274
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: World Ark (Xordazh-class)
@@ -18071,6 +18461,7 @@ types:
     hp: 450000.0
     id: 54283
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18112,6 +18503,7 @@ types:
     hp: 1.0E8
     id: 54313
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Test Spawner (Xordazh-class)
@@ -18153,6 +18545,7 @@ types:
     hp: 450000.0
     id: 54314
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18198,6 +18591,7 @@ types:
     hp: 450000.0
     id: 54315
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18243,6 +18637,7 @@ types:
     hp: 450000.0
     id: 54316
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18285,6 +18680,7 @@ types:
     hp: 1.0E8
     id: 54325
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: World Ark (Xordazh-class)
@@ -18323,6 +18719,7 @@ types:
     hp: 1.0E8
     id: 54326
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: World Ark (Xordazh-class)
@@ -18364,6 +18761,7 @@ types:
     hp: 450000.0
     id: 54571
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18408,6 +18806,7 @@ types:
     hp: 450000.0
     id: 54572
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18452,6 +18851,7 @@ types:
     hp: 450000.0
     id: 54573
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18496,6 +18896,7 @@ types:
     hp: 450000.0
     id: 54574
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18537,6 +18938,7 @@ types:
     hp: 1.968300032E10
     id: 54575
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.968300032E10
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18589,6 +18991,7 @@ types:
     hp: 450000.0
     id: 54576
     kineticdamageresonance: 0.5
+    lootrespawntime: 600000.0
     mass: 1000000.0
     maxlockedtargets: 10
     maxtargetrange: 300000.0
@@ -18638,6 +19041,7 @@ types:
     hp: 1.968300032E10
     id: 56699
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.968300032E10
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18680,6 +19084,7 @@ types:
     hp: 1.968300032E10
     id: 56700
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1.968300032E10
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18721,6 +19126,7 @@ types:
     hp: 500.0
     id: 57749
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 10000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18760,6 +19166,7 @@ types:
     hp: 1200000.0
     id: 60144
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18800,6 +19207,7 @@ types:
     hp: 700.0
     id: 60508
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18843,6 +19251,7 @@ types:
     hp: 15000.0
     id: 60731
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18890,6 +19299,7 @@ types:
     hp: 750.0
     id: 64105
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18937,6 +19347,7 @@ types:
     hp: 750.0
     id: 64109
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -18984,6 +19395,7 @@ types:
     hp: 750.0
     id: 64113
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19031,6 +19443,7 @@ types:
     hp: 750.0
     id: 64117
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19078,6 +19491,7 @@ types:
     hp: 700.0
     id: 64121
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 10000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19123,6 +19537,7 @@ types:
     hp: 700.0
     id: 64125
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 10000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19168,6 +19583,7 @@ types:
     hp: 700.0
     id: 64129
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 10000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19213,6 +19629,7 @@ types:
     hp: 700.0
     id: 64133
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 10000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19258,6 +19675,7 @@ types:
     hp: 700.0
     id: 64141
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 50000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19304,6 +19722,7 @@ types:
     hp: 700.0
     id: 64145
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 50000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19350,6 +19769,7 @@ types:
     hp: 700.0
     id: 64149
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 50000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19396,6 +19816,7 @@ types:
     hp: 700.0
     id: 64153
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 50000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19436,6 +19857,7 @@ types:
     hp: 1000.0
     id: 64184
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 10000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19481,6 +19903,7 @@ types:
     hp: 1000.0
     id: 64515
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19528,6 +19951,7 @@ types:
     hp: 1000.0
     id: 64516
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19575,6 +19999,7 @@ types:
     hp: 1000.0
     id: 64517
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19622,6 +20047,7 @@ types:
     hp: 1000.0
     id: 64518
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19669,6 +20095,7 @@ types:
     hp: 100000.0
     id: 64522
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19713,6 +20140,7 @@ types:
     hp: 10000.0
     id: 72850
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19757,6 +20185,7 @@ types:
     hp: 10000.0
     id: 72851
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19801,6 +20230,7 @@ types:
     hp: 10000.0
     id: 72852
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19845,6 +20275,7 @@ types:
     hp: 10000.0
     id: 72853
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19890,6 +20321,7 @@ types:
     hp: 10000.0
     id: 73012
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19934,6 +20366,7 @@ types:
     hp: 10000.0
     id: 73013
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19978,6 +20411,7 @@ types:
     hp: 10000.0
     id: 73014
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -20022,6 +20456,7 @@ types:
     hp: 10000.0
     id: 73015
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -20071,6 +20506,7 @@ types:
     hp: 100.0
     id: 81150
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -20113,6 +20549,7 @@ types:
     hp: 100000.0
     id: 84294
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -20132,6 +20569,199 @@ types:
     shielduniformity: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
+  85410:
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.44999998807907104
+    armorhp: 10000.0
+    armorkineticdamageresonance: 0.7200000286102295
+    armorthermaldamageresonance: 0.5400000214576721
+    capacitorcapacity: 1000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamage: 120.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamage: 120.0
+    explosivedamageresonance: 1.0
+    falloff: 60000.0
+    gfxturretid: 47446
+    hackable: 1
+    hp: 5000.0
+    id: 85410
+    kineticdamage: 120.0
+    kineticdamageresonance: 1.0
+    lootrespawntime: 8.64E7
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxrange: 30000.0
+    maxtargetrange: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Patient Eradicator
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 241.0
+    rechargerate: 500000.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    scanresolution: 180.0
+    shieldcapacity: 5000.0
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.44999998807907104
+    shieldkineticdamageresonance: 0.7200000286102295
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.5400000214576721
+    signatureradius: 400.0
+    spawnwithoutguardstoo: 1
+    speed: 5000.0
+    structureuniformity: 1.0
+    thermaldamage: 120.0
+    thermaldamageresonance: 1.0
+    tierdifficulty: 2
+    trackingspeed: 35.0
+    volume: 1000.0
+    warpscrambleduration: 8000
+  85436:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 5000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 100000.0
+    id: 85436
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Steadfast Witness
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 241.0
+    rechargerate: 1800000.0
+    remoterepairimpedance: 1.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
+  85503:
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.44999998807907104
+    armorhp: 10000.0
+    armorkineticdamageresonance: 0.7200000286102295
+    armorthermaldamageresonance: 0.5400000214576721
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hackable: 1
+    hp: 5000.0
+    id: 85503
+    kineticdamageresonance: 1.0
+    lootrespawntime: 8.64E7
+    mass: 1000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Patient Jailer
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 241.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    shieldcapacity: 5000.0
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.44999998807907104
+    shieldkineticdamageresonance: 0.7200000286102295
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.5400000214576721
+    signatureradius: 400.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    tierdifficulty: 1
+    warpscrambleduration: 8000
+  85505:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 5000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamage: 200.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamage: 200.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 10000.0
+    id: 85505
+    kineticdamage: 200.0
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Steadfast Martyr
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 10.0
+    rechargerate: 1800000.0
+    remoterepairimpedance: 1.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamage: 200.0
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
@@ -20159,6 +20789,7 @@ types:
     id: 86100
     kineticdamage: 150.0
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     mass: 1000.0
     maxlockedtargets: 6
     maxrange: 600000.0
@@ -20210,6 +20841,7 @@ types:
     hp: 10000.0
     id: 86410
     kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Planetary Trustbreaker Array
@@ -20225,6 +20857,235 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  87219:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 15000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 500000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 10000.0
+    id: 87219
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Wormhole Research Outpost
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 5000.0
+    remoterepairimpedance: 0.800000011920929
+    shieldcapacity: 15000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  87227:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 875000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 550000.0
+    id: 87227
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Vigilant Dreamer
+    optimalsigradius: 1000
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 5500.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 650000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1.0E8
+    warpscrambleduration: 8000
+  87284:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 100000.0
+    id: 87284
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Secluded Monastery
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 100.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 100000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 100000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  87285:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 87285
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Megacorp Exchange
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 100.0
+    remoterepairimpedance: 1.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  87286:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 100000.0
+    id: 87286
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: District Office
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 100.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 100000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 100000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  87287:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 100000.0
+    id: 87287
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Clan Commons
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 100.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 100000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 100000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     warpscrambleduration: 8000

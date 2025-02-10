@@ -30,7 +30,7 @@ public class get_killmails_killmail_id_killmail_hash_victim {
      * Coordinates of the victim in Cartesian space relative to the Sun
      * 
      */
-    public M_3_xnumber_ynumber_znumber position;
+    public get_killmails_killmail_id_killmail_hash_position position;
     /**
      * The ship that the victim was piloting and was destroyed
      * 

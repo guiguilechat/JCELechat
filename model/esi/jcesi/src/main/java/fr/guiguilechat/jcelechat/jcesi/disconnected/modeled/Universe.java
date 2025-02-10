@@ -10,7 +10,6 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_3_xnumber_ynumber_znumber;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id;
@@ -19,6 +18,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_killmails_killmail_id_killmail_hash_position;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import fr.lelouet.tools.holders.impl.ObjHolderSimple;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
@@ -116,10 +116,10 @@ public class Universe {
 	}
 
 	public boolean isPublicDockable(long locationID) {
-		if (locationID < 60000000l) {
+		if (locationID < 60000000L) {
 			return false;
 		}
-		if (locationID < 61000000l) {
+		if (locationID < 61000000L) {
 			return true;
 		}
 		return isPublicStructure(locationID);
@@ -203,7 +203,7 @@ public class Universe {
 	}
 
 	/** number of meter in an AU */
-	public static final long M_PER_AU = 149597870700l;
+	public static final long M_PER_AU = 149597870700L;
 
 	private int[] pochvenSystems = null;
 
@@ -231,7 +231,7 @@ public class Universe {
 		List<R_get_universe_systems_system_id> systems = con.cache().route
 				.get(pochvenSystems, null, destination.system_id, flag.secure, station.system_id).get().parallelStream()
 				.map(si -> cache.systems(si).get()).collect(Collectors.toList());
-		M_3_xnumber_ynumber_znumber lastPos = station.position;
+		get_killmails_killmail_id_killmail_hash_position lastPos = station.position;
 		R_get_universe_systems_system_id lastSys = cache.systems(station.system_id).get();
 		// System.err.println("starting from " + station.name);
 		for (R_get_universe_systems_system_id nextSys : systems) {
@@ -296,9 +296,10 @@ public class Universe {
 	}
 
 	// default 0;0;0 pos
-	public static final M_3_xnumber_ynumber_znumber SUN_POS = new M_3_xnumber_ynumber_znumber();
+	public static final get_killmails_killmail_id_killmail_hash_position SUN_POS = new get_killmails_killmail_id_killmail_hash_position();
 
-	public static double distance(M_3_xnumber_ynumber_znumber pos1, M_3_xnumber_ynumber_znumber pos2) {
+	public static double distance(get_killmails_killmail_id_killmail_hash_position pos1,
+	    get_killmails_killmail_id_killmail_hash_position pos2) {
 		return Math.sqrt(Math.pow(pos1.x - pos2.x, 2) + Math.pow(pos1.y - pos2.y, 2) + Math.pow(pos1.z - pos2.z, 2));
 	}
 
@@ -381,9 +382,9 @@ public class Universe {
 		if (system.planets != null) {
 			planets = Stream.of(system.planets).map(planet -> cache.planets(planet.planet_id)).toArray(ObjHolder[]::new);
 		}
-		M_3_xnumber_ynumber_znumber[] positions = Stream
+		get_killmails_killmail_id_killmail_hash_position[] positions = Stream
 				.concat(Stream.of(gates).map(gate -> gate.get().position), Stream.of(planets).map(plan -> plan.get().position))
-				.toArray(M_3_xnumber_ynumber_znumber[]::new);
+		    .toArray(get_killmails_killmail_id_killmail_hash_position[]::new);
 		for (int i = 0; i < positions.length; i++) {
 			for (int j = i + 1; j < positions.length; j++) {
 				double distance = distance(positions[i], positions[j]) / M_PER_AU;
@@ -431,37 +432,37 @@ public class Universe {
 
 	public class GroupCache {
 
-	@Getter(lazy = true)
-	@Accessors(fluent = true)
+		@Getter(lazy = true)
+		@Accessors(fluent = true)
 		private final Set<Integer> ofAbstract = Set.copyOf(IntStream
-			.of(cache.categories(29).get().groups).boxed().toList());
+				.of(cache.categories(29).get().groups).boxed().toList());
 
-	@Getter(lazy = true)
-	@Accessors(fluent = true)
-	private final Set<Integer> ofBlueprints = Set.copyOf(IntStream
-			.of(cache.categories(9).get().groups).boxed().toList());
+		@Getter(lazy = true)
+		@Accessors(fluent = true)
+		private final Set<Integer> ofBlueprints = Set.copyOf(IntStream
+				.of(cache.categories(9).get().groups).boxed().toList());
 
-	@Getter(lazy = true)
-	@Accessors(fluent = true)
-	private final Set<Integer> ofModules = Set.copyOf(IntStream
-			.of(cache.categories(7).get().groups).boxed().toList());
+		@Getter(lazy = true)
+		@Accessors(fluent = true)
+		private final Set<Integer> ofModules = Set.copyOf(IntStream
+				.of(cache.categories(7).get().groups).boxed().toList());
 
-	@Getter(lazy = true)
-	@Accessors(fluent = true)
-	private final Set<Integer> ofStations = Set.copyOf(IntStream
-			.of(cache.categories(3).get().groups).boxed().toList());
+		@Getter(lazy = true)
+		@Accessors(fluent = true)
+		private final Set<Integer> ofStations = Set.copyOf(IntStream
+				.of(cache.categories(3).get().groups).boxed().toList());
 
-	@Getter(lazy = true)
-	@Accessors(fluent = true)
-	private final Set<Integer> ofStructuresModules = Set.copyOf(IntStream
-			.of(cache.categories(66).get().groups).boxed().toList());
+		@Getter(lazy = true)
+		@Accessors(fluent = true)
+		private final Set<Integer> ofStructuresModules = Set.copyOf(IntStream
+				.of(cache.categories(66).get().groups).boxed().toList());
 
-	@Getter(lazy = true)
-	@Accessors(fluent = true)
-	private final Set<Integer> ofSubsystems = Set.copyOf(IntStream
-			.of(cache.categories(32).get().groups).boxed().toList());
-}
+		@Getter(lazy = true)
+		@Accessors(fluent = true)
+		private final Set<Integer> ofSubsystems = Set.copyOf(IntStream
+				.of(cache.categories(32).get().groups).boxed().toList());
+	}
 
-public final GroupCache groupIds = new GroupCache();
+	public final GroupCache groupIds = new GroupCache();
 
 }

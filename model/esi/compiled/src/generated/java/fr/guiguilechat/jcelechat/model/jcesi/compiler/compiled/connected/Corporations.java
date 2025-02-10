@@ -8,7 +8,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_16_int_lon
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_19_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_8_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_9_int_Boolean;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_22;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_contract_bids_4;
@@ -18,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_k
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_bookmarks_folders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_containers_logs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_customs_offices;
@@ -49,8 +47,6 @@ import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Corporations {
     public final SwaggerCOCache<?> cache;
-    private final Map<Integer, ListHolderImpl<M_get_bookmarks_9>> get_corporations_corporation_id_bookmarks_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_bookmarks_folders>> get_corporations_corporation_id_bookmarks_folders_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<M_get_contacts_labels_2>> get_corporations_corporation_id_contacts_labels_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<M_get_contracts_22>> get_corporations_corporation_id_contracts_holder = new HashMap<>();
     private final Map<K_8_int_int, ListHolderImpl<M_get_contracts_contract_bids_4>> get_corporations_corporation_id_contracts_contract_id_bids_holder = new HashMap<>();
@@ -152,74 +148,6 @@ public class Corporations {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporations_corporation_id_blueprints_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * A list of your corporation's bookmarks
-     * 
-     * cache over {@link Swagger#get_corporations_bookmarks}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ListHolder<M_get_bookmarks_9> bookmarks(int corporation_id) {
-        ListHolderImpl<M_get_bookmarks_9> ret = get_corporations_corporation_id_bookmarks_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_bookmarks_holder);
-            try {
-                synchronized (get_corporations_corporation_id_bookmarks_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_bookmarks_holder);
-                    {
-                        ret = get_corporations_corporation_id_bookmarks_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ListHolderImpl<M_get_bookmarks_9>();
-                            get_corporations_corporation_id_bookmarks_holder.put(corporation_id, ret);
-                            ListHolderImpl<M_get_bookmarks_9> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_bookmarks", (page, properties) -> (cache.swagger).get_corporations_bookmarks(corporation_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_bookmarks_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_bookmarks_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * A list of your corporation's bookmark folders
-     * 
-     * cache over {@link Swagger#get_corporations_bookmarks_folders}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ListHolder<R_get_corporations_corporation_id_bookmarks_folders> bookmarks_folders(int corporation_id) {
-        ListHolderImpl<R_get_corporations_corporation_id_bookmarks_folders> ret = get_corporations_corporation_id_bookmarks_folders_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_bookmarks_folders_holder);
-            try {
-                synchronized (get_corporations_corporation_id_bookmarks_folders_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_bookmarks_folders_holder);
-                    {
-                        ret = get_corporations_corporation_id_bookmarks_folders_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ListHolderImpl<R_get_corporations_corporation_id_bookmarks_folders>();
-                            get_corporations_corporation_id_bookmarks_folders_holder.put(corporation_id, ret);
-                            ListHolderImpl<R_get_corporations_corporation_id_bookmarks_folders> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_bookmarks_folders", (page, properties) -> (cache.swagger).get_corporations_bookmarks_folders(corporation_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_bookmarks_folders_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_bookmarks_folders_holder);
             }
         }
         return ret;

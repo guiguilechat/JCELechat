@@ -3367,3 +3367,27 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87318:
+    id: 87318
+    marketGroup: 3632
+    name: Blue Racer Cobalt Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87319:
+    id: 87319
+    marketGroup: 3654
+    name: Venomous Emerald Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87320:
+    id: 87320
+    marketGroup: 3633
+    name: Serpent’s Scales - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
