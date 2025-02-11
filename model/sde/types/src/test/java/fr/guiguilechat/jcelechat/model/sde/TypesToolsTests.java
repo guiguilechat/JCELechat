@@ -29,17 +29,20 @@ public class TypesToolsTests {
 		Assert.assertTrue(namePred2.test(test2));
 
 		Predicate<EveType> metaPred3 = TypesTools.tokenPredicateMLevel("m:3");
+		Predicate<EveType> metaPred3b = TypesTools.tokenPredicateMLevel("ml:3");
 		Predicate<EveType> metaPred5 = TypesTools.tokenPredicateMLevel("m:5");
 		Assert.assertNull(TypesTools.tokenPredicateMLevel("t:1"));
 		Assert.assertNull(TypesTools.tokenPredicateMLevel("test"));
 		Assert.assertFalse(metaPred3.test(test1));
 		Assert.assertTrue(metaPred3.test(test2));
+		Assert.assertFalse(metaPred3b.test(test1));
+		Assert.assertTrue(metaPred3b.test(test2));
 		Assert.assertTrue(metaPred5.test(test1));
 		Assert.assertFalse(metaPred5.test(test2));
 
 		Predicate<EveType> techPred1 = TypesTools.tokenPredicateTLevel("t:1");
 		Predicate<EveType> techPred2 = TypesTools.tokenPredicateTLevel("t:2");
-		Predicate<EveType> techPredNot2 = TypesTools.makeTokenPredicate("-t:2");
+		Predicate<EveType> techPredNot2 = TypesTools.makeTokenPredicate(TypesTools.NEGATE_START + "t:2");
 		Assert.assertNull(TypesTools.tokenPredicateTLevel("m:1"));
 		Assert.assertNull(TypesTools.tokenPredicateTLevel("test"));
 		Assert.assertFalse(techPred1.test(test1));

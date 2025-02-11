@@ -13,8 +13,15 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 
 public class TypesTools {
 
+	public static final String NEGATE_START = "!";
+
+	public static final String OR_SEP = "|";
+
+	// type expansion
+
 	/**
-	 * make a predicate to match a type.
+	 * make a predicate to match a type, by generating the token expansion of a
+	 * type.
 	 * <p>
 	 * The filter argument is split by spaces, with the returned predicate checking
 	 * each of those token
@@ -22,7 +29,8 @@ public class TypesTools {
 	 * <li>default is : token is contained ignore case in the type's name, group
 	 * name, or category name. so "rig" filter will match all types of group
 	 * frigate, any "X frigate" skill, any "rig" category item, etc.</li>
-	 * <li>tokens starting with "-" are negated (so "-ship" will ignore all types
+	 * <li>tokens starting with {@value #NEGATE_START} are negated (so
+	 * "{@value #NEGATE_START}ship" will ignore all types
 	 * that contain "ship" in their name, group name or cat name)</li>
 	 * <li>tokens containing ":" refer to specific search depending on the prefix
 	 * and suffix:
@@ -53,14 +61,15 @@ public class TypesTools {
 	 *           requested tokens. If parameter is null, return an accept-all
 	 *           predicate
 	 */
-	public static <T extends TypeRef<?>> Predicate<T> makePredicate(String filtersWithSpace) {
+	public static <T extends TypeRef<?>> Predicate<T> makeTokenizedPredicate(String filtersWithSpace) {
 		if (filtersWithSpace == null || filtersWithSpace.isBlank()) {
 			return o->true;
 		}
 		Set<String> required = Stream.of(filtersWithSpace.split("\\s+")).map(String::toLowerCase)
-				.filter(s -> !s.startsWith("-")).collect(Collectors.toSet());
+				.filter(s -> !s.startsWith(NEGATE_START)).collect(Collectors.toSet());
 		Set<String> forbidden = Stream.of(filtersWithSpace.split("\\s+")).map(String::toLowerCase)
-				.filter(s -> s.startsWith("-")).map(s -> s.substring(1)).collect(Collectors.toSet());
+				.filter(s -> s.startsWith(NEGATE_START)).map(s -> s.substring(NEGATE_START.length()))
+				.collect(Collectors.toSet());
 		Predicate<T> pred = t -> {
 			if (t.type() == null) {
 				return false;
@@ -94,15 +103,19 @@ public class TypesTools {
 	}
 
 	/**
-	 * create a type predicate. Example : "module -t:2|m:0" will produce a predicate
+	 * create a type predicate. The predicate is a logical AND on several OR
+	 * sub-predicates, making it more powerful than the simple token expansion
+	 * <p>
+	 * Example : "module !t:2|m:0" will produce a predicate
 	 * that matches types for which name, group of cat contains "module" AND (type
 	 * is NOT 2 or meta is 0)
+	 * </p>
 	 */
 	public static <T extends EveType> Predicate<T> makeTypePredicate(String requestedFilter) {
 		Predicate<T> ret = null;
 		for (String tokenWithOr : requestedFilter.split("\\s+")) {
 			Predicate<T> subPredicate = null;
-			for (String token : tokenWithOr.split("|")) {
+			for (String token : tokenWithOr.split(OR_SEP)) {
 				Predicate<T> tokenPred = makeTokenPredicate(token);
 				subPredicate = subPredicate == null ? tokenPred : subPredicate.or(tokenPred);
 			}
@@ -112,12 +125,12 @@ public class TypesTools {
 		return ret;
 	}
 
-	// all the remaining
+	// true logical predicate
 
 	/**
 	 * create a token-specific predicate.
 	 * <ul>
-	 * <li>leading "-" will negate the predicate</li>
+	 * <li>leading {@value #NEGATE_START}# will negate the predicate</li>
 	 * <li>format "m:X" expect meta level to be X</li>
 	 * <li>format "t:X" expect tech level to be X</li>
 	 * <li>anything else expects the token to appear, case insensitive, in the name,
@@ -125,13 +138,13 @@ public class TypesTools {
 	 * </ul>
 	 *
 	 * @param token a token without meaningful space of |. existing \ will be
-	 *              removed.
+	 *                removed.
 	 * @return
 	 */
 	static <T extends EveType> Predicate<T> makeTokenPredicate(String token) {
-		boolean negate = token.startsWith("-");
+		boolean negate = token.startsWith(NEGATE_START);
 		if (negate) {
-			token=token.substring(1);
+			token = token.substring(NEGATE_START.length());
 		}
 		token = token.toLowerCase();
 		Predicate<T> ret = tokenPredicateMLevel(token);
@@ -149,7 +162,7 @@ public class TypesTools {
 
 	}
 
-	static final Pattern METALEVEL_PATTERN = Pattern.compile("m:([0-9]+)");
+	static final Pattern METALEVEL_PATTERN = Pattern.compile("ml?:([0-9]+)");
 
 	static <T extends EveType> Predicate<T> tokenPredicateMLevel(String tokenlc) {
 		Matcher matcher = METALEVEL_PATTERN.matcher(tokenlc);
@@ -160,7 +173,7 @@ public class TypesTools {
 		return null;
 	}
 
-	static final Pattern TECHLEVEL_PATTERN = Pattern.compile("t:([0-9]+)");
+	static final Pattern TECHLEVEL_PATTERN = Pattern.compile("tl?:([0-9]+)");
 
 	static <T extends EveType> Predicate<T> tokenPredicateTLevel(String tokenlc) {
 		Matcher matcher = TECHLEVEL_PATTERN.matcher(tokenlc);
