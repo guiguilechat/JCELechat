@@ -5,6 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.function.Function;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
@@ -20,13 +21,13 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeNonBp;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractTypeVariant;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.orders.MarketOrderService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
@@ -63,7 +64,7 @@ public class MarketHtmlController {
 
 	private final MarketGroupService marketGroupService;
 
-	private final MarketOrderService marketOrderService;
+	private final ContractMarketAggregator contractMarketAggregator;
 
 	private final RegionService regionService;
 
@@ -74,9 +75,9 @@ public class MarketHtmlController {
 	@Transactional
 	@GetMapping("/{typeId}")
 	public String getTypeMarket(Model model, @PathVariable int typeId,
-	    Optional<Integer> me,
-	    Optional<Integer> te,
-	    Optional<Boolean> copy) {
+			Optional<Integer> me,
+			Optional<Integer> te,
+			Optional<Boolean> copy) {
 		Optional<Type> oType = typeService.findById(typeId);
 		int meValue = me == null ? 0 : me.orElse(0);
 		int teValue = te == null ? 0 : te.orElse(0);
@@ -101,39 +102,39 @@ public class MarketHtmlController {
 			model.addAttribute("showDetails", true);
 
 			List<MarketOrder> sos = contractFacadeBpc.streamSOs(typeId, meValue, teValue)
-			    .peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
-			    .toList();
+					.peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+					.toList();
 			// System.err.println("found " + sos.size() + " orders for " + name);
 			model.addAttribute("sos", sos);
 
 			List<MarketOrder> completed = contractFacadeBpc.streamSold(typeId, meValue, teValue, Limit.of(100))
-			    .peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
-			    .toList();
+					.peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+					.toList();
 			model.addAttribute("completed", completed);
 		} else {
 			// working wit non-copy
 			if (meValue < 1 && teValue < 1) {
 				// working with base type
 				model.addAttribute("sos",
-				    marketOrderService.sellOrders(typeId).stream()
-				        .peek(
-				            mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
-				                structuresNamesById))
-				        .toList());
+						contractMarketAggregator.sellOrders(typeId).stream()
+						.peek(
+								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
+										structuresNamesById))
+						.toList());
 				model.addAttribute("bos",
-				    marketOrderService.buyOrders(typeId).stream()
-				        .peek(
-				            mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
-				                structuresNamesById))
-				        .toList());
+						contractMarketAggregator.buyOrders(typeId).stream()
+						.peek(
+								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
+										structuresNamesById))
+						.toList());
 			} else {
 				// working with researched BPO
 				model.addAttribute("showDetails", true);
 				List<MarketOrder> sos = contractFacadeBpo.streamSOs(typeId, meValue, teValue)
-				    .peek(
-				        mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
-				    .peek(mo -> mo.setUrl(contractEvalController.uri(mo.getContractId()).toString()))
-				    .toList();
+						.peek(
+								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+						.peek(mo -> mo.setUrl(contractEvalController.uri(mo.getContractId()).toString()))
+						.toList();
 				// System.err.println("found " + sos.size() + " orders for " + name);
 				model.addAttribute("sos", sos);
 			}
@@ -146,18 +147,18 @@ public class MarketHtmlController {
 		// System.err.println("received variants " + variants);
 		if (!variants.isEmpty()) {
 			List<LinkedMarketType> bpoVariants = variants.stream()
-			    .filter(v -> !v.copy())
-			    .sorted(Comparator.comparing(ctv -> ctv.meteval()))
-			    .map(ctv -> linkedMarketType(oType.orElse(null), ctv))
-			    .toList();
+					.filter(v -> !v.copy())
+					.sorted(Comparator.comparing((Function<? super ContractTypeVariant, ? extends Integer>) ContractTypeVariant::meteval))
+					.map(ctv -> linkedMarketType(oType.orElse(null), ctv))
+					.toList();
 			if (!bpoVariants.isEmpty()) {
 				model.addAttribute("bpoVariants", bpoVariants);
 			}
 			List<LinkedMarketType> bpcVariants = variants.stream()
-			    .filter(v -> v.copy())
-			    .sorted(Comparator.comparing(ctv -> ctv.meteval()))
-			    .map(ctv -> linkedMarketType(oType.orElse(null), ctv))
-			    .toList();
+					.filter(ContractTypeVariant::copy)
+					.sorted(Comparator.comparing((Function<? super ContractTypeVariant, ? extends Integer>) ContractTypeVariant::meteval))
+					.map(ctv -> linkedMarketType(oType.orElse(null), ctv))
+					.toList();
 			if (!bpcVariants.isEmpty()) {
 				model.addAttribute("bpcVariants", bpcVariants);
 			}
@@ -168,8 +169,8 @@ public class MarketHtmlController {
 
 	public URI uri(int typeId) {
 		return MvcUriComponentsBuilder
-		    .fromMethodName(getClass(), "getTypeMarket", null, "" + typeId, null, null, null).build()
-		    .toUri();
+				.fromMethodName(getClass(), "getTypeMarket", null, "" + typeId, null, null, null).build()
+				.toUri();
 	}
 
 	public URI uri(Type type) {
@@ -178,8 +179,8 @@ public class MarketHtmlController {
 
 	public URI uri(int typeId, int me, int te, boolean copy) {
 		return MvcUriComponentsBuilder
-		    .fromMethodName(getClass(), "getTypeMarket", null, "" + typeId, me, te, copy).build()
-		    .toUri();
+				.fromMethodName(getClass(), "getTypeMarket", null, "" + typeId, me, te, copy).build()
+				.toUri();
 	}
 
 	public URI uri(Type type, int me, int te, boolean copy) {
@@ -206,10 +207,10 @@ public class MarketHtmlController {
 	public String getRoot() {
 		return "redirect:market/search";
 	}
-	
+
 	@RequiredArgsConstructor
 	@Getter
-	public static enum PERIOD{
+	public enum PERIOD{
 		week(7), month(30), year(365);
 
 		private final int days;
@@ -224,7 +225,7 @@ public class MarketHtmlController {
 				return "redirect:" + types.get(0).getId();
 			} else {
 				model.addAttribute("types",
-				    types.stream().map(this::linkedMarketType).sorted(Comparator.comparing(lmt -> lmt.name)).toList());
+						types.stream().map(this::linkedMarketType).sorted(Comparator.comparing(lmt -> lmt.name)).toList());
 			}
 		}
 		PERIOD periodValue = period.orElse(PERIOD.week);
@@ -233,31 +234,31 @@ public class MarketHtmlController {
 		int limitValue = limit.orElse(100);
 
 		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(periodValue.getDays(),
-		    limitValue);
+				limitValue);
 		for (AggregatedTypeHistory line : regionalSales) {
 			line.setUrl(uri(line.getTypeId()).toString());
 		}
 		model.addAttribute("regionalMarketSales", regionalSales);
 
 		List<AggregatedTypeHistory> unresearchedContractSales = contractFacadeNonBp.aggregateHighestIskVolume(
-		    periodValue.getDays(),
-		    limitValue);
+				periodValue.getDays(),
+				limitValue);
 		for (AggregatedTypeHistory line : unresearchedContractSales) {
 			line.setUrl(uri(line.getTypeId()).toString());
 		}
 		model.addAttribute("unresearchedContractSales", unresearchedContractSales);
 
 		List<AggregatedTypeHistory> bpoContractSales = contractFacadeBpo.aggregateHighestIskVolume(
-		    periodValue.getDays(),
-		    limitValue);
+				periodValue.getDays(),
+				limitValue);
 		for (AggregatedTypeHistory line : bpoContractSales) {
 			line.setUrl(uri(line.getTypeId(), line.getMe(), line.getTe(), false).toString());
 		}
 		model.addAttribute("bpoContractSales", bpoContractSales);
 
 		List<AggregatedTypeHistory> bpcContractSales = contractFacadeBpc.aggregateHighestIskVolume(
-		    periodValue.getDays(),
-		    limitValue);
+				periodValue.getDays(),
+				limitValue);
 		for (AggregatedTypeHistory line : bpcContractSales) {
 			line.setUrl(uri(line.getTypeId(), line.getMe(), line.getTe(), true).toString());
 		}
@@ -287,15 +288,15 @@ public class MarketHtmlController {
 			}
 			if (marketGroup.getSubGroups() != null && !marketGroup.getSubGroups().isEmpty()) {
 				model.addAttribute("children", marketGroup.getSubGroups().stream()
-				    .map(this::linkedMarketGroup)
-				    .sorted(Comparator.comparing(l -> l.name))
-				    .toList());
+						.map(this::linkedMarketGroup)
+						.sorted(Comparator.comparing(l -> l.name))
+						.toList());
 			}
 			if (marketGroup.getTypes() != null && !marketGroup.getTypes().isEmpty()) {
 				model.addAttribute("types", marketGroup.getTypes().stream()
-				    .map(dogmaHtmlController::linkedType)
-				    .sorted(Comparator.comparing(LinkedType::name))
-				    .toList());
+						.map(dogmaHtmlController::linkedType)
+						.sorted(Comparator.comparing(LinkedType::name))
+						.toList());
 			}
 		} else {
 			model.addAttribute("name", "unknown" + marketGroupId);
@@ -307,16 +308,16 @@ public class MarketHtmlController {
 	@GetMapping("/groups")
 	public String getMarketGroups(Model model) {
 		model.addAttribute("roots",
-		    marketGroupService.roots().stream()
-		        .sorted(Comparator.comparing(MarketGroup::name))
-		        .map(this::linkedMarketGroup)
-		        .toList());
+				marketGroupService.roots().stream()
+				.sorted(Comparator.comparing(MarketGroup::name))
+				.map(this::linkedMarketGroup)
+				.toList());
 		return "market/groups";
 	}
 
 	public URI uri(MarketGroup marketGroup) {
 		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getMarketGroup", null, "" + marketGroup.getId()).build()
-		    .toUri();
+				.toUri();
 	}
 
 	public static record LinkedMarketGroup(String name, String url) {

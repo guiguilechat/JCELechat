@@ -48,6 +48,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeDataDto;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
@@ -71,6 +72,8 @@ public class HistoryRestController {
 	final private ContractFacadeBpc contractFacadeBpc;
 
 	final private ContractFacadeBpo contractFacadeBpo;
+
+	final private ContractMarketAggregator contractMarketAggregator;
 
 	final private HistoryLineService hlService;
 
@@ -99,7 +102,8 @@ public class HistoryRestController {
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
-		List<AggregatedHL> data = hlService.byType(typeId, Instant.now().minus(days.orElse(365 * 10), ChronoUnit.DAYS));
+		Instant from = Instant.now().minus(days.orElse(365 * 10) + 1, ChronoUnit.DAYS);
+		List<AggregatedHL> data = contractMarketAggregator.aggregatedSales(typeId, from);
 		return RestControllerHelper.makeResponse(TypeDataDto.of(type, data),
 				accept);
 	}
@@ -141,15 +145,16 @@ public class HistoryRestController {
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
-		List<AggregatedHL> fetchedData = hlService.byType(typeId,
-				Instant.now().minus(days.orElse(365 * 10) + 1, ChronoUnit.DAYS));
+		Instant from = Instant.now().minus(days.orElse(365 * 10) + 1, ChronoUnit.DAYS);
+		List<AggregatedHL> fetchedData = contractMarketAggregator.aggregatedSales(typeId, from);
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}
+		// add now with 0 value to ensure the chart shows now.
 		List<AggregatedHL> sortedData = Stream.concat(
 				fetchedData.stream(),
 				Stream.of(new AggregatedHL(Instant.now().truncatedTo(ChronoUnit.DAYS), 0, null, null,
-						null, 0, 0)))
+						null, 0)))
 				.sorted(Comparator.comparing(AggregatedHL::getDate)).toList();
 
 		String title = "universe sales of " + type.name() + "(" + type.getId() + ")"
@@ -201,10 +206,11 @@ public class HistoryRestController {
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}
+		// add now with 0 value to ensure the chart shows now.
 		List<AggregatedHL> sortedData = Stream.concat(
 				fetchedData.stream(),
 				Stream.of(new AggregatedHL(Instant.now().truncatedTo(ChronoUnit.DAYS), 0, null, null,
-						null, 0, 0)))
+		        null, 0)))
 				.sorted(Comparator.comparing(AggregatedHL::getDate)).toList();
 
 		String title = "public contract sales of " + type.name() + "(" + type.getId() + ")" + (copy ? " (CP)" : "")
@@ -473,7 +479,7 @@ public class HistoryRestController {
 						Optional.ofNullable(accept),
 						Optional.ofNullable(builder),
 						Optional.ofNullable(theme),
-		        null)
+						null)
 				.build()
 				.toUri();
 	}

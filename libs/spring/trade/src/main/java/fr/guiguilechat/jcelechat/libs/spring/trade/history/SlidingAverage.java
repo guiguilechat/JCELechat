@@ -47,10 +47,6 @@ public class SlidingAverage {
 
 	}
 
-	public long orderCount() {
-		return getList().stream().mapToLong(AggregatedHL::getOrderCount).sum();
-	}
-
 	public Double averagePrice() {
 		long volume = volume();
 		return volume == 0 ? null : totalValue() / volume;
@@ -69,7 +65,7 @@ public class SlidingAverage {
 			return null;
 		}
 		return new AggregatedHL(list.get(list.size() - 1).getDate(), volume(), totalValue(), highest(), lowest(),
-				orderCount(), list.get(list.size() - 1).getNbRegions());
+		    list.get(list.size() - 1).getNbRegions());
 	}
 
 }

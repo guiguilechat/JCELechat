@@ -97,7 +97,6 @@ public class ContractFacadeBpc {
 			double totalValue = 0.0;
 			double highestPrice = 0.0;
 			double lowestPrice = Double.MAX_VALUE;
-			long orderCount = 0L;
 			Set<Integer> regionIds = new HashSet<>();
 			for (ContractInfo ci : e.getValue()) {
 				volume += ci.getOfferedRuns();
@@ -115,7 +114,7 @@ public class ContractFacadeBpc {
 					totalValue,
 					highestPrice,
 					lowestPrice,
-					orderCount, regionIds.size()));
+			    regionIds.size()));
 		}
 		return ret;
 	}

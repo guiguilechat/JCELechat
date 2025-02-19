@@ -16,37 +16,56 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_co
 public interface ContractInfoRepository
     extends IRemoteEntityRepository<ContractInfo, Integer>, JpaSpecificationExecutor<ContractInfo> {
 
-	public List<ContractInfo> findByRegionIdAndRemovedFalseAndFetchedTrue(int regionId);
+	List<ContractInfo> findByRegionIdAndRemovedFalseAndFetchedTrue(int regionId);
 
-	public List<ContractInfo> findByRegionInAndRemovedFalse(Iterable<ContractRegion> regions);
+	List<ContractInfo> findByRegionInAndRemovedFalse(Iterable<ContractRegion> regions);
 
-	public List<ContractInfo> findByFetchActiveTrueAndRemovedFalseAndExpiresLessThanOrderByExpiresAsc(Instant now,
+	List<ContractInfo> findByFetchActiveTrueAndRemovedFalseAndExpiresLessThanOrderByExpiresAsc(Instant now,
 	    Limit limit);
 
-	@EntityGraph(attributePaths = { "items", "items.type.group.category" })
-	public Stream<ContractInfo> findByTypeAndFetchedTrueAndRemovedFalseAndOffersNonBpcTrueAndRequestsItemFalse(
+	@EntityGraph(attributePaths = { "items", "items.type.group.category" }) Stream<ContractInfo> findByTypeAndFetchedTrueAndRemovedFalseAndOffersNonBpcTrueAndRequestsItemFalse(
 	    get_contracts_public_region_id_type contractType);
 
-	@EntityGraph(attributePaths = { "items", "items.type.group.category" })
-	public Stream<ContractInfo> findByTypeAndFetchedTrueAndRemovedFalseAndRequestsItemTrueAndOffersItemFalse(
+	@EntityGraph(attributePaths = { "items", "items.type.group.category" }) Stream<ContractInfo> findByTypeAndFetchedTrueAndRemovedFalseAndRequestsItemTrueAndOffersItemFalse(
 	    get_contracts_public_region_id_type contractType);
 
 	/** completed contracts providing only given types and iscopy, me, te */
-	public List<ContractInfo> findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
+	List<ContractInfo> findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
 	    Collection<Integer> typeIds, boolean copy, int me, int te, Limit limit);
+	
+	@Query("""
+select
+	date_trunc('day', removedBefore) date,
+	sum(offeredQuantity) volume,
+	sum(price) totalValue,
+	max(price/offeredQuantity) highestPrice,
+	min(price/offeredQuantity) lowestPrice,
+	count(distinct region) regions
+from
+	EsiTradeContractInfo contract
+where
+	completed
+	and offersItem
+	and not requestsItem
+	and offeredTypeId=:typeId
+	and not offeredCopy
+	and offeredMe=:me
+	and offeredTe=:te
+group by date_trunc('day', removedBefore)
+""") List<Object[]> aggregatedSales(int typeId, int me, int te);
 
 	/** open contracts providing only given type and iscopy, me, te */
-	public List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
 	    Collection<Integer> typeIds, boolean copy, int me, int te);
 
 	/**
 	 * open contracts providing only given type and iscopy, with minimal me and te
 	 */
-	public List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
+	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
 	    Collection<Integer> typeIds, boolean copy, int me, int te);
 
 	/** open contracts requesting only given types */
-	public List<ContractInfo> findByRemovedFalseAndAsksOneTypeForIskTrueAndAskedTypeIdIn(Collection<Integer> typeIds);
+	List<ContractInfo> findByRemovedFalseAndAsksOneTypeForIskTrueAndAskedTypeIdIn(Collection<Integer> typeIds);
 
 	@Query("""  
 select
@@ -58,12 +77,10 @@ where
 	and fetched
 order by id
 limit :limit 
-""")
-	public List<Integer> listIdsByFetchedTrue(long lastId, int limit);
+""") List<Integer> listIdsByFetchedTrue(long lastId, int limit);
 
 	/** to analyze again */
-	@EntityGraph(attributePaths = { "items", "items.type.id" })
-	public List<ContractInfo> findByIdIn(List<Integer> ids);
+	@EntityGraph(attributePaths = { "items", "items.type.id" }) List<ContractInfo> findByIdIn(List<Integer> ids);
 
 	/**
 	 * list the variants of the type offered in contract, except the 0/0/noncopy one
@@ -80,8 +97,7 @@ where
 	offeredTypeId=:typeId
 	and (offeredMe>0 or offeredTe>0 or offeredCopy)
 group by offeredMe, offeredTe, offeredCopy
-""")
-	public List<Object[]> listTypeVariants(int typeId);
+""") List<Object[]> listTypeVariants(int typeId);
 
 	@Query("""
 select
@@ -102,8 +118,7 @@ where
 group by offeredTypeId
 order by sum(price) desc
 limit :limit
-""")
-	public List<Object[]> aggregateUnresearchedHighestSales(Instant minDate, Instant maxDate, int limit);
+""") List<Object[]> aggregateUnresearchedHighestSales(Instant minDate, Instant maxDate, int limit);
 
 	@Query("""
 select
@@ -128,8 +143,7 @@ group by
 	offeredTe
 order by sum(price) desc
 limit :limit
-""")
-	public List<Object[]> aggregateResearchedHighestSales(Instant minDate, Instant maxDate, int limit);
+""") List<Object[]> aggregateResearchedHighestSales(Instant minDate, Instant maxDate, int limit);
 
 	@Query("""
 select
@@ -153,7 +167,6 @@ group by
 	offeredTe
 order by sum(price) desc
 limit :limit
-""")
-	public List<Object[]> aggregateBpcHighestSales(Instant minDate, Instant maxDate, int limit);
+""") List<Object[]> aggregateBpcHighestSales(Instant minDate, Instant maxDate, int limit);
 
 }

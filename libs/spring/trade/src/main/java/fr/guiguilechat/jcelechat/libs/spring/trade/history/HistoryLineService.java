@@ -60,13 +60,12 @@ public class HistoryLineService {
 
 	protected AggregatedHL convert(Object[] line) {
 		return new AggregatedHL(
-				(Instant) line[0],
+		    ((Instant) line[0]).truncatedTo(ChronoUnit.DAYS),
 				((Number) line[1]).longValue(),
 				((Number) line[2]).doubleValue(),
 				((Number) line[3]).doubleValue(),
 				((Number) line[4]).doubleValue(),
-				((Number) line[5]).longValue(),
-				((Number) line[6]).intValue());
+				((Number) line[5]).intValue());
 	}
 
 	public Map<HistoryReq, Instant> findLastFetched(Iterable<HistoryReq> reqs) {

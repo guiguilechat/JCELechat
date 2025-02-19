@@ -32,7 +32,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.orders.MarketOrderService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
@@ -70,7 +70,7 @@ public class DogmaHtmlController {
 
 	private final MarketLineService marketLineService;
 
-	private final MarketOrderService marketOrderService;
+	private final ContractMarketAggregator contractMarketAggregator;
 
 	private final MaterialService materialService;
 
@@ -335,13 +335,13 @@ public class DogmaHtmlController {
 
 			Map<Integer, String> regionNamesById = regionService.namesById();
 			model.addAttribute("regionSell",
-					marketOrderService.lowestSellByRegion(t.getId())
+			    contractMarketAggregator.lowestSellByRegion(t.getId())
 					.entrySet().stream()
 					.map(e -> RegionBestPrice.of(e, regionNamesById))
 					.sorted(Comparator.comparing(RegionBestPrice::price))
 					.toList());
 			model.addAttribute("regionBuy",
-					marketOrderService.highestBuyByRegion(t.getId())
+			    contractMarketAggregator.highestBuyByRegion(t.getId())
 					.entrySet().stream()
 					.map(e -> RegionBestPrice.of(e, regionNamesById))
 					.sorted(Comparator.comparing(rp -> -rp.price()))
