@@ -3,17 +3,11 @@ package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 import java.time.Instant;
 import java.util.List;
 
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepository;
 
 public interface HistoryLineRepository extends IFetchedListElementRepository<HistoryReq, HistoryLine> {
-
-	@Override
-	@Modifying
-	@Query("delete from EsiTradeHistoryLine where fetchResource.id in :ids")
-	void deleteByFetchResourceIdIn(Iterable<? extends Number> ids);
 
 	@Query("""
 select

@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
+import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
@@ -42,7 +43,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * extends this for an service that updates an entity : with a number id that
  * correspond to a single remote resource for that entity
- * 
+ *
  * @param <Entity>     local entity we update from the remote
  * @param <IdType>     class of the id for the local entity
  * @param <Fetched>    structure that is returned from remote, containing
@@ -52,7 +53,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NoArgsConstructor
 public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, Fetched>, IdType extends Number, Fetched, Repository extends IRemoteEntityRepository<Entity, IdType>>
-    extends AFetchedResourceService<Entity, IdType, Repository> {
+extends AFetchedResourceService<Entity, IdType, Repository> {
 
 	//
 	// entity create & save
@@ -61,7 +62,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	/**
 	 * if new entries should be activated when created. Default true.<br />
 	 * Can be changed with eg
-	 * 
+	 *
 	 * <pre>{@code
 	 * @Getter(lazy = true)
 	 * private final boolean activateNewEntry = false;
@@ -106,7 +107,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	/**
 	 * create the entity if needed, then fetch it and return it once fetched or
 	 * failed.
-	 * 
+	 *
 	 * @param entityId id for the entity we want
 	 * @return a managed entity, fetched if it should, or null if exception caught.
 	 *           It may not be fetched if {@link #isActivateNewEntry()} is false
@@ -124,9 +125,9 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Map<IdType, CompletableFuture<Entity>> createFetchIfNeeded(Collection<IdType> entityIds) {
 		Map<IdType, Entity> storedEntities = repo().findAllById(entityIds).stream()
-		    .collect(Collectors.toMap(ARemoteEntity::getId, e -> e));
+				.collect(Collectors.toMap(ARemoteEntity::getId, e -> e));
 		return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
-		    entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
+				entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
 	}
 
 	protected abstract Requested<Fetched> fetchData(IdType id, Map<String, String> properties);
@@ -142,7 +143,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	/**
 	 * do the fetching of a list of entities. <br />
 	 * The entities that could not be fetched have their meta data updated.
-	 * 
+	 *
 	 * @param entities
 	 * @return The map of successful fetch, from the entity to the fetch result .
 	 *           entities that are fetched for 204 (no body) or 304 (no change) are
@@ -151,7 +152,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	 */
 	protected Map<Entity, Fetched> fetchData(List<Entity> entities) {
 		Map<Entity, Future<Requested<Fetched>>> dataToFuture = entities.stream()
-		    .collect(Collectors.toMap(d -> d, d -> executionService().submit(() -> fetchData(d.getId(), d.getLastEtag()))));
+				.collect(Collectors.toMap(d -> d, d -> executionService().submit(() -> fetchData(d.getId(), d.getLastEtag()))));
 		Map<Entity, Requested<Fetched>> dataToRequested = new HashMap<>();
 		for (Entry<Entity, Future<Requested<Fetched>>> e : dataToFuture.entrySet()) {
 			try {
@@ -192,7 +193,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 					break;
 				default:
 					log.error("while updating {} id {}, received response code {} and error {}",
-					    data.getClass().getSimpleName(), data.getId(), responseCode, response.getError());
+							data.getClass().getSimpleName(), data.getId(), responseCode, response.getError());
 					throw new UnsupportedOperationException("case " + responseCode + " not handled for url" + response.getURL());
 				}
 			}
@@ -203,7 +204,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	/**
 	 * if an entity exists for an id, update it if needed, then return it.
 	 * Use {@link #createFetch(Object)} to create it if absent.
-	 * 
+	 *
 	 * @return entity for given id, at least fetched once if needed. May not be
 	 *           fetched if the {@link #isActivateNewEntry()} is false ; may be
 	 *           empty if not created.
@@ -224,7 +225,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	/**
 	 * perform an update of an entity using its remote representation. If the
 	 * entity is updated in any way, it is also saved already.
-	 * 
+	 *
 	 * @param data the entity to update
 	 * @return empty completable future to synchronize over.
 	 */
@@ -238,14 +239,14 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	/**
 	 * called when a batch of entity update has resulted in ok responses. Non-ok
 	 * responses, as well as 304, are filtered out.
-	 * 
+	 *
 	 * @param responseOk map of entities updated to their ok response.
 	 */
 	protected void updateResponseOk(Map<Entity, Fetched> responseOk) {
 		responseOk.entrySet().stream()
-		    .forEach(e -> {
-			    e.getKey().update(e.getValue());
-		    });
+		.forEach(e -> {
+			e.getKey().update(e.getValue());
+		});
 	}
 
 	/**
@@ -267,13 +268,13 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 
 	/**
 	 * extract the expires
-	 * 
+	 *
 	 * @param headers map
 	 * @return the next moment after which we can fetch an entity again.
 	 */
 	protected Instant extractExpires(Requested<?> response) {
 		Instant ret = response.getExpiresInstant();
-		if (ret != null && ret.getEpochSecond() != 0l) {
+		if (ret != null && ret.getEpochSecond() != 0L) {
 			return ret;
 		}
 		Instant date = Instant.now();
@@ -357,7 +358,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	 */
 	protected void updateNullResponse(Entity data) {
 		log.warn("received null response when requesting update for {} id={}", data.getClass().getSimpleName(),
-		    data.getId());
+				data.getId());
 		data.increaseSuccessiveErrors();
 		data.setExpiresInRandom(data.getSuccessiveErrors() * 60);
 	}
@@ -405,8 +406,8 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 		try {
 			ObjectMapper om = JsonMapper.builder().configure(JsonReadFeature.ALLOW_UNQUOTED_FIELD_NAMES, true).build();
 			return om.writeValueAsString(Map.of(
-			    "update", getUpdate(),
-			    "list", getList()));
+					"update", getUpdate(),
+					"list", getList()));
 		} catch (JsonProcessingException e) {
 			throw new RuntimeException(e);
 		}
@@ -440,7 +441,7 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 					case 200:
 						long postFetch = System.currentTimeMillis();
 						log.debug(" {} listed {} entries in {}s", fetcherName(), resp.getOK().size(), (postFetch - startms) / 1000);
-						onNewListFetched(createIfAbsent(resp.getOK()));
+						onNewListFetched(createMissing(resp.getOK()));
 						lastListEtag = resp.getETag();
 						listExpires = resp.getExpiresInstant();
 						break;
@@ -450,11 +451,11 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 						break;
 					default:
 						log.warn("update service {} received invalid response {} when requesting list of entities",
-						    getClass().getSimpleName(), resp);
+								getClass().getSimpleName(), resp);
 					}
 				} else {
 					log.warn("update service {} received null list of entities",
-					    getClass().getSimpleName());
+							getClass().getSimpleName());
 				}
 				if (getList().getDelay() > 0) {
 					Instant nextListFromDelay = Instant.now().plusSeconds(getList().getDelay());
@@ -468,8 +469,8 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 		}
 	}
 
-	/** called when the list has been updated */
-	protected void onNewListFetched(Map<IdType, Entity> map) {
+	/** called when new ids have been listed */
+	protected void onNewListFetched(Set<IdType> newIds) {
 
 	}
 
@@ -510,9 +511,9 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 			long nbRemain = nbToUpdate();
 			long endTimeMs = System.currentTimeMillis();
 			log.debug("{} updated {}/{} in {} ms, remain {}",
-			    fetcherName(),
-			    nbSuccess, nbUpdates,
-			    endTimeMs - startTimeMs, nbRemain);
+					fetcherName(),
+					nbSuccess, nbUpdates,
+					endTimeMs - startTimeMs, nbRemain);
 		}
 		return nbUpdates > 0;
 	}
@@ -522,18 +523,18 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	 * ensures they will be prioritized on the next update pulse. Note that this
 	 * does not make their fetch active if they are not already ; on the contrary,
 	 * those with fetch inactive won't be updated.
-	 * 
+	 *
 	 * @param datas
 	 */
 	@Transactional
 	public void prioritize(Iterable<Entity> datas) {
 		List<Entity> updated = StreamSupport.stream(datas.spliterator(), false)
-		    .filter(d -> d.isFetchActive() &&
-		        (!d.isFetched()
-		            || d.getExpires() != null
-		                && d.getExpires().isBefore(Instant.now())))
-		    .peek(d -> d.setExpires(d.getExpires().minus(30, ChronoUnit.DAYS)))
-		    .toList();
+				.filter(d -> d.isFetchActive() &&
+						(!d.isFetched()
+								|| d.getExpires() != null
+								&& d.getExpires().isBefore(Instant.now())))
+				.peek(d -> d.setExpires(d.getExpires().minus(30, ChronoUnit.DAYS)))
+				.toList();
 		saveAll(updated);
 	}
 
@@ -572,14 +573,14 @@ public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, 
 	 * remember the start and batch size of the previous successful call</li>
 	 * </ol>
 	 * </p>
-	 * 
+	 *
 	 * @return the next entities that are to be updated
 	 */
 	protected List<Entity> listToUpdate() {
 		lastBatchSize = nextBatchSize();
 		List<Entity> ret = lastBatchSize < 1
-		    ? List.of()
-		    : repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));
+				? List.of()
+						: repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));
 		log.trace(" {} has {} entities to update with max batch size {}", fetcherName(), ret.size(), lastBatchSize);
 		return ret;
 	}

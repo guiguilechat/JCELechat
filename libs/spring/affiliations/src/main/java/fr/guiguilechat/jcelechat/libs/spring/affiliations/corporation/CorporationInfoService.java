@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.function.Function;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -20,14 +21,16 @@ import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionListe
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.affiliations.corporation")
 @Order(3) // depends on alliance and faction
 public class CorporationInfoService extends
-    ARemoteEntityService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository>
-    implements IdResolutionListener {
+ARemoteEntityService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository>
+implements IdResolutionListener {
 
 	@Lazy
 	private final AllianceInfoService allianceInfoService;
@@ -48,8 +51,8 @@ public class CorporationInfoService extends
 	}
 
 	protected void updateResponseOk(CorporationInfo data,
-	    R_get_corporations_corporation_id response,
-	    Map<Integer, AllianceInfo> idToAlliance) {
+			R_get_corporations_corporation_id response,
+			Map<Integer, AllianceInfo> idToAlliance) {
 		data.setAlliance(idToAlliance.get(response.alliance_id));
 		data.setFaction(factionInfoService.createIfAbsent(response.faction_id));
 	}
@@ -58,10 +61,10 @@ public class CorporationInfoService extends
 	protected void updateResponseOk(Map<CorporationInfo, R_get_corporations_corporation_id> responseOk) {
 		super.updateResponseOk(responseOk);
 		Map<Integer, AllianceInfo> idToAlliance = allianceInfoService
-		    .createIfAbsent(responseOk.values().stream()
-		        .mapToInt(r -> r.alliance_id)
-		        .distinct().filter(i -> i > 0)
-		        .boxed().toList());
+				.createIfAbsent(responseOk.values().stream()
+						.mapToInt(r -> r.alliance_id)
+						.distinct().filter(i -> i > 0)
+						.boxed().toList());
 		responseOk.entrySet().stream().forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToAlliance));
 	}
 
@@ -73,9 +76,11 @@ public class CorporationInfoService extends
 	}
 
 	@Override
-	protected void onNewListFetched(Map<Integer, CorporationInfo> map) {
-		map.values().forEach(ci -> ci.setNpc(true));
-		saveAll(map.values());
+	protected void onNewListFetched(Set<Integer> newIds) {
+		log.debug("received {} new created elements", newIds.size());
+		List<CorporationInfo> newcorps = repo().findAllById(newIds);
+		newcorps.forEach(ci -> ci.setNpc(true));
+		saveAll(newcorps);
 	}
 
 	// create new entries when needed

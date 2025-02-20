@@ -4,9 +4,11 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -28,10 +30,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NoArgsConstructor
 public abstract class AFetchedResourceService<
-		Entity extends AFetchedResource<Id>,
-    Id extends Number,
-    Repository extends IFetchedResourceRepository<Entity, Id>>
-    implements IEntityUpdater {
+Entity extends AFetchedResource<Id>,
+Id extends Number,
+Repository extends IFetchedResourceRepository<Entity, Id>>
+implements IEntityUpdater {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -52,13 +54,12 @@ public abstract class AFetchedResourceService<
 
 	/**
 	 * create a minimal entity
-	 * 
+	 *
 	 * @param entityId
 	 * @return
 	 */
 	public Entity createMinimal(Id entityId) {
 		Entity e = create(entityId);
-		log.trace("create {} id {}", e.getClass().getSimpleName(), entityId);
 		return e;
 	}
 
@@ -81,8 +82,22 @@ public abstract class AFetchedResourceService<
 	}
 
 	/**
+	 * ensure an entity for given ids exist. If missing creates them with
+	 * {@link #createMinimal(Number)}
+	 *
+	 * @param entityIds list of ids we need to exist in the DB
+	 * @return the set of ids that have been created
+	 */
+	public Set<Id> createMissing(Collection<Id> entityIds) {
+		Set<Id> toCreate = new HashSet<>(entityIds);
+		repo().findExistingIds(entityIds).forEach(toCreate::remove);
+		saveAll(toCreate.stream().map(this::createMinimal).toList());
+		return toCreate;
+	}
+
+	/**
 	 * ensure an entity for given id exists, does not start fetch
-	 * 
+	 *
 	 * @param entityId new Id for the entity
 	 * @return entity for corresponding id
 	 */
@@ -106,32 +121,32 @@ public abstract class AFetchedResourceService<
 		int maxList = Integer.MAX_VALUE;
 		if (entityIds.size() <= maxList) {
 			repo().findAllById(entityIds).stream()
-			    .forEach(r -> storedEntities.put(r.getId(), r));
+			.forEach(r -> storedEntities.put(r.getId(), r));
 		} else {
 			List<Id> lastList = new ArrayList<>();
 			for (Id id : entityIds) {
 				if (lastList.size() >= maxList) {
 					repo().findAllById(lastList).stream()
-					    .forEach(r -> storedEntities.put(r.getId(), r));
+					.forEach(r -> storedEntities.put(r.getId(), r));
 					lastList = new ArrayList<>();
 				}
 				lastList.add(id);
 			}
 			if (!lastList.isEmpty()) {
 				repo().findAllById(lastList).stream()
-				    .forEach(r -> storedEntities.put(r.getId(), r));
+				.forEach(r -> storedEntities.put(r.getId(), r));
 			}
 		}
 		long postRetrieved = System.currentTimeMillis();
 		log.trace(" {} createIfAbsent retrieved {} stored entities in {} ms @ {}/s", fetcherName(), storedEntities.size(),
-		    postRetrieved - start, storedEntities.size() * 1000 / Math.max(1, postRetrieved - start));
+				postRetrieved - start, storedEntities.size() * 1000 / Math.max(1, postRetrieved - start));
 		List<Entity> newEntities = saveAll(entityIds.stream()
-		    .filter(id -> !storedEntities.containsKey(id)).distinct()
-		    .map(this::createMinimal)
-		    .toList());
+				.filter(id -> !storedEntities.containsKey(id)).distinct()
+				.map(this::createMinimal)
+				.toList());
 		log.trace(" {} createIfAbsent created {} new entities", fetcherName(), newEntities.size());
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
-		    .collect(Collectors.toMap(AFetchedResource::getId, e -> e));
+				.collect(Collectors.toMap(AFetchedResource::getId, e -> e));
 	}
 
 	//
@@ -158,7 +173,7 @@ public abstract class AFetchedResourceService<
 	 * <li>update corresponding data, stats, cache in {@link #postUpdate()}</li>
 	 * <li>update the delay and own status</li>
 	 * </ol>
-	 * 
+	 *
 	 * @return true if more resource need fetching (ie if this service is not fully
 	 *           updated). Note that in case of error, the resources not fetched may
 	 *           be saved with a future expires (to avoid frequent errors) and as
@@ -184,7 +199,7 @@ public abstract class AFetchedResourceService<
 
 	/**
 	 * actually update the updatable data
-	 * 
+	 *
 	 * @return true if at least an item was updated
 	 */
 	protected abstract boolean fetchUpdate();
@@ -216,26 +231,26 @@ public abstract class AFetchedResourceService<
 	/**
 	 * react to updates. to use it, define your own interface, and create a field
 	 * with getter to have {@link #getListeners}
-	 * 
+	 *
 	 * <pre>{@code
 	 * public static interface XListener extends EntityUpdateListener {
 	 * }
-	 * 
+	 *
 	 * @Getter
 	 * private final Optional<List<XListener>> listeners;
 	 * }</pre>
 	 */
-	public static interface EntityUpdateListener {
+	public interface EntityUpdateListener {
 
 		/** triggered when at least an item is updated */
-		public default void onUpdate() {
+		default void onUpdate() {
 		}
 
 		/**
 		 * list the caches that should be invalidated on entity update.
 		 * <p>
 		 * can be implemented with eg
-		 * 
+		 *
 		 * <pre>{@code
 		 * @Getter(lazy=true)
 		 * private final List<String> cacheList = List.of(
@@ -244,14 +259,14 @@ public abstract class AFetchedResourceService<
 		 * }</pre>
 		 * </p>
 		 */
-		public default List<String> getCacheList() {
+		default List<String> getCacheList() {
 			return List.of();
 		}
 	}
 
 	/**
 	 * override this to provide your own list of listeners, eg
-	 * 
+	 *
 	 * <pre>{@code
 	 * @Getter@Lazy private final Optional<List<MyListener>> listeners;
 	 * }</pre>
@@ -264,7 +279,7 @@ public abstract class AFetchedResourceService<
 	 * override this to return true and make the class implement
 	 * {@link EntityUpdateListener} to have its own caches invalidated on entity
 	 * update.Code to override :
-	 * 
+	 *
 	 * <pre>{@code
 	 * @Getter(lazy = true) private final boolean selfInvalidate = true;
 	 * }</pre>

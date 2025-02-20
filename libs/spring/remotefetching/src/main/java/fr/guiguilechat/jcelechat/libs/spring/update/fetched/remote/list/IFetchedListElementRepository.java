@@ -22,14 +22,15 @@ ListElement extends AFetchedListElement<?, ListType>
 	}
 
 	/**
-	 * MUST be overriden in sub classes (just change to the actual entity name)
+	 * fast delete. Does not update the cache, so does not return the list of items
+	 * deleted
 	 */
 	@Modifying
-	@Query("delete from EntityName where fetchResource.id in :ids")
+	@Query("delete from #{#entityName} where fetchResource.id in :ids")
 	void deleteByFetchResourceIdIn(Iterable<? extends Number> ids);
 
 	List<ListElement> findAllByFetchResourceId(int id);
 
-		List<ListElement> findAllByFetchResourceIn(Iterable<ListType> fetchResources);
+	List<ListElement> findAllByFetchResourceIn(Iterable<ListType> fetchResources);
 
 }
