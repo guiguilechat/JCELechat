@@ -22,20 +22,26 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.C2CStand
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * intercepts incoming esi connections, by creating the corresponding user,
+ * storing its esi credentials, and propagating the new user to registered
+ * services {@link #propagateEsiUser(EsiUser)}
+ */
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class EsiConnectionInterceptor extends DefaultOAuth2UserService {
 
-	private final CacheManager cacheManager;
+	@Lazy
+	private final C2CStandingsService c2cStandingsService;
 
-	private final EsiUserService esiUserService;
+	private final CacheManager cacheManager;
 
 	@Lazy
 	private final EsiAppService esiAppService;
 
 	@Lazy
-	private final C2CStandingsService c2cStandingsService;
+	private final EsiUserService esiUserService;
 
 	@Override
 	public OAuth2User loadUser(OAuth2UserRequest oAuth2UserRequest) {
@@ -43,14 +49,14 @@ public class EsiConnectionInterceptor extends DefaultOAuth2UserService {
 		return processOAuth2User(oAuth2UserRequest, oAuth2User);
 	}
 
-	public static interface EsiUserListener {
+	public interface EsiUserListener {
 
-		public default List<String> getEsiUserCaches() {
+		default List<String> getEsiUserCaches() {
 			return List.of();
 		}
 
 		@Async
-		public default void onNewEsiUser(EsiUser user) {
+		default void onNewEsiUser(EsiUser user) {
 
 		}
 	}
@@ -68,19 +74,20 @@ public class EsiConnectionInterceptor extends DefaultOAuth2UserService {
 			int characterId = ((Number) oAuth2User.getAttributes().get("CharacterID")).intValue();
 			Set<String> scopes = Set.of(((String) oAuth2User.getAttributes().get("Scopes")).split(" "));
 			String refreshToken = (String) oAuth2UserRequest.getAdditionalParameters()
-			    .get(OAuth2ParameterNames.REFRESH_TOKEN);
-
+					.get(OAuth2ParameterNames.REFRESH_TOKEN);
+			// only add this new connections as a new user if no existing matching user, for
+			// the same app id, already has its scope.
 			EsiUser existingUserAccount = esiUserService.forAppCharacterId(app, characterId).stream()
-			    .filter(user -> user.getScopes().containsAll(scopes)).findAny().orElse(null);
+					.filter(user -> user.getScopes().containsAll(scopes)).findAny().orElse(null);
 			if (existingUserAccount == null) {
 				EsiUser newUserAccount = esiUserService.save(
-				    EsiUser.builder()
-				        .app(app)
-				        .characterId(characterId)
-				        .characterName(characterName)
-				        .refreshToken(refreshToken)
-				        .scopes(scopes)
-				        .build());
+						EsiUser.builder()
+						.app(app)
+						.characterId(characterId)
+						.characterName(characterName)
+						.refreshToken(refreshToken)
+						.scopes(scopes)
+						.build());
 
 				log.debug("saved new entry for user " + characterName);
 				propagateEsiUser(newUserAccount);
@@ -94,7 +101,7 @@ public class EsiConnectionInterceptor extends DefaultOAuth2UserService {
 			}
 
 			Set<String> allScopes = esiUserService.forCharacterId(characterId).stream()
-			    .flatMap(ei -> ei.getScopes().stream()).collect(Collectors.toSet());
+					.flatMap(ei -> ei.getScopes().stream()).collect(Collectors.toSet());
 			addedRoles.addAll(allScopes);
 
 			DelegateOauth2User ret = new DelegateOauth2User(oAuth2User, addedRoles);
@@ -108,7 +115,7 @@ public class EsiConnectionInterceptor extends DefaultOAuth2UserService {
 	protected void propagateEsiUser(EsiUser newUserAccount) {
 		if (updateListeners.isPresent()) {
 			updateListeners.get().stream().flatMap(l -> l.getEsiUserCaches().stream())
-			    .forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 			updateListeners.get().stream().forEach(l -> l.onNewEsiUser(newUserAccount));
 		}
 
@@ -116,13 +123,13 @@ public class EsiConnectionInterceptor extends DefaultOAuth2UserService {
 
 	/**
 	 * once the application is started, transmit the known esi user to all services.
-	 * So that if a new service is added, it can start handling the data.
+	 * So that if a new service is added, it can start handling the previous data.
 	 */
 	@EventListener(ApplicationReadyEvent.class)
 	public void postStartUp() {
 		esiUserService.listAll().stream()
-		    .filter(ei -> !ei.isCanceled())
-		    .forEach(this::propagateEsiUser);
+		.filter(ei -> !ei.isCanceled())
+		.forEach(this::propagateEsiUser);
 
 	}
 

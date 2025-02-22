@@ -13,7 +13,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * oauth that has a delegate and can be specified additional authorities
+ * can add specified additional authorities onto a delegate {@link OAuth2User}
  */
 @RequiredArgsConstructor
 public class DelegateOauth2User implements OAuth2User {

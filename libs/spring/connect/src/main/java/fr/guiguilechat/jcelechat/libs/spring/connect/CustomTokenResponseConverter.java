@@ -14,32 +14,41 @@ import org.springframework.util.StringUtils;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * converts a token reponse parameter in a tokenreponse, including
+ * <ul>
+ * <li>scopes into
+ * {@link OAuth2AccessToken#getScopes()}</li>
+ * <li>refresh token into
+ * {@link OAuth2AccessTokenResponse#getAdditionalParameters()} under the key
+ * {@link OAuth2ParameterNames#REFRESH_TOKEN}</li>
+ * </ul>
+ */
 @Slf4j
 public class CustomTokenResponseConverter implements
-    Converter<Map<String, Object>, OAuth2AccessTokenResponse> {
+Converter<Map<String, Object>, OAuth2AccessTokenResponse> {
 
 	@Override
 	public OAuth2AccessTokenResponse convert(Map<String, Object> tokenResponseParameters) {
 		try {
 			String accessToken = (String) tokenResponseParameters.get(OAuth2ParameterNames.ACCESS_TOKEN);
 			String refreshToken = (String) tokenResponseParameters.get(OAuth2ParameterNames.REFRESH_TOKEN);
-			Object expiresInObj = tokenResponseParameters.get(OAuth2ParameterNames.EXPIRES_IN);
-			long expiresIn = ((Number) expiresInObj).longValue();
+			long expiresIn = ((Number) tokenResponseParameters.get(OAuth2ParameterNames.EXPIRES_IN)).longValue();
 
 			Set<String> scopes = Collections.emptySet();
 			if (tokenResponseParameters.containsKey(OAuth2ParameterNames.SCOPE)) {
 				String scope = (String) tokenResponseParameters.get(OAuth2ParameterNames.SCOPE);
 				scopes = Arrays.stream(StringUtils.delimitedListToStringArray(scope, " "))
-				    .collect(Collectors.toSet());
+						.collect(Collectors.toSet());
 			}
 
 			return OAuth2AccessTokenResponse.withToken(accessToken)
-			    .tokenType(OAuth2AccessToken.TokenType.BEARER)
-			    .expiresIn(expiresIn)
-			    .scopes(scopes)
-			    .refreshToken(refreshToken)
-			    .additionalParameters(Map.of(OAuth2ParameterNames.REFRESH_TOKEN, refreshToken))
-			    .build();
+					.tokenType(OAuth2AccessToken.TokenType.BEARER)
+					.expiresIn(expiresIn)
+					.scopes(scopes)
+					.refreshToken(refreshToken)
+					.additionalParameters(Map.of(OAuth2ParameterNames.REFRESH_TOKEN, refreshToken))
+					.build();
 		} catch (Exception e) {
 			log.error("while converting parameters " + tokenResponseParameters, e);
 			return null;
