@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -41,18 +40,25 @@ import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * extends this for an service that updates an entity : with a number id that
- * correspond to a single remote resource for that entity
+ * abstract service that updates local entities from a remote server with one
+ * call per entity
+ * <p>
+ * to make the service list the existing entities from the remote, override
+ * {@link #listFetcher()} ; the default implementation is to return null, so to
+ * ignore the listing phase.
+ * </p>
  *
  * @param <Entity>     local entity we update from the remote
  * @param <IdType>     class of the id for the local entity
- * @param <Fetched>    structure that is returned from remote, containing
- *                       information about a local entity
- * @param <Repository> repo to save the entities
+ * @param <Fetched>    remote representation of the local entity
+ * @param <Repository> repo to list and save the entities
  */
 @Slf4j
 @NoArgsConstructor
-public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, Fetched>, IdType extends Number, Fetched, Repository extends IRemoteEntityRepository<Entity, IdType>>
+public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, Fetched>,
+IdType extends Number,
+Fetched,
+Repository extends IRemoteEntityRepository<Entity, IdType>>
 extends AFetchedResourceService<Entity, IdType, Repository> {
 
 	//
@@ -87,19 +93,6 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 		}
 	}
 
-	protected CompletableFuture<Entity> createFetchIfNeeded(Entity e, IdType entityId) {
-		if (e == null) {
-			e = save(createMinimal(entityId));
-		}
-		if (!e.isFetched() && e.isFetchActive()) {
-			log.trace("entry of class {} for id {} needs fetching", e.getClass().getSimpleName(), entityId);
-			return update(e);
-		} else {
-			log.trace("no need to update entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
-			return CompletableFuture.completedFuture(e);
-		}
-	}
-
 	//
 	// updating entity data
 	//
@@ -107,6 +100,10 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 	/**
 	 * create the entity if needed, then fetch it and return it once fetched or
 	 * failed.
+	 * <p>
+	 * Should not be called in response to user action, since it can force
+	 * the ESI usage and produce a ban.
+	 * </p>
 	 *
 	 * @param entityId id for the entity we want
 	 * @return a managed entity, fetched if it should, or null if exception caught.
@@ -114,20 +111,22 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 	 */
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Entity createFetch(IdType entityId) {
-		try {
-			return createFetchIfNeeded(repo().findById(entityId).orElse(null), entityId).get();
-		} catch (InterruptedException | ExecutionException e) {
-			log.error("while fetching id " + entityId, e);
-			return null;
+		Entity e = repo().findById(entityId).orElse(null);
+		if (e == null) {
+			e = save(createMinimal(entityId));
 		}
-	}
-
-	@Transactional(propagation = Propagation.REQUIRES_NEW)
-	public Map<IdType, CompletableFuture<Entity>> createFetchIfNeeded(Collection<IdType> entityIds) {
-		Map<IdType, Entity> storedEntities = repo().findAllById(entityIds).stream()
-				.collect(Collectors.toMap(ARemoteEntity::getId, e -> e));
-		return entityIds.stream().distinct().collect(Collectors.toMap(ei -> ei,
-				entityId -> createFetchIfNeeded(storedEntities.get(entityId), entityId)));
+		if (!e.isFetched() && e.isFetchActive()) {
+			log.trace("entry of class {} for id {} needs fetching", e.getClass().getSimpleName(), entityId);
+			try {
+				return update(e).get();
+			} catch (InterruptedException | ExecutionException ex) {
+				log.error("while fetching id " + entityId, ex);
+				return null;
+			}
+		} else {
+			log.trace("no need to update entry of class {} for id {}", e.getClass().getSimpleName(), entityId);
+			return e;
+		}
 	}
 
 	protected abstract Requested<Fetched> fetchData(IdType id, Map<String, String> properties);
@@ -238,7 +237,7 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 
 	/**
 	 * called when a batch of entity update has resulted in ok responses. Non-ok
-	 * responses, as well as 304, are filtered out.
+	 * responses, as well as 304, are filtered out before this call.
 	 *
 	 * @param responseOk map of entities updated to their ok response.
 	 */
@@ -253,7 +252,7 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 	 * update meta data from an ok response. Called before the
 	 * {@link #updateResponseOk(Map)} is invoked.
 	 */
-	protected void updateMetaOk(Entity data, Requested<?> response) {
+	protected void updateMetaOk(Entity data, Requested<Fetched> response) {
 		data.updateMetaOk(response.getLastModifiedInstant(), extractExpires(response), response.getETag());
 	}
 
@@ -441,7 +440,7 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 					case 200:
 						long postFetch = System.currentTimeMillis();
 						log.debug(" {} listed {} entries in {}s", fetcherName(), resp.getOK().size(), (postFetch - startms) / 1000);
-						onNewListFetched(createMissing(resp.getOK()));
+						onNewListFetched(insertIfAbsent(resp.getOK()));
 						lastListEtag = resp.getETag();
 						listExpires = resp.getExpiresInstant();
 						break;
@@ -474,16 +473,45 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 
 	}
 
-	/** the method to overwrite to make it auto fetch entities */
+	/**
+	 * function to list the ids from the remote
+	 *
+	 * @param properties should contain the etags
+	 */
+	protected Requested<List<IdType>> listRemoteIds(Map<String, String> properties) {
+		return null;
+	}
+
+	/**
+	 * the method to overwrite to make it auto fetch entities.
+	 * <p>
+	 * The typical implementation, if exists, is to override and call
+	 * {@link #listRemoteIds(Map)} eg
+	 *
+	 * <pre>{@code
+	 * protected Function<Map<String, String>, Requested<List<IdType>>> listFetcher() {
+	 *   return this::listRemoteIds;
+	 * }
+	 * }</pre>
+	 *
+	 * If there is no listing method, then returning null (default implementation)
+	 * implies no listing and the updater will skip this phase
+	 * </p>
+	 *
+	 * @return
+	 */
 	protected Function<Map<String, String>, Requested<List<IdType>>> listFetcher() {
 		return null;
 	}
 
+	/**
+	 * create the entities with id specified in the configuration at startup.
+	 */
 	@EventListener(ApplicationReadyEvent.class)
 	public void addListInit() {
 		if (list.init != null && !list.init.isEmpty()) {
 			log.trace("{} init={}", fetcherName(), list.init);
-			createIfAbsent(list.init);
+			insertIfAbsent(list.init);
 		}
 	}
 
@@ -585,10 +613,17 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 		return ret;
 	}
 
+	/**
+	 * update a list of entities
+	 *
+	 * @param data entities to update from the remote
+	 * @return number of entities that were successfully updated. Those which were
+	 *           not changed, or failed, are not counted.
+	 */
 	protected int update(List<Entity> data) {
 		log.trace("{} updating {} entities", fetcherName(), data.size());
 		Map<Entity, Fetched> successes = fetchData(data);
-		int success = successes.size();
+		int nbSuccess = successes.size();
 		// remove those with null Fetched : they are 304
 		successes.entrySet().removeIf(e -> e.getValue() == null);
 		if (!successes.isEmpty()) {
@@ -596,7 +631,7 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 		}
 		saveAll(data);
 		log.trace(" {} updated {} entities with {} changes", fetcherName(), data.size(), successes.size());
-		return success;
+		return nbSuccess;
 	}
 
 	//

@@ -1,7 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.manager;
 
 import java.time.Instant;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -22,11 +25,12 @@ public interface IEntityUpdater {
 	 * @return actual class name. Used to avoid proxy name when called from outside
 	 *           service
 	 */
-	public default String fetcherName() {
+	default String fetcherName() {
 		return getClass().getSimpleName();
 	}
 
-	public default String propertiesPrefix() {
+	/** access the prefix to set its properties at launch. Used to debug config */
+	default String propertiesPrefix() {
 		ConfigurationProperties annotation = getClass().getDeclaredAnnotation(ConfigurationProperties.class);
 		if (annotation != null) {
 			if (annotation.prefix() != null) {
@@ -83,19 +87,19 @@ public interface IEntityUpdater {
 
 	/**
 	 * just set a private field to implement
-	 * 
+	 *
 	 * <pre>{@code
 	 * @Getter
 	 * private final UpdateConfig update = new UpdateConfig();
 	 * }</pre>
 	 */
-	public UpdateConfig getUpdate();
+	UpdateConfig getUpdate();
 
-	public default String propertiesAsString() {
+	default String propertiesAsString() {
 		try {
 			ObjectMapper om = JsonMapper.builder().configure(JsonReadFeature.ALLOW_UNQUOTED_FIELD_NAMES, true).build();
 			return om.writeValueAsString(Map.of(
-			    "update", getUpdate()));
+					"update", getUpdate()));
 		} catch (JsonProcessingException e) {
 			throw new RuntimeException(e);
 		}
@@ -105,17 +109,17 @@ public interface IEntityUpdater {
 	 * @return true if more data are to be updated the moment this call exits (that
 	 *           is, if the update was partial)
 	 */
-	public boolean fetch();
+	boolean fetch();
 
 	/**
 	 * deduce the next Instant to fetch based on previous execution of
 	 * {@link #fetch()}
-	 * 
+	 *
 	 * @param remain    result of last fetch
 	 * @param startTime time when the fetch started
 	 * @return Instant after which next fetch can be performed
 	 */
-	public default Instant nextUpdate(boolean remain, Instant now) {
+	default Instant nextUpdate(boolean remain, Instant now) {
 		int delay = getUpdate().getDelay();
 		if (delay < 0) {
 			delay = 0;
@@ -127,7 +131,37 @@ public interface IEntityUpdater {
 			}
 		}
 		return now.plusSeconds(delay);
+	}
 
+	/**
+	 * TODO use actual implementation : 1000 for oracle, Integer.maxInt for others
+	 *
+	 * @return maximum elements we can add in a list.
+	 */
+	default int maxInList() {
+		return 1000;
+	}
+
+	default <T> Stream<List<T>> partitionInList(List<T> elements) {
+		return partition(elements, maxInList());
+	}
+
+	/**
+	 * partition a list of items into a list of limited-size sublists
+	 *
+	 * @param <T>
+	 * @param elements
+	 * @return
+	 */
+	static <T> Stream<List<T>> partition(List<T> elements, int maxSize) {
+		if (elements == null) {
+			return Stream.of();
+		}
+		if (maxSize >= elements.size()) {
+			return Stream.of(elements);
+		}
+		return IntStream.iterate(0, i -> i < elements.size(), i -> i + maxSize)
+		    .mapToObj(i -> elements.subList(i, Math.min(elements.size(), i + maxSize)));
 	}
 
 }

@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.resolve.name")
 @Order(0) // does not depend on anything
 public class IdResolutionService
-    extends ARemoteEntityService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
+extends ARemoteEntityService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
 
 	@Lazy
 	private final Optional<List<IdResolutionListener>> idResolutionListeners;
@@ -40,12 +40,12 @@ public class IdResolutionService
 	@Override
 	protected Requested<R_post_universe_names> fetchData(Integer id, Map<String, String> properties) {
 		Requested<R_post_universe_names[]> ret = ESIRawPublic.INSTANCE.post_universe_names(new int[] { id },
-		    properties);
+				properties);
 		return ret.mapBody(arr -> arr[0]);
 	}
 
 	@Override
-	public void updateMetaOk(IdResolution data, Requested<?> response) {
+	public void updateMetaOk(IdResolution data, Requested<R_post_universe_names> response) {
 		data.setFetchActive(false);
 		super.updateMetaOk(data, response);
 	}
@@ -63,21 +63,21 @@ public class IdResolutionService
 		switch (responseCode) {
 		case 200:
 			Map<Integer, R_post_universe_names> retMapById = Stream.of(response.getOK())
-			    .collect(Collectors.toMap(r -> r.id, r -> r));
+			.collect(Collectors.toMap(r -> r.id, r -> r));
 			for (IdResolution idr : data) {
 				R_post_universe_names result = retMapById.get(idr.getId());
 				if (result != null) {
 					ret.put(idr, result);
 				} else {
 					log.error(
-					    "fetched character affiliation for " + idr.getId() + " but got ids for " + retMapById.keySet());
+							"fetched character affiliation for " + idr.getId() + " but got ids for " + retMapById.keySet());
 					updateNullResponse(idr);
 				}
 			}
 			break;
 		default:
 			log.error("while resolving ids, received response code {} and error {}", responseCode,
-			    response.getError());
+					response.getError());
 			for (IdResolution idr : data) {
 				idr.increaseSuccessiveErrors();
 				idr.setExpiresInRandom(idr.getSuccessiveErrors() * 60);

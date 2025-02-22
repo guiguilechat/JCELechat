@@ -55,7 +55,7 @@ public class CorporationUpdaterService implements SdeUpdateListener {
 	}
 
 	static final Pattern ENTRYNAME_BLUEPRINTS_PATTERN = Pattern.compile(
-	    "fsd/npcCorporations\\.yaml");
+			"fsd/npcCorporations\\.yaml");
 
 	@Override
 	public void onSdeFile(String name, Supplier<InputStream> fileContent) {
@@ -69,15 +69,16 @@ public class CorporationUpdaterService implements SdeUpdateListener {
 		sdeFileMissing = false;
 		LinkedHashMap<Integer, EnpcCorporations> corporations = EnpcCorporations.from(inputStream);
 		Set<Integer> allCorpIds = Stream.concat(corporations.keySet().stream(),
-		    corporations.values().stream().flatMap(c -> c.exchangeRates.keySet().stream())).collect(Collectors.toSet());
-		Map<Integer, CorporationInfo> id2CorporationInfo = corporationInfoService.createIfAbsent(allCorpIds);
+				corporations.values().stream().flatMap(c -> c.exchangeRates.keySet().stream())).collect(Collectors.toSet());
+		Map<Integer, CorporationInfo> id2CorporationInfo = corporationInfoService
+		    .createIfAbsent(new ArrayList<>(allCorpIds));
 		Set<Integer> allTypeIds = corporations.values().stream().flatMap(c -> c.corporationTrades.keySet().stream())
-		    .collect(Collectors.toSet());
-		Map<Integer, Type> id2Type = typeService.createIfAbsent(allTypeIds);
+				.collect(Collectors.toSet());
+		Map<Integer, Type> id2Type = typeService.createIfAbsent(new ArrayList<>(allTypeIds));
 		List<LPExchange> lpExchanges = new ArrayList<>();
 		List<NPCCorp> npcCorps = new ArrayList<>();
 		List<Seeded> seededs = new ArrayList<>();
-		
+
 		for (Entry<Integer, EnpcCorporations> e : corporations.entrySet()) {
 			EnpcCorporations entry = e.getValue();
 			CorporationInfo ci = id2CorporationInfo.get(e.getKey());
@@ -87,20 +88,20 @@ public class CorporationUpdaterService implements SdeUpdateListener {
 			for (Entry<Integer, Double> e2 : entry.corporationTrades.entrySet()) {
 				Type type = id2Type.get(e2.getKey());
 				seededs.add(
-				    Seeded.builder()
-				        .seeder(ci)
-				        .type(type)
-				        .value(e2.getValue())
-				        .build());
+						Seeded.builder()
+						.seeder(ci)
+						.type(type)
+						.value(e2.getValue())
+						.build());
 			}
 
 			for (Entry<Integer, Double> e2 : entry.exchangeRates.entrySet()) {
 				CorporationInfo target = id2CorporationInfo.get(e2.getKey());
 				lpExchanges.add(LPExchange.builder()
-				    .owned(ci)
-				    .rate(e2.getValue())
-				    .target(target)
-				    .build());
+						.owned(ci)
+						.rate(e2.getValue())
+						.target(target)
+						.build());
 			}
 		}
 
@@ -108,14 +109,14 @@ public class CorporationUpdaterService implements SdeUpdateListener {
 		npcCorpService.saveAll(npcCorps);
 		seededService.saveAll(seededs);
 		log.info("udpated {} NPC corporations with {} lp exchanges and {} seeds", npcCorps.size(), lpExchanges.size(),
-		    seededs.size());
+				seededs.size());
 	}
 
 	@Override
 	public void afterSdeUpdate() {
 		if (sdeFileMissing) {
 			log.warn("service " + getClass().getSimpleName() + " did not receive file for matcher "
-			    + ENTRYNAME_BLUEPRINTS_PATTERN);
+					+ ENTRYNAME_BLUEPRINTS_PATTERN);
 		}
 	}
 

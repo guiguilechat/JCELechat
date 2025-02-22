@@ -47,8 +47,8 @@ import lombok.extern.slf4j.Slf4j;
 // depends on group effect attribute
 @Order(3)
 public class TypeService
-    extends ARemoteEntityService<Type, Integer, R_get_universe_types_type_id, TypeRepository>
-    implements SdeUpdateListener, EntityUpdateListener {
+extends ARemoteEntityService<Type, Integer, R_get_universe_types_type_id, TypeRepository>
+implements SdeUpdateListener, EntityUpdateListener {
 
 	@Lazy
 	private final AttributeService attributeService;
@@ -80,24 +80,24 @@ public class TypeService
 	@Override
 	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
 		return p -> ESIRawPublic.INSTANCE
-		    .requestGetPages((page, props) -> ESIRawPublic.INSTANCE.get_universe_types(page, props), p);
+				.requestGetPages((page, props) -> ESIRawPublic.INSTANCE.get_universe_types(page, props), p);
 	}
 
 	protected void updateResponseOk(Type data, R_get_universe_types_type_id received,
-	    Map<Integer, Group> idToGroup,
-	    Map<Integer, Attribute> idToAttribute,
-	    Map<Integer, Effect> idToEffect,
-	    Map<Integer, MarketGroup> idToMarketGroup) {
+			Map<Integer, Group> idToGroup,
+			Map<Integer, Attribute> idToAttribute,
+			Map<Integer, Effect> idToEffect,
+			Map<Integer, MarketGroup> idToMarketGroup) {
 		data.setGroup(idToGroup.get(received.group_id));
 		if (received.dogma_attributes != null) {
 			List<TypeAttribute> typeAttributes = new ArrayList<>();
 			for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes a : received.dogma_attributes) {
 				Attribute att = idToAttribute.get(a.attribute_id);
 				typeAttributes.add(TypeAttribute.builder()
-				    .attribute(att)
-				    .type(data)
-				    .value(BigDecimal.valueOf(a.value))
-				    .build());
+						.attribute(att)
+						.type(data)
+						.value(BigDecimal.valueOf(a.value))
+						.build());
 			}
 			typeAttributeService.saveAll(typeAttributes);
 		}
@@ -117,48 +117,48 @@ public class TypeService
 		long startTime = System.currentTimeMillis();
 
 		Map<Integer, Group> idToGroup = groupService.createIfAbsent(
-		    responseOk.values().stream()
-		        .map(r -> r.group_id)
-		        .distinct().toList());
+				responseOk.values().stream()
+				.map(r -> r.group_id)
+				.distinct().toList());
 		long postGroups = System.currentTimeMillis();
 
 		Map<Integer, Attribute> idToAttribute = attributeService.createIfAbsent(
-		    responseOk.values().stream()
-		        .flatMap(r -> r.dogma_attributes == null ? Stream.empty() : Stream.of(r.dogma_attributes))
-		        .map(da -> da.attribute_id)
-		        .distinct().toList());
+				responseOk.values().stream()
+				.flatMap(r -> r.dogma_attributes == null ? Stream.empty() : Stream.of(r.dogma_attributes))
+				.map(da -> da.attribute_id)
+				.distinct().toList());
 		long postAttributes = System.currentTimeMillis();
 
 		typeAttributeService.deleteByTypes(responseOk.keySet());
 		long postDeleteAtts = System.currentTimeMillis();
 
 		Map<Integer, Effect> idToEffect = effectService.createIfAbsent(
-		    responseOk.values().stream()
-		        .flatMap(r -> r.dogma_effects == null ? Stream.empty() : Stream.of(r.dogma_effects))
-		        .map(da -> da.effect_id)
-		        .distinct().toList());
+				responseOk.values().stream()
+				.flatMap(r -> r.dogma_effects == null ? Stream.empty() : Stream.of(r.dogma_effects))
+				.map(da -> da.effect_id)
+				.distinct().toList());
 		long postEffects = System.currentTimeMillis();
 
 		Map<Integer, MarketGroup> idToMarketGroup = marketGroupService.createIfAbsent(
-		    responseOk.values().stream()
-		        .map(r -> r.market_group_id)
-		        .filter(i -> i != 0)
-		        .distinct().toList());
+				responseOk.values().stream()
+				.map(r -> r.market_group_id)
+				.filter(i -> i != 0)
+				.distinct().toList());
 		long postMarketGroups = System.currentTimeMillis();
 
 		responseOk.entrySet().forEach(
-		    e -> updateResponseOk(e.getKey(), e.getValue(), idToGroup, idToAttribute, idToEffect, idToMarketGroup));
+				e -> updateResponseOk(e.getKey(), e.getValue(), idToGroup, idToAttribute, idToEffect, idToMarketGroup));
 		long postUpdateElements = System.currentTimeMillis();
 		log.debug(
-		    "processed {} received types in {} ms, fetchGroups={}ms fetchAtts={}ms deleteAtts={}ms fetchEffects={}ms fetchmkg={}ms processElemes={}ms",
-		    responseOk.size(),
-		    postUpdateElements - startTime,
-		    postGroups - startTime,
-		    postAttributes - postGroups,
-		    postDeleteAtts - postAttributes,
-		    postEffects - postDeleteAtts,
-		    postMarketGroups - postEffects,
-		    postUpdateElements - postMarketGroups);
+				"processed {} received types in {} ms, fetchGroups={}ms fetchAtts={}ms deleteAtts={}ms fetchEffects={}ms fetchmkg={}ms processElemes={}ms",
+				responseOk.size(),
+				postUpdateElements - startTime,
+				postGroups - startTime,
+				postAttributes - postGroups,
+				postDeleteAtts - postAttributes,
+				postEffects - postDeleteAtts,
+				postMarketGroups - postEffects,
+				postUpdateElements - postMarketGroups);
 	}
 
 	@Cacheable("TypesByGroupId")
@@ -215,16 +215,16 @@ public class TypeService
 		List<Type> ret = List.of();
 		// have the biggest terms first to reduce the initial query the most.
 		List<String> requiredTerms = Stream.of((tokens == null ? "" : tokens).split(" "))
-		    .filter(t -> t != null && !t.isBlank() && !t.startsWith("-") && t.length() > 1)
-		    .map(String::toLowerCase)
-		    .distinct()
-		    .sorted(Comparator.comparing(s -> -s.length()))
-		    .toList();
+				.filter(t -> t != null && !t.isBlank() && !t.startsWith("-") && t.length() > 1)
+				.map(String::toLowerCase)
+				.distinct()
+				.sorted(Comparator.comparing(s -> -s.length()))
+				.toList();
 		List<String> ignoredTerms = Stream.of((tokens == null ? "" : tokens).split(" "))
-		    .filter(t -> t != null && !t.isBlank() && t.startsWith("-"))
-		    .map(s -> s.toLowerCase().substring(1))
-		    .distinct()
-		    .toList();
+				.filter(t -> t != null && !t.isBlank() && t.startsWith("-"))
+				.map(s -> s.toLowerCase().substring(1))
+				.distinct()
+				.toList();
 		log.trace("searching name for tokens " + requiredTerms + " ignore " + ignoredTerms);
 		if (!requiredTerms.isEmpty()) {
 			ret = null;
@@ -234,18 +234,18 @@ public class TypeService
 					log.trace("initial query [" + required + "] gets " + ret.size() + " results");
 				} else {
 					ret = ret.stream()
-					    .filter(
-					        t -> t.name().toLowerCase().contains(required))
-					    .toList();
+							.filter(
+									t -> t.name().toLowerCase().contains(required))
+							.toList();
 					log.trace("query requiring [" + required + "] is size " + ret.size());
 				}
 			}
 			if (!ignoredTerms.isEmpty() && !ret.isEmpty()) {
 				for (String ignore : ignoredTerms) {
 					ret = ret.stream()
-					    .filter(
-					        t -> !t.name().toLowerCase().contains(ignore))
-					    .toList();
+							.filter(
+									t -> !t.name().toLowerCase().contains(ignore))
+							.toList();
 					log.trace("query ignoring [" + ignore + "] is size " + ret.size());
 				}
 			}
@@ -354,7 +354,7 @@ public class TypeService
 	// on sde update
 
 	static final Pattern ENTRYNAME_TYPES_PATTERN = Pattern.compile(
-	    "fsd/types\\.yaml");
+			"fsd/types\\.yaml");
 
 	@Override
 	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
@@ -370,7 +370,7 @@ public class TypeService
 	}
 
 	protected void updateTypes(Map<Integer, Etypes> newTypes) {
-		Map<Integer, Type> idToType = createIfAbsent(newTypes.keySet());
+		Map<Integer, Type> idToType = createIfAbsent(new ArrayList<>(newTypes.keySet()));
 		if (idToType.size() != newTypes.size()) {
 			log.error(" got {} types to update but retrieved only {}", newTypes, idToType);
 		}
@@ -390,7 +390,7 @@ public class TypeService
 
 	// cache
 
-	public static interface TypeListener extends EntityUpdateListener {
+	public interface TypeListener extends EntityUpdateListener {
 	}
 
 	@Getter
@@ -402,9 +402,9 @@ public class TypeService
 
 	@Getter(lazy = true)
 	private final List<String> cacheList = List.of(
-	    "TypesByCategoryId",
-	    "TypesByCategoryIdIn",
-	    "TypesByGroupId",
-	    "TypesByGroupIdIn");
+			"TypesByCategoryId",
+			"TypesByCategoryIdIn",
+			"TypesByGroupId",
+			"TypesByGroupIdIn");
 
 }

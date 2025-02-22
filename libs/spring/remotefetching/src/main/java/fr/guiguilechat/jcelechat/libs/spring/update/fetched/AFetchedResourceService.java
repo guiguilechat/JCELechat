@@ -1,8 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
 
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -29,10 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class AFetchedResourceService<
-Entity extends AFetchedResource<Id>,
-Id extends Number,
-Repository extends IFetchedResourceRepository<Entity, Id>>
+public abstract class AFetchedResourceService<Entity extends AFetchedResource<Id>, Id extends Number, Repository extends IFetchedResourceRepository<Entity, Id>>
 implements IEntityUpdater {
 
 	@Autowired // can't use constructor injection for generic service
@@ -88,10 +83,15 @@ implements IEntityUpdater {
 	 * @param entityIds list of ids we need to exist in the DB
 	 * @return the set of ids that have been created
 	 */
-	public Set<Id> createMissing(Collection<Id> entityIds) {
+	public Set<Id> insertIfAbsent(List<Id> entityIds) {
 		Set<Id> toCreate = new HashSet<>(entityIds);
-		repo().findExistingIds(entityIds).forEach(toCreate::remove);
-		saveAll(toCreate.stream().map(this::createMinimal).toList());
+		partitionInList(entityIds)
+		.map(repo()::findExistingIds)
+		.flatMap(List::stream)
+		.forEach(toCreate::remove);
+		saveAll(toCreate.stream()
+				.map(this::createMinimal)
+				.toList());
 		return toCreate;
 	}
 
@@ -111,32 +111,17 @@ implements IEntityUpdater {
 	}
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
-	public Map<Id, Entity> createIfAbsent(Collection<Id> entityIds) {
+	public Map<Id, Entity> createIfAbsent(List<Id> entityIds) {
 		long start = System.currentTimeMillis();
 		Map<Id, Entity> storedEntities = new HashMap<>();
 		if (entityIds.isEmpty()) {
 			return storedEntities;
 		}
 		log.trace("{} createIfAbsent {} entities", fetcherName(), entityIds.size());
-		int maxList = Integer.MAX_VALUE;
-		if (entityIds.size() <= maxList) {
-			repo().findAllById(entityIds).stream()
-			.forEach(r -> storedEntities.put(r.getId(), r));
-		} else {
-			List<Id> lastList = new ArrayList<>();
-			for (Id id : entityIds) {
-				if (lastList.size() >= maxList) {
-					repo().findAllById(lastList).stream()
-					.forEach(r -> storedEntities.put(r.getId(), r));
-					lastList = new ArrayList<>();
-				}
-				lastList.add(id);
-			}
-			if (!lastList.isEmpty()) {
-				repo().findAllById(lastList).stream()
-				.forEach(r -> storedEntities.put(r.getId(), r));
-			}
-		}
+		partitionInList(entityIds)
+		    .map(repo()::findAllById)
+		    .flatMap(List::stream)
+		.forEach(r -> storedEntities.put(r.getId(), r));
 		long postRetrieved = System.currentTimeMillis();
 		log.trace(" {} createIfAbsent retrieved {} stored entities in {} ms @ {}/s", fetcherName(), storedEntities.size(),
 				postRetrieved - start, storedEntities.size() * 1000 / Math.max(1, postRetrieved - start));
@@ -152,8 +137,6 @@ implements IEntityUpdater {
 	//
 	// update management
 	//
-
-
 
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
@@ -252,7 +235,7 @@ implements IEntityUpdater {
 		 * can be implemented with eg
 		 *
 		 * <pre>{@code
-		 * @Getter(lazy=true)
+		 * @Getter(lazy = true)
 		 * private final List<String> cacheList = List.of(
 		 *     "cache1",
 		 *     "cache2");
@@ -268,7 +251,9 @@ implements IEntityUpdater {
 	 * override this to provide your own list of listeners, eg
 	 *
 	 * <pre>{@code
-	 * @Getter@Lazy private final Optional<List<MyListener>> listeners;
+	 * @Getter
+	 * @Lazy
+	 * private final Optional<List<MyListener>> listeners;
 	 * }</pre>
 	 */
 	protected Optional<? extends List<? extends EntityUpdateListener>> getListeners() {
@@ -276,12 +261,13 @@ implements IEntityUpdater {
 	}
 
 	/**
-	 * override this to return true and make the class implement
-	 * {@link EntityUpdateListener} to have its own caches invalidated on entity
+	 * override this to return true, and make the class implement
+	 * {@link EntityUpdateListener}, to have its own caches invalidated on entity
 	 * update.Code to override :
 	 *
 	 * <pre>{@code
-	 * @Getter(lazy = true) private final boolean selfInvalidate = true;
+	 * @Getter(lazy = true)
+	 * private final boolean selfInvalidate = true;
 	 * }</pre>
 	 */
 	protected boolean isSelfInvalidate() {
@@ -291,7 +277,7 @@ implements IEntityUpdater {
 	protected void postUpdate() {
 		Optional<? extends List<? extends EntityUpdateListener>> listeners = getListeners();
 		Stream<EntityUpdateListener> ls = Stream.empty();
-		if(isSelfInvalidate()&& this instanceof EntityUpdateListener) {
+		if (isSelfInvalidate() && this instanceof EntityUpdateListener) {
 			ls = Stream.concat(ls, Stream.of((EntityUpdateListener) this));
 		}
 		if (listeners != null && listeners.isPresent()) {

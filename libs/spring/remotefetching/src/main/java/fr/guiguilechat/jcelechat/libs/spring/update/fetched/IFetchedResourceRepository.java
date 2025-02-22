@@ -10,9 +10,6 @@ import org.springframework.data.repository.NoRepositoryBean;
 public interface IFetchedResourceRepository<Entity extends AFetchedResource<Id>, Id extends Number>
 extends JpaRepository<Entity, Id> {
 
-	//// made to be faster than the base findAllById that iterates over the elements
-	// public List<Entity> findAllByIdIn(Collection<Id> ids);
-
 	/**
 	 * list ids existing among a list.
 	 *
