@@ -30,7 +30,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.json.JsonMapper;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService;
 import lombok.Getter;
@@ -280,7 +280,7 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 		if (response.getHeaders().containsKey(Requested.DATE_PROP)) {
 			String datestr = response.getHeaders().get(Requested.DATE_PROP).stream().findFirst().orElse(null);
 			if (datestr != null) {
-				date = ESITools.headerInstant(datestr);
+				date = ESIDateTools.headerInstant(datestr);
 			}
 		}
 		return date.plusSeconds(getDefaultExpiresDelaySeconds());

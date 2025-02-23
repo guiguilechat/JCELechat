@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.attributes;
 
 import java.time.Instant;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import jakarta.persistence.Entity;
@@ -43,11 +43,11 @@ public class CharacterAttributes extends ARemoteEntity<Integer, R_get_characters
 
 	@Override
 	public void update(R_get_characters_character_id_attributes data) {
-		accruedRemapCooldown = ESITools.fieldInstant(data.accrued_remap_cooldown_date);
+		accruedRemapCooldown = ESIDateTools.fieldInstant(data.accrued_remap_cooldown_date);
 		bonusRemaps = data.bonus_remaps;
 		charisma = data.charisma;
 		intelligence = data.intelligence;
-		lastRemap = ESITools.fieldInstant(data.last_remap_date);
+		lastRemap = ESIDateTools.fieldInstant(data.last_remap_date);
 		memory = data.memory;
 		perception = data.perception;
 		willpower = data.willpower;

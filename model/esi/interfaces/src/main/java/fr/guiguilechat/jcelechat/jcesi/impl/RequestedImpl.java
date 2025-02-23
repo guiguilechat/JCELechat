@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.jcesi.impl;
 
-import java.time.Instant;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
@@ -53,17 +51,6 @@ public class RequestedImpl<T> implements Requested<T> {
 	@Override
 	public Requested<T> mapHeaders(Function<Map<String, List<String>>, Map<String, List<String>>> mapper) {
 		return new RequestedImpl<>(URL, responseCode, error, OK, mapper.apply(headers));
-	}
-
-
-	@Override
-	public RequestedImpl<T> mapExpires(Function<Instant, Instant> mapper) {
-		Instant expires = getExpiresInstant();
-		Instant newExpires = expires==null?null:mapper.apply(expires);
-		 Map<String, List<String>> newHeaders = new HashMap<>(headers);		 
-		RequestedImpl<T> ret = new RequestedImpl<>(URL, responseCode, error, OK, newHeaders);
-		ret.setExpires(newExpires);
-		return ret;
 	}
 	
 }

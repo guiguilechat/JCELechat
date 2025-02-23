@@ -5,7 +5,7 @@ import java.time.Instant;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
@@ -106,7 +106,7 @@ public class CorporationInfo extends ARemoteEntity<Integer, R_get_corporations_c
 		setCeoId(data.ceo_id);
 		setCreatorId(data.creator_id);
 		setDescription(data.description);
-		setFounded(data.date_founded == null ? null : ESITools.fieldInstant(data.date_founded));
+		setFounded(data.date_founded == null ? null : ESIDateTools.fieldInstant(data.date_founded));
 		setHomeStationId(data.home_station_id);
 		setMemberCount(data.member_count);
 		setName(data.name);

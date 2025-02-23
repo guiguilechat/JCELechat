@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
@@ -81,7 +81,7 @@ public class Wars {
 			ObjHolder<R_get_wars_war_id> lastLimit = esiConnection.cache().wars.get(firstId);
 			Requested<Integer[]> req = esiConnection.get_wars(firstId, null);
 			// then check if the previous data was before the limit date.
-			LocalDate previousStart = ESITools.fieldLocalDate(lastLimit.get().started);
+			LocalDate previousStart = ESIDateTools.fieldLocalDate(lastLimit.get().started);
 			if (previousStart.isBefore(dateLimit)) {
 				firstId = null;
 			} else {

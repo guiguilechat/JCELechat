@@ -5,7 +5,7 @@ import java.time.Instant;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
@@ -76,7 +76,7 @@ public class AllianceInfo extends ARemoteEntity<Integer, R_get_alliances_allianc
 	@Override
 	public void update(R_get_alliances_alliance_id data) {
 		setCreatorId(data.creator_id);
-		setFounded(ESITools.fieldInstant(data.date_founded));
+		setFounded(ESIDateTools.fieldInstant(data.date_founded));
 		setName(data.name);
 		setTicker(data.ticker);
 	}

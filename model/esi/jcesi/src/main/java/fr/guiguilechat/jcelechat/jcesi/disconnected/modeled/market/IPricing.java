@@ -4,7 +4,7 @@ import java.time.Instant;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
 
 /**
@@ -43,7 +43,7 @@ public interface IPricing {
 		if (lastTimeStamp.isEmpty()) {
 			return null;
 		}
-		return ESITools.fieldInstant(lastTimeStamp.get());
+		return ESIDateTools.fieldInstant(lastTimeStamp.get());
 	}
 
 }

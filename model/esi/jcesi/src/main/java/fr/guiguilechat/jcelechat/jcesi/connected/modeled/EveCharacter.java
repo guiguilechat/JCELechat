@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.*;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
@@ -120,11 +120,11 @@ public class EveCharacter {
 
 	@Getter(lazy = true)
 	private final ObjHolder<OffsetDateTime> lastlogin = getOnline()
-			.map(onl -> ESITools.fieldOffsetDateTime(onl.last_login));
+	    .map(onl -> ESIDateTools.fieldOffsetDateTime(onl.last_login));
 
 	@Getter(lazy = true)
 	private final ObjHolder<OffsetDateTime> lastlogout = getOnline()
-			.map(onl -> ESITools.fieldOffsetDateTime(onl.last_logout));
+	    .map(onl -> ESIDateTools.fieldOffsetDateTime(onl.last_logout));
 
 	// slots for industry jobs
 

@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
@@ -128,7 +128,7 @@ public class Attributes {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final IntHolder sum = values()
-	.mapInt(li -> li.charisma + li.intelligence + li.memory + li.perception + li.willpower);;
+	.mapInt(li -> li.charisma + li.intelligence + li.memory + li.perception + li.willpower);
 
 	/**
 	 * true if sum of attributes is more than 124 (that is the default
@@ -152,7 +152,7 @@ public class Attributes {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final ObjHolder<LocalDateTime> lastRemap = values()
-			.map(att -> ESITools.fieldLocalDateTime(att.last_remap_date));
+	    .map(att -> ESIDateTools.fieldLocalDateTime(att.last_remap_date));
 
 	/**
 	 * local date time for remap cooldown
@@ -160,7 +160,7 @@ public class Attributes {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final ObjHolder<LocalDateTime> remapCoolDown = values()
-			.map(att -> ESITools.fieldLocalDateTime(att.accrued_remap_cooldown_date));
+	    .map(att -> ESIDateTools.fieldLocalDateTime(att.accrued_remap_cooldown_date));
 
 	/**
 	 * convert the attribute ID to the actual attribute value
@@ -174,12 +174,12 @@ public class Attributes {
 	 */
 	public static int getAttribute(int attID, R_get_characters_character_id_attributes attributes) {
 		return switch (attID) {
-			case 164 -> attributes.charisma;
-			case 165 -> attributes.intelligence;
-			case 166 -> attributes.memory;
-			case 167 -> attributes.perception;
-			case 168 -> attributes.willpower;
-			default -> 0;
+		case 164 -> attributes.charisma;
+		case 165 -> attributes.intelligence;
+		case 166 -> attributes.memory;
+		case 167 -> attributes.perception;
+		case 168 -> attributes.willpower;
+		default -> 0;
 		};
 	}
 
@@ -197,23 +197,23 @@ public class Attributes {
 
 	public BoolHolder isAttributeHighest(int attID) {
 		return switch (attID) {
-			case 164 -> isCharHighest();
-			case 165 -> isIntHighest();
-			case 166 -> isMemHighest();
-			case 167 -> isPerHighest();
-			case 168 -> isWilHighest();
-			default -> throw new UnsupportedOperationException("not handled " + attID);
+		case 164 -> isCharHighest();
+		case 165 -> isIntHighest();
+		case 166 -> isMemHighest();
+		case 167 -> isPerHighest();
+		case 168 -> isWilHighest();
+		default -> throw new UnsupportedOperationException("not handled " + attID);
 		};
 	}
 
 	public static String of(int attID) {
 		return switch (attID) {
-			case 164 -> "charism";
-			case 165 -> "intelligence";
-			case 166 -> "memory";
-			case 167 -> "perception";
-			case 168 -> "willpower";
-			default -> throw new UnsupportedOperationException("not handled " + attID);
+		case 164 -> "charism";
+		case 165 -> "intelligence";
+		case 166 -> "memory";
+		case 167 -> "perception";
+		case 168 -> "willpower";
+		default -> throw new UnsupportedOperationException("not handled " + attID);
 		};
 
 	}

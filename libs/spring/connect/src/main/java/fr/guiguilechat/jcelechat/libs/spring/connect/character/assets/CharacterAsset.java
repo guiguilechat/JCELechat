@@ -17,9 +17,12 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * import from {@link R_get_characters_character_id_assets}
+ */
 @Entity(name = "EsiConnectCharacterAsset")
 @Table(name = "esi_connect_characterasset", indexes = {
-    @Index(columnList = "fetch_resource_id")
+		@Index(columnList = "fetch_resource_id")
 })
 @AllArgsConstructor
 @NoArgsConstructor
@@ -30,14 +33,14 @@ public class CharacterAsset extends AFetchedListElement<CharacterAsset, Characte
 
 	@Entity(name = "EsiConnectCharacterAssettList")
 	@Table(name = "esi_connect_characterassetlist", indexes = {
-	    @Index(columnList = "fetch_active,expires")
+			@Index(columnList = "fetch_active,expires")
 	})
 	@NoArgsConstructor
 	@Getter
 	@Setter
 	@ToString
 	public static class CharacterAssetList
-	    extends AFetchedList<Integer, R_get_characters_character_id_assets, CharacterAsset> {
+	extends AFetchedList<Integer, R_get_characters_character_id_assets, CharacterAsset> {
 
 	}
 
@@ -53,23 +56,28 @@ public class CharacterAsset extends AFetchedListElement<CharacterAsset, Characte
 	 */
 	@Enumerated(EnumType.STRING)
 	private get_characters_character_id_assets_location_flag locationFlag;
+
 	/**
 	 * location_id integer
 	 */
 	private long locationId;
+
 	/**
 	 * location_type string
 	 */
 	@Enumerated(EnumType.STRING)
 	private get_characters_character_id_assets_location_type locationType;
+
 	/**
 	 * quantity integer
 	 */
 	private int quantity;
+
 	/**
 	 * is_singleton boolean
 	 */
 	private boolean singleton;
+
 	/**
 	 * type_id integer
 	 */
@@ -77,7 +85,7 @@ public class CharacterAsset extends AFetchedListElement<CharacterAsset, Characte
 
 	public static CharacterAsset from(R_get_characters_character_id_assets from) {
 		return new CharacterAsset(from.is_blueprint_copy, from.item_id, from.location_flag, from.location_id,
-		    from.location_type, from.quantity, from.is_singleton, from.type_id);
+				from.location_type, from.quantity, from.is_singleton, from.type_id);
 	}
 
 }

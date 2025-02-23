@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElement;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
@@ -98,7 +98,7 @@ public class MarketLine extends AFetchedListElement<MarketLine, MarketRegion> im
 	public MarketLine update(R_get_markets_region_id_orders order) {
 		setDuration(order.duration);
 		setBuyOrder(order.is_buy_order);
-		setIssued(ESITools.fieldInstant(order.issued));
+		setIssued(ESIDateTools.fieldInstant(order.issued));
 		setLocationId(order.location_id);
 		setMinVolume(order.min_volume);
 		setOrderId(order.order_id);

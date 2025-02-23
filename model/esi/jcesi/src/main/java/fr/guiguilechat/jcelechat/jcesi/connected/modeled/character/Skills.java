@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Arrays;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
@@ -55,7 +55,7 @@ public class Skills {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final MapHolder<String, Integer> name2Level = list()
-	    .toMap(s -> ESIRawPublic.INSTANCE.cache().universe.types(s.skill_id).get().name, s -> s.active_skill_level);
+	.toMap(s -> ESIRawPublic.INSTANCE.cache().universe.types(s.skill_id).get().name, s -> s.active_skill_level);
 
 	//
 	// training
@@ -72,7 +72,7 @@ public class Skills {
 		return getQueue().map(l -> {
 			LocalDateTime now = LocalDateTime.now();
 			R_get_characters_character_id_skillqueue ret = l.stream()
-					.filter(sq -> sq.finish_date != null && now.isBefore(ESITools.fieldLocalDateTime(sq.finish_date))).findFirst()
+					.filter(sq -> sq.finish_date != null && now.isBefore(ESIDateTools.fieldLocalDateTime(sq.finish_date))).findFirst()
 					.orElse(null);
 			if (ret == null) {
 				ret = new R_get_characters_character_id_skillqueue();
@@ -95,8 +95,8 @@ public class Skills {
 		if (sk.start_date == null || sk.finish_date == null) {
 			return 0.0;
 		}
-		LocalDateTime start = ESITools.fieldLocalDateTime(sk.start_date);
-		LocalDateTime end = ESITools.fieldLocalDateTime(sk.finish_date);
+		LocalDateTime start = ESIDateTools.fieldLocalDateTime(sk.start_date);
+		LocalDateTime end = ESIDateTools.fieldLocalDateTime(sk.finish_date);
 		long deltaTime = ChronoUnit.MINUTES.between(start, end);
 		double ret = 60.0 * (sk.level_end_sp - sk.training_start_sp) / deltaTime;
 		return ret;
@@ -110,7 +110,7 @@ public class Skills {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final BoolHolder hasLimitedskill = list()
-			.test(l -> l.stream().filter(s -> s.active_skill_level != s.trained_skill_level).findAny().isPresent(), false);
+	.test(l -> l.stream().filter(s -> s.active_skill_level != s.trained_skill_level).findAny().isPresent(), false);
 
 
 }

@@ -5,7 +5,7 @@ import java.time.Instant;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
@@ -98,7 +98,7 @@ public class CharacterInformation extends ARemoteEntity<Integer, R_get_character
 
 	@Override
 	public void update(R_get_characters_character_id data) {
-		setBirthday(ESITools.fieldInstant(data.birthday));
+		setBirthday(ESIDateTools.fieldInstant(data.birthday));
 		setBloodlineId(data.bloodline_id);
 		setDescription(data.description);
 		setGender(data.gender);

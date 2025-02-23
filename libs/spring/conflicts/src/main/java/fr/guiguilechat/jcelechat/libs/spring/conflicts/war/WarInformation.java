@@ -5,7 +5,7 @@ import java.time.Instant;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
@@ -67,14 +67,14 @@ public class WarInformation extends ARemoteEntity<Integer, R_get_wars_war_id> {
 	public void update(R_get_wars_war_id data) {
 		setAggressorIskDestroyed(data.aggressor.isk_destroyed);
 		setAggressorShipsKilled(data.aggressor.ships_killed);
-		setDeclared(data.declared == null ? null : ESITools.fieldInstant(data.declared));
+		setDeclared(data.declared == null ? null : ESIDateTools.fieldInstant(data.declared));
 		setDefenderIskDestroyed(data.defender.isk_destroyed);
 		setDefenderShipsKilled(data.defender.ships_killed);
-		setFinished(data.finished == null ? null : ESITools.fieldInstant(data.finished));
+		setFinished(data.finished == null ? null : ESIDateTools.fieldInstant(data.finished));
 		setMutual(data.mutual);
 		setOpenForAllies(data.open_for_allies);
-		setRetracted(data.retracted == null ? null : ESITools.fieldInstant(data.retracted));
-		setStarted(data.started == null ? null : ESITools.fieldInstant(data.started));
+		setRetracted(data.retracted == null ? null : ESIDateTools.fieldInstant(data.retracted));
+		setStarted(data.started == null ? null : ESIDateTools.fieldInstant(data.started));
 	}
 
 }

@@ -194,7 +194,7 @@ public abstract class ConnectedImpl implements ITransfer {
 							    transmitStr,
 							    response.headers().toMultimap());
 							headers = new HashMap<>(headers);
-							String newExpiry = ESITools.offsetDateTimeHeader(ESITools.headerOffsetDateTime(date).plusSeconds(20));
+							String newExpiry = ESIDateTools.offsetDateTimeHeader(ESIDateTools.headerOffsetDateTime(date).plusSeconds(20));
 							headers.put("Expires", List.of(newExpiry));
 						} else {
 							logResponse(method, url, responseCode, milliseconds, null, null, transmitStr,

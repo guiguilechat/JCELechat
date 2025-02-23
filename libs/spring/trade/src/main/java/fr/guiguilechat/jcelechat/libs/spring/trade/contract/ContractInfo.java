@@ -8,7 +8,7 @@ import java.util.Map.Entry;
 
 import org.hibernate.annotations.ColumnDefault;
 
-import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
@@ -177,8 +177,8 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 
 		setBuyout(line.buyout);
 		setCollateral(line.collateral);
-		setDateExpired(ESITools.fieldInstant(line.date_expired));
-		setDateIssued(ESITools.fieldInstant(line.date_issued));
+		setDateExpired(ESIDateTools.fieldInstant(line.date_expired));
+		setDateIssued(ESIDateTools.fieldInstant(line.date_issued));
 		setDaysToComplete(line.days_to_complete);
 		setEndLocationId(line.end_location_id);
 		setForCorporation(line.for_corporation);
