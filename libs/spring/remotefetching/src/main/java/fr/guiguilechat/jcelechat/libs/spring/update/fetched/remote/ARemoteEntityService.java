@@ -458,7 +458,7 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 				}
 				if (getList().getDelay() > 0) {
 					Instant nextListFromDelay = Instant.now().plusSeconds(getList().getDelay());
-					if (nextListFromDelay.isAfter(listExpires)) {
+					if (listExpires == null || nextListFromDelay.isAfter(listExpires)) {
 						listExpires = nextListFromDelay;
 					}
 				}
