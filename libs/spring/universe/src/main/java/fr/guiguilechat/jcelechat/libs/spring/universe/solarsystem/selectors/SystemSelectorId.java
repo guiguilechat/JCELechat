@@ -1,14 +1,18 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem;
+package fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.selectors;
 
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SecFilter;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemRepository;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SystemSelector;
 import lombok.RequiredArgsConstructor;
 
 /**
- * select system ids from an id
+ * select system ids from a region/constellation/sys id and security status
  */
 @RequiredArgsConstructor
-public enum SystemSelectorId {
+public enum SystemSelectorId implements SystemSelector<Integer> {
 	ri(SecFilter.ALL) {
 
 	@Override
@@ -92,11 +96,14 @@ public enum SystemSelectorId {
 	}
 
 	@Override
-	public List<Integer> apply(SolarSystemRepository repo, int id) {
+		public List<Integer> apply(SolarSystemRepository repo, Integer id) {
 			return repo.findById(id).stream()
 				.map(SolarSystem::getId)
 				.toList();
-	}};
+		}
+	},
+
+	;
 
 	private final SecFilter sec;
 
@@ -105,7 +112,8 @@ public enum SystemSelectorId {
 	 */
 	protected abstract List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS);
 
-	public List<Integer> apply(SolarSystemRepository repo, int id) {
+	@Override
+	public List<Integer> apply(SolarSystemRepository repo, Integer id) {
 		return listIds(repo, id, sec.lowerSS, sec.higherSS);
 	}
 

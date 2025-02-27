@@ -45,7 +45,12 @@ public class Group extends ARemoteEntity<Integer, R_get_universe_groups_group_id
 		if (name != null) {
 			return name;
 		}
-		return "type:" + getId();
+		return "group:" + getId();
+	}
+
+	@Override
+	public String toString() {
+		return name == null ? "group:" + getId() : name + "(" + getId() + ")";
 	}
 
 	@Override

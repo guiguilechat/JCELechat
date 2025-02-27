@@ -6,6 +6,7 @@ import java.util.Objects;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Group;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.NamedTypelist;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 

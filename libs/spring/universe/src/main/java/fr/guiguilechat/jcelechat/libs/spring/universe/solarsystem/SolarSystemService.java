@@ -22,6 +22,8 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.moon.Moon;
 import fr.guiguilechat.jcelechat.libs.spring.universe.moon.MoonService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.planet.Planet;
 import fr.guiguilechat.jcelechat.libs.spring.universe.planet.PlanetService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.selectors.SystemSelectorId;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.selectors.SystemSelectorName;
 import fr.guiguilechat.jcelechat.libs.spring.universe.star.Star;
 import fr.guiguilechat.jcelechat.libs.spring.universe.star.StarService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.Stargate;

@@ -1,14 +1,18 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem;
+package fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.selectors;
 
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SecFilter;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemRepository;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SystemSelector;
 import lombok.RequiredArgsConstructor;
 
 /**
- * enums to select system ids from a name
+ * select system ids from a region/constellation/sys name and security status
  */
 @RequiredArgsConstructor
-public enum SystemSelectorName {
+public enum SystemSelectorName implements SystemSelector<String> {
 	rn(SecFilter.ALL) {
 		@Override
 		protected List<Integer> listIds(SolarSystemRepository repo, String name, float minSS, float maxSS) {
@@ -92,6 +96,7 @@ public enum SystemSelectorName {
 	 */
 	protected abstract List<Integer> listIds(SolarSystemRepository repo, String name, float minSS, float maxSS);
 
+	@Override
 	public List<Integer> apply(SolarSystemRepository repo, String name) {
 		return listIds(repo, name, sec.lowerSS, sec.higherSS);
 	}

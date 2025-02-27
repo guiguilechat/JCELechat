@@ -45,7 +45,12 @@ public class Category extends ARemoteEntity<Integer, R_get_universe_categories_c
 		if (name != null) {
 			return name;
 		}
-		return "type:" + getId();
+		return "category:" + getId();
+	}
+
+	@Override
+	public String toString() {
+		return name == null ? "category:" + getId() : name + "(" + getId() + ")";
 	}
 
 	@Override
