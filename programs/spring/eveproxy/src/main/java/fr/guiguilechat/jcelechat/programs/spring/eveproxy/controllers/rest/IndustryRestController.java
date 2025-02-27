@@ -7,16 +7,7 @@ import java.time.Instant;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import org.springframework.http.ResponseEntity;
@@ -40,6 +31,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import lombok.RequiredArgsConstructor;
 
@@ -111,7 +103,7 @@ public class IndustryRestController {
 	@GetMapping("/{typeFiltering}/{typeFilter}")
 	public ResponseEntity<List<IndustryInfo>> showInformation(@PathVariable String typeFiltering,
 			@PathVariable String typeFilter,
-			@RequestParam Optional<String> accept) throws IOException {
+			@RequestParam Optional<ACCEPT_TEXT> accept) throws IOException {
 		List<IndustryInfo> ret = typeService.typesFilter(typeFiltering, typeFilter)
 				.stream().map(type -> {
 			    List<LocatedBestOffer> seeds = type.getMarketGroup() != null ? marketLineService.seedLocations(type.getId())
@@ -123,14 +115,14 @@ public class IndustryRestController {
 					}
 			    List<BlueprintActivity> mes = blueprintActivityService.forBPActivity(type.getId(),
 							ACTIVITY_TYPE.researchMat);
-					long meTime = mes.size() != 1 ? 0 : 256000l * mes.get(0).getTime() / 105;
+					long meTime = mes.size() != 1 ? 0 : 256000L * mes.get(0).getTime() / 105;
 			    List<BlueprintActivity> tes = blueprintActivityService.forBPActivity(type.getId(),
 							ACTIVITY_TYPE.researchTime);
 
 			    BPInfo bp = null;
 			    if (type.getGroup().getCategory().getId() == 9) {
 				    double eiv = eivService.eiv(type.getId());
-						long teTime = tes.size() != 1 ? 0 : 256000l * tes.get(0).getTime() / 105;
+						long teTime = tes.size() != 1 ? 0 : 256000L * tes.get(0).getTime() / 105;
 						long researchTime = teTime + meTime;
 
 						LinkedHashMap<ACTIVITY_TYPE, List<Integer>> produces = new LinkedHashMap<>();
@@ -184,7 +176,7 @@ public class IndustryRestController {
 			@PathVariable String typeFiltering,
 			@PathVariable String typeFilter,
 			@PathVariable ACTIVITY_TYPE activity,
-	    Optional<String> accept) throws IOException {
+			Optional<ACCEPT_TEXT> accept) throws IOException {
 		List<ActivityInfo> ret = typeService.typesFilter(typeFiltering, typeFilter).stream()
 				.map(t -> new ActivityInfo(t, activity,
 		        materialService.forBPActivity(t.getId(), activity),
@@ -209,7 +201,7 @@ public class IndustryRestController {
 	    @RequestParam Optional<List<Integer>> pgi,
 	    @RequestParam Optional<Boolean> published,
 	    @RequestParam Optional<Boolean> marketable,
-	    Optional<String> accept) throws IOException {
+			Optional<ACCEPT_TEXT> accept) throws IOException {
 
 		long start = System.currentTimeMillis();
 		Map<String, String> query = new LinkedHashMap<>();
@@ -280,7 +272,7 @@ public class IndustryRestController {
 				bpType = p.getActivity().getType();
 			}
 			if (productType != null && bpType != null) {
-				bpEivs.add(new BpValue(bpType.name(), bpType.getId(), eiv == null ? 0l : eiv, productType.name(),
+				bpEivs.add(new BpValue(bpType.name(), bpType.getId(), eiv == null ? 0L : eiv, productType.name(),
 				    productType.getId(),
 				    new BigDecimal(adjusted == null ? 0.0 : adjusted).setScale(5, RoundingMode.FLOOR).stripTrailingZeros(),
 				    new BigDecimal(average == null ? 0.0 : average).setScale(5, RoundingMode.FLOOR).stripTrailingZeros()));

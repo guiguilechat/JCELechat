@@ -21,8 +21,22 @@ import org.springframework.http.ResponseEntity;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.YamlMessageConverter;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.servlet.http.HttpServletResponse;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 public class RestControllerHelper {
+
+	@Getter
+	@RequiredArgsConstructor
+	public enum ACCEPT_TEXT {
+		js(MediaType.APPLICATION_JSON),
+		json(MediaType.APPLICATION_JSON),
+		xml(MediaType.APPLICATION_XML),
+		yaml(YamlMessageConverter.APPLICATION_YAML),
+		yml(YamlMessageConverter.APPLICATION_YAML);
+
+		private final MediaType mediaType;
+	}
 
 	/**
 	 * presents data as a response depending on the accept value.
@@ -30,27 +44,12 @@ public class RestControllerHelper {
 	 * @return a new responsentity with data provided, and content Type matching the
 	 *           accept if provided. Default is json.
 	 */
-	public static <T> ResponseEntity<T> makeResponse(T data, Optional<String> accept) {
-		if (accept.isEmpty()) {
+	public static <T> ResponseEntity<T> makeResponse(T data, Optional<ACCEPT_TEXT> accept) {
+		if (accept == null || accept.isEmpty()) {
 			return new ResponseEntity<>(data, HttpStatus.OK);
 		}
 		HttpHeaders responseHeaders = new HttpHeaders();
-		switch (accept.orElse("json").toLowerCase()) {
-		case "xml":
-			responseHeaders.setContentType(MediaType.APPLICATION_XML);
-			break;
-		case "yaml":
-		case "yml":
-			responseHeaders.setContentType(YamlMessageConverter.APPLICATION_YAML);
-			// responseHeaders.setContentDisposition(ContentDisposition.inline().build());
-			break;
-		case "jason":
-		case "js":
-		case "json":
-		default:
-			responseHeaders.setContentType(MediaType.APPLICATION_JSON);
-			break;
-		}
+		responseHeaders.setContentType(accept.get().getMediaType());
 		return new ResponseEntity<>(data, responseHeaders, HttpStatus.OK);
 	}
 

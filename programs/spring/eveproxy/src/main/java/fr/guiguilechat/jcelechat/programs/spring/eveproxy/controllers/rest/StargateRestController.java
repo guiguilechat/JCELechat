@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.StargateService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.StargateService.WayPoint;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -50,8 +51,7 @@ public class StargateRestController {
 	}
 
 	// a few profiles that can be used to make routes.
-	@RequiredArgsConstructor
-	static enum ShipProfile {
+	@RequiredArgsConstructor enum ShipProfile {
 		bc(9.0, 3.5),
 		bs(13.0, 3.0),
 		cr(7.0, 4.0),
@@ -76,7 +76,7 @@ public class StargateRestController {
 			@RequestParam @Parameter(description = "profile to use for ship align and warp speed. Default cruiser") Optional<ShipProfile> ship,
 			@RequestParam @Parameter(description = "align time, in s, of the ship") Optional<Double> align,
 			@RequestParam @Parameter(description = "warp speed, in AU/s, of the ship") Optional<Double> ws,
-			@RequestParam @Parameter(description = "json or xml. Default json") Optional<String> accept) {
+			@RequestParam @Parameter(description = "json or xml. Default json") Optional<ACCEPT_TEXT> accept) {
 		Station stationFrom = stationService.byId(stationFromId);
 		if (stationFrom == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationFromId + " unknown");

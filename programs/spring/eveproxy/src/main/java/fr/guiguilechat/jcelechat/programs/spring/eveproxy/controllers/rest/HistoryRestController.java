@@ -56,6 +56,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.SlidingAverage;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.ChartTheme;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.DailyExchanges;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.HistoryAggreg;
@@ -84,7 +85,7 @@ public class HistoryRestController {
 	@GetMapping("/byRegionId/{regionId}/byTypeId/{typeId}/byWeightName/{weightname}/daily")
 	public ResponseEntity<DailyExchanges> byRegionByType(@PathVariable int regionId, @PathVariable int typeId,
 			@PathVariable String weightname,
-			@RequestParam Optional<String> accept) {
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		WeightStrategy weighter = WeightStrategy.of(weightname);
 		List<PriceVolumeAcc> priceVolumes = hlService.groupPrices(regionId, typeId, weighter, NB_STEPS);
 		return RestControllerHelper.makeResponse(
@@ -96,7 +97,7 @@ public class HistoryRestController {
 	@Transactional
 	public ResponseEntity<TypeDataDto<List<AggregatedHL>>> byType(
 			@PathVariable int typeId,
-			@RequestParam Optional<String> accept,
+			@RequestParam Optional<ACCEPT_TEXT> accept,
 			@RequestParam Optional<Integer> days) {
 		Type type = typeService.byId(typeId);
 		if (type == null) {

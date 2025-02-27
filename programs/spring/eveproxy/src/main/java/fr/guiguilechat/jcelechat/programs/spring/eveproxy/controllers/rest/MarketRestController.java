@@ -31,6 +31,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.Lo
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.OfferStat;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -133,7 +134,7 @@ public class MarketRestController {
 	}
 
 	ResponseEntity<TypeMarketStats> makeMarketStatsResponse(int typeId, Integer regionId, Long locationId,
-	    List<MarketLine> bos, List<MarketLine> sos, Optional<String> accept) {
+			List<MarketLine> bos, List<MarketLine> sos, Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(TypeMarketStats.of(typeId, regionId, locationId, bos, sos), accept);
 	}
 
@@ -153,7 +154,7 @@ public class MarketRestController {
 
 		private final boolean requireInf;
 
-		public long volume = 0l;
+		public long volume = 0L;
 		public Double massPrice = null;
 		private double totValue = 0.0;
 		public Double avgPrice = null;
@@ -172,7 +173,7 @@ public class MarketRestController {
 					}
 				}
 			}
-			if (volume > 0l) {
+			if (volume > 0L) {
 				avgPrice = totValue / volume;
 			}
 			return this;
@@ -217,7 +218,7 @@ public class MarketRestController {
 	public ResponseEntity<TypeMarketStats> statsByPlaceByType(@PathVariable String placeFiltering,
 			@PathVariable String placeFilter,
 			@PathVariable int typeId,
-			@RequestParam Optional<String> accept) {
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
 
 		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
 		List<MarketLine> bos = place.bos(rlService, typeId);
@@ -231,7 +232,7 @@ public class MarketRestController {
 	})
 	@GetMapping("/jita/typeId/{typeId}/stats")
 	public ResponseEntity<TypeMarketStats> statsJitaByType(@PathVariable int typeId,
-			@RequestParam Optional<String> accept) {
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return statsByPlaceByType("lid", "" + MarketLineService.JITAIV_ID, typeId, accept);
 	}
 
@@ -251,14 +252,14 @@ public class MarketRestController {
 	public ResponseEntity<List<MarketOffer>> sosByPlaceByType(@PathVariable String placeFiltering,
 			@PathVariable String placeFilter,
 			@PathVariable int typeId,
-			@RequestParam Optional<String> accept) {
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(offers(placeFiltering, placeFilter, typeId, false), accept);
 	}
 
 	@GetMapping("/jita/typeId/{typeId}/sos")
 	public ResponseEntity<List<MarketOffer>> sosJitaByType(
 			@PathVariable int typeId,
-			@RequestParam Optional<String> accept) {
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(offers("lid", "" + MarketLineService.JITAIV_ID, typeId, false), accept);
 	}
 
@@ -266,14 +267,14 @@ public class MarketRestController {
 	public ResponseEntity<List<MarketOffer>> bosByPlaceByType(@PathVariable String placeFiltering,
 			@PathVariable String placeFilter,
 			@PathVariable int typeId,
-			@RequestParam Optional<String> accept) {
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(offers(placeFiltering, placeFilter, typeId, true), accept);
 	}
 
 	@GetMapping("/jita/typeId/{typeId}/bos")
 	public ResponseEntity<List<MarketOffer>> bosJitaByType(
 			@PathVariable int typeId,
-			@RequestParam Optional<String> accept) {
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(offers("lid", "" + MarketLineService.JITAIV_ID, typeId, true), accept);
 	}
 
@@ -330,13 +331,13 @@ public class MarketRestController {
 
 	@GetMapping("/selllocations/byTypeId/{typeId}")
 	public ResponseEntity<List<LocatedBestOffer>> soByType(@PathVariable int typeId,
-			@RequestParam Optional<String> accept) {
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(rlService.sellLocations(typeId), accept);
 	}
 
 	@GetMapping("/buylocations/byTypeId/{typeId}")
 	public ResponseEntity<List<LocatedBestOffer>> boByType(@PathVariable int typeId,
-			@RequestParam Optional<String> accept) {
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(rlService.buyLocations(typeId), accept);
 	}
 
