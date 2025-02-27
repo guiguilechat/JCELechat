@@ -259,4 +259,12 @@ public class SolarSystemService extends
 		return repo().adjacent(source);
 	}
 
+	public List<Integer> idsByName(SystemSelectorName ssn, String name) {
+		return ssn.apply(repo(), name);
+	}
+
+	public List<Integer> idsById(SystemSelectorId ssi, int id) {
+		return ssi.apply(repo(), id);
+	}
+
 }
