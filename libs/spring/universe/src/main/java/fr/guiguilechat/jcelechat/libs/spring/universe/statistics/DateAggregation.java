@@ -10,7 +10,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public enum DateAggregation {
 	hourly("hour", 1),
-	dayly("day", 24),
+	daily("day", 24),
 	weekly("week", 24 * 7),
 	monthly("month", 365 / 12);
 

@@ -64,7 +64,7 @@ public class SystemKillsService extends
 			Instant since) {
 		List<Object[]> rows = switch (aggregation) {
 		case DateAggregation.hourly -> itemRepository().aggregateNpcKillsHourly(systemIds, since);
-		case DateAggregation.dayly -> itemRepository().aggregateNpcKillsDaily(systemIds, since);
+		case DateAggregation.daily -> itemRepository().aggregateNpcKillsDaily(systemIds, since);
 		case DateAggregation.weekly -> itemRepository().aggregateNpcKillsWeekly(systemIds, since);
 		case DateAggregation.monthly -> itemRepository().aggregateNpcKillsMonthly(systemIds, since);
 		default ->
@@ -82,7 +82,7 @@ public class SystemKillsService extends
 			Instant since) {
 		List<Object[]> rows = switch (aggregation) {
 		case DateAggregation.hourly -> itemRepository().aggregatePodKillsHourly(systemIds, since);
-		case DateAggregation.dayly -> itemRepository().aggregatePodKillsDaily(systemIds, since);
+		case DateAggregation.daily -> itemRepository().aggregatePodKillsDaily(systemIds, since);
 		case DateAggregation.weekly -> itemRepository().aggregatePodKillsWeekly(systemIds, since);
 		case DateAggregation.monthly -> itemRepository().aggregatePodKillsMonthly(systemIds, since);
 		default ->
@@ -100,7 +100,7 @@ public class SystemKillsService extends
 			Instant since) {
 		List<Object[]> rows = switch (aggregation) {
 		case DateAggregation.hourly -> itemRepository().aggregateShipKillsHourly(systemIds, since);
-		case DateAggregation.dayly -> itemRepository().aggregateShipKillsDaily(systemIds, since);
+		case DateAggregation.daily -> itemRepository().aggregateShipKillsDaily(systemIds, since);
 		case DateAggregation.weekly -> itemRepository().aggregateShipKillsWeekly(systemIds, since);
 		case DateAggregation.monthly -> itemRepository().aggregateShipKillsMonthly(systemIds, since);
 		default ->

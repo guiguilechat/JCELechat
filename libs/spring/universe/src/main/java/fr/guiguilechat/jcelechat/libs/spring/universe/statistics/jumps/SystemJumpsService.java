@@ -67,7 +67,7 @@ BatchFetchService<SystemJumpsFetch, SystemJumpsFetchRepository, SystemJumps, Sys
 			Instant since) {
 		List<Object[]> rows = switch (aggregation) {
 		case DateAggregation.hourly -> itemRepository().aggregateJumpsHourly(systemIds, since);
-		case DateAggregation.dayly -> itemRepository().aggregateJumpsDaily(systemIds, since);
+		case DateAggregation.daily -> itemRepository().aggregateJumpsDaily(systemIds, since);
 		case DateAggregation.weekly -> itemRepository().aggregateJumpsWeekly(systemIds, since);
 		case DateAggregation.monthly -> itemRepository().aggregateJumpsMonthly(systemIds, since);
 		default ->
