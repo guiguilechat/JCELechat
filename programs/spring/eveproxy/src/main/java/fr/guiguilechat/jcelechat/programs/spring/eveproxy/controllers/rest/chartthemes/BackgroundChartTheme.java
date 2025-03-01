@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.chartthemes;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.chartthemes;
 
 import java.awt.Color;
 import java.util.List;
 import java.util.stream.IntStream;
 
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.ChartTheme;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.ChartTheme;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -12,13 +12,6 @@ import lombok.experimental.Accessors;
 /**
  * chart theme based on a background color, deduces its hue, the text and lines
  * colors from it
- * <p>
- * text color is opposite of background color and brigthness, with half
- * saturation<br />
- * price are full saturation, vol are 0.9 saturation ; prices have opposite
- * brithnes of bg, vols have corresponding price ×0.9<br />
- * the hue of the prices are rotation starting from text hue
- * </p>
  */
 @RequiredArgsConstructor
 @Getter
@@ -31,32 +24,36 @@ public class BackgroundChartTheme implements ChartTheme {
 	private final Color backgGroundColor;
 
 	@Override
-	public List<Color> priceColors(int nbCumulatedSeries) {
-		float[] hsb = hsb(textColor());
+	public List<Color> firstAxisColor(int nbSeries) {
+		float removedHueAngle = 0.15f;
+		float[] hsb = new float[3];
+		float[] bgHSB = hsb(backgGroundColor());
 		hsb[1]=1.0f;
-		float baseHue = hsb[0];
-		float rotation = 1.0f / (nbCumulatedSeries + 2);
-		return IntStream.rangeClosed(0, nbCumulatedSeries).mapToObj(i -> {
-			hsb[0] = rotate(baseHue, rotation * (1 + i));
+		float baseHue = rotate(bgHSB[0], removedHueAngle);
+		float anglePerColor = (1f - 2 * removedHueAngle) / (nbSeries + 2);
+		float baseSaturation = 1f;
+		float baseBrightness = Math.min(1f, bgHSB[2] + .6f);
+//		System.err.println("base brightness is " + baseBrightness + " from bg " + bgHSB[2]);
+//		System.err.println("base hue is " + baseHue + " from bg " + bgHSB[0]);
+		return IntStream.rangeClosed(0, nbSeries).mapToObj(i -> {
+			hsb[0] = rotate(baseHue, anglePerColor * (1 + i));
+//			System.err.println("hue " + i + "=" + hsb[0]);
+			// saturation is base -0 -a -2a -0 -a -2a etc.
+			hsb[1] = baseSaturation - .05f * (i % 3);
+			// remove some brightness every odd index
+			hsb[2] = baseBrightness * (1f - .05f * (i % 2));
 			return rgb(hsb, 200);
 		}).toList();
 	}
 
 	@Override
 	public
-	List<Color> volumeColors(int nbCumulatedSeries) {
-		return priceColors(nbCumulatedSeries).stream().map(this::matchingVolume).toList();
+	List<Color> secondAxisColor(int nbCumulatedSeries) {
+		return firstAxisColor(nbCumulatedSeries).stream().map(this::matchingVolume).toList();
 	}
 
 	protected Color matchingVolume(Color priceColor) {
 		float[] hsb = hsb(priceColor);
-		float bright = hsb[2];
-		if (bright > 0.5f) {
-			bright *= 0.8;
-		} else {
-			bright = 1.0f - (1.0f - bright) * 0.8f;
-		}
-		hsb[2] = bright;
 		Color ret = rgb(hsb, 150);
 		return ret;
 	}
@@ -65,8 +62,8 @@ public class BackgroundChartTheme implements ChartTheme {
 	public Color textColor() {
 		float[] hsb = hsb(backgGroundColor());
 		flipHue(hsb);
-		hsb[1] = 0.5f;
-		flipBrightness(hsb);
+		hsb[1] = 1f;
+		opposeBrightness(hsb);
 		return rgb(hsb);
 	}
 
@@ -111,8 +108,8 @@ public class BackgroundChartTheme implements ChartTheme {
 		hsb[0] = flip(hsb[0]);
 	}
 
-	protected void flipBrightness(float[] hsb) {
-		hsb[2] = flip(hsb[2]);
+	protected void opposeBrightness(float[] hsb) {
+		hsb[2] = hsb[2] < .7f ? 1f : hsb[2] - .3f;
 	}
 
 	public static BackgroundChartTheme forName(String name) {

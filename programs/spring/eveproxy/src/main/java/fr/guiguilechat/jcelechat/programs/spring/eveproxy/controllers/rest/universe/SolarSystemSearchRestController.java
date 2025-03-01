@@ -81,6 +81,7 @@ public class SolarSystemSearchRestController {
 		LinkedHashMap<Integer, String> sortedSId2Name = new LinkedHashMap<>();
 		sids2Names.entrySet().stream().sorted(Comparator.comparing(Entry::getValue))
 				.forEach(e -> sortedSId2Name.put(e.getKey(), e.getValue()));
+
 		return null;
 	}
 

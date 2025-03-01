@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.chartthemes;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.chartthemes;
 
 import java.awt.Color;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.ChartTheme;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.ChartTheme;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -25,14 +25,14 @@ public class EveChartTheme implements ChartTheme {
 	private final Color textColor = new Color(160, 160, 160);
 
 	@Override
-	public List<Color> priceColors(int nbCumulatedSeries) {
+	public List<Color> firstAxisColor(int nbCumulatedSeries) {
 		return List.of(new Color(145, 70, 0),
 				new Color(22, 125, 152),
 				new Color(152, 85, 22));
 	}
 
 	@Override
-	public List<Color> volumeColors(int nbCumulatedSeries) {
+	public List<Color> secondAxisColor(int nbCumulatedSeries) {
 		return List.of(new Color(0, 63, 79));
 	}
 

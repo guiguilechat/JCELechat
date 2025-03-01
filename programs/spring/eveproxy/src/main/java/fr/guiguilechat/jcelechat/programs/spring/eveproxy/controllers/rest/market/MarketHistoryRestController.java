@@ -56,9 +56,9 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.SlidingAverage;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.ChartTheme;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.ChartTheme;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.DailyExchanges;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.HistoryAggreg;
 import io.swagger.v3.oas.annotations.Operation;
@@ -254,8 +254,8 @@ public class MarketHistoryRestController {
 		Color textColor = theme.textColor();
 		List<Integer> requestedCumulatedDays = averageDays.orElse(DEFAULT_AVERAGE_DAYS);
 		// first color is for immediate, next colors are for cumulated
-		List<Color> priceColors = theme.priceColors(requestedCumulatedDays.size());
-		List<Color> volColors = theme.volumeColors(requestedCumulatedDays.size());
+		List<Color> priceColors = theme.firstAxisColor(requestedCumulatedDays.size());
+		List<Color> volColors = theme.secondAxisColor(requestedCumulatedDays.size());
 		// we limit the number of cumulated series to how much colors we have.
 		// if we have 1 vol and 1 price colors, these will be assigned to the immediate
 		// series
