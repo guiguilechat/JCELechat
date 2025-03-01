@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.industry;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -31,6 +31,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import lombok.RequiredArgsConstructor;

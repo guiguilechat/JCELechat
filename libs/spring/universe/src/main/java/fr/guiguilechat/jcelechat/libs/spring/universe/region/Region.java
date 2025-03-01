@@ -59,4 +59,9 @@ public class Region extends ARemoteEntity<Integer, R_get_universe_regions_region
 		return "region:" + getId();
 	}
 
+	@Override
+	public String toString() {
+		return name == null ? "region:" + getId() : name + "(" + getId() + ")";
+	}
+
 }

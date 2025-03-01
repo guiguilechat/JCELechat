@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.chartthemes;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.chartthemes;
 
 import java.awt.Color;
 import java.util.List;
 import java.util.stream.IntStream;
 
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.ChartTheme;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.ChartTheme;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;

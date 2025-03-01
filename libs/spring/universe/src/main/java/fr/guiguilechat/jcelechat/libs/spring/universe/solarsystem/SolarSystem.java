@@ -90,6 +90,18 @@ public class SolarSystem extends ARemoteEntity<Integer, R_get_universe_systems_s
 		setSecurityStatus(data.security_status);
 	}
 
+	public String name() {
+		if (name != null) {
+			return name;
+		}
+		return "solsys:" + getId();
+	}
+
+	@Override
+	public String toString() {
+		return name == null ? "solsys:" + getId() : name + "(" + getId() + ")";
+	}
+
 	public Space getSpace() {
 		String regionUniverse = null;
 		Constellation c = getConstellation();

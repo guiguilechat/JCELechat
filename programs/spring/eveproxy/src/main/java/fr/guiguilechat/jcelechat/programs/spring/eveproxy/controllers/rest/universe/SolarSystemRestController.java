@@ -1,8 +1,16 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe;
 
+import java.io.IOException;
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
+import java.util.Comparator;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 
+import org.jfree.chart.JFreeChart;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,10 +22,16 @@ import org.springframework.web.server.ResponseStatusException;
 
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.selectors.SystemSelectorName;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivity;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemStatisticsService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.DailyJumps;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.PeriodHeat;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumpsService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -27,6 +41,8 @@ public class SolarSystemRestController {
 
 
 	final private SolarSystemService ssService;
+
+	final private SystemStatisticsService systemStatisticsService;
 
 	final private SystemJumpsService systemJumpsService;
 
@@ -89,5 +105,50 @@ public class SolarSystemRestController {
 				accept);
 	}
 
+	private static final int DEFAULT_DAYS = 30;
+
+	@GetMapping("/stats/name/{selector}/chart")
+	public void chartActivityName(
+			@PathVariable SystemSelectorName selector,
+			HttpServletResponse response,
+			@RequestParam Optional<SystemActivity> left,
+			@RequestParam Optional<SystemActivity> right,
+			@RequestParam List<String> names,
+			@RequestParam Optional<Integer> days,
+			@RequestParam Optional<String> accept)
+			throws IOException {
+
+		if ((left == null || left.isEmpty()) && (right == null || right.isEmpty())) {
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "need at least left or right");
+		}
+		List<Integer> sids = ssService.selectNames(selector, names);
+		Map<Integer, String> sids2Names = ssService.namesForIds(sids);
+		int daysValue = days == null ? DEFAULT_DAYS : days.orElse(DEFAULT_DAYS);
+		if (daysValue < 0) {
+			daysValue=0;
+		}
+		Instant since = Instant.now().truncatedTo(ChronoUnit.DAYS).minus(daysValue, ChronoUnit.DAYS);
+		Map<Integer, List<SystemDateActivity>> leftValues = null;
+		if (left.isPresent()) {
+			leftValues = systemStatisticsService.activities(sids, left.get(), since);
+		}
+		Map<Integer, List<SystemDateActivity>> rightValues = null;
+		if (right.isPresent()) {
+			rightValues = systemStatisticsService.activities(sids, right.get(), since);
+		}
+		JFreeChart chart = drawActivityChart(sids2Names, left, leftValues, right, rightValues);
+		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
+	}
+
+	private JFreeChart drawActivityChart(Map<Integer, String> sids2Names,
+			Optional<SystemActivity> left,
+			Map<Integer, List<SystemDateActivity>> leftValues,
+			Optional<SystemActivity> right,
+			Map<Integer, List<SystemDateActivity>> rightValues) {
+		LinkedHashMap<Integer, String> sortedSId2Name = new LinkedHashMap<>();
+		sids2Names.entrySet().stream().sorted(Comparator.comparing(Entry::getValue))
+				.forEach(e -> sortedSId2Name.put(e.getKey(), e.getValue()));
+		return null;
+	}
 
 }

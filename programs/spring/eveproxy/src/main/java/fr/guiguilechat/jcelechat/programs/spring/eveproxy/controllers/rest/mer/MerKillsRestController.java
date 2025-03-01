@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer;
 
 import java.awt.Color;
 import java.io.IOException;
@@ -36,11 +36,8 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService.KillStats;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills.AggregPeriod;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills.KillsDetail;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills.TypeFiltering;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills.TypesKillsStats;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import jakarta.servlet.http.HttpServletResponse;

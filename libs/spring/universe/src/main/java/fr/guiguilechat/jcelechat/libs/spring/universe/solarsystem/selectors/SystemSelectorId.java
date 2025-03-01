@@ -16,8 +16,8 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	ri(SecFilter.ALL) {
 
 	@Override
-		protected List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS) {
-			return repo.idByRegionId(id, minSS, maxSS);
+		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
+			return repo.idByRegionIdIn(ids, minSS, maxSS);
 	}
 
 	},
@@ -25,8 +25,8 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	rihs(SecFilter.HS) {
 
 	@Override
-		protected List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS) {
-			return ri.listIds(repo, id, minSS, maxSS);
+		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
+			return ri.listIds(repo, ids, minSS, maxSS);
 	}
 
 	},
@@ -34,8 +34,8 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	rils(SecFilter.LS) {
 
 	@Override
-		protected List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS) {
-			return ri.listIds(repo, id, minSS, maxSS);
+		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
+			return ri.listIds(repo, ids, minSS, maxSS);
 	}
 
 	},
@@ -43,8 +43,8 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	rins(SecFilter.NS) {
 
 	@Override
-		protected List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS) {
-			return ri.listIds(repo, id, minSS, maxSS);
+		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
+			return ri.listIds(repo, ids, minSS, maxSS);
 	}
 
 	},
@@ -52,8 +52,8 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	ci(SecFilter.ALL) {
 
 	@Override
-		protected List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS) {
-			return repo.idByConstellationId(id, minSS, maxSS);
+		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
+			return repo.idByConstellationIdIn(ids, minSS, maxSS);
 	}
 
 	},
@@ -61,8 +61,8 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	cihs(SecFilter.HS) {
 
 	@Override
-		protected List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS) {
-			return ci.listIds(repo, id, minSS, maxSS);
+		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
+			return ci.listIds(repo, ids, minSS, maxSS);
 	}
 
 	},
@@ -70,8 +70,8 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	cils(SecFilter.LS) {
 
 	@Override
-		protected List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS) {
-			return ci.listIds(repo, id, minSS, maxSS);
+		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
+			return ci.listIds(repo, ids, minSS, maxSS);
 	}
 
 	},
@@ -79,8 +79,8 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	cins(SecFilter.NS) {
 
 	@Override
-		protected List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS) {
-			return ci.listIds(repo, id, minSS, maxSS);
+		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
+			return ci.listIds(repo, ids, minSS, maxSS);
 	}
 
 	},
@@ -88,16 +88,16 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	si(SecFilter.ALL) {
 
 	@Override
-		protected List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS) {
-			return repo.findById(id).stream()
+		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
+			return repo.findAllById(ids).stream()
 				.filter(ss -> ss.getSecurityStatus() >= minSS && ss.getSecurityStatus() <= maxSS)
 				.map(SolarSystem::getId)
 				.toList();
 	}
 
 	@Override
-		public List<Integer> apply(SolarSystemRepository repo, Integer id) {
-			return repo.findById(id).stream()
+		public List<Integer> apply(SolarSystemRepository repo, Iterable<Integer> ids) {
+			return repo.findAllById(ids).stream()
 				.map(SolarSystem::getId)
 				.toList();
 		}
@@ -110,11 +110,12 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	/**
 	 * lookup potential systems in db
 	 */
-	protected abstract List<Integer> listIds(SolarSystemRepository repo, int id, float minSS, float maxSS);
+	protected abstract List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS,
+			float maxSS);
 
 	@Override
-	public List<Integer> apply(SolarSystemRepository repo, Integer id) {
-		return listIds(repo, id, sec.lowerSS, sec.higherSS);
+	public List<Integer> apply(SolarSystemRepository repo, Iterable<Integer> ids) {
+		return listIds(repo, ids, sec.lowerSS, sec.higherSS);
 	}
 
 }

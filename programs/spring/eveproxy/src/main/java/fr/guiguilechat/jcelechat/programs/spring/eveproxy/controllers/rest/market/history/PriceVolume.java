@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history;
 
 import java.math.BigDecimal;
 

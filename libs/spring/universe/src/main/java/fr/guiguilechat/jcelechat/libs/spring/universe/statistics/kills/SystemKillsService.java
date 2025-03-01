@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.kills;
 
+import java.time.Instant;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -14,6 +15,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.kills.SystemKills.SystemKillsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetchService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills;
@@ -49,6 +51,28 @@ public class SystemKillsService extends
 			ret.setSolarSystem(Objects.requireNonNull(idToSolarSystem.get(r.system_id)));
 			return ret;
 		}).toList();
+	}
+
+	//
+	// usage
+	//
+
+	public List<SystemDateActivity> npcKillsForSystemIds(Iterable<Integer> sysIds, Instant since) {
+		return itemRepository().npcKillsForSystemIds(sysIds, since).stream()
+				.map(SystemDateActivity::ofRow)
+				.toList();
+	}
+
+	public List<SystemDateActivity> podKillsForSystemIds(Iterable<Integer> sysIds, Instant since) {
+		return itemRepository().podKillsForSystemIds(sysIds, since).stream()
+				.map(SystemDateActivity::ofRow)
+				.toList();
+	}
+
+	public List<SystemDateActivity> shipKillsForSystemIds(Iterable<Integer> sysIds, Instant since) {
+		return itemRepository().shipKillsForSystemIds(sysIds, since).stream()
+				.map(SystemDateActivity::ofRow)
+				.toList();
 	}
 
 }

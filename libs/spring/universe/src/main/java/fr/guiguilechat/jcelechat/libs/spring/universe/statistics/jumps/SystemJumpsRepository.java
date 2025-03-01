@@ -1,11 +1,25 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps;
 
+import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 public interface SystemJumpsRepository extends JpaRepository<SystemJumps, Long> {
+
+	@Query("""
+select
+	e.solarSystem.id,
+	e.fetch.lastModified - 30 minute,
+	e.shipJumps
+from
+	#{#entityName} e
+where
+	e.solarSystem.id in :systemsIds
+	and e.fetch.lastModified - 30 minute >= :since
+""")
+	List<Object[]> jumpsforSystemIds(Iterable<Integer> systemsIds, Instant since);
 
 	// hql interval should be constructor-agnostic regarding interval
 	@Query("""

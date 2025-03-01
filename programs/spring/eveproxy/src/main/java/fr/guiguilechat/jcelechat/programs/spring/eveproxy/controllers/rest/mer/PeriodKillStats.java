@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.merkills;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer;
 
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService.KillStats;
 

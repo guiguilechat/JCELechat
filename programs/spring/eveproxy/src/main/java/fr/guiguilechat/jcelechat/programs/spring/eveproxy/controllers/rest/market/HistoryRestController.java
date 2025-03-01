@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market;
 
 import java.awt.Color;
 import java.io.IOException;
@@ -56,17 +56,18 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.WeightStrategy;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.SlidingAverage;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.ChartTheme;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.DailyExchanges;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.HistoryAggreg;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.ChartTheme;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.DailyExchanges;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.HistoryAggreg;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/history")
+@RequestMapping("/api/market/history")
 @RequiredArgsConstructor
 public class HistoryRestController {
 
@@ -237,6 +238,15 @@ public class HistoryRestController {
 
 	private static final List<Integer> DEFAULT_AVERAGE_DAYS = List.of(7, 30);
 
+	/**
+	 * @param sortedData   the list of history data to place on the chart
+	 * @param averageDays  additional average days to show. Defaults to
+	 *                     {@link #DEFAULT_AVERAGE_DAYS}
+	 * @param title        chart title
+	 * @param quantityUnit "unit" for stack items or "runs" for bpc
+	 * @param theme        color theme of the chart
+	 * @return the chart of the history
+	 */
 	private JFreeChart drawJFreeChart(List<AggregatedHL> sortedData, Optional<List<Integer>> averageDays, String title,
 			String quantityUnit,
 			ChartTheme theme) {

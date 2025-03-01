@@ -32,7 +32,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.HistoryRestController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.HistoryRestController;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

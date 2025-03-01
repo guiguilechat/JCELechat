@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe;
 
 import java.time.Duration;
 import java.util.List;
@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.StargateService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.stargate.StargateService.WayPoint;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -26,7 +27,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/sde/stargate")
+@RequestMapping("/api/universe/stargate")
 @RequiredArgsConstructor
 public class StargateRestController {
 

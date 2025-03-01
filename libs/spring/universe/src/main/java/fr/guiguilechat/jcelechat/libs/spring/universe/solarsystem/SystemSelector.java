@@ -9,5 +9,5 @@ import java.util.List;
  */
 public interface SystemSelector<T> {
 
-	List<Integer> apply(SolarSystemRepository repo, T filter);
+	List<Integer> apply(SolarSystemRepository repo, Iterable<T> filter);
 }

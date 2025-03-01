@@ -25,11 +25,11 @@ select
 from
 	#{#entityName} ss
 where
-	lower(ss.constellation.region.name)=lower(:regionName)
+	lower(ss.name) in :sysNames
 	and ss.securityStatus>=:minSS
 	and ss.securityStatus<=:maxSS
 """)
-	List<Integer> idByRegionNameIgnoreCase(String regionName, float minSS, float maxSS);
+	List<Integer> idByLowerNameIn(Iterable<String> sysNames, float minSS, float maxSS);
 
 	@Query("""
 select
@@ -37,11 +37,11 @@ select
 from
 	#{#entityName} ss
 where
-	ss.constellation.region.id=:regionId
+	lower(ss.constellation.region.name) in :regionName
 	and ss.securityStatus>=:minSS
 	and ss.securityStatus<=:maxSS
 """)
-	List<Integer> idByRegionId(int regionId, float minSS, float maxSS);
+	List<Integer> idByLowerRegionNameIn(Iterable<String> regionNames, float minSS, float maxSS);
 
 	@Query("""
 select
@@ -49,11 +49,11 @@ select
 from
 	#{#entityName} ss
 where
-	lower(ss.constellation.name)=lower(:constellationName)
+	ss.constellation.region.id in :regionIds
 	and ss.securityStatus>=:minSS
 	and ss.securityStatus<=:maxSS
 """)
-	List<Integer> idByConstellationNameIgnoreCase(String constellationName, float minSS, float maxSS);
+	List<Integer> idByRegionIdIn(Iterable<Integer> regionIds, float minSS, float maxSS);
 
 	@Query("""
 select
@@ -61,10 +61,22 @@ select
 from
 	#{#entityName} ss
 where
-	ss.constellation.id=:constellationId
+	lower(ss.constellation.name) in :constellationNames
 	and ss.securityStatus>=:minSS
 	and ss.securityStatus<=:maxSS
 """)
-	List<Integer> idByConstellationId(int constellationId, float minSS, float maxSS);
+	List<Integer> idByLowerConstellationNameIn(Iterable<String> constellationNames, float minSS, float maxSS);
+
+	@Query("""
+select
+	ss.id
+from
+	#{#entityName} ss
+where
+	ss.constellation.id in :constellationIds
+	and ss.securityStatus>=:minSS
+	and ss.securityStatus<=:maxSS
+""")
+	List<Integer> idByConstellationIdIn(Iterable<Integer> constellationIds, float minSS, float maxSS);
 
 }

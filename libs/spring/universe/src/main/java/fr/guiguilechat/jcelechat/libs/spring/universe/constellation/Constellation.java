@@ -59,4 +59,16 @@ public class Constellation extends ARemoteEntity<Integer, R_get_universe_constel
 		setPosZ(data.position.z);
 	}
 
+	public String name() {
+		if (name != null) {
+			return name;
+		}
+		return "constel:" + getId();
+	}
+
+	@Override
+	public String toString() {
+		return name == null ? "constel:" + getId() : name + "(" + getId() + ")";
+	}
+
 }

@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -252,6 +253,10 @@ public class SolarSystemService extends
 		}
 	}
 
+	//
+	// usage
+	//
+
 	/**
 	 * @param solar system
 	 * @return all the solar systems of the destination of the stargates of the
@@ -261,12 +266,16 @@ public class SolarSystemService extends
 		return repo().adjacent(source);
 	}
 
-	public List<Integer> idsByName(SystemSelectorName ssn, String name) {
-		return ssn.apply(repo(), name);
+	public Map<Integer, String> namesForIds(Iterable<Integer> systemIds) {
+		return repo().findAllById(systemIds).stream().collect(Collectors.toMap(SolarSystem::getId, SolarSystem::name));
 	}
 
-	public List<Integer> idsById(SystemSelectorId ssi, int id) {
-		return ssi.apply(repo(), id);
+	public List<Integer> selectNames(SystemSelectorName ssn, Iterable<String> names) {
+		return ssn.apply(repo(), names);
+	}
+
+	public List<Integer> selectIds(SystemSelectorId ssi, Iterable<Integer> ids) {
+		return ssi.apply(repo(), ids);
 	}
 
 }

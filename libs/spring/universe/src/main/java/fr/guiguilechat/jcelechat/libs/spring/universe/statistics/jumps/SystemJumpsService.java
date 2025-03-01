@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumps.SystemJumpsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetchService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_jumps;
@@ -52,6 +53,16 @@ BatchFetchService<SystemJumpsFetch, SystemJumpsFetchRepository, SystemJumps, Sys
 			ret.setSolarSystem(Objects.requireNonNull(idToSolarSystem.get(r.system_id)));
 			return ret;
 		}).toList();
+	}
+
+	//
+	// usage
+	//
+
+	public List<SystemDateActivity> forSystemIds(Iterable<Integer> sysIds, Instant since) {
+		return itemRepository().jumpsforSystemIds(sysIds, since).stream()
+				.map(SystemDateActivity::ofRow)
+				.toList();
 	}
 
 	static final DateTimeFormatter DAY_FORMAT = DateTimeFormatter.ofPattern("YYYY-MM-dd");

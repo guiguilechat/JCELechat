@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history;
 
 import java.awt.Color;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.chartthemes.BackgroundChartTheme;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.history.chartthemes.EveChartTheme;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.chartthemes.BackgroundChartTheme;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.chartthemes.EveChartTheme;
 
 /**
  * defines background, text color, and lists of colors for main, and cumulated,

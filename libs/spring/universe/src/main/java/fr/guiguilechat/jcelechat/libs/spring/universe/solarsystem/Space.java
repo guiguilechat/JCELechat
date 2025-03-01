@@ -25,7 +25,7 @@ public enum Space {
 		if (truesec > 0.45) {
 			return HS;
 		}
-		if (truesec < 0.0) {
+		if (truesec >= 0.0) {
 			return LS;
 		}
 		if (universe != null) {
