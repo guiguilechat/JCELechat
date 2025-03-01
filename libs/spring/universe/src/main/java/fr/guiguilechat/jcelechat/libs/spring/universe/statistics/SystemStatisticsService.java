@@ -24,23 +24,28 @@ public class SystemStatisticsService {
 	@Lazy
 	private final SystemKillsService systemKillsService;
 
-	public Map<Integer, List<SystemDateActivity>> activities(Iterable<Integer> solarSystemIds,
-			SystemActivity activityType, Instant since) {
-		return listActivities(solarSystemIds, activityType, since).stream()
-				.collect(Collectors.groupingBy(SystemDateActivity::sysId));
-	}
-
-	protected List<SystemDateActivity> listActivities(Iterable<Integer> solarSystemIds, SystemActivity activityType,
+	public List<SystemDateActivity> groupActivities(
+			Iterable<Integer> solarSystemIds,
+			SystemActivity activityType,
+			DateAggregation aggregation,
 			Instant since) {
 		return switch (activityType) {
-		case SystemActivity.jumps -> systemJumpsService.forSystemIds(solarSystemIds, since);
-		case SystemActivity.podkills -> systemKillsService.podKillsForSystemIds(solarSystemIds, since);
-		case SystemActivity.npckills -> systemKillsService.npcKillsForSystemIds(solarSystemIds, since);
-		case SystemActivity.shipkills -> systemKillsService.shipKillsForSystemIds(solarSystemIds, since);
+		case SystemActivity.jumps -> systemJumpsService.aggregateJumps(solarSystemIds, aggregation, since);
+		case SystemActivity.podkills -> systemKillsService.aggregatePodKills(solarSystemIds, aggregation, since);
+		case SystemActivity.npckills -> systemKillsService.aggregateNpcKills(solarSystemIds, aggregation, since);
+		case SystemActivity.shipkills -> systemKillsService.aggregateShipKills(solarSystemIds, aggregation, since);
 		default ->
 			throw new IllegalArgumentException("Unexpected value: " + activityType);
 		};
 
+	}
+
+	public Map<Integer, List<SystemDateActivity>> activities(Iterable<Integer> solarSystemIds,
+			SystemActivity activityType,
+			DateAggregation aggregation,
+			Instant since) {
+		return groupActivities(solarSystemIds, activityType, aggregation, since).stream()
+				.collect(Collectors.groupingBy(SystemDateActivity::sysId));
 	}
 
 }

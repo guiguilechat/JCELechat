@@ -1,16 +1,8 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe;
 
-import java.io.IOException;
-import java.time.Instant;
-import java.time.temporal.ChronoUnit;
-import java.util.Comparator;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Optional;
 
-import org.jfree.chart.JFreeChart;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,25 +14,24 @@ import org.springframework.web.server.ResponseStatusException;
 
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.selectors.SystemSelectorName;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemStatisticsService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.DailyJumps;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.PeriodHeat;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumpsService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
-import jakarta.servlet.http.HttpServletResponse;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/sde/solarsystem")
+@RequestMapping("/api/universe/solarsystem/id")
 @RequiredArgsConstructor
 public class SolarSystemRestController {
 
-
-	final private SolarSystemService ssService;
+	final private SolarSystemService solarSystemService;
 
 	final private SystemStatisticsService systemStatisticsService;
 
@@ -56,46 +47,65 @@ public class SolarSystemRestController {
 					ss.getConstellation().getRegion().getUniverse(),
 					adajcent.stream().map(SolarSystem::getId).toList());
 		}
+
+		static SolarSystemDTO of(SolarSystem ss) {
+			return new SolarSystemDTO(ss.getId(),
+					ss.getName(),
+					ss.getConstellation().getId(),
+					ss.getConstellation().getRegion().getId(),
+					ss.getConstellation().getRegion().getUniverse(),
+					null);
+		}
 	}
 
-	SolarSystemDTO toDTO(SolarSystem ss) {
-		return SolarSystemDTO.of(ss, ssService.adjacent(ss));
+	SolarSystemDTO toDTOWithAdjacents(SolarSystem ss) {
+		return SolarSystemDTO.of(ss, solarSystemService.adjacent(ss));
 	}
 
-	@GetMapping("/byid/{solarSystemId}")
+	@GetMapping("/{solarSystemId}")
 	public ResponseEntity<SolarSystemDTO> byId(
 			@PathVariable int solarSystemId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		SolarSystem ss = ssService.byId(solarSystemId);
+		SolarSystem ss = solarSystemService.byId(solarSystemId);
 		if (ss == null) {
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "system " + solarSystemId + " unknown");
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "system " + solarSystemId + " unknown");
 		}
-		return RestControllerHelper.makeResponse(toDTO(ss), accept);
+		return RestControllerHelper.makeResponse(SolarSystemDTO.of(ss), accept);
 	}
 
-	@GetMapping("/byid/{solarSystemId}/adjacent")
+	@GetMapping("/{solarSystemId}/adjacent")
 	public ResponseEntity<List<SolarSystemDTO>> adjacent(
 			@PathVariable int solarSystemId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		SolarSystem ss = ssService.byId(solarSystemId);
+		SolarSystem ss = solarSystemService.byId(solarSystemId);
 		if (ss == null) {
 
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "system " + solarSystemId + " unknown");
 		}
-		List<SolarSystem> adjacents = ssService.adjacent(ss);
-		return RestControllerHelper.makeResponse(adjacents.stream().map(this::toDTO).toList(), accept);
+		List<SolarSystem> adjacents = solarSystemService.adjacent(ss);
+		return RestControllerHelper.makeResponse(adjacents.stream().map(this::toDTOWithAdjacents).toList(), accept);
 	}
 
-	@GetMapping("/byid/{solarSystemId}/jumps/daily")
-	public ResponseEntity<List<DailyJumps>> jumpsDaily(
-			@PathVariable int solarSystemId,
-			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		return RestControllerHelper.makeResponse(systemJumpsService.dailyJumps(List.of(solarSystemId)), accept);
+	@Operation(summary = "system activity", description = "list aggregated activities for an activity type")
+	@GetMapping("/{solarSystemId}/stats/{activity}/{aggreg}")
+	public ResponseEntity<List<SystemDateActivity>> groupActivity(
+			@PathVariable @Parameter(description = "solar system id. Jita=30000142 ") int solarSystemId,
+			@PathVariable @Parameter(description = "selected activity") SystemActivity activity,
+			@PathVariable @Parameter(description = "period to aggregte activity over") DateAggregation aggreg,
+			@RequestParam Optional<ACCEPT_TEXT> accept,
+			@RequestParam @Parameter(description = "days to limit the search, default 30") Optional<Integer> days) {
+		return RestControllerHelper.makeResponse(
+				systemStatisticsService.groupActivities(
+						List.of(solarSystemId),
+						activity,
+						aggreg,
+						RestControllerHelper.since(days, 30)),
+				accept);
 	}
 
 	private static final int DEFAULT_WEEKS = 10;
 
-	@GetMapping("/byid/{solarSystemId}/jumps/weekmap")
+	@GetMapping("/{solarSystemId}/jumps/weekmap")
 	public ResponseEntity<List<PeriodHeat>> jumpsWeekMap(@PathVariable int solarSystemId,
 			@RequestParam Optional<Integer> weeks,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
@@ -103,52 +113,6 @@ public class SolarSystemRestController {
 				systemJumpsService.wActivity(List.of(solarSystemId),
 						weeks == null ? DEFAULT_WEEKS : weeks.orElse(DEFAULT_WEEKS)),
 				accept);
-	}
-
-	private static final int DEFAULT_DAYS = 30;
-
-	@GetMapping("/stats/name/{selector}/chart")
-	public void chartActivityName(
-			@PathVariable SystemSelectorName selector,
-			HttpServletResponse response,
-			@RequestParam Optional<SystemActivity> left,
-			@RequestParam Optional<SystemActivity> right,
-			@RequestParam List<String> names,
-			@RequestParam Optional<Integer> days,
-			@RequestParam Optional<String> accept)
-			throws IOException {
-
-		if ((left == null || left.isEmpty()) && (right == null || right.isEmpty())) {
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "need at least left or right");
-		}
-		List<Integer> sids = ssService.selectNames(selector, names);
-		Map<Integer, String> sids2Names = ssService.namesForIds(sids);
-		int daysValue = days == null ? DEFAULT_DAYS : days.orElse(DEFAULT_DAYS);
-		if (daysValue < 0) {
-			daysValue=0;
-		}
-		Instant since = Instant.now().truncatedTo(ChronoUnit.DAYS).minus(daysValue, ChronoUnit.DAYS);
-		Map<Integer, List<SystemDateActivity>> leftValues = null;
-		if (left.isPresent()) {
-			leftValues = systemStatisticsService.activities(sids, left.get(), since);
-		}
-		Map<Integer, List<SystemDateActivity>> rightValues = null;
-		if (right.isPresent()) {
-			rightValues = systemStatisticsService.activities(sids, right.get(), since);
-		}
-		JFreeChart chart = drawActivityChart(sids2Names, left, leftValues, right, rightValues);
-		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
-	}
-
-	private JFreeChart drawActivityChart(Map<Integer, String> sids2Names,
-			Optional<SystemActivity> left,
-			Map<Integer, List<SystemDateActivity>> leftValues,
-			Optional<SystemActivity> right,
-			Map<Integer, List<SystemDateActivity>> rightValues) {
-		LinkedHashMap<Integer, String> sortedSId2Name = new LinkedHashMap<>();
-		sids2Names.entrySet().stream().sorted(Comparator.comparing(Entry::getValue))
-				.forEach(e -> sortedSId2Name.put(e.getKey(), e.getValue()));
-		return null;
 	}
 
 }

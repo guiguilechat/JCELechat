@@ -1,8 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps;
 
 import java.time.Instant;
-import java.time.ZoneOffset;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -17,6 +15,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumps.SystemJumpsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetchService;
@@ -59,35 +58,24 @@ BatchFetchService<SystemJumpsFetch, SystemJumpsFetchRepository, SystemJumps, Sys
 	// usage
 	//
 
-	public List<SystemDateActivity> forSystemIds(Iterable<Integer> sysIds, Instant since) {
-		return itemRepository().jumpsforSystemIds(sysIds, since).stream()
-				.map(SystemDateActivity::ofRow)
-				.toList();
-	}
-
-	static final DateTimeFormatter DAY_FORMAT = DateTimeFormatter.ofPattern("YYYY-MM-dd");
-
 	/**
-	 * converts a row from {@link SystemJumpsRepository#dailyJumps(Iterable)} into a
-	 * {@link DailyJumps}
-	 *
-	 * @param line
-	 * @return
+	 * @return the aggregated jumps of several system ids
 	 */
-	static DailyJumps dailyJumps(Object[] line) {
-		return DailyJumps.builder()
-				.ssId(((Number) line[0]).intValue())
-				.date(DAY_FORMAT.format(((Instant) line[1]).atOffset(ZoneOffset.UTC)))
-				.jumps(((Number) line[2]).intValue())
-				.build();
-	}
-
-	/**
-	 * @return the daily jumps of several system ids
-	 */
-	public List<DailyJumps> dailyJumps(Iterable<Integer> systemIds) {
-		return itemRepository().dailyJumps(systemIds).stream()
-				.map(SystemJumpsService::dailyJumps)
+	public List<SystemDateActivity> aggregateJumps(
+			Iterable<Integer> systemIds,
+			DateAggregation aggregation,
+			Instant since) {
+		List<Object[]> rows = switch (aggregation) {
+		case DateAggregation.hourly -> itemRepository().aggregateJumpsHourly(systemIds, since);
+		case DateAggregation.dayly -> itemRepository().aggregateJumpsDaily(systemIds, since);
+		case DateAggregation.weekly -> itemRepository().aggregateJumpsWeekly(systemIds, since);
+		case DateAggregation.monthly -> itemRepository().aggregateJumpsMonthly(systemIds, since);
+		default ->
+			throw new IllegalArgumentException("Unexpected value: " + aggregation);
+		};
+		return rows
+				.stream()
+				.map(aggregation::ActivityOfRow)
 				.toList();
 	}
 

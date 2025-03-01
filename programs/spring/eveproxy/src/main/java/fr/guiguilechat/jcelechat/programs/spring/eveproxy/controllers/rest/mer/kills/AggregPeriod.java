@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer.kills;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;

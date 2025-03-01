@@ -32,7 +32,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.HistoryRestController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -60,7 +60,7 @@ public class MarketHtmlController {
 	private final HistoryLineService historyLineService;
 
 	@Lazy
-	private final HistoryRestController historyRestController;
+	private final MarketHistoryRestController historyRestController;
 
 	private final MarketGroupService marketGroupService;
 

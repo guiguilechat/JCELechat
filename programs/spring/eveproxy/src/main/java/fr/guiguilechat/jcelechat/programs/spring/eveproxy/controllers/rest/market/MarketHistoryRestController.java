@@ -69,7 +69,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/market/history")
 @RequiredArgsConstructor
-public class HistoryRestController {
+public class MarketHistoryRestController {
 
 	final private ContractFacadeBpc contractFacadeBpc;
 

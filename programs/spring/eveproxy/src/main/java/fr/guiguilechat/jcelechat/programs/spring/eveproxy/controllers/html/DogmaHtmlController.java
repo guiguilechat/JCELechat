@@ -44,7 +44,7 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.Space;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.HistoryRestController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.RequiredArgsConstructor;
@@ -61,7 +61,7 @@ public class DogmaHtmlController {
 	private final GroupService groupService;
 
 	@Lazy
-	private final HistoryRestController historyRestController;
+	private final MarketHistoryRestController historyRestController;
 
 	private final LinkCorporationOfferService linkCorporationOfferService;
 

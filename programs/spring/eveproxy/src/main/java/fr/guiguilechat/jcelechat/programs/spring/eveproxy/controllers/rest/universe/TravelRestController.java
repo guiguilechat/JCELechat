@@ -27,9 +27,9 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/universe/stargate")
+@RequestMapping("/api/universe/travel")
 @RequiredArgsConstructor
-public class StargateRestController {
+public class TravelRestController {
 
 	final private StargateService stargateService;
 
@@ -69,7 +69,7 @@ public class StargateRestController {
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "request and result")
 	})
-	@GetMapping("/travel/{stationFromId}/{stationToId}")
+	@GetMapping("/from/{stationFromId}/to/{stationToId}")
 	public ResponseEntity<TravelResult> travel(
 			@PathVariable @Parameter(description = "id of station to include travels from") int stationFromId,
 			@PathVariable @Parameter(description = "id of station to include travels to from stargates in the same system") int stationToId,

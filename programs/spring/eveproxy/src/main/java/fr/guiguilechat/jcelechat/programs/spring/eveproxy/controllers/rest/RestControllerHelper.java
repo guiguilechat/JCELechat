@@ -4,6 +4,8 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.text.FieldPosition;
 import java.text.NumberFormat;
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Optional;
 
 import org.jfree.chart.ChartUtils;
@@ -108,5 +110,23 @@ public class RestControllerHelper {
 			return new StringBuffer(formatted);
 		}
 	};
+
+	/**
+	 * @param days        optional povided number of days
+	 * @param defaultDays days to consider when they are not provided
+	 * @return the instant start of X days before, with X being provided in the
+	 *         optional or defaulting to the param, then being floored by 0 ;
+	 */
+	public static Instant since(Optional<Integer> days, int defaultDays) {
+		return since(days == null || days.isEmpty() ? defaultDays : days.get());
+	}
+	
+	public static Instant since(int days) {
+		if (days < 0) {
+			days=0;
+		}
+		return Instant.now().truncatedTo(ChronoUnit.DAYS).minus(days, ChronoUnit.DAYS);
+		
+	}
 
 }

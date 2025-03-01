@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.kills.SystemKills.SystemKillsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetchService;
@@ -57,21 +58,57 @@ public class SystemKillsService extends
 	// usage
 	//
 
-	public List<SystemDateActivity> npcKillsForSystemIds(Iterable<Integer> sysIds, Instant since) {
-		return itemRepository().npcKillsForSystemIds(sysIds, since).stream()
-				.map(SystemDateActivity::ofRow)
+	public List<SystemDateActivity> aggregateNpcKills(
+			Iterable<Integer> systemIds,
+			DateAggregation aggregation,
+			Instant since) {
+		List<Object[]> rows = switch (aggregation) {
+		case DateAggregation.hourly -> itemRepository().aggregateNpcKillsHourly(systemIds, since);
+		case DateAggregation.dayly -> itemRepository().aggregateNpcKillsDaily(systemIds, since);
+		case DateAggregation.weekly -> itemRepository().aggregateNpcKillsWeekly(systemIds, since);
+		case DateAggregation.monthly -> itemRepository().aggregateNpcKillsMonthly(systemIds, since);
+		default ->
+			throw new IllegalArgumentException("Unexpected value: " + aggregation);
+		};
+		return rows
+				.stream()
+				.map(aggregation::ActivityOfRow)
 				.toList();
 	}
 
-	public List<SystemDateActivity> podKillsForSystemIds(Iterable<Integer> sysIds, Instant since) {
-		return itemRepository().podKillsForSystemIds(sysIds, since).stream()
-				.map(SystemDateActivity::ofRow)
+	public List<SystemDateActivity> aggregatePodKills(
+			Iterable<Integer> systemIds,
+			DateAggregation aggregation,
+			Instant since) {
+		List<Object[]> rows = switch (aggregation) {
+		case DateAggregation.hourly -> itemRepository().aggregatePodKillsHourly(systemIds, since);
+		case DateAggregation.dayly -> itemRepository().aggregatePodKillsDaily(systemIds, since);
+		case DateAggregation.weekly -> itemRepository().aggregatePodKillsWeekly(systemIds, since);
+		case DateAggregation.monthly -> itemRepository().aggregatePodKillsMonthly(systemIds, since);
+		default ->
+			throw new IllegalArgumentException("Unexpected value: " + aggregation);
+		};
+		return rows
+				.stream()
+				.map(aggregation::ActivityOfRow)
 				.toList();
 	}
 
-	public List<SystemDateActivity> shipKillsForSystemIds(Iterable<Integer> sysIds, Instant since) {
-		return itemRepository().shipKillsForSystemIds(sysIds, since).stream()
-				.map(SystemDateActivity::ofRow)
+	public List<SystemDateActivity> aggregateShipKills(
+			Iterable<Integer> systemIds,
+			DateAggregation aggregation,
+			Instant since) {
+		List<Object[]> rows = switch (aggregation) {
+		case DateAggregation.hourly -> itemRepository().aggregateShipKillsHourly(systemIds, since);
+		case DateAggregation.dayly -> itemRepository().aggregateShipKillsDaily(systemIds, since);
+		case DateAggregation.weekly -> itemRepository().aggregateShipKillsWeekly(systemIds, since);
+		case DateAggregation.monthly -> itemRepository().aggregateShipKillsMonthly(systemIds, since);
+		default ->
+			throw new IllegalArgumentException("Unexpected value: " + aggregation);
+		};
+		return rows
+				.stream()
+				.map(aggregation::ActivityOfRow)
 				.toList();
 	}
 
