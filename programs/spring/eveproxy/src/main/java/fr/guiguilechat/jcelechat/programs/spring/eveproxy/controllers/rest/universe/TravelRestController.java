@@ -1,12 +1,11 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe;
 
-import java.time.Duration;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,7 +36,7 @@ public class TravelRestController {
 
 	public static record TravelResult(int startId, String startName, int endId, String endName, boolean hs, String align,
 			String warpSpeed,
-			Duration duration,
+			long duration_s,
 			int jumps,
 			List<WayPoint> waypoints) {
 
@@ -45,7 +44,7 @@ public class TravelRestController {
 				List<WayPoint> waypoints) {
 			this(from.getId(), from.getName(), to.getId(), to.getName(), hs, "" + align_s + " s",
 					"" + ws_aups + " AU/s",
-					waypoints.stream().map(WayPoint::duration).collect(Collectors.reducing(Duration::plus)).orElse(null),
+					waypoints.stream().mapToLong(WayPoint::duration_s).sum(),
 					waypoints.size(),
 					waypoints);
 		}
@@ -65,6 +64,7 @@ public class TravelRestController {
 		public final double warpSpeed;
 	}
 
+	@Transactional
 	@Operation(summary = "stations route", description = "find the quickest path between two stations, considering ship speed")
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "request and result")

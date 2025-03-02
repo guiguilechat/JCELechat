@@ -1,8 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.stargate;
 
-
 import java.io.Serializable;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -40,7 +38,7 @@ import lombok.extern.slf4j.Slf4j;
 // depend on solarsystem type
 @Order(4)
 public class StargateService extends
-    ARemoteEntityService<Stargate, Integer, R_get_universe_stargates_stargate_id, StargateRepository> {
+		ARemoteEntityService<Stargate, Integer, R_get_universe_stargates_stargate_id, StargateRepository> {
 
 	@Lazy
 	private final SolarSystemService solarSystemService;
@@ -58,12 +56,12 @@ public class StargateService extends
 	@Override
 	protected Requested<R_get_universe_stargates_stargate_id> fetchData(Integer id, Map<String, String> properties) {
 		Requested<R_get_universe_stargates_stargate_id> ret = ESIRawPublic.INSTANCE
-		    .get_universe_stargates(id, properties);
+				.get_universe_stargates(id, properties);
 		return ret;
 	}
 
 	protected void updateResponseOk(Stargate data, R_get_universe_stargates_stargate_id response,
-	    Map<Integer, SolarSystem> idToSystem, Map<Integer, Type> idToType) {
+			Map<Integer, SolarSystem> idToSystem, Map<Integer, Type> idToType) {
 		data.setDestination(createIfAbsent(response.destination.stargate_id));
 		data.setSolarSystem(idToSystem.get(response.system_id));
 		data.setType(idToType.get(response.type_id));
@@ -73,11 +71,11 @@ public class StargateService extends
 	protected void updateResponseOk(Map<Stargate, R_get_universe_stargates_stargate_id> responseOk) {
 		super.updateResponseOk(responseOk);
 		Map<Integer, SolarSystem> idToSystem = solarSystemService
-		    .createIfAbsent(responseOk.values().stream().map(r -> r.system_id).distinct().toList());
+				.createIfAbsent(responseOk.values().stream().map(r -> r.system_id).distinct().toList());
 		Map<Integer, Type> idToType = typeService
-		    .createIfAbsent(responseOk.values().stream().map(r -> r.type_id).distinct().toList());
+				.createIfAbsent(responseOk.values().stream().map(r -> r.type_id).distinct().toList());
 		responseOk.entrySet().stream()
-		    .forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToSystem, idToType));
+				.forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToSystem, idToType));
 	}
 
 	//
@@ -87,9 +85,9 @@ public class StargateService extends
 
 		public static WarpJumpDist of(Object[] arr) {
 			return new WarpJumpDist(
-			    ((Stargate) arr[0]).getId(),
-			    ((Stargate) arr[1]).getId(),
-			    (double) arr[2]);
+					((Stargate) arr[0]).getId(),
+					((Stargate) arr[1]).getId(),
+					(double) arr[2]);
 		}
 
 		public WarpJumpDist(Station from, Stargate end, double distance) {
@@ -107,8 +105,8 @@ public class StargateService extends
 
 	/**
 	 * @return all the couple of gates (start, end) for which you can start, warp to
-	 *           a third gate, jump it, and arrive at the end ; also contains the
-	 *           distance of the warp, in m
+	 *         a third gate, jump it, and arrive at the end ; also contains the
+	 *         distance of the warp, in m
 	 */
 	@Cacheable("SdeUniverseWJD")
 	public List<WarpJumpDist> warpJumpsG2G(boolean hsOnly) {
@@ -117,32 +115,33 @@ public class StargateService extends
 
 	/**
 	 * @return all the stargates you can arrive to after a warp from the station and
-	 *           a jump through another gate ; also contains the distance of the
-	 *           warp, in m
+	 *         a jump through another gate ; also contains the distance of the
+	 *         warp, in m
 	 */
 	public List<WarpJumpDist> warpJumpsFrom(Station station) {
-		return repo().listWarpJumpFromStation(station.getSolarSystem().getId(),
-		    station.getPosX(),
-		    station.getPosY(),
-		    station.getPosZ()).stream()
-		    .map(arr -> new WarpJumpDist(station, (Stargate) arr[0], (double) arr[1]))
-		    .toList();
+		return repo().listWarpJumpFromStation(
+				station.getSolarSystem().getId(),
+				station.getPosX(),
+				station.getPosY(),
+				station.getPosZ()).stream()
+				.map(arr -> new WarpJumpDist(station, (Stargate) arr[0], (double) arr[1]))
+				.toList();
 	}
 
 	/**
 	 * @return all the stargates in the system of the station ; also contains their
-	 *           distance to the station, in m
+	 *         distance to the station, in m
 	 */
 	public List<WarpDist> warpJumpsTo(Station station) {
 		return repo().listWarpJumpToStation(station.getSolarSystem().getId(),
-		    station.getPosX(),
-		    station.getPosY(),
-		    station.getPosZ()).stream()
-		    .map(arr -> new WarpDist((Stargate) arr[0], station, (double) arr[1]))
-		    .toList();
+				station.getPosX(),
+				station.getPosY(),
+				station.getPosZ()).stream()
+				.map(arr -> new WarpDist((Stargate) arr[0], station, (double) arr[1]))
+				.toList();
 	}
 
-	public static final double AU_IN_M = 149597870691l;
+	public static final double AU_IN_M = 149597870691L;
 
 	/**
 	 * a warp consists in
@@ -180,7 +179,7 @@ public class StargateService extends
 	 *
 	 * @param distance_m     distance to warp over
 	 * @param align_s        ship time to align of the ship (in fitting screen).
-	 *                         Will be rounded up.
+	 *                       Will be rounded up.
 	 * @param warpspeed_uaps warp speed attribute of the ship (in fitting screen)
 	 * @return average time in s to actually perform the warp from standstill point.
 	 */
@@ -210,44 +209,44 @@ public class StargateService extends
 		public static TravelTime from(WarpJumpDist warpJumpDist, double align_s, double warpspeed_aups) {
 			// add 10s for jump
 			return new TravelTime(warpJumpDist.start, warpJumpDist.end,
-			    10 + convertWarpTotime(warpJumpDist.distance(), align_s, warpspeed_aups));
+					10 + convertWarpTotime(warpJumpDist.distance(), align_s, warpspeed_aups));
 		}
 
 		public static TravelTime from(WarpDist warpDist, double align_s, double warpspeed_aups) {
 			return new TravelTime(warpDist.start, warpDist.end,
-			    convertWarpTotime(warpDist.distance(), align_s, warpspeed_aups));
+					convertWarpTotime(warpDist.distance(), align_s, warpspeed_aups));
 		}
 	}
 
 	/**
 	 * @param start          station to include the warp time from towards an out
-	 *                         gate
+	 *                       gate
 	 * @param end            station to include the warp time toward, from each
-	 *                         in-system gate
+	 *                       in-system gate
 	 * @param align_s        time to align, in s
 	 * @param warpspeed_aups ship warp speed, in AU per s
 	 * @param hsOnly         if true, only allow to travel to a stargate when its
-	 *                         system is HS. Does not impact start station, but does
-	 *                         impact end station since its stargates won't be
-	 *                         reachable.
+	 *                       system is HS. Does not impact start station, but does
+	 *                       impact end station since its stargates won't be
+	 *                       reachable.
 	 * @return all the travel times for warp-jump between stargates, including FROM
-	 *           start station as well as direct warp from stargate to end station
+	 *         start station as well as direct warp from stargate to end station
 	 */
 	public List<TravelTime> travelTimes(Station start, Station end, double align_s, double warpspeed_aups,
-	    boolean hsOnly) {
+			boolean hsOnly) {
 		if (start.getSolarSystem().getId() == end.getSolarSystem().getId()) {
 			return List.of(new TravelTime(start.getId(), end.getId(),
-			    convertWarpTotime(
-			        Math.sqrt(Math.pow(start.getPosX() - end.getPosX(), 2)
-			            + Math.pow(start.getPosY() - end.getPosY(), 2)
-			            + Math.pow(start.getPosZ() - end.getPosZ(), 2)),
-			        align_s, warpspeed_aups)));
+					convertWarpTotime(
+							Math.sqrt(Math.pow(start.getPosX() - end.getPosX(), 2)
+									+ Math.pow(start.getPosY() - end.getPosY(), 2)
+									+ Math.pow(start.getPosZ() - end.getPosZ(), 2)),
+							align_s, warpspeed_aups)));
 		}
 		return Stream.of(
-		    warpJumpsFrom(start).stream().map(wjd -> TravelTime.from(wjd, align_s, warpspeed_aups)),
-		    warpJumpsG2G(hsOnly).stream().map(wjd -> TravelTime.from(wjd, align_s, warpspeed_aups)),
-		    warpJumpsTo(end).stream().map(jd -> TravelTime.from(jd, align_s, warpspeed_aups))).flatMap(s -> s)
-		    .toList();
+				warpJumpsFrom(start).stream().map(wjd -> TravelTime.from(wjd, align_s, warpspeed_aups)),
+				warpJumpsG2G(hsOnly).stream().map(wjd -> TravelTime.from(wjd, align_s, warpspeed_aups)),
+				warpJumpsTo(end).stream().map(jd -> TravelTime.from(jd, align_s, warpspeed_aups))).flatMap(s -> s)
+				.toList();
 	}
 
 	static class AStar {
@@ -370,9 +369,9 @@ public class StargateService extends
 	}
 
 	public static record WayPoint(
-	    int targetId,
-	    String targetName,
-	    Duration duration) {
+			int targetId,
+			String targetName,
+			long duration_s) {
 	}
 
 	/**
@@ -386,10 +385,10 @@ public class StargateService extends
 	 * @param warpspeed_aups warp speed, in AU/s, of the ship
 	 * @param hsOnly         when true, only HS stargates are used
 	 * @return the list of system jumps to performs, as well as the jump duration,
-	 *           to reach the station in the fastest way possible
+	 *         to reach the station in the fastest way possible
 	 */
 	public List<WayPoint> travel(Station start, Station end, double align_s, double warpspeed_aups,
-	    boolean hsOnly) {
+			boolean hsOnly) {
 		List<TravelTime> travelTimes = travelTimes(start, end, align_s, warpspeed_aups, hsOnly);
 		log.info("received " + travelTimes.size() + " possible jump info");
 		AStar astar = new AStar();
@@ -401,10 +400,10 @@ public class StargateService extends
 		for (int step : steps) {
 			long duration_s = (long) Math.ceil(astar.distanceDirect(lastPos, step));
 			if (step == end.getId()) {
-				ret.add(new WayPoint(step, end.getName(), Duration.ofSeconds(duration_s)));
+				ret.add(new WayPoint(step, end.getName(), duration_s));
 			} else {
 				SolarSystem ss = repo().findById(step).get().getSolarSystem();
-				ret.add(new WayPoint(ss.getId(), ss.getName(), Duration.ofSeconds(duration_s)));
+				ret.add(new WayPoint(ss.getId(), ss.getName(), duration_s));
 			}
 			lastPos = step;
 		}
