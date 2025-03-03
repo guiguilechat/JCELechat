@@ -4236,3 +4236,13 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  87360:
+    cpumultiplier: 1.0
+    id: 87360
+    marketGroup: 1661
+    mass: 1.0
+    name: Spectral Vision Capture Reward Crate
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0

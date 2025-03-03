@@ -31182,34 +31182,7 @@ id2group:
   85232: blueprint/MercenaryDenBlueprint
   85233: skill/StructureManagement
   85236: ship/BlackOps
-  85237: implant/Booster
-  85238: implant/Booster
-  85239: implant/Booster
   85242: commodity/Miscellaneous
-  85252: implant/Booster
-  85253: implant/Booster
-  85254: implant/Booster
-  85255: implant/Booster
-  85256: implant/Booster
-  85257: implant/Booster
-  85258: implant/Booster
-  85259: implant/Booster
-  85260: implant/Booster
-  85261: implant/Booster
-  85262: implant/Booster
-  85263: implant/Booster
-  85264: implant/Booster
-  85265: implant/Booster
-  85266: implant/Booster
-  85267: implant/Booster
-  85268: implant/Booster
-  85269: implant/Booster
-  85270: implant/Booster
-  85271: implant/Booster
-  85272: implant/Booster
-  85273: implant/Booster
-  85274: implant/Booster
-  85275: implant/Booster
   85279: implant/Booster
   85281: commodity/JumpFilaments
   85282: commodity/JumpFilaments
@@ -31854,6 +31827,21 @@ id2group:
   87333: specialeditionassets/SpecialEditionCommodities
   87353: entity/SpawnContainer
   87354: commodity/Miscellaneous
+  87360: specialeditionassets/SpecialEditionCommodities
+  87374: commodity/Miscellaneous
+  87389: commodity/Miscellaneous
+  87390: commodity/Miscellaneous
+  87391: commodity/Miscellaneous
+  87392: commodity/Miscellaneous
+  87393: commodity/Miscellaneous
+  87519: skins/PermanentSKIN
+  87520: skins/PermanentSKIN
+  87521: skins/PermanentSKIN
+  87522: skins/PermanentSKIN
+  87523: skins/PermanentSKIN
+  87524: skins/PermanentSKIN
+  87525: skins/PermanentSKIN
+  87526: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

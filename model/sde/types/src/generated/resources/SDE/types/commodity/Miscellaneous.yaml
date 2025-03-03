@@ -8975,6 +8975,7 @@ types:
     name: Eradicator Datacore
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -8990,6 +8991,7 @@ types:
     name: Observatory Spectrography
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9005,6 +9007,7 @@ types:
     name: Authority Datacore
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9052,6 +9055,7 @@ types:
     name: Military Stasis Pods
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     published: true
     radius: 1.0
     stasiswebifierresistance: 1.0
@@ -9068,6 +9072,7 @@ types:
     name: Restricted Hyperspace Telemetry
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9083,6 +9088,7 @@ types:
     name: Simulated Baseliner
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9098,6 +9104,7 @@ types:
     name: Unrestricted Hyperspace Telemetry
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E7
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9113,6 +9120,7 @@ types:
     name: Jailer Datacore
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 400000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9128,6 +9136,7 @@ types:
     name: Fragmented Observations
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9143,6 +9152,7 @@ types:
     name: Gleaned Static
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9158,6 +9168,7 @@ types:
     name: Gleaned Correspondence
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9173,6 +9184,7 @@ types:
     name: Gleaned Directive
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E7
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9185,9 +9197,10 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1863
     mass: 1.0
-    name: Modfied Sleeper Corpse
+    name: Modified Sleeper Corpse
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E7
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9203,6 +9216,7 @@ types:
     name: Tekton Forked Packet
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.0E7
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9215,9 +9229,10 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1863
     mass: 1.0
-    name: Braking Point Parameters
+    name: Breaking Point Parameters
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
@@ -9233,6 +9248,103 @@ types:
     name: Beacon Datacore
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.009999999776482582
+  87374:
+    aspectratioheight: 9
+    aspectratiowidth: 16
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87374
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Reconstructed Spectral Vision Matar
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  87389:
+    aspectratioheight: 9
+    aspectratiowidth: 16
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87389
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Reconstructed Spectral Vision Gallente Prime
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  87390:
+    aspectratioheight: 9
+    aspectratiowidth: 16
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87390
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Reconstructed Spectral Vision Torment
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  87391:
+    aspectratioheight: 9
+    aspectratiowidth: 16
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87391
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Reconstructed Spectral Vision Annihilation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  87392:
+    aspectratioheight: 9
+    aspectratiowidth: 16
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87392
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Reconstructed Spectral Vision Amarr
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  87393:
+    aspectratioheight: 9
+    aspectratiowidth: 16
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87393
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Reconstructed Spectral Vision Jita
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612

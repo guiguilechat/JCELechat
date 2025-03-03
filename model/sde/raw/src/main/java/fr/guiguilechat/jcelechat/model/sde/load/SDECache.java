@@ -53,7 +53,7 @@ public class SDECache {
 	}
 
 	private static final String URL_STATIC = "https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/sde.zip";
-	private final static String URL_DYNAMIC = "https://developers.eveonline.com/docs/resources/";
+	private final static String URL_DYNAMIC = "https://developers.eveonline.com/docs/services/sde/";
 
 	/**
 	 * find the url to download the SDE from.
