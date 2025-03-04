@@ -101,7 +101,7 @@ public class SolarSystemSearchRestController {
 		sids2Names.entrySet().stream().sorted(Comparator.comparing(Entry::getValue))
 				.forEach(e -> sortedSId2Name.put(e.getKey(), e.getValue()));
 		List<Entry<Integer, String>> idNameList = sortedSId2Name.entrySet().stream().toList();
-		Color bgColor = theme.backgGroundColor();
+		Color bgColor = theme.backGroundColor();
 		Color textColor = theme.textColor();
 
 		XYPlot plot = new XYPlot();
@@ -145,8 +145,8 @@ public class SolarSystemSearchRestController {
 					series.add(period, value.activity());
 				}
 				leftCollection.addSeries(series);
-				leftRenderer.setSeriesLinesVisible(leftCollection.getSeriesCount() - 1, false);
-				leftRenderer.setSeriesShapesVisible(leftCollection.getSeriesCount() - 1, true);
+				leftRenderer.setSeriesLinesVisible(leftCollection.getSeriesCount() - 1, true);
+				leftRenderer.setSeriesShapesVisible(leftCollection.getSeriesCount() - 1, false);
 			}
 		}
 

@@ -250,7 +250,7 @@ public class MarketHistoryRestController {
 	private JFreeChart drawJFreeChart(List<AggregatedHL> sortedData, Optional<List<Integer>> averageDays, String title,
 			String quantityUnit,
 			ChartTheme theme) {
-		Color bgColor = theme.backgGroundColor();
+		Color bgColor = theme.backGroundColor();
 		Color textColor = theme.textColor();
 		List<Integer> requestedCumulatedDays = averageDays.orElse(DEFAULT_AVERAGE_DAYS);
 		// first color is for immediate, next colors are for cumulated

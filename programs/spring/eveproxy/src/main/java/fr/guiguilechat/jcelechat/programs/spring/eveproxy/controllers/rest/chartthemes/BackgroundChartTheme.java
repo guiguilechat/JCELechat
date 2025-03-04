@@ -17,17 +17,20 @@ import lombok.experimental.Accessors;
 @Getter
 public class BackgroundChartTheme implements ChartTheme {
 
-	@Getter(lazy = true)
-	private final float hue = hsb(backgGroundColor)[0];
+	private final Color baseColor;
 
+	@Getter(lazy = true)
+	private final float hue = hsb(baseColor)[0];
+
+	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final Color backgGroundColor;
+	private final Color backGroundColor = lowerSaturation(getBaseColor(), .15f);
 
 	@Override
 	public List<Color> firstAxisColor(int nbSeries) {
 		float removedHueAngle = 0.15f;
 		float[] hsb = new float[3];
-		float[] bgHSB = hsb(backgGroundColor());
+		float[] bgHSB = hsb(backGroundColor());
 		hsb[1]=1.0f;
 		float baseHue = rotate(bgHSB[0], removedHueAngle);
 		float anglePerColor = (1f - 2 * removedHueAngle) / (nbSeries + 1);
@@ -60,7 +63,7 @@ public class BackgroundChartTheme implements ChartTheme {
 
 	@Override
 	public Color textColor() {
-		float[] hsb = hsb(backgGroundColor());
+		float[] hsb = hsb(backGroundColor());
 		flipHue(hsb);
 		hsb[1] = 1f;
 		opposeBrightness(hsb);
@@ -109,7 +112,13 @@ public class BackgroundChartTheme implements ChartTheme {
 	}
 
 	protected void opposeBrightness(float[] hsb) {
-		hsb[2] = hsb[2] < .7f ? 1f : hsb[2] - .3f;
+		hsb[2] = hsb[2] < .6f ? 1f : 0f;
+	}
+
+	protected Color lowerSaturation(Color color, float maxSaturation) {
+		float[] hsb = hsb(color);
+		hsb[1] = Math.min(hsb[1], maxSaturation);
+		return rgb(hsb);
 	}
 
 	public static BackgroundChartTheme forName(String name) {

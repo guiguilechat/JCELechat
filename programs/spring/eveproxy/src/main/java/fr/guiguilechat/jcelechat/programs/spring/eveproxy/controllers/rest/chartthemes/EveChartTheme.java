@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
 public class EveChartTheme implements ChartTheme {
 
 	@Accessors(fluent = true)
-	private final Color backgGroundColor;
+	private final Color backGroundColor;
 
 	public EveChartTheme(int red, int green, int blue) {
 		this(new Color(red, green, blue));

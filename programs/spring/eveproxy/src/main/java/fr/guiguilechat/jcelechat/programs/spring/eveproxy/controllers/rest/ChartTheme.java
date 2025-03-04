@@ -22,7 +22,7 @@ public interface ChartTheme {
 	 */
 	List<Color> secondAxisColor(int nbSeries);
 
-	Color backgGroundColor();
+	Color backGroundColor();
 
 	Color textColor();
 
