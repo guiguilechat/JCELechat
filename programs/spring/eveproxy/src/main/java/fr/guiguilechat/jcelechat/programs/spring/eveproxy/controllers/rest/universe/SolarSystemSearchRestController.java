@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -58,17 +59,19 @@ public class SolarSystemSearchRestController {
 
 	private static final int DEFAULT_DAYS = 30;
 
-	@GetMapping("/stats/name/{selector}/chart/{aggreg}")
+	@GetMapping("/stats/name/{selector}/chart")
 	public void chartActivityName(
 			@PathVariable SystemSelectorName selector,
-			@PathVariable @Parameter(description = "period to aggregte activity over") DateAggregation aggreg,
 			HttpServletResponse response,
 			@RequestParam Optional<SystemActivity> left,
 			@RequestParam Optional<SystemActivity> right,
 			@RequestParam List<String> names,
 			@RequestParam Optional<Integer> days,
 			@RequestParam @Parameter(description = "theme to use for the chart color. Can be a number (0x123, 547 , etc) or a racial style(from the game styling)") Optional<String> theme,
-			@RequestParam Optional<String> accept)
+			@RequestParam Optional<String> accept,
+			@RequestParam Optional<DateAggregation> aggregate,
+			@RequestParam Optional<Integer> w,
+			@RequestParam Optional<Integer> h)
 			throws IOException {
 
 		if ((left == null || left.isEmpty()) && (right == null || right.isEmpty())) {
@@ -77,6 +80,9 @@ public class SolarSystemSearchRestController {
 		List<Integer> sids = solarSystemService.selectNames(selector, names);
 		Map<Integer, String> sids2Names = solarSystemService.namesForIds(sids);
 		Instant since = RestControllerHelper.since(days, DEFAULT_DAYS);
+		DateAggregation aggreg = aggregate != null && aggregate.isPresent() ? aggregate.get()
+				: deduceAggregation(ChronoUnit.HOURS.between(since, Instant.now()),
+				sids.size());
 		Map<Integer, List<SystemDateActivity>> leftValues = null;
 		if (left.isPresent()) {
 			leftValues = systemStatisticsService.activities(sids, left.get(), aggreg, since);
@@ -85,9 +91,26 @@ public class SolarSystemSearchRestController {
 		if (right.isPresent()) {
 			rightValues = systemStatisticsService.activities(sids, right.get(), aggreg, since);
 		}
-		ChartTheme ct = ChartTheme.forName(theme.orElse(null));
+		ChartTheme ct = ChartTheme.forName(theme);
 		JFreeChart chart = drawActivityChart(sids2Names, left, leftValues, right, rightValues, ct, aggreg);
-		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
+		RestControllerHelper.addResponseJFreeChart(response, chart, accept,
+				w == null || w.isEmpty() ? 2000 : w.get(),
+				h == null || h.isEmpty() ? 1000 : h.get());
+	}
+
+	private DateAggregation deduceAggregation(long hours, int systems) {
+		long hourlyPoints = hours * systems;
+		long targetPoints = 500;
+		if (hourlyPoints <= targetPoints) {
+			return DateAggregation.hourly;
+		}
+		if (hourlyPoints <= targetPoints * 24) {
+			return DateAggregation.daily;
+		}
+		if (hourlyPoints <= targetPoints * 24 * 7) {
+			return DateAggregation.weekly;
+		}
+		return DateAggregation.monthly;
 	}
 
 	private JFreeChart drawActivityChart(Map<Integer, String> sids2Names,
@@ -146,20 +169,21 @@ public class SolarSystemSearchRestController {
 				}
 				leftCollection.addSeries(series);
 				leftRenderer.setSeriesLinesVisible(leftCollection.getSeriesCount() - 1, true);
-				leftRenderer.setSeriesShapesVisible(leftCollection.getSeriesCount() - 1, false);
+				leftRenderer.setSeriesShapesVisible(leftCollection.getSeriesCount() - 1, true);
 			}
 		}
 
 		if (right != null && right.isPresent()) {
 			SystemActivity rightActivity = right.get();
 			List<Color> rightColors = theme.secondAxisColor(sids2Names.size());
-
+			boolean flipDirection = left != null && left.isPresent() && idNameList.size() > 3;
 			XYBarRenderer rightRenderer = new ClusteredXYBarRenderer();
 			rightRenderer.setBarPainter(new StandardXYBarPainter());
 			rightRenderer.setShadowVisible(false);
 			rightRenderer.setMargin(0.1);
 			plot.setRenderer(1, rightRenderer);
 			NumberAxis rightAxis = new NumberAxis(rightActivity.name());
+			rightAxis.setInverted(flipDirection);
 			rightAxis.setNumberFormatOverride(RestControllerHelper.NUMBER_FORMAT_PRICES);
 			rightAxis.setTickLabelPaint(textColor);
 			rightAxis.setLabelPaint(textColor);

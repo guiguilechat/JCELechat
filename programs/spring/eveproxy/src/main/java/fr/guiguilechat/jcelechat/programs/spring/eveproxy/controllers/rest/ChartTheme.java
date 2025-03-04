@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest;
 
 import java.awt.Color;
 import java.util.List;
+import java.util.Optional;
 
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.chartthemes.BackgroundChartTheme;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.chartthemes.EveChartTheme;
@@ -32,6 +33,10 @@ public interface ChartTheme {
 			return ret;
 		}
 		return EveChartTheme.forName(name);
+	}
+
+	static ChartTheme forName(Optional<String> name) {
+		return forName(name == null ? null : name.get());
 	}
 
 }

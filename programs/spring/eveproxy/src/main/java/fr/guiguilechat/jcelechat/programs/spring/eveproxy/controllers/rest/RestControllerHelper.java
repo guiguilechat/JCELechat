@@ -82,7 +82,7 @@ public class RestControllerHelper {
 		case "png":
 		default:
 			response.setContentType(MediaType.IMAGE_PNG_VALUE);
-			ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(2000, 1000));
+			ChartUtils.writeBufferedImageAsPNG(response.getOutputStream(), chart.createBufferedImage(width, height));
 		}
 	}
 

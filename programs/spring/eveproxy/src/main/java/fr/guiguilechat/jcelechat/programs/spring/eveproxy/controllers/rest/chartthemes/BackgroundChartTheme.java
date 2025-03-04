@@ -28,7 +28,7 @@ public class BackgroundChartTheme implements ChartTheme {
 
 	@Override
 	public List<Color> firstAxisColor(int nbSeries) {
-		float removedHueAngle = 0.15f;
+		float removedHueAngle = 0.1f;
 		float[] hsb = new float[3];
 		float[] bgHSB = hsb(backGroundColor());
 		hsb[1]=1.0f;
@@ -44,7 +44,7 @@ public class BackgroundChartTheme implements ChartTheme {
 			// saturation is base -0 -a -2a -0 -a -2a etc.
 			hsb[1] = baseSaturation - .05f * (i % 3);
 			// remove some brightness every odd index
-			hsb[2] = baseBrightness * (1f - .05f * (i % 2));
+			hsb[2] = baseBrightness * (1f - .15f * (i % 2));
 			return rgb(hsb, 200);
 		}).toList();
 	}
