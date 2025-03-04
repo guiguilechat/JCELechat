@@ -96,6 +96,7 @@ public class SolarSystemSearchRestController {
 		RestControllerHelper.addResponseJFreeChart(response, chart, accept,
 				w == null || w.isEmpty() ? 2000 : w.get(),
 				h == null || h.isEmpty() ? 1000 : h.get());
+		RestControllerHelper.setResponseTitle(response, chart.getTitle().getText());
 	}
 
 	private DateAggregation deduceAggregation(long hours, int systems) {

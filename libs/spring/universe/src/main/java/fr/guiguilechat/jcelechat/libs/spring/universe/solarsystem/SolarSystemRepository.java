@@ -37,7 +37,7 @@ select
 from
 	#{#entityName} ss
 where
-	lower(ss.constellation.region.name) in :regionName
+	lower(ss.constellation.region.name) in :regionNames
 	and ss.securityStatus>=:minSS
 	and ss.securityStatus<=:maxSS
 """)
