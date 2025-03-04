@@ -1,6 +1,8 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe;
 
+import java.awt.Color;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
@@ -10,6 +12,17 @@ import java.util.Map.Entry;
 import java.util.Optional;
 
 import org.jfree.chart.JFreeChart;
+import org.jfree.chart.axis.DateAxis;
+import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.ClusteredXYBarRenderer;
+import org.jfree.chart.renderer.xy.StandardXYBarPainter;
+import org.jfree.chart.renderer.xy.XYBarRenderer;
+import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+import org.jfree.chart.ui.RectangleEdge;
+import org.jfree.data.time.RegularTimePeriod;
+import org.jfree.data.time.TimeSeries;
+import org.jfree.data.time.TimeSeriesCollection;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,6 +39,7 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemStatisticsService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.ChartTheme;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import io.swagger.v3.oas.annotations.Operation;
@@ -44,14 +58,16 @@ public class SolarSystemSearchRestController {
 
 	private static final int DEFAULT_DAYS = 30;
 
-	@GetMapping("/stats/name/{selector}/chart")
+	@GetMapping("/stats/name/{selector}/chart/{aggreg}")
 	public void chartActivityName(
 			@PathVariable SystemSelectorName selector,
+			@PathVariable @Parameter(description = "period to aggregte activity over") DateAggregation aggreg,
 			HttpServletResponse response,
 			@RequestParam Optional<SystemActivity> left,
 			@RequestParam Optional<SystemActivity> right,
 			@RequestParam List<String> names,
 			@RequestParam Optional<Integer> days,
+			@RequestParam @Parameter(description = "theme to use for the chart color. Can be a number (0x123, 547 , etc) or a racial style(from the game styling)") Optional<String> theme,
 			@RequestParam Optional<String> accept)
 			throws IOException {
 
@@ -63,13 +79,14 @@ public class SolarSystemSearchRestController {
 		Instant since = RestControllerHelper.since(days, DEFAULT_DAYS);
 		Map<Integer, List<SystemDateActivity>> leftValues = null;
 		if (left.isPresent()) {
-			leftValues = systemStatisticsService.activities(sids, left.get(), DateAggregation.hourly, since);
+			leftValues = systemStatisticsService.activities(sids, left.get(), aggreg, since);
 		}
 		Map<Integer, List<SystemDateActivity>> rightValues = null;
 		if (right.isPresent()) {
-			rightValues = systemStatisticsService.activities(sids, right.get(), DateAggregation.hourly, since);
+			rightValues = systemStatisticsService.activities(sids, right.get(), aggreg, since);
 		}
-		JFreeChart chart = drawActivityChart(sids2Names, left, leftValues, right, rightValues);
+		ChartTheme ct = ChartTheme.forName(theme.orElse(null));
+		JFreeChart chart = drawActivityChart(sids2Names, left, leftValues, right, rightValues, ct, aggreg);
 		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
 	}
 
@@ -77,12 +94,123 @@ public class SolarSystemSearchRestController {
 			Optional<SystemActivity> left,
 			Map<Integer, List<SystemDateActivity>> leftValues,
 			Optional<SystemActivity> right,
-			Map<Integer, List<SystemDateActivity>> rightValues) {
+			Map<Integer, List<SystemDateActivity>> rightValues,
+			ChartTheme theme,
+			DateAggregation aggreg) {
 		LinkedHashMap<Integer, String> sortedSId2Name = new LinkedHashMap<>();
 		sids2Names.entrySet().stream().sorted(Comparator.comparing(Entry::getValue))
 				.forEach(e -> sortedSId2Name.put(e.getKey(), e.getValue()));
+		List<Entry<Integer, String>> idNameList = sortedSId2Name.entrySet().stream().toList();
+		Color bgColor = theme.backgGroundColor();
+		Color textColor = theme.textColor();
 
-		return null;
+		XYPlot plot = new XYPlot();
+		plot.setBackgroundPaint(bgColor);
+		DateAxis timeAxis = new DateAxis(null);
+		timeAxis.setDateFormatOverride(new SimpleDateFormat("YY-MM-dd"));
+		timeAxis.setTickLabelPaint(textColor);
+		timeAxis.setLabelPaint(textColor);
+		timeAxis.setLowerMargin(0.02);
+		timeAxis.setUpperMargin(0.01);
+		plot.setDomainAxis(timeAxis);
+
+		if (left != null && left.isPresent()) {
+			SystemActivity leftActivity = left.get();
+			List<Color> leftColors = theme.firstAxisColor(sids2Names.size());
+
+			XYLineAndShapeRenderer leftRenderer = new XYLineAndShapeRenderer(false, true);
+			plot.setRenderer(0, leftRenderer);
+			NumberAxis leftAxis = new NumberAxis(leftActivity.name());
+			leftAxis.setNumberFormatOverride(RestControllerHelper.NUMBER_FORMAT_PRICES);
+			leftAxis.setTickLabelPaint(textColor);
+			leftAxis.setLabelPaint(textColor);
+			plot.setRangeAxis(0, leftAxis);
+			TimeSeriesCollection leftCollection = new TimeSeriesCollection();
+			plot.setDataset(0, leftCollection);
+			plot.mapDatasetToRangeAxis(0, 0);
+			for (int seriesIndex = 0; seriesIndex < idNameList.size(); seriesIndex++) {
+				if (seriesIndex >= leftColors.size()) {
+					continue;
+				}
+				int sysId = idNameList.get(seriesIndex).getKey();
+				List<SystemDateActivity> values = leftValues.get(sysId);
+				if (values == null) {
+					continue;
+				}
+				String sysName = idNameList.get(seriesIndex).getValue();
+				TimeSeries series = new TimeSeries(leftActivity.name() + " " + sysName);
+				leftRenderer.setSeriesPaint(seriesIndex, leftColors.get(seriesIndex));
+				for (SystemDateActivity value : values) {
+					RegularTimePeriod period = RestControllerHelper.convert(aggreg, value.date());
+					series.add(period, value.activity());
+				}
+				leftCollection.addSeries(series);
+				leftRenderer.setSeriesLinesVisible(leftCollection.getSeriesCount() - 1, false);
+				leftRenderer.setSeriesShapesVisible(leftCollection.getSeriesCount() - 1, true);
+			}
+		}
+
+		if (right != null && right.isPresent()) {
+			SystemActivity rightActivity = right.get();
+			List<Color> rightColors = theme.secondAxisColor(sids2Names.size());
+
+			XYBarRenderer rightRenderer = new ClusteredXYBarRenderer();
+			rightRenderer.setBarPainter(new StandardXYBarPainter());
+			rightRenderer.setShadowVisible(false);
+			rightRenderer.setMargin(0.1);
+			plot.setRenderer(1, rightRenderer);
+			NumberAxis rightAxis = new NumberAxis(rightActivity.name());
+			rightAxis.setNumberFormatOverride(RestControllerHelper.NUMBER_FORMAT_PRICES);
+			rightAxis.setTickLabelPaint(textColor);
+			rightAxis.setLabelPaint(textColor);
+			plot.setRangeAxis(1, rightAxis);
+			TimeSeriesCollection rightCollection = new TimeSeriesCollection();
+			plot.setDataset(1, rightCollection);
+			plot.mapDatasetToRangeAxis(1, 1);
+			for (int seriesIndex = 0; seriesIndex < idNameList.size(); seriesIndex++) {
+				if (seriesIndex >= rightColors.size()) {
+					continue;
+				}
+				int sysId = idNameList.get(seriesIndex).getKey();
+				List<SystemDateActivity> values = rightValues.get(sysId);
+				if (values == null) {
+					continue;
+				}
+				String sysName = idNameList.get(seriesIndex).getValue();
+				TimeSeries series = new TimeSeries(rightActivity.name() + " " + sysName);
+				rightRenderer.setSeriesPaint(seriesIndex, rightColors.get(seriesIndex));
+				for (SystemDateActivity value : values) {
+					RegularTimePeriod period = RestControllerHelper.convert(aggreg, value.date());
+					series.add(period, value.activity());
+				}
+				rightCollection.addSeries(series);
+			}
+		}
+
+		JFreeChart chart = new JFreeChart(makeTitle(left, right, aggreg), JFreeChart.DEFAULT_TITLE_FONT,
+				plot, true);
+		chart.setBackgroundPaint(bgColor);
+		chart.getTitle().setPaint(textColor);
+		chart.getLegend().setItemPaint(textColor);
+		chart.getLegend().setBackgroundPaint(bgColor);
+		chart.getLegend().setPosition(RectangleEdge.TOP);
+
+		return chart;
+	}
+
+	protected String makeTitle(
+			Optional<SystemActivity> left,
+			Optional<SystemActivity> right,
+			DateAggregation aggreg) {
+		String ret = "";
+		if (left != null && left.isPresent()) {
+			ret = left.get().name();
+		}
+		if (right != null && right.isPresent()) {
+			ret = (ret == null ? "" : ret + ", ") + right.get().name();
+		}
+		ret += " aggregated " + aggreg.name();
+		return ret;
 	}
 
 	@Operation(summary = "search activity by names", description = "list aggregated activities for an activity type and searched systems")

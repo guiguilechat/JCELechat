@@ -13,12 +13,12 @@ import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.chart
 public interface ChartTheme {
 
 	/**
-	 * @return (1+ nb series) colors to paint the first axis
+	 * @return nb series colors to paint the first axis
 	 */
 	List<Color> firstAxisColor(int nbSeries);
 
 	/**
-	 * @return (1+ nb series) colors to paint the 2nd axis
+	 * @return nb series colors to paint the 2nd axis
 	 */
 	List<Color> secondAxisColor(int nbSeries);
 

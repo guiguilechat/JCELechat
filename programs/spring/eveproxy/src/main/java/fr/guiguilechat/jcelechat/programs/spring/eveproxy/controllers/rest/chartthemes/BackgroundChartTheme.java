@@ -30,12 +30,12 @@ public class BackgroundChartTheme implements ChartTheme {
 		float[] bgHSB = hsb(backgGroundColor());
 		hsb[1]=1.0f;
 		float baseHue = rotate(bgHSB[0], removedHueAngle);
-		float anglePerColor = (1f - 2 * removedHueAngle) / (nbSeries + 2);
+		float anglePerColor = (1f - 2 * removedHueAngle) / (nbSeries + 1);
 		float baseSaturation = 1f;
 		float baseBrightness = Math.min(1f, bgHSB[2] + .6f);
 //		System.err.println("base brightness is " + baseBrightness + " from bg " + bgHSB[2]);
 //		System.err.println("base hue is " + baseHue + " from bg " + bgHSB[0]);
-		return IntStream.rangeClosed(0, nbSeries).mapToObj(i -> {
+		return IntStream.range(0, nbSeries).mapToObj(i -> {
 			hsb[0] = rotate(baseHue, anglePerColor * (1 + i));
 //			System.err.println("hue " + i + "=" + hsb[0]);
 			// saturation is base -0 -a -2a -0 -a -2a etc.

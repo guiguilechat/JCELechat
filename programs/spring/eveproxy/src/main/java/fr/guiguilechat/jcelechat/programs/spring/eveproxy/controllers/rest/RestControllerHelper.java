@@ -5,13 +5,20 @@ import java.io.IOException;
 import java.text.FieldPosition;
 import java.text.NumberFormat;
 import java.time.Instant;
+import java.time.OffsetDateTime;
 import java.time.temporal.ChronoUnit;
+import java.util.Date;
 import java.util.Optional;
 
 import org.jfree.chart.ChartUtils;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.util.HexNumberFormat;
+import org.jfree.data.time.Day;
+import org.jfree.data.time.Hour;
+import org.jfree.data.time.Month;
+import org.jfree.data.time.RegularTimePeriod;
+import org.jfree.data.time.Week;
 import org.knowm.xchart.BitmapEncoder;
 import org.knowm.xchart.BitmapEncoder.BitmapFormat;
 import org.knowm.xchart.internal.chartpart.Chart;
@@ -20,6 +27,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.YamlMessageConverter;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.servlet.http.HttpServletResponse;
@@ -120,13 +128,24 @@ public class RestControllerHelper {
 	public static Instant since(Optional<Integer> days, int defaultDays) {
 		return since(days == null || days.isEmpty() ? defaultDays : days.get());
 	}
-	
+
 	public static Instant since(int days) {
 		if (days < 0) {
 			days=0;
 		}
 		return Instant.now().truncatedTo(ChronoUnit.DAYS).minus(days, ChronoUnit.DAYS);
-		
+
+	}
+
+	public static RegularTimePeriod convert(DateAggregation aggreg, OffsetDateTime date) {
+		return switch (aggreg) {
+		case hourly -> new Hour(Date.from(date.toInstant()));
+		case daily -> new Day(Date.from(date.toInstant()));
+		case weekly -> new Week(Date.from(date.toInstant()));
+		case monthly -> new Month(Date.from(date.toInstant()));
+		default ->
+			throw new IllegalArgumentException("Unexpected value: " + aggreg);
+		};
 	}
 
 }
