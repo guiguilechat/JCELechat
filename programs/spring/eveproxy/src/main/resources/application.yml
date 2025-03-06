@@ -48,6 +48,10 @@ esi:
          update:
             skip: false
    universe:
+      constellation:
+         update:
+            delayUpdated: 3600
+            skip: false
       region:
          update:
             delayUpdated: 3600
@@ -58,8 +62,6 @@ esi:
          moons: false
          update:
             delayUpdated: 3600
-            skip: false
-         list:
             skip: false
       station:
          update:

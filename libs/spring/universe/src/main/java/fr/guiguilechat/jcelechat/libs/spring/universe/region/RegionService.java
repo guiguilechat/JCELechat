@@ -50,18 +50,6 @@ public class RegionService
 		return p -> ESIRawPublic.INSTANCE.get_universe_regions(p).mapBody(List::of);
 	}
 
-	public Map<Integer, String> namesById() {
-		return repo().findAll().stream().collect(Collectors.toMap(Region::getId, Region::name));
-	}
-
-	public List<Region> byName(String name) {
-		return repo().findByNameEqualsIgnoreCase(name);
-	}
-
-	public List<Region> byUniverse(String universe) {
-		return repo().findByUniverse(universe);
-	}
-
 	protected int nbRegionsLoaded;
 
 	@Override
@@ -90,6 +78,34 @@ public class RegionService
 	@Override
 	public void afterSdeUpdate() {
 		log.info("updated {} regions", nbRegionsLoaded);
+	}
+
+	//
+	// usage
+	//
+
+	public Map<Integer, String> namesById() {
+		return repo().findAll().stream().collect(Collectors.toMap(Region::getId, Region::name));
+	}
+
+	public List<Region> byName(String name) {
+		return repo().findByNameEqualsIgnoreCase(name);
+	}
+
+	public List<Region> byUniverse(String universe) {
+		return repo().findByUniverse(universe);
+	}
+
+	public List<String> listUniverses() {
+		return repo().listUniverses();
+	}
+
+	public List<Integer> listIdsByUniverse(String universe) {
+		return repo().listIdsByUniverse(universe);
+	}
+
+	public List<Integer> listIds() {
+		return repo().listIds();
 	}
 
 }

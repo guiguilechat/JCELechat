@@ -62,4 +62,20 @@ public class ConstellationService
 		responseOk.entrySet().stream().forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToRegion));
 	}
 
+	//
+	// usage
+	//
+
+	public List<Integer> listIdsByUniverse(String universe) {
+		return repo().listIdsByUniverse(universe);
+	}
+
+	public List<Integer> listIdsByRegionId(int regionId) {
+		return repo().listIdsByRegionId(regionId);
+	}
+
+	public List<Integer> listIds() {
+		return repo().listIds();
+	}
+
 }

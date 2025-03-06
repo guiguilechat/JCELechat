@@ -125,7 +125,7 @@ public class RestControllerHelper {
 	 * @return the instant start of X days before, with X being provided in the
 	 *         optional or defaulting to the param, then being floored by 0 ;
 	 */
-	public static Instant since(Optional<Integer> days, int defaultDays) {
+	public static Instant sinceDefault(Optional<Integer> days, int defaultDays) {
 		return since(days == null || days.isEmpty() ? defaultDays : days.get());
 	}
 

@@ -266,6 +266,10 @@ public class SolarSystemService extends
 		return repo().adjacent(source);
 	}
 
+	public List<Integer> adjacentIds(int solarSystemId) {
+		return repo().adjacentIds(solarSystemId);
+	}
+
 	public Map<Integer, String> namesForIds(Iterable<Integer> systemIds) {
 		return repo().findAllById(systemIds).stream().collect(Collectors.toMap(SolarSystem::getId, SolarSystem::name));
 	}
@@ -276,6 +280,26 @@ public class SolarSystemService extends
 
 	public List<Integer> selectIds(SystemSelectorId ssi, Iterable<Integer> ids) {
 		return ssi.apply(repo(), ids);
+	}
+
+	public List<Integer> listIds() {
+		return repo().listIds();
+	}
+
+	public List<Integer> listIdsBySecurityBetween(float minSec, float maxSec) {
+		return repo().listIdsBySecurityBetween(minSec, maxSec);
+	}
+
+	public List<Integer> listIdsByUniverse(String universe) {
+		return repo().listIdsByUniverse(universe);
+	}
+
+	public List<Integer> listIdsByRegionId(int regionId) {
+		return repo().listIdsByRegionId(regionId);
+	}
+
+	public List<Integer> listIdsByConstellationId(int constellationId) {
+		return repo().listIdsByConstellationId(constellationId);
 	}
 
 }

@@ -15,7 +15,18 @@ from
 	EsiUniverseStargate sg
 where
 	sg.solarSystem=:source
-""") List<SolarSystem> adjacent(SolarSystem source);
+""")
+	List<SolarSystem> adjacent(SolarSystem source);
+
+	@Query("""
+select
+	sg.destination.solarSystem.id
+from
+	EsiUniverseStargate sg
+where
+	sg.solarSystem.id=:sourceId
+""")
+	List<Integer> adjacentIds(int sourceId);
 
 	List<SolarSystem> findByNameEqualsIgnoreCase(String name);
 
@@ -78,5 +89,54 @@ where
 	and ss.securityStatus<=:maxSS
 """)
 	List<Integer> idByConstellationIdIn(Iterable<Integer> constellationIds, float minSS, float maxSS);
+
+	@Query("""
+select
+	ss.id
+from
+	#{#entityName} ss
+""")
+	List<Integer> listIds();
+
+	@Query("""
+select
+	ss.id
+from
+	#{#entityName} ss
+where
+	ss.securityStatus>=:minSec
+	and ss.securityStatus<=:maxSec
+""")
+	List<Integer> listIdsBySecurityBetween(float minSec, float maxSec);
+
+	@Query("""
+select
+	ss.id
+from
+	#{#entityName} ss
+where
+	ss.constellation.region.universe=:universe
+""")
+	List<Integer> listIdsByUniverse(String universe);
+
+	@Query("""
+select
+	ss.id
+from
+	#{#entityName} ss
+where
+	ss.constellation.region.id=:regionId
+""")
+	List<Integer> listIdsByRegionId(int regionId);
+
+	@Query("""
+select
+	ss.id
+from
+	#{#entityName} ss
+where
+	ss.constellation.id=:constellationId
+""")
+	List<Integer> listIdsByConstellationId(int constellationId);
 
 }

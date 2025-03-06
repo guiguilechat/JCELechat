@@ -51,7 +51,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/universe/solarsystem/search")
 @RequiredArgsConstructor
-public class SolarSystemSearchRestController {
+public class SolarsystemSearchRestController {
 
 	final private SolarSystemService solarSystemService;
 
@@ -79,7 +79,7 @@ public class SolarSystemSearchRestController {
 		}
 		List<Integer> sids = solarSystemService.selectNames(selector, names);
 		Map<Integer, String> sids2Names = solarSystemService.namesForIds(sids);
-		Instant since = RestControllerHelper.since(days, DEFAULT_DAYS);
+		Instant since = RestControllerHelper.sinceDefault(days, DEFAULT_DAYS);
 		DateAggregation aggreg = aggregate != null && aggregate.isPresent() ? aggregate.get()
 				: deduceAggregation(ChronoUnit.HOURS.between(since, Instant.now()),
 				sids.size());
@@ -212,7 +212,7 @@ public class SolarSystemSearchRestController {
 			}
 		}
 
-		JFreeChart chart = new JFreeChart(makeTitle(left, right, aggreg), JFreeChart.DEFAULT_TITLE_FONT,
+		JFreeChart chart = new JFreeChart(makeChartTitle(left, right, aggreg), JFreeChart.DEFAULT_TITLE_FONT,
 				plot, true);
 		chart.setBackgroundPaint(bgColor);
 		chart.getTitle().setPaint(textColor);
@@ -223,7 +223,7 @@ public class SolarSystemSearchRestController {
 		return chart;
 	}
 
-	protected String makeTitle(
+	protected String makeChartTitle(
 			Optional<SystemActivity> left,
 			Optional<SystemActivity> right,
 			DateAggregation aggreg) {
@@ -241,7 +241,7 @@ public class SolarSystemSearchRestController {
 	@Operation(summary = "search activity by names", description = "list aggregated activities for an activity type and searched systems")
 	@GetMapping("/name/{selector}/stats/{activity}/{aggreg}")
 	public ResponseEntity<List<SystemDateActivity>> groupActivityNames(
-			@PathVariable @Parameter(description = "name to ids function") SystemSelectorName selector,
+			@PathVariable @Parameter(description = "how to deduce system ids from a name") SystemSelectorName selector,
 			@PathVariable @Parameter(description = "selected activity") SystemActivity activity,
 			@PathVariable @Parameter(description = "period to aggregte activity over") DateAggregation aggreg,
 			@RequestParam @Parameter(description = "(comma separated) names to transform into system ids. Example : jita,Amarr,doDixiE") List<String> names,
@@ -252,14 +252,14 @@ public class SolarSystemSearchRestController {
 						solarSystemService.selectNames(selector, names),
 						activity,
 						aggreg,
-						RestControllerHelper.since(days, 30)),
+						RestControllerHelper.sinceDefault(days, 30)),
 				accept);
 	}
 
 	@Operation(summary = "search activity by ids", description = "list aggregated activities for an activity type and searched systems")
 	@GetMapping("/id/{selector}/stats/{activity}/{aggreg}")
 	public ResponseEntity<List<SystemDateActivity>> groupActivityIds(
-			@PathVariable @Parameter(description = "id to ids function") SystemSelectorId selector,
+			@PathVariable @Parameter(description = "how to deduce system ids from an id") SystemSelectorId selector,
 			@PathVariable @Parameter(description = "selected activity") SystemActivity activity,
 			@PathVariable @Parameter(description = "period to aggregte activity over") DateAggregation aggreg,
 			@RequestParam @Parameter(description = "(comma separated) ids to transform into system ids") List<Integer> ids,
@@ -270,7 +270,7 @@ public class SolarSystemSearchRestController {
 						solarSystemService.selectIds(selector, ids),
 						activity,
 						aggreg,
-						RestControllerHelper.since(days, 30)),
+						RestControllerHelper.sinceDefault(days, 30)),
 				accept);
 	}
 
