@@ -37,15 +37,26 @@ public class SystemStatisticsService {
 		default ->
 			throw new IllegalArgumentException("Unexpected value: " + activityType);
 		};
-
 	}
 
-	public Map<Integer, List<SystemDateActivity>> activities(Iterable<Integer> solarSystemIds,
+	public Map<Integer, List<SystemDateActivity>> activities(
+			Iterable<Integer> solarSystemIds,
 			SystemActivity activityType,
 			DateAggregation aggregation,
 			Instant since) {
 		return groupActivities(solarSystemIds, activityType, aggregation, since).stream()
 				.collect(Collectors.groupingBy(SystemDateActivity::sysId));
+	}
+
+	public List<DateActivity> activities(int solarSystemId, SystemActivity activityType, Instant since) {
+		return switch (activityType) {
+		case SystemActivity.jumps -> systemJumpsService.listJumps(solarSystemId, since);
+		case SystemActivity.podkills -> systemKillsService.listPodKills(solarSystemId, since);
+		case SystemActivity.npckills -> systemKillsService.listNpcKills(solarSystemId, since);
+		case SystemActivity.shipkills -> systemKillsService.listShipKills(solarSystemId, since);
+		default ->
+			throw new IllegalArgumentException("Unexpected value: " + activityType);
+		};
 	}
 
 }

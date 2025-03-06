@@ -15,6 +15,7 @@ import org.springframework.web.server.ResponseStatusException;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SecFilter;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
@@ -74,8 +75,23 @@ public class SolarsystemRestController {
 		return RestControllerHelper.makeResponse(solarSystemService.adjacentIds(solarSystemId), accept);
 	}
 
+	@Operation(summary = "system activity", description = "list stored activities for an activity type. The date is 30minute before the returned last-modified header of the server, at UTC.")
+	@GetMapping("/id/{solarSystemId}/{activity}")
+	public ResponseEntity<List<DateActivity>> activity(
+			@PathVariable @Parameter(description = "solar system id. Jita=30000142 ") int solarSystemId,
+			@PathVariable @Parameter(description = "selected activity") SystemActivity activity,
+			@RequestParam Optional<ACCEPT_TEXT> accept,
+			@RequestParam @Parameter(description = "days prior to today to get the activities. Default 1") Optional<Integer> days) {
+		return RestControllerHelper.makeResponse(
+				systemStatisticsService.activities(
+						solarSystemId,
+						activity,
+						RestControllerHelper.sinceDefault(days, 1)),
+				accept);
+	}
+
 	@Operation(summary = "system activity", description = "list aggregated activities for an activity type")
-	@GetMapping("/id/{solarSystemId}/stats/{activity}/{aggreg}")
+	@GetMapping("/id/{solarSystemId}/{activity}/{aggreg}")
 	public ResponseEntity<List<SystemDateActivity>> groupActivity(
 			@PathVariable @Parameter(description = "solar system id. Jita=30000142 ") int solarSystemId,
 			@PathVariable @Parameter(description = "selected activity") SystemActivity activity,
@@ -91,6 +107,7 @@ public class SolarsystemRestController {
 				accept);
 	}
 
+	// TODO rework that
 	private static final int DEFAULT_WEEKS = 10;
 
 	@GetMapping("/id/{solarSystemId}/jumps/weekmap")

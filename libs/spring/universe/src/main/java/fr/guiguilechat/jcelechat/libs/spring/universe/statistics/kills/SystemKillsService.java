@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.kills.SystemKills.SystemKillsFetch;
@@ -58,6 +59,19 @@ public class SystemKillsService extends
 	// usage
 	//
 
+	/**
+	 * @return the stored time-npckills of given system
+	 */
+	public List<DateActivity> listNpcKills(
+			int systemId,
+			Instant since) {
+		List<Object[]> rows = itemRepository().npcKillsForSystemId(systemId, since);
+		return rows
+				.stream()
+				.map(DateActivity::ofRow)
+				.toList();
+	}
+
 	public List<SystemDateActivity> aggregateNpcKills(
 			Iterable<Integer> systemIds,
 			DateAggregation aggregation,
@@ -76,6 +90,19 @@ public class SystemKillsService extends
 				.toList();
 	}
 
+	/**
+	 * @return the stored time-podkills of given system
+	 */
+	public List<DateActivity> listPodKills(
+			int systemId,
+			Instant since) {
+		List<Object[]> rows = itemRepository().podKillsForSystemId(systemId, since);
+		return rows
+				.stream()
+				.map(DateActivity::ofRow)
+				.toList();
+	}
+
 	public List<SystemDateActivity> aggregatePodKills(
 			Iterable<Integer> systemIds,
 			DateAggregation aggregation,
@@ -91,6 +118,19 @@ public class SystemKillsService extends
 		return rows
 				.stream()
 				.map(aggregation::ActivityOfRow)
+				.toList();
+	}
+
+	/**
+	 * @return the stored time-shipkills of given system
+	 */
+	public List<DateActivity> listShipKills(
+			int systemId,
+			Instant since) {
+		List<Object[]> rows = itemRepository().shipKillsForSystemId(systemId, since);
+		return rows
+				.stream()
+				.map(DateActivity::ofRow)
 				.toList();
 	}
 

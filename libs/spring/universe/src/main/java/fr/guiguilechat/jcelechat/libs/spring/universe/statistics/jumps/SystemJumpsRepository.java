@@ -10,16 +10,15 @@ public interface SystemJumpsRepository extends JpaRepository<SystemJumps, Long> 
 
 	@Query("""
 select
-	e.solarSystem.id,
 	e.fetch.lastModified - 30 minute,
 	e.shipJumps
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
+	e.solarSystem.id = :systemId
 	and e.fetch.lastModified - 30 minute >= :since
 """)
-	List<Object[]> jumpsforSystemIds(Iterable<Integer> systemsIds, Instant since);
+	List<Object[]> jumpsForSystemId(int systemId, Instant since);
 
 	// hql interval should be constructor-agnostic regarding interval
 

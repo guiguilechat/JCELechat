@@ -14,6 +14,18 @@ public interface SystemKillsRepository extends JpaRepository<SystemKills, Long> 
 
 	@Query("""
 select
+	truncate(e.fetch.lastModified - 30 minute, hour),
+	e.npcKills npcKills
+from
+	#{#entityName} e
+where
+	e.solarSystem.id = :systemId
+	and e.fetch.lastModified - 30 minute>=:since
+""")
+	List<Object[]> npcKillsForSystemId(int systemId, Instant since);
+
+	@Query("""
+select
 	e.solarSystem.id,
 	truncate(e.fetch.lastModified - 30 minute, hour),
 	sum(e.npcKills) npcKills
@@ -80,6 +92,17 @@ group by
 	// pod kills
 	//
 
+	@Query("""
+select
+	truncate(e.fetch.lastModified - 30 minute, hour),
+	e.podKills podKills
+from
+	#{#entityName} e
+where
+	e.solarSystem.id = :systemId
+	and e.fetch.lastModified - 30 minute>=:since
+""")
+	List<Object[]> podKillsForSystemId(int systemId, Instant since);
 
 	@Query("""
 select
@@ -148,6 +171,18 @@ group by
 	//
 	// ship kills
 	//
+
+	@Query("""
+select
+	truncate(e.fetch.lastModified - 30 minute, hour),
+	e.shipKills shipKills
+from
+	#{#entityName} e
+where
+	e.solarSystem.id = :systemId
+	and e.fetch.lastModified - 30 minute>=:since
+""")
+	List<Object[]> shipKillsForSystemId(int systemId, Instant since);
 
 	@Query("""
 select

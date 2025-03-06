@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumps.SystemJumpsFetch;
@@ -57,6 +58,19 @@ BatchFetchService<SystemJumpsFetch, SystemJumpsFetchRepository, SystemJumps, Sys
 	//
 	// usage
 	//
+
+	/**
+	 * @return the stored time-jumps of given system
+	 */
+	public List<DateActivity> listJumps(
+			int systemId,
+			Instant since) {
+		List<Object[]> rows = itemRepository().jumpsForSystemId(systemId, since);
+		return rows
+				.stream()
+				.map(DateActivity::ofRow)
+				.toList();
+	}
 
 	/**
 	 * @return the aggregated jumps of several system ids
