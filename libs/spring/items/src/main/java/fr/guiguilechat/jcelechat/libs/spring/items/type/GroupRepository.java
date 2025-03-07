@@ -6,14 +6,16 @@ import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntity
 
 public interface GroupRepository extends IRemoteEntityRepository<Group, Integer> {
 
-	public List<Group> findByNameEqualsIgnoreCase(String name);
+	List<Group> findByNameEqualsIgnoreCase(String name);
 
-	public List<Group> findByNameContainsIgnoreCase(String name);
+	List<Group> findByNameContainsIgnoreCase(String name);
 
-	public List<Group> findByCategoryId(int catId);
+	List<Group> findByNameInIgnoreCase(Iterable<String> names);
 
-	public Group findTop1ByCategoryAndNameGreaterThanOrderByNameAsc(Category category, String name);
+	List<Group> findByCategoryId(int catId);
 
-	public Group findTop1ByCategoryAndNameLessThanOrderByNameDesc(Category category, String name);
+	Group findTop1ByCategoryAndNameGreaterThanOrderByNameAsc(Category category, String name);
+
+	Group findTop1ByCategoryAndNameLessThanOrderByNameDesc(Category category, String name);
 
 }

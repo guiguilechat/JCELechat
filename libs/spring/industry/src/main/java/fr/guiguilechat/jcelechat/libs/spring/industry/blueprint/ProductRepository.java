@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.industry.blueprint;
 
 import java.util.List;
 
+import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
@@ -10,14 +11,16 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
-	public List<Product> findAllByActivityTypeIdInAndActivityActivityIn(List<Integer> blueprintIds,
+	List<Product> findAllByActivityTypeIdInAndActivityActivityIn(List<Integer> blueprintIds,
 			List<ACTIVITY_TYPE> ats);
 
-	public List<Product> findAllByActivity(BlueprintActivity activity);
+	List<Product> findAllByActivity(BlueprintActivity activity);
 
-	public List<Product> findAllByActivityActivityIn(Iterable<ACTIVITY_TYPE> activities);
+	@EntityGraph("activity.type,type")
+	List<Product> findAllByActivityActivityIn(Iterable<ACTIVITY_TYPE> activities);
 
-	public List<Product> findAllByTypeIdInAndActivityActivityIn(Iterable<Integer> productIds,
+	@EntityGraph("activity.type,type")
+	List<Product> findAllByTypeIdInAndActivityActivityIn(Iterable<Integer> productIds,
 	    Iterable<ACTIVITY_TYPE> ats);
 
 	@Query("""
@@ -28,7 +31,6 @@ from
 	SdeBlueprintProduct
 where
 	id in :rowIds
-""")
-	public List<Type[]> loadTypes(Iterable<Long> rowIds);
+""") List<Type[]> loadTypes(Iterable<Long> rowIds);
 
 }

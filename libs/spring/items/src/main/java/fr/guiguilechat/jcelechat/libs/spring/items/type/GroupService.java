@@ -67,6 +67,10 @@ public class GroupService
 		return repo().findByNameContainsIgnoreCase(nameIgnoreCase);
 	}
 
+	public List<Group> byNameInIgnoreCase(Iterable<String> names) {
+		return repo().findByNameInIgnoreCase(names);
+	}
+
 	public List<Group> byCatId(int catId) {
 		return repo().findByCategoryId(catId);
 	}

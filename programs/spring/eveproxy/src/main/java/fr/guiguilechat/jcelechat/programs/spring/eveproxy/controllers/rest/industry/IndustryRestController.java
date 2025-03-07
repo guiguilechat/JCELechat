@@ -8,6 +8,7 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
+import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 import org.springframework.http.ResponseEntity;
@@ -25,6 +26,7 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Group;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
@@ -34,6 +36,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.Lo
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
+import io.swagger.v3.oas.annotations.Parameter;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -186,8 +189,18 @@ public class IndustryRestController {
 		return RestControllerHelper.makeResponse(ret, accept);
 	}
 
-	public static record BpValue(String bpName, int bpId, long eiv, String prodName, int prodId, BigDecimal adjusted,
-	    BigDecimal average) {
+	public static record BpValue(int productId, int blueprintId, long eiv, BigDecimal adjusted, BigDecimal average) {
+
+		public static BpValue of(Type bpType, Type productType, Long eiv, Double adjusted, Double average) {
+			return new BpValue(
+					productType.getId(),
+					bpType.getId(),
+					eiv == null ? 0L : eiv,
+					new BigDecimal(adjusted == null ? 0.0 : adjusted).setScale(5, RoundingMode.FLOOR)
+							.stripTrailingZeros(),
+					new BigDecimal(average == null ? 0.0 : average).setScale(5, RoundingMode.FLOOR)
+							.stripTrailingZeros());
+		}
 
 	}
 
@@ -198,8 +211,8 @@ public class IndustryRestController {
 	@Transactional
 	@GetMapping("/eivs")
 	public ResponseEntity<EivsResult> showEivs(
-	    @RequestParam Optional<List<String>> pgn,
-	    @RequestParam Optional<List<Integer>> pgi,
+			@RequestParam @Parameter(description = "optional list of filters for product group name") Optional<List<String>> pgn,
+			@RequestParam @Parameter(description = "optional list of filters for product group id") Optional<List<Integer>> pgi,
 	    @RequestParam Optional<Boolean> published,
 	    @RequestParam Optional<Boolean> marketable,
 			Optional<ACCEPT_TEXT> accept) throws IOException {
@@ -215,32 +228,30 @@ public class IndustryRestController {
 		Boolean marketableValue = marketable == null ? null : marketable.orElse(null);
 		query.put("marketable", String.valueOf(marketableValue));
 
-		Set<Integer> gidFilters = new HashSet<>();
+		Set<Integer> gidFilters = null;
 		if (pgn != null && pgn.isPresent()) {
-			gidFilters.add(0);
-			for (String name : pgn.get()) {
-				groupService.byNameContains(name).forEach(g -> gidFilters.add(g.getId()));
-			}
+			gidFilters = new HashSet<>(
+					groupService.byNameInIgnoreCase(pgn.get()).stream().map(Group::getId).toList());
 			query.put("pgn", pgn.get().toString());
 		}
 		if (pgi != null && pgi.isPresent()) {
+			if (gidFilters == null) {
+				gidFilters = new HashSet<>();
+			}
 			gidFilters.addAll(pgi.get());
 			query.put("pgi", pgi.get().toString());
 		}
 
-		Set<Integer> tidFilters = new HashSet<>();
-		if (!gidFilters.isEmpty()) {
-			// in case we can't find any, still have non-empty type ids set.
-			tidFilters.add(0);
-			typeService.byGroupIdIn(gidFilters).forEach(t -> tidFilters.add(t.getId()));
+		Set<Integer> tidFilters = null;
+		if (gidFilters != null) {
+			tidFilters = new HashSet<>(typeService.byGroupIdIn(gidFilters).stream().map(Type::getId).toList());
 		}
 
-		Set<Integer> bpIds = new HashSet<>();
-		Map<Integer, Product> acceptedBpIdToProduct = (tidFilters.isEmpty()
+		Map<Integer, Product> acceptedBpIdToProduct = (tidFilters == null
 		    ? productService.findProducts(List.of(ACTIVITY_TYPE.manufacturing))
 		    : productService.findProducers(tidFilters, List.of(ACTIVITY_TYPE.manufacturing)))
 		    .stream().collect(Collectors.toMap(p -> p.getActivity().getType().getId(), p -> p));
-		productService.loadTypes(acceptedBpIdToProduct.values());
+
 		if (publishedValue != null) {
 			acceptedBpIdToProduct.entrySet().removeIf(e->e.getValue().getType().isPublished()!=publishedValue );
 		}
@@ -248,22 +259,21 @@ public class IndustryRestController {
 			acceptedBpIdToProduct.entrySet()
 			    .removeIf(e -> e.getValue().getType().getMarketGroup() != null != marketableValue);
 		}
-		bpIds.addAll(acceptedBpIdToProduct.keySet());
 
-		Map<Integer, Long> eivs = eivService.eivs(bpIds);
+		Map<Integer, Long> eivs = eivService.eivs(acceptedBpIdToProduct.keySet());
 		Map<Integer, Double> adjusteds = priceService.adjusted();
 		Map<Integer, Double> averages = priceService.average();
 
 		List<BpValue> bpEivs = new ArrayList<>();
-		for (int bpId : bpIds) {
-			Product p = acceptedBpIdToProduct.get(bpId);
+		for (Entry<Integer, Product> e : acceptedBpIdToProduct.entrySet()) {
+			Product p = e.getValue();
 			if (p == null) {
-				System.err.println(" bp id=" + bpId + " null product");
+				System.err.println(" bp id=" + e.getKey() + " null product");
 				continue;
 			}
 			Type productType = null;
 			Type bpType = null;
-			Long eiv = eivs.get(bpId);
+			Long eiv = eivs.get(e.getKey());
 			Double adjusted = null;
 			Double average = null;
 			if (p != null) {
@@ -273,14 +283,11 @@ public class IndustryRestController {
 				bpType = p.getActivity().getType();
 			}
 			if (productType != null && bpType != null) {
-				bpEivs.add(new BpValue(bpType.name(), bpType.getId(), eiv == null ? 0L : eiv, productType.name(),
-				    productType.getId(),
-				    new BigDecimal(adjusted == null ? 0.0 : adjusted).setScale(5, RoundingMode.FLOOR).stripTrailingZeros(),
-				    new BigDecimal(average == null ? 0.0 : average).setScale(5, RoundingMode.FLOOR).stripTrailingZeros()));
+				bpEivs.add(BpValue.of(bpType, productType, eiv, adjusted, average));
 			}
 		}
 		query.put("responseSize", String.valueOf(bpEivs.size()));
-		bpEivs.sort(Comparator.comparing(BpValue::bpName));
+		bpEivs.sort(Comparator.comparing(BpValue::blueprintId));
 
 		query.put("timeMs", String.valueOf(System.currentTimeMillis() - start));
 		return RestControllerHelper.makeResponse(new EivsResult(query, bpEivs), accept);
