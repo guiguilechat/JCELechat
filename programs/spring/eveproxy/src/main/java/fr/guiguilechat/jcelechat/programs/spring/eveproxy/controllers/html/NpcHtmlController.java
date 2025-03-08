@@ -22,8 +22,8 @@ import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LPCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LPCorporationService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Offer;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedMaterial;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedMaterial;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedType;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService.EvalParams;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.LPOfferEvalService.LPOfferEval;
@@ -45,7 +45,7 @@ public class NpcHtmlController {
 	private final LPOfferEvalService offerValueService;
 
 	@Lazy
-	private final DogmaHtmlController dogmaHtmlController;
+	private final InventoryHtmlController dogmaHtmlController;
 
 	@Transactional
 	@GetMapping("/corporation/{corporationId}/offer/{offerId}")

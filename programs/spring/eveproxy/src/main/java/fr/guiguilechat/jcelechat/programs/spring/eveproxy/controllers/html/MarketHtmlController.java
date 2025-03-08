@@ -31,7 +31,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.DogmaHtmlController.LinkedType;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedType;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
@@ -54,7 +54,7 @@ public class MarketHtmlController {
 	private final ContractInfoService contractInfoService;
 
 	@Lazy
-	private final DogmaHtmlController dogmaHtmlController;
+	private final InventoryHtmlController dogmaHtmlController;
 
 	@Lazy
 	private final HistoryLineService historyLineService;

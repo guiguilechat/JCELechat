@@ -30,6 +30,7 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Group;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeAttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
@@ -50,9 +51,9 @@ import fr.guiguilechat.tools.FormatTools;
 import lombok.RequiredArgsConstructor;
 
 @Controller
-@RequestMapping("/html/dogma")
+@RequestMapping("/html/inventory")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class DogmaHtmlController {
+public class InventoryHtmlController {
 
 	private final CategoryService categoryService;
 
@@ -85,6 +86,8 @@ public class DogmaHtmlController {
 
 	private final StationService stationService;
 
+	private final TypeAttributeService typeAttributeService;
+
 	private final TypeService typeService;
 
 	public static record Seed(String space, String regionName, int regionId, String systemName, int systemId,
@@ -112,14 +115,14 @@ public class DogmaHtmlController {
 			return new Seed(
 					Space.of(solSys == null ? -1.0f : solSys.getSecurityStatus(),
 							region == null ? null : region.getUniverse())
-					.getName(),
+							.getName(),
 					region == null ? null : region.name(),
-							regionId,
-							solSys == null ? "unknown system" : solSys.getName(),
-									solSys == null ? -1 : solSys.getId(),
-											locationName,
-											locationId,
-											price);
+					regionId,
+					solSys == null ? "unknown system" : solSys.getName(),
+					solSys == null ? -1 : solSys.getId(),
+					locationName,
+					locationId,
+					price);
 		}
 	}
 
@@ -136,7 +139,8 @@ public class DogmaHtmlController {
 				.map(off -> {
 					Region r = regionId2Region.get(off.regionId());
 					SolarSystem solSys = stationId2SolSys.get(off.locationId());
-					Station sta = off.locationId() < Integer.MAX_VALUE ? stationId2Station.get((int) off.locationId()) : null;
+					Station sta = off.locationId() < Integer.MAX_VALUE ? stationId2Station.get((int) off.locationId())
+							: null;
 					return Seed.of(r, off.regionId(), solSys, sta == null ? "unresolved" : sta.name(), off.locationId(),
 							off.bestPrice());
 				})
@@ -230,128 +234,130 @@ public class DogmaHtmlController {
 	public String getType(Model model, @PathVariable String typeFiltering,
 			@PathVariable String typeFilter) {
 		List<Type> types = typeService.typesFilter(typeFiltering, typeFilter);
-		if (types.size() == 1) {
-			Type t = types.get(0);
-			model.addAttribute("name", t.name());
-			model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
-			model.addAttribute("historyUrl", historyRestController.uri(t).toString());
-			if (t.getMarketGroup() != null) {
-				model.addAttribute("marketGroup", marketHtmlController.linkedMarketGroup(t.getMarketGroup()));
-			}
-			Group group = t.getGroup();
-			if (group != null) {
-				// can be null if type not fetched yet
-				model.addAttribute("group", group);
-				model.addAttribute("groupUrl", uri(group).toString());
-				Category cat = group.getCategory();
-				if (cat != null) {
-					model.addAttribute("category", cat);
-					model.addAttribute("catUrl", uri(cat).toString());
-				}
-			}
-
-			Type prvType = typeService.prevType(t);
-			if (prvType != null) {
-				model.addAttribute("prvType", prvType);
-				model.addAttribute("prvTypeUrl", uri(prvType));
-			}
-			Type nxtType = typeService.nextType(t);
-			if (nxtType != null) {
-				model.addAttribute("nxtType", nxtType);
-				model.addAttribute("nxtTypeUrl", uri(nxtType));
-			}
-
-			List<LinkedProduct> manufProd = productService.findProducts(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
-					.map(this::linkedProduct)
-					.sorted(Comparator.comparing(u -> u.type().name()))
-					.toList();
-			model.addAttribute("manufacturingProd", manufProd);
-
-			List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.manufacturing)
-					.stream()
-					.map(this::linkedMaterial)
-					.sorted(Comparator.comparing(u -> u.type().name()))
-					.toList();
-			model.addAttribute("manufacturingMats", manufMats);
-
-			model.addAttribute("reactionProd",
-					productService.findProducts(t.getId(), ACTIVITY_TYPE.reaction).stream()
-					.map(this::linkedProduct)
-					.sorted(Comparator.comparing(u -> u.type().name()))
-					.toList());
-
-			model.addAttribute("reactionMats",
-					materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.reaction).stream()
-					.map(this::linkedMaterial)
-					.sorted(Comparator.comparing(u -> u.type().name()))
-					.toList());
-
-			List<LocatedBestOffer> seedOffers = marketLineService.seedLocations(t.getId());
-			model.addAttribute("seeded", seeds(seedOffers));
-
-			List<LinkedActivity> productOf = productService
-					.findProducers(List.of(t.getId()), List.of(ACTIVITY_TYPE.values())).stream()
-					.map(this::linkedActivity)
-					.sorted(Comparator.comparing(u -> u.type().name()))
-					.toList();
-			model.addAttribute("productOf", productOf);
-
-			List<LinkedLPOffer> offers = linkCorporationOfferService.producing(t).stream()
-					.map(npcHtmlController::linkedLPOffer)
-					.sorted(Comparator.comparing(LinkedLPOffer::name))
-					.toList();
-			model.addAttribute("offers", offers);
-
-			model.addAttribute("manufacturingUses",
-					materialService.findUsages(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
-					.map(this::linkedUsage)
-					.sorted(Comparator.comparing(u -> u.type().name()))
-					.toList());
-
-			model.addAttribute("reactionUses",
-					materialService.findUsages(t.getId(), ACTIVITY_TYPE.reaction).stream()
-					.map(this::linkedUsage)
-					.sorted(Comparator.comparing(u -> u.type().name()))
-					.toList());
-
-			model.addAttribute("adjusted",
-					FormatTools.formatPrice(priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue()));
-			model.addAttribute("average", FormatTools.formatPrice(priceService.average().getOrDefault(t.getId(), 0.0)));
-			if (!manufProd.isEmpty()) {
-				model.addAttribute("eiv", eivService.eiv(t.getId()));
-			}
-			if (productOf.size() == 1) {
-				model.addAttribute("bpeiv",
-						eivService.eiv(productOf.get(0).product().getActivity().getType().getId()));
-			}
-			List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
-			if (bos != null && !bos.isEmpty()) {
-				model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getPrice()));
-			}
-			List<MarketLine> sos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), false);
-			if (sos != null && !sos.isEmpty()) {
-				model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getPrice()));
-			}
-
-			Map<Integer, String> regionNamesById = regionService.namesById();
-			model.addAttribute("regionSell",
-			    contractMarketAggregator.lowestSellByRegion(t.getId())
-					.entrySet().stream()
-					.map(e -> RegionBestPrice.of(e, regionNamesById))
-					.sorted(Comparator.comparing(RegionBestPrice::price))
-					.toList());
-			model.addAttribute("regionBuy",
-			    contractMarketAggregator.highestBuyByRegion(t.getId())
-					.entrySet().stream()
-					.map(e -> RegionBestPrice.of(e, regionNamesById))
-					.sorted(Comparator.comparing(rp -> -rp.price()))
-					.toList());
-		} else {
+		String ret = "inventory/type";
+		if (types.size() != 1) {
 			model.addAttribute("name", "unknown type " + typeFilter);
 			model.addAttribute("types",
 					types.stream().sorted(Comparator.comparing(Type::name)).map(this::linkedType).toList());
+			return ret;
 		}
-		return "dogma/type";
+		Type t = types.get(0);
+		model.addAttribute("name", t.name());
+		model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
+		model.addAttribute("historyUrl", historyRestController.uri(t).toString());
+		if (t.getMarketGroup() != null) {
+			model.addAttribute("marketGroup", marketHtmlController.linkedMarketGroup(t.getMarketGroup()));
+		}
+		Group group = t.getGroup();
+		if (group != null) {
+			// can be null if type not fetched yet
+			model.addAttribute("group", group);
+			model.addAttribute("groupUrl", uri(group).toString());
+			Category cat = group.getCategory();
+			if (cat != null) {
+				model.addAttribute("category", cat);
+				model.addAttribute("catUrl", uri(cat).toString());
+			}
+		}
+		model.addAttribute("variations", variations(t.getId()));
+
+		Type prvType = typeService.prevType(t);
+		if (prvType != null) {
+			model.addAttribute("prvType", prvType);
+			model.addAttribute("prvTypeUrl", uri(prvType));
+		}
+		Type nxtType = typeService.nextType(t);
+		if (nxtType != null) {
+			model.addAttribute("nxtType", nxtType);
+			model.addAttribute("nxtTypeUrl", uri(nxtType));
+		}
+
+		List<LinkedProduct> manufProd = productService.findProducts(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
+				.map(this::linkedProduct)
+				.sorted(Comparator.comparing(u -> u.type().name()))
+				.toList();
+		model.addAttribute("manufacturingProd", manufProd);
+
+		List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.manufacturing)
+				.stream()
+				.map(this::linkedMaterial)
+				.sorted(Comparator.comparing(u -> u.type().name()))
+				.toList();
+		model.addAttribute("manufacturingMats", manufMats);
+
+		model.addAttribute("reactionProd",
+				productService.findProducts(t.getId(), ACTIVITY_TYPE.reaction).stream()
+						.map(this::linkedProduct)
+						.sorted(Comparator.comparing(u -> u.type().name()))
+						.toList());
+
+		model.addAttribute("reactionMats",
+				materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.reaction).stream()
+						.map(this::linkedMaterial)
+						.sorted(Comparator.comparing(u -> u.type().name()))
+						.toList());
+
+		List<LocatedBestOffer> seedOffers = marketLineService.seedLocations(t.getId());
+		model.addAttribute("seeded", seeds(seedOffers));
+
+		List<LinkedActivity> productOf = productService
+				.findProducers(List.of(t.getId()), List.of(ACTIVITY_TYPE.values())).stream()
+				.map(this::linkedActivity)
+				.sorted(Comparator.comparing(u -> u.type().name()))
+				.toList();
+		model.addAttribute("productOf", productOf);
+
+		List<LinkedLPOffer> offers = linkCorporationOfferService.producing(t).stream()
+				.map(npcHtmlController::linkedLPOffer)
+				.sorted(Comparator.comparing(LinkedLPOffer::name))
+				.toList();
+		model.addAttribute("offers", offers);
+
+		model.addAttribute("manufacturingUses",
+				materialService.findUsages(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
+						.map(this::linkedUsage)
+						.sorted(Comparator.comparing(u -> u.type().name()))
+						.toList());
+
+		model.addAttribute("reactionUses",
+				materialService.findUsages(t.getId(), ACTIVITY_TYPE.reaction).stream()
+						.map(this::linkedUsage)
+						.sorted(Comparator.comparing(u -> u.type().name()))
+						.toList());
+
+		model.addAttribute("adjusted",
+				FormatTools.formatPrice(priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue()));
+		model.addAttribute("average", FormatTools.formatPrice(priceService.average().getOrDefault(t.getId(), 0.0)));
+		if (!manufProd.isEmpty()) {
+			model.addAttribute("eiv", eivService.eiv(t.getId()));
+		}
+		if (productOf.size() == 1) {
+			model.addAttribute("bpeiv",
+					eivService.eiv(productOf.get(0).product().getActivity().getType().getId()));
+		}
+		List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
+		if (bos != null && !bos.isEmpty()) {
+			model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getPrice()));
+		}
+		List<MarketLine> sos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), false);
+		if (sos != null && !sos.isEmpty()) {
+			model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getPrice()));
+		}
+
+		Map<Integer, String> regionNamesById = regionService.namesById();
+		model.addAttribute("regionSell",
+				contractMarketAggregator.lowestSellByRegion(t.getId())
+						.entrySet().stream()
+						.map(e -> RegionBestPrice.of(e, regionNamesById))
+						.sorted(Comparator.comparing(RegionBestPrice::price))
+						.toList());
+		model.addAttribute("regionBuy",
+				contractMarketAggregator.highestBuyByRegion(t.getId())
+						.entrySet().stream()
+						.map(e -> RegionBestPrice.of(e, regionNamesById))
+						.sorted(Comparator.comparing(rp -> -rp.price()))
+						.toList());
+		return ret;
 	}
 
 	@Transactional
@@ -368,7 +374,7 @@ public class DogmaHtmlController {
 				.sorted(Comparator.comparing(Category::name))
 				.map(this::linkedCategory)
 				.toList());
-		return "dogma/types";
+		return "inventory/types";
 	}
 
 	public URI uri(Group group) {
@@ -381,6 +387,19 @@ public class DogmaHtmlController {
 
 	public LinkedType linkedType(Type type) {
 		return new LinkedType(uri(type).toString(), type, type.name());
+	}
+
+	public List<LinkedType> variations(int typeId) {
+		List<Integer> variationIds = typeService.listVariationIds(typeId);
+		if (variationIds == null || variationIds.size() < 2) {
+			return null;
+		}
+		Map<Integer, Number> typeId2MetaLevel = typeAttributeService.valuesForTypes(633, variationIds);
+		return typeService.findById(variationIds).stream()
+				.map(this::linkedType)
+				.sorted(Comparator.comparing(LinkedType::name))
+				.sorted(Comparator.comparing(lt -> typeId2MetaLevel.getOrDefault(lt.type().getId(), 0).intValue()))
+				.toList();
 	}
 
 	@Transactional
@@ -412,7 +431,7 @@ public class DogmaHtmlController {
 				.map(this::linkedType)
 				.toList());
 
-		return "dogma/group";
+		return "inventory/group";
 	}
 
 	@Transactional
@@ -455,7 +474,7 @@ public class DogmaHtmlController {
 				.map(this::linkedGroup)
 				.toList());
 
-		return "dogma/category";
+		return "inventory/category";
 	}
 
 	public URI uri(Category category) {

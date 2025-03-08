@@ -11,11 +11,23 @@ import fr.guiguilechat.jcelechat.libs.spring.items.attribute.Attribute;
 public interface TypeAttributeRepository extends JpaRepository<TypeAttribute, Long> {
 
 	@Modifying
-	@Query("delete from EsiItemsTypeAttribute where type.id in :typeIds")
+	@Query("delete from #{#entityName} where type.id in :typeIds")
 	void deleteByTypeId(Iterable<Integer> typeIds);
 
 	List<TypeAttribute> findAllByAttributeId(int attributeId);
 
 	List<TypeAttribute> findAllByAttribute(Attribute attribute);
+
+	@Query("""
+select
+	ta.type.id type_id,
+	ta.value val
+from
+	#{#entityName} ta
+where
+	ta.attribute.id=:attributeId
+	and ta.type.id in :typeIds
+""")
+	List<Object[]> listValuesByAttributeIdTypeIdIn(int attributeId, Iterable<Integer> typeIds);
 
 }

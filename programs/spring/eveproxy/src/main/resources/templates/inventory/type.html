@@ -199,6 +199,19 @@
 		</div>
 
 		<div class="row border"
+			th:if="${variations !=null}">
+			<h2>Variations</h2>
+			<div class="col">
+				<ul>
+					<li th:each="variation : ${variations}">
+						<a th:href="${variation.url}"
+							th:text="${variation.name}"> type </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row border"
 			th:if="${seeded !=null && !seeded.isEmpty()
 						|| productOf !=null && !productOf.isEmpty()
 						|| offers !=null && !offers.isEmpty()}">

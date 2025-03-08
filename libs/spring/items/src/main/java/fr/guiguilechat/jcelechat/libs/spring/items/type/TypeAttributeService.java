@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -23,6 +25,10 @@ public class TypeAttributeService {
 		return repo.saveAll(data);
 	}
 
+	//
+	// usage
+	//
+
 	public List<TypeAttribute> byAttributeId(int attributeId) {
 		return repo.findAllByAttributeId(attributeId);
 	}
@@ -33,6 +39,11 @@ public class TypeAttributeService {
 
 	public List<TypeAttribute> findAll() {
 		return repo.findAll();
+	}
+
+	public Map<Integer, Number> valuesForTypes(int attributeId, Iterable<Integer> typeIds) {
+		return repo.listValuesByAttributeIdTypeIdIn(attributeId, typeIds).stream()
+				.collect(Collectors.toMap(arr -> (Integer) arr[0], arr -> ((Number) arr[1])));
 	}
 
 }
