@@ -122,7 +122,7 @@ public class Etypes {
 	public int sofMaterialSetID;
 	public int soundID;
 	public Etraits traits;
-	public int variationParentTypeID;
+	public Integer variationParentTypeID;
 	public float volume;
 
 	public String enName() {

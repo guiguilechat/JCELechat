@@ -181,6 +181,10 @@ implements SdeUpdateListener, EntityUpdateListener {
 		return repo().findByGroupCategoryIdIn(categoryIds);
 	}
 
+	public List<Integer> listVariationIds(int typeId) {
+		return repo().listVariationIds(typeId);
+	}
+
 	/**
 	 * performs a list of queries to search for a type matching a given name :
 	 * <ol>
@@ -379,6 +383,7 @@ implements SdeUpdateListener, EntityUpdateListener {
 			Type type = idToType.get(e.getKey());
 			if (type != null) {
 				type.setBasePrice(e.getValue().basePrice);
+				type.setVariationTypeId(e.getValue().variationParentTypeID);
 				updated.add(type);
 			} else {
 				throw new RuntimeException("missing type for id " + e.getKey() + " type name=" + e.getValue().enName());

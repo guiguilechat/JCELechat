@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
 import java.util.List;
 
+import org.springframework.data.jpa.repository.Query;
+
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
 public interface TypeRepository extends IRemoteEntityRepository<Type, Integer> {
@@ -35,5 +37,22 @@ public interface TypeRepository extends IRemoteEntityRepository<Type, Integer> {
 	List<Type> findByGroupIdIn(Iterable<Integer> groupIds);
 
 	List<Type> findByGroupCategoryIdIn(Iterable<Integer> categoryIds);
+
+	@Query("""
+select
+	v.id id
+from
+	#{#entityName} t
+	join #{#entityName} v on
+		t.id=v.id
+		or t.variationTypeId=v.id
+		or t.id=v.variationTypeId
+		or t.variationTypeId is not null and t.variationTypeId=v.variationTypeId
+where
+	t.id=:typeId
+order by
+	v.id asc
+""")
+	List<Integer> listVariationIds(int typeId);
 
 }

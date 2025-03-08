@@ -46,7 +46,7 @@ public class Type extends ARemoteEntity<Integer, R_get_universe_types_type_id> {
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Group group;
-	
+
 	/** data integrated from SDE */
 	private float basePrice;
 
@@ -106,6 +106,11 @@ public class Type extends ARemoteEntity<Integer, R_get_universe_types_type_id> {
 	 * radius number
 	 */
 	private float radius;
+
+	/**
+	 * when no null, the main typeId of that type's variation
+	 */
+	private Integer variationTypeId;
 
 	/**
 	 * volume number
