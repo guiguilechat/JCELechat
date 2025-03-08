@@ -13,6 +13,7 @@
 	<description>libraries for JCE-LECHAT. Those libraries provide tools to manage, optimize the data from the game.</description>
 	<packaging>pom</packaging>
 	<modules>
+		<module>everaw</module>
 		<module>logparser</module>
 		<module>mer</module>
 		<module>routesolver</module>
