@@ -560,7 +560,6 @@ public abstract class ConnectedImpl implements ITransfer {
 			schedule(0);
 		}
 
-		@SuppressWarnings("resource")
 		public void schedule(long delay_ms) throws RejectedExecutionException {
 			synchronized (getExecutor()) {
 				if (!scheduled && !stop && !paused) {

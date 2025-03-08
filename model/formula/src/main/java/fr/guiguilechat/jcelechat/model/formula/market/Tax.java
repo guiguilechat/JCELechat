@@ -5,10 +5,13 @@ import java.util.Map;
 public class Tax {
 
 	/** base multiplier of the price to remove as tax */
-	public static final double BASE = 4.5 * 0.01;
+	public static final double BASE_MULTIPLIER = 4.5 * 0.01;
 
 	/**
-	 * accounting raw reduction from price multiplier, per level
+	 * relative reduction (base 1) of the tax price multiplier per accounting level
+	 * (additive).
+	 * If base is 20% and this is 10%, at level 10 accounting the tax
+	 * multiplier would become 0.
 	 */
 	protected static final double ACCOUNTING_REDUCE = 11 * 0.01;
 
@@ -16,7 +19,7 @@ public class Tax {
 	 * multiplier of sell price to remove from it as tax, based on accounting level.
 	 */
 	public static double multiplier(int accounting_level) {
-		return BASE * (1.0 - ACCOUNTING_REDUCE * accounting_level);
+		return BASE_MULTIPLIER * (1.0 - ACCOUNTING_REDUCE * accounting_level);
 	}
 
 	public static double multiplier(Map<Integer, Integer> skillIdToLevel) {
