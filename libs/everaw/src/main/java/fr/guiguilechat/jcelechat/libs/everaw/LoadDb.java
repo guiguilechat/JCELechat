@@ -11,6 +11,8 @@ import fr.guiguilechat.jcelechat.libs.everaw.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.everaw.meta.ClientInfo;
 import fr.guiguilechat.jcelechat.libs.everaw.parsers.sqlite.KeyValTimeLoader;
 import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Eblueprints;
+import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Eclonegrades;
+import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Edbuffcollections;
 import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Efighterabilities;
 import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Efighterabilitiesbytype;
 
@@ -23,6 +25,8 @@ public class LoadDb {
 //		List<KeyValTime<Eblueprints>> list = Eblueprints.getLoader().load(cache);
 		for (KeyValTimeLoader<?> loader : List.of(
 				Eblueprints.getLoader(),
+				Eclonegrades.getLoader(),
+				Edbuffcollections.getLoader(),
 				Efighterabilities.getLoader(),
 				Efighterabilitiesbytype.getLoader()
 //
