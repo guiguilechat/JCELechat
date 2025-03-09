@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.libs.everaw.parsers.SQLiteParser;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.SneakyThrows;
 
 @Getter
 @RequiredArgsConstructor
@@ -48,6 +49,12 @@ public class KeyValTimeLoader<T> {
 	public List<KeyValTime<T>> load(ClientCache cache)
 			throws JsonMappingException, JsonProcessingException, SQLException {
 		return load(SQLiteParser.loadFile(cache.file(resourceName)));
+	}
+
+	@SneakyThrows
+	public String loadPrint(ClientCache cache) {
+		List<KeyValTime<T>> list = load(cache);
+		return valueClass.getSimpleName() + "\t" + list.size();
 	}
 
 }
