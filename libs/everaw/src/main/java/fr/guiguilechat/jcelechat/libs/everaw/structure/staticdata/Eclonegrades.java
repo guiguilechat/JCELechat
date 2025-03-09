@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.everaw.parsers.sqlite.KeyValTimeLoader;
-import fr.guiguilechat.jcelechat.libs.everaw.structure.common.RequiredSkill;
+import fr.guiguilechat.jcelechat.libs.everaw.structure.common.type.RequiredSkill;
 import lombok.Getter;
 
 public class Eclonegrades {
@@ -14,7 +14,6 @@ public class Eclonegrades {
 			Eclonegrades.class, "staticdata/clonegrades.static");
 
 	public String internalDescription;
-
 	public List<RequiredSkill> skills = new ArrayList<>();
 
 }

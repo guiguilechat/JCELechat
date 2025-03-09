@@ -14,24 +14,18 @@ public class Efighterabilitiesbytype {
 		public static class Charges {
 
 			public int chargeCount;
-
 			public int rearmTimeSeconds;
 
 		}
 
 		public int abilityID;
-
 		public Charges charges;
-
 		public int cooldownSeconds;
 
 	}
 
 	public AbilitySlot abilitySlot0;
-
 	public AbilitySlot abilitySlot1;
-
 	public AbilitySlot abilitySlot2;
-
 	public int displayNameID;
 }

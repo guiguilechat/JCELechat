@@ -10,11 +10,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import fr.guiguilechat.jcelechat.libs.everaw.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.everaw.meta.ClientInfo;
 import fr.guiguilechat.jcelechat.libs.everaw.parsers.sqlite.KeyValTimeLoader;
-import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Eblueprints;
-import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Eclonegrades;
-import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Edbuffcollections;
-import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Efighterabilities;
-import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.Efighterabilitiesbytype;
+import fr.guiguilechat.jcelechat.libs.everaw.structure.staticdata.*;
 
 public class LoadDb {
 
@@ -28,7 +24,12 @@ public class LoadDb {
 				Eclonegrades.getLoader(),
 				Edbuffcollections.getLoader(),
 				Efighterabilities.getLoader(),
-				Efighterabilitiesbytype.getLoader()
+				Efighterabilitiesbytype.getLoader(),
+				EindustryActivities.getLoader(),
+				EindustryActivityModifierSources.getLoader(),
+				EindustryActivityTargetFilters.getLoader(),
+				EindustryAssemblyLines.getLoader(),
+				EindustryInstallationTypes.getLoader()
 //
 		)) {
 			loader.loadPrintCSV(cache, System.out);

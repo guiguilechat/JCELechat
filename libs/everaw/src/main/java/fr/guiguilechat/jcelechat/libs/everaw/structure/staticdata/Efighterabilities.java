@@ -16,17 +16,11 @@ public class Efighterabilities {
 	}
 
 	public boolean disallowInHighSec;
-
 	public boolean disallowInLowSec;
-
 	public int displayNameID;
-
 	public int iconID;
-
 	public int tooltipTextID;
-
 	public TargetMode targetMode;
-
 	public int turretGraphicID;
 
 }

@@ -7,8 +7,8 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import fr.guiguilechat.jcelechat.libs.everaw.parsers.sqlite.KeyValTimeLoader;
-import fr.guiguilechat.jcelechat.libs.everaw.structure.common.ConsumedMaterial;
-import fr.guiguilechat.jcelechat.libs.everaw.structure.common.RequiredSkill;
+import fr.guiguilechat.jcelechat.libs.everaw.structure.common.type.ConsumedMaterial;
+import fr.guiguilechat.jcelechat.libs.everaw.structure.common.type.RequiredSkill;
 import lombok.Getter;
 
 public class Eblueprints {
