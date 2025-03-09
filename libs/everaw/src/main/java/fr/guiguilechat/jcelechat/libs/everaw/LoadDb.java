@@ -29,7 +29,11 @@ public class LoadDb {
 				EindustryActivityModifierSources.getLoader(),
 				EindustryActivityTargetFilters.getLoader(),
 				EindustryAssemblyLines.getLoader(),
-				EindustryInstallationTypes.getLoader()
+				EindustryInstallationTypes.getLoader(),
+				Einfobubbles.getLoader(),
+				Eskinlicenses.getLoader(),
+				Eskinmaterials.getLoader(),
+				Eskins.getLoader()
 //
 		)) {
 			loader.loadPrintCSV(cache, System.out);
