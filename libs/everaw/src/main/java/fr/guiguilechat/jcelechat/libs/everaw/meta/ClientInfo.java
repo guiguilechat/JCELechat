@@ -9,16 +9,16 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public record EveClientInfo(String build, String buildNumber, @JsonProperty("protected") boolean _protected,
+public record ClientInfo(String build, String buildNumber, @JsonProperty("protected") boolean _protected,
 		List<String> platforms) {
 
 
 	public static final String RES_NAME = "eveclient_TQ.json";
 
-	public static EveClientInfo fetch() {
+	public static ClientInfo fetch() {
 		ObjectMapper mapper = new ObjectMapper();
 		try {
-			return mapper.readValue(ServerInfo.subResource(RES_NAME).toURL(), EveClientInfo.class);
+			return mapper.readValue(ServerInfo.subResource(RES_NAME, null).toURL(), ClientInfo.class);
 		} catch (IOException e) {
 			log.error("while fetching eve client data ", e);
 			return null;
@@ -31,8 +31,8 @@ public record EveClientInfo(String build, String buildNumber, @JsonProperty("pro
 		return String.format(INDEX_TEMPLATE, build);
 	}
 
-	public EveIndex rootIndex() {
-		return new EveIndex(rootPath());
+	public ResourceIndex rootIndex() {
+		return new ResourceIndex(rootPath());
 	}
 
 }
