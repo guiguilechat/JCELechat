@@ -55,7 +55,7 @@ public class ClientCache {
 		});
 	}
 
-	File file(String resName) {
+	public File file(String resName) {
 		File target = new File(getVersionDir(), resName);
 		if (target.exists()) {
 			return target;
