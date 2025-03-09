@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.everaw.parsers.sqlite;
 
+import java.io.PrintStream;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -46,15 +47,16 @@ public class KeyValTimeLoader<T> {
 		return ret;
 	}
 
-	public List<KeyValTime<T>> load(ClientCache cache)
-			throws JsonMappingException, JsonProcessingException, SQLException {
+	@SneakyThrows
+	public List<KeyValTime<T>> load(ClientCache cache) {
 		return load(SQLiteParser.loadFile(cache.file(resourceName)));
 	}
 
 	@SneakyThrows
-	public String loadPrint(ClientCache cache) {
+	public List<KeyValTime<T>> loadPrintCSV(ClientCache cache, PrintStream ps) {
 		List<KeyValTime<T>> list = load(cache);
-		return valueClass.getSimpleName() + "\t" + list.size();
+		ps.println(valueClass.getSimpleName() + "\t" + list.size() + "\t" + resourceName);
+		return list;
 	}
 
 }
