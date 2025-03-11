@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
@@ -7,13 +8,18 @@
 		<version>7.40.0</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-	<artifactId>remotefetching</artifactId>
-	<name>Spring lib Remote fetching</name>
+	<artifactId>gameclient</artifactId>
+	<name>Spring lib Gameclient</name>
 	<dependencies>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>jcesi</artifactId>
+			<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+			<artifactId>gameclient</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>remotefetching</artifactId>
+		</dependency>
+		<!-- /own deps -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -33,10 +39,15 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<description>base templates for the entities that are fetched from remote server</description>
+	<description>Check for new game client data avail and delegates it to observers</description>
 </project>

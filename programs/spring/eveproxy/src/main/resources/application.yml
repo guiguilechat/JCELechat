@@ -1,3 +1,10 @@
+
+
+gameclient:
+   fetcher:
+      update:
+         skip: false
+
 esi:
    affiliations:
       corporation:

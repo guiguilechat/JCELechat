@@ -83,9 +83,8 @@ public class SdeUpdateService implements IEntityUpdater {
 		Instant fetchedDate = Instant.now();
 		ur.setFetchedDurationMs(fetchedDate.toEpochMilli() - startDate.toEpochMilli());
 		if (!force && lastSuccess != null && fetch.etag().equals(lastSuccess.getEtag())) {
-			ur.setStatus(STATUS.CACHED);
-
 			// skip the update
+			ur.setStatus(STATUS.CACHED);
 		} else if (fetch.channel() != null) {
 			try {
 				File newFile = fetch.toTempFile();
@@ -134,7 +133,7 @@ public class SdeUpdateService implements IEntityUpdater {
 				}
 			}
 			listeners.stream().flatMap(l -> l.listSDECaches().stream())
-			    .forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 			listeners.forEach(SdeUpdateListener::afterSdeUpdate);
 		}
 		log.info(" finished updating SDE DB.");

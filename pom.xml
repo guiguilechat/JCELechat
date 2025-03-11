@@ -263,6 +263,11 @@
 			-->
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+				<artifactId>gameclient</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 				<artifactId>mer</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -279,6 +284,11 @@
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 				<artifactId>conflicts</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+				<artifactId>gameclient</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
