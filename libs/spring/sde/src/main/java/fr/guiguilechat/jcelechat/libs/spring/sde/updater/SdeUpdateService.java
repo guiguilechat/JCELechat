@@ -17,7 +17,7 @@ import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdate.STATUS;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdate.Status;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache.SDEDownload;
@@ -54,12 +54,12 @@ public class SdeUpdateService implements IEntityUpdater {
 	 */
 	@Transactional
 	public void forceNext() {
-		repo.changeStatusFromTo(STATUS.SUCCESS, STATUS.SUCCESS_NEED_REFETCH);
+		force = true;
 		nextFetch = null;
 	}
 
 	protected SdeUpdate findLastSuccess() {
-		return repo.findTop1ByStatusOrderByStartedDateDesc(STATUS.SUCCESS);
+		return repo.findTop1ByStatusOrderByStartedDateDesc(Status.SUCCESS);
 	}
 
 	public SdeUpdate save(SdeUpdate entity) {
@@ -84,19 +84,19 @@ public class SdeUpdateService implements IEntityUpdater {
 		ur.setFetchedDurationMs(fetchedDate.toEpochMilli() - startDate.toEpochMilli());
 		if (!force && lastSuccess != null && fetch.etag().equals(lastSuccess.getEtag())) {
 			// skip the update
-			ur.setStatus(STATUS.CACHED);
+			ur.setStatus(Status.CACHED);
 		} else if (fetch.channel() != null) {
 			try {
 				File newFile = fetch.toTempFile();
 				updateFromFile(newFile);
-				ur.setStatus(STATUS.SUCCESS);
+				ur.setStatus(Status.SUCCESS);
 				ur.setEtag(fetch.etag());
 			} catch (Exception e) {
-				ur.setStatus(STATUS.FAIL);
+				ur.setStatus(Status.FAIL);
 				ur.setError(e.getMessage());
 			}
 		} else if (fetch.error() != null) {
-			ur.setStatus(STATUS.FAIL);
+			ur.setStatus(Status.FAIL);
 			ur.setError(fetch.error().getMessage());
 		}
 		Instant processedDate = Instant.now();
@@ -106,7 +106,7 @@ public class SdeUpdateService implements IEntityUpdater {
 
 		force = false;
 		nextFetch = startDate.plusSeconds(getUpdate().getDelay());
-		return ur.getStatus() != STATUS.SUCCESS;
+		return ur.getStatus() != Status.SUCCESS;
 	}
 
 	/**

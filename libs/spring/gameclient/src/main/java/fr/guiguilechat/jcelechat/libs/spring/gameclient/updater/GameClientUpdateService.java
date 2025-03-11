@@ -34,6 +34,9 @@ public class GameClientUpdateService implements IEntityUpdater {
 	@Getter
 	private UpdateConfig update = new UpdateConfig();
 
+	/**
+	 * when true, force next fetch
+	 */
 	@Getter
 	@Setter
 	private boolean force = false;

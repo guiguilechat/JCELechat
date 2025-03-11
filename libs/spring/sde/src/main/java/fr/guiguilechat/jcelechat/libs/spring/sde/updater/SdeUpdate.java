@@ -41,15 +41,16 @@ public class SdeUpdate {
 
 	private String etag;
 
-	public static enum STATUS {
+	public enum Status {
 		FAIL,
 		CACHED,
 		SUCCESS,
+		@Deprecated
 		SUCCESS_NEED_REFETCH
 	}
 
 	@Builder.Default
 	@Enumerated(EnumType.STRING)
-	private STATUS status = STATUS.CACHED;
+	private Status status = Status.CACHED;
 
 }
