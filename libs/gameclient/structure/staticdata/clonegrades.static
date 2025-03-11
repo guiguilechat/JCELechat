@@ -1,0 +1,3 @@
+$.internalDescription	text
+$.skills[0].level	integer
+$.skills[0].typeID	integer

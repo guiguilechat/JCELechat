@@ -1,0 +1,17 @@
+$.copying.cost[0].dogmaAttributeID	integer
+$.copying.time[0].dogmaAttributeID	integer
+$.invention.cost[0].dogmaAttributeID	integer
+$.invention.time[0].dogmaAttributeID	integer
+$.manufacturing.cost[0].dogmaAttributeID	integer
+$.manufacturing.material[0].dogmaAttributeID	integer
+$.manufacturing.material[0].filterID	integer
+$.manufacturing.time[0].dogmaAttributeID	integer
+$.manufacturing.time[0].filterID	integer
+$.reaction.material[0].dogmaAttributeID	integer
+$.reaction.material[0].filterID	integer
+$.reaction.time[0].dogmaAttributeID	integer
+$.reaction.time[0].filterID	integer
+$.research_material.cost[0].dogmaAttributeID	integer
+$.research_material.time[0].dogmaAttributeID	integer
+$.research_time.cost[0].dogmaAttributeID	integer
+$.research_time.time[0].dogmaAttributeID	integer

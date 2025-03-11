@@ -1,0 +1,30 @@
+#!/bin/bash
+# find the last cache , and print the sql structure of each sql database into structure/staticdata
+
+last_cache=$(find .evecache/* -maxdepth 0 -type d -printf '%T+ %p\n'| sort | tail -n 1 | cut -d ' ' -f 2)
+echo "last cache is $last_cache"
+
+rm -rf structure/staticdata
+mkdir -p structure/staticdata
+for sqlfile in $(file $last_cache/staticdata/* | grep "SQLite" | cut -d':' -f1) ;
+	do
+	target="structure/"$(echo $sqlfile | sed s/.*staticdata/staticdata/g) 
+	echo "$sqlfile -> $target"
+	# https://sqlite.org/cli.html#changing_output_formats
+	sqlite3 -csv -separator $'\t' "$sqlfile" \
+		>"$target" \
+		<<EOF
+	select 
+		replace(tree.fullkey, '"', '') "path",
+		tree.type "type"
+	from
+		cache c,
+		json_tree(c.value) tree
+	WHERE
+		not tree.fullkey regexp '.*\[[1-9].*' --ignore index more than 0
+		and not tree.type in ('array', 'object')
+	group by tree.fullkey, tree.type
+	order by replace(tree.fullkey, '"', ''), tree.type
+EOF
+		
+done

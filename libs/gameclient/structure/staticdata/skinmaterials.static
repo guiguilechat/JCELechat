@@ -1,0 +1,3 @@
+$.displayNameID	integer
+$.materialSetID	integer
+$.skinMaterialID	integer

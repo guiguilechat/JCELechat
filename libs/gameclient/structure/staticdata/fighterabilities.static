@@ -1,0 +1,9 @@
+$.disallowInHighSec	false
+$.disallowInHighSec	true
+$.disallowInLowSec	false
+$.disallowInLowSec	true
+$.displayNameID	integer
+$.iconID	integer
+$.targetMode	text
+$.tooltipTextID	integer
+$.turretGraphicID	integer

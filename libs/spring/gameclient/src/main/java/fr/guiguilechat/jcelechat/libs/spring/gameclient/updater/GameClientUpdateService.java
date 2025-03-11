@@ -52,7 +52,7 @@ public class GameClientUpdateService implements IEntityUpdater {
 		nextFetch = null;
 	}
 
-	protected GameClientUpdate findLastSuccess() {
+	public GameClientUpdate findLastSuccess() {
 		return repo.findTop1ByStatusInOrderByStartedDateDesc(List.of(Status.SUCCESS));
 	}
 

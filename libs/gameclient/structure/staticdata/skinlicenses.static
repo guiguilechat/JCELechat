@@ -1,0 +1,5 @@
+$.duration	integer
+$.isSingleUse	false
+$.isSingleUse	true
+$.licenseTypeID	integer
+$.skinID	integer

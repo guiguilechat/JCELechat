@@ -9,8 +9,8 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>gameclient</artifactId>
-	<name>Eve Gameclient lib</name>
-	<description>Get, cache and some parsing to raw data from CCP servers</description>
+	<name>Lib Gameclient</name>
+	<description>Get, cache and some parsing to raw data from CCP's game data servers</description>
 	<dependencies>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>

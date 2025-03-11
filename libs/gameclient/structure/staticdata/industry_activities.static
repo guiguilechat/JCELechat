@@ -1,0 +1,3 @@
+$.activityID	integer
+$.activityName	text
+$.description	text

@@ -1,0 +1,3 @@
+$.categoryIDs[0]	integer
+$.groupIDs[0]	integer
+$.name	text

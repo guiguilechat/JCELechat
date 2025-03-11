@@ -1,0 +1,14 @@
+$.allowCCPDevs	false
+$.allowCCPDevs	true
+$.internalName	text
+$.isStructureSkin	false
+$.isStructureSkin	true
+$.skinDescription	integer
+$.skinDescription	text
+$.skinID	integer
+$.skinMaterialID	integer
+$.types[0]	integer
+$.visibleSerenity	false
+$.visibleSerenity	true
+$.visibleTranquility	false
+$.visibleTranquility	true

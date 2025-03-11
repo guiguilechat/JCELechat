@@ -1,0 +1,8 @@
+$.abilitySlot0.abilityID	integer
+$.abilitySlot1.abilityID	integer
+$.abilitySlot1.cooldownSeconds	integer
+$.abilitySlot1.cooldownSeconds	real
+$.abilitySlot2.abilityID	integer
+$.abilitySlot2.charges.chargeCount	integer
+$.abilitySlot2.charges.rearmTimeSeconds	integer
+$.abilitySlot2.charges.rearmTimeSeconds	real

@@ -1,0 +1,11 @@
+$.aggregateMode	text
+$.developerDescription	text
+$.displayNameID	integer
+$.itemModifiers[0].dogmaAttributeID	integer
+$.locationGroupModifiers[0].dogmaAttributeID	integer
+$.locationGroupModifiers[0].groupID	integer
+$.locationModifiers[0].dogmaAttributeID	integer
+$.locationRequiredSkillModifiers[0].dogmaAttributeID	integer
+$.locationRequiredSkillModifiers[0].skillID	integer
+$.operationName	text
+$.showOutputValueInUI	text
