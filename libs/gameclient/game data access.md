@@ -20,27 +20,29 @@ Client version
 
 To get the client version, you can fetch the json from `https://binaries.eveonline.com/eveclient_TQ.json`
 
-This json has a "build" field that is changed when the game files change
+This json has a **build** field that is changed when the game files change, and that you need to know
 
 Root Index
 ==
 
-with `version` set, the root index is available at `https://binaries.eveonline.com/eveonline_$(version).txt`
+with **build** set, the root index is available at `https://binaries.eveonline.com/eveonline_$(build).txt`
 
 Indexes structure
 ==
 
-Each index is a text file, with each line of it having the format `[server]:/[localpath],[remotepath],[md5],[size],[compressedsize](,[permissions])?`, with :
+Each index is a text file, with each line of it having the format  
+`[server]:/[localpath],[remotepath],[md5],[size],[compressedsize]\(,[permissions])?`  
+with :
 
- - server is either `app` for `https://binaries.eveonline.com` or `res` for `https://resources.eveonline.com`
- - localpath is the path in the cache to place the resource
- - remotepath is the path under the server tree to fetch the resource
- - md5 and size allow to validate the resource, either in the cache or once fetched
+ - **server** is either `app` for `https://binaries.eveonline.com` or `res` for `https://resources.eveonline.com`
+ - **localpath** is the path in the cache to place the resource
+ - **remotepath** is the path under the server tree to fetch the resource
+ - **md5** and **size** allow to validate the resource, either in the cache or once fetched
  - the two other may be present or not, useful or not (I dont use them)
 
-Especially, the root index contains several sub-index lines, with the localpath format `resfileindex[_flavor]?.txt` . Those provide additional resources depending on which flavor you use. In my case I use the vanilla one (so no flavor: `resfileindex.txt` )
+The root index contains several sub-index lines, with their localpath format `resfileindex[_flavor]?.txt` . Those provide additional resources depending on which flavor you use. In my case I use the vanilla one (so no flavor: `resfileindex.txt` )
 
-Once you have your root index, your flavored sub index, you can cache them locally, all at once or on-demand, to use them.
+Once you have your root index, your flavored sub index, you can cache the indexed resources locally, all at once or on-demand, to use them.
 
 Interesting resources path and format
 ==
@@ -53,7 +55,7 @@ Some resources in that folder are static data for the game :
 SqLite files
 ===
 
-Those files are SQLite format. You can list them with eg `file staticdata/* | grep "SQLite" | cut -d':' -f1` which at the time resulted in :
+Those files are SQLite databases stored in the *staticdata/* dir. You can list them with `file staticdata/* | grep "SQLite" | cut -d':' -f1` which at the time resulted in :
 
 >staticdata/blueprints.static  
 staticdata/clonegrades.static  
