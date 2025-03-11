@@ -32,7 +32,7 @@ Indexes structure
 
 Each index is a text file, with each line of it having the format `[server]:/[localpath],[remotepath],[md5],[size],[compressedsize](,[permissions])?`, with :
 
- - server is either `res` for `https://binaries.eveonline.com` or `app` for `https://resources.eveonline.com`
+ - server is either `app` for `https://binaries.eveonline.com` or `res` for `https://resources.eveonline.com`
  - localpath is the path in the cache to place the resource
  - remotepath is the path under the server tree to fetch the resource
  - md5 and size allow to validate the resource, either in the cache or once fetched
