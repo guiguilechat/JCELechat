@@ -1,0 +1,60 @@
+#!/bin/bash
+
+last_cache=$(find .evecache/* -maxdepth 0 -type d -printf '%T+ %p\n'| sort | tail -n 1 | cut -d ' ' -f 2)
+echo "last cache is $last_cache"
+
+dir=extracted/blueprints/
+src="$last_cache/staticdata/blueprints.static"
+
+rm -rf "$dir"
+mkdir -p "$dir"
+
+
+sqlite3 -csv -separator $'\t' -header "$src" \
+		>"$dir/materials" \
+<<EOF
+select
+	c.key bpId,
+	trim(replace(replace(js.path, '$.activities.', ''), '.materials', ''), '"') activity,
+	js.value->>'typeID' typeId,
+	js.value->>'quantity' quantity
+FROM
+	cache c,
+	json_tree(c.value) js
+WHERE
+	js.path like '%materials'
+order by c.value->>'blueprintTypeID', trim(replace(replace(js.path, '$.activities.', ''), '.materials', ''), '"'), js.value->>'typeID'
+EOF
+
+sqlite3 -csv -separator $'\t' -header "$src" \
+		>"$dir/products" \
+<<EOF
+select
+	c.key bpId,
+	trim(replace(replace(js.path, '$.activities.', ''), '.products', ''), '"') activity,
+	js.value->>'typeID' typeId,
+	js.value->>'quantity' quantity,
+	coalesce(js.value->>'probability', 1.0) probability
+FROM
+	cache c,
+	json_tree(c.value) js
+WHERE
+	js.path like '%products'
+order by c.value->>'blueprintTypeID', trim(replace(replace(js.path, '$.activities.', ''), '.materials', ''), '"'), js.value->>'typeID'
+EOF
+
+sqlite3 -csv -separator $'\t' -header "$src" \
+		>"$dir/times" \
+<<EOF
+select
+	c.key bpId,
+	trim(replace(js.path, '$.activities.', ''), '"') activity,
+	js.value time
+FROM
+	cache c,
+	json_tree(c.value) js
+WHERE
+	js.key='time'
+order by c.value->>'blueprintTypeID', trim(replace(js.path, '$.activities.', ''), '"')
+EOF
+

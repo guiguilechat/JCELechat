@@ -5,7 +5,7 @@ import java.util.Map;
 public class Tax {
 
 	/** base multiplier of the price to remove as tax */
-	public static final double BASE_MULTIPLIER = 4.5 * 0.01;
+	public static final double BASE_MULTIPLIER = 7.5 * 0.01;
 
 	/**
 	 * relative reduction (base 1) of the tax price multiplier per accounting level
