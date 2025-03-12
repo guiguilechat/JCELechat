@@ -1,5 +1,12 @@
 types:
   580:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 240.0
     cpu: 30.0
     duration: 30000.0
@@ -28,6 +35,13 @@ types:
     techlevel: 1
     volume: 5.0
   2117:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 288.0
     cpu: 36.0
     duration: 30000.0
@@ -57,6 +71,13 @@ types:
     techlevel: 2
     volume: 5.0
   5361:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 192.0
     cpu: 30.0
     duration: 30000.0
@@ -86,6 +107,13 @@ types:
     techlevel: 1
     volume: 5.0
   5363:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 240.0
     cpu: 24.0
     duration: 30000.0
@@ -115,6 +143,13 @@ types:
     techlevel: 1
     volume: 5.0
   5365:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 240.0
     cpu: 30.0
     duration: 30000.0
@@ -144,6 +179,13 @@ types:
     techlevel: 1
     volume: 5.0
   20581:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 160.0
     cpu: 22.0
     duration: 30000.0
@@ -174,6 +216,13 @@ types:
     techlevel: 1
     volume: 5.0
   40690:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 180.0
     cpu: 24.0
     duration: 30000.0
@@ -204,6 +253,13 @@ types:
     techlevel: 1
     volume: 5.0
   40691:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 300.0
     cpu: 38.0
     duration: 30000.0
@@ -234,6 +290,13 @@ types:
     techlevel: 1
     volume: 5.0
   40692:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 320.0
     cpu: 40.0
     duration: 30000.0
@@ -264,6 +327,13 @@ types:
     techlevel: 1
     volume: 5.0
   40693:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 340.0
     cpu: 42.0
     duration: 30000.0
@@ -294,6 +364,13 @@ types:
     techlevel: 1
     volume: 5.0
   40694:
+    canfitshipgroup01: 27
+    canfitshipgroup02: 900
+    canfitshipgroup03: 898
+    canfitshipgroup04: 540
+    canfitshipgroup05: 28
+    canfitshipgroup06: 1202
+    canfitshipgroup07: 380
     capacitorneed: 360.0
     cpu: 44.0
     duration: 30000.0

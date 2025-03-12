@@ -1,34 +1,34 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * 
+ * Set's whether or not a structure will automatically repair itself.
  */
-public class ScanStrengthBonusModule
-    extends RealAttribute
+public class CanHaveAutoRepair
+    extends IntAttribute
 {
-    public static final ScanStrengthBonusModule INSTANCE = new ScanStrengthBonusModule();
+    public static final CanHaveAutoRepair INSTANCE = new CanHaveAutoRepair();
 
     @Override
     public int getId() {
-        return  1907;
+        return  5770;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return true;
+        return false;
     }
 
     @Override
     public Number getDefaultValue() {
-        return  0.0;
+        return  1.0;
     }
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class ScanStrengthBonusModule
 
     @Override
     public String toString() {
-        return "ScanStrengthBonusModule";
+        return "CanHaveAutoRepair";
     }
 }

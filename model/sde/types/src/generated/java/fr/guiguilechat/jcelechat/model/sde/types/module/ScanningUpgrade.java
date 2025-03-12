@@ -72,8 +72,8 @@ public class ScanningUpgrade
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int scanstrengthbonusmodule;
+    @DefaultRealValue(0.0)
+    public double scanstrengthbonusmodule;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxScanDeviationModifierModule.INSTANCE, Cpu.INSTANCE, Radius.INSTANCE, ScanStrengthBonusModule.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE })));
     public static final ScanningUpgrade.MetaGroup METAGROUP = new ScanningUpgrade.MetaGroup();
 

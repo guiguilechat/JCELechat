@@ -20,7 +20,7 @@ types:
     requiredskill1: 3412
     requiredskill1level: 3
     signatureradius: 90.0
-    speedfactor: -40.0
+    speedfactor: -20.0
     speedmultiplier: 1.0
     structureuniformity: 1.0
     techlevel: 1

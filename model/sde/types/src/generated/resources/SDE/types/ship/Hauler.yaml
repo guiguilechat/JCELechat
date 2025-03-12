@@ -73,6 +73,7 @@ types:
     shipbonusci2: -5.0
     shipbonusgi: 5
     shipbonusmi: 5
+    shiprolebonuswarpspeed: 30
     signatureradius: 190.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -85,7 +86,7 @@ types:
     upgradeslotsleft: 3
     volume: 250000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 4.5
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   649:
     affectedbyindustrialinvulnmodule: 1
@@ -172,7 +173,7 @@ types:
     upgradeslotsleft: 3
     volume: 270000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   650:
     affectedbyindustrialinvulnmodule: 1
@@ -249,6 +250,7 @@ types:
     shipbonusgi: 5
     shipbonusgi2: -5.0
     shipbonusmi: 5
+    shiprolebonuswarpspeed: 30
     signatureradius: 185.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -261,7 +263,7 @@ types:
     upgradeslotsleft: 3
     volume: 240000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 4.5
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   651:
     affectedbyindustrialinvulnmodule: 1
@@ -351,7 +353,7 @@ types:
     upgradeslotsleft: 3
     volume: 400000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   652:
     affectedbyindustrialinvulnmodule: 1
@@ -437,7 +439,7 @@ types:
     upgradeslotsleft: 3
     volume: 255000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   653:
     affectedbyindustrialinvulnmodule: 1
@@ -512,6 +514,7 @@ types:
     shipbonusgi: 5
     shipbonusmi: 5
     shipbonusmi2: -5.0
+    shiprolebonuswarpspeed: 30
     signatureradius: 155.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -524,7 +527,7 @@ types:
     upgradeslotsleft: 3
     volume: 225000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 4.5
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   654:
     affectedbyindustrialinvulnmodule: 1
@@ -614,7 +617,7 @@ types:
     upgradeslotsleft: 3
     volume: 245000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   655:
     affectedbyindustrialinvulnmodule: 1
@@ -703,7 +706,7 @@ types:
     upgradeslotsleft: 3
     volume: 250000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   656:
     affectedbyindustrialinvulnmodule: 1
@@ -791,7 +794,7 @@ types:
     upgradeslotsleft: 3
     volume: 265000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   657:
     affectedbyindustrialinvulnmodule: 1
@@ -877,7 +880,7 @@ types:
     upgradeslotsleft: 3
     volume: 275000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   1944:
     affectedbyindustrialinvulnmodule: 1
@@ -963,7 +966,7 @@ types:
     upgradeslotsleft: 3
     volume: 260000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   2863:
     affectedbyindustrialinvulnmodule: 1
@@ -1042,7 +1045,7 @@ types:
     uniformity: 1.0
     volume: 270000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   2998:
     affectedbyindustrialinvulnmodule: 1
@@ -1134,7 +1137,7 @@ types:
     upgradeslotsleft: 3
     volume: 270000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   4363:
     affectedbyindustrialinvulnmodule: 1
@@ -1221,7 +1224,7 @@ types:
     upgradeslotsleft: 3
     volume: 265000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 4.5
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   4388:
     affectedbyindustrialinvulnmodule: 1
@@ -1308,7 +1311,7 @@ types:
     upgradeslotsleft: 3
     volume: 265000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 4.5
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   19744:
     affectedbyindustrialinvulnmodule: 1
@@ -1383,6 +1386,7 @@ types:
     shipbonusci: 5
     shipbonusgi: 5
     shipbonusmi: 5
+    shiprolebonuswarpspeed: 30
     signatureradius: 175.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -1395,7 +1399,7 @@ types:
     upgradeslotsleft: 3
     volume: 230000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 4.5
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   32811:
     affectedbyindustrialinvulnmodule: 1
@@ -1482,7 +1486,7 @@ types:
     upgradeslotsleft: 3
     volume: 265000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 4.5
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   81008:
     affectedbyindustrialinvulnmodule: 1
@@ -1559,6 +1563,7 @@ types:
     shipbonusmi: 5
     shipbonusuh1: 10
     shipbonusuh2: 20
+    shiprolebonuswarpspeed: 30
     signatureradius: 195.0
     specialcolonyresourcesholdcapacity: 45000
     stasiswebifierresistance: 1.0
@@ -1572,5 +1577,5 @@ types:
     upwellhaulersmediummissilefittingbonus: 0.10000000149011612
     volume: 250000.0
     warpcapacitorneed: 1.0891100288290545E-7
-    warpspeedmultiplier: 4.5
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

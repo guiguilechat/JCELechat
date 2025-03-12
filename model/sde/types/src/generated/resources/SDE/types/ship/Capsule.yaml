@@ -54,7 +54,7 @@ types:
     uniformity: 1.0
     volume: 1000.0
     warpcapacitorneed: 2.1645000742864795E-6
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   33328:
     agility: 2.0
@@ -114,5 +114,5 @@ types:
     uniformity: 1.0
     volume: 1000.0
     warpcapacitorneed: 2.1645000742864795E-6
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0

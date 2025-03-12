@@ -21,6 +21,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanHaveArmorPhases;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanHaveAutoRepair;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoDeliveryRange;
@@ -55,7 +57,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PreFitServiceSlot0;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
@@ -88,9 +89,23 @@ import fr.guiguilechat.jcelechat.model.sde.types.Structure;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class UpwellJumpGate
+public class UpwellJumpBridge
     extends Structure
 {
+    /**
+     * Can a structure have armor phases
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int canhavearmorphases;
+    /**
+     * Set's whether or not a structure will automatically repair itself.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int canhaveautorepair;
     /**
      * 
      */
@@ -134,13 +149,6 @@ public class UpwellJumpGate
     @DefaultIntValue(0)
     public int prefitserviceslot0;
     /**
-     * Impedance against Remote Repair (shield, armor, hull and energy).
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double remoterepairimpedance;
-    /**
      * scanning speed in milliseconds
      */
     @HighIsGood(false)
@@ -154,12 +162,20 @@ public class UpwellJumpGate
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hackable.INSTANCE, Uniformity.INSTANCE, ServiceSlots.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, PauseShieldRepairDpsThreshold.INSTANCE, PauseArmorRepairDpsThreshold.INSTANCE, PauseHullRepairDpsThreshold.INSTANCE, MaximumRangeCap.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, StructureFullPowerStateHitpointMultiplier.INSTANCE, HiddenArmorHPMultiplier.INSTANCE, SensorDampenerResistance.INSTANCE, MaxLockedTargets.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, MaxTargetRange.INSTANCE, ECMResistance.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, ShieldRechargeRate.INSTANCE, JumpDriveConsumptionType.INSTANCE, CapacitorCapacity.INSTANCE, JumpDriveRange.INSTANCE, ShieldUniformity.INSTANCE, LauncherSlotsLeft.INSTANCE, CargoDeliveryRange.INSTANCE, PreFitServiceSlot0 .INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalAdditionalConsumption.INSTANCE, KineticDamageResonance.INSTANCE, GateMaxJumpMass.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ShieldDamageLimit.INSTANCE, ArmorDamageLimit.INSTANCE, StructureDamageLimit.INSTANCE, StructurePowerStateArmorPlatingMultiplier.INSTANCE, EnergyWarfareResistance.INSTANCE, TierDifficulty.INSTANCE })));
-    public static final UpwellJumpGate.MetaGroup METAGROUP = new UpwellJumpGate.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hackable.INSTANCE, Uniformity.INSTANCE, ServiceSlots.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CanHaveAutoRepair.INSTANCE, CanHaveArmorPhases.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, PauseShieldRepairDpsThreshold.INSTANCE, PauseArmorRepairDpsThreshold.INSTANCE, PauseHullRepairDpsThreshold.INSTANCE, MaximumRangeCap.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, StructureFullPowerStateHitpointMultiplier.INSTANCE, HiddenArmorHPMultiplier.INSTANCE, SensorDampenerResistance.INSTANCE, MaxLockedTargets.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, MaxTargetRange.INSTANCE, ECMResistance.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, ShieldRechargeRate.INSTANCE, JumpDriveConsumptionType.INSTANCE, CapacitorCapacity.INSTANCE, JumpDriveRange.INSTANCE, ShieldUniformity.INSTANCE, LauncherSlotsLeft.INSTANCE, CargoDeliveryRange.INSTANCE, PreFitServiceSlot0 .INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalAdditionalConsumption.INSTANCE, KineticDamageResonance.INSTANCE, GateMaxJumpMass.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ShieldDamageLimit.INSTANCE, ArmorDamageLimit.INSTANCE, StructureDamageLimit.INSTANCE, StructurePowerStateArmorPlatingMultiplier.INSTANCE, EnergyWarfareResistance.INSTANCE, TierDifficulty.INSTANCE })));
+    public static final UpwellJumpBridge.MetaGroup METAGROUP = new UpwellJumpBridge.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  5771 :
+            {
+                return canhavearmorphases;
+            }
+            case  5770 :
+            {
+                return canhaveautorepair;
+            }
             case  2798 :
             {
                 return gatemaxjumpmass;
@@ -184,10 +200,6 @@ public class UpwellJumpGate
             {
                 return prefitserviceslot0;
             }
-            case  2116 :
-            {
-                return remoterepairimpedance;
-            }
             case  79 :
             {
                 return scanspeed;
@@ -209,18 +221,18 @@ public class UpwellJumpGate
     }
 
     @Override
-    public IMetaGroup<UpwellJumpGate> getGroup() {
+    public IMetaGroup<UpwellJumpBridge> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<UpwellJumpGate>
+        implements IMetaGroup<UpwellJumpBridge>
     {
-        public static final String RESOURCE_PATH = "SDE/types/structure/UpwellJumpGate.yaml";
-        private Map<Integer, UpwellJumpGate> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/structure/UpwellJumpBridge.yaml";
+        private Map<Integer, UpwellJumpBridge> cache = (null);
 
         @Override
-        public IMetaCategory<? super UpwellJumpGate> category() {
+        public IMetaCategory<? super UpwellJumpBridge> category() {
             return Structure.METACAT;
         }
 
@@ -231,13 +243,13 @@ public class UpwellJumpGate
 
         @Override
         public String getName() {
-            return "UpwellJumpGate";
+            return "UpwellJumpBridge";
         }
 
         @Override
-        public synchronized Map<Integer, UpwellJumpGate> load() {
+        public synchronized Map<Integer, UpwellJumpBridge> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(UpwellJumpGate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(UpwellJumpBridge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -249,7 +261,7 @@ public class UpwellJumpGate
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, UpwellJumpGate> types;
+            public LinkedHashMap<Integer, UpwellJumpBridge> types;
         }
     }
 }

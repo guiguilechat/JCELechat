@@ -1,24 +1,21 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class ScanStrengthBonusModule
-    extends RealAttribute
+public class FilamentSpoolupTimeSeconds
+    extends IntAttribute
 {
-    public static final ScanStrengthBonusModule INSTANCE = new ScanStrengthBonusModule();
+    public static final FilamentSpoolupTimeSeconds INSTANCE = new FilamentSpoolupTimeSeconds();
 
     @Override
     public int getId() {
-        return  1907;
+        return  5783;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class ScanStrengthBonusModule
 
     @Override
     public String toString() {
-        return "ScanStrengthBonusModule";
+        return "FilamentSpoolupTimeSeconds";
     }
 }

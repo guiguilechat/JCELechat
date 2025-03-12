@@ -9057,3 +9057,108 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 13
+  87711:
+    boosterduration: 210000.0
+    boosterlastinjectiondatetime: 20181.458984375
+    boosterness: 17
+    capacitorcapacitybonus: 16.0
+    damagemultiplier: 1.0
+    id: 87711
+    mass: 1.0
+    metalevelold: 5
+    name: Aegytica Volatile Booster
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  87726:
+    armordamageamountbonus: 16
+    boosterduration: 210000.0
+    boosterlastinjectiondatetime: 20181.458984375
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 87726
+    mass: 1.0
+    metalevelold: 5
+    name: Vis Vitalis Volatile Booster
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  87727:
+    boosterduration: 210000.0
+    boosterlastinjectiondatetime: 20181.458984375
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 87727
+    mass: 1.0
+    metalevelold: 5
+    name: Balneum Volatile Booster
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 16.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  87728:
+    boosterduration: 210000.0
+    boosterlastinjectiondatetime: 20181.458984375
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 87728
+    mass: 1.0
+    metalevelold: 5
+    name: Theriac Volatile Booster
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 16.0
+    volume: 1.0
+  87729:
+    boosterduration: 210000.0
+    boosterlastinjectiondatetime: 20181.458984375
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 87729
+    mass: 1.0
+    maxflighttimebonus: 16
+    metalevelold: 3
+    name: Mithridate Volatile Booster
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0

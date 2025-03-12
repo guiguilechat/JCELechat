@@ -33,8 +33,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_groups_group_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_tasks_task_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures;
@@ -602,64 +600,6 @@ public interface G_IDCAccess
     public default Requested<Integer[]> get_markets_types(Integer page, int region_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/markets/{region_id}/types/".replace("{region_id}", ""+region_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,java.lang.Integer[].class));
-    }
-
-    /**
-     * Get opportunities groups
-     * <p>
-     * Return a list of opportunities groups<br />
-     * This route expires daily at 11:05<br />
-     * Warning: This route is deprecated
-     * </p>
-     */
-    public default Requested<Integer[]> get_opportunities_groups(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/opportunities/groups/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
-    }
-
-    /**
-     * Get opportunities group
-     * <p>
-     * Return information of an opportunities group<br />
-     * This route expires daily at 11:05<br />
-     * Warning: This route is deprecated
-     * </p>
-     * 
-     * @param group_id
-     *     ID of an opportunities group
-     */
-    public default Requested<R_get_opportunities_groups_group_id> get_opportunities_groups(int group_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/opportunities/groups/{group_id}/".replace("{group_id}", ""+group_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_groups_group_id.class));
-    }
-
-    /**
-     * Get opportunities tasks
-     * <p>
-     * Return a list of opportunities tasks<br />
-     * This route expires daily at 11:05<br />
-     * Warning: This route is deprecated
-     * </p>
-     */
-    public default Requested<Integer[]> get_opportunities_tasks(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/opportunities/tasks/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
-    }
-
-    /**
-     * Get opportunities task
-     * <p>
-     * Return information of an opportunities task<br />
-     * This route expires daily at 11:05<br />
-     * Warning: This route is deprecated
-     * </p>
-     * 
-     * @param task_id
-     *     ID of an opportunities task
-     */
-    public default Requested<R_get_opportunities_tasks_task_id> get_opportunities_tasks(int task_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/opportunities/tasks/{task_id}/".replace("{task_id}", ""+task_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_tasks_task_id.class));
     }
 
     /**

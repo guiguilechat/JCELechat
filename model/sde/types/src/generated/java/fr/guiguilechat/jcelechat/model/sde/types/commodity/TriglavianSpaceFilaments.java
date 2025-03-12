@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentDescriptionMessageID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentSpoolupTimeSeconds;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LightYearDistanceMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LocationListID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MjdShipJumpCap;
@@ -39,6 +40,10 @@ public class TriglavianSpaceFilaments
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacity;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int filamentspooluptimeseconds;
     @HighIsGood(false)
     @Stackable(false)
     @DefaultRealValue(1.0)
@@ -68,7 +73,7 @@ public class TriglavianSpaceFilaments
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MjdShipJumpCap.INSTANCE, Radius.INSTANCE, FilamentDescriptionMessageID.INSTANCE, MjfgRadius.INSTANCE, Capacity.INSTANCE, LocationListID.INSTANCE, LightYearDistanceMax.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MjdShipJumpCap.INSTANCE, Radius.INSTANCE, FilamentDescriptionMessageID.INSTANCE, MjfgRadius.INSTANCE, Capacity.INSTANCE, FilamentSpoolupTimeSeconds.INSTANCE, LocationListID.INSTANCE, LightYearDistanceMax.INSTANCE })));
     public static final TriglavianSpaceFilaments.MetaGroup METAGROUP = new TriglavianSpaceFilaments.MetaGroup();
 
     @Override
@@ -81,6 +86,10 @@ public class TriglavianSpaceFilaments
             case  38 :
             {
                 return capacity;
+            }
+            case  5783 :
+            {
+                return filamentspooluptimeseconds;
             }
             case  3097 :
             {

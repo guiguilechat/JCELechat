@@ -78,6 +78,7 @@ types:
     shielduniformity: 0.75
     shipbonusad1: -5
     shipbonusad2: 15
+    shiprolebonuswarpspeed: 25
     signatureradius: 75.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -90,7 +91,7 @@ types:
     upgradeslotsleft: 2
     volume: 47000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 4.5
     weapondisruptionresistance: 1.0
   22456:
     agility: 3.700000047683716
@@ -171,6 +172,7 @@ types:
     shielduniformity: 0.75
     shipbonusmd1: 5
     shipbonusmd2: 10
+    shiprolebonuswarpspeed: 25
     signatureradius: 70.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -183,7 +185,7 @@ types:
     upgradeslotsleft: 2
     volume: 43000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 4.5
     weapondisruptionresistance: 1.0
   22460:
     agility: 3.700000047683716
@@ -264,6 +266,7 @@ types:
     shielduniformity: 0.75
     shipbonusgd1: -7.5
     shipbonusgd2: 10
+    shiprolebonuswarpspeed: 25
     signatureradius: 78.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -276,7 +279,7 @@ types:
     upgradeslotsleft: 2
     volume: 55000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 4.5
     weapondisruptionresistance: 1.0
   22464:
     agility: 3.5999999046325684
@@ -357,6 +360,7 @@ types:
     shielduniformity: 0.75
     shipbonuscd1: 10.0
     shipbonuscd2: 10
+    shiprolebonuswarpspeed: 25
     signatureradius: 80.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -369,5 +373,5 @@ types:
     upgradeslotsleft: 2
     volume: 52000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 4.5
     weapondisruptionresistance: 1.0

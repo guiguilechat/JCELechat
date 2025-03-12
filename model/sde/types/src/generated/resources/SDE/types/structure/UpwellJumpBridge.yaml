@@ -1,34 +1,36 @@
 types:
   35841:
-    armordamagelimit: 5000
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.800000011920929
-    armorhp: 750000.0
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.800000011920929
+    armordamagelimit: 5000000
+    armoremdamageresonance: 0.25
+    armorexplosivedamageresonance: 0.25
+    armorhp: 500000.0
+    armorkineticdamageresonance: 0.25
+    armorthermaldamageresonance: 0.25
     armoruniformity: 1.0
+    canhavearmorphases: 1
+    canhaveautorepair: 1
     capacitorcapacity: 200000.0
     cargodeliveryrange: 10000
     cpuoutput: 10000
     ecmresistance: 9.999999747378752E-6
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 1.0
     energywarfareresistance: 9.999999747378752E-6
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 1.0
     fighterabilityanticapitalmissileresistance: 1
     gatemaxjumpmass: 1480000000
     hackable: 1
     hiddenarmorhpmultiplier: 1
-    hp: 3000000.0
+    hp: 1.2E7
     id: 35841
     jumpdriveconsumptiontype: 16273
     jumpdriverange: 5.0
     jumpportaladditionalconsumption: 50
     jumpportalconsumptionmassfactor: 1.500000013088254E-9
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 1.0
     marketGroup: 2511
     mass: 3.0E9
     maximumrangecap: 300000
-    name: Ansiblex Jump Gate
+    name: Ansiblex Jump Bridge
     packagedVolume: 6000.0
     pausearmorrepairdpsthreshold: 500
     pausehullrepairdpsthreshold: 500
@@ -37,10 +39,9 @@ types:
     poweroutput: 20000
     prefitserviceslot0: 35913
     published: true
-    radius: 13000.0
+    radius: 7000.0
     rechargerate: 3600000.0
     remoteassistanceimpedance: 9.999999747378752E-6
-    remoterepairimpedance: 9.999999747378752E-6
     scangravimetricstrength: 100.0
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
@@ -49,20 +50,20 @@ types:
     scanspeed: 2500
     sensordampenerresistance: 9.999999747378752E-6
     serviceslots: 1
-    shieldcapacity: 750000.0
-    shielddamagelimit: 5000
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.800000011920929
-    shieldrechargerate: 9.99999995904E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldcapacity: 500000.0
+    shielddamagelimit: 5000000
+    shieldemdamageresonance: 0.25
+    shieldexplosivedamageresonance: 0.25
+    shieldkineticdamageresonance: 0.25
+    shieldrechargerate: 1.0E8
+    shieldthermaldamageresonance: 0.25
     shielduniformity: 1.0
     signatureradius: 20000.0
     stasiswebifierresistance: 9.999999747378752E-6
-    structuredamagelimit: 5000
+    structuredamagelimit: 5000000
     structurefullpowerstatehitpointmultiplier: 1
     structureuniformity: 1.0
-    thermaldamageresonance: 0.800000011920929
+    thermaldamageresonance: 1.0
     tierdifficulty: 3
     uniformity: 1.0
     volume: 6000.0

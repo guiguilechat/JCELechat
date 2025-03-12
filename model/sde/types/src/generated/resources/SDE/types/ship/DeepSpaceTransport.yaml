@@ -93,7 +93,7 @@ types:
     volume: 390000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2
-    warpspeedmultiplier: 3.299999952316284
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   12745:
     affectedbyindustrialinvulnmodule: 1
@@ -189,7 +189,7 @@ types:
     volume: 390000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2
-    warpspeedmultiplier: 3.299999952316284
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   12747:
     affectedbyindustrialinvulnmodule: 1
@@ -285,7 +285,7 @@ types:
     volume: 385000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2
-    warpspeedmultiplier: 3.299999952316284
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   12753:
     affectedbyindustrialinvulnmodule: 1
@@ -381,7 +381,7 @@ types:
     volume: 400000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2
-    warpspeedmultiplier: 3.299999952316284
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   81047:
     affectedbyindustrialinvulnmodule: 1
@@ -480,5 +480,5 @@ types:
     volume: 350000.0
     warpcapacitorneed: 8.12999985555507E-7
     warpscramblestatus: -2
-    warpspeedmultiplier: 3.299999952316284
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

@@ -34,6 +34,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusCommandShips1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusCommandShips2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusCommandShips3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusCommandShips4;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
@@ -97,6 +98,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCBC1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCBC2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGBC1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGBC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGBC3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMBC1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMBC2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
@@ -142,6 +144,10 @@ public class CommandShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int elitebonuscommandships3;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int elitebonuscommandships4;
     /**
      * 
      */
@@ -331,6 +337,10 @@ public class CommandShip
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shipbonusgbc2;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonusgbc3;
     /**
      * 
      */
@@ -373,7 +383,7 @@ public class CommandShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int wingcommandbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusABC1 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, WingCommandBonus.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, ShipBonusABC2 .INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, EliteBonusCommandShips3 .INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, MaxGangModules.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EliteBonusCommandShips2 .INSTANCE, ShipBonusCBC1 .INSTANCE, TypeColorScheme.INSTANCE, EliteBonusCommandShips1 .INSTANCE, ShipBonusCBC2 .INSTANCE, ShipBonusGBC2 .INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusGBC1 .INSTANCE, ShipBonusMBC1 .INSTANCE, HeatAttenuationMed.INSTANCE, ShipBonusMBC2 .INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusABC1 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, WingCommandBonus.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, ShipBonusABC2 .INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, EliteBonusCommandShips3 .INSTANCE, Uniformity.INSTANCE, EliteBonusCommandShips4 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, MaxGangModules.INSTANCE, RequiredSkill1 .INSTANCE, ShipBonusGBC3 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EliteBonusCommandShips2 .INSTANCE, ShipBonusCBC1 .INSTANCE, TypeColorScheme.INSTANCE, EliteBonusCommandShips1 .INSTANCE, ShipBonusCBC2 .INSTANCE, ShipBonusGBC2 .INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusGBC1 .INSTANCE, ShipBonusMBC1 .INSTANCE, HeatAttenuationMed.INSTANCE, ShipBonusMBC2 .INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final CommandShip.MetaGroup METAGROUP = new CommandShip.MetaGroup();
 
     @Override
@@ -390,6 +400,10 @@ public class CommandShip
             case  1924 :
             {
                 return elitebonuscommandships3;
+            }
+            case  5772 :
+            {
+                return elitebonuscommandships4;
             }
             case  1555 :
             {
@@ -498,6 +512,10 @@ public class CommandShip
             case  746 :
             {
                 return shipbonusgbc2;
+            }
+            case  5046 :
+            {
+                return shipbonusgbc3;
             }
             case  748 :
             {

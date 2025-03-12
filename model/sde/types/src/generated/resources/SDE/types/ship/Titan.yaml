@@ -116,7 +116,7 @@ types:
     upgradeslotsleft: 3
     volume: 1.455E8
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 0.20000000298023224
   3764:
     accuracybonus: 1
@@ -237,7 +237,7 @@ types:
     upgradeslotsleft: 3
     volume: 1.325E8
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 0.20000000298023224
   11567:
     accuracybonus: 1
@@ -356,7 +356,7 @@ types:
     upgradeslotsleft: 3
     volume: 1.55E8
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 0.20000000298023224
   23773:
     advancedagility: 1
@@ -474,7 +474,7 @@ types:
     upgradeslotsleft: 3
     volume: 1.0E8
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 0.20000000298023224
   42126:
     accuracybonus: 1
@@ -599,7 +599,7 @@ types:
     upgradeslotsleft: 3
     volume: 1.455E8
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 0.20000000298023224
   42241:
     accuracybonus: 1
@@ -726,7 +726,7 @@ types:
     upgradeslotsleft: 3
     volume: 1.55E8
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 0.20000000298023224
   45649:
     accuracybonus: 1
@@ -858,7 +858,7 @@ types:
     upgradeslotsleft: 3
     volume: 1.325E8
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 0.20000000298023224
   78576:
     advancedagility: 1
@@ -982,5 +982,5 @@ types:
     upgradeslotsleft: 3
     volume: 1.0E8
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 0.20000000298023224

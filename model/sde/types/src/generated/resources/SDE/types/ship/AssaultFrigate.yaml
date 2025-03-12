@@ -87,7 +87,7 @@ types:
     upgradeslotsleft: 2
     volume: 29500.0
     warpcapacitorneed: 1.3500000477506546E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   3516:
     agility: 2.430000066757202
@@ -176,7 +176,7 @@ types:
     upgradeslotsleft: 2
     volume: 28600.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   11365:
     agility: 4.263999938964844
@@ -267,7 +267,7 @@ types:
     upgradeslotsleft: 2
     volume: 28600.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   11371:
     agility: 3.4560000896453857
@@ -359,7 +359,7 @@ types:
     upgradeslotsleft: 2
     volume: 27289.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   11379:
     agility: 3.7679998874664307
@@ -451,7 +451,7 @@ types:
     upgradeslotsleft: 2
     volume: 16500.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   11381:
     agility: 3.6328001022338867
@@ -543,7 +543,7 @@ types:
     upgradeslotsleft: 2
     volume: 16500.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   11393:
     agility: 4.127999782562256
@@ -633,7 +633,7 @@ types:
     upgradeslotsleft: 2
     volume: 28600.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   11400:
     agility: 3.1760001182556152
@@ -727,7 +727,7 @@ types:
     upgradeslotsleft: 2
     volume: 27289.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   12042:
     agility: 3.8684000968933105
@@ -820,7 +820,7 @@ types:
     upgradeslotsleft: 2
     volume: 29500.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   12044:
     agility: 3.921600103378296
@@ -913,7 +913,7 @@ types:
     upgradeslotsleft: 2
     volume: 29500.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   32207:
     agility: 3.055999994277954
@@ -1004,7 +1004,7 @@ types:
     upgradeslotsleft: 2
     volume: 27289.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   32788:
     agility: 3.5
@@ -1097,7 +1097,7 @@ types:
     upgradeslotsleft: 2
     volume: 16500.0
     warpcapacitorneed: 1.369999949929479E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   52250:
     agility: 2.9000000953674316
@@ -1190,7 +1190,7 @@ types:
     upgradeslotsleft: 2
     volume: 28600.0
     warpcapacitorneed: 2.2399999579647556E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   74141:
     agility: 2.5
@@ -1287,7 +1287,7 @@ types:
     upgradeslotsleft: 2
     volume: 27289.0
     warpcapacitorneed: 1.3477100537784281E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   78414:
     agility: 3.4674999713897705
@@ -1382,5 +1382,5 @@ types:
     upgradeslotsleft: 2
     volume: 29500.0
     warpcapacitorneed: 1.3500000477506546E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0

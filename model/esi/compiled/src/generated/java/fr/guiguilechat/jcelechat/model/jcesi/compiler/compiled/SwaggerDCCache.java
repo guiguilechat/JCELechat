@@ -13,7 +13,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Insu
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Killmails;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Loyalty;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Markets;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Opportunities;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Route;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Sovereignty;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Status;
@@ -34,7 +33,6 @@ public abstract class SwaggerDCCache<T extends G_IDCAccess>
     public final Killmails killmails = new Killmails(this);
     public final Loyalty loyalty = new Loyalty(this);
     public final Markets markets = new Markets(this);
-    public final Opportunities opportunities = new Opportunities(this);
     public final Route route = new Route(this);
     public final Sovereignty sovereignty = new Sovereignty(this);
     public final Status status = new Status(this);

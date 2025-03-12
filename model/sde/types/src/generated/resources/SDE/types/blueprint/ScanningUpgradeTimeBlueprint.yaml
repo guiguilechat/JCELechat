@@ -22,3 +22,14 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  87327:
+    id: 87327
+    industryblueprintrank: 6.0
+    name: Navy Scan Acquisition Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 600000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

@@ -17183,7 +17183,7 @@ id2group:
   35835: structure/Refinery
   35836: structure/Refinery
   35840: structure/UpwellCynoBeacon
-  35841: structure/UpwellJumpGate
+  35841: structure/UpwellJumpBridge
   35877: structuremodule/StructureEngineeringServiceModule
   35878: structuremodule/StructureEngineeringServiceModule
   35881: structuremodule/StructureEngineeringServiceModule
@@ -29900,7 +29900,11 @@ id2group:
   78855: commodity/AccelerationGateKeys
   78856: commodity/AccelerationGateKeys
   78857: commodity/Miscellaneous
+  78858: commodity/Miscellaneous
+  78860: commodity/Miscellaneous
   78862: commodity/Miscellaneous
+  78864: commodity/Miscellaneous
+  78866: commodity/Miscellaneous
   78867: specialeditionassets/SpecialEditionCommodities
   78872: specialeditionassets/SpecialEditionCommodities
   78873: specialeditionassets/SpecialEditionCommodities
@@ -31824,7 +31828,17 @@ id2group:
   87318: personalization/ShipSKINDesignElement
   87319: personalization/ShipSKINDesignElement
   87320: personalization/ShipSKINDesignElement
+  87323: module/ScanningUpgrade
+  87324: module/ScanningUpgrade
+  87325: module/ScanningUpgradeTime
+  87326: blueprint/ScanningUpgradeBlueprint
+  87327: blueprint/ScanningUpgradeTimeBlueprint
+  87328: blueprint/ScanningUpgradeBlueprint
   87333: specialeditionassets/SpecialEditionCommodities
+  87349: specialeditionassets/SpecialEditionCommodities
+  87350: specialeditionassets/SpecialEditionCommodities
+  87351: specialeditionassets/SpecialEditionCommodities
+  87352: specialeditionassets/SpecialEditionCommodities
   87353: entity/SpawnContainer
   87354: commodity/Miscellaneous
   87360: specialeditionassets/SpecialEditionCommodities
@@ -31842,6 +31856,46 @@ id2group:
   87524: skins/PermanentSKIN
   87525: skins/PermanentSKIN
   87526: skins/PermanentSKIN
+  87562: module/StripMiner
+  87572: apparel/Outer
+  87573: apparel/Outer
+  87617: entity/LargeCollidableStructure
+  87618: commodity/Miscellaneous
+  87702: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  87704: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  87705: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  87706: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  87707: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  87708: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  87709: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  87711: implant/Booster
+  87726: implant/Booster
+  87727: implant/Booster
+  87728: implant/Booster
+  87729: implant/Booster
+  87735: blueprint/InfrastructureUpgradeBlueprint
+  87736: blueprint/InfrastructureUpgradeBlueprint
+  87737: blueprint/InfrastructureUpgradeBlueprint
+  87738: blueprint/InfrastructureUpgradeBlueprint
+  87739: blueprint/InfrastructureUpgradeBlueprint
+  87740: blueprint/InfrastructureUpgradeBlueprint
+  87741: blueprint/InfrastructureUpgradeBlueprint
+  87776: personalization/ShipSKINDesignElement
+  87777: personalization/ShipSKINDesignElement
+  87778: personalization/ShipSKINDesignElement
+  87779: personalization/ShipSKINDesignElement
+  87795: personalization/ShipSKINDesignElement
+  87796: personalization/ShipSKINDesignElement
+  87797: personalization/ShipSKINDesignElement
+  87798: personalization/ShipSKINDesignElement
+  87800: personalization/ShipSKINDesignElement
+  87801: personalization/ShipSKINDesignElement
+  87802: personalization/ShipSKINDesignElement
+  87803: personalization/ShipSKINDesignElement
+  87853: specialeditionassets/SpecialEditionCommodities
+  87938: entity/IrregularFrigate
+  87939: entity/IrregularDestroyer
+  87982: commodity/Miscellaneous
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

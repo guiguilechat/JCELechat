@@ -263,3 +263,80 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  87735:
+    id: 87735
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Tritanium Prospecting Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  87736:
+    id: 87736
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Pyerite Prospecting Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  87737:
+    id: 87737
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Mexallon Prospecting Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  87738:
+    id: 87738
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Isogen Prospecting Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  87739:
+    id: 87739
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Nocxium Prospecting Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  87740:
+    id: 87740
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Zydrine Prospecting Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  87741:
+    id: 87741
+    industryblueprintrank: 200.0
+    marketGroup: 2014
+    name: Megacyte Prospecting Array 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

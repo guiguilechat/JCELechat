@@ -28049,19 +28049,19 @@ offers:
       isk: 25000000
       items:
       - id: 34
-        quantity: 546912
+        quantity: 410184
       - id: 35
-        quantity: 113826
+        quantity: 85370
       - id: 36
-        quantity: 45010
+        quantity: 33758
       - id: 37
-        quantity: 7760
+        quantity: 5820
       - id: 38
-        quantity: 2358
+        quantity: 1769
       - id: 39
-        quantity: 876
+        quantity: 657
       - id: 40
-        quantity: 386
+        quantity: 290
       - id: 47975
         quantity: 180
       - id: 48112
@@ -28086,19 +28086,19 @@ offers:
       isk: 50000000
       items:
       - id: 34
-        quantity: 510149
+        quantity: 382612
       - id: 35
-        quantity: 110413
+        quantity: 82810
       - id: 36
-        quantity: 45621
+        quantity: 34216
       - id: 37
-        quantity: 7491
+        quantity: 5618
       - id: 38
-        quantity: 2191
+        quantity: 1643
       - id: 39
-        quantity: 728
+        quantity: 546
       - id: 40
-        quantity: 334
+        quantity: 251
       - id: 47975
         quantity: 45
       - id: 48112
@@ -28123,19 +28123,19 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 457050
+        quantity: 342788
       - id: 35
-        quantity: 110416
+        quantity: 82812
       - id: 36
-        quantity: 41994
+        quantity: 31496
       - id: 37
-        quantity: 6938
+        quantity: 5204
       - id: 38
-        quantity: 2110
+        quantity: 1583
       - id: 39
-        quantity: 604
+        quantity: 453
       - id: 40
-        quantity: 302
+        quantity: 227
       - id: 47975
         quantity: 90
       - id: 48112
@@ -42524,3 +42524,93 @@ offers:
       quantity: 1
     requirements:
       lp: 16000
+  19432:
+    id: 19432
+    name: Imperial Navy Scanning Upgrade Blueprint Crate
+    product:
+      id: 87349
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 78864
+        quantity: 100
+      lp: 10000
+  19433:
+    id: 19433
+    name: Republic Fleet Scanning Upgrade Blueprint Crate
+    product:
+      id: 87352
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 78864
+        quantity: 100
+      lp: 10000
+  19434:
+    id: 19434
+    name: Federation Navy Scanning Upgrade Blueprint Crate
+    product:
+      id: 87351
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 78858
+        quantity: 100
+      lp: 10000
+  19435:
+    id: 19435
+    name: State Navy Scanning Upgrade Blueprint Crate
+    product:
+      id: 87350
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 78858
+        quantity: 100
+      lp: 10000
+  19439:
+    id: 19439
+    name: 'ORE Deep Core Strip Miner '
+    product:
+      id: 87562
+      quantity: 1
+    requirements:
+      isk: 37500000
+      items:
+      - id: 24305
+        quantity: 1
+      lp: 56250
+  19440:
+    id: 19440
+    name: Gratuity for Warden Connection Harmonic
+    product:
+      id: 87982
+      quantity: 1
+    requirements:
+      items:
+      - id: 87618
+        quantity: 1
+  19441:
+    id: 19441
+    name: 10* Gratuity for Warden Connection Harmonic
+    product:
+      id: 87982
+      quantity: 10
+    requirements:
+      items:
+      - id: 87618
+        quantity: 10
+  19442:
+    id: 19442
+    name: 50* Gratuity for Warden Connection Harmonic
+    product:
+      id: 87982
+      quantity: 50
+    requirements:
+      items:
+      - id: 87618
+        quantity: 50

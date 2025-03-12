@@ -1,19 +1,16 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class ScanStrengthBonusModule
-    extends RealAttribute
+public class EliteBonusCommandShips4
+    extends IntAttribute
 {
-    public static final ScanStrengthBonusModule INSTANCE = new ScanStrengthBonusModule();
+    public static final EliteBonusCommandShips4 INSTANCE = new EliteBonusCommandShips4();
 
     @Override
     public int getId() {
-        return  1907;
+        return  5772;
     }
 
     @Override
@@ -28,16 +25,16 @@ public class ScanStrengthBonusModule
 
     @Override
     public boolean getPublished() {
-        return true;
-    }
-
-    @Override
-    public boolean getStackable() {
         return false;
     }
 
     @Override
+    public boolean getStackable() {
+        return true;
+    }
+
+    @Override
     public String toString() {
-        return "ScanStrengthBonusModule";
+        return "EliteBonusCommandShips4";
     }
 }

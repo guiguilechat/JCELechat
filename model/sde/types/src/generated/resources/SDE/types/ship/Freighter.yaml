@@ -77,7 +77,7 @@ types:
     uniformity: 1.0
     volume: 1.85E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   20185:
     advancedagility: 1
@@ -157,7 +157,7 @@ types:
     uniformity: 1.0
     volume: 1.625E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   20187:
     advancedagility: 1
@@ -237,7 +237,7 @@ types:
     uniformity: 1.0
     volume: 1.755E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   20189:
     advancedagility: 1
@@ -317,7 +317,7 @@ types:
     uniformity: 1.0
     volume: 1.55E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   34328:
     advancedagility: 1
@@ -404,7 +404,7 @@ types:
     upgradeslotsleft: 3
     volume: 1.755E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   81040:
     advancedagility: 1
@@ -493,5 +493,5 @@ types:
     upwellfreightercloakcpupenalty: 10000
     volume: 1.625E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 1.3700000047683716
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0

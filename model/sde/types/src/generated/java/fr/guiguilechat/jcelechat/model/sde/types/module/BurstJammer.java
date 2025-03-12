@@ -14,6 +14,13 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup06;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup07;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -44,6 +51,55 @@ import org.yaml.snakeyaml.Yaml;
 public class BurstJammer
     extends Module
 {
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup01;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup02;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup03;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup04;
+    /**
+     * Can be fitted to
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup05;
+    /**
+     * Can be fitted to
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup06;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup07;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -178,12 +234,40 @@ public class BurstJammer
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpbubbleimmunemodifier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, WarpBubbleImmuneModifier.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, OverloadECMStrengthBonus.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, EcmBurstRange.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {WarpBubbleImmuneModifier.INSTANCE, CapacitorNeed.INSTANCE, OverloadECMStrengthBonus.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, EcmBurstRange.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipGroup06 .INSTANCE, CanFitShipGroup07 .INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
     public static final BurstJammer.MetaGroup METAGROUP = new BurstJammer.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  1298 :
+            {
+                return canfitshipgroup01;
+            }
+            case  1299 :
+            {
+                return canfitshipgroup02;
+            }
+            case  1300 :
+            {
+                return canfitshipgroup03;
+            }
+            case  1301 :
+            {
+                return canfitshipgroup04;
+            }
+            case  1872 :
+            {
+                return canfitshipgroup05;
+            }
+            case  1879 :
+            {
+                return canfitshipgroup06;
+            }
+            case  1880 :
+            {
+                return canfitshipgroup07;
+            }
             case  6 :
             {
                 return capacitorneed;

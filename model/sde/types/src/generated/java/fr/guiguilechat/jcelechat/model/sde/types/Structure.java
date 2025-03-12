@@ -79,7 +79,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.structure.EngineeringComplex;
 import fr.guiguilechat.jcelechat.model.sde.types.structure.Refinery;
 import fr.guiguilechat.jcelechat.model.sde.types.structure.UpwellCynoBeacon;
 import fr.guiguilechat.jcelechat.model.sde.types.structure.UpwellCynoJammer;
-import fr.guiguilechat.jcelechat.model.sde.types.structure.UpwellJumpGate;
+import fr.guiguilechat.jcelechat.model.sde.types.structure.UpwellJumpBridge;
 import fr.guiguilechat.jcelechat.model.sde.types.structure.UpwellMoonDrill;
 
 public abstract class Structure
@@ -787,7 +787,7 @@ public abstract class Structure
 
         @Override
         public Collection<IMetaGroup<? extends Structure>> groups() {
-            return Arrays.asList(UpwellMoonDrill.METAGROUP, EngineeringComplex.METAGROUP, Refinery.METAGROUP, UpwellJumpGate.METAGROUP, Citadel.METAGROUP, UpwellCynoJammer.METAGROUP, UpwellCynoBeacon.METAGROUP);
+            return Arrays.asList(UpwellMoonDrill.METAGROUP, EngineeringComplex.METAGROUP, Refinery.METAGROUP, UpwellJumpBridge.METAGROUP, Citadel.METAGROUP, UpwellCynoJammer.METAGROUP, UpwellCynoBeacon.METAGROUP);
         }
     }
 }

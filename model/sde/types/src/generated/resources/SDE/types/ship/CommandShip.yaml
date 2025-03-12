@@ -16,6 +16,7 @@ types:
     elitebonuscommandships1: 5.0
     elitebonuscommandships2: 7.5
     elitebonuscommandships3: 3
+    elitebonuscommandships4: 5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -77,6 +78,7 @@ types:
     shielduniformity: 0.75
     shipbonusgbc1: 10.0
     shipbonusgbc2: -4.0
+    shipbonusgbc3: 5
     signatureradius: 300.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -89,7 +91,7 @@ types:
     upgradeslotsleft: 2
     volume: 270000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 4.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
     wingcommandbonus: 5
   22444:
@@ -183,7 +185,7 @@ types:
     upgradeslotsleft: 2
     volume: 216000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 4.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   22446:
     agility: 0.6700000166893005
@@ -276,7 +278,7 @@ types:
     upgradeslotsleft: 2
     volume: 252000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 4.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
     wingcommandbonus: 5
   22448:
@@ -368,7 +370,7 @@ types:
     upgradeslotsleft: 2
     volume: 234000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 4.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   22466:
     agility: 0.699999988079071
@@ -461,7 +463,7 @@ types:
     upgradeslotsleft: 2
     volume: 270000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 4.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   22468:
     agility: 0.699999988079071
@@ -554,7 +556,7 @@ types:
     upgradeslotsleft: 2
     volume: 216000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 4.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
     wingcommandbonus: 5
   22470:
@@ -648,7 +650,7 @@ types:
     upgradeslotsleft: 2
     volume: 252000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 4.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   22474:
     agility: 0.699999988079071
@@ -741,6 +743,6 @@ types:
     upgradeslotsleft: 2
     volume: 234000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 4.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
     wingcommandbonus: 5

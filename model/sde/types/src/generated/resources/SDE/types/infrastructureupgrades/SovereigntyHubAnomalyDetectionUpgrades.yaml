@@ -413,3 +413,87 @@ types:
     published: true
     radius: 1.0
     volume: 5000.0
+  87702:
+    distributionid01: 3632
+    id: 87702
+    marketGroup: 1283
+    mass: 1000.0
+    name: Tritanium Prospecting Array 3
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 5000.0
+  87704:
+    distributionid01: 3633
+    id: 87704
+    marketGroup: 1283
+    mass: 1000.0
+    name: Pyerite Prospecting Array 3
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 5000.0
+  87705:
+    distributionid01: 3634
+    id: 87705
+    marketGroup: 1283
+    mass: 1000.0
+    name: 'Mexallon Prospecting Array 3 '
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 5000.0
+  87706:
+    distributionid01: 3635
+    id: 87706
+    marketGroup: 1283
+    mass: 1000.0
+    name: 'Isogen Prospecting Array 3 '
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 5000.0
+  87707:
+    distributionid01: 3636
+    id: 87707
+    marketGroup: 1283
+    mass: 1000.0
+    name: Nocxium Prospecting Array 3
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 5000.0
+  87708:
+    distributionid01: 3637
+    id: 87708
+    marketGroup: 1283
+    mass: 1000.0
+    name: Zydrine Prospecting Array 3
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 5000.0
+  87709:
+    distributionid01: 3638
+    id: 87709
+    marketGroup: 1283
+    mass: 1000.0
+    name: Megacyte Prospecting Array 3
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 5000.0

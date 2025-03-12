@@ -122,3 +122,30 @@ types:
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
+  87562:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    capacitorneed: 90.0
+    cpu: 50.0
+    duration: 180000.0
+    hp: 40.0
+    id: 87562
+    marketGroup: 1040
+    maxrange: 18750.0
+    metagroupid: 4
+    metalevelold: 6
+    miningamount: 532
+    miningwastedvolumemultiplier: 1
+    name: 'ORE Deep Core Strip Miner '
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 10
+    published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 4
+    requiredskill2: 11395
+    requiredskill2level: 2
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0

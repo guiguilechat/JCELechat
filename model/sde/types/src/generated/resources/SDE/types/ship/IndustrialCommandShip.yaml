@@ -1,7 +1,7 @@
 types:
   28606:
     affectedbyindustrialinvulnmodule: 1
-    agility: 0.25999999046325684
+    agility: 0.20000000298023224
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 7000.0
@@ -104,7 +104,7 @@ types:
     upgradeslotsleft: 3
     volume: 1.025E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 2.0
+    warpspeedmultiplier: 2.5
     weapondisruptionresistance: 1.0
   42244:
     affectedbyindustrialinvulnmodule: 1
@@ -210,5 +210,5 @@ types:
     upgradeslotsleft: 3
     volume: 400000.0
     warpcapacitorneed: 8.12999985555507E-7
-    warpspeedmultiplier: 2.700000047683716
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

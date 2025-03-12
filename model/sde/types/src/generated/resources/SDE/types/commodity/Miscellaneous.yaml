@@ -8489,6 +8489,7 @@ types:
     exporttaxmultiplier: 1
     id: 78848
     importtaxmultiplier: 1
+    marketGroup: 3734
     mass: 0.75
     name: Encrypted Upwell Consortium Data Cache
     packagedVolume: 0.10000000149011612
@@ -8504,6 +8505,7 @@ types:
     exporttaxmultiplier: 1
     id: 78857
     importtaxmultiplier: 1
+    marketGroup: 3734
     mass: 0.75
     name: Guristas Insurgency Data Sequence
     packagedVolume: 0.10000000149011612
@@ -8512,6 +8514,38 @@ types:
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
+  78858:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 78858
+    importtaxmultiplier: 1
+    marketGroup: 3734
+    mass: 0.75
+    name: Scorched Guristas Navigation Logs
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 100000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  78860:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 78860
+    importtaxmultiplier: 1
+    marketGroup: 3734
+    mass: 0.75
+    name: Guristas Cargo Concealment Unit Remains
+    packagedVolume: 3000.0
+    portionSize: 1
+    price: 3.0E7
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 3000.0
   78862:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8519,6 +8553,7 @@ types:
     exporttaxmultiplier: 1
     id: 78862
     importtaxmultiplier: 1
+    marketGroup: 3734
     mass: 0.75
     name: Angel Insurgency Data Sequence
     packagedVolume: 0.10000000149011612
@@ -8527,6 +8562,38 @@ types:
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
+  78864:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 78864
+    importtaxmultiplier: 1
+    marketGroup: 3734
+    mass: 0.75
+    name: Scorched Angel Navigation Logs
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 100000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  78866:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 78866
+    importtaxmultiplier: 1
+    marketGroup: 3734
+    mass: 0.75
+    name: Angel Cargo Concealment Unit Remains
+    packagedVolume: 3000.0
+    portionSize: 1
+    price: 3.0E7
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 3000.0
   78906:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9346,5 +9413,37 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  87618:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87618
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Warden Connection Harmonics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  87982:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 87982
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Gratuity for Warden Connection Harmonic
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 5000000.0
+    published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612

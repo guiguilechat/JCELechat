@@ -7,6 +7,8 @@ types:
     armorkineticdamageresonance: 0.25
     armorthermaldamageresonance: 0.25
     armoruniformity: 1.0
+    canhavearmorphases: 1
+    canhaveautorepair: 1
     capacitorcapacity: 200000.0
     cargodeliveryrange: 10000
     cpuoutput: 10000

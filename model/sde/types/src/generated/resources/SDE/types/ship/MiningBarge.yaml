@@ -96,7 +96,7 @@ types:
     upgradeslotsleft: 3
     volume: 150000.0
     warpcapacitorneed: 3.330000026835478E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   17478:
     affectedbyindustrialinvulnmodule: 1
@@ -190,7 +190,7 @@ types:
     upgradeslotsleft: 3
     volume: 150000.0
     warpcapacitorneed: 3.330000026835478E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   17480:
     affectedbyindustrialinvulnmodule: 1
@@ -286,5 +286,5 @@ types:
     upgradeslotsleft: 3
     volume: 150000.0
     warpcapacitorneed: 3.330000026835478E-7
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

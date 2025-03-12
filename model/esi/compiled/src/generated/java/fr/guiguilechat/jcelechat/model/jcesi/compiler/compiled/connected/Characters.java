@@ -44,7 +44,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_opportunities;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets;
@@ -82,7 +81,6 @@ public class Characters {
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_mail_lists>> get_characters_character_id_mail_lists_holder = new HashMap<>();
     private final Map<K_5_int_int, ObjHolderSimple<R_get_characters_character_id_mail_mail_id>> get_characters_character_id_mail_mail_id_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_mining>> get_characters_character_id_mining_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<R_get_characters_character_id_opportunities>> get_characters_character_id_opportunities_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_orders_history>> get_characters_character_id_orders_history_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_planets>> get_characters_character_id_planets_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_ship>> get_characters_character_id_ship_holder = new HashMap<>();
@@ -1234,40 +1232,6 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_online_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Return a list of tasks finished by a character
-     * 
-     * cache over {@link Swagger#get_characters_opportunities}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ListHolder<R_get_characters_character_id_opportunities> opportunities(int character_id) {
-        ListHolderImpl<R_get_characters_character_id_opportunities> ret = get_characters_character_id_opportunities_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_opportunities_holder);
-            try {
-                synchronized (get_characters_character_id_opportunities_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_opportunities_holder);
-                    {
-                        ret = get_characters_character_id_opportunities_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ListHolderImpl<R_get_characters_character_id_opportunities>();
-                            get_characters_character_id_opportunities_holder.put(character_id, ret);
-                            ListHolderImpl<R_get_characters_character_id_opportunities> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_opportunities", (page, properties) -> (cache.swagger).get_characters_opportunities(character_id, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_opportunities_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_opportunities_holder);
             }
         }
         return ret;

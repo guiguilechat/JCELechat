@@ -269,25 +269,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 638
         probability: 1.0
@@ -523,25 +523,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 639
         probability: 1.0
@@ -5473,25 +5473,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 6000000
+        quantity: 3900000
       - id: 35
-        quantity: 3000000
+        quantity: 1950000
       - id: 36
-        quantity: 450000
+        quantity: 292500
       - id: 37
-        quantity: 150000
+        quantity: 97500
       - id: 38
-        quantity: 18000
+        quantity: 11700
       - id: 39
-        quantity: 4500
+        quantity: 2925
       - id: 40
-        quantity: 2250
+        quantity: 1463
       - id: 57478
-        quantity: 150
+        quantity: 112
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 75
+        quantity: 56
       products:
       - id: 640
         probability: 1.0
@@ -5531,25 +5531,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 641
         probability: 1.0
@@ -5589,25 +5589,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 642
         probability: 1.0
@@ -5647,25 +5647,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 643
         probability: 1.0
@@ -5705,25 +5705,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 644
         probability: 1.0
@@ -5763,25 +5763,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 645
         probability: 1.0
@@ -51702,13 +51702,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 21009
-        quantity: 5
+        quantity: 4
       - id: 21011
-        quantity: 20
+        quantity: 15
       - id: 21013
         quantity: 4
       - id: 21017
-        quantity: 5
+        quantity: 4
       - id: 21019
         quantity: 2
       - id: 21021
@@ -51722,9 +51722,9 @@ blueprints:
       - id: 21037
         quantity: 2
       - id: 21039
-        quantity: 20
+        quantity: 15
       - id: 24558
-        quantity: 5
+        quantity: 4
       - id: 24560
         quantity: 2
       - id: 57470
@@ -51778,9 +51778,9 @@ blueprints:
     manufacturing:
       materials:
       - id: 21009
-        quantity: 5
+        quantity: 4
       - id: 21011
-        quantity: 20
+        quantity: 15
       - id: 21013
         quantity: 2
       - id: 21017
@@ -51790,17 +51790,17 @@ blueprints:
       - id: 21021
         quantity: 2
       - id: 21023
-        quantity: 4
+        quantity: 3
       - id: 21025
         quantity: 2
       - id: 21035
-        quantity: 4
+        quantity: 3
       - id: 21037
         quantity: 2
       - id: 21039
-        quantity: 20
+        quantity: 15
       - id: 24558
-        quantity: 5
+        quantity: 4
       - id: 24560
         quantity: 2
       - id: 57473
@@ -51854,13 +51854,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 21009
-        quantity: 5
+        quantity: 4
       - id: 21011
-        quantity: 20
+        quantity: 15
       - id: 21013
-        quantity: 4
+        quantity: 3
       - id: 21017
-        quantity: 4
+        quantity: 3
       - id: 21019
         quantity: 2
       - id: 21021
@@ -51874,9 +51874,9 @@ blueprints:
       - id: 21037
         quantity: 2
       - id: 21039
-        quantity: 20
+        quantity: 15
       - id: 24558
-        quantity: 5
+        quantity: 4
       - id: 24560
         quantity: 2
       - id: 57472
@@ -51930,7 +51930,7 @@ blueprints:
     manufacturing:
       materials:
       - id: 21009
-        quantity: 5
+        quantity: 4
       - id: 21013
         quantity: 2
       - id: 21017
@@ -51940,7 +51940,7 @@ blueprints:
       - id: 21021
         quantity: 2
       - id: 21023
-        quantity: 5
+        quantity: 4
       - id: 21025
         quantity: 2
       - id: 21035
@@ -51948,11 +51948,11 @@ blueprints:
       - id: 21037
         quantity: 2
       - id: 21039
-        quantity: 20
+        quantity: 15
       - id: 21041
-        quantity: 20
+        quantity: 15
       - id: 24558
-        quantity: 5
+        quantity: 4
       - id: 24560
         quantity: 2
       - id: 57471
@@ -55016,19 +55016,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 54000
+        quantity: 40500
       - id: 35
-        quantity: 195000
+        quantity: 146250
       - id: 36
-        quantity: 54000
+        quantity: 40500
       - id: 37
-        quantity: 15000
+        quantity: 11250
       - id: 38
-        quantity: 1500
+        quantity: 1125
       - id: 39
-        quantity: 760
+        quantity: 570
       - id: 40
-        quantity: 380
+        quantity: 285
       - id: 2872
         quantity: 1
       - id: 57457
@@ -55054,19 +55054,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 37000
+        quantity: 27750
       - id: 35
-        quantity: 135000
+        quantity: 101250
       - id: 36
-        quantity: 38000
+        quantity: 28500
       - id: 37
-        quantity: 10000
+        quantity: 7500
       - id: 38
-        quantity: 1000
+        quantity: 750
       - id: 39
-        quantity: 520
+        quantity: 390
       - id: 40
-        quantity: 250
+        quantity: 118
       - id: 2876
         quantity: 1
       - id: 57457
@@ -55092,19 +55092,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 54000
+        quantity: 40500
       - id: 35
-        quantity: 195000
+        quantity: 146250
       - id: 36
-        quantity: 54000
+        quantity: 40500
       - id: 37
-        quantity: 15000
+        quantity: 11250
       - id: 38
-        quantity: 1500
+        quantity: 1125
       - id: 39
-        quantity: 760
+        quantity: 570
       - id: 40
-        quantity: 380
+        quantity: 285
       - id: 2867
         quantity: 1
       - id: 57457
@@ -55130,19 +55130,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 60000
+        quantity: 45000
       - id: 35
-        quantity: 210000
+        quantity: 157500
       - id: 36
-        quantity: 60000
+        quantity: 45000
       - id: 37
-        quantity: 16000
+        quantity: 12000
       - id: 38
-        quantity: 1600
+        quantity: 1200
       - id: 39
-        quantity: 820
+        quantity: 615
       - id: 40
-        quantity: 410
+        quantity: 308
       - id: 2870
         quantity: 5
       - id: 57457
@@ -55168,19 +55168,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 52000
+        quantity: 39000
       - id: 35
-        quantity: 190000
+        quantity: 142500
       - id: 36
-        quantity: 52000
+        quantity: 39000
       - id: 37
-        quantity: 15000
+        quantity: 11250
       - id: 38
-        quantity: 1500
+        quantity: 1125
       - id: 39
-        quantity: 730
+        quantity: 548
       - id: 40
-        quantity: 370
+        quantity: 278
       - id: 2872
         quantity: 1
       - id: 57457
@@ -55206,19 +55206,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 63000
+        quantity: 47250
       - id: 35
-        quantity: 225000
+        quantity: 168750
       - id: 36
-        quantity: 63000
+        quantity: 47250
       - id: 37
-        quantity: 18000
+        quantity: 13500
       - id: 38
-        quantity: 1800
+        quantity: 1350
       - id: 39
-        quantity: 880
+        quantity: 660
       - id: 40
-        quantity: 440
+        quantity: 330
       - id: 2872
         quantity: 1
       - id: 57457
@@ -55244,19 +55244,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 60000
+        quantity: 45000
       - id: 35
-        quantity: 210000
+        quantity: 157500
       - id: 36
-        quantity: 60000
+        quantity: 45000
       - id: 37
-        quantity: 16000
+        quantity: 12000
       - id: 38
-        quantity: 1600
+        quantity: 1200
       - id: 39
-        quantity: 820
+        quantity: 615
       - id: 40
-        quantity: 410
+        quantity: 308
       - id: 2871
         quantity: 1
       - id: 57457
@@ -55282,19 +55282,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 80000
+        quantity: 60000
       - id: 35
-        quantity: 288000
+        quantity: 216000
       - id: 36
-        quantity: 80000
+        quantity: 60000
       - id: 37
-        quantity: 22500
+        quantity: 16875
       - id: 38
-        quantity: 2250
+        quantity: 1688
       - id: 39
-        quantity: 1200
+        quantity: 900
       - id: 40
-        quantity: 560
+        quantity: 420
       - id: 2876
         quantity: 1
       - id: 57457
@@ -55356,19 +55356,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 32500
+        quantity: 24375
       - id: 35
-        quantity: 120000
+        quantity: 90000
       - id: 36
-        quantity: 32500
+        quantity: 24375
       - id: 37
-        quantity: 9000
+        quantity: 6750
       - id: 38
-        quantity: 900
+        quantity: 675
       - id: 39
-        quantity: 450
+        quantity: 338
       - id: 40
-        quantity: 230
+        quantity: 173
       - id: 2867
         quantity: 1
       - id: 57457
@@ -55394,19 +55394,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 54000
+        quantity: 40500
       - id: 35
-        quantity: 195000
+        quantity: 146250
       - id: 36
-        quantity: 54000
+        quantity: 40500
       - id: 37
-        quantity: 15000
+        quantity: 11250
       - id: 38
-        quantity: 1500
+        quantity: 1125
       - id: 39
-        quantity: 760
+        quantity: 570
       - id: 40
-        quantity: 380
+        quantity: 285
       - id: 2871
         quantity: 1
       - id: 57457
@@ -55432,19 +55432,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 40000
+        quantity: 30000
       - id: 35
-        quantity: 140000
+        quantity: 105000
       - id: 36
-        quantity: 40000
+        quantity: 30000
       - id: 37
-        quantity: 12000
+        quantity: 9000
       - id: 38
-        quantity: 1000
+        quantity: 750
       - id: 39
-        quantity: 550
+        quantity: 413
       - id: 40
-        quantity: 280
+        quantity: 210
       - id: 57457
         quantity: 100
       products:
@@ -55468,19 +55468,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 37000
+        quantity: 27750
       - id: 35
-        quantity: 135000
+        quantity: 101250
       - id: 36
-        quantity: 38000
+        quantity: 28500
       - id: 37
-        quantity: 10000
+        quantity: 7500
       - id: 38
-        quantity: 1000
+        quantity: 750
       - id: 39
-        quantity: 520
+        quantity: 390
       - id: 40
-        quantity: 250
+        quantity: 188
       - id: 2876
         quantity: 1
       - id: 57457
@@ -55506,19 +55506,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 37000
+        quantity: 27750
       - id: 35
-        quantity: 135000
+        quantity: 101250
       - id: 36
-        quantity: 38000
+        quantity: 28500
       - id: 37
-        quantity: 10000
+        quantity: 7500
       - id: 38
-        quantity: 1000
+        quantity: 750
       - id: 39
-        quantity: 520
+        quantity: 390
       - id: 40
-        quantity: 250
+        quantity: 188
       - id: 2876
         quantity: 1
       - id: 57457
@@ -67329,19 +67329,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 200000
+        quantity: 150000
       - id: 35
-        quantity: 660000
+        quantity: 495000
       - id: 36
-        quantity: 180000
+        quantity: 135000
       - id: 37
-        quantity: 49500
+        quantity: 37125
       - id: 38
-        quantity: 6000
+        quantity: 4500
       - id: 39
-        quantity: 3000
+        quantity: 2250
       - id: 40
-        quantity: 1500
+        quantity: 1125
       - id: 2867
         quantity: 2
       - id: 2876
@@ -67369,19 +67369,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 90000
+        quantity: 67500
       - id: 35
-        quantity: 325000
+        quantity: 243750
       - id: 36
-        quantity: 81000
+        quantity: 60750
       - id: 37
-        quantity: 22500
+        quantity: 16875
       - id: 38
-        quantity: 2500
+        quantity: 1875
       - id: 39
-        quantity: 1275
+        quantity: 956
       - id: 40
-        quantity: 650
+        quantity: 488
       - id: 2868
         quantity: 2
       - id: 2875
@@ -67553,19 +67553,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 135000
+        quantity: 101250
       - id: 35
-        quantity: 500000
+        quantity: 375000
       - id: 36
-        quantity: 121500
+        quantity: 91125
       - id: 37
-        quantity: 36000
+        quantity: 27000
       - id: 38
-        quantity: 4000
+        quantity: 3000
       - id: 39
-        quantity: 2000
+        quantity: 1500
       - id: 40
-        quantity: 1000
+        quantity: 750
       - id: 2869
         quantity: 5
       - id: 2876
@@ -67593,19 +67593,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 72000
+        quantity: 54000
       - id: 35
-        quantity: 256000
+        quantity: 192000
       - id: 36
-        quantity: 72000
+        quantity: 54000
       - id: 37
-        quantity: 20000
+        quantity: 15000
       - id: 38
-        quantity: 2000
+        quantity: 1500
       - id: 39
-        quantity: 1000
+        quantity: 750
       - id: 40
-        quantity: 500
+        quantity: 375
       - id: 2868
         quantity: 1
       - id: 57457
@@ -67631,19 +67631,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 75000
+        quantity: 56250
       - id: 35
-        quantity: 270000
+        quantity: 202500
       - id: 36
-        quantity: 75000
+        quantity: 56250
       - id: 37
-        quantity: 22000
+        quantity: 16500
       - id: 38
-        quantity: 2200
+        quantity: 1650
       - id: 39
-        quantity: 1050
+        quantity: 788
       - id: 40
-        quantity: 530
+        quantity: 398
       - id: 57457
         quantity: 100
       products:
@@ -68225,25 +68225,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 24688
         probability: 1.0
@@ -68265,25 +68265,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 24690
         probability: 1.0
@@ -68305,25 +68305,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 24692
         probability: 1.0
@@ -68345,25 +68345,25 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8000000
+        quantity: 5200000
       - id: 35
-        quantity: 4000000
+        quantity: 2600000
       - id: 36
-        quantity: 600000
+        quantity: 390000
       - id: 37
-        quantity: 200000
+        quantity: 130000
       - id: 38
-        quantity: 24000
+        quantity: 15600
       - id: 39
-        quantity: 6000
+        quantity: 3900
       - id: 40
-        quantity: 3000
+        quantity: 1950
       - id: 57478
-        quantity: 200
+        quantity: 150
       - id: 57479
         quantity: 1
       - id: 57486
-        quantity: 100
+        quantity: 75
       products:
       - id: 24694
         probability: 1.0
@@ -164407,19 +164407,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 546912
+        quantity: 410184
       - id: 35
-        quantity: 113826
+        quantity: 85370
       - id: 36
-        quantity: 45010
+        quantity: 33758
       - id: 37
-        quantity: 7760
+        quantity: 5820
       - id: 38
-        quantity: 2358
+        quantity: 1769
       - id: 39
-        quantity: 876
+        quantity: 657
       - id: 40
-        quantity: 386
+        quantity: 290
       - id: 47975
         quantity: 180
       - id: 48112
@@ -164451,19 +164451,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 510149
+        quantity: 382612
       - id: 35
-        quantity: 110413
+        quantity: 82810
       - id: 36
-        quantity: 45621
+        quantity: 34216
       - id: 37
-        quantity: 7491
+        quantity: 5618
       - id: 38
-        quantity: 2191
+        quantity: 1643
       - id: 39
-        quantity: 728
+        quantity: 546
       - id: 40
-        quantity: 334
+        quantity: 251
       - id: 47975
         quantity: 45
       - id: 48112
@@ -164495,19 +164495,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 457050
+        quantity: 342788
       - id: 35
-        quantity: 110416
+        quantity: 82812
       - id: 36
-        quantity: 41994
+        quantity: 31496
       - id: 37
-        quantity: 6938
+        quantity: 5204
       - id: 38
-        quantity: 2110
+        quantity: 1583
       - id: 39
-        quantity: 604
+        quantity: 453
       - id: 40
-        quantity: 302
+        quantity: 227
       - id: 47975
         quantity: 90
       - id: 48112
@@ -169575,27 +169575,27 @@ blueprints:
       - id: 2876
         quantity: 1
       - id: 17317
-        quantity: 50
+        quantity: 40
       - id: 30303
-        quantity: 875
+        quantity: 660
       - id: 30304
-        quantity: 250
+        quantity: 190
       - id: 30305
-        quantity: 525
+        quantity: 390
       - id: 30306
-        quantity: 250
+        quantity: 190
       - id: 30307
-        quantity: 250
+        quantity: 190
       - id: 30308
-        quantity: 175
+        quantity: 130
       - id: 30309
-        quantity: 750
+        quantity: 560
       - id: 30310
-        quantity: 500
+        quantity: 380
       - id: 30311
-        quantity: 350
+        quantity: 260
       - id: 33360
-        quantity: 750
+        quantity: 560
       products:
       - id: 57474
         probability: 1.0
@@ -169629,27 +169629,27 @@ blueprints:
       - id: 2876
         quantity: 1
       - id: 17317
-        quantity: 50
+        quantity: 40
       - id: 30303
-        quantity: 875
+        quantity: 660
       - id: 30304
-        quantity: 250
+        quantity: 190
       - id: 30305
-        quantity: 525
+        quantity: 390
       - id: 30306
-        quantity: 250
+        quantity: 190
       - id: 30307
-        quantity: 250
+        quantity: 190
       - id: 30308
-        quantity: 175
+        quantity: 130
       - id: 30309
-        quantity: 750
+        quantity: 560
       - id: 30310
-        quantity: 500
+        quantity: 380
       - id: 30311
-        quantity: 350
+        quantity: 260
       - id: 33362
-        quantity: 750
+        quantity: 560
       products:
       - id: 57475
         probability: 1.0
@@ -169683,27 +169683,27 @@ blueprints:
       - id: 2876
         quantity: 1
       - id: 17317
-        quantity: 50
+        quantity: 40
       - id: 30303
-        quantity: 875
+        quantity: 660
       - id: 30304
-        quantity: 250
+        quantity: 190
       - id: 30305
-        quantity: 525
+        quantity: 390
       - id: 30306
-        quantity: 250
+        quantity: 190
       - id: 30307
-        quantity: 250
+        quantity: 190
       - id: 30308
-        quantity: 175
+        quantity: 130
       - id: 30309
-        quantity: 750
+        quantity: 560
       - id: 30310
-        quantity: 500
+        quantity: 380
       - id: 30311
-        quantity: 350
+        quantity: 260
       - id: 33359
-        quantity: 750
+        quantity: 560
       products:
       - id: 57476
         probability: 1.0
@@ -169737,27 +169737,27 @@ blueprints:
       - id: 2876
         quantity: 1
       - id: 17317
-        quantity: 50
+        quantity: 40
       - id: 30303
-        quantity: 875
+        quantity: 660
       - id: 30304
-        quantity: 250
+        quantity: 190
       - id: 30305
-        quantity: 525
+        quantity: 390
       - id: 30306
-        quantity: 250
+        quantity: 190
       - id: 30307
-        quantity: 250
+        quantity: 190
       - id: 30308
-        quantity: 175
+        quantity: 130
       - id: 30309
-        quantity: 750
+        quantity: 560
       - id: 30310
-        quantity: 500
+        quantity: 380
       - id: 30311
-        quantity: 350
+        quantity: 260
       - id: 33361
-        quantity: 750
+        quantity: 560
       products:
       - id: 57477
         probability: 1.0
@@ -170039,11 +170039,11 @@ blueprints:
     manufacturing:
       materials:
       - id: 2868
-        quantity: 25
+        quantity: 20
       - id: 2872
-        quantity: 25
+        quantity: 20
       - id: 57479
-        quantity: 50
+        quantity: 35
       products:
       - id: 57487
         probability: 1.0
@@ -170069,13 +170069,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 2346
-        quantity: 400
+        quantity: 300
       - id: 9842
-        quantity: 100
+        quantity: 75
       - id: 57450
         quantity: 1
       - id: 57458
-        quantity: 20
+        quantity: 10
       - id: 57482
         quantity: 5
       - id: 57483
@@ -170103,21 +170103,21 @@ blueprints:
     manufacturing:
       materials:
       - id: 2346
-        quantity: 4000
+        quantity: 3000
       - id: 9842
-        quantity: 20000
+        quantity: 15000
       - id: 57442
         quantity: 10
       - id: 57444
         quantity: 10
       - id: 57449
-        quantity: 25
+        quantity: 20
       - id: 57451
         quantity: 10
       - id: 57458
-        quantity: 200
+        quantity: 150
       - id: 57482
-        quantity: 100
+        quantity: 75
       - id: 57483
         quantity: 10
       products:
@@ -181904,3 +181904,335 @@ blueprints:
     research_time:
       time: 8400
     seeded: false
+  87326:
+    copying:
+      time: 1440
+    id: 87326
+    manufacturing:
+      materials:
+      - id: 33178
+        quantity: 1
+      products:
+      - id: 87324
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 1800
+    maxCopyRuns: 100
+    research_material:
+      time: 630
+    research_time:
+      time: 630
+    seeded: false
+  87327:
+    copying:
+      time: 1440
+    id: 87327
+    manufacturing:
+      materials:
+      - id: 33176
+        quantity: 1
+      products:
+      - id: 87325
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 1800
+    maxCopyRuns: 100
+    research_material:
+      time: 630
+    research_time:
+      time: 630
+    seeded: false
+  87328:
+    copying:
+      time: 1440
+    id: 87328
+    manufacturing:
+      materials:
+      - id: 33180
+        quantity: 1
+      products:
+      - id: 87323
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 1800
+    maxCopyRuns: 100
+    research_material:
+      time: 630
+    research_time:
+      time: 630
+    seeded: false
+  87735:
+    copying:
+      time: 48000
+    id: 87735
+    manufacturing:
+      materials:
+      - id: 2867
+        quantity: 10
+      - id: 2868
+        quantity: 8
+      - id: 2869
+        quantity: 14
+      - id: 2870
+        quantity: 16
+      - id: 2871
+        quantity: 10
+      - id: 2872
+        quantity: 10
+      - id: 2875
+        quantity: 16
+      - id: 2876
+        quantity: 8
+      - id: 21037
+        quantity: 4
+      products:
+      - id: 87702
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+      time: 60000
+    maxCopyRuns: 3
+    research_material:
+      time: 21000
+    research_time:
+      time: 21000
+    seeded: true
+  87736:
+    copying:
+      time: 48000
+    id: 87736
+    manufacturing:
+      materials:
+      - id: 2867
+        quantity: 10
+      - id: 2868
+        quantity: 8
+      - id: 2869
+        quantity: 14
+      - id: 2870
+        quantity: 16
+      - id: 2871
+        quantity: 10
+      - id: 2872
+        quantity: 10
+      - id: 2875
+        quantity: 16
+      - id: 2876
+        quantity: 8
+      - id: 21037
+        quantity: 4
+      products:
+      - id: 87704
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+      time: 60000
+    maxCopyRuns: 3
+    research_material:
+      time: 21000
+    research_time:
+      time: 21000
+    seeded: true
+  87737:
+    copying:
+      time: 48000
+    id: 87737
+    manufacturing:
+      materials:
+      - id: 2867
+        quantity: 10
+      - id: 2868
+        quantity: 8
+      - id: 2869
+        quantity: 14
+      - id: 2870
+        quantity: 16
+      - id: 2871
+        quantity: 10
+      - id: 2872
+        quantity: 10
+      - id: 2875
+        quantity: 16
+      - id: 2876
+        quantity: 8
+      - id: 21037
+        quantity: 4
+      products:
+      - id: 87705
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+      time: 60000
+    maxCopyRuns: 3
+    research_material:
+      time: 21000
+    research_time:
+      time: 21000
+    seeded: true
+  87738:
+    copying:
+      time: 48000
+    id: 87738
+    manufacturing:
+      materials:
+      - id: 2867
+        quantity: 10
+      - id: 2868
+        quantity: 8
+      - id: 2869
+        quantity: 14
+      - id: 2870
+        quantity: 16
+      - id: 2871
+        quantity: 10
+      - id: 2872
+        quantity: 10
+      - id: 2875
+        quantity: 16
+      - id: 2876
+        quantity: 8
+      - id: 21037
+        quantity: 4
+      products:
+      - id: 87706
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+      time: 60000
+    maxCopyRuns: 3
+    research_material:
+      time: 21000
+    research_time:
+      time: 21000
+    seeded: true
+  87739:
+    copying:
+      time: 48000
+    id: 87739
+    manufacturing:
+      materials:
+      - id: 2867
+        quantity: 10
+      - id: 2868
+        quantity: 8
+      - id: 2869
+        quantity: 14
+      - id: 2870
+        quantity: 16
+      - id: 2871
+        quantity: 10
+      - id: 2872
+        quantity: 10
+      - id: 2875
+        quantity: 16
+      - id: 2876
+        quantity: 8
+      - id: 21037
+        quantity: 4
+      products:
+      - id: 87707
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+      time: 60000
+    maxCopyRuns: 3
+    research_material:
+      time: 21000
+    research_time:
+      time: 21000
+    seeded: true
+  87740:
+    copying:
+      time: 48000
+    id: 87740
+    manufacturing:
+      materials:
+      - id: 2867
+        quantity: 10
+      - id: 2868
+        quantity: 8
+      - id: 2869
+        quantity: 14
+      - id: 2870
+        quantity: 16
+      - id: 2871
+        quantity: 10
+      - id: 2872
+        quantity: 10
+      - id: 2875
+        quantity: 16
+      - id: 2876
+        quantity: 8
+      - id: 21037
+        quantity: 4
+      products:
+      - id: 87708
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+      time: 60000
+    maxCopyRuns: 3
+    research_material:
+      time: 21000
+    research_time:
+      time: 21000
+    seeded: true
+  87741:
+    copying:
+      time: 48000
+    id: 87741
+    manufacturing:
+      materials:
+      - id: 2867
+        quantity: 10
+      - id: 2868
+        quantity: 8
+      - id: 2869
+        quantity: 14
+      - id: 2870
+        quantity: 16
+      - id: 2871
+        quantity: 10
+      - id: 2872
+        quantity: 10
+      - id: 2875
+        quantity: 16
+      - id: 2876
+        quantity: 8
+      - id: 21037
+        quantity: 4
+      products:
+      - id: 87709
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+      time: 60000
+    maxCopyRuns: 3
+    research_material:
+      time: 21000
+    research_time:
+      time: 21000
+    seeded: true

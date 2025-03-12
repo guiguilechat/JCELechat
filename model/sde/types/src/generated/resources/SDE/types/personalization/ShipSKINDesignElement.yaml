@@ -3391,3 +3391,99 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87776:
+    id: 87776
+    marketGroup: 3653
+    name: Midnight Wormhole Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87777:
+    id: 87777
+    marketGroup: 3653
+    name: Hive Green Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87778:
+    id: 87778
+    marketGroup: 3653
+    name: Sleeper Seafoam Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87779:
+    id: 87779
+    marketGroup: 3653
+    name: Precursor Bone Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87795:
+    id: 87795
+    marketGroup: 3632
+    name: Tyrannos Zinc Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87796:
+    id: 87796
+    marketGroup: 3632
+    name: Strategos Patina Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87797:
+    id: 87797
+    marketGroup: 3632
+    name: Tekton Verdigris Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87798:
+    id: 87798
+    marketGroup: 3632
+    name: W477-Platinum Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87800:
+    id: 87800
+    marketGroup: 3633
+    name: Oncoming Storm - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87801:
+    id: 87801
+    marketGroup: 3633
+    name: Crisis Shield - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87802:
+    id: 87802
+    marketGroup: 3633
+    name: Jovian Euphoria - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87803:
+    id: 87803
+    marketGroup: 3633
+    name: Drifter Sweeps - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

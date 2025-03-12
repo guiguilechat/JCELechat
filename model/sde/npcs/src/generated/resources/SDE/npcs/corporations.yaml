@@ -384,6 +384,7 @@ corporations:
     - 19394
     - 19395
     - 19406
+    - 19432
     name: 24th Imperial Crusade
     warfare: Amarr Empire
   AEGIS:
@@ -2353,6 +2354,9 @@ corporations:
     - 16441
     - 16442
     - 19322
+    - 19440
+    - 19441
+    - 19442
     name: Archangels
   Ardishapur Family:
     concordRate: 0.8
@@ -5966,6 +5970,9 @@ corporations:
     - 19373
     - 19387
     - 19399
+    - 19440
+    - 19441
+    - 19442
     name: Chief Executive Panel
   Circle of Huskarl:
     faction: Minmatar Republic
@@ -7587,6 +7594,9 @@ corporations:
     - 16494
     - 16495
     - 16496
+    - 19440
+    - 19441
+    - 19442
     name: DED
   Deathless Custodians:
     faction: Deathless Circle
@@ -9983,6 +9993,7 @@ corporations:
     - 19400
     - 19401
     - 19408
+    - 19434
     name: Federal Defense Union
     warfare: Gallente Federation
   Federal Freight:
@@ -10455,6 +10466,9 @@ corporations:
     - 19377
     - 19390
     - 19402
+    - 19440
+    - 19441
+    - 19442
     name: Federal Intelligence Office
   Federal Marines:
     faction: Gallente Federation
@@ -11735,6 +11749,7 @@ corporations:
     - 16430
     - 17097
     - 17182
+    - 19439
     name: Frostline Laboratories
   Further Foodstuffs:
     concordRate: 0.8
@@ -12049,6 +12064,10 @@ corporations:
   Genolution:
     faction: The Society of Conscious Thought
     id: 1000140
+    lpoffers:
+    - 19440
+    - 19441
+    - 19442
     name: Genolution
   Guardian Angels:
     faction: Angel Cartel
@@ -13611,6 +13630,9 @@ corporations:
     - 19373
     - 19387
     - 19399
+    - 19440
+    - 19441
+    - 19442
     name: House of Records
   Hrada-Oki Caravan:
     faction: Deathless Circle
@@ -19419,6 +19441,9 @@ corporations:
     - 19369
     - 19384
     - 19396
+    - 19440
+    - 19441
+    - 19442
     name: Ministry of Internal Order
   Ministry of War:
     concordRate: 0.8
@@ -21150,6 +21175,7 @@ corporations:
     - 16430
     - 17097
     - 17182
+    - 19439
     name: ORE Technologies
   Onikanabo Brigade:
     faction: Caldari State
@@ -21187,6 +21213,7 @@ corporations:
     - 16430
     - 17097
     - 17182
+    - 19439
     name: Outer Ring Development
   Outer Ring Excavations:
     concordRate: 0.4
@@ -21242,6 +21269,7 @@ corporations:
     - 16430
     - 17097
     - 17182
+    - 19439
     name: Outer Ring Excavations
   Outer Ring Prospecting:
     faction: ORE
@@ -21267,6 +21295,7 @@ corporations:
     - 16430
     - 17097
     - 17182
+    - 19439
     name: Outer Ring Prospecting
   PKN Cryptographic:
     faction: Caldari State
@@ -22083,6 +22112,9 @@ corporations:
     - 19429
     - 19430
     - 19431
+    - 19440
+    - 19441
+    - 19442
     name: Paragon
   Pator Tech School:
     concordRate: 0.8
@@ -22988,6 +23020,9 @@ corporations:
     - 17093
     - 17094
     - 17183
+    - 19440
+    - 19441
+    - 19442
     name: Perun Clade
   Poksu Mineral Group:
     concordRate: 0.8
@@ -25645,6 +25680,9 @@ corporations:
     - 19381
     - 19393
     - 19405
+    - 19440
+    - 19441
+    - 19442
     name: Republic Security Services
   Republic University:
     concordRate: 0.8
@@ -26530,6 +26568,9 @@ corporations:
     - 16441
     - 16442
     - 19322
+    - 19440
+    - 19441
+    - 19442
     name: Salvation Angels
   Sanmatar Kelkoons:
     faction: Minmatar Republic
@@ -28237,6 +28278,10 @@ corporations:
   Society of Conscious Thought:
     faction: The Society of Conscious Thought
     id: 1000131
+    lpoffers:
+    - 19440
+    - 19441
+    - 19442
     name: Society of Conscious Thought
   Spacelane Patrol:
     concordRate: 0.8
@@ -29010,6 +29055,7 @@ corporations:
     - 19397
     - 19398
     - 19407
+    - 19435
     name: State Protectorate
     warfare: Caldari State
   State War Academy:
@@ -29907,6 +29953,9 @@ corporations:
     - 17093
     - 17094
     - 17183
+    - 19440
+    - 19441
+    - 19442
     name: Svarog Clade
   Tal-Romon Legion:
     faction: Amarr Empire
@@ -30139,6 +30188,9 @@ corporations:
     - 17093
     - 17094
     - 17183
+    - 19440
+    - 19441
+    - 19442
     name: The Convocation of Triglav
   The Equilibrium of Mankind:
     id: 1000409
@@ -31637,6 +31689,7 @@ corporations:
     - 19403
     - 19404
     - 19409
+    - 19433
     name: Tribal Liberation Force
     warfare: Minmatar Republic
   Tronhadar Free Guard:
@@ -32497,6 +32550,9 @@ corporations:
     - 17093
     - 17094
     - 17183
+    - 19440
+    - 19441
+    - 19442
     name: Veles Clade
   Verity Enhancements:
     faction: EverMore
@@ -33497,6 +33553,9 @@ corporations:
     - 19373
     - 19387
     - 19399
+    - 19440
+    - 19441
+    - 19442
     name: Ytiri
   Zainou:
     concordRate: 0.8

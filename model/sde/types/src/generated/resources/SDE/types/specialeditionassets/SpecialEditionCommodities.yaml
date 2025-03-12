@@ -4236,12 +4236,53 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  87349:
+    cpumultiplier: 1.0
+    id: 87349
+    name: Imperial Navy Scanning Upgrade Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  87350:
+    cpumultiplier: 1.0
+    id: 87350
+    name: State Navy Scanning Upgrade Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  87351:
+    cpumultiplier: 1.0
+    id: 87351
+    name: Federation Navy Scanning Upgrade Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  87352:
+    cpumultiplier: 1.0
+    id: 87352
+    name: Republic Fleet Scanning Upgrade Blueprint Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   87360:
     cpumultiplier: 1.0
     id: 87360
     marketGroup: 1661
     mass: 1.0
     name: Spectral Vision Capture Reward Crate
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  87853:
+    cpumultiplier: 1.0
+    id: 87853
+    mass: 1.0
+    name: Drifter Plugsuit Reward Crate
     packagedVolume: 3.0
     portionSize: 1
     published: true

@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ActiveSystemJump;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentDescriptionMessageID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentSpoolupTimeSeconds;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MjdShipJumpCap;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MjfgRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -42,6 +43,10 @@ public class JumpFilaments
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacity;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int filamentspooluptimeseconds;
     /**
      * The maximum number of ships that can be jumped per activation
      */
@@ -63,7 +68,7 @@ public class JumpFilaments
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MjdShipJumpCap.INSTANCE, ActiveSystemJump.INSTANCE, Radius.INSTANCE, FilamentDescriptionMessageID.INSTANCE, MjfgRadius.INSTANCE, Capacity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MjdShipJumpCap.INSTANCE, ActiveSystemJump.INSTANCE, Radius.INSTANCE, FilamentDescriptionMessageID.INSTANCE, MjfgRadius.INSTANCE, Capacity.INSTANCE, FilamentSpoolupTimeSeconds.INSTANCE })));
     public static final JumpFilaments.MetaGroup METAGROUP = new JumpFilaments.MetaGroup();
 
     @Override
@@ -80,6 +85,10 @@ public class JumpFilaments
             case  38 :
             {
                 return capacity;
+            }
+            case  5783 :
+            {
+                return filamentspooluptimeseconds;
             }
             case  2832 :
             {

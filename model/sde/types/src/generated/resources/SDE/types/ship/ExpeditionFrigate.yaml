@@ -98,7 +98,7 @@ types:
     upgradeslotsleft: 2
     volume: 50000.0
     warpcapacitorneed: 1.3500000477506546E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   37135:
     affectedbyindustrialinvulnmodule: 1
@@ -201,5 +201,5 @@ types:
     upgradeslotsleft: 2
     volume: 50000.0
     warpcapacitorneed: 1.3500000477506546E-6
-    warpspeedmultiplier: 5.5
+    warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0

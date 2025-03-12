@@ -32,7 +32,7 @@ types:
     radius: 1.0
     requiredskill1: 25739
     requiredskill1level: 2
-    scanstrengthbonusmodule: 5
+    scanstrengthbonusmodule: 5.0
     techlevel: 1
     volume: 5.0
   33199:
@@ -70,6 +70,44 @@ types:
     radius: 1.0
     requiredskill1: 25739
     requiredskill1level: 5
-    scanstrengthbonusmodule: 10
+    scanstrengthbonusmodule: 10.0
     techlevel: 2
+    volume: 5.0
+  87323:
+    capacity: 1.0
+    cpu: 20.0
+    hp: 40.0
+    id: 87323
+    marketGroup: 1709
+    metalevelold: 8
+    name: Navy Scan Rangefinding Array
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 9870.0
+    published: true
+    radius: 1.0
+    requiredskill1: 25739
+    requiredskill1level: 2
+    scanstrengthbonusmodule: 7.5
+    techlevel: 1
+    volume: 5.0
+  87324:
+    capacity: 1.0
+    cpu: 20.0
+    hp: 40.0
+    id: 87324
+    marketGroup: 1709
+    maxscandeviationmodifiermodule: -15
+    metalevelold: 8
+    name: Navy Scan Pinpointing Array
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    price: 9870.0
+    published: true
+    radius: 1.0
+    requiredskill1: 25810
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0

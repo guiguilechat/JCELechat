@@ -114,7 +114,7 @@ types:
     upgradeslotsleft: 2
     volume: 1.755E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 2.0
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   77283:
     advancedagility: 1
@@ -230,7 +230,7 @@ types:
     upgradeslotsleft: 2
     volume: 1.85E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 2.0
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   77284:
     advancedagility: 1
@@ -346,7 +346,7 @@ types:
     upgradeslotsleft: 2
     volume: 1.625E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 2.0
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   77288:
     advancedagility: 1
@@ -462,5 +462,5 @@ types:
     upgradeslotsleft: 2
     volume: 1.55E7
     warpcapacitorneed: 1.38000002536387E-8
-    warpspeedmultiplier: 2.0
+    warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0

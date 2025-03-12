@@ -81,6 +81,7 @@ types:
     shipbonusci: 5
     shipbonusgi: 5
     shipbonusmi: 5
+    shiprolebonuswarpspeed: 75
     signatureradius: 115.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -92,7 +93,7 @@ types:
     upgradeslotsleft: 2
     volume: 195000.0
     warpcapacitorneed: 1.089999983605594E-7
-    warpspeedmultiplier: 6.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   12733:
     affectedbyindustrialinvulnmodule: 1
@@ -176,6 +177,7 @@ types:
     shipbonusci: 5
     shipbonusgi: 5
     shipbonusmi: 5
+    shiprolebonuswarpspeed: 75
     signatureradius: 110.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -188,7 +190,7 @@ types:
     upgradeslotsleft: 2
     volume: 200000.0
     warpcapacitorneed: 1.089999983605594E-7
-    warpspeedmultiplier: 6.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   12735:
     affectedbyindustrialinvulnmodule: 1
@@ -273,6 +275,7 @@ types:
     shipbonusci: 5
     shipbonusgi: 5
     shipbonusmi: 5
+    shiprolebonuswarpspeed: 75
     signatureradius: 105.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -285,7 +288,7 @@ types:
     upgradeslotsleft: 2
     volume: 180000.0
     warpcapacitorneed: 1.089999983605594E-7
-    warpspeedmultiplier: 6.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   12743:
     affectedbyindustrialinvulnmodule: 1
@@ -369,6 +372,7 @@ types:
     shipbonusci: 5
     shipbonusgi: 5
     shipbonusmi: 5
+    shiprolebonuswarpspeed: 75
     signatureradius: 120.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -381,7 +385,7 @@ types:
     upgradeslotsleft: 2
     volume: 190000.0
     warpcapacitorneed: 1.089999983605594E-7
-    warpspeedmultiplier: 6.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   81046:
     affectedbyindustrialinvulnmodule: 1
@@ -467,6 +471,7 @@ types:
     shipbonusmi: 5
     shipbonusuh1: 10
     shipbonusuh2: 15
+    shiprolebonuswarpspeed: 75
     signatureradius: 115.0
     specialcolonyresourcesholdcapacity: 30000
     stasiswebifierresistance: 1.0
@@ -480,5 +485,5 @@ types:
     upwellhaulersmediummissilefittingbonus: 0.10000000149011612
     volume: 200000.0
     warpcapacitorneed: 1.089999983605594E-7
-    warpspeedmultiplier: 6.0
+    warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
