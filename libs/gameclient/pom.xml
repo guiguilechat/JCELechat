@@ -10,7 +10,8 @@
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>gameclient</artifactId>
 	<name>Lib Gameclient</name>
-	<description>Get, cache and some parsing to raw data from CCP's game data servers</description>
+	<description>Get, cache and some parsing to raw data from CCP's game data
+		servers</description>
 	<dependencies>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
@@ -31,9 +32,9 @@
 			<artifactId>testng</artifactId>
 			<scope>test</scope>
 		</dependency>
-			<dependency>
-				<groupId>org.xerial</groupId>
-				<artifactId>sqlite-jdbc</artifactId>
-			</dependency>
+		<dependency>
+			<groupId>org.xerial</groupId>
+			<artifactId>sqlite-jdbc</artifactId>
+		</dependency>
 	</dependencies>
 </project>

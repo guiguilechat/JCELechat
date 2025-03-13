@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.gameclient.updater;
 
+import java.sql.SQLException;
 import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
@@ -7,6 +8,7 @@ import java.util.Optional;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
@@ -23,6 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "gameclient.fetcher")
+@Order(0) // does not depend on another entity updater
 public class GameClientUpdateService implements IEntityUpdater {
 
 	final private CacheManager cacheManager;
@@ -41,6 +44,8 @@ public class GameClientUpdateService implements IEntityUpdater {
 	@Setter
 	private boolean force = false;
 
+	private boolean sqlFailed = false;
+
 	/** moment after which we actually try to fetch */
 	private Instant nextFetch = null;
 
@@ -48,6 +53,7 @@ public class GameClientUpdateService implements IEntityUpdater {
 	 * request to force a fetch, disregarding previous build version, ASAP
 	 */
 	public void forceNext() {
+		sqlFailed = false;
 		force = true;
 		nextFetch = null;
 	}
@@ -95,6 +101,10 @@ public class GameClientUpdateService implements IEntityUpdater {
 			}
 			ur.setStatus(Status.SUCCESS);
 		} catch (Exception e) {
+			if (e instanceof SQLException) {
+				log.warn("failed with SQL error, won't retry unless requested to force");
+				sqlFailed = true;
+			}
 			ur.setStatus(Status.FAIL);
 			ur.setError(e.getMessage());
 			log.error("while updating build " + ci.buildNumber(), e);
@@ -103,7 +113,7 @@ public class GameClientUpdateService implements IEntityUpdater {
 		save(ur);
 		force = false;
 		nextFetch = startDate.plusSeconds(getUpdate().getDelay());
-		return ur.getStatus() != Status.SUCCESS;
+		return !sqlFailed && ur.getStatus() != Status.SUCCESS;
 	}
 
 }

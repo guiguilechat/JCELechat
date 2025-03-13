@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.libs.spring.gameclient.updater.GameClientUpdate
 import jakarta.transaction.Transactional;
 import jakarta.transaction.Transactional.TxType;
 import lombok.RequiredArgsConstructor;
+import lombok.SneakyThrows;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
@@ -37,6 +38,7 @@ public class IndustryActivityService implements GameClientUpdateListener {
 		repo.deleteAllInBatch();
 	}
 
+	@SneakyThrows
 	@Override
 	@Transactional(value = TxType.REQUIRES_NEW)
 	public void onGameClientUpdate(ClientCache cache) {
