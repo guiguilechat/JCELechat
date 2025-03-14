@@ -9,8 +9,8 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat</groupId>
 	<artifactId>libs</artifactId>
-	<name>JceLechat Libs</name>
-	<description>libraries for JCE-LECHAT. Those libraries provide tools to manage, optimize the data from the game.</description>
+	<name>Libs JCELechat</name>
+	<description>libraries for JCE-Lechat. Those libraries provide tools to manage, optimize the data from the game.</description>
 	<packaging>pom</packaging>
 	<modules>
 		<module>gameclient</module>

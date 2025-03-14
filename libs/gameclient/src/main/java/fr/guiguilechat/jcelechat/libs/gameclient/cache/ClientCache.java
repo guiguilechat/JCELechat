@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.gameclient.cache;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.nio.file.Files;
 import java.util.List;
 import java.util.function.Predicate;
@@ -12,7 +13,9 @@ import fr.guiguilechat.jcelechat.libs.gameclient.meta.ResourceIndex;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ResourceMetaData;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Getter
 @RequiredArgsConstructor
 public class ClientCache {
@@ -43,22 +46,31 @@ public class ClientCache {
 				.toList();
 	}
 
-	public void extractOn(Predicate<String> resourceNameFilter) {
+	public void extractOn(Predicate<String> resourceNameFilter, PrintStream out, PrintStream err) {
 		getVersionDir().mkdirs();
 		getAllIndexes().parallelStream().forEach(i -> {
 			i.getMap().entrySet().parallelStream().forEach(e -> {
 				String resName = e.getKey();
 				ResourceMetaData md = e.getValue();
 				if (resourceNameFilter.test(resName)) {
-					System.out.println(resName);
+					if(out!=null) {
+						out.println(resName);
+					}
 					try {
 						md.dump(getVersionDir());
 					} catch (IOException io) {
-						System.err.println(io.getClass().getSimpleName() + " : " + io.getMessage());
+						if(err!=null) {
+							err.println(io.getClass().getSimpleName() + " : " + io.getMessage());
+						}
+						log.error("while opening " + resName, io);
 					}
 				}
 			});
 		});
+	}
+
+	public void extractOn(Predicate<String> resourceNameFilter) {
+		extractOn(resourceNameFilter, null, null);
 	}
 
 	public File file(String resName) {
@@ -72,7 +84,7 @@ public class ClientCache {
 				try {
 					return md.dump(getVersionDir());
 				} catch (IOException e) {
-					System.err.println(" for resource " + resName + " : " + e.getMessage());
+					log.error(" for resource " + resName, e);
 				}
 			}
 		}

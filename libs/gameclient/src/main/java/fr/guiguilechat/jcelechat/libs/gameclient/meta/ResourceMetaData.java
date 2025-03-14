@@ -7,9 +7,12 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URI;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
  * a line loaded from an index resource
  */
+@Slf4j
 public record ResourceMetaData(String resName, String serverType, String relPath, String md5, int size, int compressed,
 		int permissions,
 		String fullLine) {
@@ -42,7 +45,7 @@ public record ResourceMetaData(String resName, String serverType, String relPath
 	public File dump(File destDir) throws MalformedURLException, IOException {
 		File targetFile = new File(destDir, resName);
 		if(targetFile.exists()) {
-			System.out.println(" " + targetFile.getPath() + " already exists");
+			log.debug(" " + targetFile.getPath() + " already exists");
 			return targetFile;
 		}
 		targetFile.getParentFile().mkdirs();

@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiConnectionIntercept
 public class SecurityConfig {
 
 	@Bean
-	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+	SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		http
 				.authorizeHttpRequests(authorize -> authorize
 		        .requestMatchers("/", "/index", "/webjars/**").permitAll()
