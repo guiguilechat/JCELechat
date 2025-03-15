@@ -31848,6 +31848,13 @@ id2group:
   87391: commodity/Miscellaneous
   87392: commodity/Miscellaneous
   87393: commodity/Miscellaneous
+  87459: skins/PermanentSKIN
+  87460: skins/PermanentSKIN
+  87461: skins/PermanentSKIN
+  87464: skins/PermanentSKIN
+  87465: skins/PermanentSKIN
+  87469: skins/PermanentSKIN
+  87493: skins/PermanentSKIN
   87519: skins/PermanentSKIN
   87520: skins/PermanentSKIN
   87521: skins/PermanentSKIN
@@ -31892,6 +31899,9 @@ id2group:
   87801: personalization/ShipSKINDesignElement
   87802: personalization/ShipSKINDesignElement
   87803: personalization/ShipSKINDesignElement
+  87828: personalization/ShipSKINDesignElement
+  87833: personalization/ShipSKINDesignElement
+  87840: personalization/ShipSKINDesignElement
   87853: specialeditionassets/SpecialEditionCommodities
   87938: entity/IrregularFrigate
   87939: entity/IrregularDestroyer

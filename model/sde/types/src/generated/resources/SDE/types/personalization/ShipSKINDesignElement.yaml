@@ -3487,3 +3487,27 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87828:
+    id: 87828
+    marketGroup: 3654
+    name: Extracted Butter Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87833:
+    id: 87833
+    marketGroup: 3653
+    name: Synthetic Oakleaf Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87840:
+    id: 87840
+    marketGroup: 3633
+    name: Clustered Horde - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

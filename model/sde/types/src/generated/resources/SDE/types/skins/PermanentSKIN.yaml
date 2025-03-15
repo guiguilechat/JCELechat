@@ -43318,6 +43318,62 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  87459:
+    id: 87459
+    marketGroup: 3568
+    name: Tholos Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87460:
+    id: 87460
+    marketGroup: 2058
+    name: Hyena Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87461:
+    id: 87461
+    marketGroup: 2103
+    name: Cyclone Fleet Issue Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87464:
+    id: 87464
+    marketGroup: 2103
+    name: Drake Navy Issue Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87465:
+    id: 87465
+    marketGroup: 2139
+    name: Thalia Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87469:
+    id: 87469
+    marketGroup: 2103
+    name: Brutix Navy Issue Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87493:
+    id: 87493
+    marketGroup: 2108
+    name: Dominix Navy Issue Zydrine Burn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   87519:
     id: 87519
     marketGroup: 2110
