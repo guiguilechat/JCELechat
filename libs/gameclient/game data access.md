@@ -26,13 +26,10 @@ It also has a **protected** flag that implies a different access method and shou
 
 The date of export of this build can be extracted from this resource's `last-modified` header.
 
-Root Index
-==
-
-with **buildnumber** set, the root index is available at `https://binaries.eveonline.com/eveonline_$(buildnumber).txt`
-
 Indexes structure
 ==
+
+The game resources are indexed in several index.
 
 Each index is a text file, with each line of it having the format  
 `[server]:/[localpath],[remotepath],[md5],[size],[compressedsize]\(,[permissions])?`  
@@ -44,7 +41,13 @@ with :
  - **md5** and **size** allow to validate the resource, either in the cache or once fetched
  - the two other may be present or not, useful or not (I dont use them)
 
-The root index contains several sub-index lines, with their localpath format `resfileindex[_flavor]?.txt` . Those provide additional resources depending on which flavor you use. In my case I use the vanilla one (so no flavor: `resfileindex.txt` )
+
+Root Index
+==
+
+Once **buildnumber** known, the root index is available at `https://binaries.eveonline.com/eveonline_$(buildnumber).txt`
+
+The root index contains several sub-index lines, with their **localpath** in format `resfileindex[_flavor]?.txt` . Those provide additional resources depending on which flavor you use. In my case I use the vanilla one (so no flavor: `resfileindex.txt` )
 
 Once you have your root index, your flavored sub index, you can cache the indexed resources locally, all at once or on-demand, to use them.
 
