@@ -46,7 +46,14 @@ public class ClientCache {
 				.toList();
 	}
 
+	protected void failOnProtected() {
+		if (getClientInfo().is_protected()) {
+			throw new RuntimeException("eve client is protected, can't touch it");
+		}
+	}
+
 	public void extractOn(Predicate<String> resourceNameFilter, PrintStream out, PrintStream err) {
+		failOnProtected();
 		getVersionDir().mkdirs();
 		getAllIndexes().parallelStream().forEach(i -> {
 			i.getMap().entrySet().parallelStream().forEach(e -> {
@@ -74,6 +81,7 @@ public class ClientCache {
 	}
 
 	public File file(String resName) {
+		failOnProtected();
 		File target = new File(getVersionDir(), resName);
 		if (target.exists()) {
 			return target;

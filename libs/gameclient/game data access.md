@@ -15,17 +15,21 @@ This is about documenting the way to access and understand (part of) the game's 
 Access
 =
 
-Client version
+Client meta data
 ==
 
-To get the client version, you can fetch the json from `https://binaries.eveonline.com/eveclient_TQ.json`
+To get the client meta data, you can fetch the json from `https://binaries.eveonline.com/eveclient_TQ.json`
 
-This json has a **build** field that is changed when the game files change, and that you need to know
+This json has a **buildnumber** field that is changed when the game files change, and that you need to know.
+
+It also has a **protected** flag that implies a different access method and should void data fetching as long as this flag is true.
+
+The date of export of this build can be extracted from this resource's `last-modified` header.
 
 Root Index
 ==
 
-with **build** set, the root index is available at `https://binaries.eveonline.com/eveonline_$(build).txt`
+with **buildnumber** set, the root index is available at `https://binaries.eveonline.com/eveonline_$(buildnumber).txt`
 
 Indexes structure
 ==

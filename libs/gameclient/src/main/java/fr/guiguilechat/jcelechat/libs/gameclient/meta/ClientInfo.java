@@ -56,7 +56,7 @@ public class ClientInfo {
 	private static final String INDEX_TEMPLATE = "eveonline_%s.txt";
 
 	public String rootPath() {
-		return String.format(INDEX_TEMPLATE, build);
+		return String.format(INDEX_TEMPLATE, buildNumber);
 	}
 
 	public ResourceIndex rootIndex() {
