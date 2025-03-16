@@ -4,17 +4,15 @@ import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse.BodyHandlers;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.nio.charset.Charset;
+import java.time.Instant;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import org.jsoup.Jsoup;
-import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.DumperOptions;
@@ -24,6 +22,8 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
+import fr.guiguilechat.jcelechat.model.sde.RemoteMeta;
+import fr.guiguilechat.jcelechat.model.sde.Resolve;
 import fr.lelouet.tools.application.xdg.XDGApp;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -52,45 +52,6 @@ public class SDECache {
 		return new Yaml(cons, representer, dumperOptions, options);
 	}
 
-	private static final String URL_STATIC = "https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/sde.zip";
-	private final static String URL_DYNAMIC = "https://developers.eveonline.com/docs/services/sde/";
-
-	/**
-	 * find the url to download the SDE from.
-	 *
-	 * @return
-	 */
-	protected static String findURL() {
-		try {
-			org.jsoup.nodes.Document page = Jsoup.connect(URL_DYNAMIC).get();
-			Elements a = page.select("a[href*=sde.zip]");
-			String ret = a == null ? null : a.attr("href");
-			if (ret == null || ret.length() == 0) {
-				logger.debug("can't find URL for SDE, fallback to static " + URL_STATIC);
-			} else {
-				logger.debug("dynamic URL for SDE is " + ret);
-				return ret;
-			}
-		} catch (IOException e) {
-			e.printStackTrace(System.err);
-		}
-		return URL_STATIC;
-	}
-
-	protected static String getEtag(String url) {
-		HttpRequest request = HttpRequest.newBuilder(URI.create(
-				url))
-				.method("HEAD", HttpRequest.BodyPublishers.noBody())
-				.build();
-		try {
-			return HttpClient.newHttpClient().send(request, BodyHandlers.discarding()).headers().firstValue(
-					"Etag")
-					.orElse(null);
-		} catch (IOException | InterruptedException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
-	}
-
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final XDGApp app = new XDGApp("sde.ccp.is");
@@ -115,11 +76,17 @@ public class SDECache {
 
 	/**
 	 * the file that contains the etag of last downloaded sde , if any.
-	 *
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final File extractEtagFile = new File(extractCheckDir(), "etag.txt");
+
+	/**
+	 * the file that contains the last-modified of last downloaded sde , if any.
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final File extractLastModifiedFile = new File(extractCheckDir(), "lastmodified.txt");
 
 	// set to true to avoid downloading the SDE.
 	private boolean extractTriedDL = false;
@@ -136,11 +103,13 @@ public class SDECache {
 	}
 
 	/**
-	 * check if a new version is avail (using etag) and, when yes, extract it
+	 * check if a new version is avail (using stored etag and remote ) and extract
+	 * it if needed
 	 */
 	public synchronized void updateExtract() {
-		String url = findURL();
-		String etag = getEtag(url);
+		String url = Resolve.findURL();
+		RemoteMeta meta = RemoteMeta.forUrl(url);
+		String etag = meta.etag();
 		if (extractEtagFile().exists()) {
 			try (BufferedReader br = new BufferedReader(new FileReader(extractEtagFile()))) {
 				if (etag.equals(br.readLine())) {
@@ -160,12 +129,20 @@ public class SDECache {
 			FileTools.delDir(extractCacheDir());
 			extractCacheDir().mkdirs();
 			unpackSDE(url, extractCacheDir());
-			extractEtagFile().getParentFile().mkdirs();
-			FileWriter fw = new FileWriter(extractEtagFile());
-			fw.write(etag);
-			fw.close();
+			writExtractedeMeta(meta);
 		} catch (IOException ioe) {
 			throw new RuntimeException(ioe);
+		}
+	}
+
+	protected void writExtractedeMeta(RemoteMeta meta) throws IOException {
+		extractLastModifiedFile().getParentFile().mkdirs();
+		try (FileWriter fw = new FileWriter(extractLastModifiedFile())) {
+			fw.write(DateTimeFormatter.RFC_1123_DATE_TIME.format(meta.lastModified().atOffset(ZoneOffset.UTC)));
+		}
+		extractEtagFile().getParentFile().mkdirs();
+		try (FileWriter fw = new FileWriter(extractEtagFile())) {
+			fw.write(meta.etag());
 		}
 	}
 
@@ -233,6 +210,13 @@ public class SDECache {
 	@Accessors(fluent = true)
 	private final File zipEtagFile = new File(zipCacheDir(), "etag.txt");
 
+	/**
+	 * the file that contains the last-modified of last downloaded sde , if any.
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final File zipLastModifiedFile = new File(zipCacheDir(), "lastmodified.txt");
+
 	// set to true to avoid downloading the SDE.
 	private boolean zipTriedDL = false;
 
@@ -250,10 +234,11 @@ public class SDECache {
 	/**
 	 * check if a new version is avail (using etag) and, when yes, download it
 	 *
+	 * @param nullOnCached when set to true, only return the file when newer sde
 	 * @return null if the file is the same as previous and returnOnlyNew is
-	 *           specified, existing file if no update, new file if update.
+	 *         specified, existing file if no update, new file if update.
 	 */
-	public synchronized File updateZip(boolean returnOnlyNew) {
+	public synchronized File updateZip(boolean nullOnCached) {
 		String lastEtag = null;
 		if (zipTarget().isFile() && zipEtagFile().isFile()) {
 			try (BufferedReader br = new BufferedReader(new FileReader(zipEtagFile()))) {
@@ -268,7 +253,7 @@ public class SDECache {
 		SDEDownload res = getSDE(lastEtag);
 		if (res.cached()) {
 			logger.info("already last version of sde in  " + zipCacheDir().getAbsolutePath());
-			return returnOnlyNew ? null : zipTarget();
+			return nullOnCached ? null : zipTarget();
 		}
 		if (res.error() != null) {
 			return null;
@@ -284,27 +269,36 @@ public class SDECache {
 			zipTemp().delete();
 			copySDE(res.channel(), zipTemp());
 			zipTemp().renameTo(zipTarget());
-			FileWriter fw = new FileWriter(zipEtagFile());
-			fw.write(res.etag());
-			fw.close();
+			writeZipMeta(res);
 		} catch (IOException ioe) {
 			throw new RuntimeException(ioe);
 		}
 		return zipTarget();
 	}
 
-	public static record SDEDownload(String url, String etag, ReadableByteChannel channel, Exception error,
+	protected void writeZipMeta(SDEDownload sdeDL) throws IOException {
+		try (FileWriter fw = new FileWriter(zipLastModifiedFile())) {
+			fw.write(DateTimeFormatter.RFC_1123_DATE_TIME.format(sdeDL.lastModified().atOffset(ZoneOffset.UTC)));
+		}
+		try (FileWriter fw = new FileWriter(zipEtagFile())) {
+			fw.write(sdeDL.etag());
+		}
+
+	}
+
+	public static record SDEDownload(String url, String etag, Instant lastModified, ReadableByteChannel channel,
+			Exception error,
 			boolean cached) {
-		static SDEDownload ok(String url, String etag, ReadableByteChannel channel) {
-			return new SDEDownload(url, etag, channel, null, false);
+		static SDEDownload ok(String url, String etag, Instant lastModified, ReadableByteChannel channel) {
+			return new SDEDownload(url, etag, lastModified, channel, null, false);
 		}
 
 		static SDEDownload error(String url, Exception error) {
-			return new SDEDownload(url, null, null, error, false);
+			return new SDEDownload(url, null, null, null, error, false);
 		}
 
-		static SDEDownload cached(String url, String etag) {
-			return new SDEDownload(url, etag, null, null, true);
+		static SDEDownload cached(String url, String etag, Instant lastModified) {
+			return new SDEDownload(url, etag, lastModified, null, null, true);
 		}
 
 		public File toTempFile() throws IOException {
@@ -315,13 +309,15 @@ public class SDECache {
 	}
 
 	public static SDEDownload getSDE(String lastEtag) {
-		String url = findURL();
-		String etag = getEtag(url);
+		String url = Resolve.findURL();
+		RemoteMeta meta = RemoteMeta.forUrl(url);
+		String etag = meta.etag();
 		if (lastEtag != null && lastEtag.equals(etag)) {
-			return SDEDownload.cached(url, etag);
+			return SDEDownload.cached(url, etag, meta.lastModified());
 		}
 		try {
-			return SDEDownload.ok(url, etag, Channels.newChannel(new URI(url).toURL().openStream()));
+			return SDEDownload.ok(url, etag, meta.lastModified(),
+					Channels.newChannel(new URI(url).toURL().openStream()));
 		} catch (IOException | URISyntaxException e) {
 			logger.error("while downloading " + url, e);
 			return SDEDownload.error(url, e);

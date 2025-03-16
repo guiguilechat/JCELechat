@@ -3,12 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.translate;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -16,7 +18,6 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
@@ -40,17 +41,15 @@ public class IndustryTranslater {
 	private static final Logger logger = LoggerFactory.getLogger(IndustryTranslater.class);
 
 	/**
-	 *
 	 * @param args
-	 *          should be [database destination root], typically
-	 *          src/generated/resources/
+	 *             should be [database destination root], typically
+	 *             src/generated/resources/
 	 */
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 
 		long timeStart = System.currentTimeMillis();
 		File folderOut = new File(args.length == 0 ? "src/generated/resources/" : args[0]);
-		FileTools.delDir(folderOut);
 		folderOut.mkdirs();
 
 		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
@@ -65,7 +64,7 @@ public class IndustryTranslater {
 
 		Stream.of(blueprints, decryptors).forEach(m -> {
 			ArrayList<Entry<Integer, ? extends TypeRef<?>>> list = new ArrayList<>(m.entrySet());
-			Collections.sort(list, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
+			Collections.sort(list, Comparator.comparing(Entry<Integer, ? extends TypeRef<?>>::getKey));
 			m.clear();
 			for (Entry<Integer, ? extends TypeRef<?>> e : list) {
 				((Map<Integer, TypeRef<?>>) m).put(e.getKey(), e.getValue());
@@ -89,68 +88,72 @@ public class IndustryTranslater {
 				.flatMap(crp -> crp.corporationTrades.keySet().stream())
 				.collect(Collectors.toSet());
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
-			EveType type = TypeIndex.getType(e.getValue().blueprintTypeID);
-			if (type != null) {
-				if (type.published) {
-					Blueprint bp2 = makeBlueprint(e.getValue());
-					if (bp2.copying == null || bp2.invention == null || bp2.manufacturing == null || bp2.reaction == null
-							|| bp2.research_material == null || bp2.research_time == null) {
-						Set<String> missingActivities = new HashSet<>();
-						if (bp2.copying == null) {
-							missingActivities.add("copying");
-						}
-						if (bp2.invention == null) {
-							missingActivities.add("invention");
-						}
-						if (bp2.manufacturing == null) {
-							missingActivities.add("manufacturing");
-						}
-						if (bp2.reaction == null) {
-							missingActivities.add("reaction");
-						}
-						if (bp2.research_material == null) {
-							missingActivities.add("research_material");
-						}
-						if (bp2.research_time == null) {
-							missingActivities.add("research_time");
-						}
-						logger.debug(
-								"skipping bp " + bp2.name() + "(" + bp2.id + ")" + " for unresolved activities : " + missingActivities);
-						continue;
-					}
-					bp2.seeded = seededItems.contains(bp2.id) && !bp2.name().endsWith("II Blueprint");
-					blueprints.put(e.getValue().blueprintTypeID, bp2);
-					addUsages(bp2, usages);
-				} else {
-					logger.debug("skipping bp for unpublished " + type.name);
-				}
-			} else {
-				logger.debug("skipping null-item bp id=" + e.getValue().blueprintTypeID);
+			EveType bpType = TypeIndex.getType(e.getValue().blueprintTypeID);
+			if (bpType == null) {
+				logger.error("skipping null-type bp id=" + e.getValue().blueprintTypeID);
+				continue;
 			}
+			if (!bpType.published) {
+				logger.debug("skipping unpublished bp " + bpType.name + "(" + bpType.id + ")");
+				continue;
+			}
+			Blueprint translated = makeBlueprint(e.getValue());
+			// don't process a BP that lacks any activity
+			if (translated.copying == null || translated.invention == null || translated.manufacturing == null
+					|| translated.reaction == null
+					|| translated.research_material == null || translated.research_time == null) {
+				Set<String> missingActivities = new HashSet<>();
+				if (translated.copying == null) {
+					missingActivities.add("copying");
+				}
+				if (translated.invention == null) {
+					missingActivities.add("invention");
+				}
+				if (translated.manufacturing == null) {
+					missingActivities.add("manufacturing");
+				}
+				if (translated.reaction == null) {
+					missingActivities.add("reaction");
+				}
+				if (translated.research_material == null) {
+					missingActivities.add("research_material");
+				}
+				if (translated.research_time == null) {
+					missingActivities.add("research_time");
+				}
+				logger.debug(
+						"skipping bp " + translated.name() + "(" + translated.id + ")" + " for unresolved activities : "
+								+ missingActivities);
+				continue;
+			}
+			translated.seeded = seededItems.contains(translated.id) && !translated.name().endsWith("II Blueprint");
+			blueprints.put(e.getValue().blueprintTypeID, translated);
+			addUsages(translated, usages);
 		}
 
 		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.load().entrySet()) {
 			EveType inputMat = TypeIndex.getType(e.getKey());
 			if (inputMat == null) {
-				logger.debug("can't find type id=" + e.getKey() + " that reprocess in " + e.getValue());
+				logger.error("can't find type id=" + e.getKey() + " reprocessed into " + e.getValue());
 				continue;
 			}
 			int portionSize = inputMat.portionSize;
 			IndustryUsage usage = usages.computeIfAbsent(e.getKey(), i -> new IndustryUsage());
 			for (Material mat : e.getValue().materials) {
 				EveType outputmat = TypeIndex.getType(mat.materialTypeID);
-				if (outputmat != null) {
-					usage.reprocessInto.put(mat.materialTypeID, 1.0 * mat.quantity / portionSize);
-					usages.computeIfAbsent(mat.materialTypeID, i -> new IndustryUsage()).reprocessedFrom.add(e.getKey());
-				} else {
-					logger.debug("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.name);
+				if (outputmat == null) {
+					logger.error("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.name);
+					continue;
 				}
+				usage.reprocessInto.put(mat.materialTypeID, 1.0 * mat.quantity / portionSize);
+				usages.computeIfAbsent(mat.materialTypeID, i -> new IndustryUsage()).reprocessedFrom
+						.add(e.getKey());
 			}
 		}
 
 		// sort the usages by item name
 		ArrayList<Entry<Integer, IndustryUsage>> l = new ArrayList<>(usages.entrySet());
-		Collections.sort(l, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
+		Collections.sort(l, Comparator.comparing(Entry<Integer, IndustryUsage>::getKey));
 		usages.clear();
 		for (Entry<Integer, IndustryUsage> e : l) {
 			usages.put(e.getKey(), e.getValue());
@@ -174,30 +177,44 @@ public class IndustryTranslater {
 	 * try to convert an SDE activity
 	 *
 	 * @param activity
-	 *          the SDE activity
+	 *                 the SDE activity
 	 * @return null if a type referred to in the activity was not found.
 	 */
 	public static Activity convertActivity(
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity activity) {
-		boolean[] skip = new boolean[] { false };
+		AtomicBoolean skip = new AtomicBoolean(false);
 		Activity ret = new Activity();
 		ret.time = activity.time;
-		activity.materials.stream().map(m -> convertMaterialReq(m)).peek(o -> skip[0] = skip[0] || o == null)
-		.filter(o -> o != null).sorted((m1, m2) -> Integer.compare(m1.id, m2.id)).forEach(ret.materials::add);
-		activity.products.stream().map(p -> convertMaterialProd(p)).peek(o -> skip[0] = skip[0] || o == null)
-		.filter(o -> o != null).sorted((m1, m2) -> Integer.compare(m1.id, m2.id)).forEach(ret.products::add);
-		activity.skills.stream().sorted((s1, s2) -> Integer.compare(s1.typeID, s2.typeID)).forEach(s -> {
+		activity.materials.stream().map(IndustryTranslater::convertMaterialReq)
+				.peek(o -> {
+					if (o == null) {
+						skip.set(true);
+					}
+				})
+				.filter(o -> o != null)
+				.sorted(Comparator.comparing(m1 -> m1.id))
+				.forEach(ret.materials::add);
+		activity.products.stream().map(IndustryTranslater::convertMaterialProd)
+				.peek(o -> {
+					if (o == null) {
+						skip.set(true);
+					}
+				})
+				.filter(o -> o != null)
+				.sorted(Comparator.comparing(m1 -> m1.id))
+				.forEach(ret.products::add);
+		activity.skills.stream().sorted(Comparator.comparing(s1 -> s1.typeID)).forEach(s -> {
 			EveType skill = TypeIndex.getType(s.typeID);
 			if (skill == null) {
-				logger.debug("missing skill " + s.typeID);
-				skip[0] = true;
+				logger.error("missing skill " + s.typeID);
+				skip.set(true);
 			} else {
 				TypeRef<Skill> ref = new TypeRef<>();
 				ref.id = skill.id;
 				ret.skills.put(ref, s.level);
 			}
 		});
-		if (skip[0]) {
+		if (skip.get()) {
 			return null;
 		}
 		return ret;
@@ -212,7 +229,7 @@ public class IndustryTranslater {
 			ret.id = sdeMat.typeID;
 			return ret;
 		} else {
-			logger.debug("missing type id=" + sdeMat.typeID);
+			logger.error("missing type id=" + sdeMat.typeID + " for material conversion");
 			return null;
 		}
 	}
@@ -227,7 +244,7 @@ public class IndustryTranslater {
 			ret.probability = sdeMat.probability;
 			return ret;
 		} else {
-			logger.debug("missing type id=" + sdeMat.typeID);
+			logger.error("missing type id=" + sdeMat.typeID + " for product conversion");
 			return null;
 		}
 	}
@@ -269,7 +286,7 @@ public class IndustryTranslater {
 		} else {
 			for (MaterialReq<?> m : materials) {
 				if (m == null) {
-					logger.debug("null material in list of bp id=" + bpoID + " : " + materials);
+					logger.warn("null material in list of bp id=" + bpoID + " : " + materials);
 				}
 				IndustryUsage u = usages.computeIfAbsent(m.id, i -> new IndustryUsage());
 				categorizer.apply(u).add(bpoID);
