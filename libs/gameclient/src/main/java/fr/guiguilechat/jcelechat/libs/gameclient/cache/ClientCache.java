@@ -30,7 +30,7 @@ public class ClientCache {
 	}
 
 	@Getter(lazy = true)
-	private final File versionDir = new File(rootPath, clientInfo.build());
+	private final File versionDir = new File(rootPath, clientInfo.getBuild());
 
 	@Getter(lazy = true)
 	private final ResourceIndex rootIndex = clientInfo.rootIndex();

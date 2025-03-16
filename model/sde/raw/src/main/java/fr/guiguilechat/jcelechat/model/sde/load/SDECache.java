@@ -31,7 +31,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * store the SDE locally
- *
  */
 @Slf4j
 public class SDECache {
@@ -116,8 +115,8 @@ public class SDECache {
 					logger.info("already last version of sde in  " + extractCacheDir().getAbsolutePath());
 					return;
 				}
-				logger
-						.info("new version of sde to download with etag " + etag + " into " + extractCacheDir().getAbsolutePath());
+				logger.info("new version of sde to download with etag " + etag + " into "
+						+ extractCacheDir().getAbsolutePath());
 			} catch (IOException ioe) {
 				throw new RuntimeException(ioe);
 			}
@@ -164,7 +163,7 @@ public class SDECache {
 			throw new RuntimeException(e);
 		}
 		try (ZipInputStream zis = new ZipInputStream(is)) {
-		ZipEntry e;
+			ZipEntry e;
 			while ((e = zis.getNextEntry()) != null) {
 				File out = new File(cacheDir, e.getName());
 				out.getParentFile().mkdirs();
@@ -258,7 +257,8 @@ public class SDECache {
 		if (res.error() != null) {
 			return null;
 		}
-		logger.info("new version of sde to download with etag " + res.etag() + " into " + zipCacheDir().getAbsolutePath());
+		logger.info(
+				"new version of sde to download with etag " + res.etag() + " into " + zipCacheDir().getAbsolutePath());
 
 		try {
 			zipCacheDir().mkdirs();

@@ -81,14 +81,14 @@ public class GameClientUpdateService implements IEntityUpdater {
 				.startedDate(startDate).build();
 		GameClientUpdate lastSuccess = findLastSuccess();
 		ClientInfo ci = ClientInfo.fetch();
-		ur.setBuildNumber(ci.buildNumber());
-		if (!force && lastSuccess != null && ci.buildNumber().equals(lastSuccess.getBuildNumber())) {
+		ur.setBuildNumber(ci.getBuildNumber());
+		if (!force && lastSuccess != null && ci.getBuildNumber().equals(lastSuccess.getBuildNumber())) {
 			nextFetch = startDate.plusSeconds(getUpdate().getDelay());
 			ur.setStatus(Status.CACHED);
 			save(ur);
 			return false;
 		}
-		log.info("importing game client build {}", ci.buildNumber());
+		log.info("importing game client build {}", ci.getBuildNumber());
 		try {
 			ClientCache cache = new ClientCache(ci);
 			if (updateListeners.isPresent()) {
@@ -107,7 +107,7 @@ public class GameClientUpdateService implements IEntityUpdater {
 			}
 			ur.setStatus(Status.FAIL);
 			ur.setError(e.getMessage());
-			log.error("while updating build " + ci.buildNumber(), e);
+			log.error("while updating build " + ci.getBuildNumber(), e);
 		}
 		ur.setEndDate(Instant.now());
 		save(ur);

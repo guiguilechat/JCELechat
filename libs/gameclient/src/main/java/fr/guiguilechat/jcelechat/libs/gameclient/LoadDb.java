@@ -17,8 +17,7 @@ public class LoadDb {
 	public static void main(String[] args) throws SQLException, JsonMappingException, JsonProcessingException {
 		File cacheDir = new File(".evecache");
 		ClientCache cache = new ClientCache(cacheDir, ClientInfo.fetch());
-		// to get without printing
-//		List<KeyValTime<Eblueprints>> list = Eblueprints.getLoader().load(cache);
+		System.err.println(cache.getClientInfo().lastModified());
 		for (KeyValTimeLoader<?> loader : List.of(
 				Eblueprints.getLoader(),
 				Eclonegrades.getLoader(),
