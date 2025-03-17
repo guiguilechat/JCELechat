@@ -55,8 +55,8 @@ public class IndustryTranslater {
 		LinkedHashMap<Integer, InventionDecryptor> decryptors = new LinkedHashMap<>();
 		LinkedHashMap<Integer, IndustryUsage> usages = new LinkedHashMap<>();
 
-//		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
-		new SDEBlueprintTranslator().translateBlueprints(blueprints, usages);
+		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
+//		new SDEBlueprintTranslator().translateBlueprints(blueprints, usages);
 		translateDecryptors(decryptors);
 		translateCompression(usages);
 

@@ -4,7 +4,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -67,34 +66,6 @@ public class ClientCacheBlueprintTranslator {
 				continue;
 			}
 			Blueprint translated = makeBlueprint(e.getVal());
-			// don't process a BP that lacks any activity
-			if (translated.copying == null || translated.invention == null || translated.manufacturing == null
-					|| translated.reaction == null
-					|| translated.research_material == null || translated.research_time == null) {
-				Set<String> missingActivities = new HashSet<>();
-				if (translated.copying == null) {
-					missingActivities.add("copying");
-				}
-				if (translated.invention == null) {
-					missingActivities.add("invention");
-				}
-				if (translated.manufacturing == null) {
-					missingActivities.add("manufacturing");
-				}
-				if (translated.reaction == null) {
-					missingActivities.add("reaction");
-				}
-				if (translated.research_material == null) {
-					missingActivities.add("research_material");
-				}
-				if (translated.research_time == null) {
-					missingActivities.add("research_time");
-				}
-				log.debug(
-						"skipping bp " + translated.name() + "(" + translated.id + ")" + " for unresolved activities : "
-								+ missingActivities);
-				continue;
-			}
 			translated.seeded = seededItems.contains(translated.id) && !translated.name().endsWith("II Blueprint");
 			blueprints.put(bpId, translated);
 			addUsages(translated, usages);
@@ -145,16 +116,19 @@ public class ClientCacheBlueprintTranslator {
 	/**
 	 * try to convert an SDE activity
 	 *
-	 * @param copying
+	 * @param listedActivity
 	 *                the SDE activity
 	 * @return null if a type referred to in the activity was not found.
 	 */
 	Activity convertActivity(
-			fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.Eblueprints.Activities.Activity copying) {
+			fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.Eblueprints.Activities.Activity listedActivity) {
+		if (listedActivity == null) {
+			return null;
+		}
 		AtomicBoolean skip = new AtomicBoolean(false);
 		Activity ret = new Activity();
-		ret.time = copying.time;
-		copying.materials.stream().map(this::convertMaterialReq)
+		ret.time = listedActivity.time;
+		listedActivity.materials.stream().map(this::convertMaterialReq)
 				.peek(o -> {
 					if (o == null) {
 						skip.set(true);
@@ -163,7 +137,7 @@ public class ClientCacheBlueprintTranslator {
 				.filter(o -> o != null)
 				.sorted(Comparator.comparing(m1 -> m1.id))
 				.forEach(ret.materials::add);
-		copying.products.stream().map(this::convertMaterialProd)
+		listedActivity.products.stream().map(this::convertMaterialProd)
 				.peek(o -> {
 					if (o == null) {
 						skip.set(true);
@@ -172,7 +146,7 @@ public class ClientCacheBlueprintTranslator {
 				.filter(o -> o != null)
 				.sorted(Comparator.comparing(m1 -> m1.id))
 				.forEach(ret.products::add);
-		copying.skills.stream().sorted(Comparator.comparing(s1 -> s1.typeId)).forEach(s -> {
+		listedActivity.skills.stream().sorted(Comparator.comparing(s1 -> s1.typeId)).forEach(s -> {
 			EveType skill = TypeIndex.getType(s.typeId);
 			if (skill == null) {
 				log.error("missing skill " + s.typeId);
@@ -221,15 +195,27 @@ public class ClientCacheBlueprintTranslator {
 	 * bp as using the materials of that activity
 	 */
 	void addUsages(Blueprint bp, Map<Integer, IndustryUsage> usages) {
-		addUsages(bp.id, usages, bp.manufacturing.products, u -> u.productOfManuf);
-		addUsages(bp.id, usages, bp.manufacturing.materials, u -> u.materialInManuf);
-		addUsages(bp.id, usages, bp.copying.materials, u -> u.materialInCopy);
-		addUsages(bp.id, usages, bp.invention.materials, u -> u.materialInInvention);
-		addUsages(bp.id, usages, bp.invention.products, u -> u.productOfInvention);
-		addUsages(bp.id, usages, bp.research_material.materials, u -> u.materialInME);
-		addUsages(bp.id, usages, bp.research_time.materials, u -> u.materialInTE);
-		addUsages(bp.id, usages, bp.reaction.materials, u -> u.materialInReaction);
-		addUsages(bp.id, usages, bp.reaction.products, u -> u.productOfReaction);
+		if (bp.manufacturing != null) {
+			addUsages(bp.id, usages, bp.manufacturing.products, u -> u.productOfManuf);
+			addUsages(bp.id, usages, bp.manufacturing.materials, u -> u.materialInManuf);
+		}
+		if (bp.copying != null) {
+			addUsages(bp.id, usages, bp.copying.materials, u -> u.materialInCopy);
+		}
+		if (bp.invention != null) {
+			addUsages(bp.id, usages, bp.invention.materials, u -> u.materialInInvention);
+			addUsages(bp.id, usages, bp.invention.products, u -> u.productOfInvention);
+		}
+		if (bp.research_material != null) {
+			addUsages(bp.id, usages, bp.research_material.materials, u -> u.materialInME);
+		}
+		if (bp.research_time != null) {
+			addUsages(bp.id, usages, bp.research_time.materials, u -> u.materialInTE);
+		}
+		if (bp.reaction != null) {
+			addUsages(bp.id, usages, bp.reaction.materials, u -> u.materialInReaction);
+			addUsages(bp.id, usages, bp.reaction.products, u -> u.productOfReaction);
+		}
 	}
 
 	@SuppressWarnings("rawtypes")

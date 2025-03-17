@@ -14084,6 +14084,16 @@ blueprints:
         : 1
       time: 1050
     seeded: false
+  2179:
+    copying:
+      time: 720
+    id: 2179
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
   2184:
     copying:
       time: 480
@@ -14447,6 +14457,16 @@ blueprints:
         ? id: 11453
         : 1
       time: 525
+    seeded: false
+  2211:
+    copying:
+      time: 720
+    id: 2211
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
     seeded: false
   2282:
     copying:
@@ -17596,6 +17616,38 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
+  2742:
+    id: 2742
+    maxCopyRuns: 10
+    seeded: false
+  2743:
+    id: 2743
+    maxCopyRuns: 10
+    seeded: false
+  2744:
+    id: 2744
+    maxCopyRuns: 10
+    seeded: false
+  2745:
+    id: 2745
+    maxCopyRuns: 10
+    seeded: false
+  2746:
+    id: 2746
+    maxCopyRuns: 10
+    seeded: false
+  2747:
+    id: 2747
+    maxCopyRuns: 10
+    seeded: false
+  2748:
+    id: 2748
+    maxCopyRuns: 10
+    seeded: false
+  2749:
+    id: 2749
+    maxCopyRuns: 7
+    seeded: false
   2750:
     copying:
       time: 9600
@@ -17634,6 +17686,10 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
+  2751:
+    id: 2751
+    maxCopyRuns: 10
+    seeded: false
   2752:
     copying:
       time: 9600
@@ -17666,6 +17722,14 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
+  2753:
+    id: 2753
+    maxCopyRuns: 10
+    seeded: false
+  2754:
+    id: 2754
+    maxCopyRuns: 10
+    seeded: false
   2755:
     copying:
       time: 14400
@@ -17694,6 +17758,10 @@ blueprints:
     research_time:
       time: 6300
     seeded: true
+  2756:
+    id: 2756
+    maxCopyRuns: 7
+    seeded: false
   2757:
     copying:
       time: 14400
@@ -17722,6 +17790,10 @@ blueprints:
     research_time:
       time: 6300
     seeded: true
+  2758:
+    id: 2758
+    maxCopyRuns: 10
+    seeded: false
   2759:
     copying:
       time: 14400
@@ -17750,6 +17822,10 @@ blueprints:
     research_time:
       time: 6300
     seeded: true
+  2760:
+    id: 2760
+    maxCopyRuns: 10
+    seeded: false
   2761:
     copying:
       time: 14400
@@ -17804,6 +17880,46 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
+  2764:
+    id: 2764
+    maxCopyRuns: 10
+    seeded: false
+  2765:
+    id: 2765
+    maxCopyRuns: 7
+    seeded: false
+  2766:
+    id: 2766
+    maxCopyRuns: 7
+    seeded: false
+  2767:
+    id: 2767
+    maxCopyRuns: 10
+    seeded: false
+  2768:
+    id: 2768
+    maxCopyRuns: 10
+    seeded: false
+  2769:
+    id: 2769
+    maxCopyRuns: 7
+    seeded: false
+  2770:
+    id: 2770
+    maxCopyRuns: 10
+    seeded: false
+  2771:
+    id: 2771
+    maxCopyRuns: 10
+    seeded: false
+  2772:
+    id: 2772
+    maxCopyRuns: 10
+    seeded: false
+  2773:
+    id: 2773
+    maxCopyRuns: 7
+    seeded: false
   2774:
     copying:
       time: 72000
@@ -18260,6 +18376,10 @@ blueprints:
     research_time:
       time: 10500
     seeded: true
+  2786:
+    id: 2786
+    maxCopyRuns: 10
+    seeded: false
   2787:
     copying:
       time: 9600
@@ -18292,6 +18412,22 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
+  2788:
+    id: 2788
+    maxCopyRuns: 10
+    seeded: false
+  2789:
+    id: 2789
+    maxCopyRuns: 10
+    seeded: false
+  2790:
+    id: 2790
+    maxCopyRuns: 7
+    seeded: false
+  2791:
+    id: 2791
+    maxCopyRuns: 7
+    seeded: false
   2792:
     copying:
       time: 9600
@@ -18318,6 +18454,10 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
+  2793:
+    id: 2793
+    maxCopyRuns: 7
+    seeded: false
   2794:
     copying:
       time: 9600
@@ -18344,6 +18484,10 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
+  2795:
+    id: 2795
+    maxCopyRuns: 7
+    seeded: false
   2796:
     copying:
       time: 9600
@@ -18370,6 +18514,10 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
+  2797:
+    id: 2797
+    maxCopyRuns: 7
+    seeded: false
   2798:
     copying:
       time: 9600
@@ -18422,6 +18570,10 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
+  2800:
+    id: 2800
+    maxCopyRuns: 7
+    seeded: false
   2802:
     copying:
       materials:
@@ -18958,6 +19110,14 @@ blueprints:
     research_time:
       time: 2100
     seeded: true
+  2820:
+    id: 2820
+    maxCopyRuns: 10
+    seeded: false
+  2821:
+    id: 2821
+    maxCopyRuns: 10
+    seeded: false
   2822:
     copying:
       time: 9600
@@ -26353,6 +26513,150 @@ blueprints:
         ? id: 11451
         : 1
       time: 2457
+    seeded: false
+  4275:
+    copying:
+      materials:
+      - id: 3812
+        quantity: 20
+      - id: 11466
+        quantity: 1
+      skills:
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+      time: 7488
+    id: 4275
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11466
+        quantity: 1
+      skills:
+        ? id: 3409
+        : 5
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+      time: 3276
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11466
+        quantity: 1
+      skills:
+        ? id: 3403
+        : 5
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+      time: 3276
+    seeded: false
+  4277:
+    copying:
+      materials:
+      - id: 3812
+        quantity: 20
+      - id: 11466
+        quantity: 1
+      skills:
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+      time: 7488
+    id: 4277
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11466
+        quantity: 1
+      skills:
+        ? id: 3409
+        : 5
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+      time: 3276
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11466
+        quantity: 1
+      skills:
+        ? id: 3403
+        : 5
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+      time: 3276
+    seeded: false
+  4279:
+    copying:
+      materials:
+      - id: 3812
+        quantity: 20
+      - id: 11466
+        quantity: 1
+      skills:
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+      time: 7488
+    id: 4279
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11466
+        quantity: 1
+      skills:
+        ? id: 3409
+        : 5
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+      time: 3276
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11466
+        quantity: 1
+      skills:
+        ? id: 3403
+        : 5
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+      time: 3276
     seeded: false
   4293:
     copying:
@@ -59640,6 +59944,90 @@ blueprints:
         : 1
       time: 84000
     seeded: false
+  22554:
+    copying:
+      time: 2880
+    id: 22554
+    invention:
+      materials:
+      - id: 20415
+        quantity: 2
+      - id: 20423
+        quantity: 2
+      products:
+      - id: 4275
+        probability: 0.34
+        quantity: 10
+      skills:
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+        ? id: 23121
+        : 1
+      time: 68100
+    maxCopyRuns: 50
+    research_material:
+      time: 1260
+    research_time:
+      time: 1260
+    seeded: false
+  22556:
+    copying:
+      time: 2880
+    id: 22556
+    invention:
+      materials:
+      - id: 20415
+        quantity: 2
+      - id: 20423
+        quantity: 2
+      products:
+      - id: 4279
+        probability: 0.34
+        quantity: 10
+      skills:
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+        ? id: 23121
+        : 1
+      time: 68100
+    maxCopyRuns: 50
+    research_material:
+      time: 1260
+    research_time:
+      time: 1260
+    seeded: false
+  22558:
+    copying:
+      time: 2880
+    id: 22558
+    invention:
+      materials:
+      - id: 20415
+        quantity: 2
+      - id: 20423
+        quantity: 2
+      products:
+      - id: 4277
+        probability: 0.34
+        quantity: 10
+      skills:
+        ? id: 11451
+        : 1
+        ? id: 11529
+        : 1
+        ? id: 23121
+        : 1
+      time: 68100
+    maxCopyRuns: 50
+    research_material:
+      time: 1260
+    research_time:
+      time: 1260
+    seeded: false
   22573:
     copying:
       time: 720
@@ -79874,6 +80262,10 @@ blueprints:
         : 1
       time: 5250
     seeded: false
+  27015:
+    id: 27015
+    maxCopyRuns: 600
+    seeded: true
   27065:
     copying:
       time: 4800
@@ -86160,6 +86552,10 @@ blueprints:
     research_time:
       time: 18900
     seeded: true
+  28605:
+    id: 28605
+    maxCopyRuns: 10
+    seeded: false
   28607:
     copying:
       time: 1200000
@@ -121133,6 +121529,10 @@ blueprints:
     research_time:
       time: 2100
     seeded: false
+  33515:
+    id: 33515
+    maxCopyRuns: 10
+    seeded: false
   33517:
     copying:
       time: 9600
@@ -121685,6 +122085,14 @@ blueprints:
       time: 2100
     research_time:
       time: 2100
+    seeded: false
+  33582:
+    id: 33582
+    maxCopyRuns: 10
+    seeded: false
+  33584:
+    id: 33584
+    maxCopyRuns: 10
     seeded: false
   33590:
     copying:
@@ -122635,6 +123043,10 @@ blueprints:
       time: 819
     research_time:
       time: 819
+    seeded: false
+  33868:
+    id: 33868
+    maxCopyRuns: 10
     seeded: false
   33891:
     copying:
