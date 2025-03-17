@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -12,6 +16,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.function.Function;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
@@ -73,7 +79,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		return ret;
 	}
 
-	public static void export(LinkedHashMap<Integer, Blueprint> data, File folderout) {
+	public static File export(LinkedHashMap<Integer, Blueprint> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
 		output.delete();
@@ -84,13 +90,42 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		} catch (IOException e) {
 			throw new UnsupportedOperationException("while exporting constellations to " + output.getAbsolutePath(), e);
 		}
+		return output;
 	}
 
 	private static final class Container {
 		public LinkedHashMap<Integer, Blueprint> blueprints;
 	}
 
+	private static final DateTimeFormatter DTF = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
+
+	//
+	// archive management
+	//
+
+	public static String instant2ArchiveName(Instant instant) {
+		return DTF.format(instant.atOffset(ZoneOffset.UTC)) + ".yaml";
+	}
+
+	private static final Pattern FILENAME_PATTERN = Pattern.compile("(.*)\\.yaml");
+
+	public static Instant archiveName2Instant(String archiveName) {
+		Matcher m = FILENAME_PATTERN.matcher(archiveName);
+		if (!m.matches()) {
+			return null;
+		}
+		try {
+			LocalDateTime ld = LocalDateTime.parse(m.group(1), DTF);
+			return ld.atOffset(ZoneOffset.UTC).toInstant();
+		} catch (Exception e) {
+			return null;
+		}
+
+	}
+
+	//
 	// structure
+	//
 
 	/**
 	 * used in the blueprints as requirement
@@ -140,7 +175,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	}
 
 	/** enum of possible activities with a BP */
-	public static enum BP_ACTIVITIES {
+	public enum BP_ACTIVITIES {
 		COPYING {
 
 			@Override

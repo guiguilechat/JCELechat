@@ -1,41 +1,35 @@
 package fr.guiguilechat.jcelechat.model.sde.translate;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.sql.SQLException;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
+import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
-import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class IndustryTranslater {
 
 	private static final Logger logger = LoggerFactory.getLogger(IndustryTranslater.class);
@@ -44,23 +38,29 @@ public class IndustryTranslater {
 	 * @param args
 	 *             should be [database destination root], typically
 	 *             src/generated/resources/
+	 * @throws IOException
+	 * @throws SQLException
 	 */
 	@SuppressWarnings("unchecked")
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException, SQLException {
 
 		long timeStart = System.currentTimeMillis();
-		File folderOut = new File(args.length == 0 ? "src/generated/resources/" : args[0]);
+		File folderOut = new File(args.length < 1 ? "src/generated/resources/" : args[0]);
 		folderOut.mkdirs();
+
+		ClientInfo ci = ClientInfo.fetch();
+		ClientCache cc = new ClientCache(ci);
 
 		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
 		LinkedHashMap<Integer, InventionDecryptor> decryptors = new LinkedHashMap<>();
 		LinkedHashMap<Integer, IndustryUsage> usages = new LinkedHashMap<>();
 
-		translateBlueprints(blueprints, usages);
+//		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
+		new SDEBlueprintTranslator().translateBlueprints(blueprints, usages);
 		translateDecryptors(decryptors);
 		translateCompression(usages);
 
-		// sort decryptors
+		// sort decryptors and blueprints by typeId
 
 		Stream.of(blueprints, decryptors).forEach(m -> {
 			ArrayList<Entry<Integer, ? extends TypeRef<?>>> list = new ArrayList<>(m.entrySet());
@@ -73,181 +73,18 @@ public class IndustryTranslater {
 
 		// save
 
-		Blueprint.export(blueprints, folderOut);
+		File bpFile = Blueprint.export(blueprints, folderOut);
+		copyBPIfDiff(bpFile, cc, folderOut);
 		InventionDecryptor.export(decryptors, folderOut);
 		IndustryUsage.export(usages, folderOut);
 
-		System.err.println("exported industry in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
+		log.info("exported industry in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 
 	}
 
-	private static void translateBlueprints(LinkedHashMap<Integer, Blueprint> blueprints,
-			LinkedHashMap<Integer, IndustryUsage> usages) {
-		// set of type ids that are seeded by NPCs
-		Set<Integer> seededItems = EnpcCorporations.load().values().stream()
-				.flatMap(crp -> crp.corporationTrades.keySet().stream())
-				.collect(Collectors.toSet());
-		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
-			EveType bpType = TypeIndex.getType(e.getValue().blueprintTypeID);
-			if (bpType == null) {
-				logger.error("skipping null-type bp id=" + e.getValue().blueprintTypeID);
-				continue;
-			}
-			if (!bpType.published) {
-				logger.debug("skipping unpublished bp " + bpType.name + "(" + bpType.id + ")");
-				continue;
-			}
-			Blueprint translated = makeBlueprint(e.getValue());
-			// don't process a BP that lacks any activity
-			if (translated.copying == null || translated.invention == null || translated.manufacturing == null
-					|| translated.reaction == null
-					|| translated.research_material == null || translated.research_time == null) {
-				Set<String> missingActivities = new HashSet<>();
-				if (translated.copying == null) {
-					missingActivities.add("copying");
-				}
-				if (translated.invention == null) {
-					missingActivities.add("invention");
-				}
-				if (translated.manufacturing == null) {
-					missingActivities.add("manufacturing");
-				}
-				if (translated.reaction == null) {
-					missingActivities.add("reaction");
-				}
-				if (translated.research_material == null) {
-					missingActivities.add("research_material");
-				}
-				if (translated.research_time == null) {
-					missingActivities.add("research_time");
-				}
-				logger.debug(
-						"skipping bp " + translated.name() + "(" + translated.id + ")" + " for unresolved activities : "
-								+ missingActivities);
-				continue;
-			}
-			translated.seeded = seededItems.contains(translated.id) && !translated.name().endsWith("II Blueprint");
-			blueprints.put(e.getValue().blueprintTypeID, translated);
-			addUsages(translated, usages);
-		}
-
-		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.load().entrySet()) {
-			EveType inputMat = TypeIndex.getType(e.getKey());
-			if (inputMat == null) {
-				logger.error("can't find type id=" + e.getKey() + " reprocessed into " + e.getValue());
-				continue;
-			}
-			int portionSize = inputMat.portionSize;
-			IndustryUsage usage = usages.computeIfAbsent(e.getKey(), i -> new IndustryUsage());
-			for (Material mat : e.getValue().materials) {
-				EveType outputmat = TypeIndex.getType(mat.materialTypeID);
-				if (outputmat == null) {
-					logger.error("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.name);
-					continue;
-				}
-				usage.reprocessInto.put(mat.materialTypeID, 1.0 * mat.quantity / portionSize);
-				usages.computeIfAbsent(mat.materialTypeID, i -> new IndustryUsage()).reprocessedFrom
-						.add(e.getKey());
-			}
-		}
-
-		// sort the usages by item name
-		ArrayList<Entry<Integer, IndustryUsage>> l = new ArrayList<>(usages.entrySet());
-		Collections.sort(l, Comparator.comparing(Entry<Integer, IndustryUsage>::getKey));
-		usages.clear();
-		for (Entry<Integer, IndustryUsage> e : l) {
-			usages.put(e.getKey(), e.getValue());
-		}
-	}
-
-	private static Blueprint makeBlueprint(Eblueprints bp) {
-		Blueprint bp2 = new Blueprint();
-		bp2.id = bp.blueprintTypeID;
-		bp2.maxCopyRuns = bp.maxProductionLimit;
-		bp2.copying = convertActivity(bp.activities.copying);
-		bp2.invention = convertActivity(bp.activities.invention);
-		bp2.manufacturing = convertActivity(bp.activities.manufacturing);
-		bp2.research_material = convertActivity(bp.activities.research_material);
-		bp2.research_time = convertActivity(bp.activities.research_time);
-		bp2.reaction = convertActivity(bp.activities.reaction);
-		return bp2;
-	}
-
-	/**
-	 * try to convert an SDE activity
-	 *
-	 * @param activity
-	 *                 the SDE activity
-	 * @return null if a type referred to in the activity was not found.
-	 */
-	public static Activity convertActivity(
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity activity) {
-		AtomicBoolean skip = new AtomicBoolean(false);
-		Activity ret = new Activity();
-		ret.time = activity.time;
-		activity.materials.stream().map(IndustryTranslater::convertMaterialReq)
-				.peek(o -> {
-					if (o == null) {
-						skip.set(true);
-					}
-				})
-				.filter(o -> o != null)
-				.sorted(Comparator.comparing(m1 -> m1.id))
-				.forEach(ret.materials::add);
-		activity.products.stream().map(IndustryTranslater::convertMaterialProd)
-				.peek(o -> {
-					if (o == null) {
-						skip.set(true);
-					}
-				})
-				.filter(o -> o != null)
-				.sorted(Comparator.comparing(m1 -> m1.id))
-				.forEach(ret.products::add);
-		activity.skills.stream().sorted(Comparator.comparing(s1 -> s1.typeID)).forEach(s -> {
-			EveType skill = TypeIndex.getType(s.typeID);
-			if (skill == null) {
-				logger.error("missing skill " + s.typeID);
-				skip.set(true);
-			} else {
-				TypeRef<Skill> ref = new TypeRef<>();
-				ref.id = skill.id;
-				ret.skills.put(ref, s.level);
-			}
-		});
-		if (skip.get()) {
-			return null;
-		}
-		return ret;
-	}
-
-	public static MaterialReq<?> convertMaterialReq(
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat) {
-		EveType item = TypeIndex.getType(sdeMat.typeID);
-		if (item != null) {
-			MaterialReq<?> ret = new MaterialReq<>();
-			ret.quantity = sdeMat.quantity;
-			ret.id = sdeMat.typeID;
-			return ret;
-		} else {
-			logger.error("missing type id=" + sdeMat.typeID + " for material conversion");
-			return null;
-		}
-	}
-
-	public static MaterialProd<?> convertMaterialProd(
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat) {
-		EveType item = TypeIndex.getType(sdeMat.typeID);
-		if (item != null) {
-			MaterialProd<?> ret = new MaterialProd<>();
-			ret.quantity = sdeMat.quantity;
-			ret.id = sdeMat.typeID;
-			ret.probability = sdeMat.probability;
-			return ret;
-		} else {
-			logger.error("missing type id=" + sdeMat.typeID + " for product conversion");
-			return null;
-		}
-	}
+	//
+	// decryptor translation from sde
+	//
 
 	private static void translateDecryptors(LinkedHashMap<Integer, InventionDecryptor> decryptors) {
 		for (Entry<Integer, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
@@ -261,37 +98,6 @@ public class IndustryTranslater {
 		InventionDecryptor ret = new InventionDecryptor();
 		ret.id = dec.id;
 		return ret;
-	}
-
-	/**
-	 * add the usage of a bp into the map of usages : for each activity, add the
-	 * bp as using the materials of that activity
-	 */
-	public static void addUsages(Blueprint bp, Map<Integer, IndustryUsage> usages) {
-		addUsages(bp.id, usages, bp.manufacturing.products, u -> u.productOfManuf);
-		addUsages(bp.id, usages, bp.manufacturing.materials, u -> u.materialInManuf);
-		addUsages(bp.id, usages, bp.copying.materials, u -> u.materialInCopy);
-		addUsages(bp.id, usages, bp.invention.materials, u -> u.materialInInvention);
-		addUsages(bp.id, usages, bp.invention.products, u -> u.productOfInvention);
-		addUsages(bp.id, usages, bp.research_material.materials, u -> u.materialInME);
-		addUsages(bp.id, usages, bp.research_time.materials, u -> u.materialInTE);
-		addUsages(bp.id, usages, bp.reaction.materials, u -> u.materialInReaction);
-		addUsages(bp.id, usages, bp.reaction.products, u -> u.productOfReaction);
-	}
-
-	@SuppressWarnings("rawtypes")
-	protected static void addUsages(Integer bpoID, Map<Integer, IndustryUsage> usages,
-			List<? extends MaterialReq> materials, Function<IndustryUsage, Set<Integer>> categorizer) {
-		if (materials == null || materials.isEmpty()) {
-		} else {
-			for (MaterialReq<?> m : materials) {
-				if (m == null) {
-					logger.warn("null material in list of bp id=" + bpoID + " : " + materials);
-				}
-				IndustryUsage u = usages.computeIfAbsent(m.id, i -> new IndustryUsage());
-				categorizer.apply(u).add(bpoID);
-			}
-		}
 	}
 
 	private static void translateCompression(LinkedHashMap<Integer, IndustryUsage> usages) {
@@ -309,5 +115,30 @@ public class IndustryTranslater {
 				}
 			}
 		}
+	}
+
+	private static void copyBPIfDiff(File bpFile, ClientCache cc, File folderOut) throws IOException {
+		File archiveDir = new File(folderOut, "SDE/industry/blueprints");
+		archiveDir.mkdirs();
+		File lastCopy = null;
+		Instant lastTime = null;
+		for (File archive : archiveDir.listFiles()) {
+			Instant archiveTime = Blueprint.archiveName2Instant(archive.getName());
+			if (archiveTime == null) {
+				continue;
+			}
+			if (lastTime == null || lastTime.isBefore(archiveTime)) {
+				lastCopy = archive;
+				lastTime = archiveTime;
+			}
+		}
+		if (lastCopy != null && Files.mismatch(lastCopy.toPath(), bpFile.toPath()) == -1) {
+			return;
+		}
+		// actual copy
+		File newArchive = new File(archiveDir, Blueprint.instant2ArchiveName(cc.getClientInfo().lastModified()));
+		log.info("copying existing bp file " + bpFile + " to archive file " + newArchive
+				+ " with oldest archive found being " + lastCopy);
+		Files.copy(bpFile.toPath(), newArchive.toPath());
 	}
 }
