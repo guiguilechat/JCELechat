@@ -134,6 +134,7 @@ public class IndustryTranslater {
 			}
 		}
 		if (lastCopy != null && Files.mismatch(lastCopy.toPath(), newFile.toPath()) == -1) {
+			log.info("blueprint list {} already last archive {}, not adding it", newFile, lastCopy);
 			return;
 		}
 		// actual copy
