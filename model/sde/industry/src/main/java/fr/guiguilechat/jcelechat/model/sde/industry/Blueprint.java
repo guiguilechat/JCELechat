@@ -13,8 +13,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.regex.Matcher;
@@ -28,6 +28,7 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
+import fr.guiguilechat.jcelechat.model.sde.industry.blueprint.ArchivedBlueprintList;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
@@ -42,7 +43,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 
 	public static final String RESOURCE_PATH = "SDE/industry/blueprints.yaml";
 
-	static LinkedHashMap<Integer, Blueprint> load(InputStream is) {
+	public static LinkedHashMap<Integer, Blueprint> load(InputStream is) {
 		try (InputStreamReader reader = new InputStreamReader(is)) {
 			LoaderOptions options = new LoaderOptions();
 			options.setCodePointLimit(Integer.MAX_VALUE);
@@ -56,21 +57,6 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	@Accessors(fluent = true)
 	private static final LinkedHashMap<Integer, Blueprint> load = load(
 			Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH));
-
-	@Getter(lazy = true)
-	@Accessors(fluent = true)
-	private static final Map<Integer, Blueprint> loadById = load().entrySet().stream()
-			.collect(Collectors.toMap(e -> e.getValue().id, Entry::getValue));
-
-	private static Set<Integer> missingBPIds = Collections.synchronizedSet(new HashSet<>());
-
-	public static Blueprint of(int bpid) {
-		Blueprint ret = loadById().get(bpid);
-		if (ret == null && missingBPIds.add(bpid)) {
-			logger.warn("unknown bp " + bpid);
-		}
-		return ret;
-	}
 
 	public static File export(LinkedHashMap<Integer, Blueprint> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
@@ -90,14 +76,14 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		public LinkedHashMap<Integer, Blueprint> blueprints;
 	}
 
-	private static final DateTimeFormatter DTF = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
-
 	//
 	// archive management
 	//
 
+	private static final DateTimeFormatter ARCHIVE_DATEFORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
+
 	public static String instant2ArchiveName(Instant instant) {
-		return DTF.format(instant.atOffset(ZoneOffset.UTC)) + ".yaml";
+		return ARCHIVE_DATEFORMAT.format(instant.atOffset(ZoneOffset.UTC)) + ".yaml";
 	}
 
 	private static final Pattern FILENAME_PATTERN = Pattern.compile("(.*)\\.yaml");
@@ -108,7 +94,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 			return null;
 		}
 		try {
-			LocalDateTime ld = LocalDateTime.parse(m.group(1), DTF);
+			LocalDateTime ld = LocalDateTime.parse(m.group(1), ARCHIVE_DATEFORMAT);
 			return ld.atOffset(ZoneOffset.UTC).toInstant();
 		} catch (Exception e) {
 			return null;
@@ -226,6 +212,61 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	public int maxCopyRuns;
 
 	public boolean seeded;
+
+	//
+	// access
+	//
+
+	// only warn about missing bp once
+	private static Set<Integer> missingBPIds = Collections.synchronizedSet(new HashSet<>());
+
+	public static Blueprint of(int bpid, Instant date) {
+		Blueprint ret = (date == null ? load() : load(date)).get(bpid);
+		if (ret == null && missingBPIds.add(bpid)) {
+			logger.warn("unknown bp " + bpid);
+		}
+		return ret;
+	}
+
+	public static Blueprint of(int bpid) {
+		return of(bpid, null);
+	}
+
+	@Getter(lazy = true)
+	private static final List<ArchivedBlueprintList> archives = ArchivedBlueprintList.list();
+
+	/**
+	 * load the archived blueprint list for given date. If the date is younger than
+	 * first known archive, then return the first archive ; if the date is older
+	 * than last known archive, then return {@link #load} instead ; otherwise makes
+	 * a dicho search on the archives and return its list.
+	 */
+	public static LinkedHashMap<Integer, Blueprint> load(Instant date) {
+		List<ArchivedBlueprintList> archives = getArchives();
+		if (date.isBefore(archives.get(0).since())) {
+			return archives.get(0).blueprints();
+		}
+		ArchivedBlueprintList lastArchive = archives.get(archives.size() - 1);
+		if (date.isAfter(lastArchive.since())) {
+			return load();
+		}
+		ArchivedBlueprintList bestArchive = archives.get(0);
+		for (int i = 1, j = archives.size() - 1; j - i > 1;) {
+			int k = (i + j) / 2;
+			ArchivedBlueprintList archive = archives.get(k);
+			if (archive.since().isBefore(date)) {
+				bestArchive = archive;
+				i = k;
+			} else {
+				j = k;
+			}
+		}
+		return bestArchive.blueprints();
+	}
+
+	//
+	// usage
+	//
 
 	public double makeEIV(Function<Integer, Double> adjustedPrices) {
 		if (manufacturing == null || manufacturing.materials == null) {

@@ -76,7 +76,7 @@ public class IndustryTranslater {
 		// save
 
 		File bpFile = Blueprint.export(blueprints, folderOut);
-		copyBPIfDiff(bpFile, cc, folderOut);
+		copyBPIfDiff(bpFile, cc, new File(folderOut, "SDE/industry/blueprints"));
 		InventionDecryptor.export(decryptors, folderOut);
 		IndustryUsage.export(usages, folderOut);
 
@@ -119,8 +119,7 @@ public class IndustryTranslater {
 		}
 	}
 
-	private static void copyBPIfDiff(File newFile, ClientCache cc, File archiveFolder) throws IOException {
-		File archiveDir = new File(archiveFolder, "SDE/industry/blueprints");
+	private static void copyBPIfDiff(File newFile, ClientCache cc, File archiveDir) throws IOException {
 		archiveDir.mkdirs();
 		File lastCopy = null;
 		Instant lastTime = null;
@@ -143,7 +142,7 @@ public class IndustryTranslater {
 				+ " with oldest archive found being " + lastCopy);
 		Files.copy(newFile.toPath(), newArchive.toPath());
 		// then append the file name to thelist
-		File listFile = new File(archiveFolder, "list");
+		File listFile = new File(archiveDir, "list");
 		try (BufferedWriter writer = Files.newBufferedWriter(listFile.toPath(), StandardOpenOption.CREATE,
 				StandardOpenOption.APPEND)) {
 			writer.append(newArchive.getName());
