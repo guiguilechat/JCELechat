@@ -251,7 +251,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 			return load();
 		}
 		ArchivedBlueprintList bestArchive = archives.get(0);
-		for (int i = 1, j = archives.size() - 1; j - i > 1;) {
+		for (int i = 0, j = archives.size() - 1; j - i > 1;) {
 			int k = (i + j) / 2;
 			ArchivedBlueprintList archive = archives.get(k);
 			if (archive.since().isBefore(date)) {
