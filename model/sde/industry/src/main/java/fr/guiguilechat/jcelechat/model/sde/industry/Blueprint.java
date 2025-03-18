@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.sde.industry;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.time.Instant;
 import java.time.LocalDateTime;
@@ -30,6 +31,8 @@ import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
 public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types.Blueprint> {
 
@@ -37,37 +40,27 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 
 	// loading/dumping
 
-	private static LinkedHashMap<Integer, Blueprint> cache = null;
-
 	public static final String RESOURCE_PATH = "SDE/industry/blueprints.yaml";
 
-	public static synchronized LinkedHashMap<Integer, Blueprint> load() {
-		if (cache == null) {
-			try (InputStreamReader reader = new InputStreamReader(
-					Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
-				LoaderOptions options = new LoaderOptions();
-				options.setCodePointLimit(Integer.MAX_VALUE);
-				cache = new Yaml(options).loadAs(reader, Container.class).blueprints;
-			} catch (Exception exception) {
-				throw new RuntimeException(exception);
-			}
+	static LinkedHashMap<Integer, Blueprint> load(InputStream is) {
+		try (InputStreamReader reader = new InputStreamReader(is)) {
+			LoaderOptions options = new LoaderOptions();
+			options.setCodePointLimit(Integer.MAX_VALUE);
+			return new Yaml(options).loadAs(reader, Container.class).blueprints;
+		} catch (Exception exception) {
+			throw new RuntimeException(exception);
 		}
-		return cache;
 	}
 
-	private static Map<Integer, Blueprint> cacheById = null;
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final LinkedHashMap<Integer, Blueprint> load = load(
+			Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH));
 
-	public static Map<Integer, Blueprint> loadById() {
-		if (cacheById == null) {
-			load();
-			synchronized (cache) {
-				if (cacheById == null) {
-					cacheById = load().entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, Entry::getValue));
-				}
-			}
-		}
-		return cacheById;
-	}
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final Map<Integer, Blueprint> loadById = load().entrySet().stream()
+			.collect(Collectors.toMap(e -> e.getValue().id, Entry::getValue));
 
 	private static Set<Integer> missingBPIds = Collections.synchronizedSet(new HashSet<>());
 

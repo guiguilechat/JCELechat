@@ -1,8 +1,10 @@
 package fr.guiguilechat.jcelechat.model.sde.translate;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
 import java.sql.SQLException;
 import java.time.Instant;
 import java.util.ArrayList;
@@ -117,8 +119,8 @@ public class IndustryTranslater {
 		}
 	}
 
-	private static void copyBPIfDiff(File bpFile, ClientCache cc, File folderOut) throws IOException {
-		File archiveDir = new File(folderOut, "SDE/industry/blueprints");
+	private static void copyBPIfDiff(File newFile, ClientCache cc, File archiveFolder) throws IOException {
+		File archiveDir = new File(archiveFolder, "SDE/industry/blueprints");
 		archiveDir.mkdirs();
 		File lastCopy = null;
 		Instant lastTime = null;
@@ -132,13 +134,20 @@ public class IndustryTranslater {
 				lastTime = archiveTime;
 			}
 		}
-		if (lastCopy != null && Files.mismatch(lastCopy.toPath(), bpFile.toPath()) == -1) {
+		if (lastCopy != null && Files.mismatch(lastCopy.toPath(), newFile.toPath()) == -1) {
 			return;
 		}
 		// actual copy
 		File newArchive = new File(archiveDir, Blueprint.instant2ArchiveName(cc.getClientInfo().lastModified()));
-		log.info("copying existing bp file " + bpFile + " to archive file " + newArchive
+		log.info("copying existing bp file " + newFile + " to archive file " + newArchive
 				+ " with oldest archive found being " + lastCopy);
-		Files.copy(bpFile.toPath(), newArchive.toPath());
+		Files.copy(newFile.toPath(), newArchive.toPath());
+		// then append the file name to thelist
+		File listFile = new File(archiveFolder, "list");
+		try (BufferedWriter writer = Files.newBufferedWriter(listFile.toPath(), StandardOpenOption.CREATE,
+				StandardOpenOption.APPEND)) {
+			writer.append(newArchive.getName());
+			writer.newLine();
+		}
 	}
 }
