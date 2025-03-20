@@ -1,0 +1,20 @@
+activities:
+- activityId: 1
+  activityName: Manufacturing
+  description: Manufacturing of things
+- activityId: 3
+  activityName: Time Efficiency Research
+  description: Researching time efficiency
+- activityId: 4
+  activityName: Material Efficiency Research
+  description: Researching material efficiency
+- activityId: 5
+  activityName: Copying
+  description: Making blueprint copies
+- activityId: 8
+  activityName: Invention
+  description: The process of creating a more advanced item based on an existing item
+- activityId: 9
+  activityName: Reactions
+  description: The process of combining raw and intermediate materials to create advanced
+    components

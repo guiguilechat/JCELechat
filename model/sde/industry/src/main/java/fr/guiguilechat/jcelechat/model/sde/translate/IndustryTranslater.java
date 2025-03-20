@@ -1,16 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.translate;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.StandardOpenOption;
 import java.sql.SQLException;
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Stream;
@@ -18,15 +15,23 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
+import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryActivities;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
+import fr.guiguilechat.jcelechat.model.sde.industry.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
+import fr.guiguilechat.jcelechat.model.sde.industry.activity.ArchivedActivityList;
+import fr.guiguilechat.jcelechat.model.sde.industry.blueprint.ArchivedBlueprintList;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 import lombok.extern.slf4j.Slf4j;
@@ -52,13 +57,14 @@ public class IndustryTranslater {
 
 		ClientInfo ci = ClientInfo.fetch();
 		ClientCache cc = new ClientCache(ci);
-
-		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
-		LinkedHashMap<Integer, InventionDecryptor> decryptors = new LinkedHashMap<>();
 		LinkedHashMap<Integer, IndustryUsage> usages = new LinkedHashMap<>();
 
+		List<Activity> activities = new ArrayList<>();
+		translateActivities(cc, activities);
+		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
 		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
 //		new SDEBlueprintTranslator().translateBlueprints(blueprints, usages);
+		LinkedHashMap<Integer, InventionDecryptor> decryptors = new LinkedHashMap<>();
 		translateDecryptors(decryptors);
 		translateCompression(usages);
 
@@ -75,8 +81,12 @@ public class IndustryTranslater {
 
 		// save
 
+		File actFile = Activity.export(activities, folderOut);
+		ArchivedActivityList.archiveOnDiff(actFile, ci.lastModified(), folderOut);
+
 		File bpFile = Blueprint.export(blueprints, folderOut);
-		copyBPIfDiff(bpFile, cc, new File(folderOut, "SDE/industry/blueprints"));
+		ArchivedBlueprintList.archiveOnDiff(bpFile, ci.lastModified(), folderOut);
+
 		InventionDecryptor.export(decryptors, folderOut);
 		IndustryUsage.export(usages, folderOut);
 
@@ -88,7 +98,7 @@ public class IndustryTranslater {
 	// decryptor translation from sde
 	//
 
-	private static void translateDecryptors(LinkedHashMap<Integer, InventionDecryptor> decryptors) {
+	static void translateDecryptors(LinkedHashMap<Integer, InventionDecryptor> decryptors) {
 		for (Entry<Integer, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
 			decryptors.put(e.getKey(), convertDecryptor(e.getValue()));
 		}
@@ -96,13 +106,13 @@ public class IndustryTranslater {
 		decryptors.put(0, nullDecryptor);
 	}
 
-	public static InventionDecryptor convertDecryptor(GenericDecryptor dec) {
+	static InventionDecryptor convertDecryptor(GenericDecryptor dec) {
 		InventionDecryptor ret = new InventionDecryptor();
 		ret.id = dec.id;
 		return ret;
 	}
 
-	private static void translateCompression(LinkedHashMap<Integer, IndustryUsage> usages) {
+	static void translateCompression(LinkedHashMap<Integer, IndustryUsage> usages) {
 		for (Asteroid compressed : Asteroid.METACAT.load().values()) {
 			if (compressed.getAttributes().contains(OreBasicType.INSTANCE) && !compressed.name.startsWith("Batch ")) {
 				Integer compressIntoId = compressed.valueSet(OreBasicType.INSTANCE).intValue();
@@ -119,35 +129,16 @@ public class IndustryTranslater {
 		}
 	}
 
-	private static void copyBPIfDiff(File newFile, ClientCache cc, File archiveDir) throws IOException {
-		archiveDir.mkdirs();
-		File lastCopy = null;
-		Instant lastTime = null;
-		for (File archive : archiveDir.listFiles()) {
-			Instant archiveTime = Blueprint.archiveName2Instant(archive.getName());
-			if (archiveTime == null) {
-				continue;
-			}
-			if (lastTime == null || lastTime.isBefore(archiveTime)) {
-				lastCopy = archive;
-				lastTime = archiveTime;
-			}
-		}
-		if (lastCopy != null && Files.mismatch(lastCopy.toPath(), newFile.toPath()) == -1) {
-			log.info("blueprint list {} already last archive {}, not adding it", newFile, lastCopy);
-			return;
-		}
-		// actual copy
-		File newArchive = new File(archiveDir, Blueprint.instant2ArchiveName(cc.getClientInfo().lastModified()));
-		log.info("copying existing bp file " + newFile + " to archive file " + newArchive
-				+ " with oldest archive found being " + lastCopy);
-		Files.copy(newFile.toPath(), newArchive.toPath());
-		// then append the file name to thelist
-		File listFile = new File(archiveDir, "list");
-		try (BufferedWriter writer = Files.newBufferedWriter(listFile.toPath(), StandardOpenOption.CREATE,
-				StandardOpenOption.APPEND)) {
-			writer.append(newArchive.getName());
-			writer.newLine();
-		}
+	static void translateActivities(ClientCache cc, List<Activity> activities)
+			throws JsonMappingException, JsonProcessingException, SQLException {
+		List<KeyValTime<EindustryActivities>> loaded = EindustryActivities.getLoader().load(cc);
+		loaded.stream()
+				.map(KeyValTime::getVal)
+				.sorted(Comparator.comparing(eia -> eia.activityID))
+				.map(eia -> new Activity(
+						eia.activityID,
+						eia.activityName,
+						eia.description))
+				.forEach(activities::add);
 	}
 }

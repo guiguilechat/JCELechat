@@ -6,9 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -17,8 +14,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
@@ -29,6 +24,7 @@ import org.yaml.snakeyaml.Yaml;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.blueprint.ArchivedBlueprintList;
+import fr.guiguilechat.jcelechat.model.sde.translate.ArchiveTools;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
@@ -67,39 +63,13 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		try {
 			new Yaml(new CleanRepresenter(), YAMLTools.blockDumper()).dump(c, new FileWriter(output));
 		} catch (IOException e) {
-			throw new UnsupportedOperationException("while exporting constellations to " + output.getAbsolutePath(), e);
+			throw new RuntimeException("while exporting to " + output.getAbsolutePath(), e);
 		}
 		return output;
 	}
 
 	private static final class Container {
 		public LinkedHashMap<Integer, Blueprint> blueprints;
-	}
-
-	//
-	// archive management
-	//
-
-	private static final DateTimeFormatter ARCHIVE_DATEFORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
-
-	public static String instant2ArchiveName(Instant instant) {
-		return ARCHIVE_DATEFORMAT.format(instant.atOffset(ZoneOffset.UTC)) + ".yaml";
-	}
-
-	private static final Pattern FILENAME_PATTERN = Pattern.compile("(.*)\\.yaml");
-
-	public static Instant archiveName2Instant(String archiveName) {
-		Matcher m = FILENAME_PATTERN.matcher(archiveName);
-		if (!m.matches()) {
-			return null;
-		}
-		try {
-			LocalDateTime ld = LocalDateTime.parse(m.group(1), ARCHIVE_DATEFORMAT);
-			return ld.atOffset(ZoneOffset.UTC).toInstant();
-		} catch (Exception e) {
-			return null;
-		}
-
 	}
 
 	//
@@ -153,60 +123,6 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		}
 	}
 
-	/** enum of possible activities with a BP */
-	public enum BP_ACTIVITIES {
-		COPYING {
-
-			@Override
-			public Activity get(Blueprint bp) {
-				return bp.copying;
-			}
-
-		},
-		INVENTION {
-
-			@Override
-			public Activity get(Blueprint bp) {
-				return bp.invention;
-			}
-
-		},
-		MANUFACTURING {
-
-			@Override
-			public Activity get(Blueprint bp) {
-				return bp.manufacturing;
-			}
-
-		},
-		ME {
-
-			@Override
-			public Activity get(Blueprint bp) {
-				return bp.research_material;
-			}
-
-		},
-		TE {
-
-			@Override
-			public Activity get(Blueprint bp) {
-				return bp.research_time;
-			}
-
-		},
-		REACTION {
-
-			@Override
-			public Activity get(Blueprint bp) {
-				return bp.reaction;
-			}
-
-		};
-
-		public abstract Activity get(Blueprint bp);
-	}
-
 	public Activity copying, invention, manufacturing, research_material, research_time, reaction;
 
 	public int maxCopyRuns;
@@ -236,32 +152,10 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	private static final List<ArchivedBlueprintList> archives = ArchivedBlueprintList.list();
 
 	/**
-	 * load the archived blueprint list for given date. If the date is younger than
-	 * first known archive, then return the first archive ; if the date is older
-	 * than last known archive, then return {@link #load} instead ; otherwise makes
-	 * a dicho search on the archives and return its list.
+	 * load the archived blueprint list for given date.
 	 */
 	public static LinkedHashMap<Integer, Blueprint> load(Instant date) {
-		List<ArchivedBlueprintList> archives = getArchives();
-		if (date.isBefore(archives.get(0).since())) {
-			return archives.get(0).blueprints();
-		}
-		ArchivedBlueprintList lastArchive = archives.get(archives.size() - 1);
-		if (date.isAfter(lastArchive.since())) {
-			return load();
-		}
-		ArchivedBlueprintList bestArchive = archives.get(0);
-		for (int i = 0, j = archives.size() - 1; j - i > 1;) {
-			int k = (i + j) / 2;
-			ArchivedBlueprintList archive = archives.get(k);
-			if (archive.since().isBefore(date)) {
-				bestArchive = archive;
-				i = k;
-			} else {
-				j = k;
-			}
-		}
-		return bestArchive.blueprints();
+		return ArchiveTools.dichoSearch(getArchives(), date, load());
 	}
 
 	//
