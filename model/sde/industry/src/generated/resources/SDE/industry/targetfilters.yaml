@@ -1,0 +1,148 @@
+filters:
+  1:
+    id: 1
+    categoryIds:
+    - 18
+    - 87
+    name: Drones/Fighters
+  2:
+    id: 2
+    categoryIds:
+    - 7
+    - 20
+    - 22
+    groupIds:
+    - 12
+    - 340
+    - 448
+    - 649
+    name: Equipment
+  3:
+    id: 3
+    categoryIds:
+    - 6
+    - 32
+    name: Ships
+  4:
+    id: 4
+    categoryIds:
+    - 8
+    name: Charges
+  5:
+    id: 5
+    groupIds:
+    - 25
+    - 31
+    - 420
+    name: Small T1 Ships
+  6:
+    id: 6
+    groupIds:
+    - 324
+    - 541
+    - 830
+    - 831
+    - 834
+    - 893
+    - 1283
+    - 1305
+    - 1527
+    - 1534
+    name: Small T2 Ships
+  7:
+    id: 7
+    groupIds:
+    - 26
+    - 28
+    - 419
+    - 463
+    - 1201
+    name: Medium T1 Ships
+  8:
+    id: 8
+    categoryIds:
+    - 32
+    groupIds:
+    - 358
+    - 380
+    - 540
+    - 543
+    - 832
+    - 833
+    - 894
+    - 906
+    - 963
+    - 1202
+    - 1972
+    name: Medium T2 Ships
+  9:
+    id: 9
+    groupIds:
+    - 27
+    - 513
+    - 941
+    name: Large T1 Ships
+  10:
+    id: 10
+    groupIds:
+    - 898
+    - 900
+    - 902
+    name: Large T2 Ships
+  11:
+    id: 11
+    groupIds:
+    - 485
+    - 547
+    - 883
+    - 1538
+    - 4594
+    name: Capital Ships
+  12:
+    id: 12
+    categoryIds:
+    - 23
+    - 39
+    - 40
+    - 65
+    - 66
+    groupIds:
+    - 536
+    - 1136
+    - 4736
+    name: Structures
+  13:
+    id: 13
+    groupIds:
+    - 873
+    name: Capital Components
+  14:
+    id: 14
+    groupIds:
+    - 332
+    - 334
+    - 716
+    - 964
+    name: Components
+  15:
+    id: 15
+    groupIds:
+    - 913
+    name: Advanced Capital Components
+  16:
+    id: 16
+    groupIds:
+    - 974
+    name: Hybrid Reactions
+  17:
+    id: 17
+    groupIds:
+    - 712
+    - 4096
+    name: Biochemical Reactions
+  18:
+    id: 18
+    groupIds:
+    - 428
+    - 429
+    name: Composite Reactions

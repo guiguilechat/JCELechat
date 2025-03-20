@@ -38,16 +38,9 @@ public class ArchivedActivityList implements Archived<List<Activity>> {
 
 	public static final String WORKING_PATH = "SDE/industry/activities";
 
-	/**
-	 * load the archive list and convert it to corresponding items. Since the lib
-	 * should be worked from a jar, it's necessary to load a listing resource
-	 */
-	static List<ArchivedActivityList> loadList() {
-		return ArchiveTools.loadList(WORKING_PATH, ArchivedActivityList::new);
-	}
-
 	@Getter(lazy = true)
-	private static final List<ArchivedActivityList> list = loadList();
+	private static final List<ArchivedActivityList> list = ArchiveTools.loadList(WORKING_PATH,
+			ArchivedActivityList::new);
 
 	public static boolean archiveOnDiff(File observedFile, Instant modified, File rootDir) throws IOException {
 		return ArchiveTools.archiveOnDiff(observedFile, modified, new File(rootDir, WORKING_PATH));

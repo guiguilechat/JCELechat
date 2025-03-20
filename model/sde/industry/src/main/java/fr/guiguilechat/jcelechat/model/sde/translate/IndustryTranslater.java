@@ -22,6 +22,7 @@ import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
 import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryActivities;
+import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryActivityTargetFilters;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
@@ -30,8 +31,10 @@ import fr.guiguilechat.jcelechat.model.sde.industry.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
+import fr.guiguilechat.jcelechat.model.sde.industry.TargetFilter;
 import fr.guiguilechat.jcelechat.model.sde.industry.activity.ArchivedActivityList;
 import fr.guiguilechat.jcelechat.model.sde.industry.blueprint.ArchivedBlueprintList;
+import fr.guiguilechat.jcelechat.model.sde.industry.targetfilter.ArchivedTargetFilterList;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 import lombok.extern.slf4j.Slf4j;
@@ -61,15 +64,20 @@ public class IndustryTranslater {
 
 		List<Activity> activities = new ArrayList<>();
 		translateActivities(cc, activities);
+		File actFile = Activity.export(activities, folderOut);
+		ArchivedActivityList.archiveOnDiff(actFile, ci.lastModified(), folderOut);
+
+		LinkedHashMap<Integer, TargetFilter> filters = new LinkedHashMap<>();
+		translateFilters(cc, filters);
+		File filtersFile = TargetFilter.export(filters, folderOut);
+		ArchivedTargetFilterList.archiveOnDiff(filtersFile, ci.lastModified(), folderOut);
+
 		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
 		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
 //		new SDEBlueprintTranslator().translateBlueprints(blueprints, usages);
 		LinkedHashMap<Integer, InventionDecryptor> decryptors = new LinkedHashMap<>();
 		translateDecryptors(decryptors);
-		translateCompression(usages);
-
 		// sort decryptors and blueprints by typeId
-
 		Stream.of(blueprints, decryptors).forEach(m -> {
 			ArrayList<Entry<Integer, ? extends TypeRef<?>>> list = new ArrayList<>(m.entrySet());
 			Collections.sort(list, Comparator.comparing(Entry<Integer, ? extends TypeRef<?>>::getKey));
@@ -78,16 +86,11 @@ public class IndustryTranslater {
 				((Map<Integer, TypeRef<?>>) m).put(e.getKey(), e.getValue());
 			}
 		});
-
-		// save
-
-		File actFile = Activity.export(activities, folderOut);
-		ArchivedActivityList.archiveOnDiff(actFile, ci.lastModified(), folderOut);
-
 		File bpFile = Blueprint.export(blueprints, folderOut);
 		ArchivedBlueprintList.archiveOnDiff(bpFile, ci.lastModified(), folderOut);
-
 		InventionDecryptor.export(decryptors, folderOut);
+
+		translateCompression(usages);
 		IndustryUsage.export(usages, folderOut);
 
 		log.info("exported industry in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
@@ -140,5 +143,18 @@ public class IndustryTranslater {
 						eia.activityName,
 						eia.description))
 				.forEach(activities::add);
+	}
+
+	static void translateFilters(ClientCache cc, LinkedHashMap<Integer, TargetFilter> filters)
+			throws JsonMappingException, JsonProcessingException, SQLException {
+		List<KeyValTime<EindustryActivityTargetFilters>> loaded = EindustryActivityTargetFilters.getLoader().load(cc);
+		loaded.stream()
+				.sorted(Comparator.comparing(KeyValTime::getKey))
+				.map(kv -> new TargetFilter(
+						kv.getKey(),
+						kv.getVal().categoryIDs == null ? null : kv.getVal().categoryIDs.stream().sorted().toList(),
+						kv.getVal().groupIDs == null ? null : kv.getVal().groupIDs.stream().sorted().toList(),
+						kv.getVal().name))
+				.forEach(f -> filters.put(f.id, f));
 	}
 }
