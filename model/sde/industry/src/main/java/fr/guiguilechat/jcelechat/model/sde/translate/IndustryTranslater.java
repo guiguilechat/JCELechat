@@ -23,6 +23,7 @@ import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
 import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryActivities;
 import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryActivityTargetFilters;
+import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryInstallationTypes;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
@@ -31,6 +32,7 @@ import fr.guiguilechat.jcelechat.model.sde.industry.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
+import fr.guiguilechat.jcelechat.model.sde.industry.InstallationType;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.industry.TargetFilter;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
@@ -74,6 +76,11 @@ public class IndustryTranslater {
 		new ClientCacheAMSTranslator().translate(cc, activityModifierSources);
 		File amsFile = ActivityModifierSource.storage().export(activityModifierSources, folderOut);
 		ActivityModifierSource.archives().archiveOnDiff(amsFile, ci.lastModified(), folderOut);
+
+		LinkedHashMap<Integer, InstallationType> installationTypes = new LinkedHashMap<>();
+		translateInstallationTypes(cc, installationTypes);
+		File itFile = InstallationType.storage().export(installationTypes, folderOut);
+		InstallationType.archives().archiveOnDiff(itFile, ci.lastModified(), folderOut);
 
 		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
 		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
@@ -159,5 +166,16 @@ public class IndustryTranslater {
 						kv.getVal().groupIDs == null ? null : kv.getVal().groupIDs.stream().sorted().toList(),
 						kv.getVal().name))
 				.forEach(f -> filters.put(f.id, f));
+	}
+
+	static void translateInstallationTypes(ClientCache cc, LinkedHashMap<Integer, InstallationType> newMap)
+			throws JsonMappingException, JsonProcessingException, SQLException {
+		List<KeyValTime<EindustryInstallationTypes>> loaded = EindustryInstallationTypes.getLoader().load(cc);
+		loaded.stream()
+				.sorted(Comparator.comparing(kvt -> kvt.getVal().typeId))
+				.map(kv -> new InstallationType(
+						kv.getVal().typeId,
+						new ArrayList<>(kv.getVal().assembly_lines.stream().map(al -> al.assemblyLine).toList())))
+				.forEach(f -> newMap.put(f.typeId, f));
 	}
 }
