@@ -14,7 +14,7 @@ public class ShowBpsByInvetionSkill {
 
 	public static void main(String[] args) {
 		HashMap<String, Map<Integer, List<String>>> skillName2level2bps = new HashMap<>();
-		for (Blueprint blueprint : Blueprint.yaml().load().values()) {
+		for (Blueprint blueprint : Blueprint.storage().load().values()) {
 			String bpName = blueprint.name();
 			if (blueprint.invention != null) {
 				Activity act = blueprint.invention;

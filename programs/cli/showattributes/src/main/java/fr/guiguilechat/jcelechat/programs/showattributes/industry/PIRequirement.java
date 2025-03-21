@@ -35,7 +35,7 @@ public class PIRequirement {
 		System.out.println();
 
 		Map<MaterialProd<?>, Map<Integer, Float>> requirements = new HashMap<>();
-		for (Blueprint bp : Blueprint.yaml().load().values()) {
+		for (Blueprint bp : Blueprint.storage().load().values()) {
 			if (bp.manufacturing != null && bp.manufacturing.materials != null && !bp.manufacturing.materials.isEmpty()) {
 				for (MaterialProd<?> pr : bp.manufacturing.products) {
 					if (IndustryUsage.of(pr.id).materialInManuf.isEmpty()) {

@@ -29,7 +29,6 @@ public class MapIntSerializer<T> {
 
 	private final Class<T> internalClass;
 
-	@SuppressWarnings("unchecked")
 	public LinkedHashMap<Integer, T> load(InputStream is) {
 		try (InputStreamReader reader = new InputStreamReader(is)) {
 			LoaderOptions options = new LoaderOptions();

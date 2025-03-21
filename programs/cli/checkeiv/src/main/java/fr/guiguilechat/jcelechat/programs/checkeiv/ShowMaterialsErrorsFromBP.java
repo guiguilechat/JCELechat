@@ -38,7 +38,7 @@ public class ShowMaterialsErrorsFromBP {
 	}
 
 	public static void main(String[] args) {
-		Set<Integer> usedMatsIds = Blueprint.yaml().load().values().stream().filter(bp -> bp.manufacturing != null
+		Set<Integer> usedMatsIds = Blueprint.storage().load().values().stream().filter(bp -> bp.manufacturing != null
 				&& bp.manufacturing.products != null
 				&& !bp.manufacturing.products.isEmpty())
 				.flatMap(bp -> bp.manufacturing.materials.stream())

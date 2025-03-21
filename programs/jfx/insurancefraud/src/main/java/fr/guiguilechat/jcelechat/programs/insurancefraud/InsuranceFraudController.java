@@ -304,7 +304,7 @@ public class InsuranceFraudController {
 		IndustryUsage usage = IndustryUsage.load().get(TypeIndex.getTypes(name).get(0).id);
 		if (usage != null && usage.productOfManuf.size() != 0) {
 			Integer bpID = usage.productOfManuf.iterator().next();
-			Blueprint bpo = Blueprint.yaml().load().get(bpID);
+			Blueprint bpo = Blueprint.storage().load().get(bpID);
 			if (bpo != null) {
 				ret = new CraftCost();
 				ArrayList<MaterialReq> requiredMats = bpo.manufacturing.materials;

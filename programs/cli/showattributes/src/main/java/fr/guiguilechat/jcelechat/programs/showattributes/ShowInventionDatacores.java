@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.commodity.Datacores;
 public class ShowInventionDatacores {
 	public static void main(String[] args) {
 		Datacores[] datacores = Datacores.METAGROUP.load().values().toArray(Datacores[]::new);
-		Blueprint[] bps = Blueprint.yaml().load().values().stream().filter(bp -> bp.invention != null)
+		Blueprint[] bps = Blueprint.storage().load().values().stream().filter(bp -> bp.invention != null)
 				.toArray(Blueprint[]::new);
 		System.out.print("bp");
 		System.out.println(

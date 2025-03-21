@@ -5,6 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class AttributeReference {
 
 	@JsonProperty("dogmaAttributeID")
-	public int dogmaAttributeId;
+	public int attributeId;
 
 }

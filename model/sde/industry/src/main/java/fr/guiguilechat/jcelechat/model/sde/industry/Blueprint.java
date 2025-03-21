@@ -5,34 +5,63 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
+import fr.guiguilechat.jcelechat.libs.exports.common.ArchiveManager;
 import fr.guiguilechat.jcelechat.libs.exports.common.MapIntSerializer;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
-import fr.guiguilechat.jcelechat.model.sde.industry.blueprint.ArchivedBlueprintList;
-import fr.guiguilechat.jcelechat.model.sde.translate.ArchiveTools;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
+@NoArgsConstructor
+@AllArgsConstructor
 public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types.Blueprint> {
 
-	private static final Logger logger = LoggerFactory.getLogger(Blueprint.class);
-
-	// loading/dumping
+	//
+	// storage
+	//
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private static final MapIntSerializer<Blueprint> yaml = new MapIntSerializer<>("SDE/industry/blueprints.yaml",
+	private static final MapIntSerializer<Blueprint> storage = new MapIntSerializer<>("SDE/industry/blueprints.yaml",
 			Blueprint.class);
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final ArchiveManager<Map<Integer, Blueprint>> archives = new ArchiveManager<>(
+			"SDE/industry/blueprints/",
+			storage()::load);
+
+	/**
+	 * load the archived blueprint list for given date.
+	 */
+	public static Map<Integer, Blueprint> load(Instant date) {
+		return archives().dichoSearch(date, storage().load());
+	}
+
+	// only warn about missing bp once
+	private static Set<Integer> missingIds = Collections.synchronizedSet(new HashSet<>());
+
+	public static Blueprint of(int id, Instant date) {
+		Blueprint ret = (date == null ? storage().load() : load(date)).get(id);
+		if (ret == null && !missingIds.add(id)) {
+			log.warn("unknown id " + id);
+		}
+		return ret;
+	}
+
+	public static Blueprint of(int id) {
+		return of(id, null);
+	}
 
 	//
 	// structure
@@ -92,42 +121,12 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	public boolean seeded;
 
 	//
-	// access
-	//
-
-	// only warn about missing bp once
-	private static Set<Integer> missingBPIds = Collections.synchronizedSet(new HashSet<>());
-
-	public static Blueprint of(int bpid, Instant date) {
-		LinkedHashMap<Integer, Blueprint> catalog = date == null ? yaml().load() : load(date);
-		Blueprint ret = catalog.get(bpid);
-		if (ret == null && missingBPIds.add(bpid)) {
-			logger.warn("unknown bp " + bpid);
-		}
-		return ret;
-	}
-
-	public static Blueprint of(int bpid) {
-		return of(bpid, null);
-	}
-
-	@Getter(lazy = true)
-	private static final List<ArchivedBlueprintList> archives = ArchivedBlueprintList.list();
-
-	/**
-	 * load the archived blueprint list for given date.
-	 */
-	public static LinkedHashMap<Integer, Blueprint> load(Instant date) {
-		return ArchiveTools.dichoSearch(getArchives(), date, yaml().load());
-	}
-
-	//
 	// usage
 	//
 
 	public double makeEIV(Function<Integer, Double> adjustedPrices) {
 		if (manufacturing == null || manufacturing.materials == null) {
-			logger.warn("no manufacturing for BP " + name());
+			log.warn("no manufacturing for BP " + name());
 			return 0.0;
 		}
 		double ret = 0;
@@ -153,7 +152,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 				}
 			}
 		}
-		logger.debug("EIV of BP " + name() + "=" + (long) ret + " " + sb.toString());
+		log.debug("EIV of BP " + name() + "=" + (long) ret + " " + sb.toString());
 		return ret;
 	}
 

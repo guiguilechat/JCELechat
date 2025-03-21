@@ -28,13 +28,11 @@ import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.industry.Activity;
+import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.industry.TargetFilter;
-import fr.guiguilechat.jcelechat.model.sde.industry.activity.ArchivedActivityList;
-import fr.guiguilechat.jcelechat.model.sde.industry.blueprint.ArchivedBlueprintList;
-import fr.guiguilechat.jcelechat.model.sde.industry.targetfilter.ArchivedTargetFilterList;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 import lombok.extern.slf4j.Slf4j;
@@ -64,13 +62,18 @@ public class IndustryTranslater {
 
 		List<Activity> activities = new ArrayList<>();
 		translateActivities(cc, activities);
-		File actFile = Activity.yaml().export(activities, folderOut);
-		ArchivedActivityList.archiveOnDiff(actFile, ci.lastModified(), folderOut);
+		File actFile = Activity.storage().export(activities, folderOut);
+		Activity.archives().archiveOnDiff(actFile, ci.lastModified(), folderOut);
 
 		LinkedHashMap<Integer, TargetFilter> filters = new LinkedHashMap<>();
 		translateFilters(cc, filters);
-		File filtersFile = TargetFilter.export(filters, folderOut);
-		ArchivedTargetFilterList.archiveOnDiff(filtersFile, ci.lastModified(), folderOut);
+		File filtersFile = TargetFilter.storage().export(filters, folderOut);
+		TargetFilter.archives().archiveOnDiff(filtersFile, ci.lastModified(), folderOut);
+
+		LinkedHashMap<Integer, ActivityModifierSource> activityModifierSources = new LinkedHashMap<>();
+		new ClientCacheAMSTranslator().translate(cc, activityModifierSources);
+		File amsFile = ActivityModifierSource.storage().export(activityModifierSources, folderOut);
+		ActivityModifierSource.archives().archiveOnDiff(amsFile, ci.lastModified(), folderOut);
 
 		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
 		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
@@ -86,12 +89,12 @@ public class IndustryTranslater {
 				((Map<Integer, TypeRef<?>>) m).put(e.getKey(), e.getValue());
 			}
 		});
-		File bpFile = Blueprint.yaml().export(blueprints, folderOut);
-		ArchivedBlueprintList.archiveOnDiff(bpFile, ci.lastModified(), folderOut);
+		File bpFile = Blueprint.storage().export(blueprints, folderOut);
+		Blueprint.archives().archiveOnDiff(bpFile, ci.lastModified(), folderOut);
 		InventionDecryptor.export(decryptors, folderOut);
 
 		translateCompression(usages);
-		IndustryUsage.export(usages, folderOut);
+		IndustryUsage.storage().export(usages, folderOut);
 
 		log.info("exported industry in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 

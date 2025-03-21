@@ -1,23 +1,21 @@
 package fr.guiguilechat.jcelechat.model.sde.industry;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.LinkedHashMap;
+import java.time.Instant;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-
-import fr.lelouet.tools.application.yaml.CleanRepresenter;
-import fr.lelouet.tools.application.yaml.YAMLTools;
+import fr.guiguilechat.jcelechat.libs.exports.common.ArchiveManager;
+import fr.guiguilechat.jcelechat.libs.exports.common.MapIntSerializer;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @AllArgsConstructor
 @NoArgsConstructor
 public class ActivityModifierSource {
@@ -26,39 +24,38 @@ public class ActivityModifierSource {
 	// storage
 	//
 
-	public static final String RESOURCE_PATH = "SDE/industry/activitymodifiersources.yaml";
-
-	public static LinkedHashMap<Integer, ActivityModifierSource> load(InputStream is) {
-		try (InputStreamReader reader = new InputStreamReader(is)) {
-			LoaderOptions options = new LoaderOptions();
-			options.setCodePointLimit(Integer.MAX_VALUE);
-			return new Yaml(options).loadAs(reader, Container.class).filters;
-		} catch (Exception exception) {
-			throw new RuntimeException(exception);
-		}
-	}
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final MapIntSerializer<ActivityModifierSource> storage = new MapIntSerializer<>(
+			"SDE/industry/activitymodifiersources.yaml",
+			ActivityModifierSource.class);
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private static final LinkedHashMap<Integer, ActivityModifierSource> load = load(
-			TargetFilter.class.getClassLoader().getResourceAsStream(RESOURCE_PATH));
+	private static final ArchiveManager<Map<Integer, ActivityModifierSource>> archives = new ArchiveManager<>(
+			"SDE/industry/activitymodifiersources/",
+			storage()::load);
 
-	public static File export(LinkedHashMap<Integer, ActivityModifierSource> data, File folderout) {
-		File output = new File(folderout, RESOURCE_PATH);
-		output.mkdirs();
-		output.delete();
-		Container c = new Container();
-		c.filters = data;
-		try {
-			new Yaml(new CleanRepresenter(), YAMLTools.blockDumper()).dump(c, new FileWriter(output));
-		} catch (IOException e) {
-			throw new RuntimeException("while exporting to " + output.getAbsolutePath(), e);
-		}
-		return output;
+	/**
+	 * load the archived blueprint list for given date.
+	 */
+	public static Map<Integer, ActivityModifierSource> load(Instant date) {
+		return archives().dichoSearch(date, storage().load());
 	}
 
-	private static final class Container {
-		public LinkedHashMap<Integer, ActivityModifierSource> filters;
+	// only warn about missing bp once
+	private static Set<Integer> missingIds = Collections.synchronizedSet(new HashSet<>());
+
+	public static ActivityModifierSource of(int id, Instant date) {
+		ActivityModifierSource ret = (date == null ? storage().load() : load(date)).get(id);
+		if (ret == null && !missingIds.add(id)) {
+			log.warn("unknown id " + id);
+		}
+		return ret;
+	}
+
+	public static ActivityModifierSource of(int id) {
+		return of(id, null);
 	}
 
 	//
@@ -80,7 +77,7 @@ public class ActivityModifierSource {
 
 	}
 
-	int typeId;
+	public int typeId;
 
 	public ModifiedActivity copying, invention, manufacturing, reaction, researchMaterial, researchTime;
 

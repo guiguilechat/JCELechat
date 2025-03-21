@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class ActivityTest {
 	@Test
 	public void testLoad() {
-		Activity act = Activity.yaml().load().get(0);
+		Activity act = Activity.storage().load().get(0);
 		Assert.assertNotNull(act);
 	}
 

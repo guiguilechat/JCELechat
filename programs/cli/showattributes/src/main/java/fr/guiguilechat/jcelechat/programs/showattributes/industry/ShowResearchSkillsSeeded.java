@@ -23,7 +23,7 @@ public class ShowResearchSkillsSeeded {
 
 	public static void main(String[] args) {
 		Map<Skill, Integer> skillReq = new HashMap<>();
-		for (Blueprint bp : Blueprint.yaml().load().values()) {
+		for (Blueprint bp : Blueprint.storage().load().values()) {
 			if (!bp.seeded) {
 				continue;
 			}

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.translate;
+package fr.guiguilechat.jcelechat.libs.exports.common;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -13,29 +13,39 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.function.BiFunction;
-import java.util.function.Supplier;
+import java.util.function.Function;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import fr.guiguilechat.jcelechat.model.sde.industry.blueprint.ArchivedBlueprintList;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * utilities to load and store an file archived in a dir
+ * @param <T> type that is parsed from a file
  */
+@RequiredArgsConstructor
+@Accessors(fluent = true)
 @Slf4j
-public class ArchiveTools {
+public class ArchiveManager<T> {
+
+	/**
+	 * path to load from the jar
+	 */
+	private final String workingPath;
+
+	private final Function<InputStream, T> parser;
 
 	private static final DateTimeFormatter ARCHIVE_DATEFORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
 
-	public static String instant2ArchiveName(Instant instant) {
+	public String instant2ArchiveName(Instant instant) {
 		return ARCHIVE_DATEFORMAT.format(instant.atOffset(ZoneOffset.UTC)) + ".yaml";
 	}
 
 	private static final Pattern FILENAME_PATTERN = Pattern.compile("(.*)\\.yaml");
 
-	public static Instant archiveName2Instant(String archiveName) {
+	public Instant archiveName2Instant(String archiveName) {
 		Matcher m = FILENAME_PATTERN.matcher(archiveName);
 		if (!m.matches()) {
 			return null;
@@ -48,22 +58,15 @@ public class ArchiveTools {
 		}
 	}
 
-	/**
-	 * load an archive list and convert it to corresponding items. The lib
-	 * should be worked from a jar, and we can't list sub resources in a jar, so
-	 * it's necessary to have a listing resource to load
-	 *
-	 * @param <T>
-	 */
-	public static <T> List<T> loadList(String workingPath, BiFunction<Supplier<InputStream>, Instant, T> constructor) {
+	protected List<Archived<T>> loadList() {
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(
-						ArchivedBlueprintList.class.getClassLoader().getResourceAsStream(workingPath + "/list")))) {
+				new InputStreamReader(getClass().getClassLoader().getResourceAsStream(workingPath + "/list")))) {
 			return br.lines().map(
-					line -> constructor.apply(
-							() -> ArchiveTools.class.getClassLoader()
+					line -> new Archived<>(
+							() -> getClass().getClassLoader()
 									.getResourceAsStream(workingPath + "/" + line),
-							archiveName2Instant(line)))
+							archiveName2Instant(line),
+							parser))
 					.toList();
 		} catch (IOException e) {
 			log.warn("while load blueprint archive list", e);
@@ -72,17 +75,55 @@ public class ArchiveTools {
 	}
 
 	/**
+	 * loaded list of archived entries
+	 */
+	@Getter(lazy = true)
+	private final List<Archived<T>> list = loadList();
+
+	/**
+	 * find the archive for given date. If the date is younger than
+	 * first known archive, then return the first archive ; if the date is older
+	 * than last known archive, then return last instead ; otherwise makes
+	 * a dicho search on the archives and return the last known archive younger than
+	 * provided date
+	 *
+	 * @param <T>
+	 */
+	public T dichoSearch(Instant date, T lastItem) {
+		List<Archived<T>> archives = list();
+		if (date.isBefore(archives.get(0).since())) {
+			return archives.get(0).content();
+		}
+		Archived<T> lastArchive = archives.get(archives.size() - 1);
+		if (date.isAfter(lastArchive.since())) {
+			return lastItem == null ? lastArchive.content() : lastItem;
+		}
+		Archived<T> bestArchive = archives.get(0);
+		for (int i = 0, j = archives.size() - 1; j - i > 1;) {
+			int k = (i + j) / 2;
+			Archived<T> archive = archives.get(k);
+			if (archive.since().isBefore(date)) {
+				bestArchive = archive;
+				i = k;
+			} else {
+				j = k;
+			}
+		}
+		return bestArchive.content();
+	}
+
+	/**
 	 * export a file in the archive dir is the last archived file is different, and
 	 * append the new file's name to the "list" file in that dir
 	 *
 	 * @param observedFile the file we may archive
 	 * @param modified     date to use in the new archive's name if needed
-	 * @param archiveDir   directory that contain the "list" file and the list of
-	 *                     archived files
+	 * @param rootDir      directory of the project, to write files into
 	 * @return true if the observed file was archived
 	 * @throws IOException why not.
 	 */
-	public static boolean archiveOnDiff(File observedFile, Instant modified, File archiveDir) throws IOException {
+	public boolean archiveOnDiff(File observedFile, Instant modified, File rootDir) throws IOException {
+		File archiveDir = new File(rootDir, workingPath);
 		archiveDir.mkdirs();
 		File lastCopy = null;
 		Instant lastTime = null;
@@ -110,42 +151,6 @@ public class ArchiveTools {
 			writer.newLine();
 		}
 		return true;
-	}
-
-	public interface Archived<T> {
-
-		Instant since();
-
-		T items();
-	}
-
-	/**
-	 * find the archive for given date. If the date is younger than
-	 * first known archive, then return the first archive ; if the date is older
-	 * than last known archive, then return last instead ; otherwise makes
-	 * a dicho search on the archives and return the last known archive younger than provided date
-	 * @param <T>
-	 */
-	public static <T extends Archived<U>, U> U dichoSearch(List<T> archives, Instant date, U lastItem) {
-		if (date.isBefore(archives.get(0).since())) {
-			return archives.get(0).items();
-		}
-		T lastArchive = archives.get(archives.size() - 1);
-		if (date.isAfter(lastArchive.since())) {
-			return lastItem == null ? lastArchive.items() : lastItem;
-		}
-		T bestArchive = archives.get(0);
-		for (int i = 0, j = archives.size() - 1; j - i > 1;) {
-			int k = (i + j) / 2;
-			T archive = archives.get(k);
-			if (archive.since().isBefore(date)) {
-				bestArchive = archive;
-				i = k;
-			} else {
-				j = k;
-			}
-		}
-		return bestArchive.items();
 	}
 
 }

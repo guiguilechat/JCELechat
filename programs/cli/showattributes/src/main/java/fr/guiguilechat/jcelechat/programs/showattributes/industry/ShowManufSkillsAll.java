@@ -23,7 +23,7 @@ public class ShowManufSkillsAll {
 
 	public static void main(String[] args) {
 		Map<Skill, Integer> skillReq = new HashMap<>();
-		for (Blueprint bp : Blueprint.yaml().load().values()) {
+		for (Blueprint bp : Blueprint.storage().load().values()) {
 			if (bp.manufacturing == null || bp.manufacturing.skills.isEmpty()) {
 				continue;
 			}

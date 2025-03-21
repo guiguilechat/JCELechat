@@ -9,8 +9,6 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
@@ -19,14 +17,14 @@ import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * decryptors used in invention.
  *
  */
+@Slf4j
 public class InventionDecryptor extends TypeRef<GenericDecryptor> {
-
-	private static final Logger logger = LoggerFactory.getLogger(InventionDecryptor.class);
 
 	// loading/dumping
 
@@ -162,7 +160,7 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 
 		float skillsProbaMult = 1.0f * skillsProbaPoints_base120 / 120;
 		double ret = Math.min(1.0, invented.probability * skillsProbaMult * probmult());
-		logger.trace(
+		log.trace(
 		    " invent from " + target.name() + "with dec=" + name() + " gives success probability=" + ret + " bp value="
 				+ invented.probability + " skills=" + skillsProbaMult + " decryptormult=" + probmult());
 		return ret;

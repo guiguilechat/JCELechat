@@ -3,9 +3,8 @@ package fr.guiguilechat.jcelechat.model.sde.industry;
 import java.time.Instant;
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.libs.exports.common.ArchiveManager;
 import fr.guiguilechat.jcelechat.libs.exports.common.ListSerializer;
-import fr.guiguilechat.jcelechat.model.sde.industry.activity.ArchivedActivityList;
-import fr.guiguilechat.jcelechat.model.sde.translate.ArchiveTools;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,26 +16,29 @@ import lombok.extern.slf4j.Slf4j;
 @AllArgsConstructor
 public class Activity {
 
+	//
 	// storage
+	//
+
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private static final ListSerializer<Activity> yaml = new ListSerializer<>("SDE/industry/activities.yaml",
+	private static final ListSerializer<Activity> storage = new ListSerializer<>("SDE/industry/activities.yaml",
 			Activity.class);
 
-	//
-	// structure
-	//
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final ArchiveManager<List<Activity>> archives = new ArchiveManager<>("SDE/industry/activities/",
+			storage()::load);
 
-	public int activityId;
-	public String activityName;
-	public String description;
-
-	//
-	// access
-	//
+	/**
+	 * load the archived blueprint list for given date.
+	 */
+	public static List<Activity> load(Instant date) {
+		return archives().dichoSearch(date, storage().load());
+	}
 
 	public static Activity of(int id, Instant date) {
-		Activity ret = (date == null ? yaml().load() : load(date)).stream()
+		Activity ret = (date == null ? storage().load() : load(date)).stream()
 				.filter(a -> a.activityId == id)
 				.findAny().orElse(null);
 		if (ret == null) {
@@ -49,14 +51,16 @@ public class Activity {
 		return of(id, null);
 	}
 
-	@Getter(lazy = true)
-	private static final List<ArchivedActivityList> archives = ArchivedActivityList.list();
+	//
+	// structure
+	//
 
-	/**
-	 * load the archived blueprint list for given date.
-	 */
-	public static List<Activity> load(Instant date) {
-		return ArchiveTools.dichoSearch(getArchives(), date, yaml().load());
-	}
+	public int activityId;
+	public String activityName;
+	public String description;
+
+	//
+	// access
+	//
 
 }

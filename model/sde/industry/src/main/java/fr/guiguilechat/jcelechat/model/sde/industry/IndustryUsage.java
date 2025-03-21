@@ -1,57 +1,46 @@
 package fr.guiguilechat.jcelechat.model.sde.industry;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
+import java.util.Set;
 
-import org.yaml.snakeyaml.Yaml;
-
-import fr.lelouet.tools.application.yaml.CleanRepresenter;
-import fr.lelouet.tools.application.yaml.YAMLTools;
+import fr.guiguilechat.jcelechat.libs.exports.common.MapIntSerializer;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
 /** The bp names a type is used into, for each activity. */
+@Slf4j
+@NoArgsConstructor
+@AllArgsConstructor
 public class IndustryUsage {
 
-	// loading/dumping
+	//
+	// storage
+	//
 
-	private static LinkedHashMap<Integer, IndustryUsage> cache = null;
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final MapIntSerializer<IndustryUsage> storage = new MapIntSerializer<>("SDE/industry/usages.yaml",
+			IndustryUsage.class);
 
-	public static final String RESOURCE_PATH = "SDE/industry/usages.yaml";
-
-	public static synchronized LinkedHashMap<Integer, IndustryUsage> load() {
-		if (cache == null) {
-			try (InputStreamReader reader = new InputStreamReader(
-					IndustryUsage.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
-				cache = new Yaml().loadAs(reader, Container.class).usages;
-			} catch (Exception exception) {
-				throw new UnsupportedOperationException("catch this", exception);
-			}
-		}
-		return cache;
-	}
+	// only warn about missing bp once
+	private static Set<Integer> missingIds = Collections.synchronizedSet(new HashSet<>());
 
 	public static IndustryUsage of(int id) {
-		return load().get(id);
-	}
-
-	public static void export(LinkedHashMap<Integer, IndustryUsage> data, File folderout) {
-		File output = new File(folderout, RESOURCE_PATH);
-		output.mkdirs();
-		output.delete();
-		Container c = new Container();
-		c.usages = data;
-		try {
-			new Yaml(new CleanRepresenter(), YAMLTools.blockDumper()).dump(c, new FileWriter(output));
-		} catch (IOException e) {
-			throw new UnsupportedOperationException("while exporting constellations to " + output.getAbsolutePath(), e);
+		IndustryUsage ret = storage().load().get(id);
+		if (ret == null && !missingIds.add(id)) {
+			log.warn("unknown id " + id);
 		}
+		return ret;
 	}
 
-	private static final class Container {
-		public LinkedHashMap<Integer, IndustryUsage> usages;
+	public static LinkedHashMap<Integer, IndustryUsage> load() {
+		return storage().load();
 	}
 
 	// structure
