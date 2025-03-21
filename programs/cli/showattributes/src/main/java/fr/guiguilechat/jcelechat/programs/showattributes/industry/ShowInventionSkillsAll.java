@@ -22,7 +22,7 @@ public class ShowInventionSkillsAll {
 
 	public static void main(String[] args) {
 		Map<String, Double> skillScore = new HashMap<>();
-		for (Blueprint bp : Blueprint.load().values()) {
+		for (Blueprint bp : Blueprint.yaml().load().values()) {
 			if (bp.invention == null || bp.invention.skills.isEmpty()) {
 				continue;
 			}

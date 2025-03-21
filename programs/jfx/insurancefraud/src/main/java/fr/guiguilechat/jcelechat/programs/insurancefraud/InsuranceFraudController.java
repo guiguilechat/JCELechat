@@ -255,7 +255,7 @@ public class InsuranceFraudController {
 			double zydrine, double megacyte) {
 		makeReprocs();
 		int ret = 0;
-		double[] required = new double[] { tritanium, pyerite, isogen, mexallon, nocxium, zydrine, megacyte };
+		double[] required = { tritanium, pyerite, isogen, mexallon, nocxium, zydrine, megacyte };
 		// use arkonor to get megacyte
 		ret += removeFor(required, "Arkonor", 6);
 		// use bistot to get zydrine
@@ -304,7 +304,7 @@ public class InsuranceFraudController {
 		IndustryUsage usage = IndustryUsage.load().get(TypeIndex.getTypes(name).get(0).id);
 		if (usage != null && usage.productOfManuf.size() != 0) {
 			Integer bpID = usage.productOfManuf.iterator().next();
-			Blueprint bpo = Blueprint.load().get(bpID);
+			Blueprint bpo = Blueprint.yaml().load().get(bpID);
 			if (bpo != null) {
 				ret = new CraftCost();
 				ArrayList<MaterialReq> requiredMats = bpo.manufacturing.materials;
@@ -314,7 +314,7 @@ public class InsuranceFraudController {
 									mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(mat.id))
 							.sum();
 					double produced = bpo.manufacturing.products.get(0).quantity * bpo.manufacturing.products.get(0).probability;
-					Map<String, Double> mapMat = requiredMats.stream().collect(Collectors.toMap(req -> req.name(),
+					Map<String, Double> mapMat = requiredMats.stream().collect(Collectors.toMap(MaterialReq::name,
 							req -> req.quantity == 1 ? req.quantity : Math.ceil(matMult * req.quantity) / produced));
 					for (Entry<String, Double> e : mapMat.entrySet()) {
 						CraftCost submats = getCraftRequirementNoSync(e.getKey());

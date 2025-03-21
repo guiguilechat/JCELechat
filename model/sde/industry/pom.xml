@@ -16,6 +16,10 @@
 			<artifactId>gameclient</artifactId>
 			<optional>true</optional>
 		</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+				<artifactId>common</artifactId>
+			</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>raw</artifactId>

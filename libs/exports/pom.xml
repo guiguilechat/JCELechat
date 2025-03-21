@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>fr.guiguilechat.jcelechat</groupId>
+		<artifactId>libs</artifactId>
+		<version>7.41.0</version>
+	</parent>
+	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+	<artifactId>exports</artifactId>
+	<packaging>pom</packaging>
+	<name>Export libs</name>
+	<description>Eve data exports</description>
+	<modules>
+	<module>common</module>
+	</modules>
+	<profiles>
+		<profile>
+			<id>skipDeployPom</id>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-deploy-plugin</artifactId>
+						<configuration>
+							<skip>true</skip>
+						</configuration>
+						<inherited>false</inherited>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>

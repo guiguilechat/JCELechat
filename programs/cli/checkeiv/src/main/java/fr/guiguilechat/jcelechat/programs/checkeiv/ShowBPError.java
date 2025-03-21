@@ -45,7 +45,7 @@ public class ShowBPError {
 	public static void main(String[] args) {
 		StringBuilder sb = new StringBuilder();
 		sb.append("bp\tEIV\tEIV SO\tEIV avg\ttax effect %SO\ttax effect %avg\n");
-		Blueprint.load().entrySet().stream()
+		Blueprint.yaml().load().entrySet().stream()
 		.map(e -> new Evaluated(e.getValue(), e.getKey()))
 		.filter(e -> !e.getType().name.startsWith("Expired ")
 				&& e.getEiv() != 0.0

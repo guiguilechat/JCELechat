@@ -37,7 +37,7 @@ public class ArchivedBlueprintList implements Archived<LinkedHashMap<Integer, Bl
 	private final Instant since;
 
 	@Getter(lazy = true)
-	private final LinkedHashMap<Integer, Blueprint> items = Blueprint.load(is.get());
+	private final LinkedHashMap<Integer, Blueprint> items = Blueprint.yaml().load(is.get());
 
 	//
 

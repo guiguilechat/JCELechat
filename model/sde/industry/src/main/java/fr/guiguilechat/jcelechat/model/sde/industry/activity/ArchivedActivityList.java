@@ -32,7 +32,7 @@ public class ArchivedActivityList implements Archived<List<Activity>> {
 	private final Instant since;
 
 	@Getter(lazy = true)
-	private final List<Activity> items = Activity.load(is.get());
+	private final List<Activity> items = Activity.yaml().load(is.get());
 
 	//
 

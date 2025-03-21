@@ -13,6 +13,7 @@
 	<description>libraries for JCE-Lechat. Those libraries provide tools to manage, optimize the data from the game.</description>
 	<packaging>pom</packaging>
 	<modules>
+		<module>exports</module>
 		<module>gameclient</module>
 		<module>logparser</module>
 		<module>mer</module>

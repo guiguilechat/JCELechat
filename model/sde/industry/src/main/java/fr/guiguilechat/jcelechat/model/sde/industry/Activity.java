@@ -1,20 +1,11 @@
 package fr.guiguilechat.jcelechat.model.sde.industry;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.time.Instant;
 import java.util.List;
 
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-
+import fr.guiguilechat.jcelechat.libs.exports.common.ListSerializer;
 import fr.guiguilechat.jcelechat.model.sde.industry.activity.ArchivedActivityList;
 import fr.guiguilechat.jcelechat.model.sde.translate.ArchiveTools;
-import fr.lelouet.tools.application.yaml.CleanRepresenter;
-import fr.lelouet.tools.application.yaml.YAMLTools;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -27,41 +18,10 @@ import lombok.extern.slf4j.Slf4j;
 public class Activity {
 
 	// storage
-
-	public static final String RESOURCE_PATH = "SDE/industry/activities.yaml";
-
-	public static List<Activity> load(InputStream is) {
-		try (InputStreamReader reader = new InputStreamReader(is)) {
-			LoaderOptions options = new LoaderOptions();
-			options.setCodePointLimit(Integer.MAX_VALUE);
-			return new Yaml(options).loadAs(reader, Container.class).activities;
-		} catch (Exception exception) {
-			throw new RuntimeException(exception);
-		}
-	}
-
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private static final List<Activity> load = load(
-			Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH));
-
-	public static File export(List<Activity> data, File folderout) {
-		File output = new File(folderout, RESOURCE_PATH);
-		output.mkdirs();
-		output.delete();
-		Container c = new Container();
-		c.activities = data;
-		try {
-			new Yaml(new CleanRepresenter(), YAMLTools.blockDumper()).dump(c, new FileWriter(output));
-		} catch (IOException e) {
-			throw new RuntimeException("while exporting to " + output.getAbsolutePath(), e);
-		}
-		return output;
-	}
-
-	private static final class Container {
-		public List<Activity> activities;
-	}
+	private static final ListSerializer<Activity> yaml = new ListSerializer<>("SDE/industry/activities.yaml",
+			Activity.class);
 
 	//
 	// structure
@@ -76,7 +36,7 @@ public class Activity {
 	//
 
 	public static Activity of(int id, Instant date) {
-		Activity ret = (date == null ? load() : load(date)).stream()
+		Activity ret = (date == null ? yaml().load() : load(date)).stream()
 				.filter(a -> a.activityId == id)
 				.findAny().orElse(null);
 		if (ret == null) {
@@ -96,7 +56,7 @@ public class Activity {
 	 * load the archived blueprint list for given date.
 	 */
 	public static List<Activity> load(Instant date) {
-		return ArchiveTools.dichoSearch(getArchives(), date, load());
+		return ArchiveTools.dichoSearch(getArchives(), date, yaml().load());
 	}
 
 }

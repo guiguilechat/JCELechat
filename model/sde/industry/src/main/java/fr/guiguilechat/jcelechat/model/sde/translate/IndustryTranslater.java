@@ -64,7 +64,7 @@ public class IndustryTranslater {
 
 		List<Activity> activities = new ArrayList<>();
 		translateActivities(cc, activities);
-		File actFile = Activity.export(activities, folderOut);
+		File actFile = Activity.yaml().export(activities, folderOut);
 		ArchivedActivityList.archiveOnDiff(actFile, ci.lastModified(), folderOut);
 
 		LinkedHashMap<Integer, TargetFilter> filters = new LinkedHashMap<>();
@@ -86,7 +86,7 @@ public class IndustryTranslater {
 				((Map<Integer, TypeRef<?>>) m).put(e.getKey(), e.getValue());
 			}
 		});
-		File bpFile = Blueprint.export(blueprints, folderOut);
+		File bpFile = Blueprint.yaml().export(blueprints, folderOut);
 		ArchivedBlueprintList.archiveOnDiff(bpFile, ci.lastModified(), folderOut);
 		InventionDecryptor.export(decryptors, folderOut);
 

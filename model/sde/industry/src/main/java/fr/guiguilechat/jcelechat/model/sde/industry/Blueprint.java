@@ -1,10 +1,5 @@
 package fr.guiguilechat.jcelechat.model.sde.industry;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,16 +13,13 @@ import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.jcelechat.libs.exports.common.MapIntSerializer;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.blueprint.ArchivedBlueprintList;
 import fr.guiguilechat.jcelechat.model.sde.translate.ArchiveTools;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
-import fr.lelouet.tools.application.yaml.CleanRepresenter;
-import fr.lelouet.tools.application.yaml.YAMLTools;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -37,40 +29,10 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 
 	// loading/dumping
 
-	public static final String RESOURCE_PATH = "SDE/industry/blueprints.yaml";
-
-	public static LinkedHashMap<Integer, Blueprint> load(InputStream is) {
-		try (InputStreamReader reader = new InputStreamReader(is)) {
-			LoaderOptions options = new LoaderOptions();
-			options.setCodePointLimit(Integer.MAX_VALUE);
-			return new Yaml(options).loadAs(reader, Container.class).blueprints;
-		} catch (Exception exception) {
-			throw new RuntimeException(exception);
-		}
-	}
-
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private static final LinkedHashMap<Integer, Blueprint> load = load(
-			Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH));
-
-	public static File export(LinkedHashMap<Integer, Blueprint> data, File folderout) {
-		File output = new File(folderout, RESOURCE_PATH);
-		output.mkdirs();
-		output.delete();
-		Container c = new Container();
-		c.blueprints = data;
-		try {
-			new Yaml(new CleanRepresenter(), YAMLTools.blockDumper()).dump(c, new FileWriter(output));
-		} catch (IOException e) {
-			throw new RuntimeException("while exporting to " + output.getAbsolutePath(), e);
-		}
-		return output;
-	}
-
-	private static final class Container {
-		public LinkedHashMap<Integer, Blueprint> blueprints;
-	}
+	private static final MapIntSerializer<Blueprint> yaml = new MapIntSerializer<>("SDE/industry/blueprints.yaml",
+			Blueprint.class);
 
 	//
 	// structure
@@ -137,7 +99,8 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	private static Set<Integer> missingBPIds = Collections.synchronizedSet(new HashSet<>());
 
 	public static Blueprint of(int bpid, Instant date) {
-		Blueprint ret = (date == null ? load() : load(date)).get(bpid);
+		LinkedHashMap<Integer, Blueprint> catalog = date == null ? yaml().load() : load(date);
+		Blueprint ret = catalog.get(bpid);
 		if (ret == null && missingBPIds.add(bpid)) {
 			logger.warn("unknown bp " + bpid);
 		}
@@ -155,7 +118,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	 * load the archived blueprint list for given date.
 	 */
 	public static LinkedHashMap<Integer, Blueprint> load(Instant date) {
-		return ArchiveTools.dichoSearch(getArchives(), date, load());
+		return ArchiveTools.dichoSearch(getArchives(), date, yaml().load());
 	}
 
 	//

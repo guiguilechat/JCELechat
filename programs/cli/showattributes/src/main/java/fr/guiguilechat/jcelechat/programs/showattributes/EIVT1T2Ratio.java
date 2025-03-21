@@ -7,7 +7,7 @@ public class EIVT1T2Ratio {
 
 	public static void main(String[] args) {
 		double sumT1 = 0, sumT2 = 0;
-		for (Blueprint bp : Blueprint.load().values()) {
+		for (Blueprint bp : Blueprint.yaml().load().values()) {
 
 			if (bp.invention != null && bp.invention.products != null && !bp.invention.products.isEmpty()) {
 				Blueprint bpi = Blueprint.of(bp.invention.products.get(0).id);

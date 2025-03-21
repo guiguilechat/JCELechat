@@ -14,15 +14,15 @@ import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.guiguilechat.jcelechat.utils.SkillUtils;
 
 /**
- * 
- * @author 
+ *
+ * @author
  *
  */
 public class ShowManufSkillsSeeded {
 
 	public static void main(String[] args) {
 		Map<Skill, Integer> skillReq = new HashMap<>();
-		for (Blueprint bp : Blueprint.load().values()) {
+		for (Blueprint bp : Blueprint.yaml().load().values()) {
 			if (!bp.seeded || bp.manufacturing == null || bp.manufacturing.skills.isEmpty()) {
 				continue;
 			}
