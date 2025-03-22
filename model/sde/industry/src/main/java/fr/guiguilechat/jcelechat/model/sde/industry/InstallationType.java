@@ -48,7 +48,7 @@ public class InstallationType {
 
 	public static InstallationType of(int id, Instant date) {
 		InstallationType ret = (date == null ? storage().load() : load(date)).get(id);
-		if (ret == null && !missingIds.add(id)) {
+		if (ret == null && missingIds.add(id)) {
 			log.warn("unknown id " + id);
 		}
 		return ret;

@@ -62,7 +62,7 @@ public class IndustryTranslater {
 		ClientCache cc = new ClientCache(ci);
 		LinkedHashMap<Integer, IndustryUsage> usages = new LinkedHashMap<>();
 
-		List<Activity> activities = new ArrayList<>();
+		LinkedHashMap<Integer, Activity> activities = new LinkedHashMap<>();
 		translateActivities(cc, activities);
 		File actFile = Activity.storage().export(activities, folderOut);
 		Activity.archives().archiveOnDiff(actFile, ci.lastModified(), folderOut);
@@ -142,7 +142,7 @@ public class IndustryTranslater {
 		}
 	}
 
-	static void translateActivities(ClientCache cc, List<Activity> activities)
+	static void translateActivities(ClientCache cc, LinkedHashMap<Integer, Activity> activities)
 			throws JsonMappingException, JsonProcessingException, SQLException {
 		List<KeyValTime<EindustryActivities>> loaded = EindustryActivities.getLoader().load(cc);
 		loaded.stream()
@@ -152,7 +152,7 @@ public class IndustryTranslater {
 						eia.activityID,
 						eia.activityName,
 						eia.description))
-				.forEach(activities::add);
+				.forEach(act -> activities.put(act.activityId, act));
 	}
 
 	static void translateFilters(ClientCache cc, LinkedHashMap<Integer, TargetFilter> filters)

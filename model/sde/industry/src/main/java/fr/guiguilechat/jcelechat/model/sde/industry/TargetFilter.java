@@ -49,7 +49,7 @@ public class TargetFilter {
 
 	public static TargetFilter of(int id, Instant date) {
 		TargetFilter ret = (date == null ? storage().load() : load(date)).get(id);
-		if (ret == null && !missingIds.add(id)) {
+		if (ret == null && missingIds.add(id)) {
 			log.warn("unknown id " + id);
 		}
 		return ret;

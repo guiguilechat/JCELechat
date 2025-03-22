@@ -1,10 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.industry;
 
 import java.time.Instant;
-import java.util.List;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.exports.common.ArchiveManager;
-import fr.guiguilechat.jcelechat.libs.exports.common.ListSerializer;
+import fr.guiguilechat.jcelechat.libs.exports.common.MapIntSerializer;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -22,27 +25,29 @@ public class Activity {
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private static final ListSerializer<Activity> storage = new ListSerializer<>("SDE/industry/activities.yaml",
+	private static final MapIntSerializer<Activity> storage = new MapIntSerializer<>("SDE/industry/activities.yaml",
 			Activity.class);
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private static final ArchiveManager<List<Activity>> archives = new ArchiveManager<>("SDE/industry/activities/",
+	private static final ArchiveManager<Map<Integer, Activity>> archives = new ArchiveManager<>(
+			"SDE/industry/activities/",
 			storage()::load);
 
 	/**
-	 * load the archived blueprint list for given date.
+	 * load the archived list for given date.
 	 */
-	public static List<Activity> load(Instant date) {
+	public static Map<Integer, Activity> load(Instant date) {
 		return archives().dichoSearch(date, storage().load());
 	}
 
+	// only warn about missing ids once
+	private static Set<Integer> missingIds = Collections.synchronizedSet(new HashSet<>());
+
 	public static Activity of(int id, Instant date) {
-		Activity ret = (date == null ? storage().load() : load(date)).stream()
-				.filter(a -> a.activityId == id)
-				.findAny().orElse(null);
-		if (ret == null) {
-			log.warn("unknown activity " + id);
+		Activity ret = (date == null ? storage().load() : load(date)).get(id);
+		if (ret == null && missingIds.add(id)) {
+			log.warn("missing id" + id);
 		}
 		return ret;
 	}

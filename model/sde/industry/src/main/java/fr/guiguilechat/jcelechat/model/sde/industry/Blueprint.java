@@ -53,7 +53,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 
 	public static Blueprint of(int id, Instant date) {
 		Blueprint ret = (date == null ? storage().load() : load(date)).get(id);
-		if (ret == null && !missingIds.add(id)) {
+		if (ret == null && missingIds.add(id)) {
 			log.warn("unknown id " + id);
 		}
 		return ret;

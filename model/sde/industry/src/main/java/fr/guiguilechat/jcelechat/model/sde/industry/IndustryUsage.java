@@ -33,7 +33,7 @@ public class IndustryUsage {
 
 	public static IndustryUsage of(int id) {
 		IndustryUsage ret = storage().load().get(id);
-		if (ret == null && !missingIds.add(id)) {
+		if (ret == null && missingIds.add(id)) {
 			log.warn("unknown id " + id);
 		}
 		return ret;
