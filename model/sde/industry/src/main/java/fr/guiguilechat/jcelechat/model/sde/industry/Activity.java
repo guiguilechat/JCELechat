@@ -47,7 +47,7 @@ public class Activity {
 	public static Activity of(int id, Instant date) {
 		Activity ret = (date == null ? storage().load() : load(date)).get(id);
 		if (ret == null && missingIds.add(id)) {
-			log.warn("missing id" + id);
+			log.warn("unknown id" + id);
 		}
 		return ret;
 	}
@@ -63,9 +63,5 @@ public class Activity {
 	public int activityId;
 	public String activityName;
 	public String description;
-
-	//
-	// access
-	//
 
 }

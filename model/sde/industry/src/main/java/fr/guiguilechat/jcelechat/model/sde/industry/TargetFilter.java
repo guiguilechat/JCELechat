@@ -38,13 +38,13 @@ public class TargetFilter {
 			storage()::load);
 
 	/**
-	 * load the archived blueprint list for given date.
+	 * load the archived list for given date.
 	 */
 	public static Map<Integer, TargetFilter> load(Instant date) {
 		return archives().dichoSearch(date, storage().load());
 	}
 
-	// only warn about missing bp once
+	// only warn about missing ids once
 	private static Set<Integer> missingIds = Collections.synchronizedSet(new HashSet<>());
 
 	public static TargetFilter of(int id, Instant date) {

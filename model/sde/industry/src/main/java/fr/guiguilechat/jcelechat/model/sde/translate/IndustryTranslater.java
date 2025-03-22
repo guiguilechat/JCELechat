@@ -8,9 +8,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
-import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,7 +24,6 @@ import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryA
 import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryInstallationTypes;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
-import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.industry.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource;
@@ -51,7 +48,6 @@ public class IndustryTranslater {
 	 * @throws IOException
 	 * @throws SQLException
 	 */
-	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws IOException, SQLException {
 
 		long timeStart = System.currentTimeMillis();
@@ -82,23 +78,22 @@ public class IndustryTranslater {
 		File itFile = InstallationType.storage().export(installationTypes, folderOut);
 		InstallationType.archives().archiveOnDiff(itFile, ci.lastModified(), folderOut);
 
-		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
-		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
-//		new SDEBlueprintTranslator().translateBlueprints(blueprints, usages);
 		LinkedHashMap<Integer, InventionDecryptor> decryptors = new LinkedHashMap<>();
 		translateDecryptors(decryptors);
-		// sort decryptors and blueprints by typeId
-		Stream.of(blueprints, decryptors).forEach(m -> {
-			ArrayList<Entry<Integer, ? extends TypeRef<?>>> list = new ArrayList<>(m.entrySet());
-			Collections.sort(list, Comparator.comparing(Entry<Integer, ? extends TypeRef<?>>::getKey));
-			m.clear();
-			for (Entry<Integer, ? extends TypeRef<?>> e : list) {
-				((Map<Integer, TypeRef<?>>) m).put(e.getKey(), e.getValue());
-			}
-		});
+		File idFile = InventionDecryptor.storage().export(decryptors, folderOut);
+		InventionDecryptor.archives().archiveOnDiff(idFile, ci.lastModified(), folderOut);
+
+		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
+		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
+		// sort blueprints by typeId
+		ArrayList<Entry<Integer, Blueprint>> sortedList = new ArrayList<>(blueprints.entrySet());
+		Collections.sort(sortedList, Comparator.comparing(Entry<Integer, Blueprint>::getKey));
+		blueprints.clear();
+		for (Entry<Integer, Blueprint> e : sortedList) {
+			blueprints.put(e.getKey(), e.getValue());
+		}
 		File bpFile = Blueprint.storage().export(blueprints, folderOut);
 		Blueprint.archives().archiveOnDiff(bpFile, ci.lastModified(), folderOut);
-		InventionDecryptor.export(decryptors, folderOut);
 
 		translateCompression(usages);
 		IndustryUsage.storage().export(usages, folderOut);
@@ -107,22 +102,21 @@ public class IndustryTranslater {
 
 	}
 
-	//
-	// decryptor translation from sde
-	//
-
 	static void translateDecryptors(LinkedHashMap<Integer, InventionDecryptor> decryptors) {
-		for (Entry<Integer, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
-			decryptors.put(e.getKey(), convertDecryptor(e.getValue()));
-		}
-		InventionDecryptor nullDecryptor = new InventionDecryptor();
-		decryptors.put(0, nullDecryptor);
+		decryptors.put(0, InventionDecryptor.NULLDECRYPTOR);
+		GenericDecryptor.METAGROUP.load().entrySet().stream()
+				.sorted(Comparator.comparing(Entry::getKey))
+				.map(e -> convertDecryptor(e.getValue()))
+				.forEach(id -> decryptors.put(id.typeId, id));
 	}
 
 	static InventionDecryptor convertDecryptor(GenericDecryptor dec) {
-		InventionDecryptor ret = new InventionDecryptor();
-		ret.id = dec.id;
-		return ret;
+		return new InventionDecryptor(dec.id,
+				dec.name,
+				(int) dec.inventionmaxrunmodifier,
+				(int) dec.inventionmemodifier,
+				(int) dec.inventiontemodifier,
+				dec.inventionpropabilitymultiplier);
 	}
 
 	static void translateCompression(LinkedHashMap<Integer, IndustryUsage> usages) {

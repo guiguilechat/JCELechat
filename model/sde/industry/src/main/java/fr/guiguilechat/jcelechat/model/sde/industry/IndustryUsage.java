@@ -28,7 +28,7 @@ public class IndustryUsage {
 	private static final MapIntSerializer<IndustryUsage> storage = new MapIntSerializer<>("SDE/industry/usages.yaml",
 			IndustryUsage.class);
 
-	// only warn about missing bp once
+	// only warn about missing ids once
 	private static Set<Integer> missingIds = Collections.synchronizedSet(new HashSet<>());
 
 	public static IndustryUsage of(int id) {
