@@ -1,0 +1,16 @@
+#!/bin/python
+
+import pickle
+import glob
+import importlib
+import io
+import json
+import os
+import sys
+
+loader = ".evecache/2860893/bin64/currencyBucketsLoader.pyd"
+loader_name = os.path.splitext(os.path.basename(loader))[0]
+data_name = loader_name.replace("Loader", "").lower() + ".fsdbinary"
+print("Loading '" + data_name + "' with '" + loader_name + "' ...")
+lib = importlib.import_module(loader_name)
+data = lib.load("data/" + data_name)

@@ -12,7 +12,6 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
-import fr.guiguilechat.jcelechat.libs.gameclient.parsers.SQLiteParser;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -48,7 +47,7 @@ public class KeyValTimeLoader<T> {
 
 	public List<KeyValTime<T>> load(ClientCache cache)
 			throws JsonMappingException, JsonProcessingException, SQLException {
-		return load(SQLiteParser.loadFile(cache.file(resourceName)));
+		return load(SQLiteLoad.loadFile(cache.file(resourceName)));
 	}
 
 	public List<KeyValTime<T>> loadPrintCSV(ClientCache cache, PrintStream ps)

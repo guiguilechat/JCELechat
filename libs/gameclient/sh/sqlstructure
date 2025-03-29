@@ -7,7 +7,7 @@ echo "last cache is $last_cache"
 rm -rf structure/staticdata
 mkdir -p structure/staticdata
 for sqlfile in $(file $last_cache/staticdata/* | grep "SQLite" | cut -d':' -f1) ;
-	do
+do
 	target="structure/"$(echo $sqlfile | sed s/.*staticdata/staticdata/g) 
 	echo "$sqlfile -> $target"
 	# https://sqlite.org/cli.html#changing_output_formats

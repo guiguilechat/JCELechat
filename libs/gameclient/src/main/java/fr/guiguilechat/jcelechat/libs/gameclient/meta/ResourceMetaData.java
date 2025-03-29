@@ -45,7 +45,7 @@ public record ResourceMetaData(String resName, String serverType, String relPath
 	public File dump(File destDir) throws MalformedURLException, IOException {
 		File targetFile = new File(destDir, resName);
 		if(targetFile.exists()) {
-			log.debug(" " + targetFile.getPath() + " already exists");
+			log.trace(" " + targetFile.getPath() + " already exists");
 			return targetFile;
 		}
 		targetFile.getParentFile().mkdirs();

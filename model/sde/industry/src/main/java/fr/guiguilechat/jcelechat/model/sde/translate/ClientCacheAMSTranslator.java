@@ -10,9 +10,9 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
-import fr.guiguilechat.jcelechat.libs.gameclient.structure.common.attribute.FilteredAttributeReference;
-import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryActivityModifierSources;
-import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryActivityModifierSources.IndustryActivityModifier;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.common.attribute.FilteredAttributeReference;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.EindustryActivityModifierSources;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.EindustryActivityModifierSources.IndustryActivityModifier;
 import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource;
 import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource.ModifiedActivity;
 import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource.ModifiedActivity.AttributeFilter;

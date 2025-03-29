@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -18,7 +17,7 @@ public class ResourceIndex {
 	@Getter
 	private final String remotePath;
 
-	@Getter(lazy = true, value = AccessLevel.PRIVATE)
+	@Getter(lazy = true)
 	private final List<ResourceMetaData> lines = ServerInfo.loadIndex(remotePath);
 
 	@Getter(lazy = true)
@@ -29,4 +28,9 @@ public class ResourceIndex {
 	private final List<String> indexNames = getMap().keySet().stream()
 			.filter(name -> name.matches("^resfileindex\\.txt$"))
 			.toList();
+
+	@Override
+	public String toString() {
+		return remotePath;
+	}
 }

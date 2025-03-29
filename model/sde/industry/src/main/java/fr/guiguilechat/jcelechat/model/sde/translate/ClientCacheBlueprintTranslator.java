@@ -18,9 +18,9 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
-import fr.guiguilechat.jcelechat.libs.gameclient.structure.common.type.ConsumedMaterial;
-import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.Eblueprints;
-import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.Eblueprints.Activities.Activity.Product;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.common.type.ConsumedMaterial;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Eblueprints;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Eblueprints.Activities.Activity.Product;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
@@ -121,7 +121,7 @@ public class ClientCacheBlueprintTranslator {
 	 * @return null if a type referred to in the activity was not found.
 	 */
 	Activity convertActivity(
-			fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.Eblueprints.Activities.Activity listedActivity) {
+			fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Eblueprints.Activities.Activity listedActivity) {
 		if (listedActivity == null) {
 			return null;
 		}

@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
-import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryAssemblyLines;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.EindustryAssemblyLines;
 import fr.guiguilechat.jcelechat.model.sde.industry.AssemblyLine;
 
 public class ClientCacheAssemblyLineTranslator {

@@ -5,10 +5,14 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.nio.file.Files;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
+import fr.guiguilechat.jcelechat.libs.gameclient.meta.PythonLoadedLib;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ResourceIndex;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ResourceMetaData;
 import lombok.Getter;
@@ -52,51 +56,110 @@ public class ClientCache {
 		}
 	}
 
-	public void extractOn(Predicate<String> resourceNameFilter, PrintStream out, PrintStream err) {
+	public int extractOn(Predicate<String> resourceNameFilter, PrintStream out, PrintStream err) {
 		failOnProtected();
+		AtomicInteger successes = new AtomicInteger(0);
 		getVersionDir().mkdirs();
-		getAllIndexes().parallelStream().forEach(i -> {
-			i.getMap().entrySet().parallelStream().forEach(e -> {
-				String resName = e.getKey();
-				ResourceMetaData md = e.getValue();
-				if (resourceNameFilter.test(resName)) {
-					if(out!=null) {
-						out.println(resName);
+		getAllIndexes().parallelStream()
+				.flatMap(i -> i.getMap().entrySet().parallelStream())
+				.filter(e -> resourceNameFilter.test(e.getKey()))
+				.forEach(e -> {
+					if (out != null) {
+						out.println(e.getKey());
 					}
 					try {
-						md.dump(getVersionDir());
+						e.getValue().dump(getVersionDir());
+						successes.addAndGet(1);
 					} catch (IOException io) {
-						if(err!=null) {
+						if (err != null) {
 							err.println(io.getClass().getSimpleName() + " : " + io.getMessage());
 						}
-						log.error("while opening " + resName, io);
+						log.error("while opening " + e.getKey(), io);
 					}
-				}
-			});
-		});
+				});
+		return successes.get();
 	}
 
-	public void extractOn(Predicate<String> resourceNameFilter) {
-		extractOn(resourceNameFilter, null, null);
+	public int extractOn(Predicate<String> resourceNameFilter) {
+		return extractOn(resourceNameFilter, null, null);
+	}
+
+	public ResourceMetaData metaData(String resName) {
+		failOnProtected();
+		for (ResourceIndex i : getAllIndexes()) {
+			ResourceMetaData md = i.getMap().get(resName);
+			if (md != null) {
+				return md;
+			}
+
+		}
+
+		return null;
 	}
 
 	public File file(String resName) {
-		failOnProtected();
 		File target = new File(getVersionDir(), resName);
 		if (target.exists()) {
 			return target;
 		}
-		for (ResourceIndex i : getAllIndexes()) {
-			ResourceMetaData md = i.getMap().get(resName);
-			if (md != null) {
-				try {
-					return md.dump(getVersionDir());
-				} catch (IOException e) {
-					log.error(" for resource " + resName, e);
-				}
+		ResourceMetaData md = metaData(resName);
+		if (md != null) {
+			try {
+				return md.dump(getVersionDir());
+			} catch (IOException e) {
+				log.error(" for resource " + resName, e);
 			}
 		}
 		return null;
+	}
+
+	public File file(ResourceMetaData rmd) {
+		return file(rmd.resName());
+	}
+
+	//
+	// specific python loaders
+	//
+
+	public Stream<PythonLoadedLib> streamPyLibs() {
+		return getAllIndexes().stream()
+				.flatMap(idx -> idx.getLines().stream())
+				.filter(md -> md.resName().endsWith("Loader.pyd"))
+				.map(this::makePyLib)
+				.filter(o -> o != null);
+	}
+
+	PythonLoadedLib makePyLib(ResourceMetaData loaderLine) {
+		String name = loaderLine.resName()
+				.replaceAll("Loader.pyd$", "")
+				.replaceAll("^.*/", "")
+				.toLowerCase();
+		String fsdBinaryName = "staticdata/" + name + ".fsdbinary";
+		ResourceMetaData fsdBinary = metaData(fsdBinaryName);
+		if (fsdBinary == null) {
+			System.err.println("can't find fsdbinary " + fsdBinaryName + " for loader " + loaderLine.resName());
+			return null;
+		}
+		return new PythonLoadedLib(name, loaderLine, fsdBinary);
+	}
+
+	@Getter(lazy = true)
+	private final Map<String, PythonLoadedLib> pyLibs = streamPyLibs()
+			.collect(Collectors.toMap(
+					pl -> pl.getResourceName(),
+					pl -> pl));
+
+	/**
+	 * cache the files of a python loader
+	 *
+	 * @param pll the meta data of the python loader
+	 * @return true of both files could be cached.
+	 */
+	public boolean cache(PythonLoadedLib pll) {
+		return Stream.of(pll.getLoader(), pll.getFsdbinary()).parallel()
+				.map(this::file)
+				.filter(f -> f == null)
+				.findAny().isEmpty();
 	}
 
 }

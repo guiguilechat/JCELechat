@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
-import fr.guiguilechat.jcelechat.libs.gameclient.structure.staticdata.EindustryActivities;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.EindustryActivities;
 import fr.guiguilechat.jcelechat.libs.spring.gameclient.updater.GameClientUpdateListener;
 import jakarta.transaction.Transactional;
 import jakarta.transaction.Transactional.TxType;
