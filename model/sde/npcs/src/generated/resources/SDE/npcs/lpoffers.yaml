@@ -42574,7 +42574,7 @@ offers:
       lp: 10000
   19439:
     id: 19439
-    name: 'ORE Deep Core Strip Miner '
+    name: ORE Deep Core Strip Miner
     product:
       id: 87562
       quantity: 1

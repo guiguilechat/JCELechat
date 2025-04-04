@@ -12,7 +12,7 @@ public class R_get_characters_character_id_fittings {
     /**
      * items array
      */
-    public R_get_characters_character_id_fittings_items[] items;
+    public fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.items[] items;
     /**
      * name string
      */

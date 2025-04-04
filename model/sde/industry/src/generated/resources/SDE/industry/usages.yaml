@@ -1,32 +1,32 @@
 18:
+  compressFrom: 62530
   reprocessInto:
     34: 1.75
     36: 0.7
-  compressFrom: 62530
 19:
+  compressFrom: 62574
   reprocessInto:
     34: 480.0
     37: 10.0
     38: 1.6
     39: 0.8
     40: 0.4
-  compressFrom: 62574
 20:
+  compressFrom: 28620
   reprocessInto:
     36: 0.6
     37: 1.2
-  compressFrom: 28620
 21:
+  compressFrom: 62550
   reprocessInto:
     35: 4.5
     38: 1.2
-  compressFrom: 62550
 22:
+  compressFrom: 28625
   reprocessInto:
     35: 32.0
     36: 12.0
     40: 1.2
-  compressFrom: 28625
 34:
   materialInManuf: !!set
     35782: null
@@ -35847,58 +35847,58 @@
   productOfInvention: !!set
     1204: null
 1223:
+  compressFrom: 46676
   reprocessInto:
     35: 32.0
     36: 12.0
     39: 1.6
-  compressFrom: 46676
 1224:
+  compressFrom: 28618
   reprocessInto:
     35: 0.9
     36: 0.3
-  compressFrom: 28618
 1225:
+  compressFrom: 28624
   reprocessInto:
     35: 8.0
     36: 20.0
     38: 8.0
-  compressFrom: 28624
 1226:
+  compressFrom: 28621
   reprocessInto:
     36: 1.5
     38: 0.5
-  compressFrom: 28621
 1227:
+  compressFrom: 28619
   reprocessInto:
     35: 0.9
     37: 0.75
-  compressFrom: 28619
 1228:
+  compressFrom: 62522
   reprocessInto:
     34: 1.5
     35: 0.9
-  compressFrom: 62522
 1229:
+  compressFrom: 28622
   reprocessInto:
     35: 20.0
     36: 15.0
     37: 8.0
-  compressFrom: 28622
 1230:
+  compressFrom: 28617
   reprocessInto:
     34: 4.0
-  compressFrom: 28617
 1231:
+  compressFrom: 62546
   reprocessInto:
     37: 2.4
     38: 0.9
-  compressFrom: 62546
 1232:
+  compressFrom: 28623
   reprocessInto:
     36: 13.6
     37: 12.0
     38: 3.2
-  compressFrom: 28623
 1236:
   productOfManuf: !!set
     1237: null
@@ -47153,8 +47153,6 @@
 4051:
   materialInManuf: !!set
     33067: null
-  productOfManuf: !!set
-    4314: null
   materialInReaction: !!set
     46209: null
     46207: null
@@ -47182,6 +47180,8 @@
     46164: null
     46163: null
     46251: null
+  productOfManuf: !!set
+    4314: null
   reprocessInto:
     44: 0.1
     3683: 0.55
@@ -47210,8 +47210,6 @@
   productOfInvention: !!set
     844: null
 4246:
-  productOfManuf: !!set
-    4316: null
   materialInReaction: !!set
     46206: null
     57501: null
@@ -47242,6 +47240,8 @@
     46243: null
     46249: null
     46250: null
+  productOfManuf: !!set
+    4316: null
   reprocessInto:
     44: 0.1
     3683: 0.55
@@ -47253,8 +47253,6 @@
     16275: 0.5
     17889: 11.25
 4247:
-  productOfManuf: !!set
-    4315: null
   materialInReaction: !!set
     57503: null
     46208: null
@@ -47283,6 +47281,8 @@
     46216: null
     46248: null
     46200: null
+  productOfManuf: !!set
+    4315: null
   reprocessInto:
     44: 0.1
     3683: 0.55
@@ -47516,8 +47516,6 @@
 4312:
   materialInManuf: !!set
     33067: null
-  productOfManuf: !!set
-    4313: null
   materialInReaction: !!set
     57491: null
     46224: null
@@ -47546,6 +47544,8 @@
     57505: null
     46245: null
     46246: null
+  productOfManuf: !!set
+    4313: null
   reprocessInto:
     44: 0.1
     3683: 0.55
@@ -54068,9 +54068,9 @@
   productOfInvention: !!set
     944: null
 11396:
+  compressFrom: 28626
   reprocessInto:
     11399: 1.4
-  compressFrom: 28626
 11399:
   materialInManuf: !!set
     22469: null
@@ -55713,8 +55713,6 @@
     26303: null
     31072: null
     20350: null
-  productOfManuf: !!set
-    11884: null
   materialInME: !!set
     31293: null
     26377: null
@@ -55930,6 +55928,8 @@
     31453: null
     26303: null
     20350: null
+  productOfManuf: !!set
+    11884: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -55994,8 +55994,6 @@
     3505: null
     1566: null
     2033: null
-  productOfManuf: !!set
-    11882: null
   materialInME: !!set
     3996: null
     48096: null
@@ -56107,6 +56105,8 @@
     3505: null
     1566: null
     2033: null
+  productOfManuf: !!set
+    11882: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -56221,8 +56221,6 @@
     44041: null
     28206: null
     28202: null
-  productOfManuf: !!set
-    11880: null
   materialInME: !!set
     44051: null
     60359: null
@@ -56441,6 +56439,8 @@
     44041: null
     28206: null
     28202: null
+  productOfManuf: !!set
+    11880: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -56501,8 +56501,6 @@
     26307: null
     31140: null
     26321: null
-  productOfManuf: !!set
-    11883: null
   materialInME: !!set
     28847: null
     46646: null
@@ -56614,6 +56612,8 @@
     26307: null
     31140: null
     26321: null
+  productOfManuf: !!set
+    11883: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -56675,8 +56675,6 @@
     2906: null
     24532: null
     12774: null
-  productOfManuf: !!set
-    11876: null
   materialInME: !!set
     2802: null
     12016: null
@@ -56791,6 +56789,8 @@
     2906: null
     24532: null
     12774: null
+  productOfManuf: !!set
+    11876: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -56824,8 +56824,6 @@
     22457: null
     11844: null
     4249: null
-  productOfManuf: !!set
-    11877: null
   materialInME: !!set
     22469: null
     11388: null
@@ -56882,6 +56880,8 @@
     22457: null
     11844: null
     4249: null
+  productOfManuf: !!set
+    11877: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -56938,8 +56938,6 @@
     28208: null
     28204: null
     28200: null
-  productOfManuf: !!set
-    11885: null
   materialInME: !!set
     11382: null
     12012: null
@@ -57042,6 +57040,8 @@
     28208: null
     28204: null
     28200: null
+  productOfManuf: !!set
+    11885: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -57093,8 +57093,6 @@
     3984: null
     24534: null
     24530: null
-  productOfManuf: !!set
-    11881: null
   materialInME: !!set
     22465: null
     10632: null
@@ -57185,6 +57183,8 @@
     3984: null
     24534: null
     24530: null
+  productOfManuf: !!set
+    11881: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -57223,8 +57223,6 @@
     24516: null
     24512: null
     1336: null
-  productOfManuf: !!set
-    11857: null
   materialInME: !!set
     22461: null
     3991: null
@@ -57291,6 +57289,8 @@
     24516: null
     24512: null
     1336: null
+  productOfManuf: !!set
+    11857: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -57404,8 +57404,6 @@
     11173: null
     37344: null
     26329: null
-  productOfManuf: !!set
-    11878: null
   materialInME: !!set
     55762: null
     33310: null
@@ -57588,6 +57586,8 @@
     44095: null
     11173: null
     37344: null
+  productOfManuf: !!set
+    11878: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -57652,8 +57652,6 @@
     28577: null
     11175: null
     12806: null
-  productOfManuf: !!set
-    11879: null
   materialInME: !!set
     22467: null
     3990: null
@@ -57784,6 +57782,8 @@
     28577: null
     11175: null
     12806: null
+  productOfManuf: !!set
+    11879: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -62848,8 +62848,6 @@
     33200: null
     33202: null
     11179: null
-  productOfManuf: !!set
-    11886: null
   materialInME: !!set
     11380: null
     33198: null
@@ -62886,6 +62884,8 @@
     33200: null
     33202: null
     11179: null
+  productOfManuf: !!set
+    11886: null
   reprocessInto:
     36: 0.89
     37: 1.67
@@ -71733,57 +71733,57 @@
     39: 2.0
     40: 2.0
 16262:
+  compressFrom: 28628
   reprocessInto:
     16272: 69.0
     16273: 35.0
     16274: 414.0
     16275: 1.0
-  compressFrom: 28628
 16263:
+  compressFrom: 28442
   reprocessInto:
     16272: 69.0
     16273: 35.0
     16275: 1.0
     17889: 414.0
-  compressFrom: 28442
 16264:
+  compressFrom: 28627
   reprocessInto:
     16272: 69.0
     16273: 35.0
     16275: 1.0
     17887: 414.0
-  compressFrom: 28627
 16265:
+  compressFrom: 28444
   reprocessInto:
     16272: 69.0
     16273: 35.0
     16275: 1.0
     17888: 414.0
-  compressFrom: 28444
 16266:
+  compressFrom: 28439
   reprocessInto:
     16272: 1381.0
     16273: 691.0
     16275: 35.0
-  compressFrom: 28439
 16267:
+  compressFrom: 28435
   reprocessInto:
     16272: 691.0
     16273: 1381.0
     16275: 69.0
-  compressFrom: 28435
 16268:
+  compressFrom: 28437
   reprocessInto:
     16272: 345.0
     16273: 691.0
     16275: 104.0
-  compressFrom: 28437
 16269:
+  compressFrom: 28440
   reprocessInto:
     16272: 173.0
     16273: 691.0
     16275: 173.0
-  compressFrom: 28440
 16272:
   materialInManuf: !!set
     42880: null
@@ -74800,147 +74800,147 @@
     37: 7.0
     2872: 1.0
 17425:
+  compressTo: 22
   reprocessInto:
     35: 33.6
     36: 12.6
     40: 1.26
-  compressTo: 22
 17426:
+  compressTo: 22
   reprocessInto:
     35: 35.2
     36: 13.2
     40: 1.32
-  compressTo: 22
 17428:
+  compressTo: 1223
   reprocessInto:
     35: 33.6
     36: 12.6
     39: 1.68
-  compressTo: 1223
 17429:
+  compressTo: 1223
   reprocessInto:
     35: 35.2
     36: 13.2
     39: 1.76
-  compressTo: 1223
 17432:
+  compressTo: 1225
   reprocessInto:
     35: 8.4
     36: 21.0
     38: 8.4
-  compressTo: 1225
 17433:
+  compressTo: 1225
   reprocessInto:
     35: 8.8
     36: 22.0
     38: 8.8
-  compressTo: 1225
 17436:
+  compressTo: 1232
   reprocessInto:
     36: 14.28
     37: 12.6
     38: 3.36
-  compressTo: 1232
 17437:
+  compressTo: 1232
   reprocessInto:
     36: 14.96
     37: 13.2
     38: 3.52
-  compressTo: 1232
 17440:
+  compressTo: 21
   reprocessInto:
     35: 4.73
     38: 1.26
-  compressTo: 21
 17441:
+  compressTo: 21
   reprocessInto:
     35: 4.95
     38: 1.32
-  compressTo: 21
 17444:
+  compressTo: 1231
   reprocessInto:
     37: 2.52
     38: 0.95
-  compressTo: 1231
 17445:
+  compressTo: 1231
   reprocessInto:
     37: 2.64
     38: 0.99
-  compressTo: 1231
 17448:
+  compressTo: 1226
   reprocessInto:
     36: 1.58
     38: 0.53
-  compressTo: 1226
 17449:
+  compressTo: 1226
   reprocessInto:
     36: 1.65
     38: 0.55
-  compressTo: 1226
 17452:
+  compressTo: 20
   reprocessInto:
     36: 0.63
     37: 1.26
-  compressTo: 20
 17453:
+  compressTo: 20
   reprocessInto:
     36: 0.66
     37: 1.32
-  compressTo: 20
 17455:
+  compressTo: 18
   reprocessInto:
     34: 1.84
     36: 0.74
-  compressTo: 18
 17456:
+  compressTo: 18
   reprocessInto:
     34: 1.93
     36: 0.77
-  compressTo: 18
 17459:
+  compressTo: 1224
   reprocessInto:
     35: 0.95
     36: 0.32
-  compressTo: 1224
 17460:
+  compressTo: 1224
   reprocessInto:
     35: 0.99
     36: 0.33
-  compressTo: 1224
 17463:
+  compressTo: 1228
   reprocessInto:
     34: 1.58
     35: 0.95
-  compressTo: 1228
 17464:
+  compressTo: 1228
   reprocessInto:
     34: 1.65
     35: 0.99
-  compressTo: 1228
 17466:
+  compressTo: 19
   reprocessInto:
     34: 504.0
     37: 10.5
     38: 1.68
     39: 0.84
     40: 0.42
-  compressTo: 19
 17467:
+  compressTo: 19
   reprocessInto:
     34: 528.0
     37: 11.0
     38: 1.76
     39: 0.88
     40: 0.44
-  compressTo: 19
 17470:
+  compressTo: 1230
   reprocessInto:
     34: 4.2
-  compressTo: 1230
 17471:
+  compressTo: 1230
   reprocessInto:
     34: 4.4
-  compressTo: 1230
 17476:
   materialInManuf: !!set
     22545: null
@@ -75920,35 +75920,35 @@
     35: 83.33
     39: 1.34
 17865:
+  compressTo: 1229
   reprocessInto:
     35: 21.0
     36: 15.75
     37: 8.4
-  compressTo: 1229
 17866:
+  compressTo: 1229
   reprocessInto:
     35: 22.0
     36: 16.5
     37: 8.8
-  compressTo: 1229
 17867:
+  compressTo: 1227
   reprocessInto:
     35: 0.95
     37: 0.79
-  compressTo: 1227
 17868:
+  compressTo: 1227
   reprocessInto:
     35: 0.99
     37: 0.83
-  compressTo: 1227
 17869:
+  compressTo: 11396
   reprocessInto:
     11399: 1.47
-  compressTo: 11396
 17870:
+  compressTo: 11396
   reprocessInto:
     11399: 1.54
-  compressTo: 11396
 17871:
   reprocessInto:
     38: 2.0
@@ -76169,33 +76169,33 @@
   reprocessedFrom: !!set
     29662: null
 17975:
+  compressTo: 16264
   reprocessInto:
     16272: 104.0
     16273: 55.0
     16275: 1.0
     17887: 483.0
-  compressTo: 16264
 17976:
+  compressTo: 16265
   reprocessInto:
     16272: 104.0
     16273: 55.0
     16275: 1.0
     17888: 483.0
-  compressTo: 16265
 17977:
+  compressTo: 16263
   reprocessInto:
     16272: 104.0
     16273: 55.0
     16275: 1.0
     17889: 483.0
-  compressTo: 16263
 17978:
+  compressTo: 16262
   reprocessInto:
     16272: 104.0
     16273: 55.0
     16274: 483.0
     16275: 1.0
-  compressTo: 16262
 17982:
   reprocessInto:
     34: 101011.0
@@ -106993,85 +106993,85 @@
   reprocessInto:
     34: 400.0
 28433:
+  compressTo: 16264
   reprocessInto:
     16272: 69.0
     16273: 35.0
     16275: 1.0
     17887: 414.0
-  compressTo: 16264
 28434:
+  compressTo: 16262
   reprocessInto:
     16272: 69.0
     16273: 35.0
     16274: 414.0
     16275: 1.0
-  compressTo: 16262
 28435:
+  compressTo: 16267
   reprocessInto:
     16272: 691.0
     16273: 1381.0
     16275: 69.0
-  compressTo: 16267
 28436:
+  compressTo: 16262
   reprocessInto:
     16272: 104.0
     16273: 55.0
     16274: 483.0
     16275: 1.0
-  compressTo: 16262
 28437:
+  compressTo: 16268
   reprocessInto:
     16272: 345.0
     16273: 691.0
     16275: 104.0
-  compressTo: 16268
 28438:
+  compressTo: 16263
   reprocessInto:
     16272: 69.0
     16273: 35.0
     16275: 1.0
     17889: 414.0
-  compressTo: 16263
 28439:
+  compressTo: 16266
   reprocessInto:
     16272: 1381.0
     16273: 691.0
     16275: 35.0
-  compressTo: 16266
 28440:
+  compressTo: 16269
   reprocessInto:
     16272: 173.0
     16273: 691.0
     16275: 173.0
-  compressTo: 16269
 28441:
+  compressTo: 16265
   reprocessInto:
     16272: 104.0
     16273: 55.0
     16275: 1.0
     17888: 483.0
-  compressTo: 16265
 28442:
+  compressTo: 16263
   reprocessInto:
     16272: 104.0
     16273: 55.0
     16275: 1.0
     17889: 483.0
-  compressTo: 16263
 28443:
+  compressTo: 16264
   reprocessInto:
     16272: 104.0
     16273: 55.0
     16275: 1.0
     17887: 483.0
-  compressTo: 16264
 28444:
+  compressTo: 16265
   reprocessInto:
     16272: 69.0
     16273: 35.0
     16275: 1.0
     17888: 414.0
-  compressTo: 16265
 28511:
   productOfManuf: !!set
     28512: null
@@ -127206,117 +127206,117 @@
     39: 50.0
     40: 25.0
 45490:
+  compressFrom: 62463
   reprocessInto:
     35: 80.0
     36: 4.0
     16634: 0.65
-  compressFrom: 62463
 45491:
+  compressFrom: 62461
   reprocessInto:
     35: 40.0
     36: 4.0
     16635: 0.65
-  compressFrom: 62461
 45492:
+  compressFrom: 62456
   reprocessInto:
     35: 60.0
     36: 4.0
     16633: 0.65
-  compressFrom: 62456
 45493:
+  compressFrom: 62459
   reprocessInto:
     35: 20.0
     36: 4.0
     16636: 0.65
-  compressFrom: 62459
 45494:
+  compressFrom: 46289
   reprocessInto:
     16640: 0.4
-  compressFrom: 46289
 45495:
+  compressFrom: 46291
   reprocessInto:
     16639: 0.4
-  compressFrom: 46291
 45496:
+  compressFrom: 46293
   reprocessInto:
     16638: 0.4
-  compressFrom: 46293
 45497:
+  compressFrom: 46295
   reprocessInto:
     16637: 0.4
-  compressFrom: 46295
 45498:
+  compressFrom: 46297
   reprocessInto:
     16634: 0.1
     16643: 0.4
-  compressFrom: 46297
 45499:
+  compressFrom: 46299
   reprocessInto:
     16635: 0.1
     16644: 0.4
-  compressFrom: 46299
 45500:
+  compressFrom: 46301
   reprocessInto:
     16636: 0.1
     16642: 0.4
-  compressFrom: 46301
 45501:
+  compressFrom: 46303
   reprocessInto:
     16633: 0.1
     16641: 0.4
-  compressFrom: 46303
 45502:
+  compressFrom: 46305
   reprocessInto:
     16634: 0.15
     16640: 0.1
     16649: 0.5
-  compressFrom: 46305
 45503:
+  compressFrom: 46307
   reprocessInto:
     16636: 0.15
     16638: 0.1
     16648: 0.5
-  compressFrom: 46307
 45504:
+  compressFrom: 46309
   reprocessInto:
     16633: 0.15
     16639: 0.1
     16647: 0.5
-  compressFrom: 46309
 45506:
+  compressFrom: 46311
   reprocessInto:
     16635: 0.15
     16637: 0.1
     16646: 0.5
-  compressFrom: 46311
 45510:
+  compressFrom: 46313
   reprocessInto:
     16634: 0.2
     16640: 0.2
     16642: 0.1
     16650: 0.22
-  compressFrom: 46313
 45511:
+  compressFrom: 46315
   reprocessInto:
     16635: 0.2
     16637: 0.2
     16641: 0.1
     16651: 0.22
-  compressFrom: 46315
 45512:
+  compressFrom: 46317
   reprocessInto:
     16633: 0.2
     16639: 0.2
     16644: 0.1
     16652: 0.22
-  compressFrom: 46317
 45513:
+  compressFrom: 46319
   reprocessInto:
     16636: 0.2
     16638: 0.2
     16643: 0.1
     16653: 0.22
-  compressFrom: 46319
 45530:
   productOfManuf: !!set
     45533: null
@@ -128413,229 +128413,229 @@
     39: 14.0
     40: 4.0
 46280:
+  compressTo: 45490
   reprocessInto:
     35: 92.0
     36: 4.6
     16634: 0.75
-  compressTo: 45490
 46281:
+  compressTo: 45490
   reprocessInto:
     35: 160.0
     36: 8.0
     16634: 1.3
-  compressTo: 45490
 46282:
+  compressTo: 45491
   reprocessInto:
     35: 46.0
     36: 4.6
     16635: 0.75
-  compressTo: 45491
 46283:
+  compressTo: 45491
   reprocessInto:
     35: 80.0
     36: 8.0
     16635: 1.3
-  compressTo: 45491
 46284:
+  compressTo: 45492
   reprocessInto:
     35: 69.0
     36: 4.6
     16633: 0.75
-  compressTo: 45492
 46285:
+  compressTo: 45492
   reprocessInto:
     35: 120.0
     36: 8.0
     16633: 1.3
-  compressTo: 45492
 46286:
+  compressTo: 45493
   reprocessInto:
     35: 23.0
     36: 4.6
     16636: 0.75
-  compressTo: 45493
 46287:
+  compressTo: 45493
   reprocessInto:
     35: 40.0
     36: 8.0
     16636: 1.3
-  compressTo: 45493
 46288:
+  compressTo: 45494
   reprocessInto:
     16640: 0.46
-  compressTo: 45494
 46289:
+  compressTo: 45494
   reprocessInto:
     16640: 0.8
-  compressTo: 45494
 46290:
+  compressTo: 45495
   reprocessInto:
     16639: 0.46
-  compressTo: 45495
 46291:
+  compressTo: 45495
   reprocessInto:
     16639: 0.8
-  compressTo: 45495
 46292:
+  compressTo: 45496
   reprocessInto:
     16638: 0.46
-  compressTo: 45496
 46293:
+  compressTo: 45496
   reprocessInto:
     16638: 0.8
-  compressTo: 45496
 46294:
+  compressTo: 45497
   reprocessInto:
     16637: 0.46
-  compressTo: 45497
 46295:
+  compressTo: 45497
   reprocessInto:
     16637: 0.8
-  compressTo: 45497
 46296:
+  compressTo: 45498
   reprocessInto:
     16634: 0.12
     16643: 0.46
-  compressTo: 45498
 46297:
+  compressTo: 45498
   reprocessInto:
     16634: 0.2
     16643: 0.8
-  compressTo: 45498
 46298:
+  compressTo: 45499
   reprocessInto:
     16635: 0.12
     16644: 0.46
-  compressTo: 45499
 46299:
+  compressTo: 45499
   reprocessInto:
     16635: 0.2
     16644: 0.8
-  compressTo: 45499
 46300:
+  compressTo: 45500
   reprocessInto:
     16636: 0.12
     16642: 0.46
-  compressTo: 45500
 46301:
+  compressTo: 45500
   reprocessInto:
     16636: 0.2
     16642: 0.8
-  compressTo: 45500
 46302:
+  compressTo: 45501
   reprocessInto:
     16633: 0.12
     16641: 0.46
-  compressTo: 45501
 46303:
+  compressTo: 45501
   reprocessInto:
     16633: 0.2
     16641: 0.8
-  compressTo: 45501
 46304:
+  compressTo: 45502
   reprocessInto:
     16634: 0.17
     16640: 0.12
     16649: 0.58
-  compressTo: 45502
 46305:
+  compressTo: 45502
   reprocessInto:
     16634: 0.3
     16640: 0.2
     16649: 1.0
-  compressTo: 45502
 46306:
+  compressTo: 45503
   reprocessInto:
     16636: 0.17
     16638: 0.12
     16648: 0.58
-  compressTo: 45503
 46307:
+  compressTo: 45503
   reprocessInto:
     16636: 0.3
     16638: 0.2
     16648: 1.0
-  compressTo: 45503
 46308:
+  compressTo: 45504
   reprocessInto:
     16633: 0.17
     16639: 0.12
     16647: 0.58
-  compressTo: 45504
 46309:
+  compressTo: 45504
   reprocessInto:
     16633: 0.3
     16639: 0.2
     16647: 1.0
-  compressTo: 45504
 46310:
+  compressTo: 45506
   reprocessInto:
     16635: 0.17
     16637: 0.12
     16646: 0.58
-  compressTo: 45506
 46311:
+  compressTo: 45506
   reprocessInto:
     16635: 0.3
     16637: 0.2
     16646: 1.0
-  compressTo: 45506
 46312:
+  compressTo: 45510
   reprocessInto:
     16634: 0.23
     16640: 0.23
     16642: 0.12
     16650: 0.25
-  compressTo: 45510
 46313:
+  compressTo: 45510
   reprocessInto:
     16634: 0.4
     16640: 0.4
     16642: 0.2
     16650: 0.44
-  compressTo: 45510
 46314:
+  compressTo: 45511
   reprocessInto:
     16635: 0.23
     16637: 0.23
     16641: 0.12
     16651: 0.25
-  compressTo: 45511
 46315:
+  compressTo: 45511
   reprocessInto:
     16635: 0.4
     16637: 0.4
     16641: 0.2
     16651: 0.44
-  compressTo: 45511
 46316:
+  compressTo: 45512
   reprocessInto:
     16633: 0.23
     16639: 0.23
     16644: 0.12
     16652: 0.25
-  compressTo: 45512
 46317:
+  compressTo: 45512
   reprocessInto:
     16633: 0.4
     16639: 0.4
     16644: 0.2
     16652: 0.44
-  compressTo: 45512
 46318:
+  compressTo: 45513
   reprocessInto:
     16636: 0.23
     16638: 0.23
     16643: 0.12
     16653: 0.25
-  compressTo: 45513
 46319:
+  compressTo: 45513
   reprocessInto:
     16636: 0.4
     16638: 0.4
     16643: 0.2
     16653: 0.44
-  compressTo: 45513
 46323:
   productOfManuf: !!set
     46505: null
@@ -129199,89 +129199,89 @@
   productOfInvention: !!set
     46651: null
 46675:
+  compressFrom: 62559
   reprocessInto:
     36: 15.64
     37: 13.8
     38: 3.68
-  compressFrom: 62559
 46676:
+  compressFrom: 62567
+  compressTo: 1223
   reprocessInto:
     35: 36.8
     36: 13.8
     39: 1.84
-  compressTo: 1223
-  compressFrom: 62567
 46677:
+  compressFrom: 62563
   reprocessInto:
     35: 9.2
     36: 23.0
     38: 9.2
-  compressFrom: 62563
 46678:
+  compressFrom: 62571
+  compressTo: 22
   reprocessInto:
     35: 36.8
     36: 13.8
     40: 1.38
-  compressTo: 22
-  compressFrom: 62571
 46679:
+  compressFrom: 62555
   reprocessInto:
     35: 23.0
     36: 17.25
     37: 9.2
-  compressFrom: 62555
 46680:
+  compressFrom: 62551
   reprocessInto:
     35: 5.18
     38: 1.38
-  compressFrom: 62551
 46681:
+  compressFrom: 62547
   reprocessInto:
     37: 2.76
     38: 1.04
-  compressFrom: 62547
 46682:
+  compressFrom: 62543
   reprocessInto:
     36: 1.73
     38: 0.58
-  compressFrom: 62543
 46683:
+  compressFrom: 62539
   reprocessInto:
     36: 0.69
     37: 1.38
-  compressFrom: 62539
 46684:
+  compressFrom: 62535
   reprocessInto:
     35: 1.04
     37: 0.86
-  compressFrom: 62535
 46685:
+  compressFrom: 62531
   reprocessInto:
     34: 2.01
     36: 0.81
-  compressFrom: 62531
 46686:
+  compressFrom: 62527
   reprocessInto:
     35: 1.04
     36: 0.35
-  compressFrom: 62527
 46687:
+  compressFrom: 62523
   reprocessInto:
     34: 1.73
     35: 1.04
-  compressFrom: 62523
 46688:
+  compressFrom: 62575
   reprocessInto:
     34: 552.0
     37: 11.5
     38: 1.84
     39: 0.92
     40: 0.46
-  compressFrom: 62575
 46689:
+  compressFrom: 62519
   reprocessInto:
     34: 4.6
-  compressFrom: 62519
 46691:
   reprocessInto:
     35: 3680.0
@@ -132459,11 +132459,11 @@
     52921: null
     52922: null
 52315:
+  compressFrom: 77524
   reprocessInto:
     34: 400.0
     37: 32.0
     39: 2.0
-  compressFrom: 77524
 52316:
   reprocessInto:
     34: 400.0
@@ -136562,669 +136562,669 @@
   reprocessInto:
     30377: 1.0
 62454:
+  compressTo: 45492
   reprocessInto:
     35: 60.0
     36: 4.0
     16633: 0.65
-  compressTo: 45492
 62455:
+  compressTo: 45492
   reprocessInto:
     35: 69.0
     36: 4.6
     16633: 0.75
-  compressTo: 45492
 62456:
+  compressTo: 45492
   reprocessInto:
     35: 120.0
     36: 8.0
     16633: 1.3
-  compressTo: 45492
 62457:
+  compressTo: 45493
   reprocessInto:
     35: 20.0
     36: 4.0
     16636: 0.65
-  compressTo: 45493
 62458:
+  compressTo: 45493
   reprocessInto:
     35: 23.0
     36: 4.6
     16636: 0.75
-  compressTo: 45493
 62459:
+  compressTo: 45493
   reprocessInto:
     35: 40.0
     36: 8.0
     16636: 1.3
-  compressTo: 45493
 62460:
+  compressTo: 45491
   reprocessInto:
     35: 40.0
     36: 4.0
     16635: 0.65
-  compressTo: 45491
 62461:
+  compressTo: 45491
   reprocessInto:
     35: 46.0
     36: 4.6
     16635: 0.75
-  compressTo: 45491
 62463:
+  compressTo: 45490
   reprocessInto:
     35: 80.0
     36: 4.0
     16634: 0.65
-  compressTo: 45490
 62464:
+  compressTo: 45490
   reprocessInto:
     35: 92.0
     36: 4.6
     16634: 0.75
-  compressTo: 45490
 62466:
+  compressTo: 45491
   reprocessInto:
     35: 80.0
     36: 8.0
     16635: 1.3
-  compressTo: 45491
 62467:
+  compressTo: 45490
   reprocessInto:
     35: 160.0
     36: 8.0
     16634: 1.3
-  compressTo: 45490
 62468:
+  compressTo: 45497
   reprocessInto:
     16637: 0.4
-  compressTo: 45497
 62469:
+  compressTo: 45497
   reprocessInto:
     16637: 0.46
-  compressTo: 45497
 62470:
+  compressTo: 45497
   reprocessInto:
     16637: 0.8
-  compressTo: 45497
 62471:
+  compressTo: 45495
   reprocessInto:
     16639: 0.4
-  compressTo: 45495
 62472:
+  compressTo: 45495
   reprocessInto:
     16639: 0.46
-  compressTo: 45495
 62473:
+  compressTo: 45495
   reprocessInto:
     16639: 0.8
-  compressTo: 45495
 62474:
+  compressTo: 45494
   reprocessInto:
     16640: 0.4
-  compressTo: 45494
 62475:
+  compressTo: 45494
   reprocessInto:
     16640: 0.46
-  compressTo: 45494
 62476:
+  compressTo: 45494
   reprocessInto:
     16640: 0.8
-  compressTo: 45494
 62477:
+  compressTo: 45496
   reprocessInto:
     16638: 0.4
-  compressTo: 45496
 62478:
+  compressTo: 45496
   reprocessInto:
     16638: 0.46
-  compressTo: 45496
 62479:
+  compressTo: 45496
   reprocessInto:
     16638: 0.8
-  compressTo: 45496
 62480:
+  compressTo: 45501
   reprocessInto:
     16633: 0.1
     16641: 0.4
-  compressTo: 45501
 62481:
+  compressTo: 45501
   reprocessInto:
     16633: 0.12
     16641: 0.46
-  compressTo: 45501
 62482:
+  compressTo: 45501
   reprocessInto:
     16633: 0.2
     16641: 0.8
-  compressTo: 45501
 62483:
+  compressTo: 45498
   reprocessInto:
     16634: 0.1
     16643: 0.4
-  compressTo: 45498
 62484:
+  compressTo: 45498
   reprocessInto:
     16634: 0.12
     16643: 0.46
-  compressTo: 45498
 62485:
+  compressTo: 45498
   reprocessInto:
     16634: 0.2
     16643: 0.8
-  compressTo: 45498
 62486:
+  compressTo: 45499
   reprocessInto:
     16635: 0.1
     16644: 0.4
-  compressTo: 45499
 62487:
+  compressTo: 45499
   reprocessInto:
     16635: 0.12
     16644: 0.46
-  compressTo: 45499
 62488:
+  compressTo: 45499
   reprocessInto:
     16635: 0.2
     16644: 0.8
-  compressTo: 45499
 62489:
+  compressTo: 45500
   reprocessInto:
     16636: 0.1
     16642: 0.4
-  compressTo: 45500
 62490:
+  compressTo: 45500
   reprocessInto:
     16636: 0.12
     16642: 0.46
-  compressTo: 45500
 62491:
+  compressTo: 45500
   reprocessInto:
     16636: 0.2
     16642: 0.8
-  compressTo: 45500
 62492:
+  compressTo: 45502
   reprocessInto:
     16634: 0.15
     16640: 0.1
     16649: 0.5
-  compressTo: 45502
 62493:
+  compressTo: 45502
   reprocessInto:
     16634: 0.17
     16640: 0.12
     16649: 0.58
-  compressTo: 45502
 62494:
+  compressTo: 45502
   reprocessInto:
     16634: 0.3
     16640: 0.2
     16649: 1.0
-  compressTo: 45502
 62495:
+  compressTo: 45506
   reprocessInto:
     16635: 0.15
     16637: 0.1
     16646: 0.5
-  compressTo: 45506
 62496:
+  compressTo: 45506
   reprocessInto:
     16635: 0.17
     16637: 0.12
     16646: 0.58
-  compressTo: 45506
 62497:
+  compressTo: 45506
   reprocessInto:
     16635: 0.3
     16637: 0.2
     16646: 1.0
-  compressTo: 45506
 62498:
+  compressTo: 45504
   reprocessInto:
     16633: 0.15
     16639: 0.1
     16647: 0.5
-  compressTo: 45504
 62499:
+  compressTo: 45504
   reprocessInto:
     16633: 0.17
     16639: 0.12
     16647: 0.58
-  compressTo: 45504
 62500:
+  compressTo: 45504
   reprocessInto:
     16633: 0.3
     16639: 0.2
     16647: 1.0
-  compressTo: 45504
 62501:
+  compressTo: 45503
   reprocessInto:
     16636: 0.15
     16638: 0.1
     16648: 0.5
-  compressTo: 45503
 62502:
+  compressTo: 45503
   reprocessInto:
     16636: 0.17
     16638: 0.12
     16648: 0.58
-  compressTo: 45503
 62503:
+  compressTo: 45503
   reprocessInto:
     16636: 0.3
     16638: 0.2
     16648: 1.0
-  compressTo: 45503
 62504:
+  compressTo: 45512
   reprocessInto:
     16633: 0.2
     16639: 0.2
     16644: 0.1
     16652: 0.22
-  compressTo: 45512
 62505:
+  compressTo: 45512
   reprocessInto:
     16633: 0.23
     16639: 0.23
     16644: 0.12
     16652: 0.25
-  compressTo: 45512
 62506:
+  compressTo: 45512
   reprocessInto:
     16633: 0.4
     16639: 0.4
     16644: 0.2
     16652: 0.44
-  compressTo: 45512
 62507:
+  compressTo: 45511
   reprocessInto:
     16635: 0.2
     16637: 0.2
     16641: 0.1
     16651: 0.22
-  compressTo: 45511
 62508:
+  compressTo: 45511
   reprocessInto:
     16635: 0.23
     16637: 0.23
     16641: 0.12
     16651: 0.25
-  compressTo: 45511
 62509:
+  compressTo: 45511
   reprocessInto:
     16635: 0.4
     16637: 0.4
     16641: 0.2
     16651: 0.44
-  compressTo: 45511
 62510:
+  compressTo: 45510
   reprocessInto:
     16634: 0.2
     16640: 0.2
     16642: 0.1
     16650: 0.22
-  compressTo: 45510
 62511:
+  compressTo: 45510
   reprocessInto:
     16634: 0.23
     16640: 0.23
     16642: 0.12
     16650: 0.25
-  compressTo: 45510
 62512:
+  compressTo: 45510
   reprocessInto:
     16634: 0.4
     16640: 0.4
     16642: 0.2
     16650: 0.44
-  compressTo: 45510
 62513:
+  compressTo: 45513
   reprocessInto:
     16636: 0.2
     16638: 0.2
     16643: 0.1
     16653: 0.22
-  compressTo: 45513
 62514:
+  compressTo: 45513
   reprocessInto:
     16636: 0.23
     16638: 0.23
     16643: 0.12
     16653: 0.25
-  compressTo: 45513
 62515:
+  compressTo: 45513
   reprocessInto:
     16636: 0.4
     16638: 0.4
     16643: 0.2
     16653: 0.44
-  compressTo: 45513
 62516:
+  compressTo: 1230
   reprocessInto:
     34: 4.0
-  compressTo: 1230
 62517:
+  compressTo: 1230
   reprocessInto:
     34: 4.2
-  compressTo: 1230
 62518:
+  compressTo: 1230
   reprocessInto:
     34: 4.4
-  compressTo: 1230
 62519:
+  compressTo: 46689
   reprocessInto:
     34: 4.6
-  compressTo: 46689
 62520:
+  compressTo: 1228
   reprocessInto:
     34: 1.5
     35: 0.9
-  compressTo: 1228
 62521:
+  compressTo: 1228
   reprocessInto:
     34: 1.58
     35: 0.95
-  compressTo: 1228
 62522:
+  compressTo: 1228
   reprocessInto:
     34: 1.65
     35: 0.99
-  compressTo: 1228
 62523:
+  compressTo: 46687
   reprocessInto:
     34: 1.73
     35: 1.04
-  compressTo: 46687
 62524:
+  compressTo: 1224
   reprocessInto:
     35: 0.9
     36: 0.3
-  compressTo: 1224
 62525:
+  compressTo: 1224
   reprocessInto:
     35: 0.95
     36: 0.32
-  compressTo: 1224
 62526:
+  compressTo: 1224
   reprocessInto:
     35: 0.99
     36: 0.33
-  compressTo: 1224
 62527:
+  compressTo: 46686
   reprocessInto:
     35: 1.04
     36: 0.35
-  compressTo: 46686
 62528:
+  compressTo: 18
   reprocessInto:
     34: 1.75
     36: 0.7
-  compressTo: 18
 62529:
+  compressTo: 18
   reprocessInto:
     34: 1.84
     36: 0.74
-  compressTo: 18
 62530:
+  compressTo: 18
   reprocessInto:
     34: 1.93
     36: 0.77
-  compressTo: 18
 62531:
+  compressTo: 46685
   reprocessInto:
     34: 2.01
     36: 0.81
-  compressTo: 46685
 62532:
+  compressTo: 1227
   reprocessInto:
     35: 0.9
     37: 0.75
-  compressTo: 1227
 62533:
+  compressTo: 1227
   reprocessInto:
     35: 0.95
     37: 0.79
-  compressTo: 1227
 62534:
+  compressTo: 1227
   reprocessInto:
     35: 0.99
     37: 0.83
-  compressTo: 1227
 62535:
+  compressTo: 46684
   reprocessInto:
     35: 1.04
     37: 0.86
-  compressTo: 46684
 62536:
+  compressTo: 20
   reprocessInto:
     36: 0.6
     37: 1.2
-  compressTo: 20
 62537:
+  compressTo: 20
   reprocessInto:
     36: 0.63
     37: 1.26
-  compressTo: 20
 62538:
+  compressTo: 20
   reprocessInto:
     36: 0.66
     37: 1.32
-  compressTo: 20
 62539:
+  compressTo: 46683
   reprocessInto:
     36: 0.69
     37: 1.38
-  compressTo: 46683
 62540:
+  compressTo: 1226
   reprocessInto:
     36: 1.5
     38: 0.5
-  compressTo: 1226
 62541:
+  compressTo: 1226
   reprocessInto:
     36: 1.58
     38: 0.53
-  compressTo: 1226
 62542:
+  compressTo: 1226
   reprocessInto:
     36: 1.65
     38: 0.55
-  compressTo: 1226
 62543:
+  compressTo: 46682
   reprocessInto:
     36: 1.73
     38: 0.58
-  compressTo: 46682
 62544:
+  compressTo: 1231
   reprocessInto:
     37: 2.4
     38: 0.9
-  compressTo: 1231
 62545:
+  compressTo: 1231
   reprocessInto:
     37: 2.52
     38: 0.95
-  compressTo: 1231
 62546:
+  compressTo: 1231
   reprocessInto:
     37: 2.64
     38: 0.99
-  compressTo: 1231
 62547:
+  compressTo: 46681
   reprocessInto:
     37: 2.76
     38: 1.04
-  compressTo: 46681
 62548:
+  compressTo: 21
   reprocessInto:
     35: 4.5
     38: 1.2
-  compressTo: 21
 62549:
+  compressTo: 21
   reprocessInto:
     35: 4.73
     38: 1.26
-  compressTo: 21
 62550:
+  compressTo: 21
   reprocessInto:
     35: 4.95
     38: 1.32
-  compressTo: 21
 62551:
+  compressTo: 46680
   reprocessInto:
     35: 5.18
     38: 1.38
-  compressTo: 46680
 62552:
+  compressTo: 1229
   reprocessInto:
     35: 20.0
     36: 15.0
     37: 8.0
-  compressTo: 1229
 62553:
+  compressTo: 1229
   reprocessInto:
     35: 21.0
     36: 15.75
     37: 8.4
-  compressTo: 1229
 62554:
+  compressTo: 1229
   reprocessInto:
     35: 22.0
     36: 16.5
     37: 8.8
-  compressTo: 1229
 62555:
+  compressTo: 46679
   reprocessInto:
     35: 23.0
     36: 17.25
     37: 9.2
-  compressTo: 46679
 62556:
+  compressTo: 1232
   reprocessInto:
     36: 13.6
     37: 12.0
     38: 3.2
-  compressTo: 1232
 62557:
+  compressTo: 1232
   reprocessInto:
     36: 14.28
     37: 12.6
     38: 3.36
-  compressTo: 1232
 62558:
+  compressTo: 1232
   reprocessInto:
     36: 14.96
     37: 13.2
     38: 3.52
-  compressTo: 1232
 62559:
+  compressTo: 46675
   reprocessInto:
     36: 15.64
     37: 13.8
     38: 3.68
-  compressTo: 46675
 62560:
+  compressTo: 1225
   reprocessInto:
     35: 8.0
     36: 20.0
     38: 8.0
-  compressTo: 1225
 62561:
+  compressTo: 1225
   reprocessInto:
     35: 8.4
     36: 21.0
     38: 8.4
-  compressTo: 1225
 62562:
+  compressTo: 1225
   reprocessInto:
     35: 8.8
     36: 22.0
     38: 8.8
-  compressTo: 1225
 62563:
+  compressTo: 46677
   reprocessInto:
     35: 9.2
     36: 23.0
     38: 9.2
-  compressTo: 46677
 62564:
+  compressTo: 1223
   reprocessInto:
     35: 32.0
     36: 12.0
     39: 1.6
-  compressTo: 1223
 62565:
+  compressTo: 1223
   reprocessInto:
     35: 33.6
     36: 12.6
     39: 1.68
-  compressTo: 1223
 62566:
+  compressTo: 1223
   reprocessInto:
     35: 35.2
     36: 13.2
     39: 1.76
-  compressTo: 1223
 62567:
+  compressTo: 46676
   reprocessInto:
     35: 36.8
     36: 13.8
     39: 1.84
-  compressTo: 46676
 62568:
+  compressTo: 22
   reprocessInto:
     35: 32.0
     36: 12.0
     40: 1.2
-  compressTo: 22
 62569:
+  compressTo: 22
   reprocessInto:
     35: 33.6
     36: 12.6
     40: 1.26
-  compressTo: 22
 62570:
+  compressTo: 22
   reprocessInto:
     35: 35.2
     36: 13.2
     40: 1.32
-  compressTo: 22
 62571:
+  compressTo: 46678
   reprocessInto:
     35: 36.8
     36: 13.8
     40: 1.38
-  compressTo: 46678
 62572:
+  compressTo: 19
   reprocessInto:
     34: 480.0
     37: 10.0
     38: 1.6
     39: 0.8
     40: 0.4
-  compressTo: 19
 62573:
+  compressTo: 19
   reprocessInto:
     34: 504.0
     37: 10.5
     38: 1.68
     39: 0.84
     40: 0.42
-  compressTo: 19
 62574:
+  compressTo: 19
   reprocessInto:
     34: 528.0
     37: 11.0
     38: 1.76
     39: 0.88
     40: 0.44
-  compressTo: 19
 62575:
+  compressTo: 46688
   reprocessInto:
     34: 552.0
     37: 11.5
     38: 1.84
     39: 0.92
     40: 0.46
-  compressTo: 46688
 62576:
   reprocessInto:
     34: 400.0
@@ -137271,17 +137271,17 @@
     38: 10.56
     40: 0.35
 62586:
+  compressTo: 11396
   reprocessInto:
     11399: 1.4
-  compressTo: 11396
 62587:
+  compressTo: 11396
   reprocessInto:
     11399: 1.47
-  compressTo: 11396
 62588:
+  compressTo: 11396
   reprocessInto:
     11399: 1.54
-  compressTo: 11396
 62590:
   materialInManuf: !!set
     62593: null
@@ -137706,133 +137706,133 @@
     11551: 600.0
     11555: 450.0
 74521:
-  reprocessInto:
-    35: 0.84
   compressFrom: 74524
-74522:
-  reprocessInto:
-    35: 0.88
-  compressTo: 74521
-74523:
-  reprocessInto:
-    35: 0.92
-  compressTo: 74521
-74524:
-  reprocessInto:
-    35: 0.96
-  compressTo: 74521
-74525:
-  reprocessInto:
-    37: 2.4
-  compressFrom: 74528
-74526:
-  reprocessInto:
-    37: 2.52
-  compressTo: 74525
-74527:
-  reprocessInto:
-    37: 2.64
-  compressTo: 74525
-74528:
-  reprocessInto:
-    37: 2.76
-  compressTo: 74525
-74529:
-  reprocessInto:
-    39: 2.66
-  compressFrom: 74532
-74530:
-  reprocessInto:
-    39: 2.79
-  compressTo: 74529
-74531:
-  reprocessInto:
-    39: 2.93
-  compressTo: 74529
-74532:
-  reprocessInto:
-    39: 3.06
-  compressTo: 74529
-74533:
-  reprocessInto:
-    40: 1.7
-  compressFrom: 74536
-74534:
-  reprocessInto:
-    40: 1.79
-  compressTo: 74533
-74535:
-  reprocessInto:
-    40: 1.87
-  compressTo: 74533
-74536:
-  reprocessInto:
-    40: 1.96
-  compressTo: 74533
-75275:
   reprocessInto:
     35: 0.84
+74522:
   compressTo: 74521
-75276:
   reprocessInto:
     35: 0.88
+74523:
   compressTo: 74521
-75277:
   reprocessInto:
     35: 0.92
+74524:
   compressTo: 74521
-75278:
   reprocessInto:
     35: 0.96
-  compressTo: 74521
-75279:
+74525:
+  compressFrom: 74528
   reprocessInto:
     37: 2.4
+74526:
   compressTo: 74525
-75280:
   reprocessInto:
     37: 2.52
+74527:
   compressTo: 74525
-75281:
   reprocessInto:
     37: 2.64
+74528:
   compressTo: 74525
-75282:
   reprocessInto:
     37: 2.76
-  compressTo: 74525
-75283:
+74529:
+  compressFrom: 74532
   reprocessInto:
     39: 2.66
+74530:
   compressTo: 74529
-75284:
   reprocessInto:
     39: 2.79
+74531:
   compressTo: 74529
-75285:
   reprocessInto:
     39: 2.93
+74532:
   compressTo: 74529
-75286:
   reprocessInto:
     39: 3.06
-  compressTo: 74529
-75287:
+74533:
+  compressFrom: 74536
   reprocessInto:
     40: 1.7
+74534:
   compressTo: 74533
-75288:
   reprocessInto:
     40: 1.79
+74535:
   compressTo: 74533
-75289:
   reprocessInto:
     40: 1.87
+74536:
   compressTo: 74533
-75290:
   reprocessInto:
     40: 1.96
+75275:
+  compressTo: 74521
+  reprocessInto:
+    35: 0.84
+75276:
+  compressTo: 74521
+  reprocessInto:
+    35: 0.88
+75277:
+  compressTo: 74521
+  reprocessInto:
+    35: 0.92
+75278:
+  compressTo: 74521
+  reprocessInto:
+    35: 0.96
+75279:
+  compressTo: 74525
+  reprocessInto:
+    37: 2.4
+75280:
+  compressTo: 74525
+  reprocessInto:
+    37: 2.52
+75281:
+  compressTo: 74525
+  reprocessInto:
+    37: 2.64
+75282:
+  compressTo: 74525
+  reprocessInto:
+    37: 2.76
+75283:
+  compressTo: 74529
+  reprocessInto:
+    39: 2.66
+75284:
+  compressTo: 74529
+  reprocessInto:
+    39: 2.79
+75285:
+  compressTo: 74529
+  reprocessInto:
+    39: 2.93
+75286:
+  compressTo: 74529
+  reprocessInto:
+    39: 3.06
+75287:
   compressTo: 74533
+  reprocessInto:
+    40: 1.7
+75288:
+  compressTo: 74533
+  reprocessInto:
+    40: 1.79
+75289:
+  compressTo: 74533
+  reprocessInto:
+    40: 1.87
+75290:
+  compressTo: 74533
+  reprocessInto:
+    40: 1.96
 76203:
   productOfManuf: !!set
     76205: null
@@ -138518,29 +138518,29 @@
     21959: 1.0
     21967: 1.0
 81900:
+  compressFrom: 81902
   reprocessInto:
     34: 3.0
     35: 2.0
     36: 5.5
-  compressFrom: 81902
 81901:
+  compressTo: 81900
   reprocessInto:
     34: 3.15
     35: 2.1
     36: 5.78
-  compressTo: 81900
 81902:
+  compressTo: 81900
   reprocessInto:
     34: 3.3
     35: 2.2
     36: 6.05
-  compressTo: 81900
 81903:
+  compressTo: 81900
   reprocessInto:
     34: 3.45
     35: 2.3
     36: 6.33
-  compressTo: 81900
 81920:
   materialInManuf: !!set
     81922: null
@@ -138583,205 +138583,205 @@
     2876: 1.0
     17136: 2.0
 81975:
+  compressFrom: 82318
   reprocessInto:
     34: 2.5
     37: 0.8
-  compressFrom: 82318
 81976:
+  compressTo: 81975
   reprocessInto:
     34: 2.63
     37: 0.84
-  compressTo: 81975
 81977:
+  compressTo: 81975
   reprocessInto:
     34: 2.75
     37: 0.88
-  compressTo: 81975
 81978:
+  compressTo: 81975
   reprocessInto:
     34: 2.88
     37: 0.92
-  compressTo: 81975
 82016:
+  compressFrom: 82306
   reprocessInto:
     34: 9.0
     35: 1.5
     38: 1.05
-  compressFrom: 82306
 82017:
+  compressTo: 82016
   reprocessInto:
     34: 9.45
     35: 1.58
     38: 1.11
-  compressTo: 82016
 82018:
+  compressTo: 82016
   reprocessInto:
     34: 9.9
     35: 1.65
     38: 1.16
-  compressTo: 82016
 82019:
+  compressTo: 82016
   reprocessInto:
     34: 10.35
     35: 1.73
     38: 1.21
-  compressTo: 82016
 82163:
+  compressFrom: 82314
   reprocessInto:
     34: 20.0
     37: 1.2
     39: 0.6
-  compressFrom: 82314
 82164:
+  compressTo: 82163
   reprocessInto:
     34: 21.0
     37: 1.26
     39: 0.63
-  compressTo: 82163
 82165:
+  compressTo: 82163
   reprocessInto:
     34: 22.0
     37: 1.32
     39: 0.66
-  compressTo: 82163
 82166:
+  compressTo: 82163
   reprocessInto:
     34: 23.0
     37: 1.38
     39: 0.69
-  compressTo: 82163
 82205:
+  compressFrom: 82310
   reprocessInto:
     34: 8.0
     40: 0.4
-  compressFrom: 82310
 82206:
+  compressTo: 82205
   reprocessInto:
     34: 8.4
     40: 0.42
-  compressTo: 82205
 82207:
+  compressTo: 82205
   reprocessInto:
     34: 8.8
     40: 0.44
-  compressTo: 82205
 82208:
+  compressTo: 82205
   reprocessInto:
     34: 9.2
     40: 0.46
-  compressTo: 82205
 82300:
+  compressTo: 81900
   reprocessInto:
     34: 3.0
     35: 2.0
     36: 5.5
-  compressTo: 81900
 82301:
+  compressTo: 81900
   reprocessInto:
     34: 3.15
     35: 2.1
     36: 5.78
-  compressTo: 81900
 82302:
+  compressTo: 81900
   reprocessInto:
     34: 3.3
     35: 2.2
     36: 6.05
-  compressTo: 81900
 82303:
+  compressTo: 81900
   reprocessInto:
     34: 3.45
     35: 2.3
     36: 6.33
-  compressTo: 81900
 82304:
+  compressTo: 82016
   reprocessInto:
     34: 9.0
     35: 1.5
     38: 1.05
-  compressTo: 82016
 82305:
+  compressTo: 82016
   reprocessInto:
     34: 9.45
     35: 1.58
     38: 1.11
-  compressTo: 82016
 82306:
+  compressTo: 82016
   reprocessInto:
     34: 9.9
     35: 1.65
     38: 1.16
-  compressTo: 82016
 82307:
+  compressTo: 82016
   reprocessInto:
     34: 10.35
     35: 1.73
     38: 1.21
-  compressTo: 82016
 82308:
+  compressTo: 82205
   reprocessInto:
     34: 8.0
     40: 0.4
-  compressTo: 82205
 82309:
+  compressTo: 82205
   reprocessInto:
     34: 8.4
     40: 0.42
-  compressTo: 82205
 82310:
+  compressTo: 82205
   reprocessInto:
     34: 8.8
     40: 0.44
-  compressTo: 82205
 82311:
+  compressTo: 82205
   reprocessInto:
     34: 9.2
     40: 0.46
-  compressTo: 82205
 82312:
+  compressTo: 82163
   reprocessInto:
     34: 20.0
     37: 1.2
     39: 0.6
-  compressTo: 82163
 82313:
+  compressTo: 82163
   reprocessInto:
     34: 21.0
     37: 1.26
     39: 0.63
-  compressTo: 82163
 82314:
+  compressTo: 82163
   reprocessInto:
     34: 22.0
     37: 1.32
     39: 0.66
-  compressTo: 82163
 82315:
+  compressTo: 82163
   reprocessInto:
     34: 23.0
     37: 1.38
     39: 0.69
-  compressTo: 82163
 82316:
+  compressTo: 81975
   reprocessInto:
     34: 2.5
     37: 0.8
-  compressTo: 81975
 82317:
+  compressTo: 81975
   reprocessInto:
     34: 2.63
     37: 0.84
-  compressTo: 81975
 82318:
+  compressTo: 81975
   reprocessInto:
     34: 2.75
     37: 0.88
-  compressTo: 81975
 82319:
+  compressTo: 81975
   reprocessInto:
     34: 2.88
     37: 0.92
-  compressTo: 81975
 82492:
   productOfManuf: !!set
     82506: null

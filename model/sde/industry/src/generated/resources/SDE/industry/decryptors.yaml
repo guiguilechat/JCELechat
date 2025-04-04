@@ -2,56 +2,56 @@
   name: no decryptor
   probMult: 1.0
 34201:
-  typeId: 34201
-  name: Accelerant Decryptor
   maxRuns: 1
   me: 2
-  te: 10
+  name: Accelerant Decryptor
   probMult: 1.2000000476837158
+  te: 10
+  typeId: 34201
 34202:
-  typeId: 34202
-  name: Attainment Decryptor
   maxRuns: 4
   me: -1
-  te: 4
+  name: Attainment Decryptor
   probMult: 1.7999999523162842
+  te: 4
+  typeId: 34202
 34203:
-  typeId: 34203
-  name: Augmentation Decryptor
   maxRuns: 9
   me: -2
-  te: 2
+  name: Augmentation Decryptor
   probMult: 0.6000000238418579
+  te: 2
+  typeId: 34203
 34204:
-  typeId: 34204
-  name: Parity Decryptor
   maxRuns: 3
   me: 1
-  te: -2
+  name: Parity Decryptor
   probMult: 1.5
-34205:
-  typeId: 34205
-  name: Process Decryptor
-  me: 3
-  te: 6
-  probMult: 1.100000023841858
-34206:
-  typeId: 34206
-  name: Symmetry Decryptor
-  maxRuns: 2
-  me: 1
-  te: 8
-  probMult: 1.0
-34207:
-  typeId: 34207
-  name: Optimized Attainment Decryptor
-  maxRuns: 2
-  me: 1
   te: -2
+  typeId: 34204
+34205:
+  me: 3
+  name: Process Decryptor
+  probMult: 1.100000023841858
+  te: 6
+  typeId: 34205
+34206:
+  maxRuns: 2
+  me: 1
+  name: Symmetry Decryptor
+  probMult: 1.0
+  te: 8
+  typeId: 34206
+34207:
+  maxRuns: 2
+  me: 1
+  name: Optimized Attainment Decryptor
   probMult: 1.899999976158142
+  te: -2
+  typeId: 34207
 34208:
-  typeId: 34208
-  name: Optimized Augmentation Decryptor
   maxRuns: 7
   me: 2
+  name: Optimized Augmentation Decryptor
   probMult: 0.8999999761581421
+  typeId: 34208

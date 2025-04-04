@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public enum get_characters_character_id_fittings_flag {
+public enum post_characters_character_id_fittings_flag {
     @JsonProperty("Cargo")
     Cargo("Cargo"),
     @JsonProperty("DroneBay")
@@ -91,7 +91,7 @@ public enum get_characters_character_id_fittings_flag {
     SubSystemSlot3("SubSystemSlot3");
     public final String toString;
 
-    get_characters_character_id_fittings_flag(String toString) {
+    post_characters_character_id_fittings_flag(String toString) {
         this.toString = toString;
     }
 

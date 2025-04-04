@@ -4,6 +4,10 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 
 public class R_get_characters_character_id_fleet {
     /**
+     * Character ID of the current fleet boss
+     */
+    public long fleet_boss_id;
+    /**
      * The character's current fleet ID
      */
     public long fleet_id;
@@ -29,6 +33,9 @@ public class R_get_characters_character_id_fleet {
             return false;
         }
         R_get_characters_character_id_fleet othersame = ((R_get_characters_character_id_fleet) other);
+        if (fleet_boss_id!= othersame.fleet_boss_id) {
+            return false;
+        }
         if (fleet_id!= othersame.fleet_id) {
             return false;
         }
@@ -45,6 +52,6 @@ public class R_get_characters_character_id_fleet {
     }
 
     public int hashCode() {
-        return (((Long.hashCode(fleet_id)+((role == null)? 0 :role.hashCode()))+ Long.hashCode(squad_id))+ Long.hashCode(wing_id));
+        return ((((Long.hashCode(fleet_boss_id)+ Long.hashCode(fleet_id))+((role == null)? 0 :role.hashCode()))+ Long.hashCode(squad_id))+ Long.hashCode(wing_id));
     }
 }

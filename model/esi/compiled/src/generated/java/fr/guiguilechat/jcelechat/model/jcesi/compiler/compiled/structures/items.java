@@ -1,12 +1,10 @@
-package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses;
+package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures;
 
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_fittings_flag;
-
-public class R_get_characters_character_id_fittings_items {
+public class items {
     /**
-     * flag string
+     * Fitting location for the item. Entries placed in 'Invalid' will be discarded. If this leaves the fitting with nothing, it will cause an error.
      */
-    public get_characters_character_id_fittings_flag flag;
+    public post_characters_character_id_fittings_flag flag;
     /**
      * quantity integer
      */
@@ -24,7 +22,7 @@ public class R_get_characters_character_id_fittings_items {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        R_get_characters_character_id_fittings_items othersame = ((R_get_characters_character_id_fittings_items) other);
+        items othersame = ((items) other);
         if ((flag!= othersame.flag)&&((flag == null)||(!flag.equals(othersame.flag)))) {
             return false;
         }

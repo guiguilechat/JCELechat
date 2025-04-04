@@ -9066,7 +9066,7 @@ types:
     id: 87711
     mass: 1.0
     metalevelold: 5
-    name: Aegytica Volatile Booster
+    name: Expired Aegytica Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
@@ -9087,7 +9087,7 @@ types:
     id: 87726
     mass: 1.0
     metalevelold: 5
-    name: Vis Vitalis Volatile Booster
+    name: Expired Vis Vitalis Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
@@ -9107,7 +9107,7 @@ types:
     id: 87727
     mass: 1.0
     metalevelold: 5
-    name: Balneum Volatile Booster
+    name: Expired Balneum Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
@@ -9128,7 +9128,7 @@ types:
     id: 87728
     mass: 1.0
     metalevelold: 5
-    name: Theriac Volatile Booster
+    name: Expired Theriac Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
@@ -9150,7 +9150,7 @@ types:
     mass: 1.0
     maxflighttimebonus: 16
     metalevelold: 3
-    name: Mithridate Volatile Booster
+    name: Expired Mithridate Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1

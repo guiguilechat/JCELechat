@@ -87,6 +87,7 @@ public class Characters {
     private final Map<Integer, ObjHolderSimple<Double>> get_characters_character_id_wallet_holder = new HashMap<>();
     private final Map<K_6_Long_int, ListHolderImpl<R_get_characters_character_id_wallet_transactions>> get_characters_character_id_wallet_transactions_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_agents_research>> get_characters_character_id_agents_research_holder = new HashMap<>();
+    private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_contacts>> get_characters_character_id_contacts_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_fittings>> get_characters_character_id_fittings_holder = new HashMap<>();
@@ -99,14 +100,13 @@ public class Characters {
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_titles>> get_characters_character_id_titles_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_blueprints>> get_characters_character_id_blueprints_holder = new HashMap<>();
     private final Map<K_1_int_int, ObjHolderSimple<R_get_characters_character_id_calendar_event_id>> get_characters_character_id_calendar_event_id_holder = new HashMap<>();
-    private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
     private final Map<K_17_int_int, ObjHolderSimple<R_get_characters_character_id_planets_planet_id>> get_characters_character_id_planets_planet_id_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_roles>> get_characters_character_id_roles_holder = new HashMap<>();
     private final Map<K_18_String_LString_int_Boolean, ObjHolderSimple<R_get_characters_character_id_search>> get_characters_character_id_search_holder = new HashMap<>();
-    private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_assets>> get_characters_character_id_assets_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_characters_character_id_notifications>> get_characters_character_id_notifications_holder = new HashMap<>();
+    private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<M_get_journal_13>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
 
     public Characters(SwaggerCOCache<?> parent) {

@@ -136,7 +136,7 @@ types:
     metalevelold: 6
     miningamount: 532
     miningwastedvolumemultiplier: 1
-    name: 'ORE Deep Core Strip Miner '
+    name: ORE Deep Core Strip Miner
     packagedVolume: 5.0
     portionSize: 1
     power: 10

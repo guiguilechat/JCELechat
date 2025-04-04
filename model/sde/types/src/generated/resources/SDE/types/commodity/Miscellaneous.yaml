@@ -8603,7 +8603,7 @@ types:
     importtaxmultiplier: 1
     marketGroup: 754
     mass: 1.0
-    name: 'Deathless Circle Reward Token '
+    name: Deathless Circle Reward Token
     packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 5.0E7

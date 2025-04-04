@@ -116,8 +116,7 @@ public interface G_IDCAccess
      * Get alliance icon
      * <p>
      * Get the icon urls for a alliance<br />
-     * This route expires daily at 11:05<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/alliances/{alliance_id}/icons/)
+     * This route expires daily at 11:05
      * </p>
      * 
      * @param alliance_id
@@ -265,7 +264,7 @@ public interface G_IDCAccess
      *     An EVE corporation ID
      */
     public default Requested<R_get_corporations_corporation_id_icons> get_corporations_icons(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/icons/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/icons/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_icons.class));
     }
 
@@ -1061,7 +1060,7 @@ public interface G_IDCAccess
      *     An Eve item type ID
      */
     public default Requested<R_get_universe_types_type_id> get_universe_types(int type_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/universe/types/{type_id}/".replace("{type_id}", ""+type_id));
+        String url = ("https://esi.evetech.net/v2/universe/types/{type_id}/".replace("{type_id}", ""+type_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id.class));
     }
 
@@ -1123,7 +1122,7 @@ public interface G_IDCAccess
      *     The character IDs to fetch affiliations for. All characters must exist, or none will be returned
      */
     public default Requested<R_post_characters_affiliation[]> post_affiliation(int[] characters, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/affiliation/");
+        String url = ("https://esi.evetech.net/v1/characters/affiliation/");
         Map<String, Object> content = new HashMap<>();
         content.put("characters", characters);
         return requestPost(url, properties, content, R_post_characters_affiliation[].class);
@@ -1155,7 +1154,7 @@ public interface G_IDCAccess
      *     The ids to resolve
      */
     public default Requested<R_post_universe_names[]> post_universe_names(int[] ids, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/universe/names/");
+        String url = ("https://esi.evetech.net/v2/universe/names/");
         Map<String, Object> content = new HashMap<>();
         content.put("ids", ids);
         return requestPost(url, properties, content, R_post_universe_names[].class);

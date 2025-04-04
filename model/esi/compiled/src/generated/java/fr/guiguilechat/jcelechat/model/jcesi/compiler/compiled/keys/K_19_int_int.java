@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys;
 
 
 /**
- * @see https://esi.evetech.net/v4/corporations/{corporation_id}/wallets/{division}/journal/
+ * @see https://esi.evetech.net/v3/corporations/{corporation_id}/wallets/{division}/journal/
  * 
  */
 public class K_19_int_int {

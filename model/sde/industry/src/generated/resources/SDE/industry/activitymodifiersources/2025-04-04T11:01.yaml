@@ -1,63 +1,62 @@
 35825:
+  copying:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  invention:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  manufacturing:
+    cost:
+    - attributeId: 2601
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2602
+  researchMaterial:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  researchTime:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
   typeId: 35825
-  copying:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  invention:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  manufacturing:
-    cost:
-    - attributeId: 2601
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2602
-  researchMaterial:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  researchTime:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
 35826:
+  copying:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  invention:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  manufacturing:
+    cost:
+    - attributeId: 2601
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2602
+  researchMaterial:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  researchTime:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
   typeId: 35826
-  copying:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  invention:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  manufacturing:
-    cost:
-    - attributeId: 2601
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2602
-  researchMaterial:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  researchTime:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
 35827:
-  typeId: 35827
   copying:
     cost:
     - attributeId: 2601
@@ -85,166 +84,166 @@
     - attributeId: 2601
     time:
     - attributeId: 2602
+  typeId: 35827
 35836:
-  typeId: 35836
   reaction:
     time:
     - attributeId: 2721
+  typeId: 35836
 37146:
+  manufacturing:
+    material:
+    - attributeId: 2546
+      filterId: 7
   typeId: 37146
-  manufacturing:
-    material:
-    - attributeId: 2546
-      filterId: 7
 37147:
+  manufacturing:
+    material:
+    - attributeId: 2546
+      filterId: 7
   typeId: 37147
-  manufacturing:
-    material:
-    - attributeId: 2546
-      filterId: 7
 37148:
+  manufacturing:
+    time:
+    - attributeId: 2543
+      filterId: 1
   typeId: 37148
-  manufacturing:
-    time:
-    - attributeId: 2543
-      filterId: 1
 37149:
+  manufacturing:
+    time:
+    - attributeId: 2543
+      filterId: 1
   typeId: 37149
-  manufacturing:
-    time:
-    - attributeId: 2543
-      filterId: 1
 37150:
+  manufacturing:
+    time:
+    - attributeId: 2541
+      filterId: 4
   typeId: 37150
-  manufacturing:
-    time:
-    - attributeId: 2541
-      filterId: 4
 37151:
+  manufacturing:
+    time:
+    - attributeId: 2541
+      filterId: 4
   typeId: 37151
-  manufacturing:
-    time:
-    - attributeId: 2541
-      filterId: 4
 37152:
+  manufacturing:
+    material:
+    - attributeId: 2548
+      filterId: 9
   typeId: 37152
-  manufacturing:
-    material:
-    - attributeId: 2548
-      filterId: 9
 37153:
+  manufacturing:
+    time:
+    - attributeId: 2547
+      filterId: 7
   typeId: 37153
-  manufacturing:
-    time:
-    - attributeId: 2547
-      filterId: 7
 37154:
+  manufacturing:
+    material:
+    - attributeId: 2544
+      filterId: 5
   typeId: 37154
-  manufacturing:
-    material:
-    - attributeId: 2544
-      filterId: 5
 37155:
+  manufacturing:
+    material:
+    - attributeId: 2544
+      filterId: 5
   typeId: 37155
-  manufacturing:
-    material:
-    - attributeId: 2544
-      filterId: 5
 37156:
+  manufacturing:
+    material:
+    - attributeId: 2542
+      filterId: 1
   typeId: 37156
-  manufacturing:
-    material:
-    - attributeId: 2542
-      filterId: 1
 37157:
+  manufacturing:
+    material:
+    - attributeId: 2542
+      filterId: 1
   typeId: 37157
-  manufacturing:
-    material:
-    - attributeId: 2542
-      filterId: 1
 37158:
+  manufacturing:
+    material:
+    - attributeId: 2540
+      filterId: 4
   typeId: 37158
-  manufacturing:
-    material:
-    - attributeId: 2540
-      filterId: 4
 37159:
+  manufacturing:
+    material:
+    - attributeId: 2540
+      filterId: 4
   typeId: 37159
-  manufacturing:
-    material:
-    - attributeId: 2540
-      filterId: 4
 37160:
+  manufacturing:
+    time:
+    - attributeId: 2539
+      filterId: 2
   typeId: 37160
-  manufacturing:
-    time:
-    - attributeId: 2539
-      filterId: 2
 37161:
+  manufacturing:
+    time:
+    - attributeId: 2539
+      filterId: 2
   typeId: 37161
-  manufacturing:
-    time:
-    - attributeId: 2539
-      filterId: 2
 37162:
+  manufacturing:
+    time:
+    - attributeId: 2545
+      filterId: 5
   typeId: 37162
-  manufacturing:
-    time:
-    - attributeId: 2545
-      filterId: 5
 37163:
+  manufacturing:
+    time:
+    - attributeId: 2545
+      filterId: 5
   typeId: 37163
-  manufacturing:
-    time:
-    - attributeId: 2545
-      filterId: 5
 37164:
+  manufacturing:
+    material:
+    - attributeId: 2540
+      filterId: 4
+    time:
+    - attributeId: 2541
+      filterId: 4
   typeId: 37164
-  manufacturing:
-    material:
-    - attributeId: 2540
-      filterId: 4
-    time:
-    - attributeId: 2541
-      filterId: 4
 37165:
+  manufacturing:
+    material:
+    - attributeId: 2540
+      filterId: 4
+    time:
+    - attributeId: 2541
+      filterId: 4
   typeId: 37165
-  manufacturing:
-    material:
-    - attributeId: 2540
-      filterId: 4
-    time:
-    - attributeId: 2541
-      filterId: 4
 37166:
+  manufacturing:
+    material:
+    - attributeId: 2548
+      filterId: 9
+    time:
+    - attributeId: 2549
+      filterId: 9
   typeId: 37166
-  manufacturing:
-    material:
-    - attributeId: 2548
-      filterId: 9
-    time:
-    - attributeId: 2549
-      filterId: 9
 37167:
+  manufacturing:
+    material:
+    - attributeId: 2548
+      filterId: 9
+    time:
+    - attributeId: 2549
+      filterId: 9
   typeId: 37167
-  manufacturing:
-    material:
-    - attributeId: 2548
-      filterId: 9
-    time:
-    - attributeId: 2549
-      filterId: 9
 37168:
+  manufacturing:
+    material:
+    - attributeId: 2555
+      filterId: 10
+    time:
+    - attributeId: 2556
+      filterId: 10
   typeId: 37168
-  manufacturing:
-    material:
-    - attributeId: 2555
-      filterId: 10
-    time:
-    - attributeId: 2556
-      filterId: 10
 37169:
-  typeId: 37169
   manufacturing:
     material:
     - attributeId: 2555
@@ -252,35 +251,35 @@
     time:
     - attributeId: 2556
       filterId: 10
+  typeId: 37169
 37170:
+  manufacturing:
+    material:
+    - attributeId: 2538
+      filterId: 2
+    time:
+    - attributeId: 2539
+      filterId: 2
   typeId: 37170
-  manufacturing:
-    material:
-    - attributeId: 2538
-      filterId: 2
-    time:
-    - attributeId: 2539
-      filterId: 2
 37171:
+  manufacturing:
+    material:
+    - attributeId: 2538
+      filterId: 2
+    time:
+    - attributeId: 2539
+      filterId: 2
   typeId: 37171
-  manufacturing:
-    material:
-    - attributeId: 2538
-      filterId: 2
-    time:
-    - attributeId: 2539
-      filterId: 2
 37172:
+  manufacturing:
+    material:
+    - attributeId: 2575
+      filterId: 11
+    time:
+    - attributeId: 2576
+      filterId: 11
   typeId: 37172
-  manufacturing:
-    material:
-    - attributeId: 2575
-      filterId: 11
-    time:
-    - attributeId: 2576
-      filterId: 11
 37173:
-  typeId: 37173
   manufacturing:
     material:
     - attributeId: 2575
@@ -288,51 +287,51 @@
     time:
     - attributeId: 2576
       filterId: 11
+  typeId: 37173
 37174:
+  manufacturing:
+    material:
+    - attributeId: 2557
+      filterId: 14
+    - attributeId: 2658
+      filterId: 15
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2659
+      filterId: 15
   typeId: 37174
-  manufacturing:
-    material:
-    - attributeId: 2557
-      filterId: 14
-    - attributeId: 2658
-      filterId: 15
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2659
-      filterId: 15
 37175:
+  manufacturing:
+    material:
+    - attributeId: 2557
+      filterId: 14
+    - attributeId: 2658
+      filterId: 15
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2659
+      filterId: 15
   typeId: 37175
-  manufacturing:
-    material:
-    - attributeId: 2557
-      filterId: 14
-    - attributeId: 2658
-      filterId: 15
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2659
-      filterId: 15
 37178:
+  manufacturing:
+    material:
+    - attributeId: 2538
+      filterId: 2
+    - attributeId: 2540
+      filterId: 4
+    - attributeId: 2542
+      filterId: 1
+    time:
+    - attributeId: 2539
+      filterId: 2
+    - attributeId: 2541
+      filterId: 4
+    - attributeId: 2543
+      filterId: 1
   typeId: 37178
-  manufacturing:
-    material:
-    - attributeId: 2538
-      filterId: 2
-    - attributeId: 2540
-      filterId: 4
-    - attributeId: 2542
-      filterId: 1
-    time:
-    - attributeId: 2539
-      filterId: 2
-    - attributeId: 2541
-      filterId: 4
-    - attributeId: 2543
-      filterId: 1
 37179:
-  typeId: 37179
   manufacturing:
     material:
     - attributeId: 2538
@@ -348,17 +347,17 @@
       filterId: 4
     - attributeId: 2543
       filterId: 1
+  typeId: 37179
 37180:
+  manufacturing:
+    material:
+    - attributeId: 2592
+      filterId: 3
+    time:
+    - attributeId: 2591
+      filterId: 3
   typeId: 37180
-  manufacturing:
-    material:
-    - attributeId: 2592
-      filterId: 3
-    time:
-    - attributeId: 2591
-      filterId: 3
 37181:
-  typeId: 37181
   manufacturing:
     material:
     - attributeId: 2592
@@ -366,73 +365,73 @@
     time:
     - attributeId: 2591
       filterId: 3
+  typeId: 37181
 37182:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
+  researchTime:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
   typeId: 37182
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
-  researchTime:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
 37183:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
+  researchTime:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
   typeId: 37183
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
-  researchTime:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
 43704:
+  manufacturing:
+    material:
+    - attributeId: 2557
+      filterId: 14
+    - attributeId: 2559
+      filterId: 13
+    - attributeId: 2561
+      filterId: 12
+    - attributeId: 2658
+      filterId: 15
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2560
+      filterId: 13
+    - attributeId: 2562
+      filterId: 12
+    - attributeId: 2659
+      filterId: 15
   typeId: 43704
-  manufacturing:
-    material:
-    - attributeId: 2557
-      filterId: 14
-    - attributeId: 2559
-      filterId: 13
-    - attributeId: 2561
-      filterId: 12
-    - attributeId: 2658
-      filterId: 15
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2560
-      filterId: 13
-    - attributeId: 2562
-      filterId: 12
-    - attributeId: 2659
-      filterId: 15
 43705:
-  typeId: 43705
   manufacturing:
     material:
     - attributeId: 2557
@@ -452,17 +451,17 @@
       filterId: 12
     - attributeId: 2659
       filterId: 15
+  typeId: 43705
 43707:
+  manufacturing:
+    material:
+    - attributeId: 2550
+      filterId: 6
+    time:
+    - attributeId: 2551
+      filterId: 6
   typeId: 43707
-  manufacturing:
-    material:
-    - attributeId: 2550
-      filterId: 6
-    time:
-    - attributeId: 2551
-      filterId: 6
 43708:
-  typeId: 43708
   manufacturing:
     material:
     - attributeId: 2550
@@ -470,17 +469,17 @@
     time:
     - attributeId: 2551
       filterId: 6
+  typeId: 43708
 43709:
+  manufacturing:
+    material:
+    - attributeId: 2552
+      filterId: 8
+    time:
+    - attributeId: 2553
+      filterId: 8
   typeId: 43709
-  manufacturing:
-    material:
-    - attributeId: 2552
-      filterId: 8
-    time:
-    - attributeId: 2553
-      filterId: 8
 43711:
-  typeId: 43711
   manufacturing:
     material:
     - attributeId: 2552
@@ -488,17 +487,17 @@
     time:
     - attributeId: 2553
       filterId: 8
+  typeId: 43711
 43712:
+  manufacturing:
+    material:
+    - attributeId: 2542
+      filterId: 1
+    time:
+    - attributeId: 2543
+      filterId: 1
   typeId: 43712
-  manufacturing:
-    material:
-    - attributeId: 2542
-      filterId: 1
-    time:
-    - attributeId: 2543
-      filterId: 1
 43713:
-  typeId: 43713
   manufacturing:
     material:
     - attributeId: 2542
@@ -506,17 +505,17 @@
     time:
     - attributeId: 2543
       filterId: 1
+  typeId: 43713
 43714:
+  manufacturing:
+    material:
+    - attributeId: 2544
+      filterId: 5
+    time:
+    - attributeId: 2545
+      filterId: 5
   typeId: 43714
-  manufacturing:
-    material:
-    - attributeId: 2544
-      filterId: 5
-    time:
-    - attributeId: 2545
-      filterId: 5
 43715:
-  typeId: 43715
   manufacturing:
     material:
     - attributeId: 2544
@@ -524,17 +523,17 @@
     time:
     - attributeId: 2545
       filterId: 5
+  typeId: 43715
 43716:
+  manufacturing:
+    material:
+    - attributeId: 2546
+      filterId: 7
+    time:
+    - attributeId: 2547
+      filterId: 7
   typeId: 43716
-  manufacturing:
-    material:
-    - attributeId: 2546
-      filterId: 7
-    time:
-    - attributeId: 2547
-      filterId: 7
 43717:
-  typeId: 43717
   manufacturing:
     material:
     - attributeId: 2546
@@ -542,17 +541,17 @@
     time:
     - attributeId: 2547
       filterId: 7
+  typeId: 43717
 43718:
+  manufacturing:
+    material:
+    - attributeId: 2559
+      filterId: 13
+    time:
+    - attributeId: 2560
+      filterId: 13
   typeId: 43718
-  manufacturing:
-    material:
-    - attributeId: 2559
-      filterId: 13
-    time:
-    - attributeId: 2560
-      filterId: 13
 43719:
-  typeId: 43719
   manufacturing:
     material:
     - attributeId: 2559
@@ -560,17 +559,17 @@
     time:
     - attributeId: 2560
       filterId: 13
+  typeId: 43719
 43720:
+  manufacturing:
+    material:
+    - attributeId: 2561
+      filterId: 12
+    time:
+    - attributeId: 2562
+      filterId: 12
   typeId: 43720
-  manufacturing:
-    material:
-    - attributeId: 2561
-      filterId: 12
-    time:
-    - attributeId: 2562
-      filterId: 12
 43721:
-  typeId: 43721
   manufacturing:
     material:
     - attributeId: 2561
@@ -578,338 +577,338 @@
     time:
     - attributeId: 2562
       filterId: 12
+  typeId: 43721
 43722:
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
   typeId: 43722
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
 43723:
-  typeId: 43723
   invention:
     cost:
     - attributeId: 2563
     time:
     - attributeId: 2564
+  typeId: 43723
 43724:
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
   typeId: 43724
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
 43725:
-  typeId: 43725
   researchMaterial:
     cost:
     - attributeId: 2565
     time:
     - attributeId: 2566
+  typeId: 43725
 43726:
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 43726
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 43727:
-  typeId: 43727
   researchTime:
     cost:
     - attributeId: 2567
     time:
     - attributeId: 2568
+  typeId: 43727
 43729:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
   typeId: 43729
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
 43730:
-  typeId: 43730
   copying:
     cost:
     - attributeId: 2569
     time:
     - attributeId: 2570
+  typeId: 43730
 43732:
-  typeId: 43732
   manufacturing:
     material:
     - attributeId: 2548
       filterId: 9
+  typeId: 43732
 43733:
+  manufacturing:
+    time:
+    - attributeId: 2549
+      filterId: 9
   typeId: 43733
-  manufacturing:
-    time:
-    - attributeId: 2549
-      filterId: 9
 43734:
+  manufacturing:
+    time:
+    - attributeId: 2549
+      filterId: 9
   typeId: 43734
-  manufacturing:
-    time:
-    - attributeId: 2549
-      filterId: 9
 43854:
+  manufacturing:
+    material:
+    - attributeId: 2550
+      filterId: 6
   typeId: 43854
-  manufacturing:
-    material:
-    - attributeId: 2550
-      filterId: 6
 43855:
-  typeId: 43855
   manufacturing:
     material:
     - attributeId: 2550
       filterId: 6
+  typeId: 43855
 43856:
+  manufacturing:
+    time:
+    - attributeId: 2551
+      filterId: 6
   typeId: 43856
-  manufacturing:
-    time:
-    - attributeId: 2551
-      filterId: 6
 43857:
+  manufacturing:
+    time:
+    - attributeId: 2551
+      filterId: 6
   typeId: 43857
-  manufacturing:
-    time:
-    - attributeId: 2551
-      filterId: 6
 43858:
+  manufacturing:
+    material:
+    - attributeId: 2552
+      filterId: 8
   typeId: 43858
-  manufacturing:
-    material:
-    - attributeId: 2552
-      filterId: 8
 43859:
-  typeId: 43859
   manufacturing:
     material:
     - attributeId: 2552
       filterId: 8
+  typeId: 43859
 43860:
+  manufacturing:
+    time:
+    - attributeId: 2553
+      filterId: 8
   typeId: 43860
-  manufacturing:
-    time:
-    - attributeId: 2553
-      filterId: 8
 43861:
+  manufacturing:
+    time:
+    - attributeId: 2553
+      filterId: 8
   typeId: 43861
-  manufacturing:
-    time:
-    - attributeId: 2553
-      filterId: 8
 43862:
+  manufacturing:
+    material:
+    - attributeId: 2555
+      filterId: 10
   typeId: 43862
-  manufacturing:
-    material:
-    - attributeId: 2555
-      filterId: 10
 43863:
-  typeId: 43863
   manufacturing:
     material:
     - attributeId: 2555
       filterId: 10
+  typeId: 43863
 43864:
+  manufacturing:
+    time:
+    - attributeId: 2556
+      filterId: 10
   typeId: 43864
-  manufacturing:
-    time:
-    - attributeId: 2556
-      filterId: 10
 43865:
+  manufacturing:
+    time:
+    - attributeId: 2556
+      filterId: 10
   typeId: 43865
-  manufacturing:
-    time:
-    - attributeId: 2556
-      filterId: 10
 43866:
+  manufacturing:
+    material:
+    - attributeId: 2557
+      filterId: 14
+    - attributeId: 2658
+      filterId: 15
   typeId: 43866
-  manufacturing:
-    material:
-    - attributeId: 2557
-      filterId: 14
-    - attributeId: 2658
-      filterId: 15
 43867:
+  manufacturing:
+    material:
+    - attributeId: 2557
+      filterId: 14
+    - attributeId: 2658
+      filterId: 15
   typeId: 43867
-  manufacturing:
-    material:
-    - attributeId: 2557
-      filterId: 14
-    - attributeId: 2658
-      filterId: 15
 43868:
+  manufacturing:
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2659
+      filterId: 15
   typeId: 43868
-  manufacturing:
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2659
-      filterId: 15
 43869:
+  manufacturing:
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2659
+      filterId: 15
   typeId: 43869
-  manufacturing:
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2659
-      filterId: 15
 43870:
+  manufacturing:
+    material:
+    - attributeId: 2559
+      filterId: 13
   typeId: 43870
-  manufacturing:
-    material:
-    - attributeId: 2559
-      filterId: 13
 43871:
+  manufacturing:
+    material:
+    - attributeId: 2559
+      filterId: 13
   typeId: 43871
-  manufacturing:
-    material:
-    - attributeId: 2559
-      filterId: 13
 43872:
+  manufacturing:
+    time:
+    - attributeId: 2560
+      filterId: 13
   typeId: 43872
-  manufacturing:
-    time:
-    - attributeId: 2560
-      filterId: 13
 43873:
+  manufacturing:
+    time:
+    - attributeId: 2560
+      filterId: 13
   typeId: 43873
-  manufacturing:
-    time:
-    - attributeId: 2560
-      filterId: 13
 43874:
+  manufacturing:
+    material:
+    - attributeId: 2561
+      filterId: 12
   typeId: 43874
-  manufacturing:
-    material:
-    - attributeId: 2561
-      filterId: 12
 43875:
+  manufacturing:
+    material:
+    - attributeId: 2561
+      filterId: 12
   typeId: 43875
-  manufacturing:
-    material:
-    - attributeId: 2561
-      filterId: 12
 43876:
+  manufacturing:
+    time:
+    - attributeId: 2562
+      filterId: 12
   typeId: 43876
-  manufacturing:
-    time:
-    - attributeId: 2562
-      filterId: 12
 43877:
-  typeId: 43877
   manufacturing:
     time:
     - attributeId: 2562
       filterId: 12
+  typeId: 43877
 43878:
+  invention:
+    cost:
+    - attributeId: 2563
   typeId: 43878
-  invention:
-    cost:
-    - attributeId: 2563
 43879:
-  typeId: 43879
   invention:
     cost:
     - attributeId: 2563
+  typeId: 43879
 43880:
+  invention:
+    time:
+    - attributeId: 2564
   typeId: 43880
-  invention:
-    time:
-    - attributeId: 2564
 43881:
-  typeId: 43881
   invention:
     time:
     - attributeId: 2564
+  typeId: 43881
 43882:
+  researchMaterial:
+    time:
+    - attributeId: 2566
   typeId: 43882
-  researchMaterial:
-    time:
-    - attributeId: 2566
 43883:
-  typeId: 43883
   researchMaterial:
     time:
     - attributeId: 2566
+  typeId: 43883
 43884:
+  researchMaterial:
+    cost:
+    - attributeId: 2565
   typeId: 43884
-  researchMaterial:
-    cost:
-    - attributeId: 2565
 43885:
-  typeId: 43885
   researchMaterial:
     cost:
     - attributeId: 2565
+  typeId: 43885
 43886:
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 43886
-  researchTime:
-    cost:
-    - attributeId: 2567
 43887:
-  typeId: 43887
   researchTime:
     cost:
     - attributeId: 2567
+  typeId: 43887
 43888:
+  researchTime:
+    time:
+    - attributeId: 2568
   typeId: 43888
-  researchTime:
-    time:
-    - attributeId: 2568
 43889:
-  typeId: 43889
   researchTime:
     time:
     - attributeId: 2568
+  typeId: 43889
 43890:
+  copying:
+    cost:
+    - attributeId: 2569
   typeId: 43890
-  copying:
-    cost:
-    - attributeId: 2569
 43891:
-  typeId: 43891
   copying:
     cost:
     - attributeId: 2569
+  typeId: 43891
 43892:
+  copying:
+    time:
+    - attributeId: 2570
   typeId: 43892
-  copying:
-    time:
-    - attributeId: 2570
 43893:
-  typeId: 43893
   copying:
     time:
     - attributeId: 2570
+  typeId: 43893
 43919:
-  typeId: 43919
   manufacturing:
     time:
     - attributeId: 2547
       filterId: 7
+  typeId: 43919
 43920:
+  manufacturing:
+    material:
+    - attributeId: 2538
+      filterId: 2
   typeId: 43920
-  manufacturing:
-    material:
-    - attributeId: 2538
-      filterId: 2
 43921:
-  typeId: 43921
   manufacturing:
     material:
     - attributeId: 2538
       filterId: 2
+  typeId: 43921
 45544:
-  typeId: 45544
   manufacturing:
     material:
     - attributeId: 2559
       filterId: 13
+  typeId: 45544
 45546:
-  typeId: 45546
   manufacturing:
     material:
     - attributeId: 2559
@@ -917,8 +916,8 @@
     time:
     - attributeId: 2560
       filterId: 13
+  typeId: 45546
 45548:
-  typeId: 45548
   manufacturing:
     material:
     - attributeId: 2557
@@ -938,16 +937,16 @@
       filterId: 12
     - attributeId: 2659
       filterId: 15
+  typeId: 45548
 45640:
+  manufacturing:
+    material:
+    - attributeId: 2557
+      filterId: 14
+    - attributeId: 2658
+      filterId: 15
   typeId: 45640
-  manufacturing:
-    material:
-    - attributeId: 2557
-      filterId: 14
-    - attributeId: 2658
-      filterId: 15
 45641:
-  typeId: 45641
   manufacturing:
     material:
     - attributeId: 2557
@@ -959,97 +958,97 @@
       filterId: 14
     - attributeId: 2659
       filterId: 15
+  typeId: 45641
 46484:
+  reaction:
+    time:
+    - attributeId: 2717
+      filterId: 18
   typeId: 46484
-  reaction:
-    time:
-    - attributeId: 2717
-      filterId: 18
 46485:
+  reaction:
+    time:
+    - attributeId: 2717
+      filterId: 18
   typeId: 46485
-  reaction:
-    time:
-    - attributeId: 2717
-      filterId: 18
 46486:
+  reaction:
+    material:
+    - attributeId: 2718
+      filterId: 18
   typeId: 46486
-  reaction:
-    material:
-    - attributeId: 2718
-      filterId: 18
 46487:
+  reaction:
+    material:
+    - attributeId: 2718
+      filterId: 18
   typeId: 46487
-  reaction:
-    material:
-    - attributeId: 2718
-      filterId: 18
 46488:
+  reaction:
+    time:
+    - attributeId: 2715
+      filterId: 16
   typeId: 46488
-  reaction:
-    time:
-    - attributeId: 2715
-      filterId: 16
 46489:
+  reaction:
+    time:
+    - attributeId: 2715
+      filterId: 16
   typeId: 46489
-  reaction:
-    time:
-    - attributeId: 2715
-      filterId: 16
 46490:
+  reaction:
+    material:
+    - attributeId: 2716
+      filterId: 16
   typeId: 46490
-  reaction:
-    material:
-    - attributeId: 2716
-      filterId: 16
 46491:
+  reaction:
+    material:
+    - attributeId: 2716
+      filterId: 16
   typeId: 46491
-  reaction:
-    material:
-    - attributeId: 2716
-      filterId: 16
 46492:
+  reaction:
+    time:
+    - attributeId: 2719
+      filterId: 17
   typeId: 46492
-  reaction:
-    time:
-    - attributeId: 2719
-      filterId: 17
 46493:
+  reaction:
+    time:
+    - attributeId: 2719
+      filterId: 17
   typeId: 46493
-  reaction:
-    time:
-    - attributeId: 2719
-      filterId: 17
 46494:
+  reaction:
+    material:
+    - attributeId: 2720
+      filterId: 17
   typeId: 46494
-  reaction:
-    material:
-    - attributeId: 2720
-      filterId: 17
 46495:
+  reaction:
+    material:
+    - attributeId: 2720
+      filterId: 17
   typeId: 46495
-  reaction:
-    material:
-    - attributeId: 2720
-      filterId: 17
 46496:
+  reaction:
+    material:
+    - attributeId: 2716
+      filterId: 16
+    - attributeId: 2718
+      filterId: 18
+    - attributeId: 2720
+      filterId: 17
+    time:
+    - attributeId: 2715
+      filterId: 16
+    - attributeId: 2717
+      filterId: 18
+    - attributeId: 2719
+      filterId: 17
   typeId: 46496
-  reaction:
-    material:
-    - attributeId: 2716
-      filterId: 16
-    - attributeId: 2718
-      filterId: 18
-    - attributeId: 2720
-      filterId: 17
-    time:
-    - attributeId: 2715
-      filterId: 16
-    - attributeId: 2717
-      filterId: 18
-    - attributeId: 2719
-      filterId: 17
 46497:
-  typeId: 46497
   reaction:
     material:
     - attributeId: 2716
@@ -1065,549 +1064,549 @@
       filterId: 18
     - attributeId: 2719
       filterId: 17
+  typeId: 46497
 47512:
+  copying:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  invention:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  manufacturing:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  researchMaterial:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  researchTime:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
   typeId: 47512
-  copying:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  invention:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  manufacturing:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  researchMaterial:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  researchTime:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
 47513:
+  manufacturing:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
   typeId: 47513
-  manufacturing:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
 47514:
+  copying:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  invention:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  researchMaterial:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
+  researchTime:
+    cost:
+    - attributeId: 2601
+    time:
+    - attributeId: 2602
   typeId: 47514
-  copying:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  invention:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  researchMaterial:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
-  researchTime:
-    cost:
-    - attributeId: 2601
-    time:
-    - attributeId: 2602
 47883:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2576
+      filterId: 11
   typeId: 47883
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2576
-      filterId: 11
 47981:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
   typeId: 47981
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
 47982:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
   typeId: 47982
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
 47984:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 47984
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 47985:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
   typeId: 47985
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
 47986:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
   typeId: 47986
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
 47987:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
   typeId: 47987
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
 47990:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
   typeId: 47990
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
 47991:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2576
+      filterId: 11
   typeId: 47991
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2576
-      filterId: 11
 47992:
+  manufacturing:
+    time:
+    - attributeId: 2560
+      filterId: 13
   typeId: 47992
-  manufacturing:
-    time:
-    - attributeId: 2560
-      filterId: 13
 47993:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 47993
-  manufacturing:
-    material:
-    - attributeId: 2600
 47997:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 47997
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 47998:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 47998
-  manufacturing:
-    material:
-    - attributeId: 2600
 47999:
+  copying:
+    cost:
+    - attributeId: 2569
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 47999
-  copying:
-    cost:
-    - attributeId: 2569
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-  researchTime:
-    cost:
-    - attributeId: 2567
 48001:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48001
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48002:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48002
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48003:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48003
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48007:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 48007
-  manufacturing:
-    material:
-    - attributeId: 2600
 48008:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2560
+      filterId: 13
   typeId: 48008
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2560
-      filterId: 13
 48009:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 48009
-  manufacturing:
-    material:
-    - attributeId: 2600
 48010:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 48010
-  manufacturing:
-    material:
-    - attributeId: 2600
 48011:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2560
+      filterId: 13
   typeId: 48011
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2560
-      filterId: 13
 48012:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
   typeId: 48012
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
 48013:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48013
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48014:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48014
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48015:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48015
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48016:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48016
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48017:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48017
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48018:
+  copying:
+    cost:
+    - attributeId: 2569
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48018
-  copying:
-    cost:
-    - attributeId: 2569
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-  researchTime:
-    cost:
-    - attributeId: 2567
 48019:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48019
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-  researchTime:
-    cost:
-    - attributeId: 2567
 48020:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48020
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48022:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2539
+      filterId: 2
   typeId: 48022
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2539
-      filterId: 2
 48023:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2539
+      filterId: 2
   typeId: 48023
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2539
-      filterId: 2
 48024:
+  manufacturing:
+    time:
+    - attributeId: 2539
+      filterId: 2
   typeId: 48024
-  manufacturing:
-    time:
-    - attributeId: 2539
-      filterId: 2
 48025:
+  manufacturing:
+    time:
+    - attributeId: 2539
+      filterId: 2
   typeId: 48025
-  manufacturing:
-    time:
-    - attributeId: 2539
-      filterId: 2
 48026:
-  typeId: 48026
   copying:
     cost:
     - attributeId: 2569
@@ -1636,73 +1635,73 @@
     - attributeId: 2567
     time:
     - attributeId: 2568
+  typeId: 48026
 48027:
+  copying:
+    cost:
+    - attributeId: 2569
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48027
-  copying:
-    cost:
-    - attributeId: 2569
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48028:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
   typeId: 48028
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
 48029:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2576
+      filterId: 11
   typeId: 48029
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2576
-      filterId: 11
 48030:
-  typeId: 48030
   manufacturing:
     material:
     - attributeId: 2600
@@ -1715,8 +1714,8 @@
       filterId: 9
     - attributeId: 2576
       filterId: 11
+  typeId: 48030
 48031:
-  typeId: 48031
   manufacturing:
     material:
     - attributeId: 2600
@@ -1735,13 +1734,13 @@
       filterId: 10
     - attributeId: 2576
       filterId: 11
+  typeId: 48031
 48032:
-  typeId: 48032
   manufacturing:
     material:
     - attributeId: 2600
+  typeId: 48032
 48033:
-  typeId: 48033
   copying:
     cost:
     - attributeId: 2569
@@ -1753,23 +1752,23 @@
     - attributeId: 2567
     time:
     - attributeId: 2568
+  typeId: 48033
 48034:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 48034
-  manufacturing:
-    material:
-    - attributeId: 2600
 48035:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 48035
-  manufacturing:
-    material:
-    - attributeId: 2600
 48036:
-  typeId: 48036
   manufacturing:
     material:
     - attributeId: 2600
+  typeId: 48036
 48037:
-  typeId: 48037
   copying:
     cost:
     - attributeId: 2569
@@ -1790,440 +1789,440 @@
   researchTime:
     cost:
     - attributeId: 2567
+  typeId: 48037
 48038:
-  typeId: 48038
   manufacturing:
     time:
     - attributeId: 2539
       filterId: 2
+  typeId: 48038
 48039:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 48039
-  manufacturing:
-    material:
-    - attributeId: 2600
 48040:
+  copying:
+    cost:
+    - attributeId: 2569
+  manufacturing:
+    material:
+    - attributeId: 2600
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48040
-  copying:
-    cost:
-    - attributeId: 2569
-  manufacturing:
-    material:
-    - attributeId: 2600
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48041:
+  copying:
+    cost:
+    - attributeId: 2569
+  manufacturing:
+    material:
+    - attributeId: 2600
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48041
-  copying:
-    cost:
-    - attributeId: 2569
-  manufacturing:
-    material:
-    - attributeId: 2600
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48042:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
   typeId: 48042
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
 48043:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2576
+      filterId: 11
   typeId: 48043
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2576
-      filterId: 11
 48044:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2659
+      filterId: 15
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48044
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2659
-      filterId: 15
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48045:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48045
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48046:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2576
+      filterId: 11
   typeId: 48046
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2576
-      filterId: 11
 48047:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2659
+      filterId: 15
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48047
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2659
-      filterId: 15
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48048:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48048
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48049:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48049
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48050:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 48050
-  manufacturing:
-    material:
-    - attributeId: 2600
 48051:
+  manufacturing:
+    material:
+    - attributeId: 2600
   typeId: 48051
-  manufacturing:
-    material:
-    - attributeId: 2600
 48052:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48052
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48053:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
   typeId: 48053
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
 48054:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2560
+      filterId: 13
   typeId: 48054
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2560
-      filterId: 13
 48055:
+  copying:
+    cost:
+    - attributeId: 2569
+  manufacturing:
+    material:
+    - attributeId: 2600
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48055
-  copying:
-    cost:
-    - attributeId: 2569
-  manufacturing:
-    material:
-    - attributeId: 2600
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48056:
+  copying:
+    cost:
+    - attributeId: 2569
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48056
-  copying:
-    cost:
-    - attributeId: 2569
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48057:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48057
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48058:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48058
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48059:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48059
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-  researchTime:
-    cost:
-    - attributeId: 2567
 48060:
+  copying:
+    cost:
+    - attributeId: 2569
+  manufacturing:
+    material:
+    - attributeId: 2600
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48060
-  copying:
-    cost:
-    - attributeId: 2569
-  manufacturing:
-    material:
-    - attributeId: 2600
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48061:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2659
+      filterId: 15
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48061
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2659
-      filterId: 15
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48062:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2659
+      filterId: 15
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48062
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2659
-      filterId: 15
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48063:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2558
+      filterId: 14
+    - attributeId: 2659
+      filterId: 15
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48063
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2558
-      filterId: 14
-    - attributeId: 2659
-      filterId: 15
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48064:
-  typeId: 48064
   copying:
     cost:
     - attributeId: 2569
@@ -2245,8 +2244,8 @@
     - attributeId: 2567
     time:
     - attributeId: 2568
+  typeId: 48064
 48065:
-  typeId: 48065
   copying:
     cost:
     - attributeId: 2569
@@ -2267,22 +2266,22 @@
   researchTime:
     cost:
     - attributeId: 2567
+  typeId: 48065
 48066:
-  typeId: 48066
   manufacturing:
     time:
     - attributeId: 2560
       filterId: 13
+  typeId: 48066
 48067:
-  typeId: 48067
   manufacturing:
     material:
     - attributeId: 2600
     time:
     - attributeId: 2560
       filterId: 13
+  typeId: 48067
 48068:
-  typeId: 48068
   copying:
     cost:
     - attributeId: 2569
@@ -2309,28 +2308,28 @@
     - attributeId: 2567
     time:
     - attributeId: 2568
+  typeId: 48068
 48069:
+  manufacturing:
+    material:
+    - attributeId: 2600
+    time:
+    - attributeId: 2545
+      filterId: 5
+    - attributeId: 2547
+      filterId: 7
+    - attributeId: 2549
+      filterId: 9
+    - attributeId: 2551
+      filterId: 6
+    - attributeId: 2553
+      filterId: 8
+    - attributeId: 2556
+      filterId: 10
+    - attributeId: 2576
+      filterId: 11
   typeId: 48069
-  manufacturing:
-    material:
-    - attributeId: 2600
-    time:
-    - attributeId: 2545
-      filterId: 5
-    - attributeId: 2547
-      filterId: 7
-    - attributeId: 2549
-      filterId: 9
-    - attributeId: 2551
-      filterId: 6
-    - attributeId: 2553
-      filterId: 8
-    - attributeId: 2556
-      filterId: 10
-    - attributeId: 2576
-      filterId: 11
 48070:
-  typeId: 48070
   manufacturing:
     material:
     - attributeId: 2600
@@ -2349,56 +2348,56 @@
       filterId: 10
     - attributeId: 2576
       filterId: 11
+  typeId: 48070
 48071:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48071
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48072:
+  copying:
+    cost:
+    - attributeId: 2569
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
   typeId: 48072
-  copying:
-    cost:
-    - attributeId: 2569
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
 48073:
+  copying:
+    cost:
+    - attributeId: 2569
+    time:
+    - attributeId: 2570
+  invention:
+    cost:
+    - attributeId: 2563
+    time:
+    - attributeId: 2564
+  researchMaterial:
+    cost:
+    - attributeId: 2565
+    time:
+    - attributeId: 2566
+  researchTime:
+    cost:
+    - attributeId: 2567
+    time:
+    - attributeId: 2568
   typeId: 48073
-  copying:
-    cost:
-    - attributeId: 2569
-    time:
-    - attributeId: 2570
-  invention:
-    cost:
-    - attributeId: 2563
-    time:
-    - attributeId: 2564
-  researchMaterial:
-    cost:
-    - attributeId: 2565
-    time:
-    - attributeId: 2566
-  researchTime:
-    cost:
-    - attributeId: 2567
-    time:
-    - attributeId: 2568
 48074:
-  typeId: 48074
   copying:
     cost:
     - attributeId: 2569
@@ -2419,8 +2418,8 @@
     - attributeId: 2567
     time:
     - attributeId: 2568
+  typeId: 48074
 48075:
-  typeId: 48075
   copying:
     cost:
     - attributeId: 2569
@@ -2439,8 +2438,8 @@
     - attributeId: 2567
     time:
     - attributeId: 2568
+  typeId: 48075
 48076:
-  typeId: 48076
   copying:
     cost:
     - attributeId: 2569
@@ -2455,8 +2454,8 @@
   researchTime:
     cost:
     - attributeId: 2567
+  typeId: 48076
 48077:
-  typeId: 48077
   copying:
     cost:
     - attributeId: 2569
@@ -2468,8 +2467,8 @@
     - attributeId: 2567
     time:
     - attributeId: 2568
+  typeId: 48077
 48078:
-  typeId: 48078
   copying:
     cost:
     - attributeId: 2569
@@ -2484,3 +2483,4 @@
   researchTime:
     cost:
     - attributeId: 2567
+  typeId: 48078

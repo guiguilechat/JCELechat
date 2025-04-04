@@ -1,22 +1,21 @@
 3962:
-  typeId: 3962
   assemblyLines:
   - 22
+  typeId: 3962
 13780:
-  typeId: 13780
   assemblyLines:
   - 24
+  typeId: 13780
 16216:
-  typeId: 16216
   assemblyLines:
   - 28
   - 29
+  typeId: 16216
 16220:
-  typeId: 16220
   assemblyLines:
   - 23
+  typeId: 16220
 21642:
-  typeId: 21642
   assemblyLines:
   - 37
   - 3
@@ -25,16 +24,16 @@
   - 33
   - 34
   - 40
+  typeId: 21642
 21644:
-  typeId: 21644
   assemblyLines:
   - 37
   - 5
   - 7
   - 8
   - 31
+  typeId: 21644
 21645:
-  typeId: 21645
   assemblyLines:
   - 37
   - 5
@@ -42,642 +41,643 @@
   - 7
   - 8
   - 38
+  typeId: 21645
 21646:
-  typeId: 21646
   assemblyLines:
   - 6
+  typeId: 21646
 24567:
-  typeId: 24567
   assemblyLines:
   - 158
+  typeId: 24567
 24574:
-  typeId: 24574
   assemblyLines:
   - 17
+  typeId: 24574
 24575:
-  typeId: 24575
   assemblyLines:
   - 10
+  typeId: 24575
 24653:
-  typeId: 24653
   assemblyLines:
   - 18
+  typeId: 24653
 24654:
-  typeId: 24654
   assemblyLines:
   - 19
+  typeId: 24654
 24655:
-  typeId: 24655
   assemblyLines:
   - 20
+  typeId: 24655
 24656:
-  typeId: 24656
   assemblyLines:
   - 21
+  typeId: 24656
 24657:
-  typeId: 24657
   assemblyLines:
   - 22
+  typeId: 24657
 24658:
-  typeId: 24658
   assemblyLines:
   - 25
+  typeId: 24658
 24659:
-  typeId: 24659
   assemblyLines:
   - 26
+  typeId: 24659
 24660:
-  typeId: 24660
   assemblyLines:
   - 27
+  typeId: 24660
 25305:
+  assemblyLines:
+  - 37
   typeId: 25305
-  assemblyLines:
-  - 37
 28076:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28076
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28077:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28077
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28078:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28078
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28079:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28079
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28080:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28080
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28081:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28081
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28082:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28082
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28083:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28083
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28084:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28084
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28085:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28085
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28086:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28086
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28087:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28087
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28088:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28088
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28089:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28089
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28090:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28090
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28091:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28091
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28092:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28092
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28093:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28093
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28094:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28094
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28095:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28095
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28096:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28096
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28097:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28097
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28098:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28098
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28099:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28099
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28100:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28100
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28101:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28101
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28102:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28102
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28103:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28103
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28104:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28104
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28105:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28105
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28106:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28106
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28107:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28107
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28108:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28108
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28109:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28109
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28110:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28110
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28111:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28111
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28112:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28112
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28113:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28113
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28114:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28114
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28115:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28115
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28116:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28116
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28117:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28117
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28118:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28118
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28119:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28119
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28120:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28120
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28121:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28121
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28122:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28122
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28123:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28123
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28124:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28124
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28125:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28125
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28126:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28126
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28127:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28127
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28128:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28128
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28129:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28129
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28130:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28130
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28131:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28131
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28132:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28132
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28133:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28133
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28134:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28134
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28135:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28135
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28183:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28183
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28184:
+  assemblyLines:
+  - 5
+  - 7
+  - 8
+  - 31
+  - 37
   typeId: 28184
-  assemblyLines:
-  - 5
-  - 7
-  - 8
-  - 31
-  - 37
 28185:
-  typeId: 28185
   assemblyLines:
   - 5
   - 7
   - 8
   - 31
   - 37
+  typeId: 28185
 28351:
-  typeId: 28351
   assemblyLines:
   - 146
   - 149
+  typeId: 28351
 28352:
+  assemblyLines:
+  - 145
   typeId: 28352
-  assemblyLines:
-  - 145
 28606:
-  typeId: 28606
   assemblyLines:
   - 145
+  typeId: 28606
 29613:
-  typeId: 29613
   assemblyLines:
   - 155
+  typeId: 29613
 30389:
-  typeId: 30389
   assemblyLines:
   - 159
+  typeId: 30389
 32245:
-  typeId: 32245
   assemblyLines:
   - 168
   - 169
+  typeId: 32245
 33685:
+  assemblyLines:
+  - 145
   typeId: 33685
-  assemblyLines:
-  - 145
 33687:
-  typeId: 33687
   assemblyLines:
   - 145
+  typeId: 33687
 33867:
-  typeId: 33867
   assemblyLines:
   - 171
+  typeId: 33867
 35877:
-  typeId: 35877
   assemblyLines:
   - 176
   - 177
+  typeId: 35877
 35878:
-  typeId: 35878
   assemblyLines:
   - 175
+  typeId: 35878
 35880:
-  typeId: 35880
   assemblyLines:
   - 37
+  typeId: 35880
 35881:
-  typeId: 35881
   assemblyLines:
   - 176
+  typeId: 35881
 35886:
-  typeId: 35886
   assemblyLines:
   - 181
+  typeId: 35886
 35891:
-  typeId: 35891
   assemblyLines:
   - 179
   - 178
   - 180
+  typeId: 35891
 45537:
-  typeId: 45537
   assemblyLines:
   - 182
+  typeId: 45537
 45538:
-  typeId: 45538
   assemblyLines:
   - 183
+  typeId: 45538
 45539:
-  typeId: 45539
   assemblyLines:
   - 184
+  typeId: 45539
 45550:
-  typeId: 45550
   assemblyLines:
   - 178
   - 179
   - 180
+  typeId: 45550
