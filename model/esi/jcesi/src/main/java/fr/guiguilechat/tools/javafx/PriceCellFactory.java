@@ -1,5 +1,6 @@
-package fr.guiguilechat.tools;
+package fr.guiguilechat.tools.javafx;
 
+import fr.guiguilechat.tools.FormatTools;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 

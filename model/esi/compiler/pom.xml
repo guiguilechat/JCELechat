@@ -29,7 +29,7 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>interfaces</artifactId>
+			<artifactId>commons</artifactId>
 		</dependency>
 	</dependencies>
 	<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>

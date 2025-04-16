@@ -40,7 +40,9 @@ public class MarketGroup extends ARemoteEntity<Integer, R_get_markets_groups_mar
 	/**
 	 * description string
 	 */
-	private String description;
+//	@Lob
+//	private String description;
+
 	/**
 	 * name string
 	 */
@@ -55,7 +57,7 @@ public class MarketGroup extends ARemoteEntity<Integer, R_get_markets_groups_mar
 
 	@Override
 	public void update(R_get_markets_groups_market_group_id data) {
-		setDescription(data.description);
+//		setDescriptionLob(data.description);
 		setName(data.name);
 	}
 

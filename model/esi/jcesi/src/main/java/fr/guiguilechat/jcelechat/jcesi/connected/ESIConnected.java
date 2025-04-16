@@ -21,7 +21,7 @@ import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * raw access to the esi services using a connection.
+ * raw access to the esi services using an authentification.
  */
 @RequiredArgsConstructor
 @AllArgsConstructor

@@ -6,8 +6,8 @@
     <version>7.41.0</version>
   </parent>
   <groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-  <artifactId>interfaces</artifactId>
-  <name>JCESI interfaces</name>
+  <artifactId>commons</artifactId>
+  <name>JCESI commons</name>
   <dependencies>
   	<dependency>
   		<groupId>org.testng</groupId>
@@ -33,4 +33,5 @@
   		<optional>true</optional>
   	</dependency>
   </dependencies>
+  <description>Common classes used by both the jcesi compiler and compiled modules. Since the compiler should NOT be imported after the compiled is generated, this module provides those classes to both.</description>
 </project>

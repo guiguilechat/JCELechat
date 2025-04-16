@@ -5,7 +5,7 @@ import java.util.List;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
-import fr.guiguilechat.tools.JFXTools;
+import fr.guiguilechat.tools.javafx.JFXTools;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import javafx.beans.value.ObservableDoubleValue;
 

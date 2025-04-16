@@ -35,10 +35,10 @@
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>compiled</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>interfaces</artifactId>
-		</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+				<artifactId>commons</artifactId>
+			</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>

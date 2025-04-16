@@ -8,19 +8,19 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model</groupId>
 	<artifactId>esi</artifactId>
-	<name>Model-ESI</name>
+	<name>JCESI root</name>
 	<packaging>pom</packaging>
 	<modules>
 		<module>jcesi</module>
 		<module>compiler</module>
-		<module>interfaces</module>
+		<module>commons</module>
 		<module>compiled</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-				<artifactId>interfaces</artifactId>
+				<artifactId>commons</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>

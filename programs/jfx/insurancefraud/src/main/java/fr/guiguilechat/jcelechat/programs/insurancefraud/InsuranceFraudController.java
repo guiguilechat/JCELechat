@@ -25,7 +25,7 @@ import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Ice;
-import fr.guiguilechat.tools.PriceCellFactory;
+import fr.guiguilechat.tools.javafx.PriceCellFactory;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.SimpleDoubleProperty;

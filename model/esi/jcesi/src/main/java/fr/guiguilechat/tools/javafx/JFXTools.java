@@ -1,4 +1,4 @@
-package fr.guiguilechat.tools;
+package fr.guiguilechat.tools.javafx;
 
 import java.util.HashMap;
 import java.util.HashSet;

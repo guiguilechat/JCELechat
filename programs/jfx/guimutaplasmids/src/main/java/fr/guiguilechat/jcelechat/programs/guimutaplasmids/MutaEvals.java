@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.MutaplasmidFamily.ModifiedItem;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.MutaplasmidFamily.MutaStr;
-import fr.guiguilechat.tools.PriceCellFactory;
+import fr.guiguilechat.tools.javafx.PriceCellFactory;
 import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.beans.binding.Bindings;

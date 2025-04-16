@@ -9,8 +9,8 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 	<artifactId>compiled</artifactId>
-	<name>ESI-compiled</name>
-	<description>compiling of esi access</description>
+	<name>JCESI compiled</name>
+	<description>generated esi access, using the jcesi compiler against esi's _latest swagger</description>
 	<build>
 		<plugins>
 			<plugin>

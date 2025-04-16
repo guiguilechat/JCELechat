@@ -54,6 +54,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
 
+	private final static AppUserAgent SELF_USER_AGENT = new AppUserAgent("jcelechat", null, "lechatguigui@gmail.com",
+			"https://github.com/guiguilechat/JCELechat/");
+
 	private static final Logger csvLogger = LoggerFactory.getLogger(ConnectedImpl.class.getCanonicalName() + ".csv");
 
 	/** to be called before sending a request */
@@ -107,8 +110,46 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 	}
 
+	private final List<AppUserAgent> userAgents;
+
+	@Getter(lazy = true)
+	private final String userAgent = userAgents.stream()
+			.collect(
+					StringBuilder::new,
+					(sb, ua) -> ua.toHeader(sb),
+					(s1, s2) -> {
+						s1.append(" ").append(s2);
+					})
+			.toString();
+
+	public ConnectedImpl(List<AppUserAgent> userAgents) {
+		this.userAgents = appendSelfUserAgent(userAgents);
+	}
+
+	public ConnectedImpl() {
+		this(List.of());
+	}
+
+	public ConnectedImpl(AppUserAgent... appUserAgent) {
+		this(appUserAgent == null ? List.of() : List.of(appUserAgent));
+	}
+
+	protected List<AppUserAgent> appendSelfUserAgent(List<AppUserAgent> userAgents){
+		List<AppUserAgent> ret = new ArrayList<>();
+		if (userAgents != null) {
+			ret.addAll(userAgents);
+		}
+		ret.add(SELF_USER_AGENT);
+		return ret;
+	}
+
 	@Getter(lazy = true)
 	private final OkHttpClient client = new OkHttpClient.Builder()
+			.addNetworkInterceptor(chain -> chain.proceed(
+					chain.request()
+							.newBuilder()
+							.header("User-Agent", getUserAgent())
+							.build()))
 	    .callTimeout(12, TimeUnit.SECONDS)
 			.build();
 
@@ -464,7 +505,6 @@ public abstract class ConnectedImpl implements ITransfer {
 			// we set daemon otherwise the thread will prevent jvm from dying.
 		ScheduledThreadPoolExecutor ret = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(200, r -> {
 				Thread t = Executors.defaultThreadFactory().newThread(r);
-				// daemon to allow JVM to shut down while the thread is still active
 				t.setDaemon(true);
 				return t;
 			});

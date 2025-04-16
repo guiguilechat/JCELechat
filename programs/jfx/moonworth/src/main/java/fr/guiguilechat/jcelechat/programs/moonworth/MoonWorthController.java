@@ -22,7 +22,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.material.IceProduct;
 import fr.guiguilechat.jcelechat.model.sde.types.material.Mineral;
 import fr.guiguilechat.jcelechat.model.sde.types.material.MoonMaterials;
 import fr.guiguilechat.tools.FormatTools;
-import fr.guiguilechat.tools.JFXTools;
+import fr.guiguilechat.tools.javafx.JFXTools;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.Property;

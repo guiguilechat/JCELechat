@@ -3,6 +3,7 @@ package fr.guiguilechat.tools;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.tools.javafx.JFXTools;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;

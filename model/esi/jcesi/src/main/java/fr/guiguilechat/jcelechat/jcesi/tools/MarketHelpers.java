@@ -5,7 +5,7 @@ import java.text.DecimalFormatSymbols;
 import java.util.Locale;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
-import fr.guiguilechat.tools.JFXTools;
+import fr.guiguilechat.tools.javafx.JFXTools;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.Property;
 
