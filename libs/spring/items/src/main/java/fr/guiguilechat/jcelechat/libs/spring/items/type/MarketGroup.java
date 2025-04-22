@@ -6,6 +6,7 @@ import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_groups_market_group_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
+import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
@@ -40,8 +41,8 @@ public class MarketGroup extends ARemoteEntity<Integer, R_get_markets_groups_mar
 	/**
 	 * description string
 	 */
-//	@Lob
-//	private String description;
+	@Lob
+	private String description;
 
 	/**
 	 * name string
@@ -57,7 +58,7 @@ public class MarketGroup extends ARemoteEntity<Integer, R_get_markets_groups_mar
 
 	@Override
 	public void update(R_get_markets_groups_market_group_id data) {
-//		setDescriptionLob(data.description);
+		setDescription(data.description);
 		setName(data.name);
 	}
 
