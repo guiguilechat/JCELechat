@@ -12735,3 +12735,217 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     tierdifficulty: 3
+  87501:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 87501
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Ruined Sleeper Depot
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 600.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  87502:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 87502
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Preserved Sleeper Depot
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 600.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  87503:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 87503
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Drifter Collection
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
+  87532:
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 87532
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Thread Capacitor
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 1
+  87557:
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 87557
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Thread Capacitor
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+  87558:
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 87558
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Thread Capacitor
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+  87684:
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 87684
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Solution Capacitor
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+  87947:
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 87947
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Prime Drifter Collection
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
+  88224:
+    capacity: 2700.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 88224
+    lootrespawntime: 18000.0
+    mass: 10000.0
+    name: Eradication Authority
+    portionSize: 1
+    published: false
+    radius: 241.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3

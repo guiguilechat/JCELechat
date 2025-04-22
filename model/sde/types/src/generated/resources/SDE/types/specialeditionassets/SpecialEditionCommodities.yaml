@@ -4174,14 +4174,6 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  86496:
-    cpumultiplier: 1.0
-    id: 86496
-    name: Yoiul Festival Brainfreeze Crate
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
   87098:
     cpumultiplier: 1.0
     id: 87098
@@ -4278,6 +4270,86 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
+  87601:
+    cpumultiplier: 1.0
+    id: 87601
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Ladon Forked Packet
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87602:
+    cpumultiplier: 1.0
+    id: 87602
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Recursive Knot
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87603:
+    cpumultiplier: 1.0
+    id: 87603
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Uncertainty Thread
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87604:
+    cpumultiplier: 1.0
+    id: 87604
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Definitive Thread
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87605:
+    cpumultiplier: 1.0
+    id: 87605
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Execution Command Unit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87606:
+    cpumultiplier: 1.0
+    id: 87606
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Terminated Knot
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87607:
+    cpumultiplier: 1.0
+    id: 87607
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Dominance Command Unit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87608:
+    cpumultiplier: 1.0
+    id: 87608
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Mynos Forked Packet
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   87853:
     cpumultiplier: 1.0
     id: 87853
@@ -4287,3 +4359,84 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
+  87900:
+    cpumultiplier: 1.0
+    id: 87900
+    marketGroup: 1663
+    name: Capsuleer Day XXII Fireworks Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  87901:
+    cpumultiplier: 1.0
+    id: 87901
+    marketGroup: 1663
+    name: Capsuleer Day XXII Booster Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  87925:
+    cpumultiplier: 1.0
+    id: 87925
+    marketGroup: 1663
+    name: Capsuleer Day XXII Glamourex Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  87926:
+    cpumultiplier: 1.0
+    id: 87926
+    marketGroup: 1663
+    name: Capsuleer Day XXII Accelerator Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  88133:
+    cpumultiplier: 1.0
+    id: 88133
+    marketGroup: 1663
+    mass: 1.0
+    name: Historic Capsuleer Day SKIN Crate
+    portionSize: 1
+    published: true
+  88134:
+    cpumultiplier: 1.0
+    id: 88134
+    marketGroup: 1663
+    mass: 1.0
+    name: Historic Capsuleer Day Apparel Crate
+    portionSize: 1
+    published: true
+  88178:
+    cpumultiplier: 1.0
+    id: 88178
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Nexus Cypher
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88179:
+    cpumultiplier: 1.0
+    id: 88179
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Blackbody Driver
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88347:
+    cpumultiplier: 1.0
+    id: 88347
+    mass: 1.0
+    name: Strategos' Modified Siege Module Schematics Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

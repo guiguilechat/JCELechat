@@ -9,3 +9,51 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  88268:
+    id: 88268
+    name: 'Narrowband Emission Amplifier Blueprint '
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88269:
+    id: 88269
+    name: 'Narrowband Emission Limiter Blueprint '
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88270:
+    id: 88270
+    name: 'Midband Emission Amplifier Blueprint '
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88271:
+    id: 88271
+    name: 'Midband Emission Limiter Blueprint '
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88272:
+    id: 88272
+    name: 'Wideband Emission Amplifier Blueprint '
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88273:
+    id: 88273
+    name: 'Wideband Emission Limiter Blueprint '
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

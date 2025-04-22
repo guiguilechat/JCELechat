@@ -1859,3 +1859,29 @@ types:
     signatureradius: 100.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
+  88170:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacity: 0.10000000149011612
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 88170
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    name: Vortex Transmitter
+    portionSize: 1
+    published: false
+    radius: 241.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0

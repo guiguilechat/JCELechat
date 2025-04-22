@@ -125,3 +125,38 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  88214:
+    id: 88214
+    name: Liberated Barbican Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88215:
+    id: 88215
+    name: Conflux Eyrie Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88216:
+    id: 88216
+    name: Sanctified Vidette Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88217:
+    id: 88217
+    name: Azdaja Redoubt Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88218:
+    id: 88218
+    name: Sentinel MZ Filament Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

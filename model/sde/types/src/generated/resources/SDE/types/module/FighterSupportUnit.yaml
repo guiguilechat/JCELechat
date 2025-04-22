@@ -230,3 +230,29 @@ types:
     requiredskill1level: 4
     techlevel: 2
     volume: 4000.0
+  88264:
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 50.0
+    fighterbonusrofpercent: 0.9240000247955322
+    fighterbonusshieldcapacitypercent: 1.0759999752044678
+    fighterbonusshieldrechargepercent: 0.9240000247955322
+    fighterbonusvelocitypercent: 1.0759999752044678
+    hp: 40.0
+    id: 88264
+    marketGroup: 938
+    mass: 200.0
+    metagroupid: 5
+    metalevelold: 14
+    name: Strategos' Modified Fighter Support Unit
+    packagedVolume: 200.0
+    portionSize: 1
+    power: 75000
+    published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 200.0

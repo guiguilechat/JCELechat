@@ -33,80 +33,81 @@ types:
     volume: 1.0
   57207:
     id: 57207
+    marketGroup: 3745
     mass: 1.0
-    name: Mining Barge Operations Expert System
+    name: Mining Barge Operations
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   57208:
     id: 57208
+    marketGroup: 3745
     mass: 1.0
-    name: Core Ship Operations Expert System
+    name: Core Ship Operations
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   81098:
     id: 81098
+    marketGroup: 3745
     mass: 1.0
-    name: Space Exploration Expert System
+    name: Space Exploration
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   81118:
     id: 81118
+    marketGroup: 3745
     mass: 1.0
-    name: Faction Warfare Expert System
+    name: Faction Warfare
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   81121:
     id: 81121
+    marketGroup: 3745
     mass: 1.0
-    name: Hauler Operations Expert System
+    name: Hauler Operations
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   81122:
     id: 81122
+    marketGroup: 3745
     mass: 1.0
-    name: Enforcer Operations Expert System
+    name: Enforcer Operations
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   81614:
     id: 81614
+    marketGroup: 3745
     mass: 1.0
-    name: Gas Harvesting Expert System
+    name: Gas Harvesting
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   81618:
     id: 81618
+    marketGroup: 3745
     mass: 1.0
-    name: Logistics Pilot Expert System
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  85127:
-    id: 85127
-    mass: 1.0
-    name: Crimson Harvest Expert System
+    name: Logistics Pilot
     packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   86227:
     id: 86227
+    marketGroup: 3745
     mass: 1.0
-    name: Brand Manager Expert System
+    name: Brand Manager
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -115,14 +116,6 @@ types:
     id: 86393
     mass: 1.0
     name: Deathless Expert System
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    volume: 1.0
-  87293:
-    id: 87293
-    mass: 1.0
-    name: Resplendent Coil Expert System
     packagedVolume: 1.0
     portionSize: 1
     published: true

@@ -441,6 +441,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  53042:
+    gender: 2
+    id: 53042
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's Cluster Champion Frame
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   53226:
     gender: 2
     id: 53226
@@ -467,6 +477,16 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'RubySet TorsoRig' Body Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  53230:
+    gender: 2
+    id: 53230
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's Cluster Champion Frame
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

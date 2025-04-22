@@ -89,3 +89,12 @@ types:
     price: 10000.0
     published: true
     volume: 0.009999999776482582
+  88087:
+    id: 88087
+    marketGroup: 1857
+    name: Eleutrium
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.009999999776482582

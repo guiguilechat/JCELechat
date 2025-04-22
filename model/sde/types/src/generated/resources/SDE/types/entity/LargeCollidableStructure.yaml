@@ -20530,11 +20530,11 @@ types:
     volume: 1.0E8
     warpscrambleduration: 8000
   84294:
-    armoremdamageresonance: 0.6524999737739563
-    armorexplosivedamageresonance: 0.6524999737739563
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 900000.0
-    armorkineticdamageresonance: 0.6524999737739563
-    armorthermaldamageresonance: 0.6524999737739563
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -20553,7 +20553,7 @@ types:
     mass: 100000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
-    name: Horizon Breach Engine
+    name: Vigilance Spire
     optimalsigradius: 1000
     packagedVolume: 1.0E8
     portionSize: 1
@@ -21089,6 +21089,123 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     warpscrambleduration: 8000
+  87531:
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 60000.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 20000.0
+    id: 87531
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Obstruction Node
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 5500.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 40000.0
+    shieldemdamageresonance: 0.6524999737739563
+    shieldexplosivedamageresonance: 0.6524999737739563
+    shieldkineticdamageresonance: 0.6524999737739563
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 0.6524999737739563
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  87555:
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 90000.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 30000.0
+    id: 87555
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Obstruction Node
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 5500.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 60000.0
+    shieldemdamageresonance: 0.6524999737739563
+    shieldexplosivedamageresonance: 0.6524999737739563
+    shieldkineticdamageresonance: 0.6524999737739563
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 0.6524999737739563
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  87556:
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 120000.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 40000.0
+    id: 87556
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Obstruction Node
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 5500.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 80000.0
+    shieldemdamageresonance: 0.6524999737739563
+    shieldexplosivedamageresonance: 0.6524999737739563
+    shieldkineticdamageresonance: 0.6524999737739563
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 0.6524999737739563
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
   87617:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -21128,4 +21245,101 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  87683:
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 120000.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 40000.0
+    id: 87683
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Reckoning Hoard
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 5500.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 80000.0
+    shieldemdamageresonance: 0.6524999737739563
+    shieldexplosivedamageresonance: 0.6524999737739563
+    shieldkineticdamageresonance: 0.6524999737739563
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 0.6524999737739563
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  88155:
+    armoremdamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.44999998807907104
+    armorhp: 10000.0
+    armorkineticdamageresonance: 0.7200000286102295
+    armorthermaldamageresonance: 0.5400000214576721
+    capacitorcapacity: 1000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamage: 25.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamage: 25.0
+    explosivedamageresonance: 1.0
+    falloff: 60000.0
+    gfxturretid: 47446
+    hp: 5000.0
+    id: 88155
+    kineticdamage: 25.0
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 1000.0
+    maxlockedtargets: 1
+    maxrange: 30000.0
+    maxtargetrange: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Vigilant Eradicator
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 241.0
+    rechargerate: 500000.0
+    remoterepairimpedance: 1.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    scanresolution: 180.0
+    shieldcapacity: 5000.0
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.44999998807907104
+    shieldkineticdamageresonance: 0.7200000286102295
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.5400000214576721
+    signatureradius: 400.0
+    speed: 5000.0
+    structureuniformity: 1.0
+    thermaldamage: 25.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 35.0
+    volume: 1000.0
     warpscrambleduration: 8000

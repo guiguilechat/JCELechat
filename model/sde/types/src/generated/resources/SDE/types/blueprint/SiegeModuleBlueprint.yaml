@@ -156,3 +156,12 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  88267:
+    id: 88267
+    name: Strategos' Modified Siege Module Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

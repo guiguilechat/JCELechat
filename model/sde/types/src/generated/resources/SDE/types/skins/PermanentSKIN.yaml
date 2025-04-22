@@ -43374,6 +43374,118 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  87504:
+    id: 87504
+    marketGroup: 2024
+    name: Paladin Imperial Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87505:
+    id: 87505
+    marketGroup: 2038
+    name: Heretic Imperial Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87506:
+    id: 87506
+    marketGroup: 2051
+    name: Purifier Imperial Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87507:
+    id: 87507
+    marketGroup: 1994
+    name: Coercer Imperial Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87508:
+    id: 87508
+    marketGroup: 2079
+    name: Oneiros Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87509:
+    id: 87509
+    marketGroup: 1996
+    name: Catalyst Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87510:
+    id: 87510
+    marketGroup: 2113
+    name: Panther Republic Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87511:
+    id: 87511
+    marketGroup: 2041
+    name: Sabre Republic Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87512:
+    id: 87512
+    marketGroup: 2054
+    name: Hound Republic Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87513:
+    id: 87513
+    marketGroup: 2072
+    name: Vagabond Republic Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87514:
+    id: 87514
+    marketGroup: 1997
+    name: Thrasher Republic Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87515:
+    id: 87515
+    marketGroup: 2078
+    name: Basilisk State Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87516:
+    id: 87516
+    marketGroup: 2082
+    name: Falcon State Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  87517:
+    id: 87517
+    marketGroup: 2082
+    name: Rook State Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   87519:
     id: 87519
     marketGroup: 2110
@@ -43434,6 +43546,192 @@ types:
     id: 87526
     marketGroup: 2371
     name: Legion Khanid Cyber Knight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88030:
+    id: 88030
+    name: Harbinger Navy Issue Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88031:
+    id: 88031
+    marketGroup: 2077
+    name: Guardian Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88032:
+    id: 88032
+    name: Magnate Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88033:
+    id: 88033
+    name: Drake Navy Issue Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88034:
+    id: 88034
+    marketGroup: 2003
+    name: Heron Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88037:
+    id: 88037
+    name: Eagle Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88038:
+    id: 88038
+    name: Brutix Navy Issue Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88039:
+    id: 88039
+    name: Oneiros Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88040:
+    id: 88040
+    name: Imicus Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88041:
+    id: 88041
+    marketGroup: 2103
+    name: Hurricane Fleet Issue Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88042:
+    id: 88042
+    name: Vagabond Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88043:
+    id: 88043
+    marketGroup: 2005
+    name: Probe Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88046:
+    id: 88046
+    name: Thunderchild Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88047:
+    id: 88047
+    name: Stormbringer Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88048:
+    id: 88048
+    name: Skybreaker Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88049:
+    id: 88049
+    name: Machariel Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88050:
+    id: 88050
+    name: Praxis Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88051:
+    id: 88051
+    marketGroup: 2031
+    name: Astero Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88053:
+    id: 88053
+    marketGroup: 2521
+    name: Kikimora Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88054:
+    id: 88054
+    name: Squall Tyrantbreaker SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88209:
+    id: 88209
+    marketGroup: 2031
+    name: Dramiel Blackbody Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88210:
+    id: 88210
+    marketGroup: 3568
+    name: Mekubal Blackbody Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88211:
+    id: 88211
+    marketGroup: 2030
+    name: Cynabal Blackbody Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88212:
+    id: 88212
+    marketGroup: 3567
+    name: Khizriel Blackbody Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88213:
+    id: 88213
+    marketGroup: 1963
+    name: Machariel Blackbody Drift SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

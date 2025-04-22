@@ -14,10 +14,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMaxRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
@@ -30,23 +28,9 @@ import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class Kylixium
+public class Tyranite
     extends Asteroid
 {
-    /**
-     * max visual size for asteroids to fit moon chunk
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(16255)
-    public int asteroidmaxradius;
-    /**
-     * Sets the radius of the asteroid ball when it has a quantity of 1 unit
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(90)
-    public int asteroidradiusunitsize;
     /**
      * If set to true, this results in no mining waste.
      */
@@ -75,20 +59,12 @@ public class Kylixium
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, ReprocessingSkillType.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AsteroidMaxRadius.INSTANCE, OreBasicType.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
-    public static final Kylixium.MetaGroup METAGROUP = new Kylixium.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, ReprocessingSkillType.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, OreBasicType.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE })));
+    public static final Tyranite.MetaGroup METAGROUP = new Tyranite.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  2727 :
-            {
-                return asteroidmaxradius;
-            }
-            case  1981 :
-            {
-                return asteroidradiusunitsize;
-            }
             case  3236 :
             {
                 return ignoreminingwaste;
@@ -118,35 +94,35 @@ public class Kylixium
     }
 
     @Override
-    public IMetaGroup<Kylixium> getGroup() {
+    public IMetaGroup<Tyranite> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<Kylixium>
+        implements IMetaGroup<Tyranite>
     {
-        public static final String RESOURCE_PATH = "SDE/types/asteroid/Kylixium.yaml";
-        private Map<Integer, Kylixium> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Tyranite.yaml";
+        private Map<Integer, Tyranite> cache = (null);
 
         @Override
-        public IMetaCategory<? super Kylixium> category() {
+        public IMetaCategory<? super Tyranite> category() {
             return Asteroid.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  4755;
+            return  4857;
         }
 
         @Override
         public String getName() {
-            return "Kylixium";
+            return "Tyranite";
         }
 
         @Override
-        public synchronized Map<Integer, Kylixium> load() {
+        public synchronized Map<Integer, Tyranite> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(Kylixium.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(Tyranite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -158,7 +134,7 @@ public class Kylixium
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, Kylixium> types;
+            public LinkedHashMap<Integer, Tyranite> types;
         }
     }
 }

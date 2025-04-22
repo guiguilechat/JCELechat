@@ -370,3 +370,23 @@ types:
     speedmultiplier: 1.0
     techlevel: 1
     volume: 1.0
+  88265:
+    cpu: 26.0
+    damagemultiplier: 1.1399999856948853
+    hp: 40.0
+    id: 88265
+    marketGroup: 647
+    mass: 1.0
+    metagroupid: 5
+    metalevelold: 15
+    name: Strategos' Modified Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
+    volume: 5.0

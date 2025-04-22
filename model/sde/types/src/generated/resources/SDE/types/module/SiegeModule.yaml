@@ -661,3 +661,60 @@ types:
     speedfactorfloor: -100
     techlevel: 2
     volume: 3500.0
+  88266:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    canfitshipgroup01: 485
+    canfitshipgroup02: 4594
+    consumptionquantity: 250
+    consumptiontype: 16275
+    cpu: 110.0
+    deactivateifoffensive: 1
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 300000.0
+    ecmresistance: 9.999999747378752E-6
+    hp: 999999.0
+    hullemdamageresonance: 1.0
+    hullexplosivedamageresonance: 1.0
+    hullkineticdamageresonance: 1.0
+    hullthermaldamageresonance: 1.0
+    id: 88266
+    marketGroup: 801
+    mass: 1.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metalevelold: 5
+    name: Strategos' Modified Siege Module
+    packagedVolume: 4000.0
+    portionSize: 1
+    power: 120000
+    published: true
+    radius: 1.0
+    remoteassistanceimpedancebonus: -80
+    remoterepairimpedancebonus: -99.9999008178711
+    requiredskill1: 22043
+    requiredskill1level: 5
+    sensordampenerresistancebonus: -75
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    siegehawmissilerofbonus: -80
+    siegelauncherrofbonus: -80
+    siegelocallogisticsamountbonus: 100
+    siegelocallogisticsdurationbonus: -50
+    siegemassmultiplier: 10
+    siegemissiledamagebonus: 210
+    siegemodewarpstatus: 100
+    siegetorpedovelocitybonus: 150
+    siegeturretdamagebonus: 880
+    speedfactor: -100.0
+    speedfactorfloor: -100
+    techlevel: 2
+    volume: 4000.0
+    weapondisruptionresistancebonus: -75

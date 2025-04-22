@@ -8154,3 +8154,29 @@ types:
     trackingspeed: 26.0
     typecolorscheme: 11320
     volume: 10.0
+  88348:
+    aitankingmodifierdrone: 0.699999988079071
+    damagemultiplier: 1.0
+    falloff: 1.0
+    id: 88348
+    name: Lux Ballistra
+    optimalsigradius: 1000
+    portionSize: 1
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    slots: 1
+    techlevel: 1
+  88349:
+    aitankingmodifierdrone: 0.699999988079071
+    damagemultiplier: 1.0
+    falloff: 1.0
+    id: 88349
+    name: Lux Kopis
+    optimalsigradius: 1000
+    portionSize: 1
+    published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    slots: 1
+    techlevel: 1

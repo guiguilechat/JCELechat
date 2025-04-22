@@ -9447,3 +9447,93 @@ types:
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
+  88172:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 88172
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Narrowband Emission Amplifier
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  88173:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 88173
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Narrowband Emission Limiter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  88174:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 88174
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Midband Emission Amplifier
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  88175:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 88175
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Midband Emission Limiter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  88176:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 88176
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Wideband Emission Amplifier
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612
+  88177:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 88177
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Wideband Emission Limiter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612

@@ -3391,6 +3391,78 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87767:
+    id: 87767
+    marketGroup: 3653
+    name: Hive Hunter Green Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87768:
+    id: 87768
+    marketGroup: 3653
+    name: Barbican Eclipse Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87769:
+    id: 87769
+    marketGroup: 3654
+    name: Sentinel Grim Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87770:
+    id: 87770
+    marketGroup: 3654
+    name: Sentinel Grim Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87771:
+    id: 87771
+    marketGroup: 3654
+    name: Risen Flesh Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87772:
+    id: 87772
+    marketGroup: 3655
+    name: Risen Flesh Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87773:
+    id: 87773
+    marketGroup: 3655
+    name: Risen Flesh Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87774:
+    id: 87774
+    marketGroup: 3653
+    name: Hive Hunter Green Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87775:
+    id: 87775
+    marketGroup: 3653
+    name: Redoubt Bolt Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   87776:
     id: 87776
     marketGroup: 3653
@@ -3419,6 +3491,102 @@ types:
     id: 87779
     marketGroup: 3653
     name: Precursor Bone Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87780:
+    id: 87780
+    marketGroup: 3653
+    name: Redoubt Bolt Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87781:
+    id: 87781
+    marketGroup: 3653
+    name: Scrutinized Cyan Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87782:
+    id: 87782
+    marketGroup: 3654
+    name: Vidette Turquoise Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87783:
+    id: 87783
+    marketGroup: 3654
+    name: Scrutinized Cyan Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87784:
+    id: 87784
+    marketGroup: 3654
+    name: Conflux Mist Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87785:
+    id: 87785
+    marketGroup: 3632
+    name: Tektonic Cadmium - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87786:
+    id: 87786
+    marketGroup: 3632
+    name: Tektonic Cadmium - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87787:
+    id: 87787
+    marketGroup: 3632
+    name: Polemos Bronze - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87788:
+    id: 87788
+    marketGroup: 3632
+    name: Strategos Adamant - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87789:
+    id: 87789
+    marketGroup: 3633
+    name: Wheel of the Awoken - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87790:
+    id: 87790
+    marketGroup: 3633
+    name: Architect of Dreams - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87791:
+    id: 87791
+    marketGroup: 3633
+    name: Architect of Nightmares - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -3495,6 +3663,30 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87830:
+    id: 87830
+    marketGroup: 3654
+    name: Vigilant Spearmint Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87831:
+    id: 87831
+    marketGroup: 3654
+    name: ' Tyrant Blue Satin - Limited'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87832:
+    id: 87832
+    marketGroup: 3654
+    name: Vernal Celadon Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   87833:
     id: 87833
     marketGroup: 3653
@@ -3503,10 +3695,42 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87837:
+    id: 87837
+    marketGroup: 3655
+    name: Pastel Dreams Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87839:
+    id: 87839
+    marketGroup: 3632
+    name: Drifted Electrum Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   87840:
     id: 87840
     marketGroup: 3633
     name: Clustered Horde - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87841:
+    id: 87841
+    marketGroup: 3633
+    name: Wild Warren - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87843:
+    id: 87843
+    marketGroup: 3633
+    name: Hiver Finish - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

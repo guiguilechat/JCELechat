@@ -2774,3 +2774,33 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -47.25
     volume: 5.0
+  88262:
+    capacitorneed: 40.0
+    cpu: 29.0
+    duration: 12000.0
+    emdamageresistancebonus: -37.90999984741211
+    explosivedamageresistancebonus: -37.90999984741211
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 88262
+    kineticdamageresistancebonus: -37.90999984741211
+    marketGroup: 1696
+    mass: 10000.0
+    metagroupid: 5
+    metalevelold: 11
+    name: Strategos' Modified Multispectrum Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    price: 63062.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -37.90999984741211
+    volume: 5.0

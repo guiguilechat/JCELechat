@@ -8,7 +8,7 @@ public class R_get_characters_character_id_notifications_contacts {
     /**
      * notification_id integer
      */
-    public int notification_id;
+    public long notification_id;
     /**
      * send_date string
      */
@@ -50,6 +50,6 @@ public class R_get_characters_character_id_notifications_contacts {
     }
 
     public int hashCode() {
-        return ((((((message == null)? 0 :message.hashCode())+ notification_id)+((send_date == null)? 0 :send_date.hashCode()))+ sender_character_id)+ Double.hashCode(standing_level));
+        return ((((((message == null)? 0 :message.hashCode())+ Long.hashCode(notification_id))+((send_date == null)? 0 :send_date.hashCode()))+ sender_character_id)+ Double.hashCode(standing_level));
     }
 }

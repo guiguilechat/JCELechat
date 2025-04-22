@@ -23943,6 +23943,7 @@ id2group:
   53038: apparel/Augmentations
   53040: apparel/Augmentations
   53041: apparel/Augmentations
+  53042: apparel/Augmentations
   53045: entity/LargeCollidableStructure
   53046: entity/LargeCollidableStructure
   53047: entity/LargeCollidableStructure
@@ -24038,6 +24039,7 @@ id2group:
   53226: apparel/Augmentations
   53228: apparel/Augmentations
   53229: apparel/Augmentations
+  53230: apparel/Augmentations
   53244: skins/PermanentSKIN
   53288: commodity/ConstructionComponents
   53289: commodity/ConstructionComponents
@@ -31156,7 +31158,6 @@ id2group:
   85088: charge/SCARABBreacherPods
   85089: charge/SCARABBreacherPods
   85118: personalization/ShipSKINDesignElement
-  85127: expertsystems/StandardExpertSystems
   85133: personalization/ShipSKINDesignElement
   85134: personalization/ShipSKINDesignElement
   85137: personalization/ShipSKINDesignElement
@@ -31758,7 +31759,6 @@ id2group:
   86483: entity/IrregularCruiser
   86490: entity/IrregularCruiser
   86495: specialeditionassets/SpecialEditionCommodities
-  86496: specialeditionassets/SpecialEditionCommodities
   86498: entity/DrifterResponseBattleship
   86512: entity/IrregularDestroyer
   86513: entity/IrregularDestroyer
@@ -31821,7 +31821,6 @@ id2group:
   87285: entity/LargeCollidableStructure
   87286: entity/LargeCollidableStructure
   87287: entity/LargeCollidableStructure
-  87293: expertsystems/StandardExpertSystems
   87307: skins/PermanentSKIN
   87308: skins/PermanentSKIN
   87309: skins/PermanentSKIN
@@ -31848,6 +31847,7 @@ id2group:
   87391: commodity/Miscellaneous
   87392: commodity/Miscellaneous
   87393: commodity/Miscellaneous
+  87397: entity/IrregularBattleship
   87459: skins/PermanentSKIN
   87460: skins/PermanentSKIN
   87461: skins/PermanentSKIN
@@ -31855,6 +31855,23 @@ id2group:
   87465: skins/PermanentSKIN
   87469: skins/PermanentSKIN
   87493: skins/PermanentSKIN
+  87501: entity/SpawnContainer
+  87502: entity/SpawnContainer
+  87503: entity/SpawnContainer
+  87504: skins/PermanentSKIN
+  87505: skins/PermanentSKIN
+  87506: skins/PermanentSKIN
+  87507: skins/PermanentSKIN
+  87508: skins/PermanentSKIN
+  87509: skins/PermanentSKIN
+  87510: skins/PermanentSKIN
+  87511: skins/PermanentSKIN
+  87512: skins/PermanentSKIN
+  87513: skins/PermanentSKIN
+  87514: skins/PermanentSKIN
+  87515: skins/PermanentSKIN
+  87516: skins/PermanentSKIN
+  87517: skins/PermanentSKIN
   87519: skins/PermanentSKIN
   87520: skins/PermanentSKIN
   87521: skins/PermanentSKIN
@@ -31863,11 +31880,37 @@ id2group:
   87524: skins/PermanentSKIN
   87525: skins/PermanentSKIN
   87526: skins/PermanentSKIN
+  87531: entity/LargeCollidableStructure
+  87532: entity/SpawnContainer
+  87555: entity/LargeCollidableStructure
+  87556: entity/LargeCollidableStructure
+  87557: entity/SpawnContainer
+  87558: entity/SpawnContainer
   87562: module/StripMiner
+  87569: entity/DestructibleSentryGun
   87572: apparel/Outer
   87573: apparel/Outer
+  87574: implant/Booster
+  87575: implant/Booster
+  87576: implant/Booster
+  87577: implant/Booster
+  87578: implant/Booster
+  87579: implant/Booster
+  87601: specialeditionassets/SpecialEditionCommodities
+  87602: specialeditionassets/SpecialEditionCommodities
+  87603: specialeditionassets/SpecialEditionCommodities
+  87604: specialeditionassets/SpecialEditionCommodities
+  87605: specialeditionassets/SpecialEditionCommodities
+  87606: specialeditionassets/SpecialEditionCommodities
+  87607: specialeditionassets/SpecialEditionCommodities
+  87608: specialeditionassets/SpecialEditionCommodities
+  87612: entity/IrregularBattleship
+  87613: entity/IrregularBattleship
+  87614: entity/IrregularIndustrial
   87617: entity/LargeCollidableStructure
   87618: commodity/Miscellaneous
+  87683: entity/LargeCollidableStructure
+  87684: entity/SpawnContainer
   87702: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   87704: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
   87705: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
@@ -31887,10 +31930,31 @@ id2group:
   87739: blueprint/InfrastructureUpgradeBlueprint
   87740: blueprint/InfrastructureUpgradeBlueprint
   87741: blueprint/InfrastructureUpgradeBlueprint
+  87767: personalization/ShipSKINDesignElement
+  87768: personalization/ShipSKINDesignElement
+  87769: personalization/ShipSKINDesignElement
+  87770: personalization/ShipSKINDesignElement
+  87771: personalization/ShipSKINDesignElement
+  87772: personalization/ShipSKINDesignElement
+  87773: personalization/ShipSKINDesignElement
+  87774: personalization/ShipSKINDesignElement
+  87775: personalization/ShipSKINDesignElement
   87776: personalization/ShipSKINDesignElement
   87777: personalization/ShipSKINDesignElement
   87778: personalization/ShipSKINDesignElement
   87779: personalization/ShipSKINDesignElement
+  87780: personalization/ShipSKINDesignElement
+  87781: personalization/ShipSKINDesignElement
+  87782: personalization/ShipSKINDesignElement
+  87783: personalization/ShipSKINDesignElement
+  87784: personalization/ShipSKINDesignElement
+  87785: personalization/ShipSKINDesignElement
+  87786: personalization/ShipSKINDesignElement
+  87787: personalization/ShipSKINDesignElement
+  87788: personalization/ShipSKINDesignElement
+  87789: personalization/ShipSKINDesignElement
+  87790: personalization/ShipSKINDesignElement
+  87791: personalization/ShipSKINDesignElement
   87795: personalization/ShipSKINDesignElement
   87796: personalization/ShipSKINDesignElement
   87797: personalization/ShipSKINDesignElement
@@ -31900,12 +31964,135 @@ id2group:
   87802: personalization/ShipSKINDesignElement
   87803: personalization/ShipSKINDesignElement
   87828: personalization/ShipSKINDesignElement
+  87830: personalization/ShipSKINDesignElement
+  87831: personalization/ShipSKINDesignElement
+  87832: personalization/ShipSKINDesignElement
   87833: personalization/ShipSKINDesignElement
+  87834: entity/IrregularBattleship
+  87837: personalization/ShipSKINDesignElement
+  87839: personalization/ShipSKINDesignElement
   87840: personalization/ShipSKINDesignElement
+  87841: personalization/ShipSKINDesignElement
+  87843: personalization/ShipSKINDesignElement
   87853: specialeditionassets/SpecialEditionCommodities
+  87854: implant/Booster
+  87855: implant/Booster
+  87856: implant/Booster
+  87857: implant/Booster
+  87870: implant/Booster
+  87871: implant/Booster
+  87872: implant/Booster
+  87873: implant/Booster
+  87874: implant/Booster
+  87875: implant/Booster
+  87876: implant/Booster
+  87877: implant/Booster
+  87878: implant/Booster
+  87879: implant/Booster
+  87880: implant/Booster
+  87881: implant/Booster
+  87882: implant/Booster
+  87883: implant/Booster
+  87884: implant/Booster
+  87885: implant/Booster
+  87887: implant/Booster
+  87888: implant/Booster
+  87889: implant/Booster
+  87890: implant/Booster
+  87891: implant/Booster
+  87892: implant/Booster
+  87893: implant/Booster
+  87894: implant/Booster
+  87895: implant/Booster
+  87896: implant/Booster
+  87897: implant/Booster
+  87898: implant/Booster
+  87899: implant/Booster
+  87900: specialeditionassets/SpecialEditionCommodities
+  87901: specialeditionassets/SpecialEditionCommodities
+  87925: specialeditionassets/SpecialEditionCommodities
+  87926: specialeditionassets/SpecialEditionCommodities
   87938: entity/IrregularFrigate
   87939: entity/IrregularDestroyer
+  87947: entity/SpawnContainer
+  87952: commodity/LimitedRarities
   87982: commodity/Miscellaneous
+  88030: skins/PermanentSKIN
+  88031: skins/PermanentSKIN
+  88032: skins/PermanentSKIN
+  88033: skins/PermanentSKIN
+  88034: skins/PermanentSKIN
+  88037: skins/PermanentSKIN
+  88038: skins/PermanentSKIN
+  88039: skins/PermanentSKIN
+  88040: skins/PermanentSKIN
+  88041: skins/PermanentSKIN
+  88042: skins/PermanentSKIN
+  88043: skins/PermanentSKIN
+  88046: skins/PermanentSKIN
+  88047: skins/PermanentSKIN
+  88048: skins/PermanentSKIN
+  88049: skins/PermanentSKIN
+  88050: skins/PermanentSKIN
+  88051: skins/PermanentSKIN
+  88053: skins/PermanentSKIN
+  88054: skins/PermanentSKIN
+  88087: material/Mineral
+  88105: asteroid/Tyranite
+  88133: specialeditionassets/SpecialEditionCommodities
+  88134: specialeditionassets/SpecialEditionCommodities
+  88153: entity/IrregularFrigate
+  88154: entity/IrregularDreadnought
+  88155: entity/LargeCollidableStructure
+  88170: entity/MissionContainer
+  88172: commodity/Miscellaneous
+  88173: commodity/Miscellaneous
+  88174: commodity/Miscellaneous
+  88175: commodity/Miscellaneous
+  88176: commodity/Miscellaneous
+  88177: commodity/Miscellaneous
+  88178: specialeditionassets/SpecialEditionCommodities
+  88179: specialeditionassets/SpecialEditionCommodities
+  88202: commodity/JumpFilaments
+  88203: commodity/JumpFilaments
+  88204: commodity/JumpFilaments
+  88205: commodity/JumpFilaments
+  88206: commodity/JumpFilaments
+  88209: skins/PermanentSKIN
+  88210: skins/PermanentSKIN
+  88211: skins/PermanentSKIN
+  88212: skins/PermanentSKIN
+  88213: skins/PermanentSKIN
+  88214: blueprint/JumpFilamentBlueprint
+  88215: blueprint/JumpFilamentBlueprint
+  88216: blueprint/JumpFilamentBlueprint
+  88217: blueprint/JumpFilamentBlueprint
+  88218: blueprint/JumpFilamentBlueprint
+  88224: entity/SpawnContainer
+  88258: entity/IrregularFrigate
+  88259: entity/IrregularCruiser
+  88261: module/CommandBurst
+  88262: module/ShieldHardener
+  88263: module/CommandBurst
+  88264: module/FighterSupportUnit
+  88265: module/HeatSink
+  88266: module/SiegeModule
+  88267: blueprint/SiegeModuleBlueprint
+  88268: blueprint/SpecialEditionCommodityBlueprints
+  88269: blueprint/SpecialEditionCommodityBlueprints
+  88270: blueprint/SpecialEditionCommodityBlueprints
+  88271: blueprint/SpecialEditionCommodityBlueprints
+  88272: blueprint/SpecialEditionCommodityBlueprints
+  88273: blueprint/SpecialEditionCommodityBlueprints
+  88307: entity/IrregularBattleship
+  88347: specialeditionassets/SpecialEditionCommodities
+  88348: module/EnergyWeapon
+  88349: module/EnergyWeapon
+  88350: implant/Booster
+  88351: implant/Booster
+  88352: implant/Booster
+  88353: implant/Booster
+  88354: implant/Booster
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits
