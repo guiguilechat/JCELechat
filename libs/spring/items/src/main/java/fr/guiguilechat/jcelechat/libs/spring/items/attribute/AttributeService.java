@@ -40,10 +40,19 @@ public class AttributeService
 	protected Requested<R_get_dogma_attributes_attribute_id> fetchData(Integer id, Map<String, String> properties) {
 		return ESIRawPublic.INSTANCE.get_dogma_attributes(id, properties);
 	}
-	
+
 	@Override
 	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
 		return p -> ESIRawPublic.INSTANCE.get_dogma_attributes(p).mapBody(List::of);
+	}
+
+	public static record RequiredSkill(int id, int level) {
+	}
+
+	public List<RequiredSkill> requiredSkills(Iterable<Integer> typeIds) {
+		return repo().requiredSkills(typeIds).stream()
+				.map(arr -> new RequiredSkill(((Number) arr[0]).intValue(), ((Number) arr[1]).intValue()))
+				.toList();
 	}
 
 }
