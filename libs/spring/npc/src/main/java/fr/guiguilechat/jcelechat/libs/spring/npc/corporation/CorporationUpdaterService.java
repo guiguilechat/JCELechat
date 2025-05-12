@@ -54,12 +54,12 @@ public class CorporationUpdaterService implements SdeUpdateListener {
 		seededService.clear();
 	}
 
-	static final Pattern ENTRYNAME_BLUEPRINTS_PATTERN = Pattern.compile(
+	static final Pattern ENTRYNAME_CORPORATIONS_PATTERN = Pattern.compile(
 			"fsd/npcCorporations\\.yaml");
 
 	@Override
 	public void onSdeFile(String name, Supplier<InputStream> fileContent) {
-		if (ENTRYNAME_BLUEPRINTS_PATTERN.matcher(name).matches()) {
+		if (ENTRYNAME_CORPORATIONS_PATTERN.matcher(name).matches()) {
 			saveCorporations(fileContent.get());
 			return;
 		}
@@ -116,7 +116,7 @@ public class CorporationUpdaterService implements SdeUpdateListener {
 	public void afterSdeUpdate() {
 		if (sdeFileMissing) {
 			log.warn("service " + getClass().getSimpleName() + " did not receive file for matcher "
-					+ ENTRYNAME_BLUEPRINTS_PATTERN);
+					+ ENTRYNAME_CORPORATIONS_PATTERN);
 		}
 	}
 

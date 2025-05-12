@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.load.fsd;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.LoaderOptions;
@@ -24,36 +26,38 @@ public class Eagents {
 
 	private static LinkedHashMap<Integer, Eagents> cache = null;
 
-	@SuppressWarnings("unchecked")
 	public static synchronized LinkedHashMap<Integer, Eagents> load() {
 		if (cache == null) {
-			SDECache.INSTANCE.donwloadSDE();
-
-			Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
-
-				@Override
-				protected Construct getConstructor(Node node) {
-					if (node.getNodeId() == NodeId.mapping) {
-						MappingNode mn = (MappingNode) node;
-						if (mn.getValue().size() > 0) {
-							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter("agentTypeID"::equals).findAny().isPresent()) {
-								node.setType(Eagents.class);
-							}
-						}
-					}
-					Construct ret = super.getConstructor(node);
-					return ret;
-				}
-			};
-			Yaml yaml = new Yaml(cons);
 			try {
-				cache = yaml.loadAs(SDECache.fileReader(FILE), LinkedHashMap.class);
+				cache = from(new FileInputStream(FILE));
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
 		}
 		return cache;
+	}
+
+	@SuppressWarnings("unchecked")
+	public static LinkedHashMap<Integer, Eagents> from(InputStream is) {
+		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
+
+			@Override
+			protected Construct getConstructor(Node node) {
+				if (node.getNodeId() == NodeId.mapping) {
+					MappingNode mn = (MappingNode) node;
+					if (mn.getValue().size() > 0) {
+						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+								.filter("agentTypeID"::equals).findAny().isPresent()) {
+							node.setType(Eagents.class);
+						}
+					}
+				}
+				Construct ret = super.getConstructor(node);
+				return ret;
+			}
+		};
+		Yaml yaml = SDECache.yaml(cons);
+		return yaml.loadAs(is, LinkedHashMap.class);
 	}
 
 	// structure

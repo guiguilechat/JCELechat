@@ -43,6 +43,7 @@ public class SdeUpdateService implements IEntityUpdater {
 	private UpdateConfig update = new UpdateConfig();
 
 	@Getter
+	// setter required to set from properties
 	@Setter
 	private boolean force = false;
 
@@ -50,9 +51,8 @@ public class SdeUpdateService implements IEntityUpdater {
 	private Instant nextFetch = null;
 
 	/**
-	 * consider no previous fetch was performed
+	 * request to force the next update, typically because our model changed.
 	 */
-	@Transactional
 	public void forceNext() {
 		force = true;
 		nextFetch = null;
@@ -76,10 +76,10 @@ public class SdeUpdateService implements IEntityUpdater {
 		if (nextFetch != null && nextFetch.isAfter(startDate)) {
 			return false;
 		}
-		log.debug("updating SDE");
+		log.debug("updating SDE, force={}", force);
 		SdeUpdate ur = SdeUpdate.builder().startedDate(startDate).build();
 		SdeUpdate lastSuccess = findLastSuccess();
-		SDEDownload fetch = SDECache.getSDE(lastSuccess != null ? lastSuccess.getEtag() : null);
+		SDEDownload fetch = SDECache.getSDE(!force && lastSuccess != null ? lastSuccess.getEtag() : null);
 		Instant fetchedDate = Instant.now();
 		ur.setFetchedDurationMs(fetchedDate.toEpochMilli() - startDate.toEpochMilli());
 		if (!force && lastSuccess != null && fetch.etag().equals(lastSuccess.getEtag())) {
@@ -93,6 +93,7 @@ public class SdeUpdateService implements IEntityUpdater {
 				ur.setEtag(fetch.etag());
 			} catch (Exception e) {
 				ur.setStatus(Status.FAIL);
+				log.error("while updting sde", e);
 				ur.setError(e.getMessage());
 			}
 		} else if (fetch.error() != null) {
@@ -101,6 +102,7 @@ public class SdeUpdateService implements IEntityUpdater {
 		}
 		Instant processedDate = Instant.now();
 		ur.setProcessDurationMs(processedDate.toEpochMilli() - fetchedDate.toEpochMilli());
+
 		save(ur);
 		log.debug(" sde udpate result is {}", ur);
 

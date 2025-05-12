@@ -1,0 +1,61 @@
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.npc;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import fr.guiguilechat.jcelechat.libs.spring.npc.agent.AgentService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.agent.AgentService.AgentDetails;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
+import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
+
+@RestController
+@RequestMapping("/api/npc/agent")
+@RequiredArgsConstructor
+public class AgentRestController {
+
+	private final AgentService agentService;
+
+	@GetMapping("/list")
+	public ResponseEntity<List<Integer>> list(@RequestParam Optional<ACCEPT_TEXT> accept) {
+		return RestControllerHelper.makeResponse(
+				agentService.listIds(),
+				accept);
+	}
+
+	@Transactional
+	@GetMapping("/csvdetails")
+	public String csvDetails(){
+		String fieldSeparator = ",";
+		String lineSeparator = "\n";
+		StringBuilder sb = new StringBuilder();
+		for(AgentDetails ad : agentService.agentDetails()) {
+			sb.append(ad.agent().getId());
+			sb.append(fieldSeparator).append(ad.agent().getName());
+			sb.append(fieldSeparator).append(ad.agent().getAgentType());
+			sb.append(fieldSeparator).append(ad.agent().getAgentDivision());
+			sb.append(fieldSeparator).append(ad.agent().getLevel());
+			sb.append(fieldSeparator).append(ad.agent().isLocator());
+			sb.append(fieldSeparator).append(ad.corporation().getId());
+			sb.append(fieldSeparator).append(ad.corporation().getName());
+			sb.append(fieldSeparator).append(ad.station() != null ? ad.station().getId() : "");
+			sb.append(fieldSeparator).append(ad.station() != null ? ad.station().getName() : "");
+			sb.append(fieldSeparator).append(ad.solarSystem().getId());
+			sb.append(fieldSeparator).append(ad.solarSystem().getName());
+			sb.append(fieldSeparator).append(ad.solarSystem().getSecurityStatus());
+			sb.append(fieldSeparator).append(ad.region().getId());
+			sb.append(fieldSeparator).append(ad.region().getName());
+
+			sb.append(lineSeparator);
+		}
+		return sb.toString();
+	}
+
+}

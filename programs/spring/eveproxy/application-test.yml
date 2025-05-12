@@ -25,6 +25,10 @@ mer:
    update:
       skip: true
 
+sde:
+   fetcher:
+#      force: true
+
 spring:
    cache:
       type: simple
