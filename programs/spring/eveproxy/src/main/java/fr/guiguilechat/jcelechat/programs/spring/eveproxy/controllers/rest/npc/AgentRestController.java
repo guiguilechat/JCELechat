@@ -31,10 +31,18 @@ public class AgentRestController {
 	}
 
 	@Transactional
-	@GetMapping("/csvdetails")
-	public String csvDetails(){
+	@GetMapping(value = "/csvdetails", produces = "text/csv")
+	public String csvDetails(
+			@RequestParam Optional<String> fs,
+			@RequestParam Optional<String> ls) {
 		String fieldSeparator = ",";
+		if (fs != null && fs.isPresent()) {
+			fieldSeparator = fs.get();
+		}
 		String lineSeparator = "\n";
+		if (ls != null && ls.isPresent()) {
+			lineSeparator = ls.get();
+		}
 		StringBuilder sb = new StringBuilder();
 		for(AgentDetails ad : agentService.agentDetails()) {
 			sb.append(ad.agent().getId());

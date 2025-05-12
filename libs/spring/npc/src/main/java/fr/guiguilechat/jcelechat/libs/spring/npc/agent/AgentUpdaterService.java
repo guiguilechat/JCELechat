@@ -68,8 +68,7 @@ public class AgentUpdaterService implements SdeUpdateListener {
 	}
 
 	protected Agent convert(int id, Eagents entry, Map<Integer, String> nameIndex) {
-		Map<Integer, String> nIdx = namesIndex.getIndex();
-		String name = nameIndex == null ? null : nIdx.get(id);
+		String name = nameIndex == null ? null : nameIndex.get(id);
 		return Agent.builder()
 				.agentDivision(AgentDivision.of(entry.divisionID))
 				.agentType(AgentType.of(entry.agentTypeID))
