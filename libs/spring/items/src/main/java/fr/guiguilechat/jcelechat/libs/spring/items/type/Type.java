@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.effect.Effect;
+import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
+import fr.guiguilechat.jcelechat.libs.spring.items.marketgroup.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import jakarta.persistence.CascadeType;

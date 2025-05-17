@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroup;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.MarketGroupService;
+import fr.guiguilechat.jcelechat.libs.spring.items.marketgroup.MarketGroup;
+import fr.guiguilechat.jcelechat.libs.spring.items.marketgroup.MarketGroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;

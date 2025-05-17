@@ -7,7 +7,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
 import lombok.RequiredArgsConstructor;
@@ -31,33 +31,33 @@ public class ProductService implements SdeUpdateListener {
 	}
 
 	public List<Product> findProducts(List<Integer> bpTypeIds,
-			List<ACTIVITY_TYPE> ats) {
+			List<ActivityType> ats) {
 		return repo.findAllByActivityTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
-	public List<Product> findProducts(Iterable<ACTIVITY_TYPE> ats) {
+	public List<Product> findProducts(Iterable<ActivityType> ats) {
 		return repo.findAllByActivityActivityIn(ats);
 	}
 
 	@Cacheable("SdeBlueprintFindProducts")
-	public List<Product> findProducts(int bpTypeId, ACTIVITY_TYPE ats) {
+	public List<Product> findProducts(int bpTypeId, ActivityType ats) {
 		return findProducts(List.of(bpTypeId), List.of(ats));
 	}
 
-	public List<Product> findProducers(Iterable<Integer> productIds, Iterable<ACTIVITY_TYPE> ats) {
+	public List<Product> findProducers(Iterable<Integer> productIds, Iterable<ActivityType> ats) {
 		return repo.findAllByTypeIdInAndActivityActivityIn(productIds, ats);
 	}
 
 	@Cacheable("SdeBlueprintFindProducers")
 	public List<Product> findProducers(int productId,
-			ACTIVITY_TYPE activity) {
+			ActivityType activity) {
 		return findProducers(List.of(productId), List.of(activity));
 	}
 
 	/**
 	 * request to load in the cache the product type and bp type of each of the
 	 * lines.
-	 * 
+	 *
 	 * @param products
 	 * @return
 	 */

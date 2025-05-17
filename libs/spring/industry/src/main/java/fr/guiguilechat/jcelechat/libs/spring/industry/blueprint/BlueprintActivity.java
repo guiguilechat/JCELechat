@@ -5,20 +5,8 @@ import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity;
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Index;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -56,7 +44,7 @@ public class BlueprintActivity implements Serializable {
 	private List<Material> materials;
 
 	@Enumerated(EnumType.STRING)
-	private ACTIVITY_TYPE activity;
+	private ActivityType activity;
 
 	private int maxProductionLimit;
 
@@ -65,7 +53,7 @@ public class BlueprintActivity implements Serializable {
 	/**
 	 * different possible activities
 	 */
-	public static enum ACTIVITY_TYPE {
+	public enum ActivityType {
 		copying,
 		invention,
 		manufacturing,
@@ -73,7 +61,7 @@ public class BlueprintActivity implements Serializable {
 		researchMat,
 		researchTime;
 
-		public static ACTIVITY_TYPE from(ActivityType type) {
+		public static ActivityType from(fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType type) {
 			return switch (type) {
 				case copying -> copying;
 				case invention -> invention;
@@ -86,11 +74,12 @@ public class BlueprintActivity implements Serializable {
 		}
 	}
 
-	public static BlueprintActivity of(Eblueprints bp, ActivityType at, Type type) {
+	public static BlueprintActivity of(Eblueprints bp,
+			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType at, Type type) {
 		Activity act = bp.activities.activity(at);
 		return builder()
 				.type(type)
-				.activity(ACTIVITY_TYPE.from(at))
+				.activity(ActivityType.from(at))
 				.maxProductionLimit(bp.maxProductionLimit)
 				.time(act.time)
 				.build();

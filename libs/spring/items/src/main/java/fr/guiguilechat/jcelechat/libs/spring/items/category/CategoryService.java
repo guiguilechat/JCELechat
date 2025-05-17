@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.items.type;
+package fr.guiguilechat.jcelechat.libs.spring.items.category;
 
 import java.util.List;
 import java.util.Map;

@@ -29,7 +29,7 @@ public class ActivityRestController {
 	public ResponseEntity<List<IndustryActivity>> list(@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(
 				industryActivityService.all().stream()
-						.sorted(Comparator.comparing(IndustryActivity::getActivityId))
+						.sorted(Comparator.comparing(IndustryActivity::getId))
 						.toList(),
 				accept);
 

@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
+import fr.guiguilechat.jcelechat.libs.spring.items.category.Category;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;

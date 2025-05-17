@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
 public interface TypeRepository extends IRemoteEntityRepository<Type, Integer> {

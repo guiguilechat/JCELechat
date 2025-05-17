@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.PlanetaryTaxService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchemProductService;
@@ -60,17 +60,17 @@ public class PlanetEvalService {
 	public static record ConsumeProduct(Map<Type, Long> materials, Map<Type, Long> product) {
 	}
 
-	public static interface PlanetaryFactory {
+	public interface PlanetaryFactory {
 
-		public ConsumeProduct production(int hours);
+		ConsumeProduct production(int hours);
 
-		public Collection<Type> products();
+		Collection<Type> products();
 
-		public String name();
+		String name();
 
 	}
 
-	public static enum PRODUCT_FILTER {
+	public enum PRODUCT_FILTER {
 
 		ANY {
 			@Override
@@ -106,7 +106,7 @@ public class PlanetEvalService {
 
 			@Override
 			public boolean accept(Collection<Type> products, MaterialService materialService) {
-				Set<Type> materials = materialService.allActivityMaterialsInCategory(ACTIVITY_TYPE.manufacturing,
+				Set<Type> materials = materialService.allActivityMaterialsInCategory(ActivityType.manufacturing,
 						ADVCOMMODITIES_CID);
 				return products.stream().filter(materials::contains).findAny().isPresent();
 			}

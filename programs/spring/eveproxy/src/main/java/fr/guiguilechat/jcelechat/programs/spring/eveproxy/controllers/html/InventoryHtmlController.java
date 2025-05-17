@@ -20,15 +20,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.CategoryService;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Group;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
+import fr.guiguilechat.jcelechat.libs.spring.items.category.Category;
+import fr.guiguilechat.jcelechat.libs.spring.items.category.CategoryService;
+import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
+import fr.guiguilechat.jcelechat.libs.spring.items.group.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeAttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
@@ -190,7 +190,7 @@ public class InventoryHtmlController {
 		return linkedMaterial(typeService.byId(typeId), quantity);
 	}
 
-	public static record LinkedActivity(String url, Type type, ACTIVITY_TYPE activity, int quantity, double probability,
+	public static record LinkedActivity(String url, Type type, ActivityType activity, int quantity, double probability,
 			Product product) {
 	}
 
@@ -272,13 +272,13 @@ public class InventoryHtmlController {
 			model.addAttribute("nxtTypeUrl", uri(nxtType));
 		}
 
-		List<LinkedProduct> manufProd = productService.findProducts(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
+		List<LinkedProduct> manufProd = productService.findProducts(t.getId(), ActivityType.manufacturing).stream()
 				.map(this::linkedProduct)
 				.sorted(Comparator.comparing(u -> u.type().name()))
 				.toList();
 		model.addAttribute("manufacturingProd", manufProd);
 
-		List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.manufacturing)
+		List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ActivityType.manufacturing)
 				.stream()
 				.map(this::linkedMaterial)
 				.sorted(Comparator.comparing(u -> u.type().name()))
@@ -286,13 +286,13 @@ public class InventoryHtmlController {
 		model.addAttribute("manufacturingMats", manufMats);
 
 		model.addAttribute("reactionProd",
-				productService.findProducts(t.getId(), ACTIVITY_TYPE.reaction).stream()
+				productService.findProducts(t.getId(), ActivityType.reaction).stream()
 						.map(this::linkedProduct)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());
 
 		model.addAttribute("reactionMats",
-				materialService.forBPActivity(t.getId(), ACTIVITY_TYPE.reaction).stream()
+				materialService.forBPActivity(t.getId(), ActivityType.reaction).stream()
 						.map(this::linkedMaterial)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());
@@ -301,7 +301,7 @@ public class InventoryHtmlController {
 		model.addAttribute("seeded", seeds(seedOffers));
 
 		List<LinkedActivity> productOf = productService
-				.findProducers(List.of(t.getId()), List.of(ACTIVITY_TYPE.values())).stream()
+				.findProducers(List.of(t.getId()), List.of(ActivityType.values())).stream()
 				.map(this::linkedActivity)
 				.sorted(Comparator.comparing(u -> u.type().name()))
 				.toList();
@@ -314,13 +314,13 @@ public class InventoryHtmlController {
 		model.addAttribute("offers", offers);
 
 		model.addAttribute("manufacturingUses",
-				materialService.findUsages(t.getId(), ACTIVITY_TYPE.manufacturing).stream()
+				materialService.findUsages(t.getId(), ActivityType.manufacturing).stream()
 						.map(this::linkedUsage)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());
 
 		model.addAttribute("reactionUses",
-				materialService.findUsages(t.getId(), ACTIVITY_TYPE.reaction).stream()
+				materialService.findUsages(t.getId(), ActivityType.reaction).stream()
 						.map(this::linkedUsage)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());

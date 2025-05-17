@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Category;
+import fr.guiguilechat.jcelechat.libs.spring.items.category.Category;
 import lombok.RequiredArgsConstructor;
 
 @Service

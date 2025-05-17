@@ -1,11 +1,14 @@
-package fr.guiguilechat.jcelechat.libs.spring.items.type;
+package fr.guiguilechat.jcelechat.libs.spring.items.type.dto;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.category.Category;
+import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-public class TypeDataDto<T> {
+public class TypeData<T> {
 
 	private final int typeId;
 	private final String typeName;
@@ -15,10 +18,10 @@ public class TypeDataDto<T> {
 	private final String categoryName;
 	private final T data;
 
-	public static <U> TypeDataDto<U> of(Type type, U data) {
+	public static <U> TypeData<U> of(Type type, U data) {
 		Group group = type.getGroup();
 		Category cat = group == null ? null : group.getCategory();
-		return new TypeDataDto<U>(
+		return new TypeData<U>(
 		    type.getId(), type.name(),
 		    group == null ? 0 : group.getId(), group == null ? null : group.name(),
 		    cat == null ? 0 : cat.getId(), cat == null ? null : cat.name(),

@@ -5,6 +5,7 @@ import java.io.Serializable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
+import jakarta.persistence.Lob;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,9 +13,9 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @SuppressWarnings("serial")
-@Entity(name = "GameClientBlueprintActivity")
-@Table(name = "gameclient_blueprint_activity", indexes = {
-		@Index(columnList = "activity_id,activity_name") })
+@Entity(name = "EveIndustryBlueprintActivity")
+@Table(name = "eve_industry_blueprintactivity", indexes = {
+		@Index(columnList = "id,name") })
 @Data
 @Builder
 @RequiredArgsConstructor
@@ -22,8 +23,13 @@ import lombok.RequiredArgsConstructor;
 public class IndustryActivity implements Serializable {
 
 	@Id
-	private int activityId;
-	private String activityName;
+	private int id;
+	private String name;
+	@Lob
 	private String description;
+	/**
+	 * "/"-separated lower case alias
+	 */
+	private String aliases;
 
 }

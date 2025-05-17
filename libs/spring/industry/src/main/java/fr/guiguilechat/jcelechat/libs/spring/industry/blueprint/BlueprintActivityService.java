@@ -6,7 +6,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
 import lombok.RequiredArgsConstructor;
@@ -30,7 +30,7 @@ public class BlueprintActivityService implements SdeUpdateListener {
 	}
 
 	public List<BlueprintActivity> forBPActivity(List<Integer> bpTypeIds,
-			List<ACTIVITY_TYPE> ats) {
+			List<ActivityType> ats) {
 		return repo.findAllByTypeIdInAndActivityIn(bpTypeIds, ats);
 	}
 
@@ -40,7 +40,7 @@ public class BlueprintActivityService implements SdeUpdateListener {
 
 	@Cacheable("SdeBlueprintActivity")
 	public List<BlueprintActivity> forBPActivity(int bpTypeId,
-			ACTIVITY_TYPE ats) {
+			ActivityType ats) {
 		return forBPActivity(List.of(bpTypeId), List.of(ats));
 	}
 

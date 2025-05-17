@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.items.type;
+package fr.guiguilechat.jcelechat.libs.spring.items.type.dto;
 
 import java.util.List;
 

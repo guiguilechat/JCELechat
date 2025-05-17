@@ -1,7 +1,8 @@
-package fr.guiguilechat.jcelechat.libs.spring.items.type;
+package fr.guiguilechat.jcelechat.libs.spring.items.category;
 
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id;
 import jakarta.persistence.Entity;

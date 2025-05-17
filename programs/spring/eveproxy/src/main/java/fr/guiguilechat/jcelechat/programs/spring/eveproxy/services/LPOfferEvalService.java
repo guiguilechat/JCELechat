@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivityService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
@@ -143,7 +143,7 @@ public class LPOfferEvalService {
 		HashMap<Integer, Long> requiredMats = new HashMap<>();
 		for (Requirement r : offer.getRequirements()) {
 			long required = offerQuantity * r.getQuantity();
-			requiredMats.put(r.getType().getId(), required + requiredMats.getOrDefault(r.getType().getId(), 0l));
+			requiredMats.put(r.getType().getId(), required + requiredMats.getOrDefault(r.getType().getId(), 0L));
 		}
 		long productQuantity = offerQuantity * offer.getQuantity();
 		Type product = null;
@@ -164,7 +164,7 @@ public class LPOfferEvalService {
 			for (Material mat : manuf.getMaterials()) {
 				long required = offerQuantity * offer.getQuantity() * mat.getQuantity();
 				requiredMats.put(mat.getType().getId(),
-				    required + requiredMats.getOrDefault(mat.getType().getId(), 0l));
+				    required + requiredMats.getOrDefault(mat.getType().getId(), 0L));
 			}
 			tediousCost = bpCost * offerQuantity;
 		} else {
@@ -195,7 +195,7 @@ public class LPOfferEvalService {
 		long start = System.currentTimeMillis();
 		Map<Integer, List<BlueprintActivity>> typeToActivities = blueprintActivityService
 		    .forBPActivity(corporationOffers.stream().map(co -> co.getOffer().getType().getId()).toList(),
-						List.of(ACTIVITY_TYPE.manufacturing))
+						List.of(ActivityType.manufacturing))
 		    .stream().collect(Collectors.groupingBy(ac -> ac.getType().getId()));
 		long activitiesFetched = System.currentTimeMillis();
 		Set<Integer> allIds = Stream.of(

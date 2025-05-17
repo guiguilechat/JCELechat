@@ -1,7 +1,8 @@
-package fr.guiguilechat.jcelechat.libs.spring.items.type;
+package fr.guiguilechat.jcelechat.libs.spring.items.group;
 
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.libs.spring.items.category.Category;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 
 public interface GroupRepository extends IRemoteEntityRepository<Group, Integer> {

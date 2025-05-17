@@ -20,14 +20,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivityService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Group;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.GroupService;
+import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
+import fr.guiguilechat.jcelechat.libs.spring.items.group.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
@@ -61,9 +61,9 @@ public class IndustryRestController {
 	final private TypeService typeService;
 
 	public static record BPInfo(double eiv, double ptv1020, long researchSeconds, String researchHuman,
-			Map<ACTIVITY_TYPE, List<Integer>> produces) {
+			Map<ActivityType, List<Integer>> produces) {
 
-		public BPInfo(double eiv, long researchTime, Map<ACTIVITY_TYPE, List<Integer>> produces) {
+		public BPInfo(double eiv, long researchTime, Map<ActivityType, List<Integer>> produces) {
 			this(eiv, eiv * 256000 / 105 / 50 * 2, researchTime, secondsToDuration(researchTime), produces);
 		}
 
@@ -91,10 +91,10 @@ public class IndustryRestController {
 	}
 
 	public static record IndustryInfo(int typeId, String name, float basePrice, BPInfo bp,
-			Map<ACTIVITY_TYPE, List<Integer>> productOf, Map<Integer, Map<Long, Double>> seedRegionLocPrice) {
+			Map<ActivityType, List<Integer>> productOf, Map<Integer, Map<Long, Double>> seedRegionLocPrice) {
 
 		IndustryInfo(Type type, BPInfo bp,
-				Map<ACTIVITY_TYPE, List<Integer>> productOf,
+				Map<ActivityType, List<Integer>> productOf,
 				Map<Integer, Map<Long, Double>> rid2lid2price) {
 			this(type.getId(), type.name(), type.getBasePrice(),
 					bp, productOf,
@@ -118,10 +118,10 @@ public class IndustryRestController {
 						rmap.put(s.locationId(), s.bestPrice());
 					}
 			    List<BlueprintActivity> mes = blueprintActivityService.forBPActivity(type.getId(),
-							ACTIVITY_TYPE.researchMat);
+							ActivityType.researchMat);
 					long meTime = mes.size() != 1 ? 0 : 256000L * mes.get(0).getTime() / 105;
 			    List<BlueprintActivity> tes = blueprintActivityService.forBPActivity(type.getId(),
-							ACTIVITY_TYPE.researchTime);
+							ActivityType.researchTime);
 
 			    BPInfo bp = null;
 			    if (type.getGroup().getCategory().getId() == 9) {
@@ -129,8 +129,8 @@ public class IndustryRestController {
 						long teTime = tes.size() != 1 ? 0 : 256000L * tes.get(0).getTime() / 105;
 						long researchTime = teTime + meTime;
 
-						LinkedHashMap<ACTIVITY_TYPE, List<Integer>> produces = new LinkedHashMap<>();
-						for (ACTIVITY_TYPE act : ACTIVITY_TYPE.values()) {
+						LinkedHashMap<ActivityType, List<Integer>> produces = new LinkedHashMap<>();
+						for (ActivityType act : ActivityType.values()) {
 					    List<Product> prods = productService.findProducts(type.getId(), act);
 							if (!prods.isEmpty()) {
 						    produces.put(act, prods.stream().map(p -> p.getType().getId()).toList());
@@ -139,8 +139,8 @@ public class IndustryRestController {
 						bp = new BPInfo(eiv, researchTime, produces);
 					}
 
-					LinkedHashMap<ACTIVITY_TYPE, List<Integer>> productOf = new LinkedHashMap<>();
-					for (ACTIVITY_TYPE act : ACTIVITY_TYPE.values()) {
+					LinkedHashMap<ActivityType, List<Integer>> productOf = new LinkedHashMap<>();
+					for (ActivityType act : ActivityType.values()) {
 				    List<Product> prods = productService.findProducers(type.getId(), act);
 						if (!prods.isEmpty()) {
 					    productOf.put(act, prods.stream().map(p -> p.getActivity().getType().getId()).toList());
@@ -164,10 +164,10 @@ public class IndustryRestController {
 		}
 	}
 
-	public static record ActivityInfo(int typeId, String name, ACTIVITY_TYPE activity,
+	public static record ActivityInfo(int typeId, String name, ActivityType activity,
 			List<ConsumedMat> consumes, List<ProducedItem> produces) {
 
-		public ActivityInfo(Type type, ACTIVITY_TYPE activity, List<Material> mats, List<Product> prods) {
+		public ActivityInfo(Type type, ActivityType activity, List<Material> mats, List<Product> prods) {
 			this(type.getId(), type.name(), activity,
 					mats.stream().map(ConsumedMat::new).toList(),
 					prods.stream().map(ProducedItem::new).toList());
@@ -179,7 +179,7 @@ public class IndustryRestController {
 	public ResponseEntity<List<ActivityInfo>> showActivity(
 			@PathVariable String typeFiltering,
 			@PathVariable String typeFilter,
-			@PathVariable ACTIVITY_TYPE activity,
+			@PathVariable ActivityType activity,
 			Optional<ACCEPT_TEXT> accept) throws IOException {
 		List<ActivityInfo> ret = typeService.typesFilter(typeFiltering, typeFilter).stream()
 				.map(t -> new ActivityInfo(t, activity,
@@ -248,8 +248,8 @@ public class IndustryRestController {
 		}
 
 		Map<Integer, Product> acceptedBpIdToProduct = (tidFilters == null
-		    ? productService.findProducts(List.of(ACTIVITY_TYPE.manufacturing))
-		    : productService.findProducers(tidFilters, List.of(ACTIVITY_TYPE.manufacturing)))
+				? productService.findProducts(List.of(ActivityType.manufacturing))
+				: productService.findProducers(tidFilters, List.of(ActivityType.manufacturing)))
 		    .stream().collect(Collectors.toMap(p -> p.getActivity().getType().getId(), p -> p));
 
 		if (publishedValue != null) {

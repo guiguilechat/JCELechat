@@ -6,7 +6,7 @@ import java.util.Set;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
 import lombok.RequiredArgsConstructor;
@@ -30,28 +30,28 @@ public class MaterialService implements SdeUpdateListener {
 	}
 
 	public List<Material> forBPActivity(Iterable<Integer> bpTypeIds,
-	    Iterable<ACTIVITY_TYPE> ats) {
+			Iterable<ActivityType> ats) {
 		return repo.findAllByActivityTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
 	@Cacheable("SdeBlueprintMaterial")
 	public List<Material> forBPActivity(int bpTypeId,
-	    ACTIVITY_TYPE ats) {
+			ActivityType ats) {
 		return forBPActivity(List.of(bpTypeId), List.of(ats));
 	}
 
 	public List<Material> findUsages(List<Integer> bpTypeIds,
-			List<ACTIVITY_TYPE> ats) {
+			List<ActivityType> ats) {
 		return repo.findAllByTypeIdInAndActivityActivityIn(bpTypeIds, ats);
 	}
 
 	@Cacheable("SdeBlueprintUsage")
-	public List<Material> findUsages(int typeId, ACTIVITY_TYPE ats) {
+	public List<Material> findUsages(int typeId, ActivityType ats) {
 		return findUsages(List.of(typeId), List.of(ats));
 	}
 
 // @Cacheable("SdeBlueprintActivitytypeMaterials")
-	public Set<Type> allActivityMaterialsInCategory(ACTIVITY_TYPE at, int category_id) {
+	public Set<Type> allActivityMaterialsInCategory(ActivityType at, int category_id) {
 		return repo.allActivityMaterialsInCategory(at, category_id);
 	}
 

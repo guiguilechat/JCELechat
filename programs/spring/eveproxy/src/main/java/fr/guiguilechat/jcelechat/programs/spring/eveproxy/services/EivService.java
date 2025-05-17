@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ACTIVITY_TYPE;
+import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
@@ -31,7 +31,7 @@ public class EivService {
 	}
 
 	public long eiv(int blueprintId) {
-		return eiv(priceService.adjusted(), materialService.forBPActivity(blueprintId, ACTIVITY_TYPE.manufacturing));
+		return eiv(priceService.adjusted(), materialService.forBPActivity(blueprintId, ActivityType.manufacturing));
 	}
 
 	/**
@@ -44,7 +44,7 @@ public class EivService {
 		}
 		Map<Integer, Double> adjusted = priceService.adjusted();
 		Map<Integer, List<Material>> bpIdToMaterials = materialService
-		    .forBPActivity(bpIds, List.of(ACTIVITY_TYPE.manufacturing)).stream()
+				.forBPActivity(bpIds, List.of(ActivityType.manufacturing)).stream()
 		    .collect(Collectors.groupingBy(mat -> mat.getActivity().getType().getId()));
 		return bpIdToMaterials.entrySet().stream()
 		    .collect(Collectors.toMap(Entry::getKey, e -> eiv(adjusted, e.getValue())));

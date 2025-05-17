@@ -46,8 +46,8 @@ import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeDataDto;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.items.type.dto.TypeData;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;
@@ -96,7 +96,7 @@ public class MarketHistoryRestController {
 
 	@GetMapping("/byTypeId/{typeId}")
 	@Transactional
-	public ResponseEntity<TypeDataDto<List<AggregatedHL>>> byType(
+	public ResponseEntity<TypeData<List<AggregatedHL>>> byType(
 			@PathVariable int typeId,
 			@RequestParam Optional<ACCEPT_TEXT> accept,
 			@RequestParam Optional<Integer> days) {
@@ -106,7 +106,7 @@ public class MarketHistoryRestController {
 		}
 		Instant from = Instant.now().minus(days.orElse(365 * 10) + 1, ChronoUnit.DAYS);
 		List<AggregatedHL> data = contractMarketAggregator.aggregatedSales(typeId, from);
-		return RestControllerHelper.makeResponse(TypeDataDto.of(type, data),
+		return RestControllerHelper.makeResponse(TypeData.of(type, data),
 				accept);
 	}
 
