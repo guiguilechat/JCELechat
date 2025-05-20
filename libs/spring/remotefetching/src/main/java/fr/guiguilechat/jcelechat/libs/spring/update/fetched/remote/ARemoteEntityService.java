@@ -287,10 +287,11 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 	}
 
 	/**
-	 * Called when the request returned a 304
+	 * Called when the request returned a 304 (no change). Defaults to
+	 * {@link #updateMetaOk(ARemoteEntity, Requested)}
 	 */
 	protected void updateNoChange(Entity data, Requested<Fetched> response) {
-		data.setExpires(response.getExpiresInstant());
+		updateMetaOk(data, response);
 	}
 
 	/**
@@ -298,7 +299,12 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 	 * delegates to some known code, can be overridden to handle more.
 	 */
 	protected void updateRequestError(Entity data, Requested<Fetched> response) {
-		int nbErrors = data.increaseSuccessiveErrors();
+		if (response.getResponseCode() == 420) {
+			update420(data, response);
+			return;
+		}
+
+		updateExpiresError(data, response.getResponseCode());
 		switch (response.getResponseCode()) {
 		case 401:
 			update401(data, response);
@@ -309,33 +315,33 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 		case 404:
 			update404(data, response);
 			return;
-		case 420:
-			update420(data, response);
-			return;
 		default:
 			log.warn("unhandled error code {} for service {}", response.getResponseCode(), fetcherName());
-			data.setExpires(Instant.now().plus(Math.min(nbErrors, 24), ChronoUnit.HOURS));
 		}
 	}
 
-	/** banned. Wait a day */
-	protected void update401(Entity data, Requested<Fetched> response) {
+	protected void updateExpiresError(Entity data, int respCode) {
 		int nbErrors = data.increaseSuccessiveErrors();
-		data.setExpires(Instant.now().plus(Math.min(nbErrors * 12, 48), ChronoUnit.HOURS));
+		int delayBase = delayBase(respCode);
+		int delayInc = delayInc(respCode);
+		data.setExpiresIn(delayBase + delayInc * (nbErrors - 1));
+	}
+
+	/**
+	 * banned. should not be called because the esi status should
+	 * already have returned banned
+	 */
+	protected void update401(Entity data, Requested<Fetched> response) {
 	}
 
 	/** data is not authorized ? Can happen when status changed. */
 	protected void update403(Entity data, Requested<Fetched> response) {
-		int nbErrors = data.increaseSuccessiveErrors();
-		data.setExpires(Instant.now().plus(Math.min(nbErrors, 24), ChronoUnit.HOURS));
 	}
 
 	/** data is removed. After 5 errors we deactivate fetch. */
 	protected void update404(Entity data, Requested<Fetched> response) {
-		int nbErrors = data.increaseSuccessiveErrors();
-		data.setExpires(Instant.now().plus(Math.min(nbErrors, 24), ChronoUnit.HOURS));
 		data.setRemoved(true);
-		if (nbErrors > 4) {
+		if (data.getSuccessiveErrors() > 4) {
 			data.setFetchActive(false);
 		}
 	}
@@ -349,7 +355,7 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 	 * Called when the request returned a 5xx
 	 */
 	protected void updateServerError(Entity data, Requested<Fetched> response) {
-		data.setExpires(Instant.now().plus(5, ChronoUnit.MINUTES));
+		updateExpiresError(data, response.getResponseCode());
 	}
 
 	/**

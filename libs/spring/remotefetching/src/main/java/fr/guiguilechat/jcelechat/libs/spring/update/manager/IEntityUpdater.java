@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.manager;
 
 import java.time.Instant;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.IntStream;
@@ -56,10 +57,13 @@ public interface IEntityUpdater {
 		/** max number of fetch each cycle */
 		private int max = 1000;
 
-		/** if we have this number or more remain errors, use max updates */
+		/** if we have this number or more remain errors from esi, use max updates */
 		private int errorsForMax = 90;
 
-		/** if we have this number or less remaining errors, we skip the fetching */
+		/**
+		 * if we have this number or less remaining errors from esi, we skip the
+		 * fetching
+		 */
 		private int errorsMin = 10;
 
 		/** minimum delay, in s, between two fetch cycles. Ignored if &lt;0 */
@@ -73,6 +77,26 @@ public interface IEntityUpdater {
 		 * than {@link #getDelay()}
 		 */
 		private int delayUpdated = 60;
+
+		/**
+		 * base delay before retrying, per response code. Defaults to 60 (1min) for 4xx
+		 * , 1s for others
+		 */
+		private Map<Integer, Integer> delayBase = new HashMap<>(Map.of(
+				401, 12 * 3600 // 12h to wait when banned
+				, 403, 3600 // wait 1 hour when not authorized
+				, 404, 3600 // wait 1 hour when data removed
+		));
+
+		/**
+		 * incremental delay before retrying, per response code. Defaults to 3600s (1h)
+		 * for 4xx, 1 min for others
+		 */
+		private Map<Integer, Integer> delayInc = new HashMap<>(Map.of(
+				401, 0// no incremental wait for banned.
+				, 403, 3600 // wait 1 hour per error when not authorized
+				, 404, 3600 // wait 1 hour per error when data removed
+		));
 
 		@Override
 		public String toString() {
@@ -106,8 +130,30 @@ public interface IEntityUpdater {
 	}
 
 	/**
+	 * get the actual base delay from the config
+	 */
+	default int delayBase(int responseCode) {
+		Integer ret = getUpdate().getDelayBase().get(responseCode);
+		if (ret == null) {
+			ret = responseCode / 100 == 4 ? 60 : 1;
+		}
+		return ret;
+	}
+
+	/**
+	 * get the actual incremental delay (per error) from the config
+	 */
+	default int delayInc(int responseCode) {
+		Integer ret = getUpdate().getDelayInc().get(responseCode);
+		if (ret == null) {
+			ret = responseCode / 100 == 4 ? 3600 : 60;
+		}
+		return ret;
+	}
+
+	/**
 	 * @return true if more data are to be updated the moment this call exits (that
-	 *           is, if the update was partial)
+	 *         is, if the update was partial)
 	 */
 	boolean fetch();
 
@@ -163,5 +209,6 @@ public interface IEntityUpdater {
 		return IntStream.iterate(0, i -> i < elements.size(), i -> i + maxSize)
 		    .mapToObj(i -> elements.subList(i, Math.min(elements.size(), i + maxSize)));
 	}
+
 
 }
