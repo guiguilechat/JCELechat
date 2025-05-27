@@ -1104,7 +1104,7 @@ types:
     boosterduration: 1800000.0
     boosterness: 11
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 45998
     marketGroup: 2505
     mass: 1.0
@@ -1122,7 +1122,7 @@ types:
     boosterduration: 1800000.0
     boosterness: 11
     damagemultiplier: 1.0
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 45999
     marketGroup: 2505
     mass: 1.0
@@ -1141,7 +1141,7 @@ types:
     boosterduration: 1800000.0
     boosterness: 11
     damagemultiplier: 1.0
-    damagemultiplierbonus: 7
+    damagemultiplierbonus: 7.0
     id: 46000
     marketGroup: 2505
     mass: 1.0
@@ -1496,7 +1496,7 @@ types:
     boosterduration: 1800000.0
     boosterness: 11
     damagemultiplier: 1.0
-    damagemultiplierbonus: 9
+    damagemultiplierbonus: 9.0
     id: 48115
     marketGroup: 2505
     mass: 1.0
@@ -4000,7 +4000,7 @@ types:
     boosterlastinjectiondatetime: 18717.125
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     followsjumpclones: 1
     id: 57229
     mass: 1.0
@@ -4020,7 +4020,7 @@ types:
     boosterlastinjectiondatetime: 18717.125
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     followsjumpclones: 1
     id: 57230
     mass: 1.0
@@ -4040,7 +4040,7 @@ types:
     boosterlastinjectiondatetime: 18717.125
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     followsjumpclones: 1
     id: 57231
     mass: 1.0
@@ -4060,7 +4060,7 @@ types:
     boosterlastinjectiondatetime: 18717.125
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     followsjumpclones: 1
     id: 57232
     mass: 1.0
@@ -4355,7 +4355,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     followsjumpclones: 1
     id: 57254
     mass: 1.0
@@ -4374,7 +4374,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     followsjumpclones: 1
     id: 57255
     mass: 1.0
@@ -4393,7 +4393,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     followsjumpclones: 1
     id: 57256
     mass: 1.0
@@ -4412,7 +4412,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     followsjumpclones: 1
     id: 57257
     mass: 1.0
@@ -4431,7 +4431,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     followsjumpclones: 1
     id: 57258
     mass: 1.0
@@ -4507,7 +4507,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     followsjumpclones: 1
     id: 57262
     mass: 1.0
@@ -4526,7 +4526,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     followsjumpclones: 1
     id: 57263
     mass: 1.0
@@ -4545,7 +4545,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     followsjumpclones: 1
     id: 57264
     mass: 1.0
@@ -4564,7 +4564,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     followsjumpclones: 1
     id: 57265
     mass: 1.0
@@ -4583,7 +4583,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     followsjumpclones: 1
     id: 57266
     mass: 1.0
@@ -4659,7 +4659,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     followsjumpclones: 1
     id: 57270
     mass: 1.0
@@ -4678,7 +4678,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     followsjumpclones: 1
     id: 57271
     mass: 1.0
@@ -4697,7 +4697,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     followsjumpclones: 1
     id: 57272
     mass: 1.0
@@ -4716,7 +4716,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     followsjumpclones: 1
     id: 57273
     mass: 1.0
@@ -4735,7 +4735,7 @@ types:
     boosterduration: 1.728E8
     boosterness: 89
     damagemultiplier: 1.0
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     followsjumpclones: 1
     id: 57274
     mass: 1.0
@@ -5964,7 +5964,7 @@ types:
     boosterduration: 6.048E8
     boosterness: 123
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     followsjumpclones: 1
     id: 57771
     mass: 1.0
@@ -7582,7 +7582,7 @@ types:
     boosterduration: 2.592E8
     boosterness: 206
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     followsjumpclones: 1
     id: 60179
     mass: 1.0
@@ -7685,7 +7685,7 @@ types:
     boosterduration: 6.048E8
     boosterness: 206
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     followsjumpclones: 1
     id: 60184
     mass: 1.0
@@ -8425,7 +8425,7 @@ types:
     boosterness: 5
     caprechargebonus: -1.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     hullhpbonus: 1.0
     iceharvestcyclebonus: -1.0
     id: 63606
@@ -8457,7 +8457,7 @@ types:
     boosterness: 5
     caprechargebonus: -2.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     hullhpbonus: 2.0
     iceharvestcyclebonus: -2.0
     id: 63607
@@ -8489,7 +8489,7 @@ types:
     boosterness: 5
     caprechargebonus: -3.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     hullhpbonus: 3.0
     iceharvestcyclebonus: -3.0
     id: 63608
@@ -8522,7 +8522,7 @@ types:
     boosterness: 5
     caprechargebonus: -4.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     hullhpbonus: 4.0
     iceharvestcyclebonus: -4.0
     id: 63609
@@ -8555,7 +8555,7 @@ types:
     boosterness: 5
     caprechargebonus: -5.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     hullhpbonus: 5.0
     iceharvestcyclebonus: -5.0
     id: 63610
@@ -8585,7 +8585,7 @@ types:
     boosterness: 5
     capacitorcapacitybonus: 1.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     dronerangebonus: 4000
     energywarfareresistancebonus: -2
     falloffbonus: 2.0
@@ -8615,7 +8615,7 @@ types:
     boosterness: 5
     capacitorcapacitybonus: 1.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     dronerangebonus: 8000
     energywarfareresistancebonus: -4
     falloffbonus: 4.0
@@ -8645,7 +8645,7 @@ types:
     boosterness: 5
     capacitorcapacitybonus: 3.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     dronerangebonus: 12000
     energywarfareresistancebonus: -6
     falloffbonus: 6.0
@@ -8675,7 +8675,7 @@ types:
     boosterness: 5
     capacitorcapacitybonus: 4.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     dronerangebonus: 16000
     energywarfareresistancebonus: -8
     falloffbonus: 8.0
@@ -8705,7 +8705,7 @@ types:
     boosterness: 5
     capacitorcapacitybonus: 5.0
     damagemultiplier: 1.0
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dronerangebonus: 20000
     energywarfareresistancebonus: -10
     falloffbonus: 10.0
@@ -9314,7 +9314,7 @@ types:
     boosterlastinjectiondatetime: 20251.45703125
     boosterness: 17
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 87854
     marketGroup: 2792
     name: Oxybeles Turret Booster I
@@ -9332,7 +9332,7 @@ types:
     boosterlastinjectiondatetime: 20251.45703125
     boosterness: 17
     damagemultiplier: 1.0
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 87855
     marketGroup: 2792
     metalevelold: 3
@@ -9351,7 +9351,7 @@ types:
     boosterlastinjectiondatetime: 20251.45703125
     boosterness: 17
     damagemultiplier: 1.0
-    damagemultiplierbonus: 9
+    damagemultiplierbonus: 9.0
     id: 87856
     marketGroup: 2792
     metalevelold: 5
@@ -9370,7 +9370,7 @@ types:
     boosterlastinjectiondatetime: 20251.45703125
     boosterness: 16
     damagemultiplier: 1.0
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 87857
     marketGroup: 2791
     name: Eidolon Missile Booster I
@@ -9387,7 +9387,7 @@ types:
     boosterlastinjectiondatetime: 20251.45703125
     boosterness: 16
     damagemultiplier: 1.0
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 87870
     marketGroup: 2791
     name: Eidolon Missile Booster II
@@ -9404,7 +9404,7 @@ types:
     boosterlastinjectiondatetime: 20251.45703125
     boosterness: 16
     damagemultiplier: 1.0
-    damagemultiplierbonus: 9
+    damagemultiplierbonus: 9.0
     id: 87871
     marketGroup: 2791
     name: Eidolon Missile Booster III
@@ -9903,13 +9903,13 @@ types:
     capacitorcapacitybonus: 16.0
     damagemultiplier: 1.0
     id: 88350
+    marketGroup: 2792
     mass: 1.0
     metalevelold: 5
     name: Aegytica Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -9924,13 +9924,13 @@ types:
     boosterness: 17
     damagemultiplier: 1.0
     id: 88351
+    marketGroup: 2792
     mass: 1.0
     metalevelold: 5
     name: Vis Vitalis Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -9944,13 +9944,13 @@ types:
     boosterness: 17
     damagemultiplier: 1.0
     id: 88352
+    marketGroup: 2792
     mass: 1.0
     metalevelold: 5
     name: Balneum Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -9965,13 +9965,13 @@ types:
     boosterness: 17
     damagemultiplier: 1.0
     id: 88353
+    marketGroup: 2792
     mass: 1.0
     metalevelold: 5
     name: Theriac Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -9986,14 +9986,14 @@ types:
     boosterness: 17
     damagemultiplier: 1.0
     id: 88354
+    marketGroup: 2792
     mass: 1.0
     maxflighttimebonus: 16
-    metalevelold: 3
+    metalevelold: 5
     name: Mithridate Volatile Booster
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405

@@ -30534,32 +30534,32 @@ id2group:
   82489: personalization/ShipSKINDesignElement
   82490: personalization/ShipSKINDesignElement
   82491: personalization/ShipSKINDesignElement
-  82492: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82496: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82497: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82498: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82499: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82500: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  82492: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82496: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82497: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82498: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82499: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82500: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
   82501: blueprint/InfrastructureUpgradeBlueprint
   82502: blueprint/InfrastructureUpgradeBlueprint
   82503: blueprint/InfrastructureUpgradeBlueprint
   82504: blueprint/InfrastructureUpgradeBlueprint
   82505: blueprint/InfrastructureUpgradeBlueprint
   82506: blueprint/InfrastructureUpgradeBlueprint
-  82579: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82580: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82581: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82582: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82583: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82584: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82585: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82586: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82587: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82588: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82589: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82590: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82591: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  82592: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  82579: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82580: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82581: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82582: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82583: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82584: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82585: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82586: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82587: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82588: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82589: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82590: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82591: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  82592: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
   82594: blueprint/InfrastructureUpgradeBlueprint
   82595: blueprint/InfrastructureUpgradeBlueprint
   82596: blueprint/InfrastructureUpgradeBlueprint
@@ -31842,12 +31842,16 @@ id2group:
   87354: commodity/Miscellaneous
   87360: specialeditionassets/SpecialEditionCommodities
   87374: commodity/Miscellaneous
+  87381: ship/Dreadnought
+  87383: blueprint/DreadnoughtBlueprint
   87389: commodity/Miscellaneous
   87390: commodity/Miscellaneous
   87391: commodity/Miscellaneous
   87392: commodity/Miscellaneous
   87393: commodity/Miscellaneous
   87397: entity/IrregularBattleship
+  87442: personalization/ShipEmblems
+  87443: personalization/ShipEmblems
   87459: skins/PermanentSKIN
   87460: skins/PermanentSKIN
   87461: skins/PermanentSKIN
@@ -31911,13 +31915,15 @@ id2group:
   87618: commodity/Miscellaneous
   87683: entity/LargeCollidableStructure
   87684: entity/SpawnContainer
-  87702: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  87704: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  87705: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  87706: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  87707: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  87708: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
-  87709: infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades
+  87702: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  87703: infrastructureupgrades/SovereigntyHubColonyResourcesManagementUpgrades
+  87704: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  87705: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  87706: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  87707: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  87708: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  87709: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  87710: infrastructureupgrades/SovereigntyHubColonyResourcesManagementUpgrades
   87711: implant/Booster
   87726: implant/Booster
   87727: implant/Booster
@@ -31963,16 +31969,21 @@ id2group:
   87801: personalization/ShipSKINDesignElement
   87802: personalization/ShipSKINDesignElement
   87803: personalization/ShipSKINDesignElement
+  87815: infrastructureupgrades/SovereigntyHubSystemEffectGeneratorUpgrades
   87828: personalization/ShipSKINDesignElement
+  87829: personalization/ShipSKINDesignElement
   87830: personalization/ShipSKINDesignElement
   87831: personalization/ShipSKINDesignElement
   87832: personalization/ShipSKINDesignElement
   87833: personalization/ShipSKINDesignElement
   87834: entity/IrregularBattleship
+  87836: personalization/ShipSKINDesignElement
   87837: personalization/ShipSKINDesignElement
+  87838: personalization/ShipSKINDesignElement
   87839: personalization/ShipSKINDesignElement
   87840: personalization/ShipSKINDesignElement
   87841: personalization/ShipSKINDesignElement
+  87842: personalization/ShipSKINDesignElement
   87843: personalization/ShipSKINDesignElement
   87853: specialeditionassets/SpecialEditionCommodities
   87854: implant/Booster
@@ -32015,13 +32026,28 @@ id2group:
   87938: entity/IrregularFrigate
   87939: entity/IrregularDestroyer
   87947: entity/SpawnContainer
+  87948: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  87949: infrastructureupgrades/SovereigntyHubSystemEffectGeneratorUpgrades
+  87950: infrastructureupgrades/SovereigntyHubSystemEffectGeneratorUpgrades
+  87951: infrastructureupgrades/SovereigntyHubSystemEffectGeneratorUpgrades
   87952: commodity/LimitedRarities
+  87953: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
+  87954: infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades
   87982: commodity/Miscellaneous
+  88001: ship/Marauder
+  88003: blueprint/BattleshipBlueprint
+  88009: entity/SpawnContainer
+  88010: entity/SpawnContainer
+  88012: blueprint/InfrastructureUpgradeBlueprint
+  88014: blueprint/InfrastructureUpgradeBlueprint
+  88020: blueprint/InfrastructureUpgradeBlueprint
+  88029: blueprint/InfrastructureUpgradeBlueprint
   88030: skins/PermanentSKIN
   88031: skins/PermanentSKIN
   88032: skins/PermanentSKIN
   88033: skins/PermanentSKIN
   88034: skins/PermanentSKIN
+  88036: blueprint/InfrastructureUpgradeBlueprint
   88037: skins/PermanentSKIN
   88038: skins/PermanentSKIN
   88039: skins/PermanentSKIN
@@ -32037,10 +32063,43 @@ id2group:
   88051: skins/PermanentSKIN
   88053: skins/PermanentSKIN
   88054: skins/PermanentSKIN
+  88060: entity/SpawnContainer
+  88062: entity/SpawnContainer
+  88075: blueprint/InfrastructureUpgradeBlueprint
+  88076: blueprint/InfrastructureUpgradeBlueprint
+  88077: blueprint/InfrastructureUpgradeBlueprint
+  88078: blueprint/InfrastructureUpgradeBlueprint
   88087: material/Mineral
+  88088: specialeditionassets/SpecialEditionCommodities
   88105: asteroid/Tyranite
+  88119: implant/Cyberimplant
+  88120: implant/Cyberimplant
+  88121: implant/Cyberimplant
+  88122: implant/Cyberimplant
+  88123: implant/Cyberimplant
+  88124: implant/Cyberimplant
+  88125: implant/Cyberimplant
+  88126: implant/Cyberimplant
+  88127: implant/Cyberimplant
+  88128: implant/Cyberimplant
+  88129: implant/Cyberimplant
+  88130: implant/Cyberimplant
   88133: specialeditionassets/SpecialEditionCommodities
   88134: specialeditionassets/SpecialEditionCommodities
+  88135: blueprint/ImplantBlueprints
+  88136: blueprint/ImplantBlueprints
+  88137: blueprint/ImplantBlueprints
+  88138: blueprint/ImplantBlueprints
+  88139: blueprint/ImplantBlueprints
+  88140: blueprint/ImplantBlueprints
+  88141: blueprint/ImplantBlueprints
+  88142: blueprint/ImplantBlueprints
+  88143: blueprint/ImplantBlueprints
+  88144: blueprint/ImplantBlueprints
+  88145: blueprint/ImplantBlueprints
+  88146: blueprint/ImplantBlueprints
+  88147: module/ScanningUpgradeTime
+  88148: blueprint/ScanningUpgradeTimeBlueprint
   88153: entity/IrregularFrigate
   88154: entity/IrregularDreadnought
   88155: entity/LargeCollidableStructure
@@ -32053,11 +32112,11 @@ id2group:
   88177: commodity/Miscellaneous
   88178: specialeditionassets/SpecialEditionCommodities
   88179: specialeditionassets/SpecialEditionCommodities
-  88202: commodity/JumpFilaments
-  88203: commodity/JumpFilaments
-  88204: commodity/JumpFilaments
-  88205: commodity/JumpFilaments
-  88206: commodity/JumpFilaments
+  88202: commodity/ExpiredJumpFilaments
+  88203: commodity/ExpiredJumpFilaments
+  88204: commodity/ExpiredJumpFilaments
+  88205: commodity/ExpiredJumpFilaments
+  88206: commodity/ExpiredJumpFilaments
   88209: skins/PermanentSKIN
   88210: skins/PermanentSKIN
   88211: skins/PermanentSKIN
@@ -32068,7 +32127,17 @@ id2group:
   88216: blueprint/JumpFilamentBlueprint
   88217: blueprint/JumpFilamentBlueprint
   88218: blueprint/JumpFilamentBlueprint
+  88221: infrastructureupgrades/SovereigntyHubColonyResourcesManagementUpgrades
   88224: entity/SpawnContainer
+  88227: infrastructureupgrades/SovereigntyHubColonyResourcesManagementUpgrades
+  88228: infrastructureupgrades/SovereigntyHubColonyResourcesManagementUpgrades
+  88229: infrastructureupgrades/SovereigntyHubColonyResourcesManagementUpgrades
+  88230: blueprint/InfrastructureUpgradeBlueprint
+  88231: blueprint/InfrastructureUpgradeBlueprint
+  88232: blueprint/InfrastructureUpgradeBlueprint
+  88233: blueprint/InfrastructureUpgradeBlueprint
+  88238: personalization/ShipEmblems
+  88239: personalization/ShipEmblems
   88258: entity/IrregularFrigate
   88259: entity/IrregularCruiser
   88261: module/CommandBurst
@@ -32093,6 +32162,228 @@ id2group:
   88352: implant/Booster
   88353: implant/Booster
   88354: implant/Booster
+  88356: personalization/ShipSKINDesignElement
+  88357: personalization/ShipSKINDesignElement
+  88364: personalization/ShipSKINDesignElement
+  88365: personalization/ShipSKINDesignElement
+  88375: personalization/ShipSKINDesignElement
+  88376: personalization/ShipSKINDesignElement
+  88377: skill/Gunnery
+  88378: personalization/ShipSKINDesignElement
+  88381: personalization/ShipSKINDesignElement
+  88456: personalization/ShipSKINDesignElement
+  88457: personalization/ShipSKINDesignElement
+  88458: personalization/ShipSKINDesignElement
+  88459: personalization/ShipSKINDesignElement
+  88460: personalization/ShipSKINDesignElement
+  88461: personalization/ShipSKINDesignElement
+  88464: personalization/ShipSKINDesignElement
+  88465: personalization/ShipSKINDesignElement
+  88466: personalization/ShipSKINDesignElement
+  88467: personalization/ShipSKINDesignElement
+  88468: personalization/ShipSKINDesignElement
+  88469: personalization/ShipSKINDesignElement
+  88470: personalization/ShipSKINDesignElement
+  88471: personalization/ShipSKINDesignElement
+  88472: personalization/ShipSKINDesignElement
+  88473: personalization/ShipSKINDesignElement
+  88474: personalization/ShipSKINDesignElement
+  88475: personalization/ShipSKINDesignElement
+  88476: personalization/ShipSKINDesignElement
+  88477: personalization/ShipSKINDesignElement
+  88478: personalization/ShipSKINDesignElement
+  88479: personalization/ShipSKINDesignElement
+  88480: personalization/ShipSKINDesignElement
+  88481: personalization/ShipSKINDesignElement
+  88482: personalization/ShipSKINDesignElement
+  88483: personalization/ShipSKINDesignElement
+  88484: personalization/ShipSKINDesignElement
+  88485: personalization/ShipSKINDesignElement
+  88486: personalization/ShipSKINDesignElement
+  88487: personalization/ShipSKINDesignElement
+  88523: personalization/ShipSKINDesignElement
+  88524: personalization/ShipSKINDesignElement
+  88525: personalization/ShipSKINDesignElement
+  88526: personalization/ShipSKINDesignElement
+  88527: personalization/ShipSKINDesignElement
+  88528: personalization/ShipSKINDesignElement
+  88529: personalization/ShipSKINDesignElement
+  88530: personalization/ShipSKINDesignElement
+  88531: personalization/ShipSKINDesignElement
+  88532: personalization/ShipSKINDesignElement
+  88533: personalization/ShipSKINDesignElement
+  88534: personalization/ShipSKINDesignElement
+  88535: personalization/ShipSKINDesignElement
+  88536: personalization/ShipSKINDesignElement
+  88537: personalization/ShipSKINDesignElement
+  88538: personalization/ShipSKINDesignElement
+  88539: personalization/ShipSKINDesignElement
+  88540: personalization/ShipSKINDesignElement
+  88541: personalization/ShipSKINDesignElement
+  88542: personalization/ShipSKINDesignElement
+  88543: personalization/ShipSKINDesignElement
+  88544: personalization/ShipSKINDesignElement
+  88545: personalization/ShipSKINDesignElement
+  88546: personalization/ShipSKINDesignElement
+  88549: personalization/ShipSKINDesignElement
+  88550: personalization/ShipSKINDesignElement
+  88553: personalization/ShipSKINDesignElement
+  88555: personalization/ShipSKINDesignElement
+  88559: entity/IrregularBattleship
+  88560: entity/IrregularBattleship
+  88562: entity/IrregularIndustrial
+  88567: entity/LargeCollidableStructure
+  88568: specialeditionassets/SpecialEditionCommodities
+  88571: specialeditionassets/SpecialEditionCommodities
+  88572: personalization/ShipSKINDesignElement
+  88573: personalization/ShipSKINDesignElement
+  88575: personalization/ShipSKINDesignElement
+  88576: personalization/ShipSKINDesignElement
+  88577: personalization/ShipSKINDesignElement
+  88578: personalization/ShipSKINDesignElement
+  88579: personalization/ShipSKINDesignElement
+  88580: personalization/ShipSKINDesignElement
+  88581: personalization/ShipSKINDesignElement
+  88582: personalization/ShipSKINDesignElement
+  88584: personalization/ShipSKINDesignElement
+  88587: personalization/ShipSKINDesignElement
+  88590: personalization/ShipSKINDesignElement
+  88591: personalization/ShipSKINDesignElement
+  88593: personalization/ShipSKINDesignElement
+  88594: personalization/ShipSKINDesignElement
+  88595: personalization/ShipSKINDesignElement
+  88596: personalization/ShipSKINDesignElement
+  88597: personalization/ShipSKINDesignElement
+  88598: personalization/ShipSKINDesignElement
+  88599: personalization/ShipSKINDesignElement
+  88600: personalization/ShipSKINDesignElement
+  88601: personalization/ShipSKINDesignElement
+  88602: personalization/ShipSKINDesignElement
+  88603: personalization/ShipSKINDesignElement
+  88604: personalization/ShipSKINDesignElement
+  88605: personalization/ShipSKINDesignElement
+  88606: personalization/ShipSKINDesignElement
+  88607: personalization/ShipSKINDesignElement
+  88608: personalization/ShipSKINDesignElement
+  88613: entity/IrregularDreadnought
+  88614: personalization/ShipSKINDesignElement
+  88615: personalization/ShipSKINDesignElement
+  88616: personalization/ShipSKINDesignElement
+  88617: personalization/ShipSKINDesignElement
+  88618: personalization/ShipSKINDesignElement
+  88619: personalization/ShipSKINDesignElement
+  88620: personalization/ShipSKINDesignElement
+  88621: personalization/ShipSKINDesignElement
+  88622: personalization/ShipSKINDesignElement
+  88623: personalization/ShipSKINDesignElement
+  88624: personalization/ShipSKINDesignElement
+  88625: personalization/ShipSKINDesignElement
+  88626: personalization/ShipSKINDesignElement
+  88627: personalization/ShipSKINDesignElement
+  88628: personalization/ShipSKINDesignElement
+  88629: personalization/ShipSKINDesignElement
+  88632: personalization/ShipSKINDesignElement
+  88633: personalization/ShipSKINDesignElement
+  88634: personalization/ShipSKINDesignElement
+  88635: personalization/ShipSKINDesignElement
+  88636: personalization/ShipSKINDesignElement
+  88637: personalization/ShipSKINDesignElement
+  88638: personalization/ShipSKINDesignElement
+  88639: personalization/ShipSKINDesignElement
+  88640: personalization/ShipSKINDesignElement
+  88641: personalization/ShipSKINDesignElement
+  88642: personalization/ShipSKINDesignElement
+  88643: personalization/ShipSKINDesignElement
+  88644: personalization/ShipSKINDesignElement
+  88645: personalization/ShipSKINDesignElement
+  88646: personalization/ShipSKINDesignElement
+  88647: personalization/ShipSKINDesignElement
+  88648: personalization/ShipSKINDesignElement
+  88649: personalization/ShipSKINDesignElement
+  88650: personalization/ShipSKINDesignElement
+  88651: personalization/ShipSKINDesignElement
+  88652: personalization/ShipSKINDesignElement
+  88653: personalization/ShipSKINDesignElement
+  88654: personalization/ShipSKINDesignElement
+  88655: personalization/ShipSKINDesignElement
+  88656: personalization/ShipSKINDesignElement
+  88657: personalization/ShipSKINDesignElement
+  88658: personalization/ShipSKINDesignElement
+  88659: personalization/ShipSKINDesignElement
+  88660: personalization/ShipSKINDesignElement
+  88661: personalization/ShipSKINDesignElement
+  88663: personalization/ShipSKINDesignElement
+  88664: personalization/ShipSKINDesignElement
+  88665: personalization/ShipSKINDesignElement
+  88666: personalization/ShipSKINDesignElement
+  88667: personalization/ShipSKINDesignElement
+  88668: personalization/ShipSKINDesignElement
+  88669: personalization/ShipSKINDesignElement
+  88670: personalization/ShipSKINDesignElement
+  88671: personalization/ShipSKINDesignElement
+  88672: personalization/ShipSKINDesignElement
+  88673: personalization/ShipSKINDesignElement
+  88674: personalization/ShipSKINDesignElement
+  88675: personalization/ShipSKINDesignElement
+  88676: personalization/ShipSKINDesignElement
+  88677: personalization/ShipSKINDesignElement
+  88678: personalization/ShipSKINDesignElement
+  88679: personalization/ShipSKINDesignElement
+  88680: personalization/ShipSKINDesignElement
+  88681: personalization/ShipSKINDesignElement
+  88682: personalization/ShipSKINDesignElement
+  88683: personalization/ShipSKINDesignElement
+  88684: personalization/ShipSKINDesignElement
+  88685: personalization/ShipSKINDesignElement
+  88686: personalization/ShipSKINDesignElement
+  88709: module/ArmorResistanceShiftHardener
+  88710: module/MicroJumpDrive
+  88711: module/MicroJumpDrive
+  88712: module/CapitalMobilityModules
+  88713: module/AncillaryShieldBooster
+  88714: module/AncillaryShieldBooster
+  88715: module/AncillaryShieldBooster
+  88716: module/AncillaryShieldBooster
+  88717: module/AncillaryShieldBooster
+  88718: module/AncillaryArmorRepairer
+  88719: module/AncillaryArmorRepairer
+  88720: module/AncillaryArmorRepairer
+  88721: module/AncillaryArmorRepairer
+  88722: blueprint/MicroJumpDriveBlueprint
+  88723: blueprint/FueledShieldBoosterBlueprint
+  88724: blueprint/ArmorResistanceShiftHardenerBlueprint
+  88725: blueprint/FueledShieldBoosterBlueprint
+  88726: blueprint/FueledShieldBoosterBlueprint
+  88727: blueprint/FueledShieldBoosterBlueprint
+  88728: blueprint/FueledArmorRepairerBlueprint
+  88729: blueprint/FueledArmorRepairerBlueprint
+  88730: blueprint/FueledArmorRepairerBlueprint
+  88731: blueprint/MicroJumpDriveBlueprint
+  88732: blueprint/FueledArmorRepairerBlueprint
+  88733: blueprint/FueledShieldBoosterBlueprint
+  88734: blueprint/MicroJumpDriveBlueprint
+  88748: entity/SpawnContainer
+  88774: personalization/ShipSKINDesignElement
+  88775: personalization/ShipSKINDesignElement
+  88776: personalization/ShipSKINDesignElement
+  88777: personalization/ShipSKINDesignElement
+  88784: skins/PermanentSKIN
+  88785: skins/PermanentSKIN
+  88786: skins/PermanentSKIN
+  88787: skins/PermanentSKIN
+  88788: skins/PermanentSKIN
+  88789: skins/PermanentSKIN
+  88790: skins/PermanentSKIN
+  88852: specialeditionassets/SpecialEditionCommodities
+  88853: specialeditionassets/SpecialEditionCommodities
+  88856: expertsystems/StandardExpertSystems
+  88891: skins/PermanentSKIN
+  88892: skins/PermanentSKIN
+  88893: skins/PermanentSKIN
+  88894: skins/PermanentSKIN
+  88895: skins/PermanentSKIN
+  88896: skins/PermanentSKIN
+  88897: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

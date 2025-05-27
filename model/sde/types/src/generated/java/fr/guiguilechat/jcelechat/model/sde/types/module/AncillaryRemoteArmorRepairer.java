@@ -30,6 +30,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MediumRemoteRepFittingMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadArmorDamageAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSelfDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -144,6 +145,13 @@ public class AncillaryRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int overloadarmordamageamount;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
     @DefaultRealValue(0.0)
     public double overloadselfdurationbonus;
     /**
@@ -202,7 +210,7 @@ public class AncillaryRemoteArmorRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredthermodynamicsskill;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, MediumRemoteRepFittingMultiplier.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, RemoteResistanceID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, ChargedArmorDamageMultiplier.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RepairMultiplierBonusPerCycle.INSTANCE, RepairMultiplierBonusMax.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, MediumRemoteRepFittingMultiplier.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadArmorDamageAmount.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, RemoteResistanceID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, ChargedArmorDamageMultiplier.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RepairMultiplierBonusPerCycle.INSTANCE, RepairMultiplierBonusMax.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE })));
     public static final AncillaryRemoteArmorRepairer.MetaGroup METAGROUP = new AncillaryRemoteArmorRepairer.MetaGroup();
 
     @Override
@@ -259,6 +267,10 @@ public class AncillaryRemoteArmorRepairer
             case  2691 :
             {
                 return mediumremoterepfittingmultiplier;
+            }
+            case  1230 :
+            {
+                return overloadarmordamageamount;
             }
             case  1206 :
             {

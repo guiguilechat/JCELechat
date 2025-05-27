@@ -68,6 +68,7 @@ types:
     maincolor: 16777215
     marketGroup: 1048
     mass: 8.0E8
+    maxdirectionalscanrange: 2.147483648E12
     maxgangmodules: 2
     maxjumpclones: 6
     maxlockedtargets: 7

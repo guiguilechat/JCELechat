@@ -109,7 +109,7 @@ public class AncillaryShieldBooster
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double overloadselfdurationbonus;

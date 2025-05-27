@@ -16,7 +16,7 @@ types:
     volume: 0.009999999776482582
   3301:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3301
     marketGroup: 364
     name: Small Hybrid Turret
@@ -33,7 +33,7 @@ types:
     volume: 0.009999999776482582
   3302:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3302
     marketGroup: 364
     name: Small Projectile Turret
@@ -50,7 +50,7 @@ types:
     volume: 0.009999999776482582
   3303:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3303
     marketGroup: 364
     name: Small Energy Turret
@@ -67,7 +67,7 @@ types:
     volume: 0.009999999776482582
   3304:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3304
     marketGroup: 364
     name: Medium Hybrid Turret
@@ -86,7 +86,7 @@ types:
     volume: 0.009999999776482582
   3305:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3305
     marketGroup: 364
     name: Medium Projectile Turret
@@ -105,7 +105,7 @@ types:
     volume: 0.009999999776482582
   3306:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3306
     marketGroup: 364
     name: Medium Energy Turret
@@ -124,7 +124,7 @@ types:
     volume: 0.009999999776482582
   3307:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3307
     marketGroup: 364
     name: Large Hybrid Turret
@@ -143,7 +143,7 @@ types:
     volume: 0.009999999776482582
   3308:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3308
     marketGroup: 364
     name: Large Projectile Turret
@@ -162,7 +162,7 @@ types:
     volume: 0.009999999776482582
   3309:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3309
     marketGroup: 364
     name: Large Energy Turret
@@ -232,7 +232,7 @@ types:
     volume: 0.009999999776482582
   3315:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 3315
     marketGroup: 364
     name: Surgical Strike
@@ -283,7 +283,7 @@ types:
     volume: 0.009999999776482582
   11082:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 11082
     marketGroup: 364
     name: Small Railgun Specialization
@@ -302,7 +302,7 @@ types:
     volume: 0.009999999776482582
   11083:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 11083
     marketGroup: 364
     name: Small Beam Laser Specialization
@@ -321,7 +321,7 @@ types:
     volume: 0.009999999776482582
   11084:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 11084
     marketGroup: 364
     name: Small Autocannon Specialization
@@ -340,7 +340,7 @@ types:
     volume: 0.009999999776482582
   12201:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12201
     marketGroup: 364
     name: Small Artillery Specialization
@@ -359,7 +359,7 @@ types:
     volume: 0.009999999776482582
   12202:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12202
     marketGroup: 364
     name: Medium Artillery Specialization
@@ -378,7 +378,7 @@ types:
     volume: 0.009999999776482582
   12203:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12203
     marketGroup: 364
     name: Large Artillery Specialization
@@ -397,7 +397,7 @@ types:
     volume: 0.009999999776482582
   12204:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12204
     marketGroup: 364
     name: Medium Beam Laser Specialization
@@ -416,7 +416,7 @@ types:
     volume: 0.009999999776482582
   12205:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12205
     marketGroup: 364
     name: Large Beam Laser Specialization
@@ -435,7 +435,7 @@ types:
     volume: 0.009999999776482582
   12206:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12206
     marketGroup: 364
     name: Medium Railgun Specialization
@@ -454,7 +454,7 @@ types:
     volume: 0.009999999776482582
   12207:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12207
     marketGroup: 364
     name: Large Railgun Specialization
@@ -473,7 +473,7 @@ types:
     volume: 0.009999999776482582
   12208:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12208
     marketGroup: 364
     name: Medium Autocannon Specialization
@@ -492,7 +492,7 @@ types:
     volume: 0.009999999776482582
   12209:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12209
     marketGroup: 364
     name: Large Autocannon Specialization
@@ -511,7 +511,7 @@ types:
     volume: 0.009999999776482582
   12210:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12210
     marketGroup: 364
     name: Small Blaster Specialization
@@ -530,7 +530,7 @@ types:
     volume: 0.009999999776482582
   12211:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12211
     marketGroup: 364
     name: Medium Blaster Specialization
@@ -549,7 +549,7 @@ types:
     volume: 0.009999999776482582
   12212:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12212
     marketGroup: 364
     name: Large Blaster Specialization
@@ -568,7 +568,7 @@ types:
     volume: 0.009999999776482582
   12213:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12213
     marketGroup: 364
     name: Small Pulse Laser Specialization
@@ -587,7 +587,7 @@ types:
     volume: 0.009999999776482582
   12214:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12214
     marketGroup: 364
     name: Medium Pulse Laser Specialization
@@ -606,7 +606,7 @@ types:
     volume: 0.009999999776482582
   12215:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12215
     marketGroup: 364
     name: Large Pulse Laser Specialization
@@ -625,7 +625,7 @@ types:
     volume: 0.009999999776482582
   20327:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 20327
     marketGroup: 364
     name: Capital Energy Turret
@@ -644,7 +644,7 @@ types:
     volume: 0.009999999776482582
   21666:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 21666
     marketGroup: 364
     name: Capital Hybrid Turret
@@ -663,7 +663,7 @@ types:
     volume: 0.009999999776482582
   21667:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 21667
     marketGroup: 364
     name: Capital Projectile Turret
@@ -699,7 +699,7 @@ types:
     volume: 0.009999999776482582
   24563:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 10
+    damagemultiplierbonus: 10.0
     id: 24563
     marketGroup: 364
     name: Doomsday Operation
@@ -720,7 +720,7 @@ types:
     volume: 0.009999999776482582
   41403:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 41403
     marketGroup: 364
     name: Capital Autocannon Specialization
@@ -739,7 +739,7 @@ types:
     volume: 0.009999999776482582
   41404:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 41404
     marketGroup: 364
     name: Capital Artillery Specialization
@@ -758,7 +758,7 @@ types:
     volume: 0.009999999776482582
   41405:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 41405
     marketGroup: 364
     name: Capital Blaster Specialization
@@ -777,7 +777,7 @@ types:
     volume: 0.009999999776482582
   41406:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 41406
     marketGroup: 364
     name: Capital Railgun Specialization
@@ -796,7 +796,7 @@ types:
     volume: 0.009999999776482582
   41407:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 41407
     marketGroup: 364
     name: Capital Pulse Laser Specialization
@@ -815,7 +815,7 @@ types:
     volume: 0.009999999776482582
   41408:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 41408
     marketGroup: 364
     name: Capital Beam Laser Specialization
@@ -851,7 +851,7 @@ types:
     volume: 0.009999999776482582
   47870:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 47870
     marketGroup: 364
     name: Small Precursor Weapon
@@ -868,7 +868,7 @@ types:
     volume: 0.009999999776482582
   47871:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 47871
     marketGroup: 364
     name: Medium Precursor Weapon
@@ -887,7 +887,7 @@ types:
     volume: 0.009999999776482582
   47872:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 47872
     marketGroup: 364
     name: Large Precursor Weapon
@@ -906,7 +906,7 @@ types:
     volume: 0.009999999776482582
   47873:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 47873
     marketGroup: 364
     name: Small Disintegrator Specialization
@@ -925,7 +925,7 @@ types:
     volume: 0.009999999776482582
   47874:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 47874
     marketGroup: 364
     name: Medium Disintegrator Specialization
@@ -944,7 +944,7 @@ types:
     volume: 0.009999999776482582
   47875:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 47875
     marketGroup: 364
     name: Large Disintegrator Specialization
@@ -963,7 +963,7 @@ types:
     volume: 0.009999999776482582
   52998:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 52998
     marketGroup: 364
     name: Capital Precursor Weapon
@@ -982,7 +982,7 @@ types:
     volume: 0.009999999776482582
   54826:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 54826
     marketGroup: 364
     name: Large Vorton Projector
@@ -1001,7 +1001,7 @@ types:
     volume: 0.009999999776482582
   54827:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 54827
     marketGroup: 364
     name: Small Vorton Specialization
@@ -1020,7 +1020,7 @@ types:
     volume: 0.009999999776482582
   54828:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 54828
     marketGroup: 364
     name: Medium Vorton Specialization
@@ -1039,7 +1039,7 @@ types:
     volume: 0.009999999776482582
   54829:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 54829
     marketGroup: 364
     name: Large Vorton Specialization
@@ -1058,7 +1058,7 @@ types:
     volume: 0.009999999776482582
   54840:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 54840
     marketGroup: 364
     name: Vorton Power Amplification
@@ -1108,7 +1108,7 @@ types:
     volume: 0.009999999776482582
   55034:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 55034
     marketGroup: 364
     name: Small Vorton Projector
@@ -1125,7 +1125,7 @@ types:
     volume: 0.009999999776482582
   55035:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 55035
     marketGroup: 364
     name: Medium Vorton Projector
@@ -1177,6 +1177,23 @@ types:
     requiredskill2level: 4
     requiredskill3: 11207
     requiredskill3level: 5
+    secondaryattribute: 165
+    skilltimeconstant: 14.0
+    volume: 0.009999999776482582
+  88377:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 7.5
+    id: 88377
+    marketGroup: 364
+    name: Advanced Doomsday Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E8
+    primaryattribute: 168
+    published: true
+    radius: 1.0
+    requiredskill1: 24563
+    requiredskill1level: 5
     secondaryattribute: 165
     skilltimeconstant: 14.0
     volume: 0.009999999776482582

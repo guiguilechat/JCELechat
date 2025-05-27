@@ -853,3 +853,99 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
+  88135:
+    id: 88135
+    name: Low-grade Wedge Alpha Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88136:
+    id: 88136
+    name: Low-grade Wedge Beta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88137:
+    id: 88137
+    name: Low-grade Wedge Gamma Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88138:
+    id: 88138
+    name: Low-grade Wedge Delta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88139:
+    id: 88139
+    name: Low-grade Wedge Epsilon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88140:
+    id: 88140
+    name: Low-grade Wedge Omega Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88141:
+    id: 88141
+    name: Mid-grade Wedge Alpha Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88142:
+    id: 88142
+    name: Mid-grade Wedge Beta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88143:
+    id: 88143
+    name: Mid-grade Wedge Gamma Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88144:
+    id: 88144
+    name: Mid-grade Wedge Delta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88145:
+    id: 88145
+    name: Mid-grade Wedge Epsilon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  88146:
+    id: 88146
+    name: Mid-grade Wedge Omega Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582

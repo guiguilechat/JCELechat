@@ -59,6 +59,7 @@ types:
     lowslots: 7
     marketGroup: 815
     mass: 2.1E9
+    maxdirectionalscanrange: 2.147483648E12
     maxjumpclones: 75
     maxlockedtargets: 8
     maxoperationaldistance: 5000
@@ -97,7 +98,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 2.0
-    shipbonusrole2: 300
+    shipbonusrole2: 500
     shipbonustitang1: 180
     shipbonustitang2: -5
     shipbonustitang3: -10
@@ -179,6 +180,7 @@ types:
     lowslots: 5
     marketGroup: 814
     mass: 2.3E9
+    maxdirectionalscanrange: 2.147483648E12
     maxjumpclones: 75
     maxlockedtargets: 8
     maxoperationaldistance: 5000
@@ -217,8 +219,8 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.5
     shipbonusrole1: 2.0
-    shipbonusrole2: 300
-    shipbonusrole3: 100
+    shipbonusrole2: 500
+    shipbonusrole3: 100.0
     shipbonustitanc1: 50
     shipbonustitanc2: -15
     shipbonustitanc3: -10
@@ -299,6 +301,7 @@ types:
     lowslots: 8
     marketGroup: 813
     mass: 2.4E9
+    maxdirectionalscanrange: 2.147483648E12
     maxjumpclones: 75
     maxlockedtargets: 8
     maxoperationaldistance: 5000
@@ -337,7 +340,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.5
     shipbonusrole1: 2.0
-    shipbonusrole2: 300
+    shipbonusrole2: 500
     shipbonustitana1: 180
     shipbonustitana2: -10
     shipbonustitana3: -10
@@ -417,6 +420,7 @@ types:
     lowslots: 6
     marketGroup: 816
     mass: 2.2E9
+    maxdirectionalscanrange: 2.147483648E12
     maxjumpclones: 75
     maxlockedtargets: 8
     maxoperationaldistance: 5000
@@ -455,7 +459,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 2.0
-    shipbonusrole2: 300
+    shipbonusrole2: 500
     shipbonustitanm1: 180
     shipbonustitanm2: -5
     shipbonustitanm3: -10
@@ -536,6 +540,7 @@ types:
     lowslots: 8
     marketGroup: 2287
     mass: 2.1E9
+    maxdirectionalscanrange: 2.147483648E12
     maxjumpclones: 75
     maxlockedtargets: 8
     maxoperationaldistance: 5000
@@ -578,8 +583,8 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 2.0
-    shipbonusrole2: 300
-    shipbonusrole3: 1000
+    shipbonusrole2: 500
+    shipbonusrole3: 1000.0
     shipbonustitang2: -5
     shipbonustitang3: -6
     shipbonustitanm1: 10
@@ -661,6 +666,7 @@ types:
     lowslots: 8
     marketGroup: 2287
     mass: 2.4E9
+    maxdirectionalscanrange: 2.147483648E12
     maxjumpclones: 75
     maxlockedtargets: 8
     maxoperationaldistance: 5000
@@ -704,8 +710,8 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.5
     shipbonusrole1: 2.0
-    shipbonusrole2: 300
-    shipbonusrole3: 1400
+    shipbonusrole2: 500
+    shipbonusrole3: 1400.0
     shipbonustitana1: 15
     shipbonustitana3: -6
     shipbonustitanm1: 20
@@ -793,6 +799,7 @@ types:
     lowslots: 5
     marketGroup: 2287
     mass: 2.3E9
+    maxdirectionalscanrange: 2.147483648E12
     maxjumpclones: 75
     maxlockedtargets: 8
     maxoperationaldistance: 5000
@@ -835,8 +842,8 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.5
     shipbonusrole1: 2.0
-    shipbonusrole2: 300
-    shipbonusrole3: 100
+    shipbonusrole2: 500
+    shipbonusrole3: 100.0
     shipbonusrole4: 100
     shipbonustitanc1: -4
     shipbonustitanc2: -15
@@ -919,6 +926,7 @@ types:
     lowslots: 7
     marketGroup: 2287
     mass: 2.2E9
+    maxdirectionalscanrange: 2.147483648E12
     maxjumpclones: 75
     maxlockedtargets: 8
     maxoperationaldistance: 5000
@@ -959,7 +967,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 2.0
-    shipbonusrole2: 300
+    shipbonusrole2: 500
     shipbonustitang1: 5
     shipbonustitang2: 10
     shipbonustitang3: -6

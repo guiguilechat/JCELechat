@@ -1,7 +1,7 @@
 types:
   1798:
     cpu: 6.0
-    emdamageresistancebonus: -22.5
+    emdamageresistancebonus: -25.0
     hp: 40.0
     id: 1798
     marketGroup: 1691
@@ -31,13 +31,13 @@ types:
     requiredskill1: 3413
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -22.5
+    thermaldamageresistancebonus: -25.0
     volume: 5.0
   1802:
     cpu: 6.0
     hp: 40.0
     id: 1802
-    kineticdamageresistancebonus: -22.5
+    kineticdamageresistancebonus: -25.0
     marketGroup: 1689
     metagroupid: 3
     metalevelold: 6
@@ -52,7 +52,7 @@ types:
     volume: 5.0
   1804:
     cpu: 6.0
-    explosivedamageresistancebonus: -22.5
+    explosivedamageresistancebonus: -25.0
     hp: 40.0
     id: 1804
     marketGroup: 1690
@@ -69,7 +69,7 @@ types:
     volume: 5.0
   1808:
     cpu: 25.0
-    emdamageresistancebonus: -29.25
+    emdamageresistancebonus: -32.5
     hp: 40.0
     id: 1808
     marketGroup: 1691
@@ -85,7 +85,7 @@ types:
     volume: 5.0
   2529:
     cpu: 25.0
-    explosivedamageresistancebonus: -29.25
+    explosivedamageresistancebonus: -32.5
     hp: 40.0
     id: 2529
     marketGroup: 1690
@@ -101,7 +101,7 @@ types:
     volume: 5.0
   2531:
     cpu: 30.0
-    explosivedamageresistancebonus: -33.75
+    explosivedamageresistancebonus: -37.5
     hp: 40.0
     id: 2531
     marketGroup: 1690
@@ -130,7 +130,7 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -29.25
+    thermaldamageresistancebonus: -32.5
     volume: 5.0
   2539:
     cpu: 30.0
@@ -147,13 +147,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 4
     techlevel: 2
-    thermaldamageresistancebonus: -33.75
+    thermaldamageresistancebonus: -37.5
     volume: 5.0
   2545:
     cpu: 25.0
     hp: 40.0
     id: 2545
-    kineticdamageresistancebonus: -29.25
+    kineticdamageresistancebonus: -32.5
     marketGroup: 1689
     name: Kinetic Shield Amplifier I
     packagedVolume: 5.0
@@ -169,7 +169,7 @@ types:
     cpu: 30.0
     hp: 40.0
     id: 2547
-    kineticdamageresistancebonus: -33.75
+    kineticdamageresistancebonus: -37.5
     marketGroup: 1689
     metalevelold: 5
     name: Kinetic Shield Amplifier II
@@ -184,7 +184,7 @@ types:
     volume: 5.0
   2553:
     cpu: 30.0
-    emdamageresistancebonus: -33.75
+    emdamageresistancebonus: -37.5
     hp: 40.0
     id: 2553
     marketGroup: 1691
@@ -201,7 +201,7 @@ types:
     volume: 5.0
   9556:
     cpu: 20.0
-    explosivedamageresistancebonus: -31.5
+    explosivedamageresistancebonus: -35.0
     hp: 40.0
     id: 9556
     marketGroup: 1690
@@ -231,11 +231,11 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -31.5
+    thermaldamageresistancebonus: -35.0
     volume: 5.0
   9580:
     cpu: 20.0
-    emdamageresistancebonus: -31.5
+    emdamageresistancebonus: -35.0
     hp: 40.0
     id: 9580
     marketGroup: 1691
@@ -254,7 +254,7 @@ types:
     cpu: 20.0
     hp: 40.0
     id: 9582
-    kineticdamageresistancebonus: -31.5
+    kineticdamageresistancebonus: -35.0
     marketGroup: 1689
     metalevelold: 1
     name: Compact Kinetic Shield Amplifier
@@ -269,7 +269,7 @@ types:
     volume: 5.0
   14029:
     cpu: 17.0
-    explosivedamageresistancebonus: -33.75
+    explosivedamageresistancebonus: -37.5
     hp: 40.0
     id: 14029
     marketGroup: 1690
@@ -287,7 +287,7 @@ types:
     volume: 5.0
   14031:
     cpu: 28.0
-    explosivedamageresistancebonus: -35.459999084472656
+    explosivedamageresistancebonus: -39.400001525878906
     hp: 40.0
     id: 14031
     marketGroup: 1690
@@ -319,7 +319,7 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -33.75
+    thermaldamageresistancebonus: -37.5
     volume: 5.0
   14035:
     cpu: 28.0
@@ -337,13 +337,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -35.459999084472656
+    thermaldamageresistancebonus: -39.400001525878906
     volume: 5.0
   14037:
     cpu: 17.0
     hp: 40.0
     id: 14037
-    kineticdamageresistancebonus: -33.75
+    kineticdamageresistancebonus: -37.5
     marketGroup: 1689
     metagroupid: 4
     metalevelold: 8
@@ -361,7 +361,7 @@ types:
     cpu: 28.0
     hp: 40.0
     id: 14039
-    kineticdamageresistancebonus: -35.459999084472656
+    kineticdamageresistancebonus: -39.400001525878906
     marketGroup: 1689
     metagroupid: 4
     metalevelold: 8
@@ -377,7 +377,7 @@ types:
     volume: 5.0
   14041:
     cpu: 17.0
-    emdamageresistancebonus: -33.75
+    emdamageresistancebonus: -37.5
     hp: 40.0
     id: 14041
     marketGroup: 1691
@@ -395,7 +395,7 @@ types:
     volume: 5.0
   14043:
     cpu: 28.0
-    emdamageresistancebonus: -35.459999084472656
+    emdamageresistancebonus: -39.400001525878906
     hp: 40.0
     id: 14043
     marketGroup: 1691
@@ -413,7 +413,7 @@ types:
     volume: 5.0
   14606:
     cpu: 27.0
-    explosivedamageresistancebonus: -37.540000915527344
+    explosivedamageresistancebonus: -41.709999084472656
     hp: 40.0
     id: 14606
     marketGroup: 1690
@@ -431,7 +431,7 @@ types:
     volume: 5.0
   14610:
     cpu: 29.0
-    explosivedamageresistancebonus: -41.70000076293945
+    explosivedamageresistancebonus: -46.33000183105469
     hp: 40.0
     id: 14610
     marketGroup: 1690
@@ -463,7 +463,7 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -37.540000915527344
+    thermaldamageresistancebonus: -41.709999084472656
     volume: 5.0
   14618:
     cpu: 29.0
@@ -481,13 +481,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -41.70000076293945
+    thermaldamageresistancebonus: -46.33000183105469
     volume: 5.0
   14622:
     cpu: 27.0
     hp: 40.0
     id: 14622
-    kineticdamageresistancebonus: -37.540000915527344
+    kineticdamageresistancebonus: -41.709999084472656
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 13
@@ -505,7 +505,7 @@ types:
     cpu: 29.0
     hp: 40.0
     id: 14626
-    kineticdamageresistancebonus: -41.70000076293945
+    kineticdamageresistancebonus: -46.33000183105469
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 17
@@ -521,7 +521,7 @@ types:
     volume: 5.0
   14630:
     cpu: 27.0
-    emdamageresistancebonus: -37.540000915527344
+    emdamageresistancebonus: -41.709999084472656
     hp: 40.0
     id: 14630
     marketGroup: 1691
@@ -539,7 +539,7 @@ types:
     volume: 5.0
   14634:
     cpu: 29.0
-    emdamageresistancebonus: -41.70000076293945
+    emdamageresistancebonus: -46.33000183105469
     hp: 40.0
     id: 14634
     marketGroup: 1691
@@ -557,7 +557,7 @@ types:
     volume: 5.0
   14716:
     cpu: 30.0
-    explosivedamageresistancebonus: -37.540000915527344
+    explosivedamageresistancebonus: -41.709999084472656
     hp: 40.0
     id: 14716
     marketGroup: 1690
@@ -575,7 +575,7 @@ types:
     volume: 5.0
   14718:
     cpu: 34.0
-    explosivedamageresistancebonus: -39.619998931884766
+    explosivedamageresistancebonus: -44.02000045776367
     hp: 40.0
     id: 14718
     marketGroup: 1690
@@ -593,7 +593,7 @@ types:
     volume: 5.0
   14720:
     cpu: 36.0
-    explosivedamageresistancebonus: -41.70000076293945
+    explosivedamageresistancebonus: -46.33000183105469
     hp: 40.0
     id: 14720
     marketGroup: 1690
@@ -611,7 +611,7 @@ types:
     volume: 5.0
   14722:
     cpu: 38.0
-    explosivedamageresistancebonus: -43.779998779296875
+    explosivedamageresistancebonus: -48.63999938964844
     hp: 40.0
     id: 14722
     marketGroup: 1690
@@ -643,7 +643,7 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -37.540000915527344
+    thermaldamageresistancebonus: -41.709999084472656
     volume: 5.0
   14726:
     cpu: 34.0
@@ -661,7 +661,7 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -39.619998931884766
+    thermaldamageresistancebonus: -44.02000045776367
     volume: 5.0
   14728:
     cpu: 36.0
@@ -679,7 +679,7 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -41.70000076293945
+    thermaldamageresistancebonus: -46.33000183105469
     volume: 5.0
   14730:
     cpu: 38.0
@@ -697,13 +697,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -43.779998779296875
+    thermaldamageresistancebonus: -48.63999938964844
     volume: 5.0
   14732:
     cpu: 30.0
     hp: 40.0
     id: 14732
-    kineticdamageresistancebonus: -37.540000915527344
+    kineticdamageresistancebonus: -41.709999084472656
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 11
@@ -721,7 +721,7 @@ types:
     cpu: 34.0
     hp: 40.0
     id: 14734
-    kineticdamageresistancebonus: -39.619998931884766
+    kineticdamageresistancebonus: -44.02000045776367
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 13
@@ -739,7 +739,7 @@ types:
     cpu: 36.0
     hp: 40.0
     id: 14736
-    kineticdamageresistancebonus: -41.70000076293945
+    kineticdamageresistancebonus: -46.33000183105469
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 15
@@ -757,7 +757,7 @@ types:
     cpu: 38.0
     hp: 40.0
     id: 14738
-    kineticdamageresistancebonus: -43.779998779296875
+    kineticdamageresistancebonus: -48.63999938964844
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 17
@@ -773,7 +773,7 @@ types:
     volume: 5.0
   14740:
     cpu: 30.0
-    emdamageresistancebonus: -37.540000915527344
+    emdamageresistancebonus: -41.709999084472656
     hp: 40.0
     id: 14740
     marketGroup: 1691
@@ -791,7 +791,7 @@ types:
     volume: 5.0
   14742:
     cpu: 34.0
-    emdamageresistancebonus: -39.619998931884766
+    emdamageresistancebonus: -44.02000045776367
     hp: 40.0
     id: 14742
     marketGroup: 1691
@@ -809,7 +809,7 @@ types:
     volume: 5.0
   14744:
     cpu: 36.0
-    emdamageresistancebonus: -41.70000076293945
+    emdamageresistancebonus: -46.33000183105469
     hp: 40.0
     id: 14744
     marketGroup: 1691
@@ -827,7 +827,7 @@ types:
     volume: 5.0
   14746:
     cpu: 38.0
-    emdamageresistancebonus: -43.779998779296875
+    emdamageresistancebonus: -48.63999938964844
     hp: 40.0
     id: 14746
     marketGroup: 1691
@@ -845,7 +845,7 @@ types:
     volume: 5.0
   15909:
     cpu: 28.0
-    emdamageresistancebonus: -35.459999084472656
+    emdamageresistancebonus: -39.400001525878906
     hp: 40.0
     id: 15909
     marketGroup: 1691
@@ -865,7 +865,7 @@ types:
     cpu: 28.0
     hp: 40.0
     id: 15911
-    kineticdamageresistancebonus: -35.459999084472656
+    kineticdamageresistancebonus: -39.400001525878906
     marketGroup: 1689
     metagroupid: 4
     metalevelold: 8
@@ -895,11 +895,11 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -35.459999084472656
+    thermaldamageresistancebonus: -39.400001525878906
     volume: 5.0
   15915:
     cpu: 28.0
-    explosivedamageresistancebonus: -35.459999084472656
+    explosivedamageresistancebonus: -39.400001525878906
     hp: 40.0
     id: 15915
     marketGroup: 1690
@@ -917,7 +917,7 @@ types:
     volume: 5.0
   15917:
     cpu: 17.0
-    emdamageresistancebonus: -33.75
+    emdamageresistancebonus: -37.5
     hp: 40.0
     id: 15917
     marketGroup: 1691
@@ -937,7 +937,7 @@ types:
     cpu: 17.0
     hp: 40.0
     id: 15919
-    kineticdamageresistancebonus: -33.75
+    kineticdamageresistancebonus: -37.5
     marketGroup: 1689
     metagroupid: 4
     metalevelold: 8
@@ -967,11 +967,11 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -33.75
+    thermaldamageresistancebonus: -37.5
     volume: 5.0
   15923:
     cpu: 17.0
-    explosivedamageresistancebonus: -33.75
+    explosivedamageresistancebonus: -37.5
     hp: 40.0
     id: 15923
     marketGroup: 1690
@@ -989,7 +989,7 @@ types:
     volume: 5.0
   19209:
     cpu: 30.0
-    explosivedamageresistancebonus: -36.290000915527344
+    explosivedamageresistancebonus: -40.31999969482422
     hp: 40.0
     id: 19209
     marketGroup: 1690
@@ -1021,13 +1021,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -36.290000915527344
+    thermaldamageresistancebonus: -40.31999969482422
     volume: 5.0
   19213:
     cpu: 30.0
     hp: 40.0
     id: 19213
-    kineticdamageresistancebonus: -36.290000915527344
+    kineticdamageresistancebonus: -40.31999969482422
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 10
@@ -1043,7 +1043,7 @@ types:
     volume: 5.0
   19215:
     cpu: 30.0
-    emdamageresistancebonus: -36.290000915527344
+    emdamageresistancebonus: -40.31999969482422
     hp: 40.0
     id: 19215
     marketGroup: 1691
@@ -1061,7 +1061,7 @@ types:
     volume: 5.0
   19217:
     cpu: 34.0
-    explosivedamageresistancebonus: -38.369998931884766
+    explosivedamageresistancebonus: -42.630001068115234
     hp: 40.0
     id: 19217
     marketGroup: 1690
@@ -1093,13 +1093,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -38.369998931884766
+    thermaldamageresistancebonus: -42.630001068115234
     volume: 5.0
   19221:
     cpu: 34.0
     hp: 40.0
     id: 19221
-    kineticdamageresistancebonus: -38.369998931884766
+    kineticdamageresistancebonus: -42.630001068115234
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 12
@@ -1115,7 +1115,7 @@ types:
     volume: 5.0
   19223:
     cpu: 34.0
-    emdamageresistancebonus: -38.369998931884766
+    emdamageresistancebonus: -42.630001068115234
     hp: 40.0
     id: 19223
     marketGroup: 1691
@@ -1133,7 +1133,7 @@ types:
     volume: 5.0
   19225:
     cpu: 36.0
-    explosivedamageresistancebonus: -40.45000076293945
+    explosivedamageresistancebonus: -44.939998626708984
     hp: 40.0
     id: 19225
     marketGroup: 1690
@@ -1165,13 +1165,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -40.45000076293945
+    thermaldamageresistancebonus: -44.939998626708984
     volume: 5.0
   19229:
     cpu: 36.0
     hp: 40.0
     id: 19229
-    kineticdamageresistancebonus: -40.45000076293945
+    kineticdamageresistancebonus: -44.939998626708984
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 14
@@ -1187,7 +1187,7 @@ types:
     volume: 5.0
   19231:
     cpu: 36.0
-    emdamageresistancebonus: -40.45000076293945
+    emdamageresistancebonus: -44.939998626708984
     hp: 40.0
     id: 19231
     marketGroup: 1691
@@ -1205,7 +1205,7 @@ types:
     volume: 5.0
   19233:
     cpu: 25.0
-    explosivedamageresistancebonus: -35.459999084472656
+    explosivedamageresistancebonus: -39.400001525878906
     hp: 40.0
     id: 19233
     marketGroup: 1690
@@ -1223,7 +1223,7 @@ types:
     volume: 5.0
   19235:
     cpu: 27.0
-    explosivedamageresistancebonus: -36.290000915527344
+    explosivedamageresistancebonus: -40.31999969482422
     hp: 40.0
     id: 19235
     marketGroup: 1690
@@ -1255,7 +1255,7 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -35.459999084472656
+    thermaldamageresistancebonus: -39.400001525878906
     volume: 5.0
   19239:
     cpu: 27.0
@@ -1273,13 +1273,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -36.290000915527344
+    thermaldamageresistancebonus: -40.31999969482422
     volume: 5.0
   19241:
     cpu: 25.0
     hp: 40.0
     id: 19241
-    kineticdamageresistancebonus: -35.459999084472656
+    kineticdamageresistancebonus: -39.400001525878906
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 10
@@ -1297,7 +1297,7 @@ types:
     cpu: 27.0
     hp: 40.0
     id: 19243
-    kineticdamageresistancebonus: -36.290000915527344
+    kineticdamageresistancebonus: -40.31999969482422
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 12
@@ -1313,7 +1313,7 @@ types:
     volume: 5.0
   19245:
     cpu: 25.0
-    emdamageresistancebonus: -35.459999084472656
+    emdamageresistancebonus: -39.400001525878906
     hp: 40.0
     id: 19245
     marketGroup: 1691
@@ -1331,7 +1331,7 @@ types:
     volume: 5.0
   19247:
     cpu: 27.0
-    emdamageresistancebonus: -36.290000915527344
+    emdamageresistancebonus: -40.31999969482422
     hp: 40.0
     id: 19247
     marketGroup: 1691
@@ -1349,7 +1349,7 @@ types:
     volume: 5.0
   19249:
     cpu: 29.0
-    explosivedamageresistancebonus: -38.369998931884766
+    explosivedamageresistancebonus: -42.630001068115234
     hp: 40.0
     id: 19249
     marketGroup: 1690
@@ -1381,13 +1381,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -38.369998931884766
+    thermaldamageresistancebonus: -42.630001068115234
     volume: 5.0
   19253:
     cpu: 29.0
     hp: 40.0
     id: 19253
-    kineticdamageresistancebonus: -38.369998931884766
+    kineticdamageresistancebonus: -42.630001068115234
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 14
@@ -1403,7 +1403,7 @@ types:
     volume: 5.0
   19255:
     cpu: 29.0
-    emdamageresistancebonus: -38.369998931884766
+    emdamageresistancebonus: -42.630001068115234
     hp: 40.0
     id: 19255
     marketGroup: 1691
@@ -1421,7 +1421,7 @@ types:
     volume: 5.0
   20605:
     cpu: 20.0
-    explosivedamageresistancebonus: -33.75
+    explosivedamageresistancebonus: -37.5
     hp: 40.0
     id: 20605
     marketGroup: 1690
@@ -1453,13 +1453,13 @@ types:
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -33.75
+    thermaldamageresistancebonus: -37.5
     volume: 5.0
   20609:
     cpu: 20.0
     hp: 40.0
     id: 20609
-    kineticdamageresistancebonus: -33.75
+    kineticdamageresistancebonus: -37.5
     marketGroup: 1689
     metagroupid: 3
     metalevelold: 6
@@ -1475,7 +1475,7 @@ types:
     volume: 5.0
   20611:
     cpu: 20.0
-    emdamageresistancebonus: -33.75
+    emdamageresistancebonus: -37.5
     hp: 40.0
     id: 20611
     marketGroup: 1691

@@ -4353,6 +4353,7 @@ types:
   87853:
     cpumultiplier: 1.0
     id: 87853
+    marketGroup: 1661
     mass: 1.0
     name: Drifter Plugsuit Reward Crate
     packagedVolume: 3.0
@@ -4391,6 +4392,15 @@ types:
     id: 87926
     marketGroup: 1663
     name: Capsuleer Day XXII Accelerator Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  88088:
+    cpumultiplier: 1.0
+    id: 88088
+    marketGroup: 1663
+    name: Wrath of Tyrannos Crate
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -4440,3 +4450,43 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  88568:
+    cpumultiplier: 1.0
+    id: 88568
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Aberrant Mynos Forked Packet
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88571:
+    cpumultiplier: 1.0
+    id: 88571
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Locus Cypher
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88852:
+    cpumultiplier: 1.0
+    id: 88852
+    marketGroup: 1661
+    mass: 1.0
+    name: Proven Deepflow Adaptive Canister
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  88853:
+    cpumultiplier: 1.0
+    id: 88853
+    marketGroup: 1661
+    mass: 1.0
+    name: Glorified Deepflow Adaptive Canister
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0

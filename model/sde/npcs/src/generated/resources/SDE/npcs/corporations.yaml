@@ -18488,6 +18488,7 @@ corporations:
     - 19294
     - 19322
     - 19341
+    - 19438
     name: Malakim Zealots
     warfare: Angel Cartel
   Mannar Focused Warfare:
@@ -22112,9 +22113,13 @@ corporations:
     - 19429
     - 19430
     - 19431
+    - 19436
+    - 19437
     - 19440
     - 19441
     - 19442
+    - 19443
+    - 19444
     name: Paragon
   Pator Tech School:
     concordRate: 0.8

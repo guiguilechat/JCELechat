@@ -35,7 +35,7 @@ types:
     volume: 0.009999999776482582
   54824:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 54824
     marketGroup: 364
     name: Small Vorton Projector (old)
@@ -52,7 +52,7 @@ types:
     volume: 0.009999999776482582
   54825:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 54825
     marketGroup: 364
     name: Medium Vorton Projector (old)

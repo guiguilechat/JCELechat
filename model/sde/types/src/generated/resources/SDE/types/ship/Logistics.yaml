@@ -19,6 +19,7 @@ types:
     droneshieldbonusbonus: 100
     elitebonuslogistics1: 10
     elitebonuslogistics2: -15
+    elitebonuslogistics4: -15.0
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -43,6 +44,7 @@ types:
     maincolor: 16777215
     marketGroup: 441
     mass: 1.209E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 60000.0
@@ -114,6 +116,7 @@ types:
     droneshieldbonusbonus: 100
     elitebonuslogistics1: -15
     elitebonuslogistics2: -15
+    elitebonuslogistics4: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -138,10 +141,11 @@ types:
     maincolor: 16777215
     marketGroup: 439
     mass: 1.313E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 80000.0
-    maxvelocity: 192.0
+    maxvelocity: 205.0
     medslots: 5
     metalevelold: 5
     name: Basilisk
@@ -175,7 +179,7 @@ types:
     shipbonuscc: 60.0
     shipbonuscc2: 150.0
     shipbonusgc: 5.0
-    signatureradius: 90.0
+    signatureradius: 70.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
@@ -209,6 +213,7 @@ types:
     droneshieldbonusbonus: 100
     elitebonuslogistics1: -15
     elitebonuslogistics2: -15
+    elitebonuslogistics4: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -232,6 +237,7 @@ types:
     maincolor: 16777215
     marketGroup: 438
     mass: 1.198E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 65000.0
@@ -285,7 +291,7 @@ types:
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   11989:
-    agility: 0.6150000095367432
+    agility: 0.5600000023841858
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1758.0
@@ -304,6 +310,7 @@ types:
     droneshieldbonusbonus: 100
     elitebonuslogistics1: -15
     elitebonuslogistics2: 10
+    elitebonuslogistics4: -15.0
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -327,10 +334,11 @@ types:
     maincolor: 16777215
     marketGroup: 440
     mass: 1.316E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 70000.0
-    maxvelocity: 230.0
+    maxvelocity: 245.0
     medslots: 4
     metalevelold: 5
     name: Oneiros
@@ -363,7 +371,7 @@ types:
     shipbonusgc: 60.0
     shipbonusgc2: 5.0
     shipbonusrole5: -65
-    signatureradius: 70.0
+    signatureradius: 65.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
@@ -397,6 +405,7 @@ types:
     droneshieldbonusbonus: 100
     elitebonuslogistics1: -17
     elitebonuslogistics2: -17
+    elitebonuslogistics4: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -422,6 +431,7 @@ types:
     maincolor: 16777215
     marketGroup: 1624
     mass: 1.313E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 80000.0
@@ -496,6 +506,7 @@ types:
     elitebonuslogistics1: 20
     elitebonuslogistics2: -15
     elitebonuslogistics3: -2
+    elitebonuslogistics4: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -521,6 +532,7 @@ types:
     maincolor: 16777215
     marketGroup: 1624
     mass: 1.3E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 65000.0
@@ -601,6 +613,7 @@ types:
     droneshieldbonusbonus: 100
     elitebonuslogistics1: -15
     elitebonuslogistics2: 20
+    elitebonuslogistics4: 7.5
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -624,6 +637,7 @@ types:
     maincolor: 16777215
     marketGroup: 2526
     mass: 1.024E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 10
     maxpassengers: 580
     maxtargetrange: 70000.0

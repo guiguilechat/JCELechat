@@ -20,8 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeDamageReductionFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BaseArmorDamage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BaseShieldDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DetonationRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
@@ -91,20 +89,6 @@ public class AdvancedXLCruiseMissile
     @Stackable(false)
     @DefaultIntValue(0)
     public int aoevelocity;
-    /**
-     * Just for the UI to display base damage on armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int basearmordamage;
-    /**
-     * Just for the UI to display base damage on shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int baseshielddamage;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */
@@ -233,7 +217,7 @@ public class AdvancedXLCruiseMissile
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, AoeDamageReductionFactor.INSTANCE, StructureUniformity.INSTANCE, AoeVelocity.INSTANCE, AoeCloudSize.INSTANCE, AoeFalloff.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ExplosionDelay.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, MaxVelocity.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DetonationRange.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, AoeDamageReductionFactor.INSTANCE, StructureUniformity.INSTANCE, AoeVelocity.INSTANCE, AoeCloudSize.INSTANCE, AoeFalloff.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ExplosionDelay.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DetonationRange.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final AdvancedXLCruiseMissile.MetaGroup METAGROUP = new AdvancedXLCruiseMissile.MetaGroup();
 
     @Override
@@ -262,14 +246,6 @@ public class AdvancedXLCruiseMissile
             case  653 :
             {
                 return aoevelocity;
-            }
-            case  613 :
-            {
-                return basearmordamage;
-            }
-            case  612 :
-            {
-                return baseshielddamage;
             }
             case  108 :
             {

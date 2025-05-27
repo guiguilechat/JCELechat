@@ -84,6 +84,7 @@ types:
     volume: 10.0
   47274:
     canfitshiptype1: 47271
+    canfitshiptype2: 88001
     capacitorneed: 57.599998474121094
     capacity: 5.0
     chargegroup1: 1987
@@ -474,6 +475,7 @@ types:
     volume: 10.0
   47920:
     canfitshiptype1: 47271
+    canfitshiptype2: 88001
     capacitorneed: 63.0
     capacity: 5.0
     chargegroup1: 1987
@@ -513,6 +515,7 @@ types:
     volume: 20.0
   47921:
     canfitshiptype1: 47271
+    canfitshiptype2: 88001
     capacitorneed: 63.0
     capacity: 5.0
     chargegroup1: 1987
@@ -552,6 +555,7 @@ types:
     volume: 20.0
   47922:
     canfitshiptype1: 47271
+    canfitshiptype2: 88001
     capacitorneed: 57.599998474121094
     capacity: 5.0
     chargegroup1: 1987
@@ -595,6 +599,7 @@ types:
     volume: 20.0
   47923:
     canfitshiptype1: 47271
+    canfitshiptype2: 88001
     capacitorneed: 54.0
     capacity: 5.0
     chargegroup1: 1987
@@ -725,6 +730,7 @@ types:
     volume: 10.0
   52240:
     canfitshiptype1: 47271
+    canfitshiptype2: 88001
     capacitorneed: 50.0
     capacity: 5.0
     chargegroup1: 1987

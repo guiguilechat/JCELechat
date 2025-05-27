@@ -475,3 +475,14 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
+  88003:
+    id: 88003
+    industryblueprintrank: 1200.0
+    industryjobcostmultiplier: 1
+    name: Babaroga Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582

@@ -1,7 +1,7 @@
 types:
   48148:
     armorhpbonus: -10
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     hullhpbonus: -10.0
     id: 48148
     implantness: 9
@@ -19,7 +19,7 @@ types:
     volume: 1.0
   48149:
     armorhpbonus: 10
-    damagemultiplierbonus: -5
+    damagemultiplierbonus: -5.0
     hullhpbonus: 10.0
     id: 48149
     implantness: 9

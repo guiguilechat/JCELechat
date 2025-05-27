@@ -139,8 +139,8 @@ public class HybridWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int damagemultiplierbonus;
+    @DefaultRealValue(0.0)
+    public double damagemultiplierbonus;
     /**
      * distance from maximum range at which accuracy has fallen by half
      */
@@ -208,7 +208,7 @@ public class HybridWeapon
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int overloadrofbonus;

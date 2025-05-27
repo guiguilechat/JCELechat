@@ -37,6 +37,7 @@ types:
     maincolor: 16777215
     marketGroup: 470
     mass: 1.476E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 450
@@ -122,6 +123,7 @@ types:
     maincolor: 16777215
     marketGroup: 471
     mass: 1.5E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 450
@@ -209,6 +211,7 @@ types:
     maincolor: 16777215
     marketGroup: 472
     mass: 1.5552E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 450
@@ -294,6 +297,7 @@ types:
     maincolor: 16777215
     marketGroup: 473
     mass: 1.5228E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 450

@@ -1,6 +1,6 @@
 types:
   3185:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3185
     implantness: 8
     marketGroup: 1500
@@ -14,7 +14,7 @@ types:
     techlevel: 1
     volume: 1.0
   3188:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3188
     implantness: 8
     marketGroup: 1500
@@ -28,7 +28,7 @@ types:
     techlevel: 1
     volume: 1.0
   3189:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3189
     implantness: 8
     marketGroup: 1500
@@ -87,7 +87,7 @@ types:
     trackingspeedbonus: 6.0
     volume: 1.0
   3193:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3193
     implantness: 9
     marketGroup: 1501
@@ -102,7 +102,7 @@ types:
     techlevel: 1
     volume: 1.0
   3194:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3194
     implantness: 9
     marketGroup: 1501
@@ -117,7 +117,7 @@ types:
     techlevel: 1
     volume: 1.0
   3195:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3195
     implantness: 9
     marketGroup: 1501
@@ -132,7 +132,7 @@ types:
     techlevel: 1
     volume: 1.0
   3196:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3196
     implantness: 10
     marketGroup: 1502
@@ -147,7 +147,7 @@ types:
     techlevel: 1
     volume: 1.0
   3197:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3197
     implantness: 10
     marketGroup: 1502
@@ -162,7 +162,7 @@ types:
     techlevel: 1
     volume: 1.0
   3198:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3198
     implantness: 10
     marketGroup: 1502
@@ -177,7 +177,7 @@ types:
     techlevel: 1
     volume: 1.0
   3199:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3199
     implantness: 6
     marketGroup: 1498
@@ -192,7 +192,7 @@ types:
     techlevel: 1
     volume: 1.0
   3200:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3200
     implantness: 6
     marketGroup: 1498
@@ -207,7 +207,7 @@ types:
     techlevel: 1
     volume: 1.0
   3201:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3201
     implantness: 6
     marketGroup: 1498
@@ -222,7 +222,7 @@ types:
     techlevel: 1
     volume: 1.0
   3202:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3202
     implantness: 6
     marketGroup: 1498
@@ -267,7 +267,7 @@ types:
     turretspeebonus: -2
     volume: 1.0
   3205:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3205
     implantness: 10
     marketGroup: 1502
@@ -282,7 +282,7 @@ types:
     techlevel: 1
     volume: 1.0
   3206:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3206
     implantness: 8
     marketGroup: 1500
@@ -297,7 +297,7 @@ types:
     techlevel: 1
     volume: 1.0
   3207:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3207
     implantness: 6
     marketGroup: 1498
@@ -342,7 +342,7 @@ types:
     turretspeebonus: -4
     volume: 1.0
   3210:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3210
     implantness: 10
     marketGroup: 1502
@@ -357,7 +357,7 @@ types:
     techlevel: 1
     volume: 1.0
   3211:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3211
     implantness: 8
     marketGroup: 1500
@@ -372,7 +372,7 @@ types:
     techlevel: 1
     volume: 1.0
   3212:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3212
     implantness: 6
     marketGroup: 1498
@@ -414,7 +414,7 @@ types:
     turretspeebonus: -6
     volume: 1.0
   3215:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3215
     implantness: 10
     marketGroup: 1502
@@ -428,7 +428,7 @@ types:
     techlevel: 1
     volume: 1.0
   3216:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3216
     implantness: 8
     marketGroup: 1500
@@ -486,7 +486,7 @@ types:
     techlevel: 1
     volume: 1.0
   3222:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3222
     implantness: 10
     marketGroup: 1502
@@ -501,7 +501,7 @@ types:
     techlevel: 1
     volume: 1.0
   3223:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3223
     implantness: 10
     marketGroup: 1502
@@ -516,7 +516,7 @@ types:
     techlevel: 1
     volume: 1.0
   3224:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3224
     implantness: 10
     marketGroup: 1502
@@ -530,7 +530,7 @@ types:
     techlevel: 1
     volume: 1.0
   3225:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3225
     implantness: 6
     marketGroup: 1498
@@ -545,7 +545,7 @@ types:
     techlevel: 1
     volume: 1.0
   3226:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3226
     implantness: 6
     marketGroup: 1498
@@ -560,7 +560,7 @@ types:
     techlevel: 1
     volume: 1.0
   3227:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3227
     implantness: 6
     marketGroup: 1498
@@ -618,7 +618,7 @@ types:
     techlevel: 1
     volume: 1.0
   3231:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3231
     implantness: 8
     marketGroup: 1500
@@ -633,7 +633,7 @@ types:
     techlevel: 1
     volume: 1.0
   3232:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3232
     implantness: 8
     marketGroup: 1500
@@ -648,7 +648,7 @@ types:
     techlevel: 1
     volume: 1.0
   3233:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3233
     implantness: 8
     marketGroup: 1500
@@ -751,7 +751,7 @@ types:
     turretspeebonus: -3
     volume: 1.0
   13217:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13217
     implantness: 10
     marketGroup: 1502
@@ -766,7 +766,7 @@ types:
     techlevel: 1
     volume: 1.0
   13218:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13218
     implantness: 10
     marketGroup: 1502
@@ -781,7 +781,7 @@ types:
     techlevel: 1
     volume: 1.0
   13219:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13219
     implantness: 10
     marketGroup: 1502
@@ -796,7 +796,7 @@ types:
     techlevel: 1
     volume: 1.0
   13220:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13220
     implantness: 8
     marketGroup: 1500
@@ -811,7 +811,7 @@ types:
     techlevel: 1
     volume: 1.0
   13221:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13221
     implantness: 8
     marketGroup: 1500
@@ -826,7 +826,7 @@ types:
     techlevel: 1
     volume: 1.0
   13222:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13222
     implantness: 8
     marketGroup: 1500
@@ -841,7 +841,7 @@ types:
     techlevel: 1
     volume: 1.0
   13223:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13223
     implantness: 6
     marketGroup: 1498
@@ -856,7 +856,7 @@ types:
     techlevel: 1
     volume: 1.0
   13224:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13224
     implantness: 6
     marketGroup: 1498
@@ -871,7 +871,7 @@ types:
     techlevel: 1
     volume: 1.0
   13225:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13225
     implantness: 6
     marketGroup: 1498
@@ -886,7 +886,7 @@ types:
     techlevel: 1
     volume: 1.0
   13244:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13244
     implantness: 9
     marketGroup: 1501
@@ -974,7 +974,7 @@ types:
     trackingspeedbonus: 5.0
     volume: 1.0
   19687:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19687
     implantness: 9
     marketGroup: 1501
@@ -988,7 +988,7 @@ types:
     techlevel: 1
     volume: 1.0
   19688:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19688
     implantness: 10
     marketGroup: 1502
@@ -1002,7 +1002,7 @@ types:
     techlevel: 1
     volume: 1.0
   19689:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19689
     implantness: 8
     marketGroup: 1500
@@ -1016,7 +1016,7 @@ types:
     techlevel: 1
     volume: 1.0
   19690:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19690
     implantness: 6
     marketGroup: 1498
@@ -1030,7 +1030,7 @@ types:
     techlevel: 1
     volume: 1.0
   19691:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19691
     implantness: 6
     marketGroup: 1498
@@ -1072,7 +1072,7 @@ types:
     turretspeebonus: -5
     volume: 1.0
   19694:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19694
     implantness: 10
     marketGroup: 1502
@@ -1086,7 +1086,7 @@ types:
     techlevel: 1
     volume: 1.0
   19695:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19695
     implantness: 8
     marketGroup: 1500
@@ -1128,7 +1128,7 @@ types:
     techlevel: 1
     volume: 1.0
   19698:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19698
     implantness: 10
     marketGroup: 1502
@@ -1142,7 +1142,7 @@ types:
     techlevel: 1
     volume: 1.0
   19699:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19699
     implantness: 8
     marketGroup: 1500
@@ -1156,7 +1156,7 @@ types:
     techlevel: 1
     volume: 1.0
   19700:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 19700
     implantness: 6
     marketGroup: 1498
@@ -1184,7 +1184,7 @@ types:
     trackingspeedbonus: 6.0
     volume: 1.0
   25867:
-    damagemultiplierbonus: 7
+    damagemultiplierbonus: 7.0
     id: 25867
     implantness: 10
     marketGroup: 1502
@@ -1302,7 +1302,7 @@ types:
     techlevel: 1
     volume: 1.0
   27081:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27081
     implantness: 9
     marketGroup: 1501
@@ -1317,7 +1317,7 @@ types:
     techlevel: 1
     volume: 1.0
   27082:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27082
     implantness: 6
     marketGroup: 1498
@@ -1332,7 +1332,7 @@ types:
     techlevel: 1
     volume: 1.0
   27083:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27083
     implantness: 6
     marketGroup: 1498
@@ -1347,7 +1347,7 @@ types:
     techlevel: 1
     volume: 1.0
   27084:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27084
     implantness: 6
     marketGroup: 1498
@@ -1362,7 +1362,7 @@ types:
     techlevel: 1
     volume: 1.0
   27085:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27085
     implantness: 8
     marketGroup: 1500
@@ -1377,7 +1377,7 @@ types:
     techlevel: 1
     volume: 1.0
   27086:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27086
     implantness: 8
     marketGroup: 1500
@@ -1392,7 +1392,7 @@ types:
     techlevel: 1
     volume: 1.0
   27087:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27087
     implantness: 8
     marketGroup: 1500
@@ -1407,7 +1407,7 @@ types:
     techlevel: 1
     volume: 1.0
   27088:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27088
     implantness: 10
     marketGroup: 1502
@@ -1422,7 +1422,7 @@ types:
     techlevel: 1
     volume: 1.0
   27089:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27089
     implantness: 10
     marketGroup: 1502
@@ -1437,7 +1437,7 @@ types:
     techlevel: 1
     volume: 1.0
   27090:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27090
     implantness: 10
     marketGroup: 1502

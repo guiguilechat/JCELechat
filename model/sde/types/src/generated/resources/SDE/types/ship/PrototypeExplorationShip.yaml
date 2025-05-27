@@ -28,6 +28,7 @@ types:
     maincolor: 16777215
     marketGroup: 1619
     mass: 5000.0
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0

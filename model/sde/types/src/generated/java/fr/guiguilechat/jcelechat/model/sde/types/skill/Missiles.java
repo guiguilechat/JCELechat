@@ -69,8 +69,8 @@ public class Missiles
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int damagemultiplierbonus;
+    @DefaultRealValue(0.0)
+    public double damagemultiplierbonus;
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(1)

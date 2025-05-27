@@ -31,7 +31,7 @@ types:
     volume: 0.009999999776482582
   37796:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 37796
     marketGroup: 2152
     name: Structure Missile Systems

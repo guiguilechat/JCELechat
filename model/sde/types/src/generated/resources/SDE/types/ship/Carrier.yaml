@@ -64,6 +64,7 @@ types:
     maincolor: 16777215
     marketGroup: 818
     mass: 1.26E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -187,6 +188,7 @@ types:
     maincolor: 16777215
     marketGroup: 820
     mass: 1.22E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -311,6 +313,7 @@ types:
     maincolor: 16777215
     marketGroup: 819
     mass: 1.24E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -434,6 +437,7 @@ types:
     maincolor: 16777215
     marketGroup: 821
     mass: 1.23E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000

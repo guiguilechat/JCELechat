@@ -54,8 +54,8 @@ public class TypeGraveyard
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int damagemultiplierbonus;
+    @DefaultRealValue(0.0)
+    public double damagemultiplierbonus;
     /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
      */

@@ -33,3 +33,14 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  88148:
+    id: 88148
+    industryblueprintrank: 6.0
+    name: Triplot Scan Acqusition Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 600000.0
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

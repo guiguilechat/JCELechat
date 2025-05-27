@@ -55,8 +55,8 @@ public class RigLauncher
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int damagemultiplierbonus;
+    @DefaultRealValue(0.0)
+    public double damagemultiplierbonus;
     /**
      * used on rigs
      */

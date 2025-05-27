@@ -90,7 +90,7 @@ types:
     volume: 0.009999999776482582
   3441:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 3441
     marketGroup: 366
     name: Heavy Drone Operation
@@ -107,7 +107,7 @@ types:
     volume: 0.009999999776482582
   3442:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 10
+    damagemultiplierbonus: 10.0
     id: 3442
     marketGroup: 366
     miningamountbonus: 10
@@ -142,7 +142,7 @@ types:
     volume: 0.009999999776482582
   12484:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12484
     marketGroup: 366
     name: Amarr Drone Specialization
@@ -159,7 +159,7 @@ types:
     volume: 0.009999999776482582
   12485:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12485
     marketGroup: 366
     name: Minmatar Drone Specialization
@@ -176,7 +176,7 @@ types:
     volume: 0.009999999776482582
   12486:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12486
     marketGroup: 366
     name: Gallente Drone Specialization
@@ -193,7 +193,7 @@ types:
     volume: 0.009999999776482582
   12487:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 12487
     marketGroup: 366
     name: Caldari Drone Specialization
@@ -230,7 +230,7 @@ types:
     volume: 0.009999999776482582
   23069:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 23069
     marketGroup: 366
     name: Fighters
@@ -268,7 +268,7 @@ types:
     volume: 0.009999999776482582
   23594:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 23594
     marketGroup: 366
     name: Sentry Drone Interfacing
@@ -323,7 +323,7 @@ types:
     volume: 0.009999999776482582
   24241:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 24241
     marketGroup: 366
     name: Light Drone Operation
@@ -357,7 +357,7 @@ types:
     volume: 0.009999999776482582
   32339:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 32339
     marketGroup: 366
     name: Heavy Fighters
@@ -374,7 +374,7 @@ types:
     volume: 0.009999999776482582
   33699:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 33699
     marketGroup: 366
     name: Medium Drone Operation
@@ -484,7 +484,7 @@ types:
     volume: 0.009999999776482582
   60515:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 60515
     marketGroup: 366
     name: Mutated Drone Specialization

@@ -19,12 +19,18 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxScanDeviationModifierModule;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanStrengthBonusModule;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -55,6 +61,13 @@ public class ScanningUpgradeTime
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int maxscandeviationmodifiermodule;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -76,13 +89,48 @@ public class ScanningUpgradeTime
     @DefaultIntValue(0)
     public int requiredskill1level;
     /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill2level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill3;
+    /**
+     * Required skill level for skill 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill3level;
+    /**
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int scandurationbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanDurationBonus.INSTANCE, Cpu.INSTANCE, Radius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, Power.INSTANCE })));
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanstrengthbonusmodule;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, MaxScanDeviationModifierModule.INSTANCE, ScanDurationBonus.INSTANCE, Cpu.INSTANCE, ScanStrengthBonusModule.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, Power.INSTANCE })));
     public static final ScanningUpgradeTime.MetaGroup METAGROUP = new ScanningUpgradeTime.MetaGroup();
 
     @Override
@@ -100,6 +148,10 @@ public class ScanningUpgradeTime
             {
                 return maxgroupfitted;
             }
+            case  1905 :
+            {
+                return maxscandeviationmodifiermodule;
+            }
             case  30 :
             {
                 return power;
@@ -112,9 +164,29 @@ public class ScanningUpgradeTime
             {
                 return requiredskill1level;
             }
+            case  183 :
+            {
+                return requiredskill2;
+            }
+            case  278 :
+            {
+                return requiredskill2level;
+            }
+            case  184 :
+            {
+                return requiredskill3;
+            }
+            case  279 :
+            {
+                return requiredskill3level;
+            }
             case  1906 :
             {
                 return scandurationbonus;
+            }
+            case  1907 :
+            {
+                return scanstrengthbonusmodule;
             }
             default:
             {

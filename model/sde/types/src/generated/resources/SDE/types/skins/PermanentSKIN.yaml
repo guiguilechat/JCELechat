@@ -43654,6 +43654,7 @@ types:
     volume: 0.009999999776482582
   88048:
     id: 88048
+    marketGroup: 3541
     name: Skybreaker Tyrantbreaker SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -43732,6 +43733,118 @@ types:
     id: 88213
     marketGroup: 1963
     name: Machariel Blackbody Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88784:
+    id: 88784
+    marketGroup: 3541
+    name: Skybreaker Sponsored Security SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88785:
+    id: 88785
+    marketGroup: 3540
+    name: Stormbringer Sponsored Security SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88786:
+    id: 88786
+    marketGroup: 3539
+    name: Thunderchild Sponsored Security SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88787:
+    id: 88787
+    marketGroup: 3672
+    name: Squall Sponsored Security SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88788:
+    id: 88788
+    marketGroup: 3673
+    name: Torrent Sponsored Security SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88789:
+    id: 88789
+    marketGroup: 3673
+    name: Deluge Sponsored Security SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88790:
+    id: 88790
+    marketGroup: 3746
+    name: Avalanche Sponsored Security SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88891:
+    id: 88891
+    marketGroup: 2486
+    name: Damavik Azdaja Extirpated SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88892:
+    id: 88892
+    marketGroup: 2521
+    name: Kikimora Azdaja Extirpated SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88893:
+    id: 88893
+    marketGroup: 2485
+    name: Vedmak Azdaja Extirpated SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88894:
+    id: 88894
+    marketGroup: 2485
+    name: Rodiva Azdaja Extirpated SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88895:
+    id: 88895
+    marketGroup: 2519
+    name: Drekavac Azdaja Extirpated SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88896:
+    id: 88896
+    marketGroup: 2482
+    name: Leshak Azdaja Extirpated SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  88897:
+    id: 88897
+    marketGroup: 2704
+    name: Zirnitra Azdaja Extirpated SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

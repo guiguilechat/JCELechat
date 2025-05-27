@@ -47,3 +47,51 @@ types:
     price: 9.7E7
     published: true
     volume: 0.009999999776482582
+  88723:
+    id: 88723
+    industryblueprintrank: 6.0
+    name: Xarasier Large Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1458560.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88725:
+    id: 88725
+    industryblueprintrank: 3.0
+    name: Xarasier Medium Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1458560.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88726:
+    id: 88726
+    industryblueprintrank: 3.0
+    name: Xarasier Small Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1458560.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88727:
+    id: 88727
+    industryblueprintrank: 9.0
+    name: Xarasier X-Large Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1458560.0
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88733:
+    id: 88733
+    name: Xarasier Capital Ancillary Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9.7E7
+    published: true
+    volume: 0.009999999776482582

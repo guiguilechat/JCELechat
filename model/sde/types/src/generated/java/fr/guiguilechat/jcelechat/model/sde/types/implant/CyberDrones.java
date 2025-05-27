@@ -54,8 +54,8 @@ public class CyberDrones
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int damagemultiplierbonus;
+    @DefaultRealValue(0.0)
+    public double damagemultiplierbonus;
     /**
      * Increases max velocity of all drone types.
      */

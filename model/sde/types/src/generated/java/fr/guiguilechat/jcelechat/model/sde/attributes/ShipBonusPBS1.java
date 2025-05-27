@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * 
  */
 public class ShipBonusPBS1
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final ShipBonusPBS1 INSTANCE = new ShipBonusPBS1();
 

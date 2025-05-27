@@ -37,6 +37,7 @@ types:
     maincolor: 16777215
     marketGroup: 2417
     mass: 1.6E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 12
     maxtargetrange: 250000.0
     maxvelocity: 220.0

@@ -497,3 +497,36 @@ types:
     published: true
     radius: 1.0
     volume: 5000.0
+  87948:
+    id: 87948
+    marketGroup: 3739
+    mass: 1000.0
+    name: Exploration Detector 1
+    packagedVolume: 5000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 5000.0
+  87953:
+    id: 87953
+    marketGroup: 3739
+    mass: 1000.0
+    name: Exploration Detector 2
+    packagedVolume: 10000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 10000.0
+  87954:
+    id: 87954
+    marketGroup: 3739
+    mass: 1000.0
+    name: Exploration Detector 3
+    packagedVolume: 20000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    radius: 1.0
+    volume: 20000.0

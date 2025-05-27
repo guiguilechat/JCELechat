@@ -17,8 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AimedLaunch;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorPiercingChance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BaseArmorDamage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BaseShieldDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DetonationRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelay;
@@ -59,20 +57,6 @@ public class FestivalCharges
     @Stackable(true)
     @DefaultIntValue(0)
     public int armorpiercingchance;
-    /**
-     * Just for the UI to display base damage on armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int basearmordamage;
-    /**
-     * Just for the UI to display base damage on shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int baseshielddamage;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */
@@ -144,7 +128,7 @@ public class FestivalCharges
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, BaseShieldDamage.INSTANCE, AimedLaunch.INSTANCE, MaxVelocity.INSTANCE, BaseArmorDamage.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, DetonationRange.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, MissileNeverDoesDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, ArmorPiercingChance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, AimedLaunch.INSTANCE, MaxVelocity.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, DetonationRange.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, MissileNeverDoesDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, ArmorPiercingChance.INSTANCE })));
     public static final FestivalCharges.MetaGroup METAGROUP = new FestivalCharges.MetaGroup();
 
     @Override
@@ -161,14 +145,6 @@ public class FestivalCharges
             case  122 :
             {
                 return armorpiercingchance;
-            }
-            case  613 :
-            {
-                return basearmordamage;
-            }
-            case  612 :
-            {
-                return baseshielddamage;
             }
             case  108 :
             {

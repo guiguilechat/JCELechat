@@ -3979,3 +3979,23 @@ types:
     name: Python Corporation Emblem
     portionSize: 1
     published: true
+  87442:
+    id: 87442
+    name: Sarathiel Alliance Emblem
+    portionSize: 1
+    published: true
+  87443:
+    id: 87443
+    name: Sarathiel Corporation Emblem
+    portionSize: 1
+    published: true
+  88238:
+    id: 88238
+    name: Babaroga Alliance Emblem
+    portionSize: 1
+    published: true
+  88239:
+    id: 88239
+    name: Babaroga Corporation Emblem
+    portionSize: 1
+    published: true

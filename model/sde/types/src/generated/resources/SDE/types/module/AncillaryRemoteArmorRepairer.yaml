@@ -20,6 +20,7 @@ types:
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
     name: Small Ancillary Remote Armor Repairer
+    overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
@@ -55,6 +56,7 @@ types:
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
     name: Medium Ancillary Remote Armor Repairer
+    overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
@@ -90,6 +92,7 @@ types:
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
     name: Large Ancillary Remote Armor Repairer
+    overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
     portionSize: 1
@@ -125,6 +128,7 @@ types:
     mediumremoterepfittingmultiplier: 1
     metalevelold: 1
     name: Capital Ancillary Remote Armor Repairer
+    overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1

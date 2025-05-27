@@ -4,16 +4,16 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * The sum of this attribute on the claim markers, Infrastructure hub, and each upgrade is the systems base cost. 
+ * This doesn't actually do anything... It's just to show the omega set bonus % in the client without also showing the real dogma value at 1.0x on the implants.
  */
-public class SovBillSystemCost
+public class ImplantSetHackingVirusCoherenceOmegaSetBonusFAKE
     extends IntAttribute
 {
-    public static final SovBillSystemCost INSTANCE = new SovBillSystemCost();
+    public static final ImplantSetHackingVirusCoherenceOmegaSetBonusFAKE INSTANCE = new ImplantSetHackingVirusCoherenceOmegaSetBonusFAKE();
 
     @Override
     public int getId() {
-        return  1603;
+        return  5800;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class SovBillSystemCost
 
     @Override
     public String toString() {
-        return "SovBillSystemCost";
+        return "ImplantSetHackingVirusCoherenceOmegaSetBonusFAKE";
     }
 }

@@ -17,8 +17,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.InfrastructureHubIndustrialUpgrades;
 import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.InfrastructureHubMilitaryUpgrades;
 import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.InfrastructureHubStrategicUpgrades;
-import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.SovereigntyHubAnomalyDetectionUpgrades;
+import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.SovereigntyHubColonyResourcesManagementUpgrades;
 import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.SovereigntyHubServiceInfrastructureUpgrade;
+import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.SovereigntyHubSiteDetectionUpgrades;
+import fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades.SovereigntyHubSystemEffectGeneratorUpgrades;
 
 public abstract class InfrastructureUpgrades
     extends EveType
@@ -84,7 +86,7 @@ public abstract class InfrastructureUpgrades
 
         @Override
         public Collection<IMetaGroup<? extends InfrastructureUpgrades>> groups() {
-            return Arrays.asList(SovereigntyHubAnomalyDetectionUpgrades.METAGROUP, SovereigntyHubServiceInfrastructureUpgrade.METAGROUP, InfrastructureHubStrategicUpgrades.METAGROUP, InfrastructureHubIndustrialUpgrades.METAGROUP, InfrastructureHubMilitaryUpgrades.METAGROUP);
+            return Arrays.asList(SovereigntyHubSiteDetectionUpgrades.METAGROUP, SovereigntyHubServiceInfrastructureUpgrade.METAGROUP, SovereigntyHubColonyResourcesManagementUpgrades.METAGROUP, SovereigntyHubSystemEffectGeneratorUpgrades.METAGROUP, InfrastructureHubStrategicUpgrades.METAGROUP, InfrastructureHubIndustrialUpgrades.METAGROUP, InfrastructureHubMilitaryUpgrades.METAGROUP);
         }
     }
 }

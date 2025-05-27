@@ -26,6 +26,7 @@ types:
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     mass: 32000.0
+    maxdirectionalscanrange: 2.147483648E12
     maxpassengers: 1
     maxvelocity: 150.0
     name: Capsule
@@ -83,6 +84,7 @@ types:
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
     mass: 32000.0
+    maxdirectionalscanrange: 2.147483648E12
     maxpassengers: 1
     maxtargetrange: 60000.0
     maxvelocity: 150.0

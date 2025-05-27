@@ -66,7 +66,7 @@ public class EnergyNosferatu
     /**
      * Signature Resolution of Energy Neutralizer
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int energyneutralizersignatureresolution;
@@ -116,7 +116,7 @@ public class EnergyNosferatu
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double overloadselfdurationbonus;

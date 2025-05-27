@@ -55,6 +55,7 @@ types:
     maincolor: 16777215
     marketGroup: 762
     mass: 1.29E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -94,6 +95,7 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughta1: 5.0
     shipbonusdreadnoughta2: -4
     shipbonusdreadnoughta3: -10
@@ -170,6 +172,7 @@ types:
     maincolor: 16777215
     marketGroup: 765
     mass: 1.26E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -209,6 +212,7 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughtm1: 5.0
     shipbonusdreadnoughtm2: -5
     shipbonusdreadnoughtm3: -5
@@ -285,6 +289,7 @@ types:
     maincolor: 16777215
     marketGroup: 764
     mass: 1.25E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -324,6 +329,7 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughtg1: 5
     shipbonusdreadnoughtg2: -5
     shipbonusdreadnoughtg3: -5
@@ -401,6 +407,7 @@ types:
     maincolor: 16777215
     marketGroup: 763
     mass: 1.27E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -440,6 +447,7 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughtc1: 5.0
     shipbonusdreadnoughtc2: -4
     shipbonusdreadnoughtc3: -10
@@ -515,6 +523,7 @@ types:
     maincolor: 16777215
     marketGroup: 3483
     mass: 1.25E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -558,9 +567,10 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughtg2: -5
     shipbonusdreadnoughtm1: 10.0
-    shipbonusrole1: 37.5
+    shipbonusrole1: 50.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 12000.0
     specialfuelbaycapacity: 8000
@@ -584,7 +594,7 @@ types:
     agility: 0.03999999910593033
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.800000011920929
-    armorhp: 169000.0
+    armorhp: 185000.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
@@ -618,7 +628,7 @@ types:
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.3499999940395355
     hislots: 6
-    hp: 169000.0
+    hp: 153150.0
     id: 42243
     iscapitalsize: 1
     iscarrierjumpconduitpassenger: 1
@@ -634,6 +644,7 @@ types:
     maincolor: 16777215
     marketGroup: 3483
     mass: 1.29E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -678,9 +689,10 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: -99.98999786376953
     shipbonusdreadnoughta1: 15.0
     shipbonusdreadnoughtm1: 20.0
-    shipbonusrole3: 25
+    shipbonusrole3: 37.5
     shipmaintenancebaycapacity: 1000000
     signatureradius: 11800.0
     specialcorpseholdcapacity: 1000
@@ -705,7 +717,7 @@ types:
     agility: 0.03799999877810478
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 120000.0
+    armorhp: 107800.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
@@ -722,9 +734,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
-    fightercapacity: 25000
-    fighterlightslots: 1
-    fightertubes: 1
+    fightercapacity: 40000
+    fighterlightslots: 2
+    fightertubes: 2
     fleethangarcapacity: 10000
     fwlpkill: 4000
     gatescramblestatus: -1000
@@ -759,6 +771,7 @@ types:
     maincolor: 16777215
     marketGroup: 3483
     mass: 1.27E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -795,13 +808,14 @@ types:
     scanresolution: 75.0
     scanspeed: 7500
     sensordampenerresistance: 1.0
-    shieldcapacity: 150000.0
+    shieldcapacity: 185000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughtc2: -4
     shipbonusdreadnoughtg1: 5
     shipbonusrole4: 100
@@ -877,6 +891,7 @@ types:
     maincolor: 16777215
     marketGroup: 2690
     mass: 1.1E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -916,6 +931,7 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughtpc1: 5
     shipbonusdreadnoughtpc2: -4
     shipbonusdreadnoughtpc3: -3
@@ -994,6 +1010,7 @@ types:
     maincolor: 16777215
     marketGroup: 3484
     mass: 1.26E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -1033,6 +1050,7 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughtm1: 7.5
     shipbonusdreadnoughtm2: -5
     shipbonusdreadnoughtm3: -5
@@ -1110,6 +1128,7 @@ types:
     maincolor: 16777215
     marketGroup: 3484
     mass: 1.29E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -1149,6 +1168,7 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughta1: 7.5
     shipbonusdreadnoughta2: -4
     shipbonusdreadnoughta3: -10
@@ -1226,6 +1246,7 @@ types:
     maincolor: 16777215
     marketGroup: 3484
     mass: 1.25E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -1265,6 +1286,7 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughtg1: 5
     shipbonusdreadnoughtg2: -5
     shipbonusdreadnoughtg3: -5
@@ -1344,6 +1366,7 @@ types:
     maincolor: 16777215
     marketGroup: 3484
     mass: 1.27E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -1383,6 +1406,7 @@ types:
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
     shipbonusdreadnoughtc1: 7.5
     shipbonusdreadnoughtc2: -4
     shipbonusdreadnoughtc3: -10
@@ -1399,6 +1423,128 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 1.625E7
+    warpcapacitorneed: 1.38000002536387E-8
+    warpspeedmultiplier: 1.5
+    weapondisruptionresistance: 1.0
+  87381:
+    advancedagility: 1
+    advancedcapitalagility: 1
+    agility: 0.03999999910593033
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 156000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    canjump: 1
+    capacitorcapacity: 50000.0
+    capacity: 2900.0
+    cpuoutput: 900
+    disallowinhighsec: 1
+    emdamageresonance: 0.6700000166893005
+    energywarfareresistance: 1.0
+    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisdurationmultiplier: 5
+    explosivedamageresonance: 0.6700000166893005
+    fighterabilityanticapitalmissileresistance: 1
+    fighterabilitykamikazeresistance: 1
+    fleethangarcapacity: 10000
+    fwlpkill: 4000
+    gatescramblestatus: -1000
+    gfxboosterid: 397
+    hasfleethangars: 1
+    hasshipmaintenancebay: 1
+    heatattenuationhi: 0.7099999785423279
+    heatattenuationlow: 0.7599999904632568
+    heatattenuationmed: 0.7900000214576721
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.3499999940395355
+    hislots: 5
+    hp: 115000.0
+    id: 87381
+    iscapitalsize: 1
+    iscarrierjumpconduitpassenger: 1
+    istitanjumpportalpassenger: 1
+    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdriveconsumptionamount: 3000
+    jumpdriveconsumptiontype: 17889
+    jumpdriveduration: 300000
+    jumpdriverange: 3.5
+    jumpdrivetargetbeacontypelistid: 341
+    kineticdamageresonance: 0.6700000166893005
+    lowslots: 6
+    maincolor: 16777215
+    marketGroup: 3483
+    mass: 1.13E9
+    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 7
+    maxoperationaldistance: 5000
+    maxpassengers: 999
+    maxtargetrange: 102500.0
+    maxvelocity: 90.0
+    medslots: 7
+    metalevelold: 8
+    mintargetveldmgmultiplier: 0.5
+    name: Sarathiel
+    packagedVolume: 1300000.0
+    portionSize: 1
+    poweroutput: 680000
+    powertospeed: 1
+    price: 4.199399936E9
+    propulsiongraphicid: 397
+    published: true
+    radius: 1700.0
+    rechargerate: 3660000.0
+    remoteassistanceimpedance: 1.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 1
+    requiredskill2: 20532
+    requiredskill2level: 1
+    requiredskill3: 20531
+    requiredskill3level: 1
+    requiredskill4: 3456
+    requiredskill4level: 1
+    rigsize: 4
+    rigslots: 3
+    scanladarstrength: 54.0
+    scanresolution: 90.0
+    scanspeed: 7500
+    sensordampenerresistance: 1.0
+    shieldcapacity: 156000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 1.5E7
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbloodraidercapitalnossignaturereductionmultiplyer: 1.0
+    shipbonusdreadnoughtg1: 10
+    shipbonusdreadnoughtm1: 10.0
+    shipbonusrole1: 25.0
+    shipbonussiegespeedmultiplier: -10
+    shipmaintenancebaycapacity: 1000000
+    shiprolebonuswarpspeed: 25
+    signatureradius: 10000.0
+    specialfuelbaycapacity: 8000
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    targetpainterresistance: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    turretslotsleft: 3
+    typecolorscheme: 11342
+    uniformity: 1.0
+    upgradecapacity: 350
+    upgradeslotsleft: 3
+    volume: 1.55E7
     warpcapacitorneed: 1.38000002536387E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0

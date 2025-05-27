@@ -21343,3 +21343,42 @@ types:
     trackingspeed: 35.0
     volume: 1000.0
     warpscrambleduration: 8000
+  88567:
+    armoremdamageresonance: 0.6524999737739563
+    armorexplosivedamageresonance: 0.6524999737739563
+    armorhp: 120000.0
+    armorkineticdamageresonance: 0.6524999737739563
+    armorthermaldamageresonance: 0.6524999737739563
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 40000.0
+    id: 88567
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Reckoning Hoard
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 5500.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 80000.0
+    shieldemdamageresonance: 0.6524999737739563
+    shieldexplosivedamageresonance: 0.6524999737739563
+    shieldkineticdamageresonance: 0.6524999737739563
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 0.6524999737739563
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000

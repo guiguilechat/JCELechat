@@ -3663,6 +3663,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87829:
+    id: 87829
+    marketGroup: 3654
+    name: Stellar Tan Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   87830:
     id: 87830
     marketGroup: 3654
@@ -3695,10 +3703,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87836:
+    id: 87836
+    marketGroup: 3655
+    name: Pod Juice Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   87837:
     id: 87837
     marketGroup: 3655
     name: Pastel Dreams Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  87838:
+    id: 87838
+    marketGroup: 3632
+    name: Rose-tinted Trit Metallic - Limited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -3727,10 +3751,1375 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  87842:
+    id: 87842
+    marketGroup: 3633
+    name: XXII Unending - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   87843:
     id: 87843
     marketGroup: 3633
     name: Hiver Finish - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88356:
+    id: 88356
+    marketGroup: 3654
+    name: Sapphire Moonrise Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88357:
+    id: 88357
+    marketGroup: 3654
+    name: Sapphire Moonrise Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88364:
+    id: 88364
+    marketGroup: 3632
+    name: Bronze Cinder Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88365:
+    id: 88365
+    marketGroup: 3632
+    name: Bronze Cinder Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88375:
+    id: 88375
+    marketGroup: 3633
+    name: Executive Turn - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88376:
+    id: 88376
+    marketGroup: 3633
+    name: Executive Turn - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88378:
+    id: 88378
+    marketGroup: 3633
+    name: Shocktrace - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88381:
+    id: 88381
+    marketGroup: 3633
+    name: Shocktrace - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88456:
+    id: 88456
+    marketGroup: 3655
+    name: Sapphire Moonrise Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88457:
+    id: 88457
+    marketGroup: 3655
+    name: Sapphire Moonrise Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88458:
+    id: 88458
+    marketGroup: 3654
+    name: Seafoam Biome Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88459:
+    id: 88459
+    marketGroup: 3654
+    name: Seafoam Biome Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88460:
+    id: 88460
+    marketGroup: 3655
+    name: Seafoam Biome Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88461:
+    id: 88461
+    marketGroup: 3655
+    name: Seafoam Biome Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88464:
+    id: 88464
+    marketGroup: 3655
+    name: Peppermint Plasmoid Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88465:
+    id: 88465
+    name: Peppermint Plasmoid Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88466:
+    id: 88466
+    marketGroup: 3654
+    name: Peppermint Plasmoid Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88467:
+    id: 88467
+    marketGroup: 3654
+    name: Peppermint Plasmoid Satin- Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88468:
+    id: 88468
+    marketGroup: 3653
+    name: Peppermint Plasmoid Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88469:
+    id: 88469
+    marketGroup: 3653
+    name: Peppermint Plasmoid Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88470:
+    id: 88470
+    marketGroup: 3653
+    name: Pale Temperate Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88471:
+    id: 88471
+    marketGroup: 3653
+    name: Pale Temperate Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88472:
+    id: 88472
+    marketGroup: 3655
+    name: Atomic Sheen Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88473:
+    id: 88473
+    marketGroup: 3655
+    name: Atomic Sheen Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88474:
+    id: 88474
+    marketGroup: 3654
+    name: Atomic Sheen Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88475:
+    id: 88475
+    marketGroup: 3654
+    name: Atomic Sheen Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88476:
+    id: 88476
+    marketGroup: 3655
+    name: Atomic Excess Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88477:
+    id: 88477
+    marketGroup: 3655
+    name: Atomic Excess Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88478:
+    id: 88478
+    marketGroup: 3655
+    name: Verdant Atmos Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88479:
+    id: 88479
+    marketGroup: 3655
+    name: Verdant Atmos Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88480:
+    id: 88480
+    marketGroup: 3655
+    name: Orbital Tan Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88481:
+    id: 88481
+    marketGroup: 3655
+    name: Orbital Tan Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88482:
+    id: 88482
+    marketGroup: 3655
+    name: Faded Jade Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88483:
+    id: 88483
+    marketGroup: 3655
+    name: Faded Jade Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88484:
+    id: 88484
+    marketGroup: 3653
+    name: Grey Matter Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88485:
+    id: 88485
+    marketGroup: 3653
+    name: Grey Matter Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88486:
+    id: 88486
+    marketGroup: 3654
+    name: Mossy Relic Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88487:
+    id: 88487
+    marketGroup: 3654
+    name: Mossy Relic Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88523:
+    id: 88523
+    marketGroup: 3654
+    name: Exogenic White Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88524:
+    id: 88524
+    marketGroup: 3654
+    name: Exogenic White Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88525:
+    id: 88525
+    marketGroup: 3654
+    name: Ashen Ion Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88526:
+    id: 88526
+    marketGroup: 3654
+    name: Ashen Ion Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88527:
+    id: 88527
+    marketGroup: 3654
+    name: Cardinal Flux Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88528:
+    id: 88528
+    marketGroup: 3654
+    name: Cardinal Flux Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88529:
+    id: 88529
+    marketGroup: 3654
+    name: Ochre Moondust Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88530:
+    id: 88530
+    marketGroup: 3654
+    name: Ochre Moondust Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88531:
+    id: 88531
+    marketGroup: 3654
+    name: Polluted Frost Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88532:
+    id: 88532
+    marketGroup: 3654
+    name: Polluted Frost Satin - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88533:
+    id: 88533
+    marketGroup: 3653
+    name: Void Shift Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88534:
+    id: 88534
+    name: Void Shift Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88535:
+    id: 88535
+    marketGroup: 3653
+    name: Biohazard Canary Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88536:
+    id: 88536
+    marketGroup: 3653
+    name: Biohazard Canary Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88537:
+    id: 88537
+    marketGroup: 3653
+    name: Subterranean Spore Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88538:
+    id: 88538
+    marketGroup: 3653
+    name: Subterranean Spore Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88539:
+    id: 88539
+    marketGroup: 3653
+    name: Cult Cardinal Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88540:
+    id: 88540
+    marketGroup: 3653
+    name: Cult Cardinal Matte - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88541:
+    id: 88541
+    marketGroup: 3655
+    name: Plasma Bloom Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88542:
+    id: 88542
+    marketGroup: 3655
+    name: Plasma Bloom Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88543:
+    id: 88543
+    marketGroup: 3655
+    name: Violet Blight Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88544:
+    id: 88544
+    marketGroup: 3655
+    name: Violet Blight Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88545:
+    id: 88545
+    marketGroup: 3655
+    name: Sanguine Vow Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88546:
+    id: 88546
+    marketGroup: 3655
+    name: Sanguine Vow Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88549:
+    id: 88549
+    marketGroup: 3655
+    name: Homeworld Forest Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88550:
+    id: 88550
+    marketGroup: 3655
+    name: Homeworld Forest Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88553:
+    id: 88553
+    marketGroup: 3655
+    name: Celestial Peridot Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88555:
+    id: 88555
+    marketGroup: 3655
+    name: Celestial Peridot Gloss - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88572:
+    id: 88572
+    marketGroup: 3632
+    name: Deep Space Iron Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88573:
+    id: 88573
+    marketGroup: 3632
+    name: Deep Space Iron Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88575:
+    id: 88575
+    marketGroup: 3632
+    name: Emerald Oblivion Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88576:
+    id: 88576
+    marketGroup: 3632
+    name: Emerald Oblivion Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88577:
+    id: 88577
+    marketGroup: 3632
+    name: Agate Steel Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88578:
+    id: 88578
+    marketGroup: 3632
+    name: Agate Steel Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88579:
+    id: 88579
+    marketGroup: 3632
+    name: Luminated Copper Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88580:
+    id: 88580
+    marketGroup: 3632
+    name: Luminated Copper Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88581:
+    id: 88581
+    marketGroup: 3632
+    name: Ionized Verdigris Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88582:
+    id: 88582
+    marketGroup: 3632
+    name: Ionized Verdigris Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88584:
+    id: 88584
+    marketGroup: 3632
+    name: Aqueous Cobalt - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88587:
+    id: 88587
+    marketGroup: 3632
+    name: Aqueous Cobalt - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88590:
+    id: 88590
+    marketGroup: 3632
+    name: Tropic Alloy Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88591:
+    id: 88591
+    marketGroup: 3632
+    name: Tropic Alloy Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88593:
+    id: 88593
+    marketGroup: 3632
+    name: Pyrrhic Plate Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88594:
+    id: 88594
+    marketGroup: 3632
+    name: Pyrrhic Plate Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88595:
+    id: 88595
+    marketGroup: 3632
+    name: Electrified Chrome Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88596:
+    id: 88596
+    marketGroup: 3632
+    name: Electrified Chrome Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88597:
+    id: 88597
+    marketGroup: 3632
+    name: Muted Chrome Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88598:
+    id: 88598
+    marketGroup: 3632
+    name: Muted Chrome Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88599:
+    id: 88599
+    marketGroup: 3632
+    name: Phosphate Flux Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88600:
+    id: 88600
+    marketGroup: 3632
+    name: Phosphate Flux Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88601:
+    id: 88601
+    marketGroup: 3632
+    name: Aluminum Aurora Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88602:
+    id: 88602
+    marketGroup: 3632
+    name: Aluminum Aurora Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88603:
+    id: 88603
+    marketGroup: 3632
+    name: Forgotten Silver Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88604:
+    id: 88604
+    marketGroup: 3632
+    name: Forgotten Silver Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88605:
+    id: 88605
+    marketGroup: 3632
+    name: Twilight Corrosion Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88606:
+    id: 88606
+    marketGroup: 3632
+    name: Twilight Corrosion Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88607:
+    id: 88607
+    marketGroup: 3632
+    name: Burnt Patina Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88608:
+    id: 88608
+    marketGroup: 3632
+    name: Burnt Patina Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88614:
+    id: 88614
+    marketGroup: 3632
+    name: Helian Tin Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88615:
+    id: 88615
+    marketGroup: 3632
+    name: Helian Tin Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88616:
+    id: 88616
+    marketGroup: 3632
+    name: Royal Aureate Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88617:
+    id: 88617
+    marketGroup: 3632
+    name: Royal Aureate Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88618:
+    id: 88618
+    marketGroup: 3632
+    name: Electrum Flare Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88619:
+    id: 88619
+    marketGroup: 3632
+    name: Electrum Flare Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88620:
+    id: 88620
+    marketGroup: 3632
+    name: Osmium Vine Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88621:
+    id: 88621
+    marketGroup: 3632
+    name: Osmium Vine Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88622:
+    id: 88622
+    marketGroup: 3632
+    name: Vanadium Essence Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88623:
+    id: 88623
+    marketGroup: 3632
+    name: Vanadium Essence Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88624:
+    id: 88624
+    marketGroup: 3632
+    name: Graphite Void Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88625:
+    id: 88625
+    marketGroup: 3632
+    name: Graphite Void Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88626:
+    id: 88626
+    marketGroup: 3632
+    name: Spectral Zinc Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88627:
+    id: 88627
+    marketGroup: 3632
+    name: Spectral Zinc Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88628:
+    id: 88628
+    marketGroup: 3632
+    name: Viridescent Magnate Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88629:
+    id: 88629
+    marketGroup: 3632
+    name: Viridescent Magnate Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88632:
+    id: 88632
+    marketGroup: 3633
+    name: Faded Turn - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88633:
+    id: 88633
+    marketGroup: 3633
+    name: Faded Turn - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88634:
+    id: 88634
+    marketGroup: 3633
+    name: Secondary Turn - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88635:
+    id: 88635
+    name: Secondary Turn - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88636:
+    id: 88636
+    marketGroup: 3633
+    name: Embossed Turns - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88637:
+    id: 88637
+    marketGroup: 3633
+    name: Embossed Turns - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88638:
+    id: 88638
+    marketGroup: 3633
+    name: Diffracted Rejoinder - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88639:
+    id: 88639
+    marketGroup: 3633
+    name: Diffracted Rejoinder - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88640:
+    id: 88640
+    marketGroup: 3633
+    name: Bionic Core - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88641:
+    id: 88641
+    marketGroup: 3633
+    name: Bionic Core - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88642:
+    id: 88642
+    marketGroup: 3633
+    name: Bionic Complex - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88643:
+    id: 88643
+    marketGroup: 3633
+    name: Bionic Complex - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88644:
+    id: 88644
+    marketGroup: 3633
+    name: Vital Extreme - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88645:
+    id: 88645
+    marketGroup: 3633
+    name: Vital Extreme - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88646:
+    id: 88646
+    marketGroup: 3633
+    name: Vital Pulse - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88647:
+    id: 88647
+    marketGroup: 3633
+    name: Vital Pulse - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88648:
+    id: 88648
+    marketGroup: 3633
+    name: Cyber Quill - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88649:
+    id: 88649
+    marketGroup: 3633
+    name: Cyber Quill - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88650:
+    id: 88650
+    marketGroup: 3633
+    name: Gliding Mix - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88651:
+    id: 88651
+    marketGroup: 3633
+    name: Gliding Mix - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88652:
+    id: 88652
+    marketGroup: 3633
+    name: Exo-Spinal - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88653:
+    id: 88653
+    marketGroup: 3633
+    name: Exo-Spinal - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88654:
+    id: 88654
+    marketGroup: 3633
+    name: Mecha-Spinal - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88655:
+    id: 88655
+    marketGroup: 3633
+    name: Mecha-Spinal - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88656:
+    id: 88656
+    marketGroup: 3633
+    name: Tactical Praise - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88657:
+    id: 88657
+    marketGroup: 3633
+    name: Tactical Praise - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88658:
+    id: 88658
+    marketGroup: 3633
+    name: Quantum Curls - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88659:
+    id: 88659
+    marketGroup: 3633
+    name: Quantum Curls - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88660:
+    id: 88660
+    marketGroup: 3633
+    name: Oceanic Vortex - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88661:
+    id: 88661
+    marketGroup: 3633
+    name: Oceanic Vortex - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88663:
+    id: 88663
+    marketGroup: 3633
+    name: Liquid Groove - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88664:
+    id: 88664
+    marketGroup: 3633
+    name: Liquid Groove - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88665:
+    id: 88665
+    marketGroup: 3633
+    name: Starfall Traces - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88666:
+    id: 88666
+    marketGroup: 3633
+    name: Starfall Traces - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88667:
+    id: 88667
+    marketGroup: 3633
+    name: Fragmented Warp - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88668:
+    id: 88668
+    marketGroup: 3633
+    name: Fragmented Warp - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88669:
+    id: 88669
+    marketGroup: 3633
+    name: Multi-Hex - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88670:
+    id: 88670
+    marketGroup: 3633
+    name: Multi-Hex - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88671:
+    id: 88671
+    marketGroup: 3633
+    name: Hollow Hex - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88672:
+    id: 88672
+    marketGroup: 3633
+    name: Hollow Hex - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88673:
+    id: 88673
+    marketGroup: 3633
+    name: Squared Away - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88674:
+    id: 88674
+    marketGroup: 3633
+    name: Squared Away - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88675:
+    id: 88675
+    marketGroup: 3633
+    name: Doppel Bar - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88676:
+    id: 88676
+    marketGroup: 3633
+    name: Doppel Bar - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88677:
+    id: 88677
+    marketGroup: 3633
+    name: Swept Hivemesh - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88678:
+    id: 88678
+    marketGroup: 3633
+    name: Swept Hivemesh - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88679:
+    id: 88679
+    marketGroup: 3633
+    name: Splatter Strike - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88680:
+    id: 88680
+    marketGroup: 3633
+    name: Splatter Strike - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88681:
+    id: 88681
+    marketGroup: 3633
+    name: Splatter Swipe - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88682:
+    id: 88682
+    marketGroup: 3633
+    name: Splatter Swipe - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88683:
+    id: 88683
+    marketGroup: 3633
+    name: Jagged Biome - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88684:
+    id: 88684
+    marketGroup: 3633
+    name: Jagged Biome - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88685:
+    id: 88685
+    marketGroup: 3633
+    name: Cosmic Dignity - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88686:
+    id: 88686
+    marketGroup: 3633
+    name: Cosmic Dignity - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88774:
+    id: 88774
+    marketGroup: 3632
+    name: Neuronic Chrome Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88775:
+    id: 88775
+    marketGroup: 3632
+    name: Neuronic Chrome Metallic - Unlimited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88776:
+    id: 88776
+    marketGroup: 3632
+    name: Gravastar Black Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  88777:
+    id: 88777
+    marketGroup: 3632
+    name: Gravastar Black Metallic - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

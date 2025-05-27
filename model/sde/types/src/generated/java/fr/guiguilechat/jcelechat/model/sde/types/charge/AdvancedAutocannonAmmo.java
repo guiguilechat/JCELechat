@@ -14,8 +14,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BaseArmorDamage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BaseShieldDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorRechargeRateMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
@@ -45,20 +43,6 @@ import org.yaml.snakeyaml.Yaml;
 public class AdvancedAutocannonAmmo
     extends Charge
 {
-    /**
-     * Just for the UI to display base damage on armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int basearmordamage;
-    /**
-     * Just for the UI to display base damage on shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int baseshielddamage;
     /**
      * Multiplier to the capacitors recharge rate.
      */
@@ -201,20 +185,12 @@ public class AdvancedAutocannonAmmo
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double weaponrangemultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, PowerNeedMultiplier.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, FallofMultiplier.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, CpuMultiplier.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, EmDamage.INSTANCE, MaxVelocityModifier.INSTANCE, TrackingSpeedMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, RequiredSkill1Level.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, PowerNeedMultiplier.INSTANCE, Radius.INSTANCE, FallofMultiplier.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, CpuMultiplier.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, EmDamage.INSTANCE, MaxVelocityModifier.INSTANCE, ExplosiveDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE })));
     public static final AdvancedAutocannonAmmo.MetaGroup METAGROUP = new AdvancedAutocannonAmmo.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  613 :
-            {
-                return basearmordamage;
-            }
-            case  612 :
-            {
-                return baseshielddamage;
-            }
             case  144 :
             {
                 return capacitorrechargeratemultiplier;

@@ -19,7 +19,7 @@ types:
     volume: 0.009999999776482582
   3320:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 3320
@@ -39,7 +39,7 @@ types:
     volume: 0.009999999776482582
   3321:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 3321
@@ -59,7 +59,7 @@ types:
     volume: 0.009999999776482582
   3322:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 3322
@@ -97,7 +97,7 @@ types:
     volume: 0.009999999776482582
   3324:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 3324
@@ -119,7 +119,7 @@ types:
     volume: 0.009999999776482582
   3325:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 3325
@@ -141,7 +141,7 @@ types:
     volume: 0.009999999776482582
   3326:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 3326
@@ -352,7 +352,7 @@ types:
     volume: 0.009999999776482582
   20315:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 20315
@@ -392,7 +392,7 @@ types:
     volume: 0.009999999776482582
   21668:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 21668
@@ -436,7 +436,7 @@ types:
     volume: 0.009999999776482582
   25719:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 25719
@@ -478,7 +478,7 @@ types:
     volume: 0.009999999776482582
   32435:
     cannotbetrainedontrial: 1
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     dotmaxdamagepertickbonus: 1
     dotmaxhppercentagepertickbonus: 1
     id: 32435

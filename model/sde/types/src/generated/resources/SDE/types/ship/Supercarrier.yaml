@@ -59,6 +59,7 @@ types:
     maincolor: 16777215
     marketGroup: 1392
     mass: 1.6E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -103,7 +104,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 1.0
-    shipbonusrole2: 200
+    shipbonusrole2: 400
     shipbonussupercarriera1: 5.0
     shipbonussupercarriera2: 5
     shipbonussupercarriera3: -3
@@ -187,6 +188,7 @@ types:
     maincolor: 16777215
     marketGroup: 821
     mass: 1.65E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -227,7 +229,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 1.0
-    shipbonusrole2: 200
+    shipbonusrole2: 400
     shipbonusrole7: 100.0
     shipbonussupercarrierm1: 10
     shipbonussupercarrierm2: 5
@@ -310,6 +312,7 @@ types:
     maincolor: 16777215
     marketGroup: 820
     mass: 1.6E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -350,7 +353,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 1.0
-    shipbonusrole2: 200
+    shipbonusrole2: 400
     shipbonussupercarrierg1: 10
     shipbonussupercarrierg2: 5
     shipbonussupercarrierg3: -5
@@ -432,6 +435,7 @@ types:
     maincolor: 16777215
     marketGroup: 819
     mass: 1.7E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -472,7 +476,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 1.0
-    shipbonusrole2: 200
+    shipbonusrole2: 400
     shipbonussupercarrierc1: 7.5
     shipbonussupercarrierc2: -4
     shipbonussupercarrierc3: -5
@@ -554,6 +558,7 @@ types:
     maincolor: 16777215
     marketGroup: 818
     mass: 1.78E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -594,7 +599,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 1.0
-    shipbonusrole2: 200
+    shipbonusrole2: 400
     shipbonussupercarriera1: 7.5
     shipbonussupercarriera2: -4
     shipbonussupercarriera3: -5
@@ -676,6 +681,7 @@ types:
     maincolor: 16777215
     marketGroup: 1392
     mass: 1.6E9
+    maxdirectionalscanrange: 2.147483648E12
     maximumrangecap: 1000000000
     maxlockedtargets: 14
     maxoperationaldistance: 5000
@@ -720,7 +726,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole1: 1.0
-    shipbonusrole2: 200
+    shipbonusrole2: 400
     shipbonussupercarrierg1: 10
     shipbonussupercarrierg2: 5
     shipbonussupercarrierg3: -3

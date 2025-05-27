@@ -1,7 +1,7 @@
 types:
   1193:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.440000534057617
+    emdamageresistancebonus: -21.600000381469727
     hp: 40.0
     id: 1193
     marketGroup: 1668
@@ -19,7 +19,7 @@ types:
     volume: 5.0
   1197:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.889999389648438
+    emdamageresistancebonus: -24.31999969482422
     hp: 40.0
     id: 1197
     marketGroup: 1668
@@ -36,7 +36,7 @@ types:
     volume: 5.0
   1198:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.850000381469727
+    emdamageresistancebonus: -27.610000610351562
     hp: 40.0
     id: 1198
     marketGroup: 1668
@@ -54,7 +54,7 @@ types:
     volume: 5.0
   1262:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -19.440000534057617
+    explosivedamageresistancebonus: -21.600000381469727
     hp: 40.0
     id: 1262
     marketGroup: 1667
@@ -72,7 +72,7 @@ types:
     volume: 5.0
   1264:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -21.889999389648438
+    explosivedamageresistancebonus: -24.31999969482422
     hp: 40.0
     id: 1264
     marketGroup: 1667
@@ -89,7 +89,7 @@ types:
     volume: 5.0
   1266:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -24.850000381469727
+    explosivedamageresistancebonus: -27.610000610351562
     hp: 40.0
     id: 1266
     marketGroup: 1667
@@ -159,7 +159,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 1282
-    kineticdamageresistancebonus: -19.440000534057617
+    kineticdamageresistancebonus: -21.600000381469727
     marketGroup: 1666
     mass: 1.0
     metalevelold: 6
@@ -177,7 +177,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 1284
-    kineticdamageresistancebonus: -21.889999389648438
+    kineticdamageresistancebonus: -24.31999969482422
     marketGroup: 1666
     mass: 1.0
     name: Kinetic Coating I
@@ -194,7 +194,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 1286
-    kineticdamageresistancebonus: -24.850000381469727
+    kineticdamageresistancebonus: -27.610000610351562
     marketGroup: 1666
     mass: 1.0
     metalevelold: 5
@@ -224,7 +224,7 @@ types:
     requiredskill1: 3392
     requiredskill1level: 2
     techlevel: 1
-    thermaldamageresistancebonus: -19.440000534057617
+    thermaldamageresistancebonus: -21.600000381469727
     volume: 5.0
   1294:
     armorhpmultiplier: 1.0
@@ -241,7 +241,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -21.889999389648438
+    thermaldamageresistancebonus: -24.31999969482422
     volume: 5.0
   1296:
     armorhpmultiplier: 1.0
@@ -259,15 +259,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 2
-    thermaldamageresistancebonus: -24.850000381469727
+    thermaldamageresistancebonus: -27.610000610351562
     volume: 5.0
   1302:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -8.859999656677246
-    explosivedamageresistancebonus: -8.859999656677246
+    emdamageresistancebonus: -9.84000015258789
+    explosivedamageresistancebonus: -9.84000015258789
     hp: 40.0
     id: 1302
-    kineticdamageresistancebonus: -8.859999656677246
+    kineticdamageresistancebonus: -9.84000015258789
     marketGroup: 1670
     mass: 1.0
     metalevelold: 6
@@ -280,15 +280,15 @@ types:
     requiredskill1: 3392
     requiredskill1level: 2
     techlevel: 1
-    thermaldamageresistancebonus: -8.859999656677246
+    thermaldamageresistancebonus: -9.84000015258789
     volume: 5.0
   1304:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -10.510000228881836
-    explosivedamageresistancebonus: -10.510000228881836
+    emdamageresistancebonus: -11.680000305175781
+    explosivedamageresistancebonus: -11.680000305175781
     hp: 40.0
     id: 1304
-    kineticdamageresistancebonus: -10.510000228881836
+    kineticdamageresistancebonus: -11.680000305175781
     marketGroup: 1670
     mass: 1.0
     name: Multispectrum Coating I
@@ -300,15 +300,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -10.510000228881836
+    thermaldamageresistancebonus: -11.680000305175781
     volume: 5.0
   1306:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -13.819999694824219
-    explosivedamageresistancebonus: -13.819999694824219
+    emdamageresistancebonus: -15.359999656677246
+    explosivedamageresistancebonus: -15.359999656677246
     hp: 40.0
     id: 1306
-    kineticdamageresistancebonus: -13.819999694824219
+    kineticdamageresistancebonus: -15.359999656677246
     marketGroup: 1670
     mass: 1.0
     metalevelold: 5
@@ -321,15 +321,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 2
-    thermaldamageresistancebonus: -13.819999694824219
+    thermaldamageresistancebonus: -15.359999656677246
     volume: 5.0
   13999:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
+    emdamageresistancebonus: -18.190000534057617
+    explosivedamageresistancebonus: -18.190000534057617
     hp: 40.0
     id: 13999
-    kineticdamageresistancebonus: -16.3700008392334
+    kineticdamageresistancebonus: -18.190000534057617
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -343,15 +343,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    thermaldamageresistancebonus: -18.190000534057617
     volume: 5.0
   14001:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
+    emdamageresistancebonus: -18.190000534057617
+    explosivedamageresistancebonus: -18.190000534057617
     hp: 40.0
     id: 14001
-    kineticdamageresistancebonus: -16.3700008392334
+    kineticdamageresistancebonus: -18.190000534057617
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -365,15 +365,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    thermaldamageresistancebonus: -18.190000534057617
     volume: 5.0
   14003:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
+    emdamageresistancebonus: -18.190000534057617
+    explosivedamageresistancebonus: -18.190000534057617
     hp: 40.0
     id: 14003
-    kineticdamageresistancebonus: -16.3700008392334
+    kineticdamageresistancebonus: -18.190000534057617
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -387,13 +387,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    thermaldamageresistancebonus: -18.190000534057617
     volume: 5.0
   14005:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14005
-    kineticdamageresistancebonus: -27.0
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -412,7 +412,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14007
-    kineticdamageresistancebonus: -27.0
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -431,7 +431,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14009
-    kineticdamageresistancebonus: -27.0
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -448,7 +448,7 @@ types:
     volume: 5.0
   14011:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
+    explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 14011
     marketGroup: 1667
@@ -467,7 +467,7 @@ types:
     volume: 5.0
   14013:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
+    explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 14013
     marketGroup: 1667
@@ -486,7 +486,7 @@ types:
     volume: 5.0
   14015:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
+    explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 14015
     marketGroup: 1667
@@ -505,7 +505,7 @@ types:
     volume: 5.0
   14017:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
+    emdamageresistancebonus: -30.0
     hp: 40.0
     id: 14017
     marketGroup: 1668
@@ -524,7 +524,7 @@ types:
     volume: 5.0
   14019:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
+    emdamageresistancebonus: -30.0
     hp: 40.0
     id: 14019
     marketGroup: 1668
@@ -543,7 +543,7 @@ types:
     volume: 5.0
   14021:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
+    emdamageresistancebonus: -30.0
     hp: 40.0
     id: 14021
     marketGroup: 1668
@@ -577,7 +577,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.0
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   14025:
     armorhpmultiplier: 1.0
@@ -596,7 +596,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.0
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   14027:
     armorhpmultiplier: 1.0
@@ -615,15 +615,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.0
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   14049:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
+    emdamageresistancebonus: -18.190000534057617
+    explosivedamageresistancebonus: -18.190000534057617
     hp: 40.0
     id: 14049
-    kineticdamageresistancebonus: -16.3700008392334
+    kineticdamageresistancebonus: -18.190000534057617
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -637,13 +637,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    thermaldamageresistancebonus: -18.190000534057617
     volume: 5.0
   14051:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14051
-    kineticdamageresistancebonus: -27.0
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -660,7 +660,7 @@ types:
     volume: 5.0
   14053:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
+    explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 14053
     marketGroup: 1667
@@ -679,7 +679,7 @@ types:
     volume: 5.0
   14055:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
+    emdamageresistancebonus: -30.0
     hp: 40.0
     id: 14055
     marketGroup: 1668
@@ -713,15 +713,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.0
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   14556:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -18.920000076293945
-    explosivedamageresistancebonus: -18.920000076293945
+    emdamageresistancebonus: -21.020000457763672
+    explosivedamageresistancebonus: -21.020000457763672
     hp: 40.0
     id: 14556
-    kineticdamageresistancebonus: -18.920000076293945
+    kineticdamageresistancebonus: -21.020000457763672
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -735,15 +735,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -18.920000076293945
+    thermaldamageresistancebonus: -21.020000457763672
     volume: 5.0
   14560:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.030000686645508
-    explosivedamageresistancebonus: -24.030000686645508
+    emdamageresistancebonus: -26.700000762939453
+    explosivedamageresistancebonus: -26.700000762939453
     hp: 40.0
     id: 14560
-    kineticdamageresistancebonus: -24.030000686645508
+    kineticdamageresistancebonus: -26.700000762939453
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -757,13 +757,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.030000686645508
+    thermaldamageresistancebonus: -26.700000762939453
     volume: 5.0
   14564:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14564
-    kineticdamageresistancebonus: -29.270000457763672
+    kineticdamageresistancebonus: -32.52000045776367
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -782,7 +782,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14568
-    kineticdamageresistancebonus: -33.810001373291016
+    kineticdamageresistancebonus: -37.56999969482422
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -799,7 +799,7 @@ types:
     volume: 5.0
   14572:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -29.270000457763672
+    explosivedamageresistancebonus: -32.52000045776367
     hp: 40.0
     id: 14572
     marketGroup: 1667
@@ -818,7 +818,7 @@ types:
     volume: 5.0
   14576:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -33.810001373291016
+    explosivedamageresistancebonus: -37.56999969482422
     hp: 40.0
     id: 14576
     marketGroup: 1667
@@ -837,7 +837,7 @@ types:
     volume: 5.0
   14580:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -29.270000457763672
+    emdamageresistancebonus: -32.52000045776367
     hp: 40.0
     id: 14580
     marketGroup: 1668
@@ -856,7 +856,7 @@ types:
     volume: 5.0
   14584:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -33.810001373291016
+    emdamageresistancebonus: -37.56999969482422
     hp: 40.0
     id: 14584
     marketGroup: 1668
@@ -890,7 +890,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -29.270000457763672
+    thermaldamageresistancebonus: -32.52000045776367
     volume: 5.0
   14592:
     armorhpmultiplier: 1.0
@@ -909,15 +909,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -33.810001373291016
+    thermaldamageresistancebonus: -37.56999969482422
     volume: 5.0
   14856:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -18.920000076293945
-    explosivedamageresistancebonus: -18.920000076293945
+    emdamageresistancebonus: -21.020000457763672
+    explosivedamageresistancebonus: -21.020000457763672
     hp: 40.0
     id: 14856
-    kineticdamageresistancebonus: -18.920000076293945
+    kineticdamageresistancebonus: -21.020000457763672
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -931,15 +931,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -18.920000076293945
+    thermaldamageresistancebonus: -21.020000457763672
     volume: 5.0
   14858:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -18.920000076293945
-    explosivedamageresistancebonus: -18.920000076293945
+    emdamageresistancebonus: -21.020000457763672
+    explosivedamageresistancebonus: -21.020000457763672
     hp: 40.0
     id: 14858
-    kineticdamageresistancebonus: -18.920000076293945
+    kineticdamageresistancebonus: -21.020000457763672
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -953,15 +953,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -18.920000076293945
+    thermaldamageresistancebonus: -21.020000457763672
     volume: 5.0
   14860:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.479999542236328
-    explosivedamageresistancebonus: -21.479999542236328
+    emdamageresistancebonus: -23.8700008392334
+    explosivedamageresistancebonus: -23.8700008392334
     hp: 40.0
     id: 14860
-    kineticdamageresistancebonus: -21.479999542236328
+    kineticdamageresistancebonus: -23.8700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -975,15 +975,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -21.479999542236328
+    thermaldamageresistancebonus: -23.8700008392334
     volume: 5.0
   14862:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.479999542236328
-    explosivedamageresistancebonus: -21.479999542236328
+    emdamageresistancebonus: -23.8700008392334
+    explosivedamageresistancebonus: -23.8700008392334
     hp: 40.0
     id: 14862
-    kineticdamageresistancebonus: -21.479999542236328
+    kineticdamageresistancebonus: -23.8700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -997,15 +997,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -21.479999542236328
+    thermaldamageresistancebonus: -23.8700008392334
     volume: 5.0
   14864:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.030000686645508
-    explosivedamageresistancebonus: -24.030000686645508
+    emdamageresistancebonus: -26.700000762939453
+    explosivedamageresistancebonus: -26.700000762939453
     hp: 40.0
     id: 14864
-    kineticdamageresistancebonus: -24.030000686645508
+    kineticdamageresistancebonus: -26.700000762939453
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1019,15 +1019,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.030000686645508
+    thermaldamageresistancebonus: -26.700000762939453
     volume: 5.0
   14866:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.030000686645508
-    explosivedamageresistancebonus: -24.030000686645508
+    emdamageresistancebonus: -26.700000762939453
+    explosivedamageresistancebonus: -26.700000762939453
     hp: 40.0
     id: 14866
-    kineticdamageresistancebonus: -24.030000686645508
+    kineticdamageresistancebonus: -26.700000762939453
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1041,15 +1041,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.030000686645508
+    thermaldamageresistancebonus: -26.700000762939453
     volume: 5.0
   14868:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.579999923706055
-    explosivedamageresistancebonus: -26.579999923706055
+    emdamageresistancebonus: -29.530000686645508
+    explosivedamageresistancebonus: -29.530000686645508
     hp: 40.0
     id: 14868
-    kineticdamageresistancebonus: -26.579999923706055
+    kineticdamageresistancebonus: -29.530000686645508
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1063,15 +1063,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.579999923706055
+    thermaldamageresistancebonus: -29.530000686645508
     volume: 5.0
   14870:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.579999923706055
-    explosivedamageresistancebonus: -26.579999923706055
+    emdamageresistancebonus: -29.530000686645508
+    explosivedamageresistancebonus: -29.530000686645508
     hp: 40.0
     id: 14870
-    kineticdamageresistancebonus: -26.579999923706055
+    kineticdamageresistancebonus: -29.530000686645508
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1085,13 +1085,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.579999923706055
+    thermaldamageresistancebonus: -29.530000686645508
     volume: 5.0
   14872:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14872
-    kineticdamageresistancebonus: -29.270000457763672
+    kineticdamageresistancebonus: -32.52000045776367
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1110,7 +1110,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14874
-    kineticdamageresistancebonus: -29.270000457763672
+    kineticdamageresistancebonus: -32.52000045776367
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1129,7 +1129,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14876
-    kineticdamageresistancebonus: -31.530000686645508
+    kineticdamageresistancebonus: -35.029998779296875
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1148,7 +1148,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14878
-    kineticdamageresistancebonus: -31.530000686645508
+    kineticdamageresistancebonus: -35.029998779296875
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1167,7 +1167,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14880
-    kineticdamageresistancebonus: -33.810001373291016
+    kineticdamageresistancebonus: -37.56999969482422
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1186,7 +1186,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14882
-    kineticdamageresistancebonus: -33.810001373291016
+    kineticdamageresistancebonus: -37.56999969482422
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1205,7 +1205,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14884
-    kineticdamageresistancebonus: -36.06999969482422
+    kineticdamageresistancebonus: -40.08000183105469
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1224,7 +1224,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 14886
-    kineticdamageresistancebonus: -36.06999969482422
+    kineticdamageresistancebonus: -40.08000183105469
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -1241,7 +1241,7 @@ types:
     volume: 5.0
   14888:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -29.270000457763672
+    explosivedamageresistancebonus: -32.52000045776367
     hp: 40.0
     id: 14888
     marketGroup: 1667
@@ -1260,7 +1260,7 @@ types:
     volume: 5.0
   14890:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -29.270000457763672
+    explosivedamageresistancebonus: -32.52000045776367
     hp: 40.0
     id: 14890
     marketGroup: 1667
@@ -1279,7 +1279,7 @@ types:
     volume: 5.0
   14892:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -31.530000686645508
+    explosivedamageresistancebonus: -35.029998779296875
     hp: 40.0
     id: 14892
     marketGroup: 1667
@@ -1298,7 +1298,7 @@ types:
     volume: 5.0
   14894:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -31.530000686645508
+    explosivedamageresistancebonus: -35.029998779296875
     hp: 40.0
     id: 14894
     marketGroup: 1667
@@ -1317,7 +1317,7 @@ types:
     volume: 5.0
   14896:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -33.810001373291016
+    explosivedamageresistancebonus: -37.56999969482422
     hp: 40.0
     id: 14896
     marketGroup: 1667
@@ -1336,7 +1336,7 @@ types:
     volume: 5.0
   14898:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -33.810001373291016
+    explosivedamageresistancebonus: -37.56999969482422
     hp: 40.0
     id: 14898
     marketGroup: 1667
@@ -1355,7 +1355,7 @@ types:
     volume: 5.0
   14900:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -36.06999969482422
+    explosivedamageresistancebonus: -40.08000183105469
     hp: 40.0
     id: 14900
     marketGroup: 1667
@@ -1374,7 +1374,7 @@ types:
     volume: 5.0
   14902:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -36.06999969482422
+    explosivedamageresistancebonus: -40.08000183105469
     hp: 40.0
     id: 14902
     marketGroup: 1667
@@ -1393,7 +1393,7 @@ types:
     volume: 5.0
   14904:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -29.270000457763672
+    emdamageresistancebonus: -32.52000045776367
     hp: 40.0
     id: 14904
     marketGroup: 1668
@@ -1412,7 +1412,7 @@ types:
     volume: 5.0
   14906:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -29.270000457763672
+    emdamageresistancebonus: -32.52000045776367
     hp: 40.0
     id: 14906
     marketGroup: 1668
@@ -1431,7 +1431,7 @@ types:
     volume: 5.0
   14908:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -31.530000686645508
+    emdamageresistancebonus: -35.029998779296875
     hp: 40.0
     id: 14908
     marketGroup: 1668
@@ -1450,7 +1450,7 @@ types:
     volume: 5.0
   14910:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -31.530000686645508
+    emdamageresistancebonus: -35.029998779296875
     hp: 40.0
     id: 14910
     marketGroup: 1668
@@ -1469,7 +1469,7 @@ types:
     volume: 5.0
   14912:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -33.810001373291016
+    emdamageresistancebonus: -37.56999969482422
     hp: 40.0
     id: 14912
     marketGroup: 1668
@@ -1488,7 +1488,7 @@ types:
     volume: 5.0
   14914:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -33.810001373291016
+    emdamageresistancebonus: -37.56999969482422
     hp: 40.0
     id: 14914
     marketGroup: 1668
@@ -1507,7 +1507,7 @@ types:
     volume: 5.0
   14916:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -36.06999969482422
+    emdamageresistancebonus: -40.08000183105469
     hp: 40.0
     id: 14916
     marketGroup: 1668
@@ -1526,7 +1526,7 @@ types:
     volume: 5.0
   14918:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -36.06999969482422
+    emdamageresistancebonus: -40.08000183105469
     hp: 40.0
     id: 14918
     marketGroup: 1668
@@ -1560,7 +1560,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -29.270000457763672
+    thermaldamageresistancebonus: -32.52000045776367
     volume: 5.0
   14922:
     armorhpmultiplier: 1.0
@@ -1579,7 +1579,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -29.270000457763672
+    thermaldamageresistancebonus: -32.52000045776367
     volume: 5.0
   14924:
     armorhpmultiplier: 1.0
@@ -1598,7 +1598,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -31.530000686645508
+    thermaldamageresistancebonus: -35.029998779296875
     volume: 5.0
   14926:
     armorhpmultiplier: 1.0
@@ -1617,7 +1617,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -31.530000686645508
+    thermaldamageresistancebonus: -35.029998779296875
     volume: 5.0
   14928:
     armorhpmultiplier: 1.0
@@ -1636,7 +1636,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -33.810001373291016
+    thermaldamageresistancebonus: -37.56999969482422
     volume: 5.0
   14930:
     armorhpmultiplier: 1.0
@@ -1655,7 +1655,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -33.810001373291016
+    thermaldamageresistancebonus: -37.56999969482422
     volume: 5.0
   14932:
     armorhpmultiplier: 1.0
@@ -1674,7 +1674,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -36.06999969482422
+    thermaldamageresistancebonus: -40.08000183105469
     volume: 5.0
   14934:
     armorhpmultiplier: 1.0
@@ -1693,15 +1693,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -36.06999969482422
+    thermaldamageresistancebonus: -40.08000183105469
     volume: 5.0
   15164:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -18.920000076293945
-    explosivedamageresistancebonus: -18.920000076293945
+    emdamageresistancebonus: -21.020000457763672
+    explosivedamageresistancebonus: -21.020000457763672
     hp: 40.0
     id: 15164
-    kineticdamageresistancebonus: -18.920000076293945
+    kineticdamageresistancebonus: -21.020000457763672
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1715,15 +1715,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -18.920000076293945
+    thermaldamageresistancebonus: -21.020000457763672
     volume: 5.0
   15166:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -21.479999542236328
-    explosivedamageresistancebonus: -21.479999542236328
+    emdamageresistancebonus: -23.8700008392334
+    explosivedamageresistancebonus: -23.8700008392334
     hp: 40.0
     id: 15166
-    kineticdamageresistancebonus: -21.479999542236328
+    kineticdamageresistancebonus: -23.8700008392334
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1737,15 +1737,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -21.479999542236328
+    thermaldamageresistancebonus: -23.8700008392334
     volume: 5.0
   15168:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -24.030000686645508
-    explosivedamageresistancebonus: -24.030000686645508
+    emdamageresistancebonus: -26.700000762939453
+    explosivedamageresistancebonus: -26.700000762939453
     hp: 40.0
     id: 15168
-    kineticdamageresistancebonus: -24.030000686645508
+    kineticdamageresistancebonus: -26.700000762939453
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1759,15 +1759,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -24.030000686645508
+    thermaldamageresistancebonus: -26.700000762939453
     volume: 5.0
   15170:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -26.579999923706055
-    explosivedamageresistancebonus: -26.579999923706055
+    emdamageresistancebonus: -29.530000686645508
+    explosivedamageresistancebonus: -29.530000686645508
     hp: 40.0
     id: 15170
-    kineticdamageresistancebonus: -26.579999923706055
+    kineticdamageresistancebonus: -29.530000686645508
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
@@ -1781,7 +1781,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -26.579999923706055
+    thermaldamageresistancebonus: -29.530000686645508
     volume: 5.0
   15172:
     armorhpmultiplier: 1.0
@@ -1800,7 +1800,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -29.270000457763672
+    thermaldamageresistancebonus: -32.52000045776367
     volume: 5.0
   15174:
     armorhpmultiplier: 1.0
@@ -1819,7 +1819,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -31.530000686645508
+    thermaldamageresistancebonus: -35.029998779296875
     volume: 5.0
   15176:
     armorhpmultiplier: 1.0
@@ -1838,7 +1838,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -33.810001373291016
+    thermaldamageresistancebonus: -37.56999969482422
     volume: 5.0
   15178:
     armorhpmultiplier: 1.0
@@ -1857,11 +1857,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -36.06999969482422
+    thermaldamageresistancebonus: -40.08000183105469
     volume: 5.0
   15180:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -29.270000457763672
+    emdamageresistancebonus: -32.52000045776367
     hp: 40.0
     id: 15180
     marketGroup: 1668
@@ -1880,7 +1880,7 @@ types:
     volume: 5.0
   15182:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -31.530000686645508
+    emdamageresistancebonus: -35.029998779296875
     hp: 40.0
     id: 15182
     marketGroup: 1668
@@ -1899,7 +1899,7 @@ types:
     volume: 5.0
   15184:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -33.810001373291016
+    emdamageresistancebonus: -37.56999969482422
     hp: 40.0
     id: 15184
     marketGroup: 1668
@@ -1918,7 +1918,7 @@ types:
     volume: 5.0
   15186:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -36.06999969482422
+    emdamageresistancebonus: -40.08000183105469
     hp: 40.0
     id: 15186
     marketGroup: 1668
@@ -1937,7 +1937,7 @@ types:
     volume: 5.0
   15188:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -29.270000457763672
+    explosivedamageresistancebonus: -32.52000045776367
     hp: 40.0
     id: 15188
     marketGroup: 1667
@@ -1956,7 +1956,7 @@ types:
     volume: 5.0
   15190:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -31.530000686645508
+    explosivedamageresistancebonus: -35.029998779296875
     hp: 40.0
     id: 15190
     marketGroup: 1667
@@ -1975,7 +1975,7 @@ types:
     volume: 5.0
   15192:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -33.810001373291016
+    explosivedamageresistancebonus: -37.56999969482422
     hp: 40.0
     id: 15192
     marketGroup: 1667
@@ -1994,7 +1994,7 @@ types:
     volume: 5.0
   15194:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -36.06999969482422
+    explosivedamageresistancebonus: -40.08000183105469
     hp: 40.0
     id: 15194
     marketGroup: 1667
@@ -2015,7 +2015,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15196
-    kineticdamageresistancebonus: -29.270000457763672
+    kineticdamageresistancebonus: -32.52000045776367
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -2034,7 +2034,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15198
-    kineticdamageresistancebonus: -31.530000686645508
+    kineticdamageresistancebonus: -35.029998779296875
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -2053,7 +2053,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15200
-    kineticdamageresistancebonus: -33.810001373291016
+    kineticdamageresistancebonus: -37.56999969482422
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -2072,7 +2072,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15202
-    kineticdamageresistancebonus: -36.06999969482422
+    kineticdamageresistancebonus: -40.08000183105469
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
@@ -2104,11 +2104,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.0
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   15687:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
+    emdamageresistancebonus: -30.0
     hp: 40.0
     id: 15687
     marketGroup: 1668
@@ -2127,7 +2127,7 @@ types:
     volume: 5.0
   15689:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
+    explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 15689
     marketGroup: 1667
@@ -2148,7 +2148,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15691
-    kineticdamageresistancebonus: -27.0
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -2165,11 +2165,11 @@ types:
     volume: 5.0
   15693:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
+    emdamageresistancebonus: -18.190000534057617
+    explosivedamageresistancebonus: -18.190000534057617
     hp: 40.0
     id: 15693
-    kineticdamageresistancebonus: -16.3700008392334
+    kineticdamageresistancebonus: -18.190000534057617
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -2183,7 +2183,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    thermaldamageresistancebonus: -18.190000534057617
     volume: 5.0
   15695:
     armorhpmultiplier: 1.0
@@ -2202,11 +2202,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.0
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   15697:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
+    emdamageresistancebonus: -30.0
     hp: 40.0
     id: 15697
     marketGroup: 1668
@@ -2225,7 +2225,7 @@ types:
     volume: 5.0
   15699:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
+    explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 15699
     marketGroup: 1667
@@ -2246,7 +2246,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 15701
-    kineticdamageresistancebonus: -27.0
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -2263,11 +2263,11 @@ types:
     volume: 5.0
   15703:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
+    emdamageresistancebonus: -18.190000534057617
+    explosivedamageresistancebonus: -18.190000534057617
     hp: 40.0
     id: 15703
-    kineticdamageresistancebonus: -16.3700008392334
+    kineticdamageresistancebonus: -18.190000534057617
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -2281,15 +2281,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    thermaldamageresistancebonus: -18.190000534057617
     volume: 5.0
   16305:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -12.170000076293945
-    explosivedamageresistancebonus: -12.170000076293945
+    emdamageresistancebonus: -13.520000457763672
+    explosivedamageresistancebonus: -13.520000457763672
     hp: 40.0
     id: 16305
-    kineticdamageresistancebonus: -12.170000076293945
+    kineticdamageresistancebonus: -13.520000457763672
     marketGroup: 1670
     mass: 1.0
     metalevelold: 1
@@ -2302,13 +2302,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -12.170000076293945
+    thermaldamageresistancebonus: -13.520000457763672
     volume: 5.0
   16313:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 16313
-    kineticdamageresistancebonus: -23.3700008392334
+    kineticdamageresistancebonus: -25.969999313354492
     marketGroup: 1666
     mass: 1.0
     metalevelold: 1
@@ -2324,7 +2324,7 @@ types:
     volume: 5.0
   16321:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -23.3700008392334
+    explosivedamageresistancebonus: -25.969999313354492
     hp: 40.0
     id: 16321
     marketGroup: 1667
@@ -2342,7 +2342,7 @@ types:
     volume: 5.0
   16329:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -23.3700008392334
+    emdamageresistancebonus: -25.969999313354492
     hp: 40.0
     id: 16329
     marketGroup: 1668
@@ -2374,7 +2374,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -23.3700008392334
+    thermaldamageresistancebonus: -25.969999313354492
     volume: 5.0
   16345:
     armorhpmultiplier: 1.0789999961853027
@@ -2397,7 +2397,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 17512
-    kineticdamageresistancebonus: -27.0
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -2414,11 +2414,11 @@ types:
     volume: 5.0
   17514:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
+    emdamageresistancebonus: -18.190000534057617
+    explosivedamageresistancebonus: -18.190000534057617
     hp: 40.0
     id: 17514
-    kineticdamageresistancebonus: -16.3700008392334
+    kineticdamageresistancebonus: -18.190000534057617
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -2432,11 +2432,11 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    thermaldamageresistancebonus: -18.190000534057617
     volume: 5.0
   17516:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
+    explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 17516
     marketGroup: 1667
@@ -2455,7 +2455,7 @@ types:
     volume: 5.0
   17518:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
+    emdamageresistancebonus: -30.0
     hp: 40.0
     id: 17518
     marketGroup: 1668
@@ -2474,11 +2474,11 @@ types:
     volume: 5.0
   17549:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
+    emdamageresistancebonus: -18.190000534057617
+    explosivedamageresistancebonus: -18.190000534057617
     hp: 40.0
     id: 17549
-    kineticdamageresistancebonus: -16.3700008392334
+    kineticdamageresistancebonus: -18.190000534057617
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -2492,13 +2492,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    thermaldamageresistancebonus: -18.190000534057617
     volume: 5.0
   17551:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 17551
-    kineticdamageresistancebonus: -27.0
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -2515,7 +2515,7 @@ types:
     volume: 5.0
   17553:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
+    explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 17553
     marketGroup: 1667
@@ -2534,7 +2534,7 @@ types:
     volume: 5.0
   17555:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
+    emdamageresistancebonus: -30.0
     hp: 40.0
     id: 17555
     marketGroup: 1668
@@ -2568,15 +2568,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.0
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   18700:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.389999389648438
-    explosivedamageresistancebonus: -17.389999389648438
+    emdamageresistancebonus: -19.31999969482422
+    explosivedamageresistancebonus: -19.31999969482422
     hp: 40.0
     id: 18700
-    kineticdamageresistancebonus: -17.389999389648438
+    kineticdamageresistancebonus: -19.31999969482422
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -2590,15 +2590,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -17.389999389648438
+    thermaldamageresistancebonus: -19.31999969482422
     volume: 5.0
   18702:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.389999389648438
-    explosivedamageresistancebonus: -17.389999389648438
+    emdamageresistancebonus: -19.31999969482422
+    explosivedamageresistancebonus: -19.31999969482422
     hp: 40.0
     id: 18702
-    kineticdamageresistancebonus: -17.389999389648438
+    kineticdamageresistancebonus: -19.31999969482422
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -2612,15 +2612,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -17.389999389648438
+    thermaldamageresistancebonus: -19.31999969482422
     volume: 5.0
   18704:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.950000762939453
-    explosivedamageresistancebonus: -19.950000762939453
+    emdamageresistancebonus: -22.170000076293945
+    explosivedamageresistancebonus: -22.170000076293945
     hp: 40.0
     id: 18704
-    kineticdamageresistancebonus: -19.950000762939453
+    kineticdamageresistancebonus: -22.170000076293945
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -2634,15 +2634,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -19.950000762939453
+    thermaldamageresistancebonus: -22.170000076293945
     volume: 5.0
   18706:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.950000762939453
-    explosivedamageresistancebonus: -19.950000762939453
+    emdamageresistancebonus: -22.170000076293945
+    explosivedamageresistancebonus: -22.170000076293945
     hp: 40.0
     id: 18706
-    kineticdamageresistancebonus: -19.950000762939453
+    kineticdamageresistancebonus: -22.170000076293945
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -2656,15 +2656,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -19.950000762939453
+    thermaldamageresistancebonus: -22.170000076293945
     volume: 5.0
   18708:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -22.5
-    explosivedamageresistancebonus: -22.5
+    emdamageresistancebonus: -25.0
+    explosivedamageresistancebonus: -25.0
     hp: 40.0
     id: 18708
-    kineticdamageresistancebonus: -22.5
+    kineticdamageresistancebonus: -25.0
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -2678,15 +2678,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -22.5
+    thermaldamageresistancebonus: -25.0
     volume: 5.0
   18710:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -22.5
-    explosivedamageresistancebonus: -22.5
+    emdamageresistancebonus: -25.0
+    explosivedamageresistancebonus: -25.0
     hp: 40.0
     id: 18710
-    kineticdamageresistancebonus: -22.5
+    kineticdamageresistancebonus: -25.0
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -2700,13 +2700,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -22.5
+    thermaldamageresistancebonus: -25.0
     volume: 5.0
   18712:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18712
-    kineticdamageresistancebonus: -27.90999984741211
+    kineticdamageresistancebonus: -31.010000228881836
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -2725,7 +2725,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18714
-    kineticdamageresistancebonus: -27.90999984741211
+    kineticdamageresistancebonus: -31.010000228881836
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -2742,7 +2742,7 @@ types:
     volume: 5.0
   18716:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.90999984741211
+    explosivedamageresistancebonus: -31.010000228881836
     hp: 40.0
     id: 18716
     marketGroup: 1667
@@ -2761,7 +2761,7 @@ types:
     volume: 5.0
   18718:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.90999984741211
+    explosivedamageresistancebonus: -31.010000228881836
     hp: 40.0
     id: 18718
     marketGroup: 1667
@@ -2780,7 +2780,7 @@ types:
     volume: 5.0
   18720:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.90999984741211
+    emdamageresistancebonus: -31.010000228881836
     hp: 40.0
     id: 18720
     marketGroup: 1668
@@ -2799,7 +2799,7 @@ types:
     volume: 5.0
   18722:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.90999984741211
+    emdamageresistancebonus: -31.010000228881836
     hp: 40.0
     id: 18722
     marketGroup: 1668
@@ -2833,7 +2833,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.90999984741211
+    thermaldamageresistancebonus: -31.010000228881836
     volume: 5.0
   18726:
     armorhpmultiplier: 1.0
@@ -2852,7 +2852,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.90999984741211
+    thermaldamageresistancebonus: -31.010000228881836
     volume: 5.0
   18728:
     armorhpmultiplier: 1.0
@@ -2871,7 +2871,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -30.170000076293945
+    thermaldamageresistancebonus: -33.52000045776367
     volume: 5.0
   18730:
     armorhpmultiplier: 1.0
@@ -2890,13 +2890,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -30.170000076293945
+    thermaldamageresistancebonus: -33.52000045776367
     volume: 5.0
   18740:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18740
-    kineticdamageresistancebonus: -30.170000076293945
+    kineticdamageresistancebonus: -33.52000045776367
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -2915,7 +2915,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18742
-    kineticdamageresistancebonus: -30.170000076293945
+    kineticdamageresistancebonus: -33.52000045776367
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -2932,7 +2932,7 @@ types:
     volume: 5.0
   18744:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.170000076293945
+    explosivedamageresistancebonus: -33.52000045776367
     hp: 40.0
     id: 18744
     marketGroup: 1667
@@ -2951,7 +2951,7 @@ types:
     volume: 5.0
   18746:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.170000076293945
+    explosivedamageresistancebonus: -33.52000045776367
     hp: 40.0
     id: 18746
     marketGroup: 1667
@@ -2970,7 +2970,7 @@ types:
     volume: 5.0
   18748:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.170000076293945
+    emdamageresistancebonus: -33.52000045776367
     hp: 40.0
     id: 18748
     marketGroup: 1668
@@ -2989,7 +2989,7 @@ types:
     volume: 5.0
   18750:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.170000076293945
+    emdamageresistancebonus: -33.52000045776367
     hp: 40.0
     id: 18750
     marketGroup: 1668
@@ -3010,7 +3010,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18752
-    kineticdamageresistancebonus: -32.45000076293945
+    kineticdamageresistancebonus: -36.060001373291016
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -3029,7 +3029,7 @@ types:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18754
-    kineticdamageresistancebonus: -32.45000076293945
+    kineticdamageresistancebonus: -36.060001373291016
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -3046,7 +3046,7 @@ types:
     volume: 5.0
   18756:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -32.45000076293945
+    explosivedamageresistancebonus: -36.060001373291016
     hp: 40.0
     id: 18756
     marketGroup: 1667
@@ -3065,7 +3065,7 @@ types:
     volume: 5.0
   18758:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -32.45000076293945
+    explosivedamageresistancebonus: -36.060001373291016
     hp: 40.0
     id: 18758
     marketGroup: 1667
@@ -3084,7 +3084,7 @@ types:
     volume: 5.0
   18760:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -32.45000076293945
+    emdamageresistancebonus: -36.060001373291016
     hp: 40.0
     id: 18760
     marketGroup: 1668
@@ -3103,7 +3103,7 @@ types:
     volume: 5.0
   18762:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -32.45000076293945
+    emdamageresistancebonus: -36.060001373291016
     hp: 40.0
     id: 18762
     marketGroup: 1668
@@ -3137,7 +3137,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -32.45000076293945
+    thermaldamageresistancebonus: -36.060001373291016
     volume: 5.0
   18766:
     armorhpmultiplier: 1.0
@@ -3156,15 +3156,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -32.45000076293945
+    thermaldamageresistancebonus: -36.060001373291016
     volume: 5.0
   18768:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -17.389999389648438
-    explosivedamageresistancebonus: -17.389999389648438
+    emdamageresistancebonus: -19.31999969482422
+    explosivedamageresistancebonus: -19.31999969482422
     hp: 40.0
     id: 18768
-    kineticdamageresistancebonus: -17.389999389648438
+    kineticdamageresistancebonus: -19.31999969482422
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -3178,13 +3178,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -17.389999389648438
+    thermaldamageresistancebonus: -19.31999969482422
     volume: 5.0
   18770:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18770
-    kineticdamageresistancebonus: -27.90999984741211
+    kineticdamageresistancebonus: -31.010000228881836
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -3201,7 +3201,7 @@ types:
     volume: 5.0
   18772:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.90999984741211
+    explosivedamageresistancebonus: -31.010000228881836
     hp: 40.0
     id: 18772
     marketGroup: 1667
@@ -3220,7 +3220,7 @@ types:
     volume: 5.0
   18775:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.90999984741211
+    emdamageresistancebonus: -31.010000228881836
     hp: 40.0
     id: 18775
     marketGroup: 1668
@@ -3254,15 +3254,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.90999984741211
+    thermaldamageresistancebonus: -31.010000228881836
     volume: 5.0
   18779:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -19.950000762939453
-    explosivedamageresistancebonus: -19.950000762939453
+    emdamageresistancebonus: -22.170000076293945
+    explosivedamageresistancebonus: -22.170000076293945
     hp: 40.0
     id: 18779
-    kineticdamageresistancebonus: -19.950000762939453
+    kineticdamageresistancebonus: -22.170000076293945
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -3276,13 +3276,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -19.950000762939453
+    thermaldamageresistancebonus: -22.170000076293945
     volume: 5.0
   18781:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18781
-    kineticdamageresistancebonus: -30.170000076293945
+    kineticdamageresistancebonus: -33.52000045776367
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -3299,7 +3299,7 @@ types:
     volume: 5.0
   18783:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -30.170000076293945
+    explosivedamageresistancebonus: -33.52000045776367
     hp: 40.0
     id: 18783
     marketGroup: 1667
@@ -3318,7 +3318,7 @@ types:
     volume: 5.0
   18785:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -30.170000076293945
+    emdamageresistancebonus: -33.52000045776367
     hp: 40.0
     id: 18785
     marketGroup: 1668
@@ -3352,15 +3352,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -30.170000076293945
+    thermaldamageresistancebonus: -33.52000045776367
     volume: 5.0
   18789:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -22.5
-    explosivedamageresistancebonus: -22.5
+    emdamageresistancebonus: -25.0
+    explosivedamageresistancebonus: -25.0
     hp: 40.0
     id: 18789
-    kineticdamageresistancebonus: -22.5
+    kineticdamageresistancebonus: -25.0
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
@@ -3374,13 +3374,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -22.5
+    thermaldamageresistancebonus: -25.0
     volume: 5.0
   18791:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 18791
-    kineticdamageresistancebonus: -32.45000076293945
+    kineticdamageresistancebonus: -36.060001373291016
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
@@ -3397,7 +3397,7 @@ types:
     volume: 5.0
   18793:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -32.45000076293945
+    explosivedamageresistancebonus: -36.060001373291016
     hp: 40.0
     id: 18793
     marketGroup: 1667
@@ -3416,7 +3416,7 @@ types:
     volume: 5.0
   18795:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -32.45000076293945
+    emdamageresistancebonus: -36.060001373291016
     hp: 40.0
     id: 18795
     marketGroup: 1668
@@ -3450,15 +3450,15 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -32.45000076293945
+    thermaldamageresistancebonus: -36.060001373291016
     volume: 5.0
   28520:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -16.3700008392334
-    explosivedamageresistancebonus: -16.3700008392334
+    emdamageresistancebonus: -18.190000534057617
+    explosivedamageresistancebonus: -18.190000534057617
     hp: 40.0
     id: 28520
-    kineticdamageresistancebonus: -16.3700008392334
+    kineticdamageresistancebonus: -18.190000534057617
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
@@ -3472,13 +3472,13 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -16.3700008392334
+    thermaldamageresistancebonus: -18.190000534057617
     volume: 5.0
   28547:
     armorhpmultiplier: 1.0
     hp: 40.0
     id: 28547
-    kineticdamageresistancebonus: -27.0
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
@@ -3495,7 +3495,7 @@ types:
     volume: 5.0
   28552:
     armorhpmultiplier: 1.0
-    explosivedamageresistancebonus: -27.0
+    explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 28552
     marketGroup: 1667
@@ -3514,7 +3514,7 @@ types:
     volume: 5.0
   28554:
     armorhpmultiplier: 1.0
-    emdamageresistancebonus: -27.0
+    emdamageresistancebonus: -30.0
     hp: 40.0
     id: 28554
     marketGroup: 1668
@@ -3548,7 +3548,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.0
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   32809:
     armorhpmultiplier: 1.0
@@ -3567,5 +3567,5 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -27.0
+    thermaldamageresistancebonus: -30.0
     volume: 5.0

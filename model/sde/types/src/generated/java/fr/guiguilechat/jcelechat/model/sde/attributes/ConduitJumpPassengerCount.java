@@ -18,7 +18,7 @@ public class ConduitJumpPassengerCount
 
     @Override
     public boolean getHighIsGood() {
-        return false;
+        return true;
     }
 
     @Override

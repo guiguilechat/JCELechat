@@ -340,3 +340,146 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  88012:
+    id: 88012
+    industryblueprintrank: 200.0
+    marketGroup: 3738
+    name: Power Monitoring Division 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88014:
+    id: 88014
+    industryblueprintrank: 200.0
+    marketGroup: 3738
+    name: Workforce Mecha-Tooling 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88020:
+    id: 88020
+    industryblueprintrank: 200.0
+    marketGroup: 3742
+    name: Exploration Detector 1 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6.0E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88029:
+    id: 88029
+    industryblueprintrank: 200.0
+    marketGroup: 3742
+    name: Exploration Detector 2 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88036:
+    id: 88036
+    industryblueprintrank: 200.0
+    marketGroup: 3742
+    name: Exploration Detector 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88075:
+    id: 88075
+    industryblueprintrank: 200.0
+    marketGroup: 3740
+    name: Gamma Stability Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88076:
+    id: 88076
+    industryblueprintrank: 200.0
+    marketGroup: 3740
+    name: Plasma Stability Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88077:
+    id: 88077
+    industryblueprintrank: 200.0
+    marketGroup: 3740
+    name: Electric Stability Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88078:
+    id: 88078
+    industryblueprintrank: 200.0
+    marketGroup: 3740
+    name: Exotic Stability Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E8
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88230:
+    id: 88230
+    industryblueprintrank: 200.0
+    marketGroup: 3738
+    name: Power Monitoring Division 2 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88231:
+    id: 88231
+    industryblueprintrank: 200.0
+    marketGroup: 3738
+    name: Power Monitoring Division 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.2E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88232:
+    id: 88232
+    industryblueprintrank: 200.0
+    marketGroup: 3738
+    name: Workforce Mecha-Tooling 2 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
+  88233:
+    id: 88233
+    industryblueprintrank: 200.0
+    marketGroup: 3738
+    name: Workforce Mecha-Tooling 3 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.2E9
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

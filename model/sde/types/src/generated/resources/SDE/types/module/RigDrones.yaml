@@ -97,7 +97,7 @@ types:
     upgradecost: 100
     volume: 20.0
   25920:
-    damagemultiplierbonus: 10
+    damagemultiplierbonus: 10.0
     drawback: -10
     hp: 40.0
     id: 25920
@@ -233,7 +233,7 @@ types:
     upgradecost: 75
     volume: 20.0
   26338:
-    damagemultiplierbonus: 15
+    damagemultiplierbonus: 15.0
     drawback: -10
     hp: 40.0
     id: 26338
@@ -669,7 +669,7 @@ types:
     upgradecost: 75
     volume: 10.0
   32081:
-    damagemultiplierbonus: 10
+    damagemultiplierbonus: 10.0
     drawback: -10
     hp: 40.0
     id: 32081
@@ -685,7 +685,7 @@ types:
     upgradecost: 200
     volume: 5.0
   32083:
-    damagemultiplierbonus: 10
+    damagemultiplierbonus: 10.0
     drawback: -10
     hp: 40.0
     id: 32083
@@ -701,7 +701,7 @@ types:
     upgradecost: 200
     volume: 10.0
   32085:
-    damagemultiplierbonus: 15
+    damagemultiplierbonus: 15.0
     drawback: -10
     hp: 40.0
     id: 32085
@@ -718,7 +718,7 @@ types:
     upgradecost: 300
     volume: 5.0
   32087:
-    damagemultiplierbonus: 15
+    damagemultiplierbonus: 15.0
     drawback: -10
     hp: 40.0
     id: 32087
@@ -1001,7 +1001,7 @@ types:
     upgradecost: 75
     volume: 40.0
   33307:
-    damagemultiplierbonus: 10
+    damagemultiplierbonus: 10.0
     drawback: -10
     hp: 40.0
     id: 33307
@@ -1017,7 +1017,7 @@ types:
     upgradecost: 200
     volume: 40.0
   33309:
-    damagemultiplierbonus: 15
+    damagemultiplierbonus: 15.0
     drawback: -10
     hp: 40.0
     id: 33309

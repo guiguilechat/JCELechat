@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Ship Role Bonus. Not multiplied by skills.
  */
 public class ShipBonusRole3
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final ShipBonusRole3 INSTANCE = new ShipBonusRole3();
 

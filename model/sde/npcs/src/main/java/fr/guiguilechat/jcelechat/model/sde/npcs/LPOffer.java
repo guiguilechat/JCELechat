@@ -65,8 +65,8 @@ public class LPOffer {
 
 	public static class Requirements {
 		public ArrayList<ItemRef> items = new ArrayList<>();
-		public int isk;
-		public int lp;
+		public long isk;
+		public long lp;
 	}
 
 	public Requirements requirements = new Requirements();

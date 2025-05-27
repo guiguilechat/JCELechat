@@ -43,6 +43,7 @@ types:
     maincolor: 16777215
     marketGroup: 631
     mass: 2.0E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 3
     maxpassengers: 130
     maxtargetrange: 55000.0
@@ -138,6 +139,7 @@ types:
     maincolor: 16777215
     marketGroup: 632
     mass: 1.9E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 3
     maxpassengers: 200
     maxtargetrange: 50000.0
@@ -234,6 +236,7 @@ types:
     maincolor: 16777215
     marketGroup: 633
     mass: 1.92E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 3
     maxpassengers: 150
     maxtargetrange: 40000.0
@@ -331,6 +334,7 @@ types:
     maincolor: 16777215
     marketGroup: 630
     mass: 1.95E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 3
     maxpassengers: 300
     maxtargetrange: 45000.0
@@ -427,6 +431,7 @@ types:
     maincolor: 16777215
     marketGroup: 3578
     mass: 1.98E7
+    maxdirectionalscanrange: 2.147483648E12
     maxlockedtargets: 5
     maxpassengers: 130
     maxtargetrange: 45000.0

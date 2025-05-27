@@ -15,6 +15,7 @@ types:
     maxgroupfitted: 1
     maxrange: 10500.0
     name: Heavy Mutadaptive Remote Armor Repairer I
+    overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
@@ -46,6 +47,7 @@ types:
     maxrange: 11625.0
     metalevelold: 1
     name: Heavy Mutadaptive Scoped Remote Armor Repairer
+    overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
@@ -77,6 +79,7 @@ types:
     maxrange: 10750.0
     metalevelold: 1
     name: Heavy Mutadaptive Compact Remote Armor Repairer
+    overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
@@ -108,6 +111,7 @@ types:
     maxrange: 12000.0
     metalevelold: 5
     name: Heavy Mutadaptive Remote Armor Repairer II
+    overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
@@ -139,6 +143,7 @@ types:
     maxrange: 12500.0
     metalevelold: 8
     name: Perun Heavy Mutadaptive Remote Armor Repairer
+    overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1

@@ -57,6 +57,7 @@ types:
     maincolor: 16777215
     marketGroup: 2272
     mass: 1.31E9
+    maxdirectionalscanrange: 2.147483648E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -101,7 +102,7 @@ types:
     shipbonusforceauxiliarya4: 1
     shipbonusrole1: -50.0
     shipbonusrole2: 200
-    shipbonusrole3: 1
+    shipbonusrole3: 1.0
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 10500.0
@@ -177,6 +178,7 @@ types:
     maincolor: 16777215
     marketGroup: 2273
     mass: 1.3E9
+    maxdirectionalscanrange: 2.147483648E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -221,7 +223,7 @@ types:
     shipbonusforceauxiliaryc4: 1
     shipbonusrole1: -50.0
     shipbonusrole2: 200
-    shipbonusrole3: 1
+    shipbonusrole3: 1.0
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 10700.0
@@ -297,6 +299,7 @@ types:
     maincolor: 16777215
     marketGroup: 2275
     mass: 1.26E9
+    maxdirectionalscanrange: 2.147483648E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -341,7 +344,7 @@ types:
     shipbonusforceauxiliarym4: 1
     shipbonusrole1: -50.0
     shipbonusrole2: 200
-    shipbonusrole3: 1
+    shipbonusrole3: 1.0
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 10400.0
@@ -417,6 +420,7 @@ types:
     maincolor: 16777215
     marketGroup: 2274
     mass: 1.25E9
+    maxdirectionalscanrange: 2.147483648E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -461,7 +465,7 @@ types:
     shipbonusforceauxiliaryg4: 1
     shipbonusrole1: -50.0
     shipbonusrole2: 200
-    shipbonusrole3: 1
+    shipbonusrole3: 1.0
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 10600.0
@@ -537,6 +541,7 @@ types:
     maincolor: 16777215
     marketGroup: 2357
     mass: 1.31E9
+    maxdirectionalscanrange: 2.147483648E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -585,7 +590,7 @@ types:
     shipbonusforceauxiliarym2: 5.0
     shipbonusrole1: -50.0
     shipbonusrole2: 200
-    shipbonusrole3: 1
+    shipbonusrole3: 1.0
     shipbonusrole4: -90
     shipbonusrole5: -90
     shipbonusrole7: 1.0
@@ -664,6 +669,7 @@ types:
     maincolor: 16777215
     marketGroup: 2357
     mass: 1.3E9
+    maxdirectionalscanrange: 2.147483648E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -710,7 +716,7 @@ types:
     shipbonusforceauxiliaryg1: 5
     shipbonusrole1: -50.0
     shipbonusrole2: 1000
-    shipbonusrole3: 1
+    shipbonusrole3: 1.0
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 11700.0

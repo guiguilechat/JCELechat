@@ -41,6 +41,7 @@ types:
     maincolor: 16777215
     marketGroup: 80
     mass: 9.93E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -135,6 +136,7 @@ types:
     maincolor: 16777215
     marketGroup: 78
     mass: 9.95E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -228,6 +230,7 @@ types:
     maincolor: 16777215
     marketGroup: 80
     mass: 1.036E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -320,6 +323,7 @@ types:
     maincolor: 16777215
     marketGroup: 81
     mass: 9.84E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -413,6 +417,7 @@ types:
     maincolor: 16777215
     marketGroup: 79
     mass: 9.71E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 999
@@ -506,6 +511,7 @@ types:
     maincolor: 16777215
     marketGroup: 79
     mass: 1.052E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -599,6 +605,7 @@ types:
     maincolor: 16777215
     marketGroup: 78
     mass: 1.006E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -691,6 +698,7 @@ types:
     maincolor: 16777215
     marketGroup: 81
     mass: 1.0025E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -784,6 +792,7 @@ types:
     maincolor: 16777215
     marketGroup: 1620
     mass: 9.93E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 999
@@ -877,6 +886,7 @@ types:
     maincolor: 16777215
     marketGroup: 1620
     mass: 9.71E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -971,6 +981,7 @@ types:
     maincolor: 16777215
     marketGroup: 1620
     mass: 1.052E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1067,6 +1078,7 @@ types:
     maincolor: 16777215
     marketGroup: 1379
     mass: 9.73E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1161,6 +1173,7 @@ types:
     maincolor: 16777215
     marketGroup: 1379
     mass: 9.71E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1256,6 +1269,7 @@ types:
     maincolor: 16777215
     marketGroup: 1379
     mass: 9.84E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1352,6 +1366,7 @@ types:
     maincolor: 16777215
     marketGroup: 1379
     mass: 1.033E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1446,6 +1461,7 @@ types:
     maincolor: 16777215
     marketGroup: 1380
     mass: 9.93E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1544,6 +1560,7 @@ types:
     maincolor: 16777215
     marketGroup: 1380
     mass: 9.468E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1642,6 +1659,7 @@ types:
     maincolor: 16777215
     marketGroup: 1380
     mass: 1.052E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1740,6 +1758,7 @@ types:
     maincolor: 16777215
     marketGroup: 1380
     mass: 9.93E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -1837,6 +1856,7 @@ types:
     maincolor: 16777215
     marketGroup: 1380
     mass: 9.71E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 8
     maxpassengers: 999
@@ -1935,6 +1955,7 @@ types:
     maincolor: 16777215
     marketGroup: 80
     mass: 1.053E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2028,6 +2049,7 @@ types:
     maincolor: 16777215
     marketGroup: 81
     mass: 1.002E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2122,6 +2144,7 @@ types:
     maincolor: 16777215
     marketGroup: 79
     mass: 1.032E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2214,6 +2237,7 @@ types:
     maincolor: 16777215
     marketGroup: 78
     mass: 1.036E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2307,6 +2331,7 @@ types:
     maincolor: 16777215
     marketGroup: 1620
     mass: 9.93E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2403,6 +2428,7 @@ types:
     maincolor: 16777215
     marketGroup: 1620
     mass: 1.033E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2498,6 +2524,7 @@ types:
     maincolor: 16777215
     marketGroup: 1379
     mass: 1.052E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2591,6 +2618,7 @@ types:
     maincolor: 16777215
     marketGroup: 1379
     mass: 9.71E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2688,6 +2716,7 @@ types:
     maincolor: 16777215
     marketGroup: 1379
     mass: 1.036E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2783,6 +2812,7 @@ types:
     maincolor: 16777215
     marketGroup: 1379
     mass: 1.026E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -2878,6 +2908,7 @@ types:
     maincolor: 16777215
     marketGroup: 1380
     mass: 2.0E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -2981,6 +3012,7 @@ types:
     maincolor: 16777215
     marketGroup: 1380
     mass: 9.8467E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -3078,6 +3110,7 @@ types:
     maincolor: 16777215
     marketGroup: 2430
     mass: 7.8E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 999
@@ -3112,8 +3145,8 @@ types:
     shipbonusab: 5.0
     shipbonuscb: 5
     shipbonusmb: 5.0
-    shipbonuspbs1: -5
-    shipbonuspbs2: 5
+    shipbonuspbs1: -5.0
+    shipbonuspbs2: 5.0
     shipbonusrole1: 100.0
     shipbonusrole2: -50
     shipbonusub1: 1
@@ -3171,6 +3204,7 @@ types:
     maincolor: 16777215
     marketGroup: 1620
     mass: 8.7E7
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000
@@ -3266,6 +3300,7 @@ types:
     maincolor: 16777215
     marketGroup: 3538
     mass: 1.02141E8
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxpassengers: 1000

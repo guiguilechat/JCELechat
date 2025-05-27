@@ -52,6 +52,7 @@ types:
     maincolor: 16777215
     marketGroup: 2336
     mass: 1.5E8
+    maxdirectionalscanrange: 2.147483648E12
     maxgangmodules: 2
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -158,6 +159,7 @@ types:
     maincolor: 16777215
     marketGroup: 2336
     mass: 4500000.0
+    maxdirectionalscanrange: 2.147483648E12
     maxgangmodules: 1
     maxlockedtargets: 5
     maxoperationaldistance: 5000

@@ -29,3 +29,33 @@ types:
     resistanceshiftamount: 6
     techlevel: 1
     volume: 25.0
+  88709:
+    armoremdamageresonance: 0.8399999737739563
+    armorexplosivedamageresonance: 0.8399999737739563
+    armorkineticdamageresonance: 0.8399999737739563
+    armorthermaldamageresonance: 0.8399999737739563
+    capacitorneed: 28.0
+    cpu: 18.0
+    duration: 8000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 88709
+    marketGroup: 1416
+    mass: 1.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metalevelold: 6
+    name: Xarasier Reactive Armor Hardener
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 25.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    resistanceshiftamount: 6
+    techlevel: 1
+    volume: 25.0

@@ -69,6 +69,7 @@ types:
     name: Legion Offensive - Support Processor
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 75
     published: true
     radius: 500.0
     remotearmorrepairerfalloffbonus: 1150
@@ -153,6 +154,7 @@ types:
     name: Tengu Offensive - Support Processor
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 60
     published: true
     radius: 500.0
     remoteshieldboosterfalloffbonus: 475
@@ -239,6 +241,7 @@ types:
     name: Proteus Offensive - Support Processor
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 75
     published: true
     radius: 500.0
     remotearmorrepairerfalloffbonus: 1150
@@ -328,6 +331,7 @@ types:
     name: Loki Offensive - Support Processor
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 60
     published: true
     radius: 500.0
     remotearmorrepairerfalloffbonus: 1150

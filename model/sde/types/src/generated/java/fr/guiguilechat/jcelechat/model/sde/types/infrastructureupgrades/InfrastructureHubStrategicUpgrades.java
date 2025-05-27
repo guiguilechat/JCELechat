@@ -16,7 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DevIndexSovereignty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SovBillSystemCost;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SovBillSystemCostDEPRECATED;
 import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -32,13 +32,13 @@ public class InfrastructureHubStrategicUpgrades
     @DefaultIntValue(0)
     public int devindexsovereignty;
     /**
-     * The sum of this attribute on the claim markers, Infrastructure hub, and each upgrade is the systems base cost. 
+     * [DEPRECATED] The sum of this attribute on the claim markers, Infrastructure hub, and each upgrade is the systems base cost. 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int sovbillsystemcost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, SovBillSystemCost.INSTANCE, Capacity.INSTANCE, DevIndexSovereignty.INSTANCE })));
+    public int sovbillsystemcostdeprecated;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, SovBillSystemCostDEPRECATED.INSTANCE, Capacity.INSTANCE, DevIndexSovereignty.INSTANCE })));
     public static final InfrastructureHubStrategicUpgrades.MetaGroup METAGROUP = new InfrastructureHubStrategicUpgrades.MetaGroup();
 
     @Override
@@ -50,7 +50,7 @@ public class InfrastructureHubStrategicUpgrades
             }
             case  1603 :
             {
-                return sovbillsystemcost;
+                return sovbillsystemcostdeprecated;
             }
             default:
             {

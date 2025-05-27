@@ -120,3 +120,11 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  88856:
+    id: 88856
+    mass: 1.0
+    name: Kikimora Pilot
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

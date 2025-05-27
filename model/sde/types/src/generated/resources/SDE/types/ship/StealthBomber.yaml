@@ -42,6 +42,7 @@ types:
     maincolor: 16777215
     marketGroup: 423
     mass: 1410000.0
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 3000
     maxlockedtargets: 6
     maxpassengers: 15
@@ -138,6 +139,7 @@ types:
     maincolor: 16777215
     marketGroup: 422
     mass: 1470000.0
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 3000
     maxlockedtargets: 6
     maxpassengers: 15
@@ -234,6 +236,7 @@ types:
     maincolor: 16777215
     marketGroup: 424
     mass: 1455000.0
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 3000
     maxlockedtargets: 6
     maxpassengers: 15
@@ -330,6 +333,7 @@ types:
     maincolor: 16777215
     marketGroup: 421
     mass: 1495000.0
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 3000
     maxlockedtargets: 6
     maxpassengers: 15
@@ -426,6 +430,7 @@ types:
     maincolor: 16777215
     marketGroup: 1838
     mass: 1410000.0
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 3000
     maxlockedtargets: 6
     maxpassengers: 15
@@ -471,7 +476,7 @@ types:
     shipbonusmf2: 10.0
     shipbonusrole1: -33.0
     shipbonusrole2: -25
-    shipbonusrole3: -100
+    shipbonusrole3: -100.0
     shipbonusrole7: -100.0
     signatureradius: 42.0
     specialboosterholdcapacity: 50

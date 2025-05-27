@@ -3,14 +3,14 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
-public class RemoteRepDurationBonus
+public class ImplantSetHackingVirusCoherenceOmegaSetBonus
     extends RealAttribute
 {
-    public static final RemoteRepDurationBonus INSTANCE = new RemoteRepDurationBonus();
+    public static final ImplantSetHackingVirusCoherenceOmegaSetBonus INSTANCE = new ImplantSetHackingVirusCoherenceOmegaSetBonus();
 
     @Override
     public int getId() {
-        return  3024;
+        return  5798;
     }
 
     @Override
@@ -20,12 +20,12 @@ public class RemoteRepDurationBonus
 
     @Override
     public Number getDefaultValue() {
-        return  0.0;
+        return  1.0;
     }
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -35,6 +35,6 @@ public class RemoteRepDurationBonus
 
     @Override
     public String toString() {
-        return "RemoteRepDurationBonus";
+        return "ImplantSetHackingVirusCoherenceOmegaSetBonus";
     }
 }

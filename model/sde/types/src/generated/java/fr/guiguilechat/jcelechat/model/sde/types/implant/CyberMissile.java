@@ -61,8 +61,8 @@ public class CyberMissile
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int damagemultiplierbonus;
+    @DefaultRealValue(0.0)
+    public double damagemultiplierbonus;
     /**
      * Whether an item is an implant or not
      */

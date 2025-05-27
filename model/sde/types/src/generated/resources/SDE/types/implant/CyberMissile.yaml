@@ -282,7 +282,7 @@ types:
     techlevel: 1
     volume: 1.0
   3149:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3149
     implantness: 6
     marketGroup: 1493
@@ -298,7 +298,7 @@ types:
     techlevel: 1
     volume: 1.0
   3150:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3150
     implantness: 6
     marketGroup: 1493
@@ -314,7 +314,7 @@ types:
     techlevel: 1
     volume: 1.0
   3151:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3151
     implantness: 6
     marketGroup: 1493
@@ -378,7 +378,7 @@ types:
     techlevel: 1
     volume: 1.0
   3157:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3157
     implantness: 7
     marketGroup: 1494
@@ -394,7 +394,7 @@ types:
     techlevel: 1
     volume: 1.0
   3158:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3158
     implantness: 7
     marketGroup: 1494
@@ -410,7 +410,7 @@ types:
     techlevel: 1
     volume: 1.0
   3159:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3159
     implantness: 7
     marketGroup: 1494
@@ -474,7 +474,7 @@ types:
     techlevel: 1
     volume: 1.0
   3165:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3165
     implantness: 7
     marketGroup: 1494
@@ -490,7 +490,7 @@ types:
     techlevel: 1
     volume: 1.0
   3166:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3166
     implantness: 7
     marketGroup: 1494
@@ -506,7 +506,7 @@ types:
     techlevel: 1
     volume: 1.0
   3167:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3167
     implantness: 7
     marketGroup: 1494
@@ -522,7 +522,7 @@ types:
     techlevel: 1
     volume: 1.0
   3168:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3168
     implantness: 9
     marketGroup: 1496
@@ -538,7 +538,7 @@ types:
     techlevel: 1
     volume: 1.0
   3169:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3169
     implantness: 9
     marketGroup: 1496
@@ -554,7 +554,7 @@ types:
     techlevel: 1
     volume: 1.0
   3172:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3172
     implantness: 9
     marketGroup: 1496
@@ -570,7 +570,7 @@ types:
     techlevel: 1
     volume: 1.0
   3173:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3173
     implantness: 9
     marketGroup: 1496
@@ -586,7 +586,7 @@ types:
     techlevel: 1
     volume: 1.0
   3174:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3174
     implantness: 9
     marketGroup: 1496
@@ -602,7 +602,7 @@ types:
     techlevel: 1
     volume: 1.0
   3175:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3175
     implantness: 9
     marketGroup: 1496
@@ -618,7 +618,7 @@ types:
     techlevel: 1
     volume: 1.0
   3176:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3176
     implantness: 6
     marketGroup: 1493
@@ -634,7 +634,7 @@ types:
     techlevel: 1
     volume: 1.0
   3177:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3177
     implantness: 6
     marketGroup: 1493
@@ -650,7 +650,7 @@ types:
     techlevel: 1
     volume: 1.0
   3180:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3180
     implantness: 6
     marketGroup: 1493
@@ -666,7 +666,7 @@ types:
     techlevel: 1
     volume: 1.0
   3181:
-    damagemultiplierbonus: 2
+    damagemultiplierbonus: 2.0
     id: 3181
     implantness: 6
     marketGroup: 1493
@@ -682,7 +682,7 @@ types:
     techlevel: 1
     volume: 1.0
   3182:
-    damagemultiplierbonus: 4
+    damagemultiplierbonus: 4.0
     id: 3182
     implantness: 6
     marketGroup: 1493
@@ -698,7 +698,7 @@ types:
     techlevel: 1
     volume: 1.0
   3183:
-    damagemultiplierbonus: 6
+    damagemultiplierbonus: 6.0
     id: 3183
     implantness: 6
     marketGroup: 1493
@@ -714,7 +714,7 @@ types:
     techlevel: 1
     volume: 1.0
   13226:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13226
     implantness: 6
     marketGroup: 1493
@@ -762,7 +762,7 @@ types:
     techlevel: 1
     volume: 1.0
   13229:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13229
     implantness: 7
     marketGroup: 1494
@@ -778,7 +778,7 @@ types:
     techlevel: 1
     volume: 1.0
   13230:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13230
     implantness: 9
     marketGroup: 1496
@@ -794,7 +794,7 @@ types:
     techlevel: 1
     volume: 1.0
   13231:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 13231
     implantness: 6
     marketGroup: 1493
@@ -1107,7 +1107,7 @@ types:
     techlevel: 1
     volume: 1.0
   27108:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 27108
     implantness: 9
     marketGroup: 1496
@@ -1123,7 +1123,7 @@ types:
     techlevel: 1
     volume: 1.0
   27109:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 27109
     implantness: 7
     marketGroup: 1494
@@ -1139,7 +1139,7 @@ types:
     techlevel: 1
     volume: 1.0
   27204:
-    damagemultiplierbonus: 3
+    damagemultiplierbonus: 3.0
     id: 27204
     implantness: 6
     name: Hardwiring - Zainou 'Sharpshooter' ZMX100
@@ -1154,7 +1154,7 @@ types:
     techlevel: 1
     volume: 1.0
   27205:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 27205
     implantness: 6
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1000
@@ -1169,7 +1169,7 @@ types:
     techlevel: 1
     volume: 1.0
   27206:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27206
     implantness: 6
     name: Hardwiring - Zainou 'Sharpshooter' ZMX10
@@ -1216,7 +1216,7 @@ types:
     techlevel: 1
     volume: 1.0
   27245:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 27245
     implantness: 7
     marketGroup: 1494
@@ -1232,7 +1232,7 @@ types:
     techlevel: 1
     volume: 1.0
   27246:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27246
     implantness: 7
     marketGroup: 1494
@@ -1280,7 +1280,7 @@ types:
     techlevel: 1
     volume: 1.0
   27250:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 27250
     implantness: 7
     marketGroup: 1494
@@ -1296,7 +1296,7 @@ types:
     techlevel: 1
     volume: 1.0
   27251:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27251
     implantness: 7
     marketGroup: 1494
@@ -1312,7 +1312,7 @@ types:
     techlevel: 1
     volume: 1.0
   27252:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 27252
     implantness: 9
     marketGroup: 1496
@@ -1328,7 +1328,7 @@ types:
     techlevel: 1
     volume: 1.0
   27253:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27253
     implantness: 9
     marketGroup: 1496
@@ -1344,7 +1344,7 @@ types:
     techlevel: 1
     volume: 1.0
   27254:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 27254
     implantness: 9
     marketGroup: 1496
@@ -1360,7 +1360,7 @@ types:
     techlevel: 1
     volume: 1.0
   27255:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27255
     implantness: 9
     marketGroup: 1496
@@ -1376,7 +1376,7 @@ types:
     techlevel: 1
     volume: 1.0
   27256:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 27256
     implantness: 6
     marketGroup: 1493
@@ -1392,7 +1392,7 @@ types:
     techlevel: 1
     volume: 1.0
   27257:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27257
     implantness: 6
     marketGroup: 1493
@@ -1408,7 +1408,7 @@ types:
     techlevel: 1
     volume: 1.0
   27258:
-    damagemultiplierbonus: 5
+    damagemultiplierbonus: 5.0
     id: 27258
     implantness: 6
     marketGroup: 1493
@@ -1424,7 +1424,7 @@ types:
     techlevel: 1
     volume: 1.0
   27259:
-    damagemultiplierbonus: 1
+    damagemultiplierbonus: 1.0
     id: 27259
     implantness: 6
     marketGroup: 1493

@@ -55,6 +55,7 @@ types:
     maincolor: 16777215
     marketGroup: 3515
     mass: 1.25E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -173,6 +174,7 @@ types:
     maincolor: 16777215
     marketGroup: 3512
     mass: 1.29E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -288,6 +290,7 @@ types:
     maincolor: 16777215
     marketGroup: 3513
     mass: 1.27E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -404,6 +407,7 @@ types:
     maincolor: 16777215
     marketGroup: 3514
     mass: 1.26E9
+    maxdirectionalscanrange: 2.147483648E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
     maxoperationaldistance: 5000

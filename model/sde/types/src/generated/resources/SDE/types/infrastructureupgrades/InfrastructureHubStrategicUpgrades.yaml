@@ -10,7 +10,7 @@ types:
     price: 2.0E8
     published: true
     radius: 1.0
-    sovbillsystemcost: 30000000
+    sovbillsystemcostdeprecated: 30000000
     volume: 200000.0
   2008:
     devindexsovereignty: 2
@@ -23,7 +23,7 @@ types:
     price: 1.0E8
     published: true
     radius: 1.0
-    sovbillsystemcost: 5000000
+    sovbillsystemcostdeprecated: 5000000
     volume: 200000.0
   2009:
     devindexsovereignty: 1
@@ -36,7 +36,7 @@ types:
     price: 5.0E7
     published: true
     radius: 1.0
-    sovbillsystemcost: 40000000
+    sovbillsystemcostdeprecated: 40000000
     volume: 200000.0
   32422:
     devindexsovereignty: 3
@@ -49,5 +49,5 @@ types:
     price: 1.5E8
     published: true
     radius: 1.0
-    sovbillsystemcost: 20000000
+    sovbillsystemcostdeprecated: 20000000
     volume: 200000.0

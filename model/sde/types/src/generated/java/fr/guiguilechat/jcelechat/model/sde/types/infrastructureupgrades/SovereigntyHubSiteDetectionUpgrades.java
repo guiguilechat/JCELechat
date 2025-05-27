@@ -50,7 +50,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class SovereigntyHubAnomalyDetectionUpgrades
+public class SovereigntyHubSiteDetectionUpgrades
     extends InfrastructureUpgrades
 {
     /**
@@ -271,7 +271,7 @@ public class SovereigntyHubAnomalyDetectionUpgrades
     @DefaultIntValue(0)
     public int distributionidserpentis05;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DistributionIDRogueDrone04 .INSTANCE, DistributionIDRogueDrone05 .INSTANCE, DistributionIDSansha01 .INSTANCE, DistributionIDSansha02 .INSTANCE, DistributionIDSansha03 .INSTANCE, DistributionIDSansha04 .INSTANCE, DistributionIDSansha05 .INSTANCE, DistributionIDSerpentis01 .INSTANCE, DistributionIDSerpentis02 .INSTANCE, DistributionIDSerpentis03 .INSTANCE, DistributionIDSerpentis04 .INSTANCE, DistributionIDSerpentis05 .INSTANCE, DistributionID01 .INSTANCE, DistributionIDAngel01 .INSTANCE, DistributionIDAngel02 .INSTANCE, DistributionIDAngel03 .INSTANCE, DistributionIDAngel04 .INSTANCE, Radius.INSTANCE, DistributionIDAngel05 .INSTANCE, Capacity.INSTANCE, DistributionIDBlood01 .INSTANCE, DistributionIDBlood02 .INSTANCE, DistributionIDBlood03 .INSTANCE, DistributionIDBlood04 .INSTANCE, DistributionIDBlood05 .INSTANCE, DistributionIDGurista01 .INSTANCE, DistributionIDGurista02 .INSTANCE, DistributionIDGurista03 .INSTANCE, DistributionIDGurista04 .INSTANCE, DistributionIDGurista05 .INSTANCE, DistributionIDRogueDrone01 .INSTANCE, DistributionIDRogueDrone02 .INSTANCE, DistributionIDRogueDrone03 .INSTANCE })));
-    public static final SovereigntyHubAnomalyDetectionUpgrades.MetaGroup METAGROUP = new SovereigntyHubAnomalyDetectionUpgrades.MetaGroup();
+    public static final SovereigntyHubSiteDetectionUpgrades.MetaGroup METAGROUP = new SovereigntyHubSiteDetectionUpgrades.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -413,18 +413,18 @@ public class SovereigntyHubAnomalyDetectionUpgrades
     }
 
     @Override
-    public IMetaGroup<SovereigntyHubAnomalyDetectionUpgrades> getGroup() {
+    public IMetaGroup<SovereigntyHubSiteDetectionUpgrades> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<SovereigntyHubAnomalyDetectionUpgrades>
+        implements IMetaGroup<SovereigntyHubSiteDetectionUpgrades>
     {
-        public static final String RESOURCE_PATH = "SDE/types/infrastructureupgrades/SovereigntyHubAnomalyDetectionUpgrades.yaml";
-        private Map<Integer, SovereigntyHubAnomalyDetectionUpgrades> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/infrastructureupgrades/SovereigntyHubSiteDetectionUpgrades.yaml";
+        private Map<Integer, SovereigntyHubSiteDetectionUpgrades> cache = (null);
 
         @Override
-        public IMetaCategory<? super SovereigntyHubAnomalyDetectionUpgrades> category() {
+        public IMetaCategory<? super SovereigntyHubSiteDetectionUpgrades> category() {
             return InfrastructureUpgrades.METACAT;
         }
 
@@ -435,13 +435,13 @@ public class SovereigntyHubAnomalyDetectionUpgrades
 
         @Override
         public String getName() {
-            return "SovereigntyHubAnomalyDetectionUpgrades";
+            return "SovereigntyHubSiteDetectionUpgrades";
         }
 
         @Override
-        public synchronized Map<Integer, SovereigntyHubAnomalyDetectionUpgrades> load() {
+        public synchronized Map<Integer, SovereigntyHubSiteDetectionUpgrades> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(SovereigntyHubAnomalyDetectionUpgrades.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(SovereigntyHubSiteDetectionUpgrades.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -453,7 +453,7 @@ public class SovereigntyHubAnomalyDetectionUpgrades
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, SovereigntyHubAnomalyDetectionUpgrades> types;
+            public LinkedHashMap<Integer, SovereigntyHubSiteDetectionUpgrades> types;
         }
     }
 }

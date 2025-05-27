@@ -20,13 +20,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -45.0
+    thermaldamageresistancebonus: -50.0
     volume: 5.0
   11301:
     capacitorneed: 30.0
     cpu: 33.0
     duration: 20000.0
-    emdamageresistancebonus: -45.0
+    emdamageresistancebonus: -50.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -49,7 +49,7 @@ types:
     capacitorneed: 30.0
     cpu: 33.0
     duration: 20000.0
-    explosivedamageresistancebonus: -45.0
+    explosivedamageresistancebonus: -50.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -76,7 +76,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 11305
-    kineticdamageresistancebonus: -45.0
+    kineticdamageresistancebonus: -50.0
     marketGroup: 1679
     mass: 1.0
     name: Kinetic Armor Hardener I
@@ -95,7 +95,7 @@ types:
     capacitorneed: 30.0
     cpu: 36.0
     duration: 20000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -123,7 +123,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 11644
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metalevelold: 5
@@ -143,7 +143,7 @@ types:
     capacitorneed: 30.0
     cpu: 36.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -185,13 +185,13 @@ types:
     requiredskill1level: 5
     requiredthermodynamicsskill: 1
     techlevel: 2
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0
   13970:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -216,7 +216,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -241,7 +241,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -266,7 +266,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -295,7 +295,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 13978
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -320,7 +320,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 13980
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -360,7 +360,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0
   13984:
     capacitorneed: 30.0
@@ -385,13 +385,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0
   13986:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -416,7 +416,7 @@ types:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -445,7 +445,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 13990
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -485,13 +485,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0
   14059:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -516,7 +516,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -545,7 +545,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 14063
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -585,13 +585,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0
   15016:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -52.540000915527344
+    emdamageresistancebonus: -58.380001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -616,7 +616,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -52.540000915527344
+    emdamageresistancebonus: -58.380001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -641,7 +641,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -54.22999954223633
+    emdamageresistancebonus: -60.2599983215332
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -666,7 +666,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -54.22999954223633
+    emdamageresistancebonus: -60.2599983215332
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -691,7 +691,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -55.90999984741211
+    emdamageresistancebonus: -62.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -716,7 +716,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -55.90999984741211
+    emdamageresistancebonus: -62.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -741,7 +741,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -57.599998474121094
+    emdamageresistancebonus: -64.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -766,7 +766,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -57.599998474121094
+    emdamageresistancebonus: -64.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -810,7 +810,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -52.540000915527344
+    thermaldamageresistancebonus: -58.380001068115234
     volume: 5.0
   15034:
     capacitorneed: 34.0
@@ -835,7 +835,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -52.540000915527344
+    thermaldamageresistancebonus: -58.380001068115234
     volume: 5.0
   15036:
     capacitorneed: 38.0
@@ -860,7 +860,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -54.22999954223633
+    thermaldamageresistancebonus: -60.2599983215332
     volume: 5.0
   15038:
     capacitorneed: 38.0
@@ -885,7 +885,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -54.22999954223633
+    thermaldamageresistancebonus: -60.2599983215332
     volume: 5.0
   15040:
     capacitorneed: 42.0
@@ -910,7 +910,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -55.90999984741211
+    thermaldamageresistancebonus: -62.119998931884766
     volume: 5.0
   15042:
     capacitorneed: 42.0
@@ -935,7 +935,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -55.90999984741211
+    thermaldamageresistancebonus: -62.119998931884766
     volume: 5.0
   15044:
     capacitorneed: 46.0
@@ -960,7 +960,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -57.599998474121094
+    thermaldamageresistancebonus: -64.0
     volume: 5.0
   15046:
     capacitorneed: 46.0
@@ -985,7 +985,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -57.599998474121094
+    thermaldamageresistancebonus: -64.0
     volume: 5.0
   15048:
     capacitorneed: 34.0
@@ -995,7 +995,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15048
-    kineticdamageresistancebonus: -52.540000915527344
+    kineticdamageresistancebonus: -58.380001068115234
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1020,7 +1020,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15050
-    kineticdamageresistancebonus: -52.540000915527344
+    kineticdamageresistancebonus: -58.380001068115234
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1045,7 +1045,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15052
-    kineticdamageresistancebonus: -54.22999954223633
+    kineticdamageresistancebonus: -60.2599983215332
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1070,7 +1070,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15054
-    kineticdamageresistancebonus: -54.22999954223633
+    kineticdamageresistancebonus: -60.2599983215332
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1095,7 +1095,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15056
-    kineticdamageresistancebonus: -55.90999984741211
+    kineticdamageresistancebonus: -62.119998931884766
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1120,7 +1120,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15058
-    kineticdamageresistancebonus: -55.90999984741211
+    kineticdamageresistancebonus: -62.119998931884766
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1145,7 +1145,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15060
-    kineticdamageresistancebonus: -57.599998474121094
+    kineticdamageresistancebonus: -64.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1170,7 +1170,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15062
-    kineticdamageresistancebonus: -57.599998474121094
+    kineticdamageresistancebonus: -64.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1191,7 +1191,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -52.540000915527344
+    explosivedamageresistancebonus: -58.380001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1216,7 +1216,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -52.540000915527344
+    explosivedamageresistancebonus: -58.380001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1241,7 +1241,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -54.22999954223633
+    explosivedamageresistancebonus: -60.2599983215332
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1266,7 +1266,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -54.22999954223633
+    explosivedamageresistancebonus: -60.2599983215332
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1291,7 +1291,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -55.90999984741211
+    explosivedamageresistancebonus: -62.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1316,7 +1316,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -55.90999984741211
+    explosivedamageresistancebonus: -62.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1341,7 +1341,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -57.599998474121094
+    explosivedamageresistancebonus: -64.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1366,7 +1366,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -57.599998474121094
+    explosivedamageresistancebonus: -64.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1391,7 +1391,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -52.540000915527344
+    emdamageresistancebonus: -58.380001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1416,7 +1416,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -54.22999954223633
+    emdamageresistancebonus: -60.2599983215332
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1441,7 +1441,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -55.90999984741211
+    emdamageresistancebonus: -62.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1466,7 +1466,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -57.599998474121094
+    emdamageresistancebonus: -64.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1510,7 +1510,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -52.540000915527344
+    thermaldamageresistancebonus: -58.380001068115234
     volume: 5.0
   15254:
     capacitorneed: 38.0
@@ -1535,7 +1535,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -54.22999954223633
+    thermaldamageresistancebonus: -60.2599983215332
     volume: 5.0
   15256:
     capacitorneed: 42.0
@@ -1560,7 +1560,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -55.90999984741211
+    thermaldamageresistancebonus: -62.119998931884766
     volume: 5.0
   15258:
     capacitorneed: 46.0
@@ -1585,7 +1585,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -57.599998474121094
+    thermaldamageresistancebonus: -64.0
     volume: 5.0
   15260:
     capacitorneed: 34.0
@@ -1595,7 +1595,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15260
-    kineticdamageresistancebonus: -52.540000915527344
+    kineticdamageresistancebonus: -58.380001068115234
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1620,7 +1620,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15262
-    kineticdamageresistancebonus: -54.22999954223633
+    kineticdamageresistancebonus: -60.2599983215332
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1645,7 +1645,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15264
-    kineticdamageresistancebonus: -55.90999984741211
+    kineticdamageresistancebonus: -62.119998931884766
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1670,7 +1670,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15266
-    kineticdamageresistancebonus: -57.599998474121094
+    kineticdamageresistancebonus: -64.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
@@ -1691,7 +1691,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -52.540000915527344
+    explosivedamageresistancebonus: -58.380001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1716,7 +1716,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -54.22999954223633
+    explosivedamageresistancebonus: -60.2599983215332
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1741,7 +1741,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -55.90999984741211
+    explosivedamageresistancebonus: -62.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1766,7 +1766,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -57.599998474121094
+    explosivedamageresistancebonus: -64.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1810,7 +1810,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0
   15707:
     capacitorneed: 30.0
@@ -1820,7 +1820,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15707
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -1841,7 +1841,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1866,7 +1866,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1910,7 +1910,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0
   15715:
     capacitorneed: 10.0
@@ -1920,7 +1920,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15715
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -1941,7 +1941,7 @@ types:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1966,7 +1966,7 @@ types:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1991,7 +1991,7 @@ types:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    emdamageresistancebonus: -47.25
+    emdamageresistancebonus: -52.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 7.909999847412109
     hp: 40.0
@@ -2015,7 +2015,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -47.25
+    emdamageresistancebonus: -52.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2039,7 +2039,7 @@ types:
     capacitorneed: 10.0
     cpu: 33.0
     duration: 24000.0
-    explosivedamageresistancebonus: -47.25
+    explosivedamageresistancebonus: -52.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 7.909999847412109
     hp: 40.0
@@ -2063,7 +2063,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -47.25
+    explosivedamageresistancebonus: -52.5
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2091,7 +2091,7 @@ types:
     heatdamage: 7.909999847412109
     hp: 40.0
     id: 16373
-    kineticdamageresistancebonus: -47.25
+    kineticdamageresistancebonus: -52.5
     marketGroup: 1679
     mass: 1.0
     metalevelold: 1
@@ -2115,7 +2115,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 16375
-    kineticdamageresistancebonus: -47.25
+    kineticdamageresistancebonus: -52.5
     marketGroup: 1679
     mass: 1.0
     metalevelold: 1
@@ -2153,7 +2153,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.25
+    thermaldamageresistancebonus: -52.5
     volume: 5.0
   16383:
     capacitorneed: 30.0
@@ -2177,13 +2177,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.25
+    thermaldamageresistancebonus: -52.5
     volume: 5.0
   17502:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2208,7 +2208,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2237,7 +2237,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 17506
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -2277,13 +2277,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0
   17832:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2308,7 +2308,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2337,7 +2337,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 17836
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -2377,13 +2377,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0
   18885:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -51.52000045776367
+    emdamageresistancebonus: -57.2400016784668
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2408,7 +2408,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -51.52000045776367
+    emdamageresistancebonus: -57.2400016784668
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2433,7 +2433,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -51.52000045776367
+    explosivedamageresistancebonus: -57.2400016784668
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2458,7 +2458,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -51.52000045776367
+    explosivedamageresistancebonus: -57.2400016784668
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2487,7 +2487,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18893
-    kineticdamageresistancebonus: -51.52000045776367
+    kineticdamageresistancebonus: -57.2400016784668
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -2512,7 +2512,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18895
-    kineticdamageresistancebonus: -51.52000045776367
+    kineticdamageresistancebonus: -57.2400016784668
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -2552,7 +2552,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.52000045776367
+    thermaldamageresistancebonus: -57.2400016784668
     volume: 5.0
   18899:
     capacitorneed: 34.0
@@ -2577,13 +2577,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.52000045776367
+    thermaldamageresistancebonus: -57.2400016784668
     volume: 5.0
   18901:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -53.209999084472656
+    emdamageresistancebonus: -59.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2608,7 +2608,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -53.209999084472656
+    emdamageresistancebonus: -59.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2633,7 +2633,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -53.209999084472656
+    explosivedamageresistancebonus: -59.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2658,7 +2658,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -53.209999084472656
+    explosivedamageresistancebonus: -59.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2687,7 +2687,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18909
-    kineticdamageresistancebonus: -53.209999084472656
+    kineticdamageresistancebonus: -59.119998931884766
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -2712,7 +2712,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18911
-    kineticdamageresistancebonus: -53.209999084472656
+    kineticdamageresistancebonus: -59.119998931884766
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -2752,7 +2752,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -53.209999084472656
+    thermaldamageresistancebonus: -59.119998931884766
     volume: 5.0
   18915:
     capacitorneed: 38.0
@@ -2777,7 +2777,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -53.209999084472656
+    thermaldamageresistancebonus: -59.119998931884766
     volume: 5.0
   18917:
     capacitorneed: 42.0
@@ -2802,7 +2802,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -54.900001525878906
+    thermaldamageresistancebonus: -61.0
     volume: 5.0
   18919:
     capacitorneed: 42.0
@@ -2827,7 +2827,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -54.900001525878906
+    thermaldamageresistancebonus: -61.0
     volume: 5.0
   18921:
     capacitorneed: 42.0
@@ -2837,7 +2837,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18921
-    kineticdamageresistancebonus: -54.900001525878906
+    kineticdamageresistancebonus: -61.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -2862,7 +2862,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18923
-    kineticdamageresistancebonus: -54.900001525878906
+    kineticdamageresistancebonus: -61.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -2883,7 +2883,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -54.900001525878906
+    explosivedamageresistancebonus: -61.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2908,7 +2908,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -54.900001525878906
+    explosivedamageresistancebonus: -61.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2933,7 +2933,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -54.900001525878906
+    emdamageresistancebonus: -61.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2958,7 +2958,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -54.900001525878906
+    emdamageresistancebonus: -61.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2983,7 +2983,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -56.59000015258789
+    emdamageresistancebonus: -62.880001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3008,7 +3008,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -56.59000015258789
+    emdamageresistancebonus: -62.880001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3033,7 +3033,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -56.59000015258789
+    explosivedamageresistancebonus: -62.880001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3058,7 +3058,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -56.59000015258789
+    explosivedamageresistancebonus: -62.880001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3087,7 +3087,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18941
-    kineticdamageresistancebonus: -56.59000015258789
+    kineticdamageresistancebonus: -62.880001068115234
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -3112,7 +3112,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18943
-    kineticdamageresistancebonus: -56.59000015258789
+    kineticdamageresistancebonus: -62.880001068115234
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -3152,7 +3152,7 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -56.59000015258789
+    thermaldamageresistancebonus: -62.880001068115234
     volume: 5.0
   18947:
     capacitorneed: 46.0
@@ -3177,13 +3177,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -56.59000015258789
+    thermaldamageresistancebonus: -62.880001068115234
     volume: 5.0
   18949:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -51.52000045776367
+    emdamageresistancebonus: -57.2400016784668
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3208,7 +3208,7 @@ types:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -51.52000045776367
+    explosivedamageresistancebonus: -57.2400016784668
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3237,7 +3237,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18953
-    kineticdamageresistancebonus: -51.52000045776367
+    kineticdamageresistancebonus: -57.2400016784668
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -3277,13 +3277,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.52000045776367
+    thermaldamageresistancebonus: -57.2400016784668
     volume: 5.0
   18957:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -53.209999084472656
+    emdamageresistancebonus: -59.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3308,7 +3308,7 @@ types:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -53.209999084472656
+    explosivedamageresistancebonus: -59.119998931884766
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3337,7 +3337,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18961
-    kineticdamageresistancebonus: -53.209999084472656
+    kineticdamageresistancebonus: -59.119998931884766
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -3377,13 +3377,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -53.209999084472656
+    thermaldamageresistancebonus: -59.119998931884766
     volume: 5.0
   18965:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -54.900001525878906
+    emdamageresistancebonus: -61.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3408,7 +3408,7 @@ types:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -54.900001525878906
+    explosivedamageresistancebonus: -61.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3437,7 +3437,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18969
-    kineticdamageresistancebonus: -54.900001525878906
+    kineticdamageresistancebonus: -61.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -3477,13 +3477,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -54.900001525878906
+    thermaldamageresistancebonus: -61.0
     volume: 5.0
   18973:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -56.59000015258789
+    emdamageresistancebonus: -62.880001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3508,7 +3508,7 @@ types:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -56.59000015258789
+    explosivedamageresistancebonus: -62.880001068115234
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3537,7 +3537,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18977
-    kineticdamageresistancebonus: -56.59000015258789
+    kineticdamageresistancebonus: -62.880001068115234
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
@@ -3577,13 +3577,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -56.59000015258789
+    thermaldamageresistancebonus: -62.880001068115234
     volume: 5.0
   28522:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -49.5
+    emdamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3608,7 +3608,7 @@ types:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.5
+    explosivedamageresistancebonus: -55.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3637,7 +3637,7 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 28526
-    kineticdamageresistancebonus: -49.5
+    kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
@@ -3677,5 +3677,5 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.5
+    thermaldamageresistancebonus: -55.0
     volume: 5.0

@@ -15,6 +15,7 @@ types:
     metalevelold: 6
     name: '''Micro'' Remote Shield Booster'
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 2.5
     portionSize: 1
     power: 2
@@ -44,6 +45,7 @@ types:
     metalevelold: 8
     name: CONCORD Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
     power: 92500
@@ -71,6 +73,7 @@ types:
     mediumremoterepfittingmultiplier: 1
     name: Small Remote Shield Booster I
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -99,6 +102,7 @@ types:
     metalevelold: 5
     name: Small Remote Shield Booster II
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 4
@@ -126,6 +130,7 @@ types:
     mediumremoterepfittingmultiplier: 1
     name: Medium Remote Shield Booster I
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 52
@@ -154,6 +159,7 @@ types:
     metalevelold: 5
     name: Medium Remote Shield Booster II
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 65
@@ -181,6 +187,7 @@ types:
     mediumremoterepfittingmultiplier: 1
     name: Large Remote Shield Booster I
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 25.0
     portionSize: 1
     power: 208
@@ -209,6 +216,7 @@ types:
     metalevelold: 5
     name: Large Remote Shield Booster II
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 25.0
     portionSize: 1
     power: 250
@@ -236,6 +244,7 @@ types:
     mediumremoterepfittingmultiplier: 1
     name: Capital Remote Shield Booster I
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
     power: 97500
@@ -264,6 +273,7 @@ types:
     metalevelold: 5
     name: Capital Remote Shield Booster II
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
     power: 107500
@@ -292,6 +302,7 @@ types:
     metalevelold: 1
     name: Small Murky Compact Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -320,6 +331,7 @@ types:
     metalevelold: 1
     name: Small Asymmetric Enduring Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -348,6 +360,7 @@ types:
     metalevelold: 1
     name: Small S95a Scoped Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -376,6 +389,7 @@ types:
     metalevelold: 1
     name: Medium Murky Compact Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 45
@@ -404,6 +418,7 @@ types:
     metalevelold: 1
     name: Medium Asymmetric Enduring Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 52
@@ -432,6 +447,7 @@ types:
     metalevelold: 1
     name: Medium S95a Scoped Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 52
@@ -460,6 +476,7 @@ types:
     metalevelold: 1
     name: Large Murky Compact Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 25.0
     portionSize: 1
     power: 185
@@ -488,6 +505,7 @@ types:
     metalevelold: 1
     name: Large Asymmetric Enduring Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 25.0
     portionSize: 1
     power: 208
@@ -516,6 +534,7 @@ types:
     metalevelold: 1
     name: Large S95a Scoped Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 25.0
     portionSize: 1
     power: 208
@@ -545,6 +564,7 @@ types:
     metalevelold: 10
     name: Gistii C-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -574,6 +594,7 @@ types:
     metalevelold: 12
     name: Gistii B-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -603,6 +624,7 @@ types:
     metalevelold: 14
     name: Gistii A-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -632,6 +654,7 @@ types:
     metalevelold: 10
     name: Pithi C-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -661,6 +684,7 @@ types:
     metalevelold: 12
     name: Pithi B-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -690,6 +714,7 @@ types:
     metalevelold: 14
     name: Pithi A-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -719,6 +744,7 @@ types:
     metalevelold: 10
     name: Gistum C-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 65
@@ -748,6 +774,7 @@ types:
     metalevelold: 12
     name: Gistum B-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 65
@@ -777,6 +804,7 @@ types:
     metalevelold: 14
     name: Gistum A-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 65
@@ -806,6 +834,7 @@ types:
     metalevelold: 10
     name: Pithum C-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 65
@@ -835,6 +864,7 @@ types:
     metalevelold: 12
     name: Pithum B-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 65
@@ -864,6 +894,7 @@ types:
     metalevelold: 14
     name: Pithum A-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 65
@@ -890,6 +921,7 @@ types:
     mediumremoterepfittingmultiplier: 1
     name: Civilian Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 5
@@ -916,6 +948,7 @@ types:
     metalevelold: 1
     name: Capital Asymmetric Enduring Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
     power: 97500
@@ -944,6 +977,7 @@ types:
     metalevelold: 1
     name: Capital Murky Compact Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
     power: 87500
@@ -972,6 +1006,7 @@ types:
     metalevelold: 1
     name: Capital S95a Scoped Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
     power: 97500
@@ -1001,6 +1036,7 @@ types:
     metalevelold: 8
     name: True Sansha Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
     power: 87500
@@ -1030,6 +1066,7 @@ types:
     metalevelold: 8
     name: Dread Guristas Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
     power: 92500
@@ -1059,6 +1096,7 @@ types:
     metalevelold: 8
     name: Domination Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
     power: 87500
@@ -1088,6 +1126,7 @@ types:
     metalevelold: 15
     name: Panola's Modified Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -1117,6 +1156,7 @@ types:
     metalevelold: 15
     name: Ramaku's Modified Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
     power: 3
@@ -1146,6 +1186,7 @@ types:
     metalevelold: 15
     name: Hanaruwa's Modified Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 65
@@ -1175,6 +1216,7 @@ types:
     metalevelold: 15
     name: Sila's Modified Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
     power: 65

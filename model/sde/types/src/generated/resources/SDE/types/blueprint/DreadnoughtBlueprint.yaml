@@ -160,3 +160,11 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  87383:
+    id: 87383
+    industryjobcostmultiplier: 1
+    name: Sarathiel Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
