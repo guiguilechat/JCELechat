@@ -25,14 +25,10 @@
 		<!-- this is used by the java compiler plugin -->
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
-		<!-- 
-		basic maven project configuration
-		-->
+		<!-- basic maven project configuration -->
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<!-- 
-		dependencies
-		-->
+		<!-- dependencies -->
 		<choco.version>4.10.14</choco.version>
 		<jackson.version>2.17.2</jackson.version>
 		<jakarta.servlet-api.version>6.0.0</jakarta.servlet-api.version>
@@ -74,9 +70,7 @@
 	<build>
 		<pluginManagement>
 			<plugins>
-				<!-- apache plugins
-				update https://mvnrepository.com/artifact/org.apache.maven.plugins 
-				-->
+				<!-- apache plugins update https://mvnrepository.com/artifact/org.apache.maven.plugins -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-clean-plugin</artifactId>
@@ -89,8 +83,7 @@
 					<configuration>
 						<release>${java.version}</release>
 						<compilerArgs>
-							<!--	workaround
-							https://github.com/spring-projects/spring-framework/issues/29612-->
+							<!-- workaround https://github.com/spring-projects/spring-framework/issues/29612-->
 							<arg>-parameters</arg>
 							<compilerArgument>-Xlint:-options</compilerArgument>
 						</compilerArgs>
@@ -217,9 +210,7 @@
 					<version>3.4.0</version>
 				</plugin>
 				<!-- end apache plugins -->
-				<!-- codehaus plugins
-				update https://mvnrepository.com/artifact/org.codehaus.mojo 
-				-->
+				<!-- codehaus plugins update https://mvnrepository.com/artifact/org.codehaus.mojo -->
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>build-helper-maven-plugin</artifactId>
@@ -239,11 +230,7 @@
 					<version>2.17.1</version>
 					<configuration>
 						<generateBackupPoms>false</generateBackupPoms>
-						<!-- 
-						ignore versions : 
-						1.2.3-X
-						1.2.3.X
-						-->
+						<!-- ignore versions : 1.2.3-X 1.2.3.X -->
 						<ignoredVersions>.+\..+\..+-.+,.+\..+\..+\..+</ignoredVersions>
 					</configuration>
 				</plugin>
@@ -258,9 +245,7 @@
 	</build>
 	<dependencyManagement>
 		<dependencies>
-			<!-- 
-			sub modules 
-			-->
+			<!-- sub modules -->
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 				<artifactId>gameclient</artifactId>
@@ -386,9 +371,7 @@
 				<artifactId>types-compiler</artifactId>
 				<version>${project.version}</version>
 			</dependency>
-			<!-- 
-			/submodules 
-			-->
+			<!-- /submodules -->
 			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-classic</artifactId>
@@ -398,6 +381,11 @@
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-core</artifactId>
 				<version>${logback.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.opencsv</groupId>
+				<artifactId>opencsv</artifactId>
+				<version>5.11</version>
 			</dependency>
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
