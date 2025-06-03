@@ -153,7 +153,7 @@ public interface G_IDCAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_corporationhistory[]> get_characters_corporationhistory(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/corporationhistory/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v1/characters/{character_id}/corporationhistory/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_corporationhistory[].class));
     }
 
@@ -234,7 +234,7 @@ public interface G_IDCAccess
      *     An EVE corporation ID
      */
     public default Requested<R_get_corporations_corporation_id> get_corporations(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v5/corporations/{corporation_id}/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v4/corporations/{corporation_id}/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id.class));
     }
 
@@ -249,7 +249,7 @@ public interface G_IDCAccess
      *     An EVE corporation ID
      */
     public default Requested<R_get_corporations_corporation_id_alliancehistory[]> get_corporations_alliancehistory(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/alliancehistory/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/alliancehistory/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_alliancehistory[].class));
     }
 
@@ -276,7 +276,7 @@ public interface G_IDCAccess
      * </p>
      */
     public default Requested<Integer[]> get_corporations_npccorps(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/npccorps/");
+        String url = ("https://esi.evetech.net/v1/corporations/npccorps/");
         return (requestGet(url, properties,java.lang.Integer[].class));
     }
 

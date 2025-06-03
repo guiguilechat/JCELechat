@@ -5,14 +5,14 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys;
  * @see https://esi.evetech.net/v1/route/{origin}/{destination}/
  * 
  */
-public class K_15_flag_int_int_Lint_LLint {
+public class K_16_flag_int_int_Lint_LLint {
     public final fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag;
     public final int origin;
     public final int destination;
     public final int[] avoid;
     public final int[][] connections;
 
-    public K_15_flag_int_int_Lint_LLint(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag,
+    public K_16_flag_int_int_Lint_LLint(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag,
         int origin,
         int destination,
         int[] avoid,
@@ -32,7 +32,7 @@ public class K_15_flag_int_int_Lint_LLint {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_15_flag_int_int_Lint_LLint othersame = ((K_15_flag_int_int_Lint_LLint) other);
+        K_16_flag_int_int_Lint_LLint othersame = ((K_16_flag_int_int_Lint_LLint) other);
         if ((flag!= othersame.flag)&&((flag == null)||(!flag.equals(othersame.flag)))) {
             return false;
         }

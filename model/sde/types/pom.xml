@@ -83,10 +83,10 @@
 									<goal>run</goal>
 								</goals>
 								<configuration>
-									<tasks>
+									<target>
 										<delete dir="target" quiet="true" />
 										<delete dir="src/generated/java" quiet="true" />
-									</tasks>
+									</target>
 								</configuration>
 							</execution>
 						</executions>

@@ -217,6 +217,18 @@ public enum get_characters_character_id_notifications_type {
     FacWarLPPayoutEvent("FacWarLPPayoutEvent"),
     @JsonProperty("FacWarLPPayoutKill")
     FacWarLPPayoutKill("FacWarLPPayoutKill"),
+    @JsonProperty("FreelanceProjectClosed")
+    FreelanceProjectClosed("FreelanceProjectClosed"),
+    @JsonProperty("FreelanceProjectCompleted")
+    FreelanceProjectCompleted("FreelanceProjectCompleted"),
+    @JsonProperty("FreelanceProjectCreated")
+    FreelanceProjectCreated("FreelanceProjectCreated"),
+    @JsonProperty("FreelanceProjectExpired")
+    FreelanceProjectExpired("FreelanceProjectExpired"),
+    @JsonProperty("FreelanceProjectLimitReached")
+    FreelanceProjectLimitReached("FreelanceProjectLimitReached"),
+    @JsonProperty("FreelanceProjectParticipantKicked")
+    FreelanceProjectParticipantKicked("FreelanceProjectParticipantKicked"),
     @JsonProperty("GameTimeAdded")
     GameTimeAdded("GameTimeAdded"),
     @JsonProperty("GameTimeReceived")

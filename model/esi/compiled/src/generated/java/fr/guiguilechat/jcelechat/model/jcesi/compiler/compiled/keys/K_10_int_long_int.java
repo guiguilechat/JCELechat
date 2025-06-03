@@ -2,15 +2,15 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys;
 
 
 /**
- * @see https://esi.evetech.net/v2/corporations/{corporation_id}/starbases/{starbase_id}/
+ * @see https://esi.evetech.net/v1/corporations/{corporation_id}/starbases/{starbase_id}/
  * 
  */
-public class K_16_int_long_int {
+public class K_10_int_long_int {
     public final int corporation_id;
     public final long starbase_id;
     public final int system_id;
 
-    public K_16_int_long_int(int corporation_id, long starbase_id, int system_id) {
+    public K_10_int_long_int(int corporation_id, long starbase_id, int system_id) {
         this.corporation_id = corporation_id;
         this.starbase_id = starbase_id;
         this.system_id = system_id;
@@ -24,7 +24,7 @@ public class K_16_int_long_int {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_16_int_long_int othersame = ((K_16_int_long_int) other);
+        K_10_int_long_int othersame = ((K_10_int_long_int) other);
         if (corporation_id!= othersame.corporation_id) {
             return false;
         }

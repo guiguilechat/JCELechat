@@ -3889,6 +3889,7 @@ types:
     volume: 0.10000000149011612
   88465:
     id: 88465
+    marketGroup: 3655
     name: Peppermint Plasmoid Gloss - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -4160,6 +4161,7 @@ types:
     volume: 0.10000000149011612
   88534:
     id: 88534
+    marketGroup: 3653
     name: Void Shift Matte - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -4687,6 +4689,7 @@ types:
     volume: 0.10000000149011612
   88635:
     id: 88635
+    marketGroup: 3633
     name: Secondary Turn - Unlimited
     packagedVolume: 0.10000000149011612
     portionSize: 1

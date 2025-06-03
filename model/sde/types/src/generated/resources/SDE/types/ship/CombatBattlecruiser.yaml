@@ -1049,6 +1049,7 @@ types:
     shielduniformity: 0.75
     shipbonusabc1: 7.5
     shipbonusabc2: 10.0
+    shipbonusabc3: -10.0
     signatureradius: 270.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0

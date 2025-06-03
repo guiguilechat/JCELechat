@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_corporations_corporation_id_starbases_starbase_id_fuels;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -39,7 +39,7 @@ public class Requirement {
 
 	private int quantity;
 
-	public static Requirement of(R_get_loyalty_stores_corporation_id_offers_required_items item,
+	public static Requirement of(get_corporations_corporation_id_starbases_starbase_id_fuels item,
 	    Offer offer, Type type) {
 		return builder()
 				.offer(offer)

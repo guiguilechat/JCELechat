@@ -5,12 +5,12 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys;
  * @see https://esi.evetech.net/v1/corporations/{corporation_id}/wallets/{division}/transactions/
  * 
  */
-public class K_10_int_int_Long {
+public class K_11_int_int_Long {
     public final int division;
     public final int corporation_id;
     public final Long from_id;
 
-    public K_10_int_int_Long(int division, int corporation_id, Long from_id) {
+    public K_11_int_int_Long(int division, int corporation_id, Long from_id) {
         this.division = division;
         this.corporation_id = corporation_id;
         this.from_id = from_id;
@@ -24,7 +24,7 @@ public class K_10_int_int_Long {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_10_int_int_Long othersame = ((K_10_int_int_Long) other);
+        K_11_int_int_Long othersame = ((K_11_int_int_Long) other);
         if (division!= othersame.division) {
             return false;
         }

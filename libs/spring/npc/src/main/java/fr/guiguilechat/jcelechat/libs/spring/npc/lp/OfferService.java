@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_corporations_corporation_id_starbases_starbase_id_fuels;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -70,7 +70,7 @@ public class OfferService {
 		for (R_get_loyalty_stores_corporation_id_offers co : offerById.values()) {
 			if (co.required_items != null) {
 				Offer offer = ret.get(co.offer_id);
-				for( R_get_loyalty_stores_corporation_id_offers_required_items ri : co.required_items) {
+				for (get_corporations_corporation_id_starbases_starbase_id_fuels ri : co.required_items) {
 					requirements.add(Requirement.of(ri, offer, idToType.get(ri.type_id)));
 				}
 			}

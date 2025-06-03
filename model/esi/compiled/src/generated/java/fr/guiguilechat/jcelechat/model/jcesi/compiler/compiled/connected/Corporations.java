@@ -3,8 +3,8 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected;
 import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_10_int_int_Long;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_16_int_long_int;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_10_int_long_int;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_11_int_int_Long;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_19_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_8_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_9_int_Boolean;
@@ -52,33 +52,33 @@ public class Corporations {
     private final Map<K_8_int_int, ListHolderImpl<M_get_contracts_contract_bids_4>> get_corporations_corporation_id_contracts_contract_id_bids_holder = new HashMap<>();
     private final Map<K_8_int_int, ListHolderImpl<M_get_contracts_contract_items_6>> get_corporations_corporation_id_contracts_contract_id_items_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_customs_offices>> get_corporations_corporation_id_customs_offices_holder = new HashMap<>();
+    private final Map<Integer, ObjHolderSimple<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_facilities>> get_corporations_corporation_id_facilities_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_corporations_corporation_id_fw_stats>> get_corporations_corporation_id_fw_stats_holder = new HashMap<>();
     private final Map<K_9_int_Boolean, ListHolderImpl<R_get_corporations_corporation_id_industry_jobs>> get_corporations_corporation_id_industry_jobs_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<M_get_killmails_2>> get_corporations_corporation_id_killmails_recent_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_orders_history>> get_corporations_corporation_id_orders_history_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_shareholders>> get_corporations_corporation_id_shareholders_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_wallets>> get_corporations_corporation_id_wallets_holder = new HashMap<>();
-    private final Map<K_10_int_int_Long, ListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions>> get_corporations_corporation_id_wallets_division_transactions_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_contacts>> get_corporations_corporation_id_contacts_holder = new HashMap<>();
-    private final Map<Integer, ObjHolderSimple<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_facilities>> get_corporations_corporation_id_facilities_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_medals>> get_corporations_corporation_id_medals_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_medals_issued>> get_corporations_corporation_id_medals_issued_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<Integer>> get_corporations_corporation_id_members_limit_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_members_titles>> get_corporations_corporation_id_members_titles_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_membertracking>> get_corporations_corporation_id_membertracking_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_orders>> get_corporations_corporation_id_orders_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_orders_history>> get_corporations_corporation_id_orders_history_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_roles>> get_corporations_corporation_id_roles_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_roles_history>> get_corporations_corporation_id_roles_history_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_shareholders>> get_corporations_corporation_id_shareholders_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<M_get_standings_3>> get_corporations_corporation_id_standings_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_starbases>> get_corporations_corporation_id_starbases_holder = new HashMap<>();
-    private final Map<K_16_int_long_int, ObjHolderSimple<R_get_corporations_corporation_id_starbases_starbase_id>> get_corporations_corporation_id_starbases_starbase_id_holder = new HashMap<>();
+    private final Map<K_10_int_long_int, ObjHolderSimple<R_get_corporations_corporation_id_starbases_starbase_id>> get_corporations_corporation_id_starbases_starbase_id_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_titles>> get_corporations_corporation_id_titles_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_wallets>> get_corporations_corporation_id_wallets_holder = new HashMap<>();
+    private final Map<K_11_int_int_Long, ListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions>> get_corporations_corporation_id_wallets_division_transactions_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_blueprints>> get_corporations_corporation_id_blueprints_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_contacts>> get_corporations_corporation_id_contacts_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_containers_logs>> get_corporations_corporation_id_containers_logs_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_orders>> get_corporations_corporation_id_orders_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
     private final Map<K_19_int_int, ListHolderImpl<M_get_journal_13>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_assets>> get_corporations_corporation_id_assets_holder = new HashMap<>();
-    private final Map<Integer, ListHolderImpl<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_structures>> get_corporations_corporation_id_structures_holder = new HashMap<>();
 
     public Corporations(SwaggerCOCache<?> parent) {
@@ -1025,7 +1025,7 @@ public class Corporations {
      *     The solar system this starbase (POS) is located in,
      */
     public ObjHolder<R_get_corporations_corporation_id_starbases_starbase_id> starbases(int corporation_id, long starbase_id, int system_id) {
-        K_16_int_long_int param = new K_16_int_long_int(corporation_id, starbase_id, system_id);
+        K_10_int_long_int param = new K_10_int_long_int(corporation_id, starbase_id, system_id);
         ObjHolderSimple<R_get_corporations_corporation_id_starbases_starbase_id> ret = get_corporations_corporation_id_starbases_starbase_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_starbases_starbase_id_holder);
@@ -1203,7 +1203,7 @@ public class Corporations {
      *     Only show journal entries happened before the transaction referenced by this id
      */
     public ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> wallets_transactions(int corporation_id, int division, Long from_id) {
-        K_10_int_int_Long param = new K_10_int_int_Long(division, corporation_id, from_id);
+        K_11_int_int_Long param = new K_11_int_int_Long(division, corporation_id, from_id);
         ListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions> ret = get_corporations_corporation_id_wallets_division_transactions_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_wallets_division_transactions_holder);

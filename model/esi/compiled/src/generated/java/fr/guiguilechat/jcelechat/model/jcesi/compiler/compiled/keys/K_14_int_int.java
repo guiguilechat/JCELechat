@@ -2,16 +2,16 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys;
 
 
 /**
- * @see https://esi.evetech.net/v1/dogma/dynamic/items/{type_id}/{item_id}/
+ * @see https://esi.evetech.net/v1/markets/{region_id}/history/
  * 
  */
-public class K_11_long_int {
-    public final long item_id;
+public class K_14_int_int {
     public final int type_id;
+    public final int region_id;
 
-    public K_11_long_int(long item_id, int type_id) {
-        this.item_id = item_id;
+    public K_14_int_int(int type_id, int region_id) {
         this.type_id = type_id;
+        this.region_id = region_id;
     }
 
     @Override
@@ -22,17 +22,17 @@ public class K_11_long_int {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_11_long_int othersame = ((K_11_long_int) other);
-        if (item_id!= othersame.item_id) {
+        K_14_int_int othersame = ((K_14_int_int) other);
+        if (type_id!= othersame.type_id) {
             return false;
         }
-        if (type_id!= othersame.type_id) {
+        if (region_id!= othersame.region_id) {
             return false;
         }
         return true;
     }
 
     public int hashCode() {
-        return (Long.hashCode(item_id)+ type_id);
+        return (type_id + region_id);
     }
 }

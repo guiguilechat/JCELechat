@@ -12571,7 +12571,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 85038
-    lootrespawntime: 600000.0
+    lootrespawntime: 8.64E7
     mass: 10000.0
     name: Rogue Drone Rubble
     packagedVolume: 27500.0
@@ -12599,7 +12599,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 85039
-    lootrespawntime: 600000.0
+    lootrespawntime: 8.64E7
     mass: 10000.0
     name: Rogue Drone Ship Remains
     packagedVolume: 27500.0
@@ -12627,7 +12627,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 85040
-    lootrespawntime: 600000.0
+    lootrespawntime: 8.64E7
     mass: 10000.0
     name: Rogue Drone Ruins
     packagedVolume: 27500.0
@@ -12940,7 +12940,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 88009
-    lootrespawntime: 600000.0
+    lootrespawntime: 8.64E7
     mass: 10000.0
     name: Unfit Remnant
     packagedVolume: 27500.0
@@ -12968,7 +12968,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 88010
-    lootrespawntime: 600000.0
+    lootrespawntime: 8.64E7
     mass: 10000.0
     name: Proven Remnant
     packagedVolume: 27500.0
@@ -12996,7 +12996,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 88060
-    lootrespawntime: 600000.0
+    lootrespawntime: 8.64E7
     mass: 10000.0
     name: Expedition Secure Supplies
     packagedVolume: 27500.0
@@ -13025,7 +13025,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 88062
-    lootrespawntime: 600000.0
+    lootrespawntime: 8.64E7
     mass: 10000.0
     name: Expedition Research Cache
     packagedVolume: 27500.0
@@ -13076,7 +13076,7 @@ types:
     hackable: 1
     hp: 1000000.0
     id: 88748
-    lootrespawntime: 600000.0
+    lootrespawntime: 8.64E7
     mass: 10000.0
     name: Rogue Drone Remnants
     packagedVolume: 27500.0

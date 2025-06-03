@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses;
 
-public class R_get_loyalty_stores_corporation_id_offers_required_items {
+public class get_corporations_corporation_id_starbases_starbase_id_fuels {
     /**
      * quantity integer
      */
@@ -18,7 +18,7 @@ public class R_get_loyalty_stores_corporation_id_offers_required_items {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        R_get_loyalty_stores_corporation_id_offers_required_items othersame = ((R_get_loyalty_stores_corporation_id_offers_required_items) other);
+        get_corporations_corporation_id_starbases_starbase_id_fuels othersame = ((get_corporations_corporation_id_starbases_starbase_id_fuels) other);
         if (quantity!= othersame.quantity) {
             return false;
         }

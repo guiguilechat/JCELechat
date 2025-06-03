@@ -14,8 +14,8 @@ import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Corporations {
     public final SwaggerDCCache<?> cache;
-    private final Map<Integer, ObjHolderSimple<R_get_corporations_corporation_id_icons>> get_corporations_corporation_id_icons_holder = new HashMap<>();
     private ListHolderImpl<Integer> get_corporations_npccorps_holder;
+    private final Map<Integer, ObjHolderSimple<R_get_corporations_corporation_id_icons>> get_corporations_corporation_id_icons_holder = new HashMap<>();
     private final Map<Integer, ListHolderImpl<R_get_corporations_corporation_id_alliancehistory>> get_corporations_corporation_id_alliancehistory_holder = new HashMap<>();
     private final Map<Integer, ObjHolderSimple<R_get_corporations_corporation_id>> get_corporations_corporation_id_holder = new HashMap<>();
 

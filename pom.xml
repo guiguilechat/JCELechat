@@ -36,7 +36,7 @@
 		<logback.version>1.5.8</logback.version>
 		<openjfx.version>22.0.2</openjfx.version>
 		<slf4j.version>2.0.13</slf4j.version>
-		<springboot.version>3.4.3</springboot.version>
+		<springboot.version>3.4.6</springboot.version>
 		<tools.version>1.8.2</tools.version>
 	</properties>
 	<repositories>
@@ -71,6 +71,11 @@
 		<pluginManagement>
 			<plugins>
 				<!-- apache plugins update https://mvnrepository.com/artifact/org.apache.maven.plugins -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-antrun-plugin</artifactId>
+					<version>3.1.0</version>
+				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-clean-plugin</artifactId>

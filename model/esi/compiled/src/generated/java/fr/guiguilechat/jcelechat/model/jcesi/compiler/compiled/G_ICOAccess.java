@@ -116,34 +116,6 @@ public interface G_ICOAccess
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_CUSTOMS_OFFICES_ROLES = new String[] {"Director"};
     /**
-     * the roles required for {@link #get_corporations_industry_jobs this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES = new String[] {"Factory_Manager"};
-    /**
-     * the roles required for {@link #get_corporations_killmails_recent this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_KILLMAILS_RECENT_ROLES = new String[] {"Director"};
-    /**
-     * the roles required for {@link #get_corporations_orders_history this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_HISTORY_ROLES = new String[] {"Accountant", "Trader"};
-    /**
-     * the roles required for {@link #get_corporations_shareholders this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_SHAREHOLDERS_ROLES = new String[] {"Director"};
-    /**
-     * the roles required for {@link #get_corporations_wallets this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_WALLETS_ROLES = new String[] {"Accountant", "Junior_Accountant"};
-    /**
-     * the roles required for {@link #get_corporations_wallets_transactions this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_TRANSACTIONS_ROLES = new String[] {"Accountant", "Junior_Accountant"};
-    /**
-     * the roles required for {@link #post_corporations_assets_locations this method}
-     */
-    public static final String[] POST_CORPORATIONS_CORPORATION_ID_ASSETS_LOCATIONS_ROLES = new String[] {"Director"};
-    /**
      * the roles required for {@link #get_corporations_divisions this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_DIVISIONS_ROLES = new String[] {"Director"};
@@ -151,6 +123,14 @@ public interface G_ICOAccess
      * the roles required for {@link #get_corporations_facilities this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_FACILITIES_ROLES = new String[] {"Factory_Manager"};
+    /**
+     * the roles required for {@link #get_corporations_industry_jobs this method}
+     */
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES = new String[] {"Factory_Manager"};
+    /**
+     * the roles required for {@link #get_corporations_killmails_recent this method}
+     */
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_KILLMAILS_RECENT_ROLES = new String[] {"Director"};
     /**
      * the roles required for {@link #get_corporations_medals_issued this method}
      */
@@ -168,13 +148,17 @@ public interface G_ICOAccess
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_MEMBERTRACKING_ROLES = new String[] {"Director"};
     /**
-     * the roles required for {@link #get_corporations_orders this method}
+     * the roles required for {@link #get_corporations_orders_history this method}
      */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_ROLES = new String[] {"Accountant", "Trader"};
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_HISTORY_ROLES = new String[] {"Accountant", "Trader"};
     /**
      * the roles required for {@link #get_corporations_roles_history this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_ROLES_HISTORY_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_shareholders this method}
+     */
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_SHAREHOLDERS_ROLES = new String[] {"Director"};
     /**
      * the roles required for {@link #get_corporations_starbases this method}
      */
@@ -188,6 +172,18 @@ public interface G_ICOAccess
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_TITLES_ROLES = new String[] {"Director"};
     /**
+     * the roles required for {@link #get_corporations_wallets this method}
+     */
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_WALLETS_ROLES = new String[] {"Accountant", "Junior_Accountant"};
+    /**
+     * the roles required for {@link #get_corporations_wallets_transactions this method}
+     */
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_TRANSACTIONS_ROLES = new String[] {"Accountant", "Junior_Accountant"};
+    /**
+     * the roles required for {@link #post_corporations_assets_locations this method}
+     */
+    public static final String[] POST_CORPORATIONS_CORPORATION_ID_ASSETS_LOCATIONS_ROLES = new String[] {"Director"};
+    /**
      * the roles required for {@link #get_corporations_blueprints this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_BLUEPRINTS_ROLES = new String[] {"Director"};
@@ -195,6 +191,10 @@ public interface G_ICOAccess
      * the roles required for {@link #get_corporations_containers_logs this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_CONTAINERS_LOGS_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_orders this method}
+     */
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_ROLES = new String[] {"Accountant", "Trader"};
     /**
      * the roles required for {@link #get_corporations_wallets_journal this method}
      */
@@ -388,7 +388,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_agents_research[]> get_characters_agents_research(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/agents_research/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v1/characters/{character_id}/agents_research/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_agents_research[].class));
     }
 
@@ -437,7 +437,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<R_get_characters_character_id_blueprints[]> get_characters_blueprints(int character_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/characters/{character_id}/blueprints/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/blueprints/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints[].class));
     }
 
@@ -601,7 +601,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_fatigue> get_characters_fatigue(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/fatigue/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v1/characters/{character_id}/fatigue/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_fatigue.class));
     }
 
@@ -809,7 +809,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_medals[]> get_characters_medals(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/medals/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v1/characters/{character_id}/medals/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_medals[].class));
     }
 
@@ -856,7 +856,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_notifications_contacts[]> get_characters_notifications_contacts(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/notifications/contacts/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v1/characters/{character_id}/notifications/contacts/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications_contacts[].class));
     }
 
@@ -949,7 +949,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_roles> get_characters_roles(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/characters/{character_id}/roles/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/roles/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles.class));
     }
 
@@ -1009,7 +1009,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<M_get_standings_3 []> get_characters_standings(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/standings/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v1/characters/{character_id}/standings/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3[].class));
     }
 
@@ -1024,7 +1024,7 @@ public interface G_ICOAccess
      *     An EVE character ID
      */
     public default Requested<R_get_characters_character_id_titles[]> get_characters_titles(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/titles/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v1/characters/{character_id}/titles/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_titles[].class));
     }
 
@@ -1184,7 +1184,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<R_get_corporations_corporation_id_blueprints[]> get_corporations_blueprints(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/blueprints/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/blueprints/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints[].class));
     }
 
@@ -1237,7 +1237,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<R_get_corporations_corporation_id_containers_logs[]> get_corporations_containers_logs(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/containers/logs/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/containers/logs/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_containers_logs[].class));
     }
 
@@ -1333,7 +1333,7 @@ public interface G_ICOAccess
      *     An EVE corporation ID
      */
     public default Requested<R_get_corporations_corporation_id_divisions> get_corporations_divisions(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/divisions/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/divisions/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_divisions.class));
     }
 
@@ -1352,7 +1352,7 @@ public interface G_ICOAccess
      *     An EVE corporation ID
      */
     public default Requested<R_get_corporations_corporation_id_facilities[]> get_corporations_facilities(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/facilities/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/facilities/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_facilities[].class));
     }
 
@@ -1431,7 +1431,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<R_get_corporations_corporation_id_medals[]> get_corporations_medals(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/medals/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/medals/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_medals[].class));
     }
 
@@ -1452,7 +1452,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<R_get_corporations_corporation_id_medals_issued[]> get_corporations_medals_issued(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/medals/issued/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/medals/issued/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_medals_issued[].class));
     }
 
@@ -1467,7 +1467,7 @@ public interface G_ICOAccess
      *     An EVE corporation ID
      */
     public default Requested<Integer[]> get_corporations_members(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v4/corporations/{corporation_id}/members/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/members/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
@@ -1486,7 +1486,7 @@ public interface G_ICOAccess
      *     An EVE corporation ID
      */
     public default Requested<Integer> get_corporations_members_limit(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/members/limit/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/members/limit/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,int.class));
     }
 
@@ -1505,7 +1505,7 @@ public interface G_ICOAccess
      *     An EVE corporation ID
      */
     public default Requested<R_get_corporations_corporation_id_members_titles[]> get_corporations_members_titles(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/members/titles/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/members/titles/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_members_titles[].class));
     }
 
@@ -1524,7 +1524,7 @@ public interface G_ICOAccess
      *     An EVE corporation ID
      */
     public default Requested<R_get_corporations_corporation_id_membertracking[]> get_corporations_membertracking(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/membertracking/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/membertracking/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_membertracking[].class));
     }
 
@@ -1581,7 +1581,7 @@ public interface G_ICOAccess
      *     An EVE corporation ID
      */
     public default Requested<R_get_corporations_corporation_id_roles[]> get_corporations_roles(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/roles/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/roles/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles[].class));
     }
 
@@ -1602,7 +1602,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<R_get_corporations_corporation_id_roles_history[]> get_corporations_roles_history(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/roles/history/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/roles/history/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles_history[].class));
     }
 
@@ -1640,7 +1640,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<M_get_standings_3 []> get_corporations_standings(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/standings/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/standings/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3[].class));
     }
 
@@ -1661,7 +1661,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<R_get_corporations_corporation_id_starbases[]> get_corporations_starbases(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/starbases/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/starbases/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_starbases[].class));
     }
 
@@ -1687,7 +1687,7 @@ public interface G_ICOAccess
         long starbase_id,
         int system_id,
         Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/starbases/{starbase_id}/".replace("{corporation_id}", ""+corporation_id).replace("{starbase_id}", ""+starbase_id)+"?"+"&system_id="+flatten(system_id));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/starbases/{starbase_id}/".replace("{corporation_id}", ""+corporation_id).replace("{starbase_id}", ""+starbase_id)+"?"+"&system_id="+flatten(system_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_starbases_starbase_id.class));
     }
 
@@ -1727,7 +1727,7 @@ public interface G_ICOAccess
      *     An EVE corporation ID
      */
     public default Requested<R_get_corporations_corporation_id_titles[]> get_corporations_titles(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/titles/".replace("{corporation_id}", ""+corporation_id));
+        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/titles/".replace("{corporation_id}", ""+corporation_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_titles[].class));
     }
 
@@ -1891,7 +1891,7 @@ public interface G_ICOAccess
      *     The target characters to calculate the charge for
      */
     public default Requested<Float> post__cspa(int character_id, int[] characters, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v5/characters/{character_id}/cspa/".replace("{character_id}", ""+character_id));
+        String url = ("https://esi.evetech.net/v4/characters/{character_id}/cspa/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("characters", characters);
         return requestPost(url, properties, content, Float.class);

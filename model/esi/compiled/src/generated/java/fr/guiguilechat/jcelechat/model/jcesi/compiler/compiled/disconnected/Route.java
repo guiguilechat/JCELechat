@@ -3,14 +3,14 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_15_flag_int_int_Lint_LLint;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_16_flag_int_int_Lint_LLint;
 import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Route {
     public final SwaggerDCCache<?> cache;
-    private final Map<K_15_flag_int_int_Lint_LLint, ListHolderImpl<Integer>> get_route_origin_destination_holder = new HashMap<>();
+    private final Map<K_16_flag_int_int_Lint_LLint, ListHolderImpl<Integer>> get_route_origin_destination_holder = new HashMap<>();
 
     public Route(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -37,7 +37,7 @@ public class Route {
         int destination,
         fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag,
         int origin) {
-        K_15_flag_int_int_Lint_LLint param = new K_15_flag_int_int_Lint_LLint(flag, origin, destination, avoid, connections);
+        K_16_flag_int_int_Lint_LLint param = new K_16_flag_int_int_Lint_LLint(flag, origin, destination, avoid, connections);
         ListHolderImpl<Integer> ret = get_route_origin_destination_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_route_origin_destination_holder);
