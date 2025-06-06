@@ -70,7 +70,7 @@ public class ClientInfo {
 	public Instant lastModified() {
 		String val = headers.firstValue("last-modified").orElse(null);
 		if (val == null) {
-			log.warn("missing last modified etag");
+			log.warn("missing last modified header");
 			return null;
 		}
 		return Instant.from(DateTimeFormatter.RFC_1123_DATE_TIME.parse(val));

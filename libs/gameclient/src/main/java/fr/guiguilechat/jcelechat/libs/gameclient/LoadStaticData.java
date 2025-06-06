@@ -23,21 +23,21 @@ public class LoadStaticData {
 		System.out.println("build number " + cache.getClientInfo().getBuildNumber());
 
 		System.out.println("\nstaticdata/");
-		System.out.println(cache.extractOn(name -> name.startsWith("staticdata/"), System.out, null));
+		System.out.println(cache.extractOn(name -> name.startsWith("staticdata/")));
 
 		System.out.println("\n*Loader.pyd");
-		System.out.println(cache.extractOn(name -> name.endsWith("Loader.pyd"), System.out, null));
+		System.out.println(cache.extractOn(name -> name.endsWith("Loader.pyd")));
 
 		System.out.println("\n.*.fsdbinary");
-		System.out.println(cache.extractOn(name -> name.endsWith(".fsdbinary"), System.out, null));
+		System.out.println(cache.extractOn(name -> name.endsWith(".fsdbinary")));
 
 		System.out.println("\npython loaders : ");
 		AtomicInteger pyLibCnt = new AtomicInteger(0);
 		cache.getPyLibs().values().stream()
 				.sorted(Comparator.comparing(PythonLoadedLib::getResourceName))
 				.forEach(pdl -> {
-					System.out.println(pdl.getResourceName() + " from " + pdl.getFsdbinary().resName() + " using "
-							+ pdl.getLoader().resName());
+//					System.out.println(pdl.getResourceName() + " from " + pdl.getFsdbinary().resName() + " using "
+//							+ pdl.getLoader().resName());
 					cache.cache(pdl);
 					pyLibCnt.addAndGet(1);
 				});
