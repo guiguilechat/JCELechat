@@ -111,33 +111,31 @@ public class MarketHtmlController {
 					.peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
 					.toList();
 			model.addAttribute("completed", completed);
+		} else // working wit non-copy
+		if (meValue < 1 && teValue < 1) {
+			// working with base type
+			model.addAttribute("sos",
+					contractMarketAggregator.sellOrders(typeId).stream()
+					.peek(
+							mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
+									structuresNamesById))
+					.toList());
+			model.addAttribute("bos",
+					contractMarketAggregator.buyOrders(typeId).stream()
+					.peek(
+							mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
+									structuresNamesById))
+					.toList());
 		} else {
-			// working wit non-copy
-			if (meValue < 1 && teValue < 1) {
-				// working with base type
-				model.addAttribute("sos",
-						contractMarketAggregator.sellOrders(typeId).stream()
-						.peek(
-								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
-										structuresNamesById))
-						.toList());
-				model.addAttribute("bos",
-						contractMarketAggregator.buyOrders(typeId).stream()
-						.peek(
-								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
-										structuresNamesById))
-						.toList());
-			} else {
-				// working with researched BPO
-				model.addAttribute("showDetails", true);
-				List<MarketOrder> sos = contractFacadeBpo.streamSOs(typeId, meValue, teValue)
-						.peek(
-								mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
-						.peek(mo -> mo.setUrl(contractEvalController.uri(mo.getContractId()).toString()))
-						.toList();
-				// System.err.println("found " + sos.size() + " orders for " + name);
-				model.addAttribute("sos", sos);
-			}
+			// working with researched BPO
+			model.addAttribute("showDetails", true);
+			List<MarketOrder> sos = contractFacadeBpo.streamSOs(typeId, meValue, teValue)
+					.peek(
+							mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+					.peek(mo -> mo.setUrl(contractEvalController.uri(mo.getContractId()).toString()))
+					.toList();
+			// System.err.println("found " + sos.size() + " orders for " + name);
+			model.addAttribute("sos", sos);
 		}
 		if (meValue > 0 || teValue > 0 || copyValue) {
 			model.addAttribute("baseTypeUrl", uri(typeId).toString());
@@ -163,7 +161,6 @@ public class MarketHtmlController {
 				model.addAttribute("bpcVariants", bpcVariants);
 			}
 		}
-
 		return "market/type";
 	}
 
