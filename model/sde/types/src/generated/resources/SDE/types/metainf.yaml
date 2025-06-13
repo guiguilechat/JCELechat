@@ -31894,12 +31894,6 @@ id2group:
   87569: entity/DestructibleSentryGun
   87572: apparel/Outer
   87573: apparel/Outer
-  87574: implant/Booster
-  87575: implant/Booster
-  87576: implant/Booster
-  87577: implant/Booster
-  87578: implant/Booster
-  87579: implant/Booster
   87601: specialeditionassets/SpecialEditionCommodities
   87602: specialeditionassets/SpecialEditionCommodities
   87603: specialeditionassets/SpecialEditionCommodities
@@ -31986,39 +31980,6 @@ id2group:
   87842: personalization/ShipSKINDesignElement
   87843: personalization/ShipSKINDesignElement
   87853: specialeditionassets/SpecialEditionCommodities
-  87854: implant/Booster
-  87855: implant/Booster
-  87856: implant/Booster
-  87857: implant/Booster
-  87870: implant/Booster
-  87871: implant/Booster
-  87872: implant/Booster
-  87873: implant/Booster
-  87874: implant/Booster
-  87875: implant/Booster
-  87876: implant/Booster
-  87877: implant/Booster
-  87878: implant/Booster
-  87879: implant/Booster
-  87880: implant/Booster
-  87881: implant/Booster
-  87882: implant/Booster
-  87883: implant/Booster
-  87884: implant/Booster
-  87885: implant/Booster
-  87887: implant/Booster
-  87888: implant/Booster
-  87889: implant/Booster
-  87890: implant/Booster
-  87891: implant/Booster
-  87892: implant/Booster
-  87893: implant/Booster
-  87894: implant/Booster
-  87895: implant/Booster
-  87896: implant/Booster
-  87897: implant/Booster
-  87898: implant/Booster
-  87899: implant/Booster
   87900: specialeditionassets/SpecialEditionCommodities
   87901: specialeditionassets/SpecialEditionCommodities
   87925: specialeditionassets/SpecialEditionCommodities
@@ -32384,6 +32345,13 @@ id2group:
   88895: skins/PermanentSKIN
   88896: skins/PermanentSKIN
   88897: skins/PermanentSKIN
+  89115: skins/PermanentSKIN
+  89116: skins/PermanentSKIN
+  89117: skins/PermanentSKIN
+  89118: skins/PermanentSKIN
+  89119: skins/PermanentSKIN
+  89120: skins/PermanentSKIN
+  89121: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

@@ -43849,3 +43849,59 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  89115:
+    id: 89115
+    marketGroup: 2000
+    name: Federation Navy Comet Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89116:
+    id: 89116
+    marketGroup: 2004
+    name: Tristan Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89117:
+    id: 89117
+    marketGroup: 1966
+    name: Hyperion Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89118:
+    id: 89118
+    marketGroup: 3495
+    name: Moros Navy Issue Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89119:
+    id: 89119
+    marketGroup: 2040
+    name: Eris Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89120:
+    id: 89120
+    marketGroup: 2075
+    name: Phobos Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89121:
+    id: 89121
+    marketGroup: 2106
+    name: Eos Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

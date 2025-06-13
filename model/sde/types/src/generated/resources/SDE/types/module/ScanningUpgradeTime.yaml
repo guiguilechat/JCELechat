@@ -70,7 +70,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     maxscandeviationmodifiermodule: -10
-    name: Triplot Scan Acqusition Array
+    name: Triplot Scan Acquisition Array
     packagedVolume: 5.0
     portionSize: 1
     power: 1

@@ -36,7 +36,7 @@ types:
   88148:
     id: 88148
     industryblueprintrank: 6.0
-    name: Triplot Scan Acqusition Array Blueprint
+    name: Triplot Scan Acquisition Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0

@@ -132594,9 +132594,6 @@
     59301: null
     59302: null
     59303: null
-    87574: null
-    87575: null
-    87576: null
 49099:
   productOfManuf: !!set
     49100: null
@@ -141826,15 +141823,6 @@
     36: 7806.0
     38: 744.0
     40: 176.0
-87574:
-  reprocessInto:
-    48927: 1.0
-87575:
-  reprocessInto:
-    48927: 1.0
-87576:
-  reprocessInto:
-    48927: 1.0
 87702:
   productOfManuf: !!set
     87735: null
