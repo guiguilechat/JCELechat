@@ -61,53 +61,71 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	/** to be called before sending a request */
 	public static void logRequest(String method, String url, String transmit,
-	    Map<String, String> transmitHeaders) {
+			Map<String, String> transmitHeaders) {
+		transmit = toCSVField(transmit);
+		String headersStr = transmitHeaders == null ? "" : toCSVField(transmitHeaders.toString());
 		csvLogger.trace("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}",
-		    method,
-		    url,
-		    "",
-		    "",
-		    "",
-		    "",
-		    transmit == null ? "" : transmit,
-		    transmitHeaders == null ? "" : transmitHeaders);
+				method,
+				url,
+				"",
+				"",
+				"",
+				"",
+				transmit == null ? "" : transmit,
+				headersStr);
 	}
 
 	public static void logResponse(String method, String url, Integer responseCode, Number durationMs, String error,
-	    String warning,
-	    String transmit,
-	    Map<String, ?> receivedHeaders) {
+			String warning,
+			String transmit,
+			Map<String, ?> receivedHeaders) {
+		error = toCSVField(error);
+		warning = toCSVField(warning);
+		transmit = toCSVField(transmit);
+		String headersStr = receivedHeaders == null ? "" : toCSVField(receivedHeaders.toString());
 		if (error != null) {
+
 			csvLogger.error("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}",
-			    method,
-			    url,
-			    responseCode == null ? "" : responseCode,
-			    durationMs == null ? "" : durationMs,
-			    error == null ? "" : error,
-			    warning == null ? "" : warning,
-			    transmit == null ? "" : transmit,
-			    receivedHeaders == null ? "" : receivedHeaders);
+					method,
+					url,
+					responseCode == null ? "" : responseCode,
+					durationMs == null ? "" : durationMs,
+					error,
+					warning == null ? "" : warning,
+					transmit == null ? "" : transmit,
+					headersStr);
 		} else if (warning != null) {
 			csvLogger.warn("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}",
-			    method,
-			    url,
-			    responseCode == null ? "" : responseCode,
-			    durationMs == null ? "" : durationMs,
-			    error == null ? "" : error,
-			    warning == null ? "" : warning,
-			    transmit == null ? "" : transmit,
-			    receivedHeaders == null ? "" : receivedHeaders);
+					method,
+					url,
+					responseCode == null ? "" : responseCode,
+					durationMs == null ? "" : durationMs,
+					"",
+					warning,
+					transmit == null ? "" : transmit,
+					headersStr);
 		} else {
 			csvLogger.debug("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}",
-			    method,
-			    url,
-			    responseCode == null ? "" : responseCode,
-			    durationMs == null ? "" : durationMs,
-			    error == null ? "" : error,
-			    warning == null ? "" : warning,
-			    transmit == null ? "" : transmit,
-			    receivedHeaders == null ? "" : receivedHeaders);
+					method,
+					url,
+					responseCode == null ? "" : responseCode,
+					durationMs == null ? "" : durationMs,
+					"",
+					"",
+					transmit == null ? "" : transmit,
+					headersStr);
 		}
+	}
+
+	/** strips the csv delimiters off */
+	static String toCSVField(String source) {
+		if (source == null) {
+			return null;
+		}
+		return source
+				.replace("\n", "\\n")
+				.replace("\r", "\\r")
+				.replace("\t", "\\t");
 	}
 
 	private final List<AppUserAgent> userAgents;
@@ -134,7 +152,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		this(appUserAgent == null ? List.of() : List.of(appUserAgent));
 	}
 
-	protected List<AppUserAgent> appendSelfUserAgent(List<AppUserAgent> userAgents){
+	protected List<AppUserAgent> appendSelfUserAgent(List<AppUserAgent> userAgents) {
 		List<AppUserAgent> ret = new ArrayList<>();
 		if (userAgents != null) {
 			ret.addAll(userAgents);
@@ -150,7 +168,13 @@ public abstract class ConnectedImpl implements ITransfer {
 							.newBuilder()
 							.header("User-Agent", getUserAgent())
 							.build()))
-	    .callTimeout(12, TimeUnit.SECONDS)
+//			.addNetworkInterceptor(chain -> {
+//				Request request = chain.request();
+//				System.err.println("sent headers " + request.headers());
+//				return chain.proceed(request);
+//			})
+
+			.callTimeout(12, TimeUnit.SECONDS)
 			.build();
 
 	/**
@@ -163,7 +187,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param expectedClass  the class to convert the OK result to
 	 * @param retries        optional number of retries on server error.
 	 * @return a new response holding the result of the request, or null if
-	 *           connection issue
+	 *         connection issue
 	 */
 	protected <T> Requested<T> request(String url, String method, Map<String, String> properties,
 			Map<String, Object> transmitAsJson, Class<T> expectedClass, int... retries) {
@@ -203,7 +227,7 @@ public abstract class ConnectedImpl implements ITransfer {
 				if (isServerError) {
 					long milliseconds = response.receivedResponseAtMillis() - response.sentRequestAtMillis();
 					logResponse(method, url, response.code(), milliseconds, response.message(), null, transmitStr,
-					    response.headers().toMultimap());
+							response.headers().toMultimap());
 					maxRetry--;
 				}
 			} while (isServerError && maxRetry > 0);
@@ -213,52 +237,54 @@ public abstract class ConnectedImpl implements ITransfer {
 				int responseCode = response.code();
 				long milliseconds = response.receivedResponseAtMillis() - response.sentRequestAtMillis();
 				switch (responseCode) {
-					// 2xx ok
-					case HttpURLConnection.HTTP_OK:
-					case HttpURLConnection.HTTP_CREATED:
-					case HttpURLConnection.HTTP_ACCEPTED:
-					case HttpURLConnection.HTTP_NOT_AUTHORITATIVE:
-					case HttpURLConnection.HTTP_NO_CONTENT:
-					case HttpURLConnection.HTTP_RESET:
-					case HttpURLConnection.HTTP_PARTIAL:
-						String ret = new String(body.bytes());
+				// 2xx ok
+				case HttpURLConnection.HTTP_OK:
+				case HttpURLConnection.HTTP_CREATED:
+				case HttpURLConnection.HTTP_ACCEPTED:
+				case HttpURLConnection.HTTP_NOT_AUTHORITATIVE:
+				case HttpURLConnection.HTTP_NO_CONTENT:
+				case HttpURLConnection.HTTP_RESET:
+				case HttpURLConnection.HTTP_PARTIAL:
+					String ret = new String(body.bytes());
+					logResponse(method, url, responseCode, milliseconds, null, null, transmitStr,
+							response.headers().toMultimap());
+					return new RequestedImpl<>(url, responseCode, null, convertJson(ret, expectedClass), headers);
+				// 304 not modified
+				case HttpURLConnection.HTTP_NOT_MODIFIED:
+					String date = headers.getOrDefault("Date", List.of("")).get(0);
+					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
+					if (date.equals(expires)) {
+						// if expires=Date we add 20s of avoid CCP bug
+						logResponse(method, url, responseCode, milliseconds, null,
+								"expires=" + expires + " same as date=" + date,
+								transmitStr,
+								response.headers().toMultimap());
+						headers = new HashMap<>(headers);
+						String newExpiry = ESIDateTools
+								.offsetDateTimeHeader(ESIDateTools.headerOffsetDateTime(date).plusSeconds(20));
+						headers.put("Expires", List.of(newExpiry));
+					} else {
 						logResponse(method, url, responseCode, milliseconds, null, null, transmitStr,
-						    response.headers().toMultimap());
-						return new RequestedImpl<>(url, responseCode, null, convertJson(ret, expectedClass), headers);
-					// 304 not modified
-					case HttpURLConnection.HTTP_NOT_MODIFIED:
-						String date = headers.getOrDefault("Date", List.of("")).get(0);
-						String expires = headers.getOrDefault("Expires", List.of("")).get(0);
-						if (date.equals(expires)) {
-							// if expires=Date we add 20s of avoid CCP bug
-							logResponse(method, url, responseCode, milliseconds, null, "expires=" + expires + " same as date=" + date,
-							    transmitStr,
-							    response.headers().toMultimap());
-							headers = new HashMap<>(headers);
-							String newExpiry = ESIDateTools.offsetDateTimeHeader(ESIDateTools.headerOffsetDateTime(date).plusSeconds(20));
-							headers.put("Expires", List.of(newExpiry));
-						} else {
-							logResponse(method, url, responseCode, milliseconds, null, null, transmitStr,
-							    response.headers().toMultimap());
-						}
-						return new RequestedImpl<>(url, responseCode, null, null, headers);
-					// 4xx client error
-					case HttpURLConnection.HTTP_BAD_REQUEST:
-					case HttpURLConnection.HTTP_UNAUTHORIZED:
-					case HttpURLConnection.HTTP_PAYMENT_REQUIRED:
-					case HttpURLConnection.HTTP_FORBIDDEN:
-					case HttpURLConnection.HTTP_NOT_FOUND:
-					case HttpURLConnection.HTTP_BAD_METHOD:
-						// 5xx server error
-					case HttpURLConnection.HTTP_INTERNAL_ERROR:
-					case HttpURLConnection.HTTP_BAD_GATEWAY:
-					case HttpURLConnection.HTTP_UNAVAILABLE:
-					case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
-					default:
-						String errorMessage = null;
-						if (response.body() != null) {
-							errorMessage = response.body().string();
-						} else {
+								response.headers().toMultimap());
+					}
+					return new RequestedImpl<>(url, responseCode, null, null, headers);
+				// 4xx client error
+				case HttpURLConnection.HTTP_BAD_REQUEST:
+				case HttpURLConnection.HTTP_UNAUTHORIZED:
+				case HttpURLConnection.HTTP_PAYMENT_REQUIRED:
+				case HttpURLConnection.HTTP_FORBIDDEN:
+				case HttpURLConnection.HTTP_NOT_FOUND:
+				case HttpURLConnection.HTTP_BAD_METHOD:
+					// 5xx server error
+				case HttpURLConnection.HTTP_INTERNAL_ERROR:
+				case HttpURLConnection.HTTP_BAD_GATEWAY:
+				case HttpURLConnection.HTTP_UNAVAILABLE:
+				case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
+				default:
+					String errorMessage = null;
+					if (response.body() != null) {
+						errorMessage = response.body().string();
+					} else {
 						StringBuilder sb = new StringBuilder(
 								"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
 						if (response.message() != null) {
@@ -267,7 +293,7 @@ public abstract class ConnectedImpl implements ITransfer {
 						errorMessage = sb.toString();
 					}
 					logResponse(method, url, responseCode, milliseconds, errorMessage, null, transmitStr,
-					    response.headers().toMultimap());
+							response.headers().toMultimap());
 					return new RequestedImpl<>(url, responseCode, errorMessage, null, headers);
 				}
 			}
@@ -303,7 +329,8 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 	@Override
-	public <T> Requested<List<T>> requestGetPages(BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
+	public <T> Requested<List<T>> requestGetPages(
+			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
 			Map<String, String> parameters) {
 
 		Requested<T[]> applied = null;
@@ -322,7 +349,8 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			if (!mismatch[0]) {
 				if (page1.getResponseCode() != 200 && page1.getResponseCode() != 304) {
-					logger.debug(page1.getURL() + " request pages received responsecode=" + page1.getResponseCode() + " error="
+					logger.debug(page1.getURL() + " request pages received responsecode=" + page1.getResponseCode()
+							+ " error="
 							+ page1.getError());
 				}
 				return page1;
@@ -344,7 +372,8 @@ public abstract class ConnectedImpl implements ITransfer {
 			if (ret.isServerError()) {
 				for (int pageretry = 0; ret.isServerError() && pageretry < 2; pageretry++) {
 					logger.debug(
-							"fetching " + ret.getURL() + " again because error " + ret.getResponseCode() + " : " + ret.getError());
+							"fetching " + ret.getURL() + " again because error " + ret.getResponseCode() + " : "
+									+ ret.getError());
 					ret = resourceAccess.apply(page, parameters);
 				}
 			}
@@ -379,8 +408,8 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	protected <T> RequestedImpl<List<T>> convertToList(Requested<T[]> apply) {
 		return new RequestedImpl<>(apply.getURL(), apply.getResponseCode(), apply.getError(),
-		    new ArrayList<>(apply.isOk() && apply.getOK() != null ? List.of(apply.getOK()) : List.of()),
-		    apply.getHeaders());
+				new ArrayList<>(apply.isOk() && apply.getOK() != null ? List.of(apply.getOK()) : List.of()),
+				apply.getHeaders());
 	}
 
 	////
@@ -414,7 +443,8 @@ public abstract class ConnectedImpl implements ITransfer {
 		} catch (Exception e) {
 			logger.error("while converting line " + line + "to class" + clazz.getName(), e);
 			System.err.println(
-					"exception caught while converting line " + line + "to class" + clazz.getName() + " : " + e.getMessage());
+					"exception caught while converting line " + line + "to class" + clazz.getName() + " : "
+							+ e.getMessage());
 			return null;
 		}
 	}
@@ -501,13 +531,13 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @return
 	 */
 	private final static ScheduledThreadPoolExecutor buildExec() {
-			// TODO why set to 200 ? it seems lower value make deadlock
-			// we set daemon otherwise the thread will prevent jvm from dying.
-		ScheduledThreadPoolExecutor ret = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(200, r -> {
-				Thread t = Executors.defaultThreadFactory().newThread(r);
-				t.setDaemon(true);
-				return t;
-			});
+		// TODO why set to 200 ? it seems lower value make deadlock
+		// we set daemon otherwise the thread will prevent jvm from dying.
+		ScheduledThreadPoolExecutor ret = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(500, r -> {
+			Thread t = Executors.defaultThreadFactory().newThread(r);
+			t.setDaemon(true);
+			return t;
+		});
 		ret.setExecuteExistingDelayedTasksAfterShutdownPolicy(false);
 		ret.setContinueExistingPeriodicTasksAfterShutdownPolicy(false);
 		return ret;
@@ -668,7 +698,8 @@ public abstract class ConnectedImpl implements ITransfer {
 										logger.warn("for " + res.getURL() + " res=" + res.getOK(), e);
 									}
 								} else if (res.isClientError() && res.getResponseCode() != 420) {
-									logger.debug(loggingName + " setting null in cache for request response type " + res.getError());
+									logger.debug(loggingName + " setting null in cache for request response type "
+											+ res.getError());
 									cacheHandler.accept(null);
 								}
 							}
@@ -699,7 +730,8 @@ public abstract class ConnectedImpl implements ITransfer {
 							count_error++;
 							delay_ms = (long) (5000 * Math.sqrt(count_error));
 							logger.debug(
-									loggingName + " got +" + res.getError() + " error count=" + count_error + " waiting=" + delay_ms);
+									loggingName + " got +" + res.getError() + " error count=" + count_error
+											+ " waiting=" + delay_ms);
 						} else {
 							count_error = 0;
 						}
@@ -797,8 +829,8 @@ public abstract class ConnectedImpl implements ITransfer {
 	 *                     paused, the required roles are no more present, the
 	 *                     server is down)
 	 * @return a runnable stopper function. Once this function is called, the cache
-	 *           will not be fetched anymore, unless of course it was already in the
-	 *           fetch function.
+	 *         will not be fetched anymore, unless of course it was already in the
+	 *         fetch function.
 	 * @param <T> the type of object the fetched array contains.
 	 */
 	public <T> SelfExecutableFetcher<List<T>> addFetchCacheArray(String name,
@@ -849,8 +881,8 @@ public abstract class ConnectedImpl implements ITransfer {
 	 *                     paused, the required roles are no more present, the
 	 *                     server is down)
 	 * @return a runnable stopper function. Once this function is called, the cache
-	 *           will not be fetched anymore, unless of course it was already in the
-	 *           fetch function.
+	 *         will not be fetched anymore, unless of course it was already in the
+	 *         fetch function.
 	 * @param <T> the type of object that represents the cache.
 	 */
 	public <T> SelfExecutableFetcher<T> addFetchCacheObject(String name,
