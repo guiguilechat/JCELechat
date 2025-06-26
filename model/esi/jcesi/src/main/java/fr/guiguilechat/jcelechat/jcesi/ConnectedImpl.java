@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi;
 
+import java.io.IOException;
 import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
 import java.util.ArrayList;
@@ -40,6 +41,7 @@ import javafx.beans.value.ObservableBooleanValue;
 import javafx.collections.ObservableSet;
 import lombok.Getter;
 import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -47,9 +49,8 @@ import okhttp3.Request.Builder;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
+@Slf4j
 public abstract class ConnectedImpl implements ITransfer {
-
-	private static final Logger logger = LoggerFactory.getLogger(ConnectedImpl.class);
 
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
@@ -161,6 +162,8 @@ public abstract class ConnectedImpl implements ITransfer {
 		return ret;
 	}
 
+	private final static long TIMEOUT_S = 12;
+
 	@Getter(lazy = true)
 	private final OkHttpClient client = new OkHttpClient.Builder()
 			.addNetworkInterceptor(chain -> chain.proceed(
@@ -174,7 +177,10 @@ public abstract class ConnectedImpl implements ITransfer {
 //				return chain.proceed(request);
 //			})
 
-			.callTimeout(12, TimeUnit.SECONDS)
+			.callTimeout(TIMEOUT_S, TimeUnit.SECONDS)
+			.connectTimeout(TIMEOUT_S, TimeUnit.SECONDS)
+			.readTimeout(TIMEOUT_S, TimeUnit.SECONDS)
+			.writeTimeout(TIMEOUT_S, TimeUnit.SECONDS)
 			.build();
 
 	/**
@@ -212,6 +218,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 		builder.setMethod$okhttp(method);
 		Request req = builder.build();
+		Long requestSentTime = null;
 		try {
 			Response response = null;
 
@@ -222,13 +229,19 @@ public abstract class ConnectedImpl implements ITransfer {
 					response.close();
 				}
 				logRequest(method, url, transmitStr, properties);
+				requestSentTime = System.currentTimeMillis();
 				response = getClient().newCall(req).execute();
-				isServerError = response.code() / 100 == 5;
+				int responseCode = response.code();
+				isServerError = responseCode / 100 == 5;
 				if (isServerError) {
-					long milliseconds = response.receivedResponseAtMillis() - response.sentRequestAtMillis();
-					logResponse(method, url, response.code(), milliseconds, response.message(), null, transmitStr,
-							response.headers().toMultimap());
 					maxRetry--;
+					if (maxRetry > 0) {
+						// the response will be discarded, so we need to log it now.
+						String errorMessage = extractErrorMessage(response, method, responseCode, url, transmitStr);
+						long milliseconds = response.receivedResponseAtMillis() - response.sentRequestAtMillis();
+						logResponse(method, url, responseCode, milliseconds, errorMessage, null, transmitStr,
+								response.headers().toMultimap());
+					}
 				}
 			} while (isServerError && maxRetry > 0);
 			// try with resource to close the response.body at the end.
@@ -254,7 +267,7 @@ public abstract class ConnectedImpl implements ITransfer {
 					String date = headers.getOrDefault("Date", List.of("")).get(0);
 					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
 					if (date.equals(expires)) {
-						// if expires=Date we add 20s of avoid CCP bug
+						// if expires=Date we add 20s to avoid CCP bug
 						logResponse(method, url, responseCode, milliseconds, null,
 								"expires=" + expires + " same as date=" + date,
 								transmitStr,
@@ -281,26 +294,36 @@ public abstract class ConnectedImpl implements ITransfer {
 				case HttpURLConnection.HTTP_UNAVAILABLE:
 				case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
 				default:
-					String errorMessage = null;
-					if (response.body() != null) {
-						errorMessage = response.body().string();
-					} else {
-						StringBuilder sb = new StringBuilder(
-								"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
-						if (response.message() != null) {
-							sb.append(response.message());
-						}
-						errorMessage = sb.toString();
-					}
+					String errorMessage = extractErrorMessage(response, method, responseCode, url, transmitStr);
 					logResponse(method, url, responseCode, milliseconds, errorMessage, null, transmitStr,
 							response.headers().toMultimap());
 					return new RequestedImpl<>(url, responseCode, errorMessage, null, headers);
 				}
 			}
 		} catch (Exception e) {
-			logResponse(method, url, null, null, e.getMessage(), null, transmitStr, null);
+			logResponse(method, url, null,
+					requestSentTime == null ? null : System.currentTimeMillis() - requestSentTime,
+					"[" + e.getClass().getSimpleName() + "]:" + e.getMessage(), null,
+					transmitStr, null);
+			log.error("while fetching " + url, e);
 			return new RequestedImpl<>(url, HttpURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
 		}
+	}
+
+	protected String extractErrorMessage(Response response, String method, int responseCode, String url,
+			String transmitStr) throws IOException {
+		String errorMessage = null;
+		if (response.body() != null) {
+			errorMessage = response.body().string();
+		} else {
+			StringBuilder sb = new StringBuilder(
+					"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
+			if (response.message() != null) {
+				sb.append(response.message());
+			}
+			errorMessage = sb.toString();
+		}
+		return errorMessage;
 	}
 
 	@Override
@@ -312,7 +335,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	public <T> Requested<T> requestGet(String url, Map<String, String> properties, Class<T> expectedClass) {
 		Requested<T> ret = request(url, "GET", properties, null, expectedClass);
 		if (ret.getResponseCode() / 100 != 2 && ret.getResponseCode() != 304) {
-			logger.debug("url=" + url + " resp=" + ret.getResponseCode() + " error=" + ret.getError());
+			log.debug("url=" + url + " resp=" + ret.getResponseCode() + " error=" + ret.getError());
 		}
 		return ret;
 	}
@@ -335,11 +358,11 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		Requested<T[]> applied = null;
 		for (int retry = 3; retry > 0; retry--) {
-			logger.debug("calling pages, retry=" + retry + " params=" + parameters);
+			log.debug("calling pages, retry=" + retry + " params=" + parameters);
 			applied = resourceAccess.apply(1, parameters);
 			RequestedImpl<List<T>> page1 = convertToList(applied);
 			if (page1 == null) {
-				logger.debug("received null for " + applied.getURL());
+				log.debug("received null for " + applied.getURL());
 				return null;
 			}
 			int nbPages = page1.getNbPages();
@@ -349,7 +372,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			if (!mismatch[0]) {
 				if (page1.getResponseCode() != 200 && page1.getResponseCode() != 304) {
-					logger.debug(page1.getURL() + " request pages received responsecode=" + page1.getResponseCode()
+					log.debug(page1.getURL() + " request pages received responsecode=" + page1.getResponseCode()
 							+ " error="
 							+ page1.getError());
 				}
@@ -357,9 +380,9 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 		}
 		if (applied == null) {
-			logger.debug("returned null for first page");
+			log.debug("returned null for first page");
 		} else {
-			logger.debug("first page returned is " + applied.getURL() + " : " + applied.getResponseCode());
+			log.debug("first page returned is " + applied.getURL() + " : " + applied.getResponseCode());
 		}
 		return null;
 	}
@@ -371,7 +394,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			Requested<T[]> ret = resourceAccess.apply(page, parameters);
 			if (ret.isServerError()) {
 				for (int pageretry = 0; ret.isServerError() && pageretry < 2; pageretry++) {
-					logger.debug(
+					log.debug(
 							"fetching " + ret.getURL() + " again because error " + ret.getResponseCode() + " : "
 									+ ret.getError());
 					ret = resourceAccess.apply(page, parameters);
@@ -388,7 +411,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		if (!mismatcheds.isEmpty()) {
 			String firstUrl = mismatcheds.get(0).getURL();
 			String message = "mismatching " + mismatcheds.size() + " pages lastmodified , one url is " + firstUrl;
-			logger.warn(message);
+			log.warn(message);
 			// logResponse("GET", firstUrl, mismatcheds.get(0).getResponseCode());
 			mismatch[0] = true;
 		}
@@ -441,7 +464,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			return getMapper().readerFor(clazz).readValue(line);
 		} catch (Exception e) {
-			logger.error("while converting line " + line + "to class" + clazz.getName(), e);
+			log.error("while converting line " + line + "to class" + clazz.getName(), e);
 			System.err.println(
 					"exception caught while converting line " + line + "to class" + clazz.getName() + " : "
 							+ e.getMessage());
@@ -592,23 +615,29 @@ public abstract class ConnectedImpl implements ITransfer {
 		/** set to true to temporary prevent scheduling of this */
 		boolean paused = false;
 
-		public void stop() {
+		public SelfExecutableFetcher<T> stop() {
 			if (stop) {
-				return;
+				return this;
 			}
 			stop = true;
 			logState();
+			return this;
 		}
 
-		public void start() {
+		public SelfExecutableFetcher<T> start(long delay_ms) {
 			if (!stop) {
-				return;
+				return this;
 			}
 			stop = false;
 			if (!paused) {
-				schedule(0);
+				schedule(delay_ms);
 			}
 			logState();
+			return this;
+		}
+
+		public SelfExecutableFetcher<T> start() {
+			return start(0L);
 		}
 
 		@Override
@@ -636,9 +665,9 @@ public abstract class ConnectedImpl implements ITransfer {
 					try {
 						getExecutor().schedule(this, delay_ms, TimeUnit.MILLISECONDS);
 					} catch (RejectedExecutionException e) {
-						logger.warn(loggingName + " can't schedule " + this, e);
+						log.warn(loggingName + " can't schedule " + this, e);
 					} catch (Exception e) {
-						logger.warn(loggingName + " can't schedule " + this, e);
+						log.warn(loggingName + " can't schedule " + this, e);
 						throw new UnsupportedOperationException(e);
 					}
 					scheduled = true;
@@ -655,7 +684,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 
 		protected void logState() {
-			logger.trace("state of executable " + loggingName + " : " + (stop ? "stopped" : "started") + "|"
+			log.trace("state of executable " + loggingName + " : " + (stop ? "stopped" : "started") + "|"
 					+ (paused ? "paused" : "running") + "|" + (scheduled ? "scheduled" : "unscheduled"));
 		}
 
@@ -695,10 +724,10 @@ public abstract class ConnectedImpl implements ITransfer {
 									try {
 										cacheHandler.accept(res.getOK());
 									} catch (Exception e) {
-										logger.warn("for " + res.getURL() + " res=" + res.getOK(), e);
+										log.warn("for " + res.getURL() + " res=" + res.getOK(), e);
 									}
 								} else if (res.isClientError() && res.getResponseCode() != 420) {
-									logger.debug(loggingName + " setting null in cache for request response type "
+									log.debug(loggingName + " setting null in cache for request response type "
 											+ res.getError());
 									cacheHandler.accept(null);
 								}
@@ -709,27 +738,27 @@ public abstract class ConnectedImpl implements ITransfer {
 							try {
 								cacheHandler.accept(res.getOK());
 							} catch (Exception e) {
-								logger.warn("for " + res.getURL(), e);
+								log.warn("for " + res.getURL(), e);
 							}
 						} else if (res.isRedirect() && res.getResponseCode() == 304) {
 							lastEtag = res.getETag();
 						} else if (res.isClientError() || res.isRedirect()) {
-							logger.debug(loggingName + " " + res.getError() + " : setting data to null. expire in "
+							log.debug(loggingName + " " + res.getError() + " : setting data to null. expire in "
 									+ res.getCacheExpire() + "ms");
 							try {
 								cacheHandler.accept(null);
 							} catch (Exception e) {
-								logger.warn("for " + res.getURL(), e);
+								log.warn("for " + res.getURL(), e);
 							}
 						} else {
-							logger.debug(loggingName + res.getResponseCode() + " : " + res.getError());
+							log.debug(loggingName + res.getResponseCode() + " : " + res.getError());
 						}
 						// add a delay to avoid re fetching the data too fast
 						delay_ms = res.getCacheExpire() + 500;
 						if (res.isServerError() || res.isClientError()) {
 							count_error++;
 							delay_ms = (long) (5000 * Math.sqrt(count_error));
-							logger.debug(
+							log.debug(
 									loggingName + " got +" + res.getError() + " error count=" + count_error
 											+ " waiting=" + delay_ms);
 						} else {
@@ -737,17 +766,17 @@ public abstract class ConnectedImpl implements ITransfer {
 						}
 					}
 				} else {
-					logger.debug("return is null for fetch pages " + loggingName);
+					log.debug("return is null for fetch pages " + loggingName);
 				}
 			} catch (Throwable e) {
-				logger.warn("while fetching " + loggingName, e);
+				log.warn("while fetching " + loggingName, e);
 			} finally {
 				if (delay_ms < default_wait_ms) {
 					count_shortdelay++;
 					delay_ms = count_shortdelay * default_wait_ms;
-					logger.trace(loggingName + " sleep for (corrected)" + "" + delay_ms / 1000 + "s");
+					log.trace(loggingName + " sleep for (corrected)" + "" + delay_ms / 1000 + "s");
 				} else {
-					logger.trace(loggingName + " sleep for " + "" + delay_ms / 1000 + "s");
+					log.trace(loggingName + " sleep for " + "" + delay_ms / 1000 + "s");
 					count_shortdelay = 0;
 				}
 				schedule(delay_ms);
