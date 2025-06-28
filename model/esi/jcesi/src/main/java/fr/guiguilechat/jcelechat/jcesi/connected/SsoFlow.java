@@ -35,6 +35,9 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import lombok.Getter;
+import lombok.experimental.Accessors;
+
 /**
  * code to make a sso key
  *
@@ -177,7 +180,7 @@ public abstract class SsoFlow {
 		return Base64.getEncoder().encodeToString((appID + ":" + appSecret).getBytes(StandardCharsets.UTF_8));
 	}
 
-	public static enum CONTENT_TYPE {
+	public enum CONTENT_TYPE {
 		JSON {
 
 			@Override
@@ -331,7 +334,7 @@ public abstract class SsoFlow {
 
 	/**
 	 * get an access token from a refresh token
-	 * 
+	 *
 	 * @param appAuth
 	 *                       the base64 value of APPID:APPSECRET
 	 * @param refreshtoken retrieved refresh token
@@ -361,7 +364,9 @@ public abstract class SsoFlow {
 
 	// actual implementations
 
-	public static SsoFlow V1 = new SsoFlow() {
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final SsoFlow V1 = new SsoFlow() {
 
 		@Override
 		public String verifyUrl() {
@@ -380,7 +385,9 @@ public abstract class SsoFlow {
 
 	};
 
-	public static SsoFlow V2 = new SsoFlow() {
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final SsoFlow V2 = new SsoFlow() {
 
 		@Override
 		public String verifyUrl() {
@@ -402,12 +409,12 @@ public abstract class SsoFlow {
 	/** extract version from refresh token. Defaults to V2 */
 	public static SsoFlow extract(String refresh) {
 		if (refresh == null) {
-			return V2;
+			return V2();
 		}
 		if (refresh.length() != 24) {
-			return V1;
+			return V1();
 		}
-		return V2;
+		return V2();
 	}
 
 }

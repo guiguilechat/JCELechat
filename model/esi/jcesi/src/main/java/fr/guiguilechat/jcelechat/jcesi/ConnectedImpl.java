@@ -378,6 +378,7 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 				return page1;
 			}
+			// else we loop again
 		}
 		if (applied == null) {
 			log.debug("returned null for first page");
@@ -402,17 +403,17 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			return ret;
 		}).toList();
+		String firstLastModified = firstPage.getLastModified();
 		List<Requested<T[]>> mismatcheds = pages.stream().filter(page -> {
-			String firstLastModified = firstPage.getLastModified();
 			String pageLastModified = page.getLastModified();
 			return firstLastModified != pageLastModified
 					&& (firstLastModified == null || !firstLastModified.equals(pageLastModified));
 		}).toList();
 		if (!mismatcheds.isEmpty()) {
-			String firstUrl = mismatcheds.get(0).getURL();
-			String message = "mismatching " + mismatcheds.size() + " pages lastmodified , one url is " + firstUrl;
-			log.warn(message);
-			// logResponse("GET", firstUrl, mismatcheds.get(0).getResponseCode());
+			String firstUrl = firstPage.getURL();
+			String message = "mismatching " + mismatcheds.size() + " lastmodified , first page  is " + firstUrl;
+			logResponse("GET", firstUrl, firstPage.getResponseCode(), null, null, message, null,
+					firstPage.getHeaders());
 			mismatch[0] = true;
 		}
 		for (Requested<T[]> page : pages) {

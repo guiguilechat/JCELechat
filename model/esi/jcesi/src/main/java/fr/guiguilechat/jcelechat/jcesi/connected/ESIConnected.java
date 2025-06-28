@@ -37,7 +37,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 	@Builder.Default
 	@Getter(value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
-	private SsoFlow version = SsoFlow.V2;
+	private SsoFlow version = SsoFlow.V2();
 
 	@Builder.Default
 	private transient AccessToken accessToken = null;

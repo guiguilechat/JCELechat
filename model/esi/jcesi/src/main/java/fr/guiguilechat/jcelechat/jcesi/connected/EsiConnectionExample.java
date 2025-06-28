@@ -1,19 +1,15 @@
 package fr.guiguilechat.jcelechat.jcesi.connected;
 
-import static fr.guiguilechat.jcelechat.jcesi.connected.SsoFlow.checkAppId;
-import static fr.guiguilechat.jcelechat.jcesi.connected.SsoFlow.checkAppSecret;
-import static fr.guiguilechat.jcelechat.jcesi.connected.SsoFlow.encode;
-import static fr.guiguilechat.jcelechat.jcesi.connected.SsoFlow.extractStringFromClipboard;
-import static fr.guiguilechat.jcelechat.jcesi.connected.SsoFlow.openBrowserForDevCreate;
+import static fr.guiguilechat.jcelechat.jcesi.connected.SsoFlow.*;
 
-public class Example {
+public class EsiConnectionExample {
 
 	// public static final String LOCAL_CALLBACK = "http://localhost/callback/";
 	public static final String LOCAL_CALLBACK = "http://localhost:8080/login/oauth2/code/eve";
 
 	// access flow to the sso
 	public static void main(String[] args) {
-		SsoFlow sso = SsoFlow.V1;
+		SsoFlow sso = SsoFlow.V1();
 		// 1 we need app id and app secret.
 		String appID = null, appSecret = null;
 		// if args were specified we assume they are the app id and app secret.

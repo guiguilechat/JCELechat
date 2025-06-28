@@ -1,9 +1,10 @@
 package fr.guiguilechat.jcelechat.model.sde.industry;
 
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.exports.common.MapIntSerializer;
@@ -29,14 +30,31 @@ public class IndustryUsage {
 			IndustryUsage.class);
 
 	// only warn about missing ids once
-	private static Set<Integer> missingIds = Collections.synchronizedSet(new HashSet<>());
+	private static final Set<Integer> missingIds = new HashSet<>();
+
+	// missing ids that have not been printed on debug yet
+	private static final Set<Integer> newMissings = new HashSet<>();
 
 	public static IndustryUsage of(int id) {
 		IndustryUsage ret = storage().load().get(id);
-		if (ret == null && missingIds.add(id)) {
-			log.warn("unknown id " + id);
+		if (ret == null) {
+			synchronized (missingIds) {
+				if (missingIds.add(id)) {
+					newMissings.add(id);
+				}
+			}
 		}
 		return ret;
+	}
+
+	public static void debugMissings() {
+		List<Integer> ids = new ArrayList<>();
+		synchronized (missingIds) {
+			ids.addAll(newMissings);
+			newMissings.clear();
+		}
+		ids.sort(Integer::compareTo);
+		log.debug("unknown industry usage of ids " + ids);
 	}
 
 	public static LinkedHashMap<Integer, IndustryUsage> load() {
