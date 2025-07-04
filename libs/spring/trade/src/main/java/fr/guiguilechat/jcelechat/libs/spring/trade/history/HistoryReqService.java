@@ -74,17 +74,26 @@ extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[]
 	@Override
 	public Instant nextUpdate(boolean remain, Instant now) {
 		if (!remain) {
-			Map<Integer, List<Integer[]>> regionIdToRegionType = marketLineService.listRegionIdTypeId().stream()
-					.collect(Collectors.groupingBy(arr -> arr[0]));
-			for (Entry<Integer, List<Integer[]>> e : regionIdToRegionType.entrySet()) {
-				int regionId = e.getKey();
-				List<Long> typeIds = e.getValue().stream().map(arr -> HistoryReq.makeId(arr[0], arr[1])).toList();
-				log.debug("require {} history entries to observe in region {}", typeIds.size(), regionId);
-				createIfAbsent(typeIds);
-			}
+			addMissingPairs();
 			remain = nbToUpdate() > 0;
 		}
 		return super.nextUpdate(remain, now);
+	}
+
+	/**
+	 * find existing (regionId, typeId) in the market that are not already to fetch
+	 * and set up their fetch. Serial per region, concurrent for types in a region.
+	 */
+	protected void addMissingPairs() {
+		Map<Integer, List<Integer[]>> regionIdToRegionType = marketLineService.listRegionIdTypeId().stream()
+				.collect(Collectors.groupingBy(arr -> arr[0]));
+		for (Entry<Integer, List<Integer[]>> e : regionIdToRegionType.entrySet()) {
+			int regionId = e.getKey();
+			List<Long> typeIds = e.getValue().stream().map(arr -> HistoryReq.makeId(arr[0], arr[1])).toList();
+			log.debug("require {} history entries to observe in region {}", typeIds.size(), regionId);
+			// create missing ones and set all their fetch top active
+			saveAll(createIfAbsent(typeIds).values().parallelStream().peek(hr -> hr.setFetchActive(true)).toList());
+		}
 	}
 
 	@Override
