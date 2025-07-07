@@ -16,4 +16,5 @@ types:
     scanmagnetometricstrength: 25.0
     scanradarstrength: 25.0
     signatureradius: 4000.0
+    tierdifficulty: 5
     volume: 60000.0

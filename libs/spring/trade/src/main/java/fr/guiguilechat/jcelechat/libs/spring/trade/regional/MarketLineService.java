@@ -76,7 +76,7 @@ public class MarketLineService implements MarketRegionListener {
 		long postList = System.currentTimeMillis();
 		Iterator<Long> it = repo.reservePGIds(list.size()).iterator();
 		long postIds = System.currentTimeMillis();
-		log.trace("received next {} indexes", list.size());
+		log.trace("PG copy received next {} indexes for the new records", list.size());
 		entities.forEach(ml -> ml.setId(it.next()));
 		long postUpdateIds = System.currentTimeMillis();
 		StringReader reader = new StringReader(

@@ -21,6 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TierDifficulty;
 import fr.guiguilechat.jcelechat.model.sde.types.SovereigntyStructures;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -35,7 +36,14 @@ public class SovereigntyHub
     @Stackable(true)
     @DefaultIntValue(100000)
     public int planetanchordistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanRadarStrength.INSTANCE, PlanetAnchorDistance.INSTANCE, ScanLadarStrength.INSTANCE, Radius.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE })));
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int tierdifficulty;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanRadarStrength.INSTANCE, PlanetAnchorDistance.INSTANCE, ScanLadarStrength.INSTANCE, Radius.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, TierDifficulty.INSTANCE })));
     public static final SovereigntyHub.MetaGroup METAGROUP = new SovereigntyHub.MetaGroup();
 
     @Override
@@ -44,6 +52,10 @@ public class SovereigntyHub
             case  865 :
             {
                 return planetanchordistance;
+            }
+            case  1919 :
+            {
+                return tierdifficulty;
             }
             default:
             {

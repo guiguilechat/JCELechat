@@ -12359,6 +12359,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.05999999865889549
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 56250
@@ -12441,6 +12442,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.05999999865889549
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 62500
@@ -12523,6 +12525,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.09000000357627869
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
@@ -12606,6 +12609,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.05999999865889549
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 75000
@@ -12683,6 +12687,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.09000000357627869
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 125000
@@ -12767,6 +12772,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.11999999731779099
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 62500
@@ -12851,6 +12857,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.15000000596046448
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
@@ -12934,6 +12941,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.11999999731779099
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 75000
@@ -13006,6 +13014,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.11999999731779099
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 56250
@@ -13085,6 +13094,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.05999999865889549
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 56250
@@ -13164,6 +13174,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.05999999865889549
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 56250
@@ -13248,6 +13259,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.05999999865889549
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 62500
@@ -13331,6 +13343,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.05999999865889549
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 75000
@@ -13408,6 +13421,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.09000000357627869
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
@@ -14676,6 +14690,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.05999999865889549
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 50000
@@ -14751,6 +14766,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.05999999865889549
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 50000
@@ -14910,6 +14926,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.15000000596046448
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000

@@ -42700,3 +42700,13 @@ offers:
       quantity: 1
     requirements:
       lp: 17500
+  19446:
+    id: 19446
+    name: Vigilance Resonance Key
+    product:
+      id: 89156
+      quantity: 1
+    requirements:
+      items:
+      - id: 87179
+        quantity: 3

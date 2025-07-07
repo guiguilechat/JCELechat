@@ -31850,6 +31850,10 @@ id2group:
   87392: commodity/Miscellaneous
   87393: commodity/Miscellaneous
   87397: entity/IrregularBattleship
+  87418: entity/SpawnContainer
+  87419: entity/SpawnContainer
+  87420: entity/SpawnContainer
+  87421: entity/SpawnContainer
   87442: personalization/ShipEmblems
   87443: personalization/ShipEmblems
   87459: skins/PermanentSKIN
@@ -32352,6 +32356,8 @@ id2group:
   89119: skins/PermanentSKIN
   89120: skins/PermanentSKIN
   89121: skins/PermanentSKIN
+  89156: commodity/AccelerationGateKeys
+  89219: commodity/StabilityTelemetry
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

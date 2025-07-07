@@ -23028,6 +23028,7 @@ corporations:
     - 19440
     - 19441
     - 19442
+    - 19446
     name: Perun Clade
   Poksu Mineral Group:
     concordRate: 0.8
@@ -29961,6 +29962,7 @@ corporations:
     - 19440
     - 19441
     - 19442
+    - 19446
     name: Svarog Clade
   Tal-Romon Legion:
     faction: Amarr Empire
@@ -30196,6 +30198,7 @@ corporations:
     - 19440
     - 19441
     - 19442
+    - 19446
     name: The Convocation of Triglav
   The Equilibrium of Mankind:
     id: 1000409
@@ -32558,6 +32561,7 @@ corporations:
     - 19440
     - 19441
     - 19442
+    - 19446
     name: Veles Clade
   Verity Enhancements:
     faction: EverMore

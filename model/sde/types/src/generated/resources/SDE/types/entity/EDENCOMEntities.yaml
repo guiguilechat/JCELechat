@@ -843,6 +843,10 @@ types:
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 12500.0
     behaviorwarpscramblestrength: 2
+    behaviorwebifierdischarge: 10.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierfalloff: 2500
+    behaviorwebifierrange: 18000.0
     capacitorcapacity: 518.75
     capacity: 92.0
     damagemultiplier: 3.0
@@ -894,7 +898,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 32.0
     speed: 2700.0
-    speedfactor: 1.0
+    speedfactor: -65.0
     structureuniformity: 1.0
     thermaldamage: 18.860000610351562
     thermaldamageresonance: 0.6700000166893005
@@ -1662,14 +1666,10 @@ types:
     armorkineticdamageresonance: 0.32499998807907104
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
-    behaviorwarpscrambledischarge: 20.0
-    behaviorwarpscrambleduration: 6500
-    behaviorwarpscramblerange: 35000.0
-    behaviorwarpscramblestrength: 2
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 6500.0
-    behaviorwebifierfalloff: 3500
-    behaviorwebifierrange: 44000.0
+    behaviorsensordampenerdischarge: 5.0
+    behaviorsensordampenerduration: 5000.0
+    behaviorsensordampenerfalloff: 17000.0
+    behaviorsensordampenerrange: 12000.0
     capacitorcapacity: 1800.0
     capacity: 320.0
     damagemultiplier: 3.5
@@ -1695,6 +1695,7 @@ types:
     maxlockedtargets: 7
     maxrange: 35000.0
     maxtargetrange: 64000.0
+    maxtargetrangebonus: -18.0
     maxvelocity: 2362.5
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -1713,6 +1714,7 @@ types:
     rechargerate: 328000.0
     scanradarstrength: 26.0
     scanresolution: 237.0
+    scanresolutionbonus: -16.0
     shieldcapacity: 850.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.25
@@ -1722,7 +1724,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 150.0
     speed: 5250.0
-    speedfactor: -75.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
     thermaldamageresonance: 0.6700000166893005
@@ -1875,6 +1877,10 @@ types:
     armorkineticdamageresonance: 0.32499998807907104
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
+    behaviorsensordampenerdischarge: 5.0
+    behaviorsensordampenerduration: 5000.0
+    behaviorsensordampenerfalloff: 17000.0
+    behaviorsensordampenerrange: 12000.0
     capacitorcapacity: 8750.0
     capacity: 840.0
     damagemultiplier: 4.0
@@ -1900,6 +1906,7 @@ types:
     maxlockedtargets: 7
     maxrange: 60000.0
     maxtargetrange: 85000.0
+    maxtargetrangebonus: -20.0
     maxvelocity: 937.5
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -1917,6 +1924,7 @@ types:
     rechargerate: 1000000.0
     scanradarstrength: 25.0
     scanresolution: 120.0
+    scanresolutionbonus: -20.0
     shieldcapacity: 8000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.25
@@ -1945,10 +1953,6 @@ types:
     behaviortargetpainterduration: 6400.0
     behaviortargetpainterfalloff: 35000.0
     behaviortargetpainterrange: 30000.0
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 6500.0
-    behaviorwebifierfalloff: 15000
-    behaviorwebifierrange: 31000.0
     capacitorcapacity: 518.75
     capacity: 150.0
     damagemultiplier: 2.2100000381469727
@@ -2004,7 +2008,7 @@ types:
     signatureradius: 41.0
     signatureradiusbonus: 27.0
     speed: 2700.0
-    speedfactor: -50.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -2095,6 +2099,10 @@ types:
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 12500.0
     behaviorwarpscramblestrength: 2
+    behaviorwebifierdischarge: 10.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierfalloff: 2500
+    behaviorwebifierrange: 18000.0
     capacitorcapacity: 518.75
     capacity: 94.0
     damagemultiplier: 2.4600000381469727
@@ -2148,7 +2156,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 32.0
     speed: 2700.0
-    speedfactor: 1.0
+    speedfactor: -65.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -2235,10 +2243,6 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 5200.0
-    behaviorwebifierfalloff: 7800
-    behaviorwebifierrange: 19000.0
     capacitorcapacity: 1875.0
     capacity: 515.0
     damagemultiplier: 2.2699999809265137
@@ -2293,7 +2297,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 5250.0
-    speedfactor: -45.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -2311,10 +2315,6 @@ types:
     behaviortargetpainterduration: 7800.0
     behaviortargetpainterfalloff: 47500.0
     behaviortargetpainterrange: 40000.0
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 7500.0
-    behaviorwebifierfalloff: 22000
-    behaviorwebifierrange: 45000.0
     capacitorcapacity: 1800.0
     capacity: 315.0
     damagemultiplier: 2.1500000953674316
@@ -2370,7 +2370,7 @@ types:
     signatureradius: 150.0
     signatureradiusbonus: 35.0
     speed: 5250.0
-    speedfactor: -75.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -2620,7 +2620,7 @@ types:
     entitycruisespeed: 112.5
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.1666666716337204
+    entityfactionloss: 0.30000001192092896
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamageresonance: 0.6700000166893005
     falloff: 24846.4296875
@@ -2692,7 +2692,7 @@ types:
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 60000.0
     capacity: 2750.0
-    damagemultiplier: 1.0
+    damagemultiplier: 4.800000190734863
     emdamageresonance: 0.6700000166893005
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2702,28 +2702,29 @@ types:
     entitycruisespeed: 112.5
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.1666666716337204
+    entityfactionloss: 0.30000001192092896
     entitymaxvelocitysignatureradiusmultiplier: 5
-    entitymissiletypeid: 27339
     explosivedamageresonance: 0.6700000166893005
-    falloff: 1.0
+    falloff: 24846.4296875
     gfxboosterid: 394
-    gfxturretid: 37288
+    gfxturretid: 20450
     hp: 292356.625
     id: 52965
+    kineticdamage: 892.3200073242188
     kineticdamageresonance: 0.6700000166893005
     mass: 100000.0
     maxlockedtargets: 7
+    maxrange: 75000.0
     maxtargetrange: 85000.0
     maxvelocity: 165.0
-    missiledamagemultiplier: 12.199999809265137
+    missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 3.0
-    missileentityflighttimemultiplier: 2.799999952316284
-    missileentityvelocitymultiplier: 2.299999952316284
-    missilelaunchduration: 12000.0
-    name: State Navy Phoenix
-    optimalsigradius: 1000
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: State Navy Karura
+    optimalsigradius: 40000
     packagedVolume: 1.625E7
     portionSize: 1
     price: 1.541551104E9
@@ -2740,9 +2741,12 @@ types:
     shieldthermaldamageresonance: 0.4000000059604645
     shielduniformity: 0.75
     signatureradius: 11100.0
+    speed: 12000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamage: 637.3699951171875
     thermaldamageresonance: 0.6700000166893005
+    trackingspeed: 10.0
     uniformity: 1.0
     volume: 1.625E7
   52966:
@@ -2781,7 +2785,7 @@ types:
     entitycruisespeed: 112.5
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.1666666716337204
+    entityfactionloss: 0.30000001192092896
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamageresonance: 0.6700000166893005
     falloff: 24846.4296875
@@ -2864,7 +2868,7 @@ types:
     entitycruisespeed: 112.5
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.1666666716337204
+    entityfactionloss: 0.30000001192092896
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 637.3699951171875
     explosivedamageresonance: 0.6700000166893005
@@ -2877,7 +2881,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     mass: 100000.0
     maxlockedtargets: 7
-    maxrange: 72380.0
+    maxrange: 75000.0
     maxtargetrange: 85000.0
     maxvelocity: 165.0
     missiledamagemultiplier: 1.0
@@ -5133,6 +5137,10 @@ types:
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 12500.0
     behaviorwarpscramblestrength: 2
+    behaviorwebifierdischarge: 10.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierfalloff: 2500
+    behaviorwebifierrange: 18000.0
     capacitorcapacity: 518.75
     capacity: 92.0
     damagemultiplier: 2.25
@@ -5184,7 +5192,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 40.0
     speed: 2700.0
-    speedfactor: 1.0
+    speedfactor: -65.0
     structureuniformity: 1.0
     thermaldamage: 18.860000610351562
     thermaldamageresonance: 0.6700000166893005
@@ -5742,6 +5750,10 @@ types:
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 12500.0
     behaviorwarpscramblestrength: 2
+    behaviorwebifierdischarge: 10.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierfalloff: 2500
+    behaviorwebifierrange: 18000.0
     capacitorcapacity: 518.75
     capacity: 92.0
     damagemultiplier: 3.75
@@ -5793,7 +5805,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 48.0
     speed: 2700.0
-    speedfactor: 1.0
+    speedfactor: -65.0
     structureuniformity: 1.0
     thermaldamage: 18.860000610351562
     thermaldamageresonance: 0.6700000166893005
@@ -6351,6 +6363,10 @@ types:
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 12500.0
     behaviorwarpscramblestrength: 2
+    behaviorwebifierdischarge: 10.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierfalloff: 2500
+    behaviorwebifierrange: 18000.0
     capacitorcapacity: 518.75
     capacity: 92.0
     damagemultiplier: 5.25
@@ -6402,7 +6418,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 64.0
     speed: 2700.0
-    speedfactor: 1.0
+    speedfactor: -65.0
     structureuniformity: 1.0
     thermaldamage: 18.860000610351562
     thermaldamageresonance: 0.6700000166893005
@@ -7170,14 +7186,10 @@ types:
     armorkineticdamageresonance: 0.32499998807907104
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
-    behaviorwarpscrambledischarge: 20.0
-    behaviorwarpscrambleduration: 6500
-    behaviorwarpscramblerange: 35000.0
-    behaviorwarpscramblestrength: 2
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 6500.0
-    behaviorwebifierfalloff: 3500
-    behaviorwebifierrange: 44000.0
+    behaviorsensordampenerdischarge: 5.0
+    behaviorsensordampenerduration: 5000.0
+    behaviorsensordampenerfalloff: 17000.0
+    behaviorsensordampenerrange: 12000.0
     capacitorcapacity: 1800.0
     capacity: 320.0
     damagemultiplier: 2.625
@@ -7203,6 +7215,7 @@ types:
     maxlockedtargets: 7
     maxrange: 35000.0
     maxtargetrange: 64000.0
+    maxtargetrangebonus: -14.0
     maxvelocity: 1771.875
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -7221,6 +7234,7 @@ types:
     rechargerate: 328000.0
     scanradarstrength: 26.0
     scanresolution: 237.0
+    scanresolutionbonus: -12.0
     shieldcapacity: 425.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.25
@@ -7230,7 +7244,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 187.5
     speed: 5250.0
-    speedfactor: -75.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
     thermaldamageresonance: 0.6700000166893005
@@ -7383,6 +7397,10 @@ types:
     armorkineticdamageresonance: 0.32499998807907104
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
+    behaviorsensordampenerdischarge: 5.0
+    behaviorsensordampenerduration: 5000.0
+    behaviorsensordampenerfalloff: 17000.0
+    behaviorsensordampenerrange: 12000.0
     capacitorcapacity: 8750.0
     capacity: 840.0
     damagemultiplier: 3.0
@@ -7408,6 +7426,7 @@ types:
     maxlockedtargets: 7
     maxrange: 60000.0
     maxtargetrange: 85000.0
+    maxtargetrangebonus: -16.0
     maxvelocity: 703.125
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -7425,6 +7444,7 @@ types:
     rechargerate: 1000000.0
     scanradarstrength: 25.0
     scanresolution: 120.0
+    scanresolutionbonus: -16.0
     shieldcapacity: 4000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.25
@@ -7806,14 +7826,10 @@ types:
     armorkineticdamageresonance: 0.32499998807907104
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
-    behaviorwarpscrambledischarge: 20.0
-    behaviorwarpscrambleduration: 6500
-    behaviorwarpscramblerange: 35000.0
-    behaviorwarpscramblestrength: 2
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 6500.0
-    behaviorwebifierfalloff: 3500
-    behaviorwebifierrange: 44000.0
+    behaviorsensordampenerdischarge: 5.0
+    behaviorsensordampenerduration: 5000.0
+    behaviorsensordampenerfalloff: 17000.0
+    behaviorsensordampenerrange: 12000.0
     capacitorcapacity: 1800.0
     capacity: 320.0
     damagemultiplier: 4.375
@@ -7839,6 +7855,7 @@ types:
     maxlockedtargets: 7
     maxrange: 35000.0
     maxtargetrange: 64000.0
+    maxtargetrangebonus: -22.0
     maxvelocity: 1969.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -7857,6 +7874,7 @@ types:
     rechargerate: 328000.0
     scanradarstrength: 26.0
     scanresolution: 237.0
+    scanresolutionbonus: -20.0
     shieldcapacity: 1275.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.25
@@ -7866,7 +7884,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 225.0
     speed: 5250.0
-    speedfactor: -75.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
     thermaldamageresonance: 0.6700000166893005
@@ -8019,6 +8037,10 @@ types:
     armorkineticdamageresonance: 0.32499998807907104
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
+    behaviorsensordampenerdischarge: 5.0
+    behaviorsensordampenerduration: 5000.0
+    behaviorsensordampenerfalloff: 17000.0
+    behaviorsensordampenerrange: 12000.0
     capacitorcapacity: 8750.0
     capacity: 840.0
     damagemultiplier: 5.0
@@ -8044,6 +8066,7 @@ types:
     maxlockedtargets: 7
     maxrange: 60000.0
     maxtargetrange: 85000.0
+    maxtargetrangebonus: -24.0
     maxvelocity: 781.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -8061,6 +8084,7 @@ types:
     rechargerate: 1000000.0
     scanradarstrength: 25.0
     scanresolution: 120.0
+    scanresolutionbonus: -24.0
     shieldcapacity: 12000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.25
@@ -8442,14 +8466,10 @@ types:
     armorkineticdamageresonance: 0.32499998807907104
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
-    behaviorwarpscrambledischarge: 20.0
-    behaviorwarpscrambleduration: 6500
-    behaviorwarpscramblerange: 35000.0
-    behaviorwarpscramblestrength: 2
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 6500.0
-    behaviorwebifierfalloff: 3500
-    behaviorwebifierrange: 44000.0
+    behaviorsensordampenerdischarge: 5.0
+    behaviorsensordampenerduration: 5000.0
+    behaviorsensordampenerfalloff: 17000.0
+    behaviorsensordampenerrange: 12000.0
     capacitorcapacity: 1800.0
     capacity: 320.0
     damagemultiplier: 6.125
@@ -8475,6 +8495,7 @@ types:
     maxlockedtargets: 7
     maxrange: 35000.0
     maxtargetrange: 64000.0
+    maxtargetrangebonus: -26.0
     maxvelocity: 2756.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -8493,6 +8514,7 @@ types:
     rechargerate: 328000.0
     scanradarstrength: 26.0
     scanresolution: 237.0
+    scanresolutionbonus: -24.0
     shieldcapacity: 2125.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.25
@@ -8502,7 +8524,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 5250.0
-    speedfactor: -75.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
     thermaldamageresonance: 0.6700000166893005
@@ -8655,6 +8677,10 @@ types:
     armorkineticdamageresonance: 0.32499998807907104
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
+    behaviorsensordampenerdischarge: 5.0
+    behaviorsensordampenerduration: 5000.0
+    behaviorsensordampenerfalloff: 17000.0
+    behaviorsensordampenerrange: 12000.0
     capacitorcapacity: 8750.0
     capacity: 840.0
     damagemultiplier: 7.0
@@ -8680,6 +8706,7 @@ types:
     maxlockedtargets: 7
     maxrange: 60000.0
     maxtargetrange: 85000.0
+    maxtargetrangebonus: -28.0
     maxvelocity: 1094.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -8697,6 +8724,7 @@ types:
     rechargerate: 1000000.0
     scanradarstrength: 25.0
     scanresolution: 120.0
+    scanresolutionbonus: -28.0
     shieldcapacity: 20000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.25
@@ -8725,10 +8753,6 @@ types:
     behaviortargetpainterduration: 6400.0
     behaviortargetpainterfalloff: 35000.0
     behaviortargetpainterrange: 30000.0
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 6500.0
-    behaviorwebifierfalloff: 15000
-    behaviorwebifierrange: 31000.0
     capacitorcapacity: 518.75
     capacity: 150.0
     damagemultiplier: 1.6575000286102295
@@ -8784,7 +8808,7 @@ types:
     signatureradius: 51.25
     signatureradiusbonus: 20.25
     speed: 2700.0
-    speedfactor: -45.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -8875,6 +8899,10 @@ types:
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 12500.0
     behaviorwarpscramblestrength: 2
+    behaviorwebifierdischarge: 10.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierfalloff: 2500
+    behaviorwebifierrange: 18000.0
     capacitorcapacity: 518.75
     capacity: 94.0
     damagemultiplier: 1.8450000286102295
@@ -8928,7 +8956,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 40.0
     speed: 2700.0
-    speedfactor: 1.0
+    speedfactor: -65.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -9015,10 +9043,6 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 5200.0
-    behaviorwebifierfalloff: 7800
-    behaviorwebifierrange: 19000.0
     capacitorcapacity: 1875.0
     capacity: 515.0
     damagemultiplier: 1.7024999856948853
@@ -9073,7 +9097,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 156.25
     speed: 5250.0
-    speedfactor: -33.75
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -9091,10 +9115,6 @@ types:
     behaviortargetpainterduration: 7800.0
     behaviortargetpainterfalloff: 47500.0
     behaviortargetpainterrange: 40000.0
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 7500.0
-    behaviorwebifierfalloff: 22000
-    behaviorwebifierrange: 45000.0
     capacitorcapacity: 1800.0
     capacity: 315.0
     damagemultiplier: 1.6124999523162842
@@ -9150,7 +9170,7 @@ types:
     signatureradius: 187.5
     signatureradiusbonus: 26.25
     speed: 5250.0
-    speedfactor: -69.75
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -9375,10 +9395,6 @@ types:
     behaviortargetpainterduration: 6400.0
     behaviortargetpainterfalloff: 35000.0
     behaviortargetpainterrange: 30000.0
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 6500.0
-    behaviorwebifierfalloff: 15000
-    behaviorwebifierrange: 31000.0
     capacitorcapacity: 518.75
     capacity: 150.0
     damagemultiplier: 2.762500047683716
@@ -9434,7 +9450,7 @@ types:
     signatureradius: 61.5
     signatureradiusbonus: 33.75
     speed: 2700.0
-    speedfactor: -55.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -9525,6 +9541,10 @@ types:
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 12500.0
     behaviorwarpscramblestrength: 2
+    behaviorwebifierdischarge: 10.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierfalloff: 2500
+    behaviorwebifierrange: 18000.0
     capacitorcapacity: 518.75
     capacity: 94.0
     damagemultiplier: 3.075000047683716
@@ -9578,7 +9598,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 48.0
     speed: 2700.0
-    speedfactor: 1.0
+    speedfactor: -65.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -9665,10 +9685,6 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 5200.0
-    behaviorwebifierfalloff: 7800
-    behaviorwebifierrange: 19000.0
     capacitorcapacity: 1875.0
     capacity: 515.0
     damagemultiplier: 2.8375000953674316
@@ -9723,7 +9739,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 187.5
     speed: 5250.0
-    speedfactor: -56.25
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -9741,10 +9757,6 @@ types:
     behaviortargetpainterduration: 7800.0
     behaviortargetpainterfalloff: 47500.0
     behaviortargetpainterrange: 40000.0
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 7500.0
-    behaviorwebifierfalloff: 22000
-    behaviorwebifierrange: 45000.0
     capacitorcapacity: 1800.0
     capacity: 315.0
     damagemultiplier: 2.6875
@@ -9800,7 +9812,7 @@ types:
     signatureradius: 225.0
     signatureradiusbonus: 43.75
     speed: 5250.0
-    speedfactor: -79.75
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -10025,10 +10037,6 @@ types:
     behaviortargetpainterduration: 6400.0
     behaviortargetpainterfalloff: 35000.0
     behaviortargetpainterrange: 30000.0
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 6500.0
-    behaviorwebifierfalloff: 15000
-    behaviorwebifierrange: 31000.0
     capacitorcapacity: 518.75
     capacity: 150.0
     damagemultiplier: 3.867500066757202
@@ -10084,7 +10092,7 @@ types:
     signatureradius: 82.0
     signatureradiusbonus: 40.5
     speed: 2700.0
-    speedfactor: -60.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -10175,6 +10183,10 @@ types:
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 12500.0
     behaviorwarpscramblestrength: 2
+    behaviorwebifierdischarge: 10.0
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierfalloff: 2500
+    behaviorwebifierrange: 18000.0
     capacitorcapacity: 518.75
     capacity: 94.0
     damagemultiplier: 4.304999828338623
@@ -10228,7 +10240,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 64.0
     speed: 2700.0
-    speedfactor: 1.0
+    speedfactor: -65.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
@@ -10315,10 +10327,6 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.48750001192092896
     armoruniformity: 0.75
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 5200.0
-    behaviorwebifierfalloff: 7800
-    behaviorwebifierrange: 19000.0
     capacitorcapacity: 1875.0
     capacity: 515.0
     damagemultiplier: 3.9725000858306885
@@ -10373,7 +10381,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 250.0
     speed: 5250.0
-    speedfactor: -67.5
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
@@ -10391,10 +10399,6 @@ types:
     behaviortargetpainterduration: 7800.0
     behaviortargetpainterfalloff: 47500.0
     behaviortargetpainterrange: 40000.0
-    behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 7500.0
-    behaviorwebifierfalloff: 22000
-    behaviorwebifierrange: 45000.0
     capacitorcapacity: 1800.0
     capacity: 315.0
     damagemultiplier: 3.762500047683716
@@ -10450,7 +10454,7 @@ types:
     signatureradius: 300.0
     signatureradiusbonus: 52.5
     speed: 5250.0
-    speedfactor: -84.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0

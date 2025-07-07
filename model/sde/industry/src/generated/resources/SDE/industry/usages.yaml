@@ -36079,7 +36079,7 @@
   compressFrom: 62522
   reprocessInto:
     34: 1.5
-    35: 0.9
+    35: 0.99
 1229:
   compressFrom: 28622
   reprocessInto:
@@ -75399,12 +75399,12 @@
   compressTo: 1228
   reprocessInto:
     34: 1.58
-    35: 0.95
+    35: 1.03
 17464:
   compressTo: 1228
   reprocessInto:
     34: 1.65
-    35: 0.99
+    35: 1.1
 17466:
   compressTo: 19
   reprocessInto:
@@ -107646,15 +107646,15 @@
 28427:
   reprocessInto:
     34: 158.0
-    35: 95.0
+    35: 103.0
 28428:
   reprocessInto:
     34: 165.0
-    35: 99.0
+    35: 110.0
 28429:
   reprocessInto:
     34: 150.0
-    35: 90.0
+    35: 99.0
 28430:
   reprocessInto:
     34: 420.0
@@ -129947,7 +129947,7 @@
   compressFrom: 62523
   reprocessInto:
     34: 1.73
-    35: 1.04
+    35: 1.14
 46688:
   compressFrom: 62575
   reprocessInto:
@@ -130016,7 +130016,7 @@
 46703:
   reprocessInto:
     34: 173.0
-    35: 104.0
+    35: 114.0
 46704:
   reprocessInto:
     34: 55200.0
@@ -137640,22 +137640,22 @@
   compressTo: 1228
   reprocessInto:
     34: 1.5
-    35: 0.9
+    35: 0.99
 62521:
   compressTo: 1228
   reprocessInto:
     34: 1.58
-    35: 0.95
+    35: 1.03
 62522:
   compressTo: 1228
   reprocessInto:
     34: 1.65
-    35: 0.99
+    35: 1.1
 62523:
   compressTo: 46687
   reprocessInto:
     34: 1.73
-    35: 1.04
+    35: 1.14
 62524:
   compressTo: 1224
   reprocessInto:
@@ -138431,19 +138431,19 @@
 74521:
   compressFrom: 74524
   reprocessInto:
-    35: 0.84
+    35: 0.88
 74522:
   compressTo: 74521
   reprocessInto:
-    35: 0.88
+    35: 0.92
 74523:
   compressTo: 74521
   reprocessInto:
-    35: 0.92
+    35: 0.97
 74524:
   compressTo: 74521
   reprocessInto:
-    35: 0.96
+    35: 1.01
 74525:
   compressFrom: 74528
   reprocessInto:
@@ -138495,19 +138495,19 @@
 75275:
   compressTo: 74521
   reprocessInto:
-    35: 0.84
+    35: 0.88
 75276:
   compressTo: 74521
   reprocessInto:
-    35: 0.88
+    35: 0.92
 75277:
   compressTo: 74521
   reprocessInto:
-    35: 0.92
+    35: 0.97
 75278:
   compressTo: 74521
   reprocessInto:
-    35: 0.96
+    35: 1.01
 75279:
   compressTo: 74525
   reprocessInto:

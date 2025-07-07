@@ -438,6 +438,7 @@ types:
     maxtargetrange: 93000.0
     maxvelocity: 115.0
     medslots: 4
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Babaroga
     packagedVolume: 50000.0
@@ -476,7 +477,7 @@ types:
     signatureradius: 400.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
-    techlevel: 1
+    techlevel: 2
     thermaldamageresonance: 0.6700000166893005
     turretslotsleft: 1
     typecolorscheme: 11313

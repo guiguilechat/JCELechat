@@ -12735,6 +12735,114 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     tierdifficulty: 3
+  87418:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    cargoscanresistance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 87418
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Infested Array
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 4500.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  87419:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    cargoscanresistance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 87419
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Topographer Array
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 4500.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  87420:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    cargoscanresistance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 87420
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Watcher Array
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 4500.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  87421:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    cargoscanresistance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 87421
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Surveilance Array
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 4500.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
   87501:
     capacity: 2700.0
     disallowassistance: 1

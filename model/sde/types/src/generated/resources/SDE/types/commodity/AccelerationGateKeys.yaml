@@ -803,9 +803,18 @@ types:
     id: 87179
     marketGroup: 3732
     mass: 1.0
-    name: Observatory Resonance Key
+    name: Obsolete Observatory Resonance Key
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 3.0E7
+    published: true
+    volume: 0.10000000149011612
+  89156:
+    id: 89156
+    marketGroup: 3732
+    mass: 1.0
+    name: Vigilance Resonance Key
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

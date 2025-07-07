@@ -33,6 +33,8 @@ public enum get_corporations_corporation_id_containers_logs_location_flag {
     CorpSAG6("CorpSAG6"),
     @JsonProperty("CorpSAG7")
     CorpSAG7("CorpSAG7"),
+    @JsonProperty("CorporationGoalDeliveries")
+    CorporationGoalDeliveries("CorporationGoalDeliveries"),
     @JsonProperty("CrateLoot")
     CrateLoot("CrateLoot"),
     @JsonProperty("Deliveries")
@@ -85,6 +87,8 @@ public enum get_corporations_corporation_id_containers_logs_location_flag {
     Implant("Implant"),
     @JsonProperty("Impounded")
     Impounded("Impounded"),
+    @JsonProperty("InfrastructureHangar")
+    InfrastructureHangar("InfrastructureHangar"),
     @JsonProperty("JunkyardReprocessed")
     JunkyardReprocessed("JunkyardReprocessed"),
     @JsonProperty("JunkyardTrashed")
@@ -123,6 +127,10 @@ public enum get_corporations_corporation_id_containers_logs_location_flag {
     MedSlot6("MedSlot6"),
     @JsonProperty("MedSlot7")
     MedSlot7("MedSlot7"),
+    @JsonProperty("MobileDepotHold")
+    MobileDepotHold("MobileDepotHold"),
+    @JsonProperty("MoonMaterialBay")
+    MoonMaterialBay("MoonMaterialBay"),
     @JsonProperty("OfficeFolder")
     OfficeFolder("OfficeFolder"),
     @JsonProperty("Pilot")
@@ -179,12 +187,16 @@ public enum get_corporations_corporation_id_containers_logs_location_flag {
     SkillInTraining("SkillInTraining"),
     @JsonProperty("SpecializedAmmoHold")
     SpecializedAmmoHold("SpecializedAmmoHold"),
+    @JsonProperty("SpecializedAsteroidHold")
+    SpecializedAsteroidHold("SpecializedAsteroidHold"),
     @JsonProperty("SpecializedCommandCenterHold")
     SpecializedCommandCenterHold("SpecializedCommandCenterHold"),
     @JsonProperty("SpecializedFuelBay")
     SpecializedFuelBay("SpecializedFuelBay"),
     @JsonProperty("SpecializedGasHold")
     SpecializedGasHold("SpecializedGasHold"),
+    @JsonProperty("SpecializedIceHold")
+    SpecializedIceHold("SpecializedIceHold"),
     @JsonProperty("SpecializedIndustrialShipHold")
     SpecializedIndustrialShipHold("SpecializedIndustrialShipHold"),
     @JsonProperty("SpecializedLargeShipHold")

@@ -5611,7 +5611,8 @@ types:
     capacitorcapacity: 60000.0
     capacity: 2175.0
     damagemultiplier: 4.199999809265137
-    damagemultiplierbonusmax: 0.5
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
     emdamageresonance: 0.6700000166893005
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -5621,7 +5622,7 @@ types:
     entitycruisespeed: 112.5
     entityequipmentmax: 1
     entityequipmentmin: 1
-    entityfactionloss: 0.25
+    entityfactionloss: 0.30000001192092896
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.5
@@ -5787,8 +5788,8 @@ types:
     capacitorcapacity: 60000.0
     capacity: 2175.0
     damagemultiplier: 4.199999809265137
-    damagemultiplierbonusmax: 0.5
-    emdamage: 892.3200073242188
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
     emdamageresonance: 0.6700000166893005
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -5798,10 +5799,11 @@ types:
     entitycruisespeed: 112.5
     entityequipmentmax: 1
     entityequipmentmin: 1
-    entityfactionloss: 0.25
+    entityfactionloss: 0.30000001192092896
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.5
+    explosivedamage: 892.3200073242188
     explosivedamageresonance: 0.6700000166893005
     falloff: 24846.4296875
     fighterabilityanticapitalmissileresistance: 1

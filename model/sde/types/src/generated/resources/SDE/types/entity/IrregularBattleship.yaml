@@ -6330,6 +6330,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.30000001192092896
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1031250
@@ -6421,6 +6422,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.23999999463558197
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 475000
@@ -6511,6 +6513,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.23999999463558197
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 518750
@@ -6596,6 +6599,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.18000000715255737
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 475000
@@ -6686,6 +6690,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.18000000715255737
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 518750
@@ -7037,6 +7042,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.30000001192092896
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1031250
@@ -7132,6 +7138,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.27000001072883606
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1031250
@@ -7310,6 +7317,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.27000001072883606
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 881250

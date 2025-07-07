@@ -19,7 +19,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.002286901930347085
+    entityfactionloss: 0.014999999664723873
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 2.222222328186035
     explosivedamageresonance: 1.0
@@ -86,7 +86,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.002286901930347085
+    entityfactionloss: 0.012000000104308128
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 3.1111111640930176
     explosivedamageresonance: 1.0
@@ -163,7 +163,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.002286901930347085
+    entityfactionloss: 0.014999999664723873
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -1.3333333730697632
     explosivedamage: 2.222222328186035
@@ -253,7 +253,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.002286901930347085
+    entityfactionloss: 0.014999999664723873
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -1.4666666984558105
     explosivedamage: 3.1111111640930176
@@ -336,7 +336,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.029729729518294334
+    entityfactionloss: 0.032999999821186066
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 3.3333332538604736
     explosivedamageresonance: 1.0
@@ -406,7 +406,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.03270270302891731
+    entityfactionloss: 0.029999999329447746
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 4.666666507720947
     explosivedamageresonance: 1.0
@@ -483,7 +483,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.029729729518294334
+    entityfactionloss: 0.032999999821186066
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -4.0
     explosivedamage: 3.3333332538604736
@@ -574,7 +574,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.03270270302891731
+    entityfactionloss: 0.029999999329447746
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -4.400000095367432
     explosivedamage: 4.666666507720947
@@ -658,7 +658,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.04459459334611893
+    entityfactionloss: 0.04800000041723251
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 5.0
     explosivedamageresonance: 1.0
@@ -725,7 +725,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.04905405268073082
+    entityfactionloss: 0.04500000178813934
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 7.0
     explosivedamageresonance: 1.0
@@ -802,7 +802,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.04459459334611893
+    entityfactionloss: 0.04800000041723251
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -6.0
     explosivedamage: 5.0
@@ -893,7 +893,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.04905405268073082
+    entityfactionloss: 0.04500000178813934
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosiondelaybonus: -6.599999904632568
     explosivedamage: 7.0
@@ -974,7 +974,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.05945945903658867
+    entityfactionloss: 0.06599999964237213
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 6.666666507720947
     explosivedamageresonance: 1.0
@@ -1041,7 +1041,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.06540540605783463
+    entityfactionloss: 0.05999999865889549
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 9.333333015441895
     explosivedamageresonance: 1.0
@@ -1122,7 +1122,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.05945945903658867
+    entityfactionloss: 0.06599999964237213
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 6.666666507720947
     explosivedamageresonance: 1.0
@@ -1212,7 +1212,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.06540540605783463
+    entityfactionloss: 0.05999999865889549
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 9.333333015441895
     explosivedamageresonance: 1.0
@@ -1273,37 +1273,37 @@ types:
     trackingspeedbonus: -6.929999828338623
     volume: 10.0
   56503:
-    agility: 5.0
+    agility: 0.05000000074505806
     armordamageamount: 250.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorhp: 18000.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 16000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 1.0
     capacitorcapacity: 1.0
     capacity: 480.0
     damagemultiplier: 1.0
-    emdamage: 130.0
+    emdamage: 180.0
     emdamageresonance: 1.0
-    entitychasemaxdelay: 1.0
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 40
-    entitychasemaxduration: 6000
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 90.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.14300000667572021
+    entityfactionloss: 0.30000001192092896
     entitymaxvelocitysignatureradiusmultiplier: 6
-    explosivedamage: 130.0
+    explosivedamage: 180.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
     gfxboosterid: 397
     hp: 110000.0
     id: 56503
-    kineticdamage: 130.0
+    kineticdamage: 180.0
     kineticdamageresonance: 1.0
-    mass: 100000.0
+    mass: 1.22E9
     maxlockedtargets: 8
     maxrange: 60000.0
     maxtargetrange: 60000.0
@@ -1315,27 +1315,26 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Overmind Broodlord Alpha
-    npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
     packagedVolume: 60.0
     portionSize: 1
     published: false
-    radius: 150.0
+    radius: 1134.0
     rechargerate: 2500000.0
     scanradarstrength: 120.0
     scanresolution: 2000.0
     shieldcapacity: 8500.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 1.0
-    signatureradius: 300.0
+    signatureradius: 4500.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 130.0
+    thermaldamage: 180.0
     thermaldamageresonance: 1.0
     trackingspeed: 106.0
     volume: 60.0
@@ -1401,7 +1400,7 @@ types:
     trackingspeed: 106.0
     volume: 60.0
   56505:
-    agility: 100.0
+    agility: 0.05000000074505806
     armordamageamount: 400.0
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.800000011920929
@@ -1409,29 +1408,30 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     capacity: 480.0
     damagemultiplier: 1.0
-    emdamage: 85.0
+    emdamage: 110.0
     emdamageresonance: 1.0
-    entitychasemaxdelay: 1.0
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 40
-    entitychasemaxduration: 6000
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 105.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.14300000667572021
+    entityfactionloss: 0.33000001311302185
     entitymaxvelocitysignatureradiusmultiplier: 6
-    explosivedamage: 85.0
+    explosivedamage: 110.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
     fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 397
     hp: 140000.0
     id: 56505
-    kineticdamage: 85.0
+    kineticdamage: 110.0
     kineticdamageresonance: 1.0
-    mass: 5000.0
-    maxattacktargets: 1
+    mass: 1.6E9
     maxlockedtargets: 8
     maxrange: 60000.0
     maxtargetrange: 60000.0
@@ -1443,37 +1443,36 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Overmind Broodlord Omega
-    npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
     packagedVolume: 5.0
     portionSize: 1
     published: false
-    radius: 15.0
+    radius: 3820.0
     rechargerate: 2500000.0
     scanradarstrength: 120.0
-    scanspeed: 2000
-    shieldcapacity: 7500.0
+    scanresolution: 2000.0
+    shieldcapacity: 9500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 125000.0
+    shieldrechargerate: 8.9999998976E11
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 1.0
-    signatureradius: 25.0
+    signatureradius: 9000.0
     speed: 2000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 85.0
+    thermaldamage: 110.0
     thermaldamageresonance: 1.0
     trackingspeed: 106.0
     volume: 5.0
   56506:
     agility: 50.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
     armorhp: 13500.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 1.0
     capacitorcapacity: 1.0
     capacity: 480.0
@@ -1487,7 +1486,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 130.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.09000000357627869
+    entityfactionloss: 0.23999999463558197
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 55.0
     explosivedamageresonance: 1.0
@@ -1519,11 +1518,11 @@ types:
     scanradarstrength: 100.0
     scanresolution: 2000.0
     shieldcapacity: 6375.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 1.0
     signatureradius: 300.0
     speed: 5000.0
@@ -1535,11 +1534,11 @@ types:
     volume: 60.0
   56507:
     agility: 50.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
     armorhp: 10125.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 1.0
     capacitorcapacity: 1.0
     capacity: 480.0
@@ -1553,7 +1552,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.09000000357627869
+    entityfactionloss: 0.20999999344348907
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 78.0
     explosivedamageresonance: 1.0
@@ -1585,11 +1584,11 @@ types:
     scanradarstrength: 100.0
     scanresolution: 2000.0
     shieldcapacity: 4781.25
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 1.0
     signatureradius: 300.0
     speed: 5000.0
@@ -1602,11 +1601,11 @@ types:
   56508:
     agility: 50.0
     armordamageamount: 300.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
     armorhp: 15750.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 1.0
     capacitorcapacity: 1.0
     capacity: 480.0
@@ -1620,7 +1619,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 110.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.09000000357627869
+    entityfactionloss: 0.30000001192092896
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 45.0
     explosivedamageresonance: 1.0
@@ -1652,11 +1651,11 @@ types:
     scanradarstrength: 100.0
     scanresolution: 2000.0
     shieldcapacity: 7437.5
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 1.0
     signatureradius: 300.0
     speed: 5000.0
@@ -1669,11 +1668,11 @@ types:
   56509:
     agility: 50.0
     armordamageamount: 100.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
     armorhp: 11812.5
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 1.0
     capacitorcapacity: 1.0
     capacity: 480.0
@@ -1687,7 +1686,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 110.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.09000000357627869
+    entityfactionloss: 0.27000001072883606
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamage: 33.0
     explosivedamageresonance: 1.0
@@ -1719,11 +1718,11 @@ types:
     scanradarstrength: 100.0
     scanresolution: 2000.0
     shieldcapacity: 5578.125
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 1.0
     signatureradius: 300.0
     speed: 5000.0
@@ -1734,35 +1733,39 @@ types:
     trackingspeed: 106.0
     volume: 60.0
   56510:
-    agility: 50.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    agility: 0.05000000074505806
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 1.0
     capacitorcapacity: 1.0
     capacity: 480.0
     damagemultiplier: 1.0
+    emdamage: 90.0
     emdamageresonance: 1.0
-    entitychasemaxdelay: 1.0
+    entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
-    entitychasemaxduration: 6000
+    entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 60.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.1899999976158142
+    entityfactionloss: 0.36000001430511475
     entitymaxvelocitysignatureradiusmultiplier: 6
+    explosivedamage: 90.0
     explosivedamageresonance: 1.0
-    falloff: 6000.0
+    falloff: 18000.0
     gfxboosterid: 397
     hp: 864000.0
     id: 56510
+    kineticdamage: 90.0
     kineticdamageresonance: 1.0
-    mass: 100000.0
+    mass: 1.26E9
     maxlockedtargets: 8
+    maxrange: 60000.0
     maxtargetrange: 60000.0
-    maxvelocity: 525.0
+    maxvelocity: 180.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1770,24 +1773,24 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Overmind Progenitor Zero
-    npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
     packagedVolume: 60.0
     portionSize: 1
     published: false
-    radius: 150.0
+    radius: 4000.0
     rechargerate: 2500000.0
     scanresolution: 2000.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 1.0
-    signatureradius: 600.0
+    signatureradius: 9000.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamage: 90.0
     thermaldamageresonance: 1.0
     trackingspeed: 106.0
     volume: 60.0
