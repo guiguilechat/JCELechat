@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler;
 
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -15,25 +16,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.helger.jcodemodel.AbstractJClass;
-import com.helger.jcodemodel.AbstractJType;
-import com.helger.jcodemodel.EClassType;
-import com.helger.jcodemodel.IJExpression;
-import com.helger.jcodemodel.JArray;
-import com.helger.jcodemodel.JArrayClass;
-import com.helger.jcodemodel.JCodeModel;
-import com.helger.jcodemodel.JCodeModelException;
-import com.helger.jcodemodel.JDefinedClass;
-import com.helger.jcodemodel.JEnumConstant;
-import com.helger.jcodemodel.JExpr;
-import com.helger.jcodemodel.JFieldRef;
-import com.helger.jcodemodel.JFieldVar;
-import com.helger.jcodemodel.JMethod;
-import com.helger.jcodemodel.JMod;
-import com.helger.jcodemodel.JPackage;
-import com.helger.jcodemodel.JTypeVar;
-import com.helger.jcodemodel.JVar;
+import com.helger.jcodemodel.*;
 
+import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import io.swagger.models.ArrayModel;
@@ -94,6 +79,7 @@ public class ClassBridge {
 			swaggerCOClass.javadoc().add("interface to access the ESI with a connected account.<br />"
 					+ "This typically gives access to the character information, corporation, etc.");
 
+			createMetaData();
 		} catch (JCodeModelException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
@@ -125,6 +111,14 @@ public class ClassBridge {
 
 	public AbstractJClass propertiesType() {
 		return propertiesType;
+	}
+
+	protected void createMetaData() throws JCodeModelException {
+		JDefinedClass metaDataClass = cm._class(rootPackage + "." + "ESIMeta");
+		JFieldVar f = metaDataClass
+				.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, String.class, "COMPILED_DATE",
+						JExpr.lit(ESIDateTools.toCompatibilityHeader(Instant.now())));
+		f.javadoc().add("day at which this library was compiled. To send as date header for versioning");
 	}
 
 	protected void createSwaggerCalls() {
@@ -285,7 +279,7 @@ public class ClassBridge {
 	 */
 	public AbstractJType translateToClass(Property p, JPackage pck, String name) {
 		AbstractJType ret = getExistingClass(p.getType(), name, p.getFormat(),
-				p instanceof StringProperty ? ((StringProperty) p).getEnum() : null);
+				p instanceof StringProperty s ? s.getEnum() : null);
 		if (ret != null) {
 			return ret;
 		}
@@ -458,12 +452,10 @@ public class ClassBridge {
 				if (field.type() == cm.DOUBLE || field.type() == cm.FLOAT) {
 					// Double.hashCode(field)
 					newret = cm.ref(Double.class).staticInvoke("hashCode").arg(field);
-				} else {
-					if (field.type() == cm.BOOLEAN) {
-						newret = cm.ref(Boolean.class).staticInvoke("hashCode").arg(field);
-					} else if (field.type() == cm.LONG) {
-						newret = cm.ref(Long.class).staticInvoke("hashCode").arg(field);
-					}
+				} else if (field.type() == cm.BOOLEAN) {
+					newret = cm.ref(Boolean.class).staticInvoke("hashCode").arg(field);
+				} else if (field.type() == cm.LONG) {
+					newret = cm.ref(Long.class).staticInvoke("hashCode").arg(field);
 				}
 			} else {
 				newret = JExpr.cond(field.eqNull(), JExpr.lit(0), field.invoke("hashCode"));

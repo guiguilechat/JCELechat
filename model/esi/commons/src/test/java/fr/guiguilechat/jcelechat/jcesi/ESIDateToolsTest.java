@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi;
 
+import java.time.Instant;
+import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 
@@ -17,7 +19,7 @@ import org.testng.annotations.Test;
 public class ESIDateToolsTest {
 
 	@Test
-	public void testHeader() {
+	public void testHeaderInstant() {
 		String header = "Sun, 23 Feb 2025 12:38:07 GMT";
 		OffsetDateTime headerUTC = ESIDateTools.headerInstant(header).atOffset(ZoneOffset.UTC);
 		Assert.assertEquals(headerUTC.getYear(), 2025);
@@ -30,7 +32,7 @@ public class ESIDateToolsTest {
 	}
 
 	@Test
-	public void testField() {
+	public void testFieldInstant() {
 		String field = "2025-01-23T23:55:54Z";
 		OffsetDateTime fieldUTC = ESIDateTools.fieldInstant(field).atOffset(ZoneOffset.UTC);
 		Assert.assertEquals(fieldUTC.getYear(), 2025);
@@ -40,6 +42,19 @@ public class ESIDateToolsTest {
 		Assert.assertEquals(fieldUTC.getMinute(), 55);
 		Assert.assertEquals(fieldUTC.getSecond(), 54);
 		Assert.assertEquals(ESIDateTools.offsetDateTimeField(fieldUTC), field);
+	}
+
+	@Test
+	public void testFormatCompatibilityDate() {
+		Instant i = LocalDateTime.parse("2020-01-02T11:10").toInstant(ZoneOffset.UTC);
+		Assert.assertEquals(ESIDateTools.toCompatibilityHeader(i), "2020-01-02");
+		i = LocalDateTime.parse("2020-01-02T10:10").toInstant(ZoneOffset.UTC);
+		Assert.assertEquals(ESIDateTools.toCompatibilityHeader(i), "2020-01-01");
+
+		i = LocalDateTime.parse("2025-07-11T10:10").toInstant(ZoneOffset.UTC);
+		Assert.assertEquals(ESIDateTools.toCompatibilityHeader(i), "2025-07-10");
+		i = LocalDateTime.parse("2025-07-11T20:00").toInstant(ZoneOffset.UTC);
+		Assert.assertEquals(ESIDateTools.toCompatibilityHeader(i), "2025-07-11");
 	}
 
 }

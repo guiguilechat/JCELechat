@@ -7,6 +7,10 @@ import java.time.OffsetDateTime;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
 /**
  * tools to manipulate header/field string as dates. Header and field have
@@ -134,4 +138,20 @@ public class ESIDateTools {
 	public static String instantHeader(Instant date) {
 		return offsetDateTimeField(offsetDateTime(date));
 	}
+
+	// the compatibility header
+
+	public static final String COMPATIBILITY_DATE_HEADER = "X-Compatibility-Date";
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final DateTimeFormatter compatibilityDateFormatter = DateTimeFormatter.ofPattern("YYYY-MM-dd");
+
+	public static String toCompatibilityHeader(Instant date) {
+		if(date==null) {
+			return null;
+		}
+		return date.atOffset(ZoneOffset.UTC).minus(11, ChronoUnit.HOURS).format(compatibilityDateFormatter());
+	}
+
 }

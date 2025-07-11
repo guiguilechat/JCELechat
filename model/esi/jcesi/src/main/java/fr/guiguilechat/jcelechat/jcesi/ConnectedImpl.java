@@ -33,6 +33,7 @@ import fr.guiguilechat.jcelechat.jcesi.impl.RequestedImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.ESIMeta;
 import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
 import fr.lelouet.tools.holders.interfaces.numbers.BoolHolder;
 import javafx.beans.InvalidationListener;
@@ -204,6 +205,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		if (properties == null) {
 			properties = new HashMap<>();
 		}
+		properties.put(ESIDateTools.COMPATIBILITY_DATE_HEADER, ESIMeta.COMPILED_DATE);
 		addConnection(properties);
 
 		boolean isServerError = false;
