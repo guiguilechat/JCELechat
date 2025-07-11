@@ -53,17 +53,28 @@ public class Market {
 	private final static MathContext LOWER_MC_DOWN = new MathContext(MAX_SIGNIFICATIVE_NUMBERS, RoundingMode.DOWN);
 
 	public static BigDecimal lowerPrice(double price) {
+		if(price<=0.0) {
+			return new BigDecimal(0.0);
+		}
+		if (!Double.isFinite(price)) {
+			throw new RuntimeException("requested lower price of " + price);
+		}
 		BigDecimal bd = new BigDecimal(price, LOWER_MC);
 		BigDecimal scaled = bd.setScale(MAX_DECIMALS, LOWER_MC.getRoundingMode());
 		int exp = (int) Math.floor(Math.log10(price)) - MAX_SIGNIFICATIVE_NUMBERS;
 		if (exp < -MAX_DECIMALS) {
 			exp = -MAX_DECIMALS;
 		}
+		try {
 		BigDecimal inc = new BigDecimal(Math.pow(10, exp), new MathContext(1));
+
 		BigDecimal ret = scaled.subtract(inc).round(LOWER_MC_DOWN);
 		// System.err.println("base=" + price + " bd=" + bd + " scaled=" + scaled +
 		// " exp=" + exp + " inc=" + inc + " ret=" + ret);
 		return ret;
+	} catch (NumberFormatException nfe) {
+		throw new RuntimeException("while making lower of " + price + " with exp=" + exp + " ");
+	}
 	}
 
 }
