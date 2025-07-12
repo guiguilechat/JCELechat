@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -103,7 +102,7 @@ public class Markets {
 	 */
 	public IPricing getLocalMarket(long locationId) {
 		// if a region : get the regional market.
-		if (locationId >= 10000000l && locationId < 12000000l) {
+		if (locationId >= 10000000L && locationId < 12000000L) {
 			return getMarket((int) locationId);
 		}
 		IPricing ip = localMarket.get(locationId);
@@ -127,17 +126,6 @@ public class Markets {
 
 	//
 
-	protected ListHolder<R_get_markets_region_id_orders> extractBuyOrdersRemoveLow(RegionalMarket market,
-	    Integer typeId) {
-		ListHolder<R_get_markets_region_id_orders> ret = market.getBuyOrdersByTypeId()
-		    .at(typeId, List.of())
-		    .toList(l -> l)
-		    .sorted(Comparator.comparing(o -> -o.price))
-		// .mapList(this::removeLowerOrders)
-		;
-		return ret;
-	}
-
 	/**
 	 * remove up to 10M from the first orders
 	 */
@@ -147,7 +135,7 @@ public class Markets {
 	 * remove the first orders unless we have removed {@link Markets.BO_VAL_REMOVE}
 	 * total
 	 * value
-	 * 
+	 *
 	 * @param source
 	 * @return source but with removed first orders unless total removed is enough
 	 */
@@ -165,22 +153,21 @@ public class Markets {
 		return ret;
 	}
 
-
 	/**
 	 * weighted average of the empire orders. The first one is The Forge and
 	 * weighted 3, the second one Domain and weighted 2, the three others Sinq
 	 * Laison, Metropolis, Heimatar each weighted 1 . if The Forge or Domain is
 	 * absent, their weight is allocated to the next one instead, so eg if The Forge
 	 * is absent, Domain weight is 3, Sinq Laison is 2.
-	 * 
+	 *
 	 * @param regional list of orders for the empires, with the important one in
-	 *                   first position.
+	 *                 first position.
 	 * @return weighted average, after removal of best and worst values.
 	 */
 	protected Double average(List<? extends List<R_get_markets_region_id_orders>> regional) {
 		double min = Double.POSITIVE_INFINITY,
-		    max = 0.0,
-		    total = 0.0;
+				max = 0.0,
+				total = 0.0;
 		int count = 0;
 		int nextWeight = 3;
 		for (List<R_get_markets_region_id_orders> l : regional) {
@@ -194,7 +181,7 @@ public class Markets {
 				}
 				total += price * nextWeight;
 				count += nextWeight;
-				nextWeight = nextWeight < 2 ? 1 : (nextWeight - 1);
+				nextWeight = nextWeight < 2 ? 1 : nextWeight - 1;
 			}
 		}
 		if (count > 0) {
@@ -204,21 +191,50 @@ public class Markets {
 	}
 
 	/**
+	 * @param regional list of orders for the empires
+	 * @return lowest existing BO price in empire for given item
+	 */
+	protected Double min(List<? extends List<R_get_markets_region_id_orders>> regional) {
+		double min = Double.POSITIVE_INFINITY;
+		for (List<R_get_markets_region_id_orders> l : regional) {
+			if (l.size() > 0) {
+				double price = l.get(0).price;
+				if (price < min) {
+					min = price;
+				}
+			}
+		}
+		return min;
+	}
+
+	/**
 	 * get empire average BO price after removing the highest and lowest values.
 	 */
 	@Getter(lazy = true)
-	private final GroupedPrices empireAvgPrice = new GroupedPrices(
-	    new RegionalMarket[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
-	    this::extractBuyOrdersRemoveLow,
-	    this::average);
+	private final GroupedPrices empireAvgBoPrice = new GroupedPrices(
+			new RegionalMarket[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
+			(market, typeId) -> market.listBuyOrders(typeId),
+			this::average);
 
+	/**
+	 * get empire min BO price
+	 */
+	@Getter(lazy = true)
+	private final GroupedPrices empireMinBoPrice = new GroupedPrices(
+			new RegionalMarket[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
+			(market, typeId) -> market.listBuyOrders(typeId),
+			this::min);
+
+	/**
+	 * list of type ids that are seeded (sold by NPC) in empire
+	 */
 	@Getter(lazy = true)
 	private final SetHolder<Integer> empireSeeded = SetHolderImpl.union(
-	    domain().getSeeded(),
-	    heimatar().getSeeded(),
-	    metropolis().getSeeded(),
-	    sinqLaison().getSeeded(),
-	    theForge().getSeeded());
+			domain().getSeeded(),
+			heimatar().getSeeded(),
+			metropolis().getSeeded(),
+			sinqLaison().getSeeded(),
+			theForge().getSeeded());
 
 	//
 	// prices : adjusted and average
@@ -230,7 +246,7 @@ public class Markets {
 
 	@Getter(lazy = true)
 	private final MapHolder<Integer, Double> adjusteds = marketPrices().toMap(p -> p.type_id,
-	    p -> p.adjusted_price);
+			p -> p.adjusted_price);
 
 	public double getAdjusted(int itemId) {
 		return getAdjusteds().get().getOrDefault(itemId, 0.0);

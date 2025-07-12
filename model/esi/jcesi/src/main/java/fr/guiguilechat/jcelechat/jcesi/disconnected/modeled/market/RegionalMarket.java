@@ -57,8 +57,6 @@ public class RegionalMarket implements IPricing {
 	    .mapItems(order -> order.type_id)
 	    .distinct();
 
-	// orders by isbuy and typeid
-
 	// typeid-> cached buy orders
 	private final Map<Integer, LocalTypeOrders> cachedBuyOrders = new HashMap<>();
 
@@ -83,6 +81,20 @@ public class RegionalMarket implements IPricing {
 			});
 		}
 		return ret;
+	}
+
+	/**
+	 * @return a holder on the buy orders for given type, sorted by price desc
+	 */
+	public ListHolder<R_get_markets_region_id_orders> listBuyOrders(int typeId) {
+		return getMarketOrders(typeId, true).getFilteredOrders();
+	}
+
+	/**
+	 * @return a holder on the sell orders for given type, sorted by price inc
+	 */
+	public ListHolder<R_get_markets_region_id_orders> listSellOrders(int typeId) {
+		return getMarketOrders(typeId, false).getFilteredOrders();
 	}
 
 	//

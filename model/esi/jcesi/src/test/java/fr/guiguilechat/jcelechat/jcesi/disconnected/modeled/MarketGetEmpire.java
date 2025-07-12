@@ -8,7 +8,8 @@ public class MarketGetEmpire {
 
 	public static void main(String[] args) {
 		IntStream.of(TYPE_IDS).parallel().forEach(typeId -> System.out.println(
-		    "price of type " + typeId + " is " + ESIAccess.INSTANCE.markets.getEmpireAvgPrice().get(typeId).get()));
+				"price of type " + typeId + " is "
+						+ ESIAccess.INSTANCE.markets.getEmpireAvgBoPrice().get(typeId).get()));
 	}
 
 }
