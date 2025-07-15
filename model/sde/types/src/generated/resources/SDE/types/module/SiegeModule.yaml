@@ -690,7 +690,7 @@ types:
     maxgroupfitted: 1
     metalevelold: 5
     name: Strategos' Modified Siege Module
-    packagedVolume: 4000.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 120000
     published: true

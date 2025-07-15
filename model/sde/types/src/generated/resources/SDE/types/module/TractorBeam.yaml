@@ -144,7 +144,7 @@ types:
     maxtractorvelocity: 4200
     metalevelold: 8
     name: Consortium Capital Tractor Beam
-    packagedVolume: 4000.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
     price: 1555840.0

@@ -5127,3 +5127,75 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  89261:
+    id: 89261
+    marketGroup: 3655
+    name: Hyper-Palm Frond Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  89262:
+    id: 89262
+    marketGroup: 3654
+    name: Magenta Impulse Satin - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  89263:
+    id: 89263
+    marketGroup: 3653
+    name: Sleeper Sand Matte - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  89264:
+    id: 89264
+    marketGroup: 3632
+    name: Sunken Plating Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  89265:
+    id: 89265
+    marketGroup: 3632
+    name: Starburned Bronze Metallic - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  89266:
+    id: 89266
+    marketGroup: 3633
+    name: Stellar Interference - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  89267:
+    id: 89267
+    marketGroup: 3633
+    name: Metaliminal Typhoon - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  89268:
+    id: 89268
+    marketGroup: 3633
+    name: Hyperlane Weave - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  89327:
+    id: 89327
+    marketGroup: 3655
+    name: Emerald Sunset Gloss - Limited
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

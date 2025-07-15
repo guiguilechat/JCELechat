@@ -4490,3 +4490,12 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
+  89328:
+    cpumultiplier: 1.0
+    id: 89328
+    marketGroup: 1661
+    name: Solar Fest Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0

@@ -17,7 +17,7 @@ types:
     mjdshipjumpcap: 1
     modulereactivationdelay: 180000
     name: Capital Micro Jump Drive
-    packagedVolume: 4000.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 60000
     price: 2.5E8
@@ -52,7 +52,7 @@ types:
     mjfgradius: 10000
     modulereactivationdelay: 160000
     name: Capital Micro Jump Field Generator
-    packagedVolume: 4000.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 65000
     price: 2.3E8
@@ -81,7 +81,7 @@ types:
     mjdshipjumpcap: 1
     modulereactivationdelay: 150000
     name: Xarasier Capital Micro Jump Drive
-    packagedVolume: 4000.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 54000
     price: 2.5E8
