@@ -3,6 +3,11 @@ package fr.guiguilechat.jcelechat.jcesi.interfaces;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiFunction;
+import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
+import java.util.stream.LongStream;
+import java.util.stream.Stream;
 
 
 /**
@@ -15,18 +20,45 @@ import java.util.function.BiFunction;
  */
 public interface ITransfer {
 
-	public String flatten(Object o);
+	default String flatten(Object o) {
+		if (o == null) {
+			return null;
+		}
+		if (o.getClass().isArray()) {
+			Class<?> ct = o.getClass().getComponentType();
+			if (ct.isPrimitive()) {
+				if (ct == boolean.class) {
+					boolean[] b = (boolean[]) o;
+					return IntStream.range(0, b.length - 1).mapToObj(i -> Boolean.toString(b[i]))
+							.collect(Collectors.joining(","));
+				} else if (ct == char.class) {
+					char[] c = (char[]) o;
+					return IntStream.range(0, c.length - 1).mapToObj(i -> Character.toString(c[i]))
+							.collect(Collectors.joining(","));
+				} else if (ct == int.class || ct == short.class || ct == byte.class) {
+					return IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(","));
+				} else if (ct == long.class) {
+					return LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(","));
+				} else if (ct == double.class || ct == float.class) {
+					return DoubleStream.of((double[]) o).mapToObj(Double::toString).collect(Collectors.joining(","));
+				}
+			}
+			return Stream.of((Object[]) o).map(Object::toString).collect(Collectors.joining(","));
+		} else {
+			return o.toString();
+		}
+	}
 
-	public<T> T convertJson(String line, Class<? extends T> clazz);
+	<T> T convertJson(String line, Class<? extends T> clazz);
 
-	public Requested<Void> requestDel(String url, Map<String, String> properties);
+	Requested<Void> requestDel(String url, Map<String, String> properties);
 
-	public <T> Requested<T> requestGet(String url, Map<String, String> properties, Class<T> expectedClass);
+	<T> Requested<T> requestGet(String url, Map<String, String> properties, Class<T> expectedClass);
 
-	public <T> Requested<T> requestPost(String url, Map<String, String> properties, Map<String, Object> transmit,
+	<T> Requested<T> requestPost(String url, Map<String, String> properties, Map<String, Object> transmit,
 			Class<T> expectedClass);
 
-	public Requested<Void> requestPut(String url, Map<String, String> properties, Map<String, Object> transmit);
+	Requested<Void> requestPut(String url, Map<String, String> properties, Map<String, Object> transmit);
 
 	/**
 	 * load the pages for a given resource access.
@@ -38,7 +70,7 @@ public interface ITransfer {
 	 * @return the response for the first page, modified to hold the responses
 	 *         from subsequent pages
 	 */
-	public <T> Requested<List<T>> requestGetPages(
+	<T> Requested<List<T>> requestGetPages(
 			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
 			Map<String, String> parameters);
 

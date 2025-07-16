@@ -40,7 +40,7 @@ public class HalfPages {
 	private Instant lastHalfModified = null;
 	private Instant lastHalfExpires = null;
 
-	ScheduledExecutorService executor = ConnectedImpl._exec();
+	private final ScheduledExecutorService executor = ConnectedImpl.executor();
 
 	private ListHolder<R_get_markets_region_id_orders> createForced() {
 		ListHolderImpl<R_get_markets_region_id_orders> ret = new ListHolderImpl<>();

@@ -15,10 +15,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
-import java.util.stream.Collectors;
-import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
-import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -189,29 +186,29 @@ public abstract class ConnectedImpl implements ITransfer {
 	 *
 	 * @param url            the url to request
 	 * @param method         the type of method
-	 * @param properties     the properties to send in the header
+	 * @param sendHeaders     the properties to send in the header
 	 * @param transmitAsJson the data to send through the connection
 	 * @param expectedClass  the class to convert the OK result to
 	 * @param retries        optional number of retries on server error.
 	 * @return a new response holding the result of the request, or null if
 	 *         connection issue
 	 */
-	protected <T> Requested<T> request(String url, String method, Map<String, String> properties,
+	protected <T> Requested<T> request(String url, String method, Map<String, String> sendHeaders,
 			Map<String, Object> transmitAsJson, Class<T> expectedClass, int... retries) {
 		int maxRetry = 1;
 		if (retries != null && retries.length != 0) {
 			maxRetry = Math.max(0, retries[0]);
 		}
-		if (properties == null) {
-			properties = new HashMap<>();
+		if (sendHeaders == null) {
+			sendHeaders = new HashMap<>();
 		}
-		properties.put(ESIDateTools.COMPATIBILITY_DATE_HEADER, ESIMeta.COMPILED_DATE);
-		addConnection(properties);
+		sendHeaders.put(ESIDateTools.COMPATIBILITY_DATE_HEADER, ESIMeta.COMPILED_DATE);
+		addConnection(sendHeaders);
 
 		boolean isServerError = false;
 		Builder builder = new Request.Builder()
 				.url(url);
-		properties.entrySet().forEach(e -> builder.addHeader(e.getKey(), e.getValue()));
+		sendHeaders.entrySet().forEach(e -> builder.addHeader(e.getKey(), e.getValue()));
 		String transmitStr = null;
 		if (transmitAsJson != null && !transmitAsJson.isEmpty()) {
 			transmitStr = mapToJSON(transmitAsJson);
@@ -230,7 +227,7 @@ public abstract class ConnectedImpl implements ITransfer {
 				if (response != null) {
 					response.close();
 				}
-				logRequest(method, url, transmitStr, properties);
+				logRequest(method, url, transmitStr, sendHeaders);
 				requestSentTime = System.currentTimeMillis();
 				response = getClient().newCall(req).execute();
 				int responseCode = response.code();
@@ -443,6 +440,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	////
 
 	@Getter(lazy = true)
+	@Accessors(fluent = true)
 	private final ObjectMapper mapper = makeMapper();
 
 	protected ObjectMapper makeMapper() {
@@ -450,6 +448,10 @@ public abstract class ConnectedImpl implements ITransfer {
 		mapper.configure(DeserializationFeature.READ_UNKNOWN_ENUM_VALUES_AS_NULL, true);
 		return mapper;
 	}
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final ObjectWriter writer = new ObjectMapper().writer();
 
 	@SuppressWarnings("unchecked")
 	@Override
@@ -465,7 +467,7 @@ public abstract class ConnectedImpl implements ITransfer {
 					return null;
 				}
 			}
-			return getMapper().readerFor(clazz).readValue(line);
+			return mapper().readerFor(clazz).readValue(line);
 		} catch (Exception e) {
 			log.error("while converting line " + line + "to class" + clazz.getName(), e);
 			System.err.println(
@@ -474,44 +476,6 @@ public abstract class ConnectedImpl implements ITransfer {
 			return null;
 		}
 	}
-
-	/**
-	 * flatten all
-	 *
-	 * @param o
-	 * @return
-	 */
-	@Override
-	public String flatten(Object o) {
-		if (o == null) {
-			return null;
-		}
-		if (o.getClass().isArray()) {
-			Class<?> ct = o.getClass().getComponentType();
-			if (ct.isPrimitive()) {
-				if (ct == boolean.class) {
-					boolean[] b = (boolean[]) o;
-					return IntStream.range(0, b.length - 1).mapToObj(i -> Boolean.toString(b[i]))
-							.collect(Collectors.joining(","));
-				} else if (ct == char.class) {
-					char[] c = (char[]) o;
-					return IntStream.range(0, c.length - 1).mapToObj(i -> Character.toString(c[i]))
-							.collect(Collectors.joining(","));
-				} else if (ct == int.class || ct == short.class || ct == byte.class) {
-					return IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(","));
-				} else if (ct == long.class) {
-					return LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(","));
-				} else if (ct == double.class || ct == float.class) {
-					return DoubleStream.of((double[]) o).mapToObj(Double::toString).collect(Collectors.joining(","));
-				}
-			}
-			return Stream.of((Object[]) o).map(Object::toString).collect(Collectors.joining(","));
-		} else {
-			return o.toString();
-		}
-	}
-
-	static final ObjectWriter ow = new ObjectMapper().writer();
 
 	/**
 	 * translate a map to json attributes.
@@ -527,11 +491,11 @@ public abstract class ConnectedImpl implements ITransfer {
 	 */
 	protected static String mapToJSON(Map<String, Object> transmit) {
 		try {
-			synchronized (ow) {
+			synchronized (writer()) {
 				if (transmit != null && transmit.size() == 1) {
-					return ow.writeValueAsString(transmit.values().iterator().next());
+					return writer().writeValueAsString(transmit.values().iterator().next());
 				} else {
-					return ow.writeValueAsString(transmit);
+					return writer().writeValueAsString(transmit);
 				}
 			}
 		} catch (JsonProcessingException e) {
@@ -543,13 +507,12 @@ public abstract class ConnectedImpl implements ITransfer {
 	// scheduling
 	////
 
-	// one executor per connection ? actually it's a singleton one.
-	@Getter(lazy = true)
-	private final ScheduledThreadPoolExecutor executor = _exec();
-
+	/**
+	 * shared executor among all esi connections
+	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final static ScheduledThreadPoolExecutor _exec = buildExec();
+	private final static ScheduledThreadPoolExecutor executor = buildExec();
 
 	/**
 	 * build a scheduledexecutor
@@ -570,7 +533,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 	/**
-	 * class that uses the executor to schedule itself.
+	 * fetcher that schedules itself on an executor after each fetch.
 	 * <p>
 	 * That class must be started. Once started, it will schedule itself after its
 	 * execution
@@ -663,10 +626,10 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 
 		public void schedule(long delay_ms) throws RejectedExecutionException {
-			synchronized (getExecutor()) {
+			synchronized (executor()) {
 				if (!scheduled && !stop && !paused) {
 					try {
-						getExecutor().schedule(this, delay_ms, TimeUnit.MILLISECONDS);
+						executor().schedule(this, delay_ms, TimeUnit.MILLISECONDS);
 					} catch (RejectedExecutionException e) {
 						log.warn(loggingName + " can't schedule " + this, e);
 					} catch (Exception e) {
@@ -699,7 +662,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		@Override
 		public void run() {
-			synchronized (getExecutor()) {
+			synchronized (executor()) {
 				scheduled = false;
 			}
 			if (stop) {
