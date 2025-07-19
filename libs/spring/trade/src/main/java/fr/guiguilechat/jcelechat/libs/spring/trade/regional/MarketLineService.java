@@ -111,13 +111,6 @@ public class MarketLineService implements MarketRegionListener {
 		repo.removeForFetcher(regions);
 	}
 
-	// usage
-
-	public List<Integer[]> listRegionIdTypeId() {
-		return repo.findAllRegionTypeCouple().stream()
-				.map(arr -> new Integer[] { ((Number) arr[0]).intValue(), ((Number) arr[1]).intValue() }).toList();
-	}
-
 	//
 	// tools
 	//

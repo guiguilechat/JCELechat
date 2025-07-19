@@ -72,9 +72,13 @@ extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[]
 		return new HistoryReq(region, type);
 	}
 
-	private Instant nextMissingPairs = Instant.now().plus(1, ChronoUnit.HOURS);
+	private Instant nextMissingPairs =
+			//
+			null;
+	// Instant.now().plus(1, ChronoUnit.HOURS);
 
 	@Override
+	@Transactional
 	public Instant nextUpdate(boolean remain, Instant now) {
 		if (!remain || nextMissingPairs == null || nextMissingPairs.isBefore(Instant.now())) {
 			addMissingPairs();
@@ -83,22 +87,35 @@ extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[]
 		return super.nextUpdate(remain, now);
 	}
 
-	/**
-	 * find existing (regionId, typeId) in the market that are not already to fetch
-	 * and set up their fetch. Serial per region, concurrent for types in a region.
-	 */
 	protected void addMissingPairs() {
 		log.info("adding missing history (region, typeid) pairs from market");
-		Map<Integer, List<Integer[]>> regionIdToRegionType = marketLineService.listRegionIdTypeId()
-				.stream()
-				.collect(Collectors.groupingBy(arr -> arr[0]));
-		for (Entry<Integer, List<Integer[]>> e : regionIdToRegionType.entrySet()) {
-			int regionId = e.getKey();
-			List<Long> typeIds = e.getValue().stream().map(arr -> HistoryReq.makeId(arr[0], arr[1])).toList();
-			log.debug("region {} requires {} history entries to observe", regionId, typeIds.size());
-			// create missing ones and set all their fetch top active
-			saveAll(createIfAbsent(typeIds).values().parallelStream().peek(hr -> hr.setFetchActive(true)).toList());
+		List<HistoryReq> toSave = new ArrayList<>();
+		long preFetch = System.currentTimeMillis();
+		List<Object[]> toUpdate = repo().listRequiredEntries();
+		long postFetch = System.currentTimeMillis();
+		log.debug(" received {} requirements to update in {} ms", toUpdate.size(), postFetch - preFetch);
+		int creations = 0, activations = 0;
+		for (Object[] arr : toUpdate) {
+			int typeId = ((Number) arr[0]).intValue();
+			int regionId = ((Number) arr[1]).intValue();
+			HistoryReq req = (HistoryReq) arr[2];
+			if (req == null) {
+				long newId = HistoryReq.makeId(regionId, typeId);
+				toSave.add(createMinimal(newId));
+				creations++;
+			} else if(!req.isFetchActive()) {
+				req.setFetchActive(true);
+				toSave.add(req);
+				activations++;
+			}
 		}
+		long postProcess = System.currentTimeMillis();
+		log.debug(" processed {} entries with {} creations and {} activations in {} ms", toUpdate.size(), creations,
+				activations,
+				postProcess - postFetch);
+		saveAll(toSave);
+		long postSave = System.currentTimeMillis();
+		log.debug(" saved {} entries in {} ms", toSave.size(), postSave - postProcess);
 		nextMissingPairs = Instant.now().plus(1, ChronoUnit.DAYS);
 	}
 

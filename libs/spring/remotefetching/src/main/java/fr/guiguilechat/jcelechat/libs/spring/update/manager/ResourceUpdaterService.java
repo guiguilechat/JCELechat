@@ -39,9 +39,9 @@ public class ResourceUpdaterService {
 	// those are mostly used for debuging and stopping
 	//
 
-	public static interface IRemoteResourceUpdateListener {
+	public interface IRemoteResourceUpdateListener {
 
-		public default void onNoUpdateRemain() {
+		default void onNoUpdateRemain() {
 
 		}
 	}
@@ -120,7 +120,7 @@ public class ResourceUpdaterService {
 
 	/**
 	 * tells whether a give updater service should be skipped
-	 * 
+	 *
 	 * @param updater
 	 * @return
 	 */

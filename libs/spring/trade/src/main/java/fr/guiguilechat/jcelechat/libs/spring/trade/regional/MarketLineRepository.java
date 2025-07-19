@@ -114,17 +114,6 @@ order by
 	max(line.price) asc
 """) List<Object[]> findBuyOfferLocations(int typeid);
 
-	@Query(""" 
-select
-	fetchResource.id,
-	typeId
-from
-	EsiTradeMarketLine
-group by
-	fetchResource.id,
-	typeId
-""") List<Object[]> findAllRegionTypeCouple();
-
 	@Query(value = """
 SELECT NEXTVAL('esi_trade_market_line_seq') FROM generate_series(1,:nb)
 """, nativeQuery = true)
