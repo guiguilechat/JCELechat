@@ -20,7 +20,7 @@ import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JPrimitiveType;
 import com.helger.jcodemodel.JVar;
 
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import io.swagger.models.ArrayModel;
 import io.swagger.models.Model;
 import io.swagger.models.ModelImpl;

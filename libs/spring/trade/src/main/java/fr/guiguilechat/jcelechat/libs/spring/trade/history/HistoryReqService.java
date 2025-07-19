@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -16,7 +17,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
@@ -71,9 +72,11 @@ extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[]
 		return new HistoryReq(region, type);
 	}
 
+	private Instant nextMissingPairs = Instant.now().plus(1, ChronoUnit.HOURS);
+
 	@Override
 	public Instant nextUpdate(boolean remain, Instant now) {
-		if (!remain) {
+		if (!remain || nextMissingPairs == null || nextMissingPairs.isBefore(Instant.now())) {
 			addMissingPairs();
 			remain = nbToUpdate() > 0;
 		}
@@ -85,15 +88,18 @@ extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[]
 	 * and set up their fetch. Serial per region, concurrent for types in a region.
 	 */
 	protected void addMissingPairs() {
-		Map<Integer, List<Integer[]>> regionIdToRegionType = marketLineService.listRegionIdTypeId().stream()
+		log.info("adding missing history (region, typeid) pairs from market");
+		Map<Integer, List<Integer[]>> regionIdToRegionType = marketLineService.listRegionIdTypeId()
+				.stream()
 				.collect(Collectors.groupingBy(arr -> arr[0]));
 		for (Entry<Integer, List<Integer[]>> e : regionIdToRegionType.entrySet()) {
 			int regionId = e.getKey();
 			List<Long> typeIds = e.getValue().stream().map(arr -> HistoryReq.makeId(arr[0], arr[1])).toList();
-			log.debug("require {} history entries to observe in region {}", typeIds.size(), regionId);
+			log.debug("region {} requires {} history entries to observe", regionId, typeIds.size());
 			// create missing ones and set all their fetch top active
 			saveAll(createIfAbsent(typeIds).values().parallelStream().peek(hr -> hr.setFetchActive(true)).toList());
 		}
+		nextMissingPairs = Instant.now().plus(1, ChronoUnit.DAYS);
 	}
 
 	@Override

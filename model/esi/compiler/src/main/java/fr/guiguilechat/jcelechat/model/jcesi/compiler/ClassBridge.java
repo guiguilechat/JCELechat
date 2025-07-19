@@ -19,8 +19,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.helger.jcodemodel.*;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ISwaggerCacheHelper;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ITransfer;
 import io.swagger.models.ArrayModel;
 import io.swagger.models.Model;
 import io.swagger.models.ModelImpl;

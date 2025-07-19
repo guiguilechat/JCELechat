@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.impl;
+package fr.guiguilechat.jcelechat.jcesi.request.impl;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

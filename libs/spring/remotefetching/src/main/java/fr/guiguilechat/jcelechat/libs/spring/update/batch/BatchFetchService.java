@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetch.BatchItem;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetch.STATUS;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;

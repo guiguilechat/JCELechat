@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResource;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.IFetchedResourceRepository;

@@ -26,10 +26,10 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
-import fr.guiguilechat.jcelechat.jcesi.impl.RequestedImpl;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.impl.RequestedImpl;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ITransfer;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.ESIMeta;
 import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
 import fr.lelouet.tools.holders.interfaces.numbers.BoolHolder;

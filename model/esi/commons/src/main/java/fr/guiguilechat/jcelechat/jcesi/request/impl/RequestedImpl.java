@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.jcesi.impl;
+package fr.guiguilechat.jcelechat.jcesi.request.impl;
 
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

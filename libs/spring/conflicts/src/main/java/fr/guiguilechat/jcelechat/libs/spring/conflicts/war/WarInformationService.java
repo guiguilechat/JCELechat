@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.core.annotation.Order;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;

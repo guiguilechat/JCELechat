@@ -7,7 +7,7 @@ import java.util.List;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
 import fr.lelouet.tools.holders.interfaces.collections.ListHolder;

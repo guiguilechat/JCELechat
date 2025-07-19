@@ -2,8 +2,9 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled;
 
 import java.util.HashMap;
 import java.util.Map;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ITransfer;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_22;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_contract_bids_4;

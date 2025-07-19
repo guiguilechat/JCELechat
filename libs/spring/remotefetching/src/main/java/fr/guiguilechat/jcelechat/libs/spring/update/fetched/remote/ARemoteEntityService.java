@@ -31,7 +31,7 @@ import com.fasterxml.jackson.databind.json.JsonMapper;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

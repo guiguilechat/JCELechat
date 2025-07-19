@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.Corporation;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets;

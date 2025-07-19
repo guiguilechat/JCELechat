@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled;
 
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ISwaggerCacheHelper;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Alliances;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Characters;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Contracts;

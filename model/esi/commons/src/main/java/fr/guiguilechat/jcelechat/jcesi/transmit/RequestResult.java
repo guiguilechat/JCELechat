@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.interfaces;
+package fr.guiguilechat.jcelechat.jcesi.transmit;
 
 import java.time.Instant;
 import java.util.List;
@@ -9,9 +9,10 @@ import java.util.function.Supplier;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 
 /**
- * result of a request we sent to a server.
+ * result of a request we sent to a server. At least knows of the url and the
+ * headers we sent
  */
-sealed interface RequestResult {
+sealed interface RequestResult<ResponseType> {
 	String url();
 
 	Map<String, Object> sentHeaders();
@@ -20,8 +21,8 @@ sealed interface RequestResult {
 /**
  * there was an exception during transmission. Typically timeout or url invalid
  */
-record TransmissionException(String url, Map<String, Object> sentHeaders, Throwable exception)
-		implements RequestResult {
+record TransmissionException<ResponseType>(String url, Map<String, Object> sentHeaders, Throwable exception)
+		implements RequestResult<ResponseType> {
 }
 
 /**
@@ -29,7 +30,7 @@ record TransmissionException(String url, Map<String, Object> sentHeaders, Throwa
  * sending request and receiving full body, and the headers transmitted by the
  * server.
  */
-sealed interface RequestResponse<ResponseType> extends RequestResult {
+sealed interface RequestResponse<ResponseType> extends RequestResult<ResponseType> {
 	int responseCode();
 
 	long delayMs();
@@ -112,7 +113,7 @@ sealed interface RequestResponse<ResponseType> extends RequestResult {
 	 * @return The date header converted to instant, if exists, or now.
 	 */
 	default Instant getDateOrNow() {
-		return firstHeader(HEADER_DATE, ESIDateTools::headerInstant, Instant::now);
+		return firstHeader(HEADER_DATE, ESIDateTools::headerInstant, (Supplier<Instant>) Instant::now);
 	}
 
 	/**
@@ -237,5 +238,37 @@ record RequestError<ResponseType>(String url, Map<String, Object> sentHeaders, i
  */
 record ServerError<ResponseType>(String url, Map<String, Object> sentHeaders, int responseCode, long delayMs,
 		Map<String, List<String>> receivedHeaders, String message) implements RequestResponse<ResponseType> {
+
+}
+
+/**
+ * Several requests were performed, and general result in a success.<br />
+ * In that case, the url should be one called to identify the success :
+ * <ul>
+ * <li>
+ * For paginated resources, this means the first call add a page information
+ * that allowed to fetch the next pages. The URL should be that first one.</li>
+ * <li>
+ * For multi-part, this means a main element was aggregated from several sub
+ * resources. The url should be the one that allowed to identify those parts, or
+ * to identify that main element.</li>
+ * <li>
+ * For retry-on-error, the last successful url should be called, typically if a
+ * redirect is received, or alternative url are used.</li>
+ * </ul>
+ */
+record AggregateSuccess<ResponseType>(String url, Map<String, Object> sentHeaders,
+		List<RequestResult<ResponseType>> aggregate, ResponseType result)
+		implements RequestResult<ResponseType> {
+
+}
+
+/**
+ * several requests were performed, but the whole could not result in a success.
+ * The errorType can be Void if none shall be supplied.
+ */
+record AggregateFailed<ResponseType, ErrorType>(String url, Map<String, Object> sentHeaders,
+		List<RequestResult<ResponseType>> aggregate, ErrorType error)
+		implements RequestResult<ResponseType> {
 
 }

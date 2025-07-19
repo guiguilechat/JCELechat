@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.interfaces;
+package fr.guiguilechat.jcelechat.jcesi.request.interfaces;
 
 import java.util.List;
 import java.util.Map;
@@ -20,6 +20,10 @@ import java.util.stream.Stream;
  */
 public interface ITransfer {
 
+	/**
+	 * converts an object to url flat string. object must either have flat to
+	 * string, or be an array
+	 */
 	default String flatten(Object o) {
 		if (o == null) {
 			return null;
