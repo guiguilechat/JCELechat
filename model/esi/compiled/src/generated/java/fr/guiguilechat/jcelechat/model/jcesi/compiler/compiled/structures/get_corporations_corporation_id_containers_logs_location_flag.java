@@ -15,6 +15,8 @@ public enum get_corporations_corporation_id_containers_logs_location_flag {
     BoosterBay("BoosterBay"),
     @JsonProperty("Capsule")
     Capsule("Capsule"),
+    @JsonProperty("CapsuleerDeliveries")
+    CapsuleerDeliveries("CapsuleerDeliveries"),
     @JsonProperty("Cargo")
     Cargo("Cargo"),
     @JsonProperty("CorpDeliveries")

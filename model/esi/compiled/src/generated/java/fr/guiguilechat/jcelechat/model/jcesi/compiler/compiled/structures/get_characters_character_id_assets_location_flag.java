@@ -9,6 +9,8 @@ public enum get_characters_character_id_assets_location_flag {
     AutoFit("AutoFit"),
     @JsonProperty("BoosterBay")
     BoosterBay("BoosterBay"),
+    @JsonProperty("CapsuleerDeliveries")
+    CapsuleerDeliveries("CapsuleerDeliveries"),
     @JsonProperty("Cargo")
     Cargo("Cargo"),
     @JsonProperty("CorporationGoalDeliveries")

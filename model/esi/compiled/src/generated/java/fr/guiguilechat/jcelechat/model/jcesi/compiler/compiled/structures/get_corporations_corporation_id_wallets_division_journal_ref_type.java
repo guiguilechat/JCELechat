@@ -31,6 +31,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     agent_services_rendered("agent_services_rendered"),
     @JsonProperty("agents_preward")
     agents_preward("agents_preward"),
+    @JsonProperty("air_career_program_reward")
+    air_career_program_reward("air_career_program_reward"),
     @JsonProperty("alliance_maintainance_fee")
     alliance_maintainance_fee("alliance_maintainance_fee"),
     @JsonProperty("alliance_registration_fee")
@@ -177,8 +179,22 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     flux_ticket_repayment("flux_ticket_repayment"),
     @JsonProperty("flux_ticket_sale")
     flux_ticket_sale("flux_ticket_sale"),
+    @JsonProperty("freelance_jobs_broadcasting_fee")
+    freelance_jobs_broadcasting_fee("freelance_jobs_broadcasting_fee"),
+    @JsonProperty("freelance_jobs_duration_fee")
+    freelance_jobs_duration_fee("freelance_jobs_duration_fee"),
+    @JsonProperty("freelance_jobs_escrow_refund")
+    freelance_jobs_escrow_refund("freelance_jobs_escrow_refund"),
+    @JsonProperty("freelance_jobs_reward")
+    freelance_jobs_reward("freelance_jobs_reward"),
+    @JsonProperty("freelance_jobs_reward_corporation_tax")
+    freelance_jobs_reward_corporation_tax("freelance_jobs_reward_corporation_tax"),
+    @JsonProperty("freelance_jobs_reward_escrow")
+    freelance_jobs_reward_escrow("freelance_jobs_reward_escrow"),
     @JsonProperty("gm_cash_transfer")
     gm_cash_transfer("gm_cash_transfer"),
+    @JsonProperty("gm_plex_fee_refund")
+    gm_plex_fee_refund("gm_plex_fee_refund"),
     @JsonProperty("industry_job_tax")
     industry_job_tax("industry_job_tax"),
     @JsonProperty("infrastructure_hub_maintenance")
@@ -275,6 +291,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     shares("shares"),
     @JsonProperty("skill_purchase")
     skill_purchase("skill_purchase"),
+    @JsonProperty("skyhook_claim_fee")
+    skyhook_claim_fee("skyhook_claim_fee"),
     @JsonProperty("sovereignity_bill")
     sovereignity_bill("sovereignity_bill"),
     @JsonProperty("store_purchase")

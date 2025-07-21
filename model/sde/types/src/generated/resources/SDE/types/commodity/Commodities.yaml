@@ -3297,11 +3297,11 @@ types:
     marketGroup: 2765
     mass: 0.10000000149011612
     name: Counter-Subversion Sensor Array
-    packagedVolume: 20.0
+    packagedVolume: 2.0
     portionSize: 1
     price: 1.0E9
     published: true
-    volume: 20.0
+    volume: 2.0
   57443:
     id: 57443
     marketGroup: 2766
@@ -3317,11 +3317,11 @@ types:
     marketGroup: 2765
     mass: 0.10000000149011612
     name: Nanoscale Filter Plate
-    packagedVolume: 5.0
+    packagedVolume: 1.0
     portionSize: 1
     price: 1.0E9
     published: true
-    volume: 5.0
+    volume: 1.0
   57445:
     id: 57445
     marketGroup: 2766
