@@ -24,16 +24,19 @@ public abstract class ListenableHolder<T> implements Holder<T> {
 			listeners.add(new WeakReference<>(listener));
 			if (isAvailable()) {
 				Set<Runnable> triggered = new HashSet<>();
-				listener.accept(new DataAvailable<>(this, this, triggered));
+				listener.accept(new DataAvailable<>(this, triggered, this));
 				triggered.forEach(Runnable::run);
 			}
 		}
 	}
 
 	/**
-	 * Notify the listeners that new data is available
+	 * Notify the listeners that new data is available. If null, nothing happens
 	 */
 	protected void transmitNotification(Notification<T> notif) {
+		if (notif == null) {
+			return;
+		}
 		synchronized (listeners) {
 			if (!listeners.isEmpty()) {
 				boolean removedListener = false;

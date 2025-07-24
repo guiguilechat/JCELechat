@@ -8,15 +8,20 @@ import java.util.function.Predicate;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
 import fr.guiguilechat.jcelechat.jcesi.holders.common.StrongRefStorage;
-import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformBoolHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.transform.BoolTransformHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformHolder;
 
 /**
  * data holder. The data is first absent, then can be updateable.
  * <p>
  * When the data can be updated (or is actually updated for RW holder),
- * registered listeners will receive a notificatiion containing the holder and a
+ * registered listeners will receive a notification containing the holder and a
  * Set to add the elements that need to react to that change.
+ * </p>
+ * <p>
+ * Subclasses are named [containedType][operation][sourceType]Holder . For
+ * example an implementation that translates a list into Number would be a
+ * NumberTranslateListHolder
  * </p>
  *
  * @param <T>
@@ -53,7 +58,7 @@ public interface Holder<T> {
 	}
 
 	default BoolHolder test(Predicate<T> predicate) {
-		return new TransformBoolHolder<>(this, predicate::test);
+		return new BoolTransformHolder<>(this, predicate::test);
 	}
 
 	/**

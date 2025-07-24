@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.holders.rw;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
@@ -34,11 +35,11 @@ public class RWHolder<T> extends ListenableHolder<T> {
 	}
 
 	public void set(T newVal) {
-		value = newVal;
+		value = Objects.requireNonNull(newVal);
 		available = true;
 		cdl.countDown();
 		Set<Runnable> triggered = new HashSet<>();
-		transmitNotification(new DataAvailable<>(this, this, triggered));
+		transmitNotification(new DataAvailable<>(this, triggered, this));
 		triggered.forEach(Runnable::run);
 	}
 

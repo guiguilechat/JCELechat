@@ -22,8 +22,18 @@ public sealed interface Notification<T> {
 	 * may have new
 	 * value available. The original holder is transmitted along for debuging.
 	 */
-	public record DataAvailable<T>(Holder<T> parent, Holder<?> original, Set<Runnable> toExecute)
+	public record DataAvailable<T>(Holder<?> original, Set<Runnable> toExecute, Holder<T> parent)
 			implements Notification<T> {
+		/**
+		 * create the same notification but with different parent
+		 *
+		 * @param <U>
+		 * @param child
+		 * @return
+		 */
+		public <U> DataAvailable<U> ofParent(Holder<U> newParent) {
+			return new DataAvailable<>(original, toExecute, newParent);
+		}
 	}
 
 	/**
@@ -33,7 +43,7 @@ public sealed interface Notification<T> {
 	 * Those MUST be passed down, can transmit as-is from the parent to the
 	 * children.
 	 */
-	public record FilteredOut<T>(Holder<?> original, Holder<?> filtering, Set<Runnable> toExecute)
+	public record FilteredOut<T>(Holder<?> original, Set<Runnable> toExecute, Holder<?> filtering)
 			implements Notification<T> {
 	}
 
@@ -45,7 +55,7 @@ public sealed interface Notification<T> {
 	 *
 	 * @param <T>
 	 */
-	public record FetchException<T>(Holder<?> original, Throwable t, Set<Runnable> toExecute)
+	public record FetchException<T>(Holder<?> original, Set<Runnable> toExecute, Throwable t)
 			implements Notification<T> {
 	}
 

@@ -14,7 +14,10 @@ import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * transform the data of a holder into another type
+ * transform the data of a holder into another type.
+ * <p>
+ * The transformer function should never return null
+ * </p>
  */
 @Slf4j
 public class TransformHolder<T, U> extends ListenableHolder<T> implements Listener<U> {
@@ -22,6 +25,10 @@ public class TransformHolder<T, U> extends ListenableHolder<T> implements Listen
 	@Getter(AccessLevel.PROTECTED)
 	private final Holder<U> source;
 
+	/**
+	 * must not return null value. A null value means, that new value must be
+	 * discarded.
+	 */
 	@Getter(AccessLevel.PROTECTED)
 	private final Function<U, T> transformer;
 
@@ -75,11 +82,11 @@ public class TransformHolder<T, U> extends ListenableHolder<T> implements Listen
 	protected void updateValue() {
 		synchronized (this) {
 			if (dirty) {
-				U u = source.get();
-				if (!Objects.equals(u, lastReceived)) {
-					T newValue = transformer.apply(u);
-					value = newValue;
+				U u = Objects.requireNonNull(source.get());
+				if (lastReceived == null || !Objects.equals(u, lastReceived)) {
 					lastReceived = u;
+					T newValue = transformer.apply(u);
+					value = Objects.requireNonNull(newValue);
 				}
 				dirty = false;
 			}
@@ -92,6 +99,7 @@ public class TransformHolder<T, U> extends ListenableHolder<T> implements Listen
 	public void accept(Notification<U> n) {
 		Notification<T> transmit = null;
 		if (n instanceof DataAvailable<U> da) {
+			// only add a countdown when not already available.
 			if (!available) {
 				n.toExecute().add(()->cdl.countDown());
 			}
@@ -99,7 +107,7 @@ public class TransformHolder<T, U> extends ListenableHolder<T> implements Listen
 				available = true;
 				dirty = true;
 			}
-			transmit = new DataAvailable<>(this, da.original(), da.toExecute());
+			transmit = da.ofParent(this);
 		} else {
 			transmit = (Notification<T>) n;
 		}

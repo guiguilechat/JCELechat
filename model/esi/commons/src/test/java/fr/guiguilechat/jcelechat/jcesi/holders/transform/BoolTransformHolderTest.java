@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import fr.guiguilechat.jcelechat.jcesi.holders.BoolHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.rw.RWHolder;
 
-public class TransformBoolHolderTest {
+public class BoolTransformHolderTest {
 
 	@Test(timeOut = 1000L)
 	void testNotEmpty() {
