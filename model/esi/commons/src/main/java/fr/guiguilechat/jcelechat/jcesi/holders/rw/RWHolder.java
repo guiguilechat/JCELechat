@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
-import fr.guiguilechat.jcelechat.jcesi.holders.common.ListenableHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.common.AListenable;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
  * @param <T>
  */
 @Slf4j
-public class RWHolder<T> extends ListenableHolder<T> {
+public class RWHolder<T> extends AListenable<T> {
 
 	@Getter
 	private boolean available = false;

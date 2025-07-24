@@ -1,7 +1,6 @@
-package fr.guiguilechat.jcelechat.jcesi.holders.rw;
+package fr.guiguilechat.jcelechat.jcesi.holders.numbers;
 
-import fr.guiguilechat.jcelechat.jcesi.holders.BoolHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.transform.BoolTransformHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.rw.RWHolder;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 

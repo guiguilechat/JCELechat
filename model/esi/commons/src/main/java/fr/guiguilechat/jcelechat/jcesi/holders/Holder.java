@@ -4,11 +4,15 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.ToIntFunction;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
 import fr.guiguilechat.jcelechat.jcesi.holders.common.StrongRefStorage;
-import fr.guiguilechat.jcelechat.jcesi.holders.transform.BoolTransformHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.numbers.BoolHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.numbers.BoolTransformHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.numbers.IntHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.numbers.IntTransformHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformHolder;
 
 /**
@@ -59,6 +63,10 @@ public interface Holder<T> {
 
 	default BoolHolder test(Predicate<T> predicate) {
 		return new BoolTransformHolder<>(this, predicate::test);
+	}
+
+	default IntHolder mapInt(ToIntFunction<T> transform) {
+		return new IntTransformHolder<>(this, transform::applyAsInt);
 	}
 
 	/**

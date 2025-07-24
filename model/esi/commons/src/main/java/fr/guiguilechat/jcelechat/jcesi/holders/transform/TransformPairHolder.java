@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.jcesi.holders.Notification;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.FilteredOut;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
-import fr.guiguilechat.jcelechat.jcesi.holders.common.ListenableHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.common.AListenable;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -22,7 +22,7 @@ import lombok.extern.slf4j.Slf4j;
  * @param <R> observed Right holder type
  */
 @Slf4j
-public class TransformPairHolder<T, L, R> extends ListenableHolder<T> {
+public class TransformPairHolder<T, L, R> extends AListenable<T> {
 
 	// left representation
 

@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
  *
  * @param <T>
  */
-public abstract class ListenableHolder<T> implements Holder<T> {
+public abstract class AListenable<T> implements Holder<T> {
 
 	private final Set<WeakReference<Listener<T>>> listeners = new HashSet<>();
 

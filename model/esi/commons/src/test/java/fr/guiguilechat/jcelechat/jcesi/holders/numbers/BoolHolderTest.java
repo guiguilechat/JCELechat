@@ -1,17 +1,35 @@
-package fr.guiguilechat.jcelechat.jcesi.holders.transform;
+package fr.guiguilechat.jcelechat.jcesi.holders.numbers;
 
 import java.util.List;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.jcelechat.jcesi.holders.BoolHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.rw.RWHolder;
 
-public class BoolTransformPairTest {
+public class BoolHolderTest {
 
 	@Test(timeOut = 1000L)
-	void testNotEmpty() {
+	void testTransform() {
+		RWHolder<List<Integer>> source = new RWHolder<>();
+		BoolHolder empty = source.test(List::isEmpty);
+		BoolHolder notEmpty = empty.not();
+		Assert.assertFalse(empty.isAvailable());
+		Assert.assertFalse(notEmpty.isAvailable());
+
+		List<Integer> data = List.of(4, 1, 5);
+		source.set(data);
+		Assert.assertFalse(empty.get());
+		Assert.assertTrue(notEmpty.get());
+
+		List<Integer> data2 = List.of();
+		source.set(data2);
+		Assert.assertTrue(empty.get());
+		Assert.assertFalse(notEmpty.get());
+	}
+
+	@Test(timeOut = 1000L)
+	void testTransformPair() {
 		RWHolder<List<Integer>> source1 = new RWHolder<>();
 		BoolHolder empty1 = source1.test(List::isEmpty);
 		RWHolder<List<Integer>> source2 = new RWHolder<>();

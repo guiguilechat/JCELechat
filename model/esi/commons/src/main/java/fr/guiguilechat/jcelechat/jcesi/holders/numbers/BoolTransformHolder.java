@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.jcesi.holders.transform;
+package fr.guiguilechat.jcelechat.jcesi.holders.numbers;
 
 import java.util.function.Predicate;
 
-import fr.guiguilechat.jcelechat.jcesi.holders.BoolHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
+import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformHolder;
 
 public class BoolTransformHolder<U> extends TransformHolder<Boolean, U> implements BoolHolder {
 

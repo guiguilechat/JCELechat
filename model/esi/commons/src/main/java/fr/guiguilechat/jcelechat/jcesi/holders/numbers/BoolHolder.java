@@ -1,6 +1,6 @@
-package fr.guiguilechat.jcelechat.jcesi.holders;
+package fr.guiguilechat.jcelechat.jcesi.holders.numbers;
 
-import fr.guiguilechat.jcelechat.jcesi.holders.transform.BoolTransformPairHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
 
 public interface BoolHolder extends Holder<Boolean> {
 
