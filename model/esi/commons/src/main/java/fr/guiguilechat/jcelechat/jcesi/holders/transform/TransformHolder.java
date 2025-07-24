@@ -1,12 +1,13 @@
 package fr.guiguilechat.jcelechat.jcesi.holders.transform;
 
 import java.util.Objects;
-import java.util.Set;
 import java.util.concurrent.CountDownLatch;
-import java.util.function.BiConsumer;
 import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
+import fr.guiguilechat.jcelechat.jcesi.holders.Notification;
+import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
+import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
 import fr.guiguilechat.jcelechat.jcesi.holders.common.ListenableHolder;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -16,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
  * transform the data of a holder into another type
  */
 @Slf4j
-public class TransformHolder<T, U> extends ListenableHolder<T> implements BiConsumer<Holder<U>, Set<Runnable>> {
+public class TransformHolder<T, U> extends ListenableHolder<T> implements Listener<U> {
 
 	@Getter(AccessLevel.PROTECTED)
 	private final Holder<U> source;
@@ -49,7 +50,7 @@ public class TransformHolder<T, U> extends ListenableHolder<T> implements BiCons
 	public TransformHolder(Holder<U> source, Function<U, T> transformer) {
 		this.source = source;
 		this.transformer = transformer;
-		source.addAvaibilityListener(this);
+		source.addListener(this);
 	}
 
 	@Override
@@ -86,14 +87,23 @@ public class TransformHolder<T, U> extends ListenableHolder<T> implements BiCons
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
-	public void accept(Holder<U> t, Set<Runnable> u) {
-		synchronized (this) {
-			available = true;
-			dirty = true;
+	public void accept(Notification<U> n) {
+		Notification<T> transmit = null;
+		if (n instanceof DataAvailable<U> da) {
+			if (!available) {
+				n.toExecute().add(()->cdl.countDown());
+			}
+			synchronized (this) {
+				available = true;
+				dirty = true;
+			}
+			transmit = new DataAvailable<>(this, da.original(), da.toExecute());
+		} else {
+			transmit = (Notification<T>) n;
 		}
-		cdl.countDown();
-		transmitNotification(u);
+		transmitNotification(transmit);
 	}
 
 }

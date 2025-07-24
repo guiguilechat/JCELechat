@@ -1,12 +1,10 @@
 package fr.guiguilechat.jcelechat.jcesi.holders.rw;
 
-import java.lang.ref.WeakReference;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.CountDownLatch;
-import java.util.function.BiConsumer;
 
-import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
+import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
 import fr.guiguilechat.jcelechat.jcesi.holders.common.ListenableHolder;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -40,7 +38,7 @@ public class RWHolder<T> extends ListenableHolder<T> {
 		available = true;
 		cdl.countDown();
 		Set<Runnable> triggered = new HashSet<>();
-		transmitNotification(triggered);
+		transmitNotification(new DataAvailable<>(this, this, triggered));
 		triggered.forEach(Runnable::run);
 	}
 
@@ -55,18 +53,6 @@ public class RWHolder<T> extends ListenableHolder<T> {
 			}
 		}
 		return value;
-	}
-
-	@Override
-	public void addAvaibilityListener(BiConsumer<Holder<T>, Set<Runnable>> listener) {
-		synchronized (listeners) {
-			listeners.add(new WeakReference<>(listener));
-			if (isAvailable()) {
-				Set<Runnable> triggered = new HashSet<>();
-				listener.accept(this, triggered);
-				triggered.forEach(Runnable::run);
-			}
-		}
 	}
 
 }

@@ -1,10 +1,13 @@
 package fr.guiguilechat.jcelechat.jcesi.holders;
 
-import java.util.Set;
 import java.util.function.BiConsumer;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
+import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
+import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
+import fr.guiguilechat.jcelechat.jcesi.holders.common.StrongRefStorage;
 import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformBoolHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformHolder;
 
@@ -35,18 +38,15 @@ public interface Holder<T> {
 	boolean isAvailable();
 
 	/**
-	 * listens to the data availability change. The listener will be
-	 * triggered whenever new data is potentially available, and at once if data is
-	 * already present or available.
-	 * <p>
-	 * Listeners are stored as weak references,
-	 * meaning they can be deleted if not reachable by an object strongly
-	 * referenced.
-	 * </p>
+	 * Add a weak listener, that is a listener that can be garbage collected once
+	 * not strongly reachable by something else anymore.<br />
+	 * This is the method that should be called to transform holders, for
+	 * daemon-like trigger use {@link #addListener(BiConsumer)}
 	 *
-	 * @param listener
+	 * @param listener will be triggered whenever new data is potentially available,
+	 *                 and at once if data is already present or available.
 	 */
-	void addAvaibilityListener(BiConsumer<Holder<T>, Set<Runnable>> listener);
+	void addListener(Listener<T> listener);
 
 	default <U> Holder<U> map(Function<T, U> transform) {
 		return new TransformHolder<>(this, transform);
@@ -54,6 +54,34 @@ public interface Holder<T> {
 
 	default BoolHolder test(Predicate<T> predicate) {
 		return new TransformBoolHolder<>(this, predicate::test);
+	}
+
+	/**
+	 * add a strongly referenced listener on the new values. Whenever the holder has
+	 * available data, it will request to call the consumer for the new value upon
+	 * notification.<br />
+	 * <p>
+	 * This method actually creates a new listener, which is then strongly
+	 * referenced by
+	 * {@link StrongRefStorage}. If storing it as a Strong reference listener,
+	 * instead of a weak one, that would still not prevent it from being elected for
+	 * GC if the source this depends on is not also strongly reachable. <br />
+	 * For example, if creating a RWHolder[List[T]] and getting its size as a
+	 * Holder[Integer], then using a max(size, 5) Holder[Integer], listening to that
+	 * max holder would not make the size holder strongly reachable.
+	 * </p>
+	 *
+	 * @param onNewValue called when new value is retrieved
+	 */
+	default void listen(Consumer<T> onNewValue) {
+		Listener<T> listener = n -> {
+			if (n instanceof DataAvailable<T> da) {
+				da.toExecute().add(
+						() -> onNewValue.accept(get()));
+			}
+		};
+		addListener(listener);
+		StrongRefStorage.maintain(listener);
 	}
 
 }

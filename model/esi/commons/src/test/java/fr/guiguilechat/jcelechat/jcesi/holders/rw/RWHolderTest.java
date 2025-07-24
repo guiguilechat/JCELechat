@@ -29,13 +29,13 @@ public class RWHolderTest {
 		RWHolder<List<Integer>> test = new RWHolder<>();
 		Assert.assertFalse(test.isAvailable());
 		Assert.assertEquals(called[0], 0);
-		test.addAvaibilityListener((h, s) -> called[0]++);
+		test.addListener(n -> called[0]++);
 		Assert.assertEquals(called[0], 0);
 
 		List<Integer> data = List.of(4, 1, 5);
 		test.set(data);
 		Assert.assertEquals(called[0], 1);
-		test.addAvaibilityListener((h, s) -> called[0]++);
+		test.addListener(n -> called[0]++);
 		Assert.assertEquals(called[0], 2);
 
 	}
