@@ -48,42 +48,42 @@ public class Verify {
 		if (!check()) {
 			throw new NullPointerException();
 		}
-		return verify.CharacterID;
+		return verify.CharacterID();
 	}
 
 	public String characterName() {
 		if (!check()) {
 			throw new NullPointerException();
 		}
-		return verify.CharacterName;
+		return verify.CharacterName();
 	}
 
 	public String expiresOn() {
 		if (!check()) {
 			throw new NullPointerException();
 		}
-		return verify.ExpiresOn;
+		return verify.ExpiresOn();
 	}
 
 	public String scopes() {
 		if (!check()) {
 			throw new NullPointerException();
 		}
-		return verify.Scopes;
+		return verify.Scopes();
 	}
 
 	public String tokenType() {
 		if (!check()) {
 			throw new NullPointerException();
 		}
-		return verify.TokenType;
+		return verify.TokenType();
 	}
 
 	public String characterOwnerHash() {
 		if (!check()) {
 			throw new NullPointerException();
 		}
-		return verify.CharacterOwnerHash;
+		return verify.CharacterOwnerHash();
 	}
 
 }

@@ -70,32 +70,24 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 		props.put("Authorization", "Bearer " + getAccessToken());
 	}
 
-	public static class R_Verify {
-		public int CharacterID;
-		public String CharacterName;
-		public String ExpiresOn;
-		public String Scopes;
-		public String TokenType;
-		public String CharacterOwnerHash;
-		public String IntellectualProperty;
-
-		@Override
-		public String toString() {
-			return "id=" + CharacterID + " name=" + CharacterName + " expire=" + ExpiresOn;
-		}
+	public static record R_Verify(
+			int CharacterID,
+			String CharacterName,
+			String ExpiresOn,
+			String Scopes,
+			String TokenType,
+			String CharacterOwnerHash,
+			String IntellectualProperty) {
 	}
 
-	public static final R_Verify NULLVERIFY = new R_Verify() {
-		{
-			CharacterID = 0;
-			CharacterName = "DISCONNECTED";
-			ExpiresOn = "";
-			Scopes = "";
-			TokenType = "";
-			CharacterOwnerHash = "";
-			IntellectualProperty = "";
-		}
-	};
+	public static final R_Verify NULLVERIFY = new R_Verify(
+			0,
+			"DISCONNECTED",
+			"",
+			"",
+			"",
+			"",
+			"");
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)

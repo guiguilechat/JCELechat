@@ -45,7 +45,7 @@ public class CacheConnected extends SwaggerCOCache<ESIConnected> {
 	@Override
 	public <U> Pausable addFetchCacheObject(String name, Function<Map<String, String>, Requested<U>> fetcher,
 			Consumer<U> cacheHandler, String... requiredRoles) {
-		return swagger.addFetchCacheObject(swagger.verify().CharacterName + "." + name, fetcher, cacheHandler,
+		return swagger.addFetchCacheObject(swagger.verify().CharacterName() + "." + name, fetcher, cacheHandler,
 				requiredRoles);
 	}
 
