@@ -1,13 +1,16 @@
 package fr.guiguilechat.jcelechat.jcesi.holders.rw;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
 import fr.guiguilechat.jcelechat.jcesi.holders.common.AListenable;
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -55,5 +58,9 @@ public class RWHolder<T> extends AListenable<T> {
 		}
 		return value;
 	}
+
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
+	@Accessors(fluent = true)
+	private final Iterable<AListenable<?>> parentHolders = List.of();
 
 }

@@ -5,9 +5,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
+import fr.guiguilechat.jcelechat.jcesi.holders.Listener;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
-import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
 /**
  * abstract base implementation of listeners
@@ -16,12 +19,14 @@ import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
  */
 public abstract class AListenable<T> implements Holder<T> {
 
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
+	@Accessors(fluent = true)
 	private final Set<WeakReference<Listener<T>>> listeners = new HashSet<>();
 
 	@Override
 	public void addListener(Listener<T> listener) {
 		synchronized (listeners) {
-			listeners.add(new WeakReference<>(listener));
+			listeners().add(new WeakReference<>(listener));
 			if (isAvailable()) {
 				Set<Runnable> triggered = new HashSet<>();
 				listener.accept(new DataAvailable<>(this, triggered, this));
@@ -38,9 +43,9 @@ public abstract class AListenable<T> implements Holder<T> {
 			return;
 		}
 		synchronized (listeners) {
-			if (!listeners.isEmpty()) {
+			if (!listeners().isEmpty()) {
 				boolean removedListener = false;
-				for (WeakReference<Listener<T>> wr : listeners) {
+				for (WeakReference<Listener<T>> wr : listeners()) {
 					Listener<T> l = wr.get();
 					if (l != null) {
 						l.accept(notif);
@@ -49,11 +54,30 @@ public abstract class AListenable<T> implements Holder<T> {
 					}
 				}
 				if (removedListener) {
-					listeners.removeIf(wr -> wr.get() == null);
+					listeners().removeIf(wr -> wr.get() == null);
 				}
 			}
 		}
+	}
 
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
+	@Accessors(fluent = true)
+	private final Set<Listener<?>> strongReferences = new HashSet<>();
+
+	protected abstract Iterable<AListenable<?>> parentHolders();
+
+	@Override
+	public void keepAlive(Listener<?> listener) {
+		boolean listens = listeners().stream()
+				.filter(wr -> {
+					var l = wr.get();
+					return l != null && l.equals(listener);
+				})
+				.findAny().isPresent();
+		if (listens) {
+			strongReferences().add(listener);
+		}
+		parentHolders().forEach(h -> h.keepAlive((Listener<?>) this));
 	}
 
 }

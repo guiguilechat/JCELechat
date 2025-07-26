@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.holders.numbers;
+package fr.guiguilechat.jcelechat.jcesi.holders.primitives;
 
 public interface IntHolder extends NumberHolder<Integer, IntHolder> {
 

@@ -7,12 +7,10 @@ import java.util.function.Predicate;
 import java.util.function.ToIntFunction;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
-import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
-import fr.guiguilechat.jcelechat.jcesi.holders.common.StrongRefStorage;
-import fr.guiguilechat.jcelechat.jcesi.holders.numbers.BoolHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.numbers.BoolTransformHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.numbers.IntHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.numbers.IntTransformHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.primitives.BoolHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.primitives.BoolTransformHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.primitives.IntHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.primitives.IntTransformHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformHolder;
 
 /**
@@ -57,6 +55,15 @@ public interface Holder<T> {
 	 */
 	void addListener(Listener<T> listener);
 
+	/**
+	 * keep a listener strongly referenced. This means the listener won't be
+	 * eligible for GC unless this is.<br />
+	 * If not actually listening to it, does nothing.
+	 *
+	 * @param listener
+	 */
+	void keepAlive(Listener<?> listener);
+
 	default <U> Holder<U> map(Function<T, U> transform) {
 		return new TransformHolder<>(this, transform);
 	}
@@ -94,7 +101,7 @@ public interface Holder<T> {
 			}
 		};
 		addListener(listener);
-		StrongRefStorage.maintain(listener);
+		keepAlive(listener);
 	}
 
 }

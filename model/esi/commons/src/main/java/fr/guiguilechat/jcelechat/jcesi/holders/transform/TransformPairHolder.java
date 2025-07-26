@@ -1,17 +1,19 @@
 package fr.guiguilechat.jcelechat.jcesi.holders.transform;
 
+import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.CountDownLatch;
 import java.util.function.BiFunction;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
+import fr.guiguilechat.jcelechat.jcesi.holders.Listener;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.FilteredOut;
-import fr.guiguilechat.jcelechat.jcesi.holders.Notification.Listener;
 import fr.guiguilechat.jcelechat.jcesi.holders.common.AListenable;
 import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -156,5 +158,11 @@ public class TransformPairHolder<T, L, R> extends AListenable<T> {
 			}
 		}
 	}
+
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
+	@Accessors(fluent = true)
+	private final Iterable<AListenable<?>> parentHolders = List.of(
+			(AListenable<?>) leftSource,
+			(AListenable<?>) rightSource);
 
 }

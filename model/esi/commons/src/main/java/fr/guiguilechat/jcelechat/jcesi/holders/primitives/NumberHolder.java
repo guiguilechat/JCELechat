@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.holders.numbers;
+package fr.guiguilechat.jcelechat.jcesi.holders.primitives;
 
 import java.util.function.BinaryOperator;
 
@@ -22,7 +22,19 @@ public interface NumberHolder<Contained extends Number, NumHolderItf extends Num
 
 	NumHolderItf sub(NumHolderItf other);
 
+	default DoubleHolder toDouble() {
+		return new DoubleTransformHolder<>(this, Number::doubleValue);
+	}
+
+	default FloatHolder toFloat() {
+		return new FloatTransformHolder<>(this, Number::floatValue);
+	}
+
 	default IntHolder toInt() {
 		return new IntTransformHolder<>(this, Number::intValue);
+	}
+
+	default LongHolder toLong() {
+		return new LongTransformHolder<>(this, Number::longValue);
 	}
 }

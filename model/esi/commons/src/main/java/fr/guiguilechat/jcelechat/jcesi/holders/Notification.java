@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.holders;
 
 import java.util.Set;
-import java.util.function.Consumer;
 
 /**
  * hierarchy of notification transmitted by a holder
@@ -57,9 +56,5 @@ public sealed interface Notification<T> {
 	 */
 	public record FetchException<T>(Holder<?> original, Set<Runnable> toExecute, Throwable t)
 			implements Notification<T> {
-	}
-
-	public interface Listener<T> extends Consumer<Notification<T>> {
-
 	}
 }

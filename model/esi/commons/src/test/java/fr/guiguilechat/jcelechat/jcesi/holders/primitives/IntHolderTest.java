@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.holders.numbers;
+package fr.guiguilechat.jcelechat.jcesi.holders.primitives;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
