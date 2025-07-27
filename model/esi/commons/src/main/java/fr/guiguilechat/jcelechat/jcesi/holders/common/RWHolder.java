@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.holders.rw;
+package fr.guiguilechat.jcelechat.jcesi.holders.common;
 
 import java.util.HashSet;
 import java.util.List;
@@ -7,7 +7,6 @@ import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
-import fr.guiguilechat.jcelechat.jcesi.holders.common.AListenable;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -15,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * A holder that allows to set the value. The listeners are only called when the
- * data is set(as well as when registered, if data is set)
+ * data is set(as well as when registered, if data is already set)
  *
  * @param <T>
  */

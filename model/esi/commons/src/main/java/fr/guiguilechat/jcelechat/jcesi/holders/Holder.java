@@ -7,11 +7,11 @@ import java.util.function.Predicate;
 import java.util.function.ToIntFunction;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
+import fr.guiguilechat.jcelechat.jcesi.holders.common.TransformHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.primitives.BoolHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.primitives.BoolTransformHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.primitives.IntHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.primitives.IntTransformHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformHolder;
 
 /**
  * data holder. The data is first absent, then can be updateable.

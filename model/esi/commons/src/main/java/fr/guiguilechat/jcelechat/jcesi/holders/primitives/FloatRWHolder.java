@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.jcesi.holders.primitives;
 
 import java.util.function.BinaryOperator;
 
-import fr.guiguilechat.jcelechat.jcesi.holders.rw.RWHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.common.RWHolder;
 
 public class FloatRWHolder extends RWHolder<Float> implements FloatHolder {
 

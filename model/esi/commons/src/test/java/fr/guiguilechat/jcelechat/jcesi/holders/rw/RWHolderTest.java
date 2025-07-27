@@ -5,6 +5,8 @@ import java.util.List;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.jcelechat.jcesi.holders.common.RWHolder;
+
 public class RWHolderTest {
 
 	@Test(timeOut = 1000L)

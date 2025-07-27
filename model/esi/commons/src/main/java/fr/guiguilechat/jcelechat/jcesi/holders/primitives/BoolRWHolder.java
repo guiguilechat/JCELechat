@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.holders.primitives;
 
-import fr.guiguilechat.jcelechat.jcesi.holders.rw.RWHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.common.RWHolder;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 

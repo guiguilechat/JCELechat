@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.holders.transform;
+package fr.guiguilechat.jcelechat.jcesi.holders.common;
 
 import java.util.List;
 import java.util.Objects;
@@ -9,7 +9,6 @@ import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
 import fr.guiguilechat.jcelechat.jcesi.holders.Listener;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
-import fr.guiguilechat.jcelechat.jcesi.holders.common.AListenable;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.Accessors;

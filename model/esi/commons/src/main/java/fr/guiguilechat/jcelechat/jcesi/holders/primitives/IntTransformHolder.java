@@ -4,7 +4,7 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
-import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.common.TransformHolder;
 
 public class IntTransformHolder<U> extends TransformHolder<Integer, U> implements IntHolder {
 

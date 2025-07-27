@@ -4,7 +4,7 @@ import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
-import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformPairHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.common.TransformPairHolder;
 
 public class FloatTransformPairHolder<L, R> extends TransformPairHolder<Float, L, R> implements FloatHolder {
 

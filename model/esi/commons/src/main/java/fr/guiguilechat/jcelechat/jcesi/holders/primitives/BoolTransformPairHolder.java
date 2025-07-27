@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.jcesi.holders.primitives;
 import java.util.function.BiPredicate;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
-import fr.guiguilechat.jcelechat.jcesi.holders.transform.TransformPairHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.common.TransformPairHolder;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
