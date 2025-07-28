@@ -8,6 +8,8 @@ import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
 import fr.guiguilechat.jcelechat.jcesi.holders.Listener;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
+import fr.guiguilechat.jcelechat.jcesi.holders.primitives.StringHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.primitives.StringTransformHolder;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -79,5 +81,9 @@ public abstract class AListenable<T> implements Holder<T> {
 		}
 		parentHolders().forEach(h -> h.keepAlive((Listener<?>) this));
 	}
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final StringHolder string = new StringTransformHolder<>(this, Object::toString);
 
 }

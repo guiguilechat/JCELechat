@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.jcesi.transmit;
 import java.time.Instant;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
@@ -16,6 +17,28 @@ sealed interface RequestResult<ResponseType> {
 	String url();
 
 	Map<String, Object> sentHeaders();
+}
+
+/** sending was prevented (not even tried) */
+
+sealed interface RequestPrevented<ResponseType> extends RequestResult<ResponseType> {
+
+}
+
+/**
+ * did not send the request as the authorization does not meet the required
+ * scopes
+ */
+record MissingScopes<ResponseType>(String url, Map<String, Object> sentHeaders, Set<Object> requiredScopes)
+		implements RequestPrevented<ResponseType> {
+}
+
+/**
+ * did not send the request as the connection does not meet the required
+ * (level) rights, eg corporation roles
+ */
+record MissingRights<ResponseType>(String url, Map<String, Object> sentHeaders, Object level,
+		Set<Object> requiredRights) implements RequestPrevented<ResponseType> {
 }
 
 /**

@@ -12,6 +12,7 @@ import fr.guiguilechat.jcelechat.jcesi.holders.primitives.BoolHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.primitives.BoolTransformHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.primitives.IntHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.primitives.IntTransformHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.primitives.StringHolder;
 
 /**
  * data holder. The data is first absent, then can be updateable.
@@ -103,5 +104,13 @@ public interface Holder<T> {
 		addListener(listener);
 		keepAlive(listener);
 	}
+
+	/**
+	 * named string because Object::toString returns String, not stringHolder, so
+	 * would be bad override
+	 *
+	 * @return a (cached) holder containing this as a string
+	 */
+	StringHolder string();
 
 }
