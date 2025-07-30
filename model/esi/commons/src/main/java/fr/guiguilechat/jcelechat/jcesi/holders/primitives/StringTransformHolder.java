@@ -15,10 +15,14 @@ public class StringTransformHolder<U> extends TransformHolder<String, U> impleme
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final IntHolder length = new IntTransformHolder<>(this, String::length);
+	private final BoolHolder isBlank = test(String::isBlank);
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final BoolHolder isEmpty = new BoolTransformHolder<>(this, String::isEmpty);
+	private final BoolHolder isEmpty = test(String::isEmpty);
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final IntHolder length = mapInt(String::length);
 
 }
