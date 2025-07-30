@@ -160,8 +160,8 @@ public class TransformPairHolder<T, L, R> extends AListenable<T> {
 
 	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
-	private final Iterable<AListenable<?>> parentHolders = List.of(
-			(AListenable<?>) leftSource,
-			(AListenable<?>) rightSource);
+	private final Iterable<Holder<?>> parentHolders = List.of(
+			(Holder<?>) leftSource,
+			(Holder<?>) rightSource);
 
 }

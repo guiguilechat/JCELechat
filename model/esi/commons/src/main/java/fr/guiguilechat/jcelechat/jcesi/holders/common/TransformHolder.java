@@ -117,6 +117,6 @@ public class TransformHolder<T, SourceType> extends AListenable<T> implements Li
 
 	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
-	private final Iterable<AListenable<?>> parentHolders = List.of((AListenable<?>) source);
+	private final Iterable<Holder<?>> parentHolders = List.of((AListenable<?>) source);
 
 }

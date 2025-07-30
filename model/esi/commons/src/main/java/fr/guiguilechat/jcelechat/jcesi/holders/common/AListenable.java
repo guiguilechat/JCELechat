@@ -66,7 +66,7 @@ public abstract class AListenable<T> implements Holder<T> {
 	@Accessors(fluent = true)
 	private final Set<Listener<?>> strongReferences = new HashSet<>();
 
-	protected abstract Iterable<AListenable<?>> parentHolders();
+	protected abstract Iterable<Holder<?>> parentHolders();
 
 	@Override
 	public void keepAlive(Listener<?> listener) {

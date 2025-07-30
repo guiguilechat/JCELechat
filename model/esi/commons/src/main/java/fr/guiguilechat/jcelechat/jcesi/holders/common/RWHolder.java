@@ -6,6 +6,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
+import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -60,6 +61,6 @@ public class RWHolder<T> extends AListenable<T> {
 
 	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
-	private final Iterable<AListenable<?>> parentHolders = List.of();
+	private final Iterable<Holder<?>> parentHolders = List.of();
 
 }
