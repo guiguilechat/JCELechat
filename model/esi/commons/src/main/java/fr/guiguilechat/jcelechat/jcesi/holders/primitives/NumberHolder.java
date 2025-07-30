@@ -22,19 +22,11 @@ public interface NumberHolder<Contained extends Number, NumHolderItf extends Num
 
 	NumHolderItf sub(NumHolderItf other);
 
-	default DoubleHolder toDouble() {
-		return new DoubleTransformHolder<>(this, Number::doubleValue);
-	}
+	DoubleHolder toDouble();
 
-	default FloatHolder toFloat() {
-		return new FloatTransformHolder<>(this, Number::floatValue);
-	}
+	FloatHolder toFloat();
 
-	default IntHolder toInt() {
-		return new IntTransformHolder<>(this, Number::intValue);
-	}
+	IntHolder toInt();
 
-	default LongHolder toLong() {
-		return new LongTransformHolder<>(this, Number::longValue);
-	}
+	LongHolder toLong();
 }

@@ -22,9 +22,4 @@ public interface IntHolder extends NumberHolder<Integer, IntHolder> {
 		return transform(other, (a, b) -> a - b);
 	}
 
-	@Override
-	default IntHolder toInt() {
-		return this;
-	}
-
 }

@@ -22,9 +22,4 @@ public interface LongHolder extends NumberHolder<Long, LongHolder> {
 		return transform(other, (a, b) -> a - b);
 	}
 
-	@Override
-	default LongHolder toLong() {
-		return this;
-	}
-
 }

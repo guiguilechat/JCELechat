@@ -4,9 +4,8 @@ import java.util.function.BinaryOperator;
 import java.util.function.ToLongFunction;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
-import fr.guiguilechat.jcelechat.jcesi.holders.common.TransformHolder;
 
-public class LongTransformHolder<U> extends TransformHolder<Long, U> implements LongHolder {
+public class LongTransformHolder<U> extends NumberTransformHolder<Long, LongHolder, U> implements LongHolder {
 
 	public LongTransformHolder(Holder<U> source, ToLongFunction<U> transformer) {
 		super(source, transformer::applyAsLong);

@@ -22,9 +22,4 @@ public interface DoubleHolder extends NumberHolder<Double, DoubleHolder> {
 		return transform(other, (a, b) -> a - b);
 	}
 
-	@Override
-	default DoubleHolder toDouble() {
-		return this;
-	}
-
 }

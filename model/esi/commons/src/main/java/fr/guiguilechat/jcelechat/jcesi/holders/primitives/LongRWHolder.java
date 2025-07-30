@@ -2,9 +2,7 @@ package fr.guiguilechat.jcelechat.jcesi.holders.primitives;
 
 import java.util.function.BinaryOperator;
 
-import fr.guiguilechat.jcelechat.jcesi.holders.common.RWHolder;
-
-public class LongRWHolder extends RWHolder<Long> implements LongHolder {
+public class LongRWHolder extends NumberRWHolder<Long, LongHolder> implements LongHolder {
 
 	public LongRWHolder() {
 		super();

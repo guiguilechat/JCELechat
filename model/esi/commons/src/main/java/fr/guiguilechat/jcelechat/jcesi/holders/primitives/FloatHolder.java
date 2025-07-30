@@ -22,9 +22,4 @@ public interface FloatHolder extends NumberHolder<Float, FloatHolder> {
 		return transform(other, (a, b) -> a - b);
 	}
 
-	@Override
-	default FloatHolder toFloat() {
-		return this;
-	}
-
 }

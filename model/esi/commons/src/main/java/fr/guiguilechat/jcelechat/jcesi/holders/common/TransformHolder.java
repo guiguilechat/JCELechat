@@ -21,17 +21,17 @@ import lombok.extern.slf4j.Slf4j;
  * </p>
  */
 @Slf4j
-public class TransformHolder<T, U> extends AListenable<T> implements Listener<U> {
+public class TransformHolder<T, SourceType> extends AListenable<T> implements Listener<SourceType> {
 
 	@Getter(AccessLevel.PROTECTED)
-	private final Holder<U> source;
+	private final Holder<SourceType> source;
 
 	/**
 	 * must not return null value. A null value means, that new value must be
 	 * discarded.
 	 */
 	@Getter(AccessLevel.PROTECTED)
-	private final Function<U, T> transformer;
+	private final Function<SourceType, T> transformer;
 
 	@Getter(AccessLevel.PROTECTED)
 	private final CountDownLatch cdl = new CountDownLatch(1);
@@ -53,9 +53,9 @@ public class TransformHolder<T, U> extends AListenable<T> implements Listener<U>
 	private T value = null;
 
 	@Getter(AccessLevel.PROTECTED)
-	private U lastReceived = null;
+	private SourceType lastReceived = null;
 
-	public TransformHolder(Holder<U> source, Function<U, T> transformer) {
+	public TransformHolder(Holder<SourceType> source, Function<SourceType, T> transformer) {
 		this.source = source;
 		this.transformer = transformer;
 		source.addListener(this);
@@ -83,7 +83,7 @@ public class TransformHolder<T, U> extends AListenable<T> implements Listener<U>
 	protected void updateValue() {
 		synchronized (this) {
 			if (dirty) {
-				U u = Objects.requireNonNull(source.get());
+				SourceType u = Objects.requireNonNull(source.get());
 				if (lastReceived == null || !Objects.equals(u, lastReceived)) {
 					lastReceived = u;
 					T newValue = transformer.apply(u);
@@ -97,9 +97,9 @@ public class TransformHolder<T, U> extends AListenable<T> implements Listener<U>
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public void accept(Notification<U> n) {
+	public void accept(Notification<SourceType> n) {
 		Notification<T> transmit = null;
-		if (n instanceof DataAvailable<U> da) {
+		if (n instanceof DataAvailable<SourceType> da) {
 			// only add a countdown when not already available.
 			if (!available) {
 				n.toExecute().add(()->cdl.countDown());

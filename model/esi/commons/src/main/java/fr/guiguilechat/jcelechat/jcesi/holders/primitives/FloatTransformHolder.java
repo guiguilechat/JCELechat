@@ -4,9 +4,8 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
-import fr.guiguilechat.jcelechat.jcesi.holders.common.TransformHolder;
 
-public class FloatTransformHolder<U> extends TransformHolder<Float, U> implements FloatHolder {
+public class FloatTransformHolder<U> extends NumberTransformHolder<Float, FloatHolder, U> implements FloatHolder {
 
 	public FloatTransformHolder(Holder<U> source, Function<U, Float> transformer) {
 		super(source, transformer);

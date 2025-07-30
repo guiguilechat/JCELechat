@@ -4,9 +4,9 @@ import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
-import fr.guiguilechat.jcelechat.jcesi.holders.common.TransformPairHolder;
 
-public class DoubleTransformPairHolder<L, R> extends TransformPairHolder<Double, L, R> implements DoubleHolder {
+public class DoubleTransformPairHolder<L, R> extends NumberTransformPairHolder<Double, DoubleHolder, L, R>
+		implements DoubleHolder {
 
 	public DoubleTransformPairHolder(Holder<L> leftSource, Holder<R> rightSource,
 			BiFunction<L, R, Double> transformer) {

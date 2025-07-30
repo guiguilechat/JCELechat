@@ -26,4 +26,25 @@ public class IntHolderTest {
 		Assert.assertEquals(sub.get(), 1);
 	}
 
+	@Test
+	public void testToInt() {
+		IntRWHolder test = new IntRWHolder();
+		Assert.assertEquals(test.toInt(), test);
+	}
+
+	@Test
+	public void testToFloat() {
+		IntRWHolder test = new IntRWHolder();
+		Assert.assertFalse(test.isAvailable());
+		FloatHolder toFloat = test.toFloat();
+		Assert.assertFalse(toFloat.isAvailable());
+
+		test.set(1);
+		Assert.assertTrue(test.isAvailable());
+		Assert.assertTrue(toFloat.isAvailable());
+		Assert.assertEquals(toFloat.get(), 1.0f);
+
+		Assert.assertEquals(toFloat.toInt().get(), 1);
+	}
+
 }

@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.holders;
 
+import java.util.List;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -9,6 +10,8 @@ import java.util.function.ToIntFunction;
 import java.util.function.ToLongFunction;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
+import fr.guiguilechat.jcelechat.jcesi.holders.collections.ListHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.collections.ListTransformHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.common.TransformHolder;
 import fr.guiguilechat.jcelechat.jcesi.holders.primitives.*;
 
@@ -81,6 +84,10 @@ public interface Holder<T> {
 
 	default IntHolder mapInt(ToIntFunction<T> transform) {
 		return new IntTransformHolder<>(this, transform::applyAsInt);
+	}
+
+	default <U> ListHolder<U> mapList(Function<T, List<U>> transform) {
+		return new ListTransformHolder<>(this, transform);
 	}
 
 	default LongHolder mapLong(ToLongFunction<T> transform) {
