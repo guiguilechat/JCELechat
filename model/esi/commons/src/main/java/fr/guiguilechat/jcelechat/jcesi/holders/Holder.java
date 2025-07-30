@@ -4,15 +4,13 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.ToDoubleFunction;
 import java.util.function.ToIntFunction;
+import java.util.function.ToLongFunction;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Notification.DataAvailable;
 import fr.guiguilechat.jcelechat.jcesi.holders.common.TransformHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.primitives.BoolHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.primitives.BoolTransformHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.primitives.IntHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.primitives.IntTransformHolder;
-import fr.guiguilechat.jcelechat.jcesi.holders.primitives.StringHolder;
+import fr.guiguilechat.jcelechat.jcesi.holders.primitives.*;
 
 /**
  * data holder. The data is first absent, then can be updateable.
@@ -58,8 +56,8 @@ public interface Holder<T> {
 
 	/**
 	 * keep a listener strongly referenced. This means the listener won't be
-	 * eligible for GC unless this is.<br />
-	 * If not actually listening to it, does nothing.
+	 * eligible for GC unless this already is.<br />
+	 * If not already listening to the listener, does nothing.
 	 *
 	 * @param listener
 	 */
@@ -73,8 +71,24 @@ public interface Holder<T> {
 		return new BoolTransformHolder<>(this, predicate::test);
 	}
 
+	default DoubleHolder mapDouble(ToDoubleFunction<T> transform) {
+		return new DoubleTransformHolder<>(this, transform);
+	}
+
+	default FloatHolder mapFloat(Function<T, Float> transform) {
+		return new FloatTransformHolder<>(this, transform);
+	}
+
 	default IntHolder mapInt(ToIntFunction<T> transform) {
 		return new IntTransformHolder<>(this, transform::applyAsInt);
+	}
+
+	default LongHolder mapLong(ToLongFunction<T> transform) {
+		return new LongTransformHolder<>(this, transform::applyAsLong);
+	}
+
+	default StringHolder mapString(Function<T, String> transform) {
+		return new StringTransformHolder<>(this, transform);
 	}
 
 	/**

@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * A holder that allows to set the value. The listeners are only called when the
- * data is set(as well as when registered, if data is already set)
+ * data is set (as well as when registered, if data is already set)
  *
  * @param <T>
  */
