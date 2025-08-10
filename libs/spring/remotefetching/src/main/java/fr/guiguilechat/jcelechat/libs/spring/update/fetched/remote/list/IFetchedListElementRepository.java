@@ -10,9 +10,10 @@ import org.springframework.data.repository.NoRepositoryBean;
 
 @NoRepositoryBean
 public interface IFetchedListElementRepository<
-ListType extends AFetchedList<?, ?, ?>,
-ListElement extends AFetchedListElement<?, ListType>
-> extends JpaRepository<ListElement, Long> {
+		ListType extends AFetchedList<?, ?, ?>,
+		ListElement extends AFetchedListElement<?, ListType>,
+		IdType extends Number>
+		extends JpaRepository<ListElement, IdType> {
 
 	default void removeForFetcher(Iterable<ListType> fetchResources) {
 		List<? extends Number> ids = StreamSupport.stream(fetchResources.spliterator(), false)

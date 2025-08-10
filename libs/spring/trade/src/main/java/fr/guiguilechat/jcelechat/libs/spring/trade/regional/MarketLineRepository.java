@@ -6,9 +6,9 @@ import java.util.stream.Stream;
 
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepositoryAutoId;
 
-public interface MarketLineRepository extends IFetchedListElementRepository<MarketRegion, MarketLine> {
+public interface MarketLineRepository extends IFetchedListElementRepositoryAutoId<MarketRegion, MarketLine> {
 
 	List<MarketLine> findByLocationIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(
 	long locationId,
@@ -118,5 +118,5 @@ order by
 SELECT NEXTVAL('esi_trade_market_line_seq') FROM generate_series(1,:nb)
 """, nativeQuery = true)
 	List<Long> reservePGIds(int nb);
-	
+
 }

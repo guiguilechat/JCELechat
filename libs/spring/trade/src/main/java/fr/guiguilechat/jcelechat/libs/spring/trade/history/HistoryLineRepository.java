@@ -5,9 +5,9 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepositoryAutoId;
 
-public interface HistoryLineRepository extends IFetchedListElementRepository<HistoryReq, HistoryLine> {
+public interface HistoryLineRepository extends IFetchedListElementRepositoryAutoId<HistoryReq, HistoryLine> {
 
 	@Query("""
 select
@@ -69,7 +69,7 @@ select
 	sum(volume) totalQuantity,
 	line.fetchResource.type.id typeId,
 	line.fetchResource.type.name typeName
-from 
+from
 	EsiTradeHistoryLine line
 where
 	line.date <= :maxInstant

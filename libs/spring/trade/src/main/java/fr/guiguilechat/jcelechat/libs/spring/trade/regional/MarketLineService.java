@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -111,6 +112,10 @@ public class MarketLineService implements MarketRegionListener {
 		repo.removeForFetcher(regions);
 	}
 
+	public void deleteAll(Iterable<MarketLine> lines) {
+		repo.deleteAll(lines);
+	}
+
 	//
 	// tools
 	//
@@ -186,8 +191,33 @@ public class MarketLineService implements MarketRegionListener {
 	}
 
 	/**
+	 * @param regionId a region id.
+	 * @return unsorted list of records stored in a region. Will return empty list
+	 *         if regionId invalid.
+	 */
+	protected List<MarketLine> forRegion(int regionId) {
+		return repo.findAllByFetchResourceId(regionId);
+	}
+
+	/**
+	 * a cache of the stored orders per region id
+	 */
+	private final Map<Integer, Map<Long, MarketLine>> lastStoredLinesByRegionId = new HashMap<>();
+
+	Map<Long, MarketLine> cachedOrders(int regionId) {
+		return lastStoredLinesByRegionId.computeIfAbsent(regionId,
+				i -> forRegion(regionId)
+						.stream()
+						.collect(Collectors.toMap(MarketLine::getOrderId, ml -> ml)));
+	}
+
+	void updateCachedOrders(int regionId, Map<Long, MarketLine> orders) {
+		lastStoredLinesByRegionId.put(regionId, orders);
+	}
+
+	/**
 	 * @return existing lines with given order.type_id and order.isbuyorder ,
-	 *           ordered by price asc for SO and price desc for BO
+	 *         ordered by price asc for SO and price desc for BO
 	 */
 	@Cacheable("marketAll")
 	public List<MarketLine> forAll(int type_id, boolean isBuyOrder) {

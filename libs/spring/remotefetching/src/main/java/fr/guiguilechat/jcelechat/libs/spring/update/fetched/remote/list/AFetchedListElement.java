@@ -1,8 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
@@ -20,10 +17,6 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @Setter
 public abstract class AFetchedListElement<Self extends AFetchedListElement<?, ?>, FetchResource extends AFetchedList<?, ?, Self>> {
-
-	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	private long id;
 
 	@ManyToOne
 	// @JoinColumn(foreignKey = @ForeignKey(name = "none"))

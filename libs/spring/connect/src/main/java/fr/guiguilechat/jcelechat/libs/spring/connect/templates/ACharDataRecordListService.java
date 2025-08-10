@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElement;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepositoryAutoId;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 /**
  * service to manage data corresponding to a remote character that is fetched as
  * a list
- * 
+ *
  * @param <Entity>     the entity that stores the fetch meta data
  * @param <Fetched>    elements retrieved as array for this resource from the
  *                       remote
@@ -29,11 +29,11 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @Getter
 public abstract class ACharDataRecordListService<
-    	Entity extends AFetchedList<Integer, Fetched, ListRecord>, 
-    	Fetched, 
-    	Repository extends IRemoteEntityRepository<Entity, Integer>, 
-    	ListRecord extends AFetchedListElement<?, Entity>, 
-    	RecordRepo extends IFetchedListElementRepository<Entity, ListRecord>>
+    	Entity extends AFetchedList<Integer, Fetched, ListRecord>,
+    	Fetched,
+    	Repository extends IRemoteEntityRepository<Entity, Integer>,
+		ListRecord extends AFetchedListElementAutoId<?, Entity>,
+		RecordRepo extends IFetchedListElementRepositoryAutoId<Entity, ListRecord>>
     extends AConnectedCharDataService<Entity, Fetched[], Repository> {
 
 	@Autowired // can't use constructor injection for generic service

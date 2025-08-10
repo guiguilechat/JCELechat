@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact.CharacterContactList;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_contacts_contact_type;
 import jakarta.persistence.Entity;
@@ -27,7 +27,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class CharacterContact extends
-    AFetchedListElement<CharacterContact, CharacterContactList> {
+		AFetchedListElementAutoId<CharacterContact, CharacterContactList> {
 
 	@Entity(name = "EsiConnectCharacterContactList")
 	@Table(name = "esi_connect_charactercontactlist", indexes = {

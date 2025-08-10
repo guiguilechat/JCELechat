@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.regional;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -63,8 +64,18 @@ extends ARemoteEntityService<MarketRegion, Integer, R_get_markets_region_id_orde
 		return ret;
 	}
 
+	boolean saveUseIncrement = false;
+
 	@Override
 	protected void updateResponseOk(Map<MarketRegion, R_get_markets_region_id_orders[]> responseOk) {
+		if (saveUseIncrement) {
+			updateWithIncrement(responseOk);
+		} else {
+			updateNoIncrement(responseOk);
+		}
+	}
+
+	protected void updateNoIncrement(Map<MarketRegion, R_get_markets_region_id_orders[]> responseOk) {
 		long startms = System.currentTimeMillis();
 		log.trace("applying {} market orders updates for regions {}", responseOk.size(),
 				responseOk.keySet().stream().map(MarketRegion::getId).toList());
@@ -86,12 +97,76 @@ extends ARemoteEntityService<MarketRegion, Integer, R_get_markets_region_id_orde
 		log.trace(" saved {} orders for {} regions in {}s, at {} orders/s", translated.size(), responseOk.size(),
 				(postSaved - postCreated) / 1000,
 				postSaved - postCreated == 0 ? 0 : translated.size() * 1000 / (postSaved - postCreated));
+
 	}
 
 	public List<MarketLine> createForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders) {
 		return Stream.of(orders)
 				.map(order -> MarketLine.of(order, region))
 				.toList();
+	}
+
+	protected void updateWithIncrement(Map<MarketRegion, R_get_markets_region_id_orders[]> responseOk) {
+		long startms = System.currentTimeMillis();
+		log.trace("applying {} market orders updates for regions {}", responseOk.size(),
+				responseOk.keySet().stream().map(MarketRegion::getId).toList());
+		List<MarketLine> updated = new ArrayList<>(),
+				created = new ArrayList<>(),
+				deleted = new ArrayList<>()
+		;
+		for (Entry<MarketRegion, R_get_markets_region_id_orders[]> e : responseOk.entrySet()) {
+			updateWithIncrement(e.getKey(), e.getValue(), updated, created, deleted);
+		}
+		long postProcess = System.currentTimeMillis();
+		log.debug("  processed the orders in {} s", (postProcess - startms) / 1000);
+		if (!updated.isEmpty()) {
+			marketLineService.saveAll(updated);
+		}
+		long postUpdate = System.currentTimeMillis();
+		log.debug("  updated {} orders in {} s", updated.size(), (postUpdate - postProcess) / 1000);
+		if (!deleted.isEmpty()) {
+			marketLineService.deleteAll(deleted);
+		}
+		long postDelete = System.currentTimeMillis();
+		log.debug("  deleted {} orders in {} s", deleted.size(), (postDelete - postUpdate) / 1000);
+		if (!created.isEmpty()) {
+			marketLineService.createAll(created);
+		}
+		long postSaved = System.currentTimeMillis();
+		log.debug("  created {} orders in {} s", created.size(), (postSaved - postDelete) / 1000);
+		log.debug("saved market orders for {} regions in {}s",
+				responseOk.size(),
+				(postSaved - startms) / 1000);
+	}
+
+	protected void updateWithIncrement(MarketRegion mr, R_get_markets_region_id_orders[] receivedOrders,
+			List<MarketLine> updated, List<MarketLine> created, List<MarketLine> deleted) {
+		long startms = System.currentTimeMillis();
+		log.trace(" fetching the existing orders in region {}", mr.getRegion().getId());
+		Map<Long, MarketLine> storedOrders = marketLineService.cachedOrders(mr.getRegion().getId());
+		long postFetch = System.currentTimeMillis();
+		log.trace("  fetched {} orders of region {} in {} s", storedOrders.size(), mr.getRegion().getId(),
+				(postFetch - startms) / 1000);
+
+		Map<Long, MarketLine> toRemoveOrders = new HashMap<>(storedOrders);
+		Map<Long, MarketLine> regionOrdersAfter = new HashMap<>();
+		for (R_get_markets_region_id_orders ro : receivedOrders) {
+			// order still exists so not to be removed
+			toRemoveOrders.remove(ro.order_id);
+			MarketLine existing = storedOrders.get(ro.order_id);
+			if (existing == null) {
+				existing = MarketLine.of(ro, mr);
+				created.add(existing);
+			} else {
+				boolean changed = existing.updateReceived(ro);
+				if (changed) {
+					updated.add(existing);
+				}
+			}
+			regionOrdersAfter.put(existing.getOrderId(), existing);
+		}
+		deleted.addAll(toRemoveOrders.values());
+		marketLineService.updateCachedOrders(mr.getRegion().getId(), regionOrdersAfter);
 	}
 
 	@Override

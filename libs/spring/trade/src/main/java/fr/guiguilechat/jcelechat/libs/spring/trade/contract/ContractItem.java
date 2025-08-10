@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -23,7 +23,7 @@ import lombok.Setter;
 @Builder
 @Getter
 @Setter
-public class ContractItem extends AFetchedListElement<ContractItem, ContractInfo> {
+public class ContractItem extends AFetchedListElementAutoId<ContractItem, ContractInfo> {
 
 	@ManyToOne
 	private Type type;

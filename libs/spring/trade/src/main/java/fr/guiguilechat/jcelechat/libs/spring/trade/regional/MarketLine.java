@@ -4,11 +4,12 @@ import java.io.Serializable;
 import java.time.Instant;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElement;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
 import jakarta.persistence.Entity;
@@ -33,8 +34,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class MarketLine extends AFetchedListElement<MarketLine, MarketRegion> implements Serializable {
-
+public class MarketLine extends AFetchedListElementAutoId<MarketLine, MarketRegion> implements Serializable {
 
 	/**
 	 * duration integer
@@ -95,7 +95,7 @@ public class MarketLine extends AFetchedListElement<MarketLine, MarketRegion> im
 		return volumeRemain != 0 && duration != 0;
 	}
 
-	public MarketLine update(R_get_markets_region_id_orders order) {
+	public MarketLine setFrom(R_get_markets_region_id_orders order) {
 		setDuration(order.duration);
 		setBuyOrder(order.is_buy_order);
 		setIssued(ESIDateTools.fieldInstant(order.issued));
@@ -112,9 +112,31 @@ public class MarketLine extends AFetchedListElement<MarketLine, MarketRegion> im
 	}
 
 	public static MarketLine of(R_get_markets_region_id_orders order, MarketRegion region) {
-		MarketLine ret = new MarketLine().update(order);
+		MarketLine ret = new MarketLine().setFrom(order);
 		ret.setFetchResource(region);
 		return ret;
+	}
+
+	/**
+	 * @return true when at least one field was changed. only tests fields that can
+	 *         change : issued, price, volume remain
+	 */
+	public boolean updateReceived(R_get_markets_region_id_orders order) {
+		boolean changed = false;
+		Instant newIssued = ESIDateTools.fieldInstant(order.issued);
+		if (!Objects.equals(newIssued, getIssued())) {
+			setIssued(newIssued);
+			changed = true;
+		}
+		if (getPrice() != order.price) {
+			setPrice(order.price);
+			changed = true;
+		}
+		if (getVolumeRemain() != order.volume_remain) {
+			setVolumeRemain(order.volume_remain);
+			changed = true;
+		}
+		return changed;
 	}
 
 	public static final String CSV_SEP = ",";
@@ -134,11 +156,15 @@ public class MarketLine extends AFetchedListElement<MarketLine, MarketRegion> im
 			"volume_remain",
 			"volume_total",
 			"fetch_resource_id"
-			//
-			)
+	//
+	)
 			.collect(Collectors.joining(CSV_SEP));
 
-
+	/**
+	 * convert to csv to send through PG copy function
+	 *
+	 * @return
+	 */
 	public String csv() {
 		return Stream.of(
 				Long.toString(getId()),
@@ -155,8 +181,8 @@ public class MarketLine extends AFetchedListElement<MarketLine, MarketRegion> im
 				Integer.toString(volumeRemain),
 				Integer.toString(volumeTotal),
 				Integer.toString(getFetchResource().getId())
-				//
-				).collect(Collectors.joining(CSV_SEP));
+		//
+		).collect(Collectors.joining(CSV_SEP));
 	}
 
 	private static final DateTimeFormatter PG_INSTANT_FORMATER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ssZ");
