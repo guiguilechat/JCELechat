@@ -357,35 +357,40 @@ public class InventoryHtmlController {
 	}
 
 	@Transactional
+	@GetMapping("/type")
+	public String getTypeQuery(Model model,
+			int typeId) {
+		return getType(model, typeId);
+	}
+
+	@Transactional
 	@GetMapping("/type/search/{typeFiltering}/{typeFilter}")
-	public String getType(Model model, @PathVariable String typeFiltering,
+	public String searchType(Model model, @PathVariable String typeFiltering,
 			@PathVariable String typeFilter) {
-		String ret = "inventory/type";
 		List<Type> types = typeService.typesFilter(typeFiltering, typeFilter);
 		if (types.size() == 1) {
 			return "redirect:" + uri(types.get(0)).toString();
 		}
-		model.addAttribute("name", "unknown type " + typeFilter);
 		model.addAttribute("types",
 				types.stream().sorted(Comparator.comparing(Type::name)).map(this::linkedType).toList());
-		return ret;
+		return "inventory/typesearch";
 	}
 
 	@Transactional
 	@GetMapping("/type/search/{typeFiltering}")
-	public String getTypeSearch(Model model, @PathVariable String typeFiltering,
+	public String searchTypeQuery(Model model, @PathVariable String typeFiltering,
 			String filter) {
-		return getType(model, typeFiltering, filter);
+		return searchType(model, typeFiltering, filter);
 	}
 
 	@Transactional
-	@GetMapping("/types")
+	@GetMapping("/type/search")
 	public String getTypesIndex(Model model) {
 		model.addAttribute("categories", categoryService.allById().values().stream()
 				.sorted(Comparator.comparing(Category::name))
 				.map(this::linkedCategory)
 				.toList());
-		return "inventory/types";
+		return "inventory/typesearch";
 	}
 
 	public URI uri(Group group) {

@@ -329,22 +329,6 @@
 				</table>
 			</div>
 		</div>
-		<div class="row border">
-			<div th:if="${types!=null}" class="col">
-				<h1>Types result</h1>
-				<ul>
-					<li th:each="type: ${types}"><a th:href="${type.url}"
-						th:text="${type.name}" /></li>
-				</ul>
-			</div>
-			<div th:if="${groups!=null}" class="col">
-				<h1>Groups result</h1>
-				<ul>
-					<li th:each="group: ${groups}"><a th:href="${group.url}"
-						th:text="${group.name}" /></li>
-				</ul>
-			</div>
-		</div>
 	</div>
 </body>
 </html>
