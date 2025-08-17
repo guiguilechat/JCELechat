@@ -4,5 +4,5 @@ public class ESIMeta {
     /**
      * day at which this library was compiled. To send as date header for versioning
      */
-    public static final String COMPILED_DATE = "2025-07-21";
+    public static final String COMPILED_DATE = "2025-08-17";
 }

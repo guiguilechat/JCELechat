@@ -1,0 +1,4 @@
+#!/bin/bash
+# build the esi module and its dependencies
+
+mvn -T2C -pl :jcesi -am install
