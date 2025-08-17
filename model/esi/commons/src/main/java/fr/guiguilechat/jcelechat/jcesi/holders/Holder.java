@@ -96,6 +96,8 @@ public interface Holder<T> {
 	 */
 	void addListener(Listener<T> listener);
 
+	void removeListener(Listener<T> listener);
+
 	/**
 	 * keep a listener strongly referenced. This means the listener won't be
 	 * eligible for GC unless this already is.<br />

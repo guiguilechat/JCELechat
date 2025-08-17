@@ -85,10 +85,10 @@ public class ContractFacadeBpc {
 		return sold(typeId, me, te, limit).stream().map(MarketOrder::of);
 	}
 
-	public List<AggregatedHL> aggregatedSales(int typeId, int me, int te) {
+	public List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te) {
 		Map<Instant, List<ContractInfo>> byDay = sold(typeId, me, te, Limit.unlimited())
 				.stream()
-				.filter(ci -> ci.getRemovedBefore() != null)
+				.filter(ci -> ci.getRemovedBefore() != null && !ci.getRemovedBefore().isBefore(from))
 				.collect(Collectors.groupingBy(ci -> ci.getRemovedBefore().truncatedTo(ChronoUnit.DAYS)));
 		List<AggregatedHL> ret = new ArrayList<>();
 		for (Entry<Instant, List<ContractInfo>> e : byDay.entrySet()) {

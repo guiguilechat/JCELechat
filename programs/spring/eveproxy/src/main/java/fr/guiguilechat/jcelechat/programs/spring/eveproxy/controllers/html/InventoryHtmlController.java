@@ -150,7 +150,7 @@ public class InventoryHtmlController {
 	}
 
 	public URI typeUri(int typeId) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getType", null, "ti", "" + typeId).build()
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getType", null, typeId).build()
 				.toUri();
 	}
 
@@ -230,18 +230,14 @@ public class InventoryHtmlController {
 	}
 
 	@Transactional
-	@GetMapping("/type/{typeFiltering}/{typeFilter}")
-	public String getType(Model model, @PathVariable String typeFiltering,
-			@PathVariable String typeFilter) {
-		List<Type> types = typeService.typesFilter(typeFiltering, typeFilter);
+	@GetMapping("/type/{typeId}")
+	public String getType(Model model,
+			@PathVariable int typeId) {
 		String ret = "inventory/type";
-		if (types.size() != 1) {
-			model.addAttribute("name", "unknown type " + typeFilter);
-			model.addAttribute("types",
-					types.stream().sorted(Comparator.comparing(Type::name)).map(this::linkedType).toList());
-			return ret;
+		Type t = typeService.byId(typeId);
+		if (t == null) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " does not exist");
 		}
-		Type t = types.get(0);
 		model.addAttribute("name", t.name());
 		model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
 		model.addAttribute("historyUrl", historyRestController.uri(t).toString());
@@ -361,8 +357,23 @@ public class InventoryHtmlController {
 	}
 
 	@Transactional
-	@GetMapping("/type/{typeFiltering}")
-	public String getTypeParam(Model model, @PathVariable String typeFiltering,
+	@GetMapping("/type/search/{typeFiltering}/{typeFilter}")
+	public String getType(Model model, @PathVariable String typeFiltering,
+			@PathVariable String typeFilter) {
+		String ret = "inventory/type";
+		List<Type> types = typeService.typesFilter(typeFiltering, typeFilter);
+		if (types.size() == 1) {
+			return "redirect:" + uri(types.get(0)).toString();
+		}
+		model.addAttribute("name", "unknown type " + typeFilter);
+		model.addAttribute("types",
+				types.stream().sorted(Comparator.comparing(Type::name)).map(this::linkedType).toList());
+		return ret;
+	}
+
+	@Transactional
+	@GetMapping("/type/search/{typeFiltering}")
+	public String getTypeSearch(Model model, @PathVariable String typeFiltering,
 			String filter) {
 		return getType(model, typeFiltering, filter);
 	}

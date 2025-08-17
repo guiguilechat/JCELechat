@@ -110,7 +110,7 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 		long start = System.currentTimeMillis();
 		List<AggregatedHL> marketHistory = historyLineService.byType(typeId, from);
 		long postMarketFetch = System.currentTimeMillis();
-		List<AggregatedHL> contractHistory = contractFacadeBpo.aggregatedSales(typeId, 0, 0);
+		List<AggregatedHL> contractHistory = contractFacadeBpo.aggregatedSales(typeId, from, 0, 0);
 		long postContractFetch = System.currentTimeMillis();
 		Map<? extends Instant, List<AggregatedHL>> byDate = Stream.concat(marketHistory.stream(), contractHistory.stream())
 				.collect(Collectors.groupingBy((Function<? super AggregatedHL, ? extends Instant>) AggregatedHL::getDate));

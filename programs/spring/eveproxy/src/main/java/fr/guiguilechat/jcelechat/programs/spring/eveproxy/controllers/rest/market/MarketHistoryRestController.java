@@ -200,11 +200,12 @@ public class MarketHistoryRestController {
 			@RequestParam @Parameter(description = "list of days to use to draw the average price") Optional<List<Integer>> averageDays)
 					throws IOException {
 		Type type = typeService.byId(typeId);
+		Instant from = Instant.EPOCH;
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
-		List<AggregatedHL> fetchedData = copy ? contractFacadeBpc.aggregatedSales(typeId, me, te)
-				: contractFacadeBpo.aggregatedSales(typeId, me, te);
+		List<AggregatedHL> fetchedData = copy ? contractFacadeBpc.aggregatedSales(typeId, from, me, te)
+				: contractFacadeBpo.aggregatedSales(typeId, from, me, te);
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}

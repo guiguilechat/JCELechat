@@ -85,8 +85,8 @@ public class ContractFacadeBpo {
 				((Number) line[5]).intValue());
 	}
 
-	public List<AggregatedHL> aggregatedSales(int typeId, int me, int te) {
-		return contractInfoRepository.aggregatedSales(typeId, me, te).stream()
+	public List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te) {
+		return contractInfoRepository.aggregatedSales(typeId, from, me, te).stream()
 				.map(this::convert)
 				.toList();
 	}

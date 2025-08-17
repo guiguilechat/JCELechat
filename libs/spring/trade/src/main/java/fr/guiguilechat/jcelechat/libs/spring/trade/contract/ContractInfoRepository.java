@@ -32,7 +32,7 @@ public interface ContractInfoRepository
 	/** completed contracts providing only given types and iscopy, me, te */
 	List<ContractInfo> findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
 	    Collection<Integer> typeIds, boolean copy, int me, int te, Limit limit);
-	
+
 	@Query("""
 select
 	date_trunc('day', removedBefore) date,
@@ -51,8 +51,10 @@ where
 	and not offeredCopy
 	and offeredMe=:me
 	and offeredTe=:te
+	and removedBefore>=:from
 group by date_trunc('day', removedBefore)
-""") List<Object[]> aggregatedSales(int typeId, int me, int te);
+""")
+	List<Object[]> aggregatedSales(int typeId, Instant from, int me, int te);
 
 	/** open contracts providing only given type and iscopy, me, te */
 	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
@@ -67,7 +69,7 @@ group by date_trunc('day', removedBefore)
 	/** open contracts requesting only given types */
 	List<ContractInfo> findByRemovedFalseAndAsksOneTypeForIskTrueAndAskedTypeIdIn(Collection<Integer> typeIds);
 
-	@Query("""  
+	@Query("""
 select
 	id
 from
@@ -76,7 +78,7 @@ where
 	id>:lastId
 	and fetched
 order by id
-limit :limit 
+limit :limit
 """) List<Integer> listIdsByFetchedTrue(long lastId, int limit);
 
 	/** to analyze again */
@@ -84,7 +86,7 @@ limit :limit
 
 	/**
 	 * list the variants of the type offered in contract, except the 0/0/noncopy one
-	 * 
+	 *
 	 * @param typeId a type
 	 * @return distinct (me, te, copy) of contracts offering given typeId
 	 */
@@ -124,7 +126,7 @@ limit :limit
 select
 	offeredTypeId typeId,
 	offeredMe,
-	offeredTe,	
+	offeredTe,
 	sum(price) totalValue,
 	sum(offeredQuantity) totalQuantity
 from
@@ -149,7 +151,7 @@ limit :limit
 select
 	offeredTypeId typeId,
 	offeredMe,
-	offeredTe,	
+	offeredTe,
 	sum(price) totalValue,
 	sum(offeredRuns) totalRuns
 from

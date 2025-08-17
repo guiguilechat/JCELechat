@@ -27,7 +27,7 @@ public abstract class AListenable<T> implements Holder<T> {
 
 	@Override
 	public void addListener(Listener<T> listener) {
-		synchronized (listeners) {
+		synchronized (listeners()) {
 			listeners().add(new WeakReference<>(listener));
 			if (isAvailable()) {
 				Set<Runnable> triggered = new HashSet<>();
@@ -44,7 +44,7 @@ public abstract class AListenable<T> implements Holder<T> {
 		if (notif == null) {
 			return;
 		}
-		synchronized (listeners) {
+		synchronized (listeners()) {
 			if (!listeners().isEmpty()) {
 				boolean removedListener = false;
 				for (WeakReference<Listener<T>> wr : listeners()) {
@@ -70,16 +70,26 @@ public abstract class AListenable<T> implements Holder<T> {
 
 	@Override
 	public void keepAlive(Listener<?> listener) {
-		boolean listens = listeners().stream()
-				.filter(wr -> {
-					var l = wr.get();
-					return l != null && l.equals(listener);
-				})
-				.findAny().isPresent();
-		if (listens) {
-			strongReferences().add(listener);
+		synchronized (listeners()) {
+			boolean listens = listeners().stream()
+					.filter(wr -> {
+						var l = wr.get();
+						return l != null && l.equals(listener);
+					})
+					.findAny().isPresent();
+			if (listens) {
+				strongReferences().add(listener);
+			}
 		}
 		parentHolders().forEach(h -> h.keepAlive((Listener<?>) this));
+	}
+
+	@Override
+	public void removeListener(Listener<T> listener) {
+		synchronized (listeners()) {
+			listeners().removeIf(wr -> wr.get() == null || listener.equals(wr.get()));
+			strongReferences().remove(listener);
+		}
 	}
 
 	@Getter(lazy = true)
