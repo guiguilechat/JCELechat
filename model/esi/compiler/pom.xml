@@ -28,7 +28,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
 			<artifactId>commons</artifactId>
 		</dependency>
 	</dependencies>

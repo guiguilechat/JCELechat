@@ -13,16 +13,10 @@
 	<modules>
 		<module>jcesi</module>
 		<module>compiler</module>
-		<module>commons</module>
 		<module>compiled</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-				<artifactId>commons</artifactId>
-				<version>${project.version}</version>
-			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 				<artifactId>compiler</artifactId>

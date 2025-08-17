@@ -265,7 +265,12 @@
 				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 				<artifactId>routesolver</artifactId>
 				<version>${project.version}</version>
-			</dependency>
+			</dependency>			
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
+				<artifactId>commons</artifactId>
+				<version>${project.version}</version>
+			</dependency>			
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 				<artifactId>common</artifactId>
