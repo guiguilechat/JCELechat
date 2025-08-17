@@ -1,0 +1,4 @@
+#!/bin/bash
+# build the eveproxy module and its dependencies
+
+mvn -T2C -pl :eveproxy -am install

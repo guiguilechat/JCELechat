@@ -11,7 +11,7 @@
 	<description>EvE ESI libs</description>
 	<packaging>pom</packaging>
 	<modules>
-	<module>commons</module>
-	<module>oa3compiler-maven-plugin</module>
+		<module>commons</module>
+		<module>oa3compiler-maven-plugin</module>
 	</modules>
 </project>

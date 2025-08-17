@@ -273,7 +273,6 @@ public class MarketHistoryRestController {
 		plot.setBackgroundPaint(bgColor);
 		// plot.setDomainGridlinesVisible(false);
 		// tick on first day of week https://stackoverflow.com/a/11052090
-		@SuppressWarnings("serial")
 		DateAxis timeAxis = new DateAxis(null) {
 			@Override
 			protected Date previousStandardDate(Date date, DateTickUnit unit) {

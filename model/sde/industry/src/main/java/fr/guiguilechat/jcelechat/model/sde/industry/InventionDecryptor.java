@@ -159,7 +159,6 @@ public class InventionDecryptor {
 		return ret;
 	}
 
-	@SuppressWarnings("serial")
 	public static final Map<Integer, Integer> ALL_5 = new HashMap<>() {
 		public Integer get(Object key) {
 			return 5;

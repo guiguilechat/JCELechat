@@ -51,6 +51,22 @@
 			<build>
 				<plugins>
 					<plugin>
+						<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
+						<artifactId>oa3compiler-maven-plugin</artifactId>
+						<configuration>
+							<url>https://esi.evetech.net/meta/openapi.json</url>
+						</configuration>
+						<executions>
+							<execution>
+								<id>compile-esi</id>
+								<phase>generate-sources</phase>
+								<goals>
+									<goal>compile-url</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
 						<groupId>org.codehaus.mojo</groupId>
 						<artifactId>exec-maven-plugin</artifactId>
 						<executions>

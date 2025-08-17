@@ -109,7 +109,6 @@ public class RestControllerHelper {
 	 * parameter to an {@link NumberAxis#setNumberFormatOverride(NumberFormat)}, to
 	 * make the chart show prices correctly
 	 */
-	@SuppressWarnings("serial")
 	public static final NumberFormat NUMBER_FORMAT_PRICES = new HexNumberFormat() {
 		@Override
 		public StringBuffer format(long number, StringBuffer toAppendTo,

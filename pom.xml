@@ -70,6 +70,12 @@
 	<build>
 		<pluginManagement>
 			<plugins>
+				<!-- self pluigns-->
+				<plugin>
+					<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
+					<artifactId>oa3compiler-maven-plugin</artifactId>
+					<version>${project.version}</version>
+				</plugin>
 				<!-- apache plugins update https://mvnrepository.com/artifact/org.apache.maven.plugins -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -265,12 +271,12 @@
 				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 				<artifactId>routesolver</artifactId>
 				<version>${project.version}</version>
-			</dependency>			
+			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
 				<artifactId>commons</artifactId>
 				<version>${project.version}</version>
-			</dependency>			
+			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 				<artifactId>common</artifactId>
@@ -461,14 +467,19 @@
 			</dependency>
 			<dependency>
 				<groupId>org.apache.maven</groupId>
+				<artifactId>maven-core</artifactId>
+				<version>3.9.11</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven</groupId>
 				<artifactId>maven-plugin-api</artifactId>
-				<version>3.9.4</version>
+				<version>3.9.11</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.maven</groupId>
-				<artifactId>maven-core</artifactId>
-				<version>3.9.4</version>
+				<artifactId>maven-project</artifactId>
+				<version>2.2.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.maven.plugin-tools</groupId>
