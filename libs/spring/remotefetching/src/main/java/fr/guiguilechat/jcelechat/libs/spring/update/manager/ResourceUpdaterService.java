@@ -115,7 +115,10 @@ public class ResourceUpdaterService {
 		    .format(DateTimeFormatter.ISO_LOCAL_TIME);
 	}
 
-	@Value("${jcesi.manager.default.skip:false}")
+	/**
+	 * should we skip services that don't have their skip value set ?
+	 */
+	@Value("${jcesi.manager.default.skip:true}")
 	private boolean defaultSkip;
 
 	/**
