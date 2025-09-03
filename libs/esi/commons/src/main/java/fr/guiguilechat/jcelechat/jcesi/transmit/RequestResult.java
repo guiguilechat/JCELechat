@@ -20,7 +20,6 @@ sealed interface RequestResult<ResponseType> {
 }
 
 /** sending was prevented (not even tried) */
-
 sealed interface RequestPrevented<ResponseType> extends RequestResult<ResponseType> {
 
 }

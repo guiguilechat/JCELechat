@@ -27,9 +27,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
 import fr.guiguilechat.jcelechat.jcesi.request.impl.RequestedImpl;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.ESIMeta;
 import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
 import fr.lelouet.tools.holders.interfaces.numbers.BoolHolder;
@@ -410,7 +410,19 @@ public abstract class ConnectedImpl implements ITransfer {
 		}).toList();
 		if (!mismatcheds.isEmpty()) {
 			String firstUrl = firstPage.getURL();
-			String message = "mismatching " + mismatcheds.size() + " lastmodified , first page  is " + firstUrl;
+			String message = new StringBuilder("mismatching ")
+					.append(mismatcheds.size())
+					.append(" lastmodified , first page  is ")
+					.append(firstUrl)
+					.append(" (")
+					.append(firstLastModified)
+					.append("), different page is ")
+					.append(mismatcheds.get(0).getURL())
+					.append(" (")
+					.append(mismatcheds.get(0).getLastModified())
+					.append(")")
+
+					.toString();
 			logResponse("GET", firstUrl, firstPage.getResponseCode(), null, null, message, null,
 					firstPage.getHeaders());
 			mismatch[0] = true;
