@@ -30,7 +30,7 @@ public class Compiler {
 		String serverUrl = server.getUrl();
 		log.info("server url : " + serverUrl);
 		for (Entry<String, PathItem> p : schema.getPaths().entrySet()) {
-
+			p.getKey();
 		}
 	}
 

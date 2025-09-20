@@ -175,7 +175,7 @@ public interface Holder<T> {
 		return new StringTransformHolder<>(this, transform);
 	}
 
-	default BoolHolder equals(Holder<?> other) {
+	default BoolHolder eq(Holder<?> other) {
 		return new BoolTransformPairHolder<>(this, other, Objects::equals);
 	}
 

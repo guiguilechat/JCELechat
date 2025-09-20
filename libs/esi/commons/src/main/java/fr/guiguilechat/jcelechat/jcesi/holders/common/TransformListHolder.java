@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.holders.Holder;
@@ -39,36 +40,44 @@ public class TransformListHolder<T, SourceInternal, SourceHolder extends Holder<
 	}
 
 	// events handling.
-	// all events are translated to the same update method at the end.
+
+	LockResource<ReentrantLock> lr = new LockResource<>(new ReentrantLock());
 
 	@SuppressWarnings("unchecked")
 	@Override
 	public void accept(Notification<List<SourceHolder>> n) {
-		Notification<T> transmit = null;
-		if (n instanceof DataAvailable<List<SourceHolder>> da) {
-			n.toExecute().add(this::onAnyUpdate);
-			// don't ever transmit new value when receiving list update
-			transmit = new FilteredOut<>(da.original(), da.toExecute(), this);
-		} else {
-			transmit = (Notification<T>) n;
+		Notification<T> transmit = switch (n) {
+		case DataAvailable<List<SourceHolder>> da -> {
+			n.toExecute().add(this::onListUpdate);
+			yield new FilteredOut<>(da.original(), da.toExecute(), this);
 		}
+		default -> (Notification<T>) n;
+		};
 		transmitNotification(transmit);
+	}
+
+	protected void onListUpdate() {
+		try (var l = lr.lock()) {
+
+		}
 	}
 
 	@SuppressWarnings("unchecked")
 	protected void acceptItemNotification(Notification<SourceInternal> n) {
-		Notification<T> transmit = null;
-		if (n instanceof DataAvailable<SourceInternal> da) {
+		Notification<T> transmit = switch (n) {
+		case DataAvailable<SourceInternal> da -> {
 			n.toExecute().add(this::onAnyUpdate);
-			transmit = new FilteredOut<>(da.original(), da.toExecute(), this);
-		} else {
-			transmit = (Notification<T>) n;
+			yield new FilteredOut<>(da.original(), da.toExecute(), this);
 		}
+		default -> (Notification<T>) n;
+		};
 		transmitNotification(transmit);
 	}
 
 	protected void onAnyUpdate() {
+		try (var l = lr.lock()) {
 
+		}
 	}
 
 	@Getter(AccessLevel.PROTECTED)
@@ -123,7 +132,6 @@ public class TransformListHolder<T, SourceInternal, SourceHolder extends Holder<
 	 * for each element of the list, the last received data
 	 */
 	private final Map<SourceHolder, ListItemListener> itemsReceivers = new HashMap<>();
-
 
 	protected void onListUpdated() {
 		synchronized (itemsReceivers) {
