@@ -60,7 +60,7 @@ public class NPCsTranslater {
 		LinkedHashMap<String, Corporation> corporations = new LinkedHashMap<>();
 		LinkedHashMap<Integer, LPOffer> lpoffers = new LinkedHashMap<>();
 
-		translate(Eagents.load(), agents, corporations,
+		translate(Eagents.LOADER.load(), agents, corporations,
 				lpoffers);
 
 		for (Entry<String, Agent> e : agents.entrySet()) {

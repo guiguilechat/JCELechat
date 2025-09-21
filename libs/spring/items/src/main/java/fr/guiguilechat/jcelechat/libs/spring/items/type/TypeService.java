@@ -369,7 +369,7 @@ implements SdeUpdateListener, EntityUpdateListener {
 		Matcher matcher = ENTRYNAME_TYPES_PATTERN.matcher(entryName);
 		if (matcher.matches()) {
 			try (InputStream is = fileContent.get()) {
-				LinkedHashMap<Integer, Etypes> newTypes = Etypes.from(is);
+				LinkedHashMap<Integer, Etypes> newTypes = Etypes.LOADER.from(is);
 				updateTypes(newTypes);
 			} catch (IOException e) {
 				throw new RuntimeException(e);

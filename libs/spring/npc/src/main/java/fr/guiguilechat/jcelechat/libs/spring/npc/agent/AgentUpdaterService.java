@@ -47,7 +47,7 @@ public class AgentUpdaterService implements SdeUpdateListener {
 	@Override
 	public void onSdeFile(String name, Supplier<InputStream> fileContent) {
 		if (ENTRYNAME_AGENTS_PATTERN.matcher(name).matches()) {
-			agents = Eagents.from(fileContent.get());
+			agents = Eagents.LOADER.from(fileContent.get());
 			return;
 		}
 	}

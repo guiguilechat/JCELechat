@@ -12,7 +12,7 @@ public class InvalidTypeChar {
 	public static void main(String[] args) throws IOException {
 		BufferedWriter bw = new BufferedWriter(new FileWriter("target/invalidChars.txt"));
 		int nb = 0;
-		for (Entry<Integer, Etypes> e : Etypes.load().entrySet()) {
+		for (Entry<Integer, Etypes> e : Etypes.LOADER.load().entrySet()) {
 			var t = e.getValue();
 			Set<String> invalidNameLanguages = new HashSet<>();
 			for (Entry<String, String> e2 : t.name.entrySet()) {

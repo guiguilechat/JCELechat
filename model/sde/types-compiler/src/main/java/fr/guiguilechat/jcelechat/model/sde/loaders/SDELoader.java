@@ -48,7 +48,7 @@ public class SDELoader {
 			ret.catID2GroupIDs.computeIfAbsent(e.getValue().categoryID, i -> new HashSet<>()).add(e.getKey());
 		}
 		// types
-		for (Entry<Integer, Etypes> e : Etypes.load().entrySet()) {
+		for (Entry<Integer, Etypes> e : Etypes.LOADER.load().entrySet()) {
 			TypeDetails det = new TypeDetails();
 			det.name = e.getValue().enName();
 			det.id = e.getKey();
@@ -78,7 +78,7 @@ public class SDELoader {
 			}
 			EtypeDogma etd = e.getValue();
 			if (etd.dogmaAttributes != null) {
-				for(EAttributes tatt : etd.dogmaAttributes) {
+				for (EAttributes tatt : etd.dogmaAttributes) {
 					int attId = tatt.attributeID;
 					float value = tatt.value.floatValue();
 					td.definition.put(attId, value);

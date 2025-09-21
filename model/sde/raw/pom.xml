@@ -13,6 +13,10 @@
 	<description>load the data from CCP's SDE and putit in cache. Then allow to use those data in java</description>
 	<dependencies>
 		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-yaml</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
 		</dependency>

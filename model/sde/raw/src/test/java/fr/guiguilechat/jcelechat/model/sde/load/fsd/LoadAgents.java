@@ -6,7 +6,7 @@ public class LoadAgents {
 
 	public static void main(String[] args) {
 		long timeStart = System.currentTimeMillis();
-		LinkedHashMap<Integer, Eagents> loaded = Eagents.load();
+		LinkedHashMap<Integer, Eagents> loaded = Eagents.LOADER.load();
 		long timeStop = System.currentTimeMillis();
 		System.out.println("loaded " + loaded.size() + " agents in " + (timeStop - timeStart) + " ms");
 		Eagents agent0 = loaded.values().iterator().next();

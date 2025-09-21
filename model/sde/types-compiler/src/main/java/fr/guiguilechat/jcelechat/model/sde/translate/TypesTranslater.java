@@ -89,7 +89,11 @@ public class TypesTranslater {
 				marketGroupField.set(item, td.marketGroupID);
 				Field massField = item.getClass().getField("mass");
 				massField.setAccessible(true);
-				massField.set(item, td.mass);
+				if (massField.getType().equals(int.class)) {
+					massField.set(item, (int) td.mass);
+				} else {
+					massField.set(item, td.mass);
+				}
 				Field nameField = item.getClass().getField("name");
 				nameField.setAccessible(true);
 				nameField.set(item, td.name);
@@ -107,7 +111,11 @@ public class TypesTranslater {
 				publishedfield.set(item, td.published);
 				Field volumeField = item.getClass().getField("volume");
 				volumeField.setAccessible(true);
-				volumeField.set(item, td.volume);
+				if (volumeField.getType().equals(int.class)) {
+					volumeField.set(item, (int) td.volume);
+				} else {
+					volumeField.set(item, td.volume);
+				}
 				// if (td.id == 24692) {
 				// System.err.println("type " + td.name + " mass is " +
 				// massField.getDouble(item) + " pre dynamic");

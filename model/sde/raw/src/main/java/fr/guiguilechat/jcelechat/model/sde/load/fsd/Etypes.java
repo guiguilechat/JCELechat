@@ -1,9 +1,5 @@
 package fr.guiguilechat.jcelechat.model.sde.load.fsd;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -11,16 +7,12 @@ import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-import org.yaml.snakeyaml.constructor.Construct;
-import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
+import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
 
 /**
  * an entry in the fsd/typeIDs.yaml
@@ -28,6 +20,24 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 public class Etypes {
 
 	private static final Logger logger = LoggerFactory.getLogger(Etypes.class);
+
+	public static final SnakeYamlLHMLoader<LinkedHashMap<Integer, Etypes>> LOADER
+	// = new JackonYamlLoader<>("fsd/types.yaml") ;
+			= new SnakeYamlLHMLoader<>("fsd/types.yaml") {
+
+				@Override
+				protected void preprocess(Node node) {
+					if (node.getNodeId() == NodeId.mapping) {
+						MappingNode mn = (MappingNode) node;
+						if (mn.getValue().size() > 0) {
+							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+									.filter("groupID"::equals).findAny().isPresent()) {
+								node.setType(Etypes.class);
+							}
+						}
+					}
+				}
+			};
 
 	public static class Etraits {
 		public static class Bonus {
@@ -45,50 +55,11 @@ public class Etypes {
 		public HashMap<Integer, ArrayList<Bonus>> types;
 	}
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/types.yaml");
-
-	private static LinkedHashMap<Integer, Etypes> cache = null;
-
-	public static synchronized LinkedHashMap<Integer, Etypes> load() {
-		if (cache == null) {
-			try {
-				cache = from(new FileInputStream(FILE));
-			} catch (FileNotFoundException e) {
-				throw new UnsupportedOperationException(e);
-			}
-		}
-		return cache;
-	}
-
-	@SuppressWarnings("unchecked")
-	public static LinkedHashMap<Integer, Etypes> from(InputStream is) {
-
-		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
-
-			@Override
-			protected Construct getConstructor(Node node) {
-				if (node.getNodeId() == NodeId.mapping) {
-					MappingNode mn = (MappingNode) node;
-					if (mn.getValue().size() > 0) {
-						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-								.filter("groupID"::equals).findAny().isPresent()) {
-							node.setType(Etypes.class);
-						}
-					}
-				}
-				Construct ret = super.getConstructor(node);
-				return ret;
-			}
-		};
-		Yaml yaml = SDECache.yaml(cons);
-		return yaml.loadAs(is, LinkedHashMap.class);
-	}
-
 	private static final HashMap<Integer, String> ERROR_NAMES = new HashMap<>();
 
 	public static String getName(int typeId) {
-		var type = load() .get(typeId);
-		if(type!=null) {
+		var type = LOADER.load().get(typeId);
+		if (type != null) {
 			return type.enName();
 		}
 		synchronized (ERROR_NAMES) {
@@ -137,7 +108,8 @@ public class Etypes {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("loaded " + load().size() + " types");
+		var loaded = LOADER.load();
+		System.out.println("loaded " + loaded.size() + " types");
 	}
 
 }

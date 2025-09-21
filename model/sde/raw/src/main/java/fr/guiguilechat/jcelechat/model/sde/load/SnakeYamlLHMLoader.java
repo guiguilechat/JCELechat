@@ -1,0 +1,40 @@
+package fr.guiguilechat.jcelechat.model.sde.load;
+
+import java.io.InputStream;
+import java.util.LinkedHashMap;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.constructor.Construct;
+import org.yaml.snakeyaml.constructor.Constructor;
+import org.yaml.snakeyaml.nodes.Node;
+
+/**
+ * snakeyaml LinkedHashMap loader
+ *
+ * @param <U>
+ */
+public abstract class SnakeYamlLHMLoader<U> extends JackonYamlLoader<U> {
+
+	public SnakeYamlLHMLoader(String archiveFileName) {
+		super(archiveFileName);
+	}
+
+	protected abstract void preprocess(Node node);
+
+	@Override
+	public U from(InputStream is) {
+
+		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
+
+			@Override
+			protected Construct getConstructor(Node node) {
+				preprocess(node);
+				return super.getConstructor(node);
+			}
+		};
+		Yaml yaml = SDECache.yaml(cons);
+		return (U) yaml.loadAs(is, LinkedHashMap.class);
+	}
+
+}

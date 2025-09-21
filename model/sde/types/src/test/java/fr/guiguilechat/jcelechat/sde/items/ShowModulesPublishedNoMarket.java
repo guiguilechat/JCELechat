@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 public class ShowModulesPublishedNoMarket {
 
 	public static void main(String[] args) {
-		for (Entry<Integer, Etypes> e : Etypes.load().entrySet()) {
+		for (Entry<Integer, Etypes> e : Etypes.LOADER.load().entrySet()) {
 			Etypes t = e.getValue();
 			if (t.published) {
 				Egroups group = Egroups.load().get(t.groupID);

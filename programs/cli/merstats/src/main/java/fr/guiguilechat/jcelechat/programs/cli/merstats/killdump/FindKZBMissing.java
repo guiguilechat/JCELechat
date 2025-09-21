@@ -25,7 +25,7 @@ public class FindKZBMissing {
 	public static void main(String[] args) throws InterruptedException {
 		int year = 2022;
 		int month = 12;
-		LinkedHashMap<Integer, Etypes> types = Etypes.load();
+		LinkedHashMap<Integer, Etypes> types = Etypes.LOADER.load();
 		Map<Integer, Map<Integer, Map<Integer, List<KDEntry>>>> grouped = KDParser.INSTANCE
 				.groupMonthBySysTypeDay(
 						SystemFilters.HS.and(NPCFilter.NONPC)

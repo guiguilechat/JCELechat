@@ -38,7 +38,7 @@ public class KDEntry {
 	}
 
 	public Etypes getEType() {
-		Etypes ret = Etypes.load().get(destroyedShipTypeID());
+		Etypes ret = Etypes.LOADER.load().get(destroyedShipTypeID());
 		if (ret == null) {
 			ret = new Etypes();
 			ret.name.put("en", "t_" + destroyedShipTypeID());

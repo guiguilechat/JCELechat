@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.Ecategories;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Egroups;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 
 public class CheckESISDE {
@@ -27,16 +28,16 @@ public class CheckESISDE {
 		Universe universe = ESIRawPublic.INSTANCE.cache().universe;
 		Dogma dogma = ESIRawPublic.INSTANCE.cache().dogma;
 		MapHolder<Integer, R_get_universe_categories_category_id> catMap = universe.categories()
-				.mapItems(catid -> universe.categories(catid)).toMap(h -> h.get().category_id, h -> h.get());
+				.mapItems(catid -> universe.categories(catid)).toMap(h -> h.get().category_id, ObjHolder::get);
 		MapHolder<Integer, R_get_universe_groups_group_id> groupMap = universe.groups()
-				.mapItems(groupID -> universe.groups(groupID)).toMap(h -> h.get().group_id, h -> h.get());
+				.mapItems(groupID -> universe.groups(groupID)).toMap(h -> h.get().group_id, ObjHolder::get);
 		MapHolder<Integer, R_get_universe_types_type_id> typeMap = universe.types()
-				.mapItems(typeID -> universe.types(typeID)).toMap(h -> h.get().type_id, h -> h.get());
+				.mapItems(typeID -> universe.types(typeID)).toMap(h -> h.get().type_id, ObjHolder::get);
 		MapHolder<Integer, R_get_dogma_attributes_attribute_id> attMap = dogma.attributes()
-				.mapItems(typeID -> dogma.attributes(typeID)).toMap(h -> h.get().attribute_id, h -> h.get());
+				.mapItems(typeID -> dogma.attributes(typeID)).toMap(h -> h.get().attribute_id, ObjHolder::get);
 		Ecategories.load();
 		Egroups.load();
-		Etypes.load();
+		Etypes.LOADER.load();
 		EdogmaAttributes.load();
 
 		long postLoad = System.currentTimeMillis();
@@ -61,7 +62,7 @@ public class CheckESISDE {
 				errors++;
 			}
 		}
-		for (Entry<Integer, Etypes> e : Etypes.load().entrySet()) {
+		for (Entry<Integer, Etypes> e : Etypes.LOADER.load().entrySet()) {
 			Etypes sdeEntry = e.getValue();
 			R_get_universe_types_type_id esiEntry = typeMap.get().get(e.getKey());
 			if (sdeEntry.published != esiEntry.published) {
