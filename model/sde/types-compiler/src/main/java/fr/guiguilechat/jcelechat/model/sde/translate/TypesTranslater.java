@@ -21,20 +21,9 @@ import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-import com.helger.jcodemodel.AbstractJClass;
-import com.helger.jcodemodel.IJExpression;
-import com.helger.jcodemodel.JBlock;
-import com.helger.jcodemodel.JCatchBlock;
-import com.helger.jcodemodel.JClassAlreadyExistsException;
-import com.helger.jcodemodel.JCodeModel;
-import com.helger.jcodemodel.JCodeModelException;
-import com.helger.jcodemodel.JDefinedClass;
-import com.helger.jcodemodel.JExpr;
-import com.helger.jcodemodel.JMethod;
-import com.helger.jcodemodel.JMod;
-import com.helger.jcodemodel.JTryBlock;
-import com.helger.jcodemodel.JTryResource;
-import com.helger.jcodemodel.JVar;
+import com.helger.jcodemodel.*;
+import com.helger.jcodemodel.exceptions.JClassAlreadyExistsException;
+import com.helger.jcodemodel.exceptions.JCodeModelException;
 
 import fr.guiguilechat.jcelechat.model.sde.compile.CompilationData;
 import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler;

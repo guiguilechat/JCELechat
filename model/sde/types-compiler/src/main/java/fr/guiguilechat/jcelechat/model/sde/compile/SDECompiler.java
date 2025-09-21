@@ -3,50 +3,16 @@ package fr.guiguilechat.jcelechat.model.sde.compile;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.helger.jcodemodel.AbstractJClass;
-import com.helger.jcodemodel.JArray;
-import com.helger.jcodemodel.JBlock;
-import com.helger.jcodemodel.JCatchBlock;
-import com.helger.jcodemodel.JClassAlreadyExistsException;
-import com.helger.jcodemodel.JCodeModel;
-import com.helger.jcodemodel.JCodeModelException;
-import com.helger.jcodemodel.JConditional;
-import com.helger.jcodemodel.JDefinedClass;
-import com.helger.jcodemodel.JExpr;
-import com.helger.jcodemodel.JFieldRef;
-import com.helger.jcodemodel.JFieldVar;
-import com.helger.jcodemodel.JForEach;
-import com.helger.jcodemodel.JInvocation;
-import com.helger.jcodemodel.JLambda;
-import com.helger.jcodemodel.JLambdaMethodRef;
-import com.helger.jcodemodel.JLambdaParam;
-import com.helger.jcodemodel.JMethod;
-import com.helger.jcodemodel.JMod;
-import com.helger.jcodemodel.JNarrowedClass;
-import com.helger.jcodemodel.JOp;
-import com.helger.jcodemodel.JPackage;
-import com.helger.jcodemodel.JPrimitiveType;
-import com.helger.jcodemodel.JSwitch;
-import com.helger.jcodemodel.JTryBlock;
-import com.helger.jcodemodel.JTypeVar;
-import com.helger.jcodemodel.JVar;
+import com.helger.jcodemodel.*;
+import com.helger.jcodemodel.exceptions.JClassAlreadyExistsException;
+import com.helger.jcodemodel.exceptions.JCodeModelException;
 
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.AttributeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
@@ -826,12 +792,10 @@ public class SDECompiler {
 			if (skipChar(totrans)) {
 				skipped++;
 				continue;
+			} else if (charIndex - skipped == 0 || skipChar(name.charAt(charIndex - 1))) {
+				newName[charIndex - skipped] = Character.toUpperCase(totrans);
 			} else {
-				if (charIndex - skipped == 0 || skipChar(name.charAt(charIndex - 1))) {
-					newName[charIndex - skipped] = Character.toUpperCase(totrans);
-				} else {
-					newName[charIndex - skipped] = totrans;
-				}
+				newName[charIndex - skipped] = totrans;
 			}
 		}
 		String ret = new String(newName, 0, name.length() - skipped);
@@ -846,7 +810,7 @@ public class SDECompiler {
 	}
 
 	public static boolean ignoreType(boolean catPublished, boolean groupPublished, boolean typePublished) {
-		return !typePublished && groupPublished || !groupPublished && catPublished;
+		return (groupPublished ? !typePublished : catPublished);
 	}
 
 }

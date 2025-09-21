@@ -17,6 +17,7 @@ import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.helger.jcodemodel.*;
+import com.helger.jcodemodel.exceptions.JCodeModelException;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ISwaggerCacheHelper;

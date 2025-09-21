@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.model.sde;
 
 import java.io.IOException;
 
-import com.helger.jcodemodel.JCodeModelException;
+import com.helger.jcodemodel.exceptions.JCodeModelException;
 
 import fr.guiguilechat.jcelechat.model.sde.compile.MainCompile;
 

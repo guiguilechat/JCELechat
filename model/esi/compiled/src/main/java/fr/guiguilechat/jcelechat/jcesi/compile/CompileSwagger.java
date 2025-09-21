@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.jcesi.compile;
 
 import java.io.IOException;
 
-import com.helger.jcodemodel.JClassAlreadyExistsException;
+import com.helger.jcodemodel.exceptions.JClassAlreadyExistsException;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.ESICompiler;
 

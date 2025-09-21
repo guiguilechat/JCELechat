@@ -8,15 +8,16 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JPackage;
+import com.helger.jcodemodel.exceptions.JClassAlreadyExistsException;
 import com.helger.jcodemodel.writer.JCMWriter;
 import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 
@@ -37,10 +38,9 @@ public class ESICompiler {
 	private static final Logger logger = LoggerFactory.getLogger(ESICompiler.class);
 
 	/**
-	 *
 	 * @param args
-	 *          { base url , destination folder } .base url is typically the
-	 *          swagger URL without the swagger.json at the end.
+	 *             { base url , destination folder } .base url is typically the
+	 *             swagger URL without the swagger.json at the end.
 	 * @throws IOException
 	 * @throws JClassAlreadyExistsException
 	 */
@@ -84,7 +84,7 @@ public class ESICompiler {
 		JCodeModel cm = new JCodeModel();
 		ClassBridge cltrans = makeClassBridge(cm, swagger);
 
-		swagger.getPaths().entrySet().stream().sorted((p1, p2) -> p1.getKey().compareTo(p2.getKey())).forEach(e -> {
+		swagger.getPaths().entrySet().stream().sorted(Comparator.comparing(Entry<String, Path>::getKey)).forEach(e -> {
 			String resource = e.getKey();
 			Path p = e.getValue();
 
@@ -168,7 +168,7 @@ public class ESICompiler {
 	}
 
 	public static void sort(JDefinedClass cl) {
-		Collections.sort((List<JMethod>) cl.methods(), Comparator.comparing(m -> m.name()));
+		Collections.sort((List<JMethod>) cl.methods(), Comparator.comparing(JMethod::name));
 		for (JDefinedClass cli : cl.classes()) {
 			sort(cli);
 		}
