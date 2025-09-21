@@ -235,7 +235,7 @@ types:
     chargesize: 2
     cpu: 30.0
     damagemultiplier: 1.899999976158142
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -243,7 +243,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 12000.0
+    maxrange: 10800.0
     name: Dual 150mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -262,7 +262,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11324
     volume: 10.0
   568:
@@ -349,7 +349,7 @@ types:
     chargesize: 2
     cpu: 38.0
     damagemultiplier: 3.4800000190734863
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -357,7 +357,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 24000.0
+    maxrange: 21600.0
     name: 250mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -376,7 +376,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11324
     volume: 25.0
   571:
@@ -425,7 +425,7 @@ types:
     chargesize: 3
     cpu: 52.0
     damagemultiplier: 1.649999976158142
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -433,7 +433,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 24000.0
+    maxrange: 21600.0
     name: Dual 250mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -452,7 +452,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11324
     volume: 20.0
   573:
@@ -501,7 +501,7 @@ types:
     chargesize: 3
     cpu: 67.0
     damagemultiplier: 3.0250000953674316
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -509,7 +509,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 48000.0
+    maxrange: 43200.0
     name: 425mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -528,7 +528,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11324
     volume: 50.0
   575:
@@ -620,7 +620,7 @@ types:
     chargesize: 2
     cpu: 42.0
     damagemultiplier: 4.170000076293945
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 1.0
     hp: 40.0
@@ -628,7 +628,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metalevelold: 5
     name: 250mm Railgun II
     optimalsigradius: 40000
@@ -650,7 +650,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 2
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11325
     volume: 10.0
   3090:
@@ -662,7 +662,7 @@ types:
     chargesize: 3
     cpu: 74.0
     damagemultiplier: 3.630000114440918
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 1.0
     hp: 40.0
@@ -670,7 +670,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 57600.0
+    maxrange: 51840.0
     metalevelold: 5
     name: 425mm Railgun II
     optimalsigradius: 40000
@@ -692,7 +692,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 2
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11325
     volume: 20.0
   3098:
@@ -746,7 +746,7 @@ types:
     chargesize: 2
     cpu: 33.0
     damagemultiplier: 2.2799999713897705
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -754,7 +754,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 14400.0
+    maxrange: 12960.0
     metalevelold: 5
     name: Dual 150mm Railgun II
     optimalsigradius: 40000
@@ -776,7 +776,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 2
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11325
     volume: 10.0
   3114:
@@ -788,7 +788,7 @@ types:
     chargesize: 3
     cpu: 58.0
     damagemultiplier: 1.9800000190734863
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -796,7 +796,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metalevelold: 5
     name: Dual 250mm Railgun II
     optimalsigradius: 40000
@@ -818,7 +818,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 2
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11325
     volume: 20.0
   3122:
@@ -1601,7 +1601,7 @@ types:
     chargesize: 2
     cpu: 25.0
     damagemultiplier: 2.2799999713897705
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -1609,7 +1609,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 14400.0
+    maxrange: 12960.0
     metalevelold: 4
     name: Dual 150mm Prototype Gauss Gun
     optimalsigradius: 40000
@@ -1629,7 +1629,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11324
     volume: 10.0
   7329:
@@ -1640,7 +1640,7 @@ types:
     chargesize: 2
     cpu: 26.0
     damagemultiplier: 2.0899999141693115
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -1648,7 +1648,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 13200.0
+    maxrange: 11880.0
     metalevelold: 2
     name: Dual 150mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
@@ -1668,7 +1668,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11324
     volume: 10.0
   7331:
@@ -1679,7 +1679,7 @@ types:
     chargesize: 2
     cpu: 23.0
     damagemultiplier: 1.9900000095367432
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -1687,7 +1687,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 12600.0
+    maxrange: 11340.0
     metalevelold: 1
     name: Dual 150mm Carbide Railgun I
     optimalsigradius: 40000
@@ -1707,7 +1707,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11324
     volume: 10.0
   7333:
@@ -1718,7 +1718,7 @@ types:
     chargesize: 2
     cpu: 28.0
     damagemultiplier: 2.180000066757202
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -1726,7 +1726,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 13800.0
+    maxrange: 12420.0
     metalevelold: 3
     name: Dual 150mm Compressed Coil Gun I
     optimalsigradius: 40000
@@ -1746,7 +1746,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11324
     volume: 10.0
   7367:
@@ -1757,7 +1757,7 @@ types:
     chargesize: 2
     cpu: 32.0
     damagemultiplier: 4.170000076293945
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -1765,7 +1765,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metalevelold: 4
     name: 250mm Prototype Gauss Gun
     optimalsigradius: 40000
@@ -1785,7 +1785,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11324
     volume: 10.0
   7369:
@@ -1796,7 +1796,7 @@ types:
     chargesize: 2
     cpu: 34.0
     damagemultiplier: 3.8299999237060547
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -1804,7 +1804,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 26400.0
+    maxrange: 23760.0
     metalevelold: 2
     name: 250mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
@@ -1824,7 +1824,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11324
     volume: 10.0
   7371:
@@ -1835,7 +1835,7 @@ types:
     chargesize: 2
     cpu: 30.0
     damagemultiplier: 3.6500000953674316
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -1843,7 +1843,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 25200.0
+    maxrange: 22680.0
     metalevelold: 1
     name: 250mm Carbide Railgun I
     optimalsigradius: 40000
@@ -1863,7 +1863,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11324
     volume: 10.0
   7373:
@@ -1874,7 +1874,7 @@ types:
     chargesize: 2
     cpu: 36.0
     damagemultiplier: 4.0
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -1882,7 +1882,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 27600.0
+    maxrange: 24840.0
     metalevelold: 3
     name: 250mm Compressed Coil Gun I
     optimalsigradius: 40000
@@ -1902,7 +1902,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11324
     volume: 10.0
   7407:
@@ -1913,7 +1913,7 @@ types:
     chargesize: 3
     cpu: 43.0
     damagemultiplier: 1.9800000190734863
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -1921,7 +1921,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metalevelold: 4
     name: Dual 250mm Prototype Gauss Gun
     optimalsigradius: 40000
@@ -1941,7 +1941,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11324
     volume: 20.0
   7409:
@@ -1952,7 +1952,7 @@ types:
     chargesize: 3
     cpu: 46.0
     damagemultiplier: 1.815000057220459
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -1960,7 +1960,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 26400.0
+    maxrange: 23760.0
     metalevelold: 2
     name: Dual 250mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
@@ -1980,7 +1980,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11324
     volume: 20.0
   7411:
@@ -1991,7 +1991,7 @@ types:
     chargesize: 3
     cpu: 41.0
     damagemultiplier: 1.7324999570846558
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -1999,7 +1999,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 25200.0
+    maxrange: 22680.0
     metalevelold: 1
     name: Dual 250mm Carbide Railgun I
     optimalsigradius: 40000
@@ -2019,7 +2019,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11324
     volume: 20.0
   7413:
@@ -2030,7 +2030,7 @@ types:
     chargesize: 3
     cpu: 49.0
     damagemultiplier: 1.8975000381469727
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -2038,7 +2038,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 27600.0
+    maxrange: 24840.0
     metalevelold: 3
     name: Dual 250mm Compressed Coil Gun I
     optimalsigradius: 40000
@@ -2058,7 +2058,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11324
     volume: 20.0
   7447:
@@ -2069,7 +2069,7 @@ types:
     chargesize: 3
     cpu: 56.0
     damagemultiplier: 3.630000114440918
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -2077,7 +2077,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 57600.0
+    maxrange: 51840.0
     metalevelold: 4
     name: 425mm Prototype Gauss Gun
     optimalsigradius: 40000
@@ -2097,7 +2097,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11324
     volume: 20.0
   7449:
@@ -2108,7 +2108,7 @@ types:
     chargesize: 3
     cpu: 60.0
     damagemultiplier: 3.327500104904175
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -2116,7 +2116,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 52800.0
+    maxrange: 47520.0
     metalevelold: 2
     name: 425mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
@@ -2136,7 +2136,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11324
     volume: 20.0
   7451:
@@ -2147,7 +2147,7 @@ types:
     chargesize: 3
     cpu: 53.0
     damagemultiplier: 3.1762499809265137
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -2155,7 +2155,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 50400.0
+    maxrange: 45360.0
     metalevelold: 1
     name: 425mm Carbide Railgun I
     optimalsigradius: 40000
@@ -2175,7 +2175,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11324
     volume: 20.0
   7453:
@@ -2186,7 +2186,7 @@ types:
     chargesize: 3
     cpu: 63.0
     damagemultiplier: 3.478749990463257
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -2194,7 +2194,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 55200.0
+    maxrange: 49680.0
     metalevelold: 3
     name: 425mm Compressed Coil Gun I
     optimalsigradius: 40000
@@ -2214,7 +2214,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11324
     volume: 20.0
   7487:
@@ -3865,7 +3865,7 @@ types:
     chargesize: 2
     cpu: 33.0
     damagemultiplier: 2.5299999713897705
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -3873,7 +3873,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 18000.0
+    maxrange: 16200.0
     name: 200mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3892,7 +3892,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11324
     volume: 10.0
   12346:
@@ -3904,7 +3904,7 @@ types:
     chargesize: 2
     cpu: 37.0
     damagemultiplier: 3.0399999618530273
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -3912,7 +3912,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 21600.0
+    maxrange: 19440.0
     metalevelold: 5
     name: 200mm Railgun II
     optimalsigradius: 40000
@@ -3934,7 +3934,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 2
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11325
     volume: 10.0
   12354:
@@ -3945,7 +3945,7 @@ types:
     chargesize: 3
     cpu: 57.0
     damagemultiplier: 2.200000047683716
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -3953,7 +3953,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 36000.0
+    maxrange: 32400.0
     name: 350mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3972,7 +3972,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11324
     volume: 50.0
   12356:
@@ -3984,7 +3984,7 @@ types:
     chargesize: 3
     cpu: 63.0
     damagemultiplier: 2.640000104904175
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -3992,7 +3992,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 43200.0
+    maxrange: 38880.0
     metalevelold: 5
     name: 350mm Railgun II
     optimalsigradius: 40000
@@ -4014,7 +4014,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 2
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11325
     volume: 20.0
   13864:
@@ -4190,7 +4190,7 @@ types:
     chargesize: 2
     cpu: 37.0
     damagemultiplier: 3.1600000858306885
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -4198,7 +4198,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 18000.0
+    maxrange: 16200.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis 200mm Railgun
@@ -4219,7 +4219,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11351
     volume: 10.0
   13870:
@@ -4231,7 +4231,7 @@ types:
     chargesize: 2
     cpu: 37.0
     damagemultiplier: 3.0399999618530273
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -4239,7 +4239,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 23400.0
+    maxrange: 21060.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas 200mm Railgun
@@ -4260,7 +4260,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11335
     volume: 10.0
   13872:
@@ -4272,7 +4272,7 @@ types:
     chargesize: 2
     cpu: 42.0
     damagemultiplier: 4.349999904632568
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -4280,7 +4280,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis 250mm Railgun
@@ -4301,7 +4301,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11351
     volume: 10.0
   13873:
@@ -4313,7 +4313,7 @@ types:
     chargesize: 2
     cpu: 42.0
     damagemultiplier: 4.170000076293945
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -4321,7 +4321,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 31200.0
+    maxrange: 28080.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas 250mm Railgun
@@ -4342,7 +4342,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11335
     volume: 10.0
   13874:
@@ -4354,7 +4354,7 @@ types:
     chargesize: 3
     cpu: 63.0
     damagemultiplier: 2.75
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -4362,7 +4362,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 43200.0
+    maxrange: 38880.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis 350mm Railgun
@@ -4383,7 +4383,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11351
     volume: 20.0
   13876:
@@ -4395,7 +4395,7 @@ types:
     chargesize: 3
     cpu: 63.0
     damagemultiplier: 2.640000104904175
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -4403,7 +4403,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 46800.0
+    maxrange: 42120.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas 350mm Railgun
@@ -4424,7 +4424,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11335
     volume: 20.0
   13878:
@@ -4436,7 +4436,7 @@ types:
     chargesize: 3
     cpu: 74.0
     damagemultiplier: 3.78125
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -4444,7 +4444,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 57600.0
+    maxrange: 51840.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis 425mm Railgun
@@ -4465,7 +4465,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11351
     volume: 20.0
   13879:
@@ -4477,7 +4477,7 @@ types:
     chargesize: 3
     cpu: 74.0
     damagemultiplier: 3.630000114440918
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -4485,7 +4485,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 62400.0
+    maxrange: 56160.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas 425mm Railgun
@@ -4506,7 +4506,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11335
     volume: 20.0
   13880:
@@ -4518,7 +4518,7 @@ types:
     chargesize: 2
     cpu: 33.0
     damagemultiplier: 2.369999885559082
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -4526,7 +4526,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 14400.0
+    maxrange: 12960.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Dual 150mm Railgun
@@ -4547,7 +4547,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11351
     volume: 10.0
   13881:
@@ -4559,7 +4559,7 @@ types:
     chargesize: 2
     cpu: 33.0
     damagemultiplier: 2.2799999713897705
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -4567,7 +4567,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 15600.0
+    maxrange: 14040.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Dual 150mm Railgun
@@ -4588,7 +4588,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11335
     volume: 10.0
   13882:
@@ -4600,7 +4600,7 @@ types:
     chargesize: 3
     cpu: 58.0
     damagemultiplier: 2.0625
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -4608,7 +4608,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Dual 250mm Railgun
@@ -4629,7 +4629,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11351
     volume: 20.0
   13883:
@@ -4641,7 +4641,7 @@ types:
     chargesize: 3
     cpu: 58.0
     damagemultiplier: 1.9800000190734863
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -4649,7 +4649,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 31200.0
+    maxrange: 28080.0
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Dual 250mm Railgun
@@ -4670,7 +4670,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11335
     volume: 20.0
   13884:
@@ -5132,7 +5132,7 @@ types:
     chargesize: 2
     cpu: 26.0
     damagemultiplier: 2.6600000858306885
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -5140,7 +5140,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 18900.0
+    maxrange: 17010.0
     metalevelold: 1
     name: 200mm Carbide Railgun I
     optimalsigradius: 40000
@@ -5160,7 +5160,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11324
     volume: 10.0
   14274:
@@ -5171,7 +5171,7 @@ types:
     chargesize: 2
     cpu: 29.0
     damagemultiplier: 2.7799999713897705
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -5179,7 +5179,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 19800.0
+    maxrange: 17820.0
     metalevelold: 2
     name: 200mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
@@ -5199,7 +5199,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11324
     volume: 10.0
   14276:
@@ -5210,7 +5210,7 @@ types:
     chargesize: 2
     cpu: 31.0
     damagemultiplier: 2.9100000858306885
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -5218,7 +5218,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 20700.0
+    maxrange: 18630.0
     metalevelold: 3
     name: 200mm Compressed Coil Gun I
     optimalsigradius: 40000
@@ -5238,7 +5238,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11324
     volume: 10.0
   14278:
@@ -5249,7 +5249,7 @@ types:
     chargesize: 2
     cpu: 28.0
     damagemultiplier: 3.0399999618530273
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -5257,7 +5257,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 21600.0
+    maxrange: 19440.0
     metalevelold: 4
     name: 200mm Prototype Gauss Gun
     optimalsigradius: 40000
@@ -5277,7 +5277,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11324
     volume: 10.0
   14280:
@@ -5288,7 +5288,7 @@ types:
     chargesize: 3
     cpu: 45.0
     damagemultiplier: 2.309999942779541
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -5296,7 +5296,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 37800.0
+    maxrange: 34020.0
     metalevelold: 1
     name: 350mm Carbide Railgun I
     optimalsigradius: 40000
@@ -5316,7 +5316,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11324
     volume: 20.0
   14282:
@@ -5327,7 +5327,7 @@ types:
     chargesize: 3
     cpu: 51.0
     damagemultiplier: 2.4200000762939453
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -5335,7 +5335,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 39600.0
+    maxrange: 35640.0
     metalevelold: 2
     name: 350mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
@@ -5355,7 +5355,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11324
     volume: 20.0
   14284:
@@ -5366,7 +5366,7 @@ types:
     chargesize: 3
     cpu: 54.0
     damagemultiplier: 2.5299999713897705
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -5374,7 +5374,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 41400.0
+    maxrange: 37260.0
     metalevelold: 3
     name: 350mm Compressed Coil Gun I
     optimalsigradius: 40000
@@ -5394,7 +5394,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11324
     volume: 20.0
   14286:
@@ -5405,7 +5405,7 @@ types:
     chargesize: 3
     cpu: 48.0
     damagemultiplier: 2.640000104904175
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -5413,7 +5413,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 43200.0
+    maxrange: 38880.0
     metalevelold: 4
     name: 350mm Prototype Gauss Gun
     optimalsigradius: 40000
@@ -5433,7 +5433,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11324
     volume: 20.0
   14375:
@@ -5691,7 +5691,7 @@ types:
     chargesize: 3
     cpu: 63.0
     damagemultiplier: 3.0250000953674316
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -5699,7 +5699,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 43200.0
+    maxrange: 38880.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified 350mm Railgun
@@ -5720,7 +5720,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11322
     volume: 20.0
   14389:
@@ -5732,7 +5732,7 @@ types:
     chargesize: 3
     cpu: 63.0
     damagemultiplier: 3.299999952316284
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -5740,7 +5740,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 43200.0
+    maxrange: 38880.0
     metagroupid: 5
     metalevelold: 13
     name: Setele's Modified 350mm Railgun
@@ -5761,7 +5761,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11322
     volume: 20.0
   14391:
@@ -5773,7 +5773,7 @@ types:
     chargesize: 3
     cpu: 63.0
     damagemultiplier: 2.7720000743865967
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -5781,7 +5781,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 46800.0
+    maxrange: 42120.0
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified 350mm Railgun
@@ -5802,7 +5802,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11322
     volume: 20.0
   14393:
@@ -5814,7 +5814,7 @@ types:
     chargesize: 3
     cpu: 74.0
     damagemultiplier: 2.9040000438690186
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -5822,7 +5822,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 49140.0
+    maxrange: 44226.0
     metagroupid: 5
     metalevelold: 13
     name: Vepas' Modified 350mm Railgun
@@ -5843,7 +5843,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11322
     volume: 20.0
   14395:
@@ -5855,7 +5855,7 @@ types:
     chargesize: 3
     cpu: 77.0
     damagemultiplier: 3.0360000133514404
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -5863,7 +5863,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 51480.0
+    maxrange: 46332.0
     metagroupid: 5
     metalevelold: 14
     name: Estamel's Modified 350mm Railgun
@@ -5884,7 +5884,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11322
     volume: 20.0
   14397:
@@ -5896,7 +5896,7 @@ types:
     chargesize: 3
     cpu: 74.0
     damagemultiplier: 4.159375190734863
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -5904,7 +5904,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 57600.0
+    maxrange: 51840.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified 425mm Railgun
@@ -5925,7 +5925,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11322
     volume: 20.0
   14399:
@@ -5937,7 +5937,7 @@ types:
     chargesize: 3
     cpu: 74.0
     damagemultiplier: 4.537499904632568
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -5945,7 +5945,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 57600.0
+    maxrange: 51840.0
     metagroupid: 5
     metalevelold: 13
     name: Setele's Modified 425mm Railgun
@@ -5966,7 +5966,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11322
     volume: 20.0
   14401:
@@ -5978,7 +5978,7 @@ types:
     chargesize: 3
     cpu: 74.0
     damagemultiplier: 3.811500072479248
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -5986,7 +5986,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 62400.0
+    maxrange: 56160.0
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified 425mm Railgun
@@ -6007,7 +6007,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11322
     volume: 20.0
   14403:
@@ -6019,7 +6019,7 @@ types:
     chargesize: 3
     cpu: 86.0
     damagemultiplier: 3.993000030517578
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -6027,7 +6027,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 65520.0
+    maxrange: 58968.0
     metagroupid: 5
     metalevelold: 13
     name: Vepas' Modified 425mm Railgun
@@ -6048,7 +6048,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11322
     volume: 20.0
   14405:
@@ -6060,7 +6060,7 @@ types:
     chargesize: 3
     cpu: 91.0
     damagemultiplier: 4.174499988555908
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -6068,7 +6068,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 68640.0
+    maxrange: 61776.0
     metagroupid: 5
     metalevelold: 14
     name: Estamel's Modified 425mm Railgun
@@ -6089,7 +6089,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11322
     volume: 20.0
   14407:
@@ -6101,7 +6101,7 @@ types:
     chargesize: 3
     cpu: 58.0
     damagemultiplier: 2.268749952316284
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -6109,7 +6109,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Dual 250mm Railgun
@@ -6130,7 +6130,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11322
     volume: 20.0
   14409:
@@ -6142,7 +6142,7 @@ types:
     chargesize: 3
     cpu: 58.0
     damagemultiplier: 2.4749999046325684
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -6150,7 +6150,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metagroupid: 5
     metalevelold: 13
     name: Setele's Modified Dual 250mm Railgun
@@ -6171,7 +6171,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11322
     volume: 20.0
   14411:
@@ -6183,7 +6183,7 @@ types:
     chargesize: 3
     cpu: 58.0
     damagemultiplier: 2.0789999961853027
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -6191,7 +6191,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 31200.0
+    maxrange: 28080.0
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Dual 250mm Railgun
@@ -6212,7 +6212,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11322
     volume: 20.0
   14413:
@@ -6224,7 +6224,7 @@ types:
     chargesize: 3
     cpu: 66.0
     damagemultiplier: 2.177999973297119
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -6232,7 +6232,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 32760.0
+    maxrange: 29484.0
     metagroupid: 5
     metalevelold: 13
     name: Vepas' Modified Dual 250mm Railgun
@@ -6253,7 +6253,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11322
     volume: 20.0
   14415:
@@ -6265,7 +6265,7 @@ types:
     chargesize: 3
     cpu: 70.0
     damagemultiplier: 2.2769999504089355
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -6273,7 +6273,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 1500.0
-    maxrange: 34320.0
+    maxrange: 30888.0
     metagroupid: 5
     metalevelold: 14
     name: Estamel's Modified Dual 250mm Railgun
@@ -6294,7 +6294,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11322
     volume: 20.0
   15814:
@@ -6306,7 +6306,7 @@ types:
     chargesize: 3
     cpu: 58.0
     damagemultiplier: 1.9800000190734863
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -6314,7 +6314,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 31200.0
+    maxrange: 28080.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Dual 250mm Railgun
@@ -6335,7 +6335,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11321
     volume: 20.0
   15815:
@@ -6347,7 +6347,7 @@ types:
     chargesize: 2
     cpu: 33.0
     damagemultiplier: 2.2799999713897705
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -6355,7 +6355,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 15600.0
+    maxrange: 14040.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Dual 150mm Railgun
@@ -6376,7 +6376,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11321
     volume: 10.0
   15816:
@@ -6429,7 +6429,7 @@ types:
     chargesize: 3
     cpu: 74.0
     damagemultiplier: 3.630000114440918
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -6437,7 +6437,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 62400.0
+    maxrange: 56160.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy 425mm Railgun
@@ -6458,7 +6458,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11321
     volume: 20.0
   15818:
@@ -6470,7 +6470,7 @@ types:
     chargesize: 3
     cpu: 63.0
     damagemultiplier: 2.640000104904175
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -6478,7 +6478,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 46800.0
+    maxrange: 42120.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy 350mm Railgun
@@ -6499,7 +6499,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11321
     volume: 20.0
   15820:
@@ -6511,7 +6511,7 @@ types:
     chargesize: 2
     cpu: 42.0
     damagemultiplier: 4.170000076293945
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -6519,7 +6519,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 31200.0
+    maxrange: 28080.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy 250mm Railgun
@@ -6540,7 +6540,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11321
     volume: 10.0
   15821:
@@ -6552,7 +6552,7 @@ types:
     chargesize: 2
     cpu: 37.0
     damagemultiplier: 3.0399999618530273
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -6560,7 +6560,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 23400.0
+    maxrange: 21060.0
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy 200mm Railgun
@@ -6581,7 +6581,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11321
     volume: 10.0
   15823:
@@ -7044,7 +7044,7 @@ types:
     chargesize: 3
     cpu: 58.0
     damagemultiplier: 2.0625
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -7052,7 +7052,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Dual 250mm Railgun
@@ -7073,7 +7073,7 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 2.113100051879883
+    trackingspeed: 1.9017900228500366
     typecolorscheme: 11328
     volume: 20.0
   15835:
@@ -7085,7 +7085,7 @@ types:
     chargesize: 2
     cpu: 33.0
     damagemultiplier: 2.369999885559082
-    falloff: 6000.0
+    falloff: 5400.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.6000000238418579
     hp: 40.0
@@ -7093,7 +7093,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 14400.0
+    maxrange: 12960.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Dual 150mm Railgun
@@ -7114,7 +7114,7 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 12.0
+    trackingspeed: 10.800000190734863
     typecolorscheme: 11328
     volume: 10.0
   15836:
@@ -7167,7 +7167,7 @@ types:
     chargesize: 3
     cpu: 74.0
     damagemultiplier: 3.78125
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -7175,7 +7175,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 57600.0
+    maxrange: 51840.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 425mm Railgun
@@ -7196,7 +7196,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11328
     volume: 20.0
   15838:
@@ -7208,7 +7208,7 @@ types:
     chargesize: 3
     cpu: 63.0
     damagemultiplier: 2.75
-    falloff: 20000.0
+    falloff: 18000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.800000011920929
     hp: 40.0
@@ -7216,7 +7216,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 43200.0
+    maxrange: 38880.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 350mm Railgun
@@ -7237,7 +7237,7 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.4091999530792236
+    trackingspeed: 1.268280029296875
     typecolorscheme: 11328
     volume: 20.0
   15840:
@@ -7249,7 +7249,7 @@ types:
     chargesize: 2
     cpu: 42.0
     damagemultiplier: 4.349999904632568
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -7257,7 +7257,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 28800.0
+    maxrange: 25920.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 250mm Railgun
@@ -7278,7 +7278,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11328
     volume: 10.0
   15841:
@@ -7290,7 +7290,7 @@ types:
     chargesize: 2
     cpu: 37.0
     damagemultiplier: 3.1600000858306885
-    falloff: 10000.0
+    falloff: 9000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 0.699999988079071
     hp: 40.0
@@ -7298,7 +7298,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 18000.0
+    maxrange: 16200.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 200mm Railgun
@@ -7319,7 +7319,7 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 8.0
+    trackingspeed: 7.199999809265137
     typecolorscheme: 11328
     volume: 10.0
   15843:
@@ -7530,7 +7530,7 @@ types:
     chargesize: 2
     cpu: 32.0
     damagemultiplier: 3.799999952316284
-    falloff: 12000.0
+    falloff: 10800.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -7538,7 +7538,7 @@ types:
     maincolor: 8627698
     marketGroup: 565
     mass: 1000.0
-    maxrange: 24000.0
+    maxrange: 21600.0
     metagroupid: 3
     metalevelold: 6
     name: 250mm 'Flintlock' Railgun
@@ -7559,7 +7559,7 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 6.559999942779541
+    trackingspeed: 5.9039998054504395
     typecolorscheme: 11323
     volume: 10.0
   20591:
@@ -7571,7 +7571,7 @@ types:
     chargesize: 3
     cpu: 57.0
     damagemultiplier: 3.299999952316284
-    falloff: 24000.0
+    falloff: 21600.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 1.0
     hp: 40.0
@@ -7579,7 +7579,7 @@ types:
     maincolor: 8627698
     marketGroup: 566
     mass: 2000.0
-    maxrange: 48000.0
+    maxrange: 43200.0
     metagroupid: 3
     metalevelold: 6
     name: 425mm 'Popper' Railgun
@@ -7600,7 +7600,7 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.1621999740600586
+    trackingspeed: 1.0459799766540527
     typecolorscheme: 11323
     volume: 20.0
   22899:

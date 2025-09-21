@@ -159,7 +159,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonuscbc1: 10.0
-    shipbonuscbc2: 5
+    shipbonuscbc2: 5.0
     signatureradius: 325.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -602,7 +602,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonuscbc1: 10.0
-    shipbonuscbc2: -4
+    shipbonuscbc2: -4.0
     signatureradius: 295.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -959,7 +959,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonuscbc1: -5.0
-    shipbonuscbc2: 10
+    shipbonuscbc2: 10.0
     signatureradius: 295.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -1024,7 +1024,7 @@ types:
     name: Harbinger Navy Issue
     packagedVolume: 15000.0
     portionSize: 1
-    poweroutput: 1550
+    poweroutput: 1625
     powertospeed: 1
     price: 7.8E7
     propulsiongraphicid: 394
@@ -1289,7 +1289,7 @@ types:
     maxlockedtargets: 6
     maxpassengers: 450
     maxtargetrange: 50000.0
-    maxvelocity: 190.0
+    maxvelocity: 180.0
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Cyclone Fleet Issue
@@ -1320,7 +1320,7 @@ types:
     shielduniformity: 0.75
     shipbonusmbc1: 5.0
     shipbonusmbc2: -7.5
-    shipbonusmbc3: -5
+    shipbonusmbc3: -3
     signatureradius: 250.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -1347,7 +1347,7 @@ types:
     capacitorcapacity: 2900.0
     capacity: 475.0
     covertopsandreconopscloakmoduledelay: 30000
-    cpuoutput: 565
+    cpuoutput: 515
     dronebandwidth: 25
     dronecapacity: 25
     emdamageresonance: 0.6700000166893005
@@ -1384,7 +1384,7 @@ types:
     name: Ferox Navy Issue
     packagedVolume: 15000.0
     portionSize: 1
-    poweroutput: 1250
+    poweroutput: 1150
     powertospeed: 1
     price: 4.04E7
     propulsiongraphicid: 395
@@ -1407,9 +1407,10 @@ types:
     shieldrechargerate: 1400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonuscbc1: 7.5
-    shipbonuscbc2: 10
+    shipbonuscbc1: 5.0
+    shipbonuscbc2: 7.5
     shipbonuscbc3: -7.5
+    shipbonuscbc4: -10
     signatureradius: 325.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -1438,7 +1439,7 @@ types:
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 400
     dronebandwidth: 100
-    dronecapacity: 250
+    dronecapacity: 300
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005
@@ -1792,10 +1793,10 @@ types:
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   85086:
-    agility: 0.6000000238418579
+    agility: 0.550000011920929
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
-    armorhp: 5000.0
+    armorhp: 3500.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
@@ -1812,9 +1813,9 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 200
     gfxboosterid: 397
-    heatattenuationhi: 0.820335328578949
-    heatattenuationlow: 0.5
-    heatattenuationmed: 0.7937005162239075
+    heatattenuationhi: 0.8199999928474426
+    heatattenuationlow: 0.25
+    heatattenuationmed: 0.7900000214576721
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -1823,13 +1824,13 @@ types:
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.6499999761581421
     hislots: 8
-    hp: 6000.0
+    hp: 7500.0
     id: 85086
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
     kineticdamageresonance: 0.6700000166893005
     launcherslotsleft: 3
-    lowslots: 3
+    lowslots: 2
     maincolor: 16777215
     marketGroup: 3534
     mass: 1.3E7
@@ -1838,7 +1839,7 @@ types:
     maxlockedtargets: 6
     maxpassengers: 450
     maxtargetrange: 50000.0
-    maxvelocity: 160.0
+    maxvelocity: 170.0
     medslots: 7
     metalevelold: 8
     mintargetveldmgmultiplier: 0.25
@@ -1860,7 +1861,7 @@ types:
     rigslots: 3
     rolebonuscbc: 25.0
     rolebonuscommandburstaoerange: 50
-    scanladarstrength: 25.0
+    scanladarstrength: 15.0
     scanresolution: 220.0
     scanspeed: 5500
     shieldcapacity: 8000.0
@@ -1872,8 +1873,8 @@ types:
     shielduniformity: 0.75
     shipbonuscbc1: 7.5
     shipbonusmbc1: -5.0
-    shipbonusrole1: 100.0
-    shipbonusrole2: 100
+    shipbonusrole1: 125.0
+    shipbonusrole2: 125
     shipbonusrole7: -100.0
     signatureradius: 250.0
     stasiswebifierresistance: 1.0

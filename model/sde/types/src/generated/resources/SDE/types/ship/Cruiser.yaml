@@ -3586,7 +3586,7 @@ types:
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100
     gfxboosterid: 395
-    heatattenuationhi: 1.0
+    heatattenuationhi: 0.25
     heatattenuationlow: 0.5
     heatattenuationmed: 0.7599999904632568
     heatcapacityhi: 100
@@ -3596,7 +3596,7 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.75
-    hislots: 1
+    hislots: 2
     hp: 1200.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0

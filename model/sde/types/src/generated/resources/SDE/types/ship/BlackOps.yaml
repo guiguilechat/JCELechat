@@ -141,6 +141,7 @@ types:
     durationbonus: -50
     elitebonusblackops1: 10.0
     elitebonusblackops2: 7.5
+    elitebonusblackops3: 1
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.6700000166893005

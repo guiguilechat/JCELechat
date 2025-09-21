@@ -75,6 +75,7 @@ types:
     shielduniformity: 0.75
     shipbonus2cb: -5.0
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 10
     shipbonuscb3: 10
     shipbonusmb: 5.0
@@ -169,6 +170,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusmb2: -7.5
@@ -263,6 +265,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 15
     shipbonuscb3: 25
     shipbonusmb: 5.0
@@ -356,6 +359,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb: -5.0
     shipbonusgb2: 7.5
@@ -449,8 +453,9 @@ types:
     shieldrechargerate: 2500000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonusab: 7.5
-    shipbonusab2: 7.5
+    shipbonusab: 5.0
+    shipbonusab2: 10.0
+    shipbonusab3: -10
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusub1: 1
@@ -545,6 +550,7 @@ types:
     shielduniformity: 0.75
     shipbonusab: 10.0
     shipbonusab2: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusub1: 1
@@ -638,6 +644,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: -5.0
     shipbonusmb2: 7.5
@@ -731,6 +738,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb: 7.5
     shipbonusgb2: 10.0
@@ -828,6 +836,7 @@ types:
     shielduniformity: 0.75
     shipbonusab: -10.0
     shipbonusab2: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusub1: 1
@@ -922,6 +931,7 @@ types:
     shielduniformity: 0.75
     shipbonusab: -10.0
     shipbonusab2: -5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusub1: 1
@@ -1016,6 +1026,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb: 5.0
     shipbonusgb2: 7.5
@@ -1114,6 +1125,7 @@ types:
     shielduniformity: 0.75
     shipbonus2cb: -5.0
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: -5
     shipbonuscb3: 10
     shipbonusmb: 5.0
@@ -1208,7 +1220,8 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 7.5
-    shipbonusab2: 7.5
+    shipbonusab2: 10.0
+    shipbonusab3: -10
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusub1: 1
@@ -1274,7 +1287,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 1000
     maxtargetrange: 87000.0
-    maxvelocity: 130.0
+    maxvelocity: 135.0
     medslots: 4
     metagroupid: 4
     metalevelold: 7
@@ -1304,9 +1317,11 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb: -5.0
-    shipbonusgb2: 7.5
+    shipbonusgb2: 10.0
+    shipbonusgb3: -15.0
     shipbonusmb: 5.0
     shipbonusub1: 1
     shipbonusub2: 1
@@ -1401,6 +1416,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusmb2: -7.5
@@ -1500,6 +1516,7 @@ types:
     shipbonus2cb: 30.0
     shipbonusab: 5.0
     shipbonusab2: 7.5
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusrole7: 150.0
@@ -1597,6 +1614,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb: 7.5
     shipbonusmb: 5.0
@@ -1696,6 +1714,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb: 7.5
     shipbonusmb: 10.0
@@ -1796,6 +1815,7 @@ types:
     shielduniformity: 0.75
     shipbonus2cb: -4.0
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb2: 10.0
     shipbonusmb: 5.0
@@ -1894,6 +1914,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 15.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 20.0
     shipbonusrole7: 100.0
@@ -1989,6 +2010,7 @@ types:
     shielduniformity: 0.75
     shipbonus2cb: -4.0
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 10
     shipbonusmb: 5.0
     shipbonusub1: 1
@@ -2082,6 +2104,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb: 10.0
     shipbonusgb2: 7.5
@@ -2178,6 +2201,7 @@ types:
     shielduniformity: 0.75
     shipbonusab: -4.0
     shipbonusab2: 7.5
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusub1: 1
@@ -2229,7 +2253,7 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 0.5
-    hislots: 8
+    hislots: 7
     hp: 7700.0
     id: 24694
     kineticdamageresonance: 0.6700000166893005
@@ -2243,12 +2267,12 @@ types:
     maxpassengers: 1000
     maxtargetrange: 90000.0
     maxvelocity: 115.0
-    medslots: 6
+    medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Maelstrom
     packagedVolume: 50000.0
     portionSize: 1
-    poweroutput: 21000
+    poweroutput: 18000
     powertospeed: 1
     price: 1.539E8
     propulsiongraphicid: 397
@@ -2270,9 +2294,10 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 10.0
-    shipbonusmb2: -5.0
+    shipbonusmb2: 10.0
     shipbonusub1: 1
     shipbonusub2: 1
     signatureradius: 460.0
@@ -2280,7 +2305,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
-    turretslotsleft: 8
+    turretslotsleft: 6
     typecolorscheme: 11342
     uniformity: 1.0
     upgradecapacity: 400
@@ -2367,6 +2392,7 @@ types:
     shielduniformity: 0.75
     shipbonus2cb: -5.0
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 10
     shipbonuscb3: 10
     shipbonusmb: 5.0
@@ -2463,6 +2489,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusmb2: -5.0
@@ -2559,6 +2586,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 10.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusub1: 1
@@ -2653,6 +2681,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb: 7.5
     shipbonusgb2: 10.0
@@ -2752,6 +2781,7 @@ types:
     shielduniformity: 0.75
     shipbonus2cb: -4.0
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: -5
     shipbonusmb: 5.0
     shipbonusub1: 1
@@ -2847,6 +2877,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 7.5
     shipbonusmb2: -7.5
@@ -2947,6 +2978,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: -4.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusgb2: 10.0
     shipbonusmb: 5.0
@@ -3049,6 +3081,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 10
     shipbonusgb: 10.0
     shipbonusmb: 5.0
@@ -3143,6 +3176,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonuspbs1: -5.0
@@ -3239,6 +3273,7 @@ types:
     shieldthermaldamageresonance: 0.7250000238418579
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusrole7: 25.0
@@ -3333,6 +3368,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 5.0
+    shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusub1: 5

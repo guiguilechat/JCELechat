@@ -32375,6 +32375,19 @@ id2group:
   89512: skins/PermanentSKIN
   89513: skins/PermanentSKIN
   89514: skins/PermanentSKIN
+  89653: skins/PermanentSKIN
+  89654: skins/PermanentSKIN
+  89655: skins/PermanentSKIN
+  89656: skins/PermanentSKIN
+  89657: skins/PermanentSKIN
+  89658: skins/PermanentSKIN
+  89659: skins/PermanentSKIN
+  89660: skins/PermanentSKIN
+  89661: skins/PermanentSKIN
+  89662: skins/PermanentSKIN
+  89663: skins/PermanentSKIN
+  89664: skins/PermanentSKIN
+  89665: skins/PermanentSKIN
   89668: skins/PermanentSKIN
   89669: skins/PermanentSKIN
   89670: skins/PermanentSKIN
@@ -32382,6 +32395,43 @@ id2group:
   89672: skins/PermanentSKIN
   89673: skins/PermanentSKIN
   89674: skins/PermanentSKIN
+  89687: personalization/ShipSKINDesignElement
+  89688: personalization/ShipSKINDesignElement
+  89689: skill/Armor
+  89690: personalization/ShipSKINDesignElement
+  89691: personalization/ShipSKINDesignElement
+  89692: personalization/ShipSKINDesignElement
+  89693: personalization/ShipSKINDesignElement
+  89694: personalization/ShipSKINDesignElement
+  89695: personalization/ShipSKINDesignElement
+  89696: personalization/ShipSKINDesignElement
+  89697: personalization/ShipSKINDesignElement
+  89698: personalization/ShipSKINDesignElement
+  89699: personalization/ShipSKINDesignElement
+  89701: personalization/ShipSKINDesignElement
+  89702: personalization/ShipSKINDesignElement
+  89703: personalization/ShipSKINDesignElement
+  89704: personalization/ShipSKINDesignElement
+  89705: personalization/ShipSKINDesignElement
+  89706: personalization/ShipSKINDesignElement
+  89707: personalization/ShipSKINDesignElement
+  89708: personalization/ShipSKINDesignElement
+  89709: personalization/ShipSKINDesignElement
+  89710: personalization/ShipSKINDesignElement
+  89711: skins/PermanentSKIN
+  89712: skins/PermanentSKIN
+  89782: entity/VanguardEntities
+  89784: commodity/Miscellaneous
+  89956: accessories/Services
+  90120: skins/PermanentSKIN
+  90121: skins/PermanentSKIN
+  90122: skins/PermanentSKIN
+  90123: skins/PermanentSKIN
+  90124: skins/PermanentSKIN
+  90125: skins/PermanentSKIN
+  90126: skins/PermanentSKIN
+  90140: personalization/ShipSKINDesignElement
+  90141: personalization/ShipSKINDesignElement
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

@@ -43961,6 +43961,110 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  89653:
+    id: 89653
+    marketGroup: 2004
+    name: Incursus Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89654:
+    id: 89654
+    marketGroup: 1992
+    name: Vexor Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89655:
+    id: 89655
+    marketGroup: 2049
+    name: Ishkur Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89656:
+    id: 89656
+    marketGroup: 2049
+    name: Enyo Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89657:
+    id: 89657
+    marketGroup: 2071
+    name: Ishtar Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89658:
+    id: 89658
+    marketGroup: 1959
+    name: Hurricane Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89659:
+    id: 89659
+    marketGroup: 1993
+    name: Stabber Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89660:
+    id: 89660
+    marketGroup: 2107
+    name: Sleipnir Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89661:
+    id: 89661
+    marketGroup: 2072
+    name: Vagabond Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89662:
+    id: 89662
+    marketGroup: 1993
+    name: Bellicose Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89663:
+    id: 89663
+    marketGroup: 2084
+    name: Huginn Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89664:
+    id: 89664
+    marketGroup: 2084
+    name: Rapier Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89665:
+    id: 89665
+    marketGroup: 2030
+    name: Gila Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   89668:
     id: 89668
     marketGroup: 2000
@@ -44013,6 +44117,78 @@ types:
     id: 89674
     marketGroup: 3495
     name: Revelation Navy Issue Khanid Cyber Knight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89711:
+    id: 89711
+    marketGroup: 2069
+    name: Zealot Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  89712:
+    id: 89712
+    marketGroup: 1990
+    name: Omen Arkombine Arisen SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  90120:
+    id: 90120
+    marketGroup: 2003
+    name: Heron Cold Wind's Call SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  90121:
+    id: 90121
+    marketGroup: 2052
+    name: Buzzard Cold Wind's Call SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  90122:
+    id: 90122
+    marketGroup: 2143
+    name: Stork Cold Wind's Call SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  90123:
+    id: 90123
+    marketGroup: 2063
+    name: Caracal Navy Issue Cold Wind's Call SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  90124:
+    id: 90124
+    marketGroup: 2103
+    name: Ferox Navy Issue Cold Wind's Call SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  90125:
+    id: 90125
+    marketGroup: 1965
+    name: Rokh Cold Wind's Call SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  90126:
+    id: 90126
+    marketGroup: 3495
+    name: Phoenix Navy Issue Cold Wind's Call SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

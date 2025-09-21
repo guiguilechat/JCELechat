@@ -283,8 +283,8 @@ public class AttackBattlecruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonuscbc2;
+    @DefaultRealValue(0.0)
+    public double shipbonuscbc2;
     /**
      * 
      */

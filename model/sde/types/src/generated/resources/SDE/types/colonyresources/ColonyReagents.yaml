@@ -4,11 +4,11 @@ types:
     marketGroup: 3596
     mass: 3000.0
     name: Magmatic Gas
-    packagedVolume: 0.10000000149011612
+    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.009999999776482582
   81144:
     id: 81144
     marketGroup: 3596

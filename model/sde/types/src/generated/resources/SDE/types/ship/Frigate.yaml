@@ -4222,7 +4222,7 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 1.0
-    hislots: 1
+    hislots: 2
     hp: 320.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -4293,7 +4293,7 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
-    capacitorcapacity: 235.0
+    capacitorcapacity: 280.0
     capacitorneedmultiplier: 0.4000000059604645
     capacity: 400.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -4345,7 +4345,7 @@ types:
     propulsiongraphicid: 397
     published: true
     radius: 19.950000762939453
-    rechargerate: 130000.0
+    rechargerate: 140000.0
     requiredskill1: 3329
     requiredskill1level: 2
     rigsize: 1
@@ -4389,7 +4389,7 @@ types:
     armorthermaldamageresonance: 0.550000011920929
     armoruniformity: 0.75
     basewarpspeed: 1
-    capacitorcapacity: 245.0
+    capacitorcapacity: 300.0
     capacitorneedmultiplier: 0.4000000059604645
     capacity: 400.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -4441,7 +4441,7 @@ types:
     propulsiongraphicid: 395
     published: true
     radius: 35.0
-    rechargerate: 135000.0
+    rechargerate: 150000.0
     requiredskill1: 3330
     requiredskill1level: 2
     rigsize: 1
@@ -4485,7 +4485,7 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
-    capacitorcapacity: 325.0
+    capacitorcapacity: 500.0
     capacitorneedmultiplier: 0.4000000059604645
     capacity: 400.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -4536,7 +4536,7 @@ types:
     propulsiongraphicid: 394
     published: true
     radius: 32.0
-    rechargerate: 180000.0
+    rechargerate: 250000.0
     requiredskill1: 3331
     requiredskill1level: 2
     rigsize: 1
@@ -4580,7 +4580,7 @@ types:
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
-    capacitorcapacity: 270.0
+    capacitorcapacity: 400.0
     capacitorneedmultiplier: 0.4000000059604645
     capacity: 400.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -4633,7 +4633,7 @@ types:
     propulsiongraphicid: 394
     published: true
     radius: 33.0
-    rechargerate: 150000.0
+    rechargerate: 200000.0
     requiredskill1: 3328
     requiredskill1level: 2
     rigsize: 1

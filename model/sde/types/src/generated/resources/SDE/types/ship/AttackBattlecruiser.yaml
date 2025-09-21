@@ -156,7 +156,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonuscbc1: 10.0
-    shipbonuscbc2: 5
+    shipbonuscbc2: 5.0
     signatureradius: 215.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -216,7 +216,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 450
     maxtargetrange: 70000.0
-    maxvelocity: 220.0
+    maxvelocity: 235.0
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Talos
@@ -260,7 +260,7 @@ types:
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   4310:
-    agility: 0.4749999940395355
+    agility: 0.5400000214576721
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 1800.0
@@ -302,7 +302,7 @@ types:
     maxlockedtargets: 6
     maxpassengers: 450
     maxtargetrange: 60000.0
-    maxvelocity: 225.0
+    maxvelocity: 250.0
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Tornado
@@ -330,7 +330,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusmbc1: -5.0
-    shipbonusmbc2: 5.0
+    shipbonusmbc2: 7.5
     signatureradius: 195.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0

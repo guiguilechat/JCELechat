@@ -39,7 +39,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 450
     maxtargetrange: 45000.0
-    maxvelocity: 230.0
+    maxvelocity: 250.0
     medslots: 3
     metalevelold: 5
     mintargetveldmgmultiplier: 0.25
@@ -69,7 +69,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusrole7: 33.0
-    shipbonustacticaldestroyeramarr1: 5
+    shipbonustacticaldestroyeramarr1: 7.5
     shipbonustacticaldestroyeramarr2: -10
     shipbonustacticaldestroyeramarr3: -5
     signatureradius: 65.0
@@ -128,7 +128,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 450
     maxtargetrange: 40000.0
-    maxvelocity: 220.0
+    maxvelocity: 240.0
     medslots: 4
     metalevelold: 5
     mintargetveldmgmultiplier: 0.25
@@ -158,7 +158,7 @@ types:
     shieldthermaldamageresonance: 0.6000000238418579
     shielduniformity: 0.75
     shipbonusrole7: 33.0
-    shipbonustacticaldestroyerminmatar1: 5
+    shipbonustacticaldestroyerminmatar1: 7.5
     shipbonustacticaldestroyerminmatar2: 10
     shipbonustacticaldestroyerminmatar3: -5
     signatureradius: 60.0

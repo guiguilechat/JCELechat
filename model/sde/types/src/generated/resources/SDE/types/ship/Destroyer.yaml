@@ -1300,6 +1300,7 @@ types:
     shielduniformity: 0.75
     shipbonusgd1: 7.5
     shipbonusmd1: 10
+    shipbonusrole6: 50.0
     shipbonusrole7: 100.0
     shiprolebonuswarpspeed: 25
     signatureradius: 50.400001525878906
@@ -1360,7 +1361,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 450
     maxtargetrange: 45000.0
-    maxvelocity: 245.0
+    maxvelocity: 255.0
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Mamba
@@ -1391,6 +1392,7 @@ types:
     shielduniformity: 0.75
     shipbonuscd2: -4
     shipbonusgd1: 10.0
+    shipbonusrole6: 25.0
     shipbonusrole7: 300.0
     signatureradius: 73.0
     stasiswebifierresistance: 1.0
@@ -1471,7 +1473,7 @@ types:
     requiredskill2level: 2
     rigsize: 1
     rigslots: 3
-    scanladarstrength: 16.0
+    scanladarstrength: 8.0
     scanresolution: 550.0
     scanspeed: 5000
     shieldcapacity: 1500.0

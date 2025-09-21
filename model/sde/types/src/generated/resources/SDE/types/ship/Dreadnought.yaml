@@ -168,7 +168,7 @@ types:
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
     kineticdamageresonance: 0.6700000166893005
-    lowslots: 6
+    lowslots: 5
     maincolor: 16777215
     marketGroup: 765
     mass: 1.26E9
@@ -179,7 +179,7 @@ types:
     maxpassengers: 999
     maxtargetrange: 92500.0
     maxvelocity: 80.0
-    medslots: 6
+    medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Naglfar
     packagedVolume: 1300000.0
@@ -984,8 +984,8 @@ types:
     hasfleethangars: 1
     hasshipmaintenancebay: 1
     heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationlow: 0.7099999785423279
+    heatattenuationmed: 0.7900000214576721
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
@@ -1006,7 +1006,7 @@ types:
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
     kineticdamageresonance: 0.6700000166893005
-    lowslots: 6
+    lowslots: 5
     maincolor: 16777215
     marketGroup: 3484
     mass: 1.26E9
@@ -1017,7 +1017,7 @@ types:
     maxpassengers: 999
     maxtargetrange: 95500.0
     maxvelocity: 80.0
-    medslots: 6
+    medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Naglfar Fleet Issue
     packagedVolume: 1300000.0

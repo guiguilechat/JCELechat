@@ -125,6 +125,7 @@ types:
   3400:
     cannotbetrainedontrial: 1
     id: 3400
+    manufacturetimeperlevel: -1
     marketGroup: 369
     name: Outpost Construction
     packagedVolume: 0.009999999776482582

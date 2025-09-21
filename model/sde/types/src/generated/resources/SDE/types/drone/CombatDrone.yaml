@@ -1676,7 +1676,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1741,7 +1741,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1806,7 +1806,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1872,7 +1872,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1940,7 +1940,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 2
@@ -2008,7 +2008,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 2
@@ -2077,7 +2077,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 2
@@ -2145,7 +2145,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 2
@@ -4028,7 +4028,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 1
@@ -4367,7 +4367,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 1
@@ -4638,7 +4638,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 1
@@ -4910,7 +4910,7 @@ types:
     shieldrechargerate: 400000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    signatureradius: 100.0
+    signatureradius: 300.0
     speed: 4000.0
     structureuniformity: 1.0
     techlevel: 1
@@ -5293,7 +5293,7 @@ types:
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
-    signatureradius: 100.0
+    signatureradius: 300.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0

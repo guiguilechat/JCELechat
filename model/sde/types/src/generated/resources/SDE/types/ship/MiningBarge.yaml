@@ -166,6 +166,8 @@ types:
     rechargerate: 187500.0
     requiredskill1: 17940
     requiredskill1level: 1
+    requiredskill2: 3410
+    requiredskill2level: 3
     rigsize: 2
     rigslots: 3
     scanmagnetometricstrength: 9.0

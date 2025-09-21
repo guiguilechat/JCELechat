@@ -290,12 +290,13 @@ types:
     volume: 4000.0
   33400:
     activationblockedstrenght: 1
-    armordamageamountbonus: 100
+    armordamageamountbonus: 60
     armoremdamageresonance: 0.699999988079071
     armorexplosivedamageresonance: 0.699999988079071
     armorkineticdamageresonance: 0.699999988079071
     armorthermaldamageresonance: 0.699999988079071
     bastionmissilerofbonus: -50
+    bastionmodearmorrepairandshieldboostercapdurationbonus: -20
     bastionturretrofbonus: -50
     canfitshipgroup01: 900
     cpu: 10.0
@@ -336,7 +337,7 @@ types:
     scanladarstrengthpercent: 100
     scanmagnetometricstrengthpercent: 100
     scanradarstrengthpercent: 100
-    shieldboostmultiplier: 100.0
+    shieldboostmultiplier: 60.0
     shieldemdamageresonance: 0.699999988079071
     shieldexplosivedamageresonance: 0.699999988079071
     shieldkineticdamageresonance: 0.699999988079071

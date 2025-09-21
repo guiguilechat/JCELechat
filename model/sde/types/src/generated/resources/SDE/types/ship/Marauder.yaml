@@ -67,7 +67,6 @@ types:
     requiredskill2level: 1
     rigsize: 3
     rigslots: 2
-    rolebonusmarauder: -70
     scanradarstrength: 21.0
     scanresolution: 160.0
     scanspeed: 7500
@@ -164,7 +163,6 @@ types:
     requiredskill2level: 1
     rigsize: 3
     rigslots: 2
-    rolebonusmarauder: -70
     scanmagnetometricstrength: 22.0
     scanresolution: 160.0
     scanspeed: 8250
@@ -262,7 +260,6 @@ types:
     requiredskill2level: 1
     rigsize: 3
     rigslots: 2
-    rolebonusmarauder: -70
     scanladarstrength: 20.0
     scanresolution: 180.0
     scanspeed: 6750
@@ -275,7 +272,7 @@ types:
     shielduniformity: 0.75
     shipbonusab: 5.0
     shipbonuscb: 5
-    shipbonusmb: 7.5
+    shipbonusmb: 5.0
     shipbonusmb2: 7.5
     signatureradius: 360.0
     stasiswebifierresistance: 1.0
@@ -360,7 +357,6 @@ types:
     requiredskill2level: 1
     rigsize: 3
     rigslots: 2
-    rolebonusmarauder: -70
     scangravimetricstrength: 23.0
     scanresolution: 140.0
     scanspeed: 9000
@@ -456,7 +452,6 @@ types:
     requiredskill2level: 1
     rigsize: 3
     rigslots: 2
-    rolebonusmarauder: -70
     scanradarstrength: 29.0
     scanresolution: 130.0
     scanspeed: 7500

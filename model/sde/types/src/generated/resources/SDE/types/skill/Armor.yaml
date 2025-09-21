@@ -224,3 +224,23 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
+  89689:
+    cannotbetrainedontrial: 1
+    id: 89689
+    marketGroup: 1745
+    masspenaltyreduction: -2
+    name: Advanced Armor Layering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3392
+    requiredskill1level: 5
+    requiredskill2: 33078
+    requiredskill2level: 4
+    requiredskill3: 3394
+    requiredskill3level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582

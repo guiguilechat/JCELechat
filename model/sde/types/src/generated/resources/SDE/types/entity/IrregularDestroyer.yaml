@@ -4024,13 +4024,13 @@ types:
     volume: 28600.0
     warpspeedmultiplier: 3.0
   84633:
-    agility: 2.4000000953674316
+    agility: 0.20000000298023224
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6524999737739563
-    armorexplosivedamageresonance: 0.6524999737739563
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.699999988079071
     armorhp: 4200.0
-    armorkineticdamageresonance: 0.6524999737739563
-    armorthermaldamageresonance: 0.6524999737739563
+    armorkineticdamageresonance: 0.699999988079071
+    armorthermaldamageresonance: 0.699999988079071
     behaviorenergyneutralizerdischarge: 40.0
     behaviorenergyneutralizerduration: 6000
     behaviorenergyneutralizerfalloff: 4000.0
@@ -4048,6 +4048,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 450.0
     entityequipmentgroupmax: 1
     entityfactionloss: 0.15000000596046448
     entityflyrange: 500.0
@@ -4059,18 +4060,18 @@ types:
     entityshieldboostduration: 10000
     explosivedamage: 20.0
     explosivedamageresonance: 1.0
-    falloff: 5000.0
+    falloff: 20000.0
     gfxboosterid: 397
     gfxturretid: 4044
     hp: 800.0
     id: 84633
     kineticdamage: 20.0
     kineticdamageresonance: 1.0
-    mass: 1700000.0
+    mass: 1800000.0
     maxlockedtargets: 6
-    maxrange: 20000.0
-    maxtargetrange: 50000.0
-    maxvelocity: 850.0
+    maxrange: 30000.0
+    maxtargetrange: 100000.0
+    maxvelocity: 1350.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -4096,23 +4097,23 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
-    signatureradius: 80.0
+    signatureradius: 120.0
     speed: 2200.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 20.0
     thermaldamageresonance: 1.0
-    trackingspeed: 169.0
+    trackingspeed: 400.0
     volume: 28600.0
     warpspeedmultiplier: 3.0
   84634:
-    agility: 1.7999999523162842
+    agility: 0.20000000298023224
     aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6524999737739563
-    armorexplosivedamageresonance: 0.6524999737739563
+    armoremdamageresonance: 0.699999988079071
+    armorexplosivedamageresonance: 0.699999988079071
     armorhp: 3800.0
-    armorkineticdamageresonance: 0.6524999737739563
-    armorthermaldamageresonance: 0.6524999737739563
+    armorkineticdamageresonance: 0.699999988079071
+    armorthermaldamageresonance: 0.699999988079071
     capacitorcapacity: 875.0
     capacity: 235.0
     damagemultiplier: 4.699999809265137
@@ -4125,6 +4126,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 500.0
     entityequipmentgroupmax: 1
     entityfactionloss: 0.15000000596046448
     entityflyrange: 500.0
@@ -4136,18 +4138,18 @@ types:
     entityshieldboostduration: 10000
     explosivedamage: 20.0
     explosivedamageresonance: 1.0
-    falloff: 5000.0
+    falloff: 20000.0
     gfxboosterid: 397
     gfxturretid: 4044
     hp: 700.0
     id: 84634
     kineticdamage: 20.0
     kineticdamageresonance: 1.0
-    mass: 2860000.0
+    mass: 1800000.0
     maxlockedtargets: 5
-    maxrange: 20000.0
-    maxtargetrange: 35000.0
-    maxvelocity: 950.0
+    maxrange: 30000.0
+    maxtargetrange: 100000.0
+    maxvelocity: 1500.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -4173,13 +4175,13 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
-    signatureradius: 70.0
+    signatureradius: 120.0
     speed: 1900.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 20.0
     thermaldamageresonance: 1.0
-    trackingspeed: 169.0
+    trackingspeed: 400.0
     volume: 28600.0
     warpspeedmultiplier: 3.0
   86421:

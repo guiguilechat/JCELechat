@@ -268,7 +268,7 @@ types:
     shieldthermaldamageresonance: 0.20000000298023224
     shielduniformity: 0.75
     shipbonuscbc1: 10.0
-    shipbonuscbc2: -4
+    shipbonuscbc2: -4.0
     signatureradius: 285.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -644,7 +644,7 @@ types:
     shieldthermaldamageresonance: 0.20000000298023224
     shielduniformity: 0.75
     shipbonuscbc1: 10.0
-    shipbonuscbc2: -4
+    shipbonuscbc2: -4.0
     signatureradius: 285.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0

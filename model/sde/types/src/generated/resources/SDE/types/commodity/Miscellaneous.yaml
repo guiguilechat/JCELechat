@@ -9537,3 +9537,18 @@ types:
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
+  89784:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 89784
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    mass: 0.10000000149011612
+    name: Sealed Projects Container
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.10000000149011612

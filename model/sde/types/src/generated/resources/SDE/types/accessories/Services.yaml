@@ -23,3 +23,10 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  89956:
+    id: 89956
+    name: Pilot's Body Resculpt Certificate (Untradeable)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582

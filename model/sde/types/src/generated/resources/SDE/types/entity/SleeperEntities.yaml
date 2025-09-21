@@ -24,7 +24,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 12.600000381469727
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 40.0
     energyneutralizeramount: 180.0
@@ -126,7 +125,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 28.100000381469727
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 40.0
     energyneutralizeramount: 120.0
@@ -231,7 +229,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 4.5
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 40.0
     energyneutralizeramount: 7.0
@@ -332,7 +329,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 12.5
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 20.0
     energyneutralizeramount: 75.0
@@ -433,7 +429,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 27.5
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 20.0
     energyneutralizeramount: 50.0
@@ -537,7 +532,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 5.0
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 20.0
     energyneutralizeramount: 7.0
@@ -640,7 +634,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 13.0
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 10.0
     energyneutralizeramount: 30.0
@@ -740,7 +733,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 29.5
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 10.0
     energyneutralizeramount: 7.0
@@ -844,7 +836,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 4.800000190734863
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 10.0
     energyneutralizeramount: 7.0
@@ -944,7 +935,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 11.600000381469727
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 40.0
     energyneutralizeramount: 144.0
@@ -1044,7 +1034,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 26.299999237060547
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 40.0
     energyneutralizeramount: 96.0
@@ -1147,7 +1136,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 4.199999809265137
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 40.0
     energyneutralizeramount: 7.0
@@ -1246,7 +1234,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 11.699999809265137
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 20.0
     energyneutralizeramount: 60.0
@@ -1345,7 +1332,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 26.0
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 20.0
     energyneutralizeramount: 40.0
@@ -1447,7 +1433,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 4.699999809265137
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 20.0
     energyneutralizeramount: 7.0
@@ -1548,7 +1533,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 12.5
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 10.0
     energyneutralizeramount: 24.0
@@ -1648,7 +1632,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 27.5
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 10.0
     energyneutralizeramount: 7.0
@@ -1752,7 +1735,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 4.5
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 10.0
     energyneutralizeramount: 7.0
@@ -1852,7 +1834,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 11.0
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 40.0
     energyneutralizeramount: 115.0
@@ -1952,7 +1933,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 24.299999237060547
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 40.0
     energyneutralizeramount: 77.0
@@ -2055,7 +2035,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 3.9000000953674316
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 40.0
     energyneutralizeramount: 7.0
@@ -2154,7 +2133,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 11.300000190734863
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 20.0
     energyneutralizeramount: 48.0
@@ -2253,7 +2231,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 24.799999237060547
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 20.0
     energyneutralizeramount: 32.0
@@ -2355,7 +2332,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 4.599999904632568
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 20.0
     energyneutralizeramount: 7.0
@@ -2456,7 +2432,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 11.5
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 10.0
     energyneutralizeramount: 19.0
@@ -2556,7 +2531,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 25.5
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 10.0
     energyneutralizeramount: 7.0
@@ -2660,7 +2634,6 @@ types:
     capacity: 120.0
     damagedelayduration: 3000
     damagemultiplier: 4.0
-    disallowassistance: 1
     effectdeactivationdelay: 5000
     emdamage: 10.0
     energyneutralizeramount: 7.0

@@ -1,6 +1,6 @@
 types:
   25736:
-    drawback: -10
+    drawback: 10
     emdamageresistancebonus: -30.0
     hp: 40.0
     id: 25736
@@ -16,7 +16,7 @@ types:
     upgradecost: 50
     volume: 20.0
   25888:
-    drawback: -10
+    drawback: 10
     explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 25888
@@ -32,7 +32,7 @@ types:
     upgradecost: 50
     volume: 20.0
   25890:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 25890
     kineticdamageresistancebonus: -30.0
@@ -48,7 +48,7 @@ types:
     upgradecost: 50
     volume: 20.0
   25892:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 25892
     marketGroup: 1208
@@ -65,7 +65,7 @@ types:
     volume: 20.0
   25894:
     armorhpbonus: 15
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 25894
     marketGroup: 1208
@@ -113,7 +113,7 @@ types:
     volume: 20.0
   25900:
     capneedbonus: -20
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 25900
     marketGroup: 1208
@@ -128,7 +128,7 @@ types:
     upgradecost: 50
     volume: 20.0
   26286:
-    drawback: -10
+    drawback: 10
     emdamageresistancebonus: -35.0
     hp: 40.0
     id: 26286
@@ -145,7 +145,7 @@ types:
     upgradecost: 75
     volume: 20.0
   26288:
-    drawback: -10
+    drawback: 10
     explosivedamageresistancebonus: -35.0
     hp: 40.0
     id: 26288
@@ -162,7 +162,7 @@ types:
     upgradecost: 75
     volume: 20.0
   26290:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 26290
     kineticdamageresistancebonus: -35.0
@@ -179,7 +179,7 @@ types:
     upgradecost: 75
     volume: 20.0
   26292:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 26292
     marketGroup: 1208
@@ -231,7 +231,7 @@ types:
     volume: 20.0
   26298:
     capneedbonus: -25
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 26298
     marketGroup: 1208
@@ -248,7 +248,7 @@ types:
     volume: 20.0
   26302:
     armorhpbonus: 20
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 26302
     marketGroup: 1208
@@ -298,7 +298,7 @@ types:
     volume: 40.0
   27068:
     capneedbonus: -20
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 27068
     marketGroup: 1206
@@ -314,7 +314,7 @@ types:
     volume: 5.0
   30987:
     armorhpbonus: 15
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 30987
     marketGroup: 1206
@@ -330,7 +330,7 @@ types:
     volume: 5.0
   30993:
     armorhpbonus: 15
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 30993
     marketGroup: 1730
@@ -345,7 +345,7 @@ types:
     upgradecost: 50
     volume: 40.0
   30997:
-    drawback: -10
+    drawback: 10
     emdamageresistancebonus: -30.0
     hp: 40.0
     id: 30997
@@ -361,7 +361,7 @@ types:
     upgradecost: 50
     volume: 5.0
   30999:
-    drawback: -10
+    drawback: 10
     emdamageresistancebonus: -30.0
     hp: 40.0
     id: 30999
@@ -377,7 +377,7 @@ types:
     upgradecost: 50
     volume: 10.0
   31001:
-    drawback: -10
+    drawback: 10
     emdamageresistancebonus: -30.0
     hp: 40.0
     id: 31001
@@ -393,7 +393,7 @@ types:
     upgradecost: 50
     volume: 40.0
   31003:
-    drawback: -10
+    drawback: 10
     emdamageresistancebonus: -35.0
     hp: 40.0
     id: 31003
@@ -410,7 +410,7 @@ types:
     upgradecost: 75
     volume: 5.0
   31005:
-    drawback: -10
+    drawback: 10
     emdamageresistancebonus: -35.0
     hp: 40.0
     id: 31005
@@ -427,7 +427,7 @@ types:
     upgradecost: 75
     volume: 10.0
   31007:
-    drawback: -10
+    drawback: 10
     emdamageresistancebonus: -35.0
     hp: 40.0
     id: 31007
@@ -444,7 +444,7 @@ types:
     upgradecost: 75
     volume: 40.0
   31009:
-    drawback: -10
+    drawback: 10
     explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 31009
@@ -460,7 +460,7 @@ types:
     upgradecost: 50
     volume: 5.0
   31011:
-    drawback: -10
+    drawback: 10
     explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 31011
@@ -476,7 +476,7 @@ types:
     upgradecost: 50
     volume: 10.0
   31013:
-    drawback: -10
+    drawback: 10
     explosivedamageresistancebonus: -30.0
     hp: 40.0
     id: 31013
@@ -492,7 +492,7 @@ types:
     upgradecost: 50
     volume: 40.0
   31015:
-    drawback: -10
+    drawback: 10
     explosivedamageresistancebonus: -35.0
     hp: 40.0
     id: 31015
@@ -509,7 +509,7 @@ types:
     upgradecost: 75
     volume: 5.0
   31017:
-    drawback: -10
+    drawback: 10
     explosivedamageresistancebonus: -35.0
     hp: 40.0
     id: 31017
@@ -526,7 +526,7 @@ types:
     upgradecost: 75
     volume: 10.0
   31019:
-    drawback: -10
+    drawback: 10
     explosivedamageresistancebonus: -35.0
     hp: 40.0
     id: 31019
@@ -543,7 +543,7 @@ types:
     upgradecost: 75
     volume: 40.0
   31021:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31021
     kineticdamageresistancebonus: -30.0
@@ -559,7 +559,7 @@ types:
     upgradecost: 50
     volume: 5.0
   31023:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31023
     kineticdamageresistancebonus: -30.0
@@ -575,7 +575,7 @@ types:
     upgradecost: 50
     volume: 10.0
   31025:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31025
     kineticdamageresistancebonus: -30.0
@@ -591,7 +591,7 @@ types:
     upgradecost: 50
     volume: 40.0
   31027:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31027
     kineticdamageresistancebonus: -35.0
@@ -608,7 +608,7 @@ types:
     upgradecost: 75
     volume: 5.0
   31029:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31029
     kineticdamageresistancebonus: -35.0
@@ -625,7 +625,7 @@ types:
     upgradecost: 75
     volume: 10.0
   31031:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31031
     kineticdamageresistancebonus: -35.0
@@ -642,7 +642,7 @@ types:
     upgradecost: 75
     volume: 40.0
   31033:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31033
     marketGroup: 1206
@@ -658,7 +658,7 @@ types:
     upgradecost: 50
     volume: 5.0
   31035:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31035
     marketGroup: 1207
@@ -674,7 +674,7 @@ types:
     upgradecost: 50
     volume: 10.0
   31037:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31037
     marketGroup: 1730
@@ -690,7 +690,7 @@ types:
     upgradecost: 50
     volume: 40.0
   31039:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31039
     marketGroup: 1206
@@ -707,7 +707,7 @@ types:
     upgradecost: 75
     volume: 5.0
   31041:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31041
     marketGroup: 1207
@@ -724,7 +724,7 @@ types:
     upgradecost: 75
     volume: 10.0
   31043:
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31043
     marketGroup: 1730
@@ -825,7 +825,7 @@ types:
     volume: 10.0
   31055:
     armorhpbonus: 15
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31055
     marketGroup: 1207
@@ -841,7 +841,7 @@ types:
     volume: 10.0
   31057:
     armorhpbonus: 20
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31057
     marketGroup: 1206
@@ -858,7 +858,7 @@ types:
     volume: 5.0
   31059:
     armorhpbonus: 20
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31059
     marketGroup: 1207
@@ -875,7 +875,7 @@ types:
     volume: 10.0
   31061:
     armorhpbonus: 20
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31061
     marketGroup: 1730
@@ -974,7 +974,7 @@ types:
     volume: 10.0
   31073:
     capneedbonus: -20
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31073
     marketGroup: 1207
@@ -990,7 +990,7 @@ types:
     volume: 10.0
   31075:
     capneedbonus: -20
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31075
     marketGroup: 1730
@@ -1006,7 +1006,7 @@ types:
     volume: 40.0
   31077:
     capneedbonus: -25
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31077
     marketGroup: 1206
@@ -1023,7 +1023,7 @@ types:
     volume: 5.0
   31079:
     capneedbonus: -25
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31079
     marketGroup: 1207
@@ -1040,7 +1040,7 @@ types:
     volume: 10.0
   31081:
     capneedbonus: -25
-    drawback: -10
+    drawback: 10
     hp: 40.0
     id: 31081
     marketGroup: 1730

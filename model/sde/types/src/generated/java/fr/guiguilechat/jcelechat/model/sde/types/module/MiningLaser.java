@@ -34,6 +34,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Slots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme;
@@ -165,6 +169,34 @@ public class MiningLaser
     @DefaultIntValue(0)
     public int requiredskill2level;
     /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill3;
+    /**
+     * Required skill level for skill 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill3level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill4;
+    /**
+     * Required skill level for skill 4
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int requiredskill4level;
+    /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
      */
     @HighIsGood(true)
@@ -178,7 +210,7 @@ public class MiningLaser
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DamageCloudChance.INSTANCE, MiningAmount.INSTANCE, Slots.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, MiningWasteProbability.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RequiredSkill4 .INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill4Level.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DamageCloudChance.INSTANCE, MiningAmount.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, MiningWasteProbability.INSTANCE, CanFitShipGroup01 .INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final MiningLaser.MetaGroup METAGROUP = new MiningLaser.MetaGroup();
 
     @Override
@@ -247,6 +279,22 @@ public class MiningLaser
             case  278 :
             {
                 return requiredskill2level;
+            }
+            case  184 :
+            {
+                return requiredskill3;
+            }
+            case  279 :
+            {
+                return requiredskill3level;
+            }
+            case  1285 :
+            {
+                return requiredskill4;
+            }
+            case  1286 :
+            {
+                return requiredskill4level;
             }
             case  47 :
             {

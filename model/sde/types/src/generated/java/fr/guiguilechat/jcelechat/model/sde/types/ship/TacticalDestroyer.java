@@ -267,8 +267,8 @@ public class TacticalDestroyer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonustacticaldestroyeramarr1;
+    @DefaultRealValue(0.0)
+    public double shipbonustacticaldestroyeramarr1;
     /**
      * 
      */
@@ -330,8 +330,8 @@ public class TacticalDestroyer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonustacticaldestroyerminmatar1;
+    @DefaultRealValue(0.0)
+    public double shipbonustacticaldestroyerminmatar1;
     /**
      * 
      */

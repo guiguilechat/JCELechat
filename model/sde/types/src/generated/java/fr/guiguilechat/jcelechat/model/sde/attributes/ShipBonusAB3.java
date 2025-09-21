@@ -1,19 +1,16 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class ShipBonusTacticalDestroyerMinmatar1
-    extends RealAttribute
+public class ShipBonusAB3
+    extends IntAttribute
 {
-    public static final ShipBonusTacticalDestroyerMinmatar1 INSTANCE = new ShipBonusTacticalDestroyerMinmatar1();
+    public static final ShipBonusAB3 INSTANCE = new ShipBonusAB3();
 
     @Override
     public int getId() {
-        return  2004;
+        return  5960;
     }
 
     @Override
@@ -23,7 +20,7 @@ public class ShipBonusTacticalDestroyerMinmatar1
 
     @Override
     public Number getDefaultValue() {
-        return  0.0;
+        return  5.0;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class ShipBonusTacticalDestroyerMinmatar1
 
     @Override
     public String toString() {
-        return "ShipBonusTacticalDestroyerMinmatar1";
+        return "ShipBonusAB3";
     }
 }
