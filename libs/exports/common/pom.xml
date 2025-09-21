@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 		<artifactId>exports</artifactId>
-		<version>7.43.0</version>
+		<version>7.44.0</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 	<artifactId>common</artifactId>
