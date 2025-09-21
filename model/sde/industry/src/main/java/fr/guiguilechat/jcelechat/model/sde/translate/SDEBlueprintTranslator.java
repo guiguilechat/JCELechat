@@ -37,7 +37,7 @@ public class SDEBlueprintTranslator {
 		Set<Integer> seededItems = EnpcCorporations.load().values().stream()
 				.flatMap(crp -> crp.corporationTrades.keySet().stream())
 				.collect(Collectors.toSet());
-		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
+		for (Entry<Integer, Eblueprints> e : Eblueprints.LOADER.load().entrySet()) {
 			EveType bpType = TypeIndex.getType(e.getValue().blueprintTypeID);
 			if (bpType == null) {
 				log.warn("skipping null-type bp id=" + e.getValue().blueprintTypeID + ", likely not published");

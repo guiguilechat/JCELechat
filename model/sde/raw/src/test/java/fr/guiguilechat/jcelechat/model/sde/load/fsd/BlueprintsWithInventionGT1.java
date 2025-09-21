@@ -6,7 +6,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material;
 public class BlueprintsWithInventionGT1 {
 
 	public static void main(String[] args) {
-		for (Eblueprints e : Eblueprints.load().values()) {
+		for (Eblueprints e : Eblueprints.LOADER.load().values()) {
 			if (e.activities.invention != null) {
 				Activity invention = e.activities.invention;
 				if (invention.products != null) {

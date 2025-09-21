@@ -6,7 +6,7 @@ import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde.load.JackonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
 
 /**
@@ -14,8 +14,10 @@ import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
  */
 public class Eagents {
 
-	public static final JackonYamlLoader<LinkedHashMap<Integer, Eagents>> LOADER
-	// = new JackonYamlLoader<>("fsd/agents.yaml");
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eagents>> LOADER_JACKSON = new JacksonYamlLoader<>(
+			"fsd/agents.yaml");
+
+	public static final SnakeYamlLHMLoader<Integer, Eagents> LOADER_SNAKEYAML
 			= new SnakeYamlLHMLoader<>("fsd/agents.yaml") {
 
 				protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -32,6 +34,8 @@ public class Eagents {
 				}
 
 			};
+
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eagents>> LOADER = LOADER_SNAKEYAML;
 
 	// structure
 

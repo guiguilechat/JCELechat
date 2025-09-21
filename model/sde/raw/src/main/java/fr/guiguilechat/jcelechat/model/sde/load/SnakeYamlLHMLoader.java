@@ -14,7 +14,7 @@ import org.yaml.snakeyaml.nodes.Node;
  *
  * @param <U>
  */
-public abstract class SnakeYamlLHMLoader<U> extends JackonYamlLoader<U> {
+public abstract class SnakeYamlLHMLoader<K, V> extends JacksonYamlLoader<LinkedHashMap<K, V>> {
 
 	public SnakeYamlLHMLoader(String archiveFileName) {
 		super(archiveFileName);
@@ -23,7 +23,7 @@ public abstract class SnakeYamlLHMLoader<U> extends JackonYamlLoader<U> {
 	protected abstract void preprocess(Node node);
 
 	@Override
-	public U from(InputStream is) {
+	public LinkedHashMap<K, V> from(InputStream is) {
 
 		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
 
@@ -34,7 +34,7 @@ public abstract class SnakeYamlLHMLoader<U> extends JackonYamlLoader<U> {
 			}
 		};
 		Yaml yaml = SDECache.yaml(cons);
-		return (U) yaml.loadAs(is, LinkedHashMap.class);
+		return yaml.loadAs(is, LinkedHashMap.class);
 	}
 
 }

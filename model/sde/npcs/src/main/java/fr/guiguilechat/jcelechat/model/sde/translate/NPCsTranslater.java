@@ -204,7 +204,7 @@ public class NPCsTranslater {
 	}
 
 	protected static LPOffer makeOffer(R_get_loyalty_stores_corporation_id_offers o) {
-		LinkedHashMap<Integer, Eblueprints> bps = Eblueprints.load();
+		LinkedHashMap<Integer, Eblueprints> bps = Eblueprints.LOADER.load();
 		LPOffer lpo = new LPOffer();
 		lpo.requirements.isk += o.isk_cost;
 		lpo.requirements.lp += o.lp_cost;

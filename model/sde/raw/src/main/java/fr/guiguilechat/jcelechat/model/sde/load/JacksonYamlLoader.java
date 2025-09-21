@@ -16,7 +16,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class JackonYamlLoader<U> {
+public class JacksonYamlLoader<U> {
 
 	@Getter
 	private final String archiveFileName;

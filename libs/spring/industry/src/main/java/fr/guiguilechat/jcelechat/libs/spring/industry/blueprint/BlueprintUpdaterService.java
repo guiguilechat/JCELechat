@@ -60,7 +60,7 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 
 	private void saveBlueprints(InputStream is) {
 		sdeFileMissing = false;
-		List<Eblueprints> blueprints = new ArrayList<>(Eblueprints.from(is).values());
+		List<Eblueprints> blueprints = new ArrayList<>(Eblueprints.LOADER.from(is).values());
 		List<Integer> referencedIds = blueprints.stream().flatMap(bp -> Stream.concat(
 				Stream.of(bp.blueprintTypeID),
 				Stream.of(bp.activities.copying,

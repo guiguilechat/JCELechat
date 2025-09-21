@@ -12,6 +12,7 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
+import fr.guiguilechat.jcelechat.model.sde.load.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
 
 /**
@@ -21,8 +22,10 @@ public class Etypes {
 
 	private static final Logger logger = LoggerFactory.getLogger(Etypes.class);
 
-	public static final SnakeYamlLHMLoader<LinkedHashMap<Integer, Etypes>> LOADER
-	// = new JackonYamlLoader<>("fsd/types.yaml") ;
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER_JACKSON
+			= new JacksonYamlLoader<>("fsd/types.yaml");
+
+	public static final SnakeYamlLHMLoader<Integer, Etypes> LOADER_SNAKEYAML
 			= new SnakeYamlLHMLoader<>("fsd/types.yaml") {
 
 				@Override
@@ -38,6 +41,8 @@ public class Etypes {
 					}
 				}
 			};
+
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER = LOADER_JACKSON;
 
 	public static class Etraits {
 		public static class Bonus {
