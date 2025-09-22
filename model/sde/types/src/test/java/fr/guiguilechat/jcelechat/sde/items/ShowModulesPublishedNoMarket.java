@@ -11,7 +11,7 @@ public class ShowModulesPublishedNoMarket {
 		for (Entry<Integer, Etypes> e : Etypes.LOADER.load().entrySet()) {
 			Etypes t = e.getValue();
 			if (t.published) {
-				Egroups group = Egroups.load().get(t.groupID);
+				Egroups group = Egroups.LOADER.load().get(t.groupID);
 				if (group.categoryID == 7 && t.marketGroupID == 0) {
 					System.err
 							.println("type " + t.enName() + " (" + e.getKey() + ") group " + group.enName() + "(" + t.groupID

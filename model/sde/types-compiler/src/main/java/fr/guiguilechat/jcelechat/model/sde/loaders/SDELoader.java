@@ -25,10 +25,10 @@ public class SDELoader {
 	private static final Logger logger = LoggerFactory.getLogger(SDELoader.class);
 
 	public static TypeHierarchy load() {
-		Map<Integer, EdogmaAttributes> attTypes = EdogmaAttributes.load();
+		Map<Integer, EdogmaAttributes> attTypes = EdogmaAttributes.LOADER.load();
 		TypeHierarchy ret = new TypeHierarchy();
 		// categories
-		for (Entry<Integer, Ecategories> e : Ecategories.load().entrySet()) {
+		for (Entry<Integer, Ecategories> e : Ecategories.LOADER.load().entrySet()) {
 			CatDetails det = new CatDetails();
 			det.id = e.getKey();
 			det.name = e.getValue().enName();
@@ -37,7 +37,7 @@ public class SDELoader {
 			ret.catID2GroupIDs.put(det.id, new HashSet<>());
 		}
 		// groups
-		for (Entry<Integer, Egroups> e : Egroups.load().entrySet()) {
+		for (Entry<Integer, Egroups> e : Egroups.LOADER.load().entrySet()) {
 			GroupDetails det = new GroupDetails();
 			det.id = e.getKey();
 			det.catID = e.getValue().categoryID;
@@ -45,7 +45,7 @@ public class SDELoader {
 			det.published = e.getValue().published;
 			ret.groupID2Details.put(e.getKey(), det);
 			ret.groupID2TypeIDs.put(det.id, new HashSet<>());
-			ret.catID2GroupIDs.computeIfAbsent(e.getValue().categoryID, i -> new HashSet<>()).add(e.getKey());
+			ret.catID2GroupIDs.computeIfAbsent(e.getValue().categoryID, _ -> new HashSet<>()).add(e.getKey());
 		}
 		// types
 		for (Entry<Integer, Etypes> e : Etypes.LOADER.load().entrySet()) {
@@ -61,7 +61,7 @@ public class SDELoader {
 			det.published = e.getValue().published;
 			det.volume = e.getValue().volume;
 			ret.typeID2Details.put(e.getKey(), det);
-			ret.groupID2TypeIDs.computeIfAbsent(e.getValue().groupID, i -> new HashSet<>()).add(e.getKey());
+			ret.groupID2TypeIDs.computeIfAbsent(e.getValue().groupID, _ -> new HashSet<>()).add(e.getKey());
 		}
 
 		// Attributes

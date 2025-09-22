@@ -20,29 +20,34 @@ import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
  */
 public class Etypes {
 
-	private static final Logger logger = LoggerFactory.getLogger(Etypes.class);
+	//
+	// SDE loading
+	//
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER_JACKSON
-			= new JacksonYamlLoader<>("fsd/types.yaml");
+	public static final String SDE_FILE = "fsd/types.yaml";
 
-	public static final SnakeYamlLHMLoader<Integer, Etypes> LOADER_SNAKEYAML
-			= new SnakeYamlLHMLoader<>("fsd/types.yaml") {
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER_JACKSON = new JacksonYamlLoader<>(
+			SDE_FILE);
 
-				@Override
-				protected void preprocess(Node node) {
-					if (node.getNodeId() == NodeId.mapping) {
-						MappingNode mn = (MappingNode) node;
-						if (mn.getValue().size() > 0) {
-							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter("groupID"::equals).findAny().isPresent()) {
-								node.setType(Etypes.class);
-							}
-						}
+	public static final SnakeYamlLHMLoader<Integer, Etypes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE) {
+
+		@Override
+		protected void preprocess(Node node) {
+			if (node.getNodeId() == NodeId.mapping) {
+				MappingNode mn = (MappingNode) node;
+				if (mn.getValue().size() > 0) {
+					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+							.filter("groupID"::equals).findAny().isPresent()) {
+						node.setType(Etypes.class);
 					}
 				}
-			};
+			}
+		}
+	};
 
 	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER = LOADER_JACKSON;
+
+	private static final Logger logger = LoggerFactory.getLogger(Etypes.class);
 
 	public static class Etraits {
 		public static class Bonus {

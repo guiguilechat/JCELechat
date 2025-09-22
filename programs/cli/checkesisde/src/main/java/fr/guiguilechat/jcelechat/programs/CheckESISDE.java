@@ -35,16 +35,16 @@ public class CheckESISDE {
 				.mapItems(typeID -> universe.types(typeID)).toMap(h -> h.get().type_id, ObjHolder::get);
 		MapHolder<Integer, R_get_dogma_attributes_attribute_id> attMap = dogma.attributes()
 				.mapItems(typeID -> dogma.attributes(typeID)).toMap(h -> h.get().attribute_id, ObjHolder::get);
-		Ecategories.load();
-		Egroups.load();
+		Ecategories.LOADER.load();
+		Egroups.LOADER.load();
 		Etypes.LOADER.load();
-		EdogmaAttributes.load();
+		EdogmaAttributes.LOADER.load();
 
 		long postLoad = System.currentTimeMillis();
 		System.out.println("loaded in " + (postLoad - start) + "ms");
 		int errors = 0;
 
-		for (Entry<Integer, Ecategories> e : Ecategories.load().entrySet()) {
+		for (Entry<Integer, Ecategories> e : Ecategories.LOADER.load().entrySet()) {
 			Ecategories sdeEntry = e.getValue();
 			R_get_universe_categories_category_id esiEntry = catMap.get().get(e.getKey());
 			if (sdeEntry.published != esiEntry.published) {
@@ -53,7 +53,7 @@ public class CheckESISDE {
 				errors++;
 			}
 		}
-		for (Entry<Integer, Egroups> e : Egroups.load().entrySet()) {
+		for (Entry<Integer, Egroups> e : Egroups.LOADER.load().entrySet()) {
 			Egroups sdeEntry = e.getValue();
 			R_get_universe_groups_group_id esiEntry = groupMap.get().get(e.getKey());
 			if (sdeEntry.published != esiEntry.published) {
@@ -73,7 +73,7 @@ public class CheckESISDE {
 		}
 
 		Set<Integer> attributeIds = new HashSet<>();
-		Map<Integer, EdogmaAttributes> attSDEMap = EdogmaAttributes.load();
+		Map<Integer, EdogmaAttributes> attSDEMap = EdogmaAttributes.LOADER.load();
 		attributeIds.addAll(attSDEMap.keySet());
 		attributeIds.addAll(attMap.get().keySet());
 

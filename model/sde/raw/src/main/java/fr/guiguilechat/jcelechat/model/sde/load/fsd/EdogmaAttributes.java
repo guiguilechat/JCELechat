@@ -1,67 +1,51 @@
 package fr.guiguilechat.jcelechat.model.sde.load.fsd;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-import org.yaml.snakeyaml.constructor.Construct;
-import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.MappingNode;
-import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
+import fr.guiguilechat.jcelechat.model.sde.load.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
 
 /**
  *
  */
 public class EdogmaAttributes {
 
-	public static final File FILE = new File(SDECache.INSTANCE.extractCacheDir(), "fsd/dogmaAttributes.yaml");
+	//
+	// SDE loading
+	//
 
-	private static Map<Integer, EdogmaAttributes> cache;
+	public static final String SDE_FILE = "fsd/dogmaAttributes.yaml";
 
-	public static synchronized Map<Integer, EdogmaAttributes> load() {
-		if (cache == null) {
-			SDECache.INSTANCE.donwloadSDE();
-			try {
-				cache = from(new FileInputStream(FILE));
-			} catch (FileNotFoundException e) {
-				throw new UnsupportedOperationException("catch this", e);
-			}
-		}
-		return cache;
-	}
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributes>> LOADER_JACKSON = new JacksonYamlLoader<>(
+			SDE_FILE);
 
-	@SuppressWarnings("unchecked")
-	public static LinkedHashMap<Integer, EdogmaAttributes> from(InputStream is) {
-		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
+	public static final SnakeYamlLHMLoader<Integer, EdogmaAttributes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+			SDE_FILE) {
 
-			@Override
-			protected Construct getConstructor(Node node) {
-				if (node.getNodeId() == NodeId.mapping) {
-					MappingNode mn = (MappingNode) node;
-					if (mn.getValue().size() > 0) {
-						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-								.filter("attributeID"::equals).findAny().isPresent()) {
-							node.setType(EdogmaAttributes.class);
-						}
+		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
+			if (node.getNodeId() == NodeId.mapping) {
+				MappingNode mn = (MappingNode) node;
+				if (mn.getValue().size() > 0) {
+					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+							.filter("attributeID"::equals).findAny().isPresent()) {
+						node.setType(EdogmaAttributes.class);
 					}
 				}
-				Construct ret = super.getConstructor(node);
-				return ret;
 			}
-		};
-		Yaml yaml = SDECache.yaml(cons);
-		return yaml.loadAs(is, LinkedHashMap.class);
-	}
+		}
+	};
+
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributes>> LOADER = LOADER_SNAKEYAML;
+
+	//
+	// file structure
+	//
 
 	public int attributeID;
 	public int categoryID;
@@ -83,7 +67,7 @@ public class EdogmaAttributes {
 	public Integer unitID;
 
 	public static void main(String[] args) {
-		System.out.println("loaded " + load().size() + " attributes");
+		System.out.println("loaded " + LOADER.load().size() + " attributes");
 	}
 
 }

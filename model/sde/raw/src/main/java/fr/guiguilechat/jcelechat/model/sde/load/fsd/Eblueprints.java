@@ -15,11 +15,17 @@ import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
  */
 public class Eblueprints {
 
+	//
+	// SDE loading
+	//
+
+	public static final String SDE_FILE = "fsd/blueprints.yaml";
+
 	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eblueprints>> LOADER_JACKSON = new JacksonYamlLoader<>(
-			"fsd/blueprints.yaml");
+			SDE_FILE);
 
 	public static final SnakeYamlLHMLoader<Integer, Eblueprints> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
-			"fsd/blueprints.yaml") {
+			SDE_FILE) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
 			if (node.getNodeId() == NodeId.mapping) {
@@ -32,10 +38,13 @@ public class Eblueprints {
 				}
 			}
 		}
-
 	};
 
 	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eblueprints>> LOADER = LOADER_SNAKEYAML;
+
+	//
+	// file structure
+	//
 
 	public int blueprintTypeID;
 	public int maxProductionLimit;
@@ -88,14 +97,14 @@ public class Eblueprints {
 
 		public Activity activity(ActivityType at) {
 			return switch (at) {
-				case copying -> copying;
-				case invention -> invention;
-				case manufacturing -> manufacturing;
-				case reaction -> reaction;
-				case research_material -> research_material;
-				case research_time -> research_time;
-						default ->
-					throw new IllegalArgumentException("Unexpected value: " + at);
+			case copying -> copying;
+			case invention -> invention;
+			case manufacturing -> manufacturing;
+			case reaction -> reaction;
+			case research_material -> research_material;
+			case research_time -> research_time;
+			default ->
+				throw new IllegalArgumentException("Unexpected value: " + at);
 
 			};
 		}
