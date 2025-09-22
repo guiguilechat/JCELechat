@@ -793,7 +793,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	public static <T> ObservableBooleanValue bindContains(ObservableSet<T> set, T... values) {
 		SimpleBooleanProperty ret = new SimpleBooleanProperty(true);
 		set.addListener(
-				(InvalidationListener) ob -> ret.set(Stream.of(values).filter(set::contains).findAny().isPresent()));
+				(InvalidationListener) _ -> ret.set(Stream.of(values).filter(set::contains).findAny().isPresent()));
 		ret.set(Stream.of(values).filter(set::contains).findAny().isPresent());
 		return ret;
 	}

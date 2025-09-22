@@ -57,7 +57,7 @@ public class ShowLPCorpSets {
 		for (int corpid : corps) {
 			List<R_get_loyalty_stores_corporation_id_offers> offers = access.loyalty.stores_offers(corpid).get();
 			Set<Integer> set = offers.stream().map(o -> tg.semantic(o.type_id)).collect(Collectors.toSet());
-			offers2corps.computeIfAbsent(set, o -> new HashSet<>()).add(corpid);
+			offers2corps.computeIfAbsent(set, _ -> new HashSet<>()).add(corpid);
 		}
 
 		offers2corps.remove(Collections.emptySet());

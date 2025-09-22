@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.model.sde.locations.Invasions;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.Reach;
@@ -65,7 +64,7 @@ public class GeoCenter {
 	 */
 	public static List<SysEval> evaluate(SolarSystem source, Predicate<SolarSystem> systemAccept) {
 		if (systemAccept == null) {
-			systemAccept = ss -> true;
+			systemAccept = _ -> true;
 		}
 		Set<SolarSystem> targets = Reach.from(source, systemAccept);
 		SimpleGraph<SolarSystem> graph = new SimpleGraph<>(Comparator.comparing(s -> s.name));
@@ -172,8 +171,7 @@ public class GeoCenter {
 		Set<String> constels = Region.EMPIRE_FACTIONS.of(source).regions().stream().map(Region::getRegion)
 				.flatMap(region -> Stream.concat(region.constellations.stream(), region.adjacentConstellations.stream()))
 				.collect(Collectors.toSet());
-		Set<SolarSystem> invaded = Invasions.INSTANCE.getDangerousHSSystems(allowTrigs, allowEdencom);
-		return s -> s.isHS() && constels.contains(s.constellation) && !invaded.contains(s);
+		return s -> s.isHS() && constels.contains(s.constellation);
 	}
 
 	/**

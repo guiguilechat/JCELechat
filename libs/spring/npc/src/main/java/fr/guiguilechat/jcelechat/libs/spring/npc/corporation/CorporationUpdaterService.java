@@ -67,7 +67,7 @@ public class CorporationUpdaterService implements SdeUpdateListener {
 
 	protected void saveCorporations(InputStream inputStream) {
 		sdeFileMissing = false;
-		LinkedHashMap<Integer, EnpcCorporations> corporations = EnpcCorporations.from(inputStream);
+		LinkedHashMap<Integer, EnpcCorporations> corporations = EnpcCorporations.LOADER.from(inputStream);
 		Set<Integer> allCorpIds = Stream.concat(corporations.keySet().stream(),
 				corporations.values().stream().flatMap(c -> c.exchangeRates.keySet().stream())).collect(Collectors.toSet());
 		Map<Integer, CorporationInfo> id2CorporationInfo = corporationInfoService

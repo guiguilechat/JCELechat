@@ -87,7 +87,7 @@ public class Markets {
 	private Map<Integer, IPricing> stationsMarket = Collections.synchronizedMap(new HashMap<>());
 
 	public IPricing getStationMarket(int stationId, int regionId) {
-		return stationsMarket.computeIfAbsent(stationId, i -> getMarket(regionId).filter(stationId, 0, false));
+		return stationsMarket.computeIfAbsent(stationId, _ -> getMarket(regionId).filter(stationId, 0, false));
 	}
 
 	private HashMap<Long, IPricing> localMarket = new HashMap<>();

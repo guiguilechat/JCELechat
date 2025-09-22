@@ -40,7 +40,7 @@ public class MainGroupLPStores {
 			List<R_get_loyalty_stores_corporation_id_offers> offers = access.loyalty.stores_offers(corpid).get();
 			id2offer.putAll(offers.stream().collect(Collectors.toMap(o -> o.offer_id, o -> o)));
 			Set<Integer> set = offers.stream().map(o -> o.offer_id).collect(Collectors.toSet());
-			offers2corps.computeIfAbsent(set, o -> new HashSet<>()).add(corpid);
+			offers2corps.computeIfAbsent(set, _ -> new HashSet<>()).add(corpid);
 		}
 
 		offers2corps.remove(Collections.emptySet());
@@ -51,7 +51,7 @@ public class MainGroupLPStores {
 			// System.out.println(e.getKey().size() + " :" + e.getValue().stream()
 			// .map(corpid -> access.corporations.get(corpid).get().name).sorted()
 			// .collect(Collectors.toList()));
-			GroupData data = offers2Data.computeIfAbsent(evaluated, s -> new GroupData());
+			GroupData data = offers2Data.computeIfAbsent(evaluated, _ -> new GroupData());
 			for (Set<Integer> other : offers2corps.keySet()) {
 				if (other == evaluated) {
 					continue;

@@ -62,7 +62,7 @@ public class TypeGrouper {
 				atts.put(att.attribute_id, (double) att.value);
 			}
 		}
-		Set<R_get_universe_types_type_id> set = semantic2Types.computeIfAbsent(atts, o -> new LinkedHashSet<>());
+		Set<R_get_universe_types_type_id> set = semantic2Types.computeIfAbsent(atts, _ -> new LinkedHashSet<>());
 		set.add(type);
 		return set.iterator().next();
 	}

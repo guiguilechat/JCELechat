@@ -9,8 +9,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Predicate;
 
-import fr.guiguilechat.jcelechat.model.sde.locations.Invasions;
-import fr.guiguilechat.jcelechat.model.sde.locations.Invasions.JsonEntry.STATUS;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
 
@@ -29,68 +27,11 @@ public class PredicateRouter implements IRouter {
 		this.predicate = predicate;
 	}
 
-// //
-// // only HS, no invasion. Good for negative to both
-// //
-//
-// private static final Set<SolarSystem> INVADED =
-// Invasions.INSTANCE.getPointSystems(false, false);
-//
-// /**
-// * only accept intermediate systems between source and dest that in HS, and
-// * not invaded
-// */
-// public static final PredicateRouter HSNOINVASION = new PredicateRouter(
-// s -> s.secStatus() == SECSTATUS.HS && !INVADED.contains(s));
-
-	//
-	// only HS, no sec reduced. good for neutral to both.
-	//
-
-	private static final Set<SolarSystem> SECREDUCED = Invasions.INSTANCE.getReducedSystems();
-
 	/**
-	 * Only accept intermediates systems that are in HS after modification from
-	 * the trigs (so avoid liminality)
+	 * Only accept intermediates systems that are in HS
 	 */
 	public static final PredicateRouter HS = new PredicateRouter(
-			s -> s.secStatus() == SECSTATUS.HS && !SECREDUCED.contains(s));
-
-	//
-	// only fortress. To be sure the system does not change.
-	//
-	private static final Map<SolarSystem, STATUS> SEC2STATUS = Invasions.INSTANCE.getSystems2Status();
-
-	/**
-	 * only accept systems that are in HS, not invaded or invaded in state
-	 * fotress.
-	 */
-	public static final PredicateRouter HSONLYFORTRESS = new PredicateRouter(
-			s -> s.secStatus() == SECSTATUS.HS && SEC2STATUS.getOrDefault(s, STATUS.FORTRESS) == STATUS.FORTRESS);
-
-	//
-	// only HS and good for edencom. Goof for dencom friendly
-	//
-
-	private static final Set<SolarSystem> DANGEROUS2DENCOM = Invasions.INSTANCE.getDangerousHSSystems(false, true);
-	/**
-	 * only accept systems that are in HS, not invaded or invaded in state
-	 * fotress.
-	 */
-	public static final PredicateRouter HSDENCOM = new PredicateRouter(
-			s -> s.secStatus() == SECSTATUS.HS && !DANGEROUS2DENCOM.contains(s));
-
-	//
-	// only HS and good for trig. Good for trig friendly.
-	//
-
-	private static final Set<SolarSystem> DANGEROUS2TRIG = Invasions.INSTANCE.getDangerousHSSystems(true, false);
-	/**
-	 * only accept systems that are in HS, and if invaded not sec reduced and trig
-	 * winning.
-	 */
-	public static final PredicateRouter HSTRIGLAVIAN = new PredicateRouter(
-			s -> s.secStatus() == SECSTATUS.HS && !DANGEROUS2TRIG.contains(s));
+			s -> s.secStatus() == SECSTATUS.HS);
 
 	//
 	// only go through LS

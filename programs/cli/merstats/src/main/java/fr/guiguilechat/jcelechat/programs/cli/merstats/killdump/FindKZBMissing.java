@@ -48,7 +48,7 @@ public class FindKZBMissing {
 					.println("" + year + "-" + month + "/" + ss.name + "/" + (etype == null ? "t_" + type_id : etype.enName())
 							+ "\tmer=" + nbkills + "\tzk=" + zkills.length + "\turl="
 							+ makeZKURL(year, month, sys, type_id));
-					Diff diff = diffByType.computeIfAbsent(type_id, i -> new Diff());
+					Diff diff = diffByType.computeIfAbsent(type_id, _ -> new Diff());
 					if (excess > 0) {
 						diff.excessZK += excess;
 					} else {

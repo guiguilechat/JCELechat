@@ -71,11 +71,11 @@ public class CuratedP4FromP2P1 implements PlanetaryFactory {
 		Map<Type, Long> materialsQuantity = new HashMap<>();
 		materialsQuantity.putAll(
 				p2s.stream()
-						.collect(Collectors.toMap(t -> t, t -> 1l * EACH_P3F_PER_P4F * P3F_CONSUME_EACHP2 * cycles)));
+						.collect(Collectors.toMap(t -> t, _ -> 1L * EACH_P3F_PER_P4F * P3F_CONSUME_EACHP2 * cycles)));
 		materialsQuantity.putAll(
 				p1s.stream()
-						.collect(Collectors.toMap(t -> t, t -> 1l * P4F_CONSUME_P1 * cycles)));
-		Map<Type, Long> productsQuantity = Stream.of(product).collect(Collectors.toMap(t -> t, t -> 1l * cycles));
+						.collect(Collectors.toMap(t -> t, _ -> 1L * P4F_CONSUME_P1 * cycles)));
+		Map<Type, Long> productsQuantity = Stream.of(product).collect(Collectors.toMap(t -> t, _ -> 1L * cycles));
 		return new ConsumeProduct(materialsQuantity, productsQuantity);
 	}
 

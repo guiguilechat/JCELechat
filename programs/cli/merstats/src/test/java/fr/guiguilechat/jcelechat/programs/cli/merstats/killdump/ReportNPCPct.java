@@ -19,7 +19,7 @@ public class ReportNPCPct {
 
 	public static void listNPCCorps() {
 		StringBuilder nonNPC = new StringBuilder();
-		for (Entry<Integer, EnpcCorporations> e : EnpcCorporations.load().entrySet()) {
+		for (Entry<Integer, EnpcCorporations> e : EnpcCorporations.LOADER.load().entrySet()) {
 			if (NPCFilter.isNPCCorp(e.getValue())) {
 				System.out.println("" + e.getKey() + "\t" + e.getValue().enName());
 			} else {

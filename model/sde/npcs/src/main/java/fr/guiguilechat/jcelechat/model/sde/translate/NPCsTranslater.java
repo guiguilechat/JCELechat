@@ -116,7 +116,7 @@ public class NPCsTranslater {
 		.forEach(lid -> Location.resolve(null, lid).system());
 		//
 
-		LinkedHashMap<Integer, EnpcCorporations> ecorps = EnpcCorporations.load();
+		LinkedHashMap<Integer, EnpcCorporations> ecorps = EnpcCorporations.LOADER.load();
 		Map<Integer, String> idx2name = EinvNames.loadById();
 		Map<Integer, R_get_corporations_corporation_id> npcCorps =
 				corporationsHolder.get();
@@ -195,7 +195,7 @@ public class NPCsTranslater {
 		Map<Integer, LPOffer> convertedOffers = corpId2offers.values().stream().flatMap(Stream::of)
 		    .map(NPCsTranslater::makeOffer)
 		    .filter(o -> o != null)
-				.collect(Collectors.toMap(off -> off.id, off -> off, (o1, o2) -> o1));
+				.collect(Collectors.toMap(off -> off.id, off -> off, (o1, _) -> o1));
 		offers.putAll(convertedOffers);
 		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, corpId2offers.get(c.id), offers));
 

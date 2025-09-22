@@ -114,7 +114,7 @@ public class IndustryRestController {
 							: Collections.emptyList();
 					Map<Integer, Map<Long, Double>> seedMap = new HashMap<>();
 			    for (LocatedBestOffer s : seeds) {
-						Map<Long, Double> rmap = seedMap.computeIfAbsent(s.regionId(), rid -> new HashMap<>());
+						Map<Long, Double> rmap = seedMap.computeIfAbsent(s.regionId(), _ -> new HashMap<>());
 						rmap.put(s.locationId(), s.bestPrice());
 					}
 			    List<BlueprintActivity> mes = blueprintActivityService.forBPActivity(type.getId(),

@@ -94,12 +94,12 @@ public class MutaEvals extends Application {
 
 		familychoice = new ChoiceBox<>(FXCollections.observableArrayList(MutaplasmidFamily.INSTANCES));
 		familychoice.getSelectionModel().selectedItemProperty().addListener(
-				(ChangeListener<MutaplasmidFamily>) (observable, oldValue, newValue) -> updateAttributes(newValue));
+				(ChangeListener<MutaplasmidFamily>) (_, _, newValue) -> updateAttributes(newValue));
 
 		regionMarket = new ChoiceBox<>(FXCollections.observableArrayList(Region.load().keySet()));
 		regionMarket.getSelectionModel().select("The Forge");
 		regionMarket.getSelectionModel().selectedItemProperty()
-		.addListener((ChangeListener<String>) (observable, oldValue, newValue) -> {
+				.addListener((ChangeListener<String>) (_, _, _) -> {
 			updateTableItems();
 		});
 
@@ -119,7 +119,7 @@ public class MutaEvals extends Application {
 		for (TextField tf : new TextField[] { abnormalPriceField, decayedPriceField, gravidPriceField, qttyField,
 				unstablePriceField }) {
 			tf.setMaxWidth(70);
-			tf.textProperty().addListener((o, old, now) -> sortLater());
+			tf.textProperty().addListener((_, _, _) -> sortLater());
 		}
 
 		TableColumn<ModifiedItemCost, String> itemCol = new TableColumn<>("item");
@@ -183,7 +183,7 @@ public class MutaEvals extends Application {
 						sl.setBlockIncrement(0.1);
 						sl.setPrefWidth(250);
 						sl.setShowTickLabels(true);
-						sl.valueProperty().addListener((o, old, now) -> sortLater());
+						sl.valueProperty().addListener((_, _, _) -> sortLater());
 						atts.attValues.put(a, negRange ? sl.valueProperty().negate() : sl.valueProperty());
 						Label valueLbl = new Label();
 						valueLbl.textProperty().bind(Bindings.createStringBinding(() -> "" + sl.getValue(), sl.valueProperty()));
@@ -291,11 +291,11 @@ public class MutaEvals extends Application {
 	PauseTransition pause = new PauseTransition(Duration.seconds(1));
 
 	protected void sortLater() {
-		pause.setOnFinished(event -> table.sort());
+		pause.setOnFinished(_ -> table.sort());
 		pause.playFromStart();
 	}
 
-	static final long[] unitSuffixValue = { 1000000000000l, 1000000000l, 1000000l, 1000l };
+	static final long[] unitSuffixValue = { 1000000000000L, 1000000000L, 1000000L, 1000L };
 	static final String[] unitSuffix = { "T", "B", "M", "k" };
 
 	public static String formatPrice(double value) {
@@ -320,7 +320,7 @@ public class MutaEvals extends Application {
 
 	public static ObservableDoubleValue doubleEval(TextField t) {
 		SimpleDoubleProperty ret = new SimpleDoubleProperty();
-		t.textProperty().addListener((ob, old, now) -> {
+		t.textProperty().addListener((_, old, now) -> {
 			try {
 				ret.set(Double.parseDouble(now));
 			} catch (Exception e) {
@@ -333,7 +333,7 @@ public class MutaEvals extends Application {
 
 	public static ObservableIntegerValue intEval(TextField t) {
 		SimpleIntegerProperty ret = new SimpleIntegerProperty();
-		t.textProperty().addListener((ob, old, now) -> {
+		t.textProperty().addListener((_, old, now) -> {
 			try {
 				ret.set(Integer.parseInt(now));
 			} catch (Exception e) {

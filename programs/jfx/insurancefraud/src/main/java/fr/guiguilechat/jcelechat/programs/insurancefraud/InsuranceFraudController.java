@@ -178,7 +178,7 @@ public class InsuranceFraudController {
 
 		table.getSortOrder().add(tableIskPH);
 
-		compute.setOnAction(e -> compute());
+		compute.setOnAction(_ -> compute());
 	}
 
 	public void compute() {

@@ -23,7 +23,7 @@ public class NPCFilter {
 	}
 
 	public static final Set<Integer> NPC_GROUPIDS = Set.of(1876, 1924);
-	public static final Set<Integer> NPC_CORPORATIONIDS = EnpcCorporations.load().entrySet().stream()
+	public static final Set<Integer> NPC_CORPORATIONIDS = EnpcCorporations.LOADER.load().entrySet().stream()
 			.filter(e -> isNPCCorp(e.getValue())).map(Entry::getKey).collect(Collectors.toSet());
 
 	public static final Predicate<KDEntry> NONPC = new Predicate<>() {

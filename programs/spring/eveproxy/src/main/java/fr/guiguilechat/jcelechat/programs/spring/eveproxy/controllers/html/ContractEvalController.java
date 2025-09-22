@@ -106,7 +106,7 @@ public class ContractEvalController {
 		model.addAttribute("categories",
 		    categories.stream()
 		        .sorted(Comparator.comparing(Category::name))
-		        .collect(Collectors.toMap(Category::getId, Category::name, (x, y) -> y, LinkedHashMap::new)));
+						.collect(Collectors.toMap(Category::getId, Category::name, (_, y) -> y, LinkedHashMap::new)));
 
 		LinkedHashMap<String, String> locationFilters = new LinkedHashMap<>();
 		locationFilters.put("HS", "High Security");

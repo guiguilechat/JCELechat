@@ -420,7 +420,7 @@ public class Universe {
 
 	public void publicStructures() {
 		// TODO ? is it doable ?
-		cache.structures(null).map(sid -> cache);
+		cache.structures(null).map(_ -> cache);
 	}
 
 	// factions

@@ -51,7 +51,7 @@ public class ClientCacheBlueprintTranslator {
 			LinkedHashMap<Integer, IndustryUsage> usages)
 			throws JsonMappingException, JsonProcessingException, SQLException {
 		// set of type ids that are seeded by NPCs
-		Set<Integer> seededItems = EnpcCorporations.load().values().stream()
+		Set<Integer> seededItems = EnpcCorporations.LOADER.load().values().stream()
 				.flatMap(crp -> crp.corporationTrades.keySet().stream())
 				.collect(Collectors.toSet());
 		for (KeyValTime<Eblueprints> e : listBlueprints()) {
@@ -78,7 +78,7 @@ public class ClientCacheBlueprintTranslator {
 				continue;
 			}
 			int portionSize = inputMat.portionSize;
-			IndustryUsage usage = usages.computeIfAbsent(e.getKey(), i -> new IndustryUsage());
+			IndustryUsage usage = usages.computeIfAbsent(e.getKey(), _ -> new IndustryUsage());
 			for (Material mat : e.getValue().materials) {
 				EveType outputmat = TypeIndex.getType(mat.materialTypeID);
 				if (outputmat == null) {
@@ -86,7 +86,7 @@ public class ClientCacheBlueprintTranslator {
 					continue;
 				}
 				usage.reprocessInto.put(mat.materialTypeID, 1.0 * mat.quantity / portionSize);
-				usages.computeIfAbsent(mat.materialTypeID, i -> new IndustryUsage()).reprocessedFrom
+				usages.computeIfAbsent(mat.materialTypeID, _ -> new IndustryUsage()).reprocessedFrom
 						.add(e.getKey());
 			}
 		}
@@ -227,7 +227,7 @@ public class ClientCacheBlueprintTranslator {
 				if (m == null) {
 					log.warn("null material in list of bp id=" + bpoID + " : " + materials);
 				}
-				IndustryUsage u = usages.computeIfAbsent(m.id, i -> new IndustryUsage());
+				IndustryUsage u = usages.computeIfAbsent(m.id, _ -> new IndustryUsage());
 				categorizer.apply(u).add(bpoID);
 			}
 		}

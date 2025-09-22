@@ -54,8 +54,8 @@ public class CuratedP4FromP2 implements PlanetaryFactory {
 				Math.min(hours * NB_P4F, (int) Math.floor(INPUT_SPACE / getVolAllP2PerP4Cycle())),
 				OUPUT_SPACE / P4F_HOUR_VOLUME);
 		Map<Type, Long> materialsQuantity = p2s.stream()
-				.collect(Collectors.toMap(t -> t, t -> 1l * EACH_P3F_PER_P4F * P3F_CONSUME_EACHP2 * cycles));
-		Map<Type, Long> productsQuantity = Stream.of(product).collect(Collectors.toMap(t -> t, t -> 1l * cycles));
+				.collect(Collectors.toMap(t -> t, _ -> 1L * EACH_P3F_PER_P4F * P3F_CONSUME_EACHP2 * cycles));
+		Map<Type, Long> productsQuantity = Stream.of(product).collect(Collectors.toMap(t -> t, _ -> 1L * cycles));
 		return new ConsumeProduct(materialsQuantity, productsQuantity);
 	}
 

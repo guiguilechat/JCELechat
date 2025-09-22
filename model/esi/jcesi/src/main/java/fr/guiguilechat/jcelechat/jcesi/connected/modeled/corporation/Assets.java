@@ -1,21 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation;
 
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.AutoFit;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpDeliveries;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG1;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG2;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG3;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG4;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG5;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG6;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG7;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Deliveries;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Hangar;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.HangarAll;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Impounded;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Locked;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.ShipHangar;
-import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Unlocked;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -136,10 +121,10 @@ public class Assets {
 			ItemNode parent = ret.itemsByID().get(itemNode.location_id);
 			if (parent == null) {
 				Location location = Location.resolve(con, itemNode.location_id);
-				ret.roots().computeIfAbsent(location, loc -> new HashMap<>())
-				.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
+				ret.roots().computeIfAbsent(location, _ -> new HashMap<>())
+						.computeIfAbsent(itemNode.location_flag, _ -> new ArrayList<>()).add(itemNode);
 			} else {
-				parent.contained.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
+				parent.contained.computeIfAbsent(itemNode.location_flag, _ -> new ArrayList<>()).add(itemNode);
 			}
 		}
 		return ret;
@@ -171,7 +156,7 @@ public class Assets {
 		// we make the map of itemid->locations. if a location is actually an
 		// asset, we iteratively map it to this asset's location instead
 		Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
-				.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (l1, l2) -> l1));
+				.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (l1, _) -> l1));
 		Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream().collect(Collectors.toMap(Entry::getKey, e -> {
 			Long location = e.getValue();
 			while (baseLocationMap.containsKey(location)) {

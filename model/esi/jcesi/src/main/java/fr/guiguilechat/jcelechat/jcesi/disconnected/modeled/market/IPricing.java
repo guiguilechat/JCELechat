@@ -39,7 +39,7 @@ public interface IPricing {
 				getMarketOrders(typeId, true).getFilteredOrders().get().stream(),
 				getMarketOrders(typeId, false).getFilteredOrders().get().stream()
 			).map(o -> o.issued)
-			.sorted().reduce((a, b) -> b);
+				.sorted().reduce((_, b) -> b);
 		if (lastTimeStamp.isEmpty()) {
 			return null;
 		}

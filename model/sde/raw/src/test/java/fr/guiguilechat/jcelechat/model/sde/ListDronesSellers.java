@@ -7,7 +7,7 @@ public class ListDronesSellers {
 
 	public static void main(String[] args) {
 		SDECache.INSTANCE.donwloadSDE();
-		EnpcCorporations.load().entrySet().forEach(e -> {
+		EnpcCorporations.LOADER.load().entrySet().forEach(e -> {
 			EnpcCorporations corp = e.getValue();
 			Double dronePrice = corp.corporationTrades.get(3436);
 			if (dronePrice != null) {

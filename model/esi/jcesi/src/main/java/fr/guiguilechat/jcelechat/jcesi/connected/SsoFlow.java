@@ -132,7 +132,7 @@ public abstract class SsoFlow {
 		StringSelection sel = new StringSelection("");
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		LinkedBlockingQueue<String> dataHolder = new LinkedBlockingQueue<>(1);
-		clipboard.setContents(sel, (clip, data) -> {
+		clipboard.setContents(sel, (_, data) -> {
 			try {
 				dataHolder.put((String) clipboard.getData(DataFlavor.stringFlavor));
 			} catch (InterruptedException | UnsupportedFlavorException | IOException e) {

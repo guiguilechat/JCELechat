@@ -127,7 +127,7 @@ public class Industry {
 	 */
 	public DoubleHolder getHSManufCentile(int centile) {
 		return cached_hsmanuf_centiles.computeIfAbsent(centile,
-				c -> getHsManufIndices().mapDouble(l -> l.isEmpty() ? -1 : l.get(indexOfCentile(centile, l.size()))));
+				_ -> getHsManufIndices().mapDouble(l -> l.isEmpty() ? -1 : l.get(indexOfCentile(centile, l.size()))));
 	}
 
 	protected static int indexOfCentile(int centile, int nb) {
