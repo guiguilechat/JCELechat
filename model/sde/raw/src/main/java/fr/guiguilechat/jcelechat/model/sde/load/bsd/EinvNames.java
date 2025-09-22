@@ -5,8 +5,8 @@ import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.nodes.NodeId;
 
-import fr.guiguilechat.jcelechat.model.sde.load.JacksonYamlLoader;
-import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlALLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldJacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldSnakeYamlALLoader;
 
 public class EinvNames {
 
@@ -16,10 +16,10 @@ public class EinvNames {
 
 	public static final String SDE_FILE = "bsd/invNames.yaml";
 
-	public static final JacksonYamlLoader<ArrayList<EinvNames>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final OldJacksonYamlLoader<ArrayList<EinvNames>> LOADER_JACKSON = new OldJacksonYamlLoader<>(
 			SDE_FILE);
 
-	public static final SnakeYamlALLoader<EinvNames> LOADER_SNAKEYAML = new SnakeYamlALLoader<>(
+	public static final OldSnakeYamlALLoader<EinvNames> LOADER_SNAKEYAML = new OldSnakeYamlALLoader<>(
 			SDE_FILE) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -29,7 +29,7 @@ public class EinvNames {
 		}
 	};
 
-	public static final JacksonYamlLoader<ArrayList<EinvNames>> LOADER = LOADER_SNAKEYAML;
+	public static final OldJacksonYamlLoader<ArrayList<EinvNames>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

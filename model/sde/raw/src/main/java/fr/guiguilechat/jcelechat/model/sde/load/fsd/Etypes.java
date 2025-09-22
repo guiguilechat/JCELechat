@@ -12,8 +12,8 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde.load.JacksonYamlLoader;
-import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldJacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldSnakeYamlLHMLoader;
 
 /**
  * an entry in the fsd/typeIDs.yaml
@@ -28,10 +28,10 @@ public class Etypes {
 
 	public static final String SDE_FILE = "fsd/types.yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER_JACKSON = new OldJacksonYamlLoader<>(
 			SDE_FILE);
 
-	public static final SnakeYamlLHMLoader<Integer, Etypes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE) {
+	public static final OldSnakeYamlLHMLoader<Integer, Etypes> LOADER_SNAKEYAML = new OldSnakeYamlLHMLoader<>(SDE_FILE) {
 
 		@Override
 		protected void preprocess(Node node) {
@@ -47,7 +47,7 @@ public class Etypes {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER = LOADER_JACKSON;
+	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER = LOADER_JACKSON;
 
 	//
 	// file structure

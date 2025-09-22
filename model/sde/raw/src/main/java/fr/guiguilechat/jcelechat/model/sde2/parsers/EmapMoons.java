@@ -96,7 +96,6 @@ public class EmapMoons {
 		System.err.println("named=" + withname);
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.err.println("first : solarSystemID=" + first.solarSystemID + " typeID=" + first.typeID);
-
 	}
 
 }

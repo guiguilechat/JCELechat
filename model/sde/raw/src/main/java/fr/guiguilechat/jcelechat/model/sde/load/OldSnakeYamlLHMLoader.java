@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde.load;
 
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.LoaderOptions;
@@ -11,20 +10,20 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.Node;
 
 /**
- * snakeyaml ArrayList loader
+ * snakeyaml LinkedHashMap loader
  *
  * @param <U>
  */
-public abstract class SnakeYamlALLoader<U> extends JacksonYamlLoader<ArrayList<U>> {
+public abstract class OldSnakeYamlLHMLoader<K, V> extends OldJacksonYamlLoader<LinkedHashMap<K, V>> {
 
-	public SnakeYamlALLoader(String archiveFileName) {
+	public OldSnakeYamlLHMLoader(String archiveFileName) {
 		super(archiveFileName);
 	}
 
 	protected abstract void preprocess(Node node);
 
 	@Override
-	public ArrayList<U> from(InputStream is) {
+	public LinkedHashMap<K, V> from(InputStream is) {
 
 		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
 
@@ -35,6 +34,7 @@ public abstract class SnakeYamlALLoader<U> extends JacksonYamlLoader<ArrayList<U
 			}
 		};
 		Yaml yaml = SDECache.yaml(cons);
-		return yaml.loadAs(is, ArrayList.class);
+		return yaml.loadAs(is, LinkedHashMap.class);
 	}
+
 }

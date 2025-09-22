@@ -1,0 +1,161 @@
+package fr.guiguilechat.jcelechat.model.sde2.parsers;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+
+import org.yaml.snakeyaml.nodes.MappingNode;
+import org.yaml.snakeyaml.nodes.Node;
+import org.yaml.snakeyaml.nodes.NodeId;
+import org.yaml.snakeyaml.nodes.ScalarNode;
+
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
+
+/**
+ * an entry in the fsd/typeIDs.yaml
+ */
+public class Eblueprints {
+
+	//
+	// SDE loading
+	//
+
+	public static final String SDE_FILE = "blueprints";
+	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
+
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eblueprints>> LOADER_JACKSON = new JacksonYamlLoader<>(
+			SDE_FILE_YAML);
+
+	public static final SnakeYamlLHMLoader<Integer, Eblueprints> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+			SDE_FILE_YAML) {
+
+		protected void preprocess(Node node) {
+			if (node.getNodeId() == NodeId.mapping) {
+				MappingNode mn = (MappingNode) node;
+				if (mn.getValue().size() > 0) {
+					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+							.filter("blueprintTypeID"::equals).findAny().isPresent()) {
+						node.setType(Eblueprints.class);
+					}
+				}
+			}
+		}
+	};
+
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eblueprints>> LOADER = LOADER_SNAKEYAML;
+
+	//
+	// file structure
+	//
+
+	public int blueprintTypeID;
+	public int maxProductionLimit;
+
+	/**
+	 * used in the blueprints as requirement, or products
+	 */
+	public static class Material {
+		public int quantity;
+		public int typeID;
+		public float probability = 1.0f;
+	}
+
+	public static class Skill {
+		public int typeID;
+		public int level;
+	}
+
+	public BPActivities activities = new BPActivities();
+
+	public static class BPActivities {
+
+		public static class ActivityValues {
+			public ArrayList<Material> materials = new ArrayList<>();
+			public ArrayList<Material> products = new ArrayList<>();
+			public ArrayList<Skill> skills = new ArrayList<>();
+			public int time;
+
+			public boolean active() {
+				return time > 0 || !materials.isEmpty() || !products.isEmpty() || !skills.isEmpty();
+			}
+		}
+
+		public ActivityValues copying = new ActivityValues();
+		public ActivityValues invention = new ActivityValues();
+		public ActivityValues reaction = new ActivityValues();
+
+		public ActivityValues manufacturing = new ActivityValues();
+		public ActivityValues research_material = new ActivityValues();
+		public ActivityValues research_time = new ActivityValues();
+
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (obj != null && obj.getClass() == Eblueprints.class) {
+			return ((Eblueprints) obj).blueprintTypeID == blueprintTypeID;
+		}
+		return false;
+	}
+
+	@Override
+	public int hashCode() {
+		return blueprintTypeID;
+	}
+
+	public enum ActivityType {
+		copying {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
+					BPActivities act) {
+				return act.copying;
+			}
+		},
+		invention {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
+					BPActivities act) {
+				return act.invention;
+			}
+		},
+		manufacturing {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
+					BPActivities act) {
+				return act.manufacturing;
+			}
+		},
+		reaction {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
+					BPActivities act) {
+				return act.reaction;
+			}
+		},
+		research_material {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
+					BPActivities act) {
+				return act.research_material;
+			}
+		},
+		research_time {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
+					BPActivities act) {
+				return act.research_time;
+			}
+		};
+
+		public abstract fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
+				BPActivities act);
+	}
+
+	public static void main(String[] args) {
+		System.err.println("loaded : " + LOADER.load().size());
+		var first = LOADER.load().entrySet().iterator().next().getValue();
+		System.err.println(
+				"first : id=" + first.blueprintTypeID + " maxproduction=" + first.maxProductionLimit);
+	}
+
+}

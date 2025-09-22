@@ -9,9 +9,6 @@ import org.yaml.snakeyaml.nodes.ScalarNode;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
-/**
- * an entry in the fsd/agentsInSpace.yaml
- */
 public class EagentsInSpace {
 
 	//

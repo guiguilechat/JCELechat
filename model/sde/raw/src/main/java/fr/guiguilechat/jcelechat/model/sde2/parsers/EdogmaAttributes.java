@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.load.fsd;
+package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -8,8 +8,8 @@ import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde.load.OldJacksonYamlLoader;
-import fr.guiguilechat.jcelechat.model.sde.load.OldSnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 /**
  *
@@ -20,13 +20,14 @@ public class EdogmaAttributes {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "fsd/dogmaAttributes.yaml";
+	public static final String SDE_FILE = "dogmaAttributes";
+	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributes>> LOADER_JACKSON = new OldJacksonYamlLoader<>(
-			SDE_FILE);
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributes>> LOADER_JACKSON = new JacksonYamlLoader<>(
+			SDE_FILE_YAML);
 
-	public static final OldSnakeYamlLHMLoader<Integer, EdogmaAttributes> LOADER_SNAKEYAML = new OldSnakeYamlLHMLoader<>(
-			SDE_FILE) {
+	public static final SnakeYamlLHMLoader<Integer, EdogmaAttributes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
 			if (node.getNodeId() == NodeId.mapping) {
@@ -41,7 +42,7 @@ public class EdogmaAttributes {
 		}
 	};
 
-	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributes>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributes>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure
@@ -53,7 +54,7 @@ public class EdogmaAttributes {
 	public int dataType;
 	public float defaultValue;
 	public String description;
-	public Map<String, String> displayNameID = new HashMap<>();
+	public Map<String, String> displayName = new HashMap<>();
 	public boolean displayWhenZero;
 	public boolean highIsGood;
 	public int iconID;
@@ -62,12 +63,16 @@ public class EdogmaAttributes {
 	public String name;
 	public boolean published;
 	public boolean stackable;
-	public Map<String, String> tooltipDescriptionID = new HashMap<>();
-	public Map<String, String> tooltipTitleID = new HashMap<>();
+	public Map<String, String> tooltipDescription = new HashMap<>();
+	public Map<String, String> tooltipTitle = new HashMap<>();
 	public Integer unitID;
 
 	public static void main(String[] args) {
-		System.out.println("loaded " + LOADER.load().size() + " attributes");
+		var data = LOADER.load();
+		System.err.println("loaded : " + data.size());
+		var first = data.entrySet().iterator().next().getValue();
+		System.err.println(
+				"first : name=" + first.name + " published=" + first.published);
 	}
 
 }

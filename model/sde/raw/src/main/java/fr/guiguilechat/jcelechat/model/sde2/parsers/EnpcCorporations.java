@@ -1,17 +1,16 @@
-package fr.guiguilechat.jcelechat.model.sde.load.fsd;
+package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde.load.OldJacksonYamlLoader;
-import fr.guiguilechat.jcelechat.model.sde.load.OldSnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class EnpcCorporations {
 
@@ -19,13 +18,14 @@ public class EnpcCorporations {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "fsd/npcCorporations.yaml";
+	public static final String SDE_FILE = "npcCorporations";
+	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, EnpcCorporations>> LOADER_JACKSON = new OldJacksonYamlLoader<>(
-			SDE_FILE);
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EnpcCorporations>> LOADER_JACKSON = new JacksonYamlLoader<>(
+			SDE_FILE_YAML);
 
-	public static final OldSnakeYamlLHMLoader<Integer, EnpcCorporations> LOADER_SNAKEYAML = new OldSnakeYamlLHMLoader<>(
-			SDE_FILE) {
+	public static final SnakeYamlLHMLoader<Integer, EnpcCorporations> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
 			if (node.getNodeId() == NodeId.mapping) {
@@ -40,7 +40,7 @@ public class EnpcCorporations {
 		}
 	};
 
-	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, EnpcCorporations>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EnpcCorporations>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure
@@ -50,7 +50,7 @@ public class EnpcCorporations {
 	public int ceoID;
 	public HashMap<Integer, Double> corporationTrades = new HashMap<>();
 	public boolean deleted;
-	public HashMap<String, String> descriptionID = new HashMap<>();
+	public HashMap<String, String> description = new HashMap<>();
 	public int enemyID;
 	public HashMap<Integer, Double> exchangeRates = new HashMap<>();
 	public String extent;
@@ -64,7 +64,7 @@ public class EnpcCorporations {
 	public int memberLimit;
 	public double minSecurity;
 	public int minimumJoinStanding;
-	public HashMap<String, String> nameID = new HashMap<>();
+	public HashMap<String, String> name = new HashMap<>();
 	public int publicShares;
 	public int raceID;
 	public int secondaryActivityID;
@@ -91,7 +91,7 @@ public class EnpcCorporations {
 	//
 
 	public String enName() {
-		return nameID.getOrDefault("en", "unknowncorp" + nameID);
+		return name.getOrDefault("en", "unknowncorp" + name);
 	}
 
 	public static final int CONCORD_ID = 1000125;
@@ -103,9 +103,10 @@ public class EnpcCorporations {
 	//
 
 	public static void main(String[] args) {
-		for (Entry<Integer, EnpcCorporations> e : LOADER.load().entrySet()) {
-			e.getValue().enName();
-		}
+		var loaded = LOADER.load();
+		System.err.println("loaded : " + loaded.size());
+		var first = loaded.entrySet().iterator().next().getValue();
+		System.err.println("first : solarSystemID=" + first.solarSystemID + " name=" + first.enName());
 	}
 
 }

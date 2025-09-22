@@ -6,8 +6,8 @@ import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde.load.JacksonYamlLoader;
-import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldJacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldSnakeYamlLHMLoader;
 
 /**
  * an entry in the fsd/agents.yaml
@@ -20,10 +20,10 @@ public class Eagents {
 
 	public static final String SDE_FILE = "fsd/agents.yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eagents>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, Eagents>> LOADER_JACKSON = new OldJacksonYamlLoader<>(
 			SDE_FILE);
 
-	public static final SnakeYamlLHMLoader<Integer, Eagents> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE) {
+	public static final OldSnakeYamlLHMLoader<Integer, Eagents> LOADER_SNAKEYAML = new OldSnakeYamlLHMLoader<>(SDE_FILE) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
 			if (node.getNodeId() == NodeId.mapping) {
@@ -38,7 +38,7 @@ public class Eagents {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eagents>> LOADER = LOADER_SNAKEYAML;
+	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, Eagents>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

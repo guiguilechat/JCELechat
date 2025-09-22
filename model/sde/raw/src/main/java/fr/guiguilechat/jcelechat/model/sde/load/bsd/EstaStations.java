@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 
 import org.yaml.snakeyaml.nodes.NodeId;
 
-import fr.guiguilechat.jcelechat.model.sde.load.JacksonYamlLoader;
-import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlALLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldJacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldSnakeYamlALLoader;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -19,10 +19,10 @@ public class EstaStations {
 
 	public static final String SDE_FILE = "bsd/staStations.yaml";
 
-	public static final JacksonYamlLoader<ArrayList<EstaStations>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final OldJacksonYamlLoader<ArrayList<EstaStations>> LOADER_JACKSON = new OldJacksonYamlLoader<>(
 			SDE_FILE);
 
-	public static final SnakeYamlALLoader<EstaStations> LOADER_SNAKEYAML = new SnakeYamlALLoader<>(
+	public static final OldSnakeYamlALLoader<EstaStations> LOADER_SNAKEYAML = new OldSnakeYamlALLoader<>(
 			SDE_FILE) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -32,7 +32,7 @@ public class EstaStations {
 		}
 	};
 
-	public static final JacksonYamlLoader<ArrayList<EstaStations>> LOADER = LOADER_SNAKEYAML;
+	public static final OldJacksonYamlLoader<ArrayList<EstaStations>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

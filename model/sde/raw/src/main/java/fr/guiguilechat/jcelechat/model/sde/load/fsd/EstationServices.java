@@ -7,8 +7,8 @@ import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde.load.JacksonYamlLoader;
-import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldJacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde.load.OldSnakeYamlLHMLoader;
 
 public class EstationServices {
 
@@ -18,10 +18,10 @@ public class EstationServices {
 
 	public static final String SDE_FILE = "fsd/stationServices.yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EstationServices>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, EstationServices>> LOADER_JACKSON = new OldJacksonYamlLoader<>(
 			SDE_FILE);
 
-	public static final SnakeYamlLHMLoader<Integer, EstationServices> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final OldSnakeYamlLHMLoader<Integer, EstationServices> LOADER_SNAKEYAML = new OldSnakeYamlLHMLoader<>(
 			SDE_FILE) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -37,7 +37,7 @@ public class EstationServices {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EstationServices>> LOADER = LOADER_SNAKEYAML;
+	public static final OldJacksonYamlLoader<LinkedHashMap<Integer, EstationServices>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure
