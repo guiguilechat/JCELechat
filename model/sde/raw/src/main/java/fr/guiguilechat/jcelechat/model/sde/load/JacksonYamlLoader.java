@@ -29,6 +29,7 @@ public class JacksonYamlLoader<U> {
 	public synchronized U load() {
 		if (cache == null) {
 			try {
+				SDECache.INSTANCE.donwloadSDE();
 				cache = from(new FileInputStream(getArchiveFile()));
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException(e);
