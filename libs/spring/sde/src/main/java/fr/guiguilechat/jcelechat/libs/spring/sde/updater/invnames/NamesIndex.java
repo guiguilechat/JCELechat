@@ -34,7 +34,7 @@ public class NamesIndex implements SdeUpdateListener {
 	@Override
 	public void onSdeFile(String name, Supplier<InputStream> fileContent) {
 		if (ENTRYNAME_INVNAMES_PATTERN.matcher(name).matches()) {
-			index = EinvNames.from(fileContent.get())
+			index = EinvNames.LOADER.from(fileContent.get())
 					.stream().collect(Collectors.toMap(e -> e.itemID, e -> e.itemName));
 			return;
 		}

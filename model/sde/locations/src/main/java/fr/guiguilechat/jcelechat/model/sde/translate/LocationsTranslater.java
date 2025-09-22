@@ -309,7 +309,7 @@ public class LocationsTranslater {
 		Collections.sort(added.services);
 		EstaStations esta = stationsByID().get(id);
 		if (esta == null) {
-			logger.error("station id " + id + " can't be retrieved from " + EstaStations.FILE);
+			logger.error("station id " + id + " can't be retrieved from " + EstaStations.SDE_FILE);
 			return null;
 		}
 		added.name = EinvNames.loadById().get(id);
