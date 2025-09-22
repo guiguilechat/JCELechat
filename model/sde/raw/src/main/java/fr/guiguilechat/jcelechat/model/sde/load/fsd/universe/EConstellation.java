@@ -31,7 +31,7 @@ public class EConstellation {
 		if (!contellationDir.isDirectory()) {
 			return null;
 		}
-		File[] data = contellationDir.listFiles((d, name) -> name.equals("constellation.yaml"));
+		File[] data = contellationDir.listFiles((_, name) -> name.equals("constellation.yaml"));
 		if (data == null || data.length != 1 || !data[0].exists() || !data[0].isFile()) {
 			throw new UnsupportedOperationException(
 					"while looking for one file of constellation data, found " + Arrays.asList(data));

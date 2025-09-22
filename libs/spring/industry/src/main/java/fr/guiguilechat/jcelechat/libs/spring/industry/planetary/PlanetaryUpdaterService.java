@@ -54,7 +54,7 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 
 	private void saveSchematics(InputStream is) {
 		sdeFileMissing = false;
-		Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>(EplanetSchematics.from(is));
+		Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>(EplanetSchematics.LOADER.from(is));
 
 		Map<Integer, Type> typesById = typeService.createIfAbsent(
 		    planetSchematics.entrySet().stream()

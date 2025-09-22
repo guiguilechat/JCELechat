@@ -51,7 +51,7 @@ public class ReprocessUpdater implements SdeUpdateListener {
 
 	protected void saveReprocess(InputStream inputStream) {
 		sdeFileMissing = false;
-		LinkedHashMap<Integer, EtypeMaterials> reprocesses = EtypeMaterials.from(inputStream);
+		LinkedHashMap<Integer, EtypeMaterials> reprocesses = EtypeMaterials.LOADER.from(inputStream);
 		Map<Integer, Type> idToType = typeService.createIfAbsent(reprocesses.entrySet().stream()
 		    .flatMap(
 		        e -> Stream.concat(Stream.of(e.getKey()),

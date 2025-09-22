@@ -71,7 +71,7 @@ public class ClientCacheBlueprintTranslator {
 			addUsages(translated, usages);
 		}
 
-		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.load().entrySet()) {
+		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.LOADER.load().entrySet()) {
 			EveType inputMat = TypeIndex.getType(e.getKey());
 			if (inputMat == null) {
 				log.warn("can't find type id=" + e.getKey() + " reprocessed into " + e.getValue());

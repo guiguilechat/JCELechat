@@ -78,7 +78,7 @@ public class PlanningAnalysis {
 			required.add(ss);
 		}
 
-		Predicate<SolarSystem> pred = ss -> true;
+		Predicate<SolarSystem> pred = _ -> true;
 		// which security of included constellations and regions are allowed for
 		// implicit systems ?
 

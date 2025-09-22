@@ -26,7 +26,7 @@ public class ERegion {
 		if (!regionDir.isDirectory()) {
 			return null;
 		}
-		File[] data = regionDir.listFiles((d, name) -> name.equals("region.yaml"));
+		File[] data = regionDir.listFiles((_, name) -> name.equals("region.yaml"));
 		if (data == null || data.length != 1 || !data[0].exists() || !data[0].isFile()) {
 			throw new UnsupportedOperationException(
 					"while looking for one region.staticdata, found : " + Arrays.asList(data));

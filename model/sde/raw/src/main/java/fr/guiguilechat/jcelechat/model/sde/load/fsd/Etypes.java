@@ -20,6 +20,8 @@ import fr.guiguilechat.jcelechat.model.sde.load.SnakeYamlLHMLoader;
  */
 public class Etypes {
 
+	private static final Logger logger = LoggerFactory.getLogger(Etypes.class);
+
 	//
 	// SDE loading
 	//
@@ -47,7 +49,9 @@ public class Etypes {
 
 	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER = LOADER_JACKSON;
 
-	private static final Logger logger = LoggerFactory.getLogger(Etypes.class);
+	//
+	// file structure
+	//
 
 	public static class Etraits {
 		public static class Bonus {

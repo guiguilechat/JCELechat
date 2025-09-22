@@ -41,7 +41,7 @@ public class LocationsTranslater {
 
 	public static final Logger logger = LoggerFactory.getLogger(LocationsTranslater.class);
 
-	public static enum REGION_TYPE {
+	public enum REGION_TYPE {
 		ABYSSAL, KS, JOVIAN, PENALTY, POCHVEN, STARTER, WORMHOLE,
 	}
 
@@ -73,7 +73,7 @@ public class LocationsTranslater {
 
 		Stream.of(regions, constellations, systems, stations).forEach(m -> {
 			ArrayList<Entry<String, ?>> list = new ArrayList<>(m.entrySet());
-			Collections.sort(list, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
+			Collections.sort(list, Comparator.comparing(Entry<String, ?>::getKey));
 			m.clear();
 			for (Entry<String, ?> e : list) {
 				((Map<String, Object>) m).put(e.getKey(), e.getValue());
@@ -324,9 +324,10 @@ public class LocationsTranslater {
 
 	protected static synchronized Map<Integer, Set<String>> operationServices() {
 		if (operationServices == null) {
-			Map<Integer, String> servicesnames = EstationServices.load().entrySet().stream()
+			Map<Integer, String> servicesnames = EstationServices.LOADER.load().entrySet().stream()
 					.collect(Collectors.toMap(Entry::getKey, e -> e.getValue().enName()));
-			operationServices = EstationOperations.load().entrySet().stream().collect(Collectors.toMap(Entry::getKey,
+			operationServices = EstationOperations.LOADER.load().entrySet().stream().collect(Collectors.toMap(
+					Entry::getKey,
 					e -> IntStream.of(e.getValue().services).mapToObj(servicesnames::get).collect(Collectors.toSet())));
 		}
 		return operationServices;

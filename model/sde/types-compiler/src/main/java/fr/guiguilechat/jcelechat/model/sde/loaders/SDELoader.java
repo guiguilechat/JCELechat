@@ -68,7 +68,7 @@ public class SDELoader {
 
 		HashSet<Integer> floatAttributeIds = new HashSet<>();
 		HashSet<Integer> allAttributesIds = new HashSet<>();
-		for (Entry<Integer, EtypeDogma> e : EtypeDogma.load().entrySet()) {
+		for (Entry<Integer, EtypeDogma> e : EtypeDogma.LOADER.load().entrySet()) {
 			int typeID = e.getKey();
 			TypeDetails td = ret.typeID2Details.get(typeID);
 			if (td == null) {

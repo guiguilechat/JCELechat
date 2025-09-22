@@ -121,7 +121,7 @@ public class ESolarSystem {
 	}
 
 	public static ESolarSystem load(File systemDir) {
-		File[] data = systemDir.listFiles((d, name) -> name.equals("solarsystem.yaml"));
+		File[] data = systemDir.listFiles((_, name) -> name.equals("solarsystem.yaml"));
 		if (data == null || data.length != 1 || !data[0].exists() || !data[0].isFile()) {
 			throw new UnsupportedOperationException(
 					"while looking for one file of system data, found " + Arrays.asList(data));
