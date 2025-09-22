@@ -64,12 +64,45 @@ public class Eblueprints {
 	}
 
 	public enum ActivityType {
-		copying,
-		invention,
-		manufacturing,
-		reaction,
-		research_material,
-		research_time
+		copying {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity of(BPActivities act) {
+				return act.copying;
+			}
+		},
+		invention {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity of(BPActivities act) {
+				return act.invention;
+			}
+		},
+		manufacturing {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity of(BPActivities act) {
+				return act.manufacturing;
+			}
+		},
+		reaction {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity of(BPActivities act) {
+				return act.reaction;
+			}
+		},
+		research_material {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity of(BPActivities act) {
+				return act.research_material;
+			}
+		},
+		research_time {
+			@Override
+			public fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity of(BPActivities act) {
+				return act.research_time;
+			}
+		};
+
+		public abstract fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity of(
+				BPActivities act);
 	}
 
 	public BPActivities activities = new BPActivities();
@@ -95,20 +128,6 @@ public class Eblueprints {
 		public Activity research_material = new Activity();
 		public Activity research_time = new Activity();
 
-		public Activity activity(ActivityType at) {
-			return switch (at) {
-			case copying -> copying;
-			case invention -> invention;
-			case manufacturing -> manufacturing;
-			case reaction -> reaction;
-			case research_material -> research_material;
-			case research_time -> research_time;
-			default ->
-				throw new IllegalArgumentException("Unexpected value: " + at);
-
-			};
-		}
-
 	}
 
 	@Override
@@ -122,6 +141,13 @@ public class Eblueprints {
 	@Override
 	public int hashCode() {
 		return blueprintTypeID;
+	}
+
+	public static void main(String[] args) {
+		System.err.println("loaded : " + LOADER.load().size());
+		var first = LOADER.load().entrySet().iterator().next().getValue();
+		System.err.println(
+				"first : id=" + first.blueprintTypeID + " maxproduction=" + first.maxProductionLimit);
 	}
 
 }

@@ -76,7 +76,7 @@ public class BlueprintActivity implements Serializable {
 
 	public static BlueprintActivity of(Eblueprints bp,
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType at, Type type) {
-		Activity act = bp.activities.activity(at);
+		Activity act = at.of(bp.activities);
 		return builder()
 				.type(type)
 				.activity(ActivityType.from(at))
