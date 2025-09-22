@@ -45,14 +45,15 @@ public class EagentsInSpace {
 	// file structure
 	//
 
-	public int dungeonID,
-			solarSystemID,
-			spawnPointID,
-			typeID;
+	public int dungeonID;
+	public int solarSystemID;
+	public int spawnPointID;
+	public int typeID;
 
 	public static void main(String[] args) {
 		System.err.println("loaded : " + LOADER.load().size());
-		System.err.println("first dungeonid is : " + LOADER.load().entrySet().iterator().next().getValue().dungeonID);
+		var first = LOADER.load().entrySet().iterator().next().getValue();
+		System.err.println("first : dungeonid=" + first.dungeonID + " solarsystem=" + first.solarSystemID);
 	}
 
 }
