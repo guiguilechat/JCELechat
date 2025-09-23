@@ -9,19 +9,19 @@ import org.yaml.snakeyaml.nodes.ScalarNode;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
-public class Eagents {
+public class Egraphics {
 
 	//
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "agents";
+	public static final String SDE_FILE = "graphics";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eagents>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, Egraphics>> LOADER_JACKSON = new JacksonYamlLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, Eagents> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<Integer, Egraphics> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -29,33 +29,31 @@ public class Eagents {
 				MappingNode mn = (MappingNode) node;
 				if (mn.getValue().size() > 0) {
 					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-							.filter("agentTypeID"::equals).findAny().isPresent()) {
-						node.setType(Eagents.class);
+							.filter("name"::equals).findAny().isPresent()) {
+						node.setType(Egraphics.class);
 					}
 				}
 			}
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Eagents>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, Egraphics>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure
 	//
 
-	public int agentTypeID;
-	public int corporationID;
-	public int divisionID;
-	public boolean isLocator;
-	public int level;
-	public int locationID;
+	public String graphicFile;
+	public String iconFolder;
+	public String sofFactionName;
+	public String sofHullName;
+	public String sofRaceName;
 
 	//
 
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
 		System.out.println("loaded : " + loaded.size());
-		var first = loaded.entrySet().iterator().next().getValue();
-		System.out.println("first : corporation=" + first.corporationID + " level=" + first.level);
+		loaded.entrySet().iterator().next().getValue();
 	}
 }

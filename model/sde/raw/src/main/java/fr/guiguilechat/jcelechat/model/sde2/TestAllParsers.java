@@ -25,11 +25,47 @@ public class TestAllParsers {
 				EcontrolTowerResources.class,
 				EcorporationActivities.class,
 				EdbuffCollections.class,
-				EdogmaAttributeCategory.class,
+				EdogmaAttributeCategories.class,
 				EdogmaAttributes.class,
-				EdogmaEffects.class
+				EdogmaEffects.class,
+				EdogmaUnits.class,
+				EdynamicItemAttributes.class,
+				Efactions.class,
+				Egraphics.class,
+				Egroups.class,
+				// icons,
+				// landmarks
+				EmapAsteroidBelts.class,
+				EmapConstellations.class,
+				EmapMoons.class,
+				EmapPlanets.class,
+				EmapRegions.class,
+				EmapSolarSystems.class,
+				EmapStargates.class,
+				EmapStars.class,
+				EmarketGroups.class,
+				// masteries,
+				// metagroup,
+				// npccorporationdivisions,
+				EnpcCorporations.class,
+				// npcstations,
+				// planet resources,
+				EplanetSchematics.class,
+				// races,
+				// research agents,
+				// skin licenses,
+				// skin materials,
+				// skins,
+				// sovereignty upgrades,
+				EstationOperations.class,
+				EstationServices.class,
+				// translation languages
+				// type bonus
+				EtypeDogma.class,
+				EtypeMaterials.class,
+				Etypes.class
 		}) {
-			System.err.println(cl.getSimpleName());
+			System.out.println(cl.getSimpleName());
 			Method m = cl.getMethod("main", String[].class);
 			m.invoke(null, new Object[] { null });
 		}

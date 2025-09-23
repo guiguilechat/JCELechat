@@ -9,7 +9,7 @@ import org.yaml.snakeyaml.nodes.ScalarNode;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
-public class EdogmaAttributeCategory {
+public class EdogmaAttributeCategories {
 
 	//
 	// SDE loading
@@ -18,10 +18,10 @@ public class EdogmaAttributeCategory {
 	public static final String SDE_FILE = "dogmaAttributeCategories";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributeCategory>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributeCategories>> LOADER_JACKSON = new JacksonYamlLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EdogmaAttributeCategory> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<Integer, EdogmaAttributeCategories> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -30,14 +30,14 @@ public class EdogmaAttributeCategory {
 				if (mn.getValue().size() > 0) {
 					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
 							.filter("name"::equals).findAny().isPresent()) {
-						node.setType(EdogmaAttributeCategory.class);
+						node.setType(EdogmaAttributeCategories.class);
 					}
 				}
 			}
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributeCategory>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributeCategories>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure
@@ -50,8 +50,8 @@ public class EdogmaAttributeCategory {
 
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
-		System.err.println("loaded : " + loaded.size());
+		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.err.println("first : name=" + first.name);
+		System.out.println("first : name=" + first.name);
 	}
 }

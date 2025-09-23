@@ -68,9 +68,9 @@ public class EtypeDogma {
 
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
-		System.err.println("loaded : " + loaded.size());
+		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.err.println(
+		System.out.println(
 				"first : attributes=" + first.dogmaAttributes.size() + " effects=" + first.dogmaEffects.size());
 	}
 

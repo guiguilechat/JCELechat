@@ -53,11 +53,11 @@ public class EmapPlanets extends OrbitingCelestial {
 
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
-		System.err.println("loaded : " + loaded.size());
+		System.out.println("loaded : " + loaded.size());
 		long withname = loaded.values().stream().filter(m -> m.name != null).count();
-		System.err.println("named=" + withname);
+		System.out.println("named=" + withname);
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.err.println("first : solarSystemID=" + first.solarSystemID + " typeID=" + first.typeID);
+		System.out.println("first : solarSystemID=" + first.solarSystemID + " typeID=" + first.typeID);
 	}
 
 }

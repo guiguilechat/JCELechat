@@ -55,11 +55,11 @@ public class EmapConstellations extends InSpace {
 
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
-		System.err.println("loaded : " + loaded.size());
+		System.out.println("loaded : " + loaded.size());
 		long withname = loaded.values().stream().filter(m -> m.name != null).count();
-		System.err.println("named=" + withname);
+		System.out.println("named=" + withname);
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.err.println(
+		System.out.println(
 				"first : regionID=" + first.regionID + " name=" + first.enName() + " position=" + first.position);
 	}
 }

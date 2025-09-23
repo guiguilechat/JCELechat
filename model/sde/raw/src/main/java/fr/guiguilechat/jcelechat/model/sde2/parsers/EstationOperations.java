@@ -68,9 +68,9 @@ public class EstationOperations {
 
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
-		System.err.println("loaded : " + loaded.size());
+		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.err
+		System.out
 				.println("first : operationName=" + first.enOperationName() + " description=" + first.enDescription());
 	}
 

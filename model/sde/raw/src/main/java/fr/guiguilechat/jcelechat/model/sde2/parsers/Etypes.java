@@ -102,9 +102,9 @@ public class Etypes {
 
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
-		System.err.println("loaded : " + loaded.size());
+		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.err.println("first : name=" + first.enName() + " description=" + first.enDescription());
+		System.out.println("first : name=" + first.enName() + " description=" + first.enDescription());
 	}
 
 }
