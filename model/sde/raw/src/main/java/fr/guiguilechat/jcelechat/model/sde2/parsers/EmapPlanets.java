@@ -11,19 +11,19 @@ import fr.guiguilechat.jcelechat.model.sde2.parsers.inspace.OrbitingCelestial;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
-public class EmapMoons extends OrbitingCelestial {
+public class EmapPlanets extends OrbitingCelestial {
 
 	//
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "mapMoons";
+	public static final String SDE_FILE = "mapPlanets";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapMoons>> LOADER_JACKSON_YAML = new JacksonYamlLoader<>(
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapPlanets>> LOADER_JACKSON_YAML = new JacksonYamlLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EmapMoons> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<Integer, EmapPlanets> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -32,19 +32,21 @@ public class EmapMoons extends OrbitingCelestial {
 				if (mn.getValue().size() > 0) {
 					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
 							.filter("solarSystemID"::equals).findAny().isPresent()) {
-						node.setType(EmapMoons.class);
+						node.setType(EmapPlanets.class);
 					}
 				}
 			}
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapMoons>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapPlanets>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure
 	//
 
+	public List<Integer> asteroidBeltIDs;
+	public List<Integer> moonIDs;
 	public List<Integer> npcStationIDs;
 
 	//
