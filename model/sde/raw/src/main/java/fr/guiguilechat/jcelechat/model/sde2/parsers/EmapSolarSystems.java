@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
 
 import org.yaml.snakeyaml.nodes.MappingNode;
@@ -10,7 +9,7 @@ import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
 import fr.guiguilechat.jcelechat.model.sde2.parsers.inspace.InSpace;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class EmapSolarSystems extends InSpace {
@@ -22,10 +21,10 @@ public class EmapSolarSystems extends InSpace {
 	public static final String SDE_FILE = "mapSolarSystems";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapSolarSystems>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<EmapSolarSystems> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EmapSolarSystems> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<EmapSolarSystems> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -41,7 +40,7 @@ public class EmapSolarSystems extends InSpace {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapSolarSystems>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<EmapSolarSystems> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

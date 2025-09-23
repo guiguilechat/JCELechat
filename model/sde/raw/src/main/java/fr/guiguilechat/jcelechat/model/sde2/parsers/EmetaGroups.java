@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class EmetaGroups {
@@ -20,10 +19,10 @@ public class EmetaGroups {
 	public static final String SDE_FILE = "metaGroups";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmetaGroups>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<EmetaGroups> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EmetaGroups> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<EmetaGroups> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -39,7 +38,7 @@ public class EmetaGroups {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmetaGroups>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<EmetaGroups> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

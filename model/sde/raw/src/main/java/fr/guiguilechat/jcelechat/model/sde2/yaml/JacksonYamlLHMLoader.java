@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.LoaderOptions;
 
@@ -16,7 +17,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class JacksonYamlLoader<U> {
+public class JacksonYamlLHMLoader<U> {
 
 	@Getter
 	private final String archiveFileName;
@@ -24,9 +25,9 @@ public class JacksonYamlLoader<U> {
 	@Getter(lazy = true)
 	private final File archiveFile = new File(YamlCache.INSTANCE.extractCacheDir(), archiveFileName);
 
-	private U cache = null;
+	private LinkedHashMap<Integer, U>  cache = null;
 
-	public synchronized U load() {
+	public synchronized LinkedHashMap<Integer, U> load() {
 		if (cache == null) {
 			try {
 				YamlCache.INSTANCE.donwloadSDE();
@@ -38,7 +39,7 @@ public class JacksonYamlLoader<U> {
 		return cache;
 	}
 
-	public U from(InputStream is) {
+	public LinkedHashMap<Integer, U>  from(InputStream is) {
 		LoaderOptions loaderOptions = new LoaderOptions();
 		loaderOptions.setCodePointLimit(Integer.MAX_VALUE);
 		YAMLFactory yamlFactory = YAMLFactory.builder()
@@ -46,11 +47,15 @@ public class JacksonYamlLoader<U> {
 			    .build();
 		var mapper = new ObjectMapper(yamlFactory);
 		try {
-			return mapper.readerFor(new TypeReference<U>() {
+			return mapper.readerFor(new TypeReference<LinkedHashMap<Integer, U>>() {
 			}).readValue(is);
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}
+	}
+
+	public U get(int id) {
+		return load().get(id);
 	}
 
 }

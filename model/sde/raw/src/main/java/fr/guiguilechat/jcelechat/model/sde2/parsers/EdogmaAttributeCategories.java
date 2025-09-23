@@ -1,12 +1,10 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
-import java.util.LinkedHashMap;
-
 import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class EdogmaAttributeCategories {
@@ -18,10 +16,10 @@ public class EdogmaAttributeCategories {
 	public static final String SDE_FILE = "dogmaAttributeCategories";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributeCategories>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<EdogmaAttributeCategories> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EdogmaAttributeCategories> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<EdogmaAttributeCategories> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -37,7 +35,7 @@ public class EdogmaAttributeCategories {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributeCategories>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<EdogmaAttributeCategories> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

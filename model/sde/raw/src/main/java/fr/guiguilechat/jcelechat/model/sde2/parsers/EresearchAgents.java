@@ -1,14 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
 
 import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class EresearchAgents {
@@ -20,10 +19,10 @@ public class EresearchAgents {
 	public static final String SDE_FILE = "researchAgents";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EresearchAgents>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<EresearchAgents> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EresearchAgents> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<EresearchAgents> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -39,7 +38,7 @@ public class EresearchAgents {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EresearchAgents>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<EresearchAgents> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

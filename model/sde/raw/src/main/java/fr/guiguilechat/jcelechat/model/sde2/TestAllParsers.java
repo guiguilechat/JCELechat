@@ -5,7 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 import fr.guiguilechat.jcelechat.model.sde2.parsers.*;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.YamlCache;
 
 public class TestAllParsers {
@@ -69,7 +69,7 @@ public class TestAllParsers {
 		}) {
 			long start = System.currentTimeMillis();
 			Field f = cl.getField("LOADER");
-			JacksonYamlLoader<?> loader = (JacksonYamlLoader<?>) f.get(null);
+			JacksonYamlLHMLoader<?> loader = (JacksonYamlLHMLoader<?>) f.get(null);
 
 			System.out.println("\n" + loader.getArchiveFileName());
 			Method m = cl.getMethod("main", String[].class);

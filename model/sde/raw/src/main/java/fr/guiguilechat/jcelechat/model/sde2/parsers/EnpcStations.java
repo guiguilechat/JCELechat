@@ -1,14 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.math.BigDecimal;
-import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
 import fr.guiguilechat.jcelechat.model.sde2.parsers.inspace.Orbiting;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class EnpcStations extends Orbiting {
@@ -20,10 +19,10 @@ public class EnpcStations extends Orbiting {
 	public static final String SDE_FILE = "npcStations";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EnpcStations>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<EnpcStations> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EnpcStations> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<EnpcStations> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -39,7 +38,7 @@ public class EnpcStations extends Orbiting {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EnpcStations>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<EnpcStations> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

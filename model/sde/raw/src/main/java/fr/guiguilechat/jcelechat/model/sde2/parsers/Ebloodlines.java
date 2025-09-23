@@ -6,7 +6,7 @@ import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class Ebloodlines {
@@ -18,10 +18,10 @@ public class Ebloodlines {
 	public static final String SDE_FILE = "bloodlines";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Ebloodlines>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<Ebloodlines> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, Ebloodlines> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<Ebloodlines> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -37,7 +37,7 @@ public class Ebloodlines {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Ebloodlines>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<Ebloodlines> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +10,7 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class Etypes {
@@ -25,10 +24,10 @@ public class Etypes {
 	public static final String SDE_FILE = "types";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<Etypes> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, Etypes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML) {
+	public static final SnakeYamlLHMLoader<Etypes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML) {
 
 		@Override
 		protected void preprocess(Node node) {
@@ -45,7 +44,7 @@ public class Etypes {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Etypes>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<Etypes> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

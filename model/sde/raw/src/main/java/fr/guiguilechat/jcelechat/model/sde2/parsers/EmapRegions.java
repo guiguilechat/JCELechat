@@ -10,7 +10,7 @@ import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
 import fr.guiguilechat.jcelechat.model.sde2.parsers.inspace.InSpace;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class EmapRegions extends InSpace {
@@ -22,10 +22,10 @@ public class EmapRegions extends InSpace {
 	public static final String SDE_FILE = "mapRegions";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapRegions>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<EmapRegions> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EmapRegions> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<EmapRegions> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -41,7 +41,7 @@ public class EmapRegions extends InSpace {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapRegions>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<EmapRegions> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

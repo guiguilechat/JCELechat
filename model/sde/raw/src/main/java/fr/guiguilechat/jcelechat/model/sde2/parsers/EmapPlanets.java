@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
-import java.util.LinkedHashMap;
 import java.util.List;
 
 import org.yaml.snakeyaml.nodes.MappingNode;
@@ -8,7 +7,7 @@ import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
 import fr.guiguilechat.jcelechat.model.sde2.parsers.inspace.OrbitingCelestial;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class EmapPlanets extends OrbitingCelestial {
@@ -20,10 +19,10 @@ public class EmapPlanets extends OrbitingCelestial {
 	public static final String SDE_FILE = "mapPlanets";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapPlanets>> LOADER_JACKSON_YAML = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<EmapPlanets> LOADER_JACKSON_YAML = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EmapPlanets> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<EmapPlanets> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -39,7 +38,7 @@ public class EmapPlanets extends OrbitingCelestial {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapPlanets>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<EmapPlanets> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure

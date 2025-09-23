@@ -1,13 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
 public class Ecategories {
@@ -19,10 +18,10 @@ public class Ecategories {
 	public static final String SDE_FILE = "categories";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Ecategories>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLHMLoader<Ecategories> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, Ecategories> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<Ecategories> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -38,7 +37,7 @@ public class Ecategories {
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, Ecategories>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLHMLoader<Ecategories> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure
