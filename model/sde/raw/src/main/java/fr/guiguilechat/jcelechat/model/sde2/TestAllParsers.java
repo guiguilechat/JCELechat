@@ -1,15 +1,17 @@
 package fr.guiguilechat.jcelechat.model.sde2;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 import fr.guiguilechat.jcelechat.model.sde2.parsers.*;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.YamlCache;
 
 public class TestAllParsers {
 
 	public static void main(String[] args)
-			throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
+			throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, NoSuchFieldException {
 		YamlCache.INSTANCE.donwloadSDE();
 		for (Class<?> cl : new Class<?>[] {
 				Eagents.class,
@@ -60,14 +62,19 @@ public class TestAllParsers {
 				EstationOperations.class,
 				EstationServices.class,
 				// translation languages
-				// type bonus
+				EtypeBonus.class,
 				EtypeDogma.class,
 				EtypeMaterials.class,
 				Etypes.class
 		}) {
-			System.out.println(cl.getSimpleName());
+			long start = System.currentTimeMillis();
+			Field f = cl.getField("LOADER");
+			JacksonYamlLoader<?> loader = (JacksonYamlLoader<?>) f.get(null);
+
+			System.out.println("\n" + loader.getArchiveFileName());
 			Method m = cl.getMethod("main", String[].class);
 			m.invoke(null, new Object[] { null });
+			System.out.println(" in " + (System.currentTimeMillis() - start) + "ms");
 		}
 
 	}
