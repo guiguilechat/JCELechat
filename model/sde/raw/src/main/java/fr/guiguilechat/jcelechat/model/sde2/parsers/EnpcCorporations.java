@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -49,11 +50,11 @@ public class EnpcCorporations {
 
 	public List<Integer> allowedMemberRaces = new ArrayList<>();
 	public int ceoID;
-	public HashMap<Integer, Double> corporationTrades = new HashMap<>();
+	public HashMap<Integer, BigDecimal> corporationTrades = new HashMap<>();
 	public boolean deleted;
 	public HashMap<String, String> description = new HashMap<>();
 	public int enemyID;
-	public HashMap<Integer, Double> exchangeRates = new HashMap<>();
+	public HashMap<Integer, BigDecimal> exchangeRates = new HashMap<>();
 	public String extent;
 	public int factionID;
 	public int friendID;
@@ -63,7 +64,7 @@ public class EnpcCorporations {
 	public HashMap<Integer, Integer> investors = new HashMap<>();
 	public int mainActivityID;
 	public int memberLimit;
-	public double minSecurity;
+	public BigDecimal minSecurity;
 	public int minimumJoinStanding;
 	public HashMap<String, String> name = new HashMap<>();
 	public int raceID;
@@ -71,10 +72,10 @@ public class EnpcCorporations {
 	public boolean sendCharTerminationMessage;
 	public long shares;
 	public String size;
-	public double sizeFactor;
+	public BigDecimal sizeFactor;
 	public int solarSystemID;
 	public int stationID;
-	public double taxRate;
+	public BigDecimal taxRate;
 	public String tickerName;
 	public boolean uniqueName;
 	public HashMap<Integer, Edivisions> divisions = new HashMap<>();
@@ -95,7 +96,7 @@ public class EnpcCorporations {
 
 	public static final int CONCORD_ID = 1000125;
 
-	public static Map<Integer, Double> concordRates() {
+	public static Map<Integer, BigDecimal> concordRates() {
 		return LOADER.load().get(CONCORD_ID).exchangeRates;
 	}
 

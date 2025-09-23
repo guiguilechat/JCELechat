@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
-import java.util.HashMap;
+import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -52,9 +52,9 @@ public class EdogmaAttributes {
 	public int categoryID;
 	public int chargeRechargeTimeID;
 	public int dataType;
-	public float defaultValue;
+	public BigDecimal defaultValue;
 	public String description;
-	public Map<String, String> displayName = new HashMap<>();
+	public Map<String, String> displayName = new LinkedHashMap<>();
 	public boolean displayWhenZero;
 	public boolean highIsGood;
 	public int iconID;
@@ -63,8 +63,8 @@ public class EdogmaAttributes {
 	public String name;
 	public boolean published;
 	public boolean stackable;
-	public Map<String, String> tooltipDescription = new HashMap<>();
-	public Map<String, String> tooltipTitle = new HashMap<>();
+	public Map<String, String> tooltipDescription = new LinkedHashMap<>();
+	public Map<String, String> tooltipTitle = new LinkedHashMap<>();
 	public Integer unitID;
 
 	//

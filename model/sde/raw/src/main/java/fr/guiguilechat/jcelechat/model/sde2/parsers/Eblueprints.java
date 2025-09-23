@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
@@ -59,7 +60,7 @@ public class Eblueprints {
 	}
 
 	public static class Product extends Material {
-		public float probability = 1.0f;
+		public BigDecimal probability = new BigDecimal(1);
 	}
 
 	public static class Skill {

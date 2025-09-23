@@ -44,8 +44,7 @@ public class Egroups {
 	// file structure
 	//
 
-	/** key is language short, like "en" */
-	public HashMap<String, String> name = new HashMap<>();
+	public HashMap<String, String> name = new LinkedHashMap<>();
 	public boolean published;
 	public boolean anchorable;
 	public boolean anchored;

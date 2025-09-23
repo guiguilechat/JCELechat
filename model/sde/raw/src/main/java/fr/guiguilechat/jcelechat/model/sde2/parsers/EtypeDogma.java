@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -48,7 +49,7 @@ public class EtypeDogma {
 	public static class EAttributes{
 
 		public int attributeID;
-		public Number value;
+		public BigDecimal value;
 
 	}
 

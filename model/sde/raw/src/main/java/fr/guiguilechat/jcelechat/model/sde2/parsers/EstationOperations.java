@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
+import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
@@ -45,15 +46,15 @@ public class EstationOperations {
 	//
 
 	public int activityID;
-	public double border;
-	public double corridor;
+	public BigDecimal border;
+	public BigDecimal corridor;
 	public HashMap<String, String> description = new HashMap<>();
-	public double fringe;
-	public double hub;
-	public double manufacturingFactor;
+	public BigDecimal fringe;
+	public BigDecimal hub;
+	public BigDecimal manufacturingFactor;
 	public HashMap<String, String> operationName = new HashMap<>();
-	public double ratio;
-	public double researchFactor;
+	public BigDecimal ratio;
+	public BigDecimal researchFactor;
 	public int[] services;
 	public HashMap<Integer, Integer> stationTypes = new HashMap<>();
 
