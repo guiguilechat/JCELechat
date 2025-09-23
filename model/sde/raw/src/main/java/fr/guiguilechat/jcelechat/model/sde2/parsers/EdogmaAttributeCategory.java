@@ -6,23 +6,22 @@ import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde2.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
-public class EmapStargates {
+public class EdogmaAttributeCategory {
 
 	//
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "mapStargates";
+	public static final String SDE_FILE = "dogmaAttributeCategories";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapStargates>> LOADER_JACKSON = new JacksonYamlLoader<>(
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributeCategory>> LOADER_JACKSON = new JacksonYamlLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Integer, EmapStargates> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
+	public static final SnakeYamlLHMLoader<Integer, EdogmaAttributeCategory> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
 			SDE_FILE_YAML) {
 
 		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
@@ -30,29 +29,22 @@ public class EmapStargates {
 				MappingNode mn = (MappingNode) node;
 				if (mn.getValue().size() > 0) {
 					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-							.filter("position"::equals).findAny().isPresent()) {
-						node.setType(EmapStargates.class);
+							.filter("name"::equals).findAny().isPresent()) {
+						node.setType(EdogmaAttributeCategory.class);
 					}
 				}
 			}
 		}
 	};
 
-	public static final JacksonYamlLoader<LinkedHashMap<Integer, EmapStargates>> LOADER = LOADER_SNAKEYAML;
+	public static final JacksonYamlLoader<LinkedHashMap<Integer, EdogmaAttributeCategory>> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure
 	//
 
-	public static class Destination {
-		public int solarSystemID;
-		public int stargateID;
-	}
-
-	public Destination destination;
-	public Position position;
-	public int solarSystemID;
-	public int typeID;
+	public String description;
+	public String name;
 
 	//
 
@@ -60,7 +52,6 @@ public class EmapStargates {
 		var loaded = LOADER.load();
 		System.err.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.err.println(
-				"first : solarSystemID=" + first.solarSystemID + " target=" + first.destination.stargateID);
+		System.err.println("first : name=" + first.name);
 	}
 }
