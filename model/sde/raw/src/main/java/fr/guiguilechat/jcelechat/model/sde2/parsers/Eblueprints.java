@@ -8,7 +8,8 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues;
+import fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityDetails;
+import fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ProducingActivityDetails;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
@@ -68,24 +69,32 @@ public class Eblueprints {
 
 	public static class BPActivities {
 
-		public static class ActivityValues {
+		public static class ActivityDetails {
 			public ArrayList<Material> materials = new ArrayList<>();
-			public ArrayList<Product> products = new ArrayList<>();
 			public ArrayList<Skill> skills = new ArrayList<>();
 			public int time;
 
 			public boolean active() {
-				return time > 0 || !materials.isEmpty() || !products.isEmpty() || !skills.isEmpty();
+				return time > 0 || !materials.isEmpty() || !skills.isEmpty();
 			}
 		}
 
-		public ActivityValues copying = new ActivityValues();
-		public ActivityValues invention = new ActivityValues();
-		public ActivityValues reaction = new ActivityValues();
+		public static class ProducingActivityDetails extends ActivityDetails {
+			public ArrayList<Product> products = new ArrayList<>();
 
-		public ActivityValues manufacturing = new ActivityValues();
-		public ActivityValues research_material = new ActivityValues();
-		public ActivityValues research_time = new ActivityValues();
+			@Override
+			public boolean active() {
+				return super.active() || !products.isEmpty();
+			}
+		}
+
+		public ActivityDetails copying = new ActivityDetails();
+		public ProducingActivityDetails invention = new ProducingActivityDetails();
+		public ProducingActivityDetails reaction = new ProducingActivityDetails();
+
+		public ProducingActivityDetails manufacturing = new ProducingActivityDetails();
+		public ActivityDetails research_material = new ActivityDetails();
+		public ActivityDetails research_time = new ActivityDetails();
 
 	}
 
@@ -96,48 +105,48 @@ public class Eblueprints {
 	public enum ActivityType {
 		copying {
 			@Override
-			public ActivityValues of(
+			public ActivityDetails of(
 					BPActivities act) {
 				return act.copying;
 			}
 		},
 		invention {
 			@Override
-			public ActivityValues of(
+			public ProducingActivityDetails of(
 					BPActivities act) {
 				return act.invention;
 			}
 		},
 		manufacturing {
 			@Override
-			public ActivityValues of(
+			public ProducingActivityDetails of(
 					BPActivities act) {
 				return act.manufacturing;
 			}
 		},
 		reaction {
 			@Override
-			public ActivityValues of(
+			public ProducingActivityDetails of(
 					BPActivities act) {
 				return act.reaction;
 			}
 		},
 		research_material {
 			@Override
-			public ActivityValues of(
+			public ActivityDetails of(
 					BPActivities act) {
 				return act.research_material;
 			}
 		},
 		research_time {
 			@Override
-			public ActivityValues of(
+			public ActivityDetails of(
 					BPActivities act) {
 				return act.research_time;
 			}
 		};
 
-		public abstract ActivityValues of(
+		public abstract ActivityDetails of(
 				BPActivities act);
 	}
 

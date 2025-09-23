@@ -28,7 +28,7 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde2.RemoteMeta;
-import fr.guiguilechat.jcelechat.model.sde2.parsers.YamlMeta;
+import fr.guiguilechat.jcelechat.model.sde2.parsers.SdeMeta;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.YamlCache.SDEDownload.Cached;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.YamlCache.SDEDownload.Errored;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.YamlCache.SDEDownload.Success;
@@ -95,7 +95,7 @@ public class YamlCache {
 	}
 
 	protected RemoteMeta extractArchiveMeta(File file) throws IOException {
-		return new ObjectMapper(new YAMLFactory()).readValue(file, YamlMeta.class).sde;
+		return new ObjectMapper(new YAMLFactory()).readValue(file, SdeMeta.class).sde;
 	}
 
 	/**
@@ -297,7 +297,7 @@ public class YamlCache {
 	}
 
 	protected void writeZipMeta(RemoteMeta meta) throws IOException {
-		YamlMeta ym = new YamlMeta();
+		SdeMeta ym = new SdeMeta();
 		ym.sde = meta;
 		new ObjectMapper(new YAMLFactory()).writeValue(zipLastMetaFile(), ym);
 	}
