@@ -67,6 +67,8 @@ public class EdogmaAttributes {
 	public Map<String, String> tooltipTitle = new HashMap<>();
 	public Integer unitID;
 
+	//
+
 	public static void main(String[] args) {
 		var data = LOADER.load();
 		System.err.println("loaded : " + data.size());

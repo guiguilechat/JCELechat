@@ -55,8 +55,10 @@ public class Egroups {
 	public int iconID;
 
 	public String enName() {
-		return name == null || !name.containsKey("en") ? null : name.get("en");
+		return name == null ? null : name.get("en");
 	}
+
+	//
 
 	public static void main(String[] args) {
 		var data = LOADER.load();

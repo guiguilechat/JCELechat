@@ -45,6 +45,8 @@ public class EagentTypes {
 
 	public String name;
 
+	//
+
 	public static void main(String[] args) {
 		System.err.println("loaded : " + LOADER.load().size());
 		var first = LOADER.load().entrySet().iterator().next().getValue();

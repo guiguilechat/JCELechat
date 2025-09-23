@@ -89,6 +89,8 @@ public class EmapMoons {
 
 	public int typeID;
 
+	//
+
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
 		System.err.println("loaded : " + loaded.size());

@@ -50,6 +50,8 @@ public class Eagents {
 	public int level;
 	public int locationID;
 
+	//
+
 	public static void main(String[] args) {
 		System.err.println("loaded : " + LOADER.load().size());
 		var first = LOADER.load().entrySet().iterator().next().getValue();

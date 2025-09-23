@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.sde2.parsers;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.yaml.snakeyaml.nodes.MappingNode;
@@ -46,7 +47,7 @@ public class EnpcCorporations {
 	// file structure
 	//
 
-	public int[] allowedMemberRaces = {};
+	public List<Integer> allowedMemberRaces = new ArrayList<>();
 	public int ceoID;
 	public HashMap<Integer, Double> corporationTrades = new HashMap<>();
 	public boolean deleted;
@@ -65,7 +66,6 @@ public class EnpcCorporations {
 	public double minSecurity;
 	public int minimumJoinStanding;
 	public HashMap<String, String> name = new HashMap<>();
-	public int publicShares;
 	public int raceID;
 	public int secondaryActivityID;
 	public boolean sendCharTerminationMessage;
@@ -77,7 +77,6 @@ public class EnpcCorporations {
 	public double taxRate;
 	public String tickerName;
 	public boolean uniqueName;
-	public String url;
 	public HashMap<Integer, Edivisions> divisions = new HashMap<>();
 	public ArrayList<Integer> lpOfferTables = new ArrayList<>();
 

@@ -8,6 +8,7 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
+import fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
 
@@ -51,12 +52,12 @@ public class Eblueprints {
 	public int blueprintTypeID;
 	public int maxProductionLimit;
 
-	/**
-	 * used in the blueprints as requirement, or products
-	 */
 	public static class Material {
 		public int quantity;
 		public int typeID;
+	}
+
+	public static class Product extends Material {
 		public float probability = 1.0f;
 	}
 
@@ -65,13 +66,11 @@ public class Eblueprints {
 		public int level;
 	}
 
-	public BPActivities activities = new BPActivities();
-
 	public static class BPActivities {
 
 		public static class ActivityValues {
 			public ArrayList<Material> materials = new ArrayList<>();
-			public ArrayList<Material> products = new ArrayList<>();
+			public ArrayList<Product> products = new ArrayList<>();
 			public ArrayList<Skill> skills = new ArrayList<>();
 			public int time;
 
@@ -90,6 +89,60 @@ public class Eblueprints {
 
 	}
 
+	public BPActivities activities = new BPActivities();
+
+	//
+
+	public enum ActivityType {
+		copying {
+			@Override
+			public ActivityValues of(
+					BPActivities act) {
+				return act.copying;
+			}
+		},
+		invention {
+			@Override
+			public ActivityValues of(
+					BPActivities act) {
+				return act.invention;
+			}
+		},
+		manufacturing {
+			@Override
+			public ActivityValues of(
+					BPActivities act) {
+				return act.manufacturing;
+			}
+		},
+		reaction {
+			@Override
+			public ActivityValues of(
+					BPActivities act) {
+				return act.reaction;
+			}
+		},
+		research_material {
+			@Override
+			public ActivityValues of(
+					BPActivities act) {
+				return act.research_material;
+			}
+		},
+		research_time {
+			@Override
+			public ActivityValues of(
+					BPActivities act) {
+				return act.research_time;
+			}
+		};
+
+		public abstract ActivityValues of(
+				BPActivities act);
+	}
+
+	//
+
 	@Override
 	public boolean equals(Object obj) {
 		if (obj != null && obj.getClass() == Eblueprints.class) {
@@ -103,53 +156,7 @@ public class Eblueprints {
 		return blueprintTypeID;
 	}
 
-	public enum ActivityType {
-		copying {
-			@Override
-			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
-					BPActivities act) {
-				return act.copying;
-			}
-		},
-		invention {
-			@Override
-			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
-					BPActivities act) {
-				return act.invention;
-			}
-		},
-		manufacturing {
-			@Override
-			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
-					BPActivities act) {
-				return act.manufacturing;
-			}
-		},
-		reaction {
-			@Override
-			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
-					BPActivities act) {
-				return act.reaction;
-			}
-		},
-		research_material {
-			@Override
-			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
-					BPActivities act) {
-				return act.research_material;
-			}
-		},
-		research_time {
-			@Override
-			public fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
-					BPActivities act) {
-				return act.research_time;
-			}
-		};
-
-		public abstract fr.guiguilechat.jcelechat.model.sde2.parsers.Eblueprints.BPActivities.ActivityValues of(
-				BPActivities act);
-	}
+	//
 
 	public static void main(String[] args) {
 		System.err.println("loaded : " + LOADER.load().size());

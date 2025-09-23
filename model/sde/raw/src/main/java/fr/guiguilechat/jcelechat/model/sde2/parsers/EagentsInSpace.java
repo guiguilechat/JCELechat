@@ -48,6 +48,8 @@ public class EagentsInSpace {
 	public int spawnPointID;
 	public int typeID;
 
+	//
+
 	public static void main(String[] args) {
 		System.err.println("loaded : " + LOADER.load().size());
 		var first = LOADER.load().entrySet().iterator().next().getValue();
