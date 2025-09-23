@@ -56,9 +56,9 @@ public class Ecategories {
 	//
 
 	public static void main(String[] args) {
-		var data = LOADER.load();
-		System.err.println("loaded : " + data.size());
-		var first = data.entrySet().iterator().next().getValue();
+		var loaded = LOADER.load();
+		System.err.println("loaded : " + loaded.size());
+		var first = loaded.entrySet().iterator().next().getValue();
 		System.err.println(
 				"first : name=" + first.enName() + " published=" + first.published);
 	}

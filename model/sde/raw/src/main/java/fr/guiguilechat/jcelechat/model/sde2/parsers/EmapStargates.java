@@ -56,11 +56,11 @@ public class EmapStargates extends InSpace {
 	//
 
 	public static void main(String[] args) {
-		var data = LOADER.load();
-		System.err.println("loaded : " + data.size());
-		long withname = data.values().stream().filter(m -> m.name != null).count();
+		var loaded = LOADER.load();
+		System.err.println("loaded : " + loaded.size());
+		long withname = loaded.values().stream().filter(m -> m.name != null).count();
 		System.err.println("named=" + withname);
-		var first = data.entrySet().iterator().next().getValue();
+		var first = loaded.entrySet().iterator().next().getValue();
 		System.err.println(
 				"first : solarSystemID=" + first.solarSystemID + " target=" + first.destination.stargateID);
 	}

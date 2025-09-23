@@ -57,8 +57,9 @@ public class EcontrabandTypes {
 	//
 
 	public static void main(String[] args) {
-		System.err.println("loaded : " + LOADER.load().size());
-		var first = LOADER.load().entrySet().iterator().next().getValue();
+		var loaded = LOADER.load();
+		System.err.println("loaded : " + loaded.size());
+		var first = loaded.entrySet().iterator().next().getValue();
 		System.err.println("first : factions=" + first.factions.size());
 	}
 }
