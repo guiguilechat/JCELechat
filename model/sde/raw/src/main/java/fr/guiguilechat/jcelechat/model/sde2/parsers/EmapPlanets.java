@@ -58,6 +58,11 @@ public class EmapPlanets extends OrbitingCelestial {
 		System.out.println("named=" + withname);
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : solarSystemID=" + first.solarSystemID + " typeID=" + first.typeID);
+		for (var e : loaded.entrySet()) {
+			if (e.getValue().celestialIndex == 0) {
+				System.err.println(e.getKey() + " has no celestialindex");
+			}
+		}
 	}
 
 }

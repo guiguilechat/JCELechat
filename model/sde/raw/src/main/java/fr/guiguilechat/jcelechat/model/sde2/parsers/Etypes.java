@@ -62,7 +62,6 @@ public class Etypes {
 	public int marketGroupID;
 	public BigDecimal mass;
 	public int metaGroupID;
-	/** key is language short, like "en" */
 	public HashMap<String, String> name = new HashMap<>();
 	public int portionSize;
 	public boolean published;
