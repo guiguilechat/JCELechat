@@ -53,10 +53,11 @@ public class JacksonYamlLHMLoader<U> extends ACaching {
 			    .build();
 		var mapper = new ObjectMapper(yamlFactory);
 		try {
-			var reader = mapper.readerFor(new TypeReference<LinkedHashMap<Integer, U>>() {
-			});
+			var tr = new TypeReference<LinkedHashMap<Integer, U>>() {
+			};
+			var reader = mapper.readerFor(tr);
 			// can't readValue as it will close the stream.
-			return reader.readValue(reader.createParser(is));
+			return reader.readValue(reader.createParser(is), tr);
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}
