@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.sde2.yaml;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,8 +11,9 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.channels.Channels;
-import java.nio.channels.ReadableByteChannel;
 import java.nio.charset.Charset;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
@@ -28,11 +28,14 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde2.RemoteMeta;
+import fr.guiguilechat.jcelechat.model.sde2.cache.Caching;
+import fr.guiguilechat.jcelechat.model.sde2.cache.Caching.Ref;
 import fr.guiguilechat.jcelechat.model.sde2.parsers.SdeMeta;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.YamlCache.SDEDownload.Cached;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.YamlCache.SDEDownload.Errored;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.YamlCache.SDEDownload.Success;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.SDEDownload.Cached;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.SDEDownload.Errored;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.SDEDownload.Success;
 import fr.lelouet.tools.application.xdg.XDGApp;
+import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
@@ -42,11 +45,11 @@ public class YamlCache {
 
 	public static final YamlCache INSTANCE = new YamlCache();
 
-	public static InputStreamReader fileReader(File file) throws FileNotFoundException {
+	static InputStreamReader fileReader(File file) throws FileNotFoundException {
 		return new InputStreamReader(new FileInputStream(file), Charset.forName("UTF-8"));
 	}
 
-	public static Yaml yaml(Constructor cons) {
+	static Yaml yaml(Constructor cons) {
 		LoaderOptions options = new LoaderOptions();
 		options.setCodePointLimit(Integer.MAX_VALUE);
 		DumperOptions dumperOptions = new DumperOptions();
@@ -54,7 +57,7 @@ public class YamlCache {
 		return new Yaml(cons, representer, dumperOptions, options);
 	}
 
-	@Getter(lazy = true)
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
 	private final XDGApp app = new XDGApp("sde.ccp.is");
 
@@ -67,7 +70,7 @@ public class YamlCache {
 	}
 
 	/**
-	 * where we want to extract the SDE
+	 * where we store the files
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
@@ -76,7 +79,7 @@ public class YamlCache {
 	/**
 	 * the file that contains the release date of last downloaded sde , if any.
 	 */
-	@Getter(lazy = true)
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
 	private final File extractMetaFile = new File(extractCacheDir(), "_sde." + format());
 
@@ -109,17 +112,17 @@ public class YamlCache {
 			try {
 				RemoteMeta lastMeta = extractArchiveMeta(extractMetaFile());
 				if (lastRelease.equals(lastMeta.releaseDate)) {
-					log.info(
+					log.debug(
 							"sde already last version: " + lastRelease + " in  " + extractCacheDir().getAbsolutePath());
 					return;
 				}
 			} catch (IOException e) {
 				throw new RuntimeException(e);
 			}
-			log.info("new version of sde to download with lastRelease " + lastRelease + " into "
+			log.debug("new version of sde to download with lastRelease " + lastRelease + " into "
 					+ extractCacheDir().getAbsolutePath());
 		} else {
-			log.info("no existing download information in file " + extractMetaFile().getAbsolutePath()
+			log.debug("no existing download information in file " + extractMetaFile().getAbsolutePath()
 					+ ", downloading sde into " + extractCacheDir().getAbsolutePath());
 		}
 		try {
@@ -171,68 +174,64 @@ public class YamlCache {
 	}
 
 	//
-	// download zip
+	// load the SDE as a stream
 	//
 
-	public sealed interface SDEDownload {
-		RemoteMeta meta();
-
-		public record Success(String url, RemoteMeta meta, ReadableByteChannel channel) implements SDEDownload {
-
-			void copyTo(File targetDir)
-					throws FileNotFoundException, IOException {
-				try (FileOutputStream fileOutputStream = new FileOutputStream(targetDir)) {
-					fileOutputStream.getChannel().transferFrom(channel(), 0, Long.MAX_VALUE);
-				}
-			}
-
-			public File toTempFile() throws IOException {
-				File created = File.createTempFile("SDE", null);
-				copyTo(created);
-				return created;
-			}
-		}
-
-		public record Cached(RemoteMeta meta) implements SDEDownload {
-		}
-
-		public record Errored(String url, RemoteMeta meta, Exception error) implements SDEDownload {
-		}
-	}
-
+	/**
+	 * try to fetch SDE is new version avail.
+	 *
+	 * @param lastReleaseDate last releaseDate received, can be null.
+	 * @return a {@link Success} with the channel of the connection to load the SDE
+	 *         from if newer SDE avail, a {@link Cached} if no new SDE avail, or an
+	 *         {@link Errored} if could not fetch the metadata or the new SDE.
+	 */
 	public SDEDownload getSDE(String lastReleaseDate) {
-		RemoteMeta meta = RemoteMeta.fetch();
-		String releaseDate = meta.releaseDate;
-		if (releaseDate.equals(lastReleaseDate)) {
-			return new Cached(meta);
+		RemoteMeta meta = null;
+		String url = null;
+		try {
+			meta = RemoteMeta.fetch();
+			String releaseDate = meta.releaseDate;
+			if (releaseDate.equals(lastReleaseDate)) {
+				return new Cached(meta);
+			}
+			url = extractURL(meta);
+		} catch (Exception e) {
+			return new Errored(RemoteMeta.URL, null, e);
 		}
-		String url = extractURL(meta);
 		try {
 			return new Success(url, meta, Channels.newChannel(new URI(url).toURL().openStream()));
-		} catch (IOException | URISyntaxException ioe) {
-			return new Errored(url, meta, ioe);
+		} catch (Exception e) {
+			return new Errored(url, meta, e);
 		}
 	}
+
+	public SDEDownload getSDE() {
+		return getSDE(null);
+	}
+
+	//
+	// download zip
+	//
 
 	/**
 	 * where we want to place the zipped SDE
 	 */
-	@Getter(lazy = true)
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
 	private final File zipCacheDir = app().cacheFile(format() + "/zipped");
 
 	/**
 	 * the downloaded zip file
 	 */
-	@Getter(lazy = true)
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
 	private final File zipTarget = new File(zipCacheDir(), "sde.zip");
 
-	@Getter(lazy = true)
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
 	private final File zipTemp = new File(zipCacheDir(), "sde.zip.tmp");
 
-	@Getter(lazy = true)
+	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)
 	private final File zipLastMetaFile = new File(zipCacheDir(), "meta.yaml");
 
@@ -267,30 +266,30 @@ public class YamlCache {
 				throw new RuntimeException(e);
 			}
 		} else {
-			log.info("no existing download information in file " + zipLastMetaFile().getAbsolutePath()
+			log.debug("no existing download information in file " + zipLastMetaFile().getAbsolutePath()
 					+ ", downloading sde into " + zipCacheDir().getAbsolutePath());
 		}
 		SDEDownload dl = getSDE(lastReleaseDate);
 		switch (dl) {
 		case Cached _:
-			log.info("sde already last version " + lastReleaseDate + " in " + zipCacheDir().getAbsolutePath());
+			log.debug("sde already last version " + lastReleaseDate + " in " + zipCacheDir().getAbsolutePath());
 			return nullOnCached ? null : zipTarget();
 		case Errored _:
 			return null;
 		case Success s:
-			log.info("sde DL new release " + s.meta().releaseDate + " into " + zipCacheDir().getAbsolutePath());
+			log.debug("sde DL new release " + s.meta().releaseDate + " into " + zipCacheDir().getAbsolutePath());
 			try {
-			zipCacheDir().mkdirs();
-			if (!zipCacheDir().isDirectory()) {
-				log.error("can't create dir " + zipCacheDir().getAbsolutePath());
-				return null;
-			}
-			zipTemp().delete();
-			s.copyTo(zipTemp());
-			zipTemp().renameTo(zipTarget());
-			writeZipMeta(s.meta());
-			return zipTarget();
-			}catch (Exception e){
+				zipCacheDir().mkdirs();
+				if (!zipCacheDir().isDirectory()) {
+					log.error("can't create dir " + zipCacheDir().getAbsolutePath());
+					return null;
+				}
+				zipTemp().delete();
+				s.copyTo(zipTemp());
+				zipTemp().renameTo(zipTarget());
+				writeZipMeta(s.meta());
+				return zipTarget();
+			} catch (Exception e) {
 				throw new RuntimeException(e);
 			}
 		}
@@ -301,6 +300,26 @@ public class YamlCache {
 		ym.sde = meta;
 		new ObjectMapper(new YAMLFactory()).writeValue(zipLastMetaFile(), ym);
 	}
+
+	// caching invalidation
+
+	private final Set<Caching.Ref> registeredCaches = new HashSet<>();
+
+	public void registerCache(Caching c) {
+		synchronized (registeredCaches) {
+			registeredCaches.add(new Caching.Ref(c));
+		}
+	}
+
+	protected void clearCaches() {
+		synchronized (registeredCaches) {
+			for (Ref r : registeredCaches) {
+				r.clearRefCache();
+			}
+		}
+	}
+
+	// main
 
 	public static void main(String[] args) {
 		var cache = new YamlCache();

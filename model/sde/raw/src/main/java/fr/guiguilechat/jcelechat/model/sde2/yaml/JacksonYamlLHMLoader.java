@@ -13,11 +13,12 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
+import fr.guiguilechat.jcelechat.model.sde2.cache.ACaching;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class JacksonYamlLHMLoader<U> {
+public class JacksonYamlLHMLoader<U> extends ACaching {
 
 	@Getter
 	private final String archiveFileName;
@@ -26,6 +27,11 @@ public class JacksonYamlLHMLoader<U> {
 	private final File archiveFile = new File(YamlCache.INSTANCE.extractCacheDir(), archiveFileName);
 
 	private LinkedHashMap<Integer, U>  cache = null;
+
+	@Override
+	public void clearCache() {
+		cache = null;
+	}
 
 	public synchronized LinkedHashMap<Integer, U> load() {
 		if (cache == null) {
@@ -47,8 +53,10 @@ public class JacksonYamlLHMLoader<U> {
 			    .build();
 		var mapper = new ObjectMapper(yamlFactory);
 		try {
-			return mapper.readerFor(new TypeReference<LinkedHashMap<Integer, U>>() {
-			}).readValue(is);
+			var reader = mapper.readerFor(new TypeReference<LinkedHashMap<Integer, U>>() {
+			});
+			// can't readValue as it will close the stream.
+			return reader.readValue(reader.createParser(is));
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}

@@ -11,7 +11,6 @@ public class RemoteMeta {
 	public static final String URL = "https://developers.eveonline.com/static-data/tranquility/latest.jsonl";
 
 	public static RemoteMeta fetch() {
-
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			return mapper.readValue(new URI(URL).toURL().openStream(), RemoteMeta.class);

@@ -19,7 +19,7 @@ public class EmapMoons extends OrbitingCelestial {
 	public static final String SDE_FILE = "mapMoons";
 	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
 
-	public static final JacksonYamlLHMLoader<EmapMoons> LOADER_JACKSON_YAML = new JacksonYamlLHMLoader<>(
+	public static final JacksonYamlLHMLoader<EmapMoons> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
 	public static final SnakeYamlLHMLoader<EmapMoons> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(

@@ -24,7 +24,6 @@ public abstract class SnakeYamlLHMLoader<U> extends JacksonYamlLHMLoader<U> {
 
 	@Override
 	public LinkedHashMap<Integer, U> from(InputStream is) {
-
 		Constructor cons = new Constructor(LinkedHashMap.class, new LoaderOptions()) {
 
 			@Override
