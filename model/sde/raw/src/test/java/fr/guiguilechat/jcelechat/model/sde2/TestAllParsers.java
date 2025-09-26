@@ -18,7 +18,7 @@ public class TestAllParsers {
 	public static void main(String[] args)
 			throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, NoSuchFieldException {
 		YamlCache.INSTANCE.donwloadSDE();
-		Map<String, Set<String>> multipleValues = new LinkedHashMap<>();
+		Map<String, Set<String>> multipleClasses = new LinkedHashMap<>();
 		for (Class<?> cl : new Class<?>[] {
 				Eagents.class,
 				EagentsInSpace.class,
@@ -83,16 +83,14 @@ public class TestAllParsers {
 			System.out.println(" in " + (System.currentTimeMillis() - start) + "ms");
 			var classes = loader.load().values().stream().map(v -> v.getClass().getSimpleName())
 					.collect(Collectors.toSet());
-			assert classes.size() == 1;
 			if (classes.size() > 1) {
-				System.err.println(" too many classes " + classes);
-				multipleValues.put(loader.getArchiveFileName(), classes);
+				multipleClasses.put(loader.getArchiveFileName(), classes);
 			}
 		}
 
-		if (!multipleValues.isEmpty()) {
-			System.err.println("invalid parsing for files :");
-			for (Entry<String, Set<String>> e : multipleValues.entrySet()) {
+		if (!multipleClasses.isEmpty()) {
+			System.err.println("invalid parsed classes for files :");
+			for (Entry<String, Set<String>> e : multipleClasses.entrySet()) {
 				System.err.println(e.getKey() + e.getValue());
 			}
 		}
