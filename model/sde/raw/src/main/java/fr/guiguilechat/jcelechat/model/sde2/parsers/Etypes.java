@@ -2,13 +2,10 @@ package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
+import java.util.Set;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.nodes.MappingNode;
-import org.yaml.snakeyaml.nodes.Node;
-import org.yaml.snakeyaml.nodes.NodeId;
-import org.yaml.snakeyaml.nodes.ScalarNode;
 
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
@@ -27,22 +24,8 @@ public class Etypes {
 	public static final JacksonYamlLHMLoader<Etypes> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Etypes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML) {
-
-		@Override
-		protected void preprocess(Node node) {
-			if (node.getNodeId() == NodeId.mapping) {
-				MappingNode mn = (MappingNode) node;
-				if (mn.getValue().size() > 0) {
-					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-							.filter("groupID"::equals).findAny().isPresent()) {
-						node.setType(Etypes.class);
-					}
-
-				}
-			}
-		}
-	};
+	public static final SnakeYamlLHMLoader<Etypes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
+			Etypes.class, Set.of("groupID"));
 
 	public static final JacksonYamlLHMLoader<Etypes> LOADER = LOADER_SNAKEYAML;
 

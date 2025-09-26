@@ -3,10 +3,7 @@ package fr.guiguilechat.jcelechat.model.sde2.parsers;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.yaml.snakeyaml.nodes.MappingNode;
-import org.yaml.snakeyaml.nodes.NodeId;
-import org.yaml.snakeyaml.nodes.ScalarNode;
+import java.util.Set;
 
 import fr.guiguilechat.jcelechat.model.sde2.parsers.inspace.InSpace;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
@@ -24,21 +21,8 @@ public class EmapSolarSystems extends InSpace {
 	public static final JacksonYamlLHMLoader<EmapSolarSystems> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<EmapSolarSystems> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
-			SDE_FILE_YAML) {
-
-		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
-			if (node.getNodeId() == NodeId.mapping) {
-				MappingNode mn = (MappingNode) node;
-				if (mn.getValue().size() > 0) {
-					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-							.filter("constellationID"::equals).findAny().isPresent()) {
-						node.setType(EmapSolarSystems.class);
-					}
-				}
-			}
-		}
-	};
+	public static final SnakeYamlLHMLoader<EmapSolarSystems> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
+			EmapSolarSystems.class, Set.of("constellationID"));
 
 	public static final JacksonYamlLHMLoader<EmapSolarSystems> LOADER = LOADER_SNAKEYAML;
 

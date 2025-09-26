@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.sde2;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.model.sde2.parsers.*;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
@@ -75,6 +76,13 @@ public class TestAllParsers {
 			Method m = cl.getMethod("main", String[].class);
 			m.invoke(null, new Object[] { null });
 			System.out.println(" in " + (System.currentTimeMillis() - start) + "ms");
+			var classes = loader.load().values().stream().map(v -> v.getClass().getSimpleName())
+					.collect(Collectors.toSet());
+			assert classes.size() == 1;
+			if (classes.size() > 1) {
+				System.err.println(" too many classes "+classes);
+			}
+			System.out.println(" classes=" + classes);
 		}
 
 	}

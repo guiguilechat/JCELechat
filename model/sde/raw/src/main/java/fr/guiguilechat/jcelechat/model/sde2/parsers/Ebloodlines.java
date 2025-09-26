@@ -1,10 +1,7 @@
 package fr.guiguilechat.jcelechat.model.sde2.parsers;
 
 import java.util.LinkedHashMap;
-
-import org.yaml.snakeyaml.nodes.MappingNode;
-import org.yaml.snakeyaml.nodes.NodeId;
-import org.yaml.snakeyaml.nodes.ScalarNode;
+import java.util.Set;
 
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.SnakeYamlLHMLoader;
@@ -21,21 +18,8 @@ public class Ebloodlines {
 	public static final JacksonYamlLHMLoader<Ebloodlines> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
 			SDE_FILE_YAML);
 
-	public static final SnakeYamlLHMLoader<Ebloodlines> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
-			SDE_FILE_YAML) {
-
-		protected void preprocess(org.yaml.snakeyaml.nodes.Node node) {
-			if (node.getNodeId() == NodeId.mapping) {
-				MappingNode mn = (MappingNode) node;
-				if (mn.getValue().size() > 0) {
-					if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-							.filter("description"::equals).findAny().isPresent()) {
-						node.setType(Ebloodlines.class);
-					}
-				}
-			}
-		}
-	};
+	public static final SnakeYamlLHMLoader<Ebloodlines> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
+			Ebloodlines.class, Set.of("description"));
 
 	public static final JacksonYamlLHMLoader<Ebloodlines> LOADER = LOADER_SNAKEYAML;
 
