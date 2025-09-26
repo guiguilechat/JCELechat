@@ -1,17 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde2.yaml;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.channels.Channels;
-import java.nio.charset.Charset;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.zip.ZipEntry;
@@ -31,9 +27,9 @@ import fr.guiguilechat.jcelechat.model.sde2.RemoteMeta;
 import fr.guiguilechat.jcelechat.model.sde2.cache.Caching;
 import fr.guiguilechat.jcelechat.model.sde2.cache.Caching.Ref;
 import fr.guiguilechat.jcelechat.model.sde2.parsers.SdeMeta;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.SDEDownload.Cached;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.SDEDownload.Errored;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.SDEDownload.Success;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.DLResult.Cached;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.DLResult.Errored;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.DLResult.Success;
 import fr.lelouet.tools.application.xdg.XDGApp;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -44,10 +40,6 @@ import lombok.extern.slf4j.Slf4j;
 public class YamlCache {
 
 	public static final YamlCache INSTANCE = new YamlCache();
-
-	static InputStreamReader fileReader(File file) throws FileNotFoundException {
-		return new InputStreamReader(new FileInputStream(file), Charset.forName("UTF-8"));
-	}
 
 	static Yaml yaml(Constructor cons) {
 		LoaderOptions options = new LoaderOptions();
@@ -61,13 +53,49 @@ public class YamlCache {
 	@Accessors(fluent = true)
 	private final XDGApp app = new XDGApp("sde.ccp.is");
 
-	//
-	// extract
-	//
-
 	protected String format() {
 		return "yaml";
 	}
+
+	//
+	// prepare to download the SDE
+	//
+
+	/**
+	 * try to fetch SDE is new version avail.
+	 *
+	 * @param lastReleaseDate last releaseDate received, can be null.
+	 * @return a {@link Success} with the channel of the connection to load the SDE
+	 *         from if newer SDE avail, a {@link Cached} if no new SDE avail, or an
+	 *         {@link Errored} if could not fetch the metadata or the new SDE.
+	 */
+	public DLResult dl(String lastReleaseDate) {
+		RemoteMeta meta = null;
+		String url = null;
+		try {
+			meta = RemoteMeta.fetch();
+			String releaseDate = meta.releaseDate;
+			if (releaseDate.equals(lastReleaseDate)) {
+				return new Cached(meta);
+			}
+			url = extractURL(meta);
+		} catch (Exception e) {
+			return new Errored(RemoteMeta.URL, null, e);
+		}
+		try {
+			return new Success(url, meta, Channels.newChannel(new URI(url).toURL().openStream()));
+		} catch (Exception e) {
+			return new Errored(url, meta, e);
+		}
+	}
+
+	public DLResult dl() {
+		return dl(null);
+	}
+
+	//
+	// extract
+	//
 
 	/**
 	 * where we store the files
@@ -102,35 +130,41 @@ public class YamlCache {
 	}
 
 	/**
-	 * check if a new version is avail (using stored etag and remote ) and extract
-	 * it if needed
+	 * check if a new version is avail and extract it
 	 */
 	protected void updateExtract() {
-		RemoteMeta meta = RemoteMeta.fetch();
-		String lastRelease = meta.releaseDate;
+		String lastReleaseDate = null;
 		if (extractMetaFile().exists()) {
 			try {
 				RemoteMeta lastMeta = extractArchiveMeta(extractMetaFile());
-				if (lastRelease.equals(lastMeta.releaseDate)) {
-					log.debug(
-							"sde already last version: " + lastRelease + " in  " + extractCacheDir().getAbsolutePath());
-					return;
-				}
+				lastReleaseDate = lastMeta.releaseDate;
 			} catch (IOException e) {
 				throw new RuntimeException(e);
 			}
-			log.debug("new version of sde to download with lastRelease " + lastRelease + " into "
-					+ extractCacheDir().getAbsolutePath());
 		} else {
 			log.debug("no existing download information in file " + extractMetaFile().getAbsolutePath()
 					+ ", downloading sde into " + extractCacheDir().getAbsolutePath());
 		}
-		try {
+		DLResult result = dl(lastReleaseDate);
+		switch (result) {
+		case Success s: {
+			log.debug("new version of sde to download with releaseDate " + s.meta().releaseDate + " into "
+					+ extractCacheDir().getAbsolutePath());
 			FileTools.delDir(extractCacheDir());
 			extractCacheDir().mkdirs();
-			unpackSDE(extractURL(meta), extractCacheDir());
-		} catch (IOException ioe) {
-			throw new RuntimeException(ioe);
+			s.extract(extractCacheDir());
+			clearCaches();
+			break;
+		}
+		case Errored e: {
+			log.error("failed to download SDE", e);
+			break;
+		}
+		case Cached c: {
+			log.debug("sde already last version: " + c.meta().releaseDate + " in  "
+					+ extractCacheDir().getAbsolutePath());
+			break;
+		}
 		}
 	}
 
@@ -171,42 +205,6 @@ public class YamlCache {
 				fw.close();
 			}
 		}
-	}
-
-	//
-	// load the SDE as a stream
-	//
-
-	/**
-	 * try to fetch SDE is new version avail.
-	 *
-	 * @param lastReleaseDate last releaseDate received, can be null.
-	 * @return a {@link Success} with the channel of the connection to load the SDE
-	 *         from if newer SDE avail, a {@link Cached} if no new SDE avail, or an
-	 *         {@link Errored} if could not fetch the metadata or the new SDE.
-	 */
-	public SDEDownload getSDE(String lastReleaseDate) {
-		RemoteMeta meta = null;
-		String url = null;
-		try {
-			meta = RemoteMeta.fetch();
-			String releaseDate = meta.releaseDate;
-			if (releaseDate.equals(lastReleaseDate)) {
-				return new Cached(meta);
-			}
-			url = extractURL(meta);
-		} catch (Exception e) {
-			return new Errored(RemoteMeta.URL, null, e);
-		}
-		try {
-			return new Success(url, meta, Channels.newChannel(new URI(url).toURL().openStream()));
-		} catch (Exception e) {
-			return new Errored(url, meta, e);
-		}
-	}
-
-	public SDEDownload getSDE() {
-		return getSDE(null);
 	}
 
 	//
@@ -269,7 +267,7 @@ public class YamlCache {
 			log.debug("no existing download information in file " + zipLastMetaFile().getAbsolutePath()
 					+ ", downloading sde into " + zipCacheDir().getAbsolutePath());
 		}
-		SDEDownload dl = getSDE(lastReleaseDate);
+		DLResult dl = dl(lastReleaseDate);
 		switch (dl) {
 		case Cached _:
 			log.debug("sde already last version " + lastReleaseDate + " in " + zipCacheDir().getAbsolutePath());
@@ -313,6 +311,7 @@ public class YamlCache {
 
 	protected void clearCaches() {
 		synchronized (registeredCaches) {
+			log.debug("clearing " + registeredCaches.size() + " caches");
 			for (Ref r : registeredCaches) {
 				r.clearRefCache();
 			}

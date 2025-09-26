@@ -10,15 +10,15 @@ import fr.guiguilechat.jcelechat.model.sde2.parsers.EmapMoons;
 import fr.guiguilechat.jcelechat.model.sde2.parsers.Eraces;
 import fr.guiguilechat.jcelechat.model.sde2.parsers.Etypes;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.SDEDownload;
-import fr.guiguilechat.jcelechat.model.sde2.yaml.SDEDownload.Success;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.DLResult;
+import fr.guiguilechat.jcelechat.model.sde2.yaml.DLResult.Success;
 import fr.guiguilechat.jcelechat.model.sde2.yaml.YamlCache;
 
 public class LoadSDEInputStream {
 
 	public static void main(String[] args) throws IOException {
 		// no last release
-		SDEDownload d = YamlCache.INSTANCE.getSDE();
+		DLResult d = YamlCache.INSTANCE.dl();
 		if (d instanceof Success s) {
 			System.out.println("fetch SDE released=" + s.meta().releaseDate + " build=" + s.meta().buildNumber);
 			ZipInputStream zip = s.zipputSteam();
