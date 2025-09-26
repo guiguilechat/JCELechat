@@ -3,6 +3,10 @@ package fr.guiguilechat.jcelechat.model.sde2;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.model.sde2.parsers.*;
@@ -14,6 +18,7 @@ public class TestAllParsers {
 	public static void main(String[] args)
 			throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, NoSuchFieldException {
 		YamlCache.INSTANCE.donwloadSDE();
+		Map<String, Set<String>> multipleValues = new LinkedHashMap<>();
 		for (Class<?> cl : new Class<?>[] {
 				Eagents.class,
 				EagentsInSpace.class,
@@ -80,11 +85,17 @@ public class TestAllParsers {
 					.collect(Collectors.toSet());
 			assert classes.size() == 1;
 			if (classes.size() > 1) {
-				System.err.println(" too many classes "+classes);
+				System.err.println(" too many classes " + classes);
+				multipleValues.put(loader.getArchiveFileName(), classes);
 			}
-			System.out.println(" classes=" + classes);
 		}
 
+		if (!multipleValues.isEmpty()) {
+			System.err.println("invalid parsing for files :");
+			for (Entry<String, Set<String>> e : multipleValues.entrySet()) {
+				System.err.println(e.getKey() + e.getValue());
+			}
+		}
 	}
 
 }

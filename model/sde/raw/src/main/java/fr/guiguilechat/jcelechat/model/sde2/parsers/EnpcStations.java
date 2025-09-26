@@ -20,7 +20,7 @@ public class EnpcStations extends Orbiting {
 			SDE_FILE_YAML);
 
 	public static final SnakeYamlLHMLoader<EnpcStations> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EnpcStations.class, Set.of("ownerID"), Set.of("operationID"));
+			EnpcStations.class, Set.of("ownerID"));
 
 	public static final JacksonYamlLHMLoader<EnpcStations> LOADER = LOADER_SNAKEYAML;
 
