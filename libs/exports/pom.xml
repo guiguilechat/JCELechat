@@ -11,7 +11,7 @@
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>exports</artifactId>
 	<packaging>pom</packaging>
-	<name>Export libs</name>
+	<name>POM Libs exports</name>
 	<description>Eve data exports</description>
 	<modules>
 	<module>common</module>

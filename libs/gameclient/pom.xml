@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>gameclient</artifactId>
-	<name>Lib Eve Gameclient</name>
+	<name>Lib Gameclient</name>
 	<description>Get, cache and some parsing to raw data from CCP's Eve Online's data servers</description>
 	<dependencies>
 		<dependency>

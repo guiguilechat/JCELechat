@@ -14,7 +14,7 @@
 	<description>pom for all main programs</description>
 	<modules>
 		<module>cli</module>
-		<module>jfx</module>
+<!--		<module>jfx</module>-->
 		<module>spring</module>
 	</modules>
 	<profiles>

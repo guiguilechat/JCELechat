@@ -7,8 +7,8 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>esi</artifactId>
-	<name>ESI Libs</name>
-	<description>EvE ESI libs</description>
+	<name>POM Libs ESI</name>
+	<description>POM Libs ESI</description>
 	<packaging>pom</packaging>
 	<modules>
 		<module>commons</module>

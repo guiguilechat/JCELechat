@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model</groupId>
 	<artifactId>esi</artifactId>
-	<name>JCESI root</name>
+	<name>POM JCESI</name>
 	<packaging>pom</packaging>
 	<modules>
 		<module>jcesi</module>

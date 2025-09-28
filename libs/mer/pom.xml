@@ -7,8 +7,8 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>mer</artifactId>
-	<name>MER Lib</name>
-	<description>EvE MER lib</description>
+	<name>Lib MER</name>
+	<description>Lib MER</description>
 	<dependencies>
 <!--		<dependency>-->
 <!--			<groupId>ch.qos.logback</groupId>-->

@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>fr.guiguilechat.jcelechat.libs</groupId>
+    <artifactId>sde</artifactId>
+    <version>7.44.1</version>
+  </parent>
+  <groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
+  <artifactId>locations</artifactId>
+  <name>Lib SDE locations</name>
+  <description>Locations model of the SDE</description>
+	<dependencies>
+		<dependency>
+  <groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
+  <artifactId>cache</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

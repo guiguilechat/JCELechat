@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>logparser</artifactId>
-	<name>LogParser</name>
+	<name>Lib LogParser</name>
 	<description>lib to parse the logs of Eve</description>
 	<dependencies>
 		<dependency>

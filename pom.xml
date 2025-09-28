@@ -7,7 +7,7 @@
 	<artifactId>jcelechat</artifactId>
 	<version>7.44.1</version>
 	<packaging>pom</packaging>
-	<name>JCE Lechat</name>
+	<name>POM JCE Lechat</name>
 	<description>Java Compile Eve by Lechat</description>
 	<modules>
 		<module>model</module>
@@ -288,6 +288,11 @@
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 				<artifactId>common</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
+				<artifactId>cache</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
