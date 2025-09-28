@@ -3,13 +3,13 @@ package fr.guiguilechat.jcelechat.libs.sde.cache;
 import java.lang.ref.WeakReference;
 import java.util.Objects;
 
-public interface Caching {
+public interface SDECacheListener {
 
-	void clearCache();
+	void onSDECacheCleared();
 
-	public static class Ref extends WeakReference<Caching> {
+	public static class Ref extends WeakReference<SDECacheListener> {
 
-		public Ref(Caching referent) {
+		public Ref(SDECacheListener referent) {
 			super(referent);
 		}
 
@@ -36,7 +36,7 @@ public interface Caching {
 		public void clearRefCache() {
 			var v = get();
 			if (v != null) {
-				v.clearCache();
+				v.onSDECacheCleared();
 			}
 		}
 

@@ -9,6 +9,7 @@ import java.io.InputStream;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.JsonCache;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

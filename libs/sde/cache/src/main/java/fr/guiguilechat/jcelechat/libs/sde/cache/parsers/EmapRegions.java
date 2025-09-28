@@ -37,6 +37,10 @@ public class EmapRegions extends InSpace {
 	public int nebulaID;
 	public int wormholeClassID;
 
+	public String enDescription() {
+		return description == null ? null : description.get("en");
+	}
+
 	//
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.sde.cache.yaml;
+package fr.guiguilechat.jcelechat.libs.sde.cache;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -22,10 +22,9 @@ import org.yaml.snakeyaml.representer.Representer;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.Caching;
-import fr.guiguilechat.jcelechat.libs.sde.cache.RemoteMeta;
-import fr.guiguilechat.jcelechat.libs.sde.cache.Caching.Ref;
+import fr.guiguilechat.jcelechat.libs.sde.cache.SDECacheListener.Ref;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.SdeMeta;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Cached;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Errored;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Success;
@@ -40,7 +39,7 @@ public class YamlCache {
 
 	public static final YamlCache INSTANCE = new YamlCache();
 
-	static Yaml yaml(Constructor cons) {
+	public static Yaml yaml(Constructor cons) {
 		LoaderOptions options = new LoaderOptions();
 		options.setCodePointLimit(Integer.MAX_VALUE);
 		DumperOptions dumperOptions = new DumperOptions();
@@ -149,7 +148,7 @@ public class YamlCache {
 		case Success s: {
 			log.debug("new version of sde to download with releaseDate " + s.meta().releaseDate + " into "
 					+ extractCacheDir().getAbsolutePath());
-			fr.guiguilechat.jcelechat.libs.sde.cache.FileTools.delDir(extractCacheDir());
+			fr.guiguilechat.jcelechat.libs.sde.cache.tools.FileTools.delDir(extractCacheDir());
 			extractCacheDir().mkdirs();
 			s.extract(extractCacheDir());
 			clearCaches();
@@ -300,11 +299,11 @@ public class YamlCache {
 
 	// caching invalidation
 
-	private final Set<Caching.Ref> registeredCaches = new HashSet<>();
+	private final Set<SDECacheListener.Ref> registeredCaches = new HashSet<>();
 
-	public void registerCache(Caching c) {
+	public void registerCache(SDECacheListener c) {
 		synchronized (registeredCaches) {
-			registeredCaches.add(new Caching.Ref(c));
+			registeredCaches.add(new SDECacheListener.Ref(c));
 		}
 	}
 

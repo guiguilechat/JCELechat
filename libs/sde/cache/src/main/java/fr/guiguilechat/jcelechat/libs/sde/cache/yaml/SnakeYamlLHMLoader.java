@@ -16,6 +16,8 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.YamlCache;
+
 /**
  * snakeyaml LinkedHashMap loader
  *

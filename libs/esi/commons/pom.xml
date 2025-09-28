@@ -7,7 +7,7 @@
   </parent>
   <groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
   <artifactId>commons</artifactId>
-  <name>JCESI commons</name>
+  <name>Lib ESI commons</name>
   <dependencies>
   	<dependency>
   		<groupId>org.testng</groupId>

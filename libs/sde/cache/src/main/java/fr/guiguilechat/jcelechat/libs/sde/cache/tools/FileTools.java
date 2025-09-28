@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.sde.cache;
+package fr.guiguilechat.jcelechat.libs.sde.cache.tools;
 
 import java.io.File;
 

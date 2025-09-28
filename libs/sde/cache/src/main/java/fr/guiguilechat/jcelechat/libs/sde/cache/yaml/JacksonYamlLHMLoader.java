@@ -13,12 +13,12 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.ACaching;
+import fr.guiguilechat.jcelechat.libs.sde.cache.YamlCache;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class JacksonYamlLHMLoader<U> extends ACaching {
+public class JacksonYamlLHMLoader<U> extends YAMLCacheListener {
 
 	@Getter
 	private final String archiveFileName;
@@ -29,7 +29,7 @@ public class JacksonYamlLHMLoader<U> extends ACaching {
 	private LinkedHashMap<Integer, U>  cache = null;
 
 	@Override
-	public void clearCache() {
+	public void onSDECacheCleared() {
 		cache = null;
 	}
 

@@ -1,9 +1,6 @@
-package fr.guiguilechat.jcelechat.libs.sde.cache.json;
+package fr.guiguilechat.jcelechat.libs.sde.cache;
 
 import java.io.File;
-
-import fr.guiguilechat.jcelechat.libs.sde.cache.RemoteMeta;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlCache;
 
 public class JsonCache extends YamlCache {
 

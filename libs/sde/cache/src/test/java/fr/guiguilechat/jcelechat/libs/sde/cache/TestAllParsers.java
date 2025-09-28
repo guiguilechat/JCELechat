@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.*;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlCache;
 
 public class TestAllParsers {
 

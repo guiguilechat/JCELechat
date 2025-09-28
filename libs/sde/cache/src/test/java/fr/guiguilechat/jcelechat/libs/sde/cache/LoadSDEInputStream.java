@@ -11,7 +11,6 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eraces;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Etypes;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlCache;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Success;
 
 public class LoadSDEInputStream {
