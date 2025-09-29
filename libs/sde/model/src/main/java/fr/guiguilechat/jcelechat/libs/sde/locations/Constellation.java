@@ -1,7 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.sde.locations;
 
+import java.util.List;
+
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapConstellations;
 import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
+import fr.guiguilechat.jcelechat.libs.sde.locations.generic.ALocation;
 import lombok.Getter;
 
 @Getter
@@ -9,7 +12,6 @@ public class Constellation extends ALocation<EmapConstellations> {
 
 	public static final Mapper<EmapConstellations, Constellation> CACHE = new Mapper<>(EmapConstellations.LOADER,
 			Constellation::new);
-
 
 	private final int factionId;
 	private final int wormholeClassId;
@@ -27,5 +29,8 @@ public class Constellation extends ALocation<EmapConstellations> {
 
 	@Getter(lazy = true)
 	private final Region region = Region.CACHE.of(source().regionID);
+
+	@Getter(lazy = true)
+	private final List<SolarSystem> solarSystems = SolarSystem.CACHE.of(source().solarSystemIDs);
 
 }

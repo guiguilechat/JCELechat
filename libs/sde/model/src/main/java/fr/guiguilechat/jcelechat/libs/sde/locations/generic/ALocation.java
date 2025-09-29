@@ -1,10 +1,15 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.locations.generic;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
+/**
+ * represent an {@link InSpace}
+ *
+ * @param <T>
+ */
 @Getter
 @Accessors(fluent = true)
 public abstract class ALocation<T extends InSpace> {

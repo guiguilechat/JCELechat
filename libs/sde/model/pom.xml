@@ -6,11 +6,11 @@
 		<version>7.44.1</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
-	<artifactId>locations</artifactId>
-	<name>Lib SDE locations</name>
-	<description>Locations model of the SDE</description>
+	<artifactId>model</artifactId>
+	<name>Lib SDE model</name>
+	<description>Object model of the SDE</description>
 	<dependencies>
-		<dependency>
+		<dependency> 
 			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
 			<artifactId>cache</artifactId>
 		</dependency>

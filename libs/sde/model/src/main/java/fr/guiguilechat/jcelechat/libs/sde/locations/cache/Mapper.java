@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
 import fr.guiguilechat.jcelechat.libs.sde.cache.tools.RWLockResource;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YAMLCacheListener;
-import fr.guiguilechat.jcelechat.libs.sde.locations.ALocation;
+import fr.guiguilechat.jcelechat.libs.sde.locations.generic.ALocation;
 import lombok.RequiredArgsConstructor;
 
 /**

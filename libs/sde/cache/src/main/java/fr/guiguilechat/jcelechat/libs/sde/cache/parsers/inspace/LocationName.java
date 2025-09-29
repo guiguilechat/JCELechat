@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.sde.cache.tools;
+package fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapAsteroidBelts;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapMoons;

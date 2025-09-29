@@ -3,12 +3,11 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.OrbitingCelestial;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
-
-import java.util.Set;
 
 public class EmapPlanets extends OrbitingCelestial {
 
@@ -53,11 +52,6 @@ public class EmapPlanets extends OrbitingCelestial {
 				specificNamed.add(e);
 			}
 		}
-//		if (!specificNamed.isEmpty()) {
-//			for (var e : specificNamed) {
-//				System.out.println(e.getKey()+"\t"+e.getValue().enName());
-//			}
-//		}
 	}
 
 }

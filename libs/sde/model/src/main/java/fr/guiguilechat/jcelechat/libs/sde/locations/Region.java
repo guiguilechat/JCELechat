@@ -3,7 +3,9 @@ package fr.guiguilechat.jcelechat.libs.sde.locations;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Universe;
 import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
+import fr.guiguilechat.jcelechat.libs.sde.locations.generic.ALocation;
 import lombok.Getter;
 
 @Getter
@@ -29,6 +31,10 @@ public class Region extends ALocation<EmapRegions> {
 		return source().enDescription();
 	}
 
+	@Getter(lazy = true)
 	private final List<Constellation> constellations = Constellation.CACHE.of(source().constellationIDs);
+
+	@Getter(lazy = true)
+	private final Universe universe = Universe.of(id());
 
 }
