@@ -22,7 +22,7 @@ public class EdogmaEffects {
 			SDE_FILE_YAML);
 
 	public static final SnakeYamlLHMLoader<EdogmaEffects> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EdogmaEffects.class, Set.of("effectCategory"));
+			EdogmaEffects.class, Set.of("effectCategoryID"));
 
 	public static final JacksonYamlLHMLoader<EdogmaEffects> LOADER = LOADER_SNAKEYAML;
 
@@ -36,9 +36,7 @@ public class EdogmaEffects {
 	public int dischargeAttributeID;
 	public int distribution;
 	public int durationAttributeID;
-	public int effectCategory; // replace with categoryID later
-	public int effectID;// remove later
-	public String effectName;
+	public int effectCategoryID;
 	public boolean electronicChance;
 	public int falloffAttributeID;
 	public int fittingUsageChanceAttributeID;
@@ -60,6 +58,7 @@ public class EdogmaEffects {
 	}
 	public List<ModifierInfo> modifierInfo = new ArrayList<>();
 
+	public String name;
 	public int npcActivationChanceAttributeID;
 	public int npcUsageChanceAttributeID;
 	public boolean propulsionChance;
@@ -68,7 +67,6 @@ public class EdogmaEffects {
 	public boolean rangeChance;
 	public int resistanceAttributeID;
 	public int trackingSpeedAttributeID;
-	public String sfxName; // remove later
 
 	//
 
@@ -76,6 +74,6 @@ public class EdogmaEffects {
 		var loaded = LOADER.load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.out.println("first : name=" + first.effectName);
+		System.out.println("first : name=" + first.name);
 	}
 }

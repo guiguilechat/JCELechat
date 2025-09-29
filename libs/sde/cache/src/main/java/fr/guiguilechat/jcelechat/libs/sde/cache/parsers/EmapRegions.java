@@ -34,8 +34,13 @@ public class EmapRegions extends InSpace {
 	public List<Integer> constellationIDs = new ArrayList<>();
 	public Map<String, String> description = new LinkedHashMap<>();
 	public int factionID;
+	public LinkedHashMap<String, String> name;
 	public int nebulaID;
 	public int wormholeClassID;
+
+	public String enName() {
+		return name == null ? null : name.get("en");
+	}
 
 	public String enDescription() {
 		return description == null ? null : description.get("en");

@@ -59,7 +59,7 @@ public class LocationName {
 	}
 
 	public static String of(EmapPlanets planets) {
-		String ret = planets.enName();
+		String ret = planets.enUniqueName();
 		if (ret != null) {
 			return ret;
 		}
@@ -68,7 +68,7 @@ public class LocationName {
 	}
 
 	public static String of(EmapMoons moon) {
-		String ret = moon.enName();
+		String ret = moon.enUniqueName();
 		if (ret != null) {
 			return ret;
 		}
@@ -77,7 +77,7 @@ public class LocationName {
 	}
 
 	public static String of(EmapAsteroidBelts belt) {
-		String ret = belt.enName();
+		String ret = belt.enUniqueName();
 		if (ret != null) {
 			return ret;
 		}
@@ -86,12 +86,7 @@ public class LocationName {
 	}
 
 	public static String of(EnpcStations sta) {
-		String ret = sta.enName();
-		if (ret != null) {
-			return ret;
-		}
-
-		ret = of(sta.orbitID);
+		String ret = of(sta.orbitID);
 		var corp = sta.ownerID > 0 ? EnpcCorporations.LOADER.get(sta.ownerID) : null;
 		if (corp != null) {
 			ret += " - " + corp.enName();

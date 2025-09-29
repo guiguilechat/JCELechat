@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
+import java.util.LinkedHashMap;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting;
@@ -27,14 +28,18 @@ public class EmapAsteroidBelts extends Orbiting {
 	// file structure
 	//
 
-	// nothing, it's just a celestial
+	public LinkedHashMap<String, String> uniqueName;
+
+	public String enUniqueName() {
+		return uniqueName == null ? null : uniqueName.get("en");
+	}
 
 	//
 
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
 		System.out.println("loaded : " + loaded.size());
-		long withname = loaded.values().stream().filter(m -> m.name != null).count();
+		long withname = loaded.values().stream().filter(m -> m.uniqueName != null).count();
 		System.out.println("named=" + withname);
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : solarSystemId=" + first.solarSystemID + " typeID=" + first.typeID);

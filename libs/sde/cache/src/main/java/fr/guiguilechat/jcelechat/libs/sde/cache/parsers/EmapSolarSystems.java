@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
 
@@ -40,6 +41,7 @@ public class EmapSolarSystems extends InSpace {
 	public boolean hub;
 	public boolean international;
 	public BigDecimal luminosity;
+	public LinkedHashMap<String, String> name;
 	public List<Integer> planetIDs = new ArrayList<>();
 	public BigDecimal radius;
 	public int regionID;
@@ -50,6 +52,10 @@ public class EmapSolarSystems extends InSpace {
 	public List<Integer> stargateIDs = new ArrayList<>();
 	public String visualEffect;
 	public int wormholeClassID;
+
+	public String enName() {
+		return name == null ? null : name.get("en");
+	}
 
 	//
 

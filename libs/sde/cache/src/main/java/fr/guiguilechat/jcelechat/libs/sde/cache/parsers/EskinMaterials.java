@@ -20,7 +20,7 @@ public class EskinMaterials {
 			SDE_FILE_YAML);
 
 	public static final SnakeYamlLHMLoader<EskinMaterials> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EskinMaterials.class, Set.of("skinMaterialID"));
+			EskinMaterials.class, Set.of("materialSetID"));
 
 	public static final JacksonYamlLHMLoader<EskinMaterials> LOADER = LOADER_SNAKEYAML;
 
@@ -30,7 +30,6 @@ public class EskinMaterials {
 
 	public HashMap<String, String> displayName = new LinkedHashMap<>();
 	public int materialSetID;
-	public int skinMaterialID;
 
 	public String enDisplayName() {
 		return displayName == null ? null : displayName.get("en");

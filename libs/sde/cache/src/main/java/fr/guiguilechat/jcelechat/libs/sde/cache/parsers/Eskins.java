@@ -34,7 +34,6 @@ public class Eskins {
 	public String internalName;
 	public boolean isStructureSkin;
 	public HashMap<String, String> skinDescription = new LinkedHashMap<>();
-	public int skinID;
 	public int skinMaterialID;
 	public List<Integer> types = new ArrayList<>();
 	public boolean visibleSerenity;
@@ -52,7 +51,5 @@ public class Eskins {
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println(
 				"first : skinDescription=" + first.enSkinDescription() + " internalname=" + first.internalName);
-		long diffSkinId = loaded.entrySet().stream().filter(e -> e.getKey() != e.getValue().skinID).count();
-		System.out.println("with key mismatching skinID : " + diffSkinId);
 	}
 }

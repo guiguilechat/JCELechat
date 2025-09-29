@@ -19,7 +19,6 @@ public class TestAllParsers {
 		YamlCache.INSTANCE.donwloadSDE();
 		Map<String, Set<String>> multipleClasses = new LinkedHashMap<>();
 		for (Class<?> cl : new Class<?>[] {
-				Eagents.class,
 				EagentsInSpace.class,
 				EagentTypes.class,
 				Eancestries.class,
@@ -53,13 +52,13 @@ public class TestAllParsers {
 				EmarketGroups.class,
 				Emasteries.class,
 				EmetaGroups.class,
+				EnpcCharacters.class,
 				EnpcCorporationDivisions.class,
 				EnpcCorporations.class,
 				EnpcStations.class,
 				EplanetResources.class,
 				EplanetSchematics.class,
 				Eraces.class,
-				EresearchAgents.class,
 				EskinLicenses.class,
 				EskinMaterials.class,
 				Eskins.class,

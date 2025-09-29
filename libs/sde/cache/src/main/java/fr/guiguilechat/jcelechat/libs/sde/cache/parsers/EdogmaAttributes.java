@@ -24,7 +24,7 @@ public class EdogmaAttributes {
 			SDE_FILE_YAML);
 
 	public static final SnakeYamlLHMLoader<EdogmaAttributes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EdogmaAttributes.class, Set.of("attributeID"));
+			EdogmaAttributes.class, Set.of("attributeCategoryID"), Set.of("published"));
 
 	public static final JacksonYamlLHMLoader<EdogmaAttributes> LOADER = LOADER_SNAKEYAML;
 
@@ -32,8 +32,7 @@ public class EdogmaAttributes {
 	// file structure
 	//
 
-	public int attributeID;
-	public int categoryID;
+	public int attributeCategoryID;
 	public int chargeRechargeTimeID;
 	public int dataType;
 	public BigDecimal defaultValue;

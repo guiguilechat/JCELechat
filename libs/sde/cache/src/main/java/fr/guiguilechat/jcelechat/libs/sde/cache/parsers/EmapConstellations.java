@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
 
@@ -30,9 +31,15 @@ public class EmapConstellations extends InSpace {
 	//
 
 	public int factionID;
+	public LinkedHashMap<String, String> name;
 	public int regionID;
 	public List<Integer> solarSystemIDs = new ArrayList<>();
 	public int wormholeClassID;
+
+
+	public String enName() {
+		return name == null ? null : name.get("en");
+	}
 
 	//
 

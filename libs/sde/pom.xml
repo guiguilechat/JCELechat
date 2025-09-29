@@ -12,6 +12,6 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>cache</module>
-		<module>locations</module>
+		<module>model</module>
 	</modules>
 </project>

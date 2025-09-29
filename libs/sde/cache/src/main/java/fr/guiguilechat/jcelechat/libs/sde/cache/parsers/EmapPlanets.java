@@ -1,8 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Map.Entry;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.OrbitingCelestial;
@@ -39,17 +37,13 @@ public class EmapPlanets extends OrbitingCelestial {
 	public static void main(String[] args) {
 		var loaded = LOADER.load();
 		System.out.println("loaded : " + loaded.size());
-		long withname = loaded.values().stream().filter(m -> m.name != null).count();
+		long withname = loaded.values().stream().filter(m -> m.uniqueName != null).count();
 		System.out.println("named=" + withname);
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : solarSystemID=" + first.solarSystemID + " typeID=" + first.typeID);
-		Set<Entry<Integer, EmapPlanets>> specificNamed = new HashSet<>();
 		for (var e : loaded.entrySet()) {
 			if (e.getValue().celestialIndex == 0) {
 				System.err.println(e.getKey() + " has no celestialindex");
-			}
-			if (e.getValue().enName() != null) {
-				specificNamed.add(e);
 			}
 		}
 	}
