@@ -36,7 +36,6 @@ public class EmapStars {
 		public BigDecimal luminosity;
 		public String spectralClass;
 		public BigDecimal temperature;
-
 	}
 
 	public StarStatistics statistics;

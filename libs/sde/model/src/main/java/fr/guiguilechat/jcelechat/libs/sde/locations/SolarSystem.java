@@ -5,11 +5,13 @@ import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapSolarSystems;
 import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.ALocation;
+import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AInspace;
 import lombok.Getter;
+import lombok.experimental.Accessors;
 
 @Getter
-public class SolarSystem extends ALocation<EmapSolarSystems> {
+@Accessors(fluent = true)
+public class SolarSystem extends AInspace<EmapSolarSystems> {
 
 	public static final Mapper<EmapSolarSystems, SolarSystem> CACHE = new Mapper<>(EmapSolarSystems.LOADER,
 			SolarSystem::new);
@@ -58,6 +60,15 @@ public class SolarSystem extends ALocation<EmapSolarSystems> {
 	private final Constellation constellation = Constellation.CACHE.of(source().constellationID);
 
 	@Getter(lazy = true)
+	private final List<Planet> planets = Planet.CACHE.of(source().planetIDs);
+
+	@Getter(lazy = true)
 	private final Region region = Region.CACHE.of(source().regionID);
+
+	@Getter(lazy = true)
+	private final Star star = Star.CACHE.of(source().starID);
+
+	@Getter(lazy = true)
+	private final List<Stargate> stargates = Stargate.CACHE.of(source().stargateIDs);
 
 }

@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.locations;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapPlanets;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapMoons;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
 import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AOrbitingCelestial;
@@ -11,11 +11,12 @@ import lombok.experimental.Accessors;
 
 @Getter
 @Accessors(fluent = true)
-public class Planet extends AOrbitingCelestial<EmapPlanets> {
+public class Moon extends AOrbitingCelestial<EmapMoons> {
 
-	public static final Mapper<EmapPlanets, Planet> CACHE = new Mapper<>(EmapPlanets.LOADER, Planet::new);
+	public static final Mapper<EmapMoons, Moon> CACHE = new Mapper<>(EmapMoons.LOADER,
+			Moon::new);
 
-	protected Planet(int id, EmapPlanets source) {
+	protected Moon(int id, EmapMoons source) {
 		super(id, source);
 	}
 
@@ -23,12 +24,6 @@ public class Planet extends AOrbitingCelestial<EmapPlanets> {
 	protected String makeEnName() {
 		return LocationName.of(source());
 	}
-
-	@Getter(lazy = true)
-	private final List<Moon> moons = Moon.CACHE.of(source().moonIDs);
-
-	@Getter(lazy = true)
-	private final List<AsteroidBelt> asteroidBelts = AsteroidBelt.CACHE.of(source().asteroidBeltIDs);
 
 	@Getter(lazy = true)
 	private final List<Station> stations = Station.CACHE.of(source().npcStationIDs);

@@ -5,11 +5,13 @@ import java.util.List;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Universe;
 import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.ALocation;
+import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AInspace;
 import lombok.Getter;
+import lombok.experimental.Accessors;
 
 @Getter
-public class Region extends ALocation<EmapRegions> {
+@Accessors(fluent = true)
+public class Region extends AInspace<EmapRegions> {
 
 	public static final Mapper<EmapRegions, Region> CACHE = new Mapper<>(EmapRegions.LOADER, Region::new);
 

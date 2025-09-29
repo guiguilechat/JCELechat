@@ -4,13 +4,14 @@ import java.math.BigDecimal;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting.Statistic;
+import fr.guiguilechat.jcelechat.libs.sde.locations.SolarSystem;
 import lombok.Getter;
 
 /**
  * represents an {@link Orbiting}
  */
 @Getter
-public abstract class AOrbiting<T extends Orbiting> extends ALocation<T> {
+public abstract class AOrbiting<T extends Orbiting> extends AInspace<T> {
 
 	private final int celestialIndex;
 	private final int orbitId;
@@ -28,5 +29,8 @@ public abstract class AOrbiting<T extends Orbiting> extends ALocation<T> {
 		statistics = source.statistics;
 		typeID = source.typeID;
 	}
+
+	@Getter(lazy = true)
+	private final SolarSystem solarSystem = SolarSystem.CACHE.of(source().solarSystemID);
 
 }

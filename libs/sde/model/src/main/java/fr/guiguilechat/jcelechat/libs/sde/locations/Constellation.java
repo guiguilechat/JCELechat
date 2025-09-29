@@ -4,11 +4,13 @@ import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapConstellations;
 import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.ALocation;
+import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AInspace;
 import lombok.Getter;
+import lombok.experimental.Accessors;
 
 @Getter
-public class Constellation extends ALocation<EmapConstellations> {
+@Accessors(fluent = true)
+public class Constellation extends AInspace<EmapConstellations> {
 
 	public static final Mapper<EmapConstellations, Constellation> CACHE = new Mapper<>(EmapConstellations.LOADER,
 			Constellation::new);

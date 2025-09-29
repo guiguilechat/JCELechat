@@ -10,11 +10,9 @@ import java.util.function.Consumer;
 import java.util.function.IntConsumer;
 import java.util.stream.StreamSupport;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
 import fr.guiguilechat.jcelechat.libs.sde.cache.tools.RWLockResource;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YAMLCacheListener;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.ALocation;
 import lombok.RequiredArgsConstructor;
 
 /**
@@ -27,7 +25,7 @@ import lombok.RequiredArgsConstructor;
  * </p>
  */
 @RequiredArgsConstructor
-public class Mapper<T extends InSpace, U extends ALocation<T>> extends YAMLCacheListener {
+public class Mapper<T, U> extends YAMLCacheListener {
 
 	private final JacksonYamlLHMLoader<T> loader;
 
@@ -57,6 +55,9 @@ public class Mapper<T extends InSpace, U extends ALocation<T>> extends YAMLCache
 	}
 
 	public List<U> of(Iterable<Integer> ids) {
+		if (ids == null) {
+			return List.of();
+		}
 		try (var _ = lck.writeLock()) {
 			return StreamSupport.stream(ids.spliterator(), false).map(this::of).toList();
 		}

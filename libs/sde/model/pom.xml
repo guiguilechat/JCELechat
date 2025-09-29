@@ -10,7 +10,7 @@
 	<name>Lib SDE model</name>
 	<description>Object model of the SDE</description>
 	<dependencies>
-		<dependency> 
+		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
 			<artifactId>cache</artifactId>
 		</dependency>

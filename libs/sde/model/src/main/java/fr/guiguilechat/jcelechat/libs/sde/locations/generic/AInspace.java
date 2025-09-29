@@ -12,7 +12,7 @@ import lombok.experimental.Accessors;
  */
 @Getter
 @Accessors(fluent = true)
-public abstract class ALocation<T extends InSpace> {
+public abstract class AInspace<T extends InSpace> {
 
 	private final int id;
 
@@ -20,7 +20,7 @@ public abstract class ALocation<T extends InSpace> {
 
 	private final Position position;
 
-	protected ALocation(int id, T source) {
+	protected AInspace(int id, T source) {
 		this.id = id;
 		this.source = source;
 		position = source.position;
