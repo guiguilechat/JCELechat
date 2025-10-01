@@ -184,7 +184,7 @@ public class StargateService extends
 	 */
 	public static double convertWarpTotime(double distance_m, double align_s, double warpspeed_aups) {
 		return 0.5 + Math.ceil(align_s)
-				+ WarpTime.of((float) (distance_m / WarpTime.AU_IN_M), 100, (float) warpspeed_aups);
+				+ WarpTime.of((float) (distance_m / WarpTime.AU_IN_M), warpspeed_aups, 100);
 	}
 
 	public static record TravelTime(int start, int end, double time) implements Serializable {

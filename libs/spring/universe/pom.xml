@@ -20,7 +20,7 @@
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
-		<!--		self dependencies-->
+		<!-- self dependencies-->
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 			<artifactId>formula</artifactId>
@@ -37,7 +37,7 @@
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>sde</artifactId>
 		</dependency>
-		<!--		/self-->
+		<!-- /self-->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
