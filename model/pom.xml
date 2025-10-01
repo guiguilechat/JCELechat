@@ -7,7 +7,6 @@
 
 	<modules>
 		<module>esi</module>
-		<module>formula</module>
 		<module>sde</module>
 	</modules>
 	

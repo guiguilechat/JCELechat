@@ -1,14 +1,10 @@
-package fr.guiguilechat.jcelechat.model.formula;
+package fr.guiguilechat.jcelechat.model.formula.market;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
 
-import fr.guiguilechat.jcelechat.model.formula.market.BrokerFee;
-import fr.guiguilechat.jcelechat.model.formula.market.BrokerRelist;
-import fr.guiguilechat.jcelechat.model.formula.market.Tax;
-
-public class Market {
+public class PriceChange {
 
 	public static void main(String[] args) {
 		System.out.println("minimum : market tax is " + Tax.MINIMUM

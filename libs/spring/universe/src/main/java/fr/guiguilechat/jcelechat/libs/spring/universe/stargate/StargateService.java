@@ -26,6 +26,7 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.model.formula.space.WarpTime;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -141,8 +142,6 @@ public class StargateService extends
 				.toList();
 	}
 
-	public static final double AU_IN_M = 149597870691L;
-
 	/**
 	 * a warp consists in
 	 * <p>
@@ -184,24 +183,8 @@ public class StargateService extends
 	 * @return average time in s to actually perform the warp from standstill point.
 	 */
 	public static double convertWarpTotime(double distance_m, double align_s, double warpspeed_aups) {
-		if (distance_m < 100000) {
-			throw new RuntimeException("can't warp below 100km, received " + distance_m + "m request");
-		}
-		double distance_warp_au = distance_m / AU_IN_M;
-		double j = Math.min(warpspeed_aups, 6) / 3;
-		double distance_meet = j * distance_warp_au / (warpspeed_aups + j);
-		double distance_accel_au = distance_meet < 1 ? distance_meet : 1;
-		double time_accel = Math.log(distance_accel_au * AU_IN_M) / warpspeed_aups;
-		double distance_decel_au = distance_meet < 1 ? distance_warp_au - distance_meet : warpspeed_aups / j;
-		double time_decel = Math.log(j / warpspeed_aups * distance_decel_au * AU_IN_M) / j;
-		double distance_cruise_au = distance_warp_au - distance_decel_au - distance_accel_au;
-		double time_cruise = distance_cruise_au / warpspeed_aups;
-		// System.err.println("warping " + distance_warp_au + "AU with " + align_s + "s
-		// align, " + warpspeed_aups
-		// + " AU/s gives time " + time_accel + "s accel, " + time_cruise + "s cruise, "
-		// + time_decel
-		// + "s decel, meetdistance=" + distance_meet + "AU");
-		return 0.5 + Math.ceil(align_s) + time_accel + time_cruise + time_decel;
+		return 0.5 + Math.ceil(align_s)
+				+ WarpTime.of((float) (distance_m / WarpTime.AU_IN_M), 100, (float) warpspeed_aups);
 	}
 
 	public static record TravelTime(int start, int end, double time) implements Serializable {

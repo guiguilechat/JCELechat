@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat</groupId>
+		<artifactId>libs</artifactId>
 		<version>7.44.1</version>
-		<artifactId>model</artifactId>
 	</parent>
-	<groupId>fr.guiguilechat.jcelechat.model</groupId>
+	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>formula</artifactId>
 	<name>Lib formulas</name>
 	<description>centralize formula from Eve.</description>

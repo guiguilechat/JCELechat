@@ -22,6 +22,10 @@
 	<dependencies>
 		<!--		self dependencies-->
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+			<artifactId>formula</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>items</artifactId>
 		</dependency>

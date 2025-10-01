@@ -267,6 +267,11 @@
 			<!-- sub modules -->
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+				<artifactId>formula</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 				<artifactId>gameclient</artifactId>
 				<version>${project.version}</version>
 			</dependency>

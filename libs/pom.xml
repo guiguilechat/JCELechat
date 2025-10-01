@@ -15,6 +15,7 @@
 	<modules>
 		<module>esi</module>
 		<module>exports</module>
+		<module>formula</module>
 		<module>gameclient</module>
 		<module>logparser</module>
 		<module>mer</module>

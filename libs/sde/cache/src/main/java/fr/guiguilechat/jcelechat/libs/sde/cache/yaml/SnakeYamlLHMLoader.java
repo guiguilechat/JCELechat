@@ -16,7 +16,7 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.YamlCache;
+import fr.guiguilechat.jcelechat.libs.sde.cache.tools.YamlTools;
 
 /**
  * snakeyaml LinkedHashMap loader
@@ -69,7 +69,7 @@ public class SnakeYamlLHMLoader<U> extends JacksonYamlLHMLoader<U> {
 				return super.getConstructor(node);
 			}
 		};
-		Yaml yaml = YamlCache.yaml(cons);
+		Yaml yaml = YamlTools.yaml(cons);
 		return yaml.loadAs(is, LinkedHashMap.class);
 	}
 

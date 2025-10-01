@@ -13,12 +13,6 @@ import java.util.Set;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import org.yaml.snakeyaml.DumperOptions;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-import org.yaml.snakeyaml.constructor.Constructor;
-import org.yaml.snakeyaml.representer.Representer;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
@@ -38,14 +32,6 @@ import lombok.extern.slf4j.Slf4j;
 public class YamlCache {
 
 	public static final YamlCache INSTANCE = new YamlCache();
-
-	public static Yaml yaml(Constructor cons) {
-		LoaderOptions options = new LoaderOptions();
-		options.setCodePointLimit(Integer.MAX_VALUE);
-		DumperOptions dumperOptions = new DumperOptions();
-		Representer representer = new Representer(dumperOptions);
-		return new Yaml(cons, representer, dumperOptions, options);
-	}
 
 	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	@Accessors(fluent = true)

@@ -11,6 +11,10 @@
 	<description>Object model of the SDE</description>
 	<dependencies>
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+			<artifactId>formula</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
 			<artifactId>cache</artifactId>
 		</dependency>
