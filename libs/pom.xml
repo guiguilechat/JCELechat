@@ -19,7 +19,7 @@
 		<module>gameclient</module>
 		<module>logparser</module>
 		<module>mer</module>
-		<module>routesolver</module>
+<!--		<module>routesolver</module>-->
 		<module>sde</module>
 		<module>spring</module>
 	</modules>

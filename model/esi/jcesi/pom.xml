@@ -11,6 +11,10 @@
 	<artifactId>jcesi</artifactId>
 	<dependencies>
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
+			<artifactId>model</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model</groupId>
 			<artifactId>formula</artifactId>
 		</dependency>
