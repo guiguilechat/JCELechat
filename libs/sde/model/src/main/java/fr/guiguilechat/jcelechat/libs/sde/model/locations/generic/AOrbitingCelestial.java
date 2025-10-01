@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations.generic;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations.generic;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.OrbitingCelestial;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.OrbitingCelestial.Attributes;

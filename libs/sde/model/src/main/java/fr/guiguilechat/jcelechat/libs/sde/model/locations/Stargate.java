@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates.Destination;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
-import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AInspace;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 

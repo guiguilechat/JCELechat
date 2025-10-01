@@ -19,12 +19,8 @@ public class LocationName {
 	 * https://developers.eveonline.com/docs/guides/id-ranges/
 	 */
 	public static String of(int id) {
-		// type checks sorted by the most probable calls
+		// type checks sorted by the least cpu-bound calls
 		if (id >= 40000000 && id <= 49999999) {
-			EmapMoons moon = EmapMoons.LOADER.get(id);
-			if (moon != null) {
-				return of(moon);
-			}
 
 			EmapPlanets planet = EmapPlanets.LOADER.get(id);
 			if (planet != null) {
@@ -34,6 +30,11 @@ public class LocationName {
 			EmapStars star = EmapStars.LOADER.get(id);
 			if (star != null) {
 				return of(star);
+			}
+
+			EmapMoons moon = EmapMoons.LOADER.get(id);
+			if (moon != null) {
+				return of(moon);
 			}
 
 			EmapAsteroidBelts belt = EmapAsteroidBelts.LOADER.get(id);
@@ -63,7 +64,7 @@ public class LocationName {
 		if (ret != null) {
 			return ret;
 		}
-		ret = of(planets.orbitID) + (planets.celestialIndex > 0 ? roman(planets.celestialIndex) : "");
+		ret = of(planets.orbitID) + " " + (planets.celestialIndex > 0 ? roman(planets.celestialIndex) : "");
 		return ret;
 	}
 
@@ -72,7 +73,7 @@ public class LocationName {
 		if (ret != null) {
 			return ret;
 		}
-		ret = of(moon.orbitID) + (moon.orbitIndex > 0 ? " - Moon " + roman(moon.orbitIndex) : "");
+		ret = of(moon.orbitID) + (moon.orbitIndex > 0 ? " - Moon " + moon.orbitIndex : "");
 		return ret;
 	}
 
@@ -81,7 +82,7 @@ public class LocationName {
 		if (ret != null) {
 			return ret;
 		}
-		ret = of(belt.orbitID) + (belt.orbitIndex > 0 ? " - Asteroid Belt " + roman(belt.orbitIndex) : "");
+		ret = of(belt.orbitID) + (belt.orbitIndex > 0 ? " - Asteroid Belt " + belt.orbitIndex : "");
 		return ret;
 	}
 

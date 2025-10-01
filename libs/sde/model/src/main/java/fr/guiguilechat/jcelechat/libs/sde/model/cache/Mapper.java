@@ -1,5 +1,6 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations.cache;
+package fr.guiguilechat.jcelechat.libs.sde.model.cache;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -8,6 +9,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.IntConsumer;
+import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.tools.RWLockResource;
@@ -16,6 +18,8 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YAMLCacheListener;
 import lombok.RequiredArgsConstructor;
 
 /**
+ * map existing sde data into model instances. The internal caches are
+ * invalidated on sde update
  * <p>
  * The various synchronized methods NEED to be (and so, are) synchronized on
  * write since the {@link ReentrantReadWriteLock} can't upgrade a read to a
@@ -27,19 +31,23 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class Mapper<T, U> extends YAMLCacheListener {
 
-	private final JacksonYamlLHMLoader<T> loader;
+	protected final JacksonYamlLHMLoader<T> loader;
 
 	private final BiFunction<Integer, T, U> constructor;
 
 	private final Map<Integer, U> cache = new HashMap<>();
 
-	private final RWLockResource<ReentrantReadWriteLock> lck = new RWLockResource<>(
+	protected final RWLockResource<ReentrantReadWriteLock> lck = new RWLockResource<>(
 			new ReentrantReadWriteLock());
+
+	protected Stream<Collection<?>> caches() {
+		return Stream.of(cache.keySet());
+	}
 
 	@Override
 	public void onSDECacheCleared() {
 		try (var _ = lck.writeLock()) {
-			cache.clear();
+			caches().forEach(Collection::clear);
 		}
 	}
 

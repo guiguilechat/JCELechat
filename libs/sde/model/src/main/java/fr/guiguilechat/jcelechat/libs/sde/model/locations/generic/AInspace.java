@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations.generic;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations.generic;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
@@ -12,16 +12,14 @@ import lombok.experimental.Accessors;
  */
 @Getter
 @Accessors(fluent = true)
-public abstract class AInspace<T extends InSpace> {
-
-	private final int id;
+public abstract class AInspace<T extends InSpace> extends AIDBasedObject {
 
 	private final T source;
 
 	private final Position position;
 
 	protected AInspace(int id, T source) {
-		this.id = id;
+		super(id);
 		this.source = source;
 		position = source.position;
 	}

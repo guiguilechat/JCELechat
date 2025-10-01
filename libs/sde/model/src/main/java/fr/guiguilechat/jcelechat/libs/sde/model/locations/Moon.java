@@ -1,11 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapMoons;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
-import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AOrbitingCelestial;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbitingCelestial;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 

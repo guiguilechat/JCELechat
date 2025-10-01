@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import java.util.Comparator;
 

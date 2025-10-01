@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations.generic;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations.generic;
 
 import java.math.BigDecimal;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting.Statistic;
-import fr.guiguilechat.jcelechat.libs.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.SolarSystem;
 import lombok.Getter;
 
 /**

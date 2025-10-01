@@ -1,11 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Universe;
-import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AInspace;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -13,7 +13,8 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class Region extends AInspace<EmapRegions> {
 
-	public static final Mapper<EmapRegions, Region> CACHE = new Mapper<>(EmapRegions.LOADER, Region::new);
+	public static final NamingMapper<EmapRegions, Region> CACHE = new NamingMapper<>(
+			EmapRegions.LOADER, Region::new, Region::enName);
 
 	private final int factionId, nebulaId, wormholeClassId;
 

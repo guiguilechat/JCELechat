@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapAsteroidBelts;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
-import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AOrbiting;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 

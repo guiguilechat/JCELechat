@@ -1,19 +1,18 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStars;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStars.StarStatistics;
-import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AIDBasedObject;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
 @Getter
 @Accessors(fluent = true)
-public class Star {
+public class Star extends AIDBasedObject {
 
 	public static final Mapper<EmapStars, Star> CACHE = new Mapper<>(EmapStars.LOADER,
 			Star::new);
-
-	private final int id;
 
 	private final EmapStars source;
 
@@ -23,7 +22,7 @@ public class Star {
 	public int typeId;
 
 	public Star(int id, EmapStars source) {
-		this.id = id;
+		super(id);
 		this.source = source;
 		radius = source.radius;
 		statistics = source.statistics;

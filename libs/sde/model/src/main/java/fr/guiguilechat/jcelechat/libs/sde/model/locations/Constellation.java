@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapConstellations;
-import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AInspace;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -12,8 +12,8 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class Constellation extends AInspace<EmapConstellations> {
 
-	public static final Mapper<EmapConstellations, Constellation> CACHE = new Mapper<>(EmapConstellations.LOADER,
-			Constellation::new);
+	public static final NamingMapper<EmapConstellations, Constellation> CACHE = new NamingMapper<>(
+			EmapConstellations.LOADER, Constellation::new, Constellation::enName);
 
 	private final int factionId;
 	private final int wormholeClassId;

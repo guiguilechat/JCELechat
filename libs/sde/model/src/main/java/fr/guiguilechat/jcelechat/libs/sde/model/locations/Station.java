@@ -1,11 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import java.math.BigDecimal;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcStations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
-import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AOrbiting;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -13,8 +13,8 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class Station extends AOrbiting<EnpcStations> {
 
-	public static final Mapper<EnpcStations, Station> CACHE = new Mapper<>(EnpcStations.LOADER,
-			Station::new);
+	public static final NamingMapper<EnpcStations, Station> CACHE = new NamingMapper<>(
+			EnpcStations.LOADER, Station::new, Station::enName);
 
 	private final int operationId;
 	private final int ownerId;

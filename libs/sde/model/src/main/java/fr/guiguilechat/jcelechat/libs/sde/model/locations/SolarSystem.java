@@ -1,11 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.sde.locations;
+package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapSolarSystems;
-import fr.guiguilechat.jcelechat.libs.sde.locations.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.locations.generic.AInspace;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -13,8 +13,8 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class SolarSystem extends AInspace<EmapSolarSystems> {
 
-	public static final Mapper<EmapSolarSystems, SolarSystem> CACHE = new Mapper<>(EmapSolarSystems.LOADER,
-			SolarSystem::new);
+	public static final NamingMapper<EmapSolarSystems, SolarSystem> CACHE = new NamingMapper<>(
+			EmapSolarSystems.LOADER, SolarSystem::new, SolarSystem::enName);
 
 	private final boolean border;
 	private final boolean corridor;
