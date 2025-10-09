@@ -8,6 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.channels.Channels;
+import java.time.Instant;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.zip.ZipEntry;
@@ -25,6 +26,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Success;
 import fr.lelouet.tools.application.xdg.XDGApp;
 import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.Setter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
@@ -96,17 +98,23 @@ public class YamlCache {
 	private final File extractMetaFile = new File(extractCacheDir(), "_sde." + format());
 
 	// set to true to avoid downloading the SDE.
-	private boolean extractTriedDL = false;
+	private Instant tryAfter = null;
+
+	@Setter
+	private int updateDelayMinutes = 15;
+	@Setter
+	private int errorDelayMinutes = 5;
+	@Setter
+	private int successDelayMinutes = 30;
 
 	/**
 	 * if needed, download the full yaml from the sde . those files will be
 	 * extracted and placed in {@link #extractCacheDir()}
 	 */
 	public synchronized void donwloadSDE() {
-		if (!extractTriedDL) {
+		if (tryAfter == null || tryAfter.isBefore(Instant.now())) {
 			updateExtract();
 		}
-		extractTriedDL = true;
 	}
 
 	protected RemoteMeta extractArchiveMeta(File file) throws IOException {
@@ -138,15 +146,18 @@ public class YamlCache {
 			extractCacheDir().mkdirs();
 			s.extract(extractCacheDir());
 			clearCaches();
+			tryAfter = Instant.now().plusSeconds(60 * successDelayMinutes);
 			break;
 		}
 		case Errored e: {
 			log.error("failed to download SDE", e);
+			tryAfter = Instant.now().plusSeconds(60 * errorDelayMinutes);
 			break;
 		}
 		case Cached c: {
 			log.debug("sde already last version: " + c.meta().releaseDate + " in  "
 					+ extractCacheDir().getAbsolutePath());
+			tryAfter = Instant.now().plusSeconds(60 * updateDelayMinutes);
 			break;
 		}
 		}

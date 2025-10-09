@@ -24,7 +24,7 @@ public class Stargate extends AInspace<EmapStargates> {
 		return LocationName.of(source());
 	}
 
-	public static record Dest(SolarSystem system, Stargate stargate) {
+	public static record Dest(SolarSystem solarSystem, Stargate stargate) {
 		public static Dest of(Destination source) {
 			return new Dest(SolarSystem.CACHE.of(source.solarSystemID), Stargate.CACHE.of(source.stargateID));
 		}

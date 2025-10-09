@@ -336,8 +336,8 @@ public abstract class SsoFlow {
 	 * get an access token from a refresh token
 	 *
 	 * @param appAuth
-	 *                       the base64 value of APPID:APPSECRET
-	 * @param refreshtoken retrieved refresh token
+	 *                     the base64 value of APPID:APPSECRET
+	 * @param refreshtoken stored refresh token to get an AT for.
 	 * @return access token, or null if error
 	 */
 	public AccessToken getAccessToken(String appAuth, String refreshtoken) {

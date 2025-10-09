@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import java.math.BigDecimal;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapSolarSystems;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
@@ -70,5 +72,20 @@ public class SolarSystem extends AInspace<EmapSolarSystems> {
 
 	@Getter(lazy = true)
 	private final List<Stargate> stargates = Stargate.CACHE.of(source().stargateIDs);
+
+	/** list all the systems that have an active stargate, sorted by id asc */
+	public static List<SolarSystem> jumpableSystems() {
+		return Stargate.CACHE.all().stream()
+				.filter(st -> st.solarSystem().id() < st.destination().solarSystem().id())
+				.flatMap(st -> Stream.of(st.solarSystem(), st.destination().solarSystem()))
+				.distinct()
+				.sorted(Comparator.comparing(SolarSystem::id))
+				.toList();
+	}
+
+	@Override
+	public String toString() {
+		return enName() + "(" + id() + ")";
+	}
 
 }
