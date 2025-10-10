@@ -55,6 +55,11 @@ public class Route {
 	// actually caracal
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private static final GatingSpeed cruiserSpeed = new GatingSpeed(4, 8, 240, 10);
+	private static final GatingSpeed cruiserSpeed = new GatingSpeed(4, 6, 288, 10);
+
+	// actually providence
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final GatingSpeed freighterSpeed = new GatingSpeed(1.5, 40, 109.4, 10);
 
 }

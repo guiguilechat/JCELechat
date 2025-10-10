@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapSolarSystems;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import lombok.Getter;
@@ -56,6 +57,11 @@ public class SolarSystem extends AInspace<EmapSolarSystems> {
 	@Override
 	protected String makeEnName() {
 		return source().enName();
+	}
+
+	@Override
+	protected Position makePosition() {
+		return source().position;
 	}
 
 	@Getter(lazy = true)

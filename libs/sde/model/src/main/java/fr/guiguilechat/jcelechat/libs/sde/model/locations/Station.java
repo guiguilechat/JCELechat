@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcStations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
 import lombok.Getter;
@@ -36,6 +37,11 @@ public class Station extends AOrbiting<EnpcStations> {
 	@Override
 	protected String makeEnName() {
 		return LocationName.of(source());
+	}
+
+	@Override
+	protected Position makePosition() {
+		return source().position;
 	}
 
 }

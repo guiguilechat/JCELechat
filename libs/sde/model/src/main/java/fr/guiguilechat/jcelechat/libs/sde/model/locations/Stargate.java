@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates.Destination;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import lombok.Getter;
@@ -22,6 +23,11 @@ public class Stargate extends AInspace<EmapStargates> {
 	@Override
 	protected String makeEnName() {
 		return LocationName.of(source());
+	}
+
+	@Override
+	protected Position makePosition() {
+		return source().position;
 	}
 
 	@Override

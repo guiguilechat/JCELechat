@@ -6,22 +6,21 @@ import lombok.Getter;
 import lombok.experimental.Accessors;
 
 /**
- * represent an {@link InSpace}
+ * represent an {@link InSpace}.
+ * A name , a position, and source data. Sub classes can present more
+ * information.
  *
  * @param <T>
  */
 @Getter
 @Accessors(fluent = true)
-public abstract class AInspace<T extends InSpace> extends AIDBasedObject {
+public abstract class AInspace<T> extends AIDBasedObject {
 
 	private final T source;
-
-	private final Position position;
 
 	protected AInspace(int id, T source) {
 		super(id);
 		this.source = source;
-		position = source.position;
 	}
 
 	protected abstract String makeEnName();
@@ -29,6 +28,12 @@ public abstract class AInspace<T extends InSpace> extends AIDBasedObject {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final String enName = makeEnName();
+
+	protected abstract Position makePosition();
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final Position position = makePosition();
 
 	@Override
 	public String toString() {

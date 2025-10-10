@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Universe;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
@@ -28,6 +29,11 @@ public class Region extends AInspace<EmapRegions> {
 	@Override
 	protected String makeEnName() {
 		return source().enName();
+	}
+
+	@Override
+	protected Position makePosition() {
+		return source().position;
 	}
 
 	public String enDescription() {

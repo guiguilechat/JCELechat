@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapAsteroidBelts;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
 import lombok.Getter;
@@ -21,6 +22,11 @@ public class AsteroidBelt extends AOrbiting<EmapAsteroidBelts> {
 	@Override
 	protected String makeEnName() {
 		return LocationName.of(source());
+	}
+
+	@Override
+	protected Position makePosition() {
+		return source().position;
 	}
 
 }
