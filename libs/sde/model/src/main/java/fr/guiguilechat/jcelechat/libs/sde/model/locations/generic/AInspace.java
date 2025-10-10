@@ -30,5 +30,10 @@ public abstract class AInspace<T extends InSpace> extends AIDBasedObject {
 	@Accessors(fluent = true)
 	private final String enName = makeEnName();
 
+	@Override
+	public String toString() {
+		return enName();
+	}
+
 
 }

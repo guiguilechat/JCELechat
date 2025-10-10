@@ -11,4 +11,11 @@ public class Position {
 	public String toString() {
 		return "[" + x + ":" + y + ":" + z + "]";
 	}
+
+	public double distance(Position other) {
+		return Math.sqrt(
+				Math.pow(x.doubleValue() - other.x.doubleValue(), 2)
+						+ Math.pow(y.doubleValue() - other.y.doubleValue(), 2)
+						+ Math.pow(z.doubleValue() - other.z.doubleValue(), 2));
+	}
 }

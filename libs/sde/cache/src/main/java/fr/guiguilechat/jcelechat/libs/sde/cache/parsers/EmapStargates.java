@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
+import java.util.Map.Entry;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
@@ -36,6 +37,10 @@ public class EmapStargates extends InSpace {
 	public int solarSystemID;
 	public int typeID;
 
+	public double distance() {
+		return position.distance(LOADER.get(destination.stargateID).position);
+	}
+
 	//
 
 	public static void main(String[] args) {
@@ -44,5 +49,13 @@ public class EmapStargates extends InSpace {
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println(
 				"first : solarSystemID=" + first.solarSystemID + " target=" + first.destination.stargateID);
+	}
+
+	public static double maxDistance() {
+		return EmapStargates.LOADER.load().entrySet().stream()
+				.filter(e -> e.getKey() < e.getValue().destination.stargateID)
+				.map(Entry::getValue)
+				.mapToDouble(EmapStargates::distance)
+				.max().getAsDouble();
 	}
 }

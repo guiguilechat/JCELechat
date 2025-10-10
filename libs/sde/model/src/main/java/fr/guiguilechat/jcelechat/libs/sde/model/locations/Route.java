@@ -8,6 +8,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YAMLCacheListener;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.Dijkstra;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.jumps.Safer;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.jumps.Shorter;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.time.GatingSpeed;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -50,5 +51,10 @@ public class Route {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private static final Cache<Shorter> shorter = new Cache<Shorter>(Shorter::new);
+
+	// actually caracal
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private static final GatingSpeed cruiserSpeed = new GatingSpeed(4, 8, 240, 10);
 
 }

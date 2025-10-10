@@ -4,7 +4,7 @@ import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.Dijkstra.ItemDist;
 
-public class RoutesMain {
+public class ShowJumpRoutes {
 
 	public static void main(String[] args) {
 

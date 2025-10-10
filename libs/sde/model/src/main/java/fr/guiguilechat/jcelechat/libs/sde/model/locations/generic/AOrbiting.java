@@ -6,11 +6,13 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting.Statistic;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.SolarSystem;
 import lombok.Getter;
+import lombok.experimental.Accessors;
 
 /**
  * represents an {@link Orbiting}
  */
 @Getter
+@Accessors(fluent = true)
 public abstract class AOrbiting<T extends Orbiting> extends AInspace<T> {
 
 	private final int celestialIndex;
