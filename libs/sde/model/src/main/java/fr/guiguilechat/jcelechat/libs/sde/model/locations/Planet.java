@@ -27,7 +27,7 @@ public class Planet extends AOrbitingCelestial<EmapPlanets> {
 
 	@Override
 	protected Position makePosition() {
-		return source().position;
+		return source().position.add(solarSystem().position());
 	}
 
 	@Getter(lazy = true)

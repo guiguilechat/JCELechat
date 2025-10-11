@@ -41,7 +41,7 @@ public class Station extends AOrbiting<EnpcStations> {
 
 	@Override
 	protected Position makePosition() {
-		return source().position;
+		return source().position.add(solarSystem().position());
 	}
 
 }

@@ -6,8 +6,8 @@ import lombok.Getter;
 import lombok.experimental.Accessors;
 
 /**
- * represent an {@link InSpace}.
- * A name , a position, and source data. Sub classes can present more
+ * represent an {@link InSpace} : A name , a position, and source data. Sub
+ * classes can present more
  * information.
  *
  * @param <T>
@@ -31,6 +31,10 @@ public abstract class AInspace<T> extends AIDBasedObject {
 
 	protected abstract Position makePosition();
 
+	/**
+	 * absolute position. The position of some items is stored relatively, so this
+	 * method adds the center to it.
+	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final Position position = makePosition();

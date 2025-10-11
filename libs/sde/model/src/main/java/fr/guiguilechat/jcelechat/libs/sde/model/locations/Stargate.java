@@ -27,7 +27,7 @@ public class Stargate extends AInspace<EmapStargates> {
 
 	@Override
 	protected Position makePosition() {
-		return source().position;
+		return source().position.add(solarSystem().position());
 	}
 
 	@Override

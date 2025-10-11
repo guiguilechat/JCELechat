@@ -16,6 +16,11 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
+			<artifactId>cache</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<scope>test</scope>

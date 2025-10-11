@@ -91,8 +91,10 @@ public class LocationsTranslater {
 
 	}
 
-	public static void translate(LinkedHashMap<String, Region> regions,
-			LinkedHashMap<String, Constellation> constellations, LinkedHashMap<String, SolarSystem> systems,
+	public static void translate(
+			LinkedHashMap<String, Region> regions,
+			LinkedHashMap<String, Constellation> constellations,
+			LinkedHashMap<String, SolarSystem> systems,
 			LinkedHashMap<String, Station> stations) {
 		Universe uni = Universe.load();
 

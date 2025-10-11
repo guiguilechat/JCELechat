@@ -1,17 +1,19 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
-import java.util.List;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapConstellations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
 @Getter
 @Accessors(fluent = true)
-public class Constellation extends AInspace<EmapConstellations> {
+public class Constellation extends SolarSystemGroup<EmapConstellations> {
 
 	public static final NamingMapper<EmapConstellations, Constellation> CACHE = new NamingMapper<>(
 			EmapConstellations.LOADER, Constellation::new, Constellation::enName);
@@ -39,7 +41,14 @@ public class Constellation extends AInspace<EmapConstellations> {
 	private final Region region = Region.CACHE.of(source().regionID);
 
 	@Getter(lazy = true)
-	private final List<SolarSystem> solarSystems = SolarSystem.CACHE.of(source().solarSystemIDs);
+	private final Set<SolarSystem> solarSystems = new LinkedHashSet<>(SolarSystem.CACHE.of(source().solarSystemIDs));
+
+	@Override
+	protected Stream<SolarSystem> streamAdjacentSolarSystems() {
+		return solarSystems().stream()
+				.flatMap(SolarSystem::streamAdjacentSolarSystems)
+				.filter(ss -> !solarSystems().contains(ss));
+	}
 
 
 }

@@ -67,7 +67,8 @@ public class Mapper<T, U> extends YAMLCacheListener {
 			return List.of();
 		}
 		try (var _ = lck.writeLock()) {
-			return StreamSupport.stream(ids.spliterator(), false).map(this::of).toList();
+			return StreamSupport.stream(ids.spliterator(), false)
+					.map(this::of).toList();
 		}
 	}
 

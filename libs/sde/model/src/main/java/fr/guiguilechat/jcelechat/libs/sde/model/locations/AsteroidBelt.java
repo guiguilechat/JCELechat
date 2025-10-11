@@ -26,7 +26,7 @@ public class AsteroidBelt extends AOrbiting<EmapAsteroidBelts> {
 
 	@Override
 	protected Position makePosition() {
-		return source().position;
+		return source().position.add(solarSystem().position());
 	}
 
 }

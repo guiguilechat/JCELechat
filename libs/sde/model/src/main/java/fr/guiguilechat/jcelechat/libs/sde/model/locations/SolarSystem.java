@@ -3,18 +3,20 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 import java.math.BigDecimal;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapSolarSystems;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
 @Getter
 @Accessors(fluent = true)
-public class SolarSystem extends AInspace<EmapSolarSystems> {
+public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 
 	public static final NamingMapper<EmapSolarSystems, SolarSystem> CACHE = new NamingMapper<>(
 			EmapSolarSystems.LOADER, SolarSystem::new, SolarSystem::enName);
@@ -92,6 +94,29 @@ public class SolarSystem extends AInspace<EmapSolarSystems> {
 	@Override
 	public String toString() {
 		return enName() + "(" + id() + ")";
+	}
+
+	@Getter(lazy = true)
+	private final Set<SolarSystem> solarSystems = Set.of(this);
+
+	@Override
+	protected Stream<SolarSystem> streamAdjacentSolarSystems() {
+		return stargates().stream()
+				.map(sg -> sg.destination().solarSystem());
+	}
+
+	/**
+	 * stream the elements that can impact the min/max position : only planets,
+	 * stargates. This means the moons, asteroid belts, stations are not accounted
+	 * for.
+	 *
+	 * @return
+	 */
+	public Stream<AInspace<?>> streamInSpaces() {
+		return Stream.of(
+				planets().stream(),
+				stargates().stream())
+				.flatMap(s -> s);
 	}
 
 }
