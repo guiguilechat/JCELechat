@@ -110,11 +110,14 @@ public class YamlCache {
 	/**
 	 * if needed, download the full yaml from the sde . those files will be
 	 * extracted and placed in {@link #extractCacheDir()}
+	 *
+	 * @return
 	 */
-	public synchronized void donwloadSDE() {
+	public synchronized DLResult donwloadSDE() {
 		if (tryAfter == null || tryAfter.isBefore(Instant.now())) {
-			updateExtract();
+			return updateExtract();
 		}
+		return new DLResult.Cached(RemoteMeta.fetch());
 	}
 
 	protected RemoteMeta extractArchiveMeta(File file) throws IOException {
@@ -123,8 +126,10 @@ public class YamlCache {
 
 	/**
 	 * check if a new version is avail and extract it
+	 *
+	 * @return
 	 */
-	protected void updateExtract() {
+	protected DLResult updateExtract() {
 		String lastReleaseDate = null;
 		if (extractMetaFile().exists()) {
 			try {
@@ -161,6 +166,7 @@ public class YamlCache {
 			break;
 		}
 		}
+		return result;
 	}
 
 	protected String extractURL(RemoteMeta meta) {

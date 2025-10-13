@@ -10,13 +10,15 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.*;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 
 public class TestAllParsers {
 
 	public static void main(String[] args)
 			throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, NoSuchFieldException {
-		YamlCache.INSTANCE.donwloadSDE();
+		DLResult res = YamlCache.INSTANCE.donwloadSDE();
+		System.out.println("dl : " + res);
 		Map<String, Set<String>> multipleClasses = new LinkedHashMap<>();
 		for (Class<?> cl : new Class<?>[] {
 				EagentsInSpace.class,

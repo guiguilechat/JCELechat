@@ -6,6 +6,9 @@ import java.net.URISyntaxException;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import lombok.ToString;
+
+@ToString
 public class RemoteMeta {
 
 	public static final String URL = "https://developers.eveonline.com/static-data/tranquility/latest.jsonl";
