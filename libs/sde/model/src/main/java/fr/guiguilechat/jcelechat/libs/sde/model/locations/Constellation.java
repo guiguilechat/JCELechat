@@ -41,6 +41,9 @@ public class Constellation extends SolarSystemGroup<EmapConstellations> {
 	private final Region region = Region.CACHE.of(source().regionID);
 
 	@Getter(lazy = true)
+	private final Set<Constellation> constellations = Set.of(this);
+
+	@Getter(lazy = true)
 	private final Set<SolarSystem> solarSystems = new LinkedHashSet<>(SolarSystem.CACHE.of(source().solarSystemIDs));
 
 	@Override

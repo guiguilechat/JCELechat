@@ -20,9 +20,9 @@ import fr.guiguilechat.jcelechat.model.sde.locations.distances.Distances;
 
 public class AnalyzeBurnersDest {
 
-	protected String[] types = new String[] { "aangel", "ablood", "aguristas", "aserpentis", "asansha",
+	protected String[] types = { "aangel", "ablood", "aguristas", "aserpentis", "asansha",
 			"bangel", "bblood", "bguristas", "bserpentis", "tenyo", "thawk", "tjaguar", "tvengeance" };
-	protected String[] aliases = new String[] { "aang", "abld", "agur", "aser", "asan", "bang", "bbld", "bgur", "bser",
+	protected String[] aliases = { "aang", "abld", "agur", "aser", "asan", "bang", "bbld", "bgur", "bser",
 			"teny", "thwk", "tjag", "tven" };
 
 	/**
@@ -85,14 +85,14 @@ public class AnalyzeBurnersDest {
 					.systems) {
 				possibleSystemNames.add(sname);
 				possibleSystemCJumps.add(0);
-				possibleSystemJumps.add(Distances.distJumps(origin, systems.get(sname)));
+				possibleSystemJumps.add(Distances.between(origin, systems.get(sname)));
 			}
 			// for each neighborgh constellation
 			for (String cname : constels.get(origin.constellation).adjacentConstellations) {
 				for (String sname : constels.get(cname).systems) {
 					possibleSystemNames.add(sname);
 					possibleSystemCJumps.add(1);
-					possibleSystemJumps.add(Distances.distJumps(origin, systems.get(sname)));
+					possibleSystemJumps.add(Distances.between(origin, systems.get(sname)));
 				}
 			}
 
@@ -126,7 +126,7 @@ public class AnalyzeBurnersDest {
 			ps.println();
 
 			ps.println("probability /1000");
-			int allnb = an.dest2counts.values().stream().flatMapToInt(i -> IntStream.of(i)).sum();
+			int allnb = an.dest2counts.values().stream().flatMapToInt(IntStream::of).sum();
 			printDestData(ps, "all", an.dest2counts.values().stream(), t -> 1000 * IntStream.of(t).sum() / allnb,
 					systemDistances, constelDistances);
 

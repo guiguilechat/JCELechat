@@ -7,9 +7,9 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Universe;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
+import fr.guiguilechat.jcelechat.model.formula.space.Universe;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -41,6 +41,11 @@ public class Region extends SolarSystemGroup<EmapRegions> {
 
 	public String enDescription() {
 		return source().enDescription();
+	}
+
+	@Override
+	public Region region() {
+		return this;
 	}
 
 	@Getter(lazy = true)

@@ -14,8 +14,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
-import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.distances.Distances;
 import fr.lelouet.tools.holders.interfaces.collections.CollectionHolder;
 import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
@@ -122,8 +120,8 @@ public class Market {
 		}
 		R_get_universe_systems_system_id resolvedSystem = con.universe.location(order.location_id).system();
 		if (resolvedSystem != null) {
-			return Distances.between(SolarSystem.getSystem(resolvedSystem.system_id),
-			    SolarSystem.getSystem(systemId)) <= OrderTool.maxDist(order);
+			return fr.guiguilechat.jcelechat.libs.sde.model.locations.Route.shorter().between(resolvedSystem.system_id,
+					systemId) <= OrderTool.maxDist(order);
 		}
 		return false;
 	}

@@ -19,7 +19,6 @@
 		<module>lootstats</module>
 		<module>merstats</module>
 		<module>showattributes</module>
-		<module>statsburnerdest</module>
 	</modules>
 	<profiles>
 		<profile>

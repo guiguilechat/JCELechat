@@ -11,6 +11,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
+import fr.guiguilechat.jcelechat.model.formula.space.Universe;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -70,6 +71,9 @@ public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 	private final Constellation constellation = Constellation.CACHE.of(source().constellationID);
 
 	@Getter(lazy = true)
+	private final Set<Constellation> constellations = Set.of(constellation());
+
+	@Getter(lazy = true)
 	private final List<Planet> planets = Planet.CACHE.of(source().planetIDs);
 
 	@Getter(lazy = true)
@@ -117,6 +121,44 @@ public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 				planets().stream(),
 				stargates().stream())
 				.flatMap(s -> s);
+	}
+
+	// analyzis
+
+	public boolean isKS() {
+		return region().universe() == Universe.Eve;
+	}
+
+	public double truesec() {
+		return securityStatus().doubleValue();
+	}
+
+	/**
+	 * represents the intervention from Concord. HS means
+	 * concord will destroy you, LS means turrets will defend you, and NS means
+	 * you gonna die helplessly
+	 */
+	public enum ConcordStatus {
+		HS, LS, NS;
+
+		public static ConcordStatus of(double truesec) {
+			return truesec > 0.45 ? ConcordStatus.HS : truesec <= 0 ? ConcordStatus.NS : ConcordStatus.LS;
+		}
+	}
+
+	@Getter(lazy = true)
+	private final ConcordStatus concord = ConcordStatus.of(truesec());
+
+	public boolean isHS() {
+		return isKS() && truesec() > 0.45;
+	}
+
+	public boolean isLS() {
+		return isKS() && 0 < truesec() && truesec() <= 0.45;
+	}
+
+	public boolean isNS() {
+		return isKS() && 0 >= truesec();
 	}
 
 }

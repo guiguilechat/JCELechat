@@ -1,12 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace;
+package fr.guiguilechat.jcelechat.model.formula.space;
 
 public enum Universe {
-		Eve,
-		WormHole,
-		Abyssal,
-		Void,
-		Hidden
-	;
+	Eve,
+	WormHole,
+	Abyssal,
+	Void,
+	Hidden;
 
 	public static Universe of(int regionId) {
 		if (regionId < 11000000) {
@@ -23,5 +22,5 @@ public enum Universe {
 		}
 		return Hidden;
 
-	}
+}
 }

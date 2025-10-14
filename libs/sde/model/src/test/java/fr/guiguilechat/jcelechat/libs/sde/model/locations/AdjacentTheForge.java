@@ -9,7 +9,7 @@ public class AdjacentTheForge {
 		System.out.println("" + jita + " adjacent regions : " + jita.adjacentRegions());
 
 		Constellation kimotoro = jita.constellation();
-		System.out.println("" + kimotoro + " adjacent constellations : " + kimotoro.adjacentRegions());
+		System.out.println("" + kimotoro + " adjacent constellations : " + kimotoro.adjacentConstellations());
 		System.out.println("" + kimotoro + " adjacent regions : " + kimotoro.adjacentRegions());
 
 

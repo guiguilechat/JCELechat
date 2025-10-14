@@ -27,10 +27,18 @@ public abstract class SolarSystemGroup<T> extends AInspace<T> {
 
 	public abstract Set<SolarSystem> solarSystems();
 
+	public abstract Region region();
+
+	public abstract Set<Constellation> constellations();
+
 	protected abstract Stream<SolarSystem> streamAdjacentSolarSystems();
 
+	/**
+	 * solar systems adjacent to those of that group, not in that group
+	 */
 	@Getter(lazy = true)
 	private final Set<SolarSystem> adjacentSolarSystems = streamAdjacentSolarSystems()
+			.filter(s -> !solarSystems().contains(s))
 			.collect(Collectors.toSet());
 
 	protected Stream<Constellation> streamAdjacentConstellations() {
@@ -38,8 +46,13 @@ public abstract class SolarSystemGroup<T> extends AInspace<T> {
 				.map(SolarSystem::constellation);
 	}
 
+	/**
+	 * constellations adjacent to that group, excluding constellations of that
+	 * group.
+	 */
 	@Getter(lazy = true)
 	private final Set<Constellation> adjacentConstellations = streamAdjacentConstellations()
+			.filter(c -> !constellations().contains(c))
 			.collect(Collectors.toSet());
 
 	protected Stream<Region> streamAdjacentRegions() {
@@ -49,6 +62,7 @@ public abstract class SolarSystemGroup<T> extends AInspace<T> {
 
 	@Getter(lazy = true)
 	private final Set<Region> adjacentRegions = streamAdjacentRegions()
+			.filter(r -> !r.equals(region()))
 			.collect(Collectors.toSet());
 
 	protected record MinMax(Position min, Position max) {

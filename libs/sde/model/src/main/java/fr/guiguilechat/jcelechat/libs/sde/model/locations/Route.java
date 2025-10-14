@@ -42,6 +42,14 @@ public class Route {
 				cache.clear();
 			}
 		}
+
+		public int between(SolarSystem from, SolarSystem to) {
+			return from(from).to(to).size();
+		}
+
+		public int between(int fromId, int toId) {
+			return from(fromId).to(SolarSystem.CACHE.of(toId)).size();
+		}
 	}
 
 	@Getter(lazy = true)
