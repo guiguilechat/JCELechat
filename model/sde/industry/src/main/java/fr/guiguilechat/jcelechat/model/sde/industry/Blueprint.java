@@ -110,7 +110,8 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 
 		@Override
 		public String toString() {
-			return "products" + products + " from " + materials;
+			return (products == null || products.size() == 0 ? "" : "produces=" + products + " ") + "consumes="
+					+ materials;
 		}
 	}
 

@@ -57,8 +57,14 @@ public class Mapper<T, U> extends YAMLCacheListener {
 	}
 
 	public U of(int id) {
+		var ret = cache.get(id);
+		if (ret != null) {
+			return ret;
+		}
 		try (var _ = lck.writeLock()) {
-			return cache.computeIfAbsent(id, this::convertId);
+			synchronized (cache) {
+				return cache.computeIfAbsent(id, this::convertId);
+			}
 		}
 	}
 

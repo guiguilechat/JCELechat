@@ -48,7 +48,15 @@ public class Route {
 		}
 
 		public int between(int fromId, int toId) {
-			return from(fromId).to(SolarSystem.CACHE.of(toId)).size();
+			SolarSystem from = SolarSystem.CACHE.of(fromId);
+			SolarSystem to = SolarSystem.CACHE.of(toId);
+			if (from == null) {
+				throw new NullPointerException("can't resolve solar system from id " + fromId);
+			}
+			if (to == null) {
+				throw new NullPointerException("can't resolve solar system from id "+toId);
+			}
+			return from(from).to(to).size();
 		}
 	}
 
