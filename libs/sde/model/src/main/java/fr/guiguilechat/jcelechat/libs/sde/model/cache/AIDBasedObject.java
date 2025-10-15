@@ -1,17 +1,19 @@
-package fr.guiguilechat.jcelechat.libs.sde.model.locations.generic;
+package fr.guiguilechat.jcelechat.libs.sde.model.cache;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * an object for which {@link #equals(Object)} and {@link #hashCode()} are based
- * on its id
+ * an object obtained from a datasource, for which {@link #equals(Object)} and
+ * {@link #hashCode()} are based on its id
  */
 @RequiredArgsConstructor
 @Getter
 @Accessors(fluent = true)
 public class AIDBasedObject {
+
+	private final SDEDataSource datasource;
 
 	private final int id;
 

@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting.Statistic;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.SolarSystem;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -22,8 +23,8 @@ public abstract class AOrbiting<T extends Orbiting> extends AInspace<T> {
 	private final Statistic statistics;
 	private final int typeID;
 
-	protected AOrbiting(int id, T source) {
-		super(id, source);
+	protected AOrbiting(SDEDataSource datasource, int id, T source) {
+		super(datasource, id, source);
 		celestialIndex = source.celestialIndex;
 		orbitId = source.orbitID;
 		orbitIndex = source.orbitIndex;

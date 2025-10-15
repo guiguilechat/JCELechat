@@ -38,6 +38,10 @@ public class EmarketGroups {
 		return name == null ? null : name.get("en");
 	}
 
+	public String enDescription() {
+		return description == null ? null : description.get("en");
+	}
+
 	//
 
 	public static void main(String[] args) {

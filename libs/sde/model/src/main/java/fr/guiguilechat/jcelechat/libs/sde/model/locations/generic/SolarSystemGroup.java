@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Constellation;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Region;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.SolarSystem;
@@ -21,8 +22,8 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public abstract class SolarSystemGroup<T> extends AInspace<T> {
 
-	protected SolarSystemGroup(int id, T source) {
-		super(id, source);
+	protected SolarSystemGroup(SDEDataSource datasource, int id, T source) {
+		super(datasource, id, source);
 	}
 
 	public abstract Set<SolarSystem> solarSystems();

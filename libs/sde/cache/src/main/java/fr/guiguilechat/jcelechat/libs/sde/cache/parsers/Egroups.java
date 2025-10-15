@@ -29,13 +29,13 @@ public class Egroups {
 	//
 
 	public HashMap<String, String> name = new LinkedHashMap<>();
-	public boolean published;
 	public boolean anchorable;
 	public boolean anchored;
 	public int categoryID;
-	public boolean fittableNonSingleton;
-	public boolean useBasePrice;
 	public int iconID;
+	public boolean fittableNonSingleton;
+	public boolean published;
+	public boolean useBasePrice;
 
 	public String enName() {
 		return name == null ? null : name.get("en");

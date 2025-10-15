@@ -4,7 +4,9 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates.Destination;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -16,8 +18,12 @@ public class Stargate extends AInspace<EmapStargates> {
 	public static final Mapper<EmapStargates, Stargate> CACHE = new Mapper<>(EmapStargates.LOADER,
 			Stargate::new);
 
+	protected Stargate(SDEDataSource datasource, int id, EmapStargates source) {
+		super(datasource, id, source);
+	}
+
 	protected Stargate(int id, EmapStargates source) {
-		super(id, source);
+		this(LocalCacheDataSource.INSTANCE, id, source);
 	}
 
 	@Override
@@ -36,27 +42,20 @@ public class Stargate extends AInspace<EmapStargates> {
 	}
 
 	public static record Dest(SolarSystem solarSystem, Stargate stargate) {
-		public static Dest of(Destination source) {
-			return new Dest(SolarSystem.CACHE.of(source.solarSystemID), Stargate.CACHE.of(source.stargateID));
+		public static Dest of(SDEDataSource datasource, Destination source) {
+			return new Dest(datasource.solarSystems().of(source.solarSystemID),
+					datasource.stargates().of(source.stargateID));
 		}
 	}
 
 	@Getter(lazy = true)
-	private final SolarSystem solarSystem = SolarSystem.CACHE.of(source().solarSystemID);
+	private final SolarSystem solarSystem = datasource().solarSystems().of(source().solarSystemID);
 
 	@Getter(lazy = true)
-	private final Dest destination = Dest.of(source().destination);
+	private final Dest destination = Dest.of(datasource(), source().destination);
 
 	public double distance() {
 		return position().distance(destination().stargate().position());
-	}
-
-	public static double maxDistance() {
-		return EmapStargates.LOADER.load().entrySet().stream()
-				.filter(e -> e.getKey() < e.getValue().destination.stargateID)
-				.mapToDouble(e -> e.getValue().position
-						.distance(EmapStargates.LOADER.get(e.getValue().destination.stargateID).position))
-				.max().getAsDouble();
 	}
 
 }

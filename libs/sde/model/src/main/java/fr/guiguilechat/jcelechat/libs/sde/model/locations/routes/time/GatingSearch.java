@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.time;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Stargate;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
@@ -16,8 +17,17 @@ public class GatingSearch extends AStar<GatingPoint> {
 	private final int align_s;
 	private final double subwarpSpeed_mps;
 	private final double gateTime_s;
+
+	private static double maxDistance() {
+		return EmapStargates.LOADER.load().entrySet().stream()
+				.filter(e -> e.getKey() < e.getValue().destination.stargateID)
+				.mapToDouble(e -> e.getValue().position
+						.distance(EmapStargates.LOADER.get(e.getValue().destination.stargateID).position))
+				.max().getAsDouble();
+	}
+
 	@Getter(lazy = true, value = AccessLevel.PROTECTED)
-	private final double maxGateDistance = Stargate.maxDistance();
+	private final double maxGateDistance = maxDistance();
 
 	public GatingSearch(GatingPoint start, GatingPoint target, double ws_aups, int align_s, double subwarpSpeed_mps,
 			double gateTime_s) {

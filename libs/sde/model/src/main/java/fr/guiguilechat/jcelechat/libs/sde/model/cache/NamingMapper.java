@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 /**
  * mapper that also stores the elements by name
  */
-public class NamingMapper<T, U> extends Mapper<T, U> {
+public class NamingMapper<T, U> extends Mapper<T, U> implements EntityNameMap<U> {
 
 	private final Function<U, String> namer;
 
@@ -24,6 +24,7 @@ public class NamingMapper<T, U> extends Mapper<T, U> {
 
 	private Map<String, U> byNames = new LinkedHashMap<>();
 
+	@Override
 	public U of(String name) {
 		U ret = byNames.get(name);
 		if (ret == null) {

@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import java.math.BigDecimal;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
@@ -8,7 +9,9 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapSolarSystems;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
 import fr.guiguilechat.jcelechat.model.formula.space.Universe;
@@ -38,8 +41,8 @@ public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 	private final String visualEffect;
 	private final int wormholeClassID;
 
-	protected SolarSystem(int id, EmapSolarSystems source) {
-		super(id, source);
+	protected SolarSystem(SDEDataSource datasource, int id, EmapSolarSystems source) {
+		super(datasource, id, source);
 		border = source.border;
 		corridor = source.corridor;
 		factionID = source.factionID;
@@ -57,6 +60,10 @@ public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 		wormholeClassID = source.wormholeClassID;
 	}
 
+	protected SolarSystem(int id, EmapSolarSystems source) {
+		this(LocalCacheDataSource.INSTANCE, id, source);
+	}
+
 	@Override
 	protected String makeEnName() {
 		return source().enName();
@@ -68,26 +75,26 @@ public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 	}
 
 	@Getter(lazy = true)
-	private final Constellation constellation = Constellation.CACHE.of(source().constellationID);
+	private final Constellation constellation = datasource().constellations().of(source().constellationID);
 
 	@Getter(lazy = true)
 	private final Set<Constellation> constellations = Set.of(constellation());
 
 	@Getter(lazy = true)
-	private final List<Planet> planets = Planet.CACHE.of(source().planetIDs);
+	private final Collection<Planet> planets = datasource().planets().of(source().planetIDs);
 
 	@Getter(lazy = true)
-	private final Region region = Region.CACHE.of(source().regionID);
+	private final Region region = datasource().regions().of(source().regionID);
 
 	@Getter(lazy = true)
-	private final Star star = Star.CACHE.of(source().starID);
+	private final Star star = datasource().stars().of(source().starID);
 
 	@Getter(lazy = true)
-	private final List<Stargate> stargates = Stargate.CACHE.of(source().stargateIDs);
+	private final Collection<Stargate> stargates = datasource().stargates().of(source().stargateIDs);
 
 	/** list all the systems that have an active stargate, sorted by id asc */
-	public static List<SolarSystem> jumpableSystems() {
-		return Stargate.CACHE.all().stream()
+	public static List<SolarSystem> jumpableSystems(SDEDataSource datasource) {
+		return datasource.stargates().all().stream()
 				.filter(st -> st.solarSystem().id() < st.destination().solarSystem().id())
 				.flatMap(st -> Stream.of(st.solarSystem(), st.destination().solarSystem()))
 				.distinct()

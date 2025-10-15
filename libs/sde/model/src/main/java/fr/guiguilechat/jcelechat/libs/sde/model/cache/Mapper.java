@@ -29,7 +29,7 @@ import lombok.RequiredArgsConstructor;
  * </p>
  */
 @RequiredArgsConstructor
-public class Mapper<T, U> extends YAMLCacheListener {
+public class Mapper<T, U> extends YAMLCacheListener implements EntityMap<U> {
 
 	protected final JacksonYamlLHMLoader<T> loader;
 
@@ -56,6 +56,7 @@ public class Mapper<T, U> extends YAMLCacheListener {
 		return sourced == null ? null : constructor.apply(id, sourced);
 	}
 
+	@Override
 	public U of(int id) {
 		var ret = cache.get(id);
 		if (ret != null) {
@@ -68,6 +69,7 @@ public class Mapper<T, U> extends YAMLCacheListener {
 		}
 	}
 
+	@Override
 	public List<U> of(Iterable<Integer> ids) {
 		if (ids == null) {
 			return List.of();
@@ -78,22 +80,26 @@ public class Mapper<T, U> extends YAMLCacheListener {
 		}
 	}
 
+	@Override
 	public Set<Integer> ids() {
 		return loader.load().keySet();
 	}
 
+	@Override
 	public void forEachId(IntConsumer onId) {
 		try (var _ = lck.readLock()) {
 			StreamSupport.stream(ids().spliterator(), false).mapToInt(i -> i).forEach(onId);
 		}
 	}
 
+	@Override
 	public List<U> all() {
 		try (var _ = lck.writeLock()) {
 			return StreamSupport.stream(ids().spliterator(), false).map(this::of).toList();
 		}
 	}
 
+	@Override
 	public void forEachElement(Consumer<U> onElement) {
 		try (var _ = lck.writeLock()) {
 			StreamSupport.stream(ids().spliterator(), false).map(this::of).forEach(onElement);

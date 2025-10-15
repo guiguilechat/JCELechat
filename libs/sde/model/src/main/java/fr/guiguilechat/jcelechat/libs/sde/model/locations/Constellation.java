@@ -6,7 +6,9 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapConstellations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -21,10 +23,14 @@ public class Constellation extends SolarSystemGroup<EmapConstellations> {
 	private final int factionId;
 	private final int wormholeClassId;
 
-	protected Constellation(int id, EmapConstellations source) {
-		super(id, source);
+	protected Constellation(SDEDataSource datasource, int id, EmapConstellations source) {
+		super(datasource, id, source);
 		factionId = source.factionID;
 		wormholeClassId = source.wormholeClassID;
+	}
+
+	protected Constellation(int id, EmapConstellations source) {
+		this(LocalCacheDataSource.INSTANCE, id, source);
 	}
 
 	@Override
@@ -38,13 +44,14 @@ public class Constellation extends SolarSystemGroup<EmapConstellations> {
 	}
 
 	@Getter(lazy = true)
-	private final Region region = Region.CACHE.of(source().regionID);
+	private final Region region = datasource().regions().of(source().regionID);
 
 	@Getter(lazy = true)
 	private final Set<Constellation> constellations = Set.of(this);
 
 	@Getter(lazy = true)
-	private final Set<SolarSystem> solarSystems = new LinkedHashSet<>(SolarSystem.CACHE.of(source().solarSystemIDs));
+	private final Set<SolarSystem> solarSystems = new LinkedHashSet<>(
+			datasource().solarSystems().of(source().solarSystemIDs));
 
 	@Override
 	protected Stream<SolarSystem> streamAdjacentSolarSystems() {

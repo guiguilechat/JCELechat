@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations.generic;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.AIDBasedObject;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -18,8 +20,8 @@ public abstract class AInspace<T> extends AIDBasedObject {
 
 	private final T source;
 
-	protected AInspace(int id, T source) {
-		super(id);
+	protected AInspace(SDEDataSource datasource, int id, T source) {
+		super(datasource, id);
 		this.source = source;
 	}
 
