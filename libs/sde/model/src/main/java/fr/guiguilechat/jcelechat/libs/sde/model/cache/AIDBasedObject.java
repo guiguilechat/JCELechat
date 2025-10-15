@@ -13,7 +13,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class AIDBasedObject {
 
-	private final SDEDataSource datasource;
+	private final DataSource datasource;
 
 	private final int id;
 

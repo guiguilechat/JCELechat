@@ -4,9 +4,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Egroups;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.generic.TypeSet;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -25,7 +25,7 @@ public class Group extends TypeSet<Egroups> {
 	private final boolean published;
 	private final boolean useBasePrice;
 
-	public Group(SDEDataSource datasource, int id, Egroups source) {
+	public Group(DataSource datasource, int id, Egroups source) {
 		super(datasource, id, source);
 		anchorable = source.anchorable;
 		anchored = source.anchored;
@@ -36,7 +36,7 @@ public class Group extends TypeSet<Egroups> {
 	}
 
 	public Group(int id, Egroups source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Override

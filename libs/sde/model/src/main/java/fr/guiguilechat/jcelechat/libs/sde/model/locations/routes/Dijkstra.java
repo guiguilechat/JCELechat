@@ -20,6 +20,8 @@ import lombok.experimental.Accessors;
 @RequiredArgsConstructor
 public abstract class Dijkstra<T> {
 
+	@Getter
+	@Accessors(fluent = true)
 	private final T start;
 
 	public record ItemDist<T>(T item, T parent, double distancefromStart) {

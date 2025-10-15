@@ -5,9 +5,9 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmarketGroups;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.generic.TypeSet;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -22,14 +22,14 @@ public class MarketGroup extends TypeSet<EmarketGroups> {
 	private final boolean hasTypes;
 	private final int iconId;
 
-	public MarketGroup(SDEDataSource datasource, int id, EmarketGroups source) {
+	public MarketGroup(DataSource datasource, int id, EmarketGroups source) {
 		super(datasource, id, source);
 		hasTypes = source.hasTypes;
 		iconId = source.iconID;
 	}
 
 	public MarketGroup(int id, EmarketGroups source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Override

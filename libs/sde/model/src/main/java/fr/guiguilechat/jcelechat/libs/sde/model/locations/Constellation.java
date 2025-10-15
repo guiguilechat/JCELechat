@@ -6,9 +6,9 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapConstellations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -23,14 +23,14 @@ public class Constellation extends SolarSystemGroup<EmapConstellations> {
 	private final int factionId;
 	private final int wormholeClassId;
 
-	protected Constellation(SDEDataSource datasource, int id, EmapConstellations source) {
+	protected Constellation(DataSource datasource, int id, EmapConstellations source) {
 		super(datasource, id, source);
 		factionId = source.factionID;
 		wormholeClassId = source.wormholeClassID;
 	}
 
 	protected Constellation(int id, EmapConstellations source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Override

@@ -4,9 +4,9 @@ import java.math.BigDecimal;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Etypes;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.generic.TypeSet;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -32,7 +32,7 @@ public class Type extends TypeSet<Etypes> {
 	private final int soundId;
 	private final BigDecimal volume;
 
-	public Type(SDEDataSource datasource, int id, Etypes source) {
+	public Type(DataSource datasource, int id, Etypes source) {
 		super(datasource, id, source);
 		basePrice = source.basePrice;
 		capacity = source.capacity;
@@ -48,7 +48,7 @@ public class Type extends TypeSet<Etypes> {
 	}
 
 	public Type(int id, Etypes source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Override

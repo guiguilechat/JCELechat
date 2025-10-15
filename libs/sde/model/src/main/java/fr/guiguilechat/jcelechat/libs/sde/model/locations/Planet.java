@@ -5,9 +5,9 @@ import java.util.Collection;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapPlanets;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbitingCelestial;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -18,12 +18,12 @@ public class Planet extends AOrbitingCelestial<EmapPlanets> {
 
 	public static final Mapper<EmapPlanets, Planet> CACHE = new Mapper<>(EmapPlanets.LOADER, Planet::new);
 
-	protected Planet(SDEDataSource datasource,int id, EmapPlanets source) {
+	protected Planet(DataSource datasource,int id, EmapPlanets source) {
 		super(datasource, id, source);
 	}
 
 	protected Planet(int id, EmapPlanets source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Override

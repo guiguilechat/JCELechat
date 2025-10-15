@@ -3,9 +3,9 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapAsteroidBelts;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -17,12 +17,12 @@ public class AsteroidBelt extends AOrbiting<EmapAsteroidBelts> {
 	public static final Mapper<EmapAsteroidBelts, AsteroidBelt> CACHE = new Mapper<>(EmapAsteroidBelts.LOADER,
 			AsteroidBelt::new);
 
-	protected AsteroidBelt(SDEDataSource datasource, int id, EmapAsteroidBelts source) {
+	protected AsteroidBelt(DataSource datasource, int id, EmapAsteroidBelts source) {
 		super(datasource, id, source);
 	}
 
 	protected AsteroidBelt(int id, EmapAsteroidBelts source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Override

@@ -14,9 +14,12 @@ import fr.guiguilechat.jcelechat.libs.sde.model.locations.Star;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Stargate;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Station;
 
-public class LocalCacheDataSource implements SDEDataSource {
+/**
+ * datasource that resolves the elements using a local file cache
+ */
+public class DataSourceLocalCache implements DataSource {
 
-	public static final LocalCacheDataSource INSTANCE = new LocalCacheDataSource();
+	public static final DataSourceLocalCache INSTANCE = new DataSourceLocalCache();
 
 	@Override
 	public EntityMap<AsteroidBelt> asteroidBelts() {
@@ -29,7 +32,7 @@ public class LocalCacheDataSource implements SDEDataSource {
 	}
 
 	@Override
-	public EntityMap<Constellation> constellations() {
+	public EntityNameMap<Constellation> constellations() {
 		return Constellation.CACHE;
 	}
 
@@ -54,12 +57,12 @@ public class LocalCacheDataSource implements SDEDataSource {
 	}
 
 	@Override
-	public EntityMap<Region> regions() {
+	public EntityNameMap<Region> regions() {
 		return Region.CACHE;
 	}
 
 	@Override
-	public EntityMap<SolarSystem> solarSystems() {
+	public EntityNameMap<SolarSystem> solarSystems() {
 		return SolarSystem.CACHE;
 	}
 
@@ -74,7 +77,7 @@ public class LocalCacheDataSource implements SDEDataSource {
 	}
 
 	@Override
-	public EntityMap<Station> stations() {
+	public EntityNameMap<Station> stations() {
 		return Station.CACHE;
 	}
 

@@ -14,13 +14,16 @@ import fr.guiguilechat.jcelechat.libs.sde.model.locations.Star;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Stargate;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Station;
 
-public interface SDEDataSource {
+/**
+ * several entity maps to load the elements from
+ */
+public interface DataSource {
 
 	EntityMap<AsteroidBelt> asteroidBelts();
 
 	EntityNameMap<Category> categories();
 
-	EntityMap<Constellation> constellations();
+	EntityNameMap<Constellation> constellations();
 
 	EntityNameMap<Group> groups();
 
@@ -30,15 +33,15 @@ public interface SDEDataSource {
 
 	EntityMap<Planet> planets();
 
-	EntityMap<Region> regions();
+	EntityNameMap<Region> regions();
 
-	EntityMap<SolarSystem> solarSystems();
+	EntityNameMap<SolarSystem> solarSystems();
 
 	EntityMap<Star> stars();
 
 	EntityMap<Stargate> stargates();
 
-	EntityMap<Station> stations();
+	EntityNameMap<Station> stations();
 
 	EntityNameMap<Type> types();
 

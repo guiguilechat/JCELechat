@@ -4,9 +4,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Ecategories;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.generic.TypeSet;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -21,14 +21,14 @@ public class Category extends TypeSet<Ecategories> {
 	private final boolean published;
 	private final int iconId;
 
-	public Category(SDEDataSource datasource, int id, Ecategories source) {
+	public Category(DataSource datasource, int id, Ecategories source) {
 		super(datasource, id, source);
 		published = source.published;
 		iconId = source.iconID;
 	}
 
 	public Category(int id, Ecategories source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Override

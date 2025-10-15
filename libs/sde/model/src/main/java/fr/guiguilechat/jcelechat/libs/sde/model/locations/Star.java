@@ -3,9 +3,9 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStars;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStars.StarStatistics;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -22,7 +22,7 @@ public class Star extends AInspace<EmapStars> {
 	public StarStatistics statistics;
 	public int typeId;
 
-	public Star(SDEDataSource datasource, int id, EmapStars source) {
+	public Star(DataSource datasource, int id, EmapStars source) {
 		super(datasource, id, source);
 		radius = source.radius;
 		statistics = source.statistics;
@@ -30,7 +30,7 @@ public class Star extends AInspace<EmapStars> {
 	}
 
 	protected Star(int id, EmapStars source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Getter(lazy = true)

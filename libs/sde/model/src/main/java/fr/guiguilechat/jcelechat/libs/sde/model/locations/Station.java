@@ -5,9 +5,9 @@ import java.math.BigDecimal;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcStations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -26,7 +26,7 @@ public class Station extends AOrbiting<EnpcStations> {
 	private final BigDecimal reprocessingStationsTake;
 	private final boolean useOperationName;
 
-	protected Station(SDEDataSource datasource, int id, EnpcStations source) {
+	protected Station(DataSource datasource, int id, EnpcStations source) {
 		super(datasource, id, source);
 		operationId = source.operationID;
 		ownerId = source.ownerID;
@@ -37,7 +37,7 @@ public class Station extends AOrbiting<EnpcStations> {
 	}
 
 	protected Station(int id, EnpcStations source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Override

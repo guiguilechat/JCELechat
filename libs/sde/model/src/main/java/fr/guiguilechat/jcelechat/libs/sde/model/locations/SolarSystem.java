@@ -9,9 +9,9 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapSolarSystems;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.LocalCacheDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.SDEDataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
 import fr.guiguilechat.jcelechat.model.formula.space.Universe;
@@ -41,7 +41,7 @@ public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 	private final String visualEffect;
 	private final int wormholeClassID;
 
-	protected SolarSystem(SDEDataSource datasource, int id, EmapSolarSystems source) {
+	protected SolarSystem(DataSource datasource, int id, EmapSolarSystems source) {
 		super(datasource, id, source);
 		border = source.border;
 		corridor = source.corridor;
@@ -61,7 +61,7 @@ public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 	}
 
 	protected SolarSystem(int id, EmapSolarSystems source) {
-		this(LocalCacheDataSource.INSTANCE, id, source);
+		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
 	@Override
@@ -93,7 +93,7 @@ public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 	private final Collection<Stargate> stargates = datasource().stargates().of(source().stargateIDs);
 
 	/** list all the systems that have an active stargate, sorted by id asc */
-	public static List<SolarSystem> jumpableSystems(SDEDataSource datasource) {
+	public static List<SolarSystem> jumpableSystems(DataSource datasource) {
 		return datasource.stargates().all().stream()
 				.filter(st -> st.solarSystem().id() < st.destination().solarSystem().id())
 				.flatMap(st -> Stream.of(st.solarSystem(), st.destination().solarSystem()))

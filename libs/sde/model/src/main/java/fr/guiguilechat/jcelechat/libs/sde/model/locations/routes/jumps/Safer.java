@@ -28,11 +28,11 @@ public class Safer extends Dijkstra<SolarSystem> {
 	}
 
 	public List<ItemDist<SolarSystem>> to(String name) {
-		return to(SolarSystem.CACHE.of(name));
+		return to(start().datasource().solarSystems().of(name));
 	}
 
 	public List<ItemDist<SolarSystem>> to(int id) {
-		return to(SolarSystem.CACHE.of(id));
+		return to(start().datasource().solarSystems().of(id));
 	}
 
 }
