@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.corporation;
 
+import java.math.BigDecimal;
+
 import org.hibernate.annotations.ColumnDefault;
 
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
@@ -42,6 +44,6 @@ public class Seeded {
 	private Type type;
 
 	@ColumnDefault("0")
-	private double value;
+	private BigDecimal value;
 
 }

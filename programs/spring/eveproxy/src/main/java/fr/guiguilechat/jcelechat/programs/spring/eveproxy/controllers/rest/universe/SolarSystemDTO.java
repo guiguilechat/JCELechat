@@ -18,7 +18,7 @@ public record SolarSystemDTO(int solarSystemId, String name,
 				ss.getName(),
 				ss.getSecurityStatus(),
 				constel == null || constel.getId() == null ? -1 : constel.getId(),
-				region == null || region.getId() == null ? -1 : region.getId(),
+				region == null ? -1 : region.getId(),
 				universe);
 	}
 }

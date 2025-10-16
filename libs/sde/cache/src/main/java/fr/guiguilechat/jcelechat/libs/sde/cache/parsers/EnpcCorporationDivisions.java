@@ -34,6 +34,10 @@ public class EnpcCorporationDivisions {
 	public HashMap<String, String> leaderTypeName = new HashMap<>();
 	public HashMap<String, String> name = new HashMap<>();
 
+	public String enName() {
+		return name == null ? null : name.get("en");
+	}
+
 	//
 
 	public static void main(String[] args) {

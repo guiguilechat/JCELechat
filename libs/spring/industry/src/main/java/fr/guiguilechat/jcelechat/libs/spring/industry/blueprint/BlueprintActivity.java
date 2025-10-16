@@ -3,9 +3,9 @@ package fr.guiguilechat.jcelechat.libs.spring.industry.blueprint;
 import java.io.Serializable;
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ActivityDetails;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -61,7 +61,8 @@ public class BlueprintActivity implements Serializable {
 		researchMat,
 		researchTime;
 
-		public static ActivityType from(fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType type) {
+		public static ActivityType from(
+				fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType type) {
 			return switch (type) {
 				case copying -> copying;
 				case invention -> invention;
@@ -75,8 +76,8 @@ public class BlueprintActivity implements Serializable {
 	}
 
 	public static BlueprintActivity of(Eblueprints bp,
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType at, Type type) {
-		Activity act = at.of(bp.activities);
+			fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType at, Type type) {
+		ActivityDetails act = at.of(bp.activities);
 		return builder()
 				.type(type)
 				.activity(ActivityType.from(at))

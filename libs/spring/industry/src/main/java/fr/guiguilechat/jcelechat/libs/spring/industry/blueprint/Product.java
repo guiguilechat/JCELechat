@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.industry.blueprint;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import jakarta.persistence.Entity;
@@ -35,10 +36,10 @@ public class Product implements Serializable {
 	@ManyToOne
 	private Type type;
 
-	private double probability;
+	private BigDecimal probability;
 	private int quantity;
 
-	public static Product of(BlueprintActivity bpa, Type type, double probability, int quantity) {
+	public static Product of(BlueprintActivity bpa, Type type, BigDecimal probability, int quantity) {
 		if (type == null) {
 			throw new RuntimeException("type null for bp activity " + bpa.getType().name() + " " + bpa.getActivity());
 		}

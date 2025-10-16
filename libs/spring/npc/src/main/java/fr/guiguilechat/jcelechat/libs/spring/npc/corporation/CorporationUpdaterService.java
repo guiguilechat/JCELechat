@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.corporation;
 
 import java.io.InputStream;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -15,12 +16,12 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporations;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -85,7 +86,7 @@ public class CorporationUpdaterService implements SdeUpdateListener {
 			NPCCorp npcCorp = NPCCorp.of(ci, entry);
 			npcCorps.add(npcCorp);
 
-			for (Entry<Integer, Double> e2 : entry.corporationTrades.entrySet()) {
+			for (Entry<Integer, BigDecimal> e2 : entry.corporationTrades.entrySet()) {
 				Type type = id2Type.get(e2.getKey());
 				seededs.add(
 						Seeded.builder()
@@ -95,7 +96,7 @@ public class CorporationUpdaterService implements SdeUpdateListener {
 						.build());
 			}
 
-			for (Entry<Integer, Double> e2 : entry.exchangeRates.entrySet()) {
+			for (Entry<Integer, BigDecimal> e2 : entry.exchangeRates.entrySet()) {
 				CorporationInfo target = id2CorporationInfo.get(e2.getKey());
 				lpExchanges.add(LPExchange.builder()
 						.owned(ci)

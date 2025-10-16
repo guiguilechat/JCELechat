@@ -1,6 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.agent;
 
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -16,11 +18,8 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class AgentService {
 
-	final private AgentRepository repo;
-
-	public void clear() {
-		repo.deleteAllInBatch();
-	}
+	@Lazy
+	private final AgentRepository repo;
 
 	public List<Agent> saveAll(Iterable<Agent> entities) {
 		return repo.saveAllAndFlush(entities);
@@ -28,6 +27,10 @@ public class AgentService {
 
 	public Agent save(Agent entity) {
 		return repo.saveAndFlush(entity);
+	}
+
+	public Map<Integer, Agent> allById() {
+		return repo.findAll().stream().collect(Collectors.toMap(Agent::getId, o -> o));
 	}
 
 	public static record AgentDetails(Agent agent, Station station, SolarSystem solarSystem,

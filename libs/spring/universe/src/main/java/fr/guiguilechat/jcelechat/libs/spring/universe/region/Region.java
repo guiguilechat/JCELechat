@@ -1,56 +1,57 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.region;
 
+import java.time.Instant;
 import java.util.List;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
+import org.springframework.data.annotation.CreatedDate;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
+import fr.guiguilechat.jcelechat.model.formula.space.Universe;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.Lob;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiUniverseRegion")
-@Table(name = "esi_universe_region", indexes = {
-    @Index(columnList = "fetch_active,expires"),
+@Entity(name = "SdeUniverseRegion")
+@Table(name = "sde_universe_region", indexes = {
     @Index(columnList = "universe"),
     @Index(columnList = "name") })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
-public class Region extends ARemoteEntity<Integer, R_get_universe_regions_region_id> {
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class Region {
+
+	@Id
+	private int id;
+	@Builder.Default
+	private boolean received = false;
+	@Builder.Default
+	private boolean removed = false;
+	@CreatedDate
+	private Instant created;
 
 	@OneToMany(mappedBy = "region")
 	private List<Constellation> constellations;
 
-	/**
-	 * description string
-	 */
 	@Lob
 	private String description;
 
-	/**
-	 * name string
-	 */
 	private String name;
 
 	private String universe;
-
-	@Override
-	public void update(R_get_universe_regions_region_id data) {
-		setDescription(data.description);
-		setName(data.name);
-	}
 
 	public String name() {
 		if(name!=null) {
@@ -62,6 +63,14 @@ public class Region extends ARemoteEntity<Integer, R_get_universe_regions_region
 	@Override
 	public String toString() {
 		return name == null ? "region:" + getId() : name + "(" + getId() + ")";
+	}
+
+	public void update(EmapRegions value) {
+		received = true;
+		removed = false;
+		description = value.enDescription();
+		name = value.enName();
+		universe = Universe.of(getId()).name();
 	}
 
 }

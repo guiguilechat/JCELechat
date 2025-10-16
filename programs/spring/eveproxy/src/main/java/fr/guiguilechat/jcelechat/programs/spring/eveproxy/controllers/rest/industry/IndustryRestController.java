@@ -158,7 +158,7 @@ public class IndustryRestController {
 		}
 	}
 
-	public static record ProducedItem(int typeId, String typeName, int quantity, double probability) {
+	public static record ProducedItem(int typeId, String typeName, int quantity, BigDecimal probability) {
 		public ProducedItem(Product prod) {
 			this(prod.getType().getId(), prod.getType().name(), prod.getQuantity(), prod.getProbability());
 		}

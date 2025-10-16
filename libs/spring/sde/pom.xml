@@ -8,15 +8,15 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 	<artifactId>sde</artifactId>
-	<name>Spring lib SDE</name>
+	<name>LIB Spring SDE</name>
 	<dependencies>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>raw</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>remotefetching</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
+			<artifactId>cache</artifactId>
 		</dependency>
 		<!-- /own deps -->
 		<dependency>

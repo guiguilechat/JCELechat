@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.corporation;
 
+import java.math.BigDecimal;
+
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporations;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -39,7 +41,7 @@ public class NPCCorp {
 
 	private int stationId;
 
-	private double taxRate;
+	private BigDecimal taxRate;
 
 	public static NPCCorp of(CorporationInfo ci, EnpcCorporations entry) {
 		return builder()

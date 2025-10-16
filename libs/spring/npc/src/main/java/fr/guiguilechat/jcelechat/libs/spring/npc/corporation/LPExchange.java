@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.corporation;
 
+import java.math.BigDecimal;
+
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -32,14 +34,14 @@ public class LPExchange {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
-	
+
 	/** the corporation you have LP for */
 	@ManyToOne(optional = false)
 	private CorporationInfo owned;
 
 	/** the rate (mutliplier) applied for that conversion */
-	private double rate;
-	
+	private BigDecimal rate;
+
 	/** the corporation you use LP for */
 	@ManyToOne(optional = false)
 	private CorporationInfo target;

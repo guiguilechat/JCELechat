@@ -11,7 +11,7 @@ public record ConstellationDTO(int constellationId, String name, int regionId, S
 		return new ConstellationDTO(
 				constel.getId(),
 				constel.getName(),
-				region == null || region.getId() == null ? -1 : region.getId(),
+				region == null ? -1 : region.getId(),
 				universe);
 	}
 

@@ -47,8 +47,8 @@ public class AgentRestController {
 		for(AgentDetails ad : agentService.agentDetails()) {
 			sb.append(ad.agent().getId());
 			sb.append(fieldSeparator).append(ad.agent().getName());
-			sb.append(fieldSeparator).append(ad.agent().getAgentType());
-			sb.append(fieldSeparator).append(ad.agent().getAgentDivision());
+			sb.append(fieldSeparator).append(ad.agent().getAgentType().getName());
+			sb.append(fieldSeparator).append(ad.agent().getDivision().getName());
 			sb.append(fieldSeparator).append(ad.agent().getLevel());
 			sb.append(fieldSeparator).append(ad.agent().isLocator());
 			sb.append(fieldSeparator).append(ad.corporation().getId());

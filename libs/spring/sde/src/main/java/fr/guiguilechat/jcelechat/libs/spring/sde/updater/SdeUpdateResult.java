@@ -22,7 +22,7 @@ import lombok.RequiredArgsConstructor;
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class SdeUpdate {
+public class SdeUpdateResult {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -39,14 +39,20 @@ public class SdeUpdate {
 
 	private String error;
 
-	private String etag;
+	/**
+	 * release date retrieved from the SDE meta data
+	 */
+	private String releaseDate;
+
+	/**
+	 * build number retrieved from the SDE meta data
+	 */
+	private long buildNumber;
 
 	public enum Status {
 		FAIL,
 		CACHED,
-		SUCCESS,
-		@Deprecated
-		SUCCESS_NEED_REFETCH
+		SUCCESS
 	}
 
 	@Builder.Default

@@ -1,20 +1,13 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.type;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Function;
-import java.util.function.Supplier;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -33,13 +26,11 @@ import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.items.group.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.items.marketgroup.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.spring.items.marketgroup.MarketGroupService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService.EntityUpdateListener;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -52,7 +43,7 @@ import lombok.extern.slf4j.Slf4j;
 @Order(3)
 public class TypeService
 extends ARemoteEntityService<Type, Integer, R_get_universe_types_type_id, TypeRepository>
-implements SdeUpdateListener, EntityUpdateListener {
+		implements EntityUpdateListener {
 
 	@Lazy
 	private final AttributeService attributeService;
@@ -357,44 +348,6 @@ implements SdeUpdateListener, EntityUpdateListener {
 
 	public Type nextType(Type type) {
 		return repo().findTop1ByGroupAndNameGreaterThanOrderByNameAsc(type.getGroup(), type.name());
-	}
-
-	// on sde update
-
-	static final Pattern ENTRYNAME_TYPES_PATTERN = Pattern.compile(
-			"fsd/types\\.yaml");
-
-	@Override
-	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
-		Matcher matcher = ENTRYNAME_TYPES_PATTERN.matcher(entryName);
-		if (matcher.matches()) {
-			try (InputStream is = fileContent.get()) {
-				LinkedHashMap<Integer, Etypes> newTypes = Etypes.LOADER.from(is);
-				updateTypes(newTypes);
-			} catch (IOException e) {
-				throw new RuntimeException(e);
-			}
-		}
-	}
-
-	protected void updateTypes(Map<Integer, Etypes> newTypes) {
-		Map<Integer, Type> idToType = createIfAbsent(new ArrayList<>(newTypes.keySet()));
-		if (idToType.size() != newTypes.size()) {
-			log.error(" got {} types to update but retrieved only {}", newTypes, idToType);
-		}
-		List<Type> updated = new ArrayList<>();
-		for (Entry<Integer, Etypes> e : newTypes.entrySet()) {
-			Type type = idToType.get(e.getKey());
-			if (type != null) {
-				type.setBasePrice(e.getValue().basePrice);
-				type.setVariationTypeId(e.getValue().variationParentTypeID);
-				updated.add(type);
-			} else {
-				throw new RuntimeException("missing type for id " + e.getKey() + " type name=" + e.getValue().enName());
-			}
-		}
-		saveAll(updated);
-		log.info("updated {} types from SDE", updated.size());
 	}
 
 	// cache

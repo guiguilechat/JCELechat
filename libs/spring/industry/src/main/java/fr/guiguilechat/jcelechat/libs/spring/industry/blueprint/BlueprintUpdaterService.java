@@ -5,19 +5,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ActivityDetails;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ProducingActivityDetails;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.ActivityType;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -47,12 +47,9 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 		blueprintActivityService.clear();
 	}
 
-	static final Pattern ENTRYNAME_BLUEPRINTS_PATTERN = Pattern.compile(
-			"fsd/blueprints\\.yaml");
-
 	@Override
 	public void onSdeFile(String name, Supplier<InputStream> fileContent) {
-		if (ENTRYNAME_BLUEPRINTS_PATTERN.matcher(name).matches()) {
+		if (name.equals(Eblueprints.SDE_FILE_YAML)) {
 			saveBlueprints(fileContent.get());
 			return;
 		}
@@ -61,22 +58,8 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 	private void saveBlueprints(InputStream is) {
 		sdeFileMissing = false;
 		List<Eblueprints> blueprints = new ArrayList<>(Eblueprints.LOADER.from(is).values());
-		List<Integer> referencedIds = blueprints.stream().flatMap(bp -> Stream.concat(
-				Stream.of(bp.blueprintTypeID),
-				Stream.of(bp.activities.copying,
-						bp.activities.invention,
-						bp.activities.manufacturing,
-						bp.activities.reaction,
-						bp.activities.research_material,
-						bp.activities.research_time)
-				.filter(act -> act != null)
-				.flatMap(act -> Stream.of(
-						act.materials.stream().map(mat -> mat.typeID),
-						act.products.stream().map(pr -> pr.typeID),
-						act.skills.stream().map(sk -> sk.typeID))
-						.flatMap(s -> s))))
-				.distinct().toList();
-		Map<Integer, Type> typesById = typeService.createIfAbsent(referencedIds);
+		List<Integer> referencedTypeIds = extractTypeReferences(blueprints);
+		Map<Integer, Type> typesById = typeService.createIfAbsent(referencedTypeIds);
 
 		// blueprints
 		// first create all the activities that exist for each blueprint, store them by
@@ -152,9 +135,40 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 		log.info("updated {} blueprints", blueprints.size());
 	}
 
+	protected List<Integer> extractTypeReferences(List<Eblueprints> blueprints) {
+		return blueprints.stream().flatMap(this::extractTypeReference)
+				.distinct().toList();
+	}
+
+	protected Stream<Integer> extractTypeReference(Eblueprints bp) {
+		return Stream.concat(
+				Stream.of(bp.blueprintTypeID),
+				Stream.of(bp.activities.copying,
+						bp.activities.invention,
+						bp.activities.manufacturing,
+						bp.activities.reaction,
+						bp.activities.research_material,
+						bp.activities.research_time)
+						.filter(act -> act != null)
+						.flatMap(this::extractTypeReference));
+	}
+
+	protected Stream<Integer> extractTypeReference(ActivityDetails ad) {
+		Stream<Stream<Integer>> partsStream = switch (ad) {
+		case ProducingActivityDetails act -> Stream.of(
+				act.materials.stream().map(mat -> mat.typeID),
+				act.products.stream().map(pr -> pr.typeID),
+				act.skills.stream().map(sk -> sk.typeID));
+		default -> Stream.of(
+				ad.materials.stream().map(mat -> mat.typeID),
+				ad.skills.stream().map(sk -> sk.typeID));
+		};
+		return partsStream.flatMap(s -> s);
+	}
+
 	void addActivityData(
 			BlueprintActivity bpa,
-			Activity act,
+			ActivityDetails act,
 			Map<Integer, Type> typesById,
 			List<Material> newMaterials,
 			List<Product> newProducts,
@@ -162,8 +176,10 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 		if (bpa != null) {
 			newMaterials.addAll(act.materials.stream()
 					.map(m -> Material.of(bpa, typesById.get(m.typeID), m.quantity)).toList());
-			newProducts.addAll(act.products.stream()
-					.map(p -> Product.of(bpa, typesById.get(p.typeID), p.probability, p.quantity)).toList());
+			if (act instanceof ProducingActivityDetails pad) {
+				newProducts.addAll(pad.products.stream()
+						.map(p -> Product.of(bpa, typesById.get(p.typeID), p.probability, p.quantity)).toList());
+			}
 			newSkills.addAll(act.skills.stream()
 					.map(s -> SkillReq.of(bpa, typesById.get(s.typeID), s.level)).toList());
 		}
@@ -172,8 +188,8 @@ public class BlueprintUpdaterService implements SdeUpdateListener {
 	@Override
 	public void afterSdeUpdate() {
 		if (sdeFileMissing) {
-			log.warn("service " + getClass().getSimpleName() + " did not receive file for matcher "
-					+ ENTRYNAME_BLUEPRINTS_PATTERN);
+			log.warn("service " + getClass().getSimpleName() + " did not receive file "
+					+ Eblueprints.SDE_FILE_YAML);
 		}
 	}
 

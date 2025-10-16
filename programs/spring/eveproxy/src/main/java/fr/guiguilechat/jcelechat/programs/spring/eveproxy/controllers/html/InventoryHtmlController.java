@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
 
+import java.math.BigDecimal;
 import java.net.URI;
 import java.util.Comparator;
 import java.util.List;
@@ -158,7 +159,7 @@ public class InventoryHtmlController {
 		return typeUri(type.getId());
 	}
 
-	public static record LinkedProduct(String url, Type type, int quantity, double probability) {
+	public static record LinkedProduct(String url, Type type, int quantity, BigDecimal probability) {
 	}
 
 	public LinkedProduct linkedProduct(Product product) {
@@ -190,8 +191,8 @@ public class InventoryHtmlController {
 		return linkedMaterial(typeService.byId(typeId), quantity);
 	}
 
-	public static record LinkedActivity(String url, Type type, ActivityType activity, int quantity, double probability,
-			Product product) {
+	public static record LinkedActivity(String url, Type type, ActivityType activity, int quantity,
+			BigDecimal probability, Product product) {
 	}
 
 	public LinkedActivity linkedActivity(Product product) {

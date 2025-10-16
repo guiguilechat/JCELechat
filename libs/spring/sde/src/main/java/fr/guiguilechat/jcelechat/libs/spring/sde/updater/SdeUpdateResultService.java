@@ -11,16 +11,20 @@ import java.util.function.Supplier;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
+import java.util.zip.ZipInputStream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdate.Status;
+import fr.guiguilechat.jcelechat.libs.sde.cache.YamlCache;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Cached;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Errored;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Success;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateResult.Status;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
-import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
-import fr.guiguilechat.jcelechat.model.sde.load.SDECache.SDEDownload;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -31,11 +35,11 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "sde.fetcher")
-public class SdeUpdateService implements IEntityUpdater {
+public class SdeUpdateResultService implements IEntityUpdater {
 
 	final private CacheManager cacheManager;
 
-	final private SdeUpdateRepository repo;
+	final private SdeUpdateResultRepository repo;
 
 	private final Optional<List<SdeUpdateListener>> updateListeners;
 
@@ -58,11 +62,11 @@ public class SdeUpdateService implements IEntityUpdater {
 		nextFetch = null;
 	}
 
-	protected SdeUpdate findLastSuccess() {
+	protected SdeUpdateResult findLastSuccess() {
 		return repo.findTop1ByStatusOrderByStartedDateDesc(Status.SUCCESS);
 	}
 
-	public SdeUpdate save(SdeUpdate entity) {
+	public SdeUpdateResult save(SdeUpdateResult entity) {
 		if (entity.getCreatedDate() == null) {
 			entity.setCreatedDate(Instant.now());
 		}
@@ -77,28 +81,31 @@ public class SdeUpdateService implements IEntityUpdater {
 			return false;
 		}
 		log.debug("updating SDE, force={}", force);
-		SdeUpdate ur = SdeUpdate.builder().startedDate(startDate).build();
-		SdeUpdate lastSuccess = findLastSuccess();
-		SDEDownload fetch = SDECache.getSDE(!force && lastSuccess != null ? lastSuccess.getEtag() : null);
+		SdeUpdateResult ur = SdeUpdateResult.builder().startedDate(startDate).build();
+		SdeUpdateResult lastSuccess = findLastSuccess();
+		DLResult fetch = YamlCache.INSTANCE.dl(!force && lastSuccess != null ? lastSuccess.getReleaseDate() : null);
 		Instant fetchedDate = Instant.now();
 		ur.setFetchedDurationMs(fetchedDate.toEpochMilli() - startDate.toEpochMilli());
-		if (!force && lastSuccess != null && fetch.etag().equals(lastSuccess.getEtag())) {
-			// skip the update
+		switch (fetch) {
+		case Cached _:
 			ur.setStatus(Status.CACHED);
-		} else if (fetch.channel() != null) {
+			break;
+		case Errored e:
+			ur.setStatus(Status.FAIL);
+			ur.setError(e.error().getMessage());
+			break;
+		case Success s:
+			ur.setStatus(Status.SUCCESS);
+			ur.setBuildNumber(s.meta().buildNumber);
+			ur.setReleaseDate(s.meta().releaseDate);
 			try {
-				File newFile = fetch.toTempFile();
-				updateFromFile(newFile);
-				ur.setStatus(Status.SUCCESS);
-				ur.setEtag(fetch.etag());
+				updateNewSDE(s);
 			} catch (Exception e) {
 				ur.setStatus(Status.FAIL);
 				log.error("while updting sde", e);
 				ur.setError(e.getMessage());
 			}
-		} else if (fetch.error() != null) {
-			ur.setStatus(Status.FAIL);
-			ur.setError(fetch.error().getMessage());
+			break;
 		}
 		Instant processedDate = Instant.now();
 		ur.setProcessDurationMs(processedDate.toEpochMilli() - fetchedDate.toEpochMilli());
@@ -109,6 +116,27 @@ public class SdeUpdateService implements IEntityUpdater {
 		force = false;
 		nextFetch = startDate.plusSeconds(getUpdate().getDelay());
 		return ur.getStatus() != Status.SUCCESS;
+	}
+
+	protected void updateNewSDE(Success s) throws IOException {
+		log.info("update SDE released " + s.meta().releaseDate);
+		if (updateListeners.isPresent()) {
+			List<SdeUpdateListener> listeners = updateListeners.get();
+			listeners.forEach(SdeUpdateListener::beforeSdeUpdate);
+			ZipInputStream zip = s.zipputSteam();
+			ZipEntry zipentry;
+			while ((zipentry = zip.getNextEntry()) != null) {
+				if (!zipentry.isDirectory()) {
+					String name = zipentry.getName();
+					Supplier<InputStream> sup = new DuplicatingInputStream(zip);
+					listeners.forEach(l -> l.onSdeFile(name, sup));
+				}
+			}
+			listeners.stream().flatMap(l -> l.listSDECaches().stream())
+					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			listeners.forEach(SdeUpdateListener::afterSdeUpdate);
+		}
+		log.info(" finished updating SDE DB.");
 	}
 
 	/**

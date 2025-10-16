@@ -1,20 +1,19 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.agent;
 
 import java.io.InputStream;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.function.Supplier;
-import java.util.regex.Pattern;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.npc.agent.Agent.AgentDivision;
-import fr.guiguilechat.jcelechat.libs.spring.npc.agent.Agent.AgentType;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EagentTypes;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCharacters;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporationDivisions;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.invnames.NamesIndex;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eagents;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -27,59 +26,96 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class AgentUpdaterService implements SdeUpdateListener {
 
-	@Lazy
 	private final AgentService agentService;
 
-	@Lazy
-	private final NamesIndex namesIndex;
+	private final AgentTypeService agentTypeService;
 
-	private LinkedHashMap<Integer, Eagents> agents = null;
+	private final DivisionService divisionService;
+
+	private boolean receivedAgents = false;
+
+	private boolean receivedAgentTypes = false;
+
+	private boolean receivedDivisions = false;
 
 	@Override
 	public void beforeSdeUpdate() {
-		agents = null;
-		agentService.clear();
+		receivedAgents = false;
+		receivedAgentTypes = false;
+		receivedDivisions = false;
 	}
-
-	static final Pattern ENTRYNAME_AGENTS_PATTERN = Pattern.compile(
-			"fsd/agents\\.yaml");
 
 	@Override
 	public void onSdeFile(String name, Supplier<InputStream> fileContent) {
-		if (ENTRYNAME_AGENTS_PATTERN.matcher(name).matches()) {
-			agents = Eagents.LOADER.from(fileContent.get());
-			return;
+		switch (name) {
+		case EnpcCharacters.SDE_FILE_YAML:
+			processAgents(EnpcCharacters.LOADER.from(fileContent.get()));
+			receivedAgents = true;
+			break;
+		case EagentTypes.SDE_FILE_YAML:
+			processAgentTypes(EagentTypes.LOADER.from(fileContent.get()));
+			receivedAgentTypes = true;
+			break;
+		case EnpcCorporationDivisions.SDE_FILE_YAML:
+			processDivisions(EnpcCorporationDivisions.LOADER.from(fileContent.get()));
+			receivedDivisions = true;
+			break;
 		}
+	}
+
+	protected void processAgents(LinkedHashMap<Integer, EnpcCharacters> from) {
+		Map<Integer, AgentType> agentTypes = new HashMap<>(agentTypeService.allById());
+		Map<Integer, Division> divisions = new HashMap<>(divisionService.allById());
+		Map<Integer, Agent> storedAgents = new HashMap<>(agentService.allById());
+		storedAgents.values().forEach(agent -> agent.setRemoved(true));
+
+		for (Entry<Integer, EnpcCharacters> e : from.entrySet()) {
+			var stored = storedAgents.computeIfAbsent(e.getKey(), i -> Agent.builder().id(i).build());
+			stored.update(e.getValue(), agentTypes, divisions);
+		}
+
+		agentTypeService.saveAll(agentTypes.values());
+		divisionService.saveAll(divisions.values());
+		agentService.saveAll(storedAgents.values());
+		log.info("updated {} agents", storedAgents.size());
+	}
+
+	protected void processAgentTypes(LinkedHashMap<Integer, EagentTypes> from) {
+		var storedEntities = new HashMap<>(agentTypeService.allById());
+		storedEntities.values().forEach(o -> o.setRemoved(true));
+
+		for (var e : from.entrySet()) {
+			var stored = storedEntities.computeIfAbsent(e.getKey(), i -> AgentType.builder().id(i).build());
+			stored.update(e.getValue());
+		}
+		agentTypeService.saveAll(storedEntities.values());
+	}
+
+	protected void processDivisions(LinkedHashMap<Integer, EnpcCorporationDivisions> from) {
+		var storedEntities = new HashMap<>(divisionService.allById());
+		storedEntities.values().forEach(o -> o.setRemoved(true));
+
+		for (var e : from.entrySet()) {
+			var stored = storedEntities.computeIfAbsent(e.getKey(), i -> Division.builder().id(i).build());
+			stored.update(e.getValue());
+		}
+		divisionService.saveAll(storedEntities.values());
 	}
 
 	@Override
 	public void afterSdeUpdate() {
-		if (agents == null) {
-			log.warn("service " + getClass().getSimpleName() + " did not receive file for matcher "
-					+ ENTRYNAME_AGENTS_PATTERN);
-		} else {
-			Map<Integer, String> nameIndex = namesIndex.getIndex();
-			List<Agent> newAgents = agents.entrySet().stream()
-					.map(e -> convert(e.getKey(), e.getValue(), nameIndex))
-					.toList();
-			agentService.saveAll(newAgents);
-			log.info("udpated {} agents", newAgents.size());
+		if (!receivedAgents) {
+			log.warn("service " + getClass().getSimpleName() + " did not receive file "
+					+ EnpcCharacters.SDE_FILE_YAML);
 		}
-	}
-
-	protected Agent convert(int id, Eagents entry, Map<Integer, String> nameIndex) {
-		String name = nameIndex == null ? null : nameIndex.get(id);
-		return Agent.builder()
-				.agentDivision(AgentDivision.of(entry.divisionID))
-				.agentType(AgentType.of(entry.agentTypeID))
-				.corporationId(entry.corporationID)
-				.divisionId(entry.divisionID)
-				.id(id)
-				.isLocator(entry.isLocator)
-				.level(entry.level)
-				.locationId(entry.locationID)
-				.name(name)
-				.build();
+		if (!receivedAgentTypes) {
+			log.warn("service " + getClass().getSimpleName() + " did not receive file "
+					+ EagentTypes.SDE_FILE_YAML);
+		}
+		if (!receivedDivisions) {
+			log.warn("service " + getClass().getSimpleName() + " did not receive file "
+					+ EnpcCorporationDivisions.SDE_FILE_YAML);
+		}
 	}
 
 }

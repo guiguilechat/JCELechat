@@ -6,16 +6,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
-import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EplanetSchematics;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EplanetSchematics;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -42,12 +41,9 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 		schematicService.clear();
 	}
 
-	static final Pattern ENTRYNAME_PLANETSCHEMATICS_PATTERN = Pattern.compile(
-	    "fsd/planetSchematics\\.yaml");
-
 	@Override
 	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
-		if (ENTRYNAME_PLANETSCHEMATICS_PATTERN.matcher(entryName).matches()) {
+		if (entryName.equals(EplanetSchematics.SDE_FILE_YAML)) {
 			saveSchematics(fileContent.get());
 		}
 	}
@@ -93,8 +89,8 @@ public class PlanetaryUpdaterService implements SdeUpdateListener {
 	@Override
 	public void afterSdeUpdate() {
 		if (sdeFileMissing) {
-			log.warn("service " + getClass().getSimpleName() + " did not receive file for matcher "
-			    + ENTRYNAME_PLANETSCHEMATICS_PATTERN);
+			log.warn("service " + getClass().getSimpleName() + " did not receive file "
+					+ EplanetSchematics.SDE_FILE_YAML);
 		}
 	}
 

@@ -7,8 +7,8 @@ import java.util.Set;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EplanetSchematics;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EplanetSchematics;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -68,7 +68,7 @@ public class Schematic implements Serializable {
 	    : pins.iterator().next().getAttributes().stream()
 	        .filter(ta -> ta.getAttribute().getId() == 15)
 	        .mapToInt(ta -> ta.getValue().intValue())
-	        .findFirst().orElse(0);
+					.findFirst().orElse(0);
 
 	public static Schematic of(EplanetSchematics schem, int id) {
 		SchematicBuilder builder = builder()

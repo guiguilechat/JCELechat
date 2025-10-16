@@ -7,17 +7,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.function.Supplier;
-import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -38,12 +37,9 @@ public class ReprocessUpdater implements SdeUpdateListener {
 		reprocessService.clear();
 	}
 
-	static final Pattern ENTRYNAME_TYPEMATERIAL_PATTERN = Pattern.compile(
-	    "fsd/typeMaterials\\.yaml");
-
 	@Override
 	public void onSdeFile(String name, Supplier<InputStream> fileContent) {
-		if (ENTRYNAME_TYPEMATERIAL_PATTERN.matcher(name).matches()) {
+		if (name.equals(EtypeMaterials.SDE_FILE_YAML)) {
 			saveReprocess(fileContent.get());
 			return;
 		}
@@ -75,8 +71,8 @@ public class ReprocessUpdater implements SdeUpdateListener {
 	@Override
 	public void afterSdeUpdate() {
 		if (sdeFileMissing) {
-			log.warn("service " + getClass().getSimpleName() + " did not receive file for matcher "
-			    + ENTRYNAME_TYPEMATERIAL_PATTERN);
+			log.warn("service " + getClass().getSimpleName() + " did not receive file "
+					+ EtypeMaterials.SDE_FILE_YAML);
 		}
 	}
 

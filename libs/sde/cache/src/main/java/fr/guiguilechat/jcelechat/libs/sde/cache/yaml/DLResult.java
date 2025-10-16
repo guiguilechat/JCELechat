@@ -14,6 +14,7 @@ import java.util.zip.ZipInputStream;
 import fr.guiguilechat.jcelechat.libs.sde.cache.RemoteMeta;
 
 public sealed interface DLResult {
+
 	RemoteMeta meta();
 
 	public record Success(String url, RemoteMeta meta, ReadableByteChannel channel) implements DLResult {
