@@ -1,16 +1,16 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.star;
 
+import java.math.BigDecimal;
+import java.util.function.Function;
+
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStars;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stars_star_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_universe_stars_star_id_spectral_class;
 import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToOne;
@@ -20,73 +20,42 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiUniverseStar")
-@Table(name = "esi_universe_star", indexes = {
-    @Index(columnList = "fetch_active,expires"),
-    @Index(columnList = "solar_system_id"),
-    @Index(columnList = "type_id"),
-    @Index(columnList = "name")
+@Entity(name = "SdeUniverseStar")
+@Table(name = "sde_universe_star", indexes = {
+		@Index(columnList = "solar_system_id"),
+		@Index(columnList = "type_id")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 
-public class Star extends ARemoteEntity<Integer, R_get_universe_stars_star_id> {
+public class Star extends SdeEntity<Integer> {
 
-
-	/**
-	 * The solar system this stargate is in
-	 */
+	private BigDecimal age;
+	private BigDecimal life;
+	private BigDecimal luminosity;
+	private long radius;
 	@OneToOne
 	private SolarSystem solarSystem;
-
-	/**
-	 * type_id integer
-	 */
+	private String spectralClass;
+	private BigDecimal temperature;
 	@ManyToOne
 	private Type type;
 
-
-	/**
-	 * Age of star in years
-	 */
-	private long age;
-
-	/**
-	 * luminosity number
-	 */
-	private float luminosity;
-
-	/**
-	 * name string
-	 */
-	private String name;
-
-	/**
-	 * radius integer
-	 */
-	private long radius;
-
-	/**
-	 * spectral_class string
-	 */
-	@Enumerated(EnumType.STRING)
-	private get_universe_stars_star_id_spectral_class spectralClass;
-
-	/**
-	 * temperature integer
-	 */
-	private int temperature;
-	@Override
-	public void update(R_get_universe_stars_star_id data) {
-		setAge(data.age);
-		setLuminosity(data.luminosity);
-		setName(data.name);
-		setRadius(data.radius);
-		setSpectralClass(data.spectral_class);
-		setTemperature(data.temperature);
+	public void update(EmapStars source,
+			Function<Integer, Type> types,
+			Function<Integer, SolarSystem> solarSystems) {
+		super.receivedSource();
+		setAge(source.statistics.age);
+		setLife(source.statistics.life);
+		setLuminosity(source.statistics.luminosity);
+		setRadius(source.radius);
+		setSolarSystem(solarSystems.apply(source.solarSystemID));
+		setSpectralClass(source.statistics.spectralClass);
+		setTemperature(source.statistics.temperature);
+		setType(types.apply(source.typeID));
 	}
 
 }

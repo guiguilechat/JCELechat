@@ -6,7 +6,7 @@ import java.util.function.Function;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.OrbitingCelestial;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapPlanets;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.universe.generic.SdeOrbitingCelestial;
 import fr.guiguilechat.jcelechat.libs.spring.universe.moon.Moon;
@@ -35,8 +35,7 @@ public class Planet extends SdeOrbitingCelestial {
 	@OneToMany(mappedBy = "planet")
 	private List<Moon> moons;
 
-	@Override
-	public void update(OrbitingCelestial source, Function<Integer, Type> types,
+	public void update(EmapPlanets source, Function<Integer, Type> types,
 			Function<Integer, SolarSystem> solarSystems) {
 		super.update(source, types, solarSystems);
 	}

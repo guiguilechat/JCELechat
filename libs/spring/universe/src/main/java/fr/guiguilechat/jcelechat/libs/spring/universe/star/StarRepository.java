@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.star;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityRepository;
 
-public interface StarRepository extends IRemoteEntityRepository<Star, Integer> {
+public interface StarRepository extends SdeEntityRepository<Star, Integer> {
 
 }
