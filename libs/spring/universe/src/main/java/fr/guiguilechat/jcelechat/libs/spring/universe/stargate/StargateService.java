@@ -122,9 +122,9 @@ public class StargateService extends
 	public List<WarpJumpDist> warpJumpsFrom(Station station) {
 		return repo().listWarpJumpFromStation(
 				station.getSolarSystem().getId(),
-				station.getPosX(),
-				station.getPosY(),
-				station.getPosZ()).stream()
+				station.getPosX().doubleValue(),
+				station.getPosY().doubleValue(),
+				station.getPosZ().doubleValue()).stream()
 				.map(arr -> new WarpJumpDist(station, (Stargate) arr[0], (double) arr[1]))
 				.toList();
 	}
@@ -135,9 +135,9 @@ public class StargateService extends
 	 */
 	public List<WarpDist> warpJumpsTo(Station station) {
 		return repo().listWarpJumpToStation(station.getSolarSystem().getId(),
-				station.getPosX(),
-				station.getPosY(),
-				station.getPosZ()).stream()
+				station.getPosX().doubleValue(),
+				station.getPosY().doubleValue(),
+				station.getPosZ().doubleValue()).stream()
 				.map(arr -> new WarpDist((Stargate) arr[0], station, (double) arr[1]))
 				.toList();
 	}
@@ -220,9 +220,9 @@ public class StargateService extends
 		if (start.getSolarSystem().getId() == end.getSolarSystem().getId()) {
 			return List.of(new TravelTime(start.getId(), end.getId(),
 					convertWarpTotime(
-							Math.sqrt(Math.pow(start.getPosX() - end.getPosX(), 2)
-									+ Math.pow(start.getPosY() - end.getPosY(), 2)
-									+ Math.pow(start.getPosZ() - end.getPosZ(), 2)),
+							Math.sqrt(Math.pow(start.getPosX().doubleValue() - end.getPosX().doubleValue(), 2)
+									+ Math.pow(start.getPosY().doubleValue() - end.getPosY().doubleValue(), 2)
+									+ Math.pow(start.getPosZ().doubleValue() - end.getPosZ().doubleValue(), 2)),
 							align_s, warpspeed_aups)));
 		}
 		return Stream.of(

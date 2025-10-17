@@ -4,11 +4,10 @@ import java.util.stream.Stream;
 
 import org.springframework.data.jpa.repository.EntityGraph;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityRepository;
 
-public interface StationRepository extends IRemoteEntityRepository<Station, Integer> {
+public interface StationRepository extends SdeEntityRepository<Station, Integer> {
 
-	@EntityGraph(attributePaths = { "solarSystem" })
-	public Stream<Station> findAllByIdIn(Iterable<Integer> ids);
+	@EntityGraph(attributePaths = { "solarSystem" }) Stream<Station> findAllByIdIn(Iterable<Integer> ids);
 
 }

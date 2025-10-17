@@ -130,7 +130,7 @@ public class InventoryHtmlController {
 	List<Seed> seeds(List<LocatedBestOffer> offers) {
 		List<Integer> seedStationIds = offers.stream().filter(s -> s.locationId() < Integer.MAX_VALUE)
 				.mapToInt(s -> (int) s.locationId()).distinct().boxed().toList();
-		Map<Integer, Station> stationId2Station = stationService.findById(seedStationIds).stream()
+		Map<Integer, Station> stationId2Station = stationService.byId(seedStationIds).stream()
 				.collect(Collectors.toMap((Function<? super Station, ? extends Integer>) Station::getId, s -> s));
 		List<Integer> seedRegionIds = offers.stream().mapToInt(LocatedBestOffer::regionId).distinct().boxed().toList();
 		Map<Integer, Region> regionId2Region = regionService.byId(seedRegionIds).stream()
@@ -142,7 +142,8 @@ public class InventoryHtmlController {
 					SolarSystem solSys = stationId2SolSys.get(off.locationId());
 					Station sta = off.locationId() < Integer.MAX_VALUE ? stationId2Station.get((int) off.locationId())
 							: null;
-					return Seed.of(r, off.regionId(), solSys, sta == null ? "unresolved" : sta.name(), off.locationId(),
+					return Seed.of(r, off.regionId(), solSys, sta == null ? "unresolved" : sta.getName(),
+							off.locationId(),
 							off.bestPrice());
 				})
 				.sorted(Comparator.comparing((Function<? super Seed, ? extends String>) Seed::space))
