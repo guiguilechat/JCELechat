@@ -2,10 +2,11 @@ package fr.guiguilechat.jcelechat.libs.spring.npc.agent;
 
 import java.util.List;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-public interface AgentRepository extends JpaRepository<Agent, Integer> {
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityRepository;
+
+public interface NpcCharacterRepository extends SdeEntityRepository<NpcCharacter, Integer> {
 
 	@Query("""
 select

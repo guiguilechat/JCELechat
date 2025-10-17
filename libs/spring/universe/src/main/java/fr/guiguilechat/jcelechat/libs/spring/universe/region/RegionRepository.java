@@ -2,10 +2,11 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.region;
 
 import java.util.List;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-public interface RegionRepository extends JpaRepository<Region, Integer> {
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityRepository;
+
+public interface RegionRepository extends SdeEntityRepository<Region, Integer> {
 
 	List<Region> findByNameEqualsIgnoreCase(String name);
 

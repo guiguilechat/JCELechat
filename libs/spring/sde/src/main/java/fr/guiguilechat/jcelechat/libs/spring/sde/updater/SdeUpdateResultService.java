@@ -120,6 +120,7 @@ public class SdeUpdateResultService implements IEntityUpdater {
 
 	protected void updateNewSDE(Success s) throws IOException {
 		log.info("update SDE released " + s.meta().releaseDate);
+		long startUpdate = System.currentTimeMillis();
 		if (updateListeners.isPresent()) {
 			List<SdeUpdateListener> listeners = updateListeners.get();
 			listeners.forEach(SdeUpdateListener::beforeSdeUpdate);
@@ -136,7 +137,7 @@ public class SdeUpdateResultService implements IEntityUpdater {
 					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 			listeners.forEach(SdeUpdateListener::afterSdeUpdate);
 		}
-		log.info(" finished updating SDE DB.");
+		log.info(" finished updating SDE DB in {} ms", System.currentTimeMillis() - startUpdate);
 	}
 
 	/**

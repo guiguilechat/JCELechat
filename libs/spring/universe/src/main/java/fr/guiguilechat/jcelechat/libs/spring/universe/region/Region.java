@@ -1,23 +1,20 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.region;
 
-import java.time.Instant;
 import java.util.List;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
-import org.springframework.data.annotation.CreatedDate;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
 import fr.guiguilechat.jcelechat.model.formula.space.Universe;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.Lob;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -29,19 +26,9 @@ import lombok.Setter;
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Getter
 @Setter
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Region {
-
-	@Id
-	private int id;
-	@Builder.Default
-	private boolean received = false;
-	@Builder.Default
-	private boolean removed = false;
-	@CreatedDate
-	private Instant created;
+public class Region extends SdeEntity<Integer> {
 
 	@OneToMany(mappedBy = "region")
 	private List<Constellation> constellations;
@@ -66,8 +53,7 @@ public class Region {
 	}
 
 	public void update(EmapRegions value) {
-		received = true;
-		removed = false;
+		receivedSource();
 		description = value.enDescription();
 		name = value.enName();
 		universe = Universe.of(getId()).name();

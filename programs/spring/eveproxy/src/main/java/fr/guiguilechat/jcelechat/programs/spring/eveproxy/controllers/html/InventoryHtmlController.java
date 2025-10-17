@@ -133,7 +133,7 @@ public class InventoryHtmlController {
 		Map<Integer, Station> stationId2Station = stationService.findById(seedStationIds).stream()
 				.collect(Collectors.toMap((Function<? super Station, ? extends Integer>) Station::getId, s -> s));
 		List<Integer> seedRegionIds = offers.stream().mapToInt(LocatedBestOffer::regionId).distinct().boxed().toList();
-		Map<Integer, Region> regionId2Region = regionService.findById(seedRegionIds).stream()
+		Map<Integer, Region> regionId2Region = regionService.byId(seedRegionIds).stream()
 				.collect(Collectors.toMap((Function<? super Region, ? extends Integer>) Region::getId, r -> r));
 		Map<Long, SolarSystem> stationId2SolSys = stationService.getSolarSystems(seedStationIds);
 		return offers.stream()

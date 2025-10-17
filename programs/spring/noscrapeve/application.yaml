@@ -1,48 +1,48 @@
 esi:
-   items:
-      attribute:
-         update:
-            max: 800
-            skip: false
-      category:
-         update:
-            skip: false
-      effect:
-         update:
-            skip: false
-      group:
-         update:
-            skip: false
-      type:
-         update:
-            max: 1000
-            delay: 0
-            skip: false
-   universe:
-      moon:
-         update:
-            max: 1200
-      planet:
-         update:
-            skip: false
-      region:
-         update:
-            skip: false
-      solarSystem:
-         planets: true
-         moons: true
-      star:
-         update:
-            skip: false
-      stargate:
-         update:
-            skip: false
-      station:
-         update:
-            skip: false
+#   items:
+#      attribute:
+#         update:
+#            max: 800
+#            skip: false
+#      category:
+#         update:
+#            skip: false
+#      effect:
+#         update:
+#            skip: false
+#      group:
+#         update:
+#            skip: false
+#      type:
+#         update:
+#            max: 1000
+#            delay: 0
+#            skip: false
+#   universe:
+#      moon:
+#         update:
+#            max: 1200
+#      planet:
+#         update:
+#            skip: false
+#      region:
+#         update:
+#            skip: false
+#      solarSystem:
+#         planets: true
+#         moons: true
+#      star:
+#         update:
+#            skip: false
+#      stargate:
+#         update:
+#            skip: false
+#      station:
+#         update:
+#            skip: false
    updater:
       default:
-         skip: false
+         skip: true
       delay: 0
       period: 2000
       skip: false
@@ -61,13 +61,18 @@ logging:
                libs:
                   spring:
                      update: debug
+sde:
+   fetcher:
+      force: true
+      update:
+         skip: false
 spring:
    cache:
       type: simple
    datasource:
-      password: noscrape
-      url: jdbc:oracle:thin:@localhost:31521/FREEPDB1
-      username: noscrape
+      password: admin
+      url: jdbc:h2:./db/export
+      username: admin
 #   datasource:
 #      hikari: validationTimeout:300000 # 5min timeout for access local h2 DB
 #      password: admin

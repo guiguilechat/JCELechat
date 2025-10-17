@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.npc.agent.AgentService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.agent.AgentService.AgentDetails;
+import fr.guiguilechat.jcelechat.libs.spring.npc.agent.NpcCharacterService;
+import fr.guiguilechat.jcelechat.libs.spring.npc.agent.NpcCharacterService.AgentDetails;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import jakarta.transaction.Transactional;
@@ -21,12 +21,12 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class AgentRestController {
 
-	private final AgentService agentService;
+	private final NpcCharacterService npcCharacterService;
 
 	@GetMapping("/list")
 	public ResponseEntity<List<Integer>> list(@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(
-				agentService.listIds(),
+				npcCharacterService.listIds(),
 				accept);
 	}
 
@@ -44,7 +44,7 @@ public class AgentRestController {
 			lineSeparator = ls.get();
 		}
 		StringBuilder sb = new StringBuilder();
-		for(AgentDetails ad : agentService.agentDetails()) {
+		for(AgentDetails ad : npcCharacterService.agentDetails()) {
 			sb.append(ad.agent().getId());
 			sb.append(fieldSeparator).append(ad.agent().getName());
 			sb.append(fieldSeparator).append(ad.agent().getAgentType().getName());

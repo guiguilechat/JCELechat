@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.agent;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityRepository;
 
-public interface DivisionRepository extends JpaRepository<Division, Integer> {
+public interface DivisionRepository extends SdeEntityRepository<Division, Integer> {
 
 }
