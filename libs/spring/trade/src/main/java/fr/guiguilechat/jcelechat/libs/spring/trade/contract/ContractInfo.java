@@ -140,7 +140,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	 */
 	private double reward;
 
-	public static enum STATUS {
+	public enum STATUS {
 		created,
 		created_need_fetch,
 		fetched,
@@ -253,7 +253,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	public ContractInfo updateSystem(Map<Long, SolarSystem> stationId2SolarSystem) {
 		SolarSystem solSys = stationId2SolarSystem.get(startLocationId);
 		if (solSys != null) {
-			float ss = solSys.getSecurityStatus();
+			float ss = solSys.getSecurityStatus().floatValue();
 			secHigh = 0.45 < ss;
 			secLow = 0 < ss && ss <= 0.45;
 			secHigh = ss <= 0;
@@ -383,11 +383,11 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 		Map<ItemHash, Long> includedItemQuantity = new HashMap<>();
 		boolean offersBpc = false;
 		boolean offersNonBpc = false;
-		long offeredRuns = 0l;
+		long offeredRuns = 0L;
 		for (R_get_contracts_public_items_contract_id item : retrievedItems) {
 			if (item.is_included) {
 				ItemHash itemHash = ItemHash.of(item);
-				includedItemQuantity.put(itemHash, item.quantity + includedItemQuantity.getOrDefault(itemHash, 0l));
+				includedItemQuantity.put(itemHash, item.quantity + includedItemQuantity.getOrDefault(itemHash, 0L));
 				if (item.is_blueprint_copy) {
 					offersBpc = true;
 					offeredRuns += item.runs;
@@ -395,7 +395,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 					offersNonBpc = true;
 				}
 			} else {
-				askedItemQuantity.put(item.type_id, item.quantity + askedItemQuantity.getOrDefault(item.type_id, 0l));
+				askedItemQuantity.put(item.type_id, item.quantity + askedItemQuantity.getOrDefault(item.type_id, 0L));
 			}
 		}
 		updateFromAnalyzis(includedItemQuantity, askedItemQuantity, offersBpc, offersNonBpc, offeredRuns);
@@ -438,11 +438,11 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 		Map<ItemHash, Long> includedItemQuantity = new HashMap<>();
 		boolean offersBpc = false;
 		boolean offersNonBpc = false;
-		long offeredRuns = 0l;
+		long offeredRuns = 0L;
 		for (ContractItem item : getItems()) {
 			if (item.isIncluded()) {
 				ItemHash itemHash = ItemHash.of(item);
-				includedItemQuantity.put(itemHash, item.getQuantity() + includedItemQuantity.getOrDefault(itemHash, 0l));
+				includedItemQuantity.put(itemHash, item.getQuantity() + includedItemQuantity.getOrDefault(itemHash, 0L));
 				if (item.isBlueprintCopy()) {
 					offersBpc = true;
 					offeredRuns += item.getRuns();
@@ -451,7 +451,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 				}
 			} else {
 				askedItemQuantity.put(item.getType().getId(),
-				    item.getQuantity() + askedItemQuantity.getOrDefault(item.getType().getId(), 0l));
+				    item.getQuantity() + askedItemQuantity.getOrDefault(item.getType().getId(), 0L));
 			}
 		}
 		updateFromAnalyzis(includedItemQuantity, askedItemQuantity, offersBpc, offersNonBpc, offeredRuns);

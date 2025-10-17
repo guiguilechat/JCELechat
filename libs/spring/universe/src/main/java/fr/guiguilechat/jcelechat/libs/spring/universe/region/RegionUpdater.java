@@ -7,10 +7,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
-import lombok.extern.slf4j.Slf4j;
 
 @Service
-@Slf4j
 public class RegionUpdater extends SdeEntityUpdater<Region, RegionService, EmapRegions> {
 
 	public RegionUpdater() {

@@ -1,14 +1,14 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.constellation;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
@@ -19,18 +19,18 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiUniverseConstellation")
-@Table(name = "esi_universe_constellation", indexes = {
-    @Index(columnList = "fetch_active,expires"),
+@Entity(name = "SdeUniverseConstellation")
+@Table(name = "sde_universe_constellation", indexes = {
+//    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "region_id"),
     @Index(columnList = "name")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
-public class Constellation extends ARemoteEntity<Integer, R_get_universe_constellations_constellation_id> {
+@AllArgsConstructor
+@NoArgsConstructor
+public class Constellation extends SdeEntity<Integer> {
 
 	/**
 	 * The region this constellation is in
@@ -49,15 +49,7 @@ public class Constellation extends ARemoteEntity<Integer, R_get_universe_constel
 	/**
 	 * position object
 	 */
-	private double posX, posY, posZ;
-
-	@Override
-	public void update(R_get_universe_constellations_constellation_id data) {
-		setName(data.name);
-		setPosX(data.position.x);
-		setPosY(data.position.y);
-		setPosZ(data.position.z);
-	}
+	private BigDecimal posX, posY, posZ;
 
 	public String name() {
 		if (name != null) {

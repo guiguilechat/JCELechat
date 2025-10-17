@@ -22,5 +22,5 @@ public enum Universe {
 		}
 		return Hidden;
 
-}
+	}
 }

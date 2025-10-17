@@ -114,7 +114,7 @@ public class InventoryHtmlController {
 		public static Seed of(Region region, int regionId, SolarSystem solSys, String locationName, long locationId,
 				double price) {
 			return new Seed(
-					Space.of(solSys == null ? -1.0f : solSys.getSecurityStatus(),
+					Space.of(solSys == null ? -1.0f : solSys.getSecurityStatus().floatValue(),
 							region == null ? null : region.getUniverse())
 							.getName(),
 					region == null ? null : region.name(),

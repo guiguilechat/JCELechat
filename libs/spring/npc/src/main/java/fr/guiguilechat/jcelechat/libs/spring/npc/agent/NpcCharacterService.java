@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.spring.npc.agent;
 
 import java.util.List;
 
-import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
@@ -11,14 +10,12 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellatio
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
-import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class NpcCharacterService extends SdeEntityService<NpcCharacter, Integer, NpcCharacterRepository> {
 
 	@Override
-	protected NpcCharacter create(Integer entityId) {
+	public NpcCharacter create(Integer entityId) {
 		var ret = new NpcCharacter();
 		ret.setId(entityId);
 		return ret;

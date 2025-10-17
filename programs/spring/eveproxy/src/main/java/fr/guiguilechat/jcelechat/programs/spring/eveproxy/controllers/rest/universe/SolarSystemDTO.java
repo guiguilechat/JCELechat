@@ -1,11 +1,13 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe;
 
+import java.math.BigDecimal;
+
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 
 public record SolarSystemDTO(int solarSystemId, String name,
-		float securityStatus,
+		BigDecimal securityStatus,
 		int constellationId,
 		int regionId,
 		String universe) {

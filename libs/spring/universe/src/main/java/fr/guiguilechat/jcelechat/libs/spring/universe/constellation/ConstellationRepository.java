@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityRepository;
 
-public interface ConstellationRepository extends IRemoteEntityRepository<Constellation, Integer> {
+public interface ConstellationRepository extends SdeEntityRepository<Constellation, Integer> {
 
 	List<Constellation> findByNameEqualsIgnoreCase(String name);
 

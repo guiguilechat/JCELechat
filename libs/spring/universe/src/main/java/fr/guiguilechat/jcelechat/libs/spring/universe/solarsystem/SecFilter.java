@@ -19,6 +19,6 @@ public enum SecFilter {
 	public final float higherSS;
 
 	public boolean accept(SolarSystem ss) {
-		return lowerSS <= ss.getSecurityStatus() && higherSS >= ss.getSecurityStatus();
+		return lowerSS <= ss.getSecurityStatus().floatValue() && higherSS >= ss.getSecurityStatus().floatValue();
 	}
 }

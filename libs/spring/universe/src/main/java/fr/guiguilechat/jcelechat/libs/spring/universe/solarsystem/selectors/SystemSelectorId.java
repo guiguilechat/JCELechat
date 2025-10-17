@@ -90,7 +90,8 @@ public enum SystemSelectorId implements SystemSelector<Integer> {
 	@Override
 		protected List<Integer> listIds(SolarSystemRepository repo, Iterable<Integer> ids, float minSS, float maxSS) {
 			return repo.findAllById(ids).stream()
-				.filter(ss -> ss.getSecurityStatus() >= minSS && ss.getSecurityStatus() <= maxSS)
+					.filter(ss -> ss.getSecurityStatus().floatValue() >= minSS
+							&& ss.getSecurityStatus().floatValue() <= maxSS)
 				.map(SolarSystem::getId)
 				.toList();
 	}

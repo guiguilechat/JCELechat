@@ -24,7 +24,7 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 	@Getter(value = AccessLevel.PROTECTED)
 	private Repository repo;
 
-	protected abstract Entity create(IdType entityId);
+	public abstract Entity create(IdType entityId);
 
 	void setAllRemoved() {
 		repo().setAllRemoved();

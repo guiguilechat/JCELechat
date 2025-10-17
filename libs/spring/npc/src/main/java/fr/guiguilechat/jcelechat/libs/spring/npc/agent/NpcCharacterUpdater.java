@@ -14,14 +14,12 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.Accessors;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * the actual storage is done in post process since it needs the inv names to
  * deduce the agents names
  */
 @Service
-@Slf4j
 public class NpcCharacterUpdater extends SdeEntityUpdater<NpcCharacter, NpcCharacterService, EnpcCharacters> {
 
 	public NpcCharacterUpdater() {
@@ -55,7 +53,7 @@ public class NpcCharacterUpdater extends SdeEntityUpdater<NpcCharacter, NpcChara
 		service().saveAll(storedAgents.values());
 	}
 
-	public void update(NpcCharacter entity,
+	protected void update(NpcCharacter entity,
 			EnpcCharacters entry,
 			Map<Integer, AgentType> agentTypes,
 			Map<Integer, Division> divisions) {

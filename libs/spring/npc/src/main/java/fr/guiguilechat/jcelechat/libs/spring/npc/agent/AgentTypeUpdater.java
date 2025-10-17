@@ -7,10 +7,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EagentTypes;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
-import lombok.extern.slf4j.Slf4j;
 
 @Service
-@Slf4j
 public class AgentTypeUpdater extends SdeEntityUpdater<AgentType, AgentTypeService, EagentTypes> {
 
 	public AgentTypeUpdater() {
