@@ -23,7 +23,6 @@ import lombok.Setter;
 
 @Entity(name = "SdeUniverseConstellation")
 @Table(name = "sde_universe_constellation", indexes = {
-//    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "region_id"),
     @Index(columnList = "name")
 })

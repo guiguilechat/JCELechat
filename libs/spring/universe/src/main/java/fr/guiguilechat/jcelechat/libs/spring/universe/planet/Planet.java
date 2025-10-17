@@ -8,7 +8,6 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.OrbitingCelestial;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt.AsteroidBelt;
 import fr.guiguilechat.jcelechat.libs.spring.universe.generic.SdeOrbitingCelestial;
 import fr.guiguilechat.jcelechat.libs.spring.universe.moon.Moon;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
@@ -23,10 +22,8 @@ import lombok.Setter;
 
 @Entity(name = "SdeUniversePlanet")
 @Table(name = "sde_universe_planet", indexes = {
-//    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "solar_system_id"),
     @Index(columnList = "type_id"),
-//    @Index(columnList = "name")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Getter
@@ -34,9 +31,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Planet extends SdeOrbitingCelestial {
-
-	@OneToMany(mappedBy = "planet")
-	private List<AsteroidBelt> asteroidBelts;
 
 	@OneToMany(mappedBy = "planet")
 	private List<Moon> moons;

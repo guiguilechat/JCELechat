@@ -30,7 +30,6 @@ import lombok.Setter;
 
 @Entity(name = "SdeUniverseSolarSystem")
 @Table(name = "sde_universe_solarsystem", indexes = {
-//		@Index(columnList = "fetch_active,expires"),
 		@Index(columnList = "constellation_id"),
 		@Index(columnList = "name") })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)

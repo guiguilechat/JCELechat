@@ -2,7 +2,8 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic;
 
 import java.time.Instant;
 
-import org.springframework.data.annotation.CreatedDate;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
@@ -28,8 +29,10 @@ public class SdeEntity<IdType extends Number> {
 	private IdType id;
 	private boolean received = false;
 	private boolean removed = false;
-	@CreatedDate
+	@CreationTimestamp
 	private Instant created;
+	@UpdateTimestamp
+	private Instant updated;
 
 	public void receivedSource() {
 		received = true;
