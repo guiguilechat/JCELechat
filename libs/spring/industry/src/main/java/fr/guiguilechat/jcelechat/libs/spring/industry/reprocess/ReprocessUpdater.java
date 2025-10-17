@@ -16,14 +16,14 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeListener;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class ReprocessUpdater implements SdeUpdateListener {
+public class ReprocessUpdater implements SdeListener {
 
 	private final TypeService typeService;
 

@@ -21,14 +21,14 @@ import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.Corporatio
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeListener;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @Slf4j
-public class CorporationUpdaterService implements SdeUpdateListener {
+public class CorporationUpdaterService implements SdeListener {
 
 	@Lazy
 	private final CorporationInfoService corporationInfoService;

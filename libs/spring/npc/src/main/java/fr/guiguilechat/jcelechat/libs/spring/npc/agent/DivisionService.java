@@ -7,12 +7,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityServic
 @Service
 public class DivisionService extends SdeEntityService<Division, Integer, DivisionRepository> {
 
-
-	@Override
-	public Division create(Integer entityId) {
-		var ret = new Division();
-		ret.setId(entityId);
-		return ret;
+	public DivisionService() {
+		super(Division::new);
 	}
 
 }

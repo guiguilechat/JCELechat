@@ -5,18 +5,19 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import lombok.AccessLevel;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@NoArgsConstructor
+@RequiredArgsConstructor
 public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType extends Number, Repository extends SdeEntityRepository<Entity, IdType>> {
 
 	@Autowired // can't use constructor injection for generic service
@@ -24,7 +25,13 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 	@Getter(value = AccessLevel.PROTECTED)
 	private Repository repo;
 
-	public abstract Entity create(IdType entityId);
+	private final Supplier<Entity> creator;
+
+	public Entity create(IdType entityId) {
+		Entity create = creator.get();
+		create.setId(entityId);
+		return repo().save(create);
+	}
 
 	void setAllRemoved() {
 		repo().setAllRemoved();

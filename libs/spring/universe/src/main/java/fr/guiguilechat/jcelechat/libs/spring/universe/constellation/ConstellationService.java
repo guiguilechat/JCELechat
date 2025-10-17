@@ -10,11 +10,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityServic
 public class ConstellationService
 		extends SdeEntityService<Constellation, Integer, ConstellationRepository> {
 
-	@Override
-	public Constellation create(Integer entityId) {
-		Constellation ret = new Constellation();
-		ret.setId(entityId);
-		return ret;
+	public ConstellationService() {
+		super(Constellation::new);
 	}
 
 	//

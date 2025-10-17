@@ -2,11 +2,13 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.constellation;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.function.Function;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapConstellations;
+import fr.guiguilechat.jcelechat.libs.spring.universe.generic.SdeInSpace;
 import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import jakarta.persistence.Entity;
@@ -30,7 +32,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Constellation extends SdeEntity<Integer> {
+public class Constellation extends SdeInSpace {
 
 	/**
 	 * The region this constellation is in
@@ -61,6 +63,12 @@ public class Constellation extends SdeEntity<Integer> {
 	@Override
 	public String toString() {
 		return name == null ? "constel:" + getId() : name + "(" + getId() + ")";
+	}
+
+	public void update(EmapConstellations source, Function<Integer, Region> regions) {
+		super.update(source);
+		setName(source.enName());
+		setRegion(regions.apply(source.regionID));
 	}
 
 }

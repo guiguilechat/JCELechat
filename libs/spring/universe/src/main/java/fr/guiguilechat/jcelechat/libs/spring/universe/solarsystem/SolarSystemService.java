@@ -14,11 +14,8 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.selectors.Syst
 public class SolarSystemService extends
 		SdeEntityService<SolarSystem, Integer, SolarSystemRepository> {
 
-	@Override
-	public SolarSystem create(Integer entityId) {
-		SolarSystem ret = new SolarSystem();
-		ret.setId(entityId);
-		return ret;
+	public SolarSystemService() {
+		super(SolarSystem::new);
 	}
 
 	//

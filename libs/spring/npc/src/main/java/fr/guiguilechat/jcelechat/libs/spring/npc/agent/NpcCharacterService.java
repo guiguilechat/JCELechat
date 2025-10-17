@@ -14,11 +14,8 @@ import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
 @Service
 public class NpcCharacterService extends SdeEntityService<NpcCharacter, Integer, NpcCharacterRepository> {
 
-	@Override
-	public NpcCharacter create(Integer entityId) {
-		var ret = new NpcCharacter();
-		ret.setId(entityId);
-		return ret;
+	public NpcCharacterService() {
+		super(NpcCharacter::new);
 	}
 
 	public static record AgentDetails(NpcCharacter agent, Station station, SolarSystem solarSystem,

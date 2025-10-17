@@ -7,11 +7,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityServic
 @Service
 public class AgentTypeService extends SdeEntityService<AgentType, Integer, AgentTypeRepository> {
 
-	@Override
-	public AgentType create(Integer entityId) {
-		var ret = new AgentType();
-		ret.setId(entityId);
-		return ret;
+	public AgentTypeService() {
+		super(AgentType::new);
 	}
 
 }

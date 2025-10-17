@@ -14,14 +14,14 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EplanetSchematics;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeListener;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class PlanetaryUpdaterService implements SdeUpdateListener {
+public class PlanetaryUpdaterService implements SdeListener {
 
 	final private SchematicService schematicService;
 

@@ -7,12 +7,12 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeListener;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class SkillReqService implements SdeUpdateListener {
+public class SkillReqService implements SdeListener {
 
 	final private SkillReqRepository repo;
 

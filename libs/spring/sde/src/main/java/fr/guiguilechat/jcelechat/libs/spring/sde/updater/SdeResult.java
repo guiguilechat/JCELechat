@@ -16,13 +16,13 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-@Entity(name = "SdeUpdaterResult")
-@Table(name = "sde_updater_updateresult")
+@Entity(name = "SdeResult")
+@Table(name = "sde_updater_result")
 @Data
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class SdeUpdateResult {
+public class SdeResult {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

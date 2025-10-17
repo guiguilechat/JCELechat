@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.constellation;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.function.Function;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,24 +31,14 @@ public class ConstellationUpdater extends SdeEntityUpdater<Constellation, Conste
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EmapConstellations> sources) {
 		Map<Integer, Region> regions = new HashMap<>(regionService.allById());
+		Function<Integer, Region> regionGetter = i -> regions.computeIfAbsent(i, regionService::create);
 		var storedEntities = new HashMap<>(service().allById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
-			update(stored, e.getValue(), regions);
+			stored.update(e.getValue(), regionGetter);
 		}
 		regionService.saveAll(regions.values());
 		service().saveAll(storedEntities.values());
-	}
-
-	protected void update(Constellation entity,
-			EmapConstellations entry,
-			Map<Integer, Region> regions) {
-		entity.receivedSource();
-		entity.setName(entry.enName());
-		entity.setPosX(entry.position.x);
-		entity.setPosY(entry.position.y);
-		entity.setPosZ(entry.position.z);
-		entity.setRegion(regions.computeIfAbsent(entry.regionID, regionService::create));
 	}
 
 }

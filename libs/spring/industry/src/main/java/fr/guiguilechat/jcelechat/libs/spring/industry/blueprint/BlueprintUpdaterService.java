@@ -17,14 +17,14 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ProducingActivityDetails;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeListener;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class BlueprintUpdaterService implements SdeUpdateListener {
+public class BlueprintUpdaterService implements SdeListener {
 
 	private final BlueprintActivityService blueprintActivityService;
 

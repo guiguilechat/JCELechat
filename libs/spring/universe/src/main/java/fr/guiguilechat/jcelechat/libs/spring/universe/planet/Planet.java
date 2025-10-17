@@ -1,19 +1,19 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.planet;
 
 import java.util.List;
+import java.util.function.Function;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.OrbitingCelestial;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.universe.asteroidbelt.AsteroidBelt;
+import fr.guiguilechat.jcelechat.libs.spring.universe.generic.SdeOrbitingCelestial;
 import fr.guiguilechat.jcelechat.libs.spring.universe.moon.Moon;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -21,19 +21,19 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiUniversePlanet")
-@Table(name = "esi_universe_planet", indexes = {
-    @Index(columnList = "fetch_active,expires"),
+@Entity(name = "SdeUniversePlanet")
+@Table(name = "sde_universe_planet", indexes = {
+//    @Index(columnList = "fetch_active,expires"),
     @Index(columnList = "solar_system_id"),
     @Index(columnList = "type_id"),
-    @Index(columnList = "name")
+//    @Index(columnList = "name")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
-public class Planet extends ARemoteEntity<Integer, R_get_universe_planets_planet_id> {
+@AllArgsConstructor
+@NoArgsConstructor
+public class Planet extends SdeOrbitingCelestial {
 
 	@OneToMany(mappedBy = "planet")
 	private List<AsteroidBelt> asteroidBelts;
@@ -41,35 +41,10 @@ public class Planet extends ARemoteEntity<Integer, R_get_universe_planets_planet
 	@OneToMany(mappedBy = "planet")
 	private List<Moon> moons;
 
-	/**
-	 * The solar system this stargate is in
-	 */
-	@ManyToOne
-	private SolarSystem solarSystem;
-
-	/**
-	 * type_id integer
-	 */
-	@ManyToOne
-	private Type type;
-
-
-	/**
-	 * name string
-	 */
-	private String name;
-
-	/**
-	 * position object
-	 */
-	private double posX, posY, posZ;
-
 	@Override
-	public void update(R_get_universe_planets_planet_id data) {
-		setName(data.name);
-		setPosX(data.position.x);
-		setPosY(data.position.y);
-		setPosZ(data.position.z);
+	public void update(OrbitingCelestial source, Function<Integer, Type> types,
+			Function<Integer, SolarSystem> solarSystems) {
+		super.update(source, types, solarSystems);
 	}
 
 }

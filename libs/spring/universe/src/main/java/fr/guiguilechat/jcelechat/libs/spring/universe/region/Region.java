@@ -6,8 +6,8 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
+import fr.guiguilechat.jcelechat.libs.spring.universe.generic.SdeInSpace;
 import fr.guiguilechat.jcelechat.model.formula.space.Universe;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -28,7 +28,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Region extends SdeEntity<Integer> {
+public class Region extends SdeInSpace {
 
 	@OneToMany(mappedBy = "region")
 	private List<Constellation> constellations;
@@ -53,7 +53,7 @@ public class Region extends SdeEntity<Integer> {
 	}
 
 	public void update(EmapRegions value) {
-		receivedSource();
+		super.update(value);
 		description = value.enDescription();
 		name = value.enName();
 		universe = Universe.of(getId()).name();

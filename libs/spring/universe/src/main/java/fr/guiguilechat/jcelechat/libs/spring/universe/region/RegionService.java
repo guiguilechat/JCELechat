@@ -11,11 +11,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityServic
 @Service
 public class RegionService extends SdeEntityService<Region, Integer, RegionRepository> {
 
-	@Override
-	public Region create(Integer entityId) {
-		var ret = new Region();
-		ret.setId(entityId);
-		return ret;
+	public RegionService() {
+		super(Region::new);
 	}
 
 	//

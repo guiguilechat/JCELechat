@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.gameclient.updater.GameClientUpdateService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateResultService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryReqService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
@@ -31,7 +31,7 @@ public class ExecRestController {
 
 	private final HistoryReqService historyReqService;
 
-	private final SdeUpdateResultService sdeUpdateService;
+	private final SdeUpdater sdeUpdater;
 
 	@Operation(summary = "force SDE fetch", description = "request next SDE fetch to be forced")
 	@ApiResponses(value = {
@@ -39,7 +39,7 @@ public class ExecRestController {
 	})
 	@GetMapping("/sde/forcefetch")
 	public ResponseEntity<?> fetchSde() {
-		sdeUpdateService.forceNext();
+		sdeUpdater.forceNext();
 		return ResponseEntity.ok("");
 	}
 

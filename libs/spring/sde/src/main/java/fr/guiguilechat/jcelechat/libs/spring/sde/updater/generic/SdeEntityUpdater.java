@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeListener;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 @Slf4j
 public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Service extends SdeEntityService<Entity, Integer, ?>, SdeSource>
-		implements SdeUpdateListener {
+		implements SdeListener {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -38,13 +38,18 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 	@Override
 	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
 		if(entryName.equals(fileName)) {
+			log.debug("{} processing file {}",
+					getClass().getSimpleName(),
+					fileName);
 			long startTime = System.currentTimeMillis();
 			service().setAllRemoved();
 			var sources = loader.from(fileContent.get());
 			processSource(sources);
 			receivedFile = true;
-			log.info("service " + getClass().getSimpleName() + " updated entities from {} sources in {} ms",
-					sources.size(), System.currentTimeMillis() - startTime);
+			log.info("{} updated entities from {} entries in {} ms",
+					getClass().getSimpleName(),
+					sources.size(),
+					System.currentTimeMillis() - startTime);
 		}
 	}
 

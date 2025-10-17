@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.function.Function;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,27 +31,15 @@ public class SolarSystemUpdater extends SdeEntityUpdater<SolarSystem, SolarSyste
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EmapSolarSystems> sources) {
 		Map<Integer, Constellation> constellations = new HashMap<>(constellationService.allById());
+		Function<Integer, Constellation> constellationGetter = i -> constellations.computeIfAbsent(i,
+				constellationService::create);
 		var storedEntities = new HashMap<>(service().allById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
-			update(stored, e.getValue(), constellations);
+			stored.update(e.getValue(), constellationGetter);
 		}
 		constellationService.saveAll(constellations.values());
 		service().saveAll(storedEntities.values());
-	}
-
-	protected void update(SolarSystem entity,
-			EmapSolarSystems entry,
-			Map<Integer, Constellation> constellations) {
-		entity.receivedSource();
-		entity.setConstellation(constellations.computeIfAbsent(entry.regionID, constellationService::create));
-		entity.setName(entry.enName());
-		entity.setPosX(entry.position.x);
-		entity.setPosY(entry.position.y);
-		entity.setPosZ(entry.position.z);
-		entity.setSecurityClass(entry.securityClass);
-		entity.setSecurityStatus(entry.securityStatus);
-		entity.setWormholeClassID(entry.wormholeClassID);
 	}
 
 }

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Supplier;
 
 /** interface for the beans that should react to SDE update */
-public interface SdeUpdateListener {
+public interface SdeListener {
 
 	public default List<String> listSDECaches() {
 		return List.of();
