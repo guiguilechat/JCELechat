@@ -1,13 +1,16 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.OrbitingCelestial;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.AttributesPlanet;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InStarOrbit;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.StatisticsCelestial;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
 
-public class EmapPlanets extends OrbitingCelestial {
+public class EmapPlanets extends InStarOrbit {
 
 	//
 	// SDE loading
@@ -29,8 +32,17 @@ public class EmapPlanets extends OrbitingCelestial {
 	//
 
 	public List<Integer> asteroidBeltIDs;
+	public AttributesPlanet attributes = new AttributesPlanet();
 	public List<Integer> moonIDs;
 	public List<Integer> npcStationIDs;
+	public long radius;
+	public StatisticsCelestial statistics = new StatisticsCelestial();
+
+	public LinkedHashMap<String, String> uniqueName;
+
+	public String enUniqueName() {
+		return uniqueName == null ? null : uniqueName.get("en");
+	}
 
 	//
 

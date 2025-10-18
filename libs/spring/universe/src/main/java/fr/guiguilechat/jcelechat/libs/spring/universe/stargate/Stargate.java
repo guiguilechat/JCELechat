@@ -49,7 +49,6 @@ public class Stargate extends ARemoteEntity<Integer, R_get_universe_stargates_st
 	@ManyToOne
 	private Type type;
 
-
 	/**
 	 * name string
 	 */

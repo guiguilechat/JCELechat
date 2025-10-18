@@ -16,11 +16,11 @@ import lombok.experimental.Accessors;
  */
 @Getter
 @Accessors(fluent = true)
-public abstract class AInspace<T> extends AIDBasedObject {
+public abstract class ASpace<T> extends AIDBasedObject {
 
 	private final T source;
 
-	protected AInspace(DataSource datasource, int id, T source) {
+	protected ASpace(DataSource datasource, int id, T source) {
 		super(datasource, id);
 		this.source = source;
 	}

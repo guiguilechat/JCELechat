@@ -14,6 +14,8 @@ import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.operation.StationOperation;
+import fr.guiguilechat.jcelechat.libs.spring.universe.station.operation.StationOperationService;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -28,6 +30,11 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
+	private StationOperationService stationOperationService;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
 	private SolarSystemService solarSystemService;
 
 	@Autowired // can't use constructor injection for generic service
@@ -37,8 +44,14 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EnpcStations> sources) {
-		Map<Integer, SolarSystem> solarSystems = new HashMap<>(solarSystemService.allById());
+
+		// load all the operations because most will be needed
+		Map<Integer, StationOperation> operations = new HashMap<>(stationOperationService.allById());
+		Function<Integer, StationOperation> operationGet = i -> operations.computeIfAbsent(i,
+				stationOperationService::create);
+
 		// load all the solar systems because most will be needed
+		Map<Integer, SolarSystem> solarSystems = new HashMap<>(solarSystemService.allById());
 		Function<Integer, SolarSystem> solarSystemGet = i -> solarSystems.computeIfAbsent(i,
 				solarSystemService::create);
 		// load only the types needed
@@ -47,8 +60,9 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 		var storedEntities = new HashMap<>(service().allById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
-			stored.update(e.getValue(), types::get, solarSystemGet);
+			stored.update(e.getValue(), types::get, solarSystemGet, operations::get);
 		}
+		stationOperationService.saveAll(operations.values());
 		solarSystemService.saveAll(solarSystems.values());
 		service().saveAll(storedEntities.values());
 	}

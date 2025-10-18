@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
-import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.ASpace;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
 import fr.guiguilechat.jcelechat.model.formula.space.Universe;
 import lombok.Getter;
@@ -123,7 +123,7 @@ public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 	 *
 	 * @return
 	 */
-	public Stream<AInspace<?>> streamInSpaces() {
+	public Stream<ASpace<?>> streamInSpaces() {
 		return Stream.of(
 				planets().stream(),
 				stargates().stream())

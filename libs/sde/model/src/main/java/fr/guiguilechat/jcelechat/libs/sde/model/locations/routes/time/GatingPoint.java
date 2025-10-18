@@ -5,7 +5,7 @@ import java.util.List;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Stargate;
-import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AStarOrbit;
 
 public sealed interface GatingPoint {
 
@@ -82,7 +82,7 @@ public sealed interface GatingPoint {
 
 	}
 
-	public record OrbitingPoint(AOrbiting<?> orbiting) implements GatingPoint {
+	public record OrbitingPoint(AStarOrbit<?> orbiting) implements GatingPoint {
 
 		@Override
 		public SolarSystem solarSystem() {

@@ -3,11 +3,11 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
 
-public class EnpcStations extends Orbiting {
+public class EnpcStations extends InPlanetOrbit {
 
 	//
 	// SDE loading
@@ -28,12 +28,22 @@ public class EnpcStations extends Orbiting {
 	// file structure
 	//
 
+	/**
+	 * {@link EstationOperations}
+	 */
 	public int operationID;
+	/**
+	 * {@link EnpcCorporations}
+	 */
 	public int ownerID;
 	public BigDecimal reprocessingEfficiency;
 	public int reprocessingHangarFlag;
 	public BigDecimal reprocessingStationsTake;
 	public boolean useOperationName;
+
+	public boolean orbitsMoon() {
+		return orbitIndex > 0;
+	}
 
 	//
 

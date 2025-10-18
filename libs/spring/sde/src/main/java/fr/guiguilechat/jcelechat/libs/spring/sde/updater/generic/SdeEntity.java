@@ -7,7 +7,6 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -18,10 +17,9 @@ import lombok.Setter;
  * @param <IdType>
  * @param <Source>
  */
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
+@NoArgsConstructor
 @MappedSuperclass
 public class SdeEntity<IdType extends Number> {
 

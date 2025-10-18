@@ -46,7 +46,7 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 			var sources = loader.from(fileContent.get());
 			processSource(sources);
 			receivedFile = true;
-			log.info("{} updated entities from {} entries in {} ms",
+			log.info("{} processed {} entries in {} ms",
 					getClass().getSimpleName(),
 					sources.size(),
 					System.currentTimeMillis() - startTime);

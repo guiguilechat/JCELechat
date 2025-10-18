@@ -27,6 +27,9 @@ public class Eancestries {
 	// file structure
 	//
 
+	/**
+	 * {@link Ebloodlines}
+	 */
 	public int bloodlineID;
 	public int charisma;
 	public LinkedHashMap<String, String> description = new LinkedHashMap<>();

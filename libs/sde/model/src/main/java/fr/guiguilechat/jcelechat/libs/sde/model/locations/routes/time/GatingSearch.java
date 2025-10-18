@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.time;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Stargate;
-import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AStarOrbit;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.AStar;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.time.GatingPoint.OrbitingPoint;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.time.GatingPoint.StargatePoint;
@@ -52,7 +52,7 @@ public class GatingSearch extends AStar<GatingPoint> {
 	@Override
 	protected double distance(GatingPoint start, GatingPoint end) {
 		return switch (end) {
-		case OrbitingPoint(AOrbiting<?> orbiting): {
+		case OrbitingPoint(AStarOrbit<?> orbiting): {
 			yield warpTime(start.position(), orbiting.position());
 		}
 		case StargatePoint(Stargate sg): {

@@ -8,13 +8,13 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
-import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AStarOrbit;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
 @Getter
 @Accessors(fluent = true)
-public class Station extends AOrbiting<EnpcStations> {
+public class Station extends AStarOrbit<EnpcStations> {
 
 	public static final NamingMapper<EnpcStations, Station> CACHE = new NamingMapper<>(
 			EnpcStations.LOADER, Station::new, Station::enName);

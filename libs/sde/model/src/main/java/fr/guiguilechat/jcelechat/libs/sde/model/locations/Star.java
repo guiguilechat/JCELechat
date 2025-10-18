@@ -6,13 +6,13 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
-import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AInspace;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.ASpace;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
 @Getter
 @Accessors(fluent = true)
-public class Star extends AInspace<EmapStars> {
+public class Star extends ASpace<EmapStars> {
 
 	public static final Mapper<EmapStars, Star> CACHE = new Mapper<>(EmapStars.LOADER,
 			Star::new);

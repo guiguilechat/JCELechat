@@ -6,13 +6,13 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
-import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AOrbiting;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AStarOrbit;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
 @Getter
 @Accessors(fluent = true)
-public class AsteroidBelt extends AOrbiting<EmapAsteroidBelts> {
+public class AsteroidBelt extends AStarOrbit<EmapAsteroidBelts> {
 
 	public static final Mapper<EmapAsteroidBelts, AsteroidBelt> CACHE = new Mapper<>(EmapAsteroidBelts.LOADER,
 			AsteroidBelt::new);

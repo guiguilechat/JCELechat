@@ -1,13 +1,15 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
+import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Orbiting;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.StatisticsCelestial;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
 
-public class EmapAsteroidBelts extends Orbiting {
+public class EmapAsteroidBelts extends InPlanetOrbit {
 
 	//
 	// SDE loading
@@ -27,6 +29,10 @@ public class EmapAsteroidBelts extends Orbiting {
 	//
 	// file structure
 	//
+
+	public BigDecimal radius;
+
+	public StatisticsCelestial statistics = new StatisticsCelestial();
 
 	public LinkedHashMap<String, String> uniqueName;
 

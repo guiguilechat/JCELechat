@@ -35,18 +35,22 @@ public class Etypes {
 
 	public BigDecimal basePrice;
 	public BigDecimal capacity;
-	/** key is language short, like "en" */
 	public HashMap<String, String> description = new HashMap<>();
+	/** {@link Efactions} */
 	public int factionID;
 	public int graphicID;
+	/** {@link Egroups} */
 	public int groupID;
 	public int iconID;
+	/** {@link EmarketGroups} */
 	public int marketGroupID;
 	public BigDecimal mass;
+	/** {@link EmetaGroups} */
 	public int metaGroupID;
 	public HashMap<String, String> name = new HashMap<>();
 	public int portionSize;
 	public boolean published;
+	/** {@link Eraces} */
 	public int raceID;
 	public BigDecimal radius;
 	public int soundID;

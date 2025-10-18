@@ -33,11 +33,16 @@ public class Eblueprints {
 	// file structure
 	//
 
+	/**
+	 * self. Should be removed
+	 */
 	public int blueprintTypeID;
+	/** max runs of a copied bpc */
 	public int maxProductionLimit;
 
 	public static class Material {
 		public int quantity;
+		/** {@link Etypes} */
 		public int typeID;
 	}
 
@@ -46,8 +51,9 @@ public class Eblueprints {
 	}
 
 	public static class Skill {
-		public int typeID;
 		public int level;
+		/** {@link Etypes} */
+		public int typeID;
 	}
 
 	public static class BPActivities {

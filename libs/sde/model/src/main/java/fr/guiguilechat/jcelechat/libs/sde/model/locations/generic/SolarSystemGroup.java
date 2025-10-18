@@ -20,7 +20,7 @@ import lombok.experimental.Accessors;
  * easily
  */
 @Accessors(fluent = true)
-public abstract class SolarSystemGroup<T> extends AInspace<T> {
+public abstract class SolarSystemGroup<T> extends ASpace<T> {
 
 	protected SolarSystemGroup(DataSource datasource, int id, T source) {
 		super(datasource, id, source);

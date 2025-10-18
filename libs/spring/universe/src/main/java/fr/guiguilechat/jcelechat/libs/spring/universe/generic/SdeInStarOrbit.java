@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.generic;
 
 import java.util.function.Function;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.OrbitingCelestial;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InStarOrbit;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
 import jakarta.persistence.MappedSuperclass;
@@ -12,14 +12,15 @@ import lombok.Setter;
 @Getter
 @Setter
 @MappedSuperclass
-public class SdeOrbitingCelestial extends SdeOrbiting {
+public class SdeInStarOrbit extends SdeInSystem {
 
-	private String uniqueName;
+	private int celestialIndex;
+	private int orbitId;
 
-	protected void update(OrbitingCelestial source, Function<Integer, Type> types,
-			Function<Integer, SolarSystem> solarSystems) {
+	protected void update(InStarOrbit source, Function<Integer, Type> types, Function<Integer, SolarSystem> solarSystems) {
 		super.update(source, types, solarSystems);
-		setUniqueName(source.enUniqueName());
+		setCelestialIndex(source.celestialIndex);
+		setOrbitId(source.orbitID);
 	}
 
 }

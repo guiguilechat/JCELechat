@@ -3,11 +3,11 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSystem;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
 
-public class EmapStargates extends InSpace {
+public class EmapStargates extends InSystem {
 
 	//
 	// SDE loading
@@ -34,8 +34,6 @@ public class EmapStargates extends InSpace {
 	}
 
 	public Destination destination;
-	public int solarSystemID;
-	public int typeID;
 
 	public double distance() {
 		return position.distance(LOADER.get(destination.stargateID).position);

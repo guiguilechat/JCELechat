@@ -28,6 +28,9 @@ public class Ebloodlines {
 	//
 
 	public int charisma;
+	/**
+	 * {@link EnpcCorporations}
+	 */
 	public long corporationID;
 	public LinkedHashMap<String, String> description = new LinkedHashMap<>();
 	public int iconID;
@@ -35,6 +38,9 @@ public class Ebloodlines {
 	public int memory;
 	public LinkedHashMap<String, String> name = new LinkedHashMap<>();
 	public int perception;
+	/**
+	 * {@link Eraces}
+	 */
 	public int raceID;
 	public int willpower;
 
