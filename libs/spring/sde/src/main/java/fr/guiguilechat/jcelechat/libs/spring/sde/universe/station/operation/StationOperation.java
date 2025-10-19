@@ -34,6 +34,7 @@ public class StationOperation extends SdeEntity<Integer> {
 	private BigDecimal researchFactor;
 
 	public void update(EstationOperations source) {
+		receivedSource();
 		setActivityId(source.activityID);
 		setBorder(source.border);
 		setCorridor(source.corridor);

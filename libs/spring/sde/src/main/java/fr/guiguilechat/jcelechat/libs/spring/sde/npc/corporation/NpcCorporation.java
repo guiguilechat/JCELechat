@@ -39,12 +39,21 @@ public class NpcCorporation extends SdeEntity<Integer> {
 	private Station station;
 	private BigDecimal taxRate;
 	private String tickerName;
-	private String uniqueName;
+	private boolean uniqueName;
 
 	public void update(EnpcCorporations source,
 			Function<Integer, SolarSystem> solarSystems,
 			Function<Integer, Station> stations) {
-
+		receivedSource();
+		setDeleted(source.deleted);
+		setFactionId(source.factionID);
+		setFriendId(source.friendID);
+		setMinSecurity(source.minSecurity);
+		setMinimumJoinStanding(source.minimumJoinStanding);
+		setName(source.enName());
+		setTaxRate(source.taxRate);
+		setTickerName(source.tickerName);
+		setUniqueName(source.uniqueName);
 	}
 
 }

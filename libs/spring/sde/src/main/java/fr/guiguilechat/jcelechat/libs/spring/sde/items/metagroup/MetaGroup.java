@@ -26,6 +26,7 @@ public class MetaGroup extends SdeEntity<Integer> {
 	private String name;
 
 	public void update(EmetaGroups source) {
+		receivedSource();
 		if (source.color != null) {
 			setColor_b(source.color.b);
 			setColor_g(source.color.g);

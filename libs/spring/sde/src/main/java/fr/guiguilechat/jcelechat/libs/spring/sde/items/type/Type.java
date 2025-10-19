@@ -79,6 +79,7 @@ public class Type extends SdeEntity<Integer> {
 			Function<Integer, Group> groups,
 			Function<Integer, MarketGroup> marketGroups,
 			Function<Integer, MetaGroup> metaGroups) {
+		receivedSource();
 		setBasePrice(source.basePrice);
 		setCapacity(source.capacity);
 		setDescription(new TypeDescription(null, this, source.enDescription()));
