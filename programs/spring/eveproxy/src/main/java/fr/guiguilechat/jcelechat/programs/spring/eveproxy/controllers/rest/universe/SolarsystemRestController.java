@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SecFilter;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SecFilter;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivity;

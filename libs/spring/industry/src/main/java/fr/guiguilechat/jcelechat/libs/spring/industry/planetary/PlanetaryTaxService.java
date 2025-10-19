@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeAttribute;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeAttributeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeService;
 import lombok.RequiredArgsConstructor;
 
 @Service

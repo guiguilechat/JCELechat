@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchemMaterial;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchemProduct;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.Schematic;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.PlanetEvalService.ConsumeProduct;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.PlanetEvalService.PlanetaryFactory;
 import lombok.Getter;
@@ -76,9 +76,11 @@ public class NLaunchpadsWithSchematics implements PlanetaryFactory {
 	public ConsumeProduct production(int hours) {
 		int maxCycleFromTime = nbSchematics * (hours * 3600 / schematic.getCycleTime());
 		int maxCyclesFromMat = (int) Math.floor(nbLP * LAUNCHPAD_STORAGE
-				/ schematic.getMaterials().stream().mapToDouble(mat -> mat.getQuantity() * mat.getType().getVolume()).sum());
+				/ schematic.getMaterials().stream()
+						.mapToDouble(mat -> mat.getQuantity() * mat.getType().getVolume().doubleValue()).sum());
 		int maxCyclesFromProd = (int) Math.floor(nbLP * LAUNCHPAD_STORAGE
-				/ schematic.getProducts().stream().mapToDouble(prod -> prod.getQuantity() * prod.getType().getVolume()).sum());
+				/ schematic.getProducts().stream()
+						.mapToDouble(prod -> prod.getQuantity() * prod.getType().getVolume().doubleValue()).sum());
 		int cycles = Math.min(maxCycleFromTime, Math.min(maxCyclesFromMat, maxCyclesFromProd));
 		Map<Type, Long> mats = schematic.getMaterials().stream()
 				.collect(Collectors.toMap(SchemMaterial::getType, mat -> (long) (cycles * mat.getQuantity())));

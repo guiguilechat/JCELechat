@@ -1,0 +1,56 @@
+package fr.guiguilechat.jcelechat.libs.spring.sde.universe.asteroidbelt;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapAsteroidBelts;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.planet.PlanetService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.experimental.Accessors;
+
+@Service
+public class AsteroidBeltUpdater extends SdeEntityUpdater<AsteroidBelt, AsteroidBeltService, EmapAsteroidBelts> {
+
+	public AsteroidBeltUpdater() {
+		super(EmapAsteroidBelts.SDE_FILE_YAML, EmapAsteroidBelts.LOADER);
+	}
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private PlanetService planetService;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private SolarSystemService solarSystemService;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private TypeService typeService;
+
+	@Override
+	protected void processSource(LinkedHashMap<Integer, EmapAsteroidBelts> sources) {
+		var getType = typeService.getter(sources.values().stream().map(p -> p.typeID));
+		var getSystem = solarSystemService.getterAll();
+		var getPlanet = planetService.getter(sources.values().stream().map(p -> p.orbitID));
+		var storedEntities = new HashMap<>(service().allById());
+		for (var e : sources.entrySet()) {
+			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
+			stored.update(e.getValue(),
+					getType,
+					getSystem,
+					getPlanet);
+		}
+		service().saveAll(storedEntities.values());
+	}
+
+}

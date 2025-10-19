@@ -23,14 +23,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.OfferStat;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import io.swagger.v3.oas.annotations.Operation;

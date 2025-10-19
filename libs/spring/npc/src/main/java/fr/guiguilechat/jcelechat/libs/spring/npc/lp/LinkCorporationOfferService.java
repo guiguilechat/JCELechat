@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;

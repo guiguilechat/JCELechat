@@ -45,9 +45,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.dto.TypeData;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;

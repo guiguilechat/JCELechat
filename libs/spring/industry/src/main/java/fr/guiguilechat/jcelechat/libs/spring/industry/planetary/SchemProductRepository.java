@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 
 public interface SchemProductRepository extends JpaRepository<SchemProduct, Long> {
 

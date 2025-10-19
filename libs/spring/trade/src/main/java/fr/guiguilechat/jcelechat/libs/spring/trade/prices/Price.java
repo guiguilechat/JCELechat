@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.prices;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResource;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToOne;

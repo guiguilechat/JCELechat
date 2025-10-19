@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.items.type.dto;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.category.Category;
-import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

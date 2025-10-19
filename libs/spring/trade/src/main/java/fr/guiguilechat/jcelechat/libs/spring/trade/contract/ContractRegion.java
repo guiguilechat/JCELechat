@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.core.annotation.Order;
 
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import jakarta.persistence.Entity;

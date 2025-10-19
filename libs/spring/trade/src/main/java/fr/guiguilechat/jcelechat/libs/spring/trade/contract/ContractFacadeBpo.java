@@ -13,8 +13,8 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
@@ -96,7 +96,7 @@ public class ContractFacadeBpo {
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
 		List<Object[]> fetched = contractInfoRepository.aggregateResearchedHighestSales(minDay, now, limit);
-		Map<Integer, String> typeId2Name = typeService.findById(
+		Map<Integer, String> typeId2Name = typeService.byId(
 				fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
 				.collect(Collectors.toMap((Function<? super Type, ? extends Integer>) Type::getId, (Function<? super Type, ? extends String>) Type::getName));
 		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateResearchedHighestSales(minDay, now, limit)

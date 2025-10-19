@@ -4,9 +4,9 @@ import java.time.Instant;
 import java.util.Objects;
 
 import fr.guiguilechat.jcelechat.libs.mer.files.KillDumpEntry;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.mer.updater.LoadedMer;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

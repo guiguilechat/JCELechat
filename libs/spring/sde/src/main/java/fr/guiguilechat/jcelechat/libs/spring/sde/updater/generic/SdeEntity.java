@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic;
 
 import java.time.Instant;
 
+import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -25,7 +26,9 @@ public class SdeEntity<IdType extends Number> {
 
 	@Id
 	private IdType id;
+	@ColumnDefault("false")
 	private boolean received = false;
+	@ColumnDefault("false")
 	private boolean removed = false;
 	@CreationTimestamp
 	private Instant created;

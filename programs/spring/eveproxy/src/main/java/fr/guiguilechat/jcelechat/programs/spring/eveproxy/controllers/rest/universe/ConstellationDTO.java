@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe;
 
-import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.constellation.Constellation;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.Region;
 
 public record ConstellationDTO(int constellationId, String name, int regionId, String universe) {
 

@@ -28,12 +28,12 @@ public class Egroups {
 	// file structure
 	//
 
-	public HashMap<String, String> name = new LinkedHashMap<>();
 	public boolean anchorable;
 	public boolean anchored;
 	public int categoryID;
-	public int iconID;
 	public boolean fittableNonSingleton;
+	public int iconID;
+	public HashMap<String, String> name = new LinkedHashMap<>();
 	public boolean published;
 	public boolean useBasePrice;
 

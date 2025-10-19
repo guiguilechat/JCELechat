@@ -26,25 +26,25 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
-import fr.guiguilechat.jcelechat.libs.spring.items.category.Category;
-import fr.guiguilechat.jcelechat.libs.spring.items.category.CategoryService;
-import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
-import fr.guiguilechat.jcelechat.libs.spring.items.group.GroupService;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeAttributeService;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.CategoryService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.Space;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.station.Station;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.Space;
-import fr.guiguilechat.jcelechat.libs.spring.universe.station.Station;
-import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
@@ -413,7 +413,7 @@ public class InventoryHtmlController {
 			return null;
 		}
 		Map<Integer, Number> typeId2MetaLevel = typeAttributeService.valuesForTypes(633, variationIds);
-		return typeService.findById(variationIds).stream()
+		return typeService.byId(variationIds).stream()
 				.map(this::linkedType)
 				.sorted(Comparator.comparing(LinkedType::name))
 				.sorted(Comparator.comparing(lt -> typeId2MetaLevel.getOrDefault(lt.type().getId(), 0).intValue()))
@@ -468,12 +468,10 @@ public class InventoryHtmlController {
 	@Transactional
 	@GetMapping("/category/{categoryId}")
 	public String getCategory(Model model, @PathVariable int categoryId) {
-		Optional<Category> oc = categoryService.findById(categoryId);
-		if (oc.isEmpty()) {
+		Category c = categoryService.byId(categoryId);
+		if (c == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "category " + categoryId + " does not exist");
 		}
-
-		Category c = oc.get();
 		model.addAttribute("cat", c);
 
 		Category prvCat = categoryService.prevGroup(c);

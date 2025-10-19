@@ -14,10 +14,10 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivit
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivityService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Offer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Requirement;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MaterialSourcing;

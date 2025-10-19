@@ -31,6 +31,7 @@ public class EnpcCorporations {
 	// file structure
 	//
 
+	/** {@link Eraces} */
 	public List<Integer> allowedMemberRaces = new ArrayList<>();
 	public int ceoID;
 	public HashMap<Integer, BigDecimal> corporationTrades = new HashMap<>();
@@ -62,6 +63,9 @@ public class EnpcCorporations {
 	public String tickerName;
 	public boolean uniqueName;
 	public HashMap<Integer, Edivisions> divisions = new HashMap<>();
+	/**
+	 * references the LP offers which are not provided in the SDE.
+	 */
 	public ArrayList<Integer> lpOfferTables = new ArrayList<>();
 
 	public static class Edivisions {

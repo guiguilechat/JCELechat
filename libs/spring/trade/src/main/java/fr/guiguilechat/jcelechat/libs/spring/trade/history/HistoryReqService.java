@@ -18,11 +18,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import lombok.Getter;

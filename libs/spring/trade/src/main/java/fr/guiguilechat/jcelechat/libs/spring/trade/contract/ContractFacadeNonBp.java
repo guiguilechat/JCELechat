@@ -12,7 +12,8 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import jakarta.transaction.Transactional;
@@ -36,7 +37,7 @@ public class ContractFacadeNonBp {
 
 	/**
 	 * find contracts that are open and offer a given type, with 0 ME/TE/runs
-	 * 
+	 *
 	 * @param typeId
 	 * @return list of open contracts that provide only given type with (0,0,false)
 	 *           for (me, te, iscopy) value
@@ -44,7 +45,7 @@ public class ContractFacadeNonBp {
 	public List<ContractInfo> selling(Collection<Integer> typeIds) {
 		return contractInfoRepository
 		    .findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
-		        (typeIds),
+		        typeIds,
 		        false, 0, 0);
 	}
 
@@ -59,7 +60,7 @@ public class ContractFacadeNonBp {
 
 	/**
 	 * find contracts that sold a given type, with 0 ME/TE/runs
-	 * 
+	 *
 	 * @param typeId
 	 * @return list of completed contracts that provide only given type with
 	 *           (0,0,false) for (me, te, iscopy) value
@@ -72,7 +73,7 @@ public class ContractFacadeNonBp {
 
 	/**
 	 * find contracts that are open and request a given type for isk
-	 * 
+	 *
 	 * @param typeIds allowed types requested
 	 * @return list of open contracts that request only one type among those given
 	 *           and provide no item.
@@ -92,9 +93,9 @@ public class ContractFacadeNonBp {
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
 		List<Object[]> fetched = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now, limit);
-		Map<Integer, String> typeId2Name = typeService.findById(
+		Map<Integer, String> typeId2Name = typeService.byId(
 		    fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
-		    .collect(Collectors.toMap(t -> t.getId(), t -> t.getName()));
+		    .collect(Collectors.toMap(Type::getId, Type::getName));
 		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now, limit)
 		    .stream()
 		    .map(arr -> {
@@ -110,7 +111,7 @@ public class ContractFacadeNonBp {
 		    })
 		    .toList();
 		long stop = System.currentTimeMillis();
-		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, (stop - start), ret.size());
+		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;
 	}
 

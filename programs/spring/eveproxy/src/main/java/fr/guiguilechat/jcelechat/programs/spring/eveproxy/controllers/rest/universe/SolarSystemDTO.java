@@ -2,9 +2,9 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.univ
 
 import java.math.BigDecimal;
 
-import fr.guiguilechat.jcelechat.libs.spring.universe.constellation.Constellation;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.constellation.Constellation;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
 
 public record SolarSystemDTO(int solarSystemId, String name,
 		BigDecimal securityStatus,

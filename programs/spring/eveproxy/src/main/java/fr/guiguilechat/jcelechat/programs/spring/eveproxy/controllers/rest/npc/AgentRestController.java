@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.npc.agent.NpcCharacterService;
-import fr.guiguilechat.jcelechat.libs.spring.npc.agent.NpcCharacterService.AgentDetails;
+import fr.guiguilechat.jcelechat.libs.spring.sde.npc.agent.NpcCharacterService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.npc.agent.NpcCharacterService.AgentDetails;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import jakarta.transaction.Transactional;

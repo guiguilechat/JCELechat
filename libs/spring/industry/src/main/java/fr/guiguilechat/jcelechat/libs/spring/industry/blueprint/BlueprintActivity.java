@@ -5,7 +5,7 @@ import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ActivityDetails;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

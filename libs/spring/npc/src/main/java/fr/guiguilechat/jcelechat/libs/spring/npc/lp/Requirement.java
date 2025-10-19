@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_corporations_corporation_id_starbases_starbase_id_fuels;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

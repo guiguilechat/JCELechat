@@ -16,10 +16,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.marketgroup.MarketGroup;
-import fr.guiguilechat.jcelechat.libs.spring.items.marketgroup.MarketGroupService;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroup;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroupService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
@@ -29,8 +31,6 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractTypeVariant;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedType;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import jakarta.transaction.Transactional;
@@ -78,7 +78,7 @@ public class MarketHtmlController {
 			Optional<Integer> me,
 			Optional<Integer> te,
 			Optional<Boolean> copy) {
-		Optional<Type> oType = typeService.findById(typeId);
+		Type type = typeService.byId(typeId);
 		int meValue = me == null ? 0 : me.orElse(0);
 		int teValue = te == null ? 0 : te.orElse(0);
 		boolean copyValue = copy == null ? false : copy.orElse(false);
@@ -86,8 +86,7 @@ public class MarketHtmlController {
 		Map<Integer, String> stationNamesById = stationService.namesById();
 		Map<Long, String> structuresNamesById = Map.of();
 		String name = null;
-		if (oType.isPresent()) {
-			Type type = oType.get();
+		if (type != null) {
 			model.addAttribute("typeUrl", dogmaHtmlController.uri(type).toString());
 			name = type.name();
 		} else {
@@ -147,7 +146,7 @@ public class MarketHtmlController {
 			List<LinkedMarketType> bpoVariants = variants.stream()
 					.filter(v -> !v.copy())
 					.sorted(Comparator.comparing((Function<? super ContractTypeVariant, ? extends Integer>) ContractTypeVariant::meteval))
-					.map(ctv -> linkedMarketType(oType.orElse(null), ctv))
+					.map(ctv -> linkedMarketType(type, ctv))
 					.toList();
 			if (!bpoVariants.isEmpty()) {
 				model.addAttribute("bpoVariants", bpoVariants);
@@ -155,7 +154,7 @@ public class MarketHtmlController {
 			List<LinkedMarketType> bpcVariants = variants.stream()
 					.filter(ContractTypeVariant::copy)
 					.sorted(Comparator.comparing((Function<? super ContractTypeVariant, ? extends Integer>) ContractTypeVariant::meteval))
-					.map(ctv -> linkedMarketType(oType.orElse(null), ctv))
+					.map(ctv -> linkedMarketType(type, ctv))
 					.toList();
 			if (!bpcVariants.isEmpty()) {
 				model.addAttribute("bpcVariants", bpcVariants);

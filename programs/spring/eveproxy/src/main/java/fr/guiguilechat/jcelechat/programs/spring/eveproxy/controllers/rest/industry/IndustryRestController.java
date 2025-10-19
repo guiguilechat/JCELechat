@@ -21,15 +21,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivityService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
 import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
-import fr.guiguilechat.jcelechat.libs.spring.items.group.Group;
-import fr.guiguilechat.jcelechat.libs.spring.items.group.GroupService;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
@@ -96,7 +96,7 @@ public class IndustryRestController {
 		IndustryInfo(Type type, BPInfo bp,
 				Map<ActivityType, List<Integer>> productOf,
 				Map<Integer, Map<Long, Double>> rid2lid2price) {
-			this(type.getId(), type.name(), type.getBasePrice(),
+			this(type.getId(), type.name(), type.getBasePrice().floatValue(),
 					bp, productOf,
 					rid2lid2price);
 		}

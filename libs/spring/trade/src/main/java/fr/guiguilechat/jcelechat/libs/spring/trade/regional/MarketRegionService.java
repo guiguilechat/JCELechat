@@ -16,9 +16,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.region.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;

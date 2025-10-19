@@ -30,12 +30,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.group.GroupService;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.items.type.dto.NamedTypelist;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService.KillStats;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer.kills.AggregPeriod;
@@ -189,7 +189,7 @@ public class MerKillsRestController {
 		}
 		String timeOrder = time.orElse("desc").toLowerCase();
 		AggregPeriod aggregPeriod = AggregPeriod.by(period);
-		Map<Integer, Type> typeId2Type = typeService.findById(resolved.typeIds()).stream()
+		Map<Integer, Type> typeId2Type = typeService.byId(resolved.typeIds()).stream()
 		    .collect(Collectors.toMap(Type::getId, t -> t));
 		Map<String, TypesKillsStats> statsByType = resolved.typeIds().parallelStream().collect(
 		    Collectors.toMap(
@@ -227,7 +227,7 @@ public class MerKillsRestController {
 		}
 		KillsDetail det = KillsDetail.of(detail);
 		AggregPeriod ap = AggregPeriod.by(aggregate);
-		Map<Integer, Type> typeId2Type = typeService.findById(resolved.typeIds()).stream()
+		Map<Integer, Type> typeId2Type = typeService.byId(resolved.typeIds()).stream()
 		    .collect(Collectors.toMap(Type::getId, t -> t));
 		Map<String, List<KillStats>> statsByType = resolved.typeIds().parallelStream().collect(
 		    Collectors.toMap(

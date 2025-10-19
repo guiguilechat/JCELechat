@@ -27,10 +27,10 @@ public class Ecategories {
 	// file structure
 	//
 
+	public int iconID;
 	/** key is language short, like "en" */
 	public HashMap<String, String> name = new HashMap<>();
 	public boolean published;
-	public int iconID;
 
 	public String enName() {
 		return name == null ? null : name.get("en");

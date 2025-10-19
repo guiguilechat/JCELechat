@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.industry.blueprint;
 
 import java.io.Serializable;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

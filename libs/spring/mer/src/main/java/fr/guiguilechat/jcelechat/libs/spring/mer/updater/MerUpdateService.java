@@ -18,12 +18,12 @@ import fr.guiguilechat.jcelechat.libs.mer.MER;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher.MERFetch;
 import fr.guiguilechat.jcelechat.libs.mer.files.KillDumpEntry;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.Kill;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystemService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -42,13 +42,13 @@ public class MerUpdateService {
 
 	final private CacheManager cacheManager;
 
-	public static interface MerUpdateListener {
+	public interface MerUpdateListener {
 
-		public default List<String> listMerCaches() {
+		default List<String> listMerCaches() {
 			return List.of();
 		}
 
-		public default void onMerUpdate() {
+		default void onMerUpdate() {
 
 		}
 
@@ -70,7 +70,7 @@ public class MerUpdateService {
 							.build());
 			MER mer = new MER(merfetch).load();
 			Map<Integer, Type> typesById = typeService
-			    .findById(mer.getKillDumpEntries().stream().map(KillDumpEntry::destroyedShipTypeID).distinct().toList())
+					.byId(mer.getKillDumpEntries().stream().map(KillDumpEntry::destroyedShipTypeID).distinct().toList())
 			    .stream().collect(Collectors.toMap(Type::getId, o -> o));
 			Map<Integer, SolarSystem> systemsById = solarSystemService
 			    .createIfAbsent(mer.getKillDumpEntries().stream().map(KillDumpEntry::solarSystemID).distinct().toList());
@@ -85,15 +85,13 @@ public class MerUpdateService {
 			updateListeners.stream().forEach(MerUpdateListener::onMerUpdate);
 
 			log.info(" loaded MER for date " + localdate);
+		} else if (merfetch.error() == null) {
+			log.debug("" + localdate + " url=" + merfetch.url());
 		} else {
-			if (merfetch.error() == null) {
-				log.debug("" + localdate + " url=" + merfetch.url());
+			if (merfetch.error() instanceof FileNotFoundException) {
+				log.debug("{} url= {} no file", localdate, merfetch.url());
 			} else {
-				if (merfetch.error() instanceof FileNotFoundException) {
-					log.debug("{} url= {} no file", localdate, merfetch.url());
-				} else {
-					log.debug("" + localdate + " url=" + merfetch.url(), merfetch.error());
-				}
+				log.debug("" + localdate + " url=" + merfetch.url(), merfetch.error());
 			}
 		}
 		return CompletableFuture.completedFuture(null);

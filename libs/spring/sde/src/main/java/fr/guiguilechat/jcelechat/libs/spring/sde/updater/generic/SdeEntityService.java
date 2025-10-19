@@ -5,8 +5,10 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -27,12 +29,22 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 
 	private final Supplier<Entity> creator;
 
+	/**
+	 * create an empty entity for given id, and save it. The entity returned is the
+	 * one saved already.
+	 *
+	 * @param entityId new entity's id
+	 * @return
+	 */
 	public Entity create(IdType entityId) {
 		Entity create = creator.get();
 		create.setId(entityId);
 		return repo().save(create);
 	}
 
+	/**
+	 * mark all entities as removed
+	 */
 	void setAllRemoved() {
 		repo().setAllRemoved();
 	}
@@ -57,7 +69,6 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 		var op = repo().findById(id);
 		if (op.isEmpty()) {
 			Entity ret = create(id);
-			repo().save(ret);
 			return ret;
 		} else {
 			return op.get();
@@ -80,8 +91,30 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 			}
 			ret.put(id, added);
 		}
-		repo().saveAll(created);
 		return ret;
+	}
+
+	/**
+	 * list all items and make a getter on them
+	 *
+	 * @return a function that has the list of internal items and return from it, or
+	 *         create a new one if absent
+	 */
+	public Function<IdType, Entity> getterAll() {
+		Map<IdType, Entity> items = new HashMap<>(allById());
+		return i -> items.computeIfAbsent(i, this::create);
+	}
+
+	/**
+	 * list items for given ids, creating the missing, and return a mapper from
+	 * those ids to the corresponding item
+	 *
+	 * @param ids stream of ids. They are concatenated as distinct
+	 * @return a function that memorizes the items for those ids, after creating the
+	 *         missingones.
+	 */
+	public Function<IdType, Entity> getter(Stream<IdType> ids) {
+		return createIfAbsent(ids.distinct().toList())::get;
 	}
 
 }

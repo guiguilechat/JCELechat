@@ -13,7 +13,6 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.category.Category;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;
@@ -67,7 +66,7 @@ public class ContractEvalService {
 		/**
 		 * checks on contracts that are not performed by the listing of
 		 * {@link ContractEvalService#stream(EvalParams)}
-		 * 
+		 *
 		 * @param contract
 		 * @return
 		 */
@@ -75,7 +74,7 @@ public class ContractEvalService {
 			if (region != null && contract.getRegion().getId() != region) {
 				return false;
 			}
-			if (!structure && contract.getEndLocationId() > 100000000l) {
+			if (!structure && contract.getEndLocationId() > 100000000L) {
 				return false;
 			}
 			return contract.getItems().stream()
@@ -138,7 +137,7 @@ public class ContractEvalService {
 		Set<Integer> boughtIds = new HashSet<>();
 		contracts.stream().flatMap(c -> c.getItems().stream()).forEach(item -> {
 			if (item.isIncluded() && !item.isBlueprintCopy()) {
-				if (item.getType().getGroup().getCategory().getId() == Category.BP_CAT_ID) {
+				if (item.getType().getGroup().getCategory().getId() == 9) {
 					bpIds.add(item.getType().getId());
 				} else {
 					soldIds.add(item.getType().getId());
@@ -191,37 +190,35 @@ public class ContractEvalService {
 			if (item.isIncluded()) {
 				if (item.isBlueprintCopy()) {
 					// ignore
-				} else {
-					if (item.getType().getGroup().getCategory().getId() == Category.BP_CAT_ID) {
-						// need to evaluate the bp value
-						double bpValue = item.getType().getBasePrice();
-						if (item.getQuantity() == 1 && (item.getMaterialEfficiency() > 0 || item.getTimeEfficiency() > 0)) {
-							long eiv = eivs.get(item.getType().getId());
-							bpValue += Research.researchTax(eiv, item.getMaterialEfficiency(), item.getTimeEfficiency(), 0.06);
-						} else {
-							bpValue *= item.getQuantity();
-						}
-						valueProvided += bpValue;
+				} else if (item.getType().getGroup().getCategory().getId() == 9) {
+					// need to evaluate the bp value
+					double bpValue = item.getType().getBasePrice().doubleValue();
+					if (item.getQuantity() == 1 && (item.getMaterialEfficiency() > 0 || item.getTimeEfficiency() > 0)) {
+						long eiv = eivs.get(item.getType().getId());
+						bpValue += Research.researchTax(eiv, item.getMaterialEfficiency(), item.getTimeEfficiency(), 0.06);
 					} else {
-						// a non blueprint is proposed on sale
-						double buyOrderValue = 0.0;
-						int remain = item.getQuantity();
-						List<MarketLine> buyOrders = typeId2BuyOrders.getOrDefault(item.getType().getId(), List.of());
-						for (MarketLine buyOrder : buyOrders) {
-							int removed = Math.min(remain, buyOrder.getVolumeRemain());
-							buyOrderValue += buyOrder.getPrice() * removed;
-							remain -= removed;
-							if (remain <= 0) {
-								break;
-							}
+						bpValue *= item.getQuantity();
+					}
+					valueProvided += bpValue;
+				} else {
+					// a non blueprint is proposed on sale
+					double buyOrderValue = 0.0;
+					int remain = item.getQuantity();
+					List<MarketLine> buyOrders = typeId2BuyOrders.getOrDefault(item.getType().getId(), List.of());
+					for (MarketLine buyOrder : buyOrders) {
+						int removed = Math.min(remain, buyOrder.getVolumeRemain());
+						buyOrderValue += buyOrder.getPrice() * removed;
+						remain -= removed;
+						if (remain <= 0) {
+							break;
 						}
-						valueProvided += buyOrderValue * (1 - Tax.MINIMUM);
-						if (item.getQuantity() == 1 && item.getType().getGroup().name().startsWith("Rig ")) {
-							valueRigsAloneProvided += buyOrderValue * (1 - Tax.MINIMUM);
-						}
-						if (item.getType().getGroup().getCategory().getId() == Category.SHIP_CAT_ID) {
-							containsShip = true;
-						}
+					}
+					valueProvided += buyOrderValue * (1 - Tax.MINIMUM);
+					if (item.getQuantity() == 1 && item.getType().getGroup().name().startsWith("Rig ")) {
+						valueRigsAloneProvided += buyOrderValue * (1 - Tax.MINIMUM);
+					}
+					if (item.getType().getGroup().getCategory().getId() == 6) {
+						containsShip = true;
 					}
 				}
 			} else {
