@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporations;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.station.Station;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;

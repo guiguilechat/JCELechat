@@ -9,7 +9,7 @@ import java.util.Map.Entry;
 import org.hibernate.annotations.ColumnDefault;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;

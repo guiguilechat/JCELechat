@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.stargate;
 
 import org.testng.Assert;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.stargate.StargateService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.stargate.StargateService;
 import fr.guiguilechat.jcelechat.model.formula.space.WarpTime;
 
 public class StargateServiceTest {

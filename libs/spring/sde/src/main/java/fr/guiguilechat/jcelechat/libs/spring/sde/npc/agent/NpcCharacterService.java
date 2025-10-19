@@ -5,10 +5,10 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporation;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.constellation.Constellation;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.station.Station;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.constellation.Constellation;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityService;
 
 @Service

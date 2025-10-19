@@ -13,8 +13,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;

@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.constellation.ConstellationService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.constellation.ConstellationService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import lombok.RequiredArgsConstructor;

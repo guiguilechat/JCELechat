@@ -25,8 +25,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;

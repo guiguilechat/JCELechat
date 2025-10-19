@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.stargate.StargateService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.stargate.StargateService.WayPoint;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.station.Station;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.station.StationService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.stargate.StargateService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.stargate.StargateService.WayPoint;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import io.swagger.v3.oas.annotations.Operation;

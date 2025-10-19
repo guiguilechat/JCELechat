@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumps.SystemJumpsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetch.BatchItem;

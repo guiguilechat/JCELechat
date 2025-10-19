@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.region.Region;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
 
 public record RegionDTO(int regionId, String name, String universe) {
 

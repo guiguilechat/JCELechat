@@ -6,8 +6,8 @@ import java.util.LinkedHashMap;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporations;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.solarsystem.SolarSystemService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.universe.station.StationService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
 import lombok.AccessLevel;
 import lombok.Getter;
