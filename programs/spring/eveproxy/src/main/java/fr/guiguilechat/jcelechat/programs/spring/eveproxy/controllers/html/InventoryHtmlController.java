@@ -6,7 +6,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -423,12 +422,10 @@ public class InventoryHtmlController {
 	@Transactional
 	@GetMapping("/group/{groupId}")
 	public String getGroup(Model model, @PathVariable int groupId) {
-		Optional<Group> og = groupService.findById(groupId);
-		if (og.isEmpty()) {
+		Group g = groupService.byId(groupId);
+		if (g == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "group " + groupId + " does not exist");
 		}
-
-		Group g = og.get();
 		model.addAttribute("grp", g);
 		model.addAttribute("category", g.getCategory());
 		model.addAttribute("catUrl", uri(g.getCategory()).toString());

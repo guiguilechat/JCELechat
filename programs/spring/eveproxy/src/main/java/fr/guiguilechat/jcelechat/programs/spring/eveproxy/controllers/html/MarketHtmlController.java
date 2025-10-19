@@ -275,9 +275,8 @@ public class MarketHtmlController {
 	@Transactional
 	@GetMapping("/group/{marketGroupId}")
 	public String getMarketGroup(Model model, @PathVariable int marketGroupId) {
-		Optional<MarketGroup> oMarketGroup = marketGroupService.findById(marketGroupId);
-		if (oMarketGroup.isPresent()) {
-			MarketGroup marketGroup = oMarketGroup.get();
+		MarketGroup marketGroup = marketGroupService.byId(marketGroupId);
+		if (marketGroup != null) {
 			model.addAttribute("name", marketGroup.name());
 			if (marketGroup.getParent() != null) {
 				model.addAttribute("parent", linkedMarketGroup(marketGroup.getParent()));
