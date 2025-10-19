@@ -12,6 +12,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporationS
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.moon.MoonService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.planet.PlanetService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.star.StarService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.operation.StationOperationService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
 import lombok.AccessLevel;
@@ -53,6 +54,11 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
+	private StarService starService;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
 	private TypeService typeService;
 
 	@Override
@@ -61,8 +67,10 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 		var getMoon = moonService()
 				.getter(sources.values().stream().filter(EnpcStations::orbitsMoon).map(s -> s.orbitID));
 		var getPlanet = planetService()
-				.getter(sources.values().stream().filter(s -> !s.orbitsMoon()).map(s -> s.orbitID));
+				.getter(sources.values().stream().filter(EnpcStations::orbitsPlanet).map(s -> s.orbitID));
 		var getOperation = stationOperationService().getterAll();
+		var getStar = starService()
+				.getter(sources.values().stream().filter(EnpcStations::orbitsStar).map(s -> s.orbitID));
 		var getSystem = solarSystemService().getterAll();
 		var getType = typeService().getter(sources.values().stream().map(p -> p.typeID));
 		var storedEntities = new HashMap<>(service().allById());
@@ -74,6 +82,7 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 					getMoon,
 					getCorporation,
 					getPlanet,
+					getStar,
 					getOperation);
 		}
 		service().saveAll(storedEntities.values());

@@ -10,10 +10,12 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.StatisticsCelestial;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import lombok.ToString;
 
 /**
  * moons' orbitid is actually planetId
  */
+@ToString
 public class EmapMoons extends InPlanetOrbit {
 
 	//

@@ -9,7 +9,9 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InStarOrbit;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.StatisticsCelestial;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import lombok.ToString;
 
+@ToString
 public class EmapPlanets extends InStarOrbit {
 
 	//

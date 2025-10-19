@@ -6,7 +6,9 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import lombok.ToString;
 
+@ToString
 public class EnpcStations extends InPlanetOrbit {
 
 	//
@@ -43,6 +45,14 @@ public class EnpcStations extends InPlanetOrbit {
 
 	public boolean orbitsMoon() {
 		return orbitIndex > 0;
+	}
+
+	public boolean orbitsPlanet() {
+		return orbitIndex == 0 && celestialIndex > 0;
+	}
+
+	public boolean orbitsStar() {
+		return celestialIndex == 0;
 	}
 
 	//

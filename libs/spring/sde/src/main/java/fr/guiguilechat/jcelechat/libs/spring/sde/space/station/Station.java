@@ -13,6 +13,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.generic.SdeInPlanetOrbit;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.moon.Moon;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.planet.Planet;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.star.Star;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.operation.StationOperation;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -35,7 +36,8 @@ import lombok.Setter;
 public class Station extends SdeInPlanetOrbit {
 
 	/**
-	 * the moon this orbts around when it exists. Otherwise it's around a planet
+	 * the moon this orbits around when it exists. Otherwise it's around a planet or
+	 * star
 	 */
 	@ManyToOne
 	private Moon moon;
@@ -44,13 +46,18 @@ public class Station extends SdeInPlanetOrbit {
 	@ManyToOne
 	private NpcCorporation owner;
 	/**
-	 * the planet this orbits around when not around a moon.
+	 * the planet this orbits around when not around a moon or star.
 	 */
 	@ManyToOne
 	private Planet planet;
 	private BigDecimal reprocessingEfficiency;
 	private int reprocessingHangarFlag;
 	private BigDecimal reprocessingStationsTake;
+	/**
+	 * the star this orbits around when not around planet or moon
+	 */
+	@ManyToOne
+	private Star star;
 	private boolean useOperationName;
 
 	public void update(EnpcStations source,
@@ -59,15 +66,17 @@ public class Station extends SdeInPlanetOrbit {
 			Function<Integer, Moon> moons,
 			Function<Integer, NpcCorporation> corporations,
 			Function<Integer, Planet> planets,
+			Function<Integer, Star> stars,
 			Function<Integer, StationOperation> stationOperations) {
 		super.update(source, types, solarSystems);
 		setMoon(source.orbitsMoon() ? moons.apply(source.orbitID) : null);
 		setOperation(stationOperations.apply(source.operationID));
 		setOwner(corporations.apply(source.ownerID));
-		setPlanet(source.orbitsMoon() ? null : planets.apply(source.orbitID));
+		setPlanet(source.orbitsPlanet() ? planets.apply(source.orbitID) : null);
 		setReprocessingEfficiency(source.reprocessingEfficiency);
 		setReprocessingHangarFlag(source.reprocessingHangarFlag);
 		setReprocessingStationsTake(source.reprocessingStationsTake);
+		setStar(source.orbitsStar() ? stars.apply(source.orbitID) : null);
 		setUseOperationName(source.useOperationName);
 	}
 
