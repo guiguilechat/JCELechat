@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcStations;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporationService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.moon.MoonService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.planet.PlanetService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.operation.StationOperationService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
@@ -21,6 +24,21 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 	public StationUpdater() {
 		super(EnpcStations.SDE_FILE_YAML, EnpcStations.LOADER);
 	}
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private MoonService moonService;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private NpcCorporationService npcCorporationService;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private PlanetService planetService;
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -39,13 +57,24 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EnpcStations> sources) {
+		var getCorporation = npcCorporationService().getter(sources.values().stream().map(s -> s.ownerID));
+		var getMoon = moonService()
+				.getter(sources.values().stream().filter(EnpcStations::orbitsMoon).map(s -> s.orbitID));
+		var getPlanet = planetService()
+				.getter(sources.values().stream().filter(s -> !s.orbitsMoon()).map(s -> s.orbitID));
 		var getOperation = stationOperationService().getterAll();
 		var getSystem = solarSystemService().getterAll();
 		var getType = typeService().getter(sources.values().stream().map(p -> p.typeID));
 		var storedEntities = new HashMap<>(service().allById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
-			stored.update(e.getValue(), getType, getSystem, getOperation);
+			stored.update(e.getValue(),
+					getType,
+					getSystem,
+					getMoon,
+					getCorporation,
+					getPlanet,
+					getOperation);
 		}
 		service().saveAll(storedEntities.values());
 	}

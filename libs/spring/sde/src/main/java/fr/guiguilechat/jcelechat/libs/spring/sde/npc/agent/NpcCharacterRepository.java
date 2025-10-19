@@ -18,8 +18,8 @@ select
 	corpinfo
 from
 	#{#entityName} agent
-	left join SdeUniverseStation station  on agent.locationId = station.id
-	left join SdeUniverseSolarSystem solsys on station.solarSystem=solsys or agent.locationId = solsys.id
+	left join SdeSpaceStation station  on agent.locationId = station.id
+	left join SdeSpaceSolarSystem solsys on station.solarSystem=solsys or agent.locationId = solsys.id
 	left join EsiAffiliationsCorporationInfo corpinfo on agent.corporation.id = corpinfo.id
 """)
 	List<Object[]> listFullAgents();

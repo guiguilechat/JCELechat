@@ -10,6 +10,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcStations;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.generic.SdeInPlanetOrbit;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.moon.Moon;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.planet.Planet;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.operation.StationOperation;
@@ -33,10 +34,18 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Station extends SdeInPlanetOrbit {
 
+	/**
+	 * the moon this orbts around when it exists. Otherwise it's around a planet
+	 */
+	@ManyToOne
+	private Moon moon;
 	@ManyToOne
 	private StationOperation operation;
 	@ManyToOne
 	private NpcCorporation owner;
+	/**
+	 * the planet this orbits around when not around a moon.
+	 */
 	@ManyToOne
 	private Planet planet;
 	private BigDecimal reprocessingEfficiency;
@@ -47,10 +56,15 @@ public class Station extends SdeInPlanetOrbit {
 	public void update(EnpcStations source,
 			Function<Integer, Type> types,
 			Function<Integer, SolarSystem> solarSystems,
-			Function<Integer, StationOperation> operations) {
+			Function<Integer, Moon> moons,
+			Function<Integer, NpcCorporation> corporations,
+			Function<Integer, Planet> planets,
+			Function<Integer, StationOperation> stationOperations) {
 		super.update(source, types, solarSystems);
-		setOperation(operations.apply(source.operationID));
-//		setOwnerId(source.ownerID);
+		setMoon(source.orbitsMoon() ? moons.apply(source.orbitID) : null);
+		setOperation(stationOperations.apply(source.operationID));
+		setOwner(corporations.apply(source.ownerID));
+		setPlanet(source.orbitsMoon() ? null : planets.apply(source.orbitID));
 		setReprocessingEfficiency(source.reprocessingEfficiency);
 		setReprocessingHangarFlag(source.reprocessingHangarFlag);
 		setReprocessingStationsTake(source.reprocessingStationsTake);
