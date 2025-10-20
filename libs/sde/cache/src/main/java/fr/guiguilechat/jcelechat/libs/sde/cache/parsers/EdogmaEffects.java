@@ -32,8 +32,8 @@ public class EdogmaEffects {
 
 	public Map<String, String> description = new LinkedHashMap<>();
 	public boolean disallowAutoRepeat;
-	public Map<String, String> displayName = new LinkedHashMap<>();
 	public int dischargeAttributeID;
+	public Map<String, String> displayName = new LinkedHashMap<>();
 	public int distribution;
 	public int durationAttributeID;
 	public int effectCategoryID;
@@ -67,6 +67,14 @@ public class EdogmaEffects {
 	public boolean rangeChance;
 	public int resistanceAttributeID;
 	public int trackingSpeedAttributeID;
+
+	public String enDescription() {
+		return description == null ? null : description.get("en");
+	}
+
+	public String enDisplayName() {
+		return displayName == null ? null : displayName.get("en");
+	}
 
 	//
 

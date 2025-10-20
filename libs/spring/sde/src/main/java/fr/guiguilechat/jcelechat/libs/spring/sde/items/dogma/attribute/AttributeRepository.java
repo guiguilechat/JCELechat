@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute;
+package fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.category;
+package fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.category;
 
 import org.springframework.stereotype.Service;
 

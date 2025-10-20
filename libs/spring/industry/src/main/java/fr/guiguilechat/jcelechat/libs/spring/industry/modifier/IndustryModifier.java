@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import fr.guiguilechat.jcelechat.libs.spring.industry.activity.IndustryActivity;
 import fr.guiguilechat.jcelechat.libs.spring.industry.targetfilter.IndustryTargetFilter;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

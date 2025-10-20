@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityRepository;
 
 public interface TypeAttributeRepository extends SdeEntityRepository<TypeAttribute, Long> {

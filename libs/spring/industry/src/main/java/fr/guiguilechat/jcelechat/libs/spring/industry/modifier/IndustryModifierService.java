@@ -21,8 +21,8 @@ import fr.guiguilechat.jcelechat.libs.spring.industry.activity.IndustryActivityS
 import fr.guiguilechat.jcelechat.libs.spring.industry.modifier.IndustryModifier.Modifiedfield;
 import fr.guiguilechat.jcelechat.libs.spring.industry.targetfilter.IndustryTargetFilter;
 import fr.guiguilechat.jcelechat.libs.spring.industry.targetfilter.IndustryTargetFilterService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.Attribute;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.AttributeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.AttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.model.formula.industry.Activity;

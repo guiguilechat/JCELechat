@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.items.unit;
+package fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.unit;
 
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute;
 
 import java.math.BigDecimal;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import jakarta.persistence.Entity;

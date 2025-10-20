@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.category;
+package fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.category;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
@@ -13,8 +13,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "SdeItemsAttributeCategory")
-@Table(name = "sde_items_attributecategory", indexes = {
+@Entity(name = "SdeItemsDogmaAttributeCategory")
+@Table(name = "sde_items_dogmaattributecategory", indexes = {
 		@Index(columnList = "name") })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Getter

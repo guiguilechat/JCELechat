@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.AttributeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.AttributeService.RequiredSkill;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.AttributeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.AttributeService.RequiredSkill;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute;
+package fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute;
 
 import java.math.BigDecimal;
 import java.util.function.Function;
@@ -7,8 +7,8 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EdogmaAttributes;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.category.AttributeCategory;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.unit.Unit;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.category.AttributeCategory;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.unit.Unit;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -19,8 +19,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "SdeItemsAttribute")
-@Table(name = "sde_items_attribute", indexes = {
+@Entity(name = "SdeItemsDogmaAttribute")
+@Table(name = "sde_items_dogmaattribute", indexes = {
     @Index(columnList = "displayName"),
     @Index(columnList = "name"),
     @Index(columnList = "published") })

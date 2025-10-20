@@ -33,7 +33,7 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 
 	@Getter
 	@Setter
-	private boolean skip = false;
+	protected boolean skip = false;
 
 	@Override
 	public void beforeSdeUpdate() {

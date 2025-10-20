@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.category;
+package fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.category;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

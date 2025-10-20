@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute;
+package fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -9,8 +9,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EdogmaAttributes;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.category.AttributeCategoryService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.unit.UnitService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.category.AttributeCategoryService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.unit.UnitService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
 import lombok.AccessLevel;
 import lombok.Getter;

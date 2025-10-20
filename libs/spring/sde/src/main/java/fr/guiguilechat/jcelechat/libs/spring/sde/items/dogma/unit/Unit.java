@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.items.unit;
+package fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.unit;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EdogmaUnits;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
@@ -9,8 +9,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "SdeItemsUnit")
-@Table(name = "sde_items_unit")
+@Entity(name = "SdeItemsDogmaUnit")
+@Table(name = "sde_items_dogmaunit")
 @Getter
 @Setter
 @NoArgsConstructor
