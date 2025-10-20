@@ -33,7 +33,7 @@ public class EdogmaAttributes {
 	//
 
 	public int attributeCategoryID;
-	public int chargeRechargeTimeID;
+	public int chargeRechargeTimeID; // should be chargeRechargeTimeAttributeID
 	public int dataType;
 	public BigDecimal defaultValue;
 	public String description;
@@ -49,6 +49,10 @@ public class EdogmaAttributes {
 	public Map<String, String> tooltipDescription = new LinkedHashMap<>();
 	public Map<String, String> tooltipTitle = new LinkedHashMap<>();
 	public Integer unitID;
+
+	public String enDisplayName() {
+		return displayName == null ? null : displayName.get("en");
+	}
 
 	//
 

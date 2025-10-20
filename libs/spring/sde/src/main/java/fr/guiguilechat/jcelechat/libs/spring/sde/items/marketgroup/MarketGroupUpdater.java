@@ -3,12 +3,14 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmarketGroups;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
 
 @Service
+@ConfigurationProperties(prefix = "sde.items.marketgroup")
 public class MarketGroupUpdater extends SdeEntityUpdater<MarketGroup, MarketGroupService, EmarketGroups> {
 
 	public MarketGroupUpdater() {

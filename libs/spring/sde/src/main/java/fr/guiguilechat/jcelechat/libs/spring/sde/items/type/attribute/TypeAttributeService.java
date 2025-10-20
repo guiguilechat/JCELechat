@@ -1,29 +1,26 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute;
 
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.Attribute;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
-import lombok.RequiredArgsConstructor;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityService;
 
 @Service
-@RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class TypeAttributeService {
+public class TypeAttributeService extends SdeEntityService<TypeAttribute, Long, TypeAttributeRepository> {
 
-	private final TypeAttributeRepository repo;
-
-	public void deleteByTypes(Collection<Type> types) {
-		repo.deleteByTypeId(types.stream().map(Type::getId).toList());
+	public TypeAttributeService() {
+		super(TypeAttribute::new);
 	}
 
-	public List<TypeAttribute> saveAll(Iterable<TypeAttribute> data) {
-		return repo.saveAll(data);
+	// instead of setting them to removed, actually remove them. A new SDE thus
+	// removes all previous entries.
+	@Override
+	protected void setAllRemoved() {
+		repo().deleteAll();
 	}
 
 	//
@@ -31,19 +28,19 @@ public class TypeAttributeService {
 	//
 
 	public List<TypeAttribute> byAttributeId(int attributeId) {
-		return repo.findAllByAttributeId(attributeId);
+		return repo().findAllByAttributeId(attributeId);
 	}
 
 	public List<TypeAttribute> byAttribute(Attribute attribute) {
-		return repo.findAllByAttribute(attribute);
+		return repo().findAllByAttribute(attribute);
 	}
 
 	public List<TypeAttribute> findAll() {
-		return repo.findAll();
+		return repo().findAll();
 	}
 
 	public Map<Integer, Number> valuesForTypes(int attributeId, Iterable<Integer> typeIds) {
-		return repo.listValuesByAttributeIdTypeIdIn(attributeId, typeIds).stream()
+		return repo().listValuesByAttributeIdTypeIdIn(attributeId, typeIds).stream()
 				.collect(Collectors.toMap(arr -> (Integer) arr[0], arr -> ((Number) arr[1])));
 	}
 

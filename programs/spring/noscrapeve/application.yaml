@@ -66,6 +66,8 @@ sde:
       force: true
       update:
          skip: false
+   space:
+      moon.skip: true
 spring:
    cache:
       type: simple

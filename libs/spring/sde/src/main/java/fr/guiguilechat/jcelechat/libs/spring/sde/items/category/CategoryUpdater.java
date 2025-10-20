@@ -3,12 +3,14 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.items.category;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Ecategories;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
 
 @Service
+@ConfigurationProperties(prefix = "sde.items.category")
 public class CategoryUpdater extends SdeEntityUpdater<Category, CategoryService, Ecategories> {
 
 	public CategoryUpdater() {

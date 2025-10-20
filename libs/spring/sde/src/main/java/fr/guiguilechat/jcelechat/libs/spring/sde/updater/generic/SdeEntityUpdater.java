@@ -11,11 +11,12 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeListener;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
-@RequiredArgsConstructor
 @Slf4j
+@RequiredArgsConstructor
 public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Service extends SdeEntityService<Entity, Integer, ?>, SdeSource>
 		implements SdeListener {
 
@@ -30,13 +31,23 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 
 	private boolean receivedFile = false;
 
+	@Getter
+	@Setter
+	private boolean skip = false;
+
 	@Override
 	public void beforeSdeUpdate() {
+		if (skip) {
+			return;
+		}
 		receivedFile = false;
 	}
 
 	@Override
 	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
+		if (skip) {
+			return;
+		}
 		if(entryName.equals(fileName)) {
 			log.debug("{} processing file {}",
 					getClass().getSimpleName(),
@@ -57,6 +68,9 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 
 	@Override
 	public void afterSdeUpdate() {
+		if (skip) {
+			return;
+		}
 		if (!receivedFile) {
 			log.warn("service " + getClass().getSimpleName() + " did not receive file "
 					+ fileName);

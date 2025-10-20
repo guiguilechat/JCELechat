@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapMoons;
@@ -16,6 +17,7 @@ import lombok.Getter;
 import lombok.experimental.Accessors;
 
 @Service
+@ConfigurationProperties(prefix = "sde.space.moon")
 public class MoonUpdater extends SdeEntityUpdater<Moon, MoonService, EmapMoons> {
 
 	public MoonUpdater() {

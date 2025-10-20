@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityRepository;
 
-public interface AttributeRepository extends IRemoteEntityRepository<Attribute, Integer> {
+public interface AttributeRepository extends SdeEntityRepository<Attribute, Integer> {
 
 	@Query(value = """
 select
@@ -14,8 +14,8 @@ select
     max(skLvl.value)
 from
     SdeItemsType tp
-    join EsiItemsTypeAttribute skId on skId.type=tp
-    join EsiItemsTypeAttribute skLvl on skLvl.type=tp
+    join SdeItemsTypeAttribute skId on skId.type=tp
+    join SdeItemsTypeAttribute skLvl on skLvl.type=tp
 where
     tp.id in :typeIds
     and skId.value != 0

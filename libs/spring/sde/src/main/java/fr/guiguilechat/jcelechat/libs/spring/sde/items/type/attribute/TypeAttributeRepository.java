@@ -2,13 +2,13 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute;
 
 import java.util.List;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityRepository;
 
-public interface TypeAttributeRepository extends JpaRepository<TypeAttribute, Long> {
+public interface TypeAttributeRepository extends SdeEntityRepository<TypeAttribute, Long> {
 
 	@Modifying
 	@Query("delete from #{#entityName} where type.id in :typeIds")

@@ -3,12 +3,14 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.space.region;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
 
 @Service
+@ConfigurationProperties(prefix = "sde.space.region")
 public class RegionUpdater extends SdeEntityUpdater<Region, RegionService, EmapRegions> {
 
 	public RegionUpdater() {

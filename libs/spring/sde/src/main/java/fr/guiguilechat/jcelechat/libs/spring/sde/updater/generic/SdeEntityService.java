@@ -45,7 +45,7 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 	/**
 	 * mark all entities as removed
 	 */
-	void setAllRemoved() {
+	protected void setAllRemoved() {
 		repo().setAllRemoved();
 	}
 
@@ -102,7 +102,7 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 	 */
 	public Function<IdType, Entity> getterAll() {
 		Map<IdType, Entity> items = new HashMap<>(allById());
-		return i -> items.computeIfAbsent(i, this::create);
+		return i -> i == null ? null : items.computeIfAbsent(i, this::create);
 	}
 
 	/**

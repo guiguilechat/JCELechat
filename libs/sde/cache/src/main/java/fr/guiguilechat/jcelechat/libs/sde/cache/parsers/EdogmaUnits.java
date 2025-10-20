@@ -33,6 +33,14 @@ public class EdogmaUnits {
 
 	public String name;
 
+	public String enDescription() {
+		return description == null ? null : description.get("en");
+	}
+
+	public String enDisplayName() {
+		return displayName == null ? null : displayName.get("en");
+	}
+
 	//
 
 	public static void main(String[] args) {

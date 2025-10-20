@@ -1,89 +1,77 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute;
 
+import java.math.BigDecimal;
+import java.util.function.Function;
+
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EdogmaAttributes;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.attribute.category.AttributeCategory;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.unit.Unit;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
 import jakarta.persistence.Lob;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiItemsAttribute")
-@Table(name = "esi_items_attribute", indexes = {
-    @Index(columnList = "fetch_active,expires"),
+@Entity(name = "SdeItemsAttribute")
+@Table(name = "sde_items_attribute", indexes = {
     @Index(columnList = "displayName"),
     @Index(columnList = "name"),
     @Index(columnList = "published") })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
-public class Attribute extends ARemoteEntity<Integer, R_get_dogma_attributes_attribute_id> {
+@NoArgsConstructor
+public class Attribute extends SdeEntity<Integer> {
 
-	/**
-	 * default_value number
-	 */
-	private float defaultValue;
-
-	/**
-	 * description string
-	 */
+	@ManyToOne
+	private AttributeCategory category;
+	@ManyToOne
+	private Attribute chargeRechargeTime;
+	private int dataType;
+	private BigDecimal defaultValue;
 	@Lob
 	private String description;
-
-	/**
-	 * display_name string
-	 */
 	private String displayName;
-
-	/**
-	 * high_is_good boolean
-	 */
+	private boolean displayWhenZero;
 	private boolean highIsGood;
-
-	/**
-	 * icon_id integer
-	 */
 	private int iconId;
-
-	/**
-	 * name string
-	 */
+	@ManyToOne
+	private Attribute max;
+	@ManyToOne
+	private Attribute min;
 	private String name;
-
-	/**
-	 * published boolean
-	 */
 	private boolean published;
-
-	/**
-	 * stackable boolean
-	 */
 	private boolean stackable;
+	@ManyToOne
+	private Unit unit;
 
-	/**
-	 * unit_id integer
-	 */
-	private int unitId;
-
-	@Override
-	public void update(R_get_dogma_attributes_attribute_id data) {
-		setDefaultValue(data.default_value);
-		setDescription(data.description);
-		setDisplayName(data.display_name);
-		setHighIsGood(data.high_is_good);
-		setIconId(data.icon_id);
-		setName(data.name);
-		setPublished(data.published);
-		setStackable(data.stackable);
-		setUnitId(data.unit_id);
+	public void update(EdogmaAttributes source,
+			Function<Integer, Attribute> attributes,
+			Function<Integer, AttributeCategory> attributecategories,
+			Function<Integer, Unit> units) {
+		receivedSource();
+		setCategory(attributecategories.apply(source.attributeCategoryID));
+		setChargeRechargeTime(attributes.apply(source.chargeRechargeTimeID));
+		setDataType(source.dataType);
+		setDefaultValue(source.defaultValue);
+		setDescription(source.description);
+		setDisplayName(source.enDisplayName());
+		setDisplayWhenZero(source.displayWhenZero);
+		setHighIsGood(source.highIsGood);
+		setIconId(source.iconID);
+		setMax(attributes.apply(source.maxAttributeID));
+		setMin(attributes.apply(source.minAttributeID));
+		setName(source.name);
+		setPublished(source.published);
+		setStackable(source.stackable);
+		setUnit(units.apply(source.unitID));
 	}
 
 }
