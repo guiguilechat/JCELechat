@@ -9,7 +9,6 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
-import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EplanetSchematics;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
@@ -19,7 +18,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class PlanetaryUpdaterService implements SdeListener {
 

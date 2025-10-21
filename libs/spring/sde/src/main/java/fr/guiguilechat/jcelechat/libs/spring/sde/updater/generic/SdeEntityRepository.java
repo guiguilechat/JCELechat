@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic;
 
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -17,5 +19,7 @@ set
 	removed=true
 """)
 	void setAllRemoved();
+
+	List<Type> findAllByReceived(boolean received);
 
 }

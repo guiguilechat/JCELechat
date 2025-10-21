@@ -76,29 +76,48 @@ public class Effect extends SdeEntity<Integer> {
 	public void update(EdogmaEffects source,
 			Function<Integer, Attribute> attributes,
 			BiConsumer<Effect, ModifierInfo> infos) {
+		super.receivedSource();
 		setAssistance(source.isAssistance);
 		setDescription(source.enDescription());
 		setDisallowAutoRepeat(source.disallowAutoRepeat);
-		setDischarge(attributes.apply(source.dischargeAttributeID));
+		if (source.dischargeAttributeID > 0) {
+			setDischarge(attributes.apply(source.dischargeAttributeID));
+		}
 		setDisplayName(source.enDisplayName());
 		setDistribution(source.distribution);
-		setDuration(attributes.apply(source.durationAttributeID));
+		if (source.durationAttributeID > 0) {
+			setDuration(attributes.apply(source.durationAttributeID));
+		}
 		setEffectCategoryId(source.effectCategoryID);
 		setElectronicChance(source.electronicChance);
-		setFalloff(attributes.apply(source.falloffAttributeID));
-		setFittingUsageChance(attributes.apply(source.fittingUsageChanceAttributeID));
+		if (source.falloffAttributeID > 0) {
+			setFalloff(attributes.apply(source.falloffAttributeID));
+		}
+		if (source.fittingUsageChanceAttributeID > 0) {
+			setFittingUsageChance(attributes.apply(source.fittingUsageChanceAttributeID));
+		}
 		setGuid(source.guid);
 		setIconId(source.iconID);
 		setName(source.name);
-		setNpcActivationChance(attributes.apply(source.npcActivationChanceAttributeID));
-		setNpcUsageChance(attributes.apply(source.npcUsageChanceAttributeID));
+		if (source.npcActivationChanceAttributeID > 0) {
+			setNpcActivationChance(attributes.apply(source.npcActivationChanceAttributeID));
+		}
+		if (source.npcUsageChanceAttributeID > 0) {
+			setNpcUsageChance(attributes.apply(source.npcUsageChanceAttributeID));
+		}
 		setOffensive(source.isOffensive);
 		setPropulsionChance(source.propulsionChance);
 		setPublished(source.published);
-		setRange(attributes.apply(source.rangeAttributeID));
+		if (source.rangeAttributeID > 0) {
+			setRange(attributes.apply(source.rangeAttributeID));
+		}
 		setRangeChance(source.rangeChance);
-		setResistance(attributes.apply(source.resistanceAttributeID));
-		setTrackingSpeed(attributes.apply(source.trackingSpeedAttributeID));
+		if (source.resistanceAttributeID > 0) {
+			setResistance(attributes.apply(source.resistanceAttributeID));
+		}
+		if (source.trackingSpeedAttributeID > 0) {
+			setTrackingSpeed(attributes.apply(source.trackingSpeedAttributeID));
+		}
 		setWarpSafe(source.isWarpSafe);
 		if (source.modifierInfo != null) {
 			for (ModifierInfo mi : source.modifierInfo) {

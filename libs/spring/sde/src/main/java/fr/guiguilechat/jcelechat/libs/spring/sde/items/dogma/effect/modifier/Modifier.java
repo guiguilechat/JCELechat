@@ -54,11 +54,19 @@ public class Modifier {
 		ret.setDomain(mi.domain);
 		ret.setEffect(e);
 		ret.setFunc(mi.func);
-		ret.setGroup(groups.apply(mi.groupID));
-		ret.setModified(attributes.apply(mi.modifiedAttributeID));
-		ret.setModifying(attributes.apply(mi.modifyingAttributeID));
+		if (mi.groupID > 0) {
+			ret.setGroup(groups.apply(mi.groupID));
+		}
+		if (mi.modifiedAttributeID > 0) {
+			ret.setModified(attributes.apply(mi.modifiedAttributeID));
+		}
+		if (mi.modifyingAttributeID > 0) {
+			ret.setModifying(attributes.apply(mi.modifyingAttributeID));
+		}
 		ret.setOperation(mi.operation);
-		ret.setSkill(types.apply(mi.skillTypeID));
+		if (mi.skillTypeID > 0) {
+			ret.setSkill(types.apply(mi.skillTypeID));
+		}
 		return ret;
 	}
 

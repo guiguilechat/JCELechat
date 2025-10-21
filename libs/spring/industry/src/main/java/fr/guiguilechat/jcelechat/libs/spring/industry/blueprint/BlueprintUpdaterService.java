@@ -9,7 +9,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
-import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
@@ -22,7 +21,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Service
+//@Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class BlueprintUpdaterService implements SdeListener {
 

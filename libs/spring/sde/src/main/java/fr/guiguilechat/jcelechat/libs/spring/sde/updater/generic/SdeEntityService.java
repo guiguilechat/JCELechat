@@ -94,6 +94,10 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 		return ret;
 	}
 
+	public List<Entity> listNotReceived() {
+		return repo().findAllByReceived(false);
+	}
+
 	/**
 	 * list all items and make a getter on them
 	 *

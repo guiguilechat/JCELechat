@@ -19,7 +19,8 @@ public class MarketGroupUpdater extends SdeEntityUpdater<MarketGroup, MarketGrou
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EmarketGroups> sources) {
-		var getGroup = service().getter(sources.values().stream().map(p -> p.parentGroupID));
+		var getGroup = service()
+				.getter(sources.values().stream().map(p -> p.parentGroupID).filter(i -> i != null && i > 0));
 		var storedEntities = new HashMap<>(service().allById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);

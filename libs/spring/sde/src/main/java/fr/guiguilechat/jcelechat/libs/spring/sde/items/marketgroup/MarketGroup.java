@@ -51,7 +51,9 @@ public class MarketGroup extends SdeEntity<Integer> {
 		setHasTypes(source.hasTypes);
 		setIconId(source.iconID);
 		setName(source.enName());
-		setParent(groups.apply(source.parentGroupID));
+		if (source.parentGroupID > 0) {
+			setParent(groups.apply(source.parentGroupID));
+		}
 	}
 
 }

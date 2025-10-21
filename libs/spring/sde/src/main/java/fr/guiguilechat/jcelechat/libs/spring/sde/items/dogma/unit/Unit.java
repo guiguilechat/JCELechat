@@ -22,6 +22,7 @@ public class Unit extends SdeEntity<Integer> {
 	private String name;
 
 	public void update(EdogmaUnits source) {
+		receivedSource();
 		setDescription(source.enDescription());
 		setDisplayName(source.enDisplayName());
 		setName(source.name);

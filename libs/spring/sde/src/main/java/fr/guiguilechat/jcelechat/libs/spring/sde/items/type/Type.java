@@ -85,18 +85,26 @@ public class Type extends SdeEntity<Integer> {
 		setDescription(new TypeDescription(null, this, source.enDescription()));
 		setFactionId(source.factionID);
 		setGraphicId(source.graphicID);
-		setGroup(groups.apply(source.groupID));
+		if (source.groupID > 0) {
+			setGroup(groups.apply(source.groupID));
+		}
 		setIconId(source.iconID);
-		setMarketGroup(marketGroups.apply(source.marketGroupID));
+		if (source.marketGroupID > 0) {
+			setMarketGroup(marketGroups.apply(source.marketGroupID));
+		}
 		setMass(source.mass);
-		setMetaGroup(metaGroups.apply(source.metaGroupID));
+		if (source.metaGroupID > 0) {
+			setMetaGroup(metaGroups.apply(source.metaGroupID));
+		}
 		setName(source.enName());
 		setPortionSize(source.portionSize);
 		setPublished(source.published);
 		setRaceId(source.raceID);
 		setRadius(source.radius);
 		setSoundId(source.soundID);
-		setVariationType(types.apply(source.variationParentTypeID));
+		if (source.variationParentTypeID != null && source.variationParentTypeID > 0) {
+			setVariationType(types.apply(source.variationParentTypeID));
+		}
 		setVolume(source.volume);
 	}
 

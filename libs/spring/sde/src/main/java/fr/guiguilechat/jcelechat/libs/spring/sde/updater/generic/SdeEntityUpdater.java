@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic;
 
 import java.io.InputStream;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.function.Supplier;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,8 +73,16 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 			return;
 		}
 		if (!receivedFile) {
-			log.warn("service " + getClass().getSimpleName() + " did not receive file "
-					+ fileName);
+			log.warn("service {} did not receive file {}",
+					getClass().getSimpleName(),
+					fileName);
+		}
+		List<Entity> notReceived = service().listNotReceived();
+		if (!notReceived.isEmpty()) {
+			log.warn("service {} has {} non received entities with ids {}",
+					getClass().getSimpleName(),
+					notReceived.size(),
+					notReceived.stream().map(SdeEntity::getId).toList());
 		}
 	}
 
