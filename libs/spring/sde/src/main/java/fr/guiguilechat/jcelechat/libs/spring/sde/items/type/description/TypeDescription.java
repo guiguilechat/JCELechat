@@ -1,5 +1,6 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.items.type;
+package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.description;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -12,14 +13,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiItemsTypeDescription")
-@Table(name = "esi_items_typedescription", indexes = {
+@Entity(name = "SdeItemsTypeDescription")
+@Table(name = "sde_items_typedescription", indexes = {
     @Index(columnList = "type_id")
 })
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class TypeDescription {
 
 	@Id

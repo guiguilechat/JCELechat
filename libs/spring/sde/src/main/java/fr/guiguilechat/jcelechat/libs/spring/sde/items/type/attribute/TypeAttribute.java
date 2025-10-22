@@ -2,35 +2,45 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute;
 
 import java.math.BigDecimal;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Index;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "SdeItemsTypeAttribute")
 @Table(name = "sde_items_typeattribute", indexes = {
-    @Index(columnList = "type_id"),
-    @Index(columnList = "attribute_id")
+		@Index(columnList = "type_id"),
+		@Index(columnList = "attribute_id")
 })
-@NoArgsConstructor
 @Getter
 @Setter
-public class TypeAttribute extends SdeEntity<Long> {
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class TypeAttribute {
 
-	@ManyToOne
-	private Attribute attribute;
-	@ManyToOne
-	private Type type;
+	@Id
+	private Long id;
+	private int attributeId;
+	private int typeId;
 	private BigDecimal value;
 
 	public static long id(int typeId, int attributeId) {
 		return (long) Integer.MAX_VALUE * typeId + attributeId;
+	}
+
+	public static TypeAttribute of(int typeId, int attributeId, BigDecimal value) {
+		return builder()
+				.id(id(typeId, attributeId))
+				.attributeId(attributeId)
+				.typeId(typeId)
+				.value(value)
+				.build();
 	}
 
 }

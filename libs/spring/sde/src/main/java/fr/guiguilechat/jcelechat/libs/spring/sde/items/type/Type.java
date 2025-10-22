@@ -10,6 +10,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.metagroup.MetaGroup;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.description.TypeDescription;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.effect.TypeEffect;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
@@ -36,12 +38,14 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Type extends SdeEntity<Integer> {
 
-	@OneToMany(mappedBy = "type")
+	@OneToMany(mappedBy = "typeId")
 	private List<TypeAttribute> attributes = new ArrayList<>();
 	private BigDecimal basePrice;
 	private BigDecimal capacity;
 	@OneToOne(fetch = FetchType.LAZY, mappedBy = "type", cascade = CascadeType.ALL, orphanRemoval = true)
 	private TypeDescription description;
+	@OneToMany(mappedBy = "typeId")
+	private List<TypeEffect> effects = new ArrayList<>();
 	private int factionId;
 	private int graphicId;
 	@ManyToOne(fetch = FetchType.LAZY)

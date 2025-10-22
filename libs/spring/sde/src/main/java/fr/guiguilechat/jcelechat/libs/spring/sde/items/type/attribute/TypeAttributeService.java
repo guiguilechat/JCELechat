@@ -7,20 +7,21 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
-import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityService;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 
+@RequiredArgsConstructor
 @Service
-public class TypeAttributeService extends SdeEntityService<TypeAttribute, Long, TypeAttributeRepository> {
+public class TypeAttributeService {
 
-	public TypeAttributeService() {
-		super(TypeAttribute::new);
-	}
+	@Getter(value = AccessLevel.PACKAGE)
+	@Accessors(fluent = true)
+	private final TypeAttributeRepository repo;
 
-	// instead of setting them to removed, actually remove them. A new SDE thus
-	// removes all previous entries.
-	@Override
-	protected void setAllRemoved() {
-		repo().deleteAll();
+	public void delete() {
+		repo().delete();
 	}
 
 	//
@@ -32,7 +33,7 @@ public class TypeAttributeService extends SdeEntityService<TypeAttribute, Long, 
 	}
 
 	public List<TypeAttribute> byAttribute(Attribute attribute) {
-		return repo().findAllByAttribute(attribute);
+		return repo().findAllByAttributeId(attribute.getId());
 	}
 
 	public List<TypeAttribute> findAll() {
@@ -42,6 +43,14 @@ public class TypeAttributeService extends SdeEntityService<TypeAttribute, Long, 
 	public Map<Integer, Number> valuesForTypes(int attributeId, Iterable<Integer> typeIds) {
 		return repo().listValuesByAttributeIdTypeIdIn(attributeId, typeIds).stream()
 				.collect(Collectors.toMap(arr -> (Integer) arr[0], arr -> ((Number) arr[1])));
+	}
+
+	public TypeAttribute save(TypeAttribute entity) {
+		return repo().save(entity);
+	}
+
+	public List<TypeAttribute> saveAll(Iterable<TypeAttribute> entities) {
+		return repo().saveAll(entities);
 	}
 
 }
