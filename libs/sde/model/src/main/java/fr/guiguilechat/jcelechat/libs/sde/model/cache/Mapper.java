@@ -47,7 +47,11 @@ public class Mapper<T, U> extends YAMLCacheListener implements EntityMap<U> {
 	@Override
 	public void onSDECacheCleared() {
 		try (var _ = lck.writeLock()) {
-			caches().forEach(Collection::clear);
+			caches().forEach(c -> {
+				synchronized (c) {
+					c.clear();
+				}
+			});
 		}
 	}
 

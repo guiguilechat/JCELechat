@@ -20,12 +20,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterial;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterialService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.product.BlueprintProduct;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.product.BlueprintProductService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
@@ -73,14 +73,14 @@ public class InventoryHtmlController {
 
 	private final ContractMarketAggregator contractMarketAggregator;
 
-	private final MaterialService materialService;
+	private final BlueprintMaterialService materialService;
 
 	@Lazy
 	private final NpcHtmlController npcHtmlController;
 
 	private final PriceService priceService;
 
-	private final ProductService productService;
+	private final BlueprintProductService productService;
 
 	private final RegionService regionService;
 
@@ -162,10 +162,10 @@ public class InventoryHtmlController {
 	public static record LinkedProduct(String url, Type type, int quantity, BigDecimal probability) {
 	}
 
-	public LinkedProduct linkedProduct(Product product) {
+	public LinkedProduct linkedProduct(BlueprintProduct product) {
 		return new LinkedProduct(
-				uri(product.getType()).toString(),
-				product.getType(),
+				typeUri(product.getTypeId()).toString(),
+				typeService.byId(product.getTypeId()),
 				product.getQuantity(),
 				product.getProbability());
 	}
@@ -173,10 +173,10 @@ public class InventoryHtmlController {
 	public static record LinkedMaterial(String url, Type type, long quantity) {
 	}
 
-	public LinkedMaterial linkedMaterial(Material material) {
+	public LinkedMaterial linkedMaterial(BlueprintMaterial material) {
 		return new LinkedMaterial(
-				uri(material.getType()).toString(),
-				material.getType(),
+				typeUri(material.getTypeId()).toString(),
+				typeService.byId(material.getTypeId()),
 				material.getQuantity());
 	}
 
@@ -192,14 +192,14 @@ public class InventoryHtmlController {
 	}
 
 	public static record LinkedActivity(String url, Type type, ActivityType activity, int quantity,
-			BigDecimal probability, Product product) {
+			BigDecimal probability, BlueprintProduct product) {
 	}
 
-	public LinkedActivity linkedActivity(Product product) {
+	public LinkedActivity linkedActivity(BlueprintProduct product) {
 		return new LinkedActivity(
-				uri(product.getActivity().getType()).toString(),
-				product.getActivity().getType(),
-				product.getActivity().getActivity(),
+				typeUri(product.getTypeId()).toString(),
+				typeService.byId(product.getTypeId()),
+				product.getActivity().getActivityType(),
 				product.getQuantity(),
 				product.getProbability(),
 				product);
@@ -208,10 +208,10 @@ public class InventoryHtmlController {
 	public static record LinkedUsage(String url, Type type, int quantity) {
 	}
 
-	public LinkedUsage linkedUsage(Material material) {
+	public LinkedUsage linkedUsage(BlueprintMaterial material) {
 		return new LinkedUsage(
-				uri(material.getActivity().getType()).toString(),
-				material.getActivity().getType(),
+				typeUri(material.getTypeId()).toString(),
+				typeService.byId(material.getTypeId()),
 				material.getQuantity());
 	}
 
@@ -330,7 +330,7 @@ public class InventoryHtmlController {
 		}
 		if (productOf.size() == 1) {
 			model.addAttribute("bpeiv",
-					eivService.eiv(productOf.get(0).product().getActivity().getType().getId()));
+					eivService.eiv(productOf.get(0).product().getActivity().getTypeId()));
 		}
 		List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
 		if (bos != null && !bos.isEmpty()) {

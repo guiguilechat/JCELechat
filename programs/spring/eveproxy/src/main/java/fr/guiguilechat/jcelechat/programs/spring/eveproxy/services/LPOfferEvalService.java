@@ -9,15 +9,16 @@ import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivityService;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Offer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Requirement;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.BlueprintActivity;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.BlueprintActivityService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterial;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.product.BlueprintProduct;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MaterialSourcing;
@@ -42,6 +43,8 @@ public class LPOfferEvalService {
 	final private BlueprintActivityService blueprintActivityService;
 
 	final private MarketLineService regionLineService;
+
+	final private TypeService typeService;
 
 	@Getter
 	@Setter
@@ -155,16 +158,16 @@ public class LPOfferEvalService {
 			if (manuf.getProducts().size() != 1) {
 				throw new RuntimeException("activity " + manuf + " has not 1 product");
 			}
-			Product manufProd = manuf.getProducts().get(0);
-			product = manufProd.getType();
+			BlueprintProduct manufProd = manuf.getProducts().get(0);
+			product = typeService.byId(manufProd.getTypeId());
 			productQuantity *= manufProd.getQuantity();
 			int hours = (int) Math.ceil(1.0 * manuf.getTime() / 3600);
 			timeMarginPct = hours * marginPctPerHour;
 
-			for (Material mat : manuf.getMaterials()) {
+			for (BlueprintMaterial mat : manuf.getMaterials()) {
 				long required = offerQuantity * offer.getQuantity() * mat.getQuantity();
-				requiredMats.put(mat.getType().getId(),
-				    required + requiredMats.getOrDefault(mat.getType().getId(), 0L));
+				requiredMats.put(mat.getTypeId(),
+						required + requiredMats.getOrDefault(mat.getTypeId(), 0L));
 			}
 			tediousCost = bpCost * offerQuantity;
 		} else {
@@ -196,7 +199,7 @@ public class LPOfferEvalService {
 		Map<Integer, List<BlueprintActivity>> typeToActivities = blueprintActivityService
 		    .forBPActivity(corporationOffers.stream().map(co -> co.getOffer().getType().getId()).toList(),
 						List.of(ActivityType.manufacturing))
-		    .stream().collect(Collectors.groupingBy(ac -> ac.getType().getId()));
+				.stream().collect(Collectors.groupingBy(BlueprintActivity::getTypeId));
 		long activitiesFetched = System.currentTimeMillis();
 		Set<Integer> allIds = Stream.of(
 				// products of offers
@@ -206,10 +209,10 @@ public class LPOfferEvalService {
 		        .map(or -> or.getType().getId()),
 				// products of bp
 				typeToActivities.values().stream().flatMap(List::stream).flatMap(bpa -> bpa.getProducts().stream())
-		        .map(pr -> pr.getType().getId()),
+						.map(BlueprintProduct::getTypeId),
 				// BP mats
 				typeToActivities.values().stream().flatMap(List::stream).flatMap(bpa -> bpa.getMaterials().stream())
-		        .map(mat -> mat.getType().getId()))
+						.map(BlueprintMaterial::getTypeId))
 				.flatMap(s -> s).collect(Collectors.toSet());
 		long idsGathered = System.currentTimeMillis();
 		Map<Integer, List<MarketLine>> bosByTypeId = regionLineService.locationBos(marketLocationId, allIds);
@@ -220,7 +223,7 @@ public class LPOfferEvalService {
 		    .map(o -> value(o, maxLpAmount, materialSourcing, productValuator, brokerPct, taxPct, marginPct,
 						marginPctPerHour, bpCost, typeToActivities, bosByTypeId, sosByTypeId))
 				.filter(ev -> ev != null)
-		    .toList();
+				.toList();
 		long evaluated = System.currentTimeMillis();
 		log.debug(" evaluated " + corporationOffers.size()
 				+ " offers"

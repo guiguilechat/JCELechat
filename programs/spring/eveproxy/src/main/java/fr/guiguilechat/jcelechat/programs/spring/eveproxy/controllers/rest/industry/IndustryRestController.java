@@ -9,7 +9,9 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.Map.Entry;
+import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,17 +21,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.BlueprintActivity;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.BlueprintActivityService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterial;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterialService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.product.BlueprintProduct;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.product.BlueprintProductService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivityService;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Material;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.Product;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.ProductService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
@@ -52,11 +54,11 @@ public class IndustryRestController {
 
 	final private MarketLineService marketLineService;
 
-	final private MaterialService materialService;
+	final private BlueprintMaterialService materialService;
 
 	private final PriceService priceService;
 
-	final private ProductService productService;
+	final private BlueprintProductService productService;
 
 	final private TypeService typeService;
 
@@ -118,10 +120,10 @@ public class IndustryRestController {
 						rmap.put(s.locationId(), s.bestPrice());
 					}
 			    List<BlueprintActivity> mes = blueprintActivityService.forBPActivity(type.getId(),
-							ActivityType.researchMat);
+							ActivityType.research_material);
 					long meTime = mes.size() != 1 ? 0 : 256000L * mes.get(0).getTime() / 105;
 			    List<BlueprintActivity> tes = blueprintActivityService.forBPActivity(type.getId(),
-							ActivityType.researchTime);
+							ActivityType.research_time);
 
 			    BPInfo bp = null;
 			    if (type.getGroup().getCategory().getId() == 9) {
@@ -131,9 +133,9 @@ public class IndustryRestController {
 
 						LinkedHashMap<ActivityType, List<Integer>> produces = new LinkedHashMap<>();
 						for (ActivityType act : ActivityType.values()) {
-					    List<Product> prods = productService.findProducts(type.getId(), act);
+							List<BlueprintProduct> prods = productService.findProducts(type.getId(), act);
 							if (!prods.isEmpty()) {
-						    produces.put(act, prods.stream().map(p -> p.getType().getId()).toList());
+								produces.put(act, prods.stream().map(BlueprintProduct::getTypeId).toList());
 					    }
 						}
 						bp = new BPInfo(eiv, researchTime, produces);
@@ -141,9 +143,9 @@ public class IndustryRestController {
 
 					LinkedHashMap<ActivityType, List<Integer>> productOf = new LinkedHashMap<>();
 					for (ActivityType act : ActivityType.values()) {
-				    List<Product> prods = productService.findProducers(type.getId(), act);
+						List<BlueprintProduct> prods = productService.findProducers(type.getId(), act);
 						if (!prods.isEmpty()) {
-					    productOf.put(act, prods.stream().map(p -> p.getActivity().getType().getId()).toList());
+							productOf.put(act, prods.stream().map(p -> p.getActivity().getTypeId()).toList());
 						}
 					}
 
@@ -153,24 +155,25 @@ public class IndustryRestController {
 	}
 
 	public static record ConsumedMat(int typeId, String typeName, int quantity) {
-		public ConsumedMat(Material mat) {
-			this(mat.getType().getId(), mat.getType().name(), mat.getQuantity());
+		public ConsumedMat(BlueprintMaterial mat, Type type) {
+			this(mat.getTypeId(), type.name(), mat.getQuantity());
 		}
 	}
 
 	public static record ProducedItem(int typeId, String typeName, int quantity, BigDecimal probability) {
-		public ProducedItem(Product prod) {
-			this(prod.getType().getId(), prod.getType().name(), prod.getQuantity(), prod.getProbability());
+		public ProducedItem(BlueprintProduct prod, Type type) {
+			this(prod.getTypeId(), type.name(), prod.getQuantity(), prod.getProbability());
 		}
 	}
 
 	public static record ActivityInfo(int typeId, String name, ActivityType activity,
 			List<ConsumedMat> consumes, List<ProducedItem> produces) {
 
-		public ActivityInfo(Type type, ActivityType activity, List<Material> mats, List<Product> prods) {
+		public ActivityInfo(Type type, ActivityType activity, List<BlueprintMaterial> mats,
+				List<BlueprintProduct> prods, Function<Integer, Type> getType) {
 			this(type.getId(), type.name(), activity,
-					mats.stream().map(ConsumedMat::new).toList(),
-					prods.stream().map(ProducedItem::new).toList());
+					mats.stream().map(m -> new ConsumedMat(m, getType.apply(m.getTypeId()))).toList(),
+					prods.stream().map(p -> new ProducedItem(p, getType.apply(p.getTypeId()))).toList());
 		}
 	}
 
@@ -184,7 +187,7 @@ public class IndustryRestController {
 		List<ActivityInfo> ret = typeService.typesFilter(typeFiltering, typeFilter).stream()
 				.map(t -> new ActivityInfo(t, activity,
 		        materialService.forBPActivity(t.getId(), activity),
-		        productService.findProducts(t.getId(), activity)))
+						productService.findProducts(t.getId(), activity), typeService::byId))
 				.toList();
 		return RestControllerHelper.makeResponse(ret, accept);
 	}
@@ -247,17 +250,20 @@ public class IndustryRestController {
 			tidFilters = new HashSet<>(typeService.byGroupIdIn(gidFilters).stream().map(Type::getId).toList());
 		}
 
-		Map<Integer, Product> acceptedBpIdToProduct = (tidFilters == null
+		Map<Integer, BlueprintProduct> acceptedBpIdToProduct = (tidFilters == null
 				? productService.findProducts(List.of(ActivityType.manufacturing))
 				: productService.findProducers(tidFilters, List.of(ActivityType.manufacturing)))
-		    .stream().collect(Collectors.toMap(p -> p.getActivity().getType().getId(), p -> p));
-
+				.stream().collect(Collectors.toMap(p -> p.getActivity().getTypeId(), p -> p));
+		Map<Integer, Type> types = typeService.byId(acceptedBpIdToProduct.values().stream()
+				.flatMap(bpp -> Stream.of(bpp.getTypeId(), bpp.getActivity().getTypeId())).distinct().toList())
+				.stream().collect(Collectors.toMap(Type::getId, o -> o));
 		if (publishedValue != null) {
-			acceptedBpIdToProduct.entrySet().removeIf(e->e.getValue().getType().isPublished()!=publishedValue );
+			acceptedBpIdToProduct.entrySet()
+					.removeIf(e -> types.get(e.getValue().getTypeId()).isPublished() != publishedValue);
 		}
 		if (marketableValue != null) {
 			acceptedBpIdToProduct.entrySet()
-			    .removeIf(e -> e.getValue().getType().getMarketGroup() != null != marketableValue);
+					.removeIf(e -> types.get(e.getValue().getTypeId()).getMarketGroup() != null != marketableValue);
 		}
 
 		Map<Integer, Long> eivs = eivService.eivs(acceptedBpIdToProduct.keySet());
@@ -265,8 +271,8 @@ public class IndustryRestController {
 		Map<Integer, Double> averages = priceService.average();
 
 		List<BpValue> bpEivs = new ArrayList<>();
-		for (Entry<Integer, Product> e : acceptedBpIdToProduct.entrySet()) {
-			Product p = e.getValue();
+		for (Entry<Integer, BlueprintProduct> e : acceptedBpIdToProduct.entrySet()) {
+			BlueprintProduct p = e.getValue();
 			if (p == null) {
 				System.err.println(" bp id=" + e.getKey() + " null product");
 				continue;
@@ -277,10 +283,10 @@ public class IndustryRestController {
 			Double adjusted = null;
 			Double average = null;
 			if (p != null) {
-				adjusted = adjusteds.get(p.getType().getId());
-				average = averages.get(p.getType().getId());
-				productType = p.getType();
-				bpType = p.getActivity().getType();
+				adjusted = adjusteds.get(p.getTypeId());
+				average = averages.get(p.getTypeId());
+				productType = types.get(p.getTypeId());
+				bpType = types.get(p.getActivity().getTypeId());
 			}
 			if (productType != null && bpType != null) {
 				bpEivs.add(BpValue.of(bpType, productType, eiv, adjusted, average));

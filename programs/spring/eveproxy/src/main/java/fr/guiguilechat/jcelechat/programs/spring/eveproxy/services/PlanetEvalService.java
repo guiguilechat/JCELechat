@@ -13,11 +13,11 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.BlueprintActivity.ActivityType;
-import fr.guiguilechat.jcelechat.libs.spring.industry.blueprint.MaterialService;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.PlanetaryTaxService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchemProductService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchematicService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
@@ -43,7 +43,7 @@ import lombok.ToString;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class PlanetEvalService {
 
-	private final MaterialService materialService;
+	private final BlueprintMaterialService materialService;
 
 	final private PlanetaryTaxService planetaryTaxService;
 
@@ -74,14 +74,14 @@ public class PlanetEvalService {
 
 		ANY {
 			@Override
-			public boolean accept(Collection<Type> products, MaterialService materialService) {
+			public boolean accept(Collection<Type> products, BlueprintMaterialService materialService) {
 				return true;
 			}
 		},
 		P4 {
 
 			@Override
-			public boolean accept(Collection<Type> products, MaterialService materialService) {
+			public boolean accept(Collection<Type> products, BlueprintMaterialService materialService) {
 				return products.stream().filter(t -> t.getGroup().getId() == P4_GID).findAny().isPresent();
 			}
 
@@ -89,7 +89,7 @@ public class PlanetEvalService {
 		P3 {
 
 			@Override
-			public boolean accept(Collection<Type> products, MaterialService materialService) {
+			public boolean accept(Collection<Type> products, BlueprintMaterialService materialService) {
 				return products.stream().filter(t -> t.getGroup().getId() == P3_GID).findAny().isPresent();
 			}
 
@@ -97,7 +97,7 @@ public class PlanetEvalService {
 		P2 {
 
 			@Override
-			public boolean accept(Collection<Type> products, MaterialService materialService) {
+			public boolean accept(Collection<Type> products, BlueprintMaterialService materialService) {
 				return products.stream().filter(t -> t.getGroup().getId() == P2_GID).findAny().isPresent();
 			}
 
@@ -105,7 +105,7 @@ public class PlanetEvalService {
 		USED_MANUF {
 
 			@Override
-			public boolean accept(Collection<Type> products, MaterialService materialService) {
+			public boolean accept(Collection<Type> products, BlueprintMaterialService materialService) {
 				Set<Type> materials = materialService.allActivityMaterialsInCategory(ActivityType.manufacturing,
 						ADVCOMMODITIES_CID);
 				return products.stream().filter(materials::contains).findAny().isPresent();
@@ -114,9 +114,9 @@ public class PlanetEvalService {
 		},
 		;
 
-		public abstract boolean accept(Collection<Type> products, MaterialService materialService);
+		public abstract boolean accept(Collection<Type> products, BlueprintMaterialService materialService);
 
-		public boolean accept(PlanetaryFactory factory, MaterialService materialService) {
+		public boolean accept(PlanetaryFactory factory, BlueprintMaterialService materialService) {
 			return accept(factory.products(), materialService);
 		}
 
