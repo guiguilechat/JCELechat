@@ -7,6 +7,14 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.DeducedEntityRe
 
 public interface BlueprintProductRepository extends DeducedEntityRepository<BlueprintProduct> {
 
-	List<BlueprintProduct> findAllByTypeIdAndActivity(int typeId, ActivityType activity);
+	List<BlueprintProduct> findAllByActivityTypeIdAndActivityActivityType(int bpId, ActivityType activityType);
+
+	List<BlueprintProduct> findAllByActivityTypeIdInAndActivityActivityType(Iterable<Integer> bpIds,
+			ActivityType activityType);
+
+	List<BlueprintProduct> findAllByActivityActivityTypeIn(Iterable<ActivityType> activities);
+
+	List<BlueprintProduct> findAllByTypeIdInAndActivityActivityTypeIn(Iterable<Integer> productIds,
+			Iterable<ActivityType> ats);
 
 }

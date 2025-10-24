@@ -58,20 +58,12 @@ public class BlueprintUpdater extends SdeEntityUpdater<Blueprint, BlueprintServi
 	private BlueprintSkillService blueprintSkillService;
 
 	@Override
-	public void beforeSdeUpdate() {
-		super.beforeSdeUpdate();
-		if (skip) {
-			return;
-		}
-		blueprintActivityService().delete();
+	protected void processSource(LinkedHashMap<Integer, Eblueprints> sources) {
+		var storedEntities = new HashMap<>(service().allById());
 		blueprintMaterialService().delete();
 		blueprintProductService().delete();
 		blueprintSkillService().delete();
-	}
-
-	@Override
-	protected void processSource(LinkedHashMap<Integer, Eblueprints> sources) {
-		var storedEntities = new HashMap<>(service().allById());
+		blueprintActivityService().delete();
 		List<BlueprintActivity> activities = new ArrayList<>();
 		List<BlueprintMaterial> materials = new ArrayList<>();
 		List<BlueprintProduct> products = new ArrayList<>();

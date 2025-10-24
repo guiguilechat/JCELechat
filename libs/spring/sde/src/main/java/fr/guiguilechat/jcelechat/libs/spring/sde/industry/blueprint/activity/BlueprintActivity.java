@@ -14,6 +14,7 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Index;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.Getter;
@@ -21,7 +22,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "SdeIndustryBlueprintActivity")
-@Table(name = "sde_industry_blueprintactivity")
+@Table(name = "sde_industry_blueprintactivity", indexes = {
+		@Index(columnList = "typeId"),
+		@Index(columnList = "activityType")
+})
 @Getter
 @Setter
 @NoArgsConstructor

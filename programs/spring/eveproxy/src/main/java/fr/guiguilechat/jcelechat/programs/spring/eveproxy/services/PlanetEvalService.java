@@ -13,7 +13,6 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.PlanetaryTaxService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchemProductService;
 import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchematicService;
@@ -103,12 +102,10 @@ public class PlanetEvalService {
 
 		},
 		USED_MANUF {
-
 			@Override
 			public boolean accept(Collection<Type> products, BlueprintMaterialService materialService) {
-				Set<Type> materials = materialService.allActivityMaterialsInCategory(ActivityType.manufacturing,
-						ADVCOMMODITIES_CID);
-				return products.stream().filter(materials::contains).findAny().isPresent();
+				return products.stream().filter(p -> p.getGroup().getCategory().getId() == ADVCOMMODITIES_CID)
+						.findAny().isPresent();
 			}
 
 		},
