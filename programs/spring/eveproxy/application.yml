@@ -1,4 +1,4 @@
-
+# used for local launch, not embeded in the app
 
 gameclient:
    fetcher:
@@ -10,7 +10,7 @@ esi:
       war:
          info:
             update:
-               skip: false
+#               skip: false
    npc:
       lpcorporation:
          update:
@@ -42,12 +42,40 @@ esi:
             skip: false
 jcesi:
    manager:
-      default:
-         skip: true
+#      default:
+#         skip: true
       delay: 0
       period: 2000
+
+logging:
+   level:
+      fr:
+         guiguilechat:
+            jcelechat:
+               jcesi: info
+               libs:
+                  spring:
+                     update: 
+                        level: debug
+                        limits: trace
+                        fetched:
+                           FetchedEntityService: trace
+
+mer:
+   update:
+      skip: true
 
 sde:
    fetcher:
       update:
          skip: false
+   space:
+      moon.skip: true
+         
+spring:
+   cache:
+      type: simple
+   datasource:
+      password: admin
+      url: jdbc:h2:./db/export
+      username: admin

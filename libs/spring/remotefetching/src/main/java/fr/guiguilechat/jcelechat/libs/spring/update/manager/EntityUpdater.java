@@ -18,9 +18,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * interface to implement by services which update local entities.
+ * General interface for service which update local entities.
  */
-public interface IEntityUpdater {
+public interface EntityUpdater {
 
 	/**
 	 * @return actual class name. Used to avoid proxy name when called from outside
@@ -79,8 +79,7 @@ public interface IEntityUpdater {
 		private int delayUpdated = 60;
 
 		/**
-		 * base delay before retrying, per response code. Defaults to 60 (1min) for 4xx
-		 * , 1s for others
+		 * base delay before retrying, per response code.
 		 */
 		private Map<Integer, Integer> delayBase = new HashMap<>(Map.of(
 				401, 12 * 3600 // 12h to wait when banned
@@ -182,7 +181,7 @@ public interface IEntityUpdater {
 	/**
 	 * TODO use actual implementation : 1000 for oracle, Integer.maxInt for others
 	 *
-	 * @return maximum elements we can add in a list.
+	 * @return maximum elements we can add in a list query param.
 	 */
 	default int maxInList() {
 		return 1000;

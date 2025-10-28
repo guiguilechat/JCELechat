@@ -21,7 +21,20 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * automatically updates the data for service handling remote resource caching.
+ * automatically call services that update local resources.
+ * <p>
+ * default configuration (yaml) is
+ *
+ * <pre>
+jcesi.manager:
+  default.skip: true # true : disable all updaters that are not explicitly skip=false
+                     # false: enable all updaters that are not explicitly skip=true
+  delay: 1000 # initial delay before starting
+  period: 1000 # delay between the end of an update and the start of the next
+  skip: false # set to true to not trigger the updaters
+  updatedelay: 30 # when no more service to update, how long to wait for the next update loop
+ * </pre>
+ * </p>
  */
 @Slf4j
 @Service
@@ -33,7 +46,7 @@ public class ResourceUpdaterService {
 	private final ESIStatusService esiStatusService;
 
 	@Lazy
-	private final Optional<List<IEntityUpdater>> fetchedServices;
+	private final Optional<List<EntityUpdater>> fetchedServices;
 
 	//
 	// those are mostly used for debuging and stopping
@@ -55,7 +68,7 @@ public class ResourceUpdaterService {
 	@Value("${jcesi.manager.skip:false}")
 	private boolean skip;
 
-	@Value("${jcesi.manager.updateddelay:60}")
+	@Value("${jcesi.manager.updateddelay:30}")
 	private int updatedDelay;
 
 	private Instant nextUpdate = Instant.now();
@@ -72,23 +85,23 @@ public class ResourceUpdaterService {
 			return;
 		}
 		boolean remainService = false;
-		List<IEntityUpdater> registeredServices = fetchedServices.orElse(List.of());
-		List<IEntityUpdater> activeServices = registeredServices.stream().filter(s -> !skipService(s))
+		List<EntityUpdater> registeredServices = fetchedServices.orElse(List.of());
+		List<EntityUpdater> activeServices = registeredServices.stream().filter(s -> !shouldSkip(s))
 		    .toList();
-		List<IEntityUpdater> readyServices = activeServices.stream().filter(s -> {
+		List<EntityUpdater> readyServices = activeServices.stream().filter(s -> {
 			Instant next = fetcherNameToNextUpdate.get(s.fetcherName());
 			return next == null || !next.isAfter(start);
 		}).toList();
 		log.debug("updating : {} ready / {} active / {} registered", readyServices.size(), activeServices.size(),
 		    registeredServices.size());
-		for (IEntityUpdater s : readyServices) {
+		for (EntityUpdater s : readyServices) {
 			log.debug("updating {}", s.fetcherName());
 			boolean remain = s.fetch();
 			remainService |= remain;
 			Instant serviceNextUpdate = s.nextUpdate(remain, start);
 			fetcherNameToNextUpdate.put(s.fetcherName(), serviceNextUpdate);
 			log.debug(" updated {} remaining={} next={}", s.fetcherName(), remain, format(serviceNextUpdate));
-			if (!esiStatusService.lastOk()) {
+			if (!esiStatusService.isOk()) {
 				log.debug("skip next services as esi status is error");
 				remainService = true;
 				break;
@@ -122,12 +135,12 @@ public class ResourceUpdaterService {
 	private boolean defaultSkip;
 
 	/**
-	 * tells whether a give updater service should be skipped
+	 * tells whether an existing updater service should be skipped
 	 *
 	 * @param updater
 	 * @return
 	 */
-	public boolean skipService(IEntityUpdater updater) {
+	public boolean shouldSkip(EntityUpdater updater) {
 		return Optional.ofNullable(updater.getUpdate().getSkip()).orElse(defaultSkip);
 	}
 

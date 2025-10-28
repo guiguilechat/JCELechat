@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepositoryAutoId;
@@ -31,7 +31,7 @@ import lombok.experimental.Accessors;
 public abstract class ACharDataRecordListService<
     	Entity extends AFetchedList<Integer, Fetched, ListRecord>,
     	Fetched,
-    	Repository extends IRemoteEntityRepository<Entity, Integer>,
+    	Repository extends RemoteEntityRepository<Entity, Integer>,
 		ListRecord extends AFetchedListElementAutoId<?, Entity>,
 		RecordRepo extends IFetchedListElementRepositoryAutoId<Entity, ListRecord>>
     extends AConnectedCharDataService<Entity, Fetched[], Repository> {

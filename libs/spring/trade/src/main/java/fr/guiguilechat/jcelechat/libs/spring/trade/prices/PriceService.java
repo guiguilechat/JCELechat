@@ -18,8 +18,8 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService.EntityUpdateListener;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityService.EntityUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -30,7 +30,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.prices")
 @Order(4) // depends on type
-public class PriceService extends AFetchedResourceService<Price, Integer, PriceRepository>
+public class PriceService extends FetchedEntityService<Price, Integer, PriceRepository>
     implements EntityUpdateListener {
 
 	@Lazy
@@ -53,7 +53,7 @@ public class PriceService extends AFetchedResourceService<Price, Integer, PriceR
 
 	@Override
 	protected boolean fetchUpdate() {
-		int remainErrors = esiStatusService().availErrors();
+		int remainErrors = globalErrors().availErrors();
 		if (remainErrors <= getUpdate().getErrorsMin()) {
 			log.trace("{} skip updates as only {} remaining errors", fetcherName(), remainErrors);
 			return false;
@@ -100,13 +100,13 @@ public class PriceService extends AFetchedResourceService<Price, Integer, PriceR
 	@Getter(lazy = true)
 	private final boolean selfInvalidate = true;
 
-	public static interface PriceListener extends EntityUpdateListener {
+	public interface PriceListener extends EntityUpdateListener {
 	}
 
 	@Getter
 	@Lazy
 	private final Optional<List<PriceListener>> listeners;
-	
+
 	@Getter
 	  private final List<String> cacheList = List.of(
 		    "pricesAdjusted",

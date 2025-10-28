@@ -1,66 +1,27 @@
-esi:
-#   items:
-#      attribute:
-#         update:
-#            max: 800
-#            skip: false
-#      category:
-#         update:
-#            skip: false
-#      effect:
-#         update:
-#            skip: false
-#      group:
-#         update:
-#            skip: false
-#      type:
-#         update:
-#            max: 1000
-#            delay: 0
-#            skip: false
-#   universe:
-#      moon:
-#         update:
-#            max: 1200
-#      planet:
-#         update:
-#            skip: false
-#      region:
-#         update:
-#            skip: false
-#      solarSystem:
-#         planets: true
-#         moons: true
-#      star:
-#         update:
-#            skip: false
-#      stargate:
-#         update:
-#            skip: false
-#      station:
-#         update:
-#            skip: false
-   updater:
-      default:
-         skip: true
-      delay: 0
-      period: 2000
-      skip: false
 
 jcelechat:
    noscrape:
       oncomplete:
          stop: false
 
+jcesi:
+   updater:
+#      default:
+#         skip: true # default is true
+      delay: 0
+      period: 2000
+#      skip: false #default is false
+
 logging:
    level:
       fr:
          guiguilechat:
             jcelechat:
-               jcesi: INFO
+               jcesi: infos
                libs:
                   spring:
                      update: debug
+
 sde:
    fetcher:
       force: true
@@ -68,6 +29,7 @@ sde:
          skip: false
    space:
       moon.skip: true
+
 spring:
    cache:
       type: simple
@@ -75,8 +37,3 @@ spring:
       password: admin
       url: jdbc:h2:./db/export
       username: admin
-#   datasource:
-#      hikari: validationTimeout:300000 # 5min timeout for access local h2 DB
-#      password: admin
-#      url: jdbc:h2:./db/export
-#      username: admin

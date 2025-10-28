@@ -4,7 +4,7 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Lob;
@@ -22,7 +22,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class FactionInfo extends AFetchedResource<Integer> {
+public class FactionInfo extends FetchedEntity<Integer> {
 
 	@ManyToOne
 	private CorporationInfo corporation;

@@ -8,28 +8,28 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResource;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.IFetchedResourceRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityService;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 /**
  * abstract service to fetch all entities in a batch. Such a service does not
- * update entities by their id, but instead fetch a list of all the entities at
+ * fetch each entities by its id, but instead fetches all the entities at
  * once.
- * 
+ *
  * @param <Entity>
  * @param <Id>
  * @param <Repository>
  */
 @Slf4j
 public abstract class AResourceBatchFetcher<
-		Entity extends AFetchedResource<Id>,
+		Entity extends FetchedEntity<Id>,
     Id extends Number,
     Fetched,
-    Repository extends IFetchedResourceRepository<Entity, Id>>
-    extends AFetchedResourceService<Entity, Id, Repository> {
+    Repository extends FetchedEntityRepository<Entity, Id>>
+    extends FetchedEntityService<Entity, Id, Repository> {
 
 	@Override
 	public long nbToUpdate() {
@@ -49,7 +49,7 @@ public abstract class AResourceBatchFetcher<
 
 	@Override
 	protected boolean fetchUpdate() {
-		int remainErrors = esiStatusService().availErrors();
+		int remainErrors = globalErrors().availErrors();
 		if (remainErrors <= getUpdate().getErrorsMin()) {
 			log.trace("{} skip updates as only {} remaining errors", fetcherName(), remainErrors);
 			return false;
@@ -63,6 +63,7 @@ public abstract class AResourceBatchFetcher<
 		Requested<List<Fetched>> resp = fetchList(properties);
 		nextUpdate = null;
 		if (resp != null) {
+			processResponse(resp);
 			switch (resp.getResponseCode()) {
 			case 200:
 				List<Fetched> fetched = resp.getOK();

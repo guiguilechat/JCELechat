@@ -25,7 +25,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
 import fr.guiguilechat.jcelechat.model.formula.space.WarpTime;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
 import lombok.Getter;
@@ -39,7 +39,7 @@ import lombok.extern.slf4j.Slf4j;
 // depend on solarsystem type
 @Order(4)
 public class StargateService extends
-		ARemoteEntityService<Stargate, Integer, R_get_universe_stargates_stargate_id, StargateRepository> {
+		RemoteEntityService<Stargate, Integer, R_get_universe_stargates_stargate_id, StargateRepository> {
 
 	@Lazy
 	private final SolarSystemService solarSystemService;

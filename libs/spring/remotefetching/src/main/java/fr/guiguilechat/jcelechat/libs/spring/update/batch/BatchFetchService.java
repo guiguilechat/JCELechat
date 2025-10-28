@@ -12,8 +12,9 @@ import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetch.BatchItem;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetch.STATUS;
-import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
-import fr.guiguilechat.jcelechat.libs.spring.update.resolve.status.ESIStatusService;
+import fr.guiguilechat.jcelechat.libs.spring.update.limits.GlobalErrors;
+import fr.guiguilechat.jcelechat.libs.spring.update.limits.TokensBucket;
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
@@ -27,13 +28,7 @@ public abstract class BatchFetchService<
     Item extends BatchItem<Fetch, ?>,
     ItemRepo extends JpaRepository<Item, ?>, Structure
 >
-    implements IEntityUpdater {
-
-
-	@Autowired // can't use constructor injection for generic service
-	@Accessors(fluent = true)
-	@Getter(value = AccessLevel.PROTECTED)
-	private ESIStatusService esiStatusService;
+    implements EntityUpdater {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -45,6 +40,15 @@ public abstract class BatchFetchService<
 	@Getter(value = AccessLevel.PROTECTED)
 	private ItemRepo itemRepository;
 
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private TokensBucket tokensBucket;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private GlobalErrors globalErrors;
 
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
@@ -61,7 +65,7 @@ public abstract class BatchFetchService<
 		if (nextUpdate != null) {
 			return nextUpdate;
 		}
-		return IEntityUpdater.super.nextUpdate(remain, now);
+		return EntityUpdater.super.nextUpdate(remain, now);
 	}
 
 	protected abstract Requested<Structure> fetchData(Map<String, String> properties);
@@ -79,9 +83,9 @@ public abstract class BatchFetchService<
 		if (lastSuccess != null && Instant.now().isBefore(lastSuccess.getExpires())) {
 			return false;
 		}
-		int errorsRemain = esiStatusService().availErrors();
+		int errorsRemain = globalErrors().availErrors();
 		if (errorsRemain < getUpdate().getErrorsMin()) {
-			setNextUpdate(esiStatusService().getErrorReset());
+			setNextUpdate(globalErrors().getErrorReset());
 			return true;
 		}
 

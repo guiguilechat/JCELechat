@@ -22,7 +22,7 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 import lombok.Getter;
@@ -35,7 +35,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.trade.contract.info")
 @Order(6) // depends on type and contractregion for the items ; then set to a higher
 // number because it's likely to create more errors
-public class ContractInfoService extends ARemoteEntityService<
+public class ContractInfoService extends RemoteEntityService<
 ContractInfo,
 Integer,
 R_get_contracts_public_items_contract_id[],
@@ -128,7 +128,7 @@ ContractInfoRepository> {
 	 */
 	@Override
 	protected List<ContractInfo> listToUpdate() {
-		int batchSize = nextBatchSize();
+		int batchSize = maxAllowedQueries();
 		if (batchSize < 1) {
 			return List.of();
 		}
@@ -169,7 +169,7 @@ ContractInfoRepository> {
 	}
 
 	protected int pessimisticBatchSize(int optimisticBatchSize) {
-		int maxErrors = esiStatusService().availErrors();
+		int maxErrors = globalErrors().availErrors();
 		if (maxErrors < 20) {
 			return 0;
 		}

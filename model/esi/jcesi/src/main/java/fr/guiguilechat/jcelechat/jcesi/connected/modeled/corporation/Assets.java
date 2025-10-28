@@ -82,7 +82,8 @@ public class Assets {
 					System.err.println("" + in.item_id + "\t" + in.location_flag + "\t" + in.type_id + "\t" + in.type().group_id
 							+ "\t" + in.type().name);
 				}
-				if (names.getRemainingErrors() < 1) {
+				Integer remainingErrors = names.getRemainingErrors();
+				if (remainingErrors != null && remainingErrors < 1) {
 					try {
 						System.out.println("sleeping " + names.getErrorsReset() + " seconds");
 						Thread.sleep(1000 * names.getErrorsReset());

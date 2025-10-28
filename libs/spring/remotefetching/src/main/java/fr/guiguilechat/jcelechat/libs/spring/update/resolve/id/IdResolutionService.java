@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.resolve.name")
 @Order(0) // does not depend on anything
 public class IdResolutionService
-extends ARemoteEntityService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
+extends RemoteEntityService<IdResolution, Integer, R_post_universe_names, IdResolutionRepository> {
 
 	@Lazy
 	private final Optional<List<IdResolutionListener>> idResolutionListeners;

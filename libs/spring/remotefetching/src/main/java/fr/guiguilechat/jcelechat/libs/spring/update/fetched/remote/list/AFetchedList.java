@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import jakarta.persistence.MappedSuperclass;
 import jakarta.persistence.OneToMany;
 import lombok.Getter;
@@ -22,7 +22,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 public abstract class AFetchedList<Id extends Number, Fetched, RecordType extends AFetchedListElement<?, ?>>
-    extends ARemoteEntity<Id, Fetched[]> {
+    extends RemoteEntity<Id, Fetched[]> {
 
 	@OneToMany(mappedBy = "fetchResource")
 	private List<RecordType> elements = new ArrayList<>();

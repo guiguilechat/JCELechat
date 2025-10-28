@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -18,7 +17,7 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ListingRemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -30,7 +29,7 @@ import lombok.extern.slf4j.Slf4j;
 @Order(5) // depends on region, stations
 public class ContractRegionService
     extends
-    ARemoteEntityService<ContractRegion, Integer, List<R_get_contracts_public_region_id>, ContractRegionRepository> {
+		ListingRemoteEntityService<ContractRegion, Integer, List<R_get_contracts_public_region_id>, ContractRegionRepository> {
 
 	@Lazy
 	private final ContractInfoService contractInfoService;
@@ -76,7 +75,7 @@ public class ContractRegionService
 
 	/**
 	 * update if needed, and create the new contracts to save later
-	 * 
+	 *
 	 * @param region    region we fetched the contracts for
 	 * @param contracts list of corresponding contracts
 	 * @return list of contract info that have been modified (created or marked as
@@ -127,8 +126,8 @@ public class ContractRegionService
 	}
 
 	@Override
-	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
-		return p -> ESIRawPublic.INSTANCE.get_universe_regions(p).mapBody(List::of);
+	protected Requested<List<Integer>> listRemoteIds(Map<String, String> p) {
+		return ESIRawPublic.INSTANCE.get_universe_regions(p).mapBody(List::of);
 	}
 
 }

@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
-import java.util.function.Function;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -19,7 +18,7 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ListingRemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import lombok.Getter;
@@ -32,7 +31,8 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.trade.market")
 @Order(4) // depends on region, type
 public class MarketRegionService
-extends ARemoteEntityService<MarketRegion, Integer, R_get_markets_region_id_orders[], MarketRegionRepository> {
+		extends
+		ListingRemoteEntityService<MarketRegion, Integer, R_get_markets_region_id_orders[], MarketRegionRepository> {
 
 	@Lazy
 	private final MarketLineService marketLineService;
@@ -170,8 +170,8 @@ extends ARemoteEntityService<MarketRegion, Integer, R_get_markets_region_id_orde
 	}
 
 	@Override
-	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
-		return p -> ESIRawPublic.INSTANCE.get_universe_regions(p).mapBody(List::of);
+	protected Requested<List<Integer>> listRemoteIds(Map<String, String> p) {
+		return ESIRawPublic.INSTANCE.get_universe_regions(p).mapBody(List::of);
 	}
 
 	// cache

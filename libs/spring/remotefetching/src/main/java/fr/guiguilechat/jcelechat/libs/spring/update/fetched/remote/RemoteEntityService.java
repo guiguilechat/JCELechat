@@ -2,23 +2,20 @@ package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
-import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.event.EventListener;
 import org.springframework.data.domain.Limit;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.transaction.annotation.Propagation;
@@ -32,11 +29,8 @@ import com.fasterxml.jackson.databind.json.JsonMapper;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResourceService;
-import lombok.Getter;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityService;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -55,11 +49,12 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @NoArgsConstructor
-public abstract class ARemoteEntityService<Entity extends ARemoteEntity<IdType, Fetched>,
-IdType extends Number,
-Fetched,
-Repository extends IRemoteEntityRepository<Entity, IdType>>
-extends AFetchedResourceService<Entity, IdType, Repository> {
+public abstract class RemoteEntityService<
+		Entity extends RemoteEntity<IdType, Fetched>,
+		IdType extends Number,
+		Fetched,
+		Repository extends RemoteEntityRepository<Entity, IdType>>
+	extends FetchedEntityService<Entity, IdType, Repository> {
 
 	//
 	// entity create & save
@@ -151,15 +146,21 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 	 */
 	protected Map<Entity, Fetched> fetchData(List<Entity> entities) {
 		Map<Entity, Future<Requested<Fetched>>> dataToFuture = entities.stream()
-				.collect(Collectors.toMap(d -> d, d -> executionService().submit(() -> fetchData(d.getId(), d.getLastEtag()))));
+				.collect(Collectors.toMap(d -> d,
+						d -> executionService().submit(
+								() -> fetchData(d.getId(), d.getLastEtag()))));
 		Map<Entity, Requested<Fetched>> dataToRequested = new HashMap<>();
+		List<Requested<?>> responses = new ArrayList<>();
 		for (Entry<Entity, Future<Requested<Fetched>>> e : dataToFuture.entrySet()) {
 			try {
-				dataToRequested.put(e.getKey(), e.getValue().get(5000, TimeUnit.SECONDS));
+				Requested<Fetched> response = e.getValue().get(5000, TimeUnit.SECONDS);
+				dataToRequested.put(e.getKey(), response);
+				responses.add(response);
 			} catch (InterruptedException | ExecutionException | TimeoutException e1) {
 				dataToRequested.put(e.getKey(), null);
 			}
 		}
+		processResponses(responses);
 		Map<Entity, Fetched> responseOk = new HashMap<>();
 		for (Entry<Entity, Requested<Fetched>> e : dataToRequested.entrySet()) {
 			Entity data = e.getKey();
@@ -288,7 +289,7 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 
 	/**
 	 * Called when the request returned a 304 (no change). Defaults to
-	 * {@link #updateMetaOk(ARemoteEntity, Requested)}
+	 * {@link #updateMetaOk(RemoteEntity, Requested)}
 	 */
 	protected void updateNoChange(Entity data, Requested<Fetched> response) {
 		updateMetaOk(data, response);
@@ -379,146 +380,23 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 		log.warn("{} received null body (204) for entity {}", fetcherName(), data.getId());
 	}
 
-	//
-	// pre update is fetching new elements if possible
-	//
-
-	//
-	// list updating methods
-	// those are only used for services whose entities are static and listed.
-	// to implement, just override the listFetcher()
-	//
-
-	@Getter
-	@Setter
-	@ToString()
-	public class ListConfig {
-
-		private boolean skip = false;
-
-		private List<IdType> init = null;
-
-		/** minimum delay, in s, between two listing. Ignored if &lt;0 */
-		private int delay = 10;
-
-	}
-
-	@Getter
-	private final ListConfig list = new ListConfig();
 
 	@Override
 	public String propertiesAsString() {
 		try {
 			ObjectMapper om = JsonMapper.builder().configure(JsonReadFeature.ALLOW_UNQUOTED_FIELD_NAMES, true).build();
-			return om.writeValueAsString(Map.of(
-					"update", getUpdate(),
-					"list", getList()));
+			return om.writeValueAsString(propertiesMap());
 		} catch (JsonProcessingException e) {
 			throw new RuntimeException(e);
 		}
 	}
 
-	private String lastListEtag = null;
-	private Instant listExpires = null;
-
-	/** check new entries */
-
-	@Override
-	protected void preUpdate() {
-		super.preUpdate();
-		if (!list.skip && (listExpires == null || listExpires.isBefore(Instant.now()))) {
-			Function<Map<String, String>, Requested<List<IdType>>> fetcher = listFetcher();
-			if (fetcher != null) {
-				int nbRemainingErrors = esiStatusService().availErrors();
-				if (nbRemainingErrors <= getUpdate().getErrorsMin()) {
-					log.trace("{} skip pre update as only {} remaining errors", fetcherName(), nbRemainingErrors);
-					return;
-				}
-				long startms = System.currentTimeMillis();
-				log.trace("{} started listing new entries", fetcherName());
-				Map<String, String> properties = new HashMap<>();
-				if (lastListEtag != null) {
-					properties.put(ConnectedImpl.IFNONEMATCH, lastListEtag);
-				}
-				Requested<List<IdType>> resp = fetcher.apply(properties);
-				if (resp != null) {
-					switch (resp.getResponseCode()) {
-					case 200:
-						long postFetch = System.currentTimeMillis();
-						log.debug(" {} listed {} entries in {}s", fetcherName(), resp.getOK().size(), (postFetch - startms) / 1000);
-						onNewListFetched(insertIfAbsent(resp.getOK()));
-						lastListEtag = resp.getETag();
-						listExpires = resp.getExpiresInstant();
-						break;
-					case 304:
-						listExpires = resp.getExpiresInstant();
-						log.trace(" {} received no list change", fetcherName());
-						break;
-					default:
-						log.warn("update service {} received invalid response {} when requesting list of entities",
-								getClass().getSimpleName(), resp);
-					}
-				} else {
-					log.warn("update service {} received null list of entities",
-							getClass().getSimpleName());
-				}
-				if (getList().getDelay() > 0) {
-					Instant nextListFromDelay = Instant.now().plusSeconds(getList().getDelay());
-					if (listExpires == null || nextListFromDelay.isAfter(listExpires)) {
-						listExpires = nextListFromDelay;
-					}
-				}
-				long endms = System.currentTimeMillis();
-				log.trace("{} finished listing new entries in {}s", fetcherName(), (endms - startms) / 1000);
-			}
-		}
-	}
-
-	/** called when new ids have been listed */
-	protected void onNewListFetched(Set<IdType> newIds) {
-
-	}
-
 	/**
-	 * function to list the ids from the remote
-	 *
-	 * @param properties should contain the etags
+	 * @return the properties set at startup, by field name, to be printed when
+	 *         debug is activated.
 	 */
-	protected Requested<List<IdType>> listRemoteIds(Map<String, String> properties) {
-		return null;
-	}
-
-	/**
-	 * the method to overwrite to make it auto fetch entities.
-	 * <p>
-	 * The typical implementation, if exists, is to override and call
-	 * {@link #listRemoteIds(Map)} eg
-	 *
-	 * <pre>{@code
-	 * protected Function<Map<String, String>, Requested<List<IdType>>> listFetcher() {
-	 *   return this::listRemoteIds;
-	 * }
-	 * }</pre>
-	 *
-	 * If there is no listing method, then returning null (default implementation)
-	 * implies no listing and the updater will skip this phase
-	 * </p>
-	 *
-	 * @return
-	 */
-	protected Function<Map<String, String>, Requested<List<IdType>>> listFetcher() {
-		return null;
-	}
-
-	/**
-	 * create the entities with id specified in the configuration at startup.
-	 */
-	@EventListener(ApplicationReadyEvent.class)
-	public void addListInit() {
-		if (list.init != null && !list.init.isEmpty()) {
-			log.trace("{} init={}", fetcherName(), list.init);
-			insertIfAbsent(list.init);
-		}
+	protected Map<String, Object> propertiesMap() {
+		return Map.of("update", getUpdate());
 	}
 
 	//
@@ -574,16 +452,13 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 
 	private Instant lastUpdateTime = null;
 
-	protected int nextBatchSize() {
-		// define qtty to get from the cycle and errors
-		int maxFromCycle = getUpdate().getMax();
-		int remainErrors = esiStatusService().availErrors();
-		if (remainErrors <= getUpdate().getErrorsMin()) {
-			log.trace("{} skip updates as only {} remaining errors", fetcherName(), remainErrors);
-			return 0;
-		} else if (remainErrors < getUpdate().getErrorsForMax()) {
-			maxFromCycle = (int) Math.ceil(1.0 * maxFromCycle * getUpdate().getErrorsForMax() / remainErrors);
-		}
+	/**
+	 * for those remote 1-1 entities, we also enforce the rate limit, in addition to
+	 * {@link FetchedEntityService#maxAllowedQueries}
+	 */
+	@Override
+	protected int maxAllowedQueries() {
+		int maxFromCycle = super.maxAllowedQueries();
 		// define qtty to get from the rate
 		int maxFromRate = getUpdate().getMax();
 		if (lastUpdateTime != null) {
@@ -598,20 +473,14 @@ extends AFetchedResourceService<Entity, IdType, Repository> {
 	/**
 	 * List the next entities to update.
 	 * <p>
-	 * This is using two limit on the number of returned entities, using the lowest
-	 * one of :
-	 * <ol>
-	 * <li>a per-cycle limit that is then reduced as the errors allowed is
-	 * reduced</li>
-	 * <li>a per-second limit that is applied assuming instantaneous fetch and
-	 * remember the start and batch size of the previous successful call</li>
-	 * </ol>
+	 * This limits the number of entities to update based on
+	 * {@link #maxAllowedQueries()}
 	 * </p>
 	 *
 	 * @return the next entities that are to be updated
 	 */
 	protected List<Entity> listToUpdate() {
-		lastBatchSize = nextBatchSize();
+		lastBatchSize = maxAllowedQueries();
 		List<Entity> ret = lastBatchSize < 1
 				? List.of()
 						: repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));

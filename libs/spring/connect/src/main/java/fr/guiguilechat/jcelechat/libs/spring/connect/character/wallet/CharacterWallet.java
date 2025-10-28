@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
 import jakarta.persistence.Table;
@@ -19,7 +19,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class CharacterWallet extends ARemoteEntity<Integer, Double> {
+public class CharacterWallet extends RemoteEntity<Integer, Double> {
 
 	private double wallet = 0.0;
 

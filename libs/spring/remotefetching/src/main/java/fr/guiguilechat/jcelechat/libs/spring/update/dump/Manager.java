@@ -9,7 +9,7 @@ import java.util.Map.Entry;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.ResourceUpdaterService;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
@@ -28,10 +28,10 @@ public class Manager {
 		    s.getFetchedServices().orElse(List.of()).size(), s.isSkip(), s.isDefaultSkip(), s.getUpdatedDelay());
 		Map<String, List<String>> propertiesPrefixToServices = new HashMap<>();
 		log.trace("{} active services :",
-		    s.getFetchedServices().orElse(List.of()).stream().filter(l -> !s.skipService(l)).count());
-		List<IEntityUpdater> inactive = new ArrayList<>();
-		for (IEntityUpdater l : s.getFetchedServices().orElse(List.of())) {
-			if (s.skipService(l)) {
+		    s.getFetchedServices().orElse(List.of()).stream().filter(l -> !s.shouldSkip(l)).count());
+		List<EntityUpdater> inactive = new ArrayList<>();
+		for (EntityUpdater l : s.getFetchedServices().orElse(List.of())) {
+			if (s.shouldSkip(l)) {
 				inactive.add(l);
 			} else {
 				log.trace(" {} : {}={}", l.fetcherName(), l.propertiesPrefix(), l.propertiesAsString());
@@ -39,7 +39,7 @@ public class Manager {
 			propertiesPrefixToServices.computeIfAbsent(l.propertiesPrefix(), s -> new ArrayList<>()).add(l.fetcherName());
 		}
 		log.trace("{} inactive services :", inactive.size());
-		for (IEntityUpdater l : inactive) {
+		for (EntityUpdater l : inactive) {
 			log.trace(" {} : {}={}", l.fetcherName(), l.propertiesPrefix(), l.propertiesAsString());
 
 		}

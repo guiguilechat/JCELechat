@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Cached;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Errored;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Success;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeResult.Status;
-import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -31,7 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "sde.fetcher")
 @Slf4j
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class SdeUpdater implements IEntityUpdater {
+public class SdeUpdater implements EntityUpdater {
 
 	private final SdeResultService service;
 

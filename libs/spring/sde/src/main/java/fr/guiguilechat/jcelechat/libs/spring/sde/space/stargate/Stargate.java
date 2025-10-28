@@ -5,7 +5,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -28,7 +28,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Stargate extends ARemoteEntity<Integer, R_get_universe_stargates_stargate_id> {
+public class Stargate extends RemoteEntity<Integer, R_get_universe_stargates_stargate_id> {
 
 
 	/**

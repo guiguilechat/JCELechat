@@ -14,22 +14,22 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 /**
- * service to allow limited parrallel execution. The number of cores is settable
+ * service to allow limited parallel execution. The number of cores is set
  * with configuration
  */
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-@ConfigurationProperties(prefix = "esi.executor")
+@ConfigurationProperties(prefix = "fetcher.executor")
 public class ExecutionService {
-	
+
 	@Setter
-	private int core = 100;
+	private int cores = 100;
 
 	@Getter(lazy=true)
 	private final ExecutorService executor = makeExecutor();
 
 	private ExecutorService makeExecutor() {
-		return Executors.newFixedThreadPool(core);
+		return Executors.newFixedThreadPool(cores);
 	}
 
 	public <T> Future<T> submit(Callable<T> task) {

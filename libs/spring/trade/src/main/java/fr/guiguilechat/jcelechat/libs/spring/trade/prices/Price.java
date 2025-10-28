@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade.prices;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
@@ -18,7 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Price extends AFetchedResource<Integer> {
+public class Price extends FetchedEntity<Integer> {
 
 	@OneToOne
 	private Type type;

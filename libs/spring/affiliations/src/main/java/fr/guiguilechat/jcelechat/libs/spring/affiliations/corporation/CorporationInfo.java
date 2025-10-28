@@ -8,7 +8,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -32,7 +32,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class CorporationInfo extends ARemoteEntity<Integer, R_get_corporations_corporation_id> {
+public class CorporationInfo extends RemoteEntity<Integer, R_get_corporations_corporation_id> {
 
 	public Integer getCorporationId() {
 		return getId();

@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
 import fr.guiguilechat.jcelechat.libs.spring.gameclient.updater.GameClientUpdate.Status;
-import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -26,7 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "gameclient.fetcher")
 @Order(0) // does not depend on another entity updater
-public class GameClientUpdateService implements IEntityUpdater {
+public class GameClientUpdateService implements EntityUpdater {
 
 	final private CacheManager cacheManager;
 

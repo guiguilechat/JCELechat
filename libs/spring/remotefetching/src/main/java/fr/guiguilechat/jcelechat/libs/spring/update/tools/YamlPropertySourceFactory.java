@@ -9,7 +9,9 @@ import org.springframework.core.io.support.EncodedResource;
 import org.springframework.core.io.support.PropertySourceFactory;
 
 /**
- * https://github.com/spring-projects/spring-framework/issues/18486#issuecomment-1209158520
+ * Allow to deduce properties from a yaml configuration
+ *
+ * @see https://github.com/spring-projects/spring-framework/issues/18486#issuecomment-1209158520
  */
 public class YamlPropertySourceFactory implements PropertySourceFactory {
 

@@ -13,6 +13,32 @@ import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 /** holds a response from a request */
 public interface Requested<T> {
 
+	/**
+	 * find the non-null response with the last non-null date
+	 *
+	 * @param responses iterable of responses
+	 * @return the response with last date. returns null if reponses is null
+	 *         iterable, all are null, or none has date header set.
+	 */
+	static Requested<?> lastOf(Iterable<Requested<?>> responses) {
+		if (responses == null) {
+			return null;
+		}
+		Instant lastResponseDate = null;
+		Requested<?> lastResponse = null;
+		for (Requested<?> r : responses) {
+			if (r == null) {
+				continue;
+			}
+			Instant date = r.getDateInstant();
+			if (date != null && (lastResponseDate == null || date.isAfter(lastResponseDate))) {
+				lastResponseDate = date;
+				lastResponse = r;
+			}
+		}
+		return lastResponse;
+	}
+
 	int getResponseCode();
 
 	T getOK();
@@ -86,7 +112,7 @@ public interface Requested<T> {
 	 */
 	default String getDate() {
 		List<String> list = getHeaders().getOrDefault(DATE_PROP, null);
-		return list == null || list.size() == 0 ? null : list.get(0);
+		return list == null || list.isEmpty() ? null : list.get(0);
 	}
 
 	/**
@@ -143,17 +169,19 @@ public interface Requested<T> {
 		return ESIDateTools.headerInstant(lastmodified);
 	}
 
+	// global errors
+
 	/**
-	 * get the number of errors remaining until prevented access. If this is 0 or
+	 * get the number of errors remaining until prevented access, when provided. If
+	 * this is 0 or
 	 * lower we must wait {@link #getErrorsReset()} seconds
 	 */
-	default int getRemainingErrors() {
-		List<String> errorsl = getHeaders().get("X-Esi-Error-Limit-Remain");
-		if (errorsl == null) {
-			System.err.println("no error limit remain headers, existing are : " + getHeaders().keySet());
-			return 0;
+	default Integer getRemainingErrors() {
+		List<String> list = getHeaders().get("X-Esi-Error-Limit-Remain");
+		if (list == null || list.isEmpty()) {
+			return null;
 		} else {
-			return Integer.parseInt(errorsl.get(0));
+			return Integer.parseInt(list.get(0));
 		}
 	}
 
@@ -161,12 +189,12 @@ public interface Requested<T> {
 	 * get the number of seconds until the error window resets.
 	 */
 	default int getErrorsReset() {
-		List<String> resetl = getHeaders().get("X-Esi-Error-Limit-Reset");
-		if (resetl == null) {
+		List<String> list = getHeaders().get("X-Esi-Error-Limit-Reset");
+		if (list == null || list.isEmpty()) {
 			System.err.println("no errors limit reset headers, existing are : " + getHeaders().keySet());
 			return 0;
 		} else {
-			return Integer.parseInt(resetl.get(0));
+			return Integer.parseInt(list.get(0));
 		}
 	}
 
@@ -175,6 +203,48 @@ public interface Requested<T> {
 	 */
 	default Instant getErrorsResetInstant() {
 		return getDateInstant().plusSeconds(getErrorsReset());
+	}
+
+	// token bucket
+
+	default String getRateLimitGroup() {
+		List<String> list = getHeaders().get("X-Ratelimit-Group");
+		if (list == null || list.isEmpty()) {
+			return null;
+		} else {
+			return list.get(0);
+		}
+	}
+
+	default String getRateLimitLimit() {
+		List<String> list = getHeaders().get("X-Ratelimit-Limit");
+		if (list == null || list.isEmpty()) {
+			return null;
+		} else {
+			return list.get(0);
+		}
+	}
+
+	default Integer getRateLimitRemaining() {
+		List<String> list = getHeaders().get("X-Ratelimit-Remaining");
+		if (list == null || list.isEmpty()) {
+			return null;
+		} else {
+			return Integer.parseInt(list.get(0));
+		}
+	}
+
+	default int getRetryAfter() {
+		List<String> list = getHeaders().get("Retry-After");
+		if (list == null || list.isEmpty()) {
+			return 0;
+		} else {
+			return Integer.parseInt(list.get(0));
+		}
+	}
+
+	default Instant getRetryAfterInstant() {
+		return getDateInstant().plusSeconds(getRetryAfter());
 	}
 
 	/**

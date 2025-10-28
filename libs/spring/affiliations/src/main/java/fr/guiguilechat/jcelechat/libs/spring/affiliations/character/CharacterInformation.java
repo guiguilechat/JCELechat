@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_gender;
 import jakarta.persistence.Entity;
@@ -37,7 +37,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class CharacterInformation extends ARemoteEntity<Integer, R_get_characters_character_id> {
+public class CharacterInformation extends RemoteEntity<Integer, R_get_characters_character_id> {
 
 	@ManyToOne
 	private AllianceInfo alliance;

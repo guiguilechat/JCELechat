@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.function.Function;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
@@ -15,7 +14,7 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ListingRemoteEntityService;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
@@ -29,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.affiliations.corporation")
 @Order(3) // depends on alliance and faction
 public class CorporationInfoService extends
-ARemoteEntityService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository>
+		ListingRemoteEntityService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository>
 implements IdResolutionListener {
 
 	@Lazy
@@ -71,8 +70,8 @@ implements IdResolutionListener {
 	// fetch only npc corporations
 
 	@Override
-	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
-		return p -> ESIRawPublic.INSTANCE.get_corporations_npccorps(p).mapBody(List::of);
+	protected Requested<List<Integer>> listRemoteIds(Map<String, String> p) {
+		return ESIRawPublic.INSTANCE.get_corporations_npccorps(p).mapBody(List::of);
 	}
 
 	@Override

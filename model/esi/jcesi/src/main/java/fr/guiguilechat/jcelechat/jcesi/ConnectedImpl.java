@@ -690,7 +690,8 @@ public abstract class ConnectedImpl implements ITransfer {
 				Requested<T> res = fetch(headerHandler);
 				if (res != null) {
 					if (res.getResponseCode() == 420) {
-						if (res.getRemainingErrors() < 40) {
+						Integer remaining = res.getRemainingErrors();
+						if (remaining != null && remaining < 40) {
 							delay_ms = res.getErrorsReset() * default_wait_ms;
 						}
 					} else {

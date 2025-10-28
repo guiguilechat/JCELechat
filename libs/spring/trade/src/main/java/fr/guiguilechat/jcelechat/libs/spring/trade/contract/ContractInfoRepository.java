@@ -10,11 +10,11 @@ import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 
 public interface ContractInfoRepository
-    extends IRemoteEntityRepository<ContractInfo, Integer>, JpaSpecificationExecutor<ContractInfo> {
+    extends RemoteEntityRepository<ContractInfo, Integer>, JpaSpecificationExecutor<ContractInfo> {
 
 	List<ContractInfo> findByRegionIdAndRemovedFalseAndFetchedTrue(int regionId);
 

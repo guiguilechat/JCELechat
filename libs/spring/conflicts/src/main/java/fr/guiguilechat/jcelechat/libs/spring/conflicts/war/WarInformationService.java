@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.function.Function;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -18,7 +17,7 @@ import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ListingRemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -29,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.conflicts.war.info")
 @Order(4) // depends on corporationinfo and allianceinfo
 public class WarInformationService
-    extends ARemoteEntityService<WarInformation, Integer, R_get_wars_war_id, WarInformationRepository> {
+		extends ListingRemoteEntityService<WarInformation, Integer, R_get_wars_war_id, WarInformationRepository> {
 
 	@Lazy
 	private final AllianceInfoService allianceInfoService;
@@ -78,11 +77,7 @@ public class WarInformationService
 	}
 
 	@Override
-	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
-		return this::listNewWars;
-	}
-
-	protected Requested<List<Integer>> listNewWars(Map<String, String> properties) {
+	protected Requested<List<Integer>> listRemoteIds(Map<String, String> properties) {
 		Requested<List<Integer>> ret = ESIRawPublic.INSTANCE.get_wars(null, null).mapBody(List::of);
 		if (!ret.isOk()) {
 			return ret;
@@ -113,12 +108,12 @@ public class WarInformationService
 				}
 			}
 
-			ret = ret.mapBody(l -> allFetchedIds);
+			ret = ret.mapBody(_ -> allFetchedIds);
 
 		}
 		// changed expires for next list to be ASAP. In effect will be udpated by
 		// getList().getDelay()
-		return ret.mapExpires(i -> Instant.now());
+		return ret.mapExpires(_ -> Instant.now());
 	}
 
 }

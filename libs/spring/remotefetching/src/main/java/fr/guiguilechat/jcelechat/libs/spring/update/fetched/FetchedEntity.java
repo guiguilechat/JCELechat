@@ -11,14 +11,15 @@ import lombok.Setter;
 
 /**
  * abstract class that represent a local representation of a fetched
- * information
+ * information. The fetched information can be an aggregation, meaning there is
+ * no 1-1 link between this entity and the fetched(remote) one.
  */
 @MappedSuperclass
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public abstract class AFetchedResource<IdType extends Number> {
+public abstract class FetchedEntity<IdType extends Number> {
 
 	@Id
 	private IdType id;

@@ -7,7 +7,7 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -29,7 +29,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class LPCorporation extends ARemoteEntity<Integer, List<R_get_loyalty_stores_corporation_id_offers>> {
+public class LPCorporation extends RemoteEntity<Integer, List<R_get_loyalty_stores_corporation_id_offers>> {
 
 	@OneToOne(optional = false)
 	private CorporationInfo corporation;

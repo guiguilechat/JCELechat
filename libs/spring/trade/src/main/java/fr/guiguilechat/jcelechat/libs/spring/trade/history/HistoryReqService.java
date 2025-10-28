@@ -23,7 +23,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -38,7 +38,7 @@ import lombok.extern.slf4j.Slf4j;
 @Getter
 @Setter
 public class HistoryReqService
-extends ARemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[], HistoryReqRepository> {
+extends RemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[], HistoryReqRepository> {
 
 	@Lazy
 	private final HistoryLineService historyLineService;

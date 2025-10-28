@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.NoRepositoryBean;
 
 @NoRepositoryBean
-public interface IFetchedResourceRepository<Entity extends AFetchedResource<Id>, Id extends Number>
+public interface FetchedEntityRepository<Entity extends FetchedEntity<Id>, Id extends Number>
 extends JpaRepository<Entity, Id> {
 
 	/**

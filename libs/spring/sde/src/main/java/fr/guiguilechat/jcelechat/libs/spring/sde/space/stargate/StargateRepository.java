@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.IRemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
 
-public interface StargateRepository extends IRemoteEntityRepository<Stargate, Integer> {
+public interface StargateRepository extends RemoteEntityRepository<Stargate, Integer> {
 
 	List<Stargate> findBySolarSystem(SolarSystem solarSystem);
 

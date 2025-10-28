@@ -15,8 +15,10 @@ import org.springframework.cache.CacheManager;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.manager.IEntityUpdater;
-import fr.guiguilechat.jcelechat.libs.spring.update.resolve.status.ESIStatusService;
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.update.limits.GlobalErrors;
+import fr.guiguilechat.jcelechat.libs.spring.update.limits.TokensBucket;
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.tools.ExecutionService;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -27,8 +29,8 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class AFetchedResourceService<Entity extends AFetchedResource<Id>, Id extends Number, Repository extends IFetchedResourceRepository<Entity, Id>>
-implements IEntityUpdater {
+public abstract class FetchedEntityService<Entity extends FetchedEntity<Id>, Id extends Number, Repository extends FetchedEntityRepository<Entity, Id>>
+implements EntityUpdater {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -43,7 +45,12 @@ implements IEntityUpdater {
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
-	private ESIStatusService esiStatusService;
+	private TokensBucket tokensBucket;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private GlobalErrors globalErrors;
 
 	protected abstract Entity create(Id entityId);
 
@@ -131,7 +138,7 @@ implements IEntityUpdater {
 				.toList());
 		log.trace(" {} createIfAbsent created {} new entities", fetcherName(), newEntities.size());
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
-				.collect(Collectors.toMap(AFetchedResource::getId, e -> e));
+				.collect(Collectors.toMap(FetchedEntity::getId, e -> e));
 	}
 
 	//
@@ -199,7 +206,54 @@ implements IEntityUpdater {
 		if (nextUpdate != null) {
 			return nextUpdate;
 		}
-		return IEntityUpdater.super.nextUpdate(remain, now);
+		return EntityUpdater.super.nextUpdate(remain, now);
+	}
+
+	/**
+	 * deduce the limit we are allowed on the queries. This limits takes both the
+	 * global error limiter and the entity-specific token bucket
+	 *
+	 * @return number of simultaneous queries we are allowed to send
+	 */
+	protected int maxAllowedQueries() {
+		int errorsMin = getUpdate().getErrorsMin();
+		int errorsMax = getUpdate().getErrorsForMax();
+		int remainErrors = globalErrors().availErrors();
+		int maxQueries = getUpdate().getMax();
+		int maxFromErrors = maxQueries;
+		if (remainErrors <= errorsMin) {
+			maxFromErrors = 0;
+		} else if (remainErrors < errorsMax) {
+			maxFromErrors = (int) Math.ceil(1.0 * maxQueries * (remainErrors - errorsMin) / (errorsMax - errorsMin));
+		}
+		int maxFromRateLimit = tokensBucket().availQueries();
+		int ret = Math.min(maxFromErrors, maxFromRateLimit);
+		log.trace("{} max queries is {} from errorsRemain={} errorsMin={} errorsMax={} max={} tokensQueries={}",
+				fetcherName(),
+				ret,
+				remainErrors,
+				errorsMin,
+				errorsMax,
+				maxQueries,
+				maxFromRateLimit);
+		return ret;
+	}
+
+	/**
+	 * transmit a single received response to the global error service and the
+	 * tokens bucket, to update them.
+	 */
+	protected void processResponse(Requested<?> response) {
+		globalErrors().processResponse(response);
+		tokensBucket().processResponse(response);
+	}
+
+	/**
+	 * transmit the last response of a list to the global error service and the
+	 * tokens bucket, to update them.
+	 */
+	protected void processResponses(Iterable<Requested<?>> responses) {
+		processResponse(Requested.lastOf(responses));
 	}
 
 	//

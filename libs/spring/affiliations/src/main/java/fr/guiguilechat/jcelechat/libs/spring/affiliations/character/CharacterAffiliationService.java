@@ -17,7 +17,7 @@ import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfoS
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
@@ -31,7 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.affiliations.charaffil")
 public class CharacterAffiliationService
     extends
-    ARemoteEntityService<CharacterAffiliation, Integer, R_post_characters_affiliation, CharacterAffiliationRepository>
+    RemoteEntityService<CharacterAffiliation, Integer, R_post_characters_affiliation, CharacterAffiliationRepository>
     implements IdResolutionListener {
 
 	@Lazy

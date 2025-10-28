@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
 
 import java.time.Instant;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.AFetchedResource;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,7 +13,7 @@ import lombok.Setter;
  * managed resource that is linked to a remote entity, and therefore whose
  * informations are fetched from. The actual implementation +
  * {@link #getId()} should identify the remote resource completely.
- * 
+ *
  * @param <IdType>  type of id used, typically int or long.
  * @param <Fetched> structure returned from remote server to describe this
  *                    entity
@@ -23,7 +23,7 @@ import lombok.Setter;
 @Getter
 @MappedSuperclass
 @Setter
-public abstract class ARemoteEntity<IdType extends Number, Fetched> extends AFetchedResource<IdType> {
+public abstract class RemoteEntity<IdType extends Number, Fetched> extends FetchedEntity<IdType> {
 
 	/** date the last successful update expires at */
 	private Instant expires;
@@ -50,7 +50,7 @@ public abstract class ARemoteEntity<IdType extends Number, Fetched> extends AFet
 
 	/**
 	 * set {@link #expires} to a random valuye between min and min+added
-	 * 
+	 *
 	 * @param minSeconds  minimum seconds. Can be <0 to set in the past
 	 * @param addedRandom added maximum seconds. Can be <0 to remove seconds from
 	 *                      min
@@ -71,7 +71,7 @@ public abstract class ARemoteEntity<IdType extends Number, Fetched> extends AFet
 	 * update that entity's scalar values from a newly fetched remote data.
 	 * non-scalar values (eg reference to other entities) must be updated in the
 	 * service's
-	 * {@link ARemoteEntityService#updateResponseOk(ARemoteFetchedResource, fr.guiguilechat.jcelechat.jcesi.interfaces.Requested)
+	 * {@link RemoteEntityService#updateResponseOk(ARemoteFetchedResource, fr.guiguilechat.jcelechat.jcesi.interfaces.Requested)
 	 * updateResponseOk}
 	 */
 	public abstract void update(Fetched data);

@@ -6,8 +6,10 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.update.limits.GlobalErrors;
+import fr.guiguilechat.jcelechat.libs.spring.update.limits.TokensBucket;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status;
-import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -15,52 +17,56 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Service
 @Slf4j
+@RequiredArgsConstructor
 public class ESIStatusService {
 
-	@Getter
-	Instant errorReset = null;
+	private final GlobalErrors globalErrors;
 
-	/**
-	 * @return number of errors remaining. Can be cached if previous was error
-	 */
-	public int availErrors() {
-		if (errorReset != null) {
-			if (Instant.now().isBefore(errorReset)) {
-				return 0;
+	private final TokensBucket tokensBucket;
+
+	Instant nextUpdate = null;
+
+	protected R_get_status lastResult = null;
+
+	protected synchronized void updateStatus() {
+		if (nextUpdate == null || nextUpdate.isBefore(Instant.now())) {
+			Requested<R_get_status> esiAccessReq = ESIRawPublic.INSTANCE.get_status(null);
+			globalErrors.processResponse(esiAccessReq);
+			tokensBucket.processResponse(esiAccessReq);
+			if (esiAccessReq.isOk()) {
+				lastResult = esiAccessReq.getOK();
+				updateNext(esiAccessReq);
 			} else {
-				errorReset = null;
+				int delay_s = switch (esiAccessReq.getResponseCode()) {
+				case 429 -> esiAccessReq.getRetryAfter();
+				case 520 -> esiAccessReq.getErrorsReset();
+				default -> 30;
+				};
+				nextUpdate = Instant.now().plusSeconds(delay_s);
 			}
 		}
-		Requested<R_get_status> esiAccessReq = ESIRawPublic.INSTANCE.get_status(null);
-		if (esiAccessReq.isOk()) {
-			R_get_status esiAccess = esiAccessReq.getOK();
-			if (!esiAccess.vip) {
-				return esiAccessReq.getRemainingErrors();
-			}
-			errorReset = Instant.now().plusSeconds(60);
-			log.info(" ESI is in VIP mode, skipping");
-			return 0;
-		}
-		switch (esiAccessReq.getResponseCode()) {
-		case 420:
-			errorReset = esiAccessReq.getErrorsResetInstant();
-			log.debug("esi error limit reached (420), prevent fetch until {}", errorReset);
-			break;
-		case 503:
-			errorReset = Instant.now().plusSeconds(30);
-			log.debug("esi not avail (503), prevent fetch until {}", errorReset);
-			break;
-		default:
-			errorReset = Instant.now().plusSeconds(10);
-			log.info(" could not get ESI status, skipping for {}", esiAccessReq.getResponseCode());
-		}
-		return 0;
 	}
 
-	/*
-	 * true if last call was not error
-	 */
-	public boolean lastOk() {
-		return errorReset == null;
+	protected void updateNext(Requested<R_get_status> response) {
+		// TODO use the x-ratelimit-limit instead (600/150m means max 600 per 15×60=900
+		// s)
+		Instant expires = response.getExpiresInstant();
+		Instant plus10 = Instant.now().plusSeconds(10);
+		if (expires == null || expires.isBefore(plus10)) {
+			nextUpdate = plus10;
+		} else {
+			nextUpdate=expires;
+		}
 	}
+
+	public R_get_status getStatus() {
+		updateStatus();
+		return lastResult;
+	}
+
+	public boolean isOk() {
+		R_get_status st = getStatus();
+		return st != null && !st.vip;
+	}
+
 }

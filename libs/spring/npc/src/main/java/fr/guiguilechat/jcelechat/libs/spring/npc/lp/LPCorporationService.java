@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -18,7 +17,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ARemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ListingRemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -30,7 +29,7 @@ import lombok.extern.slf4j.Slf4j;
 // depend on corporations, types
 @Order(4)
 public class LPCorporationService extends
-    ARemoteEntityService<
+		ListingRemoteEntityService<
     LPCorporation,
     Integer,
     List<R_get_loyalty_stores_corporation_id_offers>,
@@ -86,7 +85,7 @@ public class LPCorporationService extends
 		}
 		// then update the offers and retrieve the map
 		Map<Integer, Offer> idToOffer = offerService.updateOffers(offerById);
-		
+
 		// then link the corporation observed to those offers
 		linkCorporationOfferService.clearForObserved(map.keySet());
 		Map<Integer, CorporationInfo> idtoCorporationInfo = corporationInfoService.createIfAbsent(map.keySet().stream().map(LPCorporation::getId).toList());
@@ -103,7 +102,7 @@ public class LPCorporationService extends
 			}
 		}
 		linkCorporationOfferService.saveAll(links);
-		
+
 	}
 
 	protected boolean different(R_get_loyalty_stores_corporation_id_offers o1,
@@ -145,8 +144,8 @@ public class LPCorporationService extends
 	}
 
 	@Override
-	protected Function<Map<String, String>, Requested<List<Integer>>> listFetcher() {
-		return p -> ESIRawPublic.INSTANCE.get_corporations_npccorps(p).mapBody(List::of);
+	protected Requested<List<Integer>> listRemoteIds(Map<String, String> params) {
+		return ESIRawPublic.INSTANCE.get_corporations_npccorps(params).mapBody(List::of);
 	}
 
 	// external usage
