@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.cache;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -40,18 +39,18 @@ public class Mapper<T, U> extends YAMLCacheListener implements EntityMap<U> {
 	protected final RWLockResource<ReentrantReadWriteLock> lck = new RWLockResource<>(
 			new ReentrantReadWriteLock());
 
-	protected Stream<Collection<?>> caches() {
-		return Stream.of(cache.keySet());
+	protected Stream<Runnable> cacheClearers() {
+		return Stream.of(() -> {
+			synchronized (cache) {
+				cache.clear();
+			}
+		});
 	}
 
 	@Override
 	public void onSDECacheCleared() {
 		try (var _ = lck.writeLock()) {
-			caches().forEach(c -> {
-				synchronized (c) {
-					c.clear();
-				}
-			});
+			cacheClearers().forEach(Runnable::run);
 		}
 	}
 

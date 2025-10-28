@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.cache;
 
-import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.function.BiFunction;
@@ -32,7 +31,9 @@ public class NamingMapper<T, U> extends Mapper<T, U> implements EntityNameMap<U>
 				ret = byNames.get(name);
 				if (ret == null) {
 					if (byNames.isEmpty()) {
-						all().forEach(val -> byNames.put(namer.apply(val), val));
+						synchronized (byNames) {
+							all().forEach(val -> byNames.put(namer.apply(val), val));
+						}
 					}
 					ret = byNames.get(name);
 				}
@@ -42,8 +43,12 @@ public class NamingMapper<T, U> extends Mapper<T, U> implements EntityNameMap<U>
 	}
 
 	@Override
-	protected Stream<Collection<?>> caches() {
-		return Stream.concat(super.caches(), Stream.of(byNames.keySet()));
+	protected Stream<Runnable> cacheClearers() {
+		return Stream.concat(super.cacheClearers(), Stream.of(() -> {
+			synchronized (byNames) {
+				byNames.clear();
+			}
+		}));
 	}
 
 }

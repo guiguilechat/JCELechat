@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.function.Function;
+import java.util.function.Predicate;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 
@@ -20,14 +21,14 @@ public interface Requested<T> {
 	 * @return the response with last date. returns null if reponses is null
 	 *         iterable, all are null, or none has date header set.
 	 */
-	static Requested<?> lastOf(Iterable<Requested<?>> responses) {
+	static Requested<?> lastOf(Iterable<Requested<?>> responses, Predicate<Requested<?>> filter) {
 		if (responses == null) {
 			return null;
 		}
 		Instant lastResponseDate = null;
 		Requested<?> lastResponse = null;
 		for (Requested<?> r : responses) {
-			if (r == null) {
+			if (r == null || filter != null && !filter.test(r)) {
 				continue;
 			}
 			Instant date = r.getDateInstant();
@@ -37,6 +38,14 @@ public interface Requested<T> {
 			}
 		}
 		return lastResponse;
+	}
+
+	static Requested<?> lastRateLimit(Iterable<Requested<?>> responses) {
+		return lastOf(responses, r -> r.getRateLimitGroup() != null);
+	}
+
+	static Requested<?> lastErrorLimit(Iterable<Requested<?>> responses) {
+		return lastOf(responses, r -> r.getRemainingErrors() != null);
 	}
 
 	int getResponseCode();
@@ -223,6 +232,10 @@ public interface Requested<T> {
 		} else {
 			return list.get(0);
 		}
+	}
+
+	default RateLimitations getRateLimits() {
+		return RateLimitations.parse(getRateLimitLimit());
 	}
 
 	default Integer getRateLimitRemaining() {

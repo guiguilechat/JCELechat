@@ -8,6 +8,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
+import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -30,7 +31,9 @@ public class SdeEntity<IdType extends Number> {
 	private boolean received = false;
 	@ColumnDefault("false")
 	private boolean removed = false;
+	@Setter(value = AccessLevel.PRIVATE)
 	@CreationTimestamp
+	@ColumnDefault("current_timestamp")
 	private Instant created;
 	@UpdateTimestamp
 	private Instant updated;

@@ -66,7 +66,7 @@ public class GlobalErrors {
 
 
 	public void processResponse(Iterable<Requested<?>> responses) {
-		processResponse(Requested.lastOf(responses));
+		processResponse(Requested.lastErrorLimit(responses));
 	}
 
 	public int availErrors() {

@@ -17,7 +17,7 @@ logging:
       fr:
          guiguilechat:
             jcelechat:
-               jcesi: infos
+               jcesi: info
                libs:
                   spring:
                      update: debug

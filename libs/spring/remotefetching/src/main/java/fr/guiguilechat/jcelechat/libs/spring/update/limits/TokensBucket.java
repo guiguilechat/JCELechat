@@ -6,7 +6,9 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.RateLimitations;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -21,9 +23,24 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class TokensBucket {
 
+	/**
+	 * number of tokens we assume we have until we receive actual limit
+	 * specifications
+	 */
+	private static final int DEFAULT_TOKENS = Integer.MAX_VALUE;
+
+	/**
+	 * last rate limit group of a processed response.
+	 */
+	@Getter
+	private String lastGroup = null;
+
 	private Instant lastProcessedDate = null;
 
-	private int lastRemainingTokens = 100;
+	@Getter
+	private RateLimitations lastRateLimits = null;
+
+	private int lastRemainingTokens = DEFAULT_TOKENS;
 
 	private Instant lastRetryAfter = null;
 
@@ -31,13 +48,45 @@ public class TokensBucket {
 		if (response == null) {
 			return;
 		}
+
+		// don't process a response without a date
+		// can happen when there was an error on the way
+		Instant responseDate = response.getDateInstant();
+		if (responseDate == null) {
+			return;
+		}
+
+		// only process response with a rate limit group
+		String group = response.getRateLimitGroup();
+		if (group == null) {
+			return;
+		}
+
 		// don't process a response that is older than the last processed one.
 		if (lastProcessedDate != null) {
-			Instant responseDate = response.getDateInstant();
 			if (responseDate == null || responseDate.isBefore(lastProcessedDate)) {
 				return;
 			}
 		}
+
+		// update the specs every time, because they can dynamically change
+		String spec = response.getRateLimitLimit();
+		if (spec == null) {
+			log.warn("request from {} received group {} but not rate limit specification",
+					response.getURL(),
+					group);
+			return;
+		}
+		RateLimitations limits = RateLimitations.parse(spec);
+		if (limits == null) {
+			log.error("could not parse rate limit specs {} from request url {}", spec, response.getURL());
+			return;
+		}
+
+		// now actually process
+		lastProcessedDate = responseDate;
+		lastGroup = group;
+		lastRateLimits = limits;
 
 		if (response.getResponseCode() == 429 && lastRetryAfter != null) {
 			lastRemainingTokens = 0;
@@ -51,10 +100,6 @@ public class TokensBucket {
 			lastRetryAfter = null;// should check if remaining=0 but then the next avail bucket is not in the
 									// headers.
 		}
-		Instant responseDate = response.getDateInstant();
-		if (responseDate != null) {
-			lastProcessedDate=responseDate;
-		}
 		log.trace("processed response {} group {} {} with code {}, lastRemaining={} lastRetryAfter={}",
 				response.getURL(),
 				response.getRateLimitGroup(),
@@ -64,10 +109,22 @@ public class TokensBucket {
 				lastRetryAfter);
 	}
 
+	/**
+	 * @return the max tokens per window, if received already, or
+	 *         {@link #DEFAULT_TOKENS}
+	 */
+	protected int maxWindowTokens() {
+		RateLimitations rateLimits = lastRateLimits;
+		if (rateLimits != null) {
+			return rateLimits.windowTokens();
+		}
+		return DEFAULT_TOKENS;
+	}
+
 	public synchronized void checkReset() {
 		if (lastRetryAfter != null && lastRetryAfter.isBefore(Instant.now())) {
 			lastRetryAfter = null;
-			lastRemainingTokens = 100;
+			lastRemainingTokens = maxWindowTokens();
 		}
 	}
 
@@ -76,7 +133,7 @@ public class TokensBucket {
 	 * actually processed.
 	 */
 	public void processResponse(Iterable<Requested<?>> responses) {
-		processResponse(Requested.lastOf(responses));
+		processResponse(Requested.lastRateLimit(responses));
 	}
 
 	private static final int TOKEN_PER_QUERY = 2;
@@ -90,7 +147,7 @@ public class TokensBucket {
 	}
 
 	/**
-	 * @return
+	 * @return time at which we can start sending queries
 	 */
 	public Instant queryAvailAt() {
 		checkReset();

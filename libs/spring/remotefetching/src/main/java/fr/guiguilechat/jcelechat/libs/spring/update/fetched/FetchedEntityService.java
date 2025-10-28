@@ -253,7 +253,8 @@ implements EntityUpdater {
 	 * tokens bucket, to update them.
 	 */
 	protected void processResponses(Iterable<Requested<?>> responses) {
-		processResponse(Requested.lastOf(responses));
+		globalErrors().processResponse(responses);
+		tokensBucket().processResponse(responses);
 	}
 
 	//
