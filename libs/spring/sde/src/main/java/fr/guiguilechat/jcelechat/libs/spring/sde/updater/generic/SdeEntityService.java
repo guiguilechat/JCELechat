@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
@@ -49,20 +48,44 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 		repo().setAllRemoved();
 	}
 
-	public Map<IdType, Entity> allById() {
-		return repo().findAll().stream().collect(Collectors.toMap(SdeEntity::getId, o -> o));
+	/** utility */
+	protected Map<IdType, Entity> byId(Collection<Entity> entities) {
+		return entities.stream()
+				.collect(Collectors.toMap(SdeEntity::getId, o -> o));
 	}
 
-	public List<Entity> saveAll(Iterable<Entity> entities) {
-		return repo().saveAllAndFlush(entities);
+	/**
+	 * @return all entities by id, irrelevant of their status
+	 */
+	public Map<IdType, Entity> allById() {
+		return byId(repo().findAll());
+	}
+
+	/**
+	 * @return all the entities that are received and not removed.
+	 */
+	public Map<IdType, Entity> activeById() {
+		return byId(repo().findAllByReceivedTrueAndRemovedFalse());
 	}
 
 	public Entity byId(IdType id) {
 		return repo().findById(id).orElse(null);
 	}
 
-	public Collection<Entity> byId(Iterable<IdType> regionIds) {
+	public Entity activeById(IdType id) {
+		return repo().findByIdAndReceivedTrueAndRemovedFalse(id);
+	}
+
+	public List<Entity> byId(Iterable<IdType> regionIds) {
 		return repo().findAllById(regionIds);
+	}
+
+	public List<Entity> ativeById(Iterable<IdType> regionIds) {
+		return repo().findAllByIdInAndReceivedTrueAndRemovedFalse(regionIds);
+	}
+
+	public List<Entity> saveAll(Iterable<Entity> entities) {
+		return repo().saveAllAndFlush(entities);
 	}
 
 	public Entity createIfAbsent(IdType id) {
@@ -80,22 +103,20 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 		if (l.size() == ids.size()) {
 			return l.stream().collect(Collectors.toMap(Entity::getId, o -> o));
 		}
-		Map<IdType, Entity> m = l.stream().collect(Collectors.toMap(Entity::getId, o -> o));
+		Map<IdType, Entity> m = byId(l);
 		Map<IdType, Entity> ret = new HashMap<>();
-		List<Entity> created = new ArrayList<>();
 		for (IdType id : ids) {
-			Entity added = m.get(id);
-			if (added == null) {
-				added = create(id);
-				created.add(added);
+			Entity matchingEntity = m.get(id);
+			if (matchingEntity == null) {
+				matchingEntity = create(id);
 			}
-			ret.put(id, added);
+			ret.put(id, matchingEntity);
 		}
 		return ret;
 	}
 
 	public List<Entity> listNotReceived() {
-		return repo().findAllByReceived(false);
+		return repo().findAllByReceivedFalse();
 	}
 
 	/**

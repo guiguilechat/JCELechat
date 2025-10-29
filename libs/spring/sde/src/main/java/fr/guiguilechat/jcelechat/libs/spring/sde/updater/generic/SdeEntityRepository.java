@@ -20,6 +20,12 @@ set
 """)
 	void setAllRemoved();
 
-	List<Type> findAllByReceived(boolean received);
+	List<Type> findAllByReceivedFalse();
+
+	List<Type> findAllByReceivedTrueAndRemovedFalse();
+
+	Type findByIdAndReceivedTrueAndRemovedFalse(IdType id);
+
+	List<Type> findAllByIdInAndReceivedTrueAndRemovedFalse(Iterable<IdType> ids);
 
 }
