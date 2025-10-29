@@ -2,10 +2,6 @@ package fr.guiguilechat.jcelechat.libs.spring.update.limits;
 
 import java.time.Instant;
 
-import org.springframework.context.annotation.Lazy;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
-
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.RateLimitations;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import lombok.Getter;
@@ -13,31 +9,28 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * manages the token bucket for ONE path
- *
- * @see https://developers.eveonline.com/blog/hold-your-horses-introducing-rate-limiting-to-esi
+ * store the information retrieved from esi queries regarding the token bucket
+ * for a given group, so as to share them among several services that share that
+ * group
  */
-@Component
-@Scope("prototype")
 @Slf4j
-@RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class TokensBucket {
+@Getter
+@RequiredArgsConstructor
+public class TokenBucket {
 
 	/**
 	 * number of tokens we assume we have until we receive actual limit
 	 * specifications
 	 */
-	private static final int DEFAULT_TOKENS = Integer.MAX_VALUE;
+	public static final int DEFAULT_TOKENS = Integer.MAX_VALUE;
 
 	/**
-	 * last rate limit group of a processed response.
+	 * the group identifies of the bucket
 	 */
-	@Getter
-	private String lastGroup = null;
+	private final String group;
 
 	private Instant lastProcessedDate = null;
 
-	@Getter
 	private RateLimitations lastRateLimits = null;
 
 	private int lastRemainingTokens = DEFAULT_TOKENS;
@@ -56,9 +49,9 @@ public class TokensBucket {
 			return;
 		}
 
-		// only process response with a rate limit group
+		// only process response within that group
 		String group = response.getRateLimitGroup();
-		if (group == null) {
+		if (!group.equals(group)) {
 			return;
 		}
 
@@ -72,9 +65,9 @@ public class TokensBucket {
 		// update the specs every time, because they can dynamically change
 		String spec = response.getRateLimitLimit();
 		if (spec == null) {
-			log.warn("request from {} received group {} but not rate limit specification",
-					response.getURL(),
-					group);
+			log.warn("bucket {} received request for {} without a rate limit specification",
+					group,
+					response.getURL());
 			return;
 		}
 		RateLimitations limits = RateLimitations.parse(spec);
@@ -85,7 +78,6 @@ public class TokensBucket {
 
 		// now actually process
 		lastProcessedDate = responseDate;
-		lastGroup = group;
 		lastRateLimits = limits;
 
 		if (response.getResponseCode() == 429 && lastRetryAfter != null) {
@@ -100,11 +92,11 @@ public class TokensBucket {
 			lastRetryAfter = null;// should check if remaining=0 but then the next avail bucket is not in the
 									// headers.
 		}
-		log.trace("processed response {} group {} {} with code {}, lastRemaining={} lastRetryAfter={}",
-				response.getURL(),
-				response.getRateLimitGroup(),
-				response.getRateLimitLimit(),
+		log.trace("bucket {} processed response {}:{} limitations={} ; lastRemaining={} lastRetryAfter={}",
+				group,
 				response.getResponseCode(),
+				response.getURL(),
+				spec,
 				lastRemainingTokens,
 				lastRetryAfter);
 	}
@@ -133,17 +125,15 @@ public class TokensBucket {
 	 * actually processed.
 	 */
 	public void processResponse(Iterable<Requested<?>> responses) {
-		processResponse(Requested.lastRateLimit(responses));
+		processResponse(Requested.lastRateLimitGroup(responses, group));
 	}
-
-	private static final int TOKEN_PER_QUERY = 2;
 
 	/**
 	 * @return the number of queries that can be performed right now
 	 */
-	public int availQueries() {
+	public int availTokens() {
 		checkReset();
-		return lastRemainingTokens / TOKEN_PER_QUERY;
+		return lastRemainingTokens;
 	}
 
 	/**

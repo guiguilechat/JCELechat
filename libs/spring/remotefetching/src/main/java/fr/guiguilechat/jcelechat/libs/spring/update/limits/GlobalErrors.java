@@ -58,7 +58,8 @@ public class GlobalErrors {
 		if (responseDate != null) {
 			lastProcessedDate = responseDate;
 		}
-		log.trace("processed response {} remaining={} reset={}",
+		log.trace("processed response code={} url={} remaining={} reset={}",
+				response.getResponseCode(),
 				response.getURL(),
 				lastRemainingErrors,
 				lastErrorsReset);

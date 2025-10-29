@@ -40,10 +40,19 @@ public interface Requested<T> {
 		return lastResponse;
 	}
 
-	static Requested<?> lastRateLimit(Iterable<Requested<?>> responses) {
-		return lastOf(responses, r -> r.getRateLimitGroup() != null);
+	/**
+	 * @return last of the responses with a date and given group. Can be null
+	 *         if responses is null, empty, or does not contain a matching response
+	 */
+	static Requested<?> lastRateLimitGroup(Iterable<Requested<?>> responses, String group) {
+		return lastOf(responses, r -> Objects.equals(group, r.getRateLimitGroup()));
 	}
 
+	/**
+	 * @return last of the responses with a date and an error limit header. Can be
+	 *         null if responses is null, empty, or does not contain a matching
+	 *         response
+	 */
 	static Requested<?> lastErrorLimit(Iterable<Requested<?>> responses) {
 		return lastOf(responses, r -> r.getRemainingErrors() != null);
 	}

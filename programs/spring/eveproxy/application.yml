@@ -55,11 +55,9 @@ logging:
                jcesi: info
                libs:
                   spring:
-                     update: 
-                        level: debug
-                        limits: trace
-                        fetched:
-                           FetchedEntityService: trace
+                     trade: debug # prices, market, etc
+                     update: debug # all the maanager stuff
+                     update.limits: trace # manager stuff related to queries limitations
 
 mer:
    update:

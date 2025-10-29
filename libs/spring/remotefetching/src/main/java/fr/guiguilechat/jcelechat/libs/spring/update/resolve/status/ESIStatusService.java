@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.update.limits.GlobalErrors;
-import fr.guiguilechat.jcelechat.libs.spring.update.limits.TokensBucket;
+import fr.guiguilechat.jcelechat.libs.spring.update.limits.TokenBucketResolver;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -22,7 +22,7 @@ public class ESIStatusService {
 
 	private final GlobalErrors globalErrors;
 
-	private final TokensBucket tokensBucket;
+	private final TokenBucketResolver tokensBucket;
 
 	Instant nextUpdate = null;
 

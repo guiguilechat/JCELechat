@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.update.limits.GlobalErrors;
-import fr.guiguilechat.jcelechat.libs.spring.update.limits.TokensBucket;
+import fr.guiguilechat.jcelechat.libs.spring.update.limits.TokenBucketResolver;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.tools.ExecutionService;
 import lombok.AccessLevel;
@@ -45,7 +45,7 @@ implements EntityUpdater {
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
-	private TokensBucket tokensBucket;
+	private TokenBucketResolver tokensBucket;
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
