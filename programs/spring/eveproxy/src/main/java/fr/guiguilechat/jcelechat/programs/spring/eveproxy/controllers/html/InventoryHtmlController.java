@@ -197,8 +197,8 @@ public class InventoryHtmlController {
 
 	public LinkedActivity linkedActivity(BlueprintProduct product) {
 		return new LinkedActivity(
-				typeUri(product.getTypeId()).toString(),
-				typeService.byId(product.getTypeId()),
+				typeUri(product.getActivity().getTypeId()).toString(),
+				typeService.byId(product.getActivity().getTypeId()),
 				product.getActivity().getActivityType(),
 				product.getQuantity(),
 				product.getProbability(),
@@ -210,8 +210,8 @@ public class InventoryHtmlController {
 
 	public LinkedUsage linkedUsage(BlueprintMaterial material) {
 		return new LinkedUsage(
-				typeUri(material.getTypeId()).toString(),
-				typeService.byId(material.getTypeId()),
+				typeUri(material.getActivity().getTypeId()).toString(),
+				typeService.byId(material.getActivity().getTypeId()),
 				material.getQuantity());
 	}
 
