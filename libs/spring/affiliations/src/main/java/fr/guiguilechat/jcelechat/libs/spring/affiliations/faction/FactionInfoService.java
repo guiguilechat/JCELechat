@@ -19,7 +19,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.affiliations.faction")
-@Order(1)
+@Order(2)
 public class FactionInfoService
     extends AResourceBatchFetcher<FactionInfo, Integer, R_get_universe_factions, FactionInfoRepository> {
 

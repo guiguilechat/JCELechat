@@ -12,6 +12,7 @@ import java.util.zip.ZipInputStream;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.YamlCache;
@@ -31,6 +32,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "sde.fetcher")
 @Slf4j
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@Order(1)
 public class SdeUpdater implements EntityUpdater {
 
 	private final SdeResultService service;
@@ -105,8 +107,8 @@ public class SdeUpdater implements EntityUpdater {
 	}
 
 	protected void updateNewSDE(Success s, String lastRelease) throws IOException {
-		log.info("update SDE, released={} previous={}, builNumber={}", s.meta().releaseDate, lastRelease,
-				s.meta().buildNumber);
+		log.info("update SDE build={} released={} previous={}, builNumber={}", s.meta().buildNumber,
+				s.meta().releaseDate, lastRelease);
 		long startUpdate = System.currentTimeMillis();
 		if (updateListeners.isPresent()) {
 			List<SdeListener> listeners = updateListeners.get();

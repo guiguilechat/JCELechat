@@ -23,7 +23,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.affiliations.alliance")
-@Order(2) // depends on factions
+@Order(3) // depends on factions
 public class AllianceInfoService extends
     RemoteEntityService<AllianceInfo, Integer, R_get_alliances_alliance_id, AllianceInfoRepository>
     implements IdResolutionListener {

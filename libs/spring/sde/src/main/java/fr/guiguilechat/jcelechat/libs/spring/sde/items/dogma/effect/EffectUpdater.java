@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.function.BiConsumer;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EdogmaEffects;
@@ -20,6 +21,7 @@ import lombok.Getter;
 import lombok.experimental.Accessors;
 
 @Service
+@ConfigurationProperties(prefix = "sde.items.dogmaeffect")
 public class EffectUpdater extends SdeEntityUpdater<Effect, EffectService, EdogmaEffects> {
 
 	public EffectUpdater() {

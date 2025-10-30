@@ -26,7 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.affiliations.corporation")
-@Order(3) // depends on alliance and faction
+@Order(4) // depends on alliance and faction
 public class CorporationInfoService extends
 		ListingRemoteEntityService<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository>
 implements IdResolutionListener {
