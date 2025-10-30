@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.data.util.StreamUtils;
 import org.springframework.stereotype.Component;
 
+import fr.guiguilechat.jcelechat.jcesi.request.interfaces.RateLimitations;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -41,7 +42,7 @@ public class TokenBucketResolver {
 				return;
 			}
 			bucket = cache.bucket(group);
-			log.debug("deduced group " + group);
+			log.trace("deduced group " + group);
 		}
 		bucket.processResponse(response);
 	}
@@ -81,6 +82,17 @@ public class TokenBucketResolver {
 	 */
 	public Instant queryAvailAt() {
 		return bucket == null ? Instant.now() : bucket.queryAvailAt();
+	}
+
+	public Integer avgQueryDelayMS() {
+		if (bucket == null) {
+			return null;
+		}
+		RateLimitations lastRateLimits = bucket.getLastRateLimits();
+		if (lastRateLimits == null) {
+			return null;
+		}
+		return lastRateLimits.avgTokenDelayMS() * TOKEN_PER_QUERY;
 	}
 
 }

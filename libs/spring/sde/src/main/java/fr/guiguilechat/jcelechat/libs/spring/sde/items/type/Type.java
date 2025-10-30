@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
+import org.hibernate.annotations.ColumnDefault;
+
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Etypes;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroup;
@@ -46,10 +48,13 @@ public class Type extends SdeEntity<Integer> {
 	private TypeDescription description;
 	@OneToMany(mappedBy = "typeId")
 	private List<TypeEffect> effects = new ArrayList<>();
+	@ColumnDefault("0")
 	private int factionId;
+	@ColumnDefault("0")
 	private int graphicId;
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Group group;
+	@ColumnDefault("0")
 	private int iconId;
 	@ManyToOne
 	private MarketGroup marketGroup;
@@ -57,10 +62,14 @@ public class Type extends SdeEntity<Integer> {
 	@ManyToOne
 	private MetaGroup metaGroup;
 	private String name;
+	@ColumnDefault("0")
 	private int portionSize;
+	@ColumnDefault("true")
 	private boolean published;
+	@ColumnDefault("0")
 	private int raceId;
 	private BigDecimal radius;
+	@ColumnDefault("0")
 	private int soundId;
 	@ManyToOne
 	private Type variationType;

@@ -5,6 +5,11 @@ import java.util.regex.Pattern;
 
 
 public record RateLimitations(int windowDurationS, int windowTokens) {
+
+	public int avgTokenDelayMS() {
+		return 1000 * windowDurationS / windowTokens;
+	}
+
 	private static final Pattern p = Pattern.compile("^(\\d+)/(\\d+)([hm])$");
 
 	public static RateLimitations parse(String spec) {

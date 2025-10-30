@@ -3,6 +3,8 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation;
 import java.math.BigDecimal;
 import java.util.function.Function;
 
+import org.hibernate.annotations.ColumnDefault;
+
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporations;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
@@ -27,18 +29,25 @@ import lombok.Setter;
 @NoArgsConstructor
 public class NpcCorporation extends SdeEntity<Integer> {
 
+	@ColumnDefault("false")
 	private boolean deleted;
+	@ColumnDefault("0")
 	private int factionId;
+	@ColumnDefault("0")
 	private int friendId;
+	@ColumnDefault("0")
 	private BigDecimal minSecurity;
+	@ColumnDefault("0")
 	private int minimumJoinStanding;
 	private String name;
 	@ManyToOne
 	private SolarSystem solarSystem;
 	@ManyToOne
 	private Station station;
+	@ColumnDefault("0")
 	private BigDecimal taxRate;
 	private String tickerName;
+	@ColumnDefault("false")
 	private boolean uniqueName;
 
 	public void update(EnpcCorporations source,

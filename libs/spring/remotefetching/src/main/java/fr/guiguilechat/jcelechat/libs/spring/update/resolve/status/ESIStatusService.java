@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.resolve.status;
 
 import java.time.Instant;
+import java.util.Objects;
 
 import org.springframework.stereotype.Service;
 
@@ -37,25 +38,36 @@ public class ESIStatusService {
 				lastResult = esiAccessReq.getOK();
 				updateNext(esiAccessReq);
 			} else {
+				lastResult = null;
 				int delay_s = switch (esiAccessReq.getResponseCode()) {
 				case 429 -> esiAccessReq.getRetryAfter();
 				case 520 -> esiAccessReq.getErrorsReset();
 				default -> 30;
 				};
 				nextUpdate = Instant.now().plusSeconds(delay_s);
+				log.trace("status is error {}, nextupdate={}", esiAccessReq.getResponseCode(), nextUpdate);
 			}
 		}
 	}
 
 	protected void updateNext(Requested<R_get_status> response) {
-		// TODO use the x-ratelimit-limit instead (600/150m means max 600 per 15×60=900
-		// s)
-		Instant expires = response.getExpiresInstant();
-		Instant plus10 = Instant.now().plusSeconds(10);
-		if (expires == null || expires.isBefore(plus10)) {
-			nextUpdate = plus10;
+		Instant fromBucket = tokensBucket.queryAvailAt();
+		Instant expires = switch (response.getResponseCode()) {
+		case 200:
+		case 304:
+			yield response.getExpiresInstant();
+		default:
+			yield null;
+		};
+		if (expires != null && fromBucket != null) {
+			nextUpdate = expires.isBefore(fromBucket) ? fromBucket : expires;
+		} else if (expires != null) {
+			nextUpdate = expires;
+		} else if (fromBucket != null) {
+			nextUpdate = fromBucket;
 		} else {
-			nextUpdate=expires;
+			int delayMS = Objects.requireNonNullElse(tokensBucket.avgQueryDelayMS(), 10000);
+			nextUpdate = Instant.now().plusMillis(delayMS);
 		}
 	}
 

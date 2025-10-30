@@ -84,6 +84,10 @@ public class ResourceUpdaterService {
 		if (start.isBefore(nextUpdate)) {
 			return;
 		}
+		if (!esiStatusService.isOk()) {
+			log.debug("skip updating as esi status is error");
+			return;
+		}
 		boolean remainService = false;
 		List<EntityUpdater> registeredServices = fetchedServices.orElse(List.of());
 		List<EntityUpdater> activeServices = registeredServices.stream().filter(s -> !shouldSkip(s))

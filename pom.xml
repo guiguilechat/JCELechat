@@ -21,7 +21,7 @@
 		</license>
 	</licenses>
 	<properties>
-		<java.version>24</java.version>
+		<java.version>25</java.version>
 		<!-- this is used by the java compiler plugin -->
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
