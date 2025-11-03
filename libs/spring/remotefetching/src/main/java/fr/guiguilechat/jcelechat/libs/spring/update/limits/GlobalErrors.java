@@ -52,7 +52,7 @@ public class GlobalErrors {
 				return;
 			}
 			lastRemainingErrors = remaining;
-			lastErrorsReset = remaining > 0 ? null : response.getErrorsResetInstant();
+			lastErrorsReset = remaining >= DEFAULT_ERRORS ? null : response.getErrorsResetInstant();
 		}
 		Instant responseDate = response.getDateInstant();
 		if (responseDate != null) {

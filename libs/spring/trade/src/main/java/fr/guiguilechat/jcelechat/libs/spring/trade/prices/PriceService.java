@@ -90,9 +90,19 @@ public class PriceService extends FetchedEntityService<Price, Integer, PriceRepo
 		return repo().findAll().stream().collect(Collectors.toMap(Price::getId, Price::getAdjustedPrice));
 	}
 
+	public double adjusted(int typeId) {
+		Optional<Price> fetched = repo().findById(typeId);
+		return fetched.isPresent() ? fetched.get().getAdjustedPrice() : 0.0;
+	}
+
 	@Cacheable("pricesAverage")
 	public Map<Integer, Double> average() {
 		return repo().findAll().stream().collect(Collectors.toMap(Price::getId, Price::getAveragePrice));
+	}
+
+	public double average(int typeId) {
+		Optional<Price> fetched = repo().findById(typeId);
+		return fetched.isPresent() ? fetched.get().getAveragePrice() : 0.0;
 	}
 
 	// cache

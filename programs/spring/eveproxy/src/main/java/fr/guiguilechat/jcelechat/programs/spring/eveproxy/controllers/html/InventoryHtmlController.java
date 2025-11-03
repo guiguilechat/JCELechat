@@ -49,10 +49,12 @@ import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.marke
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @RequestMapping("/html/inventory")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
+@Slf4j
 public class InventoryHtmlController {
 
 	private final CategoryService categoryService;
@@ -234,7 +236,7 @@ public class InventoryHtmlController {
 	@GetMapping("/type/{typeId}")
 	public String getType(Model model,
 			@PathVariable int typeId) {
-		String ret = "inventory/type";
+		log.trace("fetching type");
 		Type t = typeService.byId(typeId);
 		if (t == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " does not exist");
@@ -269,12 +271,14 @@ public class InventoryHtmlController {
 			model.addAttribute("nxtTypeUrl", uri(nxtType));
 		}
 
+		log.trace("fetching manufacturingProd");
 		List<LinkedProduct> manufProd = productService.findProducts(t.getId(), ActivityType.manufacturing).stream()
 				.map(this::linkedProduct)
 				.sorted(Comparator.comparing(u -> u.type().name()))
 				.toList();
 		model.addAttribute("manufacturingProd", manufProd);
 
+		log.trace("fetching manufacturingMats");
 		List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ActivityType.manufacturing)
 				.stream()
 				.map(this::linkedMaterial)
@@ -282,21 +286,25 @@ public class InventoryHtmlController {
 				.toList();
 		model.addAttribute("manufacturingMats", manufMats);
 
+		log.trace("fetching reactionProd");
 		model.addAttribute("reactionProd",
 				productService.findProducts(t.getId(), ActivityType.reaction).stream()
 						.map(this::linkedProduct)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());
 
+		log.trace("fetching reactionMats");
 		model.addAttribute("reactionMats",
 				materialService.forBPActivity(t.getId(), ActivityType.reaction).stream()
 						.map(this::linkedMaterial)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());
 
+		log.trace("fetching seeded");
 		List<LocatedBestOffer> seedOffers = marketLineService.seedLocations(t.getId());
 		model.addAttribute("seeded", seeds(seedOffers));
 
+		log.trace("fetching productOf");
 		List<LinkedActivity> productOf = productService
 				.findProducers(List.of(t.getId()), List.of(ActivityType.values())).stream()
 				.map(this::linkedActivity)
@@ -304,57 +312,70 @@ public class InventoryHtmlController {
 				.toList();
 		model.addAttribute("productOf", productOf);
 
+		log.trace("fetching offers");
 		List<LinkedLPOffer> offers = linkCorporationOfferService.producing(t).stream()
 				.map(npcHtmlController::linkedLPOffer)
 				.sorted(Comparator.comparing(LinkedLPOffer::name))
 				.toList();
 		model.addAttribute("offers", offers);
 
+		log.trace("fetching manufacturingUses");
 		model.addAttribute("manufacturingUses",
 				materialService.findUsages(t.getId(), ActivityType.manufacturing).stream()
 						.map(this::linkedUsage)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());
 
+		log.trace("fetching reactionUses");
 		model.addAttribute("reactionUses",
 				materialService.findUsages(t.getId(), ActivityType.reaction).stream()
 						.map(this::linkedUsage)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());
 
+		log.trace("fetching adjusted");
 		model.addAttribute("adjusted",
-				FormatTools.formatPrice(priceService.adjusted().getOrDefault(t.getId(), 0.0).longValue()));
-		model.addAttribute("average", FormatTools.formatPrice(priceService.average().getOrDefault(t.getId(), 0.0)));
+				FormatTools.formatPrice((long) priceService.adjusted(t.getId())));
+		log.trace("fetching average");
+		model.addAttribute("average", FormatTools.formatPrice(priceService.average(t.getId())));
 		if (!manufProd.isEmpty()) {
+			log.trace("fetching eiv");
 			model.addAttribute("eiv", eivService.eiv(t.getId()));
 		}
 		if (productOf.size() == 1) {
+			log.trace("fetching bpeiv");
 			model.addAttribute("bpeiv",
 					eivService.eiv(productOf.get(0).product().getActivity().getTypeId()));
 		}
+
+		log.trace("fetching jitabo");
 		List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
 		if (bos != null && !bos.isEmpty()) {
 			model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getPrice()));
 		}
-		List<MarketLine> sos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), false);
-		if (sos != null && !sos.isEmpty()) {
-			model.addAttribute("jitaso", FormatTools.formatPrice(sos.get(0).getPrice()));
+
+		log.trace("fetching jitaso");
+		List<MarketLine> jitaso = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), false);
+		if (jitaso != null && !jitaso.isEmpty()) {
+			model.addAttribute("jitaso", FormatTools.formatPrice(jitaso.get(0).getPrice()));
 		}
 
 		Map<Integer, String> regionNamesById = regionService.namesById();
+		log.trace("fetching regionSell");
 		model.addAttribute("regionSell",
 				contractMarketAggregator.lowestSellByRegion(t.getId())
 						.entrySet().stream()
 						.map(e -> RegionBestPrice.of(e, regionNamesById))
 						.sorted(Comparator.comparing(RegionBestPrice::price))
 						.toList());
+		log.trace("fetching regionBuy");
 		model.addAttribute("regionBuy",
 				contractMarketAggregator.highestBuyByRegion(t.getId())
 						.entrySet().stream()
 						.map(e -> RegionBestPrice.of(e, regionNamesById))
 						.sorted(Comparator.comparing(rp -> -rp.price()))
 						.toList());
-		return ret;
+		return "inventory/type";
 	}
 
 	@Transactional

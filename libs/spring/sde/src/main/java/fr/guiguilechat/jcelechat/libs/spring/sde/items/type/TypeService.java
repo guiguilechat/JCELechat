@@ -34,6 +34,19 @@ public class TypeService extends SdeEntityService<Type, Integer, TypeRepository>
 		return repo().findByGroupCategoryIdIn(categoryIds);
 	}
 
+	/**
+	 * list all ids of existing types that match at least one of
+	 * <ul>
+	 * <li>are the provided typeId</li>
+	 * <li>are the variation type id of the provided typeId</li>
+	 * <li>have the variation type id as the provided typeId</li>
+	 * <li>have the variation type id same the provided typeId's variation type id
+	 * (and not null)</li>
+	 * </ul>
+	 *
+	 * @param typeId any integer
+	 * @return list of all the type ids that are a variation of the provided typeId
+	 */
 	public List<Integer> listVariationIds(int typeId) {
 		return repo().listVariationIds(typeId);
 	}
