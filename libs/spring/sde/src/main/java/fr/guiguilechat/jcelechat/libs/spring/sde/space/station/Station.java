@@ -94,10 +94,10 @@ public class Station extends SdeInPlanetOrbit {
 			}
 		} else if (getCelestialIndex() > 0) {
 			// around a planet
-			ret = planet == null ? "unknownplanet" : planet.name();
+			ret = planet == null ? "planet:" + getOrbitId() : planet.name();
 		} else {
-			// around a star
-			ret = star == null ? "unknownstar" : getSolarSystem().name();
+			// around a star, so solar system
+			ret = getSolarSystem().name();
 		}
 		ret += " - " + (owner == null ? "unknowncorp" : owner.getName());
 		if (useOperationName) {
