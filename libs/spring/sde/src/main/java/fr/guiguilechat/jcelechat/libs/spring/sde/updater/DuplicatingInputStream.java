@@ -12,7 +12,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * memorize an inpustream to serve it several times
+ * memorize an inpustream to serve it several times.<br />
+ * The inputstream is read and copied internally on the first call to get()
  */
 @RequiredArgsConstructor
 class DuplicatingInputStream implements Supplier<InputStream> {

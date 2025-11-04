@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.NoRepositoryBean;
 
 @NoRepositoryBean
-public interface SdeEntityRepository<Type extends SdeEntity<IdType>, IdType extends Number>
-		extends JpaRepository<Type, IdType> {
+public interface SdeEntityRepository<Entity extends SdeEntity<IdType>, IdType extends Number>
+		extends JpaRepository<Entity, IdType> {
 
 	@Modifying
 	@Query("""
@@ -20,12 +20,12 @@ set
 """)
 	void setAllRemoved();
 
-	List<Type> findAllByReceivedFalse();
+	List<Entity> findAllByReceivedFalse();
 
-	List<Type> findAllByReceivedTrueAndRemovedFalse();
+	List<Entity> findAllByReceivedTrueAndRemovedFalse();
 
-	Type findByIdAndReceivedTrueAndRemovedFalse(IdType id);
+	Entity findByIdAndReceivedTrueAndRemovedFalse(IdType id);
 
-	List<Type> findAllByIdInAndReceivedTrueAndRemovedFalse(Iterable<IdType> ids);
+	List<Entity> findAllByIdInAndReceivedTrueAndRemovedFalse(Iterable<IdType> ids);
 
 }

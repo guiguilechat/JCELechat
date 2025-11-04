@@ -14,7 +14,13 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * an entity deduced from SDE files record
+ * an entity matching a SDE file's record. <br />
+ * That entity can be created when referenced in another file, and therefore is
+ * created with {@link #received} and {@link #removed} false.<br />
+ * When receiving the corresponding SDE file, all entities are set to
+ * {@link #removed} true, then those processed in the new file are set to
+ * {@link #received} true and {@link #removed} false using
+ * {@link #receivedSource()}
  *
  * @param <IdType>
  * @param <Source>

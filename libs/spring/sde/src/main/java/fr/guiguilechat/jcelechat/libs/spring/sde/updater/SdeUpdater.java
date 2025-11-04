@@ -28,6 +28,10 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * service that fetch existing new SDE and call the listener to process the
+ * internal files.
+ */
 @Service
 @ConfigurationProperties(prefix = "sde.fetcher")
 @Slf4j
@@ -122,9 +126,9 @@ public class SdeUpdater implements EntityUpdater {
 					listeners.forEach(l -> l.onSdeFile(name, sup));
 				}
 			}
+			listeners.forEach(SdeListener::afterSdeUpdate);
 			listeners.stream().flatMap(l -> l.listSDECaches().stream())
 					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-			listeners.forEach(SdeListener::afterSdeUpdate);
 		}
 		log.info(" finished updating SDE DB in {} ms", System.currentTimeMillis() - startUpdate);
 	}

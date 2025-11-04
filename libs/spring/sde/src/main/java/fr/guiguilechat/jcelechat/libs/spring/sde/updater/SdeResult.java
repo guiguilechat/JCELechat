@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.updater;
 
 import java.time.Instant;
 
-import org.springframework.data.annotation.CreatedDate;
+import org.hibernate.annotations.CreationTimestamp;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -16,6 +16,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+/**
+ * status of a SDE fetch
+ */
 @Entity(name = "SdeResult")
 @Table(name = "sde_updater_result")
 @Data
@@ -28,7 +31,7 @@ public class SdeResult {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
-	@CreatedDate
+	@CreationTimestamp
 	private Instant createdDate;
 
 	private Instant startedDate;
