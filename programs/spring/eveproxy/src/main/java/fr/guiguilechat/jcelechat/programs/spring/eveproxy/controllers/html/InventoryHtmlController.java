@@ -143,7 +143,7 @@ public class InventoryHtmlController {
 					SolarSystem solSys = stationId2SolSys.get(off.locationId());
 					Station sta = off.locationId() < Integer.MAX_VALUE ? stationId2Station.get((int) off.locationId())
 							: null;
-					return Seed.of(r, off.regionId(), solSys, sta == null ? "unresolved" : sta.getName(),
+					return Seed.of(r, off.regionId(), solSys, sta == null ? "unresolved" : sta.name(),
 							off.locationId(),
 							off.bestPrice());
 				})

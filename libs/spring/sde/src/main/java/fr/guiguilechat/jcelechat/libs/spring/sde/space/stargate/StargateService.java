@@ -238,7 +238,7 @@ public class StargateService extends
 		private final Map<Integer, Map<Integer, Double>> distances = new HashMap<>();
 
 		public void addDistance(int from, int to, double distance) {
-			Map<Integer, Double> m = distances.computeIfAbsent(from, i -> new HashMap<>(10));
+			Map<Integer, Double> m = distances.computeIfAbsent(from, _ -> new HashMap<>(10));
 			// System.err.println("map size=" + m.size() + " , distances size=" +
 			// distances.size());
 			m.put(to, Math.min(distance, m.getOrDefault(to, Double.POSITIVE_INFINITY)));
@@ -383,7 +383,7 @@ public class StargateService extends
 		for (int step : steps) {
 			long duration_s = (long) Math.ceil(astar.distanceDirect(lastPos, step));
 			if (step == end.getId()) {
-				ret.add(new WayPoint(step, end.getName(), duration_s));
+				ret.add(new WayPoint(step, end.name(), duration_s));
 			} else {
 				SolarSystem ss = repo().findById(step).get().getSolarSystem();
 				ret.add(new WayPoint(ss.getId(), ss.getName(), duration_s));

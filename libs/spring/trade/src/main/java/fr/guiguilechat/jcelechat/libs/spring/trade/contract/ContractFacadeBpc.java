@@ -51,13 +51,15 @@ public class ContractFacadeBpc {
 	 */
 	public List<ContractInfo> selling(int typeId, int me, int te) {
 		return contractInfoRepository
-				.findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
-						List.of(typeId),
+				.findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
+						typeId,
 						true, me, te);
 	}
 
-	public List<ContractOrder> sos(int typeId, int me, int te) {
-		return selling(typeId, me, te).stream().map(ContractOrder::new).toList();
+	public List<MarketOrder> sos(int typeId, int me, int te) {
+		return selling(typeId, me, te).stream()
+				.map(MarketOrder::of)
+				.toList();
 	}
 
 	@Transactional

@@ -8,6 +8,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityReposi
 
 public interface StationRepository extends SdeEntityRepository<Station, Integer> {
 
-	@EntityGraph(attributePaths = { "solarSystem" }) Stream<Station> findAllByIdIn(Iterable<Integer> ids);
+	@EntityGraph(attributePaths = { "moon.planet", "operation", "owner", "planet", "solarSystem", "star" })
+	Stream<Station> findAllByIdIn(Iterable<Integer> ids);
 
 }

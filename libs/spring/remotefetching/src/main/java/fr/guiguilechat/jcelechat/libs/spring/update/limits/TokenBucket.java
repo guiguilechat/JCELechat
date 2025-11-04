@@ -50,8 +50,8 @@ public class TokenBucket {
 		}
 
 		// only process response within that group
-		String group = response.getRateLimitGroup();
-		if (!group.equals(group)) {
+		String responseGroup = response.getRateLimitGroup();
+		if (!this.group.equals(responseGroup)) {
 			return;
 		}
 
@@ -66,7 +66,7 @@ public class TokenBucket {
 		String spec = response.getRateLimitLimit();
 		if (spec == null) {
 			log.warn("bucket {} received request for {} without a rate limit specification",
-					group,
+					responseGroup,
 					response.getURL());
 			return;
 		}
@@ -93,7 +93,7 @@ public class TokenBucket {
 									// headers.
 		}
 		log.trace("bucket {} processed response {}:{} limitations={} ; lastRemaining={} lastRetryAfter={}",
-				group,
+				responseGroup,
 				response.getResponseCode(),
 				response.getURL(),
 				spec,

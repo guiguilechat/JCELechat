@@ -104,7 +104,7 @@ public class LocationName {
 		return "Stargate (" + sol.enName() + ")";
 	}
 
-	static String roman(int value) {
+	public static String roman(int value) {
 		return switch (value) {
 		case 1 -> "I";
 		case 2 -> "II";

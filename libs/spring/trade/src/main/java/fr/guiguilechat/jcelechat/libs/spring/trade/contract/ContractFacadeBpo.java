@@ -2,12 +2,10 @@ package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
@@ -15,10 +13,10 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -34,6 +32,9 @@ public class ContractFacadeBpo {
 	private final ContractInfoRepository contractInfoRepository;
 
 	@Lazy
+	private final StationService stationService;
+
+	@Lazy
 	private final TypeService typeService;
 
 	/**
@@ -46,19 +47,24 @@ public class ContractFacadeBpo {
 	 */
 	public List<ContractInfo> selling(int typeId, int me, int te) {
 		return contractInfoRepository
-				.findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
-						List.of(typeId),
+				.findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
+						typeId,
 						false, me, te);
 	}
 
-	public List<ContractOrder> sos(int typeId, int me, int te) {
-		return selling(typeId, me, te).stream().map(ContractOrder::new).toList();
+	protected void resolveNames(List<MarketOrder> orders) {
+		Map<Integer, String> id2StationName = stationService
+				.resolveNames(orders.stream().filter(mo -> mo.getLocationId() < Integer.MAX_VALUE)
+						.map(mo -> (int) mo.getLocationId()).toList());
+		for (MarketOrder mo : orders) {
+			mo.resolveLocationName(id2StationName, Map.of());
+		}
 	}
 
-	@Transactional
-	public Stream<MarketOrder> streamSOs(int typeId, int me, int te) {
-		return selling(typeId, me, te).stream().map(MarketOrder::of)
-				.sorted(Comparator.comparing(MarketOrder::getPrice));
+	public List<MarketOrder> sos(int typeId, int me, int te) {
+		List<MarketOrder> ret = selling(typeId, me, te).stream().map(MarketOrder::of).toList();
+		resolveNames(ret);
+		return ret;
 	}
 
 	/**

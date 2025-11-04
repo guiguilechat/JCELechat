@@ -7,6 +7,7 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcStations;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.generic.SdeInPlanetOrbit;
@@ -80,8 +81,29 @@ public class Station extends SdeInPlanetOrbit {
 		setUseOperationName(source.useOperationName);
 	}
 
-	public String getName() {
-		return "station:" + getId();
+	public String name() {
+		String ret = "";
+		if (getOrbitIndex() > 0) {
+			if (moon == null || !moon.isReceived()) {
+				// moon not fetched. use generic "<solsysname> roman(<celestialindex>) - Moon
+				// <orbitindex>"
+				ret = getSolarSystem().name() + " " + LocationName.roman(getCelestialIndex()) + " - Moon "
+						+ getOrbitIndex();
+			} else {
+				ret = moon.name();
+			}
+		} else if (getCelestialIndex() > 0) {
+			// around a planet
+			ret = planet == null ? "unknownplanet" : planet.name();
+		} else {
+			// around a star
+			ret = star == null ? "unknownstar" : getSolarSystem().name();
+		}
+		ret += " - " + (owner == null ? "unknowncorp" : owner.getName());
+		if (useOperationName) {
+			ret+= " "+(getOperation()==null?"unknownoperation":getOperation().getName());
+		}
+		return ret;
 	}
 
 }

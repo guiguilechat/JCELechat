@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroupSe
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
@@ -36,7 +35,9 @@ import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.marke
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Controller
 @RequestMapping("/html/market")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
@@ -68,8 +69,6 @@ public class MarketHtmlController {
 
 	private final RegionService regionService;
 
-	private final StationService stationService;
-
 	private final TypeService typeService;
 
 	@Transactional
@@ -83,8 +82,6 @@ public class MarketHtmlController {
 		int teValue = te == null ? 0 : te.orElse(0);
 		boolean copyValue = copy == null ? false : copy.orElse(false);
 		Map<Integer, String> regionNamesById = regionService.namesById();
-		Map<Integer, String> stationNamesById = stationService.namesById();
-		Map<Long, String> structuresNamesById = Map.of();
 		String name = null;
 		if (type != null) {
 			model.addAttribute("typeUrl", dogmaHtmlController.uri(type).toString());
@@ -100,14 +97,15 @@ public class MarketHtmlController {
 			// working with BPC
 			model.addAttribute("showDetails", true);
 
+			log.trace("fetching contract facade sos");
 			List<MarketOrder> sos = contractFacadeBpc.streamSOs(typeId, meValue, teValue)
-					.peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+					.peek(mo -> mo.resolveRegionName(regionNamesById))
 					.toList();
 			// System.err.println("found " + sos.size() + " orders for " + name);
 			model.addAttribute("sos", sos);
 
 			List<MarketOrder> completed = contractFacadeBpc.streamSold(typeId, meValue, teValue, Limit.of(100))
-					.peek(mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+					.peek(mo -> mo.resolveRegionName(regionNamesById))
 					.toList();
 			model.addAttribute("completed", completed);
 		} else // working wit non-copy
@@ -115,22 +113,17 @@ public class MarketHtmlController {
 			// working with base type
 			model.addAttribute("sos",
 					contractMarketAggregator.sellOrders(typeId).stream()
-					.peek(
-							mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
-									structuresNamesById))
-					.toList());
+							.peek(mo -> mo.resolveRegionName(regionNamesById)).toList());
 			model.addAttribute("bos",
 					contractMarketAggregator.buyOrders(typeId).stream()
 					.peek(
-							mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById,
-									structuresNamesById))
+									mo -> mo.resolveRegionName(regionNamesById))
 					.toList());
 		} else {
 			// working with researched BPO
 			model.addAttribute("showDetails", true);
-			List<MarketOrder> sos = contractFacadeBpo.streamSOs(typeId, meValue, teValue)
-					.peek(
-							mo -> mo.resolveRegionName(regionNamesById).resolveLocationName(stationNamesById, structuresNamesById))
+			List<MarketOrder> sos = contractFacadeBpo.sos(typeId, meValue, teValue).stream()
+					.peek(mo -> mo.resolveRegionName(regionNamesById))
 					.peek(mo -> mo.setUrl(contractEvalController.uri(mo.getContractId()).toString()))
 					.toList();
 			// System.err.println("found " + sos.size() + " orders for " + name);

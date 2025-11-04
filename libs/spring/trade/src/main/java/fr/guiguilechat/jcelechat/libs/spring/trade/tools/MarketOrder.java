@@ -179,8 +179,8 @@ public class MarketOrder implements Serializable {
 		    .build();
 	}
 
-	public MarketOrder resolveRegionName(Map<Integer, String> names) {
-		setRegionName(names.get(regionId));
+	public MarketOrder resolveRegionName(Map<Integer, String> regionNames) {
+		setRegionName(regionNames.get(regionId));
 		if (getRegionName() == null) {
 			setRegionName("region:" + regionId);
 		}

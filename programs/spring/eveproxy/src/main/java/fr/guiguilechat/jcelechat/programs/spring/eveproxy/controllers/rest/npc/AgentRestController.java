@@ -54,7 +54,7 @@ public class AgentRestController {
 			sb.append(fieldSeparator).append(ad.corporation().getId());
 			sb.append(fieldSeparator).append(ad.corporation().getName());
 			sb.append(fieldSeparator).append(ad.station() != null ? ad.station().getId() : "");
-			sb.append(fieldSeparator).append(ad.station() != null ? ad.station().getName() : "");
+			sb.append(fieldSeparator).append(ad.station() != null ? ad.station().name() : "");
 			sb.append(fieldSeparator).append(ad.solarSystem().getId());
 			sb.append(fieldSeparator).append(ad.solarSystem().getName());
 			sb.append(fieldSeparator).append(ad.solarSystem().getSecurityStatus());

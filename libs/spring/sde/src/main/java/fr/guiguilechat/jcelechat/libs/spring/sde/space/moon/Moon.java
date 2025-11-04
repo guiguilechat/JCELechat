@@ -44,4 +44,12 @@ public class Moon extends SdeInPlanetOrbit {
 		setRadius(source.radius);
 	}
 
+	public String name() {
+		if (!isReceived()) {
+			return "moon:" + getId();
+		}
+		return (planet == null ? "" : planet.name())
+				+ " - Moon " + getOrbitIndex();
+	}
+
 }

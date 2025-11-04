@@ -7,6 +7,7 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapPlanets;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.generic.SdeInStarOrbit;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.moon.Moon;
@@ -33,11 +34,20 @@ public class Planet extends SdeInStarOrbit {
 	private long radius;
 	@OneToMany(mappedBy = "planet")
 	private Set<Moon> moons;
+	private String uniqueName;
 
 	public void update(EmapPlanets source, Function<Integer, Type> types,
 			Function<Integer, SolarSystem> solarSystems) {
 		super.update(source, types, solarSystems);
 		setRadius(source.radius);
+		setUniqueName(source.enUniqueName());
+	}
+
+	public String name() {
+		if (uniqueName != null) {
+			return uniqueName;
+		}
+		return getSolarSystem().name() + " " + LocationName.roman(getCelestialIndex());
 	}
 
 }

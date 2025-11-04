@@ -38,24 +38,46 @@ public class ContractFacadeNonBp {
 	/**
 	 * find contracts that are open and offer a given type, with 0 ME/TE/runs
 	 *
-	 * @param typeId
 	 * @return list of open contracts that provide only given type with (0,0,false)
-	 *           for (me, te, iscopy) value
+	 *         for (me, te, iscopy) value
 	 */
-	public List<ContractInfo> selling(Collection<Integer> typeIds) {
+	public List<ContractInfo> selling(int typeId) {
 		return contractInfoRepository
-		    .findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
-		        typeIds,
+		    .findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdAndOfferedCopyAndOfferedMeAndOfferedTe(
+		        typeId,
 		        false, 0, 0);
 	}
 
-	public List<ContractOrder> sos(int typeId) {
-		return selling(List.of(typeId)).stream().map(ContractOrder::new).toList();
+	public List<ContractInfo> selling(Iterable<Integer> typeIds) {
+		return contractInfoRepository
+				.findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
+						typeIds,
+						false, 0, 0);
+	}
+
+	/**
+	 * find contracts that are open and offer a given type, with 0 ME/TE/runs
+	 *
+	 * @param typeId
+	 * @return list of open contracts that provide only given type with (0,0,false)
+	 *         for (me, te, iscopy) value
+	 */
+	public List<MarketOrder> sos(int typeId) {
+		return contractInfoRepository
+				.findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdAndOfferedCopyAndOfferedMeAndOfferedTe(
+						typeId,
+						false, 0, 0)
+				.stream().map(MarketOrder::of).toList();
 	}
 
 	@Transactional
 	public Stream<MarketOrder> streamSOs(Collection<Integer> typeIds) {
 		return selling(typeIds).stream().map(MarketOrder::of);
+	}
+
+	@Transactional
+	public Stream<MarketOrder> streamSOs(int typeId) {
+		return selling(typeId).stream().map(MarketOrder::of);
 	}
 
 	/**
@@ -71,21 +93,11 @@ public class ContractFacadeNonBp {
 		        typeIds, false, 0, 0, limit);
 	}
 
-	/**
-	 * find contracts that are open and request a given type for isk
-	 *
-	 * @param typeIds allowed types requested
-	 * @return list of open contracts that request only one type among those given
-	 *           and provide no item.
-	 */
-	public List<ContractInfo> buying(Collection<Integer> typeIds) {
-		return contractInfoRepository
-		    .findByRemovedFalseAndAsksOneTypeForIskTrueAndAskedTypeIdIn(typeIds);
-	}
-
 	@Transactional
-	public Stream<MarketOrder> streamBOs(Collection<Integer> typeIds) {
-		return buying(typeIds).stream().map(MarketOrder::of);
+	public Stream<MarketOrder> streamBOs(int typeId) {
+		return contractInfoRepository
+				.findByRemovedFalseAndAsksOneTypeForIskTrueAndAskedTypeId(typeId).stream()
+				.map(MarketOrder::of);
 	}
 
 	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {

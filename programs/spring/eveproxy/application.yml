@@ -68,7 +68,7 @@ sde:
       update:
          skip: false
    space:
-      moon.skip: true
+#      moon.skip: true
          
 spring:
    cache:

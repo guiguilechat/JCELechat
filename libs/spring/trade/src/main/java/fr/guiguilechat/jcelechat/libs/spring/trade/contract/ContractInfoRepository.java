@@ -58,16 +58,26 @@ group by date_trunc('day', removedBefore)
 
 	/** open contracts providing only given type and iscopy, me, te */
 	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
-	    Collection<Integer> typeIds, boolean copy, int me, int te);
+			Iterable<Integer> typeIds, boolean copy, int me, int te);
+
+	/** open contracts providing only given type and iscopy, me, te */
+	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdAndOfferedCopyAndOfferedMeAndOfferedTe(
+			int typeId, boolean copy, int me, int te);
 
 	/**
 	 * open contracts providing only given type and iscopy, with minimal me and te
 	 */
 	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
-	    Collection<Integer> typeIds, boolean copy, int me, int te);
+			Iterable<Integer> typeIds, boolean copy, int me, int te);
+
+	/**
+	 * open contracts providing only given type and iscopy, with minimal me and te
+	 */
+	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
+			int typeId, boolean copy, int me, int te);
 
 	/** open contracts requesting only given types */
-	List<ContractInfo> findByRemovedFalseAndAsksOneTypeForIskTrueAndAskedTypeIdIn(Collection<Integer> typeIds);
+	List<ContractInfo> findByRemovedFalseAndAsksOneTypeForIskTrueAndAskedTypeId(int typeIds);
 
 	@Query("""
 select

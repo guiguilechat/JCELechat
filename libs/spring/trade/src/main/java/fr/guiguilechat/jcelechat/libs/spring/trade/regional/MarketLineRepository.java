@@ -38,8 +38,7 @@ public interface MarketLineRepository extends IFetchedListElementRepositoryAutoI
 	Stream<MarketLine> findByTypeIdInAndLocationIdAndIsBuyOrderFalseOrderByPriceAsc(
 	    Iterable<Integer> typeids, long locationId);
 
-	Stream<MarketLine> findByTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(
-	    Iterable<Integer> typeids);
+	Stream<MarketLine> findByTypeIdAndIsBuyOrderTrueOrderByPriceDesc(int typeId);
 
 	Stream<MarketLine> findByTypeIdInAndLocationIdAndIsBuyOrderTrueOrderByPriceDesc(
 	    Iterable<Integer> typeids, long locationId);

@@ -42,7 +42,7 @@ public class TravelRestController {
 
 		public TravelResult(Station from, Station to, boolean hs, double align_s, double ws_aups,
 				List<WayPoint> waypoints) {
-			this(from.getId(), from.getName(), to.getId(), to.getName(), hs, "" + align_s + " s",
+			this(from.getId(), from.name(), to.getId(), to.name(), hs, "" + align_s + " s",
 					"" + ws_aups + " AU/s",
 					waypoints.stream().mapToLong(WayPoint::duration_s).sum(),
 					waypoints.size(),

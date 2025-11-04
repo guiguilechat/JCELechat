@@ -29,6 +29,7 @@ import org.springframework.jdbc.datasource.DataSourceUtils;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegionService.MarketRegionListener;
+import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -224,8 +225,9 @@ public class MarketLineService implements MarketRegionListener {
 		return reverseIf(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(type_id, isBuyOrder), isBuyOrder);
 	}
 
-	public Stream<MarketLine> streamBOs(Collection<Integer> typeIds) {
-		return repo.findByTypeIdInAndIsBuyOrderTrueOrderByPriceDesc(typeIds);
+	public Stream<MarketOrder> streamBOs(int typeId) {
+		return repo.findByTypeIdAndIsBuyOrderTrueOrderByPriceDesc(typeId)
+				.map(MarketOrder::of);
 	}
 
 	public Stream<MarketLine> streamBOsAt(Collection<Integer> typeIds, long locationId) {
@@ -237,6 +239,11 @@ public class MarketLineService implements MarketRegionListener {
 
 	public Stream<MarketLine> streamSOs(Collection<Integer> typeIds) {
 		return repo.findByTypeIdInAndIsBuyOrderFalseOrderByPriceAsc(typeIds);
+	}
+
+	public Stream<MarketOrder> streamSOs(int typeId) {
+		return repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(typeId, false).stream()
+				.map(MarketOrder::of);
 	}
 
 	public Stream<MarketLine> streamSOsAt(Collection<Integer> typeIds, long locationId) {

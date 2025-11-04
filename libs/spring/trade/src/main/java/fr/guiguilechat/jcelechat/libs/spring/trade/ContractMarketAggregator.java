@@ -1,12 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.spring.trade;
 
 import java.time.Instant;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -16,6 +14,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeNonBp;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractItemsListener;
@@ -52,41 +51,49 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 	@Lazy
 	final private HistoryLineService historyLineService;
 
-	@Transactional
-	@Cacheable("MarketOrdersSellOrdersForTypes")
-	public Map<Integer, List<MarketOrder>> sellOrders(Collection<Integer> typeIds, Set<Long> alllowedLocations) {
-		Map<Integer, List<MarketOrder>> ret = Stream
-				.concat(contractFacadeNonBp.streamSOs(typeIds), marketLineService.streamSOs(typeIds).map(MarketOrder::of))
-				.filter(mo -> alllowedLocations == null || alllowedLocations.contains(mo.getLocationId()))
-				.collect(Collectors.groupingBy(MarketOrder::getTypeId));
-		ret.values().forEach(l -> l.sort(Comparator.comparing(MarketOrder::getPrice)));
-		return ret;
+	@Lazy
+	private final StationService stationService;
+
+	public void resolveLocationNames(List<MarketOrder> orders) {
+		Map<Integer, String> stationId2Name = stationService.resolveNames(orders.stream()
+				.filter(mo -> mo.getLocationId() < Integer.MAX_VALUE)
+				.map(mo -> (int) mo.getLocationId())
+				.distinct().toList());
+		for (MarketOrder mo : orders) {
+			mo.resolveLocationName(stationId2Name, Map.of());
+		}
 	}
 
+	/**
+	 * @param typeId
+	 * @return the merged contract and regional market orders to sell given type,
+	 *         0ME, 0TE, noncopy, for isks only
+	 */
+	@Cacheable("MarketOrdersSellOrdersForType")
 	public List<MarketOrder> sellOrders(int typeId) {
-		return sellOrders(List.of(typeId), null).getOrDefault(typeId, List.of());
-	}
-
-	@Transactional
-	@Cacheable("MarketOrdersBuyOrdersForTypes")
-	public Map<Integer, List<MarketOrder>> buyOrders(Collection<Integer> typeIds, Set<Long> alllowedLocations) {
-		Map<Integer, List<MarketOrder>> ret = Stream
-				.concat(contractFacadeNonBp.streamBOs(typeIds), marketLineService.streamBOs(typeIds).map(MarketOrder::of))
-				.filter(mo -> alllowedLocations == null || alllowedLocations.contains(mo.getLocationId()))
-				.collect(Collectors.groupingBy(MarketOrder::getTypeId));
-		ret.values().forEach(l -> l.sort(Comparator.comparing(mo -> -mo.getPrice())));
+		List<MarketOrder> ret = Stream.concat(
+				contractFacadeNonBp.streamSOs(typeId),
+				marketLineService.streamSOs(typeId))
+				.toList();
+		resolveLocationNames(ret);
 		return ret;
 	}
 
+	@Cacheable("MarketOrdersBuyOrdersForType")
 	public List<MarketOrder> buyOrders(int typeId) {
-		return buyOrders(List.of(typeId), null).getOrDefault(typeId, List.of());
+		List<MarketOrder> ret = Stream.concat(
+				contractFacadeNonBp.streamBOs(typeId),
+				marketLineService.streamBOs(typeId))
+				.toList();
+		resolveLocationNames(ret);
+		return ret;
 	}
 
 	@Transactional
 	@Cacheable("MarketOrdersLowestSellForType")
 	public Map<Integer, Double> lowestSellByRegion(int typeId) {
 		return Stream
-				.concat(contractFacadeNonBp.streamSOs(List.of(typeId)),
+				.concat(contractFacadeNonBp.streamSOs(typeId),
 						marketLineService.streamSOs(List.of(typeId)).map(MarketOrder::of))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()
@@ -98,8 +105,8 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 	@Cacheable("MarketOrdersHighestBuyForType")
 	public Map<Integer, Double> highestBuyByRegion(int typeId) {
 		return Stream
-				.concat(contractFacadeNonBp.streamBOs(List.of(typeId)),
-						marketLineService.streamBOs(List.of(typeId)).map(MarketOrder::of))
+				.concat(contractFacadeNonBp.streamBOs(typeId),
+						marketLineService.streamBOs(typeId))
 				.collect(Collectors.groupingBy(MarketOrder::getRegionId))
 				.entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey,
@@ -133,8 +140,8 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 
 	@Getter
 	private final List<String> cacheList = List.of(
-			"MarketOrdersSellOrdersForTypes",
-			"MarketOrdersBuyOrdersForTypes",
+			"MarketOrdersSellOrdersForType",
+			"MarketOrdersBuyOrdersForType",
 			"MarketOrdersLowestSellForType",
 			"MarketOrdersHighestBuyForType");
 
