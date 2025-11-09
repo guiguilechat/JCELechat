@@ -12,7 +12,7 @@ import java.util.List;
  * convert a localdate to corresponding url, from a set of known formatters per
  * date range
  */
-public class DateURL {
+public class MERDateURL {
 
 	public static record DateRangeFormatter(LocalDate fromInclusive, LocalDate toExclusive, DateTimeFormatter format,
 			long dayRange) {
@@ -60,7 +60,7 @@ public class DateURL {
 
 	List<DateRangeFormatter> formatters = new ArrayList<>();
 
-	public DateURL with(DateRangeFormatter newFormat) {
+	public MERDateURL with(DateRangeFormatter newFormat) {
 		formatters.add(newFormat);
 		Collections.sort(formatters, Comparator.comparing(drf -> -drf.dayRange()));
 		return this;

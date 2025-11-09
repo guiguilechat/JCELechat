@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.util.stream.Stream;
 import java.util.zip.ZipInputStream;
 
-import fr.guiguilechat.jcelechat.libs.mer.DateURL.DateRangeFormatter;
+import fr.guiguilechat.jcelechat.libs.mer.MERDateURL.DateRangeFormatter;
 import lombok.RequiredArgsConstructor;
 
 /**
@@ -24,8 +24,10 @@ public class MERFetcher {
 
 	public static final MERFetcher INSTANCE = new MERFetcher();
 
-	public static DateURL defaultURLs() {
-		return new DateURL()
+	public static MERDateURL defaultURLs() {
+		return new MERDateURL()
+				.with(DateRangeFormatter.starting(2025, 8,
+						"'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_'yyyyMM'.zip'"))
 				.with(DateRangeFormatter.starting(2022, 2,
 						"'https://web.ccpgamescdn.com/aws/community/EVEOnline_MER_'MMMyyyy'.zip'"))
 				.with(DateRangeFormatter.ofMonth(2022, 1,
@@ -87,7 +89,7 @@ public class MERFetcher {
 		this(defaultURLs());
 	}
 
-	private final DateURL dateURLs;
+	private final MERDateURL dateURLs;
 
 	public record MERFetch(ZipInputStream data, Exception error, String url, LocalDate date) {
 

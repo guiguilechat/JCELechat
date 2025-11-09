@@ -32,7 +32,6 @@ public class MerUpdateScheduler {
 	@Lazy
 	final private MerUpdateService merUpdateService;
 
-
 	private int max = 10;
 
 	private boolean skip = false;
@@ -46,8 +45,10 @@ public class MerUpdateScheduler {
 		}
 		long startMs = System.currentTimeMillis();
 		List<MERFetch> merFetches = new ArrayList<>(
-				merUpdateService.nextFetches().stream().map(ld -> MERFetcher.INSTANCE.forDate(ld))
-						.filter(mf -> mf.url() != null).toList());
+				merUpdateService.nextFetches().stream().map(ld ->
+						MERFetcher.INSTANCE.forDate(ld))
+						.filter(mf -> mf.url() != null)
+						.toList());
 		Random rand = new Random();
 		while (merFetches.size() > max) {
 			merFetches.remove(rand.nextInt(merFetches.size()));
@@ -57,7 +58,7 @@ public class MerUpdateScheduler {
 						.filter(mf -> mf.url() != null).count());
 		Map<MERFetch, CompletableFuture<Void>> futures = merFetches.stream()
 				.collect(Collectors.toMap(mf -> mf,
-		        mf -> merUpdateService.loadMer(mf).orTimeout(timeoutsec, TimeUnit.SECONDS)));
+						mf -> merUpdateService.loadMer(mf).orTimeout(timeoutsec, TimeUnit.SECONDS)));
 		futures.entrySet().forEach(f -> {
 			try {
 				f.getValue().join();
