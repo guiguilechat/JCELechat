@@ -29,6 +29,7 @@ public class EagentsInSpace {
 	public int dungeonID;
 	/** {@link EmapSolarSystems} */
 	public int solarSystemID;
+	/** no idea */
 	public int spawnPointID;
 	/** {@link Etypes} */
 	public int typeID;

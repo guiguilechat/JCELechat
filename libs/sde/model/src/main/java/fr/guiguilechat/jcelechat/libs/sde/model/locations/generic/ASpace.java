@@ -2,8 +2,8 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations.generic;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.AIDBasedObject;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourced;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -12,23 +12,19 @@ import lombok.experimental.Accessors;
  * classes can present more
  * information.
  *
- * @param <T>
+ * @param <SourceType>
  */
 @Getter
 @Accessors(fluent = true)
-public abstract class ASpace<T> extends AIDBasedObject {
+public abstract class ASpace<SourceType> extends DataSourced<SourceType> {
 
-	private final T source;
-
-	protected ASpace(DataSource datasource, int id, T source) {
-		super(datasource, id);
-		this.source = source;
+	protected ASpace(DataSource datasource, int id, SourceType source) {
+		super(datasource, id, source);
 	}
 
 	protected abstract String makeEnName();
 
 	@Getter(lazy = true)
-	@Accessors(fluent = true)
 	private final String enName = makeEnName();
 
 	protected abstract Position makePosition();
@@ -38,7 +34,6 @@ public abstract class ASpace<T> extends AIDBasedObject {
 	 * method adds the center to it.
 	 */
 	@Getter(lazy = true)
-	@Accessors(fluent = true)
 	private final Position position = makePosition();
 
 	@Override

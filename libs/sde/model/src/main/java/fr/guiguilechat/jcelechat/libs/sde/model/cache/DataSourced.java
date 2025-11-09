@@ -11,17 +11,19 @@ import lombok.experimental.Accessors;
 @RequiredArgsConstructor
 @Getter
 @Accessors(fluent = true)
-public class AIDBasedObject {
+public class DataSourced<SourceType> {
 
 	private final DataSource datasource;
 
 	private final int id;
 
+	private final SourceType source;
+
 	@Override
 	public boolean equals(Object obj) {
 		return obj != null
 				&& obj.getClass().equals(getClass())
-				&& ((AIDBasedObject) obj).id == id;
+				&& ((DataSourced<?>) obj).id == id;
 	}
 
 	@Override

@@ -2,11 +2,13 @@ package fr.guiguilechat.jcelechat.libs.spring.trade.contract;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
@@ -15,8 +17,11 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractItemsListener;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegionService.MarketRegionListener;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -26,7 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class ContractFacadeBpo {
+public class ContractFacadeBpo implements ContractItemsListener, MarketRegionListener {
 
 	@Lazy
 	private final ContractInfoRepository contractInfoRepository;
@@ -61,8 +66,12 @@ public class ContractFacadeBpo {
 		}
 	}
 
+	@Cacheable("BpoFacadeSellOrdersForType")
 	public List<MarketOrder> sos(int typeId, int me, int te) {
-		List<MarketOrder> ret = selling(typeId, me, te).stream().map(MarketOrder::of).toList();
+		List<MarketOrder> ret = selling(typeId, me, te).stream()
+				.map(MarketOrder::of)
+				.sorted(Comparator.comparing(MarketOrder::getPrice))
+				.toList();
 		resolveNames(ret);
 		return ret;
 	}
@@ -129,5 +138,9 @@ public class ContractFacadeBpo {
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;
 	}
+
+	@Getter
+	private final List<String> cacheList = List.of(
+			"BpoFacadeSellOrdersForType");
 
 }

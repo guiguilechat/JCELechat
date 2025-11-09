@@ -5,10 +5,11 @@ import java.math.BigDecimal;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcStations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AStarOrbit;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporation;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -20,7 +21,6 @@ public class Station extends AStarOrbit<EnpcStations> {
 			EnpcStations.LOADER, Station::new, Station::enName);
 
 	private final int operationId;
-	private final int ownerId;
 	private final BigDecimal reprocessingEfficiency;
 	private final int reprocessingHangarFlag;
 	private final BigDecimal reprocessingStationsTake;
@@ -29,7 +29,6 @@ public class Station extends AStarOrbit<EnpcStations> {
 	protected Station(DataSource datasource, int id, EnpcStations source) {
 		super(datasource, id, source);
 		operationId = source.operationID;
-		ownerId = source.ownerID;
 		reprocessingEfficiency = source.reprocessingEfficiency;
 		reprocessingHangarFlag = source.reprocessingHangarFlag;
 		reprocessingStationsTake = source.reprocessingStationsTake;
@@ -49,5 +48,8 @@ public class Station extends AStarOrbit<EnpcStations> {
 	protected Position makePosition() {
 		return source().position.add(solarSystem().position());
 	}
+
+	@Getter(lazy = true)
+	private final NPCCorporation owner = datasource().npcCorporations().of(source().ownerID);
 
 }

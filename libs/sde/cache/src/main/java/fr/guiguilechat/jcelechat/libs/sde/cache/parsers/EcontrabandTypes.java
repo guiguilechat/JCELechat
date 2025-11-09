@@ -36,6 +36,9 @@ public class EcontrabandTypes {
 		public BigDecimal standingLoss;
 	}
 
+	/**
+	 * key is {@link Efactions}
+	 */
 	public Map<Integer, FactionContraband> factions = new LinkedHashMap<>();
 
 	//

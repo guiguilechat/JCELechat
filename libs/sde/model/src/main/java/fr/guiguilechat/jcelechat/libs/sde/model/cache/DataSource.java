@@ -13,11 +13,19 @@ import fr.guiguilechat.jcelechat.libs.sde.model.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Star;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Stargate;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Station;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.station.StationOperation;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.station.StationService;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.AgentType;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCharacter;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporation;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporationDivision;
 
 /**
  * several entity maps to load the elements from
  */
 public interface DataSource {
+
+	EntityNameMap<AgentType> agentTypes();
 
 	EntityMap<AsteroidBelt> asteroidBelts();
 
@@ -31,6 +39,12 @@ public interface DataSource {
 
 	EntityMap<Moon> moons();
 
+	EntityNameMap<NPCCharacter> npcCharacters();
+
+	EntityMap<NPCCorporation> npcCorporations();
+
+	EntityMap<NPCCorporationDivision> npcCorporationDivisions();
+
 	EntityMap<Planet> planets();
 
 	EntityNameMap<Region> regions();
@@ -40,6 +54,10 @@ public interface DataSource {
 	EntityMap<Star> stars();
 
 	EntityMap<Stargate> stargates();
+
+	EntityMap<StationOperation> stationOperations();
+
+	EntityMap<StationService> stationServices();
 
 	EntityNameMap<Station> stations();
 

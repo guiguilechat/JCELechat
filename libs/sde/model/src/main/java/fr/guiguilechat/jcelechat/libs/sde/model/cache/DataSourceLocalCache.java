@@ -13,6 +13,12 @@ import fr.guiguilechat.jcelechat.libs.sde.model.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Star;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Stargate;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Station;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.station.StationOperation;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.station.StationService;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.AgentType;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCharacter;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporation;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporationDivision;
 
 /**
  * datasource that resolves the elements using a local file cache
@@ -20,6 +26,11 @@ import fr.guiguilechat.jcelechat.libs.sde.model.locations.Station;
 public class DataSourceLocalCache implements DataSource {
 
 	public static final DataSourceLocalCache INSTANCE = new DataSourceLocalCache();
+
+	@Override
+	public EntityNameMap<AgentType> agentTypes() {
+		return AgentType.CACHE;
+	}
 
 	@Override
 	public EntityMap<AsteroidBelt> asteroidBelts() {
@@ -52,6 +63,21 @@ public class DataSourceLocalCache implements DataSource {
 	}
 
 	@Override
+	public EntityNameMap<NPCCharacter> npcCharacters() {
+		return NPCCharacter.CACHE;
+	}
+
+	@Override
+	public EntityMap<NPCCorporation> npcCorporations() {
+		return NPCCorporation.CACHE;
+	}
+
+	@Override
+	public EntityMap<NPCCorporationDivision> npcCorporationDivisions() {
+		return NPCCorporationDivision.CACHE;
+	}
+
+	@Override
 	public EntityMap<Planet> planets() {
 		return Planet.CACHE;
 	}
@@ -74,6 +100,16 @@ public class DataSourceLocalCache implements DataSource {
 	@Override
 	public EntityMap<Stargate> stargates() {
 		return Stargate.CACHE;
+	}
+
+	@Override
+	public EntityMap<StationOperation> stationOperations() {
+		return StationOperation.CACHE;
+	}
+
+	@Override
+	public EntityMap<StationService> stationServices() {
+		return StationService.CACHE;
 	}
 
 	@Override

@@ -98,7 +98,7 @@ public class MarketHtmlController {
 			model.addAttribute("showDetails", true);
 
 			log.trace("fetching contract facade sos");
-			List<MarketOrder> sos = contractFacadeBpc.streamSOs(typeId, meValue, teValue)
+			List<MarketOrder> sos = contractFacadeBpc.sos(typeId, meValue, teValue).stream()
 					.peek(mo -> mo.resolveRegionName(regionNamesById))
 					.toList();
 			// System.err.println("found " + sos.size() + " orders for " + name);
@@ -111,13 +111,13 @@ public class MarketHtmlController {
 		} else // working wit non-copy
 		if (meValue < 1 && teValue < 1) {
 			// working with base type
+
 			model.addAttribute("sos",
 					contractMarketAggregator.sellOrders(typeId).stream()
 							.peek(mo -> mo.resolveRegionName(regionNamesById)).toList());
 			model.addAttribute("bos",
 					contractMarketAggregator.buyOrders(typeId).stream()
-					.peek(
-									mo -> mo.resolveRegionName(regionNamesById))
+							.peek(mo -> mo.resolveRegionName(regionNamesById))
 					.toList());
 		} else {
 			// working with researched BPO

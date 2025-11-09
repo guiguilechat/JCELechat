@@ -74,6 +74,7 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 		List<MarketOrder> ret = Stream.concat(
 				contractFacadeNonBp.streamSOs(typeId),
 				marketLineService.streamSOs(typeId))
+				.sorted(Comparator.comparing(MarketOrder::getPrice))
 				.toList();
 		resolveLocationNames(ret);
 		return ret;
@@ -84,6 +85,7 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 		List<MarketOrder> ret = Stream.concat(
 				contractFacadeNonBp.streamBOs(typeId),
 				marketLineService.streamBOs(typeId))
+				.sorted(Comparator.comparing(mo -> -mo.getPrice()))
 				.toList();
 		resolveLocationNames(ret);
 		return ret;

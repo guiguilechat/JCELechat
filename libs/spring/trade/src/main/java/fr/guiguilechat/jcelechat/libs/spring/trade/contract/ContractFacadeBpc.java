@@ -13,16 +13,21 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractItemsListener;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.AggregatedHL;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegionService.MarketRegionListener;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import jakarta.transaction.Transactional;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -33,10 +38,13 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class ContractFacadeBpc {
+public class ContractFacadeBpc implements ContractItemsListener, MarketRegionListener {
 
 	@Lazy
 	private final ContractInfoRepository contractInfoRepository;
+
+	@Lazy
+	private final StationService stationService;
 
 	@Lazy
 	private final TypeService typeService;
@@ -56,16 +64,23 @@ public class ContractFacadeBpc {
 						true, me, te);
 	}
 
-	public List<MarketOrder> sos(int typeId, int me, int te) {
-		return selling(typeId, me, te).stream()
-				.map(MarketOrder::of)
-				.toList();
+	protected void resolveNames(List<MarketOrder> orders) {
+		Map<Integer, String> id2StationName = stationService
+				.resolveNames(orders.stream().filter(mo -> mo.getLocationId() < Integer.MAX_VALUE)
+						.map(mo -> (int) mo.getLocationId()).toList());
+		for (MarketOrder mo : orders) {
+			mo.resolveLocationName(id2StationName, Map.of());
+		}
 	}
 
-	@Transactional
-	public Stream<MarketOrder> streamSOs(int typeId, int me, int te) {
-		return selling(typeId, me, te).stream().map(MarketOrder::of)
-				.sorted(Comparator.comparing(MarketOrder::getPrice));
+	@Cacheable("BpcFacadeSellOrdersForType")
+	public List<MarketOrder> sos(int typeId, int me, int te) {
+		List<MarketOrder> ret = selling(typeId, me, te).stream()
+				.map(MarketOrder::of)
+				.sorted(Comparator.comparing(MarketOrder::getPrice))
+				.toList();
+		resolveNames(ret);
+		return ret;
 	}
 
 	/**
@@ -153,5 +168,9 @@ public class ContractFacadeBpc {
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;
 	}
+
+	@Getter
+	private final List<String> cacheList = List.of(
+			"BpcFacadeSellOrdersForType");
 
 }

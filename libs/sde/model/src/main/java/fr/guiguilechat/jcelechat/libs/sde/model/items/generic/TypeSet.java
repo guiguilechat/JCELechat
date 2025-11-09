@@ -2,29 +2,31 @@ package fr.guiguilechat.jcelechat.libs.sde.model.items.generic;
 
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.AIDBasedObject;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourced;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Category;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Group;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Type;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
+/**
+ * An {@link DataSourced} that refers to a set of types, their groups, and
+ * categories
+ *
+ * @param <SourceType>
+ */
 @Getter
 @Accessors(fluent = true)
-public abstract class TypeSet<T> extends AIDBasedObject {
+public abstract class TypeSet<SourceType> extends DataSourced<SourceType> {
 
-	private final T source;
-
-	public TypeSet(DataSource datasource, int id, T source) {
-		super(datasource, id);
-		this.source = source;
+	public TypeSet(DataSource datasource, int id, SourceType source) {
+		super(datasource, id, source);
 	}
 
 	protected abstract String makeEnName();
 
 	@Getter(lazy = true)
-	@Accessors(fluent = true)
 	private final String enName = makeEnName();
 
 	public abstract Set<Type> types();

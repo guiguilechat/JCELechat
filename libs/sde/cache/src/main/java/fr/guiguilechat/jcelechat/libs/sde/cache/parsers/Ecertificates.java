@@ -31,6 +31,7 @@ public class Ecertificates {
 	//
 
 	public HashMap<String, String> description = new HashMap<>();
+	/** ? {@link Egroups} ? */
 	public int groupID;
 	public HashMap<String, String> name = new HashMap<>();
 	public List<Integer> recommendedFor = new ArrayList<>();

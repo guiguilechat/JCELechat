@@ -29,6 +29,7 @@ public class EstationOperations {
 	// file structure
 	//
 
+	/** different from id. No idea what it is */
 	public int activityID;
 	public BigDecimal border;
 	public BigDecimal corridor;
@@ -39,7 +40,9 @@ public class EstationOperations {
 	public HashMap<String, String> operationName = new HashMap<>();
 	public BigDecimal ratio;
 	public BigDecimal researchFactor;
+	/** {@link EstationServices} */
 	public int[] services;
+	/** in the files, 2^i => {@link Etypes} . I guess it's for flag enumeration */
 	public HashMap<Integer, Integer> stationTypes = new HashMap<>();
 
 	public String enDescription() {

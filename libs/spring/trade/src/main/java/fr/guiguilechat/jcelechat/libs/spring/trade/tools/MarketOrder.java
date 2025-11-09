@@ -14,7 +14,7 @@ import lombok.Data;
 import lombok.Getter;
 
 /**
- * class for representing both market orders and contract orders.
+ * class for representing both regional orders and contract orders.
  * It's serializable to be cached easily, so does not contain any external
  * reference.
  */
@@ -26,7 +26,7 @@ public class MarketOrder implements Serializable {
 
 	private int regionId;
 
-	public static enum OrderType {
+	public enum OrderType {
 		MARKET, CONTRACT
 	}
 
@@ -71,7 +71,7 @@ public class MarketOrder implements Serializable {
 	private int minVolume;
 
 	/**
-	 * price number
+	 * unit price in isk
 	 */
 	private double price;
 

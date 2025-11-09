@@ -31,10 +31,12 @@ public class EcontrolTowerResources {
 	//
 
 	public static class Resource {
+		/** {@link Efactions} */
 		public int factionID;
 		public BigDecimal minSecurityLevel;
 		public int purpose;
 		public int quantity;
+		/** {@link Etypes} */
 		public int resourceTypeID;
 	}
 
