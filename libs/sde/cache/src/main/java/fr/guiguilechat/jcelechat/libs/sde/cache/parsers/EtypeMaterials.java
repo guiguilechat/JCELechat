@@ -29,6 +29,7 @@ public class EtypeMaterials {
 
 	public static class Material {
 		public int quantity;
+		/** {@link Etypes} */
 		public int materialTypeID;
 
 		@Override
@@ -52,7 +53,9 @@ public class EtypeMaterials {
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println(
 				"first : materials=" + first.materials.size());
-		for(var val : loaded.values()) assert(val.getClass().equals(first.getClass())); 
+		for(var val : loaded.values()) {
+			assert val.getClass().equals(first.getClass());
+		}
 	}
 
 }

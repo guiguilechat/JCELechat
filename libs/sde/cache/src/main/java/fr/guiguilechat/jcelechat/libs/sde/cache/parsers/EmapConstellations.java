@@ -30,9 +30,12 @@ public class EmapConstellations extends InSpace {
 	// file structure
 	//
 
+	/** {@link Efactions} */
 	public int factionID;
 	public LinkedHashMap<String, String> name;
+	/** {@link EmapRegions} */
 	public int regionID;
+	/** {@link EmapSolarSystems} */
 	public List<Integer> solarSystemIDs = new ArrayList<>();
 	public int wormholeClassID;
 

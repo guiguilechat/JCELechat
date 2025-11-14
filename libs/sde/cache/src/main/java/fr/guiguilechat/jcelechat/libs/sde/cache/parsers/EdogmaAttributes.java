@@ -32,7 +32,9 @@ public class EdogmaAttributes {
 	// file structure
 	//
 
+	/** {@link EdogmaAttributeCategories} */
 	public int attributeCategoryID;
+	/** {@link EdogmaAttributes} */
 	public int chargeRechargeTimeID; // should be chargeRechargeTimeAttributeID
 	public int dataType;
 	public BigDecimal defaultValue;
@@ -41,13 +43,16 @@ public class EdogmaAttributes {
 	public boolean displayWhenZero;
 	public boolean highIsGood;
 	public int iconID;
+	/** {@link EdogmaAttributes} */
 	public int maxAttributeID;
+	/** {@link EdogmaAttributes} */
 	public int minAttributeID;
 	public String name;
 	public boolean published;
 	public boolean stackable;
 	public Map<String, String> tooltipDescription = new LinkedHashMap<>();
 	public Map<String, String> tooltipTitle = new LinkedHashMap<>();
+	/** {@link EdogmaUnits} */
 	public Integer unitID;
 
 	public String enDisplayName() {

@@ -35,12 +35,15 @@ public class EdbuffCollections {
 	public Map<String, String> displayName = new LinkedHashMap<>();
 
 	public static class ItemModifier {
+		/** {@link EdogmaAttributes} */
 		public int dogmaAttributeID;
 	}
 	public List<ItemModifier> itemModifiers = new ArrayList<>();
 
 	public static class LocationGroupModifiers {
+		/** {@link EdogmaAttributes} */
 		public int dogmaAttributeID;
+		/** {@link Egroups} */
 		public int groupID;
 	}
 	public ArrayList<LocationGroupModifiers> locationGroupModifiers = new ArrayList<>();
@@ -48,7 +51,9 @@ public class EdbuffCollections {
 	public List<ItemModifier> locationModifiers = new ArrayList<>();
 
 	public static class LocationRequiredSkillModifier {
+		/** {@link EdogmaAttributes} */
 		public int dogmaAttributeID;
+		/** {@link Etypes} */
 		public int skillID;
 	}
 	public List<LocationRequiredSkillModifier> locationRequiredSkillModifiers = new ArrayList<>();

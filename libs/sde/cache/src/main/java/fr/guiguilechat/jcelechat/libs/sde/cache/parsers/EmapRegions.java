@@ -31,8 +31,10 @@ public class EmapRegions extends InSpace {
 	// file structure
 	//
 
+	/** {@link EmapConstellations} */
 	public List<Integer> constellationIDs = new ArrayList<>();
 	public Map<String, String> description = new LinkedHashMap<>();
+	/** {@link Efactions} */
 	public int factionID;
 	public LinkedHashMap<String, String> name;
 	public int nebulaID;

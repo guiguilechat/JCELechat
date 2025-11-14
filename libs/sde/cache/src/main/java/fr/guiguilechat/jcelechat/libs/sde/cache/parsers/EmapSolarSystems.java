@@ -32,23 +32,29 @@ public class EmapSolarSystems extends InSpace {
 	//
 
 	public boolean border;
+	/** {@link EmapConstellations} */
 	public int constellationID;
 	public boolean corridor;
 	public List<Integer> disallowedAnchorCategories = new ArrayList<>();
 	public List<Integer> disallowedAnchorGroups = new ArrayList<>();
+	/** {@link Efactions} */
 	public int factionID;
 	public boolean fringe;
 	public boolean hub;
 	public boolean international;
 	public BigDecimal luminosity;
 	public LinkedHashMap<String, String> name;
+	/** {@link EmapPlanets} */
 	public List<Integer> planetIDs = new ArrayList<>();
 	public BigDecimal radius;
+	/** {@link EmapRegions} */
 	public int regionID;
 	public boolean regional;
 	public String securityClass;
 	public BigDecimal securityStatus;
+	/** {@link EmapStars} */
 	public int starID;
+	/** {@link EmapStargates} */
 	public List<Integer> stargateIDs = new ArrayList<>();
 	public String visualEffect;
 	public int wormholeClassID;

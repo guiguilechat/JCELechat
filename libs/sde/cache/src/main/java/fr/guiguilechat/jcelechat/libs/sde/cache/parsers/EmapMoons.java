@@ -38,6 +38,7 @@ public class EmapMoons extends InPlanetOrbit {
 	//
 
 	public AttributesMoon attributes = new AttributesMoon();
+	/** {@link EnpcStations} */
 	public List<Integer> npcStationIDs;
 	public BigDecimal radius;
 	public StatisticsCelestial statistics = new StatisticsCelestial();

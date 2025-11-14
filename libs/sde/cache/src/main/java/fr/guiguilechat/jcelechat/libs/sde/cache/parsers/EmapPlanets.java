@@ -33,9 +33,12 @@ public class EmapPlanets extends InStarOrbit {
 	// file structure
 	//
 
+	/** {@link EmapAsteroidBelts} */
 	public List<Integer> asteroidBeltIDs;
 	public AttributesPlanet attributes = new AttributesPlanet();
+	/** {@link EmapMoons} */
 	public List<Integer> moonIDs;
+	/** {@link EnpcStations} */
 	public List<Integer> npcStationIDs;
 	public long radius;
 	public StatisticsCelestial statistics = new StatisticsCelestial();

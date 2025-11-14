@@ -33,18 +33,20 @@ public class EtypeBonus {
 
 	public int iconID;
 
-	public static class MiscBonus extends Bonus {
-		public boolean isPositive;
-	}
-	public List<MiscBonus> miscBonuses = new ArrayList<>();
-
 	public static class Bonus {
 		public BigDecimal bonus;
 		public LinkedHashMap<String, String> bonusText = new LinkedHashMap<>();
 		public int importance;
 		public int unitID;
 	}
+
+	public static class MiscBonus extends Bonus {
+		public boolean isPositive;
+	}
+
+	public List<MiscBonus> miscBonuses = new ArrayList<>();
 	public List<Bonus> roleBonuses = new ArrayList<>();
+	/** key is {@link Etypes} */
 	public Map<Integer, Bonus[]> types = new LinkedHashMap<>();
 
 	//

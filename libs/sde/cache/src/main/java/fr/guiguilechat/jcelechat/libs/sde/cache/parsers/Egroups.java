@@ -30,6 +30,7 @@ public class Egroups {
 
 	public boolean anchorable;
 	public boolean anchored;
+	/** {@link Ecategories} */
 	public int categoryID;
 	public boolean fittableNonSingleton;
 	public int iconID;

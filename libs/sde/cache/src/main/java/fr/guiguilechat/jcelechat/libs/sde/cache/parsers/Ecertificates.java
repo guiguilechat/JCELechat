@@ -34,6 +34,7 @@ public class Ecertificates {
 	/** ? {@link Egroups} ? */
 	public int groupID;
 	public HashMap<String, String> name = new HashMap<>();
+	/** ? {@link Etypes} ? */
 	public List<Integer> recommendedFor = new ArrayList<>();
 
 	public static class SkillTypes {

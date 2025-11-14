@@ -40,7 +40,9 @@ public class EdynamicItemAttributes {
 	public Map<Integer, MinMax> attributeIDs = new LinkedHashMap<>();
 
 	public static class TransformTypes {
+		/** {@link Etypes} */
 		public List<Integer> applicableTypes = new ArrayList<>();
+		/** {@link Etypes} */
 		public int resultingType;
 	}
 	public List<TransformTypes> inputOutputMapping = new ArrayList<>();

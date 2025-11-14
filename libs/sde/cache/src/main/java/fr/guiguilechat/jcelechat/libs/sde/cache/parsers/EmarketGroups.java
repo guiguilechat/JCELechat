@@ -32,6 +32,7 @@ public class EmarketGroups {
 	public boolean hasTypes;
 	public int iconID;
 	public Map<String, String> name = new LinkedHashMap<>();
+	/** {@link EmarketGroups} */
 	public int parentGroupID;
 
 	public String enName() {

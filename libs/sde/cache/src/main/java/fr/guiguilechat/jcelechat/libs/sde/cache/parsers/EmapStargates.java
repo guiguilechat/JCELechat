@@ -29,7 +29,9 @@ public class EmapStargates extends InSystem {
 	//
 
 	public static class Destination {
+		/** {@link EmapSolarSystems} */
 		public int solarSystemID;
+		/** {@link EmapStargates} */
 		public int stargateID;
 	}
 

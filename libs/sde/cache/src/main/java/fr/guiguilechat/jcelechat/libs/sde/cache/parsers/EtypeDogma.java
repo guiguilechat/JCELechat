@@ -30,14 +30,14 @@ public class EtypeDogma {
 	//
 
 	public static class EAttributes{
-
+		/** {@link EdogmaAttributes} */
 		public int attributeID;
 		public BigDecimal value;
 
 	}
 
 	public static class Eeffects{
-
+		/** {@link EdogmaEffects} */
 		public int effectID;
 		public boolean isDefault;
 

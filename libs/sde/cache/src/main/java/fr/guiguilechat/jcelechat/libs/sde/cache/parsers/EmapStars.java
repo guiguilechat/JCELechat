@@ -28,6 +28,7 @@ public class EmapStars {
 	//
 
 	public long radius;
+	/** {@link EmapSolarSystems} */
 	public int solarSystemID;
 
 	public static class StarStatistics {
@@ -39,6 +40,7 @@ public class EmapStars {
 	}
 
 	public StarStatistics statistics;
+	/** {@link Etypes} */
 	public int typeID;
 
 	//
