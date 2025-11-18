@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.Material;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.Material;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.BlueprintActivity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.cache;
 
+import fr.guiguilechat.jcelechat.libs.sde.model.industry.BluePrint;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Category;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Group;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.MarketGroup;
@@ -28,6 +29,8 @@ public interface DataSource {
 	EntityNameMap<AgentType> agentTypes();
 
 	EntityMap<AsteroidBelt> asteroidBelts();
+
+	EntityMap<BluePrint> blueprints();
 
 	EntityNameMap<Category> categories();
 

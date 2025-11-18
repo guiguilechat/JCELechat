@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.pr
 
 import java.math.BigDecimal;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.Product;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.Product;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.BlueprintActivity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

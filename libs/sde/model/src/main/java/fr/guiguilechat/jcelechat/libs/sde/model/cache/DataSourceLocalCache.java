@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.cache;
 
+import fr.guiguilechat.jcelechat.libs.sde.model.industry.BluePrint;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Category;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Group;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.MarketGroup;
@@ -35,6 +36,11 @@ public class DataSourceLocalCache implements DataSource {
 	@Override
 	public EntityMap<AsteroidBelt> asteroidBelts() {
 		return AsteroidBelt.CACHE;
+	}
+
+	@Override
+	public EntityMap<BluePrint> blueprints() {
+		return BluePrint.CACHE;
 	}
 
 	@Override

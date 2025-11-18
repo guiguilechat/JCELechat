@@ -33,23 +33,23 @@ public class Eblueprints {
 	/** max runs of a copied bpc */
 	public int maxProductionLimit;
 
-	public static class Material {
-		public int quantity;
-		/** {@link Etypes} */
-		public int typeID;
-	}
-
-	public static class Product extends Material {
-		public BigDecimal probability = new BigDecimal(1);
-	}
-
-	public static class Skill {
-		public int level;
-		/** {@link Etypes} */
-		public int typeID;
-	}
-
 	public static class BPActivities {
+
+		public static class Material {
+			public int quantity;
+			/** {@link Etypes} */
+			public int typeID;
+		}
+
+		public static class Product extends Material {
+			public BigDecimal probability = new BigDecimal(1);
+		}
+
+		public static class Skill {
+			public int level;
+			/** {@link Etypes} */
+			public int typeID;
+		}
 
 		public static class ActivityDetails {
 			public ArrayList<Material> materials = new ArrayList<>();
