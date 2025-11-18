@@ -27,12 +27,20 @@ public class EsovereigntyUpgrades {
 	// file structure
 	//
 
-	public int fuel_hourly_upkeep;
-	public int fuel_startup_cost;
-	public int fuel_type_id;
+	public static class Fuel {
+		public int hourly_upkeep;
+		public int startup_cost;
+		public int type_id;
+
+	}
+
+	public Fuel fuel;
+
 	public String mutually_exclusive_group;
 	public int power_allocation;
+	public int power_production;
 	public int workforce_allocation;
+	public int workforce_production;
 
 	//
 

@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations.routes.time;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Stargate;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AStarOrbit;
@@ -24,7 +24,7 @@ public sealed interface GatingPoint {
 
 	int id();
 
-	Position position();
+	Position3D position();
 
 	String enName();
 
@@ -54,7 +54,7 @@ public sealed interface GatingPoint {
 		}
 
 		@Override
-		public Position position() {
+		public Position3D position() {
 			return stargate().position();
 		}
 
@@ -95,7 +95,7 @@ public sealed interface GatingPoint {
 		}
 
 		@Override
-		public Position position() {
+		public Position3D position() {
 			return orbiting().position();
 		}
 

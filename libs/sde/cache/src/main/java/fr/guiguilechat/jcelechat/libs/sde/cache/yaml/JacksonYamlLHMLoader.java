@@ -56,7 +56,7 @@ public class JacksonYamlLHMLoader<U> extends YAMLCacheListener {
 			var tr = new TypeReference<LinkedHashMap<Integer, U>>() {
 			};
 			var reader = mapper.readerFor(tr);
-			// can't readValue as it will close the stream.
+			// can't call readValue with second param as it will close the stream.
 			return reader.readValue(reader.createParser(is), tr);
 		} catch (IOException e) {
 			throw new RuntimeException(e);

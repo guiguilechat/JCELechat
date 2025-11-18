@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapConstellations;
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
@@ -39,7 +39,7 @@ public class Constellation extends SolarSystemGroup<EmapConstellations> {
 	}
 
 	@Override
-	protected Position makePosition() {
+	protected Position3D makePosition() {
 		return source().position;
 	}
 

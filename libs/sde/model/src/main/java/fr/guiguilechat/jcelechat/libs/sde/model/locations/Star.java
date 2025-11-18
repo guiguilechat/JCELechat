@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStars;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStars.StarStatistics;
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
@@ -37,7 +37,7 @@ public class Star extends ASpace<EmapStars> {
 	private final SolarSystem solarSystem = datasource().solarSystems().of(source().solarSystemID);
 
 	@Override
-	protected Position makePosition() {
+	protected Position3D makePosition() {
 		return solarSystem().position();
 	}
 

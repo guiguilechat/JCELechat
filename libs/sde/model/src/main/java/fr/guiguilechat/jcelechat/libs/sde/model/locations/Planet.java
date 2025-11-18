@@ -4,7 +4,7 @@ import java.util.Collection;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapPlanets;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
@@ -32,7 +32,7 @@ public class Planet extends AStarOrbit<EmapPlanets> {
 	}
 
 	@Override
-	protected Position makePosition() {
+	protected Position3D makePosition() {
 		return source().position.add(solarSystem().position());
 	}
 

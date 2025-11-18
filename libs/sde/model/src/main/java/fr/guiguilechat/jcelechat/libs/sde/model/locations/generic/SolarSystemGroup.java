@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Constellation;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Region;
@@ -66,23 +66,23 @@ public abstract class SolarSystemGroup<T> extends ASpace<T> {
 			.filter(r -> !r.equals(region()))
 			.collect(Collectors.toSet());
 
-	protected record MinMax(Position min, Position max) {
+	protected record MinMax(Position3D min, Position3D max) {
 	}
 
 	protected MinMax extractStats() {
 		// x y z positions
-		Position min = new Position(
+		Position3D min = new Position3D(
 				BigDecimal.valueOf(Double.MAX_VALUE),
 				BigDecimal.valueOf(Double.MAX_VALUE),
 				BigDecimal.valueOf(Double.MAX_VALUE));
-		Position max = new Position(
+		Position3D max = new Position3D(
 				BigDecimal.valueOf(-0.99 * Double.MAX_VALUE),
 				BigDecimal.valueOf(-0.99 * Double.MAX_VALUE),
 				BigDecimal.valueOf(-0.99 * Double.MAX_VALUE));
 		solarSystems().stream().flatMap(SolarSystem::streamInSpaces)
 				.forEach(is -> {
 //					System.out.println("comparing positions with " + is.enName() + " : " + is.position());
-					Position p = is.position();
+					Position3D p = is.position();
 					if (p.x.compareTo(min.x) < 0) {
 						min.x=p.x;
 					}
@@ -108,11 +108,11 @@ public abstract class SolarSystemGroup<T> extends ASpace<T> {
 	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	private final MinMax stats = extractStats();
 
-	public Position min() {
+	public Position3D min() {
 		return stats().min;
 	}
 
-	public Position max() {
+	public Position3D max() {
 		return stats().max;
 	}
 

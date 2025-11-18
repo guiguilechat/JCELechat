@@ -18,7 +18,11 @@ public class EplanetResources {
 			SDE_FILE_YAML);
 
 	public static final SnakeYamlLHMLoader<EplanetResources> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EplanetResources.class, Set.of("power"), Set.of("workforce"), Set.of("cycle_minutes"));
+			EplanetResources.class,
+			Set.of("power"),
+			Set.of("workforce"),
+			Set.of("reagent")
+			);
 
 	public static final JacksonYamlLHMLoader<EplanetResources> LOADER = LOADER_SNAKEYAML;
 
@@ -26,14 +30,17 @@ public class EplanetResources {
 	// file structure
 	//
 
-	public int cycle_minutes;
-	public int harvest_silo_max;
-	public int maturation_cycle_minutes;
-	public int maturation_percent;
-	public int mature_silo_max;
 	public int power;
-	public int reagent_harvest_amount;
-	public int reagent_type_id;
+
+	public static class Reagent {
+		public int amount_per_cycle;
+		public int cycle_period;
+		public int secured_capacity;
+		public int type_id;
+		public int unsecured_capacity;
+
+	}
+	public Reagent reagent;
 	public int workforce;
 
 	//

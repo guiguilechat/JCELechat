@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position2D;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
 
@@ -46,6 +47,7 @@ public class EmapSolarSystems extends InSpace {
 	public LinkedHashMap<String, String> name;
 	/** {@link EmapPlanets} */
 	public List<Integer> planetIDs = new ArrayList<>();
+	public Position2D position2D;
 	public BigDecimal radius;
 	/** {@link EmapRegions} */
 	public int regionID;

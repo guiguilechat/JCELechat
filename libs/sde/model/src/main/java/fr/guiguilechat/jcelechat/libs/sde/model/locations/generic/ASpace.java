@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.locations.generic;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourced;
 import lombok.Getter;
@@ -27,14 +27,14 @@ public abstract class ASpace<SourceType> extends DataSourced<SourceType> {
 	@Getter(lazy = true)
 	private final String enName = makeEnName();
 
-	protected abstract Position makePosition();
+	protected abstract Position3D makePosition();
 
 	/**
 	 * absolute position. The position of some items is stored relatively, so this
 	 * method adds the center to it.
 	 */
 	@Getter(lazy = true)
-	private final Position position = makePosition();
+	private final Position3D position = makePosition();
 
 	@Override
 	public String toString() {

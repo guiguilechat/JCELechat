@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
 
@@ -33,7 +33,7 @@ public class Elandmarks {
 	public int iconID;
 	public long locationID;
 	public HashMap<String, String> name = new LinkedHashMap<>();
-	public Position position;
+	public Position3D position;
 
 	public String enName() {
 		return name == null ? null : name.get("en");
