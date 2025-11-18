@@ -5,8 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EcontrabandTypes {
 
@@ -14,16 +13,10 @@ public class EcontrabandTypes {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "contrabandTypes";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EcontrabandTypes> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EcontrabandTypes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EcontrabandTypes.class, Set.of("factions"));
-
-	public static final JacksonYamlLHMLoader<EcontrabandTypes> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EcontrabandTypes> LOADER = new IntMapLoader<>(
+			"contrabandTypes",
+			EcontrabandTypes.class,
+			Set.of("factions"));
 
 	//
 	// file structure
@@ -44,7 +37,7 @@ public class EcontrabandTypes {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : factions=" + first.factions.size());

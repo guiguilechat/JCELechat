@@ -3,8 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EmapStars {
 
@@ -12,16 +11,10 @@ public class EmapStars {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "mapStars";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EmapStars> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EmapStars> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EmapStars.class, Set.of("solarSystemID"));
-
-	public static final JacksonYamlLHMLoader<EmapStars> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EmapStars> LOADER = new IntMapLoader<>(
+			"mapStars",
+			EmapStars.class,
+			Set.of("solarSystemID"));
 
 	//
 	// file structure
@@ -46,7 +39,7 @@ public class EmapStars {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : solarSystemId=" + first.solarSystemID + " typeID=" + first.typeID);

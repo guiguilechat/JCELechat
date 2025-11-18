@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 public class UnitUpdater extends SdeEntityUpdater<Unit, UnitService, EdogmaUnits> {
 
 	public UnitUpdater() {
-		super(EdogmaUnits.SDE_FILE_YAML, EdogmaUnits.LOADER);
+		super(EdogmaUnits.LOADER);
 	}
 
 	@Override

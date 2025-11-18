@@ -3,9 +3,9 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStars;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStars.StarStatistics;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.ASpace;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -14,7 +14,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class Star extends ASpace<EmapStars> {
 
-	public static final Mapper<EmapStars, Star> CACHE = new Mapper<>(EmapStars.LOADER,
+	public static final Mapper<EmapStars, Star> CACHE = new Mapper<>(EmapStars.LOADER.yaml(),
 			Star::new);
 
 	public long radius;

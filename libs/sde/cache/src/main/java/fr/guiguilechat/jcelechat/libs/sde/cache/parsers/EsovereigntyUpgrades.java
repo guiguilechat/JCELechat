@@ -2,8 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EsovereigntyUpgrades {
 
@@ -11,17 +10,10 @@ public class EsovereigntyUpgrades {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "sovereigntyUpgrades";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EsovereigntyUpgrades> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EsovereigntyUpgrades> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
-			SDE_FILE_YAML,
-			EsovereigntyUpgrades.class, Set.of("mutually_exclusive_group"));
-
-	public static final JacksonYamlLHMLoader<EsovereigntyUpgrades> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EsovereigntyUpgrades> LOADER = new IntMapLoader<>(
+			"sovereigntyUpgrades",
+			EsovereigntyUpgrades.class,
+			Set.of("mutually_exclusive_group"));
 
 	//
 	// file structure
@@ -45,7 +37,7 @@ public class EsovereigntyUpgrades {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : mutually_exclusive_group=" + first.mutually_exclusive_group);

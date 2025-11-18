@@ -24,7 +24,7 @@ import lombok.experimental.Accessors;
 public class NpcCharacterUpdater extends SdeEntityUpdater<NpcCharacter, NpcCharacterService, EnpcCharacters> {
 
 	public NpcCharacterUpdater() {
-		super(EnpcCharacters.SDE_FILE_YAML, EnpcCharacters.LOADER);
+		super(EnpcCharacters.LOADER);
 
 	}
 

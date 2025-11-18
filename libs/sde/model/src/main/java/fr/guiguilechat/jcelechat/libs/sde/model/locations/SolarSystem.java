@@ -9,9 +9,9 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapSolarSystems;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.ASpace;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
 import fr.guiguilechat.jcelechat.model.formula.space.Universe;
@@ -23,7 +23,7 @@ import lombok.experimental.Accessors;
 public class SolarSystem extends SolarSystemGroup<EmapSolarSystems> {
 
 	public static final NamingMapper<EmapSolarSystems, SolarSystem> CACHE = new NamingMapper<>(
-			EmapSolarSystems.LOADER, SolarSystem::new, SolarSystem::enName);
+			EmapSolarSystems.LOADER.yaml(), SolarSystem::new, SolarSystem::enName);
 
 	private final boolean border;
 	private final boolean corridor;

@@ -3,8 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.LinkedHashMap;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class Eancestries {
 
@@ -12,16 +11,10 @@ public class Eancestries {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "ancestries";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<Eancestries> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<Eancestries> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			Eancestries.class, Set.of("bloodlineID"));
-
-	public static final JacksonYamlLHMLoader<Eancestries> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<Eancestries> LOADER = new IntMapLoader<>(
+			"ancestries",
+			Eancestries.class,
+			Set.of("bloodlineID"));
 
 	//
 	// file structure
@@ -52,7 +45,7 @@ public class Eancestries {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : bloodine=" + first.bloodlineID + " name=" + first.enName());

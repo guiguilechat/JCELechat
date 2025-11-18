@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
 public class ConstellationUpdater extends SdeEntityUpdater<Constellation, ConstellationService, EmapConstellations> {
 
 	public ConstellationUpdater() {
-		super(EmapConstellations.SDE_FILE_YAML, EmapConstellations.LOADER);
+		super(EmapConstellations.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

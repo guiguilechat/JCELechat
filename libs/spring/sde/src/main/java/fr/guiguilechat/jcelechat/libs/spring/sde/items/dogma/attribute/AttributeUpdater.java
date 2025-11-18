@@ -21,7 +21,7 @@ import lombok.experimental.Accessors;
 public class AttributeUpdater extends SdeEntityUpdater<Attribute, AttributeService, EdogmaAttributes> {
 
 	public AttributeUpdater() {
-		super(EdogmaAttributes.SDE_FILE_YAML, EdogmaAttributes.LOADER);
+		super(EdogmaAttributes.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

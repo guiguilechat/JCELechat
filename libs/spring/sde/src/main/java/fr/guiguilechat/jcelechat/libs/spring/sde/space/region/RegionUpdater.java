@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 public class RegionUpdater extends SdeEntityUpdater<Region, RegionService, EmapRegions> {
 
 	public RegionUpdater() {
-		super(EmapRegions.SDE_FILE_YAML, EmapRegions.LOADER);
+		super(EmapRegions.LOADER);
 	}
 
 	@Override

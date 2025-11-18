@@ -37,7 +37,7 @@ public class TypeDogmaUpdater implements SdeListener {
 	@Accessors(fluent = true)
 	private final TypeEffectService typeEffectService;
 
-	private static final String FILENAME = EtypeDogma.SDE_FILE_YAML;
+	private static final String FILENAME = EtypeDogma.LOADER.yamlFileName();
 
 	private boolean receivedFile = false;
 
@@ -63,7 +63,7 @@ public class TypeDogmaUpdater implements SdeListener {
 					getClass().getSimpleName(),
 					FILENAME);
 			long startTime = System.currentTimeMillis();
-			LinkedHashMap<Integer, EtypeDogma> sources = EtypeDogma.LOADER.from(fileContent.get());
+			LinkedHashMap<Integer, EtypeDogma> sources = EtypeDogma.LOADER.yaml().from(fileContent.get());
 			typeAttributeService().delete();
 			typeEffectService().delete();
 			List<TypeAttribute> typeAttributes = new ArrayList<>();

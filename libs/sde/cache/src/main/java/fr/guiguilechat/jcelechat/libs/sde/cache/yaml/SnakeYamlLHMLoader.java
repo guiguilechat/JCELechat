@@ -31,7 +31,7 @@ public class SnakeYamlLHMLoader<U> extends JacksonYamlLHMLoader<U> {
 	@SafeVarargs
 	public SnakeYamlLHMLoader(String archiveFileName, Class<U> topClass, Set<String> firstDisc,
 			Set<String>... nextDiscs) {
-		super(archiveFileName);
+		super(archiveFileName, topClass);
 		this.topClass = topClass;
 		topClassDisc = Stream.concat(Stream.of(firstDisc), nextDiscs == null ? Stream.of() : Stream.of(nextDiscs))
 				.toList();

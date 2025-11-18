@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EnpcCorporations {
 
@@ -16,16 +15,10 @@ public class EnpcCorporations {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "npcCorporations";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EnpcCorporations> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EnpcCorporations> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EnpcCorporations.class, Set.of("tickerName"));
-
-	public static final JacksonYamlLHMLoader<EnpcCorporations> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EnpcCorporations> LOADER = new IntMapLoader<>(
+			"npcCorporations",
+			EnpcCorporations.class,
+			Set.of("tickerName"));
 
 	//
 	// file structure
@@ -84,13 +77,13 @@ public class EnpcCorporations {
 	public static final int CONCORD_ID = 1000125;
 
 	public static Map<Integer, BigDecimal> concordRates() {
-		return LOADER.load().get(CONCORD_ID).exchangeRates;
+		return LOADER.yaml().load().get(CONCORD_ID).exchangeRates;
 	}
 
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : solarSystemID=" + first.solarSystemID + " name=" + first.enName());

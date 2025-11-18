@@ -5,9 +5,9 @@ import java.util.Collection;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapMoons;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.APlanetOrbit;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -16,7 +16,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class Moon extends APlanetOrbit<EmapMoons> {
 
-	public static final Mapper<EmapMoons, Moon> CACHE = new Mapper<>(EmapMoons.LOADER,
+	public static final Mapper<EmapMoons, Moon> CACHE = new Mapper<>(EmapMoons.LOADER.yaml(),
 			Moon::new);
 
 	protected Moon(DataSource datasource, int id, EmapMoons source) {

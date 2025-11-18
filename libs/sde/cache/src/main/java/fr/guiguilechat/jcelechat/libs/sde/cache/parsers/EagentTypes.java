@@ -2,8 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EagentTypes {
 
@@ -11,16 +10,10 @@ public class EagentTypes {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "agentTypes";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EagentTypes> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EagentTypes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EagentTypes.class, Set.of("name"));
-
-	public static final JacksonYamlLHMLoader<EagentTypes> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EagentTypes> LOADER = new IntMapLoader<>(
+			"agentTypes",
+			EagentTypes.class,
+			Set.of("name"));
 
 	//
 	// file structure
@@ -31,7 +24,7 @@ public class EagentTypes {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : name=" + first.name);

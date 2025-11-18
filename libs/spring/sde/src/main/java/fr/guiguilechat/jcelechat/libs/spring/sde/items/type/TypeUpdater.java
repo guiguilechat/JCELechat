@@ -21,7 +21,7 @@ import lombok.experimental.Accessors;
 public class TypeUpdater extends SdeEntityUpdater<Type, TypeService, Etypes> {
 
 	public TypeUpdater() {
-		super(Etypes.SDE_FILE_YAML, Etypes.LOADER);
+		super(Etypes.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

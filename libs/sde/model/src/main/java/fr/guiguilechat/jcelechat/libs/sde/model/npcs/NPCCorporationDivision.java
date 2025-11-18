@@ -13,7 +13,7 @@ import lombok.experimental.Accessors;
 public class NPCCorporationDivision extends DataSourced<EnpcCorporationDivisions> {
 
 	public static final Mapper<EnpcCorporationDivisions, NPCCorporationDivision> CACHE = new Mapper<>(
-			EnpcCorporationDivisions.LOADER,
+			EnpcCorporationDivisions.LOADER.yaml(),
 			NPCCorporationDivision::new);
 
 	public NPCCorporationDivision(DataSource datasource, int id, EnpcCorporationDivisions source) {

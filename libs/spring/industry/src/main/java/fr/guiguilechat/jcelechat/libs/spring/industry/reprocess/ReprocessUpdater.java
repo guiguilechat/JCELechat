@@ -39,7 +39,7 @@ public class ReprocessUpdater implements SdeListener {
 
 	@Override
 	public void onSdeFile(String name, Supplier<InputStream> fileContent) {
-		if (name.equals(EtypeMaterials.SDE_FILE_YAML)) {
+		if (name.equals(EtypeMaterials.LOADER.yamlFileName())) {
 			saveReprocess(fileContent.get());
 			return;
 		}
@@ -47,7 +47,7 @@ public class ReprocessUpdater implements SdeListener {
 
 	protected void saveReprocess(InputStream inputStream) {
 		sdeFileMissing = false;
-		LinkedHashMap<Integer, EtypeMaterials> reprocesses = EtypeMaterials.LOADER.from(inputStream);
+		LinkedHashMap<Integer, EtypeMaterials> reprocesses = EtypeMaterials.LOADER.yaml().from(inputStream);
 		Map<Integer, Type> idToType = typeService.createIfAbsent(reprocesses.entrySet().stream()
 		    .flatMap(
 		        e -> Stream.concat(Stream.of(e.getKey()),
@@ -72,7 +72,7 @@ public class ReprocessUpdater implements SdeListener {
 	public void afterSdeUpdate() {
 		if (sdeFileMissing) {
 			log.warn("service " + getClass().getSimpleName() + " did not receive file "
-					+ EtypeMaterials.SDE_FILE_YAML);
+					+ EtypeMaterials.LOADER.yamlFileName());
 		}
 	}
 

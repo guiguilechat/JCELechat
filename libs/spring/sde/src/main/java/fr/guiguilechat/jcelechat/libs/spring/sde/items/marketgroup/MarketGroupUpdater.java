@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 public class MarketGroupUpdater extends SdeEntityUpdater<MarketGroup, MarketGroupService, EmarketGroups> {
 
 	public MarketGroupUpdater() {
-		super(EmarketGroups.SDE_FILE_YAML, EmarketGroups.LOADER);
+		super(EmarketGroups.LOADER);
 	}
 
 	@Override

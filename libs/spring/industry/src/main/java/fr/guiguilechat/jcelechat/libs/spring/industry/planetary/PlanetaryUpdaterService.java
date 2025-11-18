@@ -41,14 +41,14 @@ public class PlanetaryUpdaterService implements SdeListener {
 
 	@Override
 	public void onSdeFile(String entryName, Supplier<InputStream> fileContent) {
-		if (entryName.equals(EplanetSchematics.SDE_FILE_YAML)) {
+		if (entryName.equals(EplanetSchematics.LOADER.yamlFileName())) {
 			saveSchematics(fileContent.get());
 		}
 	}
 
 	private void saveSchematics(InputStream is) {
 		sdeFileMissing = false;
-		Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>(EplanetSchematics.LOADER.from(is));
+		Map<Integer, EplanetSchematics> planetSchematics = new HashMap<>(EplanetSchematics.LOADER.yaml().from(is));
 
 		Map<Integer, Type> typesById = typeService.createIfAbsent(
 		    planetSchematics.entrySet().stream()
@@ -88,7 +88,7 @@ public class PlanetaryUpdaterService implements SdeListener {
 	public void afterSdeUpdate() {
 		if (sdeFileMissing) {
 			log.warn("service " + getClass().getSimpleName() + " did not receive file "
-					+ EplanetSchematics.SDE_FILE_YAML);
+					+ EplanetSchematics.LOADER.yamlFileName());
 		}
 	}
 

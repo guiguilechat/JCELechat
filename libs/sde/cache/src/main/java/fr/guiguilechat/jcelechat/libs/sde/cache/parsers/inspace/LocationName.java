@@ -22,32 +22,32 @@ public class LocationName {
 		// type checks sorted by the least cpu-bound calls
 		if (id >= 40000000 && id <= 49999999) {
 
-			EmapPlanets planet = EmapPlanets.LOADER.get(id);
+			EmapPlanets planet = EmapPlanets.LOADER.yaml().get(id);
 			if (planet != null) {
 				return of(planet);
 			}
 
-			EmapStars star = EmapStars.LOADER.get(id);
+			EmapStars star = EmapStars.LOADER.yaml().get(id);
 			if (star != null) {
 				return of(star);
 			}
 
-			EmapMoons moon = EmapMoons.LOADER.get(id);
+			EmapMoons moon = EmapMoons.LOADER.yaml().get(id);
 			if (moon != null) {
 				return of(moon);
 			}
 
-			EmapAsteroidBelts belt = EmapAsteroidBelts.LOADER.get(id);
+			EmapAsteroidBelts belt = EmapAsteroidBelts.LOADER.yaml().get(id);
 			if (belt != null) {
 				return of(belt);
 			}
 		} else if (id >= 60000000 && id <= 69999999) {
-			EnpcStations station = EnpcStations.LOADER.get(id);
+			EnpcStations station = EnpcStations.LOADER.yaml().get(id);
 			if (station != null) {
 				return of(station);
 			}
 		} else if (id >= 50000000 && id <= 59999999) {
-			EmapStargates gate = EmapStargates.LOADER.get(id);
+			EmapStargates gate = EmapStargates.LOADER.yaml().get(id);
 			if (gate != null) {
 				return of(gate);
 			}
@@ -56,7 +56,7 @@ public class LocationName {
 	}
 
 	public static String of(EmapStars star) {
-		return EmapSolarSystems.LOADER.get(star.solarSystemID).enName();
+		return EmapSolarSystems.LOADER.yaml().get(star.solarSystemID).enName();
 	}
 
 	public static String of(EmapPlanets planets) {
@@ -88,19 +88,19 @@ public class LocationName {
 
 	public static String of(EnpcStations sta) {
 		String ret = of(sta.orbitID);
-		var corp = sta.ownerID > 0 ? EnpcCorporations.LOADER.get(sta.ownerID) : null;
+		var corp = sta.ownerID > 0 ? EnpcCorporations.LOADER.yaml().get(sta.ownerID) : null;
 		if (corp != null) {
 			ret += " - " + corp.enName();
 		}
 		if (sta.useOperationName) {
-			EstationOperations op = EstationOperations.LOADER.get(sta.operationID);
+			EstationOperations op = EstationOperations.LOADER.yaml().get(sta.operationID);
 			ret += " " + op.enOperationName();
 		}
 		return ret;
 	}
 
 	public static String of(EmapStargates gate) {
-		var sol = EmapSolarSystems.LOADER.get(gate.destination.solarSystemID);
+		var sol = EmapSolarSystems.LOADER.yaml().get(gate.destination.solarSystemID);
 		return "Stargate (" + sol.enName() + ")";
 	}
 

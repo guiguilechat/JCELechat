@@ -4,9 +4,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Egroups;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.generic.TypeSet;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class Group extends TypeSet<Egroups> {
 
-	public static final NamingMapper<Egroups, Group> CACHE = new NamingMapper<>(Egroups.LOADER,
+	public static final NamingMapper<Egroups, Group> CACHE = new NamingMapper<>(Egroups.LOADER.yaml(),
 			Group::new, TypeSet::enName);
 
 	private final boolean anchorable;

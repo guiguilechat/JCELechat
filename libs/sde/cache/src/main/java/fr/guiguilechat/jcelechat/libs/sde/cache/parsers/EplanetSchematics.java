@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 /**
  * an entry in the sde/fsd/planetSchematics.yaml
@@ -18,16 +17,10 @@ public class EplanetSchematics {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "planetSchematics";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EplanetSchematics> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EplanetSchematics> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EplanetSchematics.class, Set.of("cycleTime"));
-
-	public static final JacksonYamlLHMLoader<EplanetSchematics> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EplanetSchematics> LOADER = new IntMapLoader<>(
+			"planetSchematics",
+			EplanetSchematics.class,
+			Set.of("cycleTime"));
 
 	//
 	// file structure
@@ -48,7 +41,7 @@ public class EplanetSchematics {
 	}
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : cycletime=" + first.cycleTime + " name=" + first.enName());

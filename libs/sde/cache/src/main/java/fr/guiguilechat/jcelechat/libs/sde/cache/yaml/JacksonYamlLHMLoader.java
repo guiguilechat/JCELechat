@@ -9,8 +9,9 @@ import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.LoaderOptions;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.type.MapType;
+import com.fasterxml.jackson.databind.type.TypeFactory;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.YamlCache;
@@ -22,6 +23,9 @@ public class JacksonYamlLHMLoader<U> extends YAMLCacheListener {
 
 	@Getter
 	private final String archiveFileName;
+
+	@Getter
+	private final Class<U> clazz;
 
 	@Getter(lazy = true)
 	private final File archiveFile = new File(YamlCache.INSTANCE.extractCacheDir(), archiveFileName);
@@ -53,11 +57,11 @@ public class JacksonYamlLHMLoader<U> extends YAMLCacheListener {
 			    .build();
 		var mapper = new ObjectMapper(yamlFactory);
 		try {
-			var tr = new TypeReference<LinkedHashMap<Integer, U>>() {
-			};
-			var reader = mapper.readerFor(tr);
+			MapType mapType = TypeFactory.defaultInstance().constructMapType(LinkedHashMap.class, Integer.class,
+					clazz);
+			var reader = mapper.readerFor(mapType);
 			// can't call readValue with second param as it will close the stream.
-			return reader.readValue(reader.createParser(is), tr);
+			return reader.readValue(reader.createParser(is), mapType);
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}

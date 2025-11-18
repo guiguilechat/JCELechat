@@ -3,9 +3,8 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.Set;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
 import lombok.ToString;
 
 @ToString
@@ -15,16 +14,10 @@ public class EnpcStations extends InPlanetOrbit {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "npcStations";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EnpcStations> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EnpcStations> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EnpcStations.class, Set.of("ownerID"));
-
-	public static final JacksonYamlLHMLoader<EnpcStations> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EnpcStations> LOADER = new IntMapLoader<>(
+			"npcStations",
+			EnpcStations.class,
+			Set.of("ownerID"));
 
 	//
 	// file structure
@@ -58,7 +51,7 @@ public class EnpcStations extends InPlanetOrbit {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : index=" + first.celestialIndex);

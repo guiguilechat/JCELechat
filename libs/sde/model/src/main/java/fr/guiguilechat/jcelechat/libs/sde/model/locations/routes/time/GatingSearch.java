@@ -19,10 +19,10 @@ public class GatingSearch extends AStar<GatingPoint> {
 	private final double gateTime_s;
 
 	private static double maxDistance() {
-		return EmapStargates.LOADER.load().entrySet().stream()
+		return EmapStargates.LOADER.yaml().load().entrySet().stream()
 				.filter(e -> e.getKey() < e.getValue().destination.stargateID)
 				.mapToDouble(e -> e.getValue().position
-						.distance(EmapStargates.LOADER.get(e.getValue().destination.stargateID).position))
+						.distance(EmapStargates.LOADER.yaml().get(e.getValue().destination.stargateID).position))
 				.max().getAsDouble();
 	}
 

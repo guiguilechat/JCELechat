@@ -21,7 +21,7 @@ import lombok.experimental.Accessors;
 public class AsteroidBeltUpdater extends SdeEntityUpdater<AsteroidBelt, AsteroidBeltService, EmapAsteroidBelts> {
 
 	public AsteroidBeltUpdater() {
-		super(EmapAsteroidBelts.SDE_FILE_YAML, EmapAsteroidBelts.LOADER);
+		super(EmapAsteroidBelts.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

@@ -3,8 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.ArrayList;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EtypeMaterials {
 
@@ -12,16 +11,10 @@ public class EtypeMaterials {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "typeMaterials";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EtypeMaterials> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EtypeMaterials> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EtypeMaterials.class, Set.of("materials"));
-
-	public static final JacksonYamlLHMLoader<EtypeMaterials> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EtypeMaterials> LOADER = new IntMapLoader<>(
+			"typeMaterials",
+			EtypeMaterials.class,
+			Set.of("materials"));
 
 	//
 	// file structure
@@ -48,7 +41,7 @@ public class EtypeMaterials {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println(

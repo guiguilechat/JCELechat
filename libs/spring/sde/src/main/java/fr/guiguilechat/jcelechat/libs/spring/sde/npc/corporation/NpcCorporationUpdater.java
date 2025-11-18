@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 public class NpcCorporationUpdater extends SdeEntityUpdater<NpcCorporation, NpcCorporationService, EnpcCorporations> {
 
 	public NpcCorporationUpdater() {
-		super(EnpcCorporations.SDE_FILE_YAML, EnpcCorporations.LOADER);
+		super(EnpcCorporations.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EdynamicItemAttributes {
 
@@ -16,17 +15,10 @@ public class EdynamicItemAttributes {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "dynamicItemAttributes";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EdynamicItemAttributes> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EdynamicItemAttributes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
-			SDE_FILE_YAML,
-			EdynamicItemAttributes.class, Set.of("attributeIDs"));
-
-	public static final JacksonYamlLHMLoader<EdynamicItemAttributes> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EdynamicItemAttributes> LOADER = new IntMapLoader<>(
+			"dynamicItemAttributes",
+			EdynamicItemAttributes.class,
+			Set.of("attributeIDs"));
 
 	//
 	// file structure
@@ -50,7 +42,7 @@ public class EdynamicItemAttributes {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		long morethanOneMapping = loaded.values().stream().filter(att -> att.inputOutputMapping.size() > 1).count();
 		System.out.println("with more than one mapping : " + morethanOneMapping);

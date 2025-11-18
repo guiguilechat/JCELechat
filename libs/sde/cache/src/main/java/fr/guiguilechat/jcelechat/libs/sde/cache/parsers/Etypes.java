@@ -7,8 +7,7 @@ import java.util.Set;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class Etypes {
 
@@ -18,16 +17,10 @@ public class Etypes {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "types";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<Etypes> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<Etypes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			Etypes.class, Set.of("groupID"));
-
-	public static final JacksonYamlLHMLoader<Etypes> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<Etypes> LOADER = new IntMapLoader<>(
+			"types",
+			Etypes.class,
+			Set.of("groupID"));
 
 	//
 	// file structure
@@ -71,7 +64,7 @@ public class Etypes {
 	private static final HashMap<Integer, String> ERROR_NAMES = new HashMap<>();
 
 	public static String getName(int typeId) {
-		var type = LOADER.load().get(typeId);
+		var type = LOADER.yaml().load().get(typeId);
 		if (type != null) {
 			return type.enName();
 		}
@@ -86,7 +79,7 @@ public class Etypes {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : name=" + first.enName() + " description=" + first.enDescription());

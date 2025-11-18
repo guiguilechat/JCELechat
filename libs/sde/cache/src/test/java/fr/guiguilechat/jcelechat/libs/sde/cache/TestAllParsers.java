@@ -39,6 +39,7 @@ public class TestAllParsers {
 				EdogmaUnits.class,
 				EdynamicItemAttributes.class,
 				Efactions.class,
+				EfreelanceJobSchemas.class,
 				Egraphics.class,
 				Egroups.class,
 				Eicons.class,
@@ -75,7 +76,7 @@ public class TestAllParsers {
 		}) {
 			long start = System.currentTimeMillis();
 			Field f = cl.getField("LOADER");
-			JacksonYamlLHMLoader<?> loader = (JacksonYamlLHMLoader<?>) f.get(null);
+			JacksonYamlLHMLoader<?> loader = ((IntMapLoader<?>) f.get(null)).yaml();
 
 			System.out.println("\n" + loader.getArchiveFileName());
 			Method m = cl.getMethod("main", String[].class);

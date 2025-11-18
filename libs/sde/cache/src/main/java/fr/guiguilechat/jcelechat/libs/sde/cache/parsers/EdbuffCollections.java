@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EdbuffCollections {
 
@@ -15,16 +14,10 @@ public class EdbuffCollections {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "dbuffCollections";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EdbuffCollections> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EdbuffCollections> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EdbuffCollections.class, Set.of("operationName"));
-
-	public static final JacksonYamlLHMLoader<EdbuffCollections> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EdbuffCollections> LOADER = new IntMapLoader<>(
+			"dbuffCollections",
+			EdbuffCollections.class,
+			Set.of("operationName"));
 
 	//
 	// file structure
@@ -68,7 +61,7 @@ public class EdbuffCollections {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : itemodifiers=" + first.itemModifiers.size() + " locationgroupmodifiers="

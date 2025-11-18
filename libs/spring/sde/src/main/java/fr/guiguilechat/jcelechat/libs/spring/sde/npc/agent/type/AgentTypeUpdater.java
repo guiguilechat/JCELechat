@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 public class AgentTypeUpdater extends SdeEntityUpdater<AgentType, AgentTypeService, EagentTypes> {
 
 	public AgentTypeUpdater() {
-		super(EagentTypes.SDE_FILE_YAML, EagentTypes.LOADER);
+		super(EagentTypes.LOADER);
 	}
 
 	@Override

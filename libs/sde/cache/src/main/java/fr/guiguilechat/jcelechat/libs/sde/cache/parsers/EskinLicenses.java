@@ -2,8 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EskinLicenses {
 
@@ -11,16 +10,10 @@ public class EskinLicenses {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "skinLicenses";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EskinLicenses> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EskinLicenses> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EskinLicenses.class, Set.of("duration"));
-
-	public static final JacksonYamlLHMLoader<EskinLicenses> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EskinLicenses> LOADER = new IntMapLoader<>(
+			"skinLicenses",
+			EskinLicenses.class,
+			Set.of("duration"));
 
 	//
 	// file structure
@@ -34,7 +27,7 @@ public class EskinLicenses {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : skinID=" + first.skinID);

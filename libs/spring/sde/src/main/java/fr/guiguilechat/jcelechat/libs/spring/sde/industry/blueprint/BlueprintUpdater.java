@@ -34,7 +34,7 @@ import lombok.experimental.Accessors;
 public class BlueprintUpdater extends SdeEntityUpdater<Blueprint, BlueprintService, Eblueprints> {
 
 	public BlueprintUpdater() {
-		super(Eblueprints.SDE_FILE_YAML, Eblueprints.LOADER);
+		super(Eblueprints.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

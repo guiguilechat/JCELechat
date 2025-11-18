@@ -5,9 +5,9 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmarketGroups;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.generic.TypeSet;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -16,7 +16,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class MarketGroup extends TypeSet<EmarketGroups> {
 
-	public static final Mapper<EmarketGroups, MarketGroup> CACHE = new Mapper<>(EmarketGroups.LOADER,
+	public static final Mapper<EmarketGroups, MarketGroup> CACHE = new Mapper<>(EmarketGroups.LOADER.yaml(),
 			MarketGroup::new);
 
 	private final boolean hasTypes;

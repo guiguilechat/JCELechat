@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
 
 public class NPCCorporation extends DataSourced<EnpcCorporations> {
 
-	public static final Mapper<EnpcCorporations, NPCCorporation> CACHE = new Mapper<>(EnpcCorporations.LOADER,
+	public static final Mapper<EnpcCorporations, NPCCorporation> CACHE = new Mapper<>(EnpcCorporations.LOADER.yaml(),
 			NPCCorporation::new);
 
 	public NPCCorporation(DataSource datasource, int id, EnpcCorporations source) {

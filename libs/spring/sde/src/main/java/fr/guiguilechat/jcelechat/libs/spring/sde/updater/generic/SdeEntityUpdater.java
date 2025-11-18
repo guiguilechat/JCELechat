@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeListener;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -26,9 +26,7 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 	@Getter(value = AccessLevel.PROTECTED)
 	private Service service;
 
-	private final String fileName;
-
-	private final JacksonYamlLHMLoader<SdeSource> loader;
+	private final IntMapLoader<SdeSource> loader;
 
 	private boolean receivedFile = false;
 
@@ -49,13 +47,13 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 		if (skip) {
 			return;
 		}
-		if(entryName.equals(fileName)) {
+		if (entryName.equals(loader.yamlFileName())) {
 			log.debug("{} processing file {}",
 					getClass().getSimpleName(),
-					fileName);
+					loader.yamlFileName());
 			long startTime = System.currentTimeMillis();
 			service().setAllRemoved();
-			var sources = loader.from(fileContent.get());
+			var sources = loader.yaml().from(fileContent.get());
 			processSource(sources);
 			receivedFile = true;
 			log.info("{} processed {} entries in {} ms",
@@ -75,7 +73,7 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 		if (!receivedFile) {
 			log.warn("service {} did not receive file {}",
 					getClass().getSimpleName(),
-					fileName);
+					loader.yamlFileName());
 		}
 		List<Entity> notReceived = service().listNotReceived();
 		if (!notReceived.isEmpty()) {

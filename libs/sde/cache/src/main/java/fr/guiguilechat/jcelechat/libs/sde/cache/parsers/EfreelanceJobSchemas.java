@@ -5,8 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EfreelanceJobSchemas {
 
@@ -14,18 +15,11 @@ public class EfreelanceJobSchemas {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "freelanceJobSchemas";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EfreelanceJobSchemas> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EfreelanceJobSchemas> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(
-			SDE_FILE_YAML,
+	public static final IntMapLoader<EfreelanceJobSchemas> LOADER = new IntMapLoader<>(
+			"freelanceJobSchemas",
 			EfreelanceJobSchemas.class,
+			true,
 			Set.of("BoostShield"));
-
-	public static final JacksonYamlLHMLoader<EfreelanceJobSchemas> LOADER = LOADER_SNAKEYAML;
 
 	//
 	// file structure
@@ -62,8 +56,9 @@ public class EfreelanceJobSchemas {
 
 	public static class JobParameter extends WithTitle {
 
-		public static class BooleanStruct {
-			public List<String> choiceLabel;
+		public static class BooleanStruct extends WithTitle {
+			public HashMap<String, String> choiceLabel;
+			@JsonProperty("default")
 			public boolean _default;
 
 			public static class BoolOption {
@@ -75,6 +70,7 @@ public class EfreelanceJobSchemas {
 			public BoolOption optionTrue;
 		}
 
+		@JsonProperty("boolean")
 		public BooleanStruct _boolean;
 
 		public static class ItemDelivery extends WithTitle {
@@ -146,10 +142,12 @@ public class EfreelanceJobSchemas {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.out.println("first : name=" + first.BoostShield.enDescription());
+		System.out.println(
+				"first.boststhield.title=" + first.BoostShield.enTitle() + " shipinsurance/parameters[boolean].title="
+				+ first.ShipInsurance.parameters.get("cover_implants")._boolean.enTitle());
 	}
 
 }

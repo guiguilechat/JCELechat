@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 public class MetaGroupUpdater extends SdeEntityUpdater<MetaGroup, MetaGroupService, EmetaGroups> {
 
 	public MetaGroupUpdater() {
-		super(EmetaGroups.SDE_FILE_YAML, EmetaGroups.LOADER);
+		super(EmetaGroups.LOADER);
 	}
 
 	@Override

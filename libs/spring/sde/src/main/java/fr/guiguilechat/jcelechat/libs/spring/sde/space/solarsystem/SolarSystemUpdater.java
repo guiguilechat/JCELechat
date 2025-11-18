@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
 public class SolarSystemUpdater extends SdeEntityUpdater<SolarSystem, SolarSystemService, EmapSolarSystems> {
 
 	public SolarSystemUpdater() {
-		super(EmapSolarSystems.SDE_FILE_YAML, EmapSolarSystems.LOADER);
+		super(EmapSolarSystems.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

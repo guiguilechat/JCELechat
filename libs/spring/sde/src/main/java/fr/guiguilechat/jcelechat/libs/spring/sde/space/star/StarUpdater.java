@@ -20,7 +20,7 @@ import lombok.experimental.Accessors;
 public class StarUpdater extends SdeEntityUpdater<Star, StarService, EmapStars> {
 
 	public StarUpdater() {
-		super(EmapStars.SDE_FILE_YAML, EmapStars.LOADER);
+		super(EmapStars.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

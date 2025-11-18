@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 public class StationNames {
 
 	public static void main(String[] args) {
-		for (Entry<Integer, EnpcStations> e : EnpcStations.LOADER.load().entrySet()) {
+		for (Entry<Integer, EnpcStations> e : EnpcStations.LOADER.yaml().load().entrySet()) {
 			System.out.println(e.getKey() + "\t" + LocationName.of(e.getValue()));
 		}
 	}

@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 public class Station extends AStarOrbit<EnpcStations> {
 
 	public static final NamingMapper<EnpcStations, Station> CACHE = new NamingMapper<>(
-			EnpcStations.LOADER, Station::new, Station::enName);
+			EnpcStations.LOADER.yaml(), Station::new, Station::enName);
 
 	private final int operationId;
 	private final BigDecimal reprocessingEfficiency;

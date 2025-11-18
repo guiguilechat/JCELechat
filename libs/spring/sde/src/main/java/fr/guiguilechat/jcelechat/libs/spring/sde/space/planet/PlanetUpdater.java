@@ -20,7 +20,7 @@ import lombok.experimental.Accessors;
 public class PlanetUpdater extends SdeEntityUpdater<Planet, PlanetService, EmapPlanets> {
 
 	public PlanetUpdater() {
-		super(EmapPlanets.SDE_FILE_YAML, EmapPlanets.LOADER);
+		super(EmapPlanets.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

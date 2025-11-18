@@ -25,7 +25,7 @@ import lombok.experimental.Accessors;
 public class StationUpdater extends SdeEntityUpdater<Station, StationService, EnpcStations> {
 
 	public StationUpdater() {
-		super(EnpcStations.SDE_FILE_YAML, EnpcStations.LOADER);
+		super(EnpcStations.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

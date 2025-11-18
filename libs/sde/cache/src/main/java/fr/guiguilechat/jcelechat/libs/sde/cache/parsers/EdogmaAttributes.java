@@ -5,8 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 /**
  *
@@ -17,16 +16,11 @@ public class EdogmaAttributes {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "dogmaAttributes";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EdogmaAttributes> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EdogmaAttributes> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EdogmaAttributes.class, Set.of("attributeCategoryID"), Set.of("published"));
-
-	public static final JacksonYamlLHMLoader<EdogmaAttributes> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EdogmaAttributes> LOADER = new IntMapLoader<>(
+			"dogmaAttributes",
+			EdogmaAttributes.class,
+			Set.of("attributeCategoryID"),
+			Set.of("published"));
 
 	//
 	// file structure
@@ -62,7 +56,7 @@ public class EdogmaAttributes {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println(

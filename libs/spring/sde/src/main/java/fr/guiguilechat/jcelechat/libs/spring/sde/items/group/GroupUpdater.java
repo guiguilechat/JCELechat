@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
 public class GroupUpdater extends SdeEntityUpdater<Group, GroupService, Egroups> {
 
 	public GroupUpdater() {
-		super(Egroups.SDE_FILE_YAML, Egroups.LOADER);
+		super(Egroups.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

@@ -15,7 +15,7 @@ public class AttributeCategoryUpdater
 		extends SdeEntityUpdater<AttributeCategory, AttributeCategoryService, EdogmaAttributeCategories> {
 
 	public AttributeCategoryUpdater() {
-		super(EdogmaAttributeCategories.SDE_FILE_YAML, EdogmaAttributeCategories.LOADER);
+		super(EdogmaAttributeCategories.LOADER);
 	}
 
 	@Override

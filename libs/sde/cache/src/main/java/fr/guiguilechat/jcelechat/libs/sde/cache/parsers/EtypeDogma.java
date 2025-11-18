@@ -5,8 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EtypeDogma {
 
@@ -14,16 +13,10 @@ public class EtypeDogma {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "typeDogma";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EtypeDogma> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EtypeDogma> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EtypeDogma.class, Set.of("dogmaAttributes"));
-
-	public static final JacksonYamlLHMLoader<EtypeDogma> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EtypeDogma> LOADER = new IntMapLoader<>(
+			"typeDogma",
+			EtypeDogma.class,
+			Set.of("dogmaAttributes"));
 
 	//
 	// file structure
@@ -50,7 +43,7 @@ public class EtypeDogma {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println(

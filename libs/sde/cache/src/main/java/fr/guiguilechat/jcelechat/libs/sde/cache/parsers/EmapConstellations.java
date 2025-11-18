@@ -5,9 +5,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
 
 public class EmapConstellations extends InSpace {
 
@@ -15,16 +14,10 @@ public class EmapConstellations extends InSpace {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "mapConstellations";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EmapConstellations> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EmapConstellations> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EmapConstellations.class, Set.of("regionID"));
-
-	public static final JacksonYamlLHMLoader<EmapConstellations> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EmapConstellations> LOADER = new IntMapLoader<>(
+			"mapConstellations",
+			EmapConstellations.class,
+			Set.of("regionID"));
 
 	//
 	// file structure
@@ -47,7 +40,7 @@ public class EmapConstellations extends InSpace {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		long withname = loaded.values().stream().filter(m -> m.name != null).count();
 		System.out.println("named=" + withname);

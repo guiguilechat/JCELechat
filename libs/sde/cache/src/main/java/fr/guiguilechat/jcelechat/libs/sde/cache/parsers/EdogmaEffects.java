@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EdogmaEffects {
 
@@ -15,16 +14,10 @@ public class EdogmaEffects {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "dogmaEffects";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EdogmaEffects> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EdogmaEffects> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EdogmaEffects.class, Set.of("effectCategoryID"));
-
-	public static final JacksonYamlLHMLoader<EdogmaEffects> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EdogmaEffects> LOADER = new IntMapLoader<>(
+			"dogmaEffects",
+			EdogmaEffects.class,
+			Set.of("effectCategoryID"));
 
 	//
 	// file structure
@@ -91,7 +84,7 @@ public class EdogmaEffects {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : name=" + first.name);

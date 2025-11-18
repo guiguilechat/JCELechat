@@ -3,8 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.HashMap;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 @SuppressWarnings("serial")
 public class Emasteries extends HashMap<Integer, Integer[]> {
@@ -13,16 +12,10 @@ public class Emasteries extends HashMap<Integer, Integer[]> {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "masteries";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<Emasteries> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<Emasteries> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			Emasteries.class, Set.of("0"));
-
-	public static final JacksonYamlLHMLoader<Emasteries> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<Emasteries> LOADER = new IntMapLoader<>(
+			"masteries",
+			Emasteries.class,
+			Set.of("0"));
 
 	//
 	// file structure
@@ -34,7 +27,7 @@ public class Emasteries extends HashMap<Integer, Integer[]> {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : size=" + first.size());

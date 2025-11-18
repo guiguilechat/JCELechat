@@ -12,7 +12,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class AgentType extends DataSourced<EagentTypes> {
 
-	public static final NamingMapper<EagentTypes, AgentType> CACHE = new NamingMapper<>(EagentTypes.LOADER,
+	public static final NamingMapper<EagentTypes, AgentType> CACHE = new NamingMapper<>(EagentTypes.LOADER.yaml(),
 			AgentType::new, AgentType::name);
 
 	private final String name;

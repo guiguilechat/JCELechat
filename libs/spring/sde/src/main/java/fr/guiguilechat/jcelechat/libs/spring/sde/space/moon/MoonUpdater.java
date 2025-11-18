@@ -21,7 +21,7 @@ import lombok.experimental.Accessors;
 public class MoonUpdater extends SdeEntityUpdater<Moon, MoonService, EmapMoons> {
 
 	public MoonUpdater() {
-		super(EmapMoons.SDE_FILE_YAML, EmapMoons.LOADER);
+		super(EmapMoons.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

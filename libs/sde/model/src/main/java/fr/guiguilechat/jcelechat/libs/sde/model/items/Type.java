@@ -4,9 +4,9 @@ import java.math.BigDecimal;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Etypes;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.generic.TypeSet;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class Type extends TypeSet<Etypes> {
 
-	public static final NamingMapper<Etypes, Type> CACHE = new NamingMapper<>(Etypes.LOADER,
+	public static final NamingMapper<Etypes, Type> CACHE = new NamingMapper<>(Etypes.LOADER.yaml(),
 			Type::new, TypeSet::enName);
 
 	private final BigDecimal basePrice;

@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 public class CategoryUpdater extends SdeEntityUpdater<Category, CategoryService, Ecategories> {
 
 	public CategoryUpdater() {
-		super(Ecategories.SDE_FILE_YAML, Ecategories.LOADER);
+		super(Ecategories.LOADER);
 	}
 
 	@Override

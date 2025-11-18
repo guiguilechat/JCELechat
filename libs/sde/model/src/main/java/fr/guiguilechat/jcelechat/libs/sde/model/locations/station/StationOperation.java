@@ -20,7 +20,8 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class StationOperation extends DataSourced<EstationOperations> {
 
-	public static final Mapper<EstationOperations, StationOperation> CACHE = new Mapper<>(EstationOperations.LOADER,
+	public static final Mapper<EstationOperations, StationOperation> CACHE = new Mapper<>(
+			EstationOperations.LOADER.yaml(),
 			StationOperation::new);
 
 	private final int activityId;

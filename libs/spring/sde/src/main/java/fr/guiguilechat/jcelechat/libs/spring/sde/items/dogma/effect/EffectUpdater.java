@@ -25,7 +25,7 @@ import lombok.experimental.Accessors;
 public class EffectUpdater extends SdeEntityUpdater<Effect, EffectService, EdogmaEffects> {
 
 	public EffectUpdater() {
-		super(EdogmaEffects.SDE_FILE_YAML, EdogmaEffects.LOADER);
+		super(EdogmaEffects.LOADER);
 	}
 
 	@Autowired // can't use constructor injection for generic service

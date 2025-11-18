@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 public class DivisionUpdater extends SdeEntityUpdater<Division, DivisionService, EnpcCorporationDivisions> {
 
 	public DivisionUpdater() {
-		super(EnpcCorporationDivisions.SDE_FILE_YAML, EnpcCorporationDivisions.LOADER);
+		super(EnpcCorporationDivisions.LOADER);
 	}
 
 	@Override

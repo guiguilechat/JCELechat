@@ -12,7 +12,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class StationService extends DataSourced<EstationServices> {
 
-	public static final Mapper<EstationServices, StationService> CACHE = new Mapper<>(EstationServices.LOADER,
+	public static final Mapper<EstationServices, StationService> CACHE = new Mapper<>(EstationServices.LOADER.yaml(),
 			StationService::new);
 
 	public StationService(DataSource datasource, int id, EstationServices source) {

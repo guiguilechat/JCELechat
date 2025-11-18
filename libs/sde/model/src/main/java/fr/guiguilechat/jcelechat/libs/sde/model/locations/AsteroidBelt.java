@@ -3,9 +3,9 @@ package fr.guiguilechat.jcelechat.libs.sde.model.locations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapAsteroidBelts;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AStarOrbit;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -14,7 +14,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class AsteroidBelt extends AStarOrbit<EmapAsteroidBelts> {
 
-	public static final Mapper<EmapAsteroidBelts, AsteroidBelt> CACHE = new Mapper<>(EmapAsteroidBelts.LOADER,
+	public static final Mapper<EmapAsteroidBelts, AsteroidBelt> CACHE = new Mapper<>(EmapAsteroidBelts.LOADER.yaml(),
 			AsteroidBelt::new);
 
 	protected AsteroidBelt(DataSource datasource, int id, EmapAsteroidBelts source) {

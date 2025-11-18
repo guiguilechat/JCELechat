@@ -4,9 +4,9 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapStargates.Destination;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.LocationName;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.Mapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.ASpace;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class Stargate extends ASpace<EmapStargates> {
 
-	public static final Mapper<EmapStargates, Stargate> CACHE = new Mapper<>(EmapStargates.LOADER,
+	public static final Mapper<EmapStargates, Stargate> CACHE = new Mapper<>(EmapStargates.LOADER.yaml(),
 			Stargate::new);
 
 	protected Stargate(DataSource datasource, int id, EmapStargates source) {

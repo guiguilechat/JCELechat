@@ -16,7 +16,7 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class Planet extends AStarOrbit<EmapPlanets> {
 
-	public static final Mapper<EmapPlanets, Planet> CACHE = new Mapper<>(EmapPlanets.LOADER, Planet::new);
+	public static final Mapper<EmapPlanets, Planet> CACHE = new Mapper<>(EmapPlanets.LOADER.yaml(), Planet::new);
 
 	protected Planet(DataSource datasource,int id, EmapPlanets source) {
 		super(datasource, id, source);

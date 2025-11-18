@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EtypeBonus {
 
@@ -16,16 +15,12 @@ public class EtypeBonus {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "typeBonus";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EtypeBonus> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EtypeBonus> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EtypeBonus.class, Set.of("miscBonuses"), Set.of("roleBonuses"), Set.of("types"));
-
-	public static final JacksonYamlLHMLoader<EtypeBonus> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EtypeBonus> LOADER = new IntMapLoader<>(
+			"typeBonus",
+			EtypeBonus.class,
+			Set.of("miscBonuses"),
+			Set.of("roleBonuses"),
+			Set.of("types"));
 
 	//
 	// file structure
@@ -52,7 +47,7 @@ public class EtypeBonus {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		var firstType = first.types.isEmpty() ? new Bonus[] {} : first.types.values().iterator().next();

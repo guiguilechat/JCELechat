@@ -3,8 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.HashMap;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EstationServices {
 
@@ -12,16 +11,10 @@ public class EstationServices {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "stationServices";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EstationServices> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EstationServices> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EstationServices.class, Set.of("serviceName"));
-
-	public static final JacksonYamlLHMLoader<EstationServices> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EstationServices> LOADER = new IntMapLoader<>(
+			"stationServices",
+			EstationServices.class,
+			Set.of("serviceName"));
 
 	//
 	// file structure
@@ -41,7 +34,7 @@ public class EstationServices {
 	}
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : name=" + first.enName() + " description=" + first.enDescription());

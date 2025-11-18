@@ -12,7 +12,8 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class NPCCharacter extends DataSourced<EnpcCharacters> {
 
-	public static final NamingMapper<EnpcCharacters, NPCCharacter> CACHE = new NamingMapper<>(EnpcCharacters.LOADER,
+	public static final NamingMapper<EnpcCharacters, NPCCharacter> CACHE = new NamingMapper<>(
+			EnpcCharacters.LOADER.yaml(),
 			NPCCharacter::new, NPCCharacter::name);
 
 	private final String name;

@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.SnakeYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EnpcCharacters {
 
@@ -15,16 +14,10 @@ public class EnpcCharacters {
 	// SDE loading
 	//
 
-	public static final String SDE_FILE = "npcCharacters";
-	public static final String SDE_FILE_YAML = SDE_FILE + ".yaml";
-
-	public static final JacksonYamlLHMLoader<EnpcCharacters> LOADER_JACKSON = new JacksonYamlLHMLoader<>(
-			SDE_FILE_YAML);
-
-	public static final SnakeYamlLHMLoader<EnpcCharacters> LOADER_SNAKEYAML = new SnakeYamlLHMLoader<>(SDE_FILE_YAML,
-			EnpcCharacters.class, Set.of("corporationID"));
-
-	public static final JacksonYamlLHMLoader<EnpcCharacters> LOADER = LOADER_SNAKEYAML;
+	public static final IntMapLoader<EnpcCharacters> LOADER = new IntMapLoader<>(
+			"npcCharacters",
+			EnpcCharacters.class,
+			Set.of("corporationID"));
 
 	//
 	// file structure
@@ -76,7 +69,7 @@ public class EnpcCharacters {
 	//
 
 	public static void main(String[] args) {
-		var loaded = LOADER.load();
+		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
 		System.out.println("first : corporation=" + first.corporationID + " gender=" + first.gender);

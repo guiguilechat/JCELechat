@@ -15,7 +15,7 @@ public class StationOperationUpdater
 		extends SdeEntityUpdater<StationOperation, StationOperationService, EstationOperations> {
 
 	public StationOperationUpdater() {
-		super(EstationOperations.SDE_FILE_YAML, EstationOperations.LOADER);
+		super(EstationOperations.LOADER);
 	}
 
 	@Override

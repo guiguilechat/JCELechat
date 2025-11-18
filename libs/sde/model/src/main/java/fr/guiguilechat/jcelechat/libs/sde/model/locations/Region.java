@@ -7,9 +7,9 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EmapRegions;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
+import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
-import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.SolarSystemGroup;
 import fr.guiguilechat.jcelechat.model.formula.space.Universe;
 import lombok.Getter;
@@ -20,7 +20,7 @@ import lombok.experimental.Accessors;
 public class Region extends SolarSystemGroup<EmapRegions> {
 
 	public static final NamingMapper<EmapRegions, Region> CACHE = new NamingMapper<>(
-			EmapRegions.LOADER, Region::new, Region::enName);
+			EmapRegions.LOADER.yaml(), Region::new, Region::enName);
 
 	private final int factionId, nebulaId, wormholeClassId;
 
